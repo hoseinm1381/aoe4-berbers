@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <RGDNode Key="default" Type="List">
+    <RGDNode Key="upgrade_bag" Type="List">
+      <RGDNode Key="ui_menu" Type="List">
+        <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+        <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="is_progress_permanent" Type="Boolean" Value="false"/>
+      <RGDNode Key="upgrade_type" Type="List">
+        <RGDNode Key="upgrade_type" Type="CString" Value="military_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="abbasid_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="abbasid_ha_01_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="ayyubid_cmp_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="byzantine_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="chinese_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="chinese_ha_01_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="crusader_cmp_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="english_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="french_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="french_ha_01_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="hre_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="japanese_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="japanese_ha_sen_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="malian_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="ottoman_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="sultinate_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="scar_feudal_age_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="emplacement_upgrade"/>
+      </RGDNode>
+      <RGDNode Key="ui_position" Type="List">
+        <RGDNode Key="ui_position_column" Type="Int" Value="1"/>
+        <RGDNode Key="ui_position_row" Type="Int" Value="2"/>
+      </RGDNode>
+      <RGDNode Key="local_max_limit" Type="Float" Value="1"/>
+      <RGDNode Key="ignore_completion_state_tree_openingbranch" Type="Boolean" Value="false"/>
+      <RGDNode Key="int_properties" Type="List">
+      </RGDNode>
+      <RGDNode Key="enable_in_hold" Type="Boolean" Value="false"/>
+      <RGDNode Key="ui_codex_info" Type="List">
+        <RGDNode Key="ui_position" Type="List">
+          <RGDNode Key="ui_position_column" Type="Int" Value="-1"/>
+          <RGDNode Key="ui_position_row" Type="Int" Value="-1"/>
+        </RGDNode>
+        <RGDNode Key="exclusive" Type="Boolean" Value="false"/>
+        <RGDNode Key="priority" Type="Int" Value="4900"/>
+      </RGDNode>
+      <RGDNode Key="min_music_intensity" Type="Float" Value="0"/>
+      <RGDNode Key="float_properties" Type="List">
+      </RGDNode>
+      <RGDNode Key="ui_kicker_icon_name" Type="CString" Value=""/>
+      <RGDNode Key="squad_cost" Type="List">
+        <RGDNode Key="food" Type="Float" Value="0"/>
+        <RGDNode Key="action" Type="Float" Value="0"/>
+        <RGDNode Key="gold" Type="Float" Value="0"/>
+        <RGDNode Key="militia_hre" Type="Float" Value="0"/>
+        <RGDNode Key="popcap" Type="Float" Value="0"/>
+        <RGDNode Key="stone" Type="Float" Value="0"/>
+        <RGDNode Key="merc_byz" Type="Float" Value="0"/>
+        <RGDNode Key="command" Type="Float" Value="0"/>
+        <RGDNode Key="wood" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="has_speech_code" Type="Boolean" Value="false"/>
+      <RGDNode Key="requirements_openingbranch" Type="CString" Value=""/>
+      <RGDNode Key="ui_group_cast_type" Type="Int" Value="0"/>
+      <RGDNode Key="global_max_limit" Type="Float" Value="0"/>
+      <RGDNode Key="ui_event_cue" Type="Boolean" Value="true"/>
+      <RGDNode Key="ui_preview" Type="List">
+      </RGDNode>
+      <RGDNode Key="requirements" Type="List">
+        <RGDNode Key="required_player_upgrade" Type="List">
+          <RGDNode Key="include_pbg_parenting" Type="List">
+            <RGDNode Key="include_child_pbgs" Type="Boolean" Value="false"/>
+            <RGDNode Key="include_parent_pbgs" Type="Boolean" Value="false"/>
+          </RGDNode>
+          <RGDNode Key="include_queued" Type="Boolean" Value="false"/>
+          <RGDNode Key="include_completed" Type="Boolean" Value="true"/>
+          <RGDNode Key="$REF" Type="CString" Value="requirements\required_player_upgrade"/>
+          <RGDNode Key="max_completed" Type="Int" Value="100"/>
+          <RGDNode Key="min_completed" Type="Int" Value="1"/>
+          <RGDNode Key="upgrade_name" Type="List">
+            <RGDNode Key="$PBGNAME" Type="CString" Value="feudal_age"/>
+            <RGDNode Key="$PBGMAP" Type="CString" Value="upgrade"/>
+          </RGDNode>
+          <RGDNode Key="reason" Type="CString" Value="usage"/>
+          <RGDNode Key="is_present" Type="Boolean" Value="true"/>
+        </RGDNode>
+        <RGDNode Key="required_entity_upgrade" Type="List">
+          <RGDNode Key="include_pbg_parenting" Type="List">
+            <RGDNode Key="include_child_pbgs" Type="Boolean" Value="false"/>
+            <RGDNode Key="include_parent_pbgs" Type="Boolean" Value="false"/>
+          </RGDNode>
+          <RGDNode Key="include_queued" Type="Boolean" Value="false"/>
+          <RGDNode Key="include_completed" Type="Boolean" Value="true"/>
+          <RGDNode Key="$REF" Type="CString" Value="requirements\required_entity_upgrade"/>
+          <RGDNode Key="max_completed" Type="Int" Value="100"/>
+          <RGDNode Key="min_completed" Type="Int" Value="1"/>
+          <RGDNode Key="upgrade_name" Type="List">
+            <RGDNode Key="$PBGNAME" Type="CString" Value="upgrade_outpost_stone"/>
+            <RGDNode Key="$PBGMAP" Type="CString" Value="upgrade"/>
+          </RGDNode>
+          <RGDNode Key="reason" Type="CString" Value="usage_and_display"/>
+          <RGDNode Key="is_present" Type="Boolean" Value="false"/>
+        </RGDNode>
+        <RGDNode Key="required_entity_upgrade" Type="List">
+          <RGDNode Key="include_pbg_parenting" Type="List">
+            <RGDNode Key="include_child_pbgs" Type="Boolean" Value="false"/>
+            <RGDNode Key="include_parent_pbgs" Type="Boolean" Value="false"/>
+          </RGDNode>
+          <RGDNode Key="include_queued" Type="Boolean" Value="true"/>
+          <RGDNode Key="include_completed" Type="Boolean" Value="true"/>
+          <RGDNode Key="$REF" Type="CString" Value="requirements\required_entity_upgrade"/>
+          <RGDNode Key="max_completed" Type="Int" Value="100"/>
+          <RGDNode Key="min_completed" Type="Int" Value="1"/>
+          <RGDNode Key="upgrade_name" Type="List">
+            <RGDNode Key="$PBGNAME" Type="CString" Value="upgrade_outpost_stone"/>
+            <RGDNode Key="$PBGMAP" Type="CString" Value="upgrade"/>
+          </RGDNode>
+          <RGDNode Key="reason" Type="CString" Value="usage"/>
+          <RGDNode Key="is_present" Type="Boolean" Value="false"/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="state_tree_references" Type="List">
+        <RGDNode Key="on_action_entity_tree" Type="List">
+          <RGDNode Key="start_suspended" Type="Boolean" Value="false"/>
+          <RGDNode Key="ActionTree_OpeningBranch" Type="CString" Value=""/>
+          <RGDNode Key="$REF" Type="CString" Value="state_tree_reference_info"/>
+        </RGDNode>
+        <RGDNode Key="on_action_tree" Type="List">
+          <RGDNode Key="start_suspended" Type="Boolean" Value="false"/>
+          <RGDNode Key="ActionTree_OpeningBranch" Type="CString" Value="upgrade_outpost\upgrade_outpost_stone"/>
+          <RGDNode Key="$REF" Type="CString" Value="state_tree_reference_info"/>
+        </RGDNode>
+        <RGDNode Key="on_begin_action_tree" Type="List">
+          <RGDNode Key="start_suspended" Type="Boolean" Value="false"/>
+          <RGDNode Key="ActionTree_OpeningBranch" Type="CString" Value=""/>
+          <RGDNode Key="$REF" Type="CString" Value="state_tree_reference_info"/>
+        </RGDNode>
+        <RGDNode Key="on_action_squad_tree" Type="List">
+          <RGDNode Key="start_suspended" Type="Boolean" Value="false"/>
+          <RGDNode Key="ActionTree_OpeningBranch" Type="CString" Value=""/>
+          <RGDNode Key="$REF" Type="CString" Value="state_tree_reference_info"/>
+        </RGDNode>
+        <RGDNode Key="on_cancel_action_tree" Type="List">
+          <RGDNode Key="start_suspended" Type="Boolean" Value="false"/>
+          <RGDNode Key="ActionTree_OpeningBranch" Type="CString" Value=""/>
+          <RGDNode Key="$REF" Type="CString" Value="state_tree_reference_info"/>
+        </RGDNode>
+        <RGDNode Key="on_action_producer_entity_tree" Type="List">
+          <RGDNode Key="start_suspended" Type="Boolean" Value="false"/>
+          <RGDNode Key="ActionTree_OpeningBranch" Type="CString" Value=""/>
+          <RGDNode Key="$REF" Type="CString" Value="state_tree_reference_info"/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="apply_player_upgrades_when_entity_or_squad_ownership_changes" Type="Boolean" Value="false"/>
+      <RGDNode Key="ui_info" Type="List">
+        <RGDNode Key="debug_text" Type="CString" Value=""/>
+        <RGDNode Key="screen_name_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="screen_name_short_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="reveal_for_decryption" Type="Boolean" Value="false"/>
+        <RGDNode Key="icon_alternate_name" Type="CString" Value=""/>
+        <RGDNode Key="brief_text_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="extra_text" Type="Int" Value="11182013"/>
+        <RGDNode Key="sound" Type="CString" Value="sfx_ui_produce_upgrade_building_click"/>
+        <RGDNode Key="custom_data_index" Type="Int" Value="0"/>
+        <RGDNode Key="icon_name" Type="CString" Value="races\common\upgrades\stone_outpost"/>
+        <RGDNode Key="is_unique_to_race" Type="Boolean" Value="false"/>
+        <RGDNode Key="ui_combine_type" Type="CString" Value="intersection"/>
+        <RGDNode Key="hotkey_name" Type="CString" Value="a"/>
+        <RGDNode Key="sound_alternative" Type="CString" Value=""/>
+        <RGDNode Key="tooltip_data_template" Type="CString" Value="BuildingUpgradeDataTemplate"/>
+        <RGDNode Key="help_text_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="ui_text_formatter"/>
+          <RGDNode Key="formatter" Type="Int" Value="11199611"/>
+          <RGDNode Key="formatter_arguments" Type="List">
+            <RGDNode Key="int_value" Type="Int" Value="1000"/>
+            <RGDNode Key="int_value" Type="Int" Value="5"/>
+          </RGDNode>
+        </RGDNode>
+        <RGDNode Key="extra_text_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="ui_info_extended" Type="List">
+          <RGDNode Key="relic_radial_menu_info" Type="List">
+            <RGDNode Key="linked" Type="List">
+              <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+              <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+            </RGDNode>
+            <RGDNode Key="priority" Type="Int" Value="0"/>
+            <RGDNode Key="$REF" Type="CString" Value="relic_radial_menu\relic_radial_menu_info"/>
+            <RGDNode Key="nominal_index" Type="Int" Value="2"/>
+            <RGDNode Key="menu" Type="List">
+              <RGDNode Key="$PBGNAME" Type="CString" Value="default"/>
+              <RGDNode Key="$PBGMAP" Type="CString" Value="relic_radial_menu\relic_radial_menu"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="observer_type" Type="Int" Value="1"/>
+          <RGDNode Key="quick_commands_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value="ui_quick_commands_info"/>
+            <RGDNode Key="quick_commands_hotkey" Type="CString" Value="x_quick_command_x"/>
+            <RGDNode Key="quick_commands_priority" Type="Int" Value="5"/>
+            <RGDNode Key="quick_commands_slot_index" Type="Int" Value="1"/>
+          </RGDNode>
+          <RGDNode Key="quick_commands_launch_hud_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value="ui_quick_commands_launch_hud_info"/>
+            <RGDNode Key="quick_commands_hold_time" Type="Int" Value="1"/>
+            <RGDNode Key="quick_commands_hotkey" Type="CString" Value="x_quick_command_y"/>
+            <RGDNode Key="quick_commands_priority" Type="Int" Value="158"/>
+            <RGDNode Key="quick_commands_slot_index" Type="Int" Value="2"/>
+          </RGDNode>
+          <RGDNode Key="issuable_info" Type="List">
+            <RGDNode Key="secondary_issuable" Type="List">
+              <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+              <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+            </RGDNode>
+            <RGDNode Key="is_secondary" Type="Boolean" Value="false"/>
+          </RGDNode>
+          <RGDNode Key="ping_menu_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value=""/>
+          </RGDNode>
+          <RGDNode Key="$REF" Type="CString" Value="tables\ui_info_ext"/>
+          <RGDNode Key="quick_abilities_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value=""/>
+          </RGDNode>
+          <RGDNode Key="command_card_info" Type="List">
+            <RGDNode Key="ui_position" Type="List">
+              <RGDNode Key="ui_position_column" Type="Int" Value="1"/>
+              <RGDNode Key="ui_position_row" Type="Int" Value="2"/>
+            </RGDNode>
+            <RGDNode Key="$REF" Type="CString" Value="ui_command_card_info"/>
+            <RGDNode Key="command_card_priority" Type="Int" Value="1"/>
+          </RGDNode>
+          <RGDNode Key="quick_formation_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value=""/>
+          </RGDNode>
+          <RGDNode Key="category" Type="Int" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="screen_name" Type="Int" Value="11143375"/>
+        <RGDNode Key="global_unit_control_row" Type="Int" Value="1"/>
+      </RGDNode>
+      <RGDNode Key="time_cost" Type="List">
+        <RGDNode Key="time_seconds" Type="Float" Value="30"/>
+        <RGDNode Key="cost" Type="List">
+          <RGDNode Key="food" Type="Float" Value="0"/>
+          <RGDNode Key="action" Type="Float" Value="0"/>
+          <RGDNode Key="gold" Type="Float" Value="0"/>
+          <RGDNode Key="militia_hre" Type="Float" Value="0"/>
+          <RGDNode Key="popcap" Type="Float" Value="0"/>
+          <RGDNode Key="stone" Type="Float" Value="100"/>
+          <RGDNode Key="merc_byz" Type="Float" Value="0"/>
+          <RGDNode Key="command" Type="Float" Value="0"/>
+          <RGDNode Key="wood" Type="Float" Value="0"/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="ui_production_group" Type="CString" Value="command_panel"/>
+      <RGDNode Key="owner_type" Type="CString" Value="self"/>
+      <RGDNode Key="ui_squad_portrait_icon_override" Type="CString" Value=""/>
+      <RGDNode Key="filter_conditions" Type="List">
+        <RGDNode Key="apply_to_future_units" Type="Int" Value="2"/>
+        <RGDNode Key="ai_unit_types" Type="List">
+          <RGDNode Key="none" Type="List">
+          </RGDNode>
+          <RGDNode Key="any" Type="List">
+          </RGDNode>
+        </RGDNode>
+        <RGDNode Key="apply_to_application_type" Type="Int" Value="2"/>
+        <RGDNode Key="apply_to_target_type" Type="Int" Value="0"/>
+        <RGDNode Key="apply_to_filter_condition_statetree_ref" Type="CString" Value=""/>
+        <RGDNode Key="apply_to_unit_classes" Type="List">
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="speech_code" Type="CString" Value=""/>
+      <RGDNode Key="hotkey_binding" Type="List">
+        <RGDNode Key="$PBGNAME" Type="CString" Value="tech_fortify_outpost"/>
+        <RGDNode Key="$PBGMAP" Type="CString" Value="hotkeys\hotkey_binding"/>
+      </RGDNode>
+    </RGDNode>
+    <RGDNode Key="pbgid" Type="Int" Value="127331"/>
+    <RGDNode Key="parent_pbg" Type="List">
+      <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+      <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+    </RGDNode>
+  </RGDNode>
+  <RGDNode Key="cordoba" Type="List">
+    <RGDNode Key="upgrade_bag" Type="List">
+      <RGDNode Key="ui_menu" Type="List">
+        <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+        <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="is_progress_permanent" Type="Boolean" Value="false"/>
+      <RGDNode Key="upgrade_type" Type="List">
+        <RGDNode Key="upgrade_type" Type="CString" Value="military_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="abbasid_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="abbasid_ha_01_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="ayyubid_cmp_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="byzantine_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="chinese_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="chinese_ha_01_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="crusader_cmp_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="english_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="french_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="french_ha_01_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="hre_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="japanese_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="japanese_ha_sen_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="malian_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="ottoman_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="sultinate_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="scar_feudal_age_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="emplacement_upgrade"/>
+      </RGDNode>
+      <RGDNode Key="ui_position" Type="List">
+        <RGDNode Key="ui_position_column" Type="Int" Value="1"/>
+        <RGDNode Key="ui_position_row" Type="Int" Value="2"/>
+      </RGDNode>
+      <RGDNode Key="local_max_limit" Type="Float" Value="1"/>
+      <RGDNode Key="ignore_completion_state_tree_openingbranch" Type="Boolean" Value="false"/>
+      <RGDNode Key="int_properties" Type="List">
+      </RGDNode>
+      <RGDNode Key="enable_in_hold" Type="Boolean" Value="false"/>
+      <RGDNode Key="ui_codex_info" Type="List">
+        <RGDNode Key="ui_position" Type="List">
+          <RGDNode Key="ui_position_column" Type="Int" Value="-1"/>
+          <RGDNode Key="ui_position_row" Type="Int" Value="-1"/>
+        </RGDNode>
+        <RGDNode Key="exclusive" Type="Boolean" Value="false"/>
+        <RGDNode Key="priority" Type="Int" Value="4900"/>
+      </RGDNode>
+      <RGDNode Key="min_music_intensity" Type="Float" Value="0"/>
+      <RGDNode Key="float_properties" Type="List">
+      </RGDNode>
+      <RGDNode Key="ui_kicker_icon_name" Type="CString" Value=""/>
+      <RGDNode Key="squad_cost" Type="List">
+        <RGDNode Key="food" Type="Float" Value="0"/>
+        <RGDNode Key="action" Type="Float" Value="0"/>
+        <RGDNode Key="gold" Type="Float" Value="0"/>
+        <RGDNode Key="militia_hre" Type="Float" Value="0"/>
+        <RGDNode Key="popcap" Type="Float" Value="0"/>
+        <RGDNode Key="stone" Type="Float" Value="0"/>
+        <RGDNode Key="merc_byz" Type="Float" Value="0"/>
+        <RGDNode Key="command" Type="Float" Value="0"/>
+        <RGDNode Key="wood" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="has_speech_code" Type="Boolean" Value="false"/>
+      <RGDNode Key="requirements_openingbranch" Type="CString" Value=""/>
+      <RGDNode Key="ui_group_cast_type" Type="Int" Value="0"/>
+      <RGDNode Key="global_max_limit" Type="Float" Value="0"/>
+      <RGDNode Key="ui_event_cue" Type="Boolean" Value="true"/>
+      <RGDNode Key="ui_preview" Type="List">
+      </RGDNode>
+      <RGDNode Key="requirements" Type="List">
+        <RGDNode Key="required_player_upgrade" Type="List">
+          <RGDNode Key="include_pbg_parenting" Type="List">
+            <RGDNode Key="include_child_pbgs" Type="Boolean" Value="false"/>
+            <RGDNode Key="include_parent_pbgs" Type="Boolean" Value="false"/>
+          </RGDNode>
+          <RGDNode Key="include_queued" Type="Boolean" Value="false"/>
+          <RGDNode Key="include_completed" Type="Boolean" Value="true"/>
+          <RGDNode Key="$REF" Type="CString" Value="requirements\required_player_upgrade"/>
+          <RGDNode Key="max_completed" Type="Int" Value="100"/>
+          <RGDNode Key="min_completed" Type="Int" Value="1"/>
+          <RGDNode Key="upgrade_name" Type="List">
+            <RGDNode Key="$PBGNAME" Type="CString" Value="feudal_age"/>
+            <RGDNode Key="$PBGMAP" Type="CString" Value="upgrade"/>
+          </RGDNode>
+          <RGDNode Key="reason" Type="CString" Value="usage"/>
+          <RGDNode Key="is_present" Type="Boolean" Value="true"/>
+        </RGDNode>
+        <RGDNode Key="required_entity_upgrade" Type="List">
+          <RGDNode Key="include_pbg_parenting" Type="List">
+            <RGDNode Key="include_child_pbgs" Type="Boolean" Value="false"/>
+            <RGDNode Key="include_parent_pbgs" Type="Boolean" Value="false"/>
+          </RGDNode>
+          <RGDNode Key="include_queued" Type="Boolean" Value="false"/>
+          <RGDNode Key="include_completed" Type="Boolean" Value="true"/>
+          <RGDNode Key="$REF" Type="CString" Value="requirements\required_entity_upgrade"/>
+          <RGDNode Key="max_completed" Type="Int" Value="100"/>
+          <RGDNode Key="min_completed" Type="Int" Value="1"/>
+          <RGDNode Key="upgrade_name" Type="List">
+            <RGDNode Key="$PBGNAME" Type="CString" Value="upgrade_outpost_stone"/>
+            <RGDNode Key="$PBGMAP" Type="CString" Value="upgrade"/>
+          </RGDNode>
+          <RGDNode Key="reason" Type="CString" Value="usage_and_display"/>
+          <RGDNode Key="is_present" Type="Boolean" Value="false"/>
+        </RGDNode>
+        <RGDNode Key="required_entity_upgrade" Type="List">
+          <RGDNode Key="include_pbg_parenting" Type="List">
+            <RGDNode Key="include_child_pbgs" Type="Boolean" Value="false"/>
+            <RGDNode Key="include_parent_pbgs" Type="Boolean" Value="false"/>
+          </RGDNode>
+          <RGDNode Key="include_queued" Type="Boolean" Value="true"/>
+          <RGDNode Key="include_completed" Type="Boolean" Value="true"/>
+          <RGDNode Key="$REF" Type="CString" Value="requirements\required_entity_upgrade"/>
+          <RGDNode Key="max_completed" Type="Int" Value="100"/>
+          <RGDNode Key="min_completed" Type="Int" Value="1"/>
+          <RGDNode Key="upgrade_name" Type="List">
+            <RGDNode Key="$PBGNAME" Type="CString" Value="upgrade_outpost_stone"/>
+            <RGDNode Key="$PBGMAP" Type="CString" Value="upgrade"/>
+          </RGDNode>
+          <RGDNode Key="reason" Type="CString" Value="usage"/>
+          <RGDNode Key="is_present" Type="Boolean" Value="false"/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="state_tree_references" Type="List">
+        <RGDNode Key="on_action_entity_tree" Type="List">
+          <RGDNode Key="start_suspended" Type="Boolean" Value="false"/>
+          <RGDNode Key="ActionTree_OpeningBranch" Type="CString" Value=""/>
+          <RGDNode Key="$REF" Type="CString" Value="state_tree_reference_info"/>
+        </RGDNode>
+        <RGDNode Key="on_action_tree" Type="List">
+          <RGDNode Key="start_suspended" Type="Boolean" Value="false"/>
+          <RGDNode Key="ActionTree_OpeningBranch" Type="CString" Value="cordoba_upgrade_outpost\upgrade_outpost_stone"/>
+          <RGDNode Key="$REF" Type="CString" Value="state_tree_reference_info"/>
+        </RGDNode>
+        <RGDNode Key="on_begin_action_tree" Type="List">
+          <RGDNode Key="start_suspended" Type="Boolean" Value="false"/>
+          <RGDNode Key="ActionTree_OpeningBranch" Type="CString" Value=""/>
+          <RGDNode Key="$REF" Type="CString" Value="state_tree_reference_info"/>
+        </RGDNode>
+        <RGDNode Key="on_action_squad_tree" Type="List">
+          <RGDNode Key="start_suspended" Type="Boolean" Value="false"/>
+          <RGDNode Key="ActionTree_OpeningBranch" Type="CString" Value=""/>
+          <RGDNode Key="$REF" Type="CString" Value="state_tree_reference_info"/>
+        </RGDNode>
+        <RGDNode Key="on_cancel_action_tree" Type="List">
+          <RGDNode Key="start_suspended" Type="Boolean" Value="false"/>
+          <RGDNode Key="ActionTree_OpeningBranch" Type="CString" Value=""/>
+          <RGDNode Key="$REF" Type="CString" Value="state_tree_reference_info"/>
+        </RGDNode>
+        <RGDNode Key="on_action_producer_entity_tree" Type="List">
+          <RGDNode Key="start_suspended" Type="Boolean" Value="false"/>
+          <RGDNode Key="ActionTree_OpeningBranch" Type="CString" Value=""/>
+          <RGDNode Key="$REF" Type="CString" Value="state_tree_reference_info"/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="apply_player_upgrades_when_entity_or_squad_ownership_changes" Type="Boolean" Value="false"/>
+      <RGDNode Key="ui_info" Type="List">
+        <RGDNode Key="debug_text" Type="CString" Value=""/>
+        <RGDNode Key="screen_name_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="screen_name_short_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="reveal_for_decryption" Type="Boolean" Value="false"/>
+        <RGDNode Key="icon_alternate_name" Type="CString" Value=""/>
+        <RGDNode Key="brief_text_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="extra_text" Type="Int" Value="11182013"/>
+        <RGDNode Key="sound" Type="CString" Value="sfx_ui_produce_upgrade_building_click"/>
+        <RGDNode Key="custom_data_index" Type="Int" Value="0"/>
+        <RGDNode Key="icon_name" Type="CString" Value="races\common\upgrades\stone_outpost"/>
+        <RGDNode Key="is_unique_to_race" Type="Boolean" Value="false"/>
+        <RGDNode Key="ui_combine_type" Type="CString" Value="intersection"/>
+        <RGDNode Key="hotkey_name" Type="CString" Value="a"/>
+        <RGDNode Key="sound_alternative" Type="CString" Value=""/>
+        <RGDNode Key="tooltip_data_template" Type="CString" Value="BuildingUpgradeDataTemplate"/>
+        <RGDNode Key="help_text_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="ui_text_formatter"/>
+          <RGDNode Key="formatter" Type="Int" Value="11199611"/>
+          <RGDNode Key="formatter_arguments" Type="List">
+            <RGDNode Key="int_value" Type="Int" Value="1000"/>
+            <RGDNode Key="int_value" Type="Int" Value="5"/>
+          </RGDNode>
+        </RGDNode>
+        <RGDNode Key="extra_text_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="ui_info_extended" Type="List">
+          <RGDNode Key="relic_radial_menu_info" Type="List">
+            <RGDNode Key="linked" Type="List">
+              <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+              <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+            </RGDNode>
+            <RGDNode Key="priority" Type="Int" Value="0"/>
+            <RGDNode Key="$REF" Type="CString" Value="relic_radial_menu\relic_radial_menu_info"/>
+            <RGDNode Key="nominal_index" Type="Int" Value="2"/>
+            <RGDNode Key="menu" Type="List">
+              <RGDNode Key="$PBGNAME" Type="CString" Value="default"/>
+              <RGDNode Key="$PBGMAP" Type="CString" Value="relic_radial_menu\relic_radial_menu"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="observer_type" Type="Int" Value="1"/>
+          <RGDNode Key="quick_commands_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value="ui_quick_commands_info"/>
+            <RGDNode Key="quick_commands_hotkey" Type="CString" Value="x_quick_command_x"/>
+            <RGDNode Key="quick_commands_priority" Type="Int" Value="5"/>
+            <RGDNode Key="quick_commands_slot_index" Type="Int" Value="1"/>
+          </RGDNode>
+          <RGDNode Key="quick_commands_launch_hud_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value="ui_quick_commands_launch_hud_info"/>
+            <RGDNode Key="quick_commands_hold_time" Type="Int" Value="1"/>
+            <RGDNode Key="quick_commands_hotkey" Type="CString" Value="x_quick_command_y"/>
+            <RGDNode Key="quick_commands_priority" Type="Int" Value="158"/>
+            <RGDNode Key="quick_commands_slot_index" Type="Int" Value="2"/>
+          </RGDNode>
+          <RGDNode Key="issuable_info" Type="List">
+            <RGDNode Key="secondary_issuable" Type="List">
+              <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+              <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+            </RGDNode>
+            <RGDNode Key="is_secondary" Type="Boolean" Value="false"/>
+          </RGDNode>
+          <RGDNode Key="ping_menu_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value=""/>
+          </RGDNode>
+          <RGDNode Key="$REF" Type="CString" Value="tables\ui_info_ext"/>
+          <RGDNode Key="quick_abilities_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value=""/>
+          </RGDNode>
+          <RGDNode Key="command_card_info" Type="List">
+            <RGDNode Key="ui_position" Type="List">
+              <RGDNode Key="ui_position_column" Type="Int" Value="1"/>
+              <RGDNode Key="ui_position_row" Type="Int" Value="2"/>
+            </RGDNode>
+            <RGDNode Key="$REF" Type="CString" Value="ui_command_card_info"/>
+            <RGDNode Key="command_card_priority" Type="Int" Value="1"/>
+          </RGDNode>
+          <RGDNode Key="quick_formation_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value=""/>
+          </RGDNode>
+          <RGDNode Key="category" Type="Int" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="screen_name" Type="Int" Value="11143375"/>
+        <RGDNode Key="global_unit_control_row" Type="Int" Value="1"/>
+      </RGDNode>
+      <RGDNode Key="time_cost" Type="List">
+        <RGDNode Key="time_seconds" Type="Float" Value="30"/>
+        <RGDNode Key="cost" Type="List">
+          <RGDNode Key="food" Type="Float" Value="0"/>
+          <RGDNode Key="action" Type="Float" Value="0"/>
+          <RGDNode Key="gold" Type="Float" Value="0"/>
+          <RGDNode Key="militia_hre" Type="Float" Value="0"/>
+          <RGDNode Key="popcap" Type="Float" Value="0"/>
+          <RGDNode Key="stone" Type="Float" Value="100"/>
+          <RGDNode Key="merc_byz" Type="Float" Value="0"/>
+          <RGDNode Key="command" Type="Float" Value="0"/>
+          <RGDNode Key="wood" Type="Float" Value="0"/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="ui_production_group" Type="CString" Value="command_panel"/>
+      <RGDNode Key="owner_type" Type="CString" Value="self"/>
+      <RGDNode Key="ui_squad_portrait_icon_override" Type="CString" Value=""/>
+      <RGDNode Key="filter_conditions" Type="List">
+        <RGDNode Key="apply_to_future_units" Type="Int" Value="2"/>
+        <RGDNode Key="ai_unit_types" Type="List">
+          <RGDNode Key="none" Type="List">
+          </RGDNode>
+          <RGDNode Key="any" Type="List">
+          </RGDNode>
+        </RGDNode>
+        <RGDNode Key="apply_to_application_type" Type="Int" Value="2"/>
+        <RGDNode Key="apply_to_target_type" Type="Int" Value="0"/>
+        <RGDNode Key="apply_to_filter_condition_statetree_ref" Type="CString" Value=""/>
+        <RGDNode Key="apply_to_unit_classes" Type="List">
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="speech_code" Type="CString" Value=""/>
+      <RGDNode Key="hotkey_binding" Type="List">
+        <RGDNode Key="$PBGNAME" Type="CString" Value="tech_fortify_outpost"/>
+        <RGDNode Key="$PBGMAP" Type="CString" Value="hotkeys\hotkey_binding"/>
+      </RGDNode>
+    </RGDNode>
+    <RGDNode Key="pbgid" Type="Int" Value="127331"/>
+    <RGDNode Key="parent_pbg" Type="List">
+      <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+      <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+    </RGDNode>
+  </RGDNode>
+  <RGDNode Key="instance_version" Type="Int" Value="2"/>
+  <RGDNode Key="campaign" Type="List">
+    <RGDNode Key="upgrade_bag" Type="List">
+      <RGDNode Key="ui_menu" Type="List">
+        <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+        <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="is_progress_permanent" Type="Boolean" Value="false"/>
+      <RGDNode Key="upgrade_type" Type="List">
+        <RGDNode Key="upgrade_type" Type="CString" Value="military_upgrade"/>
+      </RGDNode>
+      <RGDNode Key="ui_position" Type="List">
+        <RGDNode Key="ui_position_column" Type="Int" Value="1"/>
+        <RGDNode Key="ui_position_row" Type="Int" Value="2"/>
+      </RGDNode>
+      <RGDNode Key="local_max_limit" Type="Float" Value="1"/>
+      <RGDNode Key="ignore_completion_state_tree_openingbranch" Type="Boolean" Value="false"/>
+      <RGDNode Key="int_properties" Type="List">
+      </RGDNode>
+      <RGDNode Key="enable_in_hold" Type="Boolean" Value="false"/>
+      <RGDNode Key="ui_codex_info" Type="List">
+        <RGDNode Key="ui_position" Type="List">
+          <RGDNode Key="ui_position_column" Type="Int" Value="-1"/>
+          <RGDNode Key="ui_position_row" Type="Int" Value="-1"/>
+        </RGDNode>
+        <RGDNode Key="exclusive" Type="Boolean" Value="false"/>
+        <RGDNode Key="priority" Type="Int" Value="4900"/>
+      </RGDNode>
+      <RGDNode Key="min_music_intensity" Type="Float" Value="0"/>
+      <RGDNode Key="float_properties" Type="List">
+      </RGDNode>
+      <RGDNode Key="ui_kicker_icon_name" Type="CString" Value=""/>
+      <RGDNode Key="squad_cost" Type="List">
+        <RGDNode Key="food" Type="Float" Value="0"/>
+        <RGDNode Key="action" Type="Float" Value="0"/>
+        <RGDNode Key="gold" Type="Float" Value="0"/>
+        <RGDNode Key="militia_hre" Type="Float" Value="0"/>
+        <RGDNode Key="popcap" Type="Float" Value="0"/>
+        <RGDNode Key="stone" Type="Float" Value="0"/>
+        <RGDNode Key="merc_byz" Type="Float" Value="0"/>
+        <RGDNode Key="command" Type="Float" Value="0"/>
+        <RGDNode Key="wood" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="has_speech_code" Type="Boolean" Value="false"/>
+      <RGDNode Key="requirements_openingbranch" Type="CString" Value=""/>
+      <RGDNode Key="ui_group_cast_type" Type="Int" Value="0"/>
+      <RGDNode Key="global_max_limit" Type="Float" Value="0"/>
+      <RGDNode Key="ui_event_cue" Type="Boolean" Value="true"/>
+      <RGDNode Key="ui_preview" Type="List">
+      </RGDNode>
+      <RGDNode Key="requirements" Type="List">
+        <RGDNode Key="required_player_upgrade" Type="List">
+          <RGDNode Key="include_pbg_parenting" Type="List">
+            <RGDNode Key="include_child_pbgs" Type="Boolean" Value="false"/>
+            <RGDNode Key="include_parent_pbgs" Type="Boolean" Value="false"/>
+          </RGDNode>
+          <RGDNode Key="include_queued" Type="Boolean" Value="false"/>
+          <RGDNode Key="include_completed" Type="Boolean" Value="true"/>
+          <RGDNode Key="$REF" Type="CString" Value="requirements\required_player_upgrade"/>
+          <RGDNode Key="max_completed" Type="Int" Value="100"/>
+          <RGDNode Key="min_completed" Type="Int" Value="1"/>
+          <RGDNode Key="upgrade_name" Type="List">
+            <RGDNode Key="$PBGNAME" Type="CString" Value="feudal_age"/>
+            <RGDNode Key="$PBGMAP" Type="CString" Value="upgrade"/>
+          </RGDNode>
+          <RGDNode Key="reason" Type="CString" Value="usage"/>
+          <RGDNode Key="is_present" Type="Boolean" Value="true"/>
+        </RGDNode>
+        <RGDNode Key="required_entity_upgrade" Type="List">
+          <RGDNode Key="include_pbg_parenting" Type="List">
+            <RGDNode Key="include_child_pbgs" Type="Boolean" Value="false"/>
+            <RGDNode Key="include_parent_pbgs" Type="Boolean" Value="false"/>
+          </RGDNode>
+          <RGDNode Key="include_queued" Type="Boolean" Value="false"/>
+          <RGDNode Key="include_completed" Type="Boolean" Value="true"/>
+          <RGDNode Key="$REF" Type="CString" Value="requirements\required_entity_upgrade"/>
+          <RGDNode Key="max_completed" Type="Int" Value="100"/>
+          <RGDNode Key="min_completed" Type="Int" Value="1"/>
+          <RGDNode Key="upgrade_name" Type="List">
+            <RGDNode Key="$PBGNAME" Type="CString" Value="upgrade_outpost_stone"/>
+            <RGDNode Key="$PBGMAP" Type="CString" Value="upgrade"/>
+          </RGDNode>
+          <RGDNode Key="reason" Type="CString" Value="usage_and_display"/>
+          <RGDNode Key="is_present" Type="Boolean" Value="false"/>
+        </RGDNode>
+        <RGDNode Key="required_entity_upgrade" Type="List">
+          <RGDNode Key="include_pbg_parenting" Type="List">
+            <RGDNode Key="include_child_pbgs" Type="Boolean" Value="false"/>
+            <RGDNode Key="include_parent_pbgs" Type="Boolean" Value="false"/>
+          </RGDNode>
+          <RGDNode Key="include_queued" Type="Boolean" Value="true"/>
+          <RGDNode Key="include_completed" Type="Boolean" Value="true"/>
+          <RGDNode Key="$REF" Type="CString" Value="requirements\required_entity_upgrade"/>
+          <RGDNode Key="max_completed" Type="Int" Value="100"/>
+          <RGDNode Key="min_completed" Type="Int" Value="1"/>
+          <RGDNode Key="upgrade_name" Type="List">
+            <RGDNode Key="$PBGNAME" Type="CString" Value="upgrade_outpost_stone"/>
+            <RGDNode Key="$PBGMAP" Type="CString" Value="upgrade"/>
+          </RGDNode>
+          <RGDNode Key="reason" Type="CString" Value="usage"/>
+          <RGDNode Key="is_present" Type="Boolean" Value="false"/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="state_tree_references" Type="List">
+        <RGDNode Key="on_action_entity_tree" Type="List">
+          <RGDNode Key="start_suspended" Type="Boolean" Value="false"/>
+          <RGDNode Key="ActionTree_OpeningBranch" Type="CString" Value=""/>
+          <RGDNode Key="$REF" Type="CString" Value="state_tree_reference_info"/>
+        </RGDNode>
+        <RGDNode Key="on_action_tree" Type="List">
+          <RGDNode Key="start_suspended" Type="Boolean" Value="false"/>
+          <RGDNode Key="ActionTree_OpeningBranch" Type="CString" Value="campaignMod_upgrade_outpost\upgrade_outpost_stone"/>
+          <RGDNode Key="$REF" Type="CString" Value="state_tree_reference_info"/>
+        </RGDNode>
+        <RGDNode Key="on_begin_action_tree" Type="List">
+          <RGDNode Key="start_suspended" Type="Boolean" Value="false"/>
+          <RGDNode Key="ActionTree_OpeningBranch" Type="CString" Value=""/>
+          <RGDNode Key="$REF" Type="CString" Value="state_tree_reference_info"/>
+        </RGDNode>
+        <RGDNode Key="on_action_squad_tree" Type="List">
+          <RGDNode Key="start_suspended" Type="Boolean" Value="false"/>
+          <RGDNode Key="ActionTree_OpeningBranch" Type="CString" Value=""/>
+          <RGDNode Key="$REF" Type="CString" Value="state_tree_reference_info"/>
+        </RGDNode>
+        <RGDNode Key="on_cancel_action_tree" Type="List">
+          <RGDNode Key="start_suspended" Type="Boolean" Value="false"/>
+          <RGDNode Key="ActionTree_OpeningBranch" Type="CString" Value=""/>
+          <RGDNode Key="$REF" Type="CString" Value="state_tree_reference_info"/>
+        </RGDNode>
+        <RGDNode Key="on_action_producer_entity_tree" Type="List">
+          <RGDNode Key="start_suspended" Type="Boolean" Value="false"/>
+          <RGDNode Key="ActionTree_OpeningBranch" Type="CString" Value=""/>
+          <RGDNode Key="$REF" Type="CString" Value="state_tree_reference_info"/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="apply_player_upgrades_when_entity_or_squad_ownership_changes" Type="Boolean" Value="false"/>
+      <RGDNode Key="ui_info" Type="List">
+        <RGDNode Key="debug_text" Type="CString" Value=""/>
+        <RGDNode Key="screen_name_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="screen_name_short_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="reveal_for_decryption" Type="Boolean" Value="false"/>
+        <RGDNode Key="icon_alternate_name" Type="CString" Value=""/>
+        <RGDNode Key="brief_text_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="extra_text" Type="Int" Value="11182013"/>
+        <RGDNode Key="sound" Type="CString" Value="sfx_ui_produce_upgrade_building_click"/>
+        <RGDNode Key="custom_data_index" Type="Int" Value="0"/>
+        <RGDNode Key="icon_name" Type="CString" Value="races\common\upgrades\stone_outpost"/>
+        <RGDNode Key="is_unique_to_race" Type="Boolean" Value="false"/>
+        <RGDNode Key="ui_combine_type" Type="CString" Value="intersection"/>
+        <RGDNode Key="hotkey_name" Type="CString" Value="a"/>
+        <RGDNode Key="sound_alternative" Type="CString" Value=""/>
+        <RGDNode Key="tooltip_data_template" Type="CString" Value="BuildingUpgradeDataTemplate"/>
+        <RGDNode Key="help_text_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="ui_text_formatter"/>
+          <RGDNode Key="formatter" Type="Int" Value="11199611"/>
+          <RGDNode Key="formatter_arguments" Type="List">
+            <RGDNode Key="int_value" Type="Int" Value="1000"/>
+            <RGDNode Key="int_value" Type="Int" Value="5"/>
+          </RGDNode>
+        </RGDNode>
+        <RGDNode Key="extra_text_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="ui_info_extended" Type="List">
+          <RGDNode Key="relic_radial_menu_info" Type="List">
+            <RGDNode Key="linked" Type="List">
+              <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+              <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+            </RGDNode>
+            <RGDNode Key="priority" Type="Int" Value="0"/>
+            <RGDNode Key="$REF" Type="CString" Value="relic_radial_menu\relic_radial_menu_info"/>
+            <RGDNode Key="nominal_index" Type="Int" Value="2"/>
+            <RGDNode Key="menu" Type="List">
+              <RGDNode Key="$PBGNAME" Type="CString" Value="default"/>
+              <RGDNode Key="$PBGMAP" Type="CString" Value="relic_radial_menu\relic_radial_menu"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="observer_type" Type="Int" Value="1"/>
+          <RGDNode Key="quick_commands_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value="ui_quick_commands_info"/>
+            <RGDNode Key="quick_commands_hotkey" Type="CString" Value="x_quick_command_x"/>
+            <RGDNode Key="quick_commands_priority" Type="Int" Value="5"/>
+            <RGDNode Key="quick_commands_slot_index" Type="Int" Value="1"/>
+          </RGDNode>
+          <RGDNode Key="quick_commands_launch_hud_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value="ui_quick_commands_launch_hud_info"/>
+            <RGDNode Key="quick_commands_hold_time" Type="Int" Value="1"/>
+            <RGDNode Key="quick_commands_hotkey" Type="CString" Value="x_quick_command_y"/>
+            <RGDNode Key="quick_commands_priority" Type="Int" Value="158"/>
+            <RGDNode Key="quick_commands_slot_index" Type="Int" Value="2"/>
+          </RGDNode>
+          <RGDNode Key="issuable_info" Type="List">
+            <RGDNode Key="secondary_issuable" Type="List">
+              <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+              <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+            </RGDNode>
+            <RGDNode Key="is_secondary" Type="Boolean" Value="false"/>
+          </RGDNode>
+          <RGDNode Key="ping_menu_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value=""/>
+          </RGDNode>
+          <RGDNode Key="$REF" Type="CString" Value="tables\ui_info_ext"/>
+          <RGDNode Key="quick_abilities_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value=""/>
+          </RGDNode>
+          <RGDNode Key="command_card_info" Type="List">
+            <RGDNode Key="ui_position" Type="List">
+              <RGDNode Key="ui_position_column" Type="Int" Value="1"/>
+              <RGDNode Key="ui_position_row" Type="Int" Value="2"/>
+            </RGDNode>
+            <RGDNode Key="$REF" Type="CString" Value="ui_command_card_info"/>
+            <RGDNode Key="command_card_priority" Type="Int" Value="1"/>
+          </RGDNode>
+          <RGDNode Key="quick_formation_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value=""/>
+          </RGDNode>
+          <RGDNode Key="category" Type="Int" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="screen_name" Type="Int" Value="11143375"/>
+        <RGDNode Key="global_unit_control_row" Type="Int" Value="1"/>
+      </RGDNode>
+      <RGDNode Key="time_cost" Type="List">
+        <RGDNode Key="time_seconds" Type="Float" Value="30"/>
+        <RGDNode Key="cost" Type="List">
+          <RGDNode Key="food" Type="Float" Value="0"/>
+          <RGDNode Key="action" Type="Float" Value="0"/>
+          <RGDNode Key="gold" Type="Float" Value="0"/>
+          <RGDNode Key="militia_hre" Type="Float" Value="0"/>
+          <RGDNode Key="popcap" Type="Float" Value="0"/>
+          <RGDNode Key="stone" Type="Float" Value="100"/>
+          <RGDNode Key="merc_byz" Type="Float" Value="0"/>
+          <RGDNode Key="command" Type="Float" Value="0"/>
+          <RGDNode Key="wood" Type="Float" Value="0"/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="ui_production_group" Type="CString" Value="command_panel"/>
+      <RGDNode Key="owner_type" Type="CString" Value="self"/>
+      <RGDNode Key="ui_squad_portrait_icon_override" Type="CString" Value=""/>
+      <RGDNode Key="filter_conditions" Type="List">
+        <RGDNode Key="apply_to_future_units" Type="Int" Value="2"/>
+        <RGDNode Key="ai_unit_types" Type="List">
+          <RGDNode Key="none" Type="List">
+          </RGDNode>
+          <RGDNode Key="any" Type="List">
+          </RGDNode>
+        </RGDNode>
+        <RGDNode Key="apply_to_application_type" Type="Int" Value="2"/>
+        <RGDNode Key="apply_to_target_type" Type="Int" Value="0"/>
+        <RGDNode Key="apply_to_filter_condition_statetree_ref" Type="CString" Value=""/>
+        <RGDNode Key="apply_to_unit_classes" Type="List">
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="speech_code" Type="CString" Value=""/>
+      <RGDNode Key="hotkey_binding" Type="List">
+        <RGDNode Key="$PBGNAME" Type="CString" Value="tech_fortify_outpost"/>
+        <RGDNode Key="$PBGMAP" Type="CString" Value="hotkeys\hotkey_binding"/>
+      </RGDNode>
+    </RGDNode>
+    <RGDNode Key="pbgid" Type="Int" Value="127331"/>
+    <RGDNode Key="parent_pbg" Type="List">
+      <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+      <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+    </RGDNode>
+  </RGDNode>
+  <RGDNode Key="xp3" Type="List">
+    <RGDNode Key="upgrade_bag" Type="List">
+      <RGDNode Key="ui_menu" Type="List">
+        <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+        <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="is_progress_permanent" Type="Boolean" Value="false"/>
+      <RGDNode Key="upgrade_type" Type="List">
+        <RGDNode Key="upgrade_type" Type="CString" Value="military_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="abbasid_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="abbasid_ha_01_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="ayyubid_cmp_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="byzantine_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="chinese_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="chinese_ha_01_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="crusader_cmp_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="english_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="french_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="french_ha_01_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="hre_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="japanese_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="malian_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="ottoman_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="sultinate_upgrade"/>
+        <RGDNode Key="upgrade_type" Type="CString" Value="scar_feudal_age_upgrade"/>
+      </RGDNode>
+      <RGDNode Key="ui_position" Type="List">
+        <RGDNode Key="ui_position_column" Type="Int" Value="1"/>
+        <RGDNode Key="ui_position_row" Type="Int" Value="2"/>
+      </RGDNode>
+      <RGDNode Key="local_max_limit" Type="Float" Value="1"/>
+      <RGDNode Key="ignore_completion_state_tree_openingbranch" Type="Boolean" Value="false"/>
+      <RGDNode Key="int_properties" Type="List">
+      </RGDNode>
+      <RGDNode Key="enable_in_hold" Type="Boolean" Value="false"/>
+      <RGDNode Key="ui_codex_info" Type="List">
+        <RGDNode Key="ui_position" Type="List">
+          <RGDNode Key="ui_position_column" Type="Int" Value="-1"/>
+          <RGDNode Key="ui_position_row" Type="Int" Value="-1"/>
+        </RGDNode>
+        <RGDNode Key="exclusive" Type="Boolean" Value="false"/>
+        <RGDNode Key="priority" Type="Int" Value="4900"/>
+      </RGDNode>
+      <RGDNode Key="min_music_intensity" Type="Float" Value="0"/>
+      <RGDNode Key="float_properties" Type="List">
+      </RGDNode>
+      <RGDNode Key="ui_kicker_icon_name" Type="CString" Value=""/>
+      <RGDNode Key="squad_cost" Type="List">
+        <RGDNode Key="food" Type="Float" Value="0"/>
+        <RGDNode Key="action" Type="Float" Value="0"/>
+        <RGDNode Key="gold" Type="Float" Value="0"/>
+        <RGDNode Key="militia_hre" Type="Float" Value="0"/>
+        <RGDNode Key="popcap" Type="Float" Value="0"/>
+        <RGDNode Key="stone" Type="Float" Value="0"/>
+        <RGDNode Key="merc_byz" Type="Float" Value="0"/>
+        <RGDNode Key="command" Type="Float" Value="0"/>
+        <RGDNode Key="wood" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="has_speech_code" Type="Boolean" Value="false"/>
+      <RGDNode Key="requirements_openingbranch" Type="CString" Value=""/>
+      <RGDNode Key="ui_group_cast_type" Type="Int" Value="0"/>
+      <RGDNode Key="global_max_limit" Type="Float" Value="0"/>
+      <RGDNode Key="ui_event_cue" Type="Boolean" Value="true"/>
+      <RGDNode Key="ui_preview" Type="List">
+      </RGDNode>
+      <RGDNode Key="requirements" Type="List">
+        <RGDNode Key="required_player_upgrade" Type="List">
+          <RGDNode Key="include_pbg_parenting" Type="List">
+            <RGDNode Key="include_child_pbgs" Type="Boolean" Value="false"/>
+            <RGDNode Key="include_parent_pbgs" Type="Boolean" Value="false"/>
+          </RGDNode>
+          <RGDNode Key="include_queued" Type="Boolean" Value="false"/>
+          <RGDNode Key="include_completed" Type="Boolean" Value="true"/>
+          <RGDNode Key="$REF" Type="CString" Value="requirements\required_player_upgrade"/>
+          <RGDNode Key="max_completed" Type="Int" Value="100"/>
+          <RGDNode Key="min_completed" Type="Int" Value="1"/>
+          <RGDNode Key="upgrade_name" Type="List">
+            <RGDNode Key="$PBGNAME" Type="CString" Value="feudal_age"/>
+            <RGDNode Key="$PBGMAP" Type="CString" Value="upgrade"/>
+          </RGDNode>
+          <RGDNode Key="reason" Type="CString" Value="usage"/>
+          <RGDNode Key="is_present" Type="Boolean" Value="true"/>
+        </RGDNode>
+        <RGDNode Key="required_entity_upgrade" Type="List">
+          <RGDNode Key="include_pbg_parenting" Type="List">
+            <RGDNode Key="include_child_pbgs" Type="Boolean" Value="false"/>
+            <RGDNode Key="include_parent_pbgs" Type="Boolean" Value="false"/>
+          </RGDNode>
+          <RGDNode Key="include_queued" Type="Boolean" Value="false"/>
+          <RGDNode Key="include_completed" Type="Boolean" Value="true"/>
+          <RGDNode Key="$REF" Type="CString" Value="requirements\required_entity_upgrade"/>
+          <RGDNode Key="max_completed" Type="Int" Value="100"/>
+          <RGDNode Key="min_completed" Type="Int" Value="1"/>
+          <RGDNode Key="upgrade_name" Type="List">
+            <RGDNode Key="$PBGNAME" Type="CString" Value="upgrade_outpost_stone"/>
+            <RGDNode Key="$PBGMAP" Type="CString" Value="upgrade"/>
+          </RGDNode>
+          <RGDNode Key="reason" Type="CString" Value="usage_and_display"/>
+          <RGDNode Key="is_present" Type="Boolean" Value="false"/>
+        </RGDNode>
+        <RGDNode Key="required_entity_upgrade" Type="List">
+          <RGDNode Key="include_pbg_parenting" Type="List">
+            <RGDNode Key="include_child_pbgs" Type="Boolean" Value="false"/>
+            <RGDNode Key="include_parent_pbgs" Type="Boolean" Value="false"/>
+          </RGDNode>
+          <RGDNode Key="include_queued" Type="Boolean" Value="true"/>
+          <RGDNode Key="include_completed" Type="Boolean" Value="true"/>
+          <RGDNode Key="$REF" Type="CString" Value="requirements\required_entity_upgrade"/>
+          <RGDNode Key="max_completed" Type="Int" Value="100"/>
+          <RGDNode Key="min_completed" Type="Int" Value="1"/>
+          <RGDNode Key="upgrade_name" Type="List">
+            <RGDNode Key="$PBGNAME" Type="CString" Value="upgrade_outpost_stone"/>
+            <RGDNode Key="$PBGMAP" Type="CString" Value="upgrade"/>
+          </RGDNode>
+          <RGDNode Key="reason" Type="CString" Value="usage"/>
+          <RGDNode Key="is_present" Type="Boolean" Value="false"/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="state_tree_references" Type="List">
+        <RGDNode Key="on_action_entity_tree" Type="List">
+          <RGDNode Key="start_suspended" Type="Boolean" Value="false"/>
+          <RGDNode Key="ActionTree_OpeningBranch" Type="CString" Value=""/>
+          <RGDNode Key="$REF" Type="CString" Value="state_tree_reference_info"/>
+        </RGDNode>
+        <RGDNode Key="on_action_tree" Type="List">
+          <RGDNode Key="start_suspended" Type="Boolean" Value="false"/>
+          <RGDNode Key="ActionTree_OpeningBranch" Type="CString" Value="xp3_upgrade_outpost\upgrade_outpost_stone"/>
+          <RGDNode Key="$REF" Type="CString" Value="state_tree_reference_info"/>
+        </RGDNode>
+        <RGDNode Key="on_begin_action_tree" Type="List">
+          <RGDNode Key="start_suspended" Type="Boolean" Value="false"/>
+          <RGDNode Key="ActionTree_OpeningBranch" Type="CString" Value=""/>
+          <RGDNode Key="$REF" Type="CString" Value="state_tree_reference_info"/>
+        </RGDNode>
+        <RGDNode Key="on_action_squad_tree" Type="List">
+          <RGDNode Key="start_suspended" Type="Boolean" Value="false"/>
+          <RGDNode Key="ActionTree_OpeningBranch" Type="CString" Value=""/>
+          <RGDNode Key="$REF" Type="CString" Value="state_tree_reference_info"/>
+        </RGDNode>
+        <RGDNode Key="on_cancel_action_tree" Type="List">
+          <RGDNode Key="start_suspended" Type="Boolean" Value="false"/>
+          <RGDNode Key="ActionTree_OpeningBranch" Type="CString" Value=""/>
+          <RGDNode Key="$REF" Type="CString" Value="state_tree_reference_info"/>
+        </RGDNode>
+        <RGDNode Key="on_action_producer_entity_tree" Type="List">
+          <RGDNode Key="start_suspended" Type="Boolean" Value="false"/>
+          <RGDNode Key="ActionTree_OpeningBranch" Type="CString" Value=""/>
+          <RGDNode Key="$REF" Type="CString" Value="state_tree_reference_info"/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="apply_player_upgrades_when_entity_or_squad_ownership_changes" Type="Boolean" Value="false"/>
+      <RGDNode Key="ui_info" Type="List">
+        <RGDNode Key="debug_text" Type="CString" Value=""/>
+        <RGDNode Key="screen_name_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="screen_name_short_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="reveal_for_decryption" Type="Boolean" Value="false"/>
+        <RGDNode Key="icon_alternate_name" Type="CString" Value=""/>
+        <RGDNode Key="brief_text_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="extra_text" Type="Int" Value="11182013"/>
+        <RGDNode Key="sound" Type="CString" Value="sfx_ui_produce_upgrade_building_click"/>
+        <RGDNode Key="custom_data_index" Type="Int" Value="0"/>
+        <RGDNode Key="icon_name" Type="CString" Value="races\common\upgrades\stone_outpost"/>
+        <RGDNode Key="is_unique_to_race" Type="Boolean" Value="false"/>
+        <RGDNode Key="ui_combine_type" Type="CString" Value="intersection"/>
+        <RGDNode Key="hotkey_name" Type="CString" Value="a"/>
+        <RGDNode Key="sound_alternative" Type="CString" Value=""/>
+        <RGDNode Key="tooltip_data_template" Type="CString" Value="BuildingUpgradeDataTemplate"/>
+        <RGDNode Key="help_text_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="ui_text_formatter"/>
+          <RGDNode Key="formatter" Type="Int" Value="11199611"/>
+          <RGDNode Key="formatter_arguments" Type="List">
+            <RGDNode Key="int_value" Type="Int" Value="1000"/>
+            <RGDNode Key="int_value" Type="Int" Value="5"/>
+          </RGDNode>
+        </RGDNode>
+        <RGDNode Key="extra_text_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="ui_info_extended" Type="List">
+          <RGDNode Key="relic_radial_menu_info" Type="List">
+            <RGDNode Key="linked" Type="List">
+              <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+              <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+            </RGDNode>
+            <RGDNode Key="priority" Type="Int" Value="0"/>
+            <RGDNode Key="$REF" Type="CString" Value="relic_radial_menu\relic_radial_menu_info"/>
+            <RGDNode Key="nominal_index" Type="Int" Value="2"/>
+            <RGDNode Key="menu" Type="List">
+              <RGDNode Key="$PBGNAME" Type="CString" Value="default"/>
+              <RGDNode Key="$PBGMAP" Type="CString" Value="relic_radial_menu\relic_radial_menu"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="observer_type" Type="Int" Value="1"/>
+          <RGDNode Key="quick_commands_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value="ui_quick_commands_info"/>
+            <RGDNode Key="quick_commands_hotkey" Type="CString" Value="x_quick_command_x"/>
+            <RGDNode Key="quick_commands_priority" Type="Int" Value="5"/>
+            <RGDNode Key="quick_commands_slot_index" Type="Int" Value="1"/>
+          </RGDNode>
+          <RGDNode Key="quick_commands_launch_hud_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value="ui_quick_commands_launch_hud_info"/>
+            <RGDNode Key="quick_commands_hold_time" Type="Int" Value="1"/>
+            <RGDNode Key="quick_commands_hotkey" Type="CString" Value="x_quick_command_y"/>
+            <RGDNode Key="quick_commands_priority" Type="Int" Value="158"/>
+            <RGDNode Key="quick_commands_slot_index" Type="Int" Value="2"/>
+          </RGDNode>
+          <RGDNode Key="issuable_info" Type="List">
+            <RGDNode Key="secondary_issuable" Type="List">
+              <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+              <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+            </RGDNode>
+            <RGDNode Key="is_secondary" Type="Boolean" Value="false"/>
+          </RGDNode>
+          <RGDNode Key="ping_menu_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value=""/>
+          </RGDNode>
+          <RGDNode Key="$REF" Type="CString" Value="tables\ui_info_ext"/>
+          <RGDNode Key="quick_abilities_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value=""/>
+          </RGDNode>
+          <RGDNode Key="command_card_info" Type="List">
+            <RGDNode Key="ui_position" Type="List">
+              <RGDNode Key="ui_position_column" Type="Int" Value="1"/>
+              <RGDNode Key="ui_position_row" Type="Int" Value="2"/>
+            </RGDNode>
+            <RGDNode Key="$REF" Type="CString" Value="ui_command_card_info"/>
+            <RGDNode Key="command_card_priority" Type="Int" Value="1"/>
+          </RGDNode>
+          <RGDNode Key="quick_formation_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value=""/>
+          </RGDNode>
+          <RGDNode Key="category" Type="Int" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="screen_name" Type="Int" Value="11143375"/>
+        <RGDNode Key="global_unit_control_row" Type="Int" Value="1"/>
+      </RGDNode>
+      <RGDNode Key="time_cost" Type="List">
+        <RGDNode Key="time_seconds" Type="Float" Value="30"/>
+        <RGDNode Key="cost" Type="List">
+          <RGDNode Key="food" Type="Float" Value="0"/>
+          <RGDNode Key="action" Type="Float" Value="0"/>
+          <RGDNode Key="gold" Type="Float" Value="0"/>
+          <RGDNode Key="militia_hre" Type="Float" Value="0"/>
+          <RGDNode Key="popcap" Type="Float" Value="0"/>
+          <RGDNode Key="stone" Type="Float" Value="100"/>
+          <RGDNode Key="merc_byz" Type="Float" Value="0"/>
+          <RGDNode Key="command" Type="Float" Value="0"/>
+          <RGDNode Key="wood" Type="Float" Value="0"/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="ui_production_group" Type="CString" Value="command_panel"/>
+      <RGDNode Key="owner_type" Type="CString" Value="self"/>
+      <RGDNode Key="ui_squad_portrait_icon_override" Type="CString" Value=""/>
+      <RGDNode Key="filter_conditions" Type="List">
+        <RGDNode Key="apply_to_future_units" Type="Int" Value="2"/>
+        <RGDNode Key="ai_unit_types" Type="List">
+          <RGDNode Key="none" Type="List">
+          </RGDNode>
+          <RGDNode Key="any" Type="List">
+          </RGDNode>
+        </RGDNode>
+        <RGDNode Key="apply_to_application_type" Type="Int" Value="2"/>
+        <RGDNode Key="apply_to_target_type" Type="Int" Value="0"/>
+        <RGDNode Key="apply_to_filter_condition_statetree_ref" Type="CString" Value=""/>
+        <RGDNode Key="apply_to_unit_classes" Type="List">
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="speech_code" Type="CString" Value=""/>
+      <RGDNode Key="hotkey_binding" Type="List">
+        <RGDNode Key="$PBGNAME" Type="CString" Value="tech_fortify_outpost"/>
+        <RGDNode Key="$PBGMAP" Type="CString" Value="hotkeys\hotkey_binding"/>
+      </RGDNode>
+    </RGDNode>
+    <RGDNode Key="pbgid" Type="Int" Value="127331"/>
+    <RGDNode Key="parent_pbg" Type="List">
+      <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+      <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+    </RGDNode>
+  </RGDNode>
+</Root>
