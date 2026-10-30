@@ -1,0 +1,77 @@
+-- Desert Pace: each living Berber trader earns +0.08 m/s per30 seconds alive.
+import("modifiers.scar")
+Core_RegisterModule("BST")
+
+local function valid(entity,id)
+    return Entity_IsValid(id) and Entity_FromID(id)==entity and Entity_IsAlive(entity)
+end
+local function remove(record)
+    if not valid(record.entity,record.id) then return end
+    if record.speed~=nil then Modifier_Remove(record.speed);record.speed=nil end
+    if record.acceleration~=nil then Modifier_Remove(record.acceleration);record.acceleration=nil end
+end
+function BST_OnGameSetup()
+    BST_State={entries={},running=false}
+end
+function BST_OnInit()
+    if not BST_State then BST_OnGameSetup() end
+end
+function saharan_trader_count_check()
+    local state=BST_State
+    if not state or not state.running then return end
+    local now=World_GetGameTime();local seen={}
+    for i=1,World_GetPlayerCount() do
+        local player=World_GetPlayerAt(i)
+        if Player_IsAlive(player) and Player_GetRaceName(player)=="5fe8767cca3a4e649e20c9527cf014ec:berbers" then
+            -- Engine-owned observer group: never filter or destroy it.
+            local entities=Player_GetAllEntities(player)
+            for j=1,EGroup_Count(entities) do
+                local entity=EGroup_GetEntityAt(entities,j)
+                local id=Entity_GetID(entity)
+                if valid(entity,id) and Entity_IsOfType(entity,"trade_cart") then
+                    seen[id]=true
+                    local record=state.entries[id]
+                    if not record or record.entity~=entity then
+                        record={id=id,entity=entity,since=now,steps=0}
+                        state.entries[id]=record
+                    end
+                    local steps=math.max(0,math.floor((now-record.since)/30))
+                    if steps~=record.steps then
+                        remove(record)
+                        local amount=steps*0.08
+                        if steps>0 then
+                            local speed=Modifier_Create(MAT_Entity,"speed_maximum_modifier",MUT_Addition,false,amount,"")
+                            local acceleration=Modifier_Create(MAT_Entity,"acceleration_modifier",MUT_Addition,false,amount,"")
+                            record.speed=Modifier_ApplyToEntity(speed,entity,0)
+                            record.acceleration=Modifier_ApplyToEntity(acceleration,entity,0)
+                        end
+                        record.steps=steps
+                    end
+                end
+            end
+        end
+    end
+    for id,record in pairs(state.entries) do
+        if not seen[id] then remove(record);state.entries[id]=nil end
+    end
+end
+function saharan_trader_start()
+    if not BST_State then BST_OnGameSetup() end
+    if BST_State.running then return end
+    BST_State.running=true
+    -- Discover present traders now; new traders are discovered within1 second.
+    saharan_trader_count_check()
+    if not Rule_Exists(saharan_trader_count_check) then Rule_AddInterval(saharan_trader_count_check,1) end
+end
+function BST_Start() saharan_trader_start() end
+function BST_OnGameRestore()
+    if not BST_State or not BST_State.running then return end
+    -- Saved timestamps and applied handles survive; never reapply old bonuses.
+    if not Rule_Exists(saharan_trader_count_check) then Rule_AddInterval(saharan_trader_count_check,1) end
+end
+function BST_OnGameOver()
+    if Rule_Exists(saharan_trader_count_check) then Rule_Remove(saharan_trader_count_check) end
+    if not BST_State then return end
+    for _,record in pairs(BST_State.entries) do remove(record) end
+    BST_State.entries={};BST_State.running=false
+end

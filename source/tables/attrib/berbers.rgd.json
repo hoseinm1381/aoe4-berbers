@@ -1,0 +1,45 @@
+{
+  "schema": "berbers.native-table/v1",
+  "version": 4,
+  "platform": 1,
+  "chunks": [
+    {
+      "kind": "44415441",
+      "id": "41454744",
+      "version": 3,
+      "name": "",
+      "body": ""
+    },
+    {
+      "kind": "44415441",
+      "id": "4b455953",
+      "version": 1,
+      "name": "",
+      "body": ""
+    }
+  ],
+  "keys": [
+    [
+      11492124299261544217,
+      "id"
+    ],
+    [
+      6993422101103924961,
+      "override_instances"
+    ]
+  ],
+  "nodes": [
+    {
+      "key": "override_instances",
+      "hash": 6993422101103924961,
+      "kind": "Boolean",
+      "value": false
+    },
+    {
+      "key": "id",
+      "hash": 11492124299261544217,
+      "kind": "CString",
+      "value": "5fe8767cca3a4e649e20c9527cf014ec"
+    }
+  ]
+}

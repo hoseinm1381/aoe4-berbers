@@ -1,0 +1,33 @@
+{
+  "changed": [
+    "attrib/racebps/berbers.rgd",
+    "attrib/army/garrison/berbers/berbers_standard.rgd",
+    "garrison/civilizations.json"
+  ],
+  "removed": [
+    "ui/images/garrison/berbers/presentation/flag_background_t3.rrtex",
+    "ui/images/garrison/berbers/presentation/flag_fade_t3.rrtex",
+    "ui/images/garrison/berbers/presentation/flag_list_small_t3.rrtex",
+    "ui/images/garrison/berbers/presentation/flag_list_t3.rrtex",
+    "ui/images/garrison/berbers/presentation/flag_loading_t3.rrtex",
+    "ui/images/garrison/berbers/presentation/flag_mastery_t3.rrtex",
+    "ui/images/garrison/berbers/presentation/flag_pattern_t3.rrtex",
+    "ui/images/garrison/berbers/presentation/flag_secondary_small_t3.rrtex",
+    "ui/images/garrison/berbers/presentation/flag_secondary_t3.rrtex",
+    "ui/images/garrison/berbers/presentation/flag_tile_t3.rrtex",
+    "ui/icons/garrison/berbers/presentation/flag_background_t3.rrtex",
+    "ui/icons/garrison/berbers/presentation/flag_fade_t3.rrtex",
+    "ui/icons/garrison/berbers/presentation/flag_list_small_t3.rrtex",
+    "ui/icons/garrison/berbers/presentation/flag_list_t3.rrtex",
+    "ui/icons/garrison/berbers/presentation/flag_loading_t3.rrtex",
+    "ui/icons/garrison/berbers/presentation/flag_mastery_t3.rrtex",
+    "ui/icons/garrison/berbers/presentation/flag_pattern_t3.rrtex",
+    "ui/icons/garrison/berbers/presentation/flag_secondary_small_t3.rrtex",
+    "ui/icons/garrison/berbers/presentation/flag_secondary_t3.rrtex",
+    "ui/icons/garrison/berbers/presentation/flag_tile_t3.rrtex"
+  ],
+  "added": [
+    "ui/images/garrison/berbers/presentation/flag_original.rrtex"
+  ],
+  "scope": "Civilization presentation only; all native numeric and Boolean leaves unchanged."
+}

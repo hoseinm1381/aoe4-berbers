@@ -1,0 +1,119 @@
+------------------------------------------------------------------------
+-- Berber Future Kingdoms - Ribat Of The Sanhaja +2 melee armor buff
+------------------------------------------------------------------------
+
+Core_RegisterModule("MehariBuff")
+
+local _sanhaja_buff = {
+	started = false,
+	active_players = {}, -- [player_index] = true
+}
+
+-- Private helper to find player index from Player reference
+local function GetPlayerIndex(player)
+	for i = 1, World_GetPlayerCount() do
+		if World_GetPlayerAt(i) == player then
+			return i
+		end
+	end
+	return nil
+end
+
+-- Helper to remove the global event when all active players have built their landmark
+local function SanhajaBuff_RemoveRuleIfEmpty()
+	if next(_sanhaja_buff.active_players) == nil then
+		if _sanhaja_buff.started then
+			Rule_RemoveGlobalEvent(SanhajaBuff_OnConstructionComplete)
+			_sanhaja_buff.started = false
+		end
+	end
+end
+
+-- The event callback that checks WHICH building was constructed
+function SanhajaBuff_OnConstructionComplete(context)
+	if context == nil or context.player == nil or context.entity == nil then
+		return
+	end
+
+	local builder_player = context.player
+	local player_index = GetPlayerIndex(builder_player)
+
+	-- If this player is not in our active players table, ignore
+	if player_index == nil or not _sanhaja_buff.active_players[player_index] then
+		return
+	end
+
+	local built_entity = context.entity
+	local entity_bp = Entity_GetBlueprint(built_entity)
+	local built_bp_name = BP_GetName(entity_bp)
+
+	local is_landmark_a = string.find(built_bp_name, "ber_building_landmark_age1_landmarka_mal") ~= nil
+	local is_landmark_b = string.find(built_bp_name, "ber_building_landmark_age1_landmarkb_mal") ~= nil
+
+	if is_landmark_a or is_landmark_b then
+		-- Landmark was constructed: apply the buff if it's Landmark A
+		if is_landmark_a then
+			local blueprints = BP_GetEntityBlueprintsWithType("air_control")
+			if blueprints ~= nil then
+				for _, bp in ipairs(blueprints) do
+					local modifier = Modifier_Create(
+						MAT_EntityType,
+						"armor_scalar_for_melee_damage",
+						MUT_Addition,
+						false,
+						2.0,
+						bp
+					)
+					Modifier_ApplyToPlayer(modifier, builder_player, 0.0)
+				end
+			end
+		end
+
+		-- Remove the player from the tracking list since they made their landmark decision
+		_sanhaja_buff.active_players[player_index] = nil
+		SanhajaBuff_RemoveRuleIfEmpty()
+	end
+end
+
+-- Entry point invoked from StandardMode_Start() in GM.scar
+function MehariBuff_Init()
+	if _sanhaja_buff.started then
+		return
+	end
+
+	_sanhaja_buff.active_players = {}
+
+	-- Identify all Malian players
+	for i = 1, World_GetPlayerCount() do
+		local player_id = World_GetPlayerAt(i)
+		if Player_IsAlive(player_id) and Player_GetRaceName(player_id) == "5fe8767cca3a4e649e20c9527cf014ec:berbers" then
+			_sanhaja_buff.active_players[i] = true
+		end
+	end
+
+	-- If there are no Malian players, we don't need to listen to the event
+	if next(_sanhaja_buff.active_players) == nil then
+		return
+	end
+
+	_sanhaja_buff.started = true
+	Rule_AddGlobalEvent(SanhajaBuff_OnConstructionComplete, GE_ConstructionComplete)
+end
+
+-- Required Core module lifecycle callbacks. Startup remains controlled by
+-- MehariBuff_Init(), which is called from StandardMode_Start().
+function MehariBuff_OnInit()
+end
+
+function MehariBuff_Start()
+end
+
+function MehariBuff_OnGameOver()
+	if not _sanhaja_buff.started then
+		return
+	end
+
+	Rule_RemoveGlobalEvent(SanhajaBuff_OnConstructionComplete)
+	_sanhaja_buff.active_players = {}
+	_sanhaja_buff.started = false
+end

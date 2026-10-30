@@ -1,0 +1,705 @@
+{
+  "schema": "berbers.native-table/v1",
+  "version": 4,
+  "platform": 1,
+  "chunks": [
+    {
+      "kind": "44415441",
+      "id": "41454744",
+      "version": 3,
+      "name": "",
+      "body": ""
+    },
+    {
+      "kind": "44415441",
+      "id": "4b455953",
+      "version": 1,
+      "name": "",
+      "body": ""
+    }
+  ],
+  "keys": [
+    [
+      8529826256463028745,
+      "instance_version"
+    ],
+    [
+      4430693559278735917,
+      "default"
+    ],
+    [
+      10706335617446266390,
+      "attachment_lists"
+    ],
+    [
+      15834822659369349109,
+      "attachment_list"
+    ],
+    [
+      14961027582120340398,
+      "animator_merge_mesh_attachment"
+    ],
+    [
+      2269528891900874676,
+      "meshes"
+    ],
+    [
+      7145949436510638498,
+      "animator0"
+    ],
+    [
+      7005011133969755235,
+      "is_selectable"
+    ],
+    [
+      6998867517914059163,
+      "$REF"
+    ],
+    [
+      11525052778092690649,
+      "attachment_category"
+    ],
+    [
+      15848506342399525572,
+      "attachment_speaker_code"
+    ],
+    [
+      14677118499389737596,
+      "inventory_category"
+    ],
+    [
+      7864014438083306314,
+      "parent_animator"
+    ],
+    [
+      17487694287378825926,
+      "thumbnail"
+    ],
+    [
+      13005689997087892415,
+      "pbgid"
+    ],
+    [
+      14182368983149674761,
+      "parent_pbg"
+    ],
+    [
+      5464984021694833596,
+      "$PBGNAME"
+    ],
+    [
+      1238668035833122403,
+      "$PBGMAP"
+    ],
+    [
+      12536324260443616212,
+      "campaign"
+    ],
+    [
+      14793375363332585188,
+      "xp3"
+    ]
+  ],
+  "nodes": [
+    {
+      "key": "default",
+      "hash": 4430693559278735917,
+      "kind": "List",
+      "value": [
+        {
+          "key": "attachment_lists",
+          "hash": 10706335617446266390,
+          "kind": "List",
+          "value": [
+            {
+              "key": "parent_animator",
+              "hash": 7864014438083306314,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "attachment_lists",
+              "hash": 10706335617446266390,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "attachment_list",
+                  "hash": 15834822659369349109,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "attachments\\attachment_list"
+                    },
+                    {
+                      "key": "attachment_category",
+                      "hash": 11525052778092690649,
+                      "kind": "CString",
+                      "value": "default"
+                    },
+                    {
+                      "key": "inventory_category",
+                      "hash": 14677118499389737596,
+                      "kind": "CString",
+                      "value": "default"
+                    },
+                    {
+                      "key": "attachment_list",
+                      "hash": 15834822659369349109,
+                      "kind": "List2",
+                      "value": [
+                        {
+                          "key": "animator_merge_mesh_attachment",
+                          "hash": 14961027582120340398,
+                          "kind": "List",
+                          "value": [
+                            {
+                              "key": "meshes",
+                              "hash": 2269528891900874676,
+                              "kind": "List",
+                              "value": [
+                                {
+                                  "key": "animator0",
+                                  "hash": 7145949436510638498,
+                                  "kind": "CString",
+                                  "value": "art/scenario/garrison/berber_units_050/sanhaja_age03/sanhaja_age03"
+                                }
+                              ]
+                            },
+                            {
+                              "key": "$REF",
+                              "hash": 6998867517914059163,
+                              "kind": "CString",
+                              "value": "options\\attachment_types\\animator_merge_mesh_attachment"
+                            },
+                            {
+                              "key": "is_selectable",
+                              "hash": 7005011133969755235,
+                              "kind": "Boolean",
+                              "value": true
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "key": "attachment_speaker_code",
+                      "hash": 15848506342399525572,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "attachment_list",
+                  "hash": 15834822659369349109,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "attachments\\attachment_list"
+                    },
+                    {
+                      "key": "attachment_category",
+                      "hash": 11525052778092690649,
+                      "kind": "CString",
+                      "value": "default"
+                    },
+                    {
+                      "key": "inventory_category",
+                      "hash": 14677118499389737596,
+                      "kind": "CString",
+                      "value": "armored_camel"
+                    },
+                    {
+                      "key": "attachment_list",
+                      "hash": 15834822659369349109,
+                      "kind": "List2",
+                      "value": [
+                        {
+                          "key": "animator_merge_mesh_attachment",
+                          "hash": 14961027582120340398,
+                          "kind": "List",
+                          "value": [
+                            {
+                              "key": "meshes",
+                              "hash": 2269528891900874676,
+                              "kind": "List",
+                              "value": [
+                                {
+                                  "key": "animator0",
+                                  "hash": 7145949436510638498,
+                                  "kind": "CString",
+                                  "value": "art/scenario/garrison/berber_units_050/sanhaja_age03_upgrade/sanhaja_age03_upgrade"
+                                }
+                              ]
+                            },
+                            {
+                              "key": "$REF",
+                              "hash": 6998867517914059163,
+                              "kind": "CString",
+                              "value": "options\\attachment_types\\animator_merge_mesh_attachment"
+                            },
+                            {
+                              "key": "is_selectable",
+                              "hash": 7005011133969755235,
+                              "kind": "Boolean",
+                              "value": true
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "key": "attachment_speaker_code",
+                      "hash": 15848506342399525572,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "thumbnail",
+              "hash": 17487694287378825926,
+              "kind": "CString",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "key": "pbgid",
+          "hash": 13005689997087892415,
+          "kind": "Int",
+          "value": 36987915
+        },
+        {
+          "key": "parent_pbg",
+          "hash": 14182368983149674761,
+          "kind": "List2",
+          "value": [
+            {
+              "key": "$PBGNAME",
+              "hash": 5464984021694833596,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "$PBGMAP",
+              "hash": 1238668035833122403,
+              "kind": "CString",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "instance_version",
+      "hash": 8529826256463028745,
+      "kind": "Int",
+      "value": 2
+    },
+    {
+      "key": "campaign",
+      "hash": 12536324260443616212,
+      "kind": "List",
+      "value": [
+        {
+          "key": "attachment_lists",
+          "hash": 10706335617446266390,
+          "kind": "List",
+          "value": [
+            {
+              "key": "parent_animator",
+              "hash": 7864014438083306314,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "attachment_lists",
+              "hash": 10706335617446266390,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "attachment_list",
+                  "hash": 15834822659369349109,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "attachments\\attachment_list"
+                    },
+                    {
+                      "key": "attachment_category",
+                      "hash": 11525052778092690649,
+                      "kind": "CString",
+                      "value": "default"
+                    },
+                    {
+                      "key": "inventory_category",
+                      "hash": 14677118499389737596,
+                      "kind": "CString",
+                      "value": "default"
+                    },
+                    {
+                      "key": "attachment_list",
+                      "hash": 15834822659369349109,
+                      "kind": "List2",
+                      "value": [
+                        {
+                          "key": "animator_merge_mesh_attachment",
+                          "hash": 14961027582120340398,
+                          "kind": "List",
+                          "value": [
+                            {
+                              "key": "meshes",
+                              "hash": 2269528891900874676,
+                              "kind": "List",
+                              "value": [
+                                {
+                                  "key": "animator0",
+                                  "hash": 7145949436510638498,
+                                  "kind": "CString",
+                                  "value": "art/scenario/garrison/berber_units_050/sanhaja_age03/sanhaja_age03"
+                                }
+                              ]
+                            },
+                            {
+                              "key": "$REF",
+                              "hash": 6998867517914059163,
+                              "kind": "CString",
+                              "value": "options\\attachment_types\\animator_merge_mesh_attachment"
+                            },
+                            {
+                              "key": "is_selectable",
+                              "hash": 7005011133969755235,
+                              "kind": "Boolean",
+                              "value": true
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "key": "attachment_speaker_code",
+                      "hash": 15848506342399525572,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "attachment_list",
+                  "hash": 15834822659369349109,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "attachments\\attachment_list"
+                    },
+                    {
+                      "key": "attachment_category",
+                      "hash": 11525052778092690649,
+                      "kind": "CString",
+                      "value": "default"
+                    },
+                    {
+                      "key": "inventory_category",
+                      "hash": 14677118499389737596,
+                      "kind": "CString",
+                      "value": "armored_camel"
+                    },
+                    {
+                      "key": "attachment_list",
+                      "hash": 15834822659369349109,
+                      "kind": "List2",
+                      "value": [
+                        {
+                          "key": "animator_merge_mesh_attachment",
+                          "hash": 14961027582120340398,
+                          "kind": "List",
+                          "value": [
+                            {
+                              "key": "meshes",
+                              "hash": 2269528891900874676,
+                              "kind": "List",
+                              "value": [
+                                {
+                                  "key": "animator0",
+                                  "hash": 7145949436510638498,
+                                  "kind": "CString",
+                                  "value": "art\\civilizations\\abbasids\\animals\\abb_camel_combined_bow_age03_upgrade\\abb_camel_combined_bow_age03_upgrade"
+                                }
+                              ]
+                            },
+                            {
+                              "key": "$REF",
+                              "hash": 6998867517914059163,
+                              "kind": "CString",
+                              "value": "options\\attachment_types\\animator_merge_mesh_attachment"
+                            },
+                            {
+                              "key": "is_selectable",
+                              "hash": 7005011133969755235,
+                              "kind": "Boolean",
+                              "value": true
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "key": "attachment_speaker_code",
+                      "hash": 15848506342399525572,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "thumbnail",
+              "hash": 17487694287378825926,
+              "kind": "CString",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "key": "pbgid",
+          "hash": 13005689997087892415,
+          "kind": "Int",
+          "value": 36987915
+        },
+        {
+          "key": "parent_pbg",
+          "hash": 14182368983149674761,
+          "kind": "List2",
+          "value": [
+            {
+              "key": "$PBGNAME",
+              "hash": 5464984021694833596,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "$PBGMAP",
+              "hash": 1238668035833122403,
+              "kind": "CString",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "xp3",
+      "hash": 14793375363332585188,
+      "kind": "List",
+      "value": [
+        {
+          "key": "attachment_lists",
+          "hash": 10706335617446266390,
+          "kind": "List",
+          "value": [
+            {
+              "key": "parent_animator",
+              "hash": 7864014438083306314,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "attachment_lists",
+              "hash": 10706335617446266390,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "attachment_list",
+                  "hash": 15834822659369349109,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "attachments\\attachment_list"
+                    },
+                    {
+                      "key": "attachment_category",
+                      "hash": 11525052778092690649,
+                      "kind": "CString",
+                      "value": "default"
+                    },
+                    {
+                      "key": "inventory_category",
+                      "hash": 14677118499389737596,
+                      "kind": "CString",
+                      "value": "default"
+                    },
+                    {
+                      "key": "attachment_list",
+                      "hash": 15834822659369349109,
+                      "kind": "List2",
+                      "value": [
+                        {
+                          "key": "animator_merge_mesh_attachment",
+                          "hash": 14961027582120340398,
+                          "kind": "List",
+                          "value": [
+                            {
+                              "key": "meshes",
+                              "hash": 2269528891900874676,
+                              "kind": "List",
+                              "value": [
+                                {
+                                  "key": "animator0",
+                                  "hash": 7145949436510638498,
+                                  "kind": "CString",
+                                  "value": "art/scenario/garrison/berber_units_050/sanhaja_age03/sanhaja_age03"
+                                }
+                              ]
+                            },
+                            {
+                              "key": "$REF",
+                              "hash": 6998867517914059163,
+                              "kind": "CString",
+                              "value": "options\\attachment_types\\animator_merge_mesh_attachment"
+                            },
+                            {
+                              "key": "is_selectable",
+                              "hash": 7005011133969755235,
+                              "kind": "Boolean",
+                              "value": true
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "key": "attachment_speaker_code",
+                      "hash": 15848506342399525572,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "attachment_list",
+                  "hash": 15834822659369349109,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "attachments\\attachment_list"
+                    },
+                    {
+                      "key": "attachment_category",
+                      "hash": 11525052778092690649,
+                      "kind": "CString",
+                      "value": "default"
+                    },
+                    {
+                      "key": "inventory_category",
+                      "hash": 14677118499389737596,
+                      "kind": "CString",
+                      "value": "armored_camel"
+                    },
+                    {
+                      "key": "attachment_list",
+                      "hash": 15834822659369349109,
+                      "kind": "List2",
+                      "value": [
+                        {
+                          "key": "animator_merge_mesh_attachment",
+                          "hash": 14961027582120340398,
+                          "kind": "List",
+                          "value": [
+                            {
+                              "key": "meshes",
+                              "hash": 2269528891900874676,
+                              "kind": "List",
+                              "value": [
+                                {
+                                  "key": "animator0",
+                                  "hash": 7145949436510638498,
+                                  "kind": "CString",
+                                  "value": "art/scenario/garrison/berber_units_050/sanhaja_age03_upgrade/sanhaja_age03_upgrade"
+                                }
+                              ]
+                            },
+                            {
+                              "key": "$REF",
+                              "hash": 6998867517914059163,
+                              "kind": "CString",
+                              "value": "options\\attachment_types\\animator_merge_mesh_attachment"
+                            },
+                            {
+                              "key": "is_selectable",
+                              "hash": 7005011133969755235,
+                              "kind": "Boolean",
+                              "value": true
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "key": "attachment_speaker_code",
+                      "hash": 15848506342399525572,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "thumbnail",
+              "hash": 17487694287378825926,
+              "kind": "CString",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "key": "pbgid",
+          "hash": 13005689997087892415,
+          "kind": "Int",
+          "value": 36987915
+        },
+        {
+          "key": "parent_pbg",
+          "hash": 14182368983149674761,
+          "kind": "List2",
+          "value": [
+            {
+              "key": "$PBGNAME",
+              "hash": 5464984021694833596,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "$PBGMAP",
+              "hash": 1238668035833122403,
+              "kind": "CString",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

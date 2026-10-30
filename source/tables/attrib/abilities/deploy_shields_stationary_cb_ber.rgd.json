@@ -1,0 +1,5545 @@
+{
+  "schema": "berbers.native-table/v1",
+  "version": 4,
+  "platform": 1,
+  "chunks": [
+    {
+      "kind": "44415441",
+      "id": "41454744",
+      "version": 3,
+      "name": "",
+      "body": ""
+    },
+    {
+      "kind": "44415441",
+      "id": "4b455953",
+      "version": 1,
+      "name": "",
+      "body": ""
+    }
+  ],
+  "keys": [
+    [
+      8529826256463028745,
+      "instance_version"
+    ],
+    [
+      4430693559278735917,
+      "default"
+    ],
+    [
+      8216355973031886490,
+      "ability_bag"
+    ],
+    [
+      311939270314708962,
+      "activation"
+    ],
+    [
+      8588343019846944516,
+      "can_target_in_fow"
+    ],
+    [
+      12819408367004234434,
+      "caster_close_in_distance"
+    ],
+    [
+      5779527530900250689,
+      "casters_can_evacuate"
+    ],
+    [
+      14085563775366937569,
+      "cost_to_player"
+    ],
+    [
+      5342812467725438597,
+      "action"
+    ],
+    [
+      15903017239201685541,
+      "command"
+    ],
+    [
+      10534165980232519832,
+      "popcap"
+    ],
+    [
+      1642648486008160419,
+      "food"
+    ],
+    [
+      16414556571852284563,
+      "wood"
+    ],
+    [
+      11136004903374842374,
+      "stone"
+    ],
+    [
+      7631488968183620829,
+      "gold"
+    ],
+    [
+      8115382159876774742,
+      "militia_hre"
+    ],
+    [
+      15228413151750088298,
+      "merc_byz"
+    ],
+    [
+      6377842935941415757,
+      "cursor_ghost_blueprint"
+    ],
+    [
+      10978814905199761516,
+      "cursor_ghost_blueprint_angle"
+    ],
+    [
+      16618251296080741427,
+      "disable_combat"
+    ],
+    [
+      14373109172292094773,
+      "disable_when_active"
+    ],
+    [
+      12781827262588432143,
+      "enable_in_building"
+    ],
+    [
+      652849618235291294,
+      "enable_in_vehicle"
+    ],
+    [
+      6408492608903443581,
+      "engage_combat"
+    ],
+    [
+      10112933237555032603,
+      "entity_busy_time"
+    ],
+    [
+      12941075160628935111,
+      "facing_angle"
+    ],
+    [
+      3067981689322918244,
+      "facing_ignore"
+    ],
+    [
+      744747066658451937,
+      "final_close_in_distance"
+    ],
+    [
+      7031746055605338820,
+      "fire_and_forget"
+    ],
+    [
+      3743186915577597213,
+      "garrison_target"
+    ],
+    [
+      5993390703958551299,
+      "initial_recharge"
+    ],
+    [
+      2259246640070244781,
+      "move_back"
+    ],
+    [
+      8304338265413166124,
+      "move_back_distance"
+    ],
+    [
+      16597999082088934835,
+      "range"
+    ],
+    [
+      15520974463585257129,
+      "range_ignore"
+    ],
+    [
+      6578580196708522376,
+      "recharge_time"
+    ],
+    [
+      6788917946852164082,
+      "refundable"
+    ],
+    [
+      10631172122998382400,
+      "require_no_shot_block"
+    ],
+    [
+      8780594931716464784,
+      "shared_timer"
+    ],
+    [
+      11250788737947579717,
+      "shared_timer_player_wide"
+    ],
+    [
+      5393114312981950037,
+      "squad_caster"
+    ],
+    [
+      2000632033917849954,
+      "target"
+    ],
+    [
+      16911763583286442534,
+      "toggled_recharge_time_off"
+    ],
+    [
+      11303164158251962704,
+      "toggled_recharge_time_on"
+    ],
+    [
+      647156199241300307,
+      "ui_cursor"
+    ],
+    [
+      12876329973209211840,
+      "cursor_bad"
+    ],
+    [
+      11553658937709081713,
+      "cursor_good"
+    ],
+    [
+      4624111137619130,
+      "cursor_nonmodal_good"
+    ],
+    [
+      13020873371116350556,
+      "ui_info"
+    ],
+    [
+      8188688946990289687,
+      "help_text"
+    ],
+    [
+      8906936321599725488,
+      "hotkey_name"
+    ],
+    [
+      7203471124514310600,
+      "icon_name"
+    ],
+    [
+      8049760208194009341,
+      "overlay_name"
+    ],
+    [
+      2104501476585252711,
+      "reveal_for_decryption"
+    ],
+    [
+      15035202813555506846,
+      "screen_name"
+    ],
+    [
+      4953303315854035601,
+      "icon_alternate_name"
+    ],
+    [
+      152455752430047345,
+      "debug_text"
+    ],
+    [
+      10732985850218957366,
+      "tooltip_data_template"
+    ],
+    [
+      8036872681887710173,
+      "ui_combine_type"
+    ],
+    [
+      5118372037438301495,
+      "brief_text_formatter"
+    ],
+    [
+      6998867517914059163,
+      "$REF"
+    ],
+    [
+      12003238332482319775,
+      "extra_text_formatter"
+    ],
+    [
+      11135796960408608583,
+      "help_text_formatter"
+    ],
+    [
+      17754659973238456016,
+      "formatter_arguments"
+    ],
+    [
+      13582802670765098745,
+      "int_value"
+    ],
+    [
+      16255808234943214499,
+      "help_text_alternate_formatter"
+    ],
+    [
+      305462759305008410,
+      "screen_name_formatter"
+    ],
+    [
+      11404667765294211072,
+      "screen_name_alternate_formatter"
+    ],
+    [
+      1642065020103099422,
+      "screen_name_short_formatter"
+    ],
+    [
+      5961632817651400416,
+      "sound"
+    ],
+    [
+      10476899042793800425,
+      "sound_alternative"
+    ],
+    [
+      12797928596585789300,
+      "ui_info_extended"
+    ],
+    [
+      9538607839506212259,
+      "command_card_info"
+    ],
+    [
+      7790335697959227400,
+      "quick_abilities_info"
+    ],
+    [
+      5341615905601908854,
+      "dpad_position"
+    ],
+    [
+      3356912067062492659,
+      "quick_abilities_page_num"
+    ],
+    [
+      14506118498826234331,
+      "quick_abilities_priority"
+    ],
+    [
+      5055169763293637906,
+      "quick_commands_info"
+    ],
+    [
+      13059243416827263861,
+      "quick_formation_info"
+    ],
+    [
+      6973376830527721660,
+      "ping_menu_info"
+    ],
+    [
+      16559710094788391263,
+      "category"
+    ],
+    [
+      6303400528724777763,
+      "quick_commands_launch_hud_info"
+    ],
+    [
+      10709685427316977625,
+      "quick_commands_hotkey"
+    ],
+    [
+      10916464437490962360,
+      "quick_commands_priority"
+    ],
+    [
+      15115408896535643371,
+      "quick_commands_slot_index"
+    ],
+    [
+      9826430096975051297,
+      "quick_commands_hold_time"
+    ],
+    [
+      418199564037331192,
+      "relic_radial_menu_info"
+    ],
+    [
+      17747786001542750743,
+      "menu"
+    ],
+    [
+      5464984021694833596,
+      "$PBGNAME"
+    ],
+    [
+      1238668035833122403,
+      "$PBGMAP"
+    ],
+    [
+      16900476784542383745,
+      "nominal_index"
+    ],
+    [
+      3706601655199670163,
+      "priority"
+    ],
+    [
+      3279564523584460759,
+      "linked"
+    ],
+    [
+      1412325442859986734,
+      "observer_type"
+    ],
+    [
+      6499531308199298699,
+      "issuable_info"
+    ],
+    [
+      13814017388298673726,
+      "is_secondary"
+    ],
+    [
+      4976731445824627946,
+      "secondary_issuable"
+    ],
+    [
+      1861123722469083899,
+      "validate_actions"
+    ],
+    [
+      9892018753266967081,
+      "ui_contextual_info"
+    ],
+    [
+      11984153124293111571,
+      "requirements"
+    ],
+    [
+      2346337005908687398,
+      "ability_super"
+    ],
+    [
+      2569609609292370995,
+      "ui_position"
+    ],
+    [
+      16933140635952216258,
+      "ui_position_row"
+    ],
+    [
+      11627997653030084307,
+      "ui_position_column"
+    ],
+    [
+      9320077706898721652,
+      "ui_mini_map_capture"
+    ],
+    [
+      14507815389285967512,
+      "facing_ignore_during_active"
+    ],
+    [
+      3450689389893437106,
+      "ui_range"
+    ],
+    [
+      1530017936787090710,
+      "ui_reticule"
+    ],
+    [
+      17513258532718669828,
+      "ui_reticule_radius_min"
+    ],
+    [
+      4598517262841414834,
+      "ui_reticule_radius_max"
+    ],
+    [
+      10528521752470266516,
+      "pending_ability_out_of_range_behaviour"
+    ],
+    [
+      922632038486172429,
+      "ui_ability_group"
+    ],
+    [
+      13178628513916563605,
+      "ui_targetable_sm_key"
+    ],
+    [
+      16913833886308369910,
+      "ui_targetable_on_key"
+    ],
+    [
+      2789547755448605748,
+      "ui_targetable_off_key"
+    ],
+    [
+      4119272402069490478,
+      "ui_targetable_receiver"
+    ],
+    [
+      13402041801206685434,
+      "ui_modal_highlight"
+    ],
+    [
+      8643578873840278984,
+      "world_sector"
+    ],
+    [
+      749720997602135921,
+      "map_sector"
+    ],
+    [
+      12100979450199492845,
+      "map_sector_hq_link_extender"
+    ],
+    [
+      9764272708607636908,
+      "ui_group_cast_type"
+    ],
+    [
+      9214152916356941991,
+      "requirements_target"
+    ],
+    [
+      3294984959644447870,
+      "targeted_ability_option"
+    ],
+    [
+      12050701467026786658,
+      "ui_direction_requirement"
+    ],
+    [
+      10979286455902813106,
+      "cursor_ghost_ebp"
+    ],
+    [
+      17267708642597054034,
+      "can_cast_whilst_constructing"
+    ],
+    [
+      5099316049750874482,
+      "requirements_self_recharge"
+    ],
+    [
+      2426451862013894468,
+      "can_cast_outside_active_battle_field"
+    ],
+    [
+      17583728599313180136,
+      "cost_to_squad"
+    ],
+    [
+      782348486544571276,
+      "ability_super_event_cue"
+    ],
+    [
+      17185748780926010306,
+      "ui_progress_bar_type"
+    ],
+    [
+      68817816040546682,
+      "ui_ability_issue_type"
+    ],
+    [
+      18190439530397609191,
+      "speech_code"
+    ],
+    [
+      2223682735475920199,
+      "channeling"
+    ],
+    [
+      17946092584286263143,
+      "can_be_interrupted"
+    ],
+    [
+      13864620926667170959,
+      "casting_option"
+    ],
+    [
+      11429581585379570472,
+      "proxy_range_option"
+    ],
+    [
+      18338944239342428321,
+      "ability_category"
+    ],
+    [
+      13068332370234867951,
+      "always_refund_cost_if_failed"
+    ],
+    [
+      809583501614507943,
+      "ui_menu"
+    ],
+    [
+      8150138508743196121,
+      "ui_combine_priority"
+    ],
+    [
+      10480628459914807074,
+      "construction_preview_override"
+    ],
+    [
+      6613128224576994426,
+      "statetree_ability_id"
+    ],
+    [
+      3765770502938214421,
+      "construction_preview"
+    ],
+    [
+      6616515947704669194,
+      "show_range_reticule_in_contruction_item_preview"
+    ],
+    [
+      5369708743583376262,
+      "statetree_node_prereq_self_requirement"
+    ],
+    [
+      15095864956297615233,
+      "statetree_node_prereq_target_requirement"
+    ],
+    [
+      5589231533584852765,
+      "statetree_node_prereq_self_recharge_requirement"
+    ],
+    [
+      12784089958060596679,
+      "entity_tree"
+    ],
+    [
+      5343997063537022223,
+      "squad_tree"
+    ],
+    [
+      7237315751283329830,
+      "ability_active_state_tree_group"
+    ],
+    [
+      5094475048612093844,
+      "ability_activate_squad_tree"
+    ],
+    [
+      11741786413595757999,
+      "ability_activate_entity_tree"
+    ],
+    [
+      3755995924054066270,
+      "ability_activate_deferred_tree"
+    ],
+    [
+      3629510965638801167,
+      "hold_period"
+    ],
+    [
+      7938657914143775933,
+      "clear_ability_on_blueprint_conversion"
+    ],
+    [
+      6095418599823367234,
+      "min_range"
+    ],
+    [
+      10842956036122484803,
+      "ability_description"
+    ],
+    [
+      14673844054206761895,
+      "ability_description_storage_index"
+    ],
+    [
+      11011906133555271047,
+      "default_command_weight_modifier"
+    ],
+    [
+      16721247307401628576,
+      "global_tree"
+    ],
+    [
+      13511621512224204345,
+      "ui_visibility_ignore_prerequisite"
+    ],
+    [
+      13171971474118776706,
+      "use_simbox_to_simbox_range"
+    ],
+    [
+      6896939155899212915,
+      "ui_range_reticule_shows_while_active"
+    ],
+    [
+      10702491752752441563,
+      "can_move_to_cast"
+    ],
+    [
+      15017930210120253069,
+      "toggle_ability_group"
+    ],
+    [
+      11984389543680012014,
+      "projectile_for_preview"
+    ],
+    [
+      8481275066641807213,
+      "ui_ability_can_display"
+    ],
+    [
+      3410256949995180665,
+      "enable_in_unit_types"
+    ],
+    [
+      6366149571547553231,
+      "can_use_ability_check_interval"
+    ],
+    [
+      12651607567147495089,
+      "should_trigger_immediately"
+    ],
+    [
+      11355328205905687,
+      "ui_range_reticule_can_cast_only"
+    ],
+    [
+      15308216161232331496,
+      "ui_range_reticule_first_caster_only"
+    ],
+    [
+      7456329795554349448,
+      "ui_target_origin_point"
+    ],
+    [
+      2342815154130410076,
+      "ui_range_reticule_enable_team_color"
+    ],
+    [
+      4970243166249850715,
+      "can_passive_ability_create_formation_squad_group"
+    ],
+    [
+      17356065584474536378,
+      "can_cast_again_whilst_pending"
+    ],
+    [
+      5431203190614248932,
+      "float_properties"
+    ],
+    [
+      16338806378156856209,
+      "abilitybag_float_property"
+    ],
+    [
+      9777471189049106291,
+      "value"
+    ],
+    [
+      11492124299261544217,
+      "id"
+    ],
+    [
+      3813467384783756717,
+      "int_properties"
+    ],
+    [
+      16104808082914562345,
+      "can_queue_passive_ability"
+    ],
+    [
+      10970614102608398948,
+      "ui_click_point_action_key"
+    ],
+    [
+      17396136918983886992,
+      "ignore_teardown_on_convert"
+    ],
+    [
+      18228278308013522726,
+      "hotkey_binding"
+    ],
+    [
+      3180619597236374599,
+      "default_command_additional_rally_weight_modifier"
+    ],
+    [
+      13005689997087892415,
+      "pbgid"
+    ],
+    [
+      14182368983149674761,
+      "parent_pbg"
+    ],
+    [
+      12536324260443616212,
+      "campaign"
+    ],
+    [
+      16764647726920512531,
+      "formatter"
+    ],
+    [
+      2102538541214721618,
+      "required_not"
+    ],
+    [
+      17331600663591462485,
+      "reason"
+    ],
+    [
+      10495630658248407649,
+      "ui_name"
+    ],
+    [
+      650802286455987548,
+      "requirement_table"
+    ],
+    [
+      6787045500377801826,
+      "required_near_entity"
+    ],
+    [
+      7265380515945656154,
+      "near_entity_requirement"
+    ],
+    [
+      7124687582976635063,
+      "required_unit_type"
+    ],
+    [
+      8394898082430589868,
+      "unit_type"
+    ],
+    [
+      594477079379944706,
+      "qualify_option"
+    ],
+    [
+      16418238355332016902,
+      "search_load_out"
+    ],
+    [
+      10269779401074557373,
+      "area_option"
+    ],
+    [
+      12978982131777066317,
+      "outer_radius"
+    ],
+    [
+      9420659523315331313,
+      "angle_left"
+    ],
+    [
+      8149224532254223807,
+      "angle_right"
+    ],
+    [
+      4690681437824443236,
+      "inner_radius"
+    ],
+    [
+      5785890921145671482,
+      "dynamic_radius_type"
+    ],
+    [
+      6099741583778065018,
+      "nearby_collision_filter"
+    ],
+    [
+      14793375363332585188,
+      "xp3"
+    ]
+  ],
+  "nodes": [
+    {
+      "key": "default",
+      "hash": 4430693559278735917,
+      "kind": "List",
+      "value": [
+        {
+          "key": "ability_bag",
+          "hash": 8216355973031886490,
+          "kind": "List",
+          "value": [
+            {
+              "key": "ui_range_reticule_can_cast_only",
+              "hash": 11355328205905687,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ui_ability_issue_type",
+              "hash": 68817816040546682,
+              "kind": "Int",
+              "value": 0
+            },
+            {
+              "key": "activation",
+              "hash": 311939270314708962,
+              "kind": "CString",
+              "value": "self_targeted"
+            },
+            {
+              "key": "ui_cursor",
+              "hash": 647156199241300307,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "cursor_nonmodal_good",
+                  "hash": 4624111137619130,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "cursor_good",
+                  "hash": 11553658937709081713,
+                  "kind": "CString",
+                  "value": "modal_build"
+                },
+                {
+                  "key": "cursor_bad",
+                  "hash": 12876329973209211840,
+                  "kind": "CString",
+                  "value": "modal_ability_cancel"
+                }
+              ]
+            },
+            {
+              "key": "enable_in_vehicle",
+              "hash": 652849618235291294,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "final_close_in_distance",
+              "hash": 744747066658451937,
+              "kind": "Float",
+              "value": 0.0
+            },
+            {
+              "key": "ability_super_event_cue",
+              "hash": 782348486544571276,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ui_menu",
+              "hash": 809583501614507943,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "ui_ability_group",
+              "hash": 922632038486172429,
+              "kind": "Int",
+              "value": 0
+            },
+            {
+              "key": "ui_reticule",
+              "hash": 1530017936787090710,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "validate_actions",
+              "hash": 1861123722469083899,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "target",
+              "hash": 2000632033917849954,
+              "kind": "CString",
+              "value": "tp_any"
+            },
+            {
+              "key": "channeling",
+              "hash": 2223682735475920199,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "$REF",
+                  "hash": 6998867517914059163,
+                  "kind": "CString",
+                  "value": "options\\none"
+                }
+              ]
+            },
+            {
+              "key": "move_back",
+              "hash": 2259246640070244781,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ui_range_reticule_enable_team_color",
+              "hash": 2342815154130410076,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ability_super",
+              "hash": 2346337005908687398,
+              "kind": "CString",
+              "value": "tp_none"
+            },
+            {
+              "key": "can_cast_outside_active_battle_field",
+              "hash": 2426451862013894468,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ui_position",
+              "hash": 2569609609292370995,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "ui_position_column",
+                  "hash": 11627997653030084307,
+                  "kind": "Int",
+                  "value": 1
+                },
+                {
+                  "key": "ui_position_row",
+                  "hash": 16933140635952216258,
+                  "kind": "Int",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "key": "ui_targetable_off_key",
+              "hash": 2789547755448605748,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "facing_ignore",
+              "hash": 3067981689322918244,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "default_command_additional_rally_weight_modifier",
+              "hash": 3180619597236374599,
+              "kind": "Int",
+              "value": 0
+            },
+            {
+              "key": "targeted_ability_option",
+              "hash": 3294984959644447870,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "$REF",
+                  "hash": 6998867517914059163,
+                  "kind": "CString",
+                  "value": "options\\none"
+                }
+              ]
+            },
+            {
+              "key": "enable_in_unit_types",
+              "hash": 3410256949995180665,
+              "kind": "List",
+              "value": []
+            },
+            {
+              "key": "ui_range",
+              "hash": 3450689389893437106,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "hold_period",
+              "hash": 3629510965638801167,
+              "kind": "Float",
+              "value": 0.0
+            },
+            {
+              "key": "garrison_target",
+              "hash": 3743186915577597213,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "construction_preview",
+              "hash": 3765770502938214421,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "int_properties",
+              "hash": 3813467384783756717,
+              "kind": "List",
+              "value": []
+            },
+            {
+              "key": "ui_targetable_receiver",
+              "hash": 4119272402069490478,
+              "kind": "CString",
+              "value": "local"
+            },
+            {
+              "key": "ui_reticule_radius_max",
+              "hash": 4598517262841414834,
+              "kind": "Float",
+              "value": 1.0
+            },
+            {
+              "key": "can_passive_ability_create_formation_squad_group",
+              "hash": 4970243166249850715,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "requirements_self_recharge",
+              "hash": 5099316049750874482,
+              "kind": "List2",
+              "value": []
+            },
+            {
+              "key": "squad_tree",
+              "hash": 5343997063537022223,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "statetree_node_prereq_self_requirement",
+              "hash": 5369708743583376262,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "squad_caster",
+              "hash": 5393114312981950037,
+              "kind": "CString",
+              "value": "all_entities"
+            },
+            {
+              "key": "float_properties",
+              "hash": 5431203190614248932,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "abilitybag_float_property",
+                  "hash": 16338806378156856209,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "abilitybag_float_property"
+                    },
+                    {
+                      "key": "value",
+                      "hash": 9777471189049106291,
+                      "kind": "Float",
+                      "value": 0.7689999938011169
+                    },
+                    {
+                      "key": "id",
+                      "hash": 11492124299261544217,
+                      "kind": "CString",
+                      "value": "attack_speed"
+                    }
+                  ]
+                },
+                {
+                  "key": "abilitybag_float_property",
+                  "hash": 16338806378156856209,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "abilitybag_float_property"
+                    },
+                    {
+                      "key": "value",
+                      "hash": 9777471189049106291,
+                      "kind": "Float",
+                      "value": 2.0
+                    },
+                    {
+                      "key": "id",
+                      "hash": 11492124299261544217,
+                      "kind": "CString",
+                      "value": "range"
+                    }
+                  ]
+                },
+                {
+                  "key": "abilitybag_float_property",
+                  "hash": 16338806378156856209,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "abilitybag_float_property"
+                    },
+                    {
+                      "key": "value",
+                      "hash": 9777471189049106291,
+                      "kind": "Float",
+                      "value": 3.0
+                    },
+                    {
+                      "key": "id",
+                      "hash": 11492124299261544217,
+                      "kind": "CString",
+                      "value": "ranged_armor"
+                    }
+                  ]
+                },
+                {
+                  "key": "abilitybag_float_property",
+                  "hash": 16338806378156856209,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "abilitybag_float_property"
+                    },
+                    {
+                      "key": "value",
+                      "hash": 9777471189049106291,
+                      "kind": "Float",
+                      "value": 60.0
+                    },
+                    {
+                      "key": "id",
+                      "hash": 11492124299261544217,
+                      "kind": "CString",
+                      "value": "cooldown"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "statetree_node_prereq_self_recharge_requirement",
+              "hash": 5589231533584852765,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "casters_can_evacuate",
+              "hash": 5779527530900250689,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "initial_recharge",
+              "hash": 5993390703958551299,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "min_range",
+              "hash": 6095418599823367234,
+              "kind": "Float",
+              "value": 0.0
+            },
+            {
+              "key": "can_use_ability_check_interval",
+              "hash": 6366149571547553231,
+              "kind": "Float",
+              "value": 0.125
+            },
+            {
+              "key": "cursor_ghost_blueprint",
+              "hash": 6377842935941415757,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "engage_combat",
+              "hash": 6408492608903443581,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "recharge_time",
+              "hash": 6578580196708522376,
+              "kind": "Float",
+              "value": 60.0
+            },
+            {
+              "key": "statetree_ability_id",
+              "hash": 6613128224576994426,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "show_range_reticule_in_contruction_item_preview",
+              "hash": 6616515947704669194,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "refundable",
+              "hash": 6788917946852164082,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ui_range_reticule_shows_while_active",
+              "hash": 6896939155899212915,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "fire_and_forget",
+              "hash": 7031746055605338820,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ability_active_state_tree_group",
+              "hash": 7237315751283329830,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "ability_activate_deferred_tree",
+                  "hash": 3755995924054066270,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "ability_activate_squad_tree",
+                  "hash": 5094475048612093844,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "ability_activate_entity_tree",
+                  "hash": 11741786413595757999,
+                  "kind": "CString",
+                  "value": "deploy_pavise_logic_fre"
+                }
+              ]
+            },
+            {
+              "key": "ui_target_origin_point",
+              "hash": 7456329795554349448,
+              "kind": "CString",
+              "value": "center"
+            },
+            {
+              "key": "clear_ability_on_blueprint_conversion",
+              "hash": 7938657914143775933,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "ui_combine_type",
+              "hash": 8036872681887710173,
+              "kind": "CString",
+              "value": "union"
+            },
+            {
+              "key": "ui_combine_priority",
+              "hash": 8150138508743196121,
+              "kind": "Int",
+              "value": 0
+            },
+            {
+              "key": "move_back_distance",
+              "hash": 8304338265413166124,
+              "kind": "Float",
+              "value": 10.0
+            },
+            {
+              "key": "ui_ability_can_display",
+              "hash": 8481275066641807213,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "can_target_in_fow",
+              "hash": 8588343019846944516,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "shared_timer",
+              "hash": 8780594931716464784,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "requirements_target",
+              "hash": 9214152916356941991,
+              "kind": "List2",
+              "value": []
+            },
+            {
+              "key": "ui_mini_map_capture",
+              "hash": 9320077706898721652,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ui_group_cast_type",
+              "hash": 9764272708607636908,
+              "kind": "Int",
+              "value": 1
+            },
+            {
+              "key": "ui_contextual_info",
+              "hash": 9892018753266967081,
+              "kind": "List2",
+              "value": []
+            },
+            {
+              "key": "entity_busy_time",
+              "hash": 10112933237555032603,
+              "kind": "Float",
+              "value": 0.125
+            },
+            {
+              "key": "construction_preview_override",
+              "hash": 10480628459914807074,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "pending_ability_out_of_range_behaviour",
+              "hash": 10528521752470266516,
+              "kind": "CString",
+              "value": "chase"
+            },
+            {
+              "key": "require_no_shot_block",
+              "hash": 10631172122998382400,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "can_move_to_cast",
+              "hash": 10702491752752441563,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "ability_description",
+              "hash": 10842956036122484803,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "ui_click_point_action_key",
+              "hash": 10970614102608398948,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "cursor_ghost_blueprint_angle",
+              "hash": 10978814905199761516,
+              "kind": "Float",
+              "value": 180.0
+            },
+            {
+              "key": "cursor_ghost_ebp",
+              "hash": 10979286455902813106,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "default_command_weight_modifier",
+              "hash": 11011906133555271047,
+              "kind": "Int",
+              "value": 0
+            },
+            {
+              "key": "shared_timer_player_wide",
+              "hash": 11250788737947579717,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "toggled_recharge_time_on",
+              "hash": 11303164158251962704,
+              "kind": "Float",
+              "value": 0.0
+            },
+            {
+              "key": "proxy_range_option",
+              "hash": 11429581585379570472,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "$REF",
+                  "hash": 6998867517914059163,
+                  "kind": "CString",
+                  "value": "options\\none"
+                }
+              ]
+            },
+            {
+              "key": "requirements",
+              "hash": 11984153124293111571,
+              "kind": "List2",
+              "value": []
+            },
+            {
+              "key": "projectile_for_preview",
+              "hash": 11984389543680012014,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "ui_direction_requirement",
+              "hash": 12050701467026786658,
+              "kind": "CString",
+              "value": "nondirectional"
+            },
+            {
+              "key": "should_trigger_immediately",
+              "hash": 12651607567147495089,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "enable_in_building",
+              "hash": 12781827262588432143,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "entity_tree",
+              "hash": 12784089958060596679,
+              "kind": "CString",
+              "value": "streltsy_static_deployment_ability_manager_rus"
+            },
+            {
+              "key": "caster_close_in_distance",
+              "hash": 12819408367004234434,
+              "kind": "Float",
+              "value": 0.0
+            },
+            {
+              "key": "facing_angle",
+              "hash": 12941075160628935111,
+              "kind": "Float",
+              "value": 5.0
+            },
+            {
+              "key": "ui_info",
+              "hash": 13020873371116350556,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "debug_text",
+                  "hash": 152455752430047345,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "screen_name_formatter",
+                  "hash": 305462759305008410,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "screen_name_short_formatter",
+                  "hash": 1642065020103099422,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "reveal_for_decryption",
+                  "hash": 2104501476585252711,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "icon_alternate_name",
+                  "hash": 4953303315854035601,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "brief_text_formatter",
+                  "hash": 5118372037438301495,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "sound",
+                  "hash": 5961632817651400416,
+                  "kind": "CString",
+                  "value": "sfx_ability_cast_base"
+                },
+                {
+                  "key": "icon_name",
+                  "hash": 7203471124514310600,
+                  "kind": "CString",
+                  "value": "deploy_shield_masmuda"
+                },
+                {
+                  "key": "ui_combine_type",
+                  "hash": 8036872681887710173,
+                  "kind": "CString",
+                  "value": "union"
+                },
+                {
+                  "key": "overlay_name",
+                  "hash": 8049760208194009341,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "help_text",
+                  "hash": 8188688946990289687,
+                  "kind": "LocString",
+                  "value": "$5fe8767cca3a4e649e20c9527cf014ec:196"
+                },
+                {
+                  "key": "hotkey_name",
+                  "hash": 8906936321599725488,
+                  "kind": "CString",
+                  "value": "Q"
+                },
+                {
+                  "key": "sound_alternative",
+                  "hash": 10476899042793800425,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "tooltip_data_template",
+                  "hash": 10732985850218957366,
+                  "kind": "CString",
+                  "value": "UniqueAbilityDataTemplate"
+                },
+                {
+                  "key": "help_text_formatter",
+                  "hash": 11135796960408608583,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "ui_text_formatter"
+                    },
+                    {
+                      "key": "formatter_arguments",
+                      "hash": 17754659973238456016,
+                      "kind": "List2",
+                      "value": [
+                        {
+                          "key": "int_value",
+                          "hash": 13582802670765098745,
+                          "kind": "Int",
+                          "value": 1
+                        },
+                        {
+                          "key": "int_value",
+                          "hash": 13582802670765098745,
+                          "kind": "Int",
+                          "value": 5
+                        },
+                        {
+                          "key": "int_value",
+                          "hash": 13582802670765098745,
+                          "kind": "Int",
+                          "value": 30
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "screen_name_alternate_formatter",
+                  "hash": 11404667765294211072,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "extra_text_formatter",
+                  "hash": 12003238332482319775,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "ui_info_extended",
+                  "hash": 12797928596585789300,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "relic_radial_menu_info",
+                      "hash": 418199564037331192,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "linked",
+                          "hash": 3279564523584460759,
+                          "kind": "List2",
+                          "value": [
+                            {
+                              "key": "$PBGNAME",
+                              "hash": 5464984021694833596,
+                              "kind": "CString",
+                              "value": ""
+                            },
+                            {
+                              "key": "$PBGMAP",
+                              "hash": 1238668035833122403,
+                              "kind": "CString",
+                              "value": ""
+                            }
+                          ]
+                        },
+                        {
+                          "key": "priority",
+                          "hash": 3706601655199670163,
+                          "kind": "Int",
+                          "value": 0
+                        },
+                        {
+                          "key": "$REF",
+                          "hash": 6998867517914059163,
+                          "kind": "CString",
+                          "value": "relic_radial_menu\\relic_radial_menu_info"
+                        },
+                        {
+                          "key": "nominal_index",
+                          "hash": 16900476784542383745,
+                          "kind": "Int",
+                          "value": -1
+                        },
+                        {
+                          "key": "menu",
+                          "hash": 17747786001542750743,
+                          "kind": "List2",
+                          "value": [
+                            {
+                              "key": "$PBGNAME",
+                              "hash": 5464984021694833596,
+                              "kind": "CString",
+                              "value": "default_unit_ability"
+                            },
+                            {
+                              "key": "$PBGMAP",
+                              "hash": 1238668035833122403,
+                              "kind": "CString",
+                              "value": "relic_radial_menu\\relic_radial_menu"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "key": "observer_type",
+                      "hash": 1412325442859986734,
+                      "kind": "Int",
+                      "value": 1
+                    },
+                    {
+                      "key": "quick_commands_info",
+                      "hash": 5055169763293637906,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "$REF",
+                          "hash": 6998867517914059163,
+                          "kind": "CString",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "quick_commands_launch_hud_info",
+                      "hash": 6303400528724777763,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "$REF",
+                          "hash": 6998867517914059163,
+                          "kind": "CString",
+                          "value": "ui_quick_commands_launch_hud_info"
+                        },
+                        {
+                          "key": "quick_commands_hold_time",
+                          "hash": 9826430096975051297,
+                          "kind": "Int",
+                          "value": 1
+                        },
+                        {
+                          "key": "quick_commands_hotkey",
+                          "hash": 10709685427316977625,
+                          "kind": "CString",
+                          "value": "x_quick_command_y"
+                        },
+                        {
+                          "key": "quick_commands_priority",
+                          "hash": 10916464437490962360,
+                          "kind": "Int",
+                          "value": 5
+                        },
+                        {
+                          "key": "quick_commands_slot_index",
+                          "hash": 15115408896535643371,
+                          "kind": "Int",
+                          "value": 2
+                        }
+                      ]
+                    },
+                    {
+                      "key": "issuable_info",
+                      "hash": 6499531308199298699,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "secondary_issuable",
+                          "hash": 4976731445824627946,
+                          "kind": "List2",
+                          "value": [
+                            {
+                              "key": "$PBGNAME",
+                              "hash": 5464984021694833596,
+                              "kind": "CString",
+                              "value": ""
+                            },
+                            {
+                              "key": "$PBGMAP",
+                              "hash": 1238668035833122403,
+                              "kind": "CString",
+                              "value": ""
+                            }
+                          ]
+                        },
+                        {
+                          "key": "is_secondary",
+                          "hash": 13814017388298673726,
+                          "kind": "Boolean",
+                          "value": false
+                        }
+                      ]
+                    },
+                    {
+                      "key": "ping_menu_info",
+                      "hash": 6973376830527721660,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "$REF",
+                          "hash": 6998867517914059163,
+                          "kind": "CString",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "tables\\ui_info_ext"
+                    },
+                    {
+                      "key": "quick_abilities_info",
+                      "hash": 7790335697959227400,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "quick_abilities_page_num",
+                          "hash": 3356912067062492659,
+                          "kind": "Int",
+                          "value": 1
+                        },
+                        {
+                          "key": "dpad_position",
+                          "hash": 5341615905601908854,
+                          "kind": "Int",
+                          "value": 3
+                        },
+                        {
+                          "key": "$REF",
+                          "hash": 6998867517914059163,
+                          "kind": "CString",
+                          "value": "ui_quick_abilities_info"
+                        },
+                        {
+                          "key": "quick_abilities_priority",
+                          "hash": 14506118498826234331,
+                          "kind": "Int",
+                          "value": 5
+                        }
+                      ]
+                    },
+                    {
+                      "key": "command_card_info",
+                      "hash": 9538607839506212259,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "$REF",
+                          "hash": 6998867517914059163,
+                          "kind": "CString",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "quick_formation_info",
+                      "hash": 13059243416827263861,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "$REF",
+                          "hash": 6998867517914059163,
+                          "kind": "CString",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "category",
+                      "hash": 16559710094788391263,
+                      "kind": "Int",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "key": "screen_name",
+                  "hash": 15035202813555506846,
+                  "kind": "LocString",
+                  "value": "$5fe8767cca3a4e649e20c9527cf014ec:87"
+                },
+                {
+                  "key": "help_text_alternate_formatter",
+                  "hash": 16255808234943214499,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "always_refund_cost_if_failed",
+              "hash": 13068332370234867951,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "use_simbox_to_simbox_range",
+              "hash": 13171971474118776706,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "ui_targetable_sm_key",
+              "hash": 13178628513916563605,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "ui_modal_highlight",
+              "hash": 13402041801206685434,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "map_sector",
+                  "hash": 749720997602135921,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "world_sector",
+                  "hash": 8643578873840278984,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "map_sector_hq_link_extender",
+                  "hash": 12100979450199492845,
+                  "kind": "Boolean",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "key": "ui_visibility_ignore_prerequisite",
+              "hash": 13511621512224204345,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "casting_option",
+              "hash": 13864620926667170959,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "$REF",
+                  "hash": 6998867517914059163,
+                  "kind": "CString",
+                  "value": "options\\none"
+                }
+              ]
+            },
+            {
+              "key": "cost_to_player",
+              "hash": 14085563775366937569,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "food",
+                  "hash": 1642648486008160419,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "action",
+                  "hash": 5342812467725438597,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "gold",
+                  "hash": 7631488968183620829,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "militia_hre",
+                  "hash": 8115382159876774742,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "popcap",
+                  "hash": 10534165980232519832,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "stone",
+                  "hash": 11136004903374842374,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "merc_byz",
+                  "hash": 15228413151750088298,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "command",
+                  "hash": 15903017239201685541,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "wood",
+                  "hash": 16414556571852284563,
+                  "kind": "Float",
+                  "value": 0.0
+                }
+              ]
+            },
+            {
+              "key": "disable_when_active",
+              "hash": 14373109172292094773,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "facing_ignore_during_active",
+              "hash": 14507815389285967512,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ability_description_storage_index",
+              "hash": 14673844054206761895,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "toggle_ability_group",
+              "hash": 15017930210120253069,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "statetree_node_prereq_target_requirement",
+              "hash": 15095864956297615233,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "ui_range_reticule_first_caster_only",
+              "hash": 15308216161232331496,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "range_ignore",
+              "hash": 15520974463585257129,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "can_queue_passive_ability",
+              "hash": 16104808082914562345,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "range",
+              "hash": 16597999082088934835,
+              "kind": "Float",
+              "value": 35.0
+            },
+            {
+              "key": "disable_combat",
+              "hash": 16618251296080741427,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "global_tree",
+              "hash": 16721247307401628576,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "toggled_recharge_time_off",
+              "hash": 16911763583286442534,
+              "kind": "Float",
+              "value": 0.0
+            },
+            {
+              "key": "ui_targetable_on_key",
+              "hash": 16913833886308369910,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "ui_progress_bar_type",
+              "hash": 17185748780926010306,
+              "kind": "CString",
+              "value": "auto_bar"
+            },
+            {
+              "key": "can_cast_whilst_constructing",
+              "hash": 17267708642597054034,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "can_cast_again_whilst_pending",
+              "hash": 17356065584474536378,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ignore_teardown_on_convert",
+              "hash": 17396136918983886992,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ui_reticule_radius_min",
+              "hash": 17513258532718669828,
+              "kind": "Float",
+              "value": 1.0
+            },
+            {
+              "key": "cost_to_squad",
+              "hash": 17583728599313180136,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "food",
+                  "hash": 1642648486008160419,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "action",
+                  "hash": 5342812467725438597,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "gold",
+                  "hash": 7631488968183620829,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "militia_hre",
+                  "hash": 8115382159876774742,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "popcap",
+                  "hash": 10534165980232519832,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "stone",
+                  "hash": 11136004903374842374,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "merc_byz",
+                  "hash": 15228413151750088298,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "command",
+                  "hash": 15903017239201685541,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "wood",
+                  "hash": 16414556571852284563,
+                  "kind": "Float",
+                  "value": 0.0
+                }
+              ]
+            },
+            {
+              "key": "can_be_interrupted",
+              "hash": 17946092584286263143,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "speech_code",
+              "hash": 18190439530397609191,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "hotkey_binding",
+              "hash": 18228278308013522726,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": "ability_deploy_pavise"
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": "hotkeys\\hotkey_binding"
+                }
+              ]
+            },
+            {
+              "key": "ability_category",
+              "hash": 18338944239342428321,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pbgid",
+          "hash": 13005689997087892415,
+          "kind": "Int",
+          "value": 1073741871
+        },
+        {
+          "key": "parent_pbg",
+          "hash": 14182368983149674761,
+          "kind": "List2",
+          "value": [
+            {
+              "key": "$PBGNAME",
+              "hash": 5464984021694833596,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "$PBGMAP",
+              "hash": 1238668035833122403,
+              "kind": "CString",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "instance_version",
+      "hash": 8529826256463028745,
+      "kind": "Int",
+      "value": 2
+    },
+    {
+      "key": "campaign",
+      "hash": 12536324260443616212,
+      "kind": "List",
+      "value": [
+        {
+          "key": "ability_bag",
+          "hash": 8216355973031886490,
+          "kind": "List",
+          "value": [
+            {
+              "key": "ui_range_reticule_can_cast_only",
+              "hash": 11355328205905687,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ui_ability_issue_type",
+              "hash": 68817816040546682,
+              "kind": "Int",
+              "value": 0
+            },
+            {
+              "key": "activation",
+              "hash": 311939270314708962,
+              "kind": "CString",
+              "value": "self_targeted"
+            },
+            {
+              "key": "ui_cursor",
+              "hash": 647156199241300307,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "cursor_nonmodal_good",
+                  "hash": 4624111137619130,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "cursor_good",
+                  "hash": 11553658937709081713,
+                  "kind": "CString",
+                  "value": "modal_build"
+                },
+                {
+                  "key": "cursor_bad",
+                  "hash": 12876329973209211840,
+                  "kind": "CString",
+                  "value": "modal_ability_cancel"
+                }
+              ]
+            },
+            {
+              "key": "enable_in_vehicle",
+              "hash": 652849618235291294,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "final_close_in_distance",
+              "hash": 744747066658451937,
+              "kind": "Float",
+              "value": 0.0
+            },
+            {
+              "key": "ability_super_event_cue",
+              "hash": 782348486544571276,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ui_menu",
+              "hash": 809583501614507943,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "ui_ability_group",
+              "hash": 922632038486172429,
+              "kind": "Int",
+              "value": 0
+            },
+            {
+              "key": "ui_reticule",
+              "hash": 1530017936787090710,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "validate_actions",
+              "hash": 1861123722469083899,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "target",
+              "hash": 2000632033917849954,
+              "kind": "CString",
+              "value": "tp_any"
+            },
+            {
+              "key": "channeling",
+              "hash": 2223682735475920199,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "$REF",
+                  "hash": 6998867517914059163,
+                  "kind": "CString",
+                  "value": "options\\none"
+                }
+              ]
+            },
+            {
+              "key": "move_back",
+              "hash": 2259246640070244781,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ui_range_reticule_enable_team_color",
+              "hash": 2342815154130410076,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ability_super",
+              "hash": 2346337005908687398,
+              "kind": "CString",
+              "value": "tp_none"
+            },
+            {
+              "key": "can_cast_outside_active_battle_field",
+              "hash": 2426451862013894468,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ui_position",
+              "hash": 2569609609292370995,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "ui_position_column",
+                  "hash": 11627997653030084307,
+                  "kind": "Int",
+                  "value": 1
+                },
+                {
+                  "key": "ui_position_row",
+                  "hash": 16933140635952216258,
+                  "kind": "Int",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "key": "ui_targetable_off_key",
+              "hash": 2789547755448605748,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "facing_ignore",
+              "hash": 3067981689322918244,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "default_command_additional_rally_weight_modifier",
+              "hash": 3180619597236374599,
+              "kind": "Int",
+              "value": 0
+            },
+            {
+              "key": "targeted_ability_option",
+              "hash": 3294984959644447870,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "$REF",
+                  "hash": 6998867517914059163,
+                  "kind": "CString",
+                  "value": "options\\none"
+                }
+              ]
+            },
+            {
+              "key": "enable_in_unit_types",
+              "hash": 3410256949995180665,
+              "kind": "List",
+              "value": []
+            },
+            {
+              "key": "ui_range",
+              "hash": 3450689389893437106,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "hold_period",
+              "hash": 3629510965638801167,
+              "kind": "Float",
+              "value": 0.0
+            },
+            {
+              "key": "garrison_target",
+              "hash": 3743186915577597213,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "construction_preview",
+              "hash": 3765770502938214421,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "int_properties",
+              "hash": 3813467384783756717,
+              "kind": "List",
+              "value": []
+            },
+            {
+              "key": "ui_targetable_receiver",
+              "hash": 4119272402069490478,
+              "kind": "CString",
+              "value": "local"
+            },
+            {
+              "key": "ui_reticule_radius_max",
+              "hash": 4598517262841414834,
+              "kind": "Float",
+              "value": 1.0
+            },
+            {
+              "key": "can_passive_ability_create_formation_squad_group",
+              "hash": 4970243166249850715,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "requirements_self_recharge",
+              "hash": 5099316049750874482,
+              "kind": "List2",
+              "value": []
+            },
+            {
+              "key": "squad_tree",
+              "hash": 5343997063537022223,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "statetree_node_prereq_self_requirement",
+              "hash": 5369708743583376262,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "squad_caster",
+              "hash": 5393114312981950037,
+              "kind": "CString",
+              "value": "all_entities"
+            },
+            {
+              "key": "float_properties",
+              "hash": 5431203190614248932,
+              "kind": "List",
+              "value": []
+            },
+            {
+              "key": "statetree_node_prereq_self_recharge_requirement",
+              "hash": 5589231533584852765,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "casters_can_evacuate",
+              "hash": 5779527530900250689,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "initial_recharge",
+              "hash": 5993390703958551299,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "min_range",
+              "hash": 6095418599823367234,
+              "kind": "Float",
+              "value": 0.0
+            },
+            {
+              "key": "can_use_ability_check_interval",
+              "hash": 6366149571547553231,
+              "kind": "Float",
+              "value": 0.125
+            },
+            {
+              "key": "cursor_ghost_blueprint",
+              "hash": 6377842935941415757,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "engage_combat",
+              "hash": 6408492608903443581,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "recharge_time",
+              "hash": 6578580196708522376,
+              "kind": "Float",
+              "value": 60.0
+            },
+            {
+              "key": "statetree_ability_id",
+              "hash": 6613128224576994426,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "show_range_reticule_in_contruction_item_preview",
+              "hash": 6616515947704669194,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "refundable",
+              "hash": 6788917946852164082,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ui_range_reticule_shows_while_active",
+              "hash": 6896939155899212915,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "fire_and_forget",
+              "hash": 7031746055605338820,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ability_active_state_tree_group",
+              "hash": 7237315751283329830,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "ability_activate_deferred_tree",
+                  "hash": 3755995924054066270,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "ability_activate_squad_tree",
+                  "hash": 5094475048612093844,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "ability_activate_entity_tree",
+                  "hash": 11741786413595757999,
+                  "kind": "CString",
+                  "value": "campaignMod_deploy_pavise_logic_fre"
+                }
+              ]
+            },
+            {
+              "key": "ui_target_origin_point",
+              "hash": 7456329795554349448,
+              "kind": "CString",
+              "value": "center"
+            },
+            {
+              "key": "clear_ability_on_blueprint_conversion",
+              "hash": 7938657914143775933,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "ui_combine_type",
+              "hash": 8036872681887710173,
+              "kind": "CString",
+              "value": "intersection"
+            },
+            {
+              "key": "ui_combine_priority",
+              "hash": 8150138508743196121,
+              "kind": "Int",
+              "value": 0
+            },
+            {
+              "key": "move_back_distance",
+              "hash": 8304338265413166124,
+              "kind": "Float",
+              "value": 10.0
+            },
+            {
+              "key": "ui_ability_can_display",
+              "hash": 8481275066641807213,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "can_target_in_fow",
+              "hash": 8588343019846944516,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "shared_timer",
+              "hash": 8780594931716464784,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "requirements_target",
+              "hash": 9214152916356941991,
+              "kind": "List2",
+              "value": []
+            },
+            {
+              "key": "ui_mini_map_capture",
+              "hash": 9320077706898721652,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ui_group_cast_type",
+              "hash": 9764272708607636908,
+              "kind": "Int",
+              "value": 1
+            },
+            {
+              "key": "ui_contextual_info",
+              "hash": 9892018753266967081,
+              "kind": "List2",
+              "value": []
+            },
+            {
+              "key": "entity_busy_time",
+              "hash": 10112933237555032603,
+              "kind": "Float",
+              "value": 0.125
+            },
+            {
+              "key": "construction_preview_override",
+              "hash": 10480628459914807074,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "pending_ability_out_of_range_behaviour",
+              "hash": 10528521752470266516,
+              "kind": "CString",
+              "value": "chase"
+            },
+            {
+              "key": "require_no_shot_block",
+              "hash": 10631172122998382400,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "can_move_to_cast",
+              "hash": 10702491752752441563,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "ability_description",
+              "hash": 10842956036122484803,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "ui_click_point_action_key",
+              "hash": 10970614102608398948,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "cursor_ghost_blueprint_angle",
+              "hash": 10978814905199761516,
+              "kind": "Float",
+              "value": 180.0
+            },
+            {
+              "key": "cursor_ghost_ebp",
+              "hash": 10979286455902813106,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "default_command_weight_modifier",
+              "hash": 11011906133555271047,
+              "kind": "Int",
+              "value": 0
+            },
+            {
+              "key": "shared_timer_player_wide",
+              "hash": 11250788737947579717,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "toggled_recharge_time_on",
+              "hash": 11303164158251962704,
+              "kind": "Float",
+              "value": 0.0
+            },
+            {
+              "key": "proxy_range_option",
+              "hash": 11429581585379570472,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "$REF",
+                  "hash": 6998867517914059163,
+                  "kind": "CString",
+                  "value": "options\\none"
+                }
+              ]
+            },
+            {
+              "key": "requirements",
+              "hash": 11984153124293111571,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "required_not",
+                  "hash": 2102538541214721618,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "requirement_table",
+                      "hash": 650802286455987548,
+                      "kind": "List2",
+                      "value": [
+                        {
+                          "key": "required_near_entity",
+                          "hash": 6787045500377801826,
+                          "kind": "List",
+                          "value": [
+                            {
+                              "key": "nearby_collision_filter",
+                              "hash": 6099741583778065018,
+                              "kind": "Int",
+                              "value": 0
+                            },
+                            {
+                              "key": "$REF",
+                              "hash": 6998867517914059163,
+                              "kind": "CString",
+                              "value": "requirements\\required_near_entity"
+                            },
+                            {
+                              "key": "near_entity_requirement",
+                              "hash": 7265380515945656154,
+                              "kind": "List2",
+                              "value": [
+                                {
+                                  "key": "required_unit_type",
+                                  "hash": 7124687582976635063,
+                                  "kind": "List",
+                                  "value": [
+                                    {
+                                      "key": "qualify_option",
+                                      "hash": 594477079379944706,
+                                      "kind": "List",
+                                      "value": [
+                                        {
+                                          "key": "$REF",
+                                          "hash": 6998867517914059163,
+                                          "kind": "CString",
+                                          "value": "options\\none"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "key": "$REF",
+                                      "hash": 6998867517914059163,
+                                      "kind": "CString",
+                                      "value": "requirements\\required_unit_type"
+                                    },
+                                    {
+                                      "key": "unit_type",
+                                      "hash": 8394898082430589868,
+                                      "kind": "CString",
+                                      "value": "wall"
+                                    },
+                                    {
+                                      "key": "search_load_out",
+                                      "hash": 16418238355332016902,
+                                      "kind": "Boolean",
+                                      "value": false
+                                    },
+                                    {
+                                      "key": "reason",
+                                      "hash": 17331600663591462485,
+                                      "kind": "CString",
+                                      "value": "usage"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "key": "area_option",
+                              "hash": 10269779401074557373,
+                              "kind": "List",
+                              "value": [
+                                {
+                                  "key": "inner_radius",
+                                  "hash": 4690681437824443236,
+                                  "kind": "Float",
+                                  "value": 0.0
+                                },
+                                {
+                                  "key": "dynamic_radius_type",
+                                  "hash": 5785890921145671482,
+                                  "kind": "Int",
+                                  "value": 0
+                                },
+                                {
+                                  "key": "$REF",
+                                  "hash": 6998867517914059163,
+                                  "kind": "CString",
+                                  "value": "options\\area_info_options\\pie_area_option"
+                                },
+                                {
+                                  "key": "angle_right",
+                                  "hash": 8149224532254223807,
+                                  "kind": "Float",
+                                  "value": 45.0
+                                },
+                                {
+                                  "key": "angle_left",
+                                  "hash": 9420659523315331313,
+                                  "kind": "Float",
+                                  "value": -45.0
+                                },
+                                {
+                                  "key": "outer_radius",
+                                  "hash": 12978982131777066317,
+                                  "kind": "Float",
+                                  "value": 4.0
+                                }
+                              ]
+                            },
+                            {
+                              "key": "reason",
+                              "hash": 17331600663591462485,
+                              "kind": "CString",
+                              "value": "usage"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "requirements\\required_not"
+                    },
+                    {
+                      "key": "ui_name",
+                      "hash": 10495630658248407649,
+                      "kind": "Int",
+                      "value": 11191903
+                    },
+                    {
+                      "key": "reason",
+                      "hash": 17331600663591462485,
+                      "kind": "CString",
+                      "value": "usage"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "projectile_for_preview",
+              "hash": 11984389543680012014,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "ui_direction_requirement",
+              "hash": 12050701467026786658,
+              "kind": "CString",
+              "value": "nondirectional"
+            },
+            {
+              "key": "should_trigger_immediately",
+              "hash": 12651607567147495089,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "enable_in_building",
+              "hash": 12781827262588432143,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "entity_tree",
+              "hash": 12784089958060596679,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "caster_close_in_distance",
+              "hash": 12819408367004234434,
+              "kind": "Float",
+              "value": 0.0
+            },
+            {
+              "key": "facing_angle",
+              "hash": 12941075160628935111,
+              "kind": "Float",
+              "value": 5.0
+            },
+            {
+              "key": "ui_info",
+              "hash": 13020873371116350556,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "debug_text",
+                  "hash": 152455752430047345,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "screen_name_formatter",
+                  "hash": 305462759305008410,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "screen_name_short_formatter",
+                  "hash": 1642065020103099422,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "reveal_for_decryption",
+                  "hash": 2104501476585252711,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "icon_alternate_name",
+                  "hash": 4953303315854035601,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "brief_text_formatter",
+                  "hash": 5118372037438301495,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "sound",
+                  "hash": 5961632817651400416,
+                  "kind": "CString",
+                  "value": "sfx_ability_cast_base"
+                },
+                {
+                  "key": "icon_name",
+                  "hash": 7203471124514310600,
+                  "kind": "CString",
+                  "value": "races\\french\\abilities\\deploy_pavise"
+                },
+                {
+                  "key": "ui_combine_type",
+                  "hash": 8036872681887710173,
+                  "kind": "CString",
+                  "value": "intersection"
+                },
+                {
+                  "key": "overlay_name",
+                  "hash": 8049760208194009341,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "hotkey_name",
+                  "hash": 8906936321599725488,
+                  "kind": "CString",
+                  "value": "Q"
+                },
+                {
+                  "key": "sound_alternative",
+                  "hash": 10476899042793800425,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "tooltip_data_template",
+                  "hash": 10732985850218957366,
+                  "kind": "CString",
+                  "value": "AbilityDataTemplate"
+                },
+                {
+                  "key": "help_text_formatter",
+                  "hash": 11135796960408608583,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "ui_text_formatter"
+                    },
+                    {
+                      "key": "formatter",
+                      "hash": 16764647726920512531,
+                      "kind": "Int",
+                      "value": 11258402
+                    },
+                    {
+                      "key": "formatter_arguments",
+                      "hash": 17754659973238456016,
+                      "kind": "List2",
+                      "value": [
+                        {
+                          "key": "int_value",
+                          "hash": 13582802670765098745,
+                          "kind": "Int",
+                          "value": 5
+                        },
+                        {
+                          "key": "int_value",
+                          "hash": 13582802670765098745,
+                          "kind": "Int",
+                          "value": 30
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "screen_name_alternate_formatter",
+                  "hash": 11404667765294211072,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "extra_text_formatter",
+                  "hash": 12003238332482319775,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "ui_info_extended",
+                  "hash": 12797928596585789300,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "relic_radial_menu_info",
+                      "hash": 418199564037331192,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "linked",
+                          "hash": 3279564523584460759,
+                          "kind": "List2",
+                          "value": [
+                            {
+                              "key": "$PBGNAME",
+                              "hash": 5464984021694833596,
+                              "kind": "CString",
+                              "value": ""
+                            },
+                            {
+                              "key": "$PBGMAP",
+                              "hash": 1238668035833122403,
+                              "kind": "CString",
+                              "value": ""
+                            }
+                          ]
+                        },
+                        {
+                          "key": "priority",
+                          "hash": 3706601655199670163,
+                          "kind": "Int",
+                          "value": 0
+                        },
+                        {
+                          "key": "$REF",
+                          "hash": 6998867517914059163,
+                          "kind": "CString",
+                          "value": "relic_radial_menu\\relic_radial_menu_info"
+                        },
+                        {
+                          "key": "nominal_index",
+                          "hash": 16900476784542383745,
+                          "kind": "Int",
+                          "value": -1
+                        },
+                        {
+                          "key": "menu",
+                          "hash": 17747786001542750743,
+                          "kind": "List2",
+                          "value": [
+                            {
+                              "key": "$PBGNAME",
+                              "hash": 5464984021694833596,
+                              "kind": "CString",
+                              "value": "default_unit_ability"
+                            },
+                            {
+                              "key": "$PBGMAP",
+                              "hash": 1238668035833122403,
+                              "kind": "CString",
+                              "value": "relic_radial_menu\\relic_radial_menu"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "key": "observer_type",
+                      "hash": 1412325442859986734,
+                      "kind": "Int",
+                      "value": 1
+                    },
+                    {
+                      "key": "quick_commands_info",
+                      "hash": 5055169763293637906,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "$REF",
+                          "hash": 6998867517914059163,
+                          "kind": "CString",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "quick_commands_launch_hud_info",
+                      "hash": 6303400528724777763,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "$REF",
+                          "hash": 6998867517914059163,
+                          "kind": "CString",
+                          "value": "ui_quick_commands_launch_hud_info"
+                        },
+                        {
+                          "key": "quick_commands_hold_time",
+                          "hash": 9826430096975051297,
+                          "kind": "Int",
+                          "value": 1
+                        },
+                        {
+                          "key": "quick_commands_hotkey",
+                          "hash": 10709685427316977625,
+                          "kind": "CString",
+                          "value": ""
+                        },
+                        {
+                          "key": "quick_commands_priority",
+                          "hash": 10916464437490962360,
+                          "kind": "Int",
+                          "value": -1
+                        },
+                        {
+                          "key": "quick_commands_slot_index",
+                          "hash": 15115408896535643371,
+                          "kind": "Int",
+                          "value": -1
+                        }
+                      ]
+                    },
+                    {
+                      "key": "issuable_info",
+                      "hash": 6499531308199298699,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "secondary_issuable",
+                          "hash": 4976731445824627946,
+                          "kind": "List2",
+                          "value": [
+                            {
+                              "key": "$PBGNAME",
+                              "hash": 5464984021694833596,
+                              "kind": "CString",
+                              "value": ""
+                            },
+                            {
+                              "key": "$PBGMAP",
+                              "hash": 1238668035833122403,
+                              "kind": "CString",
+                              "value": ""
+                            }
+                          ]
+                        },
+                        {
+                          "key": "is_secondary",
+                          "hash": 13814017388298673726,
+                          "kind": "Boolean",
+                          "value": false
+                        }
+                      ]
+                    },
+                    {
+                      "key": "ping_menu_info",
+                      "hash": 6973376830527721660,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "$REF",
+                          "hash": 6998867517914059163,
+                          "kind": "CString",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "tables\\ui_info_ext"
+                    },
+                    {
+                      "key": "quick_abilities_info",
+                      "hash": 7790335697959227400,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "quick_abilities_page_num",
+                          "hash": 3356912067062492659,
+                          "kind": "Int",
+                          "value": 1
+                        },
+                        {
+                          "key": "dpad_position",
+                          "hash": 5341615905601908854,
+                          "kind": "Int",
+                          "value": 3
+                        },
+                        {
+                          "key": "$REF",
+                          "hash": 6998867517914059163,
+                          "kind": "CString",
+                          "value": "ui_quick_abilities_info"
+                        },
+                        {
+                          "key": "quick_abilities_priority",
+                          "hash": 14506118498826234331,
+                          "kind": "Int",
+                          "value": 4
+                        }
+                      ]
+                    },
+                    {
+                      "key": "command_card_info",
+                      "hash": 9538607839506212259,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "$REF",
+                          "hash": 6998867517914059163,
+                          "kind": "CString",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "quick_formation_info",
+                      "hash": 13059243416827263861,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "$REF",
+                          "hash": 6998867517914059163,
+                          "kind": "CString",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "category",
+                      "hash": 16559710094788391263,
+                      "kind": "Int",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "key": "screen_name",
+                  "hash": 15035202813555506846,
+                  "kind": "Int",
+                  "value": 11164963
+                },
+                {
+                  "key": "help_text_alternate_formatter",
+                  "hash": 16255808234943214499,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "always_refund_cost_if_failed",
+              "hash": 13068332370234867951,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "use_simbox_to_simbox_range",
+              "hash": 13171971474118776706,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "ui_targetable_sm_key",
+              "hash": 13178628513916563605,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "ui_modal_highlight",
+              "hash": 13402041801206685434,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "map_sector",
+                  "hash": 749720997602135921,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "world_sector",
+                  "hash": 8643578873840278984,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "map_sector_hq_link_extender",
+                  "hash": 12100979450199492845,
+                  "kind": "Boolean",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "key": "ui_visibility_ignore_prerequisite",
+              "hash": 13511621512224204345,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "casting_option",
+              "hash": 13864620926667170959,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "$REF",
+                  "hash": 6998867517914059163,
+                  "kind": "CString",
+                  "value": "options\\none"
+                }
+              ]
+            },
+            {
+              "key": "cost_to_player",
+              "hash": 14085563775366937569,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "food",
+                  "hash": 1642648486008160419,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "action",
+                  "hash": 5342812467725438597,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "gold",
+                  "hash": 7631488968183620829,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "militia_hre",
+                  "hash": 8115382159876774742,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "popcap",
+                  "hash": 10534165980232519832,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "stone",
+                  "hash": 11136004903374842374,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "merc_byz",
+                  "hash": 15228413151750088298,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "command",
+                  "hash": 15903017239201685541,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "wood",
+                  "hash": 16414556571852284563,
+                  "kind": "Float",
+                  "value": 0.0
+                }
+              ]
+            },
+            {
+              "key": "disable_when_active",
+              "hash": 14373109172292094773,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "facing_ignore_during_active",
+              "hash": 14507815389285967512,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ability_description_storage_index",
+              "hash": 14673844054206761895,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "toggle_ability_group",
+              "hash": 15017930210120253069,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "statetree_node_prereq_target_requirement",
+              "hash": 15095864956297615233,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "ui_range_reticule_first_caster_only",
+              "hash": 15308216161232331496,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "range_ignore",
+              "hash": 15520974463585257129,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "can_queue_passive_ability",
+              "hash": 16104808082914562345,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "range",
+              "hash": 16597999082088934835,
+              "kind": "Float",
+              "value": 35.0
+            },
+            {
+              "key": "disable_combat",
+              "hash": 16618251296080741427,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "global_tree",
+              "hash": 16721247307401628576,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "toggled_recharge_time_off",
+              "hash": 16911763583286442534,
+              "kind": "Float",
+              "value": 0.0
+            },
+            {
+              "key": "ui_targetable_on_key",
+              "hash": 16913833886308369910,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "ui_progress_bar_type",
+              "hash": 17185748780926010306,
+              "kind": "CString",
+              "value": "auto_bar"
+            },
+            {
+              "key": "can_cast_whilst_constructing",
+              "hash": 17267708642597054034,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "can_cast_again_whilst_pending",
+              "hash": 17356065584474536378,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ignore_teardown_on_convert",
+              "hash": 17396136918983886992,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ui_reticule_radius_min",
+              "hash": 17513258532718669828,
+              "kind": "Float",
+              "value": 1.0
+            },
+            {
+              "key": "cost_to_squad",
+              "hash": 17583728599313180136,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "food",
+                  "hash": 1642648486008160419,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "action",
+                  "hash": 5342812467725438597,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "gold",
+                  "hash": 7631488968183620829,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "militia_hre",
+                  "hash": 8115382159876774742,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "popcap",
+                  "hash": 10534165980232519832,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "stone",
+                  "hash": 11136004903374842374,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "merc_byz",
+                  "hash": 15228413151750088298,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "command",
+                  "hash": 15903017239201685541,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "wood",
+                  "hash": 16414556571852284563,
+                  "kind": "Float",
+                  "value": 0.0
+                }
+              ]
+            },
+            {
+              "key": "can_be_interrupted",
+              "hash": 17946092584286263143,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "speech_code",
+              "hash": 18190439530397609191,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "hotkey_binding",
+              "hash": 18228278308013522726,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": "ability_deploy_pavise"
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": "hotkeys\\hotkey_binding"
+                }
+              ]
+            },
+            {
+              "key": "ability_category",
+              "hash": 18338944239342428321,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pbgid",
+          "hash": 13005689997087892415,
+          "kind": "Int",
+          "value": 1073741871
+        },
+        {
+          "key": "parent_pbg",
+          "hash": 14182368983149674761,
+          "kind": "List2",
+          "value": [
+            {
+              "key": "$PBGNAME",
+              "hash": 5464984021694833596,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "$PBGMAP",
+              "hash": 1238668035833122403,
+              "kind": "CString",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "xp3",
+      "hash": 14793375363332585188,
+      "kind": "List",
+      "value": [
+        {
+          "key": "ability_bag",
+          "hash": 8216355973031886490,
+          "kind": "List",
+          "value": [
+            {
+              "key": "ui_range_reticule_can_cast_only",
+              "hash": 11355328205905687,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ui_ability_issue_type",
+              "hash": 68817816040546682,
+              "kind": "Int",
+              "value": 0
+            },
+            {
+              "key": "activation",
+              "hash": 311939270314708962,
+              "kind": "CString",
+              "value": "self_targeted"
+            },
+            {
+              "key": "ui_cursor",
+              "hash": 647156199241300307,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "cursor_nonmodal_good",
+                  "hash": 4624111137619130,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "cursor_good",
+                  "hash": 11553658937709081713,
+                  "kind": "CString",
+                  "value": "modal_build"
+                },
+                {
+                  "key": "cursor_bad",
+                  "hash": 12876329973209211840,
+                  "kind": "CString",
+                  "value": "modal_ability_cancel"
+                }
+              ]
+            },
+            {
+              "key": "enable_in_vehicle",
+              "hash": 652849618235291294,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "final_close_in_distance",
+              "hash": 744747066658451937,
+              "kind": "Float",
+              "value": 0.0
+            },
+            {
+              "key": "ability_super_event_cue",
+              "hash": 782348486544571276,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ui_menu",
+              "hash": 809583501614507943,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "ui_ability_group",
+              "hash": 922632038486172429,
+              "kind": "Int",
+              "value": 0
+            },
+            {
+              "key": "ui_reticule",
+              "hash": 1530017936787090710,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "validate_actions",
+              "hash": 1861123722469083899,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "target",
+              "hash": 2000632033917849954,
+              "kind": "CString",
+              "value": "tp_any"
+            },
+            {
+              "key": "channeling",
+              "hash": 2223682735475920199,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "$REF",
+                  "hash": 6998867517914059163,
+                  "kind": "CString",
+                  "value": "options\\none"
+                }
+              ]
+            },
+            {
+              "key": "move_back",
+              "hash": 2259246640070244781,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ui_range_reticule_enable_team_color",
+              "hash": 2342815154130410076,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ability_super",
+              "hash": 2346337005908687398,
+              "kind": "CString",
+              "value": "tp_none"
+            },
+            {
+              "key": "can_cast_outside_active_battle_field",
+              "hash": 2426451862013894468,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ui_position",
+              "hash": 2569609609292370995,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "ui_position_column",
+                  "hash": 11627997653030084307,
+                  "kind": "Int",
+                  "value": 1
+                },
+                {
+                  "key": "ui_position_row",
+                  "hash": 16933140635952216258,
+                  "kind": "Int",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "key": "ui_targetable_off_key",
+              "hash": 2789547755448605748,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "facing_ignore",
+              "hash": 3067981689322918244,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "default_command_additional_rally_weight_modifier",
+              "hash": 3180619597236374599,
+              "kind": "Int",
+              "value": 0
+            },
+            {
+              "key": "targeted_ability_option",
+              "hash": 3294984959644447870,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "$REF",
+                  "hash": 6998867517914059163,
+                  "kind": "CString",
+                  "value": "options\\none"
+                }
+              ]
+            },
+            {
+              "key": "enable_in_unit_types",
+              "hash": 3410256949995180665,
+              "kind": "List",
+              "value": []
+            },
+            {
+              "key": "ui_range",
+              "hash": 3450689389893437106,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "hold_period",
+              "hash": 3629510965638801167,
+              "kind": "Float",
+              "value": 0.0
+            },
+            {
+              "key": "garrison_target",
+              "hash": 3743186915577597213,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "construction_preview",
+              "hash": 3765770502938214421,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "int_properties",
+              "hash": 3813467384783756717,
+              "kind": "List",
+              "value": []
+            },
+            {
+              "key": "ui_targetable_receiver",
+              "hash": 4119272402069490478,
+              "kind": "CString",
+              "value": "local"
+            },
+            {
+              "key": "ui_reticule_radius_max",
+              "hash": 4598517262841414834,
+              "kind": "Float",
+              "value": 1.0
+            },
+            {
+              "key": "can_passive_ability_create_formation_squad_group",
+              "hash": 4970243166249850715,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "requirements_self_recharge",
+              "hash": 5099316049750874482,
+              "kind": "List2",
+              "value": []
+            },
+            {
+              "key": "squad_tree",
+              "hash": 5343997063537022223,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "statetree_node_prereq_self_requirement",
+              "hash": 5369708743583376262,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "squad_caster",
+              "hash": 5393114312981950037,
+              "kind": "CString",
+              "value": "all_entities"
+            },
+            {
+              "key": "float_properties",
+              "hash": 5431203190614248932,
+              "kind": "List",
+              "value": []
+            },
+            {
+              "key": "statetree_node_prereq_self_recharge_requirement",
+              "hash": 5589231533584852765,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "casters_can_evacuate",
+              "hash": 5779527530900250689,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "initial_recharge",
+              "hash": 5993390703958551299,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "min_range",
+              "hash": 6095418599823367234,
+              "kind": "Float",
+              "value": 0.0
+            },
+            {
+              "key": "can_use_ability_check_interval",
+              "hash": 6366149571547553231,
+              "kind": "Float",
+              "value": 0.125
+            },
+            {
+              "key": "cursor_ghost_blueprint",
+              "hash": 6377842935941415757,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "engage_combat",
+              "hash": 6408492608903443581,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "recharge_time",
+              "hash": 6578580196708522376,
+              "kind": "Float",
+              "value": 60.0
+            },
+            {
+              "key": "statetree_ability_id",
+              "hash": 6613128224576994426,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "show_range_reticule_in_contruction_item_preview",
+              "hash": 6616515947704669194,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "refundable",
+              "hash": 6788917946852164082,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ui_range_reticule_shows_while_active",
+              "hash": 6896939155899212915,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "fire_and_forget",
+              "hash": 7031746055605338820,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ability_active_state_tree_group",
+              "hash": 7237315751283329830,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "ability_activate_deferred_tree",
+                  "hash": 3755995924054066270,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "ability_activate_squad_tree",
+                  "hash": 5094475048612093844,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "ability_activate_entity_tree",
+                  "hash": 11741786413595757999,
+                  "kind": "CString",
+                  "value": "xp3_deploy_pavise_logic_fre"
+                }
+              ]
+            },
+            {
+              "key": "ui_target_origin_point",
+              "hash": 7456329795554349448,
+              "kind": "CString",
+              "value": "center"
+            },
+            {
+              "key": "clear_ability_on_blueprint_conversion",
+              "hash": 7938657914143775933,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "ui_combine_type",
+              "hash": 8036872681887710173,
+              "kind": "CString",
+              "value": "union"
+            },
+            {
+              "key": "ui_combine_priority",
+              "hash": 8150138508743196121,
+              "kind": "Int",
+              "value": 0
+            },
+            {
+              "key": "move_back_distance",
+              "hash": 8304338265413166124,
+              "kind": "Float",
+              "value": 10.0
+            },
+            {
+              "key": "ui_ability_can_display",
+              "hash": 8481275066641807213,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "can_target_in_fow",
+              "hash": 8588343019846944516,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "shared_timer",
+              "hash": 8780594931716464784,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "requirements_target",
+              "hash": 9214152916356941991,
+              "kind": "List2",
+              "value": []
+            },
+            {
+              "key": "ui_mini_map_capture",
+              "hash": 9320077706898721652,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ui_group_cast_type",
+              "hash": 9764272708607636908,
+              "kind": "Int",
+              "value": 1
+            },
+            {
+              "key": "ui_contextual_info",
+              "hash": 9892018753266967081,
+              "kind": "List2",
+              "value": []
+            },
+            {
+              "key": "entity_busy_time",
+              "hash": 10112933237555032603,
+              "kind": "Float",
+              "value": 0.125
+            },
+            {
+              "key": "construction_preview_override",
+              "hash": 10480628459914807074,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "pending_ability_out_of_range_behaviour",
+              "hash": 10528521752470266516,
+              "kind": "CString",
+              "value": "chase"
+            },
+            {
+              "key": "require_no_shot_block",
+              "hash": 10631172122998382400,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "can_move_to_cast",
+              "hash": 10702491752752441563,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "ability_description",
+              "hash": 10842956036122484803,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "ui_click_point_action_key",
+              "hash": 10970614102608398948,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "cursor_ghost_blueprint_angle",
+              "hash": 10978814905199761516,
+              "kind": "Float",
+              "value": 180.0
+            },
+            {
+              "key": "cursor_ghost_ebp",
+              "hash": 10979286455902813106,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "default_command_weight_modifier",
+              "hash": 11011906133555271047,
+              "kind": "Int",
+              "value": 0
+            },
+            {
+              "key": "shared_timer_player_wide",
+              "hash": 11250788737947579717,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "toggled_recharge_time_on",
+              "hash": 11303164158251962704,
+              "kind": "Float",
+              "value": 0.0
+            },
+            {
+              "key": "proxy_range_option",
+              "hash": 11429581585379570472,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "$REF",
+                  "hash": 6998867517914059163,
+                  "kind": "CString",
+                  "value": "options\\none"
+                }
+              ]
+            },
+            {
+              "key": "requirements",
+              "hash": 11984153124293111571,
+              "kind": "List2",
+              "value": []
+            },
+            {
+              "key": "projectile_for_preview",
+              "hash": 11984389543680012014,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "ui_direction_requirement",
+              "hash": 12050701467026786658,
+              "kind": "CString",
+              "value": "nondirectional"
+            },
+            {
+              "key": "should_trigger_immediately",
+              "hash": 12651607567147495089,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "enable_in_building",
+              "hash": 12781827262588432143,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "entity_tree",
+              "hash": 12784089958060596679,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "caster_close_in_distance",
+              "hash": 12819408367004234434,
+              "kind": "Float",
+              "value": 0.0
+            },
+            {
+              "key": "facing_angle",
+              "hash": 12941075160628935111,
+              "kind": "Float",
+              "value": 5.0
+            },
+            {
+              "key": "ui_info",
+              "hash": 13020873371116350556,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "debug_text",
+                  "hash": 152455752430047345,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "screen_name_formatter",
+                  "hash": 305462759305008410,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "screen_name_short_formatter",
+                  "hash": 1642065020103099422,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "reveal_for_decryption",
+                  "hash": 2104501476585252711,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "icon_alternate_name",
+                  "hash": 4953303315854035601,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "brief_text_formatter",
+                  "hash": 5118372037438301495,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "sound",
+                  "hash": 5961632817651400416,
+                  "kind": "CString",
+                  "value": "sfx_ability_cast_base"
+                },
+                {
+                  "key": "icon_name",
+                  "hash": 7203471124514310600,
+                  "kind": "CString",
+                  "value": "races\\french\\abilities\\deploy_pavise"
+                },
+                {
+                  "key": "ui_combine_type",
+                  "hash": 8036872681887710173,
+                  "kind": "CString",
+                  "value": "union"
+                },
+                {
+                  "key": "overlay_name",
+                  "hash": 8049760208194009341,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "hotkey_name",
+                  "hash": 8906936321599725488,
+                  "kind": "CString",
+                  "value": "Q"
+                },
+                {
+                  "key": "sound_alternative",
+                  "hash": 10476899042793800425,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "tooltip_data_template",
+                  "hash": 10732985850218957366,
+                  "kind": "CString",
+                  "value": "UniqueAbilityDataTemplate"
+                },
+                {
+                  "key": "help_text_formatter",
+                  "hash": 11135796960408608583,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "ui_text_formatter"
+                    },
+                    {
+                      "key": "formatter",
+                      "hash": 16764647726920512531,
+                      "kind": "Int",
+                      "value": 11203287
+                    },
+                    {
+                      "key": "formatter_arguments",
+                      "hash": 17754659973238456016,
+                      "kind": "List2",
+                      "value": [
+                        {
+                          "key": "int_value",
+                          "hash": 13582802670765098745,
+                          "kind": "Int",
+                          "value": 1
+                        },
+                        {
+                          "key": "int_value",
+                          "hash": 13582802670765098745,
+                          "kind": "Int",
+                          "value": 5
+                        },
+                        {
+                          "key": "int_value",
+                          "hash": 13582802670765098745,
+                          "kind": "Int",
+                          "value": 30
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "screen_name_alternate_formatter",
+                  "hash": 11404667765294211072,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "extra_text_formatter",
+                  "hash": 12003238332482319775,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "ui_info_extended",
+                  "hash": 12797928596585789300,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "relic_radial_menu_info",
+                      "hash": 418199564037331192,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "linked",
+                          "hash": 3279564523584460759,
+                          "kind": "List2",
+                          "value": [
+                            {
+                              "key": "$PBGNAME",
+                              "hash": 5464984021694833596,
+                              "kind": "CString",
+                              "value": ""
+                            },
+                            {
+                              "key": "$PBGMAP",
+                              "hash": 1238668035833122403,
+                              "kind": "CString",
+                              "value": ""
+                            }
+                          ]
+                        },
+                        {
+                          "key": "priority",
+                          "hash": 3706601655199670163,
+                          "kind": "Int",
+                          "value": 0
+                        },
+                        {
+                          "key": "$REF",
+                          "hash": 6998867517914059163,
+                          "kind": "CString",
+                          "value": "relic_radial_menu\\relic_radial_menu_info"
+                        },
+                        {
+                          "key": "nominal_index",
+                          "hash": 16900476784542383745,
+                          "kind": "Int",
+                          "value": -1
+                        },
+                        {
+                          "key": "menu",
+                          "hash": 17747786001542750743,
+                          "kind": "List2",
+                          "value": [
+                            {
+                              "key": "$PBGNAME",
+                              "hash": 5464984021694833596,
+                              "kind": "CString",
+                              "value": "default_unit_ability"
+                            },
+                            {
+                              "key": "$PBGMAP",
+                              "hash": 1238668035833122403,
+                              "kind": "CString",
+                              "value": "relic_radial_menu\\relic_radial_menu"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "key": "observer_type",
+                      "hash": 1412325442859986734,
+                      "kind": "Int",
+                      "value": 1
+                    },
+                    {
+                      "key": "quick_commands_info",
+                      "hash": 5055169763293637906,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "$REF",
+                          "hash": 6998867517914059163,
+                          "kind": "CString",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "quick_commands_launch_hud_info",
+                      "hash": 6303400528724777763,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "$REF",
+                          "hash": 6998867517914059163,
+                          "kind": "CString",
+                          "value": "ui_quick_commands_launch_hud_info"
+                        },
+                        {
+                          "key": "quick_commands_hold_time",
+                          "hash": 9826430096975051297,
+                          "kind": "Int",
+                          "value": 1
+                        },
+                        {
+                          "key": "quick_commands_hotkey",
+                          "hash": 10709685427316977625,
+                          "kind": "CString",
+                          "value": "x_quick_command_y"
+                        },
+                        {
+                          "key": "quick_commands_priority",
+                          "hash": 10916464437490962360,
+                          "kind": "Int",
+                          "value": 5
+                        },
+                        {
+                          "key": "quick_commands_slot_index",
+                          "hash": 15115408896535643371,
+                          "kind": "Int",
+                          "value": 2
+                        }
+                      ]
+                    },
+                    {
+                      "key": "issuable_info",
+                      "hash": 6499531308199298699,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "secondary_issuable",
+                          "hash": 4976731445824627946,
+                          "kind": "List2",
+                          "value": [
+                            {
+                              "key": "$PBGNAME",
+                              "hash": 5464984021694833596,
+                              "kind": "CString",
+                              "value": ""
+                            },
+                            {
+                              "key": "$PBGMAP",
+                              "hash": 1238668035833122403,
+                              "kind": "CString",
+                              "value": ""
+                            }
+                          ]
+                        },
+                        {
+                          "key": "is_secondary",
+                          "hash": 13814017388298673726,
+                          "kind": "Boolean",
+                          "value": false
+                        }
+                      ]
+                    },
+                    {
+                      "key": "ping_menu_info",
+                      "hash": 6973376830527721660,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "$REF",
+                          "hash": 6998867517914059163,
+                          "kind": "CString",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "tables\\ui_info_ext"
+                    },
+                    {
+                      "key": "quick_abilities_info",
+                      "hash": 7790335697959227400,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "quick_abilities_page_num",
+                          "hash": 3356912067062492659,
+                          "kind": "Int",
+                          "value": 1
+                        },
+                        {
+                          "key": "dpad_position",
+                          "hash": 5341615905601908854,
+                          "kind": "Int",
+                          "value": 3
+                        },
+                        {
+                          "key": "$REF",
+                          "hash": 6998867517914059163,
+                          "kind": "CString",
+                          "value": "ui_quick_abilities_info"
+                        },
+                        {
+                          "key": "quick_abilities_priority",
+                          "hash": 14506118498826234331,
+                          "kind": "Int",
+                          "value": 5
+                        }
+                      ]
+                    },
+                    {
+                      "key": "command_card_info",
+                      "hash": 9538607839506212259,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "$REF",
+                          "hash": 6998867517914059163,
+                          "kind": "CString",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "quick_formation_info",
+                      "hash": 13059243416827263861,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "$REF",
+                          "hash": 6998867517914059163,
+                          "kind": "CString",
+                          "value": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "category",
+                      "hash": 16559710094788391263,
+                      "kind": "Int",
+                      "value": 0
+                    }
+                  ]
+                },
+                {
+                  "key": "screen_name",
+                  "hash": 15035202813555506846,
+                  "kind": "Int",
+                  "value": 11164963
+                },
+                {
+                  "key": "help_text_alternate_formatter",
+                  "hash": 16255808234943214499,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "always_refund_cost_if_failed",
+              "hash": 13068332370234867951,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "use_simbox_to_simbox_range",
+              "hash": 13171971474118776706,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "ui_targetable_sm_key",
+              "hash": 13178628513916563605,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "ui_modal_highlight",
+              "hash": 13402041801206685434,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "map_sector",
+                  "hash": 749720997602135921,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "world_sector",
+                  "hash": 8643578873840278984,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "map_sector_hq_link_extender",
+                  "hash": 12100979450199492845,
+                  "kind": "Boolean",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "key": "ui_visibility_ignore_prerequisite",
+              "hash": 13511621512224204345,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "casting_option",
+              "hash": 13864620926667170959,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "$REF",
+                  "hash": 6998867517914059163,
+                  "kind": "CString",
+                  "value": "options\\none"
+                }
+              ]
+            },
+            {
+              "key": "cost_to_player",
+              "hash": 14085563775366937569,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "food",
+                  "hash": 1642648486008160419,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "action",
+                  "hash": 5342812467725438597,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "gold",
+                  "hash": 7631488968183620829,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "militia_hre",
+                  "hash": 8115382159876774742,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "popcap",
+                  "hash": 10534165980232519832,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "stone",
+                  "hash": 11136004903374842374,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "merc_byz",
+                  "hash": 15228413151750088298,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "command",
+                  "hash": 15903017239201685541,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "wood",
+                  "hash": 16414556571852284563,
+                  "kind": "Float",
+                  "value": 0.0
+                }
+              ]
+            },
+            {
+              "key": "disable_when_active",
+              "hash": 14373109172292094773,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "facing_ignore_during_active",
+              "hash": 14507815389285967512,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ability_description_storage_index",
+              "hash": 14673844054206761895,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "toggle_ability_group",
+              "hash": 15017930210120253069,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "statetree_node_prereq_target_requirement",
+              "hash": 15095864956297615233,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "ui_range_reticule_first_caster_only",
+              "hash": 15308216161232331496,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "range_ignore",
+              "hash": 15520974463585257129,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "can_queue_passive_ability",
+              "hash": 16104808082914562345,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "range",
+              "hash": 16597999082088934835,
+              "kind": "Float",
+              "value": 35.0
+            },
+            {
+              "key": "disable_combat",
+              "hash": 16618251296080741427,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "global_tree",
+              "hash": 16721247307401628576,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "toggled_recharge_time_off",
+              "hash": 16911763583286442534,
+              "kind": "Float",
+              "value": 0.0
+            },
+            {
+              "key": "ui_targetable_on_key",
+              "hash": 16913833886308369910,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "ui_progress_bar_type",
+              "hash": 17185748780926010306,
+              "kind": "CString",
+              "value": "auto_bar"
+            },
+            {
+              "key": "can_cast_whilst_constructing",
+              "hash": 17267708642597054034,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "can_cast_again_whilst_pending",
+              "hash": 17356065584474536378,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ignore_teardown_on_convert",
+              "hash": 17396136918983886992,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "ui_reticule_radius_min",
+              "hash": 17513258532718669828,
+              "kind": "Float",
+              "value": 1.0
+            },
+            {
+              "key": "cost_to_squad",
+              "hash": 17583728599313180136,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "food",
+                  "hash": 1642648486008160419,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "action",
+                  "hash": 5342812467725438597,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "gold",
+                  "hash": 7631488968183620829,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "militia_hre",
+                  "hash": 8115382159876774742,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "popcap",
+                  "hash": 10534165980232519832,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "stone",
+                  "hash": 11136004903374842374,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "merc_byz",
+                  "hash": 15228413151750088298,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "command",
+                  "hash": 15903017239201685541,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "wood",
+                  "hash": 16414556571852284563,
+                  "kind": "Float",
+                  "value": 0.0
+                }
+              ]
+            },
+            {
+              "key": "can_be_interrupted",
+              "hash": 17946092584286263143,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "speech_code",
+              "hash": 18190439530397609191,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "hotkey_binding",
+              "hash": 18228278308013522726,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": "ability_deploy_pavise"
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": "hotkeys\\hotkey_binding"
+                }
+              ]
+            },
+            {
+              "key": "ability_category",
+              "hash": 18338944239342428321,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pbgid",
+          "hash": 13005689997087892415,
+          "kind": "Int",
+          "value": 1073741871
+        },
+        {
+          "key": "parent_pbg",
+          "hash": 14182368983149674761,
+          "kind": "List2",
+          "value": [
+            {
+              "key": "$PBGNAME",
+              "hash": 5464984021694833596,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "$PBGMAP",
+              "hash": 1238668035833122403,
+              "kind": "CString",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

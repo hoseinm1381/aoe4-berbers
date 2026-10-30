@@ -1,0 +1,313 @@
+{
+  "root": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers",
+  "targets": [
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\output\\pilot",
+      "files": 23166,
+      "bytes": 17395057172
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\output\\dropdown-comparison.log",
+      "files": 1,
+      "bytes": 258954
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\output\\dropdown-investigation",
+      "files": 39,
+      "bytes": 4663328
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\output\\dropdown-fix",
+      "files": 2861,
+      "bytes": 3691203426
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\output\\trial3-audit",
+      "files": 51,
+      "bytes": 5557292
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\output\\trial3",
+      "files": 20457,
+      "bytes": 20491281136
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\output\\master-plan.json",
+      "files": 1,
+      "bytes": 4945483
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\output\\blend-inspection.log",
+      "files": 1,
+      "bytes": 17770
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\output\\blend-dependencies.json",
+      "files": 1,
+      "bytes": 727252
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\output\\source-verification",
+      "files": 11404,
+      "bytes": 5396223238
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\output\\current",
+      "files": 11409,
+      "bytes": 6170411313
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\output\\master-restore-check",
+      "files": 10989,
+      "bytes": 6856769663
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\output\\native_flag_readback.png",
+      "files": 1,
+      "bytes": 3186464
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\output\\standalone-ui-cook",
+      "files": 38,
+      "bytes": 13070864
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\output\\blend-relocation.log",
+      "files": 1,
+      "bytes": 17350
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\authoring-library",
+      "files": 466,
+      "bytes": 50495102
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\trial3",
+      "files": 25,
+      "bytes": 269006
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\presentation\\trial3",
+      "files": 23,
+      "bytes": 883680
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\build-recipe.json",
+      "files": 1,
+      "bytes": 1101367
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\trial3-build-recipe.json",
+      "files": 1,
+      "bytes": 1110015
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\authoring-profile.json",
+      "files": 1,
+      "bytes": 1597
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\MIGRATION_PLAN.md",
+      "files": 1,
+      "bytes": 2726
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\RELEASES.md",
+      "files": 1,
+      "bytes": 2060
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\inspect_pilot.py",
+      "files": 1,
+      "bytes": 2602
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\prepare_trial.py",
+      "files": 1,
+      "bytes": 11969
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\prepare_runtime.py",
+      "files": 1,
+      "bytes": 9200
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\audit_trial.py",
+      "files": 1,
+      "bytes": 4639
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\package_trial.py",
+      "files": 1,
+      "bytes": 5228
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\check_lifecycle.py",
+      "files": 1,
+      "bytes": 3040
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\finalize_trial.py",
+      "files": 1,
+      "bytes": 2443
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\write_pilot_report.py",
+      "files": 1,
+      "bytes": 9250
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\compare_official.py",
+      "files": 1,
+      "bytes": 2953
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\check_native_metadata.py",
+      "files": 1,
+      "bytes": 1721
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\build_metadata_fix.py",
+      "files": 1,
+      "bytes": 2147
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\write_metadata_fix_report.py",
+      "files": 1,
+      "bytes": 6544
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\make_trial3_banner.py",
+      "files": 1,
+      "bytes": 7121
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\inspect_trial3_graph.py",
+      "files": 1,
+      "bytes": 3196
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\probe_trial3_sdk.py",
+      "files": 1,
+      "bytes": 646
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\__pycache__",
+      "files": 4,
+      "bytes": 36795
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\allocate_trial3_identities.py",
+      "files": 1,
+      "bytes": 1999
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\probe_trial3_fields.py",
+      "files": 1,
+      "bytes": 838
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\probe_trial3_textures.py",
+      "files": 1,
+      "bytes": 1008
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\probe_trial3_nodes.py",
+      "files": 1,
+      "bytes": 616
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\prepare_trial3.py",
+      "files": 1,
+      "bytes": 22122
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\probe_trial3_visuals.py",
+      "files": 1,
+      "bytes": 651
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\probe_trial3_attachments.py",
+      "files": 1,
+      "bytes": 656
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\check_trial3.py",
+      "files": 1,
+      "bytes": 9032
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\probe_trial3_official.py",
+      "files": 1,
+      "bytes": 555
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\finalize_trial3.py",
+      "files": 1,
+      "bytes": 3104
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\write_trial3_report.py",
+      "files": 1,
+      "bytes": 14942
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\probe_codex_coordinates.py",
+      "files": 1,
+      "bytes": 372
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\verify_reviewed_trial3.py",
+      "files": 1,
+      "bytes": 3990
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\probe_trial3_archetypes.py",
+      "files": 1,
+      "bytes": 407
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\finalize_reviewed_archetypes.py",
+      "files": 1,
+      "bytes": 2828
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\prepare_source.py",
+      "files": 1,
+      "bytes": 2914
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\collect_masters.py",
+      "files": 1,
+      "bytes": 7987
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\inspect_blend_dependencies.py",
+      "files": 1,
+      "bytes": 953
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\output\\minimal-source",
+      "files": 401,
+      "bytes": 666623076
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\output\\minimal-source-rebuild",
+      "files": 11409,
+      "bytes": 6170454063
+    }
+  ],
+  "delete_logical_bytes": 66924517865,
+  "delete_files": 92786,
+  "preserved": [
+    ".git",
+    "source",
+    "inputs",
+    "docs",
+    "tools/current tools",
+    "release/current ZIP",
+    "rollback/accepted trial.3 ZIP"
+  ],
+  "original_projects_changed": false,
+  "automation_result": "Deletion blocked by automatic command review; owner-run CMD is prepared."
+}

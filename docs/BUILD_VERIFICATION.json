@@ -1,0 +1,46 @@
+{
+  "version": "0.1.0",
+  "archive_sha256": "78d4f0f3878f26aae3ff122ca92a9809c4dbdf430b647ebafccf2bce47061482",
+  "archive_bytes": 771517836,
+  "verified_members": 2849,
+  "all_members_read_back": true,
+  "native_crc_sha1_verified": true,
+  "preserved_art_audio_members": 2478,
+  "changed_members": [
+    "attrib/army/garrison/berbers/berbers_standard.rgd",
+    "attrib/racebps/berbers.rgd",
+    "garrison/civilizations.json"
+  ],
+  "removed_members": [
+    "ui/icons/garrison/berbers/presentation/flag_background_t3.rrtex",
+    "ui/icons/garrison/berbers/presentation/flag_fade_t3.rrtex",
+    "ui/icons/garrison/berbers/presentation/flag_list_small_t3.rrtex",
+    "ui/icons/garrison/berbers/presentation/flag_list_t3.rrtex",
+    "ui/icons/garrison/berbers/presentation/flag_loading_t3.rrtex",
+    "ui/icons/garrison/berbers/presentation/flag_mastery_t3.rrtex",
+    "ui/icons/garrison/berbers/presentation/flag_pattern_t3.rrtex",
+    "ui/icons/garrison/berbers/presentation/flag_secondary_small_t3.rrtex",
+    "ui/icons/garrison/berbers/presentation/flag_secondary_t3.rrtex",
+    "ui/icons/garrison/berbers/presentation/flag_tile_t3.rrtex",
+    "ui/images/garrison/berbers/presentation/flag_background_t3.rrtex",
+    "ui/images/garrison/berbers/presentation/flag_fade_t3.rrtex",
+    "ui/images/garrison/berbers/presentation/flag_list_small_t3.rrtex",
+    "ui/images/garrison/berbers/presentation/flag_list_t3.rrtex",
+    "ui/images/garrison/berbers/presentation/flag_loading_t3.rrtex",
+    "ui/images/garrison/berbers/presentation/flag_mastery_t3.rrtex",
+    "ui/images/garrison/berbers/presentation/flag_pattern_t3.rrtex",
+    "ui/images/garrison/berbers/presentation/flag_secondary_small_t3.rrtex",
+    "ui/images/garrison/berbers/presentation/flag_secondary_t3.rrtex",
+    "ui/images/garrison/berbers/presentation/flag_tile_t3.rrtex"
+  ],
+  "added_members": [
+    "ui/images/garrison/berbers/presentation/flag_original.rrtex"
+  ],
+  "clean_source_rebuild": true,
+  "native_flag_retest": "pending",
+  "native_game_acceptance": "Owner accepted trial.3; this flag-only release needs visual retest.",
+  "zip_name": "Berbers-Garrison-0.1.0.zip",
+  "zip_bytes": 615104205,
+  "zip_sha256": "b8c016ecfba0c4fab3a210bd4b4a58eed6a088fbbe8dac759f65a35c19e9f7dd",
+  "zip_crc_verified": true
+}

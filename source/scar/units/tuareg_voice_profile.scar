@@ -1,0 +1,22 @@
+-- Native speech expectations only. Engine owns all speech timing.
+BerberTuaregVoice_Profile = {
+    revision = "berber060-native-v1",
+    speaker = "b03xx",
+    native_profile = "audio:malian_b03xx.spd",
+    -- Byte-distinct accepted source snapshot; not paid HTTP calls or release acceptance.
+    source_recordings = 333,
+    planned_request_records = 338,
+    accepted_request_records_snapshot = 333,
+    unique_native_waveforms_snapshot = 333,
+    acceptance_snapshot_only = true,
+    media_slots = 1278,
+    temporary_effort_slots = 0,
+    age_reuse = { [1] = 1, [2] = 2, [3] = 3, [4] = 4 },
+    all_unit_families = 26,
+}
+local BerberTuaregVoice_logged = false
+function BerberTuaregVoice_LogSetup()
+    if BerberTuaregVoice_logged then return end
+    BerberTuaregVoice_logged = true
+    print("BERBER_NATIVE_VOICE revision=060-v1 families=26 routing=native sidecar_required=true playback=unverified")
+end

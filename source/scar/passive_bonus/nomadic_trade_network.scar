@@ -1,0 +1,53 @@
+Core_RegisterModule("BerbersNomadicTrade")
+_nomadic_trade_network = {
+	started = false,
+}
+
+local NOMADIC_TRADE_BUILDING_TYPES = {
+	"town_center",
+	"trade_post",
+	"dock",
+	"mill",
+	"lumber_camp",
+	"mining_camp",
+}
+
+function Nomadic_Trade_Network_start()
+	if _nomadic_trade_network.started then
+		return
+	end
+
+	_nomadic_trade_network.started = true
+    _nomadic_trade_network.modifiers = {}
+
+	for player_index = 1, World_GetPlayerCount() do
+		local player_id = World_GetPlayerAt(player_index)
+		if Player_IsAlive(player_id) and Player_GetRaceName(player_id) == "5fe8767cca3a4e649e20c9527cf014ec:berbers" then
+			for t = 1 ,#NOMADIC_TRADE_BUILDING_TYPES do
+				local building_type = NOMADIC_TRADE_BUILDING_TYPES[t]
+				local player_entitties = BP_GetEntityBlueprintsWithType(building_type)
+				if player_entitties ~= nil then
+					for b = 1 , #player_entitties do
+						local modifier = Modifier_Create(MAT_EntityType, "resource_entity_cost_wood", MUT_Multiplication, false, 0.90, player_entitties[b])
+						Modifier_ApplyToPlayer(modifier, player_id, 0.0)
+                        table.insert(_nomadic_trade_network.modifiers, modifier)
+					end
+				end
+			end
+		end
+	end
+end
+
+
+
+function BerbersNomadicTrade_OnGameSetup()
+    _nomadic_trade_network.started=false
+    _nomadic_trade_network.modifiers={}
+end
+function BerbersNomadicTrade_OnGameOver()
+    for _,modifier in ipairs(_nomadic_trade_network.modifiers or {}) do
+        Modifier_RemoveInternal(modifier.ModifierID)
+    end
+    _nomadic_trade_network.modifiers={}
+    _nomadic_trade_network.started=false
+end

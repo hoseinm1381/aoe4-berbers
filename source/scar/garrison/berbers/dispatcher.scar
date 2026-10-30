@@ -1,0 +1,67 @@
+-- Berbers independent dropdown pilot. Standard game mode owns victory/start.
+import("cardinal.scar")
+Core_RegisterModule("BerbersPilot")
+import("units/tuareg_q_art_guard_trial.scar")
+import("units/saharan_trader.scar")
+import("units/zenata_lancer.scar")
+import("units/tribal_camel_archer.scar")
+import("passive_bonus/nomadic_trade_network.scar")
+import("passive_bonus/enduring_generations.scar")
+import("buildings/tribal_tent.scar")
+import("units/sanhaja_buff.scar")
+import("inflence_system.scar")
+import("buildings/tent_ui.scar")
+import("buildings/alliance_economic_bonus.scar")
+import("buildings/almohad_grand_keep.scar")
+import("buildings/madrasa_fez.scar")
+import("buildings/great_mosque_of_tlemcen.scar")
+import("buildings/marrakech.scar")
+import("buildings/malian_house.scar")
+import("berber_scripted_speech.scar")
+import("music/berber_music.scar")
+
+BerbersPilotState = {started=false}
+function BerbersPilot_OnGameSetup()
+    BerbersPilotState.started=false
+end
+function BerbersPilot_OnInit()
+    for _,player in ipairs(PLAYERS) do
+        print("BERBERS_PILOT_PLAYER race=" .. Player_GetRaceName(player.id))
+    end
+end
+function BerbersPilot_LogStarters()
+    local player=Game_GetLocalPlayer()
+    if player==nil or Player_GetRaceName(player)~="5fe8767cca3a4e649e20c9527cf014ec:berbers" then return end
+    local squads=Player_GetSquads(player) -- borrowed group; do not destroy
+    for i=1,SGroup_Count(squads) do
+        local squad=SGroup_GetSquadAt(squads,i)
+        local bp=Squad_GetBlueprint(squad)
+        if bp then print("BERBERS_TRIAL3_STARTER name="..BP_GetName(bp).." pbgid="..tostring(bp.PropertyBagGroupID)) end
+    end
+    print("BERBERS_TRIAL3_EXPECT villager=37561195 scout=38541196")
+end
+
+function BerbersPilot_Start()
+    if BerbersPilotState.started then return end
+    BerbersPilotState.started=true
+    -- Other imported Core modules retain their own Start callbacks. Only the
+    -- handlers whose callbacks are empty, plus the two passive systems, are here.
+    BerbersPilot_LogStarters()
+    Nomadic_Trade_Network_start()
+    Enduring_Generations_start()
+    Zenata_Lancer_start()
+    tribal_camel_archer_start()
+    tribal_tent_start()
+    inflence_system_start()
+    MehariBuff_Init()
+    local player=Game_GetLocalPlayer()
+    if player~=nil and Player_GetRaceName(player)=="5fe8767cca3a4e649e20c9527cf014ec:berbers" then
+        BerberSpeech_Start()
+        BM_Start()
+    end
+    print("BERBERS_PILOT_STARTED version=0.1.0-trial.3 race=5fe8767cca3a4e649e20c9527cf014ec:berbers")
+end
+function BerbersPilot_OnGameOver()
+    BerberSpeech_Stop()
+    BerbersPilotState.started=false
+end

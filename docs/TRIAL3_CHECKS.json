@@ -1,0 +1,250 @@
+{
+  "version": "0.1.0-trial.3",
+  "attributes": 294,
+  "owned_typed_references": 4033,
+  "private_identity_records": 128,
+  "unchanged_gameplay_numeric_boolean_leaves": 65763,
+  "lua_syntax_checked_files": [
+    "scar/berber_scripted_speech.scar",
+    "scar/berber_voice_bank.scar",
+    "scar/buildings/alliance_economic_bonus.scar",
+    "scar/buildings/almohad_grand_keep.scar",
+    "scar/buildings/berber_landmark_visual_precache.scar",
+    "scar/buildings/great_mosque_of_tlemcen.scar",
+    "scar/buildings/madrasa_fez.scar",
+    "scar/buildings/malian_house.scar",
+    "scar/buildings/marrakech.scar",
+    "scar/buildings/tent_ui.scar",
+    "scar/buildings/tribal_tent.scar",
+    "scar/garrison/berbers/dispatcher.scar",
+    "scar/garrison/garrison.scar",
+    "scar/inflence_system.scar",
+    "scar/music/berber_music.scar",
+    "scar/music/berber_music_catalog.scar",
+    "scar/music/berber_music_policy.scar",
+    "scar/passive_bonus/enduring_generations.scar",
+    "scar/passive_bonus/nomadic_trade_network.scar",
+    "scar/units/saharan_trader.scar",
+    "scar/units/sanhaja_buff.scar",
+    "scar/units/tribal_camel_archer.scar",
+    "scar/units/tuareg_q_art_guard_trial.scar",
+    "scar/units/tuareg_voice_profile.scar",
+    "scar/units/zenata_lancer.scar"
+  ],
+  "short_name_regression": {
+    "old_funduq": [
+      false,
+      false
+    ],
+    "new_funduq": [
+      true,
+      true
+    ]
+  },
+  "cross_civ_influence_regression": true,
+  "passive_lifecycle_regression": {
+    "nomadic_trade_network": {
+      "initial_modifiers": 6,
+      "two_match_modifiers": 12,
+      "removed": 12
+    },
+    "enduring_generations": {
+      "initial_modifiers": 1,
+      "two_match_modifiers": 2,
+      "removed": 2
+    }
+  },
+  "ui_textures": [
+    {
+      "member": "ui/images/garrison/berbers/presentation/flag_background_t3.rrtex",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "mips": 1,
+      "bc7_dds_decoded": true,
+      "mean_absolute_rgba_error": [
+        0.036421199845679014,
+        0.034426601080246914,
+        0.027061149691358026,
+        0.03614969135802469
+      ],
+      "alpha": [
+        254,
+        255
+      ]
+    },
+    {
+      "member": "ui/images/garrison/berbers/presentation/flag_fade_t3.rrtex",
+      "dimensions": [
+        344,
+        104
+      ],
+      "mips": 1,
+      "bc7_dds_decoded": true,
+      "mean_absolute_rgba_error": [
+        0.1776889534883721,
+        0.13659995527728086,
+        0.1258105992844365,
+        0.134475626118068
+      ],
+      "alpha": [
+        254,
+        255
+      ]
+    },
+    {
+      "member": "ui/images/garrison/berbers/presentation/flag_list_small_t3.rrtex",
+      "dimensions": [
+        52,
+        28
+      ],
+      "mips": 1,
+      "bc7_dds_decoded": true,
+      "mean_absolute_rgba_error": [
+        1.0741758241758241,
+        0.9821428571428571,
+        1.0377747252747254,
+        0.15247252747252749
+      ],
+      "alpha": [
+        254,
+        255
+      ]
+    },
+    {
+      "member": "ui/images/garrison/berbers/presentation/flag_list_t3.rrtex",
+      "dimensions": [
+        104,
+        56
+      ],
+      "mips": 1,
+      "bc7_dds_decoded": true,
+      "mean_absolute_rgba_error": [
+        0.6098901098901099,
+        0.47063873626373626,
+        0.48592032967032966,
+        0.11572802197802198
+      ],
+      "alpha": [
+        254,
+        255
+      ]
+    },
+    {
+      "member": "ui/images/garrison/berbers/presentation/flag_loading_t3.rrtex",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "mips": 1,
+      "bc7_dds_decoded": true,
+      "mean_absolute_rgba_error": [
+        0.036421199845679014,
+        0.034426601080246914,
+        0.027061149691358026,
+        0.03614969135802469
+      ],
+      "alpha": [
+        254,
+        255
+      ]
+    },
+    {
+      "member": "ui/images/garrison/berbers/presentation/flag_mastery_t3.rrtex",
+      "dimensions": [
+        1112,
+        588
+      ],
+      "mips": 1,
+      "bc7_dds_decoded": true,
+      "mean_absolute_rgba_error": [
+        0.05650632555180345,
+        0.04229677482503793,
+        0.03862777125238585,
+        0.05980980521705085
+      ],
+      "alpha": [
+        254,
+        255
+      ]
+    },
+    {
+      "member": "ui/images/garrison/berbers/presentation/flag_pattern_t3.rrtex",
+      "dimensions": [
+        1120,
+        352
+      ],
+      "mips": 1,
+      "bc7_dds_decoded": true,
+      "mean_absolute_rgba_error": [
+        0.13837256493506495,
+        0.10874594155844156,
+        0.08831929788961039,
+        0.0551466112012987
+      ],
+      "alpha": [
+        0,
+        226
+      ]
+    },
+    {
+      "member": "ui/images/garrison/berbers/presentation/flag_secondary_small_t3.rrtex",
+      "dimensions": [
+        220,
+        124
+      ],
+      "mips": 1,
+      "bc7_dds_decoded": true,
+      "mean_absolute_rgba_error": [
+        0.2597140762463343,
+        0.18984604105571848,
+        0.212683284457478,
+        0.11924486803519062
+      ],
+      "alpha": [
+        254,
+        255
+      ]
+    },
+    {
+      "member": "ui/images/garrison/berbers/presentation/flag_secondary_t3.rrtex",
+      "dimensions": [
+        440,
+        248
+      ],
+      "mips": 1,
+      "bc7_dds_decoded": true,
+      "mean_absolute_rgba_error": [
+        0.128583211143695,
+        0.10130131964809384,
+        0.10245601173020528,
+        0.06983137829912023
+      ],
+      "alpha": [
+        254,
+        255
+      ]
+    },
+    {
+      "member": "ui/images/garrison/berbers/presentation/flag_tile_t3.rrtex",
+      "dimensions": [
+        736,
+        800
+      ],
+      "mips": 1,
+      "bc7_dds_decoded": true,
+      "mean_absolute_rgba_error": [
+        0.07598845108695652,
+        0.06761379076086957,
+        0.05545006793478261,
+        0.057951766304347826
+      ],
+      "alpha": [
+        254,
+        255
+      ]
+    }
+  ],
+  "native_game_acceptance": false
+}

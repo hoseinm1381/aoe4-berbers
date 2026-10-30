@@ -1,0 +1,21 @@
+{
+  "source": "source/presentation/berbers.png",
+  "original_villager_field": "flag_icon_override=berbers",
+  "source_sha256": "ba06656f389d6e2dd54bcaa791935346c95d9e46a807d486c150e2abed0abca6",
+  "native_member": "ui/images/garrison/berbers/presentation/flag_original.rrtex",
+  "native_sha256": "6ac6bdfae986c9663583726b25860f28d695267c07f1ef4cb89bbcf05a4fa2e2",
+  "real_native_cook_completed": true,
+  "source_artwork_modified": false,
+  "native_visual_retest": "pending",
+  "native_format": 6,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "mips": 1,
+  "decoded_rgb_rmse": 0.6259216455584523,
+  "native_orientation_matches_source": true,
+  "standalone_profile_native_recook_byte_identical": true,
+  "numeric_boolean_leaves_unchanged": 69651,
+  "attribute_tables_compared": 294
+}

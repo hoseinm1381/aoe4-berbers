@@ -1,0 +1,80 @@
+------------------------------------------------------------------------
+-- Berber Future Kingdom - Dar al-Jihad of Marrakech Landmark System
+--
+-- When Dar al-Jihad of Marrakech ("5fe8767cca3a4e649e20c9527cf014ec:ber_building_landmark_age2_landmarkd_control_mal") is constructed:
+--   1. Increases production speed of this landmark by 100% (2.0x speed / 50% time).
+--   2. Increases production speed of Markets ("5fe8767cca3a4e649e20c9527cf014ec:ber_building_econ_market_mal") by 20% (1.2x speed).
+------------------------------------------------------------------------
+
+Core_RegisterModule("Marrakech")
+
+local _marrakech = {
+	started = false,
+	landmark_bp = nil,
+	market_bp = nil,
+	player_applied = {},
+}
+
+function Marrakech_OnConstructionComplete(context)
+	if context == nil or context.entity == nil then return end
+	
+	local entity = context.entity
+	if not Entity_IsValid(Entity_GetID(entity)) or World_OwnsEntity(entity) then return end
+	
+	local ebp = Entity_GetBlueprint(entity)
+	if ebp == _marrakech.landmark_bp then
+		local player_obj = Entity_GetPlayerOwner(entity)
+		if player_obj == nil or not Player_IsAlive(player_obj) then return end
+		
+		local pid = Player_GetID(player_obj)
+		if _marrakech.player_applied[pid] then return end
+		_marrakech.player_applied[pid] = true
+		
+		print("[Marrakech] Dar al-Jihad of Marrakech constructed! Applying production speed modifiers...")
+		
+		-- 1. Increase production speed (1.2x / +20%) for the Marrakech landmark
+		if _marrakech.landmark_bp ~= nil then
+			local mod_landmark = Modifier_Create(MAT_EntityType, "production_speed_modifier", MUT_Multiplication, false, 1.2, _marrakech.landmark_bp)
+			Modifier_ApplyToPlayer(mod_landmark, player_obj, 0.0)
+			print("[Marrakech] Applied 1.2x production speed modifier to Dar al-Jihad landmark.")
+		end
+		
+		-- 2. Increase production speed (1.2x / +20%) for Malian Markets
+		if _marrakech.market_bp ~= nil then
+			local mod_market = Modifier_Create(MAT_EntityType, "production_speed_modifier", MUT_Multiplication, false, 1.2, _marrakech.market_bp)
+			Modifier_ApplyToPlayer(mod_market, player_obj, 0.0)
+			print("[Marrakech] Applied 1.2x production speed modifier to Malian Markets.")
+		end
+	end
+end
+
+function Marrakech_start()
+	if _marrakech.started then return end
+
+	_marrakech.landmark_bp = BP_GetEntityBlueprint("5fe8767cca3a4e649e20c9527cf014ec:ber_building_landmark_age2_landmarkd_control_mal")
+	_marrakech.market_bp = BP_GetEntityBlueprint("5fe8767cca3a4e649e20c9527cf014ec:ber_building_econ_market_mal")
+	_marrakech.player_applied = {}
+
+	Rule_AddGlobalEvent(Marrakech_OnConstructionComplete, GE_ConstructionComplete)
+	_marrakech.started = true
+	print("[Marrakech] Module started, listening to GE_ConstructionComplete.")
+end
+
+function Marrakech_stop()
+	if not _marrakech.started then return end
+	Rule_RemoveGlobalEvent(Marrakech_OnConstructionComplete)
+	_marrakech.started = false
+	_marrakech.player_applied = {}
+	print("[Marrakech] Module stopped.")
+end
+
+function Marrakech_OnInit()
+end
+
+function Marrakech_Start()
+	Marrakech_start()
+end
+
+function Marrakech_OnGameOver()
+	Marrakech_stop()
+end

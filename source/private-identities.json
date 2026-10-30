@@ -1,0 +1,1282 @@
+[
+  {
+    "member": "attrib/abilities/always_on_abilities/desert_path_finding/hospitaller_healing_aura_cru.rgd",
+    "stock_member": "attrib/abilities/always_on_abilities/crusader_cmp/hospitaller_healing_aura_cru.rgd",
+    "same_native_id": true,
+    "id": 2124292,
+    "stock_id": 2124292,
+    "new_name": "ber_hospitaller_healing_aura_cru",
+    "new_id": 36929836,
+    "native_carrier_member": "attrib/abilities/garrison/berbers/ber_hospitaller_healing_aura_cru.rgd"
+  },
+  {
+    "member": "attrib/abilities/timed_abilities/camel_archer_ber/shirkuh_speed_activate_ayy.rgd",
+    "stock_member": "attrib/abilities/timed_abilities/ayyubid_cmp/shirkuh_speed_activate_ayy.rgd",
+    "same_native_id": true,
+    "id": 2144649,
+    "stock_id": 2144649,
+    "new_name": "ber_shirkuh_speed_activate_ayy",
+    "new_id": 38344166,
+    "native_carrier_member": "attrib/abilities/garrison/berbers/ber_shirkuh_speed_activate_ayy.rgd"
+  },
+  {
+    "member": "attrib/abilities/timed_abilities/crusader_cmp/teuton_master_armor_cru.rgd",
+    "stock_member": "attrib/abilities/timed_abilities/crusader_cmp/teuton_master_armor_cru.rgd",
+    "same_native_id": true,
+    "id": 2124301,
+    "stock_id": 2124301,
+    "new_name": "ber_teuton_master_armor_cru",
+    "new_id": 34977563,
+    "native_carrier_member": "attrib/abilities/garrison/berbers/ber_teuton_master_armor_cru.rgd"
+  },
+  {
+    "member": "attrib/abilities/timed_abilities/tent_abilities/grenade_throw_song_cmp.rgd",
+    "stock_member": "attrib/abilities/timed_abilities/song_dynasty_cmp/grenade_throw_song_cmp.rgd",
+    "same_native_id": true,
+    "id": 9005469,
+    "stock_id": 9005469,
+    "new_name": "ber_grenade_throw_song_cmp",
+    "new_id": 38677277,
+    "native_carrier_member": "attrib/abilities/garrison/berbers/ber_grenade_throw_song_cmp.rgd"
+  },
+  {
+    "member": "attrib/abilities/timed_abilities/tent_abilities/increase_armor_song_cmp.rgd",
+    "stock_member": "attrib/abilities/timed_abilities/song_dynasty_cmp/increase_armor_song_cmp.rgd",
+    "same_native_id": true,
+    "id": 9005739,
+    "stock_id": 9005739,
+    "new_name": "ber_increase_armor_song_cmp",
+    "new_id": 36124375,
+    "native_carrier_member": "attrib/abilities/garrison/berbers/ber_increase_armor_song_cmp.rgd"
+  },
+  {
+    "member": "attrib/abilities/timed_abilities/tent_abilities/increase_damage_song_cmp.rgd",
+    "stock_member": "attrib/abilities/timed_abilities/song_dynasty_cmp/increase_damage_song_cmp.rgd",
+    "same_native_id": true,
+    "id": 9005741,
+    "stock_id": 9005741,
+    "new_name": "ber_increase_damage_song_cmp",
+    "new_id": 34200243,
+    "native_carrier_member": "attrib/abilities/garrison/berbers/ber_increase_damage_song_cmp.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/buildings/building_defense_keep_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/buildings/building_defense_keep_mal.rgd",
+    "same_native_id": true,
+    "id": 2675396,
+    "stock_id": 2675396,
+    "new_name": "ber_building_defense_keep_mal",
+    "new_id": 36628157,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_building_defense_keep_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/buildings/building_defense_outpost_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/buildings/building_defense_outpost_mal.rgd",
+    "same_native_id": true,
+    "id": 2668497,
+    "stock_id": 2668497,
+    "new_name": "ber_building_defense_outpost_mal",
+    "new_id": 38150484,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_building_defense_outpost_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/buildings/building_econ_food_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/buildings/building_econ_food_mal.rgd",
+    "same_native_id": true,
+    "id": 2610685,
+    "stock_id": 2610685,
+    "new_name": "ber_building_econ_food_mal",
+    "new_id": 36922173,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_building_econ_food_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/buildings/building_econ_market_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/buildings/building_econ_market_mal.rgd",
+    "same_native_id": true,
+    "id": 2956170,
+    "stock_id": 2956170,
+    "new_name": "ber_building_econ_market_mal",
+    "new_id": 36514209,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_building_econ_market_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/buildings/building_econ_mining_camp_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/buildings/building_econ_mining_camp_mal.rgd",
+    "same_native_id": true,
+    "id": 2591277,
+    "stock_id": 2591277,
+    "new_name": "ber_building_econ_mining_camp_mal",
+    "new_id": 37745751,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_building_econ_mining_camp_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/buildings/building_econ_wood_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/buildings/building_econ_wood_mal.rgd",
+    "same_native_id": true,
+    "id": 2298920,
+    "stock_id": 2298920,
+    "new_name": "ber_building_econ_wood_mal",
+    "new_id": 38831421,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_building_econ_wood_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/buildings/building_house_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/buildings/building_house_mal.rgd",
+    "same_native_id": true,
+    "id": 2357589,
+    "stock_id": 2357589,
+    "new_name": "ber_building_house_mal",
+    "new_id": 36123532,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_building_house_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/buildings/building_tech_unit_infantry_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/buildings/building_tech_unit_infantry_mal.rgd",
+    "same_native_id": true,
+    "id": 2555383,
+    "stock_id": 2555383,
+    "new_name": "ber_building_tech_unit_infantry_mal",
+    "new_id": 37324004,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_building_tech_unit_infantry_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/buildings/building_tech_university_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/buildings/building_tech_university_mal.rgd",
+    "same_native_id": true,
+    "id": 2666464,
+    "stock_id": 2666464,
+    "new_name": "ber_building_tech_university_mal",
+    "new_id": 35489289,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_building_tech_university_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/buildings/building_town_center_capital_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/buildings/building_town_center_capital_mal.rgd",
+    "same_native_id": true,
+    "id": 2473091,
+    "stock_id": 2473091,
+    "new_name": "ber_building_town_center_capital_mal",
+    "new_id": 38301712,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_building_town_center_capital_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/buildings/building_town_center_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/buildings/building_town_center_mal.rgd",
+    "same_native_id": true,
+    "id": 2233879,
+    "stock_id": 2233879,
+    "new_name": "ber_building_town_center_mal",
+    "new_id": 34423371,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_building_town_center_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/buildings/building_unit_cavalry_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/buildings/building_unit_cavalry_mal.rgd",
+    "same_native_id": true,
+    "id": 2308971,
+    "stock_id": 2308971,
+    "new_name": "ber_building_unit_cavalry_mal",
+    "new_id": 34682810,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_building_unit_cavalry_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/buildings/building_unit_infantry_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/buildings/building_unit_infantry_mal.rgd",
+    "same_native_id": true,
+    "id": 2273971,
+    "stock_id": 2273971,
+    "new_name": "ber_building_unit_infantry_mal",
+    "new_id": 38239057,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_building_unit_infantry_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/buildings/building_unit_naval_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/buildings/building_unit_naval_mal.rgd",
+    "same_native_id": true,
+    "id": 2471152,
+    "stock_id": 2471152,
+    "new_name": "ber_building_unit_naval_mal",
+    "new_id": 38590096,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_building_unit_naval_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/buildings/building_unit_ranged_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/buildings/building_unit_ranged_mal.rgd",
+    "same_native_id": true,
+    "id": 2950634,
+    "stock_id": 2950634,
+    "new_name": "ber_building_unit_ranged_mal",
+    "new_id": 38740989,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_building_unit_ranged_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/buildings/building_unit_religious_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/buildings/building_unit_religious_mal.rgd",
+    "same_native_id": true,
+    "id": 2812705,
+    "stock_id": 2812705,
+    "new_name": "ber_building_unit_religious_mal",
+    "new_id": 35682499,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_building_unit_religious_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/buildings/building_unit_siege_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/buildings/building_unit_siege_mal.rgd",
+    "same_native_id": true,
+    "id": 2576111,
+    "stock_id": 2576111,
+    "new_name": "ber_building_unit_siege_mal",
+    "new_id": 34074143,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_building_unit_siege_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/buildings/building_wonder_age4_great_mosque_control_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/buildings/building_wonder_age4_great_mosque_control_mal.rgd",
+    "same_native_id": true,
+    "id": 2058992,
+    "stock_id": 2058992,
+    "new_name": "ber_building_wonder_age4_great_mosque_control_mal",
+    "new_id": 36442052,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_building_wonder_age4_great_mosque_control_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/buildings/landmarks/almohad_keep/building_landmark_age3_landmarkf_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/buildings/building_landmark_age3_landmarkf_mal.rgd",
+    "same_native_id": true,
+    "id": 2063110,
+    "stock_id": 2063110,
+    "new_name": "ber_building_landmark_age3_landmarkf_mal",
+    "new_id": 37172999,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_building_landmark_age3_landmarkf_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/buildings/landmarks/funduq/building_landmark_age1_landmarkb_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/buildings/building_landmark_age1_landmarkb_mal.rgd",
+    "same_native_id": true,
+    "id": 2063107,
+    "stock_id": 2063107,
+    "new_name": "ber_building_landmark_age1_landmarkb_mal",
+    "new_id": 37300582,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_building_landmark_age1_landmarkb_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/buildings/landmarks/great_mosque_of_tlemcen/building_landmark_age2_landmarkc_control_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/buildings/building_landmark_age2_landmarkc_control_mal.rgd",
+    "same_native_id": true,
+    "id": 2062448,
+    "stock_id": 2062448,
+    "new_name": "ber_building_landmark_age2_landmarkc_control_mal",
+    "new_id": 37894306,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_building_landmark_age2_landmarkc_control_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/buildings/landmarks/madrasa_fez/building_landmark_age3_landmarke_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/buildings/building_landmark_age3_landmarke_mal.rgd",
+    "same_native_id": true,
+    "id": 2062635,
+    "stock_id": 2062635,
+    "new_name": "ber_building_landmark_age3_landmarke_mal",
+    "new_id": 36067822,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_building_landmark_age3_landmarke_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/buildings/landmarks/marrakech/building_landmark_age2_landmarkd_control_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/buildings/building_landmark_age2_landmarkd_control_mal.rgd",
+    "same_native_id": true,
+    "id": 2062447,
+    "stock_id": 2062447,
+    "new_name": "ber_building_landmark_age2_landmarkd_control_mal",
+    "new_id": 36992191,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_building_landmark_age2_landmarkd_control_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/buildings/landmarks/ribat_of_sanhaja/building_landmark_age1_landmarka_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/buildings/building_landmark_age1_landmarka_mal.rgd",
+    "same_native_id": false,
+    "id": 1073741900,
+    "stock_id": 2063101,
+    "new_name": "ber_building_landmark_age1_landmarka_mal",
+    "new_id": 36322668,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_building_landmark_age1_landmarka_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/buildings/tent/building_hut_ayy.rgd",
+    "stock_member": "attrib/ebps/races/ayyubid_cmp/buildings/building_hut_ayy.rgd",
+    "same_native_id": true,
+    "id": 2144013,
+    "stock_id": 2144013,
+    "new_name": "ber_building_hut_ayy",
+    "new_id": 35591279,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_building_hut_ayy.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_archer_2_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/units/unit_archer_2_mal.rgd",
+    "same_native_id": true,
+    "id": 2382624,
+    "stock_id": 2382624,
+    "new_name": "ber_unit_archer_2_mal",
+    "new_id": 35607998,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_archer_2_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_archer_3_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/units/unit_archer_3_mal.rgd",
+    "same_native_id": true,
+    "id": 2704061,
+    "stock_id": 2704061,
+    "new_name": "ber_unit_archer_3_mal",
+    "new_id": 36250438,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_archer_3_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_archer_4_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/units/unit_archer_4_mal.rgd",
+    "same_native_id": true,
+    "id": 2472749,
+    "stock_id": 2472749,
+    "new_name": "ber_unit_archer_4_mal",
+    "new_id": 36316654,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_archer_4_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_bombard_4_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/units/unit_bombard_4_mal.rgd",
+    "same_native_id": true,
+    "id": 2895312,
+    "stock_id": 2895312,
+    "new_name": "ber_unit_bombard_4_mal",
+    "new_id": 37027575,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_bombard_4_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_handcannon_4_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/units/unit_handcannon_4_mal.rgd",
+    "same_native_id": true,
+    "id": 2981612,
+    "stock_id": 2981612,
+    "new_name": "ber_unit_handcannon_4_mal",
+    "new_id": 36337258,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_handcannon_4_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_horseman_2_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/units/unit_horseman_2_mal.rgd",
+    "same_native_id": true,
+    "id": 2247099,
+    "stock_id": 2247099,
+    "new_name": "ber_unit_horseman_2_mal",
+    "new_id": 34387696,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_horseman_2_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_horseman_3_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/units/unit_horseman_3_mal.rgd",
+    "same_native_id": true,
+    "id": 2898644,
+    "stock_id": 2898644,
+    "new_name": "ber_unit_horseman_3_mal",
+    "new_id": 36388969,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_horseman_3_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_horseman_4_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/units/unit_horseman_4_mal.rgd",
+    "same_native_id": true,
+    "id": 2154487,
+    "stock_id": 2154487,
+    "new_name": "ber_unit_horseman_4_mal",
+    "new_id": 35617194,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_horseman_4_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_king_1_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/units/unit_king_1_mal.rgd",
+    "same_native_id": true,
+    "id": 2974784,
+    "stock_id": 2974784,
+    "new_name": "ber_unit_king_1_mal",
+    "new_id": 34964282,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_king_1_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_knight_3_song_cmp.rgd",
+    "stock_member": "attrib/ebps/races/song_dynasty_cmp/units/unit_knight_3_song_cmp.rgd",
+    "same_native_id": true,
+    "id": 9004861,
+    "stock_id": 9004861,
+    "new_name": "ber_unit_knight_3_song_cmp",
+    "new_id": 34180369,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_knight_3_song_cmp.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_knight_4_song_cmp.rgd",
+    "stock_member": "attrib/ebps/races/song_dynasty_cmp/units/unit_knight_4_song_cmp.rgd",
+    "same_native_id": true,
+    "id": 9004862,
+    "stock_id": 9004862,
+    "new_name": "ber_unit_knight_4_song_cmp",
+    "new_id": 36232283,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_knight_4_song_cmp.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_mangonel_3_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/units/unit_mangonel_3_mal.rgd",
+    "same_native_id": true,
+    "id": 2619310,
+    "stock_id": 2619310,
+    "new_name": "ber_unit_mangonel_3_mal",
+    "new_id": 35554118,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_mangonel_3_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_monk_3_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/units/unit_monk_3_mal.rgd",
+    "same_native_id": true,
+    "id": 2059002,
+    "stock_id": 2059002,
+    "new_name": "ber_unit_monk_3_mal",
+    "new_id": 36977381,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_monk_3_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_naval_combat_ship_3_abb.rgd",
+    "stock_member": "attrib/ebps/races/abbasid/units/unit_naval_combat_ship_3_abb.rgd",
+    "same_native_id": false,
+    "id": 1073741914,
+    "stock_id": 199675,
+    "new_name": "ber_unit_naval_combat_ship_3_abb",
+    "new_id": 37848419,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_naval_combat_ship_3_abb.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_naval_combat_warship_4_abb.rgd",
+    "stock_member": "attrib/ebps/races/abbasid/units/unit_naval_combat_warship_4_abb.rgd",
+    "same_native_id": false,
+    "id": 1073741916,
+    "stock_id": 199676,
+    "new_name": "ber_unit_naval_combat_warship_4_abb",
+    "new_id": 37156819,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_naval_combat_warship_4_abb.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_naval_fireship_3_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/units/unit_naval_fireship_3_mal.rgd",
+    "same_native_id": true,
+    "id": 2331085,
+    "stock_id": 2331085,
+    "new_name": "ber_unit_naval_fireship_3_mal",
+    "new_id": 38188260,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_naval_fireship_3_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_naval_fishing_boat_2_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/units/unit_naval_fishing_boat_2_mal.rgd",
+    "same_native_id": true,
+    "id": 2362829,
+    "stock_id": 2362829,
+    "new_name": "ber_unit_naval_fishing_boat_2_mal",
+    "new_id": 34438641,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_naval_fishing_boat_2_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_naval_light_combat_ship_2_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/units/unit_naval_light_combat_ship_2_mal.rgd",
+    "same_native_id": true,
+    "id": 2071544,
+    "stock_id": 2071544,
+    "new_name": "ber_unit_naval_light_combat_ship_2_mal",
+    "new_id": 35557179,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_naval_light_combat_ship_2_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_naval_trade_ship_3_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/units/unit_naval_trade_ship_3_mal.rgd",
+    "same_native_id": true,
+    "id": 2995253,
+    "stock_id": 2995253,
+    "new_name": "ber_unit_naval_trade_ship_3_mal",
+    "new_id": 37618699,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_naval_trade_ship_3_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_naval_transport_ship_2_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/units/unit_naval_transport_ship_2_mal.rgd",
+    "same_native_id": true,
+    "id": 2363276,
+    "stock_id": 2363276,
+    "new_name": "ber_unit_naval_transport_ship_2_mal",
+    "new_id": 36150610,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_naval_transport_ship_2_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_ram_3_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/units/unit_ram_3_mal.rgd",
+    "same_native_id": true,
+    "id": 2444402,
+    "stock_id": 2444402,
+    "new_name": "ber_unit_ram_3_mal",
+    "new_id": 36917531,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_ram_3_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_scout_1_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/units/unit_scout_1_mal.rgd",
+    "same_native_id": true,
+    "id": 2731592,
+    "stock_id": 2731592,
+    "new_name": "ber_unit_scout_1_mal",
+    "new_id": 38860470,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_scout_1_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_scout_2_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/units/unit_scout_2_mal.rgd",
+    "same_native_id": true,
+    "id": 2073400,
+    "stock_id": 2073400,
+    "new_name": "ber_unit_scout_2_mal",
+    "new_id": 36978055,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_scout_2_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_siege_tower_3_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/units/unit_siege_tower_3_mal.rgd",
+    "same_native_id": true,
+    "id": 2350796,
+    "stock_id": 2350796,
+    "new_name": "ber_unit_siege_tower_3_mal",
+    "new_id": 36029764,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_siege_tower_3_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_springald_3_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/units/unit_springald_3_mal.rgd",
+    "same_native_id": true,
+    "id": 2392943,
+    "stock_id": 2392943,
+    "new_name": "ber_unit_springald_3_mal",
+    "new_id": 34231024,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_springald_3_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_trade_cart_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/units/unit_trade_cart_mal.rgd",
+    "same_native_id": true,
+    "id": 2544129,
+    "stock_id": 2544129,
+    "new_name": "ber_unit_trade_cart_mal",
+    "new_id": 36997656,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_trade_cart_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_trebuchet_4_cw_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/units/unit_trebuchet_4_cw_mal.rgd",
+    "same_native_id": true,
+    "id": 2827703,
+    "stock_id": 2827703,
+    "new_name": "ber_unit_trebuchet_4_cw_mal",
+    "new_id": 37256545,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_trebuchet_4_cw_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_trebuchet_4_tr_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/units/unit_trebuchet_4_tr_mal.rgd",
+    "same_native_id": true,
+    "id": 2905484,
+    "stock_id": 2905484,
+    "new_name": "ber_unit_trebuchet_4_tr_mal",
+    "new_id": 38898714,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_trebuchet_4_tr_mal.rgd"
+  },
+  {
+    "member": "attrib/ebps/races/malian/units/unit_villager_1_mal.rgd",
+    "stock_member": "attrib/ebps/races/malian/units/unit_villager_1_mal.rgd",
+    "same_native_id": true,
+    "id": 2864701,
+    "stock_id": 2864701,
+    "new_name": "ber_unit_villager_1_mal",
+    "new_id": 37058294,
+    "native_carrier_member": "attrib/ebps/garrison/berbers/ber_unit_villager_1_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/animals/herdable_cattle_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/animals/herdable_cattle_mal.rgd",
+    "same_native_id": true,
+    "id": 2059966,
+    "stock_id": 2059966,
+    "new_name": "ber_herdable_cattle_mal",
+    "new_id": 34181724,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_herdable_cattle_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/berbers/unit_handcannon_4_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_handcannon_4_mal.rgd",
+    "same_native_id": true,
+    "id": 2810898,
+    "stock_id": 2810898,
+    "new_name": "ber_unit_handcannon_4_mal",
+    "new_id": 38645369,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_handcannon_4_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/berbers/unit_horseman_2_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_horseman_2_mal.rgd",
+    "same_native_id": true,
+    "id": 2748913,
+    "stock_id": 2748913,
+    "new_name": "ber_unit_horseman_2_mal",
+    "new_id": 35206036,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_horseman_2_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/berbers/unit_horseman_3_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_horseman_3_mal.rgd",
+    "same_native_id": true,
+    "id": 2106325,
+    "stock_id": 2106325,
+    "new_name": "ber_unit_horseman_3_mal",
+    "new_id": 34680982,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_horseman_3_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/berbers/unit_horseman_4_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_horseman_4_mal.rgd",
+    "same_native_id": true,
+    "id": 2705913,
+    "stock_id": 2705913,
+    "new_name": "ber_unit_horseman_4_mal",
+    "new_id": 37326801,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_horseman_4_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/berbers/unit_knight_3_song_cmp.rgd",
+    "stock_member": "attrib/sbps/races/song_dynasty_cmp/unit_knight_3_song_cmp.rgd",
+    "same_native_id": true,
+    "id": 9004932,
+    "stock_id": 9004932,
+    "new_name": "ber_unit_knight_3_song_cmp",
+    "new_id": 36956799,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_knight_3_song_cmp.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/berbers/unit_knight_4_song_cmp.rgd",
+    "stock_member": "attrib/sbps/races/song_dynasty_cmp/unit_knight_4_song_cmp.rgd",
+    "same_native_id": true,
+    "id": 9004933,
+    "stock_id": 9004933,
+    "new_name": "ber_unit_knight_4_song_cmp",
+    "new_id": 37808737,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_knight_4_song_cmp.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/berbers/unit_scout_1_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_scout_1_mal.rgd",
+    "same_native_id": true,
+    "id": 2236148,
+    "stock_id": 2236148,
+    "new_name": "ber_unit_scout_1_mal",
+    "new_id": 38541196,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_scout_1_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/berbers/unit_scout_2_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_scout_2_mal.rgd",
+    "same_native_id": true,
+    "id": 2073403,
+    "stock_id": 2073403,
+    "new_name": "ber_unit_scout_2_mal",
+    "new_id": 37807371,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_scout_2_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_archer_2_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_archer_2_mal.rgd",
+    "same_native_id": true,
+    "id": 2687089,
+    "stock_id": 2687089,
+    "new_name": "ber_unit_archer_2_mal",
+    "new_id": 36060192,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_archer_2_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_archer_3_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_archer_3_mal.rgd",
+    "same_native_id": true,
+    "id": 2284776,
+    "stock_id": 2284776,
+    "new_name": "ber_unit_archer_3_mal",
+    "new_id": 36157467,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_archer_3_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_archer_4_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_archer_4_mal.rgd",
+    "same_native_id": true,
+    "id": 2678898,
+    "stock_id": 2678898,
+    "new_name": "ber_unit_archer_4_mal",
+    "new_id": 37533944,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_archer_4_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_bombard_4_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_bombard_4_mal.rgd",
+    "same_native_id": true,
+    "id": 2356081,
+    "stock_id": 2356081,
+    "new_name": "ber_unit_bombard_4_mal",
+    "new_id": 34127342,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_bombard_4_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_cannon_4_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_cannon_4_mal.rgd",
+    "same_native_id": true,
+    "id": 2559785,
+    "stock_id": 2559785,
+    "new_name": "ber_unit_cannon_4_mal",
+    "new_id": 34871390,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_cannon_4_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_culverin_4_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_culverin_4_mal.rgd",
+    "same_native_id": true,
+    "id": 2278976,
+    "stock_id": 2278976,
+    "new_name": "ber_unit_culverin_4_mal",
+    "new_id": 36093871,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_culverin_4_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_gbeto_2_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_gbeto_2_mal.rgd",
+    "same_native_id": true,
+    "id": 2059654,
+    "stock_id": 2059654,
+    "new_name": "ber_unit_gbeto_2_mal",
+    "new_id": 37077596,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_gbeto_2_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_gbeto_3_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_gbeto_3_mal.rgd",
+    "same_native_id": true,
+    "id": 2059655,
+    "stock_id": 2059655,
+    "new_name": "ber_unit_gbeto_3_mal",
+    "new_id": 34271779,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_gbeto_3_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_gbeto_4_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_gbeto_4_mal.rgd",
+    "same_native_id": true,
+    "id": 2059656,
+    "stock_id": 2059656,
+    "new_name": "ber_unit_gbeto_4_mal",
+    "new_id": 35092679,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_gbeto_4_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_king_1_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_king_1_mal.rgd",
+    "same_native_id": true,
+    "id": 2993354,
+    "stock_id": 2993354,
+    "new_name": "ber_unit_king_1_mal",
+    "new_id": 35377067,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_king_1_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_mangonel_3_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_mangonel_3_mal.rgd",
+    "same_native_id": true,
+    "id": 2589711,
+    "stock_id": 2589711,
+    "new_name": "ber_unit_mangonel_3_mal",
+    "new_id": 38837223,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_mangonel_3_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_monk_3_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_monk_3_mal.rgd",
+    "same_native_id": true,
+    "id": 2059001,
+    "stock_id": 2059001,
+    "new_name": "ber_unit_monk_3_mal",
+    "new_id": 34358711,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_monk_3_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_naval_combat_ship_2_abb.rgd",
+    "stock_member": "attrib/sbps/races/abbasid/unit_naval_combat_ship_2_abb.rgd",
+    "same_native_id": false,
+    "id": 1073741913,
+    "stock_id": 199725,
+    "new_name": "ber_unit_naval_combat_ship_2_abb",
+    "new_id": 35635544,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_naval_combat_ship_2_abb.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_naval_combat_ship_2_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_naval_combat_ship_2_mal.rgd",
+    "same_native_id": true,
+    "id": 2229104,
+    "stock_id": 2229104,
+    "new_name": "ber_unit_naval_combat_ship_2_mal",
+    "new_id": 35162224,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_naval_combat_ship_2_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_naval_combat_warship_4_abb.rgd",
+    "stock_member": "attrib/sbps/races/abbasid/unit_naval_combat_warship_4_abb.rgd",
+    "same_native_id": false,
+    "id": 1073741915,
+    "stock_id": 199726,
+    "new_name": "ber_unit_naval_combat_warship_4_abb",
+    "new_id": 37183933,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_naval_combat_warship_4_abb.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_naval_fireship_3_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_naval_fireship_3_mal.rgd",
+    "same_native_id": true,
+    "id": 2356678,
+    "stock_id": 2356678,
+    "new_name": "ber_unit_naval_fireship_3_mal",
+    "new_id": 38005618,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_naval_fireship_3_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_naval_fishing_boat_2_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_naval_fishing_boat_2_mal.rgd",
+    "same_native_id": true,
+    "id": 2553220,
+    "stock_id": 2553220,
+    "new_name": "ber_unit_naval_fishing_boat_2_mal",
+    "new_id": 35041505,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_naval_fishing_boat_2_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_naval_light_combat_ship_2_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_naval_light_combat_ship_2_mal.rgd",
+    "same_native_id": true,
+    "id": 2071545,
+    "stock_id": 2071545,
+    "new_name": "ber_unit_naval_light_combat_ship_2_mal",
+    "new_id": 35360606,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_naval_light_combat_ship_2_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_naval_scout_2_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_naval_scout_2_mal.rgd",
+    "same_native_id": true,
+    "id": 2111166,
+    "stock_id": 2111166,
+    "new_name": "ber_unit_naval_scout_2_mal",
+    "new_id": 36075033,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_naval_scout_2_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_naval_trade_ship_3_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_naval_trade_ship_3_mal.rgd",
+    "same_native_id": true,
+    "id": 2226732,
+    "stock_id": 2226732,
+    "new_name": "ber_unit_naval_trade_ship_3_mal",
+    "new_id": 35335908,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_naval_trade_ship_3_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_naval_transport_ship_2_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_naval_transport_ship_2_mal.rgd",
+    "same_native_id": true,
+    "id": 2100725,
+    "stock_id": 2100725,
+    "new_name": "ber_unit_naval_transport_ship_2_mal",
+    "new_id": 37388910,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_naval_transport_ship_2_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_ram_3_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_ram_3_mal.rgd",
+    "same_native_id": true,
+    "id": 2288733,
+    "stock_id": 2288733,
+    "new_name": "ber_unit_ram_3_mal",
+    "new_id": 38650014,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_ram_3_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_ribauldequin_4_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_ribauldequin_4_mal.rgd",
+    "same_native_id": true,
+    "id": 2294481,
+    "stock_id": 2294481,
+    "new_name": "ber_unit_ribauldequin_4_mal",
+    "new_id": 34831711,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_ribauldequin_4_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_siege_tower_3_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_siege_tower_3_mal.rgd",
+    "same_native_id": true,
+    "id": 2952887,
+    "stock_id": 2952887,
+    "new_name": "ber_unit_siege_tower_3_mal",
+    "new_id": 38951527,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_siege_tower_3_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_springald_3_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_springald_3_mal.rgd",
+    "same_native_id": true,
+    "id": 2618732,
+    "stock_id": 2618732,
+    "new_name": "ber_unit_springald_3_mal",
+    "new_id": 36486513,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_springald_3_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_trade_cart_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_trade_cart_mal.rgd",
+    "same_native_id": true,
+    "id": 2201796,
+    "stock_id": 2201796,
+    "new_name": "ber_unit_trade_cart_mal",
+    "new_id": 36675511,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_trade_cart_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_trebuchet_4_cw_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_trebuchet_4_cw_mal.rgd",
+    "same_native_id": true,
+    "id": 2751274,
+    "stock_id": 2751274,
+    "new_name": "ber_unit_trebuchet_4_cw_mal",
+    "new_id": 34837827,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_trebuchet_4_cw_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_trebuchet_4_tr_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_trebuchet_4_tr_mal.rgd",
+    "same_native_id": true,
+    "id": 2152791,
+    "stock_id": 2152791,
+    "new_name": "ber_unit_trebuchet_4_tr_mal",
+    "new_id": 37890658,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_trebuchet_4_tr_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_villager_1_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_villager_1_mal.rgd",
+    "same_native_id": true,
+    "id": 2359463,
+    "stock_id": 2359463,
+    "new_name": "ber_unit_villager_1_mal",
+    "new_id": 37561195,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_villager_1_mal.rgd"
+  },
+  {
+    "member": "attrib/sbps/races/malian/unit_workshop_ram_3_mal.rgd",
+    "stock_member": "attrib/sbps/races/malian/unit_workshop_ram_3_mal.rgd",
+    "same_native_id": true,
+    "id": 2108173,
+    "stock_id": 2108173,
+    "new_name": "ber_unit_workshop_ram_3_mal",
+    "new_id": 37148457,
+    "native_carrier_member": "attrib/sbps/garrison/berbers/ber_unit_workshop_ram_3_mal.rgd"
+  },
+  {
+    "member": "attrib/upgrade/races/campaign/french/upgrade_surplus_iron_fre.rgd",
+    "stock_member": "attrib/upgrade/races/campaign/french/upgrade_surplus_iron_fre.rgd",
+    "same_native_id": true,
+    "id": 1259919,
+    "stock_id": 1259919,
+    "new_name": "ber_upgrade_surplus_iron_fre",
+    "new_id": 38362042,
+    "native_carrier_member": "attrib/upgrade/garrison/berbers/ber_upgrade_surplus_iron_fre.rgd"
+  },
+  {
+    "member": "attrib/upgrade/races/malian/alliances/upgrade_cul_ancient_relics_ayy.rgd",
+    "stock_member": "attrib/upgrade/races/ayyubid_cmp/research/upgrade_cul_ancient_relics_ayy.rgd",
+    "same_native_id": true,
+    "id": 2136536,
+    "stock_id": 2136536,
+    "new_name": "ber_upgrade_cul_ancient_relics_ayy",
+    "new_id": 37904271,
+    "native_carrier_member": "attrib/upgrade/garrison/berbers/ber_upgrade_cul_ancient_relics_ayy.rgd"
+  },
+  {
+    "member": "attrib/upgrade/races/malian/alliances/upgrade_cul_medical_centers_ayy.rgd",
+    "stock_member": "attrib/upgrade/races/ayyubid_cmp/research/upgrade_cul_medical_centers_ayy.rgd",
+    "same_native_id": true,
+    "id": 2136432,
+    "stock_id": 2136432,
+    "new_name": "ber_upgrade_cul_medical_centers_ayy",
+    "new_id": 38607525,
+    "native_carrier_member": "attrib/upgrade/garrison/berbers/ber_upgrade_cul_medical_centers_ayy.rgd"
+  },
+  {
+    "member": "attrib/upgrade/races/malian/alliances/upgrade_econ_agriculture_ayy.rgd",
+    "stock_member": "attrib/upgrade/races/ayyubid_cmp/research/upgrade_econ_agriculture_ayy.rgd",
+    "same_native_id": true,
+    "id": 2145013,
+    "stock_id": 2145013,
+    "new_name": "ber_upgrade_econ_agriculture_ayy",
+    "new_id": 35443700,
+    "native_carrier_member": "attrib/upgrade/garrison/berbers/ber_upgrade_econ_agriculture_ayy.rgd"
+  },
+  {
+    "member": "attrib/upgrade/races/malian/research/upgrade_scout_los_increase_mal.rgd",
+    "stock_member": "attrib/upgrade/races/malian/research/upgrade_scout_los_increase_mal.rgd",
+    "same_native_id": true,
+    "id": 2126348,
+    "stock_id": 2126348,
+    "new_name": "ber_upgrade_scout_los_increase_mal",
+    "new_id": 38949043,
+    "native_carrier_member": "attrib/upgrade/garrison/berbers/ber_upgrade_scout_los_increase_mal.rgd"
+  },
+  {
+    "member": "attrib/upgrade/races/malian/units/mehari/upgrade_unit_gbeto_3_mal.rgd",
+    "stock_member": "attrib/upgrade/races/malian/units/upgrade_unit_gbeto_3_mal.rgd",
+    "same_native_id": true,
+    "id": 2059650,
+    "stock_id": 2059650,
+    "new_name": "ber_upgrade_unit_gbeto_3_mal",
+    "new_id": 35447211,
+    "native_carrier_member": "attrib/upgrade/garrison/berbers/ber_upgrade_unit_gbeto_3_mal.rgd"
+  },
+  {
+    "member": "attrib/upgrade/races/malian/units/mehari/upgrade_unit_gbeto_4_mal.rgd",
+    "stock_member": "attrib/upgrade/races/malian/units/upgrade_unit_gbeto_4_mal.rgd",
+    "same_native_id": true,
+    "id": 2059652,
+    "stock_id": 2059652,
+    "new_name": "ber_upgrade_unit_gbeto_4_mal",
+    "new_id": 38482401,
+    "native_carrier_member": "attrib/upgrade/garrison/berbers/ber_upgrade_unit_gbeto_4_mal.rgd"
+  },
+  {
+    "member": "attrib/upgrade/races/malian/units/tuaregspearman/upgrade_unit_spearman_2_mal.rgd",
+    "stock_member": "attrib/upgrade/races/malian/units/upgrade_unit_spearman_2_mal.rgd",
+    "same_native_id": true,
+    "id": 2059143,
+    "stock_id": 2059143,
+    "new_name": "ber_upgrade_unit_spearman_2_mal",
+    "new_id": 36687663,
+    "native_carrier_member": "attrib/upgrade/garrison/berbers/ber_upgrade_unit_spearman_2_mal.rgd"
+  },
+  {
+    "member": "attrib/upgrade/races/malian/units/tuaregspearman/upgrade_unit_spearman_3_mal.rgd",
+    "stock_member": "attrib/upgrade/races/malian/units/upgrade_unit_spearman_3_mal.rgd",
+    "same_native_id": true,
+    "id": 2059144,
+    "stock_id": 2059144,
+    "new_name": "ber_upgrade_unit_spearman_3_mal",
+    "new_id": 37351097,
+    "native_carrier_member": "attrib/upgrade/garrison/berbers/ber_upgrade_unit_spearman_3_mal.rgd"
+  },
+  {
+    "member": "attrib/upgrade/races/malian/units/tuaregspearman/upgrade_unit_spearman_4_mal.rgd",
+    "stock_member": "attrib/upgrade/races/malian/units/upgrade_unit_spearman_4_mal.rgd",
+    "same_native_id": true,
+    "id": 2059145,
+    "stock_id": 2059145,
+    "new_name": "ber_upgrade_unit_spearman_4_mal",
+    "new_id": 34419457,
+    "native_carrier_member": "attrib/upgrade/garrison/berbers/ber_upgrade_unit_spearman_4_mal.rgd"
+  },
+  {
+    "member": "attrib/upgrade/races/malian/units/upgrade_unit_archer_3_mal.rgd",
+    "stock_member": "attrib/upgrade/races/malian/units/upgrade_unit_archer_3_mal.rgd",
+    "same_native_id": true,
+    "id": 2074106,
+    "stock_id": 2074106,
+    "new_name": "ber_upgrade_unit_archer_3_mal",
+    "new_id": 37281844,
+    "native_carrier_member": "attrib/upgrade/garrison/berbers/ber_upgrade_unit_archer_3_mal.rgd"
+  },
+  {
+    "member": "attrib/upgrade/races/malian/units/upgrade_unit_archer_4_mal.rgd",
+    "stock_member": "attrib/upgrade/races/malian/units/upgrade_unit_archer_4_mal.rgd",
+    "same_native_id": true,
+    "id": 2074107,
+    "stock_id": 2074107,
+    "new_name": "ber_upgrade_unit_archer_4_mal",
+    "new_id": 37910183,
+    "native_carrier_member": "attrib/upgrade/garrison/berbers/ber_upgrade_unit_archer_4_mal.rgd"
+  },
+  {
+    "member": "attrib/upgrade/races/malian/units/upgrade_unit_horseman_3_mal.rgd",
+    "stock_member": "attrib/upgrade/races/malian/units/upgrade_unit_horseman_3_mal.rgd",
+    "same_native_id": true,
+    "id": 2059146,
+    "stock_id": 2059146,
+    "new_name": "ber_upgrade_unit_horseman_3_mal",
+    "new_id": 37181764,
+    "native_carrier_member": "attrib/upgrade/garrison/berbers/ber_upgrade_unit_horseman_3_mal.rgd"
+  },
+  {
+    "member": "attrib/upgrade/races/malian/units/upgrade_unit_horseman_4_mal.rgd",
+    "stock_member": "attrib/upgrade/races/malian/units/upgrade_unit_horseman_4_mal.rgd",
+    "same_native_id": true,
+    "id": 2059147,
+    "stock_id": 2059147,
+    "new_name": "ber_upgrade_unit_horseman_4_mal",
+    "new_id": 34895916,
+    "native_carrier_member": "attrib/upgrade/garrison/berbers/ber_upgrade_unit_horseman_4_mal.rgd"
+  },
+  {
+    "member": "attrib/upgrade/races/song_dynasty_cmp/upgrade_night_buff_song_cmp.rgd",
+    "stock_member": "attrib/upgrade/races/song_dynasty_cmp/upgrade_night_buff_song_cmp.rgd",
+    "same_native_id": true,
+    "id": 9005555,
+    "stock_id": 9005555,
+    "new_name": "ber_upgrade_night_buff_song_cmp",
+    "new_id": 38741492,
+    "native_carrier_member": "attrib/upgrade/garrison/berbers/ber_upgrade_night_buff_song_cmp.rgd"
+  },
+  {
+    "member": "attrib/weapon/races/malian/melee/weapon_horseman_2_charge_mal.rgd",
+    "stock_member": "attrib/weapon/races/malian/melee/weapon_horseman_2_charge_mal.rgd",
+    "same_native_id": true,
+    "id": 2072972,
+    "stock_id": 2072972,
+    "new_name": "ber_weapon_horseman_2_charge_mal",
+    "new_id": 37216394,
+    "native_carrier_member": "attrib/weapon/garrison/berbers/ber_weapon_horseman_2_charge_mal.rgd"
+  },
+  {
+    "member": "attrib/weapon/races/malian/melee/weapon_horseman_2_mal.rgd",
+    "stock_member": "attrib/weapon/races/malian/melee/weapon_horseman_2_mal.rgd",
+    "same_native_id": true,
+    "id": 2072970,
+    "stock_id": 2072970,
+    "new_name": "ber_weapon_horseman_2_mal",
+    "new_id": 38611817,
+    "native_carrier_member": "attrib/weapon/garrison/berbers/ber_weapon_horseman_2_mal.rgd"
+  },
+  {
+    "member": "attrib/weapon/races/malian/melee/weapon_horseman_3_charge_mal.rgd",
+    "stock_member": "attrib/weapon/races/malian/melee/weapon_horseman_3_charge_mal.rgd",
+    "same_native_id": true,
+    "id": 2072974,
+    "stock_id": 2072974,
+    "new_name": "ber_weapon_horseman_3_charge_mal",
+    "new_id": 37775788,
+    "native_carrier_member": "attrib/weapon/garrison/berbers/ber_weapon_horseman_3_charge_mal.rgd"
+  },
+  {
+    "member": "attrib/weapon/races/malian/melee/weapon_horseman_3_mal.rgd",
+    "stock_member": "attrib/weapon/races/malian/melee/weapon_horseman_3_mal.rgd",
+    "same_native_id": true,
+    "id": 2072973,
+    "stock_id": 2072973,
+    "new_name": "ber_weapon_horseman_3_mal",
+    "new_id": 34656085,
+    "native_carrier_member": "attrib/weapon/garrison/berbers/ber_weapon_horseman_3_mal.rgd"
+  },
+  {
+    "member": "attrib/weapon/races/malian/melee/weapon_horseman_4_charge_mal.rgd",
+    "stock_member": "attrib/weapon/races/malian/melee/weapon_horseman_4_charge_mal.rgd",
+    "same_native_id": true,
+    "id": 2072976,
+    "stock_id": 2072976,
+    "new_name": "ber_weapon_horseman_4_charge_mal",
+    "new_id": 34979571,
+    "native_carrier_member": "attrib/weapon/garrison/berbers/ber_weapon_horseman_4_charge_mal.rgd"
+  },
+  {
+    "member": "attrib/weapon/races/malian/melee/weapon_horseman_4_mal.rgd",
+    "stock_member": "attrib/weapon/races/malian/melee/weapon_horseman_4_mal.rgd",
+    "same_native_id": true,
+    "id": 2072975,
+    "stock_id": 2072975,
+    "new_name": "ber_weapon_horseman_4_mal",
+    "new_id": 34950300,
+    "native_carrier_member": "attrib/weapon/garrison/berbers/ber_weapon_horseman_4_mal.rgd"
+  },
+  {
+    "member": "attrib/weapon/races/malian/ranged/camel_archer/weapon_archer_3_nov.rgd",
+    "stock_member": "attrib/weapon/races/campaign/novgorod/ranged/weapon_archer_3_nov.rgd",
+    "same_native_id": true,
+    "id": 187877,
+    "stock_id": 187877,
+    "new_name": "ber_weapon_archer_3_nov",
+    "new_id": 35797698,
+    "native_carrier_member": "attrib/weapon/garrison/berbers/ber_weapon_archer_3_nov.rgd"
+  },
+  {
+    "member": "attrib/weapon/races/malian/ranged/camel_archer/weapon_crossbow_3_nov.rgd",
+    "stock_member": "attrib/weapon/races/campaign/novgorod/ranged/weapon_crossbow_3_nov.rgd",
+    "same_native_id": true,
+    "id": 187888,
+    "stock_id": 187888,
+    "new_name": "ber_weapon_crossbow_3_nov",
+    "new_id": 36550385,
+    "native_carrier_member": "attrib/weapon/garrison/berbers/ber_weapon_crossbow_3_nov.rgd"
+  },
+  {
+    "member": "attrib/weapon/races/malian/ranged/camel_archer/weapon_horsearcher_3_nov.rgd",
+    "stock_member": "attrib/weapon/races/campaign/novgorod/ranged/weapon_horsearcher_3_nov.rgd",
+    "same_native_id": true,
+    "id": 187928,
+    "stock_id": 187928,
+    "new_name": "ber_weapon_horsearcher_3_nov",
+    "new_id": 38280397,
+    "native_carrier_member": "attrib/weapon/garrison/berbers/ber_weapon_horsearcher_3_nov.rgd"
+  },
+  {
+    "member": "attrib/weapon/races/malian/ranged/camel_archer/weapon_mangonel_3_incendiary_nov.rgd",
+    "stock_member": "attrib/weapon/races/campaign/novgorod/ranged/weapon_mangonel_3_incendiary_nov.rgd",
+    "same_native_id": true,
+    "id": 187951,
+    "stock_id": 187951,
+    "new_name": "ber_weapon_mangonel_3_incendiary_nov",
+    "new_id": 35586490,
+    "native_carrier_member": "attrib/weapon/garrison/berbers/ber_weapon_mangonel_3_incendiary_nov.rgd"
+  },
+  {
+    "member": "attrib/weapon/races/malian/ranged/camel_archer/weapon_mangonel_3_nov.rgd",
+    "stock_member": "attrib/weapon/races/campaign/novgorod/ranged/weapon_mangonel_3_nov.rgd",
+    "same_native_id": true,
+    "id": 187950,
+    "stock_id": 187950,
+    "new_name": "ber_weapon_mangonel_3_nov",
+    "new_id": 36421197,
+    "native_carrier_member": "attrib/weapon/garrison/berbers/ber_weapon_mangonel_3_nov.rgd"
+  },
+  {
+    "member": "attrib/weapon/races/malian/ranged/camel_archer/weapon_scout_hunt_ranged_1_nov.rgd",
+    "stock_member": "attrib/weapon/races/campaign/novgorod/ranged/weapon_scout_hunt_ranged_1_nov.rgd",
+    "same_native_id": true,
+    "id": 188078,
+    "stock_id": 188078,
+    "new_name": "ber_weapon_scout_hunt_ranged_1_nov",
+    "new_id": 35242410,
+    "native_carrier_member": "attrib/weapon/garrison/berbers/ber_weapon_scout_hunt_ranged_1_nov.rgd"
+  },
+  {
+    "member": "attrib/weapon/races/malian/ranged/weapon_handcannon_4_mal.rgd",
+    "stock_member": "attrib/weapon/races/malian/ranged/weapon_handcannon_4_mal.rgd",
+    "same_native_id": true,
+    "id": 2102847,
+    "stock_id": 2102847,
+    "new_name": "ber_weapon_handcannon_4_mal",
+    "new_id": 35670389,
+    "native_carrier_member": "attrib/weapon/garrison/berbers/ber_weapon_handcannon_4_mal.rgd"
+  },
+  {
+    "member": "attrib/weapon/races/malian/ranged/weapon_handcannon_leadshot_mal.rgd",
+    "stock_member": "attrib/weapon/races/malian/ranged/weapon_handcannon_leadshot_mal.rgd",
+    "same_native_id": true,
+    "id": 9000694,
+    "stock_id": 9000694,
+    "new_name": "ber_weapon_handcannon_leadshot_mal",
+    "new_id": 36611844,
+    "native_carrier_member": "attrib/weapon/garrison/berbers/ber_weapon_handcannon_leadshot_mal.rgd"
+  }
+]

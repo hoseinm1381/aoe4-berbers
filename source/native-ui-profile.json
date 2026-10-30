@@ -1,0 +1,62 @@
+{
+  "schema": "garrison.civilization-authoring/v1",
+  "owner": "5fe8767c-ca3a-4e64-9e20-c9527cf014ec",
+  "race": "berbers",
+  "name": "Berbers (Trial)",
+  "description": "Experimental independent Berber civilization converted from the preserved 1.0.5 package. Native gameplay acceptance pending.",
+  "capital": "5fe8767cca3a4e649e20c9527cf014ec:building_town_center_capital_mal",
+  "villager": "5fe8767cca3a4e649e20c9527cf014ec:unit_villager_1_mal",
+  "scout": "5fe8767cca3a4e649e20c9527cf014ec:unit_scout_1_mal",
+  "speech_race": "no_race",
+  "period": "Berber dynasties",
+  "traits": "Tribal Tents, Alliances, Mobile Armies",
+  "difficulty": 2,
+  "bonuses": [
+    "Trial conversion of the preserved Berber gameplay, art, voices and music."
+  ],
+  "resources": {
+    "food": 200,
+    "wood": 200,
+    "gold": 100,
+    "stone": 50
+  },
+  "starting_squads": [
+    "5fe8767cca3a4e649e20c9527cf014ec:unit_scout_1_mal",
+    "5fe8767cca3a4e649e20c9527cf014ec:unit_villager_1_mal",
+    "5fe8767cca3a4e649e20c9527cf014ec:unit_villager_1_mal",
+    "5fe8767cca3a4e649e20c9527cf014ec:unit_villager_1_mal",
+    "5fe8767cca3a4e649e20c9527cf014ec:unit_villager_1_mal",
+    "5fe8767cca3a4e649e20c9527cf014ec:unit_villager_1_mal",
+    "5fe8767cca3a4e649e20c9527cf014ec:unit_villager_1_mal"
+  ],
+  "starting_offsets": [
+    [
+      -4,
+      10
+    ],
+    [
+      -2.2,
+      0
+    ],
+    [
+      -3.3,
+      -2
+    ],
+    [
+      -1,
+      -2
+    ],
+    [
+      -2,
+      -4
+    ],
+    [
+      0,
+      -4
+    ],
+    [
+      -1,
+      -6
+    ]
+  ]
+}

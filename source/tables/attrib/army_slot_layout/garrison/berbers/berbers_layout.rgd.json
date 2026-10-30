@@ -1,0 +1,436 @@
+{
+  "schema": "berbers.native-table/v1",
+  "version": 4,
+  "platform": 1,
+  "chunks": [
+    {
+      "kind": "44415441",
+      "id": "41454744",
+      "version": 3,
+      "name": "",
+      "body": ""
+    },
+    {
+      "kind": "44415441",
+      "id": "4b455953",
+      "version": 1,
+      "name": "",
+      "body": ""
+    }
+  ],
+  "keys": [
+    [
+      8529826256463028745,
+      "instance_version"
+    ],
+    [
+      4430693559278735917,
+      "default"
+    ],
+    [
+      13005689997087892415,
+      "pbgid"
+    ],
+    [
+      2190878477663909643,
+      "army_slot_layout_bag"
+    ],
+    [
+      16762412460254493655,
+      "inventory_item"
+    ],
+    [
+      15047289045282941900,
+      "server_id"
+    ],
+    [
+      1878212433285343959,
+      "search_tags"
+    ],
+    [
+      9457113125491289757,
+      "races"
+    ],
+    [
+      12047929990474525578,
+      "race"
+    ],
+    [
+      5464984021694833596,
+      "$PBGNAME"
+    ],
+    [
+      1238668035833122403,
+      "$PBGMAP"
+    ],
+    [
+      10992649956153883606,
+      "default_metadata"
+    ],
+    [
+      14608112296403903366,
+      "inventory_item_categories"
+    ],
+    [
+      13758108808786289668,
+      "inventory_item_category"
+    ],
+    [
+      15096128641582150198,
+      "inventory_item_slots"
+    ],
+    [
+      7267125477893126920,
+      "inventory_item_slot"
+    ],
+    [
+      5998857030399822055,
+      "inventory_item_attributes"
+    ],
+    [
+      7917824378913597848,
+      "inventory_item_equip_modifiers"
+    ],
+    [
+      18433947741504748740,
+      "inventory_item_equip_requirement"
+    ],
+    [
+      6998867517914059163,
+      "$REF"
+    ],
+    [
+      16298039077679004786,
+      "level_table"
+    ],
+    [
+      4029297207447887390,
+      "required_level"
+    ],
+    [
+      5301666385515115586,
+      "droppable"
+    ],
+    [
+      17216969559225366552,
+      "ui_priority"
+    ],
+    [
+      16946285180854220425,
+      "default_loadout"
+    ]
+  ],
+  "nodes": [
+    {
+      "key": "default",
+      "hash": 4430693559278735917,
+      "kind": "List",
+      "value": [
+        {
+          "key": "army_slot_layout_bag",
+          "hash": 2190878477663909643,
+          "kind": "List",
+          "value": [
+            {
+              "key": "inventory_item",
+              "hash": 16762412460254493655,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "search_tags",
+                  "hash": 1878212433285343959,
+                  "kind": "List",
+                  "value": []
+                },
+                {
+                  "key": "required_level",
+                  "hash": 4029297207447887390,
+                  "kind": "Int",
+                  "value": 1
+                },
+                {
+                  "key": "droppable",
+                  "hash": 5301666385515115586,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "inventory_item_attributes",
+                  "hash": 5998857030399822055,
+                  "kind": "List",
+                  "value": []
+                },
+                {
+                  "key": "$REF",
+                  "hash": 6998867517914059163,
+                  "kind": "CString",
+                  "value": "inventory_item"
+                },
+                {
+                  "key": "inventory_item_equip_modifiers",
+                  "hash": 7917824378913597848,
+                  "kind": "List",
+                  "value": []
+                },
+                {
+                  "key": "races",
+                  "hash": 9457113125491289757,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "race",
+                      "hash": 12047929990474525578,
+                      "kind": "List2",
+                      "value": [
+                        {
+                          "key": "$PBGNAME",
+                          "hash": 5464984021694833596,
+                          "kind": "CString",
+                          "value": "5fe8767cca3a4e649e20c9527cf014ec:berbers"
+                        },
+                        {
+                          "key": "$PBGMAP",
+                          "hash": 1238668035833122403,
+                          "kind": "CString",
+                          "value": "racebps"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "default_metadata",
+                  "hash": 10992649956153883606,
+                  "kind": "List2",
+                  "value": []
+                },
+                {
+                  "key": "inventory_item_categories",
+                  "hash": 14608112296403903366,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "inventory_item_category",
+                      "hash": 13758108808786289668,
+                      "kind": "List2",
+                      "value": [
+                        {
+                          "key": "$PBGNAME",
+                          "hash": 5464984021694833596,
+                          "kind": "CString",
+                          "value": "layout"
+                        },
+                        {
+                          "key": "$PBGMAP",
+                          "hash": 1238668035833122403,
+                          "kind": "CString",
+                          "value": "inventory_item_category"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "server_id",
+                  "hash": 15047289045282941900,
+                  "kind": "Int",
+                  "value": 0
+                },
+                {
+                  "key": "inventory_item_slots",
+                  "hash": 15096128641582150198,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "inventory_item_slot",
+                      "hash": 7267125477893126920,
+                      "kind": "List2",
+                      "value": [
+                        {
+                          "key": "$PBGNAME",
+                          "hash": 5464984021694833596,
+                          "kind": "CString",
+                          "value": "upgrade_item_slot"
+                        },
+                        {
+                          "key": "$PBGMAP",
+                          "hash": 1238668035833122403,
+                          "kind": "CString",
+                          "value": "inventory_item_slot"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "inventory_item_slot",
+                      "hash": 7267125477893126920,
+                      "kind": "List2",
+                      "value": [
+                        {
+                          "key": "$PBGNAME",
+                          "hash": 5464984021694833596,
+                          "kind": "CString",
+                          "value": "upgrade_item_slot"
+                        },
+                        {
+                          "key": "$PBGMAP",
+                          "hash": 1238668035833122403,
+                          "kind": "CString",
+                          "value": "inventory_item_slot"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "inventory_item_slot",
+                      "hash": 7267125477893126920,
+                      "kind": "List2",
+                      "value": [
+                        {
+                          "key": "$PBGNAME",
+                          "hash": 5464984021694833596,
+                          "kind": "CString",
+                          "value": "upgrade_item_slot"
+                        },
+                        {
+                          "key": "$PBGMAP",
+                          "hash": 1238668035833122403,
+                          "kind": "CString",
+                          "value": "inventory_item_slot"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "inventory_item_slot",
+                      "hash": 7267125477893126920,
+                      "kind": "List2",
+                      "value": [
+                        {
+                          "key": "$PBGNAME",
+                          "hash": 5464984021694833596,
+                          "kind": "CString",
+                          "value": "upgrade_item_slot"
+                        },
+                        {
+                          "key": "$PBGMAP",
+                          "hash": 1238668035833122403,
+                          "kind": "CString",
+                          "value": "inventory_item_slot"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "inventory_item_slot",
+                      "hash": 7267125477893126920,
+                      "kind": "List2",
+                      "value": [
+                        {
+                          "key": "$PBGNAME",
+                          "hash": 5464984021694833596,
+                          "kind": "CString",
+                          "value": "upgrade_artifact_slot"
+                        },
+                        {
+                          "key": "$PBGMAP",
+                          "hash": 1238668035833122403,
+                          "kind": "CString",
+                          "value": "inventory_item_slot"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "inventory_item_slot",
+                      "hash": 7267125477893126920,
+                      "kind": "List2",
+                      "value": [
+                        {
+                          "key": "$PBGNAME",
+                          "hash": 5464984021694833596,
+                          "kind": "CString",
+                          "value": "upgrade_artifact_slot"
+                        },
+                        {
+                          "key": "$PBGMAP",
+                          "hash": 1238668035833122403,
+                          "kind": "CString",
+                          "value": "inventory_item_slot"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "level_table",
+                  "hash": 16298039077679004786,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": ""
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "ui_priority",
+                  "hash": 17216969559225366552,
+                  "kind": "Int",
+                  "value": 0
+                },
+                {
+                  "key": "inventory_item_equip_requirement",
+                  "hash": 18433947741504748740,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "inventory_item_requirements\\requirements\\requirement_none"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "default_loadout",
+              "hash": 16946285180854220425,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pbgid",
+          "hash": 13005689997087892415,
+          "kind": "Int",
+          "value": 36764058
+        }
+      ]
+    },
+    {
+      "key": "instance_version",
+      "hash": 8529826256463028745,
+      "kind": "Int",
+      "value": 2
+    }
+  ]
+}

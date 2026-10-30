@@ -1,0 +1,3539 @@
+{
+  "schema": "berbers.native-table/v1",
+  "version": 4,
+  "platform": 1,
+  "chunks": [
+    {
+      "kind": "44415441",
+      "id": "41454744",
+      "version": 3,
+      "name": "",
+      "body": ""
+    },
+    {
+      "kind": "44415441",
+      "id": "4b455953",
+      "version": 1,
+      "name": "",
+      "body": ""
+    }
+  ],
+  "keys": [
+    [
+      8529826256463028745,
+      "instance_version"
+    ],
+    [
+      4430693559278735917,
+      "default"
+    ],
+    [
+      395411800632588026,
+      "weapon_bag"
+    ],
+    [
+      6059883858523790163,
+      "behaviour"
+    ],
+    [
+      8651736464905018326,
+      "enable_auto_target_search"
+    ],
+    [
+      738313761544802468,
+      "aa_weapon"
+    ],
+    [
+      15441702458575913940,
+      "aa_weapon_shoot_through"
+    ],
+    [
+      4794645816244821323,
+      "artillery_force_obey_los"
+    ],
+    [
+      8936958170565905492,
+      "attack_team_weapon_user"
+    ],
+    [
+      5308001333170282649,
+      "can_be_offhanded"
+    ],
+    [
+      1497174294139033561,
+      "can_be_substituted"
+    ],
+    [
+      8281437477214654232,
+      "combat_slot_offset"
+    ],
+    [
+      9743295553499287251,
+      "fire_at_building_combat_slot"
+    ],
+    [
+      1627224777833037930,
+      "ground_hit_rate"
+    ],
+    [
+      396918634481846865,
+      "ignore_shot_blocking"
+    ],
+    [
+      5251107190267180932,
+      "non_moving_setup"
+    ],
+    [
+      17704328903875344803,
+      "prevents_prone"
+    ],
+    [
+      16424347100721785330,
+      "reset_rotation_on_teardown"
+    ],
+    [
+      16677663619856838995,
+      "share_parent_anim"
+    ],
+    [
+      6684264626491401749,
+      "single_handed_weapon"
+    ],
+    [
+      8779234415635041226,
+      "substitute_weapon"
+    ],
+    [
+      14911455632005786368,
+      "support_weapon"
+    ],
+    [
+      18016314360868920854,
+      "surprises_idle"
+    ],
+    [
+      17983492981479235602,
+      "piercing"
+    ],
+    [
+      1296513363861088281,
+      "reaction_radius"
+    ],
+    [
+      5004849072873184641,
+      "causes_combat"
+    ],
+    [
+      5189498662324786826,
+      "can_abort_winddown_on_weapon_switch"
+    ],
+    [
+      6042942516350866370,
+      "reaction_type"
+    ],
+    [
+      16178374958140255664,
+      "ignore_relations"
+    ],
+    [
+      11593136068430500783,
+      "wants_prone_firing_option"
+    ],
+    [
+      6998867517914059163,
+      "$REF"
+    ],
+    [
+      11448551161211713019,
+      "attack_ground_type"
+    ],
+    [
+      12661227142156917065,
+      "hit_pos_behaviour"
+    ],
+    [
+      3317897109977205569,
+      "non_moving_setup_requires_facing"
+    ],
+    [
+      16553710631350723816,
+      "hit_everything_on_miss"
+    ],
+    [
+      11460793891549196368,
+      "can_damage_allies"
+    ],
+    [
+      15647965916364041605,
+      "hit_everything_on_hit"
+    ],
+    [
+      16336185915201678985,
+      "can_abort_winddown_on_move_command"
+    ],
+    [
+      2526737976932258582,
+      "force_square_attack"
+    ],
+    [
+      3786530527054513753,
+      "damage"
+    ],
+    [
+      11391645376553957247,
+      "max"
+    ],
+    [
+      11713854759041707324,
+      "min"
+    ],
+    [
+      720956124353638861,
+      "damage_type"
+    ],
+    [
+      3068059170634197567,
+      "allow_overkill"
+    ],
+    [
+      12962715466964109281,
+      "on_penetrated_state_trees"
+    ],
+    [
+      5636810051131760902,
+      "should_keep_above_one"
+    ],
+    [
+      4790031907175339136,
+      "critical_damage_chance"
+    ],
+    [
+      16103975438688216633,
+      "critical_damage_factor"
+    ],
+    [
+      2828332973696496505,
+      "on_critical_hit_state_trees"
+    ],
+    [
+      17934714094807495967,
+      "target_type_table"
+    ],
+    [
+      6766114575378940935,
+      "fx_munition_name"
+    ],
+    [
+      5626077901608589722,
+      "ui_show_on_tooltip"
+    ],
+    [
+      1578564802252764174,
+      "accuracy"
+    ],
+    [
+      12017775661624452907,
+      "near"
+    ],
+    [
+      12382422860595788374,
+      "far"
+    ],
+    [
+      5127237102757973829,
+      "mid"
+    ],
+    [
+      15829173224981190996,
+      "aim"
+    ],
+    [
+      8273176527601178945,
+      "fire_aim_time"
+    ],
+    [
+      9753507635302447205,
+      "post_firing_aim_time_seconds"
+    ],
+    [
+      12846940559709974144,
+      "post_firing_cooldown_interval_seconds"
+    ],
+    [
+      7641295419570686636,
+      "aim_time_multiplier"
+    ],
+    [
+      11827416622076375688,
+      "anim_table"
+    ],
+    [
+      2348199671595049282,
+      "cooldown_time_name"
+    ],
+    [
+      11915029463653697243,
+      "state_name"
+    ],
+    [
+      10244543528486640881,
+      "track_horizontal"
+    ],
+    [
+      5270039024036194204,
+      "track_horizontal_speed"
+    ],
+    [
+      10604769856551224007,
+      "track_vertical"
+    ],
+    [
+      3194975954063237034,
+      "track_vertical_speed"
+    ],
+    [
+      14923291088343299763,
+      "variety_name"
+    ],
+    [
+      15617307812642781914,
+      "visibility_name"
+    ],
+    [
+      2660033552192762162,
+      "target_range_name"
+    ],
+    [
+      17271250293051997255,
+      "attack_speed_scale_name"
+    ],
+    [
+      15328928477160574523,
+      "attack_speed_scale_value"
+    ],
+    [
+      12878587104121605443,
+      "track_world_pos_x_name"
+    ],
+    [
+      17739824495191529148,
+      "track_world_pos_y_name"
+    ],
+    [
+      7399757354171607115,
+      "track_world_pos_z_name"
+    ],
+    [
+      9041988222382178516,
+      "ability_state"
+    ],
+    [
+      2690656801533520951,
+      "area_effect"
+    ],
+    [
+      7666670376215633885,
+      "area_info"
+    ],
+    [
+      4791918115377526337,
+      "damage_friendly"
+    ],
+    [
+      5661183123366514158,
+      "distance"
+    ],
+    [
+      13454876006622410926,
+      "has_friendly_fire"
+    ],
+    [
+      16759896083856492461,
+      "can_harm_shooter"
+    ],
+    [
+      7247207875114247411,
+      "suppression"
+    ],
+    [
+      1756099148699085721,
+      "suppression_friendly"
+    ],
+    [
+      16532447638625418427,
+      "damage_all_in_hold"
+    ],
+    [
+      6192715278882002608,
+      "aoe_penetration"
+    ],
+    [
+      8120950765081787732,
+      "damage_max_members_per_squad"
+    ],
+    [
+      6065948851348281350,
+      "aoe_origin_and_direction"
+    ],
+    [
+      7323263351993999798,
+      "fx"
+    ],
+    [
+      6747423088050353923,
+      "exponential_distribution_lambda"
+    ],
+    [
+      2382995865535774126,
+      "num_randomized_ground_hit_fx"
+    ],
+    [
+      3274948882064174728,
+      "area_over_time_option"
+    ],
+    [
+      5708929503920686069,
+      "burst"
+    ],
+    [
+      5566026801090517075,
+      "can_burst"
+    ],
+    [
+      527704592192478869,
+      "duration"
+    ],
+    [
+      17084731390801983577,
+      "incremental_target_table"
+    ],
+    [
+      12482402227133336608,
+      "accuracy_multiplier"
+    ],
+    [
+      17236726356344987457,
+      "search_radius"
+    ],
+    [
+      14751200431268090455,
+      "rate_of_fire"
+    ],
+    [
+      3197764021249827607,
+      "duration_multiplier"
+    ],
+    [
+      2767423192645223782,
+      "rate_of_fire_multiplier"
+    ],
+    [
+      4953152856570703061,
+      "focus_fire"
+    ],
+    [
+      708170482875980370,
+      "convert_target_to_position_before_firing"
+    ],
+    [
+      7982576130943299534,
+      "uninterruptible_burst_fire"
+    ],
+    [
+      7930065560957984440,
+      "cooldown"
+    ],
+    [
+      10764580075519873545,
+      "persistent_cooldownticks"
+    ],
+    [
+      16798622575712217229,
+      "deflection"
+    ],
+    [
+      857798089835823566,
+      "deflection_damage_multiplier"
+    ],
+    [
+      234175611985016581,
+      "has_deflection_damage"
+    ],
+    [
+      10665734619910498886,
+      "fire"
+    ],
+    [
+      16833779785702044632,
+      "wind_down"
+    ],
+    [
+      6428095982611581935,
+      "wind_up"
+    ],
+    [
+      558538868342756752,
+      "animation_impact_frame_time"
+    ],
+    [
+      15000108102318803635,
+      "flinch_radius"
+    ],
+    [
+      9816057859257691500,
+      "fx_action_target_name"
+    ],
+    [
+      9017489689682194078,
+      "fx_always_visible"
+    ],
+    [
+      13885771394385232964,
+      "fx_building_hit_delay"
+    ],
+    [
+      4798741843240221610,
+      "fx_delay_in_building"
+    ],
+    [
+      14942238611008795557,
+      "fx_tracer_name"
+    ],
+    [
+      2520440185560150373,
+      "fx_tracer_speed"
+    ],
+    [
+      17014656699141080867,
+      "fx_use_building_panel_normal"
+    ],
+    [
+      7203471124514310600,
+      "icon_name"
+    ],
+    [
+      10465615745927836930,
+      "moving"
+    ],
+    [
+      17356776120039173442,
+      "burst_multiplier"
+    ],
+    [
+      7994713982911781308,
+      "cooldown_multiplier"
+    ],
+    [
+      11128725941134696981,
+      "can_fire_while_moving"
+    ],
+    [
+      13250642989118929726,
+      "moving_end_time"
+    ],
+    [
+      11273485262884121943,
+      "moving_start_time"
+    ],
+    [
+      407209193152762291,
+      "name"
+    ],
+    [
+      3706601655199670163,
+      "priority"
+    ],
+    [
+      11815006320417687181,
+      "current_target"
+    ],
+    [
+      1983193769238854184,
+      "rotation"
+    ],
+    [
+      5157643852554701482,
+      "window_bonus"
+    ],
+    [
+      11503098882568550434,
+      "penetration"
+    ],
+    [
+      4555587418445469006,
+      "suggested_target"
+    ],
+    [
+      16580196286319288636,
+      "over_penetration_priority_penalty"
+    ],
+    [
+      16684843867699263966,
+      "vs_armor_type"
+    ],
+    [
+      2000632033917849954,
+      "target"
+    ],
+    [
+      3496572908844807007,
+      "dps"
+    ],
+    [
+      13682746829132589782,
+      "current_health_percentage"
+    ],
+    [
+      1395246002316743571,
+      "in_cover"
+    ],
+    [
+      5449543806877909406,
+      "max_health"
+    ],
+    [
+      10057178782436133277,
+      "out_of_los"
+    ],
+    [
+      18290683595789016220,
+      "current_target_squad"
+    ],
+    [
+      8074640618004305143,
+      "randomly_target_squad_mates_of_best_priority_entity"
+    ],
+    [
+      8140736126404579919,
+      "untargeted_by_formation_melee"
+    ],
+    [
+      18104962557526229572,
+      "untargeted_by_formation_ranged"
+    ],
+    [
+      2129441840535496759,
+      "projectile"
+    ],
+    [
+      11798009418291960210,
+      "delete_previous_on_hit"
+    ],
+    [
+      5464984021694833596,
+      "$PBGNAME"
+    ],
+    [
+      1238668035833122403,
+      "$PBGMAP"
+    ],
+    [
+      10518263308463408853,
+      "terrain_elevation_option"
+    ],
+    [
+      16597999082088934835,
+      "range"
+    ],
+    [
+      11849006512489798992,
+      "max_height"
+    ],
+    [
+      12535617728670573397,
+      "max_animation_angle_distance"
+    ],
+    [
+      17534032358398692315,
+      "reload"
+    ],
+    [
+      10821396369857508345,
+      "frequency"
+    ],
+    [
+      17981538198195830273,
+      "require_reload_after_switch"
+    ],
+    [
+      15050903169870203119,
+      "persistent_reloadticks"
+    ],
+    [
+      12605066962292849008,
+      "scatter"
+    ],
+    [
+      4874987828808044322,
+      "angle_scatter"
+    ],
+    [
+      14484674497125454399,
+      "burst_pattern_enable"
+    ],
+    [
+      10968040236305082668,
+      "delay_bracket_change_chance"
+    ],
+    [
+      4156287499261440779,
+      "distance_bracket_count_air"
+    ],
+    [
+      10568009851420279710,
+      "distance_bracket_count_ground"
+    ],
+    [
+      17925027579683538298,
+      "distance_scatter_max"
+    ],
+    [
+      1424226372886322610,
+      "distance_scatter_obj_hit_min"
+    ],
+    [
+      16445064934533611101,
+      "distance_scatter_offset"
+    ],
+    [
+      7086944412350046462,
+      "distance_scatter_ratio"
+    ],
+    [
+      7179247741579042973,
+      "fow_angle_multiplier"
+    ],
+    [
+      17132178185271156782,
+      "fow_distance_multiplier"
+    ],
+    [
+      5864909031726634435,
+      "max_tilt_angle"
+    ],
+    [
+      12838858251977954798,
+      "min_tilt_angle"
+    ],
+    [
+      9398277823573932265,
+      "tilt_max_distance"
+    ],
+    [
+      16373453851997929767,
+      "tilt_scatter_chance"
+    ],
+    [
+      16200095898865250118,
+      "area_scatter_option"
+    ],
+    [
+      2758833173407883352,
+      "distance_guaranteed_before_hit_percentage"
+    ],
+    [
+      5250906172973592086,
+      "movement_scatter_angle_multiplier"
+    ],
+    [
+      13695561930360571211,
+      "movement_scatter_distance_multiplier"
+    ],
+    [
+      12483204024057711915,
+      "setup"
+    ],
+    [
+      1034049527770909287,
+      "has_instant_setup"
+    ],
+    [
+      15230317887583318060,
+      "can_interrupt_setup"
+    ],
+    [
+      10403799738475873174,
+      "attach_duration"
+    ],
+    [
+      7220056329012382535,
+      "requires_aim_elevation"
+    ],
+    [
+      3813899412029866651,
+      "suppressed"
+    ],
+    [
+      14334545267035375082,
+      "pinned_burst_multiplier"
+    ],
+    [
+      5766637357044416945,
+      "pinned_cooldown_multiplier"
+    ],
+    [
+      8383579162948956956,
+      "pinned_reload_multiplier"
+    ],
+    [
+      17920200757222360613,
+      "suppressed_burst_multiplier"
+    ],
+    [
+      11525876870017655958,
+      "suppressed_cooldown_multiplier"
+    ],
+    [
+      13853545774382307246,
+      "suppressed_reload_multiplier"
+    ],
+    [
+      12659898494433979620,
+      "nearby_suppression_multiplier"
+    ],
+    [
+      9124820178884918392,
+      "nearby_suppression_radius"
+    ],
+    [
+      7743253518921573850,
+      "target_pinned_multipliers"
+    ],
+    [
+      13026236780364789017,
+      "damage_multiplier"
+    ],
+    [
+      4982527951503457728,
+      "penetration_multiplier"
+    ],
+    [
+      276675362830647323,
+      "suppression_multiplier"
+    ],
+    [
+      6306423183488540681,
+      "target_suppressed_multipliers"
+    ],
+    [
+      16628931162564456312,
+      "amount"
+    ],
+    [
+      12872308071588762409,
+      "teardown"
+    ],
+    [
+      7915019710151347065,
+      "tracking"
+    ],
+    [
+      4272233967266147174,
+      "fire_cone_angle"
+    ],
+    [
+      2543807376058282583,
+      "normal"
+    ],
+    [
+      8809900623875610372,
+      "max_down"
+    ],
+    [
+      13341545462874792212,
+      "max_left"
+    ],
+    [
+      6654232390815760001,
+      "max_right"
+    ],
+    [
+      9165634584723849757,
+      "max_up"
+    ],
+    [
+      4705740417823904375,
+      "speed_horizontal"
+    ],
+    [
+      11979801124999206165,
+      "speed_vertical"
+    ],
+    [
+      5192985073440845092,
+      "pivot_end_time"
+    ],
+    [
+      14638981575636265249,
+      "pivot_only"
+    ],
+    [
+      13812513361782795644,
+      "pivot_start_time"
+    ],
+    [
+      13236003932218901602,
+      "fire_cone_angle_vert"
+    ],
+    [
+      10495630658248407649,
+      "ui_name"
+    ],
+    [
+      3450689389893437106,
+      "ui_range"
+    ],
+    [
+      8717694364806607471,
+      "ui_setfacing"
+    ],
+    [
+      1280863144492773844,
+      "ui_map_colour"
+    ],
+    [
+      991092756973969910,
+      "red"
+    ],
+    [
+      7697512358431268704,
+      "green"
+    ],
+    [
+      10660015788068286345,
+      "blue"
+    ],
+    [
+      16000014223441540466,
+      "alpha"
+    ],
+    [
+      4745639552544217415,
+      "weapon_options"
+    ],
+    [
+      593096331975118901,
+      "weapon_class"
+    ],
+    [
+      3246704273092379196,
+      "fx_aoe_munition_name"
+    ],
+    [
+      18190439530397609191,
+      "speech_code"
+    ],
+    [
+      12065293303430157292,
+      "cover_table"
+    ],
+    [
+      17604448709763876249,
+      "tp_defcover"
+    ],
+    [
+      2882188154717559695,
+      "plain"
+    ],
+    [
+      7276480463832680414,
+      "hill"
+    ],
+    [
+      15325796757364051031,
+      "mountain"
+    ],
+    [
+      6487014639421959769,
+      "forest"
+    ],
+    [
+      18346081559853550089,
+      "water"
+    ],
+    [
+      7981649407508967898,
+      "fx_piercing_munition_name"
+    ],
+    [
+      8083221067265292595,
+      "charge_option"
+    ],
+    [
+      7972668137380703227,
+      "weapon_hit_disabled_duration"
+    ],
+    [
+      6991585025559523597,
+      "charge_attack_target_position_offset"
+    ],
+    [
+      17708814421621177481,
+      "siege_option"
+    ],
+    [
+      14215652405787089566,
+      "brace_option"
+    ],
+    [
+      11579118742643494163,
+      "default_attack_type"
+    ],
+    [
+      12654945281918868414,
+      "avoid_blockers_of_relationship"
+    ],
+    [
+      6673594784355463836,
+      "undefined"
+    ],
+    [
+      6361675857453687636,
+      "enemy"
+    ],
+    [
+      1550109499440299763,
+      "ally"
+    ],
+    [
+      4856069814891899470,
+      "neutral"
+    ],
+    [
+      15967655196837742329,
+      "height_bonuses"
+    ],
+    [
+      10250585184024084572,
+      "height_advantage"
+    ],
+    [
+      5647949753074067794,
+      "height_threshold"
+    ],
+    [
+      5200680966240191063,
+      "multipliers"
+    ],
+    [
+      11675946667920797515,
+      "negates_cover"
+    ],
+    [
+      13371599793783945608,
+      "height_disadvantage"
+    ],
+    [
+      1732642029454150323,
+      "animation_role_option"
+    ],
+    [
+      1138883692082433948,
+      "fog_of_war"
+    ],
+    [
+      5070886687806868120,
+      "reveal_self_on_attack"
+    ],
+    [
+      5274647511797335309,
+      "reveal_target_on_hit"
+    ],
+    [
+      7755044795803636847,
+      "kill_unit_types_on_hit"
+    ],
+    [
+      6335628861326212863,
+      "weapon_tags"
+    ],
+    [
+      4553169150986679486,
+      "ui_tooltip_weapon_group"
+    ],
+    [
+      13005689997087892415,
+      "pbgid"
+    ],
+    [
+      14182368983149674761,
+      "parent_pbg"
+    ]
+  ],
+  "nodes": [
+    {
+      "key": "default",
+      "hash": 4430693559278735917,
+      "kind": "List",
+      "value": [
+        {
+          "key": "weapon_bag",
+          "hash": 395411800632588026,
+          "kind": "List",
+          "value": [
+            {
+              "key": "name",
+              "hash": 407209193152762291,
+              "kind": "CString",
+              "value": "Horseman Charge Weapon"
+            },
+            {
+              "key": "weapon_class",
+              "hash": 593096331975118901,
+              "kind": "CString",
+              "value": "cdn_2h_spear"
+            },
+            {
+              "key": "fog_of_war",
+              "hash": 1138883692082433948,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "reveal_self_on_attack",
+                  "hash": 5070886687806868120,
+                  "kind": "Boolean",
+                  "value": true
+                },
+                {
+                  "key": "reveal_target_on_hit",
+                  "hash": 5274647511797335309,
+                  "kind": "Boolean",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "key": "ui_map_colour",
+              "hash": 1280863144492773844,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "red",
+                  "hash": 991092756973969910,
+                  "kind": "Int",
+                  "value": 0
+                },
+                {
+                  "key": "green",
+                  "hash": 7697512358431268704,
+                  "kind": "Int",
+                  "value": 0
+                },
+                {
+                  "key": "blue",
+                  "hash": 10660015788068286345,
+                  "kind": "Int",
+                  "value": 0
+                },
+                {
+                  "key": "alpha",
+                  "hash": 16000014223441540466,
+                  "kind": "Int",
+                  "value": 0
+                }
+              ]
+            },
+            {
+              "key": "accuracy",
+              "hash": 1578564802252764174,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "mid",
+                  "hash": 5127237102757973829,
+                  "kind": "Float",
+                  "value": 1.0
+                },
+                {
+                  "key": "near",
+                  "hash": 12017775661624452907,
+                  "kind": "Float",
+                  "value": 1.0
+                },
+                {
+                  "key": "far",
+                  "hash": 12382422860595788374,
+                  "kind": "Float",
+                  "value": 1.0
+                }
+              ]
+            },
+            {
+              "key": "animation_role_option",
+              "hash": 1732642029454150323,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "$REF",
+                  "hash": 6998867517914059163,
+                  "kind": "CString",
+                  "value": "options\\none"
+                }
+              ]
+            },
+            {
+              "key": "projectile",
+              "hash": 2129441840535496759,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "projectile",
+                  "hash": 2129441840535496759,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": ""
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "terrain_elevation_option",
+                  "hash": 10518263308463408853,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "options\\none"
+                    }
+                  ]
+                },
+                {
+                  "key": "delete_previous_on_hit",
+                  "hash": 11798009418291960210,
+                  "kind": "Boolean",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "key": "fx_tracer_speed",
+              "hash": 2520440185560150373,
+              "kind": "Float",
+              "value": 0.0
+            },
+            {
+              "key": "area_effect",
+              "hash": 2690656801533520951,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "accuracy",
+                  "hash": 1578564802252764174,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "mid",
+                      "hash": 5127237102757973829,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "near",
+                      "hash": 12017775661624452907,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "far",
+                      "hash": 12382422860595788374,
+                      "kind": "Float",
+                      "value": 1.0
+                    }
+                  ]
+                },
+                {
+                  "key": "suppression_friendly",
+                  "hash": 1756099148699085721,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "mid",
+                      "hash": 5127237102757973829,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "near",
+                      "hash": 12017775661624452907,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "far",
+                      "hash": 12382422860595788374,
+                      "kind": "Float",
+                      "value": 0.0
+                    }
+                  ]
+                },
+                {
+                  "key": "area_over_time_option",
+                  "hash": 3274948882064174728,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "damage",
+                  "hash": 3786530527054513753,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "mid",
+                      "hash": 5127237102757973829,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "near",
+                      "hash": 12017775661624452907,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "far",
+                      "hash": 12382422860595788374,
+                      "kind": "Float",
+                      "value": 1.0
+                    }
+                  ]
+                },
+                {
+                  "key": "damage_friendly",
+                  "hash": 4791918115377526337,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "mid",
+                      "hash": 5127237102757973829,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "near",
+                      "hash": 12017775661624452907,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "far",
+                      "hash": 12382422860595788374,
+                      "kind": "Float",
+                      "value": 1.0
+                    }
+                  ]
+                },
+                {
+                  "key": "distance",
+                  "hash": 5661183123366514158,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "mid",
+                      "hash": 5127237102757973829,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "near",
+                      "hash": 12017775661624452907,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "far",
+                      "hash": 12382422860595788374,
+                      "kind": "Float",
+                      "value": 0.0
+                    }
+                  ]
+                },
+                {
+                  "key": "aoe_origin_and_direction",
+                  "hash": 6065948851348281350,
+                  "kind": "Int",
+                  "value": 0
+                },
+                {
+                  "key": "aoe_penetration",
+                  "hash": 6192715278882002608,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "mid",
+                      "hash": 5127237102757973829,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "tables\\range_table"
+                    },
+                    {
+                      "key": "near",
+                      "hash": 12017775661624452907,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "far",
+                      "hash": 12382422860595788374,
+                      "kind": "Float",
+                      "value": 0.0
+                    }
+                  ]
+                },
+                {
+                  "key": "suppression",
+                  "hash": 7247207875114247411,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "mid",
+                      "hash": 5127237102757973829,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "near",
+                      "hash": 12017775661624452907,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "far",
+                      "hash": 12382422860595788374,
+                      "kind": "Float",
+                      "value": 0.0
+                    }
+                  ]
+                },
+                {
+                  "key": "fx",
+                  "hash": 7323263351993999798,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "num_randomized_ground_hit_fx",
+                      "hash": 2382995865535774126,
+                      "kind": "Int",
+                      "value": 0
+                    },
+                    {
+                      "key": "exponential_distribution_lambda",
+                      "hash": 6747423088050353923,
+                      "kind": "Float",
+                      "value": 0.0
+                    }
+                  ]
+                },
+                {
+                  "key": "area_info",
+                  "hash": 7666670376215633885,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "options\\area_info_options\\point_area_option"
+                    }
+                  ]
+                },
+                {
+                  "key": "damage_max_members_per_squad",
+                  "hash": 8120950765081787732,
+                  "kind": "Int",
+                  "value": -1
+                },
+                {
+                  "key": "has_friendly_fire",
+                  "hash": 13454876006622410926,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "damage_all_in_hold",
+                  "hash": 16532447638625418427,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "can_harm_shooter",
+                  "hash": 16759896083856492461,
+                  "kind": "Boolean",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "key": "fx_aoe_munition_name",
+              "hash": 3246704273092379196,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "ui_range",
+              "hash": 3450689389893437106,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "priority",
+              "hash": 3706601655199670163,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "rotation",
+                  "hash": 1983193769238854184,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "target",
+                  "hash": 2000632033917849954,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "in_cover",
+                      "hash": 1395246002316743571,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "dps",
+                      "hash": 3496572908844807007,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "max_health",
+                      "hash": 5449543806877909406,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "out_of_los",
+                      "hash": 10057178782436133277,
+                      "kind": "Float",
+                      "value": -100.0
+                    },
+                    {
+                      "key": "penetration",
+                      "hash": 11503098882568550434,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "current_health_percentage",
+                      "hash": 13682746829132589782,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "vs_armor_type",
+                      "hash": 16684843867699263966,
+                      "kind": "Float",
+                      "value": 0.0
+                    }
+                  ]
+                },
+                {
+                  "key": "suggested_target",
+                  "hash": 4555587418445469006,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "window_bonus",
+                  "hash": 5157643852554701482,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "distance",
+                  "hash": 5661183123366514158,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "mid",
+                      "hash": 5127237102757973829,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "near",
+                      "hash": 12017775661624452907,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "far",
+                      "hash": 12382422860595788374,
+                      "kind": "Float",
+                      "value": 1.0
+                    }
+                  ]
+                },
+                {
+                  "key": "randomly_target_squad_mates_of_best_priority_entity",
+                  "hash": 8074640618004305143,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "untargeted_by_formation_melee",
+                  "hash": 8140736126404579919,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "penetration",
+                  "hash": 11503098882568550434,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "current_target",
+                  "hash": 11815006320417687181,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "over_penetration_priority_penalty",
+                  "hash": 16580196286319288636,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "vs_armor_type",
+                  "hash": 16684843867699263966,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "untargeted_by_formation_ranged",
+                  "hash": 18104962557526229572,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "current_target_squad",
+                  "hash": 18290683595789016220,
+                  "kind": "Float",
+                  "value": 0.0
+                }
+              ]
+            },
+            {
+              "key": "damage",
+              "hash": 3786530527054513753,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "damage_type",
+                  "hash": 720956124353638861,
+                  "kind": "CString",
+                  "value": "Melee"
+                },
+                {
+                  "key": "on_critical_hit_state_trees",
+                  "hash": 2828332973696496505,
+                  "kind": "List",
+                  "value": []
+                },
+                {
+                  "key": "allow_overkill",
+                  "hash": 3068059170634197567,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "critical_damage_chance",
+                  "hash": 4790031907175339136,
+                  "kind": "Float",
+                  "value": 0.019999999552965164
+                },
+                {
+                  "key": "should_keep_above_one",
+                  "hash": 5636810051131760902,
+                  "kind": "Boolean",
+                  "value": true
+                },
+                {
+                  "key": "max",
+                  "hash": 11391645376553957247,
+                  "kind": "Float",
+                  "value": 28.0
+                },
+                {
+                  "key": "min",
+                  "hash": 11713854759041707324,
+                  "kind": "Float",
+                  "value": 28.0
+                },
+                {
+                  "key": "on_penetrated_state_trees",
+                  "hash": 12962715466964109281,
+                  "kind": "List",
+                  "value": []
+                },
+                {
+                  "key": "critical_damage_factor",
+                  "hash": 16103975438688216633,
+                  "kind": "Float",
+                  "value": 5.0
+                }
+              ]
+            },
+            {
+              "key": "suppressed",
+              "hash": 3813899412029866651,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "pinned_cooldown_multiplier",
+                  "hash": 5766637357044416945,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "pinned_reload_multiplier",
+                  "hash": 8383579162948956956,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "suppressed_cooldown_multiplier",
+                  "hash": 11525876870017655958,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "suppressed_reload_multiplier",
+                  "hash": 13853545774382307246,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "pinned_burst_multiplier",
+                  "hash": 14334545267035375082,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "suppressed_burst_multiplier",
+                  "hash": 17920200757222360613,
+                  "kind": "Float",
+                  "value": 0.0
+                }
+              ]
+            },
+            {
+              "key": "ui_tooltip_weapon_group",
+              "hash": 4553169150986679486,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "weapon_options",
+              "hash": 4745639552544217415,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "$REF",
+                  "hash": 6998867517914059163,
+                  "kind": "CString",
+                  "value": "options\\none"
+                }
+              ]
+            },
+            {
+              "key": "fx_delay_in_building",
+              "hash": 4798741843240221610,
+              "kind": "Float",
+              "value": 0.0
+            },
+            {
+              "key": "ui_show_on_tooltip",
+              "hash": 5626077901608589722,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "burst",
+              "hash": 5708929503920686069,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "duration",
+                  "hash": 527704592192478869,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "max",
+                      "hash": 11391645376553957247,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "min",
+                      "hash": 11713854759041707324,
+                      "kind": "Float",
+                      "value": 0.0
+                    }
+                  ]
+                },
+                {
+                  "key": "convert_target_to_position_before_firing",
+                  "hash": 708170482875980370,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "rate_of_fire_multiplier",
+                  "hash": 2767423192645223782,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "mid",
+                      "hash": 5127237102757973829,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "near",
+                      "hash": 12017775661624452907,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "far",
+                      "hash": 12382422860595788374,
+                      "kind": "Float",
+                      "value": 1.0
+                    }
+                  ]
+                },
+                {
+                  "key": "duration_multiplier",
+                  "hash": 3197764021249827607,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "mid",
+                      "hash": 5127237102757973829,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "near",
+                      "hash": 12017775661624452907,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "far",
+                      "hash": 12382422860595788374,
+                      "kind": "Float",
+                      "value": 1.0
+                    }
+                  ]
+                },
+                {
+                  "key": "focus_fire",
+                  "hash": 4953152856570703061,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "can_burst",
+                  "hash": 5566026801090517075,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "uninterruptible_burst_fire",
+                  "hash": 7982576130943299534,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "rate_of_fire",
+                  "hash": 14751200431268090455,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "max",
+                      "hash": 11391645376553957247,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "min",
+                      "hash": 11713854759041707324,
+                      "kind": "Float",
+                      "value": 0.0
+                    }
+                  ]
+                },
+                {
+                  "key": "incremental_target_table",
+                  "hash": 17084731390801983577,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "accuracy_multiplier",
+                      "hash": 12482402227133336608,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "search_radius",
+                      "hash": 17236726356344987457,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "mid",
+                          "hash": 5127237102757973829,
+                          "kind": "Float",
+                          "value": 0.0
+                        },
+                        {
+                          "key": "near",
+                          "hash": 12017775661624452907,
+                          "kind": "Float",
+                          "value": 0.0
+                        },
+                        {
+                          "key": "far",
+                          "hash": 12382422860595788374,
+                          "kind": "Float",
+                          "value": 0.0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "behaviour",
+              "hash": 6059883858523790163,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "ignore_shot_blocking",
+                  "hash": 396918634481846865,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "aa_weapon",
+                  "hash": 738313761544802468,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "reaction_radius",
+                  "hash": 1296513363861088281,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "can_be_substituted",
+                  "hash": 1497174294139033561,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "ground_hit_rate",
+                  "hash": 1627224777833037930,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "force_square_attack",
+                  "hash": 2526737976932258582,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "non_moving_setup_requires_facing",
+                  "hash": 3317897109977205569,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "artillery_force_obey_los",
+                  "hash": 4794645816244821323,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "causes_combat",
+                  "hash": 5004849072873184641,
+                  "kind": "Boolean",
+                  "value": true
+                },
+                {
+                  "key": "can_abort_winddown_on_weapon_switch",
+                  "hash": 5189498662324786826,
+                  "kind": "Boolean",
+                  "value": true
+                },
+                {
+                  "key": "non_moving_setup",
+                  "hash": 5251107190267180932,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "can_be_offhanded",
+                  "hash": 5308001333170282649,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "reaction_type",
+                  "hash": 6042942516350866370,
+                  "kind": "CString",
+                  "value": "normal"
+                },
+                {
+                  "key": "single_handed_weapon",
+                  "hash": 6684264626491401749,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "combat_slot_offset",
+                  "hash": 8281437477214654232,
+                  "kind": "Float",
+                  "value": -20.0
+                },
+                {
+                  "key": "enable_auto_target_search",
+                  "hash": 8651736464905018326,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "substitute_weapon",
+                  "hash": 8779234415635041226,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "attack_team_weapon_user",
+                  "hash": 8936958170565905492,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "fire_at_building_combat_slot",
+                  "hash": 9743295553499287251,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "attack_ground_type",
+                  "hash": 11448551161211713019,
+                  "kind": "Int",
+                  "value": 0
+                },
+                {
+                  "key": "can_damage_allies",
+                  "hash": 11460793891549196368,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "wants_prone_firing_option",
+                  "hash": 11593136068430500783,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "options\\none"
+                    }
+                  ]
+                },
+                {
+                  "key": "hit_pos_behaviour",
+                  "hash": 12661227142156917065,
+                  "kind": "Int",
+                  "value": 0
+                },
+                {
+                  "key": "support_weapon",
+                  "hash": 14911455632005786368,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "aa_weapon_shoot_through",
+                  "hash": 15441702458575913940,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "hit_everything_on_hit",
+                  "hash": 15647965916364041605,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "ignore_relations",
+                  "hash": 16178374958140255664,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "can_abort_winddown_on_move_command",
+                  "hash": 16336185915201678985,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "reset_rotation_on_teardown",
+                  "hash": 16424347100721785330,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "hit_everything_on_miss",
+                  "hash": 16553710631350723816,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "share_parent_anim",
+                  "hash": 16677663619856838995,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "prevents_prone",
+                  "hash": 17704328903875344803,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "piercing",
+                  "hash": 17983492981479235602,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "surprises_idle",
+                  "hash": 18016314360868920854,
+                  "kind": "Boolean",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "key": "weapon_tags",
+              "hash": 6335628861326212863,
+              "kind": "List",
+              "value": []
+            },
+            {
+              "key": "fx_munition_name",
+              "hash": 6766114575378940935,
+              "kind": "CString",
+              "value": "common_spear_tamba_charge"
+            },
+            {
+              "key": "icon_name",
+              "hash": 7203471124514310600,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "suppression",
+              "hash": 7247207875114247411,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "target_suppressed_multipliers",
+                  "hash": 6306423183488540681,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "suppression_multiplier",
+                      "hash": 276675362830647323,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "penetration_multiplier",
+                      "hash": 4982527951503457728,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "accuracy_multiplier",
+                      "hash": 12482402227133336608,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "damage_multiplier",
+                      "hash": 13026236780364789017,
+                      "kind": "Float",
+                      "value": 0.0
+                    }
+                  ]
+                },
+                {
+                  "key": "target_pinned_multipliers",
+                  "hash": 7743253518921573850,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "suppression_multiplier",
+                      "hash": 276675362830647323,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "penetration_multiplier",
+                      "hash": 4982527951503457728,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "accuracy_multiplier",
+                      "hash": 12482402227133336608,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "damage_multiplier",
+                      "hash": 13026236780364789017,
+                      "kind": "Float",
+                      "value": 0.0
+                    }
+                  ]
+                },
+                {
+                  "key": "nearby_suppression_radius",
+                  "hash": 9124820178884918392,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "nearby_suppression_multiplier",
+                  "hash": 12659898494433979620,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "amount",
+                  "hash": 16628931162564456312,
+                  "kind": "Float",
+                  "value": 0.0
+                }
+              ]
+            },
+            {
+              "key": "kill_unit_types_on_hit",
+              "hash": 7755044795803636847,
+              "kind": "List",
+              "value": []
+            },
+            {
+              "key": "tracking",
+              "hash": 7915019710151347065,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "normal",
+                  "hash": 2543807376058282583,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "speed_horizontal",
+                      "hash": 4705740417823904375,
+                      "kind": "Float",
+                      "value": 180.0
+                    },
+                    {
+                      "key": "max_right",
+                      "hash": 6654232390815760001,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "max_down",
+                      "hash": 8809900623875610372,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "max_up",
+                      "hash": 9165634584723849757,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "speed_vertical",
+                      "hash": 11979801124999206165,
+                      "kind": "Float",
+                      "value": 180.0
+                    },
+                    {
+                      "key": "max_left",
+                      "hash": 13341545462874792212,
+                      "kind": "Float",
+                      "value": 0.0
+                    }
+                  ]
+                },
+                {
+                  "key": "fire_cone_angle",
+                  "hash": 4272233967266147174,
+                  "kind": "Float",
+                  "value": 360.0
+                },
+                {
+                  "key": "pivot_end_time",
+                  "hash": 5192985073440845092,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "fire_cone_angle_vert",
+                  "hash": 13236003932218901602,
+                  "kind": "Float",
+                  "value": 2.0
+                },
+                {
+                  "key": "pivot_start_time",
+                  "hash": 13812513361782795644,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "pivot_only",
+                  "hash": 14638981575636265249,
+                  "kind": "Boolean",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "key": "cooldown",
+              "hash": 7930065560957984440,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "duration",
+                  "hash": 527704592192478869,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "max",
+                      "hash": 11391645376553957247,
+                      "kind": "Float",
+                      "value": 1.625
+                    },
+                    {
+                      "key": "min",
+                      "hash": 11713854759041707324,
+                      "kind": "Float",
+                      "value": 1.625
+                    }
+                  ]
+                },
+                {
+                  "key": "duration_multiplier",
+                  "hash": 3197764021249827607,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "mid",
+                      "hash": 5127237102757973829,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "near",
+                      "hash": 12017775661624452907,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "far",
+                      "hash": 12382422860595788374,
+                      "kind": "Float",
+                      "value": 1.0
+                    }
+                  ]
+                },
+                {
+                  "key": "persistent_cooldownticks",
+                  "hash": 10764580075519873545,
+                  "kind": "Boolean",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "key": "fx_piercing_munition_name",
+              "hash": 7981649407508967898,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "charge_option",
+              "hash": 8083221067265292595,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "charge_attack_target_position_offset",
+                  "hash": 6991585025559523597,
+                  "kind": "Float",
+                  "value": 2.0
+                },
+                {
+                  "key": "$REF",
+                  "hash": 6998867517914059163,
+                  "kind": "CString",
+                  "value": "options\\weapon\\charge_option"
+                },
+                {
+                  "key": "weapon_hit_disabled_duration",
+                  "hash": 7972668137380703227,
+                  "kind": "Float",
+                  "value": 1.0
+                }
+              ]
+            },
+            {
+              "key": "ui_setfacing",
+              "hash": 8717694364806607471,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "fx_always_visible",
+              "hash": 9017489689682194078,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "fx_action_target_name",
+              "hash": 9816057859257691500,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "moving",
+              "hash": 10465615745927836930,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "cooldown_multiplier",
+                  "hash": 7994713982911781308,
+                  "kind": "Float",
+                  "value": 1.0
+                },
+                {
+                  "key": "can_fire_while_moving",
+                  "hash": 11128725941134696981,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "moving_start_time",
+                  "hash": 11273485262884121943,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "accuracy_multiplier",
+                  "hash": 12482402227133336608,
+                  "kind": "Float",
+                  "value": 1.0
+                },
+                {
+                  "key": "moving_end_time",
+                  "hash": 13250642989118929726,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "burst_multiplier",
+                  "hash": 17356776120039173442,
+                  "kind": "Float",
+                  "value": 1.0
+                }
+              ]
+            },
+            {
+              "key": "ui_name",
+              "hash": 10495630658248407649,
+              "kind": "Int",
+              "value": 11164723
+            },
+            {
+              "key": "fire",
+              "hash": 10665734619910498886,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "animation_impact_frame_time",
+                  "hash": 558538868342756752,
+                  "kind": "Float",
+                  "value": 0.375
+                },
+                {
+                  "key": "wind_up",
+                  "hash": 6428095982611581935,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "wind_down",
+                  "hash": 16833779785702044632,
+                  "kind": "Float",
+                  "value": 0.0
+                }
+              ]
+            },
+            {
+              "key": "penetration",
+              "hash": 11503098882568550434,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "mid",
+                  "hash": 5127237102757973829,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "near",
+                  "hash": 12017775661624452907,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "far",
+                  "hash": 12382422860595788374,
+                  "kind": "Float",
+                  "value": 0.0
+                }
+              ]
+            },
+            {
+              "key": "default_attack_type",
+              "hash": 11579118742643494163,
+              "kind": "CString",
+              "value": "default"
+            },
+            {
+              "key": "anim_table",
+              "hash": 11827416622076375688,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "cooldown_time_name",
+                  "hash": 2348199671595049282,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "target_range_name",
+                  "hash": 2660033552192762162,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "track_vertical_speed",
+                  "hash": 3194975954063237034,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "track_horizontal_speed",
+                  "hash": 5270039024036194204,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "track_world_pos_z_name",
+                  "hash": 7399757354171607115,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "ability_state",
+                  "hash": 9041988222382178516,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "track_horizontal",
+                  "hash": 10244543528486640881,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "track_vertical",
+                  "hash": 10604769856551224007,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "state_name",
+                  "hash": 11915029463653697243,
+                  "kind": "CString",
+                  "value": "melee_weapon_state"
+                },
+                {
+                  "key": "track_world_pos_x_name",
+                  "hash": 12878587104121605443,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "variety_name",
+                  "hash": 14923291088343299763,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "attack_speed_scale_value",
+                  "hash": 15328928477160574523,
+                  "kind": "Float",
+                  "value": 1.0
+                },
+                {
+                  "key": "visibility_name",
+                  "hash": 15617307812642781914,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "attack_speed_scale_name",
+                  "hash": 17271250293051997255,
+                  "kind": "CString",
+                  "value": "melee_speed_scale"
+                },
+                {
+                  "key": "track_world_pos_y_name",
+                  "hash": 17739824495191529148,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "cover_table",
+              "hash": 12065293303430157292,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "plain",
+                  "hash": 2882188154717559695,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "suppression_multiplier",
+                      "hash": 276675362830647323,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "penetration_multiplier",
+                      "hash": 4982527951503457728,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "weapon_cover_info"
+                    },
+                    {
+                      "key": "accuracy_multiplier",
+                      "hash": 12482402227133336608,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "damage_multiplier",
+                      "hash": 13026236780364789017,
+                      "kind": "Float",
+                      "value": 1.0
+                    }
+                  ]
+                },
+                {
+                  "key": "forest",
+                  "hash": 6487014639421959769,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "suppression_multiplier",
+                      "hash": 276675362830647323,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "penetration_multiplier",
+                      "hash": 4982527951503457728,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "weapon_cover_info"
+                    },
+                    {
+                      "key": "accuracy_multiplier",
+                      "hash": 12482402227133336608,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "damage_multiplier",
+                      "hash": 13026236780364789017,
+                      "kind": "Float",
+                      "value": 1.0
+                    }
+                  ]
+                },
+                {
+                  "key": "hill",
+                  "hash": 7276480463832680414,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "suppression_multiplier",
+                      "hash": 276675362830647323,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "penetration_multiplier",
+                      "hash": 4982527951503457728,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "weapon_cover_info"
+                    },
+                    {
+                      "key": "accuracy_multiplier",
+                      "hash": 12482402227133336608,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "damage_multiplier",
+                      "hash": 13026236780364789017,
+                      "kind": "Float",
+                      "value": 1.0
+                    }
+                  ]
+                },
+                {
+                  "key": "mountain",
+                  "hash": 15325796757364051031,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "suppression_multiplier",
+                      "hash": 276675362830647323,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "penetration_multiplier",
+                      "hash": 4982527951503457728,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "weapon_cover_info"
+                    },
+                    {
+                      "key": "accuracy_multiplier",
+                      "hash": 12482402227133336608,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "damage_multiplier",
+                      "hash": 13026236780364789017,
+                      "kind": "Float",
+                      "value": 1.0
+                    }
+                  ]
+                },
+                {
+                  "key": "tp_defcover",
+                  "hash": 17604448709763876249,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "suppression_multiplier",
+                      "hash": 276675362830647323,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "penetration_multiplier",
+                      "hash": 4982527951503457728,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "weapon_cover_info"
+                    },
+                    {
+                      "key": "accuracy_multiplier",
+                      "hash": 12482402227133336608,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "damage_multiplier",
+                      "hash": 13026236780364789017,
+                      "kind": "Float",
+                      "value": 1.0
+                    }
+                  ]
+                },
+                {
+                  "key": "water",
+                  "hash": 18346081559853550089,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "suppression_multiplier",
+                      "hash": 276675362830647323,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "penetration_multiplier",
+                      "hash": 4982527951503457728,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "weapon_cover_info"
+                    },
+                    {
+                      "key": "accuracy_multiplier",
+                      "hash": 12482402227133336608,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "damage_multiplier",
+                      "hash": 13026236780364789017,
+                      "kind": "Float",
+                      "value": 1.0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "setup",
+              "hash": 12483204024057711915,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "duration",
+                  "hash": 527704592192478869,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "has_instant_setup",
+                  "hash": 1034049527770909287,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "requires_aim_elevation",
+                  "hash": 7220056329012382535,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "attach_duration",
+                  "hash": 10403799738475873174,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "can_interrupt_setup",
+                  "hash": 15230317887583318060,
+                  "kind": "Boolean",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "key": "scatter",
+              "hash": 12605066962292849008,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "distance_scatter_obj_hit_min",
+                  "hash": 1424226372886322610,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "distance_guaranteed_before_hit_percentage",
+                  "hash": 2758833173407883352,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "distance_bracket_count_air",
+                  "hash": 4156287499261440779,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "angle_scatter",
+                  "hash": 4874987828808044322,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "movement_scatter_angle_multiplier",
+                  "hash": 5250906172973592086,
+                  "kind": "Float",
+                  "value": 1.0
+                },
+                {
+                  "key": "max_tilt_angle",
+                  "hash": 5864909031726634435,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "distance_scatter_ratio",
+                  "hash": 7086944412350046462,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "fow_angle_multiplier",
+                  "hash": 7179247741579042973,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "tilt_max_distance",
+                  "hash": 9398277823573932265,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "distance_bracket_count_ground",
+                  "hash": 10568009851420279710,
+                  "kind": "Float",
+                  "value": 1.0
+                },
+                {
+                  "key": "delay_bracket_change_chance",
+                  "hash": 10968040236305082668,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "min_tilt_angle",
+                  "hash": 12838858251977954798,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "movement_scatter_distance_multiplier",
+                  "hash": 13695561930360571211,
+                  "kind": "Float",
+                  "value": 1.0
+                },
+                {
+                  "key": "burst_pattern_enable",
+                  "hash": 14484674497125454399,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "area_scatter_option",
+                  "hash": 16200095898865250118,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "options\\none"
+                    }
+                  ]
+                },
+                {
+                  "key": "tilt_scatter_chance",
+                  "hash": 16373453851997929767,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "distance_scatter_offset",
+                  "hash": 16445064934533611101,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "fow_distance_multiplier",
+                  "hash": 17132178185271156782,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "distance_scatter_max",
+                  "hash": 17925027579683538298,
+                  "kind": "Float",
+                  "value": 0.0
+                }
+              ]
+            },
+            {
+              "key": "avoid_blockers_of_relationship",
+              "hash": 12654945281918868414,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "ally",
+                  "hash": 1550109499440299763,
+                  "kind": "Boolean",
+                  "value": true
+                },
+                {
+                  "key": "neutral",
+                  "hash": 4856069814891899470,
+                  "kind": "Boolean",
+                  "value": true
+                },
+                {
+                  "key": "enemy",
+                  "hash": 6361675857453687636,
+                  "kind": "Boolean",
+                  "value": true
+                },
+                {
+                  "key": "undefined",
+                  "hash": 6673594784355463836,
+                  "kind": "Boolean",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "key": "teardown",
+              "hash": 12872308071588762409,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "duration",
+                  "hash": 527704592192478869,
+                  "kind": "Float",
+                  "value": 0.0
+                }
+              ]
+            },
+            {
+              "key": "fx_building_hit_delay",
+              "hash": 13885771394385232964,
+              "kind": "Float",
+              "value": 0.0
+            },
+            {
+              "key": "brace_option",
+              "hash": 14215652405787089566,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "$REF",
+                  "hash": 6998867517914059163,
+                  "kind": "CString",
+                  "value": "options\\none"
+                }
+              ]
+            },
+            {
+              "key": "fx_tracer_name",
+              "hash": 14942238611008795557,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "flinch_radius",
+              "hash": 15000108102318803635,
+              "kind": "Float",
+              "value": 0.0
+            },
+            {
+              "key": "aim",
+              "hash": 15829173224981190996,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "aim_time_multiplier",
+                  "hash": 7641295419570686636,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "mid",
+                      "hash": 5127237102757973829,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "near",
+                      "hash": 12017775661624452907,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "far",
+                      "hash": 12382422860595788374,
+                      "kind": "Float",
+                      "value": 1.0
+                    }
+                  ]
+                },
+                {
+                  "key": "fire_aim_time",
+                  "hash": 8273176527601178945,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "max",
+                      "hash": 11391645376553957247,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "min",
+                      "hash": 11713854759041707324,
+                      "kind": "Float",
+                      "value": 0.0
+                    }
+                  ]
+                },
+                {
+                  "key": "post_firing_aim_time_seconds",
+                  "hash": 9753507635302447205,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "post_firing_cooldown_interval_seconds",
+                  "hash": 12846940559709974144,
+                  "kind": "Float",
+                  "value": 0.0
+                }
+              ]
+            },
+            {
+              "key": "height_bonuses",
+              "hash": 15967655196837742329,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "height_advantage",
+                  "hash": 10250585184024084572,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "multipliers",
+                      "hash": 5200680966240191063,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "suppression_multiplier",
+                          "hash": 276675362830647323,
+                          "kind": "Float",
+                          "value": 1.0
+                        },
+                        {
+                          "key": "penetration_multiplier",
+                          "hash": 4982527951503457728,
+                          "kind": "Float",
+                          "value": 1.0
+                        },
+                        {
+                          "key": "accuracy_multiplier",
+                          "hash": 12482402227133336608,
+                          "kind": "Float",
+                          "value": 1.0
+                        },
+                        {
+                          "key": "damage_multiplier",
+                          "hash": 13026236780364789017,
+                          "kind": "Float",
+                          "value": 1.0
+                        }
+                      ]
+                    },
+                    {
+                      "key": "height_threshold",
+                      "hash": 5647949753074067794,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "negates_cover",
+                      "hash": 11675946667920797515,
+                      "kind": "Boolean",
+                      "value": false
+                    }
+                  ]
+                },
+                {
+                  "key": "height_disadvantage",
+                  "hash": 13371599793783945608,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "multipliers",
+                      "hash": 5200680966240191063,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "suppression_multiplier",
+                          "hash": 276675362830647323,
+                          "kind": "Float",
+                          "value": 1.0
+                        },
+                        {
+                          "key": "penetration_multiplier",
+                          "hash": 4982527951503457728,
+                          "kind": "Float",
+                          "value": 1.0
+                        },
+                        {
+                          "key": "accuracy_multiplier",
+                          "hash": 12482402227133336608,
+                          "kind": "Float",
+                          "value": 1.0
+                        },
+                        {
+                          "key": "damage_multiplier",
+                          "hash": 13026236780364789017,
+                          "kind": "Float",
+                          "value": 1.0
+                        }
+                      ]
+                    },
+                    {
+                      "key": "height_threshold",
+                      "hash": 5647949753074067794,
+                      "kind": "Float",
+                      "value": 0.0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "range",
+              "hash": 16597999082088934835,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "distance",
+                  "hash": 5661183123366514158,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "mid",
+                      "hash": 5127237102757973829,
+                      "kind": "Float",
+                      "value": -1.0
+                    },
+                    {
+                      "key": "near",
+                      "hash": 12017775661624452907,
+                      "kind": "Float",
+                      "value": -1.0
+                    },
+                    {
+                      "key": "far",
+                      "hash": 12382422860595788374,
+                      "kind": "Float",
+                      "value": -1.0
+                    }
+                  ]
+                },
+                {
+                  "key": "max",
+                  "hash": 11391645376553957247,
+                  "kind": "Float",
+                  "value": 2.1500000953674316
+                },
+                {
+                  "key": "min",
+                  "hash": 11713854759041707324,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "max_height",
+                  "hash": 11849006512489798992,
+                  "kind": "Float",
+                  "value": -1.0
+                },
+                {
+                  "key": "max_animation_angle_distance",
+                  "hash": 12535617728670573397,
+                  "kind": "Float",
+                  "value": 90.0
+                }
+              ]
+            },
+            {
+              "key": "deflection",
+              "hash": 16798622575712217229,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "has_deflection_damage",
+                  "hash": 234175611985016581,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "deflection_damage_multiplier",
+                  "hash": 857798089835823566,
+                  "kind": "Float",
+                  "value": 0.0
+                }
+              ]
+            },
+            {
+              "key": "fx_use_building_panel_normal",
+              "hash": 17014656699141080867,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "reload",
+              "hash": 17534032358398692315,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "duration",
+                  "hash": 527704592192478869,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "max",
+                      "hash": 11391645376553957247,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "min",
+                      "hash": 11713854759041707324,
+                      "kind": "Float",
+                      "value": 0.0
+                    }
+                  ]
+                },
+                {
+                  "key": "duration_multiplier",
+                  "hash": 3197764021249827607,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "mid",
+                      "hash": 5127237102757973829,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "near",
+                      "hash": 12017775661624452907,
+                      "kind": "Float",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "far",
+                      "hash": 12382422860595788374,
+                      "kind": "Float",
+                      "value": 1.0
+                    }
+                  ]
+                },
+                {
+                  "key": "frequency",
+                  "hash": 10821396369857508345,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "max",
+                      "hash": 11391645376553957247,
+                      "kind": "Float",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "min",
+                      "hash": 11713854759041707324,
+                      "kind": "Float",
+                      "value": 0.0
+                    }
+                  ]
+                },
+                {
+                  "key": "persistent_reloadticks",
+                  "hash": 15050903169870203119,
+                  "kind": "Boolean",
+                  "value": false
+                },
+                {
+                  "key": "require_reload_after_switch",
+                  "hash": 17981538198195830273,
+                  "kind": "Boolean",
+                  "value": false
+                }
+              ]
+            },
+            {
+              "key": "siege_option",
+              "hash": 17708814421621177481,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "$REF",
+                  "hash": 6998867517914059163,
+                  "kind": "CString",
+                  "value": "options\\none"
+                }
+              ]
+            },
+            {
+              "key": "target_type_table",
+              "hash": 17934714094807495967,
+              "kind": "List2",
+              "value": []
+            },
+            {
+              "key": "speech_code",
+              "hash": 18190439530397609191,
+              "kind": "CString",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "key": "pbgid",
+          "hash": 13005689997087892415,
+          "kind": "Int",
+          "value": 34979571
+        },
+        {
+          "key": "parent_pbg",
+          "hash": 14182368983149674761,
+          "kind": "List2",
+          "value": [
+            {
+              "key": "$PBGNAME",
+              "hash": 5464984021694833596,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "$PBGMAP",
+              "hash": 1238668035833122403,
+              "kind": "CString",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "instance_version",
+      "hash": 8529826256463028745,
+      "kind": "Int",
+      "value": 2
+    }
+  ]
+}
