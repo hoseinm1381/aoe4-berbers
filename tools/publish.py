@@ -98,19 +98,15 @@ if __name__=='__main__':
                 'tag_name':tag,'target_commitish':'main','name':'Berbers '+config['version'],
                 'body':(ROOT/'docs/RELEASE_NOTES.md').read_text(),'draft':True,'prerelease':False})
         assets=[]
-        pack_manifest=json.loads((ROOT/'inputs/manifest.json').read_text())
-        paths=[a.directory/('Berbers-Garrison-'+config['version']+'.zip'),
-               a.directory/('Berbers-editable-source-'+config['version']+'.zip'),
-               a.directory/'SHA256SUMS.txt']
-        assert all(p.is_file() for p in paths),'Missing declared release deliverable'
-        for pack in pack_manifest['packs']:
-            path=ROOT/'inputs'/pack['name']
-            assert path.stat().st_size==pack['bytes']
-            assert hashlib.file_digest(path.open('rb'),'sha256').hexdigest()==pack['sha256']
-            paths.append(path)
+        paths=[a.directory/('Berbers-Garrison-'+config['version']+'.zip')]
+        assert paths[0].is_file(), 'Missing playable release ZIP'
+        assert not api(headers,f'/repos/{REPO}/releases/{release["id"]}/assets') or all(
+            asset['name']==paths[0].name
+            for asset in api(headers,f'/repos/{REPO}/releases/{release["id"]}/assets')
+        ), 'Release must contain only the playable ZIP'
         assert len({p.name for p in paths})==len(paths)
         for path in sorted(paths,key=lambda p:(p.parent!=a.directory,p.stat().st_size)):
             if path.is_file():assets.append(upload(headers,release,path))
-        assert assets
+        assert len(assets)==1
         published=api(headers,f'/repos/{REPO}/releases/{release["id"]}','PATCH',{'draft':False})
         print(json.dumps({'release':published['html_url'],'assets':[{k:x[k] for k in ('name','size','digest','browser_download_url')} for x in assets]},indent=2),flush=True)

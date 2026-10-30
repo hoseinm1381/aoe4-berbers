@@ -7,7 +7,9 @@ Original Berber and Community Civilization Pack sources remain outside mutation
 scope. Do not install mods or continue other civilization ports.
 
 Preserve required editable art/audio masters, textures, recipes, current native
-inputs and provenance. Large packs are hash-checked release assets. Keep one
+inputs and provenance. All editable and native files belong in this repository; oversized whole files use
+Git LFS. GitHub Releases attach only the playable import ZIP. Do not split
+sound/art or require developers to download separate input packs. Keep one
 workspace, current delivery and tested rollback. Delete only verified regenerable
 local build files within this repository; reject reparse points in cleanup.
 

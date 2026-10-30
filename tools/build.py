@@ -27,11 +27,12 @@ def build(output):
     config = read_json(ROOT/'project.json')
     assert not output.exists(), f'Use an empty build destination: {output}'
     output.mkdir(parents=True)
-    manifest = ROOT/'inputs/manifest.json'
-    if manifest.exists():
-        for pack in read_json(manifest)['packs']:
-            if pack['name'] == Path(config['native_inputs']).name:
-                assert digest(ROOT/'inputs'/pack['name']) == pack['sha256']
+    native_root = ROOT/config['native_inputs']
+    native_manifest = read_json(ROOT/'inputs/native-manifest.json')
+    for member, row in native_manifest.items():
+        path = native_root/member
+        assert path.is_file() and path.stat().st_size == row['bytes'], path
+        assert digest(path) == row['sha256'], path
     recipe = {k:config[k] for k in ('schema','owner','race','dispatcher','shared_entities')}
     recipe.update(attributes=[], members=[])
     baseline = read_json(ROOT/'source/baseline-members.json')
@@ -48,10 +49,9 @@ def build(output):
             row['toc']=toc
             recipe['members'].append(row)
         expected[member]={'toc':toc,'sha256':row['sha256'],'bytes':len(raw)}
-    with zipfile.ZipFile(ROOT/config['native_inputs']) as z:
-        for member in sorted(z.namelist()):
-            assert not Path(member).is_absolute() and '..' not in Path(member).parts
-            add(member,z.read(member),baseline[member]['toc'])
+    for member in sorted(native_manifest):
+        assert not Path(member).is_absolute() and '..' not in Path(member).parts
+        add(member,(native_root/member).read_bytes(),baseline[member]['toc'])
     for path in sorted((ROOT/'source/tables').rglob('*.rgd.json')):
         add(path.relative_to(ROOT/'source/tables').as_posix()[:-5],import_table(read_json(path)),'attrib')
     for path in sorted((ROOT/'source/resources').rglob('*')):
@@ -117,7 +117,7 @@ def build(output):
              'description':'Independent Berber civilization. Select Berbers with Standard and Tuning Pack=None.',
              'author':'hosein81 and marcokistan','updated':'2026-10-30','min_garrison':'0.1.9',
              'content_types':['civilization'],'cover':'cover.png',
-             'changelog':'Owner-tested trial.3 gameplay preserved. Civilization flags now use the original Villager banner. Portable editable-source and master packs supplied separately.'}
+             'changelog':'Owner-tested trial.3 gameplay preserved. Civilization flags now use the original Villager banner. Editable source, art and audio are available together in the GitHub repository.'}
     delivery=output/'delivery';delivery.mkdir()
     package=delivery/('Berbers-Garrison-'+config['version']+'.zip')
     mod_bundle.write_package(delivery/'package',package,bundle_key=config['bundle_key'],details=details,
