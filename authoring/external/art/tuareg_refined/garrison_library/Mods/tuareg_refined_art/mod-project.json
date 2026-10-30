@@ -1,0 +1,290 @@
+{
+  "animated_units": [
+    {
+      "animation": {
+        "clips": [],
+        "profile": "prototype-clips-v1",
+        "prototype": "english-spearman-2",
+        "runtime": "operator_review_required",
+        "untouched_clips": 182
+      },
+      "attachments": [],
+      "blueprint": "31ae6f72f8b647428f42e8eabeb082ef:tuareg_age1",
+      "directory": "art/scenario/garrison/tuareg_refined_art/units/tuareg_age1/body",
+      "files": {
+        "action.json": "83cf75ffad9bc82c3b220f5daaf702b3e7b08837cbcdcad3990bb1964d7db017",
+        "animation-readback.json": "63ec6c899ae8f7b926a9b04838bf682799dc364917ef85abc81f6f903e49dd6f",
+        "animator/animator.rgm": "1a590f1755b331ab2d1748103c156899230582f1691163d46f86a5b4d3504867",
+        "animator/animator.rgo": "bcee2c0836550e8eaf3f782a11ea4a5f251b2c62f8c6aa17dc469e16b5a8e531",
+        "animator/animator.rhka": "4b9152b4801be624861adef0d18e80402c0887d8cf72ed478bb841c34b4a560b",
+        "animator/animator.rootmotion": "73fa72ab36dd942b353ff49dec971c253f66aa4169be8d54205609069343ca00",
+        "body/albedo.png": "3da18c7327638ebdf8f94696e98dcd34667b6137b2098a072d1ed2d3ab1a20dc",
+        "body/metalness.png": "f23e1536b680614b4cf1b20787c1b0cd9cba07e6879f93821f76b429fbb5bbe0",
+        "body/model.fbx": "4db9da1f2db1dfeebe9ab986ff45f7457fa7bf5c8ab1663180242541e4ee934d",
+        "body/model.material": "212a7c5916c736ee5ee3b0b073cad4c15f3bc35b87df6525a503d406e44461f4",
+        "body/model.rgo": "bb41b0bf48275e2b625767eadba2cafbad864b8ab76289cb7942fe8e7813290b",
+        "body/model.rgotemplate": "de4ef1e0f56292ddb8f66ec799e45241be500d01f19657e2dea6d64a36891dc3",
+        "body/model.rig": "ab0f07170392a78e81c41abc5ddacd3fd18dd0f67ce018f42cb0c0829e02a6f9",
+        "body/normal.png": "76ba865710472c6d9adb90c9eefb715e8bbc10e45ed13d4af430942ed7cd5027",
+        "body/pattern.png": "1ffa4ada4b3c8a8113c371fe790e5406086de48ffb72a81a42a40c800457610b",
+        "body/roughness.png": "a4fa36e9e714a32af23982cdd15f9b94533a2424ee2a81b6d5ed7092bab52bab"
+      },
+      "name": "tuareg_age1",
+      "profile": "prototype-clips-v1",
+      "prototype": "english-spearman-2",
+      "prototype_fingerprint": "2bd91fe1b0f69a897d468faecbeaeeb0fb624cc8a59069f5b29bf1cda3115770",
+      "stock_files": {
+        ".rgm": "6a22beb544c59352cacf8f7ba794976e8e028097c23e615ea2bef1583ddafb84",
+        ".rgo": "bcee2c0836550e8eaf3f782a11ea4a5f251b2c62f8c6aa17dc469e16b5a8e531",
+        ".rhka": "4b9152b4801be624861adef0d18e80402c0887d8cf72ed478bb841c34b4a560b",
+        ".rootmotion": "73fa72ab36dd942b353ff49dec971c253f66aa4169be8d54205609069343ca00"
+      }
+    },
+    {
+      "animation": {
+        "clips": [],
+        "profile": "prototype-clips-v1",
+        "prototype": "english-spearman-2",
+        "runtime": "operator_review_required",
+        "untouched_clips": 182
+      },
+      "attachments": [],
+      "blueprint": "31ae6f72f8b647428f42e8eabeb082ef:tuareg_age2",
+      "directory": "art/scenario/garrison/tuareg_refined_art/units/tuareg_age2/body",
+      "files": {
+        "action.json": "a2a43031a9c41249496e8effeafb978b667957ba60e76c9f1b0b53c785c9746d",
+        "animation-readback.json": "63ec6c899ae8f7b926a9b04838bf682799dc364917ef85abc81f6f903e49dd6f",
+        "animator/animator.rgm": "94534dc661d0edada204281e9209af482ae15ead3a49f1596f3171f60fcffd67",
+        "animator/animator.rgo": "bcee2c0836550e8eaf3f782a11ea4a5f251b2c62f8c6aa17dc469e16b5a8e531",
+        "animator/animator.rhka": "4b9152b4801be624861adef0d18e80402c0887d8cf72ed478bb841c34b4a560b",
+        "animator/animator.rootmotion": "73fa72ab36dd942b353ff49dec971c253f66aa4169be8d54205609069343ca00",
+        "body/albedo.png": "60be50d5e85b238c420b87b1c3d140b162832d8880bb82e35a1a574449a92dc3",
+        "body/metalness.png": "011fda3d561459fe5fbe0423784478d59a7fcf5f6e7291258d21a2e72f1e2540",
+        "body/model.fbx": "b568361f974020f8c5370d9ba2c7a8c89e8876f03585e06875ffabfe217f1062",
+        "body/model.material": "981dde8cbf8db601271e75e6cdad02758007268671a3c5d848ee8286616f4dba",
+        "body/model.rgo": "bb41b0bf48275e2b625767eadba2cafbad864b8ab76289cb7942fe8e7813290b",
+        "body/model.rgotemplate": "de4ef1e0f56292ddb8f66ec799e45241be500d01f19657e2dea6d64a36891dc3",
+        "body/model.rig": "ab0f07170392a78e81c41abc5ddacd3fd18dd0f67ce018f42cb0c0829e02a6f9",
+        "body/normal.png": "a3f5f325feac7e7d481fb1b2f5577f3169ee467ebae156a49fd4ab4a59a9189d",
+        "body/pattern.png": "c34c1324e2956c64630dea1bbb9c1ba51fa870dbee1e0a8d54f52a1ba632c647",
+        "body/roughness.png": "d017154229dbef820e5ced06216dce2d1300cb165bbcf1fbd7f726029fb66b7d"
+      },
+      "name": "tuareg_age2",
+      "profile": "prototype-clips-v1",
+      "prototype": "english-spearman-2",
+      "prototype_fingerprint": "2bd91fe1b0f69a897d468faecbeaeeb0fb624cc8a59069f5b29bf1cda3115770",
+      "stock_files": {
+        ".rgm": "6a22beb544c59352cacf8f7ba794976e8e028097c23e615ea2bef1583ddafb84",
+        ".rgo": "bcee2c0836550e8eaf3f782a11ea4a5f251b2c62f8c6aa17dc469e16b5a8e531",
+        ".rhka": "4b9152b4801be624861adef0d18e80402c0887d8cf72ed478bb841c34b4a560b",
+        ".rootmotion": "73fa72ab36dd942b353ff49dec971c253f66aa4169be8d54205609069343ca00"
+      }
+    },
+    {
+      "animation": {
+        "clips": [],
+        "profile": "prototype-clips-v1",
+        "prototype": "english-spearman-2",
+        "runtime": "operator_review_required",
+        "untouched_clips": 182
+      },
+      "attachments": [],
+      "blueprint": "31ae6f72f8b647428f42e8eabeb082ef:tuareg_age3",
+      "directory": "art/scenario/garrison/tuareg_refined_art/units/tuareg_age3/body",
+      "files": {
+        "action.json": "d9c1b2fdf57a6acb72ca155f95102ebee2fa0dfd27c181c2bcfd9d89c5f94f93",
+        "animation-readback.json": "63ec6c899ae8f7b926a9b04838bf682799dc364917ef85abc81f6f903e49dd6f",
+        "animator/animator.rgm": "f63c5b4420934a341776da8b8bde2364d871659af0e27acb5dfb9f5efac07db8",
+        "animator/animator.rgo": "bcee2c0836550e8eaf3f782a11ea4a5f251b2c62f8c6aa17dc469e16b5a8e531",
+        "animator/animator.rhka": "4b9152b4801be624861adef0d18e80402c0887d8cf72ed478bb841c34b4a560b",
+        "animator/animator.rootmotion": "73fa72ab36dd942b353ff49dec971c253f66aa4169be8d54205609069343ca00",
+        "body/albedo.png": "f4b960a1dbd7b9f649a36bb8b72a03c6778831289520e710855719749895d2f0",
+        "body/metalness.png": "790f2e43c3f4a88838ffe8868a0a2c8dbabc229aa44efed3904be110cf846b00",
+        "body/model.fbx": "503d49f301623b5da838cb80df36a697616057dae11bdb8e5176ebf5da29588a",
+        "body/model.material": "9398de920dd7c0c9e024e7c7d607401d66847dbef4f1f158e23d288957f1f543",
+        "body/model.rgo": "bb41b0bf48275e2b625767eadba2cafbad864b8ab76289cb7942fe8e7813290b",
+        "body/model.rgotemplate": "de4ef1e0f56292ddb8f66ec799e45241be500d01f19657e2dea6d64a36891dc3",
+        "body/model.rig": "ab0f07170392a78e81c41abc5ddacd3fd18dd0f67ce018f42cb0c0829e02a6f9",
+        "body/normal.png": "3f8f2090a71d2a9a69d3d7c88c2fdb431b17519a090418c3fddfd1a2eb7d7a90",
+        "body/pattern.png": "97530879ff6ae4dd56c5d14f73ce8d4b48ca81b6d9bc4f2f3b8f5d79cd419e4c",
+        "body/roughness.png": "f95f529b960fc3e5c97c17abe32063ab11667cca8172a6d17910572d89ecfc14"
+      },
+      "name": "tuareg_age3",
+      "profile": "prototype-clips-v1",
+      "prototype": "english-spearman-2",
+      "prototype_fingerprint": "2bd91fe1b0f69a897d468faecbeaeeb0fb624cc8a59069f5b29bf1cda3115770",
+      "stock_files": {
+        ".rgm": "6a22beb544c59352cacf8f7ba794976e8e028097c23e615ea2bef1583ddafb84",
+        ".rgo": "bcee2c0836550e8eaf3f782a11ea4a5f251b2c62f8c6aa17dc469e16b5a8e531",
+        ".rhka": "4b9152b4801be624861adef0d18e80402c0887d8cf72ed478bb841c34b4a560b",
+        ".rootmotion": "73fa72ab36dd942b353ff49dec971c253f66aa4169be8d54205609069343ca00"
+      }
+    },
+    {
+      "animation": {
+        "clips": [],
+        "profile": "prototype-clips-v1",
+        "prototype": "english-spearman-2",
+        "runtime": "operator_review_required",
+        "untouched_clips": 182
+      },
+      "attachments": [],
+      "blueprint": "31ae6f72f8b647428f42e8eabeb082ef:tuareg_age4",
+      "directory": "art/scenario/garrison/tuareg_refined_art/units/tuareg_age4/body",
+      "files": {
+        "action.json": "0a9a6e082709345eb1949ee7e6189049535be30c921c50e04164ef7c37157d40",
+        "animation-readback.json": "63ec6c899ae8f7b926a9b04838bf682799dc364917ef85abc81f6f903e49dd6f",
+        "animator/animator.rgm": "2d2e39a37fa0ce582b9d360b28ab4bc9798025aa474b354c2c5015fd550b68a7",
+        "animator/animator.rgo": "bcee2c0836550e8eaf3f782a11ea4a5f251b2c62f8c6aa17dc469e16b5a8e531",
+        "animator/animator.rhka": "4b9152b4801be624861adef0d18e80402c0887d8cf72ed478bb841c34b4a560b",
+        "animator/animator.rootmotion": "73fa72ab36dd942b353ff49dec971c253f66aa4169be8d54205609069343ca00",
+        "body/albedo.png": "77f8a1f1d39466bd6396f7737ccec9b4e84afdf975354497ab581f6920bea239",
+        "body/metalness.png": "44561a9b8d92b6db5c2127c490e5368086c224aeabbc79e507bea47c4778aca2",
+        "body/model.fbx": "f0827c8e4d075b9bbcfe5ff1fa4217cd12663a8ff205065383f30ac7a8ee7e86",
+        "body/model.material": "67eeaae4cae64d7460ee82cd1e43903685fbec63b3c6b0f1ff186b11e4b2d729",
+        "body/model.rgo": "bb41b0bf48275e2b625767eadba2cafbad864b8ab76289cb7942fe8e7813290b",
+        "body/model.rgotemplate": "de4ef1e0f56292ddb8f66ec799e45241be500d01f19657e2dea6d64a36891dc3",
+        "body/model.rig": "ab0f07170392a78e81c41abc5ddacd3fd18dd0f67ce018f42cb0c0829e02a6f9",
+        "body/normal.png": "7a4c59ab80e7fe9adb8d80f09651ab6ed1d337ea293f80aefea3be7ac41dbcd0",
+        "body/pattern.png": "9c0d8c1eec2dbb87079b33ae8e180817bc7dd97e6e081ae312ee580931f4559e",
+        "body/roughness.png": "0b6c25959751c3886859291d859a9f7eea553c1be2bad394649f6d46af21c1d2"
+      },
+      "name": "tuareg_age4",
+      "profile": "prototype-clips-v1",
+      "prototype": "english-spearman-2",
+      "prototype_fingerprint": "2bd91fe1b0f69a897d468faecbeaeeb0fb624cc8a59069f5b29bf1cda3115770",
+      "stock_files": {
+        ".rgm": "6a22beb544c59352cacf8f7ba794976e8e028097c23e615ea2bef1583ddafb84",
+        ".rgo": "bcee2c0836550e8eaf3f782a11ea4a5f251b2c62f8c6aa17dc469e16b5a8e531",
+        ".rhka": "4b9152b4801be624861adef0d18e80402c0887d8cf72ed478bb841c34b4a560b",
+        ".rootmotion": "73fa72ab36dd942b353ff49dec971c253f66aa4169be8d54205609069343ca00"
+      }
+    }
+  ],
+  "assets": [
+    {
+      "added_at_utc": "2026-10-11T16:14:01Z",
+      "build_id": "20261011T160854Z-0ee67c",
+      "directory": "art\\scenario\\tuareg\\tuareg_agher_refined",
+      "files": [
+        {
+          "name": "tuareg_agher_refined.fbx",
+          "sha256": "0244de60909643016fbf33b17b53b67c140e6542526d912842305b6fa14e4d71",
+          "size": 69868
+        },
+        {
+          "name": "tuareg_agher_refined.material",
+          "sha256": "ab7d3c12e46d6767aeafb22439fc95224ed8d9a1c7abc707d2e8a4d5f15a8db1",
+          "size": 693
+        },
+        {
+          "name": "tuareg_agher_refined.rgo",
+          "sha256": "fdbd9176ac6dfd0ee8fcea3fc9c16a5618a748553f9e81fd02abd5c3c0c7b6f7",
+          "size": 660
+        },
+        {
+          "name": "tuareg_agher_refined.rgotemplate",
+          "sha256": "254a99cba6c5bc5f94ed1ab2b5e89a3bf262963a562e5c5c30f0e6c72a911438",
+          "size": 53
+        },
+        {
+          "name": "tuareg_agher_refined_albedo.png",
+          "sha256": "c23b8d26ea27fb29210efd20ad53ff49fc7a7cddcc59494191dfb4eee9d218d1",
+          "size": 592400
+        },
+        {
+          "name": "tuareg_agher_refined_metalness.png",
+          "sha256": "4681354f459c8c4175f059b5d83a4abafe18e3a5f4e0cbe2ac637a652c44eb81",
+          "size": 33784
+        },
+        {
+          "name": "tuareg_agher_refined_normal.png",
+          "sha256": "bd6cf7dd95dcfde30eee6ef9e0777282301e05cb5638898576d89e286d7db96b",
+          "size": 639575
+        },
+        {
+          "name": "tuareg_agher_refined_roughness.png",
+          "sha256": "a2051ab98d9805f2b4e98de5a55902e89ccff58a115f3b06a6c43059bbff4410",
+          "size": 86005
+        }
+      ],
+      "label": "tuareg_agher_refined",
+      "logical_base": "art\\scenario\\tuareg\\tuareg_agher_refined\\tuareg_agher_refined",
+      "models": [
+        "tuareg_agher_refined"
+      ],
+      "source_manifest": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_refined\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_agher_refined\\workspace.json"
+    },
+    {
+      "added_at_utc": "2026-10-11T16:14:05Z",
+      "build_id": "20261011T160908Z-7f18d8",
+      "directory": "art\\scenario\\tuareg\\tuareg_long_spear_refined",
+      "files": [
+        {
+          "name": "tuareg_long_spear_refined.fbx",
+          "sha256": "862a71ccd0a73a06f177683b061e3bbba6076cae0a8d9cc767888eac5fcd10aa",
+          "size": 24396
+        },
+        {
+          "name": "tuareg_long_spear_refined.material",
+          "sha256": "18928ec00d9e2355f34fd12952ff38896b137e7a645d94fc02ee8f063b68e4a6",
+          "size": 733
+        },
+        {
+          "name": "tuareg_long_spear_refined.rgo",
+          "sha256": "fdbd9176ac6dfd0ee8fcea3fc9c16a5618a748553f9e81fd02abd5c3c0c7b6f7",
+          "size": 660
+        },
+        {
+          "name": "tuareg_long_spear_refined.rgotemplate",
+          "sha256": "254a99cba6c5bc5f94ed1ab2b5e89a3bf262963a562e5c5c30f0e6c72a911438",
+          "size": 53
+        },
+        {
+          "name": "tuareg_long_spear_refined_albedo.png",
+          "sha256": "6083ba7d5e867f06c41e3eb525c25fdb3ddafefb796960bb855c633ebf3eaaa1",
+          "size": 483997
+        },
+        {
+          "name": "tuareg_long_spear_refined_metalness.png",
+          "sha256": "47e91fb71e9159ac2f153fc618527a615adc019ebc38c0859cd20ad7477d8b24",
+          "size": 32874
+        },
+        {
+          "name": "tuareg_long_spear_refined_normal.png",
+          "sha256": "9ae2e9d3e6969dab09fa181e9694160277a0530b6c323c860fe8ac6ce2de94b1",
+          "size": 907743
+        },
+        {
+          "name": "tuareg_long_spear_refined_roughness.png",
+          "sha256": "3d545a76ddebb5c54d6743f3cbc28d7c6543363aa3ee3cd87b40528bef19e613",
+          "size": 35817
+        }
+      ],
+      "label": "tuareg_long_spear_refined",
+      "logical_base": "art\\scenario\\tuareg\\tuareg_long_spear_refined\\tuareg_long_spear_refined",
+      "models": [
+        "tuareg_long_spear_refined"
+      ],
+      "source_manifest": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_refined\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_long_spear_refined\\workspace.json"
+    }
+  ],
+  "cooks": [],
+  "created_at_utc": "2026-10-11T15:35:25Z",
+  "description": "",
+  "game_mode": {
+    "enabled": false,
+    "requested": false,
+    "template": "normal"
+  },
+  "key": "tuareg_refined_art",
+  "mod_id": "31ae6f72-f8b6-4742-8f42-e8eabeb082ef",
+  "name": "tuareg_refined_art",
+  "runtime_modules": {
+    "files": {
+      "tuareg_refined_art/blueprints.scar": "4144737d8c4bb1873ba65bdfe05d7b802de6e00e2660f5fe42e8a0f7ec2accf0",
+      "tuareg_refined_art/models.scar": "41da5e072cff31c08dff980afc92f4602506bad76310744ebba632950f100693"
+    }
+  },
+  "schema": "garrison.mod-project/v1"
+}

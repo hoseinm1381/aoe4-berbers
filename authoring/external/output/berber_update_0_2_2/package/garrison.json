@@ -1,0 +1,27 @@
+{
+  "schema": "garrison.mod/v1",
+  "bundle_key": "berber_future_kingdom",
+  "members": [
+    {
+      "mod_key": "berber_future_kingdom",
+      "role": "tuning",
+      "path": "Berber_future_kingdom.sga",
+      "sha256": "5cdb9b2c264eecc1d0986c3c50899bf15ac9ea1aa653093c8c24697becd9fb38"
+    }
+  ],
+  "details": {
+    "id": "berber_future_kingdom",
+    "name": "The Berber Dynasties",
+    "version": "0.2.2",
+    "summary": "Earthen Berber house remixes across Ages I-IV",
+    "author": "hossein81 and marcokistan",
+    "updated": "2026-10-13",
+    "min_garrison": "0.1.4",
+    "content_types": [
+      "game-mode",
+      "tuning-pack"
+    ],
+    "description": "Stock Abbasid houses repainted with earthen plaster, timber and geometric trim. Native house geometry, selectors and team-colour layers retained. Complete 0.2.1 tent and Tuareg content preserved. Native test pending.",
+    "changelog": "House-only visual update: four age variants, private scaled stamps and private tier bindings. Remove competing Malian outskirts-house visuals; preserve gameplay and previous assets."
+  }
+}

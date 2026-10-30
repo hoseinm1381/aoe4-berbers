@@ -1,0 +1,27 @@
+{
+  "schema": "garrison.mod/v1",
+  "bundle_key": "berber_future_kingdom",
+  "members": [
+    {
+      "mod_key": "berber_future_kingdom",
+      "role": "tuning",
+      "path": "Berber_future_kingdom.sga",
+      "sha256": "91b486656ed4194cdbd366a96cb4f539800ecb0634e87e40bd49afcbe1cefc0d"
+    }
+  ],
+  "details": {
+    "id": "berber_future_kingdom",
+    "name": "The Berber Dynasties",
+    "version": "0.2.5",
+    "summary": "Berber mill, lumber camp and mining camp material remixes",
+    "author": "hossein81 and marcokistan",
+    "updated": "2026-10-13",
+    "min_garrison": "0.1.4",
+    "content_types": [
+      "game-mode",
+      "tuning-pack"
+    ],
+    "description": "Native stock economic buildings repainted with warm earth, dark timber and woven surfaces. Original geometry, construction states and player-colour layers retained. Accepted 0.2.4 house, tent, Tuareg and existing gameplay preserved.",
+    "changelog": "Three economic building material remixes with private native stamps and tier bindings. Complete assemblies and stock age progression retained; all unrelated baseline resources preserved."
+  }
+}

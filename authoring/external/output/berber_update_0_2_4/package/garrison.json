@@ -1,0 +1,27 @@
+{
+  "schema": "garrison.mod/v1",
+  "bundle_key": "berber_future_kingdom",
+  "members": [
+    {
+      "mod_key": "berber_future_kingdom",
+      "role": "tuning",
+      "path": "Berber_future_kingdom.sga",
+      "sha256": "3246e2bbe002502ffb087c49af5ac83ffde75c4b956c918fe99881ac80d771c3"
+    }
+  ],
+  "details": {
+    "id": "berber_future_kingdom",
+    "name": "The Berber Dynasties",
+    "version": "0.2.4",
+    "summary": "Berber houses 3x larger across all four ages",
+    "author": "hossein81 and marcokistan",
+    "updated": "2026-10-13",
+    "min_garrison": "0.1.4",
+    "content_types": [
+      "game-mode",
+      "tuning-pack"
+    ],
+    "description": "Repairs 0.2.2 house attachment registration. All four private house tiers are now in the attrib TOC, with art and stamps in data. House surfaces and all resource bytes remain unchanged; full tent and Tuareg content retained.",
+    "changelog": "Increase native house visual stamp scale from 0.46 to 1.38 (+200% linear size), retaining corrected attribute namespaces and all other resources."
+  }
+}

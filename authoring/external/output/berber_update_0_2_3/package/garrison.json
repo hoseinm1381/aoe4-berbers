@@ -1,0 +1,27 @@
+{
+  "schema": "garrison.mod/v1",
+  "bundle_key": "berber_future_kingdom",
+  "members": [
+    {
+      "mod_key": "berber_future_kingdom",
+      "role": "tuning",
+      "path": "Berber_future_kingdom.sga",
+      "sha256": "585ef2b1469b67514327e939137299e9bb960499094eb32a071a35123c8eebc7"
+    }
+  ],
+  "details": {
+    "id": "berber_future_kingdom",
+    "name": "The Berber Dynasties",
+    "version": "0.2.3",
+    "summary": "Fix invisible Berber houses: correct native attribute namespace",
+    "author": "hossein81 and marcokistan",
+    "updated": "2026-10-13",
+    "min_garrison": "0.1.4",
+    "content_types": [
+      "game-mode",
+      "tuning-pack"
+    ],
+    "description": "Repairs 0.2.2 house attachment registration. All four private house tiers are now in the attrib TOC, with art and stamps in data. House surfaces and all resource bytes remain unchanged; full tent and Tuareg content retained.",
+    "changelog": "Correct data-to-attrib archive placement for the four private house attachment blueprints; prevent the entity from having no registered house visual tier."
+  }
+}

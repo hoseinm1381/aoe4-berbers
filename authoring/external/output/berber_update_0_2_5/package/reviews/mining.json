@@ -1,0 +1,29 @@
+{
+  "status": "approved",
+  "building": "mining",
+  "scope": "Independent source and media review; final root native stamp cook, private tier binding and final package readback remain separate gates",
+  "findings": [],
+  "verified": [
+    "Viewed all 24 actual preview PNGs: before/after plus six orthographic solid views for combined, crane_age01 and furnace_age01. Warm earthen surfaces and timber replace stock surface colour without changed silhouette.",
+    "Opened all six saved Blends in independent Blender 5.2.2 background process. Mesh-name sets, vertex coordinates, edges, polygon topology, material indices, smoothing, every UV layer, corner normals, world transforms and visibility match untouched counterparts: combined 2 meshes, crane 37, furnace 18.",
+    "Independently parsed all four native material roots: mining_crane, mining_crane_collection, mining_furnace, mining_furnace_collection. Each retains 39 texture keys and 37 parameter keys. Only intended 5 crane / 6 furnace albedo slots and 15 / 18 colour parameters differ; all unedited maps and parameters, including team layer 5, are exact. Unedited nonmaterial chunks are byte-identical.",
+    "All 15 payload hashes and all edited texture image hashes match manifest/recipe. Three edited Blend file hashes match source-validation. Native combined rrgeom matches stock SHA256 416191c558fa02bca7c26a27e1eed2d7aa5b950962bb53570e6f6336cc2debef.",
+    "Fresh mining media archive hash matches ea4593423d9fbf10a860de83742e9412317fcb54fa48b8050d2edc78e56e8aeb; build 20261013T165405Z-3859f6aa, Live Reload false.",
+    "Independently parsed actual common mining stock stamp: 137 reflected objects, 31 stamp children, exactly one combined model occurrence and no standalone crane/furnace references. One model mapping and 15 payloads are correct closure; standalone Blends/textures are provenance, not extra native equipment.",
+    "Read root build_berber_update_0_2_5.py and economy_025_native_stamp.py. Integration derives a private English tier then clones actual stock fields and changes only PBG identity plus common mining stamp path; actor rebinding restores equality before serialization. Reflected stamp source preserves native field values, ordered children and raw alignment enums; all original native fields are checked after cook. No source-level gameplay or namespace fault found."
+  ],
+  "limitations": [
+    "This approval covers source/media. Final root stamp cook, private tier/actor binding readback and delivery SGA/ZIP checks are pending independent integration gate.",
+    "Native layered shader appearance and owner colour need a fresh game test with two player colours. Blender layered shader previews are approximations.",
+    "Native construction, cancellation, damage/destruction, gather/drop-off, pathing and Ages I-IV behaviour remain unverified in game. Stock auxiliary construction/wreck stamps, splats, resource dressing and existing model age behaviour are retained.",
+    "Standalone furnace solid previews show overlapping stock fragment/ruin surfaces; these files are not integrated. Combined integrated model has retained stock geometry. No geometry repair is appropriate in this material-only scope."
+  ],
+  "evidence": [
+    "output/berber_update_0_2_5/authors/mining/integration-manifest.json",
+    "output/berber_update_0_2_5/authors/mining/source-validation.json",
+    "output/berber_update_0_2_5/authors/mining/final-validation.json",
+    "output/berber_update_0_2_5/authors/mining/previews",
+    "output/berber_update_0_2_5/integration/stock/art/stamps/civ_common/com_mining_camp.bin"
+  ],
+  "reviewed_at_utc": "2026-10-13T17:04:05.4419453Z"
+}

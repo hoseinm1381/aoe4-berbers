@@ -1,0 +1,17 @@
+<instance version="4" description="Garrison model" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="364730915">
+			<bool name="is_visible_in_game" value="True" />
+			<bool name="always_revealed_in_fow" value="True" />
+			<bool name="is_spawned_when_not_in_interactive_area" value="True" />
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\garrison\tuareg\tuareg_long_spear_refined_visual" mod="31ae6f72f8b647428f42e8eabeb082ef" />
+			<float name="animator_scale" value="100" />
+			<float name="entity_scale" value="100" />
+			<enum name="subclass_type" value="Generic" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\site_ext" List.ItemID="364730916" />
+		<template_reference name="exts" value="ebpextensions\marker_ext" List.ItemID="364730917" />
+	</list>
+	<uniqueid name="pbgid" value="36351792" />
+	<instance_reference name="parent_pbg" value="" />
+</instance>

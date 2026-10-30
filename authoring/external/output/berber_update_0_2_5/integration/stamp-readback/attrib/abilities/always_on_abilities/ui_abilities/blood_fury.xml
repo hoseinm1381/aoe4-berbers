@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <RGDNode Key="default" Type="List">
+    <RGDNode Key="ability_bag" Type="List">
+      <RGDNode Key="ui_range_reticule_can_cast_only" Type="Boolean" Value="false"/>
+      <RGDNode Key="ui_ability_issue_type" Type="Int" Value="0"/>
+      <RGDNode Key="activation" Type="CString" Value="always_on"/>
+      <RGDNode Key="ui_cursor" Type="List">
+        <RGDNode Key="cursor_nonmodal_good" Type="CString" Value=""/>
+        <RGDNode Key="cursor_good" Type="CString" Value=""/>
+        <RGDNode Key="cursor_bad" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="enable_in_vehicle" Type="Boolean" Value="false"/>
+      <RGDNode Key="final_close_in_distance" Type="Float" Value="0"/>
+      <RGDNode Key="ability_super_event_cue" Type="Boolean" Value="false"/>
+      <RGDNode Key="ui_menu" Type="List">
+        <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+        <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="ui_ability_group" Type="Int" Value="0"/>
+      <RGDNode Key="ui_reticule" Type="List">
+        <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+        <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="validate_actions" Type="Boolean" Value="true"/>
+      <RGDNode Key="target" Type="CString" Value="tp_any"/>
+      <RGDNode Key="channeling" Type="List">
+        <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+      </RGDNode>
+      <RGDNode Key="move_back" Type="Boolean" Value="false"/>
+      <RGDNode Key="ui_range_reticule_enable_team_color" Type="Boolean" Value="false"/>
+      <RGDNode Key="ability_super" Type="CString" Value="tp_none"/>
+      <RGDNode Key="can_cast_outside_active_battle_field" Type="Boolean" Value="false"/>
+      <RGDNode Key="ui_position" Type="List">
+        <RGDNode Key="ui_position_column" Type="Int" Value="-1"/>
+        <RGDNode Key="ui_position_row" Type="Int" Value="-1"/>
+      </RGDNode>
+      <RGDNode Key="ui_targetable_off_key" Type="CString" Value=""/>
+      <RGDNode Key="facing_ignore" Type="Boolean" Value="false"/>
+      <RGDNode Key="default_command_additional_rally_weight_modifier" Type="Int" Value="0"/>
+      <RGDNode Key="targeted_ability_option" Type="List">
+        <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+      </RGDNode>
+      <RGDNode Key="enable_in_unit_types" Type="List">
+      </RGDNode>
+      <RGDNode Key="ui_range" Type="List">
+        <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+        <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="hold_period" Type="Float" Value="0"/>
+      <RGDNode Key="garrison_target" Type="Boolean" Value="false"/>
+      <RGDNode Key="construction_preview" Type="Boolean" Value="false"/>
+      <RGDNode Key="int_properties" Type="List">
+      </RGDNode>
+      <RGDNode Key="ui_targetable_receiver" Type="CString" Value="local"/>
+      <RGDNode Key="ui_reticule_radius_max" Type="Float" Value="1"/>
+      <RGDNode Key="can_passive_ability_create_formation_squad_group" Type="Boolean" Value="false"/>
+      <RGDNode Key="requirements_self_recharge" Type="List">
+      </RGDNode>
+      <RGDNode Key="squad_tree" Type="CString" Value=""/>
+      <RGDNode Key="statetree_node_prereq_self_requirement" Type="CString" Value=""/>
+      <RGDNode Key="squad_caster" Type="CString" Value="all_entities"/>
+      <RGDNode Key="float_properties" Type="List">
+      </RGDNode>
+      <RGDNode Key="statetree_node_prereq_self_recharge_requirement" Type="CString" Value=""/>
+      <RGDNode Key="casters_can_evacuate" Type="Boolean" Value="false"/>
+      <RGDNode Key="initial_recharge" Type="Boolean" Value="false"/>
+      <RGDNode Key="min_range" Type="Float" Value="0"/>
+      <RGDNode Key="can_use_ability_check_interval" Type="Float" Value="0.125"/>
+      <RGDNode Key="cursor_ghost_blueprint" Type="CString" Value=""/>
+      <RGDNode Key="engage_combat" Type="Boolean" Value="false"/>
+      <RGDNode Key="recharge_time" Type="Float" Value="0"/>
+      <RGDNode Key="statetree_ability_id" Type="CString" Value=""/>
+      <RGDNode Key="show_range_reticule_in_contruction_item_preview" Type="Boolean" Value="false"/>
+      <RGDNode Key="refundable" Type="Boolean" Value="true"/>
+      <RGDNode Key="ui_range_reticule_shows_while_active" Type="Boolean" Value="false"/>
+      <RGDNode Key="fire_and_forget" Type="Boolean" Value="false"/>
+      <RGDNode Key="ability_active_state_tree_group" Type="List">
+        <RGDNode Key="ability_activate_deferred_tree" Type="CString" Value=""/>
+        <RGDNode Key="ability_activate_squad_tree" Type="CString" Value=""/>
+        <RGDNode Key="ability_activate_entity_tree" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="ui_target_origin_point" Type="CString" Value="center"/>
+      <RGDNode Key="clear_ability_on_blueprint_conversion" Type="Boolean" Value="true"/>
+      <RGDNode Key="ui_combine_type" Type="CString" Value="intersection"/>
+      <RGDNode Key="ui_combine_priority" Type="Int" Value="0"/>
+      <RGDNode Key="move_back_distance" Type="Float" Value="10"/>
+      <RGDNode Key="ui_ability_can_display" Type="Boolean" Value="true"/>
+      <RGDNode Key="can_target_in_fow" Type="Boolean" Value="false"/>
+      <RGDNode Key="shared_timer" Type="CString" Value=""/>
+      <RGDNode Key="requirements_target" Type="List">
+      </RGDNode>
+      <RGDNode Key="ui_mini_map_capture" Type="Boolean" Value="false"/>
+      <RGDNode Key="ui_group_cast_type" Type="Int" Value="0"/>
+      <RGDNode Key="ui_contextual_info" Type="List">
+      </RGDNode>
+      <RGDNode Key="entity_busy_time" Type="Float" Value="0"/>
+      <RGDNode Key="construction_preview_override" Type="List">
+        <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+        <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="pending_ability_out_of_range_behaviour" Type="CString" Value="chase"/>
+      <RGDNode Key="require_no_shot_block" Type="Boolean" Value="false"/>
+      <RGDNode Key="can_move_to_cast" Type="Boolean" Value="true"/>
+      <RGDNode Key="ability_description" Type="List">
+        <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+        <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="ui_click_point_action_key" Type="CString" Value=""/>
+      <RGDNode Key="cursor_ghost_blueprint_angle" Type="Float" Value="0"/>
+      <RGDNode Key="cursor_ghost_ebp" Type="List">
+        <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+        <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="default_command_weight_modifier" Type="Int" Value="0"/>
+      <RGDNode Key="shared_timer_player_wide" Type="Boolean" Value="false"/>
+      <RGDNode Key="toggled_recharge_time_on" Type="Float" Value="0"/>
+      <RGDNode Key="proxy_range_option" Type="List">
+        <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+      </RGDNode>
+      <RGDNode Key="requirements" Type="List">
+      </RGDNode>
+      <RGDNode Key="projectile_for_preview" Type="List">
+        <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+        <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="ui_direction_requirement" Type="CString" Value="nondirectional"/>
+      <RGDNode Key="should_trigger_immediately" Type="Boolean" Value="false"/>
+      <RGDNode Key="enable_in_building" Type="Boolean" Value="false"/>
+      <RGDNode Key="entity_tree" Type="CString" Value=""/>
+      <RGDNode Key="caster_close_in_distance" Type="Float" Value="0"/>
+      <RGDNode Key="facing_angle" Type="Float" Value="5"/>
+      <RGDNode Key="ui_info" Type="List">
+        <RGDNode Key="debug_text" Type="CString" Value=""/>
+        <RGDNode Key="screen_name_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="screen_name_short_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="reveal_for_decryption" Type="Boolean" Value="false"/>
+        <RGDNode Key="icon_alternate_name" Type="CString" Value=""/>
+        <RGDNode Key="brief_text_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="sound" Type="CString" Value=""/>
+        <RGDNode Key="icon_name" Type="CString" Value="blood_fury"/>
+        <RGDNode Key="ui_combine_type" Type="CString" Value="intersection"/>
+        <RGDNode Key="overlay_name" Type="CString" Value=""/>
+        <RGDNode Key="help_text" Type="LocString" Value="$1d3145e8f1b2427f8bb0067851fcf0f1:204"/>
+        <RGDNode Key="hotkey_name" Type="CString" Value=""/>
+        <RGDNode Key="sound_alternative" Type="CString" Value=""/>
+        <RGDNode Key="tooltip_data_template" Type="CString" Value=""/>
+        <RGDNode Key="help_text_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="screen_name_alternate_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="extra_text_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="ui_info_extended" Type="List">
+          <RGDNode Key="relic_radial_menu_info" Type="List">
+            <RGDNode Key="linked" Type="List">
+              <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+              <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+            </RGDNode>
+            <RGDNode Key="priority" Type="Int" Value="0"/>
+            <RGDNode Key="$REF" Type="CString" Value="relic_radial_menu\relic_radial_menu_info"/>
+            <RGDNode Key="nominal_index" Type="Int" Value="-1"/>
+            <RGDNode Key="menu" Type="List">
+              <RGDNode Key="$PBGNAME" Type="CString" Value="default_unit_ability"/>
+              <RGDNode Key="$PBGMAP" Type="CString" Value="relic_radial_menu\relic_radial_menu"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="observer_type" Type="Int" Value="1"/>
+          <RGDNode Key="quick_commands_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value=""/>
+          </RGDNode>
+          <RGDNode Key="quick_commands_launch_hud_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value="ui_quick_commands_launch_hud_info"/>
+            <RGDNode Key="quick_commands_hold_time" Type="Int" Value="1"/>
+            <RGDNode Key="quick_commands_hotkey" Type="CString" Value="x_quick_command_y"/>
+            <RGDNode Key="quick_commands_priority" Type="Int" Value="1"/>
+            <RGDNode Key="quick_commands_slot_index" Type="Int" Value="2"/>
+          </RGDNode>
+          <RGDNode Key="issuable_info" Type="List">
+            <RGDNode Key="secondary_issuable" Type="List">
+              <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+              <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+            </RGDNode>
+            <RGDNode Key="is_secondary" Type="Boolean" Value="false"/>
+          </RGDNode>
+          <RGDNode Key="ping_menu_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value=""/>
+          </RGDNode>
+          <RGDNode Key="$REF" Type="CString" Value="tables\ui_info_ext"/>
+          <RGDNode Key="quick_abilities_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value=""/>
+          </RGDNode>
+          <RGDNode Key="command_card_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value=""/>
+          </RGDNode>
+          <RGDNode Key="quick_formation_info" Type="List">
+            <RGDNode Key="$REF" Type="CString" Value=""/>
+          </RGDNode>
+          <RGDNode Key="category" Type="Int" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="screen_name" Type="LocString" Value="$1d3145e8f1b2427f8bb0067851fcf0f1:210"/>
+        <RGDNode Key="help_text_alternate_formatter" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="always_refund_cost_if_failed" Type="Boolean" Value="false"/>
+      <RGDNode Key="use_simbox_to_simbox_range" Type="Boolean" Value="true"/>
+      <RGDNode Key="ui_targetable_sm_key" Type="CString" Value=""/>
+      <RGDNode Key="ui_modal_highlight" Type="List">
+        <RGDNode Key="map_sector" Type="Boolean" Value="false"/>
+        <RGDNode Key="world_sector" Type="Boolean" Value="false"/>
+        <RGDNode Key="map_sector_hq_link_extender" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="ui_visibility_ignore_prerequisite" Type="Boolean" Value="false"/>
+      <RGDNode Key="casting_option" Type="List">
+        <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+      </RGDNode>
+      <RGDNode Key="cost_to_player" Type="List">
+        <RGDNode Key="food" Type="Float" Value="0"/>
+        <RGDNode Key="action" Type="Float" Value="0"/>
+        <RGDNode Key="gold" Type="Float" Value="0"/>
+        <RGDNode Key="militia_hre" Type="Float" Value="0"/>
+        <RGDNode Key="popcap" Type="Float" Value="0"/>
+        <RGDNode Key="stone" Type="Float" Value="0"/>
+        <RGDNode Key="merc_byz" Type="Float" Value="0"/>
+        <RGDNode Key="command" Type="Float" Value="0"/>
+        <RGDNode Key="wood" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="disable_when_active" Type="Boolean" Value="false"/>
+      <RGDNode Key="facing_ignore_during_active" Type="Boolean" Value="false"/>
+      <RGDNode Key="ability_description_storage_index" Type="CString" Value=""/>
+      <RGDNode Key="toggle_ability_group" Type="CString" Value=""/>
+      <RGDNode Key="statetree_node_prereq_target_requirement" Type="CString" Value=""/>
+      <RGDNode Key="ui_range_reticule_first_caster_only" Type="Boolean" Value="true"/>
+      <RGDNode Key="range_ignore" Type="Boolean" Value="false"/>
+      <RGDNode Key="can_queue_passive_ability" Type="Boolean" Value="false"/>
+      <RGDNode Key="range" Type="Float" Value="0"/>
+      <RGDNode Key="disable_combat" Type="Boolean" Value="false"/>
+      <RGDNode Key="global_tree" Type="CString" Value=""/>
+      <RGDNode Key="toggled_recharge_time_off" Type="Float" Value="0"/>
+      <RGDNode Key="ui_targetable_on_key" Type="CString" Value=""/>
+      <RGDNode Key="ui_progress_bar_type" Type="CString" Value="auto_bar"/>
+      <RGDNode Key="can_cast_whilst_constructing" Type="Boolean" Value="false"/>
+      <RGDNode Key="can_cast_again_whilst_pending" Type="Boolean" Value="false"/>
+      <RGDNode Key="ignore_teardown_on_convert" Type="Boolean" Value="false"/>
+      <RGDNode Key="ui_reticule_radius_min" Type="Float" Value="1"/>
+      <RGDNode Key="cost_to_squad" Type="List">
+        <RGDNode Key="food" Type="Float" Value="0"/>
+        <RGDNode Key="action" Type="Float" Value="0"/>
+        <RGDNode Key="gold" Type="Float" Value="0"/>
+        <RGDNode Key="militia_hre" Type="Float" Value="0"/>
+        <RGDNode Key="popcap" Type="Float" Value="0"/>
+        <RGDNode Key="stone" Type="Float" Value="0"/>
+        <RGDNode Key="merc_byz" Type="Float" Value="0"/>
+        <RGDNode Key="command" Type="Float" Value="0"/>
+        <RGDNode Key="wood" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="can_be_interrupted" Type="Boolean" Value="true"/>
+      <RGDNode Key="speech_code" Type="CString" Value=""/>
+      <RGDNode Key="hotkey_binding" Type="List">
+        <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+        <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="ability_category" Type="List">
+        <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+        <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+      </RGDNode>
+    </RGDNode>
+    <RGDNode Key="pbgid" Type="Int" Value="1073741909"/>
+    <RGDNode Key="parent_pbg" Type="List">
+      <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+      <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+    </RGDNode>
+  </RGDNode>
+  <RGDNode Key="instance_version" Type="Int" Value="2"/>
+</Root>

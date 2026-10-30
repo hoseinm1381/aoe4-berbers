@@ -1,0 +1,30 @@
+{
+  "status": "approved",
+  "building": "mill",
+  "scope": "Independent source and media approval for the material-only stock Malian gristmill remix; private stamp cook, final package and native runtime are separate gates.",
+  "findings": [],
+  "verified": [
+    "Opened the actual before/after images and all six solid orthographic views. Same stock mill silhouette, sails, openings, braces and ground skirts; warm plaster/brick, brown timber and woven surfaces are coherent without added geometry.",
+    "Read both Blend files with an isolated Blender 5.2.2 process. Two meshes, 23150 vertices and 23458 faces have identical positions, edges, polygon topology/material indices, UV layers, vertex/loop normals, weights, world transforms and modifiers.",
+    "All twelve edited albedo PNGs retain source image dimensions and every alpha value.",
+    "Compared each native material root independently, including main/roof collection roots. Only the twelve recipe-scoped albedo bindings and declared highlight/midtone/shadow values differ. Every other texture and parameter matches stock; restoring these edits reproduces the original chunk payload bytes exactly, covering hidden/native fields too.",
+    "Native main albedoTex7 and roof albedoTex6, their normals/metals and all associated player-colour parameters remain stock. All normal maps, native mask/alpha/overlay maps and charred layers remain stock.",
+    "The used native rrgeom is byte-identical to stock. The used RGM equals stock after only the supported old-to-private art-path rewrite; native model geometry and structure are retained.",
+    "Verified all sixteen payload hashes and the successful non-Live-Reload author cook archive SHA256 50d7a68d5ce4725ba40747aff68884d56106954478bd3f7f393b166c2a4472c3. The earlier cook.log failure is superseded by cook-normal-access.log and its matching fresh archive.",
+    "Parsed the actual stock mal_gristmill.bin: 44 native objects, ten assembly components. Independently reproduced mal_gristmill.native.json exactly, including dirt/paths, sack piles and detritus. Re-derived private mill.rdo exactly from this tree and the one mapped mill model.",
+    "Reviewed schema-derived decompile and root build code. Every original field is emitted, raw enum alignment bytes retained, no new primitive assembly or age models introduced. Native stamp readback validator checks original field bytes, object identity/owner, array component ordering and exact blueprint remap.",
+    "Reviewed mill binding and package allowlist: stock Malian economic tier cloned with identity/private healthy-stamp changes only; actor changes restricted to tier reference with semantic restoration equality. Private construction/destruction auxiliaries remain the stock references. Final package checks preserve unrelated baseline members byte-for-byte and require independent approval."
+  ],
+  "limitations": [
+    "At review time integration/stamp-build/run.json records a failed attempt. The new private mill BIN has not passed a successful fresh root stamp cook and validator yet. Root bindings-report and final archive readback must pass before delivery.",
+    "The composed scoped rrmaterial is assembled after the author cook from stock native chunks and cooked albedo carriers. It is not the flattened donor rrmaterial in that author archive; independently verified scoped payload must be staged and read back from the final archive.",
+    "Source/native-static proof preserves stock single-age01 behavior through Ages I-IV. In-game age changes, shader appearance, two player colours, construction/cancellation, burning/destruction, selection, pathing, food drop-off and economic influence remain pending native game tests.",
+    "Blender layered-material preview approximates the native shader. Stock resource props, ground dressing and construction/wreck assets are intentionally retained."
+  ],
+  "evidence": [
+    "output/berber_update_0_2_5/reviews/mill-native-check.json",
+    "output/berber_update_0_2_5/reviews/mill-blend-check.json",
+    "output/berber_update_0_2_5/reviews/mill_review_check.py",
+    "output/berber_update_0_2_5/reviews/mill_blend_check.py"
+  ]
+}

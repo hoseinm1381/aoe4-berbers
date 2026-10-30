@@ -1,0 +1,27 @@
+{
+  "schema": "garrison.mod/v1",
+  "bundle_key": "berber_future_kingdom",
+  "members": [
+    {
+      "mod_key": "berber_future_kingdom",
+      "role": "tuning",
+      "path": "Berber_future_kingdom.sga",
+      "sha256": "18922d05cd38fb1c4cb00cc32014a2c753a499474fd272dd70c14e714e7c3172"
+    }
+  ],
+  "details": {
+    "id": "berber_future_kingdom",
+    "name": "The Berber Dynasties",
+    "version": "0.2.0",
+    "summary": "Four-age Tribal Tent and accepted Tuareg spearman overhaul",
+    "author": "hossein81 and marcokistan",
+    "updated": "2026-10-12",
+    "min_garrison": "0.1.4",
+    "content_types": [
+      "game-mode",
+      "tuning-pack"
+    ],
+    "description": "Production Berber update with approved four-age tents, refined Tuareg bodies, low-profile shield and long spear. Existing gameplay, upgrades, voices and Q stock-guard controller retained. Native acceptance pending.",
+    "changelog": "Integrates approved Tribal Tent iteration 002 and accepted Tuareg art into the original civilization project."
+  }
+}

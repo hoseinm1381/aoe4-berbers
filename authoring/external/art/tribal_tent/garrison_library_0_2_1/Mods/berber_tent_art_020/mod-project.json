@@ -1,0 +1,2029 @@
+{
+  "assets": [],
+  "buildings": [
+    {
+      "directory": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1",
+      "files": {
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/albedo.png": "24df029a85cda3aec49db4ada2ea23e8559916ce53502ca444cac098ce05e835",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/metalness.png": "5d16141ed1f8803e62d42a7854d39ff7c35eeef9bb28593fe6e31cef9fd98e84",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/model.fbx": "c20141c7757a0510b83fd14f0243ad3764e620bd87d917555af79961f8f7efe1",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/model.material": "ed18e6c4e117c98fa85989e3c309b979c4e26b3c06a76334c46469a8f8c0eed4",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/model.rgo": "81eb4760b2507b9983b849e7fefd4454e63b044e0d3f2929c2f2ea6682096544",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/model.rgotemplate": "3342ca6c3df4a64190648eef619af34c282ad0f41fff9cf2d5bddc968edca420",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/normal.png": "521dfa7c8b8ab656112074caa5a2082db4651b2a1086a56959d1927a591c6967",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/roughness.png": "edc10816c0100673ae73c22ee3580ce4fb1f0078db9145d591efee55d2cfa649",
+        "art/stamps/garrison/berber_tent_art_020/berber_tent_age1.rdo": "9058d8403a0877c87694ce2fe2b30ffe84165b4296c50a7b21493cb5dcf5fa71"
+      },
+      "integration": {
+        "mode": "script"
+      },
+      "name": "berber_tent_age1",
+      "parts": [
+        {
+          "first_stage": 0,
+          "name": "garrison_part_0000"
+        },
+        {
+          "first_stage": 20,
+          "name": "garrison_part_0001"
+        },
+        {
+          "first_stage": 60,
+          "name": "garrison_part_0002"
+        },
+        {
+          "first_stage": 80,
+          "name": "garrison_part_0003"
+        },
+        {
+          "first_stage": 100,
+          "name": "garrison_part_0004"
+        }
+      ],
+      "profile": "english-house"
+    },
+    {
+      "directory": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2",
+      "files": {
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/albedo.png": "4990440d029b19ab75c99b95462251235b1e2b992f2deee150b595057daadd84",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/metalness.png": "f4445ff5f7673220f259151447629570c117d26d280d60fcb648bd2b6a5bedf9",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/model.fbx": "4a074ebdbf24fe4796d1e5237083b894267cad6844fc55fe6a0f0c83b55bbe67",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/model.material": "f692f1374dbdb09e748b453bf83dda7f2a56d31edfe7638d85ecfcf631c1d2b8",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/model.rgo": "81eb4760b2507b9983b849e7fefd4454e63b044e0d3f2929c2f2ea6682096544",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/model.rgotemplate": "3342ca6c3df4a64190648eef619af34c282ad0f41fff9cf2d5bddc968edca420",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/normal.png": "7404f80139a57f3de4b4ec48842627786ea9bedad069f1f02cfa47d0ff6ad363",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/roughness.png": "ad63bf1e727a278ebdaf0e212d653682d72c095e202cda244c58acfc4598159c",
+        "art/stamps/garrison/berber_tent_art_020/berber_tent_age2.rdo": "bc7a9f8217b9345a97d047f97df1508500ff44856787b344debaab0d83d6212a"
+      },
+      "integration": {
+        "mode": "script"
+      },
+      "name": "berber_tent_age2",
+      "parts": [
+        {
+          "first_stage": 0,
+          "name": "garrison_part_0000"
+        },
+        {
+          "first_stage": 20,
+          "name": "garrison_part_0001"
+        },
+        {
+          "first_stage": 60,
+          "name": "garrison_part_0002"
+        },
+        {
+          "first_stage": 80,
+          "name": "garrison_part_0003"
+        },
+        {
+          "first_stage": 100,
+          "name": "garrison_part_0004"
+        }
+      ],
+      "profile": "english-house"
+    },
+    {
+      "directory": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3",
+      "files": {
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/albedo.png": "b5462ca0ab91880fb4e23ca61a4b7dc7f991e8ef4f12f0c32b010757d96f7ecb",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/metalness.png": "b75ce043635ff4d6bb7cf7bb03b36bf0b2698c81d9e41a943fdf17cdb6f0d9fa",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/model.fbx": "d48634a4b0b15804f7857a1d882bbad7f366924d6c64e43c11f3d276270eee4e",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/model.material": "2be281bce80f2839ddadc5b84772ee6328da97f9b3987941d9382a9c27d7a8b2",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/model.rgo": "81eb4760b2507b9983b849e7fefd4454e63b044e0d3f2929c2f2ea6682096544",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/model.rgotemplate": "3342ca6c3df4a64190648eef619af34c282ad0f41fff9cf2d5bddc968edca420",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/normal.png": "d8b68335e096fcd528cc2fb9ffa67803c6626b363fca3babe159dc54e11c1888",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/roughness.png": "0e5e3b6ee976eb8928393ab8687d3fe22e7dc27bb7d1b069b8a78a841e582514",
+        "art/stamps/garrison/berber_tent_art_020/berber_tent_age3.rdo": "bc8dc83c98b76d203301582e7f14c8429550e5e726bf9340c037608631b2dd57"
+      },
+      "integration": {
+        "mode": "script"
+      },
+      "name": "berber_tent_age3",
+      "parts": [
+        {
+          "first_stage": 0,
+          "name": "garrison_part_0000"
+        },
+        {
+          "first_stage": 20,
+          "name": "garrison_part_0001"
+        },
+        {
+          "first_stage": 60,
+          "name": "garrison_part_0002"
+        },
+        {
+          "first_stage": 80,
+          "name": "garrison_part_0003"
+        },
+        {
+          "first_stage": 100,
+          "name": "garrison_part_0004"
+        }
+      ],
+      "profile": "english-house"
+    },
+    {
+      "directory": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4",
+      "files": {
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/albedo.png": "2088ef764f77ae1f58c26cd4999d6955a26e4a907a54decde0ba4310efa8c05a",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/metalness.png": "2f837bcbf563981f191294fad07289e0efef3c3208b80ba3ca4f063de46ded5e",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/model.fbx": "259e705021a8bd09ec7b0c8dc551b7d63ef91c3779a89bb0859e4166a3ba32ef",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/model.material": "a14f5863d3286f61c9992546063007314547e294fe36466a299a59acbaad6c35",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/model.rgo": "81eb4760b2507b9983b849e7fefd4454e63b044e0d3f2929c2f2ea6682096544",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/model.rgotemplate": "3342ca6c3df4a64190648eef619af34c282ad0f41fff9cf2d5bddc968edca420",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/normal.png": "e941401311d1f360a40ff7e3f634d2e0f790d4f0774a0cd9f8341b75e60f0343",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/roughness.png": "e288886493be9cf671a49007242db1b412383d2d8e3d2f116e778b561690db27",
+        "art/stamps/garrison/berber_tent_art_020/berber_tent_age4.rdo": "b7bca49e19d9b673c9d8f68efd5007f2497da11a7965d6e5d765849ec2792760"
+      },
+      "integration": {
+        "mode": "script"
+      },
+      "name": "berber_tent_age4",
+      "parts": [
+        {
+          "first_stage": 0,
+          "name": "garrison_part_0000"
+        },
+        {
+          "first_stage": 20,
+          "name": "garrison_part_0001"
+        },
+        {
+          "first_stage": 60,
+          "name": "garrison_part_0002"
+        },
+        {
+          "first_stage": 80,
+          "name": "garrison_part_0003"
+        },
+        {
+          "first_stage": 100,
+          "name": "garrison_part_0004"
+        }
+      ],
+      "profile": "english-house"
+    }
+  ],
+  "cooks": [
+    {
+      "animated_units": [],
+      "archive": "E:\\bt20\\Mods\\berber_tent_art_020\\dist\\berber_tent_art_020.sga",
+      "assets": [],
+      "attribute_overrides": [],
+      "audio_clips": [],
+      "audio_enabled": false,
+      "blueprints": [],
+      "build_id": "20261012T132623Z-2096cac7",
+      "buildings": [
+        {
+          "game_visuals": "unverified",
+          "name": "berber_tent_age1",
+          "profile": "english-house",
+          "scope": "construction_and_healthy",
+          "selectors": {
+            "sel_construct_00": [
+              "garrison_part_0000"
+            ],
+            "sel_construct_20": [
+              "garrison_part_0000",
+              "garrison_part_0001"
+            ],
+            "sel_construct_40": [
+              "garrison_part_0000",
+              "garrison_part_0001"
+            ],
+            "sel_construct_60": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002"
+            ],
+            "sel_construct_80": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002",
+              "garrison_part_0003"
+            ],
+            "sel_healthy": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002",
+              "garrison_part_0003",
+              "garrison_part_0004"
+            ]
+          },
+          "stamp": "art/stamps/garrison/berber_tent_art_020/berber_tent_age1.bin",
+          "stock_lifecycle_sha256": "12cf967601517c8aa06f7533305c0a10b6752e68422fd970cf99f25bb981b84e"
+        },
+        {
+          "game_visuals": "unverified",
+          "name": "berber_tent_age2",
+          "profile": "english-house",
+          "scope": "construction_and_healthy",
+          "selectors": {
+            "sel_construct_00": [
+              "garrison_part_0000"
+            ],
+            "sel_construct_20": [
+              "garrison_part_0000",
+              "garrison_part_0001"
+            ],
+            "sel_construct_40": [
+              "garrison_part_0000",
+              "garrison_part_0001"
+            ],
+            "sel_construct_60": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002"
+            ],
+            "sel_construct_80": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002",
+              "garrison_part_0003"
+            ],
+            "sel_healthy": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002",
+              "garrison_part_0003",
+              "garrison_part_0004"
+            ]
+          },
+          "stamp": "art/stamps/garrison/berber_tent_art_020/berber_tent_age2.bin",
+          "stock_lifecycle_sha256": "12cf967601517c8aa06f7533305c0a10b6752e68422fd970cf99f25bb981b84e"
+        },
+        {
+          "game_visuals": "unverified",
+          "name": "berber_tent_age3",
+          "profile": "english-house",
+          "scope": "construction_and_healthy",
+          "selectors": {
+            "sel_construct_00": [
+              "garrison_part_0000"
+            ],
+            "sel_construct_20": [
+              "garrison_part_0000",
+              "garrison_part_0001"
+            ],
+            "sel_construct_40": [
+              "garrison_part_0000",
+              "garrison_part_0001"
+            ],
+            "sel_construct_60": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002"
+            ],
+            "sel_construct_80": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002",
+              "garrison_part_0003"
+            ],
+            "sel_healthy": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002",
+              "garrison_part_0003",
+              "garrison_part_0004"
+            ]
+          },
+          "stamp": "art/stamps/garrison/berber_tent_art_020/berber_tent_age3.bin",
+          "stock_lifecycle_sha256": "12cf967601517c8aa06f7533305c0a10b6752e68422fd970cf99f25bb981b84e"
+        },
+        {
+          "game_visuals": "unverified",
+          "name": "berber_tent_age4",
+          "profile": "english-house",
+          "scope": "construction_and_healthy",
+          "selectors": {
+            "sel_construct_00": [
+              "garrison_part_0000"
+            ],
+            "sel_construct_20": [
+              "garrison_part_0000",
+              "garrison_part_0001"
+            ],
+            "sel_construct_40": [
+              "garrison_part_0000",
+              "garrison_part_0001"
+            ],
+            "sel_construct_60": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002"
+            ],
+            "sel_construct_80": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002",
+              "garrison_part_0003"
+            ],
+            "sel_healthy": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002",
+              "garrison_part_0003",
+              "garrison_part_0004"
+            ]
+          },
+          "stamp": "art/stamps/garrison/berber_tent_art_020/berber_tent_age4.bin",
+          "stock_lifecycle_sha256": "12cf967601517c8aa06f7533305c0a10b6752e68422fd970cf99f25bb981b84e"
+        }
+      ],
+      "cooked_at_utc": "2026-10-12T13:29:09Z",
+      "derived_blueprints": [
+        {
+          "changes": [
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[1]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[2]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[3]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "ebps",
+          "file": "ebps/garrison/berber_tent_art_020/berber_tent_age1",
+          "name": "berber_tent_age1",
+          "reference": "3867e7ead78248058573989afef5f794:berber_tent_age1",
+          "rewired": [],
+          "source": "ebps/races/english/buildings/building_house_eng/building_house_control_eng"
+        },
+        {
+          "changes": [
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list[1]/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list[2]/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "attachments/attachment_lists",
+          "file": "attachments/attachment_lists/garrison/berber_tent_art_020/berber_tent_age1_tier",
+          "name": "berber_tent_age1_tier",
+          "reference": "3867e7ead78248058573989afef5f794:berber_tent_age1_tier",
+          "rewired": [],
+          "source": "attachments/attachment_lists/civilizations/english/buildings/house_eng/tier1_house_eng"
+        },
+        {
+          "changes": [
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[1]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[2]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[3]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "ebps",
+          "file": "ebps/garrison/berber_tent_art_020/berber_tent_age2",
+          "name": "berber_tent_age2",
+          "reference": "3867e7ead78248058573989afef5f794:berber_tent_age2",
+          "rewired": [],
+          "source": "ebps/races/english/buildings/building_house_eng/building_house_control_eng"
+        },
+        {
+          "changes": [
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list[1]/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list[2]/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "attachments/attachment_lists",
+          "file": "attachments/attachment_lists/garrison/berber_tent_art_020/berber_tent_age2_tier",
+          "name": "berber_tent_age2_tier",
+          "reference": "3867e7ead78248058573989afef5f794:berber_tent_age2_tier",
+          "rewired": [],
+          "source": "attachments/attachment_lists/civilizations/english/buildings/house_eng/tier1_house_eng"
+        },
+        {
+          "changes": [
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[1]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[2]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[3]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "ebps",
+          "file": "ebps/garrison/berber_tent_art_020/berber_tent_age3",
+          "name": "berber_tent_age3",
+          "reference": "3867e7ead78248058573989afef5f794:berber_tent_age3",
+          "rewired": [],
+          "source": "ebps/races/english/buildings/building_house_eng/building_house_control_eng"
+        },
+        {
+          "changes": [
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list[1]/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list[2]/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "attachments/attachment_lists",
+          "file": "attachments/attachment_lists/garrison/berber_tent_art_020/berber_tent_age3_tier",
+          "name": "berber_tent_age3_tier",
+          "reference": "3867e7ead78248058573989afef5f794:berber_tent_age3_tier",
+          "rewired": [],
+          "source": "attachments/attachment_lists/civilizations/english/buildings/house_eng/tier1_house_eng"
+        },
+        {
+          "changes": [
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[1]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[2]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[3]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "ebps",
+          "file": "ebps/garrison/berber_tent_art_020/berber_tent_age4",
+          "name": "berber_tent_age4",
+          "reference": "3867e7ead78248058573989afef5f794:berber_tent_age4",
+          "rewired": [],
+          "source": "ebps/races/english/buildings/building_house_eng/building_house_control_eng"
+        },
+        {
+          "changes": [
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list[1]/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list[2]/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "attachments/attachment_lists",
+          "file": "attachments/attachment_lists/garrison/berber_tent_art_020/berber_tent_age4_tier",
+          "name": "berber_tent_age4_tier",
+          "reference": "3867e7ead78248058573989afef5f794:berber_tent_age4_tier",
+          "rewired": [],
+          "source": "attachments/attachment_lists/civilizations/english/buildings/house_eng/tier1_house_eng"
+        }
+      ],
+      "editor": "C:\\Users\\RS\\AppData\\Local\\Garrison\\Kit\\tools\\essence-object-editor\\EssenceEditor.exe",
+      "game_mode": false,
+      "lights": [],
+      "live_reload": false,
+      "loose_files": [],
+      "model_variants": [],
+      "run_root": "E:\\bt20\\Mods\\berber_tent_art_020\\dist\\cook\\20261012T132623Z-2096cac7",
+      "sha256": "38e62b9713e2f60e35427290e023662bd490a26168991eb4c55d64cda310ec90",
+      "size": 10570084,
+      "sounds": [],
+      "source_script_dependencies": [],
+      "verified_model_outputs": [
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/model.rgm",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/model.rgo",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/model.rrgeom",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/model.rrmaterial",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/model.rgm",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/model.rgo",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/model.rrgeom",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/model.rrmaterial",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/model.rgm",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/model.rgo",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/model.rrgeom",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/model.rrmaterial",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/model.rgm",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/model.rgo",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/model.rrgeom",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/model.rrmaterial"
+      ],
+      "visual_presentation": []
+    },
+    {
+      "animated_units": [],
+      "archive": "E:\\bt20\\Mods\\berber_tent_art_020\\dist\\berber_tent_art_020.sga",
+      "assets": [],
+      "attribute_overrides": [],
+      "audio_clips": [],
+      "audio_enabled": false,
+      "blueprints": [],
+      "build_id": "20261012T135118Z-1fde19e0",
+      "buildings": [
+        {
+          "game_visuals": "unverified",
+          "name": "berber_tent_age1",
+          "profile": "english-house",
+          "scope": "construction_and_healthy",
+          "selectors": {
+            "sel_construct_00": [
+              "garrison_part_0000"
+            ],
+            "sel_construct_20": [
+              "garrison_part_0000",
+              "garrison_part_0001"
+            ],
+            "sel_construct_40": [
+              "garrison_part_0000",
+              "garrison_part_0001"
+            ],
+            "sel_construct_60": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002"
+            ],
+            "sel_construct_80": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002",
+              "garrison_part_0003"
+            ],
+            "sel_healthy": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002",
+              "garrison_part_0003",
+              "garrison_part_0004"
+            ]
+          },
+          "stamp": "art/stamps/garrison/berber_tent_art_020/berber_tent_age1.bin",
+          "stock_lifecycle_sha256": "12cf967601517c8aa06f7533305c0a10b6752e68422fd970cf99f25bb981b84e"
+        },
+        {
+          "game_visuals": "unverified",
+          "name": "berber_tent_age2",
+          "profile": "english-house",
+          "scope": "construction_and_healthy",
+          "selectors": {
+            "sel_construct_00": [
+              "garrison_part_0000"
+            ],
+            "sel_construct_20": [
+              "garrison_part_0000",
+              "garrison_part_0001"
+            ],
+            "sel_construct_40": [
+              "garrison_part_0000",
+              "garrison_part_0001"
+            ],
+            "sel_construct_60": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002"
+            ],
+            "sel_construct_80": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002",
+              "garrison_part_0003"
+            ],
+            "sel_healthy": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002",
+              "garrison_part_0003",
+              "garrison_part_0004"
+            ]
+          },
+          "stamp": "art/stamps/garrison/berber_tent_art_020/berber_tent_age2.bin",
+          "stock_lifecycle_sha256": "12cf967601517c8aa06f7533305c0a10b6752e68422fd970cf99f25bb981b84e"
+        },
+        {
+          "game_visuals": "unverified",
+          "name": "berber_tent_age3",
+          "profile": "english-house",
+          "scope": "construction_and_healthy",
+          "selectors": {
+            "sel_construct_00": [
+              "garrison_part_0000"
+            ],
+            "sel_construct_20": [
+              "garrison_part_0000",
+              "garrison_part_0001"
+            ],
+            "sel_construct_40": [
+              "garrison_part_0000",
+              "garrison_part_0001"
+            ],
+            "sel_construct_60": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002"
+            ],
+            "sel_construct_80": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002",
+              "garrison_part_0003"
+            ],
+            "sel_healthy": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002",
+              "garrison_part_0003",
+              "garrison_part_0004"
+            ]
+          },
+          "stamp": "art/stamps/garrison/berber_tent_art_020/berber_tent_age3.bin",
+          "stock_lifecycle_sha256": "12cf967601517c8aa06f7533305c0a10b6752e68422fd970cf99f25bb981b84e"
+        },
+        {
+          "game_visuals": "unverified",
+          "name": "berber_tent_age4",
+          "profile": "english-house",
+          "scope": "construction_and_healthy",
+          "selectors": {
+            "sel_construct_00": [
+              "garrison_part_0000"
+            ],
+            "sel_construct_20": [
+              "garrison_part_0000",
+              "garrison_part_0001"
+            ],
+            "sel_construct_40": [
+              "garrison_part_0000",
+              "garrison_part_0001"
+            ],
+            "sel_construct_60": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002"
+            ],
+            "sel_construct_80": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002",
+              "garrison_part_0003"
+            ],
+            "sel_healthy": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002",
+              "garrison_part_0003",
+              "garrison_part_0004"
+            ]
+          },
+          "stamp": "art/stamps/garrison/berber_tent_art_020/berber_tent_age4.bin",
+          "stock_lifecycle_sha256": "12cf967601517c8aa06f7533305c0a10b6752e68422fd970cf99f25bb981b84e"
+        }
+      ],
+      "cooked_at_utc": "2026-10-12T13:52:32Z",
+      "derived_blueprints": [
+        {
+          "changes": [
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[1]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[2]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[3]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "ebps",
+          "file": "ebps/garrison/berber_tent_art_020/berber_tent_age1",
+          "name": "berber_tent_age1",
+          "reference": "1d3145e8f1b2427f8bb0067851fcf0f1:berber_tent_age1",
+          "rewired": [],
+          "source": "ebps/races/english/buildings/building_house_eng/building_house_control_eng"
+        },
+        {
+          "changes": [
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list[1]/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list[2]/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "attachments/attachment_lists",
+          "file": "attachments/attachment_lists/garrison/berber_tent_art_020/berber_tent_age1_tier",
+          "name": "berber_tent_age1_tier",
+          "reference": "1d3145e8f1b2427f8bb0067851fcf0f1:berber_tent_age1_tier",
+          "rewired": [],
+          "source": "attachments/attachment_lists/civilizations/english/buildings/house_eng/tier1_house_eng"
+        },
+        {
+          "changes": [
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[1]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[2]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[3]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "ebps",
+          "file": "ebps/garrison/berber_tent_art_020/berber_tent_age2",
+          "name": "berber_tent_age2",
+          "reference": "1d3145e8f1b2427f8bb0067851fcf0f1:berber_tent_age2",
+          "rewired": [],
+          "source": "ebps/races/english/buildings/building_house_eng/building_house_control_eng"
+        },
+        {
+          "changes": [
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list[1]/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list[2]/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "attachments/attachment_lists",
+          "file": "attachments/attachment_lists/garrison/berber_tent_art_020/berber_tent_age2_tier",
+          "name": "berber_tent_age2_tier",
+          "reference": "1d3145e8f1b2427f8bb0067851fcf0f1:berber_tent_age2_tier",
+          "rewired": [],
+          "source": "attachments/attachment_lists/civilizations/english/buildings/house_eng/tier1_house_eng"
+        },
+        {
+          "changes": [
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[1]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[2]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[3]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "ebps",
+          "file": "ebps/garrison/berber_tent_art_020/berber_tent_age3",
+          "name": "berber_tent_age3",
+          "reference": "1d3145e8f1b2427f8bb0067851fcf0f1:berber_tent_age3",
+          "rewired": [],
+          "source": "ebps/races/english/buildings/building_house_eng/building_house_control_eng"
+        },
+        {
+          "changes": [
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list[1]/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list[2]/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "attachments/attachment_lists",
+          "file": "attachments/attachment_lists/garrison/berber_tent_art_020/berber_tent_age3_tier",
+          "name": "berber_tent_age3_tier",
+          "reference": "1d3145e8f1b2427f8bb0067851fcf0f1:berber_tent_age3_tier",
+          "rewired": [],
+          "source": "attachments/attachment_lists/civilizations/english/buildings/house_eng/tier1_house_eng"
+        },
+        {
+          "changes": [
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[1]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[2]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[3]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "ebps",
+          "file": "ebps/garrison/berber_tent_art_020/berber_tent_age4",
+          "name": "berber_tent_age4",
+          "reference": "1d3145e8f1b2427f8bb0067851fcf0f1:berber_tent_age4",
+          "rewired": [],
+          "source": "ebps/races/english/buildings/building_house_eng/building_house_control_eng"
+        },
+        {
+          "changes": [
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list[1]/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list[2]/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "attachments/attachment_lists",
+          "file": "attachments/attachment_lists/garrison/berber_tent_art_020/berber_tent_age4_tier",
+          "name": "berber_tent_age4_tier",
+          "reference": "1d3145e8f1b2427f8bb0067851fcf0f1:berber_tent_age4_tier",
+          "rewired": [],
+          "source": "attachments/attachment_lists/civilizations/english/buildings/house_eng/tier1_house_eng"
+        }
+      ],
+      "editor": "C:\\Users\\RS\\AppData\\Local\\Garrison\\Kit\\tools\\essence-object-editor\\EssenceEditor.exe",
+      "game_mode": false,
+      "lights": [],
+      "live_reload": false,
+      "loose_files": [],
+      "model_variants": [],
+      "run_root": "E:\\bt20\\Mods\\berber_tent_art_020\\dist\\cook\\20261012T135118Z-1fde19e0",
+      "sha256": "9c30e978e2e54517f03166e1c23108dd3444015ff4d1b2b4503023ecf23b4120",
+      "size": 10570083,
+      "sounds": [],
+      "source_script_dependencies": [],
+      "verified_model_outputs": [
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/model.rgm",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/model.rgo",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/model.rrgeom",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/model.rrmaterial",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/model.rgm",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/model.rgo",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/model.rrgeom",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/model.rrmaterial",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/model.rgm",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/model.rgo",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/model.rrgeom",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/model.rrmaterial",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/model.rgm",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/model.rgo",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/model.rrgeom",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/model.rrmaterial"
+      ],
+      "visual_presentation": []
+    },
+    {
+      "animated_units": [],
+      "archive": "E:\\bt21\\Mods\\berber_tent_art_020\\dist\\berber_tent_art_020.sga",
+      "assets": [],
+      "attribute_overrides": [],
+      "audio_clips": [],
+      "audio_enabled": false,
+      "blueprints": [],
+      "build_id": "20261012T195733Z-324df864",
+      "buildings": [
+        {
+          "game_visuals": "unverified",
+          "name": "berber_tent_age1",
+          "profile": "english-house",
+          "scope": "construction_and_healthy",
+          "selectors": {
+            "sel_construct_00": [
+              "garrison_part_0000"
+            ],
+            "sel_construct_20": [
+              "garrison_part_0000",
+              "garrison_part_0001"
+            ],
+            "sel_construct_40": [
+              "garrison_part_0000",
+              "garrison_part_0001"
+            ],
+            "sel_construct_60": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002"
+            ],
+            "sel_construct_80": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002",
+              "garrison_part_0003"
+            ],
+            "sel_healthy": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002",
+              "garrison_part_0003",
+              "garrison_part_0004"
+            ]
+          },
+          "stamp": "art/stamps/garrison/berber_tent_art_020/berber_tent_age1.bin",
+          "stock_lifecycle_sha256": "12cf967601517c8aa06f7533305c0a10b6752e68422fd970cf99f25bb981b84e"
+        },
+        {
+          "game_visuals": "unverified",
+          "name": "berber_tent_age2",
+          "profile": "english-house",
+          "scope": "construction_and_healthy",
+          "selectors": {
+            "sel_construct_00": [
+              "garrison_part_0000"
+            ],
+            "sel_construct_20": [
+              "garrison_part_0000",
+              "garrison_part_0001"
+            ],
+            "sel_construct_40": [
+              "garrison_part_0000",
+              "garrison_part_0001"
+            ],
+            "sel_construct_60": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002"
+            ],
+            "sel_construct_80": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002",
+              "garrison_part_0003"
+            ],
+            "sel_healthy": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002",
+              "garrison_part_0003",
+              "garrison_part_0004"
+            ]
+          },
+          "stamp": "art/stamps/garrison/berber_tent_art_020/berber_tent_age2.bin",
+          "stock_lifecycle_sha256": "12cf967601517c8aa06f7533305c0a10b6752e68422fd970cf99f25bb981b84e"
+        },
+        {
+          "game_visuals": "unverified",
+          "name": "berber_tent_age3",
+          "profile": "english-house",
+          "scope": "construction_and_healthy",
+          "selectors": {
+            "sel_construct_00": [
+              "garrison_part_0000"
+            ],
+            "sel_construct_20": [
+              "garrison_part_0000",
+              "garrison_part_0001"
+            ],
+            "sel_construct_40": [
+              "garrison_part_0000",
+              "garrison_part_0001"
+            ],
+            "sel_construct_60": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002"
+            ],
+            "sel_construct_80": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002",
+              "garrison_part_0003"
+            ],
+            "sel_healthy": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002",
+              "garrison_part_0003",
+              "garrison_part_0004"
+            ]
+          },
+          "stamp": "art/stamps/garrison/berber_tent_art_020/berber_tent_age3.bin",
+          "stock_lifecycle_sha256": "12cf967601517c8aa06f7533305c0a10b6752e68422fd970cf99f25bb981b84e"
+        },
+        {
+          "game_visuals": "unverified",
+          "name": "berber_tent_age4",
+          "profile": "english-house",
+          "scope": "construction_and_healthy",
+          "selectors": {
+            "sel_construct_00": [
+              "garrison_part_0000"
+            ],
+            "sel_construct_20": [
+              "garrison_part_0000",
+              "garrison_part_0001"
+            ],
+            "sel_construct_40": [
+              "garrison_part_0000",
+              "garrison_part_0001"
+            ],
+            "sel_construct_60": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002"
+            ],
+            "sel_construct_80": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002",
+              "garrison_part_0003"
+            ],
+            "sel_healthy": [
+              "garrison_part_0000",
+              "garrison_part_0001",
+              "garrison_part_0002",
+              "garrison_part_0003",
+              "garrison_part_0004"
+            ]
+          },
+          "stamp": "art/stamps/garrison/berber_tent_art_020/berber_tent_age4.bin",
+          "stock_lifecycle_sha256": "12cf967601517c8aa06f7533305c0a10b6752e68422fd970cf99f25bb981b84e"
+        }
+      ],
+      "cooked_at_utc": "2026-10-12T19:58:57Z",
+      "derived_blueprints": [
+        {
+          "changes": [
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[1]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[2]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[3]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "ebps",
+          "file": "ebps/garrison/berber_tent_art_020/berber_tent_age1",
+          "name": "berber_tent_age1",
+          "reference": "1d3145e8f1b2427f8bb0067851fcf0f1:berber_tent_age1",
+          "rewired": [],
+          "source": "ebps/races/english/buildings/building_house_eng/building_house_control_eng"
+        },
+        {
+          "changes": [
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list[1]/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list[2]/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "attachments/attachment_lists",
+          "file": "attachments/attachment_lists/garrison/berber_tent_art_020/berber_tent_age1_tier",
+          "name": "berber_tent_age1_tier",
+          "reference": "1d3145e8f1b2427f8bb0067851fcf0f1:berber_tent_age1_tier",
+          "rewired": [],
+          "source": "attachments/attachment_lists/civilizations/english/buildings/house_eng/tier1_house_eng"
+        },
+        {
+          "changes": [
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[1]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[2]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[3]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "ebps",
+          "file": "ebps/garrison/berber_tent_art_020/berber_tent_age2",
+          "name": "berber_tent_age2",
+          "reference": "1d3145e8f1b2427f8bb0067851fcf0f1:berber_tent_age2",
+          "rewired": [],
+          "source": "ebps/races/english/buildings/building_house_eng/building_house_control_eng"
+        },
+        {
+          "changes": [
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list[1]/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list[2]/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "attachments/attachment_lists",
+          "file": "attachments/attachment_lists/garrison/berber_tent_art_020/berber_tent_age2_tier",
+          "name": "berber_tent_age2_tier",
+          "reference": "1d3145e8f1b2427f8bb0067851fcf0f1:berber_tent_age2_tier",
+          "rewired": [],
+          "source": "attachments/attachment_lists/civilizations/english/buildings/house_eng/tier1_house_eng"
+        },
+        {
+          "changes": [
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[1]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[2]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[3]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "ebps",
+          "file": "ebps/garrison/berber_tent_art_020/berber_tent_age3",
+          "name": "berber_tent_age3",
+          "reference": "1d3145e8f1b2427f8bb0067851fcf0f1:berber_tent_age3",
+          "rewired": [],
+          "source": "ebps/races/english/buildings/building_house_eng/building_house_control_eng"
+        },
+        {
+          "changes": [
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list[1]/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list[2]/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "attachments/attachment_lists",
+          "file": "attachments/attachment_lists/garrison/berber_tent_art_020/berber_tent_age3_tier",
+          "name": "berber_tent_age3_tier",
+          "reference": "1d3145e8f1b2427f8bb0067851fcf0f1:berber_tent_age3_tier",
+          "rewired": [],
+          "source": "attachments/attachment_lists/civilizations/english/buildings/house_eng/tier1_house_eng"
+        },
+        {
+          "changes": [
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[1]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[2]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "tier_ext/tier_group_list/tier_group/tier[3]/attachments",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "ebps",
+          "file": "ebps/garrison/berber_tent_art_020/berber_tent_age4",
+          "name": "berber_tent_age4",
+          "reference": "1d3145e8f1b2427f8bb0067851fcf0f1:berber_tent_age4",
+          "rewired": [],
+          "source": "ebps/races/english/buildings/building_house_eng/building_house_control_eng"
+        },
+        {
+          "changes": [
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list[1]/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            },
+            {
+              "field": "attachment_lists/attachment_lists/attachment_list[2]/attachment_list/stamp_attachment/stamp",
+              "op": "set",
+              "tables": [
+                "default",
+                "campaign",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "attachments/attachment_lists",
+          "file": "attachments/attachment_lists/garrison/berber_tent_art_020/berber_tent_age4_tier",
+          "name": "berber_tent_age4_tier",
+          "reference": "1d3145e8f1b2427f8bb0067851fcf0f1:berber_tent_age4_tier",
+          "rewired": [],
+          "source": "attachments/attachment_lists/civilizations/english/buildings/house_eng/tier1_house_eng"
+        }
+      ],
+      "editor": "C:\\Users\\RS\\AppData\\Local\\Garrison\\Kit\\tools\\essence-object-editor\\EssenceEditor.exe",
+      "game_mode": false,
+      "lights": [],
+      "live_reload": false,
+      "loose_files": [],
+      "model_variants": [],
+      "run_root": "E:\\bt21\\Mods\\berber_tent_art_020\\dist\\cook\\20261012T195733Z-324df864",
+      "sha256": "a7c0b7681faa76eb2e0837409a2cbed747734898731ab34f483b525e37b30718",
+      "size": 10581585,
+      "sounds": [],
+      "source_script_dependencies": [],
+      "verified_model_outputs": [
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/model.rgm",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/model.rgo",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/model.rrgeom",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/model.rrmaterial",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/model.rgm",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/model.rgo",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/model.rrgeom",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/model.rrmaterial",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/model.rgm",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/model.rgo",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/model.rrgeom",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/model.rrmaterial",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/model.rgm",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/model.rgo",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/model.rrgeom",
+        "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/model.rrmaterial"
+      ],
+      "visual_presentation": []
+    }
+  ],
+  "created_at_utc": "2026-10-12T13:01:05Z",
+  "derived_blueprints": [
+    {
+      "auto_rewire": false,
+      "changes": [
+        {
+          "field": "tier_ext/tier_group_list/tier_group/tier/attachments",
+          "op": "set",
+          "value": {
+            "blueprint": "berber_tent_age1_tier"
+          }
+        },
+        {
+          "field": "tier_ext/tier_group_list/tier_group/tier[1]/attachments",
+          "op": "set",
+          "value": {
+            "blueprint": "berber_tent_age1_tier"
+          }
+        },
+        {
+          "field": "tier_ext/tier_group_list/tier_group/tier[2]/attachments",
+          "op": "set",
+          "value": {
+            "blueprint": "berber_tent_age1_tier"
+          }
+        },
+        {
+          "field": "tier_ext/tier_group_list/tier_group/tier[3]/attachments",
+          "op": "set",
+          "value": {
+            "blueprint": "berber_tent_age1_tier"
+          }
+        }
+      ],
+      "family": "ebps",
+      "name": "berber_tent_age1",
+      "source": "ebps/races/english/buildings/building_house_eng/building_house_control_eng"
+    },
+    {
+      "auto_rewire": false,
+      "changes": [
+        {
+          "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/stamp_attachment/stamp",
+          "op": "set",
+          "value": "art\\stamps\\garrison\\berber_tent_art_020\\berber_tent_age1"
+        },
+        {
+          "field": "attachment_lists/attachment_lists/attachment_list[1]/attachment_list/stamp_attachment/stamp",
+          "op": "set",
+          "value": "art\\stamps\\garrison\\berber_tent_art_020\\berber_tent_age1"
+        },
+        {
+          "field": "attachment_lists/attachment_lists/attachment_list[2]/attachment_list/stamp_attachment/stamp",
+          "op": "set",
+          "value": "art\\stamps\\garrison\\berber_tent_art_020\\berber_tent_age1"
+        }
+      ],
+      "family": "attachments/attachment_lists",
+      "name": "berber_tent_age1_tier",
+      "source": "attachments/attachment_lists/civilizations/english/buildings/house_eng/tier1_house_eng"
+    },
+    {
+      "auto_rewire": false,
+      "changes": [
+        {
+          "field": "tier_ext/tier_group_list/tier_group/tier/attachments",
+          "op": "set",
+          "value": {
+            "blueprint": "berber_tent_age2_tier"
+          }
+        },
+        {
+          "field": "tier_ext/tier_group_list/tier_group/tier[1]/attachments",
+          "op": "set",
+          "value": {
+            "blueprint": "berber_tent_age2_tier"
+          }
+        },
+        {
+          "field": "tier_ext/tier_group_list/tier_group/tier[2]/attachments",
+          "op": "set",
+          "value": {
+            "blueprint": "berber_tent_age2_tier"
+          }
+        },
+        {
+          "field": "tier_ext/tier_group_list/tier_group/tier[3]/attachments",
+          "op": "set",
+          "value": {
+            "blueprint": "berber_tent_age2_tier"
+          }
+        }
+      ],
+      "family": "ebps",
+      "name": "berber_tent_age2",
+      "source": "ebps/races/english/buildings/building_house_eng/building_house_control_eng"
+    },
+    {
+      "auto_rewire": false,
+      "changes": [
+        {
+          "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/stamp_attachment/stamp",
+          "op": "set",
+          "value": "art\\stamps\\garrison\\berber_tent_art_020\\berber_tent_age2"
+        },
+        {
+          "field": "attachment_lists/attachment_lists/attachment_list[1]/attachment_list/stamp_attachment/stamp",
+          "op": "set",
+          "value": "art\\stamps\\garrison\\berber_tent_art_020\\berber_tent_age2"
+        },
+        {
+          "field": "attachment_lists/attachment_lists/attachment_list[2]/attachment_list/stamp_attachment/stamp",
+          "op": "set",
+          "value": "art\\stamps\\garrison\\berber_tent_art_020\\berber_tent_age2"
+        }
+      ],
+      "family": "attachments/attachment_lists",
+      "name": "berber_tent_age2_tier",
+      "source": "attachments/attachment_lists/civilizations/english/buildings/house_eng/tier1_house_eng"
+    },
+    {
+      "auto_rewire": false,
+      "changes": [
+        {
+          "field": "tier_ext/tier_group_list/tier_group/tier/attachments",
+          "op": "set",
+          "value": {
+            "blueprint": "berber_tent_age3_tier"
+          }
+        },
+        {
+          "field": "tier_ext/tier_group_list/tier_group/tier[1]/attachments",
+          "op": "set",
+          "value": {
+            "blueprint": "berber_tent_age3_tier"
+          }
+        },
+        {
+          "field": "tier_ext/tier_group_list/tier_group/tier[2]/attachments",
+          "op": "set",
+          "value": {
+            "blueprint": "berber_tent_age3_tier"
+          }
+        },
+        {
+          "field": "tier_ext/tier_group_list/tier_group/tier[3]/attachments",
+          "op": "set",
+          "value": {
+            "blueprint": "berber_tent_age3_tier"
+          }
+        }
+      ],
+      "family": "ebps",
+      "name": "berber_tent_age3",
+      "source": "ebps/races/english/buildings/building_house_eng/building_house_control_eng"
+    },
+    {
+      "auto_rewire": false,
+      "changes": [
+        {
+          "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/stamp_attachment/stamp",
+          "op": "set",
+          "value": "art\\stamps\\garrison\\berber_tent_art_020\\berber_tent_age3"
+        },
+        {
+          "field": "attachment_lists/attachment_lists/attachment_list[1]/attachment_list/stamp_attachment/stamp",
+          "op": "set",
+          "value": "art\\stamps\\garrison\\berber_tent_art_020\\berber_tent_age3"
+        },
+        {
+          "field": "attachment_lists/attachment_lists/attachment_list[2]/attachment_list/stamp_attachment/stamp",
+          "op": "set",
+          "value": "art\\stamps\\garrison\\berber_tent_art_020\\berber_tent_age3"
+        }
+      ],
+      "family": "attachments/attachment_lists",
+      "name": "berber_tent_age3_tier",
+      "source": "attachments/attachment_lists/civilizations/english/buildings/house_eng/tier1_house_eng"
+    },
+    {
+      "auto_rewire": false,
+      "changes": [
+        {
+          "field": "tier_ext/tier_group_list/tier_group/tier/attachments",
+          "op": "set",
+          "value": {
+            "blueprint": "berber_tent_age4_tier"
+          }
+        },
+        {
+          "field": "tier_ext/tier_group_list/tier_group/tier[1]/attachments",
+          "op": "set",
+          "value": {
+            "blueprint": "berber_tent_age4_tier"
+          }
+        },
+        {
+          "field": "tier_ext/tier_group_list/tier_group/tier[2]/attachments",
+          "op": "set",
+          "value": {
+            "blueprint": "berber_tent_age4_tier"
+          }
+        },
+        {
+          "field": "tier_ext/tier_group_list/tier_group/tier[3]/attachments",
+          "op": "set",
+          "value": {
+            "blueprint": "berber_tent_age4_tier"
+          }
+        }
+      ],
+      "family": "ebps",
+      "name": "berber_tent_age4",
+      "source": "ebps/races/english/buildings/building_house_eng/building_house_control_eng"
+    },
+    {
+      "auto_rewire": false,
+      "changes": [
+        {
+          "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/stamp_attachment/stamp",
+          "op": "set",
+          "value": "art\\stamps\\garrison\\berber_tent_art_020\\berber_tent_age4"
+        },
+        {
+          "field": "attachment_lists/attachment_lists/attachment_list[1]/attachment_list/stamp_attachment/stamp",
+          "op": "set",
+          "value": "art\\stamps\\garrison\\berber_tent_art_020\\berber_tent_age4"
+        },
+        {
+          "field": "attachment_lists/attachment_lists/attachment_list[2]/attachment_list/stamp_attachment/stamp",
+          "op": "set",
+          "value": "art\\stamps\\garrison\\berber_tent_art_020\\berber_tent_age4"
+        }
+      ],
+      "family": "attachments/attachment_lists",
+      "name": "berber_tent_age4_tier",
+      "source": "attachments/attachment_lists/civilizations/english/buildings/house_eng/tier1_house_eng"
+    }
+  ],
+  "description": "",
+  "game_mode": {
+    "enabled": false,
+    "live_reload": false,
+    "requested": false,
+    "template": "normal"
+  },
+  "key": "berber_tent_art_020",
+  "mod_id": "1d3145e8-f1b2-427f-8bb0-067851fcf0f1",
+  "name": "Berber Tent Art 020",
+  "release": {
+    "summary": "Tribal Tents 2.5x larger with reversed entrance",
+    "version": "0.2.1"
+  },
+  "runtime_modules": {
+    "files": {
+      "berber_tent_art_020/blueprints.scar": "dff81ba93f79446a35b1410435aad1072d8d2f6e2df2348c2d8650fdd9198bb1"
+    }
+  },
+  "schema": "garrison.mod-project/v1"
+}

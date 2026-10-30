@@ -1,0 +1,2024 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <RGDNode Key="default" Type="List">
+    <RGDNode Key="weapon_bag" Type="List">
+      <RGDNode Key="name" Type="CString" Value="Spearman Weapon"/>
+      <RGDNode Key="weapon_class" Type="CString" Value="cdn_2h_spear"/>
+      <RGDNode Key="fog_of_war" Type="List">
+        <RGDNode Key="reveal_self_on_attack" Type="Boolean" Value="true"/>
+        <RGDNode Key="reveal_target_on_hit" Type="Boolean" Value="true"/>
+      </RGDNode>
+      <RGDNode Key="ui_map_colour" Type="List">
+        <RGDNode Key="red" Type="Int" Value="0"/>
+        <RGDNode Key="green" Type="Int" Value="0"/>
+        <RGDNode Key="blue" Type="Int" Value="0"/>
+        <RGDNode Key="alpha" Type="Int" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="accuracy" Type="List">
+        <RGDNode Key="mid" Type="Float" Value="1"/>
+        <RGDNode Key="near" Type="Float" Value="1"/>
+        <RGDNode Key="far" Type="Float" Value="1"/>
+      </RGDNode>
+      <RGDNode Key="animation_role_option" Type="List">
+        <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+      </RGDNode>
+      <RGDNode Key="projectile" Type="List">
+        <RGDNode Key="projectile" Type="List">
+          <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+          <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="terrain_elevation_option" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+        </RGDNode>
+        <RGDNode Key="delete_previous_on_hit" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="fx_tracer_speed" Type="Float" Value="0"/>
+      <RGDNode Key="area_effect" Type="List">
+        <RGDNode Key="accuracy" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="suppression_friendly" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="0"/>
+          <RGDNode Key="near" Type="Float" Value="0"/>
+          <RGDNode Key="far" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="area_over_time_option" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="damage" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="damage_friendly" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="distance" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="0"/>
+          <RGDNode Key="near" Type="Float" Value="0"/>
+          <RGDNode Key="far" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="aoe_origin_and_direction" Type="Int" Value="0"/>
+        <RGDNode Key="aoe_penetration" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="0"/>
+          <RGDNode Key="$REF" Type="CString" Value="tables\range_table"/>
+          <RGDNode Key="near" Type="Float" Value="0"/>
+          <RGDNode Key="far" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="suppression" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="0"/>
+          <RGDNode Key="near" Type="Float" Value="0"/>
+          <RGDNode Key="far" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="fx" Type="List">
+          <RGDNode Key="num_randomized_ground_hit_fx" Type="Int" Value="0"/>
+          <RGDNode Key="exponential_distribution_lambda" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="area_info" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="options\area_info_options\point_area_option"/>
+        </RGDNode>
+        <RGDNode Key="damage_max_members_per_squad" Type="Int" Value="-1"/>
+        <RGDNode Key="has_friendly_fire" Type="Boolean" Value="false"/>
+        <RGDNode Key="damage_all_in_hold" Type="Boolean" Value="false"/>
+        <RGDNode Key="can_harm_shooter" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="fx_aoe_munition_name" Type="CString" Value=""/>
+      <RGDNode Key="ui_range" Type="List">
+        <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+        <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="priority" Type="List">
+        <RGDNode Key="rotation" Type="Float" Value="0"/>
+        <RGDNode Key="target" Type="List">
+          <RGDNode Key="in_cover" Type="Float" Value="0"/>
+          <RGDNode Key="dps" Type="Float" Value="0"/>
+          <RGDNode Key="max_health" Type="Float" Value="0"/>
+          <RGDNode Key="out_of_los" Type="Float" Value="-100"/>
+          <RGDNode Key="penetration" Type="Float" Value="0"/>
+          <RGDNode Key="current_health_percentage" Type="Float" Value="0"/>
+          <RGDNode Key="vs_armor_type" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="suggested_target" Type="Float" Value="0"/>
+        <RGDNode Key="window_bonus" Type="Float" Value="0"/>
+        <RGDNode Key="distance" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="randomly_target_squad_mates_of_best_priority_entity" Type="Boolean" Value="false"/>
+        <RGDNode Key="untargeted_by_formation_melee" Type="Float" Value="0"/>
+        <RGDNode Key="penetration" Type="Float" Value="0"/>
+        <RGDNode Key="current_target" Type="Float" Value="0"/>
+        <RGDNode Key="over_penetration_priority_penalty" Type="Boolean" Value="false"/>
+        <RGDNode Key="vs_armor_type" Type="Float" Value="0"/>
+        <RGDNode Key="untargeted_by_formation_ranged" Type="Float" Value="0"/>
+        <RGDNode Key="current_target_squad" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="damage" Type="List">
+        <RGDNode Key="damage_type" Type="CString" Value="Melee"/>
+        <RGDNode Key="on_critical_hit_state_trees" Type="List">
+        </RGDNode>
+        <RGDNode Key="allow_overkill" Type="Boolean" Value="false"/>
+        <RGDNode Key="critical_damage_chance" Type="Float" Value="0.02"/>
+        <RGDNode Key="should_keep_above_one" Type="Boolean" Value="true"/>
+        <RGDNode Key="max" Type="Float" Value="8"/>
+        <RGDNode Key="min" Type="Float" Value="8"/>
+        <RGDNode Key="on_penetrated_state_trees" Type="List">
+        </RGDNode>
+        <RGDNode Key="critical_damage_factor" Type="Float" Value="5"/>
+      </RGDNode>
+      <RGDNode Key="suppressed" Type="List">
+        <RGDNode Key="pinned_cooldown_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="pinned_reload_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="suppressed_cooldown_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="suppressed_reload_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="pinned_burst_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="suppressed_burst_multiplier" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="ui_tooltip_weapon_group" Type="CString" Value=""/>
+      <RGDNode Key="weapon_options" Type="List">
+        <RGDNode Key="windup_extended_range_override" Type="Float" Value="-1"/>
+        <RGDNode Key="$REF" Type="CString" Value="options\weapon\melee_options"/>
+        <RGDNode Key="attack_animation_chain_length" Type="Float" Value="1"/>
+      </RGDNode>
+      <RGDNode Key="fx_delay_in_building" Type="Float" Value="0"/>
+      <RGDNode Key="ui_show_on_tooltip" Type="Boolean" Value="false"/>
+      <RGDNode Key="burst" Type="List">
+        <RGDNode Key="duration" Type="List">
+          <RGDNode Key="max" Type="Float" Value="0"/>
+          <RGDNode Key="min" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="convert_target_to_position_before_firing" Type="Boolean" Value="false"/>
+        <RGDNode Key="rate_of_fire_multiplier" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="duration_multiplier" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="focus_fire" Type="Boolean" Value="false"/>
+        <RGDNode Key="can_burst" Type="Boolean" Value="false"/>
+        <RGDNode Key="uninterruptible_burst_fire" Type="Boolean" Value="false"/>
+        <RGDNode Key="rate_of_fire" Type="List">
+          <RGDNode Key="max" Type="Float" Value="0"/>
+          <RGDNode Key="min" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="incremental_target_table" Type="List">
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="search_radius" Type="List">
+            <RGDNode Key="mid" Type="Float" Value="0"/>
+            <RGDNode Key="near" Type="Float" Value="0"/>
+            <RGDNode Key="far" Type="Float" Value="0"/>
+          </RGDNode>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="behaviour" Type="List">
+        <RGDNode Key="ignore_shot_blocking" Type="Boolean" Value="false"/>
+        <RGDNode Key="aa_weapon" Type="Boolean" Value="false"/>
+        <RGDNode Key="reaction_radius" Type="Float" Value="0"/>
+        <RGDNode Key="can_be_substituted" Type="Boolean" Value="false"/>
+        <RGDNode Key="ground_hit_rate" Type="Float" Value="0"/>
+        <RGDNode Key="force_square_attack" Type="Boolean" Value="false"/>
+        <RGDNode Key="non_moving_setup_requires_facing" Type="Boolean" Value="false"/>
+        <RGDNode Key="artillery_force_obey_los" Type="Boolean" Value="false"/>
+        <RGDNode Key="causes_combat" Type="Boolean" Value="true"/>
+        <RGDNode Key="can_abort_winddown_on_weapon_switch" Type="Boolean" Value="true"/>
+        <RGDNode Key="non_moving_setup" Type="Boolean" Value="false"/>
+        <RGDNode Key="can_be_offhanded" Type="Boolean" Value="false"/>
+        <RGDNode Key="reaction_type" Type="CString" Value="normal"/>
+        <RGDNode Key="single_handed_weapon" Type="Boolean" Value="false"/>
+        <RGDNode Key="combat_slot_offset" Type="Float" Value="-20"/>
+        <RGDNode Key="enable_auto_target_search" Type="Boolean" Value="false"/>
+        <RGDNode Key="substitute_weapon" Type="Boolean" Value="false"/>
+        <RGDNode Key="attack_team_weapon_user" Type="Boolean" Value="false"/>
+        <RGDNode Key="fire_at_building_combat_slot" Type="Boolean" Value="false"/>
+        <RGDNode Key="attack_ground_type" Type="Int" Value="0"/>
+        <RGDNode Key="can_damage_allies" Type="Boolean" Value="false"/>
+        <RGDNode Key="wants_prone_firing_option" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+        </RGDNode>
+        <RGDNode Key="hit_pos_behaviour" Type="Int" Value="0"/>
+        <RGDNode Key="support_weapon" Type="Boolean" Value="false"/>
+        <RGDNode Key="aa_weapon_shoot_through" Type="Boolean" Value="false"/>
+        <RGDNode Key="hit_everything_on_hit" Type="Boolean" Value="false"/>
+        <RGDNode Key="ignore_relations" Type="Boolean" Value="false"/>
+        <RGDNode Key="can_abort_winddown_on_move_command" Type="Boolean" Value="false"/>
+        <RGDNode Key="reset_rotation_on_teardown" Type="Boolean" Value="false"/>
+        <RGDNode Key="hit_everything_on_miss" Type="Boolean" Value="false"/>
+        <RGDNode Key="share_parent_anim" Type="Boolean" Value="false"/>
+        <RGDNode Key="prevents_prone" Type="Boolean" Value="false"/>
+        <RGDNode Key="piercing" Type="Boolean" Value="false"/>
+        <RGDNode Key="surprises_idle" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="weapon_tags" Type="List">
+      </RGDNode>
+      <RGDNode Key="fx_munition_name" Type="CString" Value="common_spear_charge"/>
+      <RGDNode Key="icon_name" Type="CString" Value=""/>
+      <RGDNode Key="suppression" Type="List">
+        <RGDNode Key="target_suppressed_multipliers" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="target_pinned_multipliers" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="nearby_suppression_radius" Type="Float" Value="0"/>
+        <RGDNode Key="nearby_suppression_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="amount" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="kill_unit_types_on_hit" Type="List">
+      </RGDNode>
+      <RGDNode Key="tracking" Type="List">
+        <RGDNode Key="normal" Type="List">
+          <RGDNode Key="speed_horizontal" Type="Float" Value="180"/>
+          <RGDNode Key="max_right" Type="Float" Value="0"/>
+          <RGDNode Key="max_down" Type="Float" Value="0"/>
+          <RGDNode Key="max_up" Type="Float" Value="0"/>
+          <RGDNode Key="speed_vertical" Type="Float" Value="180"/>
+          <RGDNode Key="max_left" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="fire_cone_angle" Type="Float" Value="90"/>
+        <RGDNode Key="pivot_end_time" Type="Float" Value="0"/>
+        <RGDNode Key="fire_cone_angle_vert" Type="Float" Value="2"/>
+        <RGDNode Key="pivot_start_time" Type="Float" Value="0"/>
+        <RGDNode Key="pivot_only" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="cooldown" Type="List">
+        <RGDNode Key="duration" Type="List">
+          <RGDNode Key="max" Type="Float" Value="1"/>
+          <RGDNode Key="min" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="duration_multiplier" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="persistent_cooldownticks" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="fx_piercing_munition_name" Type="CString" Value=""/>
+      <RGDNode Key="charge_option" Type="List">
+        <RGDNode Key="charge_attack_target_position_offset" Type="Float" Value="2"/>
+        <RGDNode Key="$REF" Type="CString" Value="options\weapon\charge_option"/>
+        <RGDNode Key="weapon_hit_disabled_duration" Type="Float" Value="1"/>
+      </RGDNode>
+      <RGDNode Key="ui_setfacing" Type="List">
+        <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+        <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="fx_always_visible" Type="Boolean" Value="false"/>
+      <RGDNode Key="fx_action_target_name" Type="CString" Value=""/>
+      <RGDNode Key="moving" Type="List">
+        <RGDNode Key="cooldown_multiplier" Type="Float" Value="1"/>
+        <RGDNode Key="can_fire_while_moving" Type="Boolean" Value="false"/>
+        <RGDNode Key="moving_start_time" Type="Float" Value="0"/>
+        <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+        <RGDNode Key="moving_end_time" Type="Float" Value="0"/>
+        <RGDNode Key="burst_multiplier" Type="Float" Value="1"/>
+      </RGDNode>
+      <RGDNode Key="ui_name" Type="Int" Value="11164723"/>
+      <RGDNode Key="fire" Type="List">
+        <RGDNode Key="animation_impact_frame_time" Type="Float" Value="0.25"/>
+        <RGDNode Key="wind_up" Type="Float" Value="0.25"/>
+        <RGDNode Key="wind_down" Type="Float" Value="0.5"/>
+      </RGDNode>
+      <RGDNode Key="penetration" Type="List">
+        <RGDNode Key="mid" Type="Float" Value="0"/>
+        <RGDNode Key="near" Type="Float" Value="0"/>
+        <RGDNode Key="far" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="default_attack_type" Type="CString" Value="default"/>
+      <RGDNode Key="anim_table" Type="List">
+        <RGDNode Key="cooldown_time_name" Type="CString" Value=""/>
+        <RGDNode Key="target_range_name" Type="CString" Value=""/>
+        <RGDNode Key="track_vertical_speed" Type="CString" Value=""/>
+        <RGDNode Key="track_horizontal_speed" Type="CString" Value=""/>
+        <RGDNode Key="track_world_pos_z_name" Type="CString" Value=""/>
+        <RGDNode Key="ability_state" Type="CString" Value=""/>
+        <RGDNode Key="track_horizontal" Type="CString" Value=""/>
+        <RGDNode Key="track_vertical" Type="CString" Value=""/>
+        <RGDNode Key="state_name" Type="CString" Value="melee_weapon_state"/>
+        <RGDNode Key="track_world_pos_x_name" Type="CString" Value=""/>
+        <RGDNode Key="variety_name" Type="CString" Value=""/>
+        <RGDNode Key="attack_speed_scale_value" Type="Float" Value="1"/>
+        <RGDNode Key="visibility_name" Type="CString" Value=""/>
+        <RGDNode Key="attack_speed_scale_name" Type="CString" Value="melee_speed_scale"/>
+        <RGDNode Key="track_world_pos_y_name" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="cover_table" Type="List">
+        <RGDNode Key="plain" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="$REF" Type="CString" Value="weapon_cover_info"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="forest" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="$REF" Type="CString" Value="weapon_cover_info"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="hill" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="$REF" Type="CString" Value="weapon_cover_info"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="mountain" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="$REF" Type="CString" Value="weapon_cover_info"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="tp_defcover" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="$REF" Type="CString" Value="weapon_cover_info"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="water" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="$REF" Type="CString" Value="weapon_cover_info"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="setup" Type="List">
+        <RGDNode Key="duration" Type="Float" Value="0"/>
+        <RGDNode Key="has_instant_setup" Type="Boolean" Value="false"/>
+        <RGDNode Key="requires_aim_elevation" Type="Boolean" Value="false"/>
+        <RGDNode Key="attach_duration" Type="Float" Value="0"/>
+        <RGDNode Key="can_interrupt_setup" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="scatter" Type="List">
+        <RGDNode Key="distance_scatter_obj_hit_min" Type="Float" Value="0"/>
+        <RGDNode Key="distance_guaranteed_before_hit_percentage" Type="Float" Value="0"/>
+        <RGDNode Key="distance_bracket_count_air" Type="Float" Value="0"/>
+        <RGDNode Key="angle_scatter" Type="Float" Value="0"/>
+        <RGDNode Key="movement_scatter_angle_multiplier" Type="Float" Value="1"/>
+        <RGDNode Key="max_tilt_angle" Type="Float" Value="0"/>
+        <RGDNode Key="distance_scatter_ratio" Type="Float" Value="0"/>
+        <RGDNode Key="fow_angle_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="tilt_max_distance" Type="Float" Value="0"/>
+        <RGDNode Key="distance_bracket_count_ground" Type="Float" Value="1"/>
+        <RGDNode Key="delay_bracket_change_chance" Type="Float" Value="0"/>
+        <RGDNode Key="min_tilt_angle" Type="Float" Value="0"/>
+        <RGDNode Key="movement_scatter_distance_multiplier" Type="Float" Value="1"/>
+        <RGDNode Key="burst_pattern_enable" Type="Boolean" Value="false"/>
+        <RGDNode Key="area_scatter_option" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+        </RGDNode>
+        <RGDNode Key="tilt_scatter_chance" Type="Float" Value="0"/>
+        <RGDNode Key="distance_scatter_offset" Type="Float" Value="0"/>
+        <RGDNode Key="fow_distance_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="distance_scatter_max" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="avoid_blockers_of_relationship" Type="List">
+        <RGDNode Key="ally" Type="Boolean" Value="true"/>
+        <RGDNode Key="neutral" Type="Boolean" Value="true"/>
+        <RGDNode Key="enemy" Type="Boolean" Value="true"/>
+        <RGDNode Key="undefined" Type="Boolean" Value="true"/>
+      </RGDNode>
+      <RGDNode Key="teardown" Type="List">
+        <RGDNode Key="duration" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="fx_building_hit_delay" Type="Float" Value="0"/>
+      <RGDNode Key="brace_option" Type="List">
+        <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+      </RGDNode>
+      <RGDNode Key="fx_tracer_name" Type="CString" Value=""/>
+      <RGDNode Key="flinch_radius" Type="Float" Value="0"/>
+      <RGDNode Key="aim" Type="List">
+        <RGDNode Key="aim_time_multiplier" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="fire_aim_time" Type="List">
+          <RGDNode Key="max" Type="Float" Value="0"/>
+          <RGDNode Key="min" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="post_firing_aim_time_seconds" Type="Float" Value="0"/>
+        <RGDNode Key="post_firing_cooldown_interval_seconds" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="height_bonuses" Type="List">
+        <RGDNode Key="height_advantage" Type="List">
+          <RGDNode Key="multipliers" Type="List">
+            <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+          </RGDNode>
+          <RGDNode Key="height_threshold" Type="Float" Value="0"/>
+          <RGDNode Key="negates_cover" Type="Boolean" Value="false"/>
+        </RGDNode>
+        <RGDNode Key="height_disadvantage" Type="List">
+          <RGDNode Key="multipliers" Type="List">
+            <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+          </RGDNode>
+          <RGDNode Key="height_threshold" Type="Float" Value="0"/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="range" Type="List">
+        <RGDNode Key="distance" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="-1"/>
+          <RGDNode Key="near" Type="Float" Value="-1"/>
+          <RGDNode Key="far" Type="Float" Value="-1"/>
+        </RGDNode>
+        <RGDNode Key="max" Type="Float" Value="5"/>
+        <RGDNode Key="min" Type="Float" Value="0"/>
+        <RGDNode Key="max_height" Type="Float" Value="5"/>
+        <RGDNode Key="max_animation_angle_distance" Type="Float" Value="45"/>
+      </RGDNode>
+      <RGDNode Key="deflection" Type="List">
+        <RGDNode Key="has_deflection_damage" Type="Boolean" Value="false"/>
+        <RGDNode Key="deflection_damage_multiplier" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="fx_use_building_panel_normal" Type="Boolean" Value="false"/>
+      <RGDNode Key="reload" Type="List">
+        <RGDNode Key="duration" Type="List">
+          <RGDNode Key="max" Type="Float" Value="0"/>
+          <RGDNode Key="min" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="duration_multiplier" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="frequency" Type="List">
+          <RGDNode Key="max" Type="Float" Value="0"/>
+          <RGDNode Key="min" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="persistent_reloadticks" Type="Boolean" Value="false"/>
+        <RGDNode Key="require_reload_after_switch" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="siege_option" Type="List">
+        <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+      </RGDNode>
+      <RGDNode Key="target_type_table" Type="List">
+        <RGDNode Key="target_unit_type_multipliers" Type="List">
+          <RGDNode Key="weapon_multipliers" Type="List">
+            <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+          </RGDNode>
+          <RGDNode Key="unit_type" Type="CString" Value="cavalry"/>
+          <RGDNode Key="base_damage_modifier" Type="Float" Value="15"/>
+        </RGDNode>
+        <RGDNode Key="target_unit_type_multipliers" Type="List">
+          <RGDNode Key="weapon_multipliers" Type="List">
+            <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+          </RGDNode>
+          <RGDNode Key="unit_type" Type="CString" Value="war_elephant"/>
+          <RGDNode Key="base_damage_modifier" Type="Float" Value="3"/>
+        </RGDNode>
+        <RGDNode Key="target_unit_type_multipliers" Type="List">
+          <RGDNode Key="weapon_multipliers" Type="List">
+            <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+          </RGDNode>
+          <RGDNode Key="unit_type" Type="CString" Value="worker_elephant"/>
+          <RGDNode Key="base_damage_modifier" Type="Float" Value="20"/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="speech_code" Type="CString" Value=""/>
+    </RGDNode>
+    <RGDNode Key="pbgid" Type="Int" Value="1073741858"/>
+    <RGDNode Key="parent_pbg" Type="List">
+      <RGDNode Key="$PBGNAME" Type="CString" Value="weapon_spearman_1"/>
+      <RGDNode Key="$PBGMAP" Type="CString" Value="weapon"/>
+    </RGDNode>
+  </RGDNode>
+  <RGDNode Key="cordoba" Type="List">
+    <RGDNode Key="weapon_bag" Type="List">
+      <RGDNode Key="name" Type="CString" Value="Spearman Weapon"/>
+      <RGDNode Key="weapon_class" Type="CString" Value="cdn_2h_spear"/>
+      <RGDNode Key="fog_of_war" Type="List">
+        <RGDNode Key="reveal_self_on_attack" Type="Boolean" Value="true"/>
+        <RGDNode Key="reveal_target_on_hit" Type="Boolean" Value="true"/>
+      </RGDNode>
+      <RGDNode Key="ui_map_colour" Type="List">
+        <RGDNode Key="red" Type="Int" Value="0"/>
+        <RGDNode Key="green" Type="Int" Value="0"/>
+        <RGDNode Key="blue" Type="Int" Value="0"/>
+        <RGDNode Key="alpha" Type="Int" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="accuracy" Type="List">
+        <RGDNode Key="mid" Type="Float" Value="1"/>
+        <RGDNode Key="near" Type="Float" Value="1"/>
+        <RGDNode Key="far" Type="Float" Value="1"/>
+      </RGDNode>
+      <RGDNode Key="animation_role_option" Type="List">
+        <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+      </RGDNode>
+      <RGDNode Key="projectile" Type="List">
+        <RGDNode Key="projectile" Type="List">
+          <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+          <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="terrain_elevation_option" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+        </RGDNode>
+        <RGDNode Key="delete_previous_on_hit" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="fx_tracer_speed" Type="Float" Value="0"/>
+      <RGDNode Key="area_effect" Type="List">
+        <RGDNode Key="accuracy" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="suppression_friendly" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="0"/>
+          <RGDNode Key="near" Type="Float" Value="0"/>
+          <RGDNode Key="far" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="area_over_time_option" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="damage" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="damage_friendly" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="distance" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="0"/>
+          <RGDNode Key="near" Type="Float" Value="0"/>
+          <RGDNode Key="far" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="aoe_origin_and_direction" Type="Int" Value="0"/>
+        <RGDNode Key="aoe_penetration" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="0"/>
+          <RGDNode Key="$REF" Type="CString" Value="tables\range_table"/>
+          <RGDNode Key="near" Type="Float" Value="0"/>
+          <RGDNode Key="far" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="suppression" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="0"/>
+          <RGDNode Key="near" Type="Float" Value="0"/>
+          <RGDNode Key="far" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="fx" Type="List">
+          <RGDNode Key="num_randomized_ground_hit_fx" Type="Int" Value="0"/>
+          <RGDNode Key="exponential_distribution_lambda" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="area_info" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="options\area_info_options\point_area_option"/>
+        </RGDNode>
+        <RGDNode Key="damage_max_members_per_squad" Type="Int" Value="-1"/>
+        <RGDNode Key="has_friendly_fire" Type="Boolean" Value="false"/>
+        <RGDNode Key="damage_all_in_hold" Type="Boolean" Value="false"/>
+        <RGDNode Key="can_harm_shooter" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="fx_aoe_munition_name" Type="CString" Value=""/>
+      <RGDNode Key="ui_range" Type="List">
+        <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+        <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="priority" Type="List">
+        <RGDNode Key="rotation" Type="Float" Value="0"/>
+        <RGDNode Key="target" Type="List">
+          <RGDNode Key="in_cover" Type="Float" Value="0"/>
+          <RGDNode Key="dps" Type="Float" Value="0"/>
+          <RGDNode Key="max_health" Type="Float" Value="0"/>
+          <RGDNode Key="out_of_los" Type="Float" Value="-100"/>
+          <RGDNode Key="penetration" Type="Float" Value="0"/>
+          <RGDNode Key="current_health_percentage" Type="Float" Value="0"/>
+          <RGDNode Key="vs_armor_type" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="suggested_target" Type="Float" Value="0"/>
+        <RGDNode Key="window_bonus" Type="Float" Value="0"/>
+        <RGDNode Key="distance" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="randomly_target_squad_mates_of_best_priority_entity" Type="Boolean" Value="false"/>
+        <RGDNode Key="untargeted_by_formation_melee" Type="Float" Value="0"/>
+        <RGDNode Key="penetration" Type="Float" Value="0"/>
+        <RGDNode Key="current_target" Type="Float" Value="0"/>
+        <RGDNode Key="over_penetration_priority_penalty" Type="Boolean" Value="false"/>
+        <RGDNode Key="vs_armor_type" Type="Float" Value="0"/>
+        <RGDNode Key="untargeted_by_formation_ranged" Type="Float" Value="0"/>
+        <RGDNode Key="current_target_squad" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="damage" Type="List">
+        <RGDNode Key="damage_type" Type="CString" Value="Melee"/>
+        <RGDNode Key="on_critical_hit_state_trees" Type="List">
+        </RGDNode>
+        <RGDNode Key="allow_overkill" Type="Boolean" Value="false"/>
+        <RGDNode Key="critical_damage_chance" Type="Float" Value="0.02"/>
+        <RGDNode Key="should_keep_above_one" Type="Boolean" Value="true"/>
+        <RGDNode Key="max" Type="Float" Value="7"/>
+        <RGDNode Key="min" Type="Float" Value="7"/>
+        <RGDNode Key="on_penetrated_state_trees" Type="List">
+        </RGDNode>
+        <RGDNode Key="critical_damage_factor" Type="Float" Value="5"/>
+      </RGDNode>
+      <RGDNode Key="suppressed" Type="List">
+        <RGDNode Key="pinned_cooldown_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="pinned_reload_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="suppressed_cooldown_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="suppressed_reload_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="pinned_burst_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="suppressed_burst_multiplier" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="ui_tooltip_weapon_group" Type="CString" Value=""/>
+      <RGDNode Key="weapon_options" Type="List">
+        <RGDNode Key="windup_extended_range_override" Type="Float" Value="-1"/>
+        <RGDNode Key="$REF" Type="CString" Value="options\weapon\melee_options"/>
+        <RGDNode Key="attack_animation_chain_length" Type="Float" Value="1"/>
+      </RGDNode>
+      <RGDNode Key="fx_delay_in_building" Type="Float" Value="0"/>
+      <RGDNode Key="ui_show_on_tooltip" Type="Boolean" Value="false"/>
+      <RGDNode Key="burst" Type="List">
+        <RGDNode Key="duration" Type="List">
+          <RGDNode Key="max" Type="Float" Value="0"/>
+          <RGDNode Key="min" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="convert_target_to_position_before_firing" Type="Boolean" Value="false"/>
+        <RGDNode Key="rate_of_fire_multiplier" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="duration_multiplier" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="focus_fire" Type="Boolean" Value="false"/>
+        <RGDNode Key="can_burst" Type="Boolean" Value="false"/>
+        <RGDNode Key="uninterruptible_burst_fire" Type="Boolean" Value="false"/>
+        <RGDNode Key="rate_of_fire" Type="List">
+          <RGDNode Key="max" Type="Float" Value="0"/>
+          <RGDNode Key="min" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="incremental_target_table" Type="List">
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="search_radius" Type="List">
+            <RGDNode Key="mid" Type="Float" Value="0"/>
+            <RGDNode Key="near" Type="Float" Value="0"/>
+            <RGDNode Key="far" Type="Float" Value="0"/>
+          </RGDNode>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="behaviour" Type="List">
+        <RGDNode Key="ignore_shot_blocking" Type="Boolean" Value="false"/>
+        <RGDNode Key="aa_weapon" Type="Boolean" Value="false"/>
+        <RGDNode Key="reaction_radius" Type="Float" Value="0"/>
+        <RGDNode Key="can_be_substituted" Type="Boolean" Value="false"/>
+        <RGDNode Key="ground_hit_rate" Type="Float" Value="0"/>
+        <RGDNode Key="force_square_attack" Type="Boolean" Value="false"/>
+        <RGDNode Key="non_moving_setup_requires_facing" Type="Boolean" Value="false"/>
+        <RGDNode Key="artillery_force_obey_los" Type="Boolean" Value="false"/>
+        <RGDNode Key="causes_combat" Type="Boolean" Value="true"/>
+        <RGDNode Key="can_abort_winddown_on_weapon_switch" Type="Boolean" Value="true"/>
+        <RGDNode Key="non_moving_setup" Type="Boolean" Value="false"/>
+        <RGDNode Key="can_be_offhanded" Type="Boolean" Value="false"/>
+        <RGDNode Key="reaction_type" Type="CString" Value="normal"/>
+        <RGDNode Key="single_handed_weapon" Type="Boolean" Value="false"/>
+        <RGDNode Key="combat_slot_offset" Type="Float" Value="-20"/>
+        <RGDNode Key="enable_auto_target_search" Type="Boolean" Value="false"/>
+        <RGDNode Key="substitute_weapon" Type="Boolean" Value="false"/>
+        <RGDNode Key="attack_team_weapon_user" Type="Boolean" Value="false"/>
+        <RGDNode Key="fire_at_building_combat_slot" Type="Boolean" Value="false"/>
+        <RGDNode Key="attack_ground_type" Type="Int" Value="0"/>
+        <RGDNode Key="can_damage_allies" Type="Boolean" Value="false"/>
+        <RGDNode Key="wants_prone_firing_option" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+        </RGDNode>
+        <RGDNode Key="hit_pos_behaviour" Type="Int" Value="0"/>
+        <RGDNode Key="support_weapon" Type="Boolean" Value="false"/>
+        <RGDNode Key="aa_weapon_shoot_through" Type="Boolean" Value="false"/>
+        <RGDNode Key="hit_everything_on_hit" Type="Boolean" Value="false"/>
+        <RGDNode Key="ignore_relations" Type="Boolean" Value="false"/>
+        <RGDNode Key="can_abort_winddown_on_move_command" Type="Boolean" Value="false"/>
+        <RGDNode Key="reset_rotation_on_teardown" Type="Boolean" Value="false"/>
+        <RGDNode Key="hit_everything_on_miss" Type="Boolean" Value="false"/>
+        <RGDNode Key="share_parent_anim" Type="Boolean" Value="false"/>
+        <RGDNode Key="prevents_prone" Type="Boolean" Value="false"/>
+        <RGDNode Key="piercing" Type="Boolean" Value="false"/>
+        <RGDNode Key="surprises_idle" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="weapon_tags" Type="List">
+      </RGDNode>
+      <RGDNode Key="fx_munition_name" Type="CString" Value="common_spear_charge"/>
+      <RGDNode Key="icon_name" Type="CString" Value=""/>
+      <RGDNode Key="suppression" Type="List">
+        <RGDNode Key="target_suppressed_multipliers" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="target_pinned_multipliers" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="nearby_suppression_radius" Type="Float" Value="0"/>
+        <RGDNode Key="nearby_suppression_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="amount" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="kill_unit_types_on_hit" Type="List">
+      </RGDNode>
+      <RGDNode Key="tracking" Type="List">
+        <RGDNode Key="normal" Type="List">
+          <RGDNode Key="speed_horizontal" Type="Float" Value="180"/>
+          <RGDNode Key="max_right" Type="Float" Value="0"/>
+          <RGDNode Key="max_down" Type="Float" Value="0"/>
+          <RGDNode Key="max_up" Type="Float" Value="0"/>
+          <RGDNode Key="speed_vertical" Type="Float" Value="180"/>
+          <RGDNode Key="max_left" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="fire_cone_angle" Type="Float" Value="90"/>
+        <RGDNode Key="pivot_end_time" Type="Float" Value="0"/>
+        <RGDNode Key="fire_cone_angle_vert" Type="Float" Value="2"/>
+        <RGDNode Key="pivot_start_time" Type="Float" Value="0"/>
+        <RGDNode Key="pivot_only" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="cooldown" Type="List">
+        <RGDNode Key="duration" Type="List">
+          <RGDNode Key="max" Type="Float" Value="1"/>
+          <RGDNode Key="min" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="duration_multiplier" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="persistent_cooldownticks" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="fx_piercing_munition_name" Type="CString" Value=""/>
+      <RGDNode Key="charge_option" Type="List">
+        <RGDNode Key="charge_attack_target_position_offset" Type="Float" Value="2"/>
+        <RGDNode Key="$REF" Type="CString" Value="options\weapon\charge_option"/>
+        <RGDNode Key="weapon_hit_disabled_duration" Type="Float" Value="1"/>
+      </RGDNode>
+      <RGDNode Key="ui_setfacing" Type="List">
+        <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+        <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="fx_always_visible" Type="Boolean" Value="false"/>
+      <RGDNode Key="fx_action_target_name" Type="CString" Value=""/>
+      <RGDNode Key="moving" Type="List">
+        <RGDNode Key="cooldown_multiplier" Type="Float" Value="1"/>
+        <RGDNode Key="can_fire_while_moving" Type="Boolean" Value="false"/>
+        <RGDNode Key="moving_start_time" Type="Float" Value="0"/>
+        <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+        <RGDNode Key="moving_end_time" Type="Float" Value="0"/>
+        <RGDNode Key="burst_multiplier" Type="Float" Value="1"/>
+      </RGDNode>
+      <RGDNode Key="ui_name" Type="Int" Value="11164723"/>
+      <RGDNode Key="fire" Type="List">
+        <RGDNode Key="animation_impact_frame_time" Type="Float" Value="0.25"/>
+        <RGDNode Key="wind_up" Type="Float" Value="0.25"/>
+        <RGDNode Key="wind_down" Type="Float" Value="0.5"/>
+      </RGDNode>
+      <RGDNode Key="penetration" Type="List">
+        <RGDNode Key="mid" Type="Float" Value="0"/>
+        <RGDNode Key="near" Type="Float" Value="0"/>
+        <RGDNode Key="far" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="default_attack_type" Type="CString" Value="default"/>
+      <RGDNode Key="anim_table" Type="List">
+        <RGDNode Key="cooldown_time_name" Type="CString" Value=""/>
+        <RGDNode Key="target_range_name" Type="CString" Value=""/>
+        <RGDNode Key="track_vertical_speed" Type="CString" Value=""/>
+        <RGDNode Key="track_horizontal_speed" Type="CString" Value=""/>
+        <RGDNode Key="track_world_pos_z_name" Type="CString" Value=""/>
+        <RGDNode Key="ability_state" Type="CString" Value=""/>
+        <RGDNode Key="track_horizontal" Type="CString" Value=""/>
+        <RGDNode Key="track_vertical" Type="CString" Value=""/>
+        <RGDNode Key="state_name" Type="CString" Value="melee_weapon_state"/>
+        <RGDNode Key="track_world_pos_x_name" Type="CString" Value=""/>
+        <RGDNode Key="variety_name" Type="CString" Value=""/>
+        <RGDNode Key="attack_speed_scale_value" Type="Float" Value="1"/>
+        <RGDNode Key="visibility_name" Type="CString" Value=""/>
+        <RGDNode Key="attack_speed_scale_name" Type="CString" Value="melee_speed_scale"/>
+        <RGDNode Key="track_world_pos_y_name" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="cover_table" Type="List">
+        <RGDNode Key="plain" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="$REF" Type="CString" Value="weapon_cover_info"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="forest" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="$REF" Type="CString" Value="weapon_cover_info"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="hill" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="$REF" Type="CString" Value="weapon_cover_info"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="mountain" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="$REF" Type="CString" Value="weapon_cover_info"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="tp_defcover" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="$REF" Type="CString" Value="weapon_cover_info"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="water" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="$REF" Type="CString" Value="weapon_cover_info"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="setup" Type="List">
+        <RGDNode Key="duration" Type="Float" Value="0"/>
+        <RGDNode Key="has_instant_setup" Type="Boolean" Value="false"/>
+        <RGDNode Key="requires_aim_elevation" Type="Boolean" Value="false"/>
+        <RGDNode Key="attach_duration" Type="Float" Value="0"/>
+        <RGDNode Key="can_interrupt_setup" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="scatter" Type="List">
+        <RGDNode Key="distance_scatter_obj_hit_min" Type="Float" Value="0"/>
+        <RGDNode Key="distance_guaranteed_before_hit_percentage" Type="Float" Value="0"/>
+        <RGDNode Key="distance_bracket_count_air" Type="Float" Value="0"/>
+        <RGDNode Key="angle_scatter" Type="Float" Value="0"/>
+        <RGDNode Key="movement_scatter_angle_multiplier" Type="Float" Value="1"/>
+        <RGDNode Key="max_tilt_angle" Type="Float" Value="0"/>
+        <RGDNode Key="distance_scatter_ratio" Type="Float" Value="0"/>
+        <RGDNode Key="fow_angle_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="tilt_max_distance" Type="Float" Value="0"/>
+        <RGDNode Key="distance_bracket_count_ground" Type="Float" Value="1"/>
+        <RGDNode Key="delay_bracket_change_chance" Type="Float" Value="0"/>
+        <RGDNode Key="min_tilt_angle" Type="Float" Value="0"/>
+        <RGDNode Key="movement_scatter_distance_multiplier" Type="Float" Value="1"/>
+        <RGDNode Key="burst_pattern_enable" Type="Boolean" Value="false"/>
+        <RGDNode Key="area_scatter_option" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+        </RGDNode>
+        <RGDNode Key="tilt_scatter_chance" Type="Float" Value="0"/>
+        <RGDNode Key="distance_scatter_offset" Type="Float" Value="0"/>
+        <RGDNode Key="fow_distance_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="distance_scatter_max" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="avoid_blockers_of_relationship" Type="List">
+        <RGDNode Key="ally" Type="Boolean" Value="true"/>
+        <RGDNode Key="neutral" Type="Boolean" Value="true"/>
+        <RGDNode Key="enemy" Type="Boolean" Value="true"/>
+        <RGDNode Key="undefined" Type="Boolean" Value="true"/>
+      </RGDNode>
+      <RGDNode Key="teardown" Type="List">
+        <RGDNode Key="duration" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="fx_building_hit_delay" Type="Float" Value="0"/>
+      <RGDNode Key="brace_option" Type="List">
+        <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+      </RGDNode>
+      <RGDNode Key="fx_tracer_name" Type="CString" Value=""/>
+      <RGDNode Key="flinch_radius" Type="Float" Value="0"/>
+      <RGDNode Key="aim" Type="List">
+        <RGDNode Key="aim_time_multiplier" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="fire_aim_time" Type="List">
+          <RGDNode Key="max" Type="Float" Value="0"/>
+          <RGDNode Key="min" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="post_firing_aim_time_seconds" Type="Float" Value="0"/>
+        <RGDNode Key="post_firing_cooldown_interval_seconds" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="height_bonuses" Type="List">
+        <RGDNode Key="height_advantage" Type="List">
+          <RGDNode Key="multipliers" Type="List">
+            <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+          </RGDNode>
+          <RGDNode Key="height_threshold" Type="Float" Value="0"/>
+          <RGDNode Key="negates_cover" Type="Boolean" Value="false"/>
+        </RGDNode>
+        <RGDNode Key="height_disadvantage" Type="List">
+          <RGDNode Key="multipliers" Type="List">
+            <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+          </RGDNode>
+          <RGDNode Key="height_threshold" Type="Float" Value="0"/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="range" Type="List">
+        <RGDNode Key="distance" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="-1"/>
+          <RGDNode Key="near" Type="Float" Value="-1"/>
+          <RGDNode Key="far" Type="Float" Value="-1"/>
+        </RGDNode>
+        <RGDNode Key="max" Type="Float" Value="2.18"/>
+        <RGDNode Key="min" Type="Float" Value="0"/>
+        <RGDNode Key="max_height" Type="Float" Value="5"/>
+        <RGDNode Key="max_animation_angle_distance" Type="Float" Value="45"/>
+      </RGDNode>
+      <RGDNode Key="deflection" Type="List">
+        <RGDNode Key="has_deflection_damage" Type="Boolean" Value="false"/>
+        <RGDNode Key="deflection_damage_multiplier" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="fx_use_building_panel_normal" Type="Boolean" Value="false"/>
+      <RGDNode Key="reload" Type="List">
+        <RGDNode Key="duration" Type="List">
+          <RGDNode Key="max" Type="Float" Value="0"/>
+          <RGDNode Key="min" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="duration_multiplier" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="frequency" Type="List">
+          <RGDNode Key="max" Type="Float" Value="0"/>
+          <RGDNode Key="min" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="persistent_reloadticks" Type="Boolean" Value="false"/>
+        <RGDNode Key="require_reload_after_switch" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="siege_option" Type="List">
+        <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+      </RGDNode>
+      <RGDNode Key="target_type_table" Type="List">
+        <RGDNode Key="target_unit_type_multipliers" Type="List">
+          <RGDNode Key="weapon_multipliers" Type="List">
+            <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+          </RGDNode>
+          <RGDNode Key="unit_type" Type="CString" Value="cavalry"/>
+          <RGDNode Key="base_damage_modifier" Type="Float" Value="17"/>
+        </RGDNode>
+        <RGDNode Key="target_unit_type_multipliers" Type="List">
+          <RGDNode Key="weapon_multipliers" Type="List">
+            <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+          </RGDNode>
+          <RGDNode Key="unit_type" Type="CString" Value="war_elephant"/>
+          <RGDNode Key="base_damage_modifier" Type="Float" Value="3"/>
+        </RGDNode>
+        <RGDNode Key="target_unit_type_multipliers" Type="List">
+          <RGDNode Key="weapon_multipliers" Type="List">
+            <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+          </RGDNode>
+          <RGDNode Key="unit_type" Type="CString" Value="worker_elephant"/>
+          <RGDNode Key="base_damage_modifier" Type="Float" Value="20"/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="speech_code" Type="CString" Value=""/>
+    </RGDNode>
+    <RGDNode Key="pbgid" Type="Int" Value="1073741858"/>
+    <RGDNode Key="parent_pbg" Type="List">
+      <RGDNode Key="$PBGNAME" Type="CString" Value="weapon_spearman_1"/>
+      <RGDNode Key="$PBGMAP" Type="CString" Value="weapon"/>
+    </RGDNode>
+  </RGDNode>
+  <RGDNode Key="instance_version" Type="Int" Value="2"/>
+  <RGDNode Key="campaign" Type="List">
+    <RGDNode Key="weapon_bag" Type="List">
+      <RGDNode Key="name" Type="CString" Value="Spearman Weapon"/>
+      <RGDNode Key="weapon_class" Type="CString" Value="cdn_2h_spear"/>
+      <RGDNode Key="fog_of_war" Type="List">
+        <RGDNode Key="reveal_self_on_attack" Type="Boolean" Value="true"/>
+        <RGDNode Key="reveal_target_on_hit" Type="Boolean" Value="true"/>
+      </RGDNode>
+      <RGDNode Key="ui_map_colour" Type="List">
+        <RGDNode Key="red" Type="Int" Value="0"/>
+        <RGDNode Key="green" Type="Int" Value="0"/>
+        <RGDNode Key="blue" Type="Int" Value="0"/>
+        <RGDNode Key="alpha" Type="Int" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="accuracy" Type="List">
+        <RGDNode Key="mid" Type="Float" Value="1"/>
+        <RGDNode Key="near" Type="Float" Value="1"/>
+        <RGDNode Key="far" Type="Float" Value="1"/>
+      </RGDNode>
+      <RGDNode Key="animation_role_option" Type="List">
+        <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+      </RGDNode>
+      <RGDNode Key="projectile" Type="List">
+        <RGDNode Key="projectile" Type="List">
+          <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+          <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="terrain_elevation_option" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+        </RGDNode>
+        <RGDNode Key="delete_previous_on_hit" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="fx_tracer_speed" Type="Float" Value="0"/>
+      <RGDNode Key="area_effect" Type="List">
+        <RGDNode Key="accuracy" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="suppression_friendly" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="0"/>
+          <RGDNode Key="near" Type="Float" Value="0"/>
+          <RGDNode Key="far" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="area_over_time_option" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="damage" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="damage_friendly" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="distance" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="0"/>
+          <RGDNode Key="near" Type="Float" Value="0"/>
+          <RGDNode Key="far" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="aoe_origin_and_direction" Type="Int" Value="0"/>
+        <RGDNode Key="aoe_penetration" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="0"/>
+          <RGDNode Key="$REF" Type="CString" Value="tables\range_table"/>
+          <RGDNode Key="near" Type="Float" Value="0"/>
+          <RGDNode Key="far" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="suppression" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="0"/>
+          <RGDNode Key="near" Type="Float" Value="0"/>
+          <RGDNode Key="far" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="fx" Type="List">
+          <RGDNode Key="num_randomized_ground_hit_fx" Type="Int" Value="0"/>
+          <RGDNode Key="exponential_distribution_lambda" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="area_info" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="options\area_info_options\point_area_option"/>
+        </RGDNode>
+        <RGDNode Key="damage_max_members_per_squad" Type="Int" Value="-1"/>
+        <RGDNode Key="has_friendly_fire" Type="Boolean" Value="false"/>
+        <RGDNode Key="damage_all_in_hold" Type="Boolean" Value="false"/>
+        <RGDNode Key="can_harm_shooter" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="fx_aoe_munition_name" Type="CString" Value=""/>
+      <RGDNode Key="ui_range" Type="List">
+        <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+        <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="priority" Type="List">
+        <RGDNode Key="rotation" Type="Float" Value="0"/>
+        <RGDNode Key="target" Type="List">
+          <RGDNode Key="in_cover" Type="Float" Value="0"/>
+          <RGDNode Key="dps" Type="Float" Value="0"/>
+          <RGDNode Key="max_health" Type="Float" Value="0"/>
+          <RGDNode Key="out_of_los" Type="Float" Value="-100"/>
+          <RGDNode Key="penetration" Type="Float" Value="0"/>
+          <RGDNode Key="current_health_percentage" Type="Float" Value="0"/>
+          <RGDNode Key="vs_armor_type" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="suggested_target" Type="Float" Value="0"/>
+        <RGDNode Key="window_bonus" Type="Float" Value="0"/>
+        <RGDNode Key="distance" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="randomly_target_squad_mates_of_best_priority_entity" Type="Boolean" Value="false"/>
+        <RGDNode Key="untargeted_by_formation_melee" Type="Float" Value="0"/>
+        <RGDNode Key="penetration" Type="Float" Value="0"/>
+        <RGDNode Key="current_target" Type="Float" Value="0"/>
+        <RGDNode Key="over_penetration_priority_penalty" Type="Boolean" Value="false"/>
+        <RGDNode Key="vs_armor_type" Type="Float" Value="0"/>
+        <RGDNode Key="untargeted_by_formation_ranged" Type="Float" Value="0"/>
+        <RGDNode Key="current_target_squad" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="damage" Type="List">
+        <RGDNode Key="damage_type" Type="CString" Value="Melee"/>
+        <RGDNode Key="on_critical_hit_state_trees" Type="List">
+        </RGDNode>
+        <RGDNode Key="allow_overkill" Type="Boolean" Value="false"/>
+        <RGDNode Key="critical_damage_chance" Type="Float" Value="0.01"/>
+        <RGDNode Key="should_keep_above_one" Type="Boolean" Value="true"/>
+        <RGDNode Key="max" Type="Float" Value="6"/>
+        <RGDNode Key="min" Type="Float" Value="6"/>
+        <RGDNode Key="on_penetrated_state_trees" Type="List">
+        </RGDNode>
+        <RGDNode Key="critical_damage_factor" Type="Float" Value="8"/>
+      </RGDNode>
+      <RGDNode Key="suppressed" Type="List">
+        <RGDNode Key="pinned_cooldown_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="pinned_reload_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="suppressed_cooldown_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="suppressed_reload_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="pinned_burst_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="suppressed_burst_multiplier" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="ui_tooltip_weapon_group" Type="CString" Value=""/>
+      <RGDNode Key="weapon_options" Type="List">
+        <RGDNode Key="windup_extended_range_override" Type="Float" Value="-1"/>
+        <RGDNode Key="$REF" Type="CString" Value="options\weapon\melee_options"/>
+        <RGDNode Key="attack_animation_chain_length" Type="Float" Value="1"/>
+      </RGDNode>
+      <RGDNode Key="fx_delay_in_building" Type="Float" Value="0"/>
+      <RGDNode Key="ui_show_on_tooltip" Type="Boolean" Value="true"/>
+      <RGDNode Key="burst" Type="List">
+        <RGDNode Key="duration" Type="List">
+          <RGDNode Key="max" Type="Float" Value="0"/>
+          <RGDNode Key="min" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="convert_target_to_position_before_firing" Type="Boolean" Value="false"/>
+        <RGDNode Key="rate_of_fire_multiplier" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="duration_multiplier" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="focus_fire" Type="Boolean" Value="false"/>
+        <RGDNode Key="can_burst" Type="Boolean" Value="false"/>
+        <RGDNode Key="uninterruptible_burst_fire" Type="Boolean" Value="false"/>
+        <RGDNode Key="rate_of_fire" Type="List">
+          <RGDNode Key="max" Type="Float" Value="0"/>
+          <RGDNode Key="min" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="incremental_target_table" Type="List">
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="search_radius" Type="List">
+            <RGDNode Key="mid" Type="Float" Value="0"/>
+            <RGDNode Key="near" Type="Float" Value="0"/>
+            <RGDNode Key="far" Type="Float" Value="0"/>
+          </RGDNode>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="behaviour" Type="List">
+        <RGDNode Key="ignore_shot_blocking" Type="Boolean" Value="false"/>
+        <RGDNode Key="aa_weapon" Type="Boolean" Value="false"/>
+        <RGDNode Key="reaction_radius" Type="Float" Value="0"/>
+        <RGDNode Key="can_be_substituted" Type="Boolean" Value="false"/>
+        <RGDNode Key="ground_hit_rate" Type="Float" Value="0"/>
+        <RGDNode Key="force_square_attack" Type="Boolean" Value="false"/>
+        <RGDNode Key="non_moving_setup_requires_facing" Type="Boolean" Value="false"/>
+        <RGDNode Key="artillery_force_obey_los" Type="Boolean" Value="false"/>
+        <RGDNode Key="causes_combat" Type="Boolean" Value="true"/>
+        <RGDNode Key="can_abort_winddown_on_weapon_switch" Type="Boolean" Value="true"/>
+        <RGDNode Key="non_moving_setup" Type="Boolean" Value="false"/>
+        <RGDNode Key="can_be_offhanded" Type="Boolean" Value="false"/>
+        <RGDNode Key="reaction_type" Type="CString" Value="normal"/>
+        <RGDNode Key="single_handed_weapon" Type="Boolean" Value="false"/>
+        <RGDNode Key="combat_slot_offset" Type="Float" Value="-20"/>
+        <RGDNode Key="enable_auto_target_search" Type="Boolean" Value="false"/>
+        <RGDNode Key="substitute_weapon" Type="Boolean" Value="false"/>
+        <RGDNode Key="attack_team_weapon_user" Type="Boolean" Value="false"/>
+        <RGDNode Key="fire_at_building_combat_slot" Type="Boolean" Value="false"/>
+        <RGDNode Key="attack_ground_type" Type="Int" Value="0"/>
+        <RGDNode Key="can_damage_allies" Type="Boolean" Value="false"/>
+        <RGDNode Key="wants_prone_firing_option" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+        </RGDNode>
+        <RGDNode Key="hit_pos_behaviour" Type="Int" Value="0"/>
+        <RGDNode Key="support_weapon" Type="Boolean" Value="false"/>
+        <RGDNode Key="aa_weapon_shoot_through" Type="Boolean" Value="false"/>
+        <RGDNode Key="hit_everything_on_hit" Type="Boolean" Value="false"/>
+        <RGDNode Key="ignore_relations" Type="Boolean" Value="false"/>
+        <RGDNode Key="can_abort_winddown_on_move_command" Type="Boolean" Value="false"/>
+        <RGDNode Key="reset_rotation_on_teardown" Type="Boolean" Value="false"/>
+        <RGDNode Key="hit_everything_on_miss" Type="Boolean" Value="false"/>
+        <RGDNode Key="share_parent_anim" Type="Boolean" Value="false"/>
+        <RGDNode Key="prevents_prone" Type="Boolean" Value="false"/>
+        <RGDNode Key="piercing" Type="Boolean" Value="false"/>
+        <RGDNode Key="surprises_idle" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="weapon_tags" Type="List">
+      </RGDNode>
+      <RGDNode Key="fx_munition_name" Type="CString" Value="common_spear_charge"/>
+      <RGDNode Key="icon_name" Type="CString" Value=""/>
+      <RGDNode Key="suppression" Type="List">
+        <RGDNode Key="target_suppressed_multipliers" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="target_pinned_multipliers" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="nearby_suppression_radius" Type="Float" Value="0"/>
+        <RGDNode Key="nearby_suppression_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="amount" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="kill_unit_types_on_hit" Type="List">
+      </RGDNode>
+      <RGDNode Key="tracking" Type="List">
+        <RGDNode Key="normal" Type="List">
+          <RGDNode Key="speed_horizontal" Type="Float" Value="180"/>
+          <RGDNode Key="max_right" Type="Float" Value="0"/>
+          <RGDNode Key="max_down" Type="Float" Value="0"/>
+          <RGDNode Key="max_up" Type="Float" Value="0"/>
+          <RGDNode Key="speed_vertical" Type="Float" Value="180"/>
+          <RGDNode Key="max_left" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="fire_cone_angle" Type="Float" Value="90"/>
+        <RGDNode Key="pivot_end_time" Type="Float" Value="0"/>
+        <RGDNode Key="fire_cone_angle_vert" Type="Float" Value="2"/>
+        <RGDNode Key="pivot_start_time" Type="Float" Value="0"/>
+        <RGDNode Key="pivot_only" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="cooldown" Type="List">
+        <RGDNode Key="duration" Type="List">
+          <RGDNode Key="max" Type="Float" Value="1"/>
+          <RGDNode Key="min" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="duration_multiplier" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="persistent_cooldownticks" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="fx_piercing_munition_name" Type="CString" Value=""/>
+      <RGDNode Key="charge_option" Type="List">
+        <RGDNode Key="charge_attack_target_position_offset" Type="Float" Value="2"/>
+        <RGDNode Key="$REF" Type="CString" Value="options\weapon\charge_option"/>
+        <RGDNode Key="weapon_hit_disabled_duration" Type="Float" Value="1"/>
+      </RGDNode>
+      <RGDNode Key="ui_setfacing" Type="List">
+        <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+        <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="fx_always_visible" Type="Boolean" Value="false"/>
+      <RGDNode Key="fx_action_target_name" Type="CString" Value=""/>
+      <RGDNode Key="moving" Type="List">
+        <RGDNode Key="cooldown_multiplier" Type="Float" Value="1"/>
+        <RGDNode Key="can_fire_while_moving" Type="Boolean" Value="false"/>
+        <RGDNode Key="moving_start_time" Type="Float" Value="0"/>
+        <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+        <RGDNode Key="moving_end_time" Type="Float" Value="0"/>
+        <RGDNode Key="burst_multiplier" Type="Float" Value="1"/>
+      </RGDNode>
+      <RGDNode Key="ui_name" Type="Int" Value="11164723"/>
+      <RGDNode Key="fire" Type="List">
+        <RGDNode Key="animation_impact_frame_time" Type="Float" Value="0.25"/>
+        <RGDNode Key="wind_up" Type="Float" Value="0.25"/>
+        <RGDNode Key="wind_down" Type="Float" Value="0.5"/>
+      </RGDNode>
+      <RGDNode Key="penetration" Type="List">
+        <RGDNode Key="mid" Type="Float" Value="0"/>
+        <RGDNode Key="near" Type="Float" Value="0"/>
+        <RGDNode Key="far" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="default_attack_type" Type="CString" Value="default"/>
+      <RGDNode Key="anim_table" Type="List">
+        <RGDNode Key="cooldown_time_name" Type="CString" Value=""/>
+        <RGDNode Key="target_range_name" Type="CString" Value=""/>
+        <RGDNode Key="track_vertical_speed" Type="CString" Value=""/>
+        <RGDNode Key="track_horizontal_speed" Type="CString" Value=""/>
+        <RGDNode Key="track_world_pos_z_name" Type="CString" Value=""/>
+        <RGDNode Key="ability_state" Type="CString" Value=""/>
+        <RGDNode Key="track_horizontal" Type="CString" Value=""/>
+        <RGDNode Key="track_vertical" Type="CString" Value=""/>
+        <RGDNode Key="state_name" Type="CString" Value="melee_weapon_state"/>
+        <RGDNode Key="track_world_pos_x_name" Type="CString" Value=""/>
+        <RGDNode Key="variety_name" Type="CString" Value=""/>
+        <RGDNode Key="attack_speed_scale_value" Type="Float" Value="1"/>
+        <RGDNode Key="visibility_name" Type="CString" Value=""/>
+        <RGDNode Key="attack_speed_scale_name" Type="CString" Value="melee_speed_scale"/>
+        <RGDNode Key="track_world_pos_y_name" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="cover_table" Type="List">
+        <RGDNode Key="plain" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="$REF" Type="CString" Value="weapon_cover_info"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="forest" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="$REF" Type="CString" Value="weapon_cover_info"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="hill" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="$REF" Type="CString" Value="weapon_cover_info"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="mountain" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="$REF" Type="CString" Value="weapon_cover_info"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="tp_defcover" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="$REF" Type="CString" Value="weapon_cover_info"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="water" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="$REF" Type="CString" Value="weapon_cover_info"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="setup" Type="List">
+        <RGDNode Key="duration" Type="Float" Value="0"/>
+        <RGDNode Key="has_instant_setup" Type="Boolean" Value="false"/>
+        <RGDNode Key="requires_aim_elevation" Type="Boolean" Value="false"/>
+        <RGDNode Key="attach_duration" Type="Float" Value="0"/>
+        <RGDNode Key="can_interrupt_setup" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="scatter" Type="List">
+        <RGDNode Key="distance_scatter_obj_hit_min" Type="Float" Value="0"/>
+        <RGDNode Key="distance_guaranteed_before_hit_percentage" Type="Float" Value="0"/>
+        <RGDNode Key="distance_bracket_count_air" Type="Float" Value="0"/>
+        <RGDNode Key="angle_scatter" Type="Float" Value="0"/>
+        <RGDNode Key="movement_scatter_angle_multiplier" Type="Float" Value="1"/>
+        <RGDNode Key="max_tilt_angle" Type="Float" Value="0"/>
+        <RGDNode Key="distance_scatter_ratio" Type="Float" Value="0"/>
+        <RGDNode Key="fow_angle_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="tilt_max_distance" Type="Float" Value="0"/>
+        <RGDNode Key="distance_bracket_count_ground" Type="Float" Value="1"/>
+        <RGDNode Key="delay_bracket_change_chance" Type="Float" Value="0"/>
+        <RGDNode Key="min_tilt_angle" Type="Float" Value="0"/>
+        <RGDNode Key="movement_scatter_distance_multiplier" Type="Float" Value="1"/>
+        <RGDNode Key="burst_pattern_enable" Type="Boolean" Value="false"/>
+        <RGDNode Key="area_scatter_option" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+        </RGDNode>
+        <RGDNode Key="tilt_scatter_chance" Type="Float" Value="0"/>
+        <RGDNode Key="distance_scatter_offset" Type="Float" Value="0"/>
+        <RGDNode Key="fow_distance_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="distance_scatter_max" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="avoid_blockers_of_relationship" Type="List">
+        <RGDNode Key="ally" Type="Boolean" Value="true"/>
+        <RGDNode Key="neutral" Type="Boolean" Value="true"/>
+        <RGDNode Key="enemy" Type="Boolean" Value="true"/>
+        <RGDNode Key="undefined" Type="Boolean" Value="true"/>
+      </RGDNode>
+      <RGDNode Key="teardown" Type="List">
+        <RGDNode Key="duration" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="fx_building_hit_delay" Type="Float" Value="0"/>
+      <RGDNode Key="brace_option" Type="List">
+        <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+      </RGDNode>
+      <RGDNode Key="fx_tracer_name" Type="CString" Value=""/>
+      <RGDNode Key="flinch_radius" Type="Float" Value="0"/>
+      <RGDNode Key="aim" Type="List">
+        <RGDNode Key="aim_time_multiplier" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="fire_aim_time" Type="List">
+          <RGDNode Key="max" Type="Float" Value="0"/>
+          <RGDNode Key="min" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="post_firing_aim_time_seconds" Type="Float" Value="0"/>
+        <RGDNode Key="post_firing_cooldown_interval_seconds" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="height_bonuses" Type="List">
+        <RGDNode Key="height_advantage" Type="List">
+          <RGDNode Key="multipliers" Type="List">
+            <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+          </RGDNode>
+          <RGDNode Key="height_threshold" Type="Float" Value="0"/>
+          <RGDNode Key="negates_cover" Type="Boolean" Value="false"/>
+        </RGDNode>
+        <RGDNode Key="height_disadvantage" Type="List">
+          <RGDNode Key="multipliers" Type="List">
+            <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+          </RGDNode>
+          <RGDNode Key="height_threshold" Type="Float" Value="0"/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="range" Type="List">
+        <RGDNode Key="distance" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="-1"/>
+          <RGDNode Key="near" Type="Float" Value="-1"/>
+          <RGDNode Key="far" Type="Float" Value="-1"/>
+        </RGDNode>
+        <RGDNode Key="max" Type="Float" Value="2.18"/>
+        <RGDNode Key="min" Type="Float" Value="0"/>
+        <RGDNode Key="max_height" Type="Float" Value="5"/>
+        <RGDNode Key="max_animation_angle_distance" Type="Float" Value="45"/>
+      </RGDNode>
+      <RGDNode Key="deflection" Type="List">
+        <RGDNode Key="has_deflection_damage" Type="Boolean" Value="false"/>
+        <RGDNode Key="deflection_damage_multiplier" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="fx_use_building_panel_normal" Type="Boolean" Value="false"/>
+      <RGDNode Key="reload" Type="List">
+        <RGDNode Key="duration" Type="List">
+          <RGDNode Key="max" Type="Float" Value="0"/>
+          <RGDNode Key="min" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="duration_multiplier" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="frequency" Type="List">
+          <RGDNode Key="max" Type="Float" Value="0"/>
+          <RGDNode Key="min" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="persistent_reloadticks" Type="Boolean" Value="false"/>
+        <RGDNode Key="require_reload_after_switch" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="siege_option" Type="List">
+        <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+      </RGDNode>
+      <RGDNode Key="target_type_table" Type="List">
+        <RGDNode Key="target_unit_type_multipliers" Type="List">
+          <RGDNode Key="weapon_multipliers" Type="List">
+            <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+          </RGDNode>
+          <RGDNode Key="unit_type" Type="CString" Value="cavalry"/>
+          <RGDNode Key="base_damage_modifier" Type="Float" Value="6"/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="speech_code" Type="CString" Value=""/>
+    </RGDNode>
+    <RGDNode Key="pbgid" Type="Int" Value="1073741858"/>
+    <RGDNode Key="parent_pbg" Type="List">
+      <RGDNode Key="$PBGNAME" Type="CString" Value="weapon_spearman_1"/>
+      <RGDNode Key="$PBGMAP" Type="CString" Value="weapon"/>
+    </RGDNode>
+  </RGDNode>
+  <RGDNode Key="xp3" Type="List">
+    <RGDNode Key="weapon_bag" Type="List">
+      <RGDNode Key="name" Type="CString" Value="Spearman Weapon"/>
+      <RGDNode Key="weapon_class" Type="CString" Value="cdn_2h_spear"/>
+      <RGDNode Key="fog_of_war" Type="List">
+        <RGDNode Key="reveal_self_on_attack" Type="Boolean" Value="true"/>
+        <RGDNode Key="reveal_target_on_hit" Type="Boolean" Value="true"/>
+      </RGDNode>
+      <RGDNode Key="ui_map_colour" Type="List">
+        <RGDNode Key="red" Type="Int" Value="0"/>
+        <RGDNode Key="green" Type="Int" Value="0"/>
+        <RGDNode Key="blue" Type="Int" Value="0"/>
+        <RGDNode Key="alpha" Type="Int" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="accuracy" Type="List">
+        <RGDNode Key="mid" Type="Float" Value="1"/>
+        <RGDNode Key="near" Type="Float" Value="1"/>
+        <RGDNode Key="far" Type="Float" Value="1"/>
+      </RGDNode>
+      <RGDNode Key="animation_role_option" Type="List">
+        <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+      </RGDNode>
+      <RGDNode Key="projectile" Type="List">
+        <RGDNode Key="projectile" Type="List">
+          <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+          <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="terrain_elevation_option" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+        </RGDNode>
+        <RGDNode Key="delete_previous_on_hit" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="fx_tracer_speed" Type="Float" Value="0"/>
+      <RGDNode Key="area_effect" Type="List">
+        <RGDNode Key="accuracy" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="suppression_friendly" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="0"/>
+          <RGDNode Key="near" Type="Float" Value="0"/>
+          <RGDNode Key="far" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="area_over_time_option" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value=""/>
+        </RGDNode>
+        <RGDNode Key="damage" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="damage_friendly" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="distance" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="0"/>
+          <RGDNode Key="near" Type="Float" Value="0"/>
+          <RGDNode Key="far" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="aoe_origin_and_direction" Type="Int" Value="0"/>
+        <RGDNode Key="aoe_penetration" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="0"/>
+          <RGDNode Key="$REF" Type="CString" Value="tables\range_table"/>
+          <RGDNode Key="near" Type="Float" Value="0"/>
+          <RGDNode Key="far" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="suppression" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="0"/>
+          <RGDNode Key="near" Type="Float" Value="0"/>
+          <RGDNode Key="far" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="fx" Type="List">
+          <RGDNode Key="num_randomized_ground_hit_fx" Type="Int" Value="0"/>
+          <RGDNode Key="exponential_distribution_lambda" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="area_info" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="options\area_info_options\point_area_option"/>
+        </RGDNode>
+        <RGDNode Key="damage_max_members_per_squad" Type="Int" Value="-1"/>
+        <RGDNode Key="has_friendly_fire" Type="Boolean" Value="false"/>
+        <RGDNode Key="damage_all_in_hold" Type="Boolean" Value="false"/>
+        <RGDNode Key="can_harm_shooter" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="fx_aoe_munition_name" Type="CString" Value=""/>
+      <RGDNode Key="ui_range" Type="List">
+        <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+        <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="priority" Type="List">
+        <RGDNode Key="rotation" Type="Float" Value="0"/>
+        <RGDNode Key="target" Type="List">
+          <RGDNode Key="in_cover" Type="Float" Value="0"/>
+          <RGDNode Key="dps" Type="Float" Value="0"/>
+          <RGDNode Key="max_health" Type="Float" Value="0"/>
+          <RGDNode Key="out_of_los" Type="Float" Value="-100"/>
+          <RGDNode Key="penetration" Type="Float" Value="0"/>
+          <RGDNode Key="current_health_percentage" Type="Float" Value="0"/>
+          <RGDNode Key="vs_armor_type" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="suggested_target" Type="Float" Value="0"/>
+        <RGDNode Key="window_bonus" Type="Float" Value="0"/>
+        <RGDNode Key="distance" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="randomly_target_squad_mates_of_best_priority_entity" Type="Boolean" Value="false"/>
+        <RGDNode Key="untargeted_by_formation_melee" Type="Float" Value="0"/>
+        <RGDNode Key="penetration" Type="Float" Value="0"/>
+        <RGDNode Key="current_target" Type="Float" Value="0"/>
+        <RGDNode Key="over_penetration_priority_penalty" Type="Boolean" Value="false"/>
+        <RGDNode Key="vs_armor_type" Type="Float" Value="0"/>
+        <RGDNode Key="untargeted_by_formation_ranged" Type="Float" Value="0"/>
+        <RGDNode Key="current_target_squad" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="damage" Type="List">
+        <RGDNode Key="damage_type" Type="CString" Value="Melee"/>
+        <RGDNode Key="on_critical_hit_state_trees" Type="List">
+        </RGDNode>
+        <RGDNode Key="allow_overkill" Type="Boolean" Value="false"/>
+        <RGDNode Key="critical_damage_chance" Type="Float" Value="0.01"/>
+        <RGDNode Key="should_keep_above_one" Type="Boolean" Value="true"/>
+        <RGDNode Key="max" Type="Float" Value="7"/>
+        <RGDNode Key="min" Type="Float" Value="7"/>
+        <RGDNode Key="on_penetrated_state_trees" Type="List">
+        </RGDNode>
+        <RGDNode Key="critical_damage_factor" Type="Float" Value="8"/>
+      </RGDNode>
+      <RGDNode Key="suppressed" Type="List">
+        <RGDNode Key="pinned_cooldown_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="pinned_reload_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="suppressed_cooldown_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="suppressed_reload_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="pinned_burst_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="suppressed_burst_multiplier" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="ui_tooltip_weapon_group" Type="CString" Value=""/>
+      <RGDNode Key="weapon_options" Type="List">
+        <RGDNode Key="windup_extended_range_override" Type="Float" Value="-1"/>
+        <RGDNode Key="$REF" Type="CString" Value="options\weapon\melee_options"/>
+        <RGDNode Key="attack_animation_chain_length" Type="Float" Value="1"/>
+      </RGDNode>
+      <RGDNode Key="fx_delay_in_building" Type="Float" Value="0"/>
+      <RGDNode Key="ui_show_on_tooltip" Type="Boolean" Value="false"/>
+      <RGDNode Key="burst" Type="List">
+        <RGDNode Key="duration" Type="List">
+          <RGDNode Key="max" Type="Float" Value="0"/>
+          <RGDNode Key="min" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="convert_target_to_position_before_firing" Type="Boolean" Value="false"/>
+        <RGDNode Key="rate_of_fire_multiplier" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="duration_multiplier" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="focus_fire" Type="Boolean" Value="false"/>
+        <RGDNode Key="can_burst" Type="Boolean" Value="false"/>
+        <RGDNode Key="uninterruptible_burst_fire" Type="Boolean" Value="false"/>
+        <RGDNode Key="rate_of_fire" Type="List">
+          <RGDNode Key="max" Type="Float" Value="0"/>
+          <RGDNode Key="min" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="incremental_target_table" Type="List">
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="search_radius" Type="List">
+            <RGDNode Key="mid" Type="Float" Value="0"/>
+            <RGDNode Key="near" Type="Float" Value="0"/>
+            <RGDNode Key="far" Type="Float" Value="0"/>
+          </RGDNode>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="behaviour" Type="List">
+        <RGDNode Key="ignore_shot_blocking" Type="Boolean" Value="false"/>
+        <RGDNode Key="aa_weapon" Type="Boolean" Value="false"/>
+        <RGDNode Key="reaction_radius" Type="Float" Value="0"/>
+        <RGDNode Key="can_be_substituted" Type="Boolean" Value="false"/>
+        <RGDNode Key="ground_hit_rate" Type="Float" Value="0"/>
+        <RGDNode Key="force_square_attack" Type="Boolean" Value="false"/>
+        <RGDNode Key="non_moving_setup_requires_facing" Type="Boolean" Value="false"/>
+        <RGDNode Key="artillery_force_obey_los" Type="Boolean" Value="false"/>
+        <RGDNode Key="causes_combat" Type="Boolean" Value="true"/>
+        <RGDNode Key="can_abort_winddown_on_weapon_switch" Type="Boolean" Value="true"/>
+        <RGDNode Key="non_moving_setup" Type="Boolean" Value="false"/>
+        <RGDNode Key="can_be_offhanded" Type="Boolean" Value="false"/>
+        <RGDNode Key="reaction_type" Type="CString" Value="normal"/>
+        <RGDNode Key="single_handed_weapon" Type="Boolean" Value="false"/>
+        <RGDNode Key="combat_slot_offset" Type="Float" Value="-20"/>
+        <RGDNode Key="enable_auto_target_search" Type="Boolean" Value="false"/>
+        <RGDNode Key="substitute_weapon" Type="Boolean" Value="false"/>
+        <RGDNode Key="attack_team_weapon_user" Type="Boolean" Value="false"/>
+        <RGDNode Key="fire_at_building_combat_slot" Type="Boolean" Value="false"/>
+        <RGDNode Key="attack_ground_type" Type="Int" Value="0"/>
+        <RGDNode Key="can_damage_allies" Type="Boolean" Value="false"/>
+        <RGDNode Key="wants_prone_firing_option" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+        </RGDNode>
+        <RGDNode Key="hit_pos_behaviour" Type="Int" Value="0"/>
+        <RGDNode Key="support_weapon" Type="Boolean" Value="false"/>
+        <RGDNode Key="aa_weapon_shoot_through" Type="Boolean" Value="false"/>
+        <RGDNode Key="hit_everything_on_hit" Type="Boolean" Value="false"/>
+        <RGDNode Key="ignore_relations" Type="Boolean" Value="false"/>
+        <RGDNode Key="can_abort_winddown_on_move_command" Type="Boolean" Value="false"/>
+        <RGDNode Key="reset_rotation_on_teardown" Type="Boolean" Value="false"/>
+        <RGDNode Key="hit_everything_on_miss" Type="Boolean" Value="false"/>
+        <RGDNode Key="share_parent_anim" Type="Boolean" Value="false"/>
+        <RGDNode Key="prevents_prone" Type="Boolean" Value="false"/>
+        <RGDNode Key="piercing" Type="Boolean" Value="false"/>
+        <RGDNode Key="surprises_idle" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="weapon_tags" Type="List">
+      </RGDNode>
+      <RGDNode Key="fx_munition_name" Type="CString" Value="common_spear_charge"/>
+      <RGDNode Key="icon_name" Type="CString" Value=""/>
+      <RGDNode Key="suppression" Type="List">
+        <RGDNode Key="target_suppressed_multipliers" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="target_pinned_multipliers" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="0"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="nearby_suppression_radius" Type="Float" Value="0"/>
+        <RGDNode Key="nearby_suppression_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="amount" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="kill_unit_types_on_hit" Type="List">
+      </RGDNode>
+      <RGDNode Key="tracking" Type="List">
+        <RGDNode Key="normal" Type="List">
+          <RGDNode Key="speed_horizontal" Type="Float" Value="180"/>
+          <RGDNode Key="max_right" Type="Float" Value="0"/>
+          <RGDNode Key="max_down" Type="Float" Value="0"/>
+          <RGDNode Key="max_up" Type="Float" Value="0"/>
+          <RGDNode Key="speed_vertical" Type="Float" Value="180"/>
+          <RGDNode Key="max_left" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="fire_cone_angle" Type="Float" Value="90"/>
+        <RGDNode Key="pivot_end_time" Type="Float" Value="0"/>
+        <RGDNode Key="fire_cone_angle_vert" Type="Float" Value="2"/>
+        <RGDNode Key="pivot_start_time" Type="Float" Value="0"/>
+        <RGDNode Key="pivot_only" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="cooldown" Type="List">
+        <RGDNode Key="duration" Type="List">
+          <RGDNode Key="max" Type="Float" Value="1"/>
+          <RGDNode Key="min" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="duration_multiplier" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="persistent_cooldownticks" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="fx_piercing_munition_name" Type="CString" Value=""/>
+      <RGDNode Key="charge_option" Type="List">
+        <RGDNode Key="charge_attack_target_position_offset" Type="Float" Value="2"/>
+        <RGDNode Key="$REF" Type="CString" Value="options\weapon\charge_option"/>
+        <RGDNode Key="weapon_hit_disabled_duration" Type="Float" Value="1"/>
+      </RGDNode>
+      <RGDNode Key="ui_setfacing" Type="List">
+        <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+        <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="fx_always_visible" Type="Boolean" Value="false"/>
+      <RGDNode Key="fx_action_target_name" Type="CString" Value=""/>
+      <RGDNode Key="moving" Type="List">
+        <RGDNode Key="cooldown_multiplier" Type="Float" Value="1"/>
+        <RGDNode Key="can_fire_while_moving" Type="Boolean" Value="false"/>
+        <RGDNode Key="moving_start_time" Type="Float" Value="0"/>
+        <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+        <RGDNode Key="moving_end_time" Type="Float" Value="0"/>
+        <RGDNode Key="burst_multiplier" Type="Float" Value="1"/>
+      </RGDNode>
+      <RGDNode Key="ui_name" Type="Int" Value="11164723"/>
+      <RGDNode Key="fire" Type="List">
+        <RGDNode Key="animation_impact_frame_time" Type="Float" Value="0.25"/>
+        <RGDNode Key="wind_up" Type="Float" Value="0.25"/>
+        <RGDNode Key="wind_down" Type="Float" Value="0.5"/>
+      </RGDNode>
+      <RGDNode Key="penetration" Type="List">
+        <RGDNode Key="mid" Type="Float" Value="0"/>
+        <RGDNode Key="near" Type="Float" Value="0"/>
+        <RGDNode Key="far" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="default_attack_type" Type="CString" Value="default"/>
+      <RGDNode Key="anim_table" Type="List">
+        <RGDNode Key="cooldown_time_name" Type="CString" Value=""/>
+        <RGDNode Key="target_range_name" Type="CString" Value=""/>
+        <RGDNode Key="track_vertical_speed" Type="CString" Value=""/>
+        <RGDNode Key="track_horizontal_speed" Type="CString" Value=""/>
+        <RGDNode Key="track_world_pos_z_name" Type="CString" Value=""/>
+        <RGDNode Key="ability_state" Type="CString" Value=""/>
+        <RGDNode Key="track_horizontal" Type="CString" Value=""/>
+        <RGDNode Key="track_vertical" Type="CString" Value=""/>
+        <RGDNode Key="state_name" Type="CString" Value="melee_weapon_state"/>
+        <RGDNode Key="track_world_pos_x_name" Type="CString" Value=""/>
+        <RGDNode Key="variety_name" Type="CString" Value=""/>
+        <RGDNode Key="attack_speed_scale_value" Type="Float" Value="1"/>
+        <RGDNode Key="visibility_name" Type="CString" Value=""/>
+        <RGDNode Key="attack_speed_scale_name" Type="CString" Value="melee_speed_scale"/>
+        <RGDNode Key="track_world_pos_y_name" Type="CString" Value=""/>
+      </RGDNode>
+      <RGDNode Key="cover_table" Type="List">
+        <RGDNode Key="plain" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="$REF" Type="CString" Value="weapon_cover_info"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="forest" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="$REF" Type="CString" Value="weapon_cover_info"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="hill" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="$REF" Type="CString" Value="weapon_cover_info"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="mountain" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="$REF" Type="CString" Value="weapon_cover_info"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="tp_defcover" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="$REF" Type="CString" Value="weapon_cover_info"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="water" Type="List">
+          <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="$REF" Type="CString" Value="weapon_cover_info"/>
+          <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+          <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="setup" Type="List">
+        <RGDNode Key="duration" Type="Float" Value="0"/>
+        <RGDNode Key="has_instant_setup" Type="Boolean" Value="false"/>
+        <RGDNode Key="requires_aim_elevation" Type="Boolean" Value="false"/>
+        <RGDNode Key="attach_duration" Type="Float" Value="0"/>
+        <RGDNode Key="can_interrupt_setup" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="scatter" Type="List">
+        <RGDNode Key="distance_scatter_obj_hit_min" Type="Float" Value="0"/>
+        <RGDNode Key="distance_guaranteed_before_hit_percentage" Type="Float" Value="0"/>
+        <RGDNode Key="distance_bracket_count_air" Type="Float" Value="0"/>
+        <RGDNode Key="angle_scatter" Type="Float" Value="0"/>
+        <RGDNode Key="movement_scatter_angle_multiplier" Type="Float" Value="1"/>
+        <RGDNode Key="max_tilt_angle" Type="Float" Value="0"/>
+        <RGDNode Key="distance_scatter_ratio" Type="Float" Value="0"/>
+        <RGDNode Key="fow_angle_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="tilt_max_distance" Type="Float" Value="0"/>
+        <RGDNode Key="distance_bracket_count_ground" Type="Float" Value="1"/>
+        <RGDNode Key="delay_bracket_change_chance" Type="Float" Value="0"/>
+        <RGDNode Key="min_tilt_angle" Type="Float" Value="0"/>
+        <RGDNode Key="movement_scatter_distance_multiplier" Type="Float" Value="1"/>
+        <RGDNode Key="burst_pattern_enable" Type="Boolean" Value="false"/>
+        <RGDNode Key="area_scatter_option" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+        </RGDNode>
+        <RGDNode Key="tilt_scatter_chance" Type="Float" Value="0"/>
+        <RGDNode Key="distance_scatter_offset" Type="Float" Value="0"/>
+        <RGDNode Key="fow_distance_multiplier" Type="Float" Value="0"/>
+        <RGDNode Key="distance_scatter_max" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="avoid_blockers_of_relationship" Type="List">
+        <RGDNode Key="ally" Type="Boolean" Value="true"/>
+        <RGDNode Key="neutral" Type="Boolean" Value="true"/>
+        <RGDNode Key="enemy" Type="Boolean" Value="true"/>
+        <RGDNode Key="undefined" Type="Boolean" Value="true"/>
+      </RGDNode>
+      <RGDNode Key="teardown" Type="List">
+        <RGDNode Key="duration" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="fx_building_hit_delay" Type="Float" Value="0"/>
+      <RGDNode Key="brace_option" Type="List">
+        <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+      </RGDNode>
+      <RGDNode Key="fx_tracer_name" Type="CString" Value=""/>
+      <RGDNode Key="flinch_radius" Type="Float" Value="0"/>
+      <RGDNode Key="aim" Type="List">
+        <RGDNode Key="aim_time_multiplier" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="fire_aim_time" Type="List">
+          <RGDNode Key="max" Type="Float" Value="0"/>
+          <RGDNode Key="min" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="post_firing_aim_time_seconds" Type="Float" Value="0"/>
+        <RGDNode Key="post_firing_cooldown_interval_seconds" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="height_bonuses" Type="List">
+        <RGDNode Key="height_advantage" Type="List">
+          <RGDNode Key="multipliers" Type="List">
+            <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+          </RGDNode>
+          <RGDNode Key="height_threshold" Type="Float" Value="0"/>
+          <RGDNode Key="negates_cover" Type="Boolean" Value="false"/>
+        </RGDNode>
+        <RGDNode Key="height_disadvantage" Type="List">
+          <RGDNode Key="multipliers" Type="List">
+            <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+          </RGDNode>
+          <RGDNode Key="height_threshold" Type="Float" Value="0"/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="range" Type="List">
+        <RGDNode Key="distance" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="-1"/>
+          <RGDNode Key="near" Type="Float" Value="-1"/>
+          <RGDNode Key="far" Type="Float" Value="-1"/>
+        </RGDNode>
+        <RGDNode Key="max" Type="Float" Value="2.18"/>
+        <RGDNode Key="min" Type="Float" Value="0"/>
+        <RGDNode Key="max_height" Type="Float" Value="5"/>
+        <RGDNode Key="max_animation_angle_distance" Type="Float" Value="45"/>
+      </RGDNode>
+      <RGDNode Key="deflection" Type="List">
+        <RGDNode Key="has_deflection_damage" Type="Boolean" Value="false"/>
+        <RGDNode Key="deflection_damage_multiplier" Type="Float" Value="0"/>
+      </RGDNode>
+      <RGDNode Key="fx_use_building_panel_normal" Type="Boolean" Value="false"/>
+      <RGDNode Key="reload" Type="List">
+        <RGDNode Key="duration" Type="List">
+          <RGDNode Key="max" Type="Float" Value="0"/>
+          <RGDNode Key="min" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="duration_multiplier" Type="List">
+          <RGDNode Key="mid" Type="Float" Value="1"/>
+          <RGDNode Key="near" Type="Float" Value="1"/>
+          <RGDNode Key="far" Type="Float" Value="1"/>
+        </RGDNode>
+        <RGDNode Key="frequency" Type="List">
+          <RGDNode Key="max" Type="Float" Value="0"/>
+          <RGDNode Key="min" Type="Float" Value="0"/>
+        </RGDNode>
+        <RGDNode Key="persistent_reloadticks" Type="Boolean" Value="false"/>
+        <RGDNode Key="require_reload_after_switch" Type="Boolean" Value="false"/>
+      </RGDNode>
+      <RGDNode Key="siege_option" Type="List">
+        <RGDNode Key="$REF" Type="CString" Value="options\none"/>
+      </RGDNode>
+      <RGDNode Key="target_type_table" Type="List">
+        <RGDNode Key="target_unit_type_multipliers" Type="List">
+          <RGDNode Key="weapon_multipliers" Type="List">
+            <RGDNode Key="suppression_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="penetration_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="accuracy_multiplier" Type="Float" Value="1"/>
+            <RGDNode Key="damage_multiplier" Type="Float" Value="1"/>
+          </RGDNode>
+          <RGDNode Key="unit_type" Type="CString" Value="cavalry"/>
+          <RGDNode Key="base_damage_modifier" Type="Float" Value="17"/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="speech_code" Type="CString" Value=""/>
+    </RGDNode>
+    <RGDNode Key="pbgid" Type="Int" Value="1073741858"/>
+    <RGDNode Key="parent_pbg" Type="List">
+      <RGDNode Key="$PBGNAME" Type="CString" Value="weapon_spearman_1"/>
+      <RGDNode Key="$PBGMAP" Type="CString" Value="weapon"/>
+    </RGDNode>
+  </RGDNode>
+</Root>

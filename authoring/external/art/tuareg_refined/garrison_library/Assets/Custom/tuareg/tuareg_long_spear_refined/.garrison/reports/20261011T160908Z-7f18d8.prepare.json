@@ -1,0 +1,115 @@
+{
+  "schema": "garrison.custom-static-authoring/v1",
+  "request": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_refined\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_long_spear_refined\\.garrison\\requests\\20261011T160908Z-7f18d8.json",
+  "request_sha256": "1005d8b8c58ca726e634d99518ffd2301ecfd3ff629501bd68a4f80989a51171",
+  "manifest": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_refined\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_long_spear_refined\\workspace.json",
+  "manifest_sha256": "e0fb10c53aaeebee86d5bcd5f262fd97aa1110a774b1371aee0eb608b9af3eed",
+  "asset_root": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_refined\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_long_spear_refined",
+  "source_root": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_refined\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_long_spear_refined\\source",
+  "generated_root": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_refined\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_long_spear_refined\\generated",
+  "build_id": "20261011T160908Z-7f18d8",
+  "mesh_policy": "all recursive mesh objects in one Blender collection",
+  "material_policy": "non-destructive adopted Principled materials; multiple materials build as aligned one-material static parts using the confirmed RTC pattern",
+  "material_count": 1,
+  "runtime_build_supported": true,
+  "runtime_build_method": "single_static_asset",
+  "validation": {
+    "schema": "garrison.workspace-operation/v1",
+    "operation": "validate",
+    "workspace_manifest": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_refined\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_long_spear_refined\\workspace.json",
+    "workspace_manifest_sha256": "e0fb10c53aaeebee86d5bcd5f262fd97aa1110a774b1371aee0eb608b9af3eed",
+    "workspace_id": "tuareg-tuareg_long_spear_refined",
+    "asset": {
+      "id": "tuareg_long_spear_refined",
+      "archetype": "static_visual_prop",
+      "logical_base": "art\\scenario\\tuareg\\tuareg_long_spear_refined\\tuareg_long_spear_refined",
+      "catalog_folder": "Refined Tuareg equipment",
+      "material_count": 1
+    },
+    "inputs": {
+      "manifest": {
+        "exists": true,
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_refined\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_long_spear_refined\\workspace.json",
+        "size": 2406,
+        "sha256": "e0fb10c53aaeebee86d5bcd5f262fd97aa1110a774b1371aee0eb608b9af3eed"
+      },
+      "fbx": {
+        "exists": true,
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_refined\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_long_spear_refined\\source\\model.fbx",
+        "size": 27756,
+        "sha256": "c790fcb669d151baceaae58ca914dd91f7c18fd09e9d213e619fa077ce54c8d6"
+      },
+      "blender_executable": {
+        "exists": true,
+        "path": "E:\\Blender5.2\\blender.exe",
+        "size": 113022936,
+        "sha256": "f141a3c5754500e6f84361099a4cd53f0bb7662b6a0d2cfaaa8fbb63e92234a0"
+      },
+      "material.tuareg_long_spear_refined_baked_atlas.albedo": {
+        "exists": true,
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_refined\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_long_spear_refined\\source\\materials\\tuareg_long_spear_refined_baked_atlas\\albedo.png",
+        "size": 483997,
+        "sha256": "6083ba7d5e867f06c41e3eb525c25fdb3ddafefb796960bb855c633ebf3eaaa1"
+      },
+      "material.tuareg_long_spear_refined_baked_atlas.normal": {
+        "exists": true,
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_refined\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_long_spear_refined\\source\\materials\\tuareg_long_spear_refined_baked_atlas\\normal.png",
+        "size": 907743,
+        "sha256": "9ae2e9d3e6969dab09fa181e9694160277a0530b6c323c860fe8ac6ce2de94b1"
+      },
+      "material.tuareg_long_spear_refined_baked_atlas.roughness": {
+        "exists": true,
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_refined\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_long_spear_refined\\source\\materials\\tuareg_long_spear_refined_baked_atlas\\roughness.png",
+        "size": 35817,
+        "sha256": "3d545a76ddebb5c54d6743f3cbc28d7c6543363aa3ee3cd87b40528bef19e613"
+      },
+      "material.tuareg_long_spear_refined_baked_atlas.metalness": {
+        "exists": true,
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_refined\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_long_spear_refined\\source\\materials\\tuareg_long_spear_refined_baked_atlas\\metalness.png",
+        "size": 32874,
+        "sha256": "47e91fb71e9159ac2f153fc618527a615adc019ebc38c0859cd20ad7477d8b24"
+      },
+      "cook_editor": {
+        "exists": true,
+        "path": "C:\\Users\\RS\\AppData\\Local\\Garrison\\Kit\\tools\\essence-object-editor\\EssenceEditor.exe",
+        "size": 10231608,
+        "sha256": "2ff1278eed5b1a6e163e6d78e04ad768dc38e4c198f6354069c99bed9e8f84e8"
+      }
+    },
+    "gates": [
+      {
+        "id": "manifest_valid",
+        "status": "passed",
+        "detail": "schema garrison.blender-workspace/v2"
+      },
+      {
+        "id": "archetype_supported",
+        "status": "passed",
+        "detail": "static_visual_prop"
+      },
+      {
+        "id": "source_files_present",
+        "status": "passed",
+        "detail": "required source files and Blender executable exist"
+      },
+      {
+        "id": "template_project_present",
+        "status": "passed",
+        "detail": "template project directory: C:\\Users\\RS\\AppData\\Local\\Garrison\\Kit\\template-project"
+      },
+      {
+        "id": "output_project_is_new",
+        "status": "passed",
+        "detail": "output must not already exist: C:\\Users\\RS\\AppData\\Local\\Temp\\garrison-builds\\20261011T160908Z-7f18d8\\project"
+      },
+      {
+        "id": "cook_ready",
+        "status": "passed",
+        "detail": "cook editor exists and run root is new"
+      }
+    ],
+    "first_failed_gate": null,
+    "success": true
+  },
+  "success": true
+}

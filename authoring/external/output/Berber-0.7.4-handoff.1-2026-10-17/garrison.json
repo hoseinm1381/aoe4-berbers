@@ -1,0 +1,27 @@
+{
+  "schema": "garrison.mod/v1",
+  "bundle_key": "berber_future_kingdom",
+  "members": [
+    {
+      "mod_key": "berber_future_kingdom",
+      "role": "tuning",
+      "path": "berber_future_kingdom.sga",
+      "sha256": "559f71581f91c1fee77a5eba81c0613496c080a7d262a8ef9f80bdba037a317f"
+    }
+  ],
+  "details": {
+    "id": "berber_future_kingdom",
+    "name": "The Berber Dynasties",
+    "version": "0.7.4-handoff.1",
+    "summary": "Author handoff: full WEM bank included; native speech replacement remains incomplete",
+    "author": "hossein81 and marcokistan",
+    "updated": "2026-10-17",
+    "min_garrison": "0.1.0",
+    "content_types": [
+      "game-mode",
+      "tuning-pack"
+    ],
+    "description": "Single-package partial repair handoff. All 5664 author WEM recordings are inside the SGA. Villager/Tuareg native replacement remains incomplete; other families retain 1050 temporary WAV clips. Requires the included paired diagnostic runtime, not an ordinary 0.1.0 release. Development crate version is 0.1.0; integration target is Garrison 0.1.6, not yet released by this handoff. Select Malians plus Berber Game Mode and Tuning Pack. Read CHANGELOG-EN.txt and AGENT-HANDOFF-EN.txt.",
+    "changelog": "Adds the complete hash-verified author WEM bank without changing previous SGA members or playback rules. Retains neutral squad guard, partial UV recovery and script lifecycle repairs. Includes current diagnostics and an English agent handoff. Stock-sounding replies and 22 invalid-UV model files remain unresolved. Asset-only archive extension has not received fresh in-game acceptance."
+  }
+}

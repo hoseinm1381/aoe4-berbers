@@ -1,0 +1,206 @@
+-- Berber speech adapter. Cosmetic local state only; no simulation RNG or orders.
+-- Source contracts: shipped SCAR API, engine command.scar and rulesystem.scar.
+import("garrison/garrison.scar")
+import("berber_voice_bank.scar")
+
+BerberSpeech = {running=false, actors={}, selected={}, variants={}, busyUntil=0, nextScan=0}
+local S=BerberSpeech
+local audio=Garrison.audio.forMod("berber_future_kingdom")
+local bank=BerberVoiceBank
+local nativeSpeech=Garrison.speech.forMod("berber_future_kingdom")
+
+local function valid(r)
+    return r and Squad_IsValid(r.id) and Squad_FromID(r.id)==r.squad and Squad_IsAlive(r.squad)
+        and not World_OwnsSquad(r.squad)
+        and Squad_GetPlayerOwner(r.squad)==Game_GetLocalPlayer()
+        and Squad_GetBlueprint(r.squad)==r.blueprint
+end
+
+local function family(squad)
+    local bp=Squad_GetBlueprint(squad)
+    if not bp then return nil end
+    -- Custom blueprints have an owner-qualified runtime name. Compiled PBGIDs
+    -- identify the exact supplied SBPs without dropping arbitrary namespaces.
+    local mapped=bank.pbgids[bp.PropertyBagGroupID]
+    if mapped then return mapped,bp end
+    local name=string.lower(BP_GetName(bp))
+    local owner="1d3145e8f1b2427f8bb0067851fcf0f1:"
+    if string.sub(name,1,#owner)==owner then name=string.sub(name,#owner+1) end
+    return bank.blueprints[name],bp
+end
+
+-- One voice at a time for this mod. No per-tick allocations of sound handles.
+-- Command replies are centred; world reactions attenuate against camera target.
+local function speak(r,event,world)
+    if not S.running or not r then return false end
+    local now=World_GetGameTime()
+    if now<S.busyUntil then return false end
+    local choices=bank.clips[r.family] and bank.clips[r.family][event]
+    if not choices or #choices==0 then return false end
+    local x,z,gain=0,0,1
+    if world then
+        local p=r.position
+        if not p then return false end
+        local camera=Camera_GetCurrentTargetPos()
+        x=p.x-camera.x;z=p.z-camera.z
+        local distance=math.sqrt(x*x+z*z)
+        if distance>=60 then return false end
+        gain=1-distance/60
+    end
+    local key=r.family..":"..event
+    local ordinal=(S.variants[key] or 0)+1
+    local clip=choices[(ordinal-1)%#choices+1]
+    S.variants[key]=ordinal
+    S.busyUntil=now+clip[2]+.12
+    audio.play(clip[1],x,z,gain)
+    S.sent=(S.sent or 0)+1
+    -- A bounded diagnostic sample, not hot-loop logging.
+    if S.sent<=20 then print("BERBER_SPEECH cue="..event.." family="..r.family.." id="..r.id) end
+    return true
+end
+
+local function remove(r)
+    if Squad_IsValid(r.id) and Squad_FromID(r.id)==r.squad then
+        Rule_RemoveSquadEvent(BerberSpeech_OnCommand,r.squad)
+        Rule_RemoveSquadEvent(BerberSpeech_OnKilled,r.squad)
+    end
+end
+
+local function track(squad)
+    if not squad then return nil end
+    local id=Squad_GetID(squad)
+    if not Squad_IsValid(id) or not Squad_IsAlive(squad) then return nil end
+    -- Selected targets can be world-owned wildlife or carcasses. The native
+    -- owner accessor asserts on them; filter before calling it, not via pcall.
+    if World_OwnsSquad(squad) then return nil end
+    local owner=Squad_GetPlayerOwner(squad)
+    if owner~=Game_GetLocalPlayer() or Player_GetRaceName(owner)~="malian" then return nil end
+    local f,bp=family(squad)
+    if not f or f=="villager" or f=="tuareg" then return nil end
+    local old=S.actors[id]
+    if old and old.squad==squad and old.blueprint==bp then return old end
+    if old then remove(old) end
+    local r={id=id,squad=squad,blueprint=bp,family=f,position=Squad_GetPosition(squad),hp=Squad_GetHealth(squad)}
+    S.actors[id]=r
+    if not S.loggedFamilies[f] then
+        S.loggedFamilies[f]=true
+        print("BERBER_SPEECH bound family="..f.." blueprint="..BP_GetName(bp).." pbgid="..tostring(bp.PropertyBagGroupID))
+    end
+    Rule_AddSquadEvent(BerberSpeech_OnCommand,squad,GE_SquadCommandIssued,r)
+    Rule_AddSquadEvent(BerberSpeech_OnKilled,squad,GE_SquadKilled,r)
+    return r
+end
+
+-- Event payload.command and .squad are demonstrated by stock command.scar.
+-- Rule userdata binds to an actor generation; stale/recycled callbacks are ignored.
+function BerberSpeech_OnCommand(context,r)
+    if not S.running or not r or S.actors[r.id]~=r or not valid(r) then return end
+    if context.squad~=nil and context.squad~=r.squad then return end
+    if context.player~=nil and context.player~=Game_GetLocalPlayer() then return end
+    local c=context.command
+    local event=nil
+    if c==SCMD_Move or c==SCMD_Patrol then event="movesu"
+    elseif c==SCMD_Attack or c==SCMD_StationaryAttack then event="attack"
+    elseif c==SCMD_AttackMove then event="attackmovesu"
+    elseif c==SCMD_Stop then event="stop"
+    elseif c==SCMD_HoldPosition then event="hold"
+    elseif c==SCMD_BuildStructure then event="structurebuild"
+    elseif c==SCMD_Gather then event="resourcegather"
+    elseif c==SCMD_Trade then event="setuptraderoute"
+    elseif c==SCMD_Load then event="garrison"
+    elseif c==SCMD_Retreat then event="movesu"
+    elseif c==SCMD_Ability then event="acknowledge"
+    end
+    if event then speak(r,event,false) end
+    -- SCMD_DefaultAction has no proved target discriminator here; no invented
+    -- attack/repair/trade semantics. Selected state transitions cover some cases.
+end
+
+function BerberSpeech_OnKilled(context,r)
+    if not S.running or not r or S.actors[r.id]~=r then return end
+    -- Do not dereference a killed squad. Position/family were captured while alive.
+    speak(r,"effortdeath",true)
+    S.actors[r.id]=nil;S.selected[r.id]=nil
+end
+
+local function activity(squad)
+    if Squad_IsConstructing(squad) then return "structurebuild" end
+    if Squad_IsGatheringResourceType(squad,RT_Wood) then return "resourcewood" end
+    if Squad_IsGatheringResourceType(squad,RT_Gold) or Squad_IsGatheringResourceType(squad,RT_Stone) then return "resourcemine" end
+    if Squad_IsGatheringResourceType(squad,RT_Food) then return "resourcegather" end
+    if Squad_IsAttacking(squad,.5) then return "attack" end
+    if Squad_IsMoving(squad) then return "movesu" end
+    return "idle"
+end
+
+function BerberSpeech_Tick()
+    if not S.running then return end
+    local now=World_GetGameTime()
+    nativeSpeech.pulse()
+    audio.pulse(now)
+    -- One roster reconciliation per second. Borrowed player group is never mutated.
+    if now>=S.nextScan then
+        S.nextScan=now+1
+        local player=Game_GetLocalPlayer()
+        local present={}
+        if player and Player_GetRaceName(player)=="malian" then
+            local group=Player_GetSquads(player)
+            for i=1,SGroup_CountSpawned(group) do
+                local r=track(SGroup_GetSpawnedSquadAt(group,i))
+                if r then present[r.id]=true end
+            end
+        end
+        for id,r in pairs(S.actors) do
+            if not present[id] or not valid(r) then remove(r);S.actors[id]=nil end
+        end
+    end
+    -- A set comparison avoids speaking continuously while selection is held.
+    Misc_GetSelectedSquads(S.group,false)
+    local selected,first,changed={},nil,false
+    for i=1,SGroup_CountSpawned(S.group) do
+        local r=track(SGroup_GetSpawnedSquadAt(S.group,i))
+        if r then
+            selected[r.id]=true
+            if not first or r.id<first.id then first=r end
+            if not S.selected[r.id] then changed=true end
+        end
+    end
+    for id in pairs(S.selected) do if not selected[id] then changed=true end end
+    S.selected=selected
+    if changed and first then speak(first,"select",false) end
+    for id,r in pairs(S.actors) do
+        if valid(r) then
+            r.position=Squad_GetPosition(r.squad)
+            local hp=Squad_GetHealth(r.squad)
+            if hp<r.hp then speak(r,"effortpain",true) end
+            r.hp=hp
+            if selected[id] then
+                local a=activity(r.squad)
+                -- Initial observation never fabricates an order.
+                if r.activity and a~=r.activity and a~="idle" then speak(r,a,false) end
+                r.activity=a
+            else r.activity=nil end
+        end
+    end
+end
+
+function BerberSpeech_Start()
+    if S.running then return end
+    S.running=true;S.actors={};S.selected={};S.variants={};S.busyUntil=0;S.nextScan=0;S.sent=0;S.loggedFamilies={}
+    S.group=SGroup_CreateIfNotFound("berber_scripted_voice_selection")
+    print("BERBER_NATIVE_SPEECH ready="..tostring(nativeSpeech.start()))
+    audio.session()
+    Rule_AddInterval(BerberSpeech_Tick,.25)
+    print("BERBER_SPEECH started route=Garrison.audio version=native-speech.1")
+end
+
+function BerberSpeech_Stop()
+    if not S.running then return end
+    S.running=false
+    Rule_Remove(BerberSpeech_Tick)
+    for _,r in pairs(S.actors) do remove(r) end
+    S.actors={};S.selected={};S.variants={}
+    if S.group then SGroup_Destroy(S.group);S.group=nil end
+    nativeSpeech.stop()
+    audio.stop()
+end

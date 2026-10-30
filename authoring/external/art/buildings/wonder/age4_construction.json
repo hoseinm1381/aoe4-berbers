@@ -1,0 +1,682 @@
+{
+  "schema": "berber-building-source-stage/v1",
+  "age": 4,
+  "stages": [
+    0,
+    20,
+    40,
+    60,
+    80,
+    100
+  ],
+  "parts": [
+    {
+      "object": "foundation",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "paved_sanctuary",
+      "first_stage": 0,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "qibla_wall",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "hall_outer_wall_-5.3",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "hall_outer_wall_5.3",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "grand_hypostyle_front_arcade",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_base_-4.05_2.25",
+      "first_stage": 20,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_shaft_-4.05_2.25",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_capital_-4.05_2.25",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_base_-2.025_2.25",
+      "first_stage": 20,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_shaft_-2.025_2.25",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_capital_-2.025_2.25",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_base_0_2.25",
+      "first_stage": 20,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_shaft_0_2.25",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_capital_0_2.25",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_base_2.025_2.25",
+      "first_stage": 20,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_shaft_2.025_2.25",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_capital_2.025_2.25",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_base_4.05_2.25",
+      "first_stage": 20,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_shaft_4.05_2.25",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_capital_4.05_2.25",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cedar_hall_beam_2.25",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_base_-4.05_3.9",
+      "first_stage": 20,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_shaft_-4.05_3.9",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_capital_-4.05_3.9",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_base_-2.025_3.9",
+      "first_stage": 20,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_shaft_-2.025_3.9",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_capital_-2.025_3.9",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_base_0_3.9",
+      "first_stage": 20,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_shaft_0_3.9",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_capital_0_3.9",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_base_2.025_3.9",
+      "first_stage": 20,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_shaft_2.025_3.9",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_capital_2.025_3.9",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_base_4.05_3.9",
+      "first_stage": 20,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_shaft_4.05_3.9",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "column_capital_4.05_3.9",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cedar_hall_beam_3.9",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "main_hypostyle_roof",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "main_hypostyle_roof_parapet",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "main_hypostyle_roof_parapet.001",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "main_hypostyle_roof_parapet.002",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "main_hypostyle_roof_parapet.003",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "axial_nave_clerestory",
+      "first_stage": 60,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "axial_nave_clerestory.001",
+      "first_stage": 60,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "raised_axial_nave_roof",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "raised_axial_nave_roof_parapet",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "raised_axial_nave_roof_parapet.001",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "raised_axial_nave_roof_parapet.002",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "raised_axial_nave_roof_parapet.003",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "rear_mihrab_buttress",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_outer_wall_-5.3",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_arcade_-5.3",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_roof_-5.3",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_roof_-5.3_parapet",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_roof_-5.3_parapet.001",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_roof_-5.3_parapet.002",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_roof_-5.3_parapet.003",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "owner_gallery_frieze_-5.3",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "gallery_outer_wall_5.3",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_arcade_5.3",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_roof_5.3",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_roof_5.3_parapet",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_roof_5.3_parapet.001",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_roof_5.3_parapet.002",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_roof_5.3_parapet.003",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "owner_gallery_frieze_5.3",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "entrance_facade_-3.28",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "entrance_cornice_-3.28",
+      "first_stage": 60,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "entrance_facade_3.28",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "entrance_cornice_3.28",
+      "first_stage": 60,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_footing",
+      "first_stage": 20,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "great_square_tower",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_stone_coursed_band",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_stone_coursed_band.001",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_stone_coursed_band.002",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_cornice",
+      "first_stage": 60,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_terrace_parapet",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_terrace_parapet.001",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_terrace_parapet.002",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_terrace_parapet.003",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "lantern_corner_pier",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "lantern_corner_pier.001",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "lantern_corner_pier.002",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "lantern_corner_pier.003",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "lantern_flat_cap",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "lantern_upper_finial_base",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_sebka_relief",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_sebka_relief.001",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_sebka_relief.002",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_sebka_relief.003",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_sebka_relief.004",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_sebka_relief.005",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_sebka_relief.006",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_sebka_relief.007",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_sebka_relief.008",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_sebka_relief.009",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_sebka_relief.010",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_sebka_relief.011",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "banner_anchored_rod",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "owner_tower_banner",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "banner_anchored_rod.001",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "owner_tower_banner.001",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "basin_footing",
+      "first_stage": 20,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "ablution_basin_side",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "ablution_basin_side.001",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "ablution_basin_end",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "ablution_basin_end.001",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "basin_inset_floor",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "hall_timber_drain",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "hall_timber_drain.001",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    }
+  ],
+  "assignment": "first visible percentage; cumulative",
+  "game_binding_status": "pending"
+}

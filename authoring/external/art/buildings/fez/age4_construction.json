@@ -1,0 +1,1084 @@
+{
+  "schema": "berber-building-source-stage/v1",
+  "age": 4,
+  "stages": [
+    0,
+    20,
+    40,
+    60,
+    80,
+    100
+  ],
+  "assignment": "first visible percentage, cumulative",
+  "parts": [
+    {
+      "object": "scholar_court_foundation",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_outer_wall",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_hollow_arcade",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_hollow_arcade.001",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_hollow_arcade.002",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_gallery_roof",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_student_rear_wall",
+      "first_stage": 60,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_cell_divider",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_cell_divider.001",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_cell_divider.002",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_cell_divider.003",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_cell_cedar_shutter",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_student_sleeping_platform",
+      "first_stage": 80,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_neutral_cell_owner_band",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "west_cell_cedar_shutter.001",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_student_sleeping_platform.001",
+      "first_stage": 80,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_neutral_cell_owner_band.001",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "west_cell_cedar_shutter.002",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_student_sleeping_platform.002",
+      "first_stage": 80,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_neutral_cell_owner_band.002",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "west_cell_roof",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_lime_parapet",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_lime_parapet.001",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_cedar_carved_frieze",
+      "first_stage": 100,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_plaster_geometric_carving",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_plaster_geometric_carving.001",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_plaster_geometric_carving.002",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_plaster_geometric_carving.003",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_plaster_geometric_carving.004",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_plaster_geometric_carving.005",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_plaster_geometric_carving.006",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_plaster_geometric_carving.007",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_outer_wall",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_hollow_arcade",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_hollow_arcade.001",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_hollow_arcade.002",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_gallery_roof",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_student_rear_wall",
+      "first_stage": 60,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_cell_divider",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_cell_divider.001",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_cell_divider.002",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_cell_divider.003",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_cell_cedar_shutter",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_student_sleeping_platform",
+      "first_stage": 80,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_neutral_cell_owner_band",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "east_cell_cedar_shutter.001",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_student_sleeping_platform.001",
+      "first_stage": 80,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_neutral_cell_owner_band.001",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "east_cell_cedar_shutter.002",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_student_sleeping_platform.002",
+      "first_stage": 80,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_neutral_cell_owner_band.002",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "east_cell_roof",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_lime_parapet",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_lime_parapet.001",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_cedar_carved_frieze",
+      "first_stage": 100,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_plaster_geometric_carving",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_plaster_geometric_carving.001",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_plaster_geometric_carving.002",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_plaster_geometric_carving.003",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_plaster_geometric_carving.004",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_plaster_geometric_carving.005",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_plaster_geometric_carving.006",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_plaster_geometric_carving.007",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_geometric_dado",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_ceramic_diamond",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.001",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.002",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.003",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.004",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.005",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.006",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.007",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.008",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.009",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.010",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.011",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.012",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.013",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.014",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.015",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.016",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.017",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.018",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.019",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.020",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.021",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_carved_plaster_course",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_plaster_relief",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_plaster_relief.001",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_plaster_relief.002",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_plaster_relief.003",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_plaster_relief.004",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_plaster_relief.005",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_plaster_relief.006",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_plaster_relief.007",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_plaster_relief.008",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_plaster_relief.009",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_exterior_plaster_relief.010",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_geometric_dado",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_ceramic_diamond",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.001",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.002",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.003",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.004",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.005",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.006",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.007",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.008",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.009",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.010",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.011",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.012",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.013",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.014",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.015",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.016",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.017",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.018",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.019",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.020",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.021",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_carved_plaster_course",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_plaster_relief",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_plaster_relief.001",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_plaster_relief.002",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_plaster_relief.003",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_plaster_relief.004",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_plaster_relief.005",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_plaster_relief.006",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_plaster_relief.007",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_plaster_relief.008",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_plaster_relief.009",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_exterior_plaster_relief.010",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "teaching_hall_rear",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "teaching_open_reading_bay",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "teaching_hall_roof",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "teaching_hall_parapet",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "carved_main_portal",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "portal_cedar_carved_lintel",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "front_guest_cell_wall",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "guest_cell_roof",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "front_neutral_owner_band",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "front_guest_cell_wall.001",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "guest_cell_roof.001",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "front_neutral_owner_band.001",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "portal_carved_cedar_diamond",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "portal_carved_cedar_diamond.001",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "portal_carved_cedar_diamond.002",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "portal_carved_cedar_diamond.003",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "portal_carved_cedar_diamond.004",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "portal_carved_cedar_diamond.005",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "portal_carved_cedar_diamond.006",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "fountain_plinth",
+      "first_stage": 20,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "fountain_basin_bottom",
+      "first_stage": 40,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "fountain_basin_rim",
+      "first_stage": 60,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "fountain_basin_rim.001",
+      "first_stage": 60,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "fountain_basin_rim.002",
+      "first_stage": 60,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "fountain_basin_rim.003",
+      "first_stage": 60,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "fountain_water",
+      "first_stage": 100,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "fountain_faceted_spout",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "courtyard_geometric_inlay",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "courtyard_geometric_inlay.001",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "courtyard_geometric_inlay.002",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "courtyard_geometric_inlay.003",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "courtyard_geometric_inlay.004",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "courtyard_geometric_inlay.005",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "courtyard_geometric_inlay.006",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "courtyard_geometric_inlay.007",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "courtyard_geometric_inlay.008",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "courtyard_geometric_inlay.009",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "courtyard_geometric_inlay.010",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "courtyard_geometric_inlay.011",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "teaching_desk_pedestal",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "teaching_desk_top",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "scholarly_open_book",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "banner_wall_bracket",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "banner_crossbar",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "neutral_owner_banner",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    }
+  ],
+  "game_binding": "pending"
+}

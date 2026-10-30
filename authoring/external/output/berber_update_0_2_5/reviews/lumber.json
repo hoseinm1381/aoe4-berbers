@@ -1,0 +1,30 @@
+{
+  "status": "approved",
+  "building": "lumber",
+  "version": "0.2.5",
+  "review_scope": "Independent source, saved Blender data, actual preview media, scoped native materials and author cook payload review; final integration and runtime gates remain pending.",
+  "findings": [],
+  "verified": [
+    "Read required Blender and Garrison skills; inspected recipe, source/assembly validations and author cook run metadata.",
+    "Opened assembly_before.png, assembly_after.png and all six solid assembly views. Complete crane, logs and saw silhouette preserved with darker brown timber treatment; construction pile is appropriately excluded from healthy assembly view.",
+    "Independently loaded all four untouched/remix component Blend pairs and the full assembly pair in Blender 5.2.2. Exact geometry, edges, polygon/material indices, smoothing, UVs, corner normals, material slot names, vertex groups/weights, modifiers and world transforms match.",
+    "Independently checked saved assembly mount transforms against original native stamp values through native Y-up to Blender Z-up conversion. Maximum delta 5.960464477539063e-08; wood_logs stock scale 0.800000011920929 preserved on all axes.",
+    "All 31 private payload member hashes and actual author cooked archive hash match manifest. Four native geometry buffers match stock SHA256.",
+    "Parsed original and final rrmaterial roots independently. Only declared non-team albedo paths and their highlight/midtone/shadow parameters change. Every remaining texture slot and parameter is identical, including normals, metal maps, player-colour layer 5 and charred/damage inputs. All material root identities are retained.",
+    "All 15 authored albedo PNGs match recipe hashes, retain source dimensions and preserve source alpha byte-for-byte.",
+    "Reviewed final integration builder: absent baseline Malian wood actor falls back to official stock; only matching tier PBGNAME references are rebound. Reverse restoration semantic comparison protects all other gameplay and animator fields. Private tier clones alter only pbgid and main lumber stamp paths; stock construction/wreck stamps and resource outskirts/core animator behavior remain retained by exact clone assertions.",
+    "Stock age behavior remains the single stock economic assembly; no invented four-age geometry is introduced."
+  ],
+  "evidence": [
+    "output/berber_update_0_2_5/reviews/notes/lumber-blend-compare.json",
+    "output/berber_update_0_2_5/reviews/notes/lumber-native-compare.json",
+    "output/berber_update_0_2_5/reviews/notes/lumber-assembly-native-transforms.json",
+    "output/berber_update_0_2_5/reviews/notes/lumber-albedo-alpha.json"
+  ],
+  "limitations": [
+    "Blender layered material projection approximates the native shader; supplied before preview has an orange layered-shader approximation and therefore establishes silhouette/material scope rather than exact stock in-game appearance.",
+    "No native game session was inspected. Actual owner-colour appearance, construction/destruction animation, placement, drop-off and pathing acceptance remains pending.",
+    "Root final native stamp cook and actual actor/tier payload comparison were underway at review. Builder assertions reviewed; final delivery readback must run before release."
+  ],
+  "pending_gates": ["final stamp reflected-field comparison", "actual actor/tier clone semantic readback", "final combined archive allowlist/hash proof", "user native two-colour construction damage gathering/drop-off/pathing/age test"]
+}
