@@ -1,0 +1,16 @@
+{
+  "key": "barracks",
+  "target": "ebps/races/malian/buildings/building_unit_infantry_mal",
+  "required_ages": [1, 2, 3, 4],
+  "minimum_age": 1,
+  "current_entity_evidence": "assets/attrib/instances/ebps/races/malian/buildings/building_unit_infantry_mal.xml:354-416, unrestricted tier1 plus Feudal/Castle/Imperial",
+  "current_command_evidence": "assets/attrib/instances/sbps/races/malian/berbers/unit_villager_1_mal.xml:284 onward, target barracks; hotkeys age_1/build_barracks, empty additional_requirements",
+  "official_parent": "Attrib.sga attrib/ebps/races/core/buildings/building_unit_infantry.rgd",
+  "official_race": "Attrib.sga attrib/ebps/races/malian/buildings/building_unit_infantry_mal.rgd",
+  "official_requirement": "core.xml requirement_ext empty table and statetree; mal.xml unrestricted tier1 and three higher age tiers",
+  "official_footprint": "core.xml site_ext/footprint_scale x=6 y=6; forced_axis_aligned_footprint true",
+  "source_origin": [0, 0, 0],
+  "author_exit_proposal": [0, -3, 0],
+  "native_marker_status": "static decoded combined stock has no skeleton; exact attachment/emergence mapping pending, preserve production attachment hierarchy unchanged",
+  "modular_states": "current separate military outskirts attachments mal_military_01 unrestricted and mal_military_03 Castle remain production untouched; authored final body, no native outskirts replacement claimed"
+}

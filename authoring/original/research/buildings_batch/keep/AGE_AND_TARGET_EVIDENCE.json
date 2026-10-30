@@ -1,0 +1,36 @@
+{
+  "key": "keep",
+  "minimum_age": 3,
+  "required_ages": [
+    3,
+    4
+  ],
+  "current_entity": "assets/attrib/instances/ebps/races/malian/buildings/building_defense_keep_mal.xml",
+  "parent": "core keep; current XML last line",
+  "villager_build_command_line": 1426,
+  "official_requirement": "core.xml:2787-2803 completed castle_age min1; mal.xml:2905-2921 matches",
+  "footprint_m": [
+    8,
+    8
+  ],
+  "footprint_source": "core.xml:106-109 and mal.xml:116; forced axis aligned",
+  "states": {
+    "arrow": {
+      "age": 3,
+      "gate": "default native arrows"
+    },
+    "springald": {
+      "age": 3,
+      "gate": "completed upgrade_keep_springald; springald.xml requirement castle_age"
+    },
+    "cannon": {
+      "age": 4,
+      "gate": "completed upgrade_keep_cannon; cannon.xml:83 imperial_age"
+    },
+    "oil": {
+      "age": 3,
+      "gate": "completed upgrade_tech_university_murder_holes_4; oil.xml:82 castle_age despite name suffix4"
+    }
+  },
+  "render_bounds_used_as_footprint": false
+}

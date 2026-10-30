@@ -1,0 +1,66 @@
+{
+  "asset": "palisade_gate",
+  "min_age": 1,
+  "required_ages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "minimum_age_evidence": {
+    "current_build_command": "assets/attrib/instances/sbps/races/malian/berbers/unit_villager_1_mal.xml lines496-509: palisade_gate target, age_1 hotkey and empty additional_requirements",
+    "installed_official": "mal.xml default requirement_ext empty, core.xml default requirement_ext empty; neither requires later age"
+  },
+  "stock_logical_path": {
+    "logical_path": "art/civilizations/english/structures/palisade/eng_palisade_gate_4m_age01/eng_palisade_gate_4m_age01.rgm"
+  },
+  "donor_source_sha256": "1d11ab6db7fcc38f19425c76ad158c409d060c4004b070debc04202a2c402348",
+  "geometry_projection": {
+    "position": "blender=(-cooked.x,-cooked.z,cooked.y)",
+    "uv": "blender=(cooked.u,1-cooked.v)",
+    "triangle_winding": "reversed"
+  },
+  "native_skeleton_rest_pose_qualification": {
+    "status": "local_reference_transforms_decoded",
+    "transform_count": 3,
+    "space": "parent_local",
+    "semantic": "rest_or_bind_reference_unqualified",
+    "semantic_confidence": "inferred",
+    "record_layout": {
+      "encoding": "float32le",
+      "bytes": 40,
+      "components": [
+        "quaternion_xyzw",
+        "translation_xyz",
+        "scale_xyz"
+      ]
+    },
+    "block_offset_in_skln": 112,
+    "block_bytes": 120,
+    "block_sha256": "04741b96f1284c299653d5a0d5191087c6ff09813b9f59fac71bc46b2c459659",
+    "opaque_prefix_bytes": 58,
+    "opaque_prefix_sha256": "ecd31cee359258d58b3ace3a7c839f61f2e009cf8995bcd6c7adc68413f31e78",
+    "validation": {
+      "quaternion_norm_min": 0.999999982885729,
+      "quaternion_norm_max": 1.0,
+      "quaternion_norm_max_error": 1.711427100037355e-08,
+      "translation_min": -2.0571999549865723,
+      "translation_max": 2.0565898418426514,
+      "scale_min": 1.0,
+      "scale_max": 1.0
+    }
+  },
+  "original_geometry_reason": "stock donor controls proportions and hinges; original timber/palm frame and earth footings materially redesign English gateway for Berber family",
+  "history": [
+    {
+      "url": "https://whc.unesco.org/en/list/444",
+      "evidence": "UNESCO describes defensive walls, baffle gate, earth and wood architecture and geometric clay decoration.",
+      "inference": "This open straight double-leaf game gate with palm timbers and earth-footed posts is an original game design; no historical replica or medieval palm-gate reconstruction is claimed."
+    }
+  ],
+  "sha256": {
+    "attachment.rgd": "a4aa1caa45f0db458da36e321276f939b1df1da20073d6ffb5592ed7413be0f7",
+    "core.rgd": "a8370f989695b941af701d1a3913a3d77233486c5bbe686e74acac3f7bdd3d32",
+    "mal.rgd": "f187f732b06df825c5c67b1e39aace2060a0b378a9bdc97e2cdd68cf153d51bc"
+  }
+}

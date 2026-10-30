@@ -1,0 +1,96 @@
+<instance version="6" description="State model tunings for AI difficulty level &quot;Easy&quot;." template="ai\ai_statemodel_tunings">
+  <group name="ai_statemodel_tunings_bag">
+    <list name="float_tunings">
+      <group name="value_tuning" List.ItemID="-147523555" List.ParentItemID="-147523555">
+        <float name="value" value="0" overrideParent="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="1479877785" List.ParentItemID="1479877785">
+        <float name="value" value="-1" overrideParent="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="-1077278942" List.ParentItemID="-1077278942">
+        <float name="value" value="0.1" overrideParent="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="-924152782" List.ParentItemID="-924152782">
+        <float name="value" value="0.1" overrideParent="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="1586781026" List.ParentItemID="1586781026">
+        <float name="value" value="0.2" overrideParent="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="1854133045" List.ParentItemID="1854133045">
+        <float name="value" value="0" overrideParent="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="-757168426" List.ParentItemID="-757168426">
+        <float name="value" value="0.08" overrideParent="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="1706605578" List.ParentItemID="1706605578">
+        <float name="value" value="130" overrideParent="True" />
+      </group>
+    </list>
+  </group>
+  <uniqueid name="pbgid" value="2128950" />
+  <instance_reference name="parent_pbg" value="ai\ai_statemodel_tunings\skirmish_difficulty_easy" />
+  <variant name="xp3">
+    <group name="ai_statemodel_tunings_bag">
+      <list name="float_tunings">
+        <group name="value_tuning" List.ItemID="-147523555" List.ParentItemID="-147523555">
+          <float name="value" value="0" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="1479877785" List.ParentItemID="1479877785">
+          <float name="value" value="-1" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="-1077278942" List.ParentItemID="-1077278942">
+          <float name="value" value="0.1" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="-924152782" List.ParentItemID="-924152782">
+          <float name="value" value="0.1" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="1586781026" List.ParentItemID="1586781026">
+          <float name="value" value="0.2" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="1854133045" List.ParentItemID="1854133045">
+          <float name="value" value="0" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="-757168426" List.ParentItemID="-757168426">
+          <float name="value" value="0.08" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="1706605578" List.ParentItemID="1706605578">
+          <float name="value" value="130" overrideParent="True" />
+        </group>
+      </list>
+    </group>
+    <uniqueid name="pbgid" value="2128950" />
+    <instance_reference name="parent_pbg" value="ai\ai_statemodel_tunings\skirmish_difficulty_easy" />
+  </variant>
+  <variant name="cordoba">
+    <group name="ai_statemodel_tunings_bag">
+      <list name="float_tunings">
+        <group name="value_tuning" List.ItemID="-147523555" List.ParentItemID="-147523555">
+          <float name="value" value="0" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="1479877785" List.ParentItemID="1479877785">
+          <float name="value" value="-1" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="-1077278942" List.ParentItemID="-1077278942">
+          <float name="value" value="0.1" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="-924152782" List.ParentItemID="-924152782">
+          <float name="value" value="0.1" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="1586781026" List.ParentItemID="1586781026">
+          <float name="value" value="0.2" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="1854133045" List.ParentItemID="1854133045">
+          <float name="value" value="0" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="-757168426" List.ParentItemID="-757168426">
+          <float name="value" value="0.08" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="1706605578" List.ParentItemID="1706605578">
+          <float name="value" value="130" overrideParent="True" />
+        </group>
+      </list>
+    </group>
+    <uniqueid name="pbgid" value="2128950" />
+    <instance_reference name="parent_pbg" value="ai\ai_statemodel_tunings\skirmish_difficulty_easy" />
+  </variant>
+</instance>

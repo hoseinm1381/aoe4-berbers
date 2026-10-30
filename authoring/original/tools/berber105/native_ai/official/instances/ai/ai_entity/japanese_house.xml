@@ -1,0 +1,67 @@
+<instance version="6" description="" template="ai\ai_entity">
+  <uniqueid name="pbgid" value="2146001" />
+  <group name="ai_entity_bag">
+    <list name="applicable_blueprints">
+      <instance_reference name="applicable_blueprint" value="ebps\races\japanese\buildings\building_house_jpn" List.ItemID="420565616" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\japanese_ha_sen\buildings\building_house_jpn_ha_sen" List.ItemID="-913911199" />
+    </list>
+    <group name="construction">
+      <string name="placement_function" value="" />
+      <bool name="can_build_multiple_in_parallel" value="True" />
+      <int name="max_num_additional_builders" value="1" />
+      <int name="max_num_incomplete_structures_builders" value="-1" />
+      <list name="near_to_structures">
+        <instance_reference name="structure" value="ebps\races\japanese\buildings\building_house_jpn" List.ItemID="-1385316205" />
+        <instance_reference name="structure" value="ebps\races\japanese_ha_sen\buildings\building_house_jpn_ha_sen" List.ItemID="731185146" />
+      </list>
+      <list name="requires_structures">
+      </list>
+      <list name="near_structures_with_capability">
+      </list>
+    </group>
+  </group>
+  <variant name="xp3">
+    <uniqueid name="pbgid" value="2146001" />
+    <group name="ai_entity_bag">
+      <list name="applicable_blueprints">
+        <instance_reference name="applicable_blueprint" value="ebps\races\japanese\buildings\building_house_jpn" List.ItemID="420565616" />
+      </list>
+      <group name="construction">
+        <string name="placement_function" value="" />
+        <bool name="can_build_multiple_in_parallel" value="True" />
+        <int name="max_num_additional_builders" value="1" />
+        <int name="max_num_incomplete_structures_builders" value="-1" />
+        <list name="near_to_structures">
+          <instance_reference name="structure" value="ebps\races\japanese\buildings\building_house_jpn" List.ItemID="-1385316205" />
+        </list>
+        <list name="requires_structures">
+        </list>
+        <list name="near_structures_with_capability">
+        </list>
+      </group>
+    </group>
+  </variant>
+  <variant name="cordoba">
+    <uniqueid name="pbgid" value="2146001" />
+    <group name="ai_entity_bag">
+      <list name="applicable_blueprints">
+        <instance_reference name="applicable_blueprint" value="ebps\races\japanese\buildings\building_house_jpn" List.ItemID="420565616" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\japanese_ha_sen\buildings\building_house_jpn_ha_sen" List.ItemID="-913911199" />
+      </list>
+      <group name="construction">
+        <string name="placement_function" value="" />
+        <bool name="can_build_multiple_in_parallel" value="True" />
+        <int name="max_num_additional_builders" value="1" />
+        <int name="max_num_incomplete_structures_builders" value="-1" />
+        <list name="near_to_structures">
+          <instance_reference name="structure" value="ebps\races\japanese\buildings\building_house_jpn" List.ItemID="-1385316205" />
+          <instance_reference name="structure" value="ebps\races\japanese_ha_sen\buildings\building_house_jpn_ha_sen" List.ItemID="731185146" />
+        </list>
+        <list name="requires_structures">
+        </list>
+        <list name="near_structures_with_capability">
+        </list>
+      </group>
+    </group>
+  </variant>
+</instance>

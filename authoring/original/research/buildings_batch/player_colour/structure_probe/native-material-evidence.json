@@ -1,0 +1,4474 @@
+{
+  "schema": "berber.structure-owner-contract-inspection/v1",
+  "status": "native_team_layer_found_authoring_producer_unqualified",
+  "fixture": "research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\decoded-static.json",
+  "fixture_sha256": "a427b3613fea7e7e139465c009aa09ec57ae3dc2d85c07b2782ca3c158ac7b3e",
+  "material_source": {
+    "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\source\\art\\civilizations\\malian\\structures\\stonewall\\mal_stonewall_tower\\mal_stonewall_tower.rrmaterial",
+    "size": 54162,
+    "sha256": "a5100cb5367c6521df7cf1d1263188f9c444f3bfffe49e5027d12ade1e0b7cab"
+  },
+  "team_materials": [
+    {
+      "name": "main",
+      "class": "structure",
+      "blocks": [
+        {
+          "name": "StructureMaterialParams",
+          "parameters": [
+            {
+              "name": "terrainblend_maskoffsetscale",
+              "type": "Float4",
+              "values": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "raw_values": [
+                "1.0",
+                "1.0",
+                "1.0",
+                "1.0"
+              ]
+            },
+            {
+              "name": "terrainblend_falloff",
+              "type": "Float4",
+              "values": [
+                0.75,
+                0.75,
+                0.5,
+                0.5
+              ],
+              "raw_values": [
+                "0.75",
+                "0.75",
+                "0.5",
+                "0.5"
+              ]
+            },
+            {
+              "name": "preserveBaseNormal234",
+              "type": "Float4",
+              "values": [
+                0.4000000059604645,
+                0.25,
+                0.0,
+                0.0
+              ],
+              "raw_values": [
+                "0.4000000059604645",
+                "0.25",
+                "0.0",
+                "0.0"
+              ]
+            },
+            {
+              "name": "heightBias1234",
+              "type": "Float4",
+              "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "raw_values": [
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0"
+              ]
+            },
+            {
+              "name": "mask23LevelMinMax",
+              "type": "Float4",
+              "values": [
+                0.0,
+                1.0,
+                0.0,
+                1.0
+              ],
+              "raw_values": [
+                "0.0",
+                "1.0",
+                "0.0",
+                "1.0"
+              ]
+            },
+            {
+              "name": "mask45LevelMinMax",
+              "type": "Float4",
+              "values": [
+                0.0,
+                1.0,
+                0.0,
+                1.0
+              ],
+              "raw_values": [
+                "0.0",
+                "1.0",
+                "0.0",
+                "1.0"
+              ]
+            },
+            {
+              "name": "mask67LevelMinMax",
+              "type": "Float4",
+              "values": [
+                0.0,
+                1.0,
+                0.0,
+                1.0
+              ],
+              "raw_values": [
+                "0.0",
+                "1.0",
+                "0.0",
+                "1.0"
+              ]
+            },
+            {
+              "name": "secondaryMaskStrength234",
+              "type": "Float4",
+              "values": [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              "raw_values": [
+                "0.0",
+                "1.0",
+                "0.0",
+                "0.0"
+              ]
+            },
+            {
+              "name": "highlightColor1",
+              "type": "Float4",
+              "values": [
+                0.503000020980835,
+                0.503000020980835,
+                0.503000020980835,
+                1.0
+              ],
+              "raw_values": [
+                "0.503000020980835",
+                "0.503000020980835",
+                "0.503000020980835",
+                "1.0"
+              ]
+            },
+            {
+              "name": "midtoneColor1",
+              "type": "Float4",
+              "values": [
+                0.503000020980835,
+                0.503000020980835,
+                0.503000020980835,
+                1.0
+              ],
+              "raw_values": [
+                "0.503000020980835",
+                "0.503000020980835",
+                "0.503000020980835",
+                "1.0"
+              ]
+            },
+            {
+              "name": "shadowColor1",
+              "type": "Float4",
+              "values": [
+                0.503000020980835,
+                0.503000020980835,
+                0.503000020980835,
+                1.0
+              ],
+              "raw_values": [
+                "0.503000020980835",
+                "0.503000020980835",
+                "0.503000020980835",
+                "1.0"
+              ]
+            },
+            {
+              "name": "highlightColor2",
+              "type": "Float4",
+              "values": [
+                0.5028865933418274,
+                0.5028865933418274,
+                0.5028865933418274,
+                1.0
+              ],
+              "raw_values": [
+                "0.5028865933418274",
+                "0.5028865933418274",
+                "0.5028865933418274",
+                "1.0"
+              ]
+            },
+            {
+              "name": "midtoneColor2",
+              "type": "Float4",
+              "values": [
+                0.6172066330909729,
+                0.5209956765174866,
+                0.40197786688804626,
+                1.0
+              ],
+              "raw_values": [
+                "0.6172066330909729",
+                "0.5209956765174866",
+                "0.40197786688804626",
+                "1.0"
+              ]
+            },
+            {
+              "name": "shadowColor2",
+              "type": "Float4",
+              "values": [
+                0.5028865933418274,
+                0.42326775193214417,
+                0.3277781307697296,
+                1.0
+              ],
+              "raw_values": [
+                "0.5028865933418274",
+                "0.42326775193214417",
+                "0.3277781307697296",
+                "1.0"
+              ]
+            },
+            {
+              "name": "highlightColor3",
+              "type": "Float4",
+              "values": [
+                0.5028865933418274,
+                0.5028865933418274,
+                0.5028865933418274,
+                1.0
+              ],
+              "raw_values": [
+                "0.5028865933418274",
+                "0.5028865933418274",
+                "0.5028865933418274",
+                "1.0"
+              ]
+            },
+            {
+              "name": "midtoneColor3",
+              "type": "Float4",
+              "values": [
+                0.3813261091709137,
+                0.23074007034301758,
+                0.13563334941864014,
+                1.0
+              ],
+              "raw_values": [
+                "0.3813261091709137",
+                "0.23074007034301758",
+                "0.13563334941864014",
+                "1.0"
+              ]
+            },
+            {
+              "name": "shadowColor3",
+              "type": "Float4",
+              "values": [
+                0.5028865933418274,
+                0.5028865933418274,
+                0.5028865933418274,
+                1.0
+              ],
+              "raw_values": [
+                "0.5028865933418274",
+                "0.5028865933418274",
+                "0.5028865933418274",
+                "1.0"
+              ]
+            },
+            {
+              "name": "highlightColor4",
+              "type": "Float4",
+              "values": [
+                0.26225072145462036,
+                0.26225072145462036,
+                0.26225072145462036,
+                1.0
+              ],
+              "raw_values": [
+                "0.26225072145462036",
+                "0.26225072145462036",
+                "0.26225072145462036",
+                "1.0"
+              ]
+            },
+            {
+              "name": "midtoneColor4",
+              "type": "Float4",
+              "values": [
+                0.3515326976776123,
+                0.32314324378967285,
+                0.32314324378967285,
+                1.0
+              ],
+              "raw_values": [
+                "0.3515326976776123",
+                "0.32314324378967285",
+                "0.32314324378967285",
+                "1.0"
+              ]
+            },
+            {
+              "name": "shadowColor4",
+              "type": "Float4",
+              "values": [
+                0.5028865933418274,
+                0.5028865933418274,
+                0.5028865933418274,
+                1.0
+              ],
+              "raw_values": [
+                "0.5028865933418274",
+                "0.5028865933418274",
+                "0.5028865933418274",
+                "1.0"
+              ]
+            },
+            {
+              "name": "maskToNormalIntensities234",
+              "type": "Float4",
+              "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "raw_values": [
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0"
+              ]
+            },
+            {
+              "name": "maskToNormalWidths234",
+              "type": "Float4",
+              "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "raw_values": [
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0"
+              ]
+            },
+            {
+              "name": "options",
+              "type": "Float4",
+              "values": [
+                64.0,
+                36.0,
+                1.0,
+                8.0
+              ],
+              "raw_values": [
+                "64.0",
+                "36.0",
+                "1.0",
+                "8.0"
+              ]
+            }
+          ],
+          "textures": []
+        },
+        {
+          "name": "StructureMaterialParams2",
+          "parameters": [
+            {
+              "name": "highlightColor5",
+              "type": "Float4",
+              "values": [
+                0.5028865933418274,
+                0.4178851544857025,
+                0.36625269055366516,
+                1.0
+              ],
+              "raw_values": [
+                "0.5028865933418274",
+                "0.4178851544857025",
+                "0.36625269055366516",
+                "1.0"
+              ]
+            },
+            {
+              "name": "midtoneColor5",
+              "type": "Float4",
+              "values": [
+                0.5028865933418274,
+                0.3564002513885498,
+                0.2746773660182953,
+                1.0
+              ],
+              "raw_values": [
+                "0.5028865933418274",
+                "0.3564002513885498",
+                "0.2746773660182953",
+                "1.0"
+              ]
+            },
+            {
+              "name": "shadowColor5",
+              "type": "Float4",
+              "values": [
+                0.5028865933418274,
+                0.3564002513885498,
+                0.2746773660182953,
+                1.0
+              ],
+              "raw_values": [
+                "0.5028865933418274",
+                "0.3564002513885498",
+                "0.2746773660182953",
+                "1.0"
+              ]
+            },
+            {
+              "name": "highlightColor6",
+              "type": "Float4",
+              "values": [
+                0.503000020980835,
+                0.503000020980835,
+                0.503000020980835,
+                1.0
+              ],
+              "raw_values": [
+                "0.503000020980835",
+                "0.503000020980835",
+                "0.503000020980835",
+                "1.0"
+              ]
+            },
+            {
+              "name": "midtoneColor6",
+              "type": "Float4",
+              "values": [
+                0.503000020980835,
+                0.503000020980835,
+                0.503000020980835,
+                1.0
+              ],
+              "raw_values": [
+                "0.503000020980835",
+                "0.503000020980835",
+                "0.503000020980835",
+                "1.0"
+              ]
+            },
+            {
+              "name": "shadowColor6",
+              "type": "Float4",
+              "values": [
+                0.503000020980835,
+                0.503000020980835,
+                0.503000020980835,
+                1.0
+              ],
+              "raw_values": [
+                "0.503000020980835",
+                "0.503000020980835",
+                "0.503000020980835",
+                "1.0"
+              ]
+            },
+            {
+              "name": "highlightColor7",
+              "type": "Float4",
+              "values": [
+                0.503000020980835,
+                0.503000020980835,
+                0.503000020980835,
+                1.0
+              ],
+              "raw_values": [
+                "0.503000020980835",
+                "0.503000020980835",
+                "0.503000020980835",
+                "1.0"
+              ]
+            },
+            {
+              "name": "midtoneColor7",
+              "type": "Float4",
+              "values": [
+                0.503000020980835,
+                0.503000020980835,
+                0.503000020980835,
+                1.0
+              ],
+              "raw_values": [
+                "0.503000020980835",
+                "0.503000020980835",
+                "0.503000020980835",
+                "1.0"
+              ]
+            },
+            {
+              "name": "shadowColor7",
+              "type": "Float4",
+              "values": [
+                0.503000020980835,
+                0.503000020980835,
+                0.503000020980835,
+                1.0
+              ],
+              "raw_values": [
+                "0.503000020980835",
+                "0.503000020980835",
+                "0.503000020980835",
+                "1.0"
+              ]
+            },
+            {
+              "name": "maskToNormalIntensities567",
+              "type": "Float4",
+              "values": [
+                0.0,
+                0.0,
+                0.18000000715255737,
+                0.0
+              ],
+              "raw_values": [
+                "0.0",
+                "0.0",
+                "0.18000000715255737",
+                "0.0"
+              ]
+            },
+            {
+              "name": "maskToNormalWidths567",
+              "type": "Float4",
+              "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "raw_values": [
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0"
+              ]
+            },
+            {
+              "name": "heightBias567",
+              "type": "Float4",
+              "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "raw_values": [
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0"
+              ]
+            },
+            {
+              "name": "secondaryMaskStrength567",
+              "type": "Float4",
+              "values": [
+                0.05999999865889549,
+                0.27000001072883606,
+                0.20999999344348907,
+                0.0
+              ],
+              "raw_values": [
+                "0.05999999865889549",
+                "0.27000001072883606",
+                "0.20999999344348907",
+                "0.0"
+              ]
+            },
+            {
+              "name": "preserveBaseNormal567",
+              "type": "Float4",
+              "values": [
+                0.0,
+                0.5,
+                0.75,
+                0.0
+              ],
+              "raw_values": [
+                "0.0",
+                "0.5",
+                "0.75",
+                "0.0"
+              ]
+            }
+          ],
+          "textures": []
+        },
+        {
+          "name": "StructureMaterialTextureParams",
+          "parameters": [],
+          "textures": [
+            {
+              "name": "albedoTex",
+              "logical_path": "art/material_library/substances/structures/plaster/14189176920867230619_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\005c8c49738d_14189176920867230619_packed.dds",
+              "texture_name": "art/material_library/substances/structures/plaster/str_plaster_b_daub_17_alb",
+              "projection_format": "BC1_UNORM_SRGB",
+              "internal_format": 19
+            },
+            {
+              "name": "albedoTex2",
+              "logical_path": "art/material_library/substances/structures/plaster/912430540724886443_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\9839553946b2_912430540724886443_packed.dds",
+              "texture_name": "art/material_library/substances/structures/plaster/str_plaster_b_daub_20_alb",
+              "projection_format": "BC1_UNORM_SRGB",
+              "internal_format": 19
+            },
+            {
+              "name": "albedoTex3",
+              "logical_path": "art/material_library/substances/structures/grout/934894132820687482_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\4aa7961d96b0_934894132820687482_packed.dds",
+              "texture_name": "art/material_library/substances/structures/grout/str_grout_white_01_alb",
+              "projection_format": "BC1_UNORM_SRGB",
+              "internal_format": 19
+            },
+            {
+              "name": "albedoTex4",
+              "logical_path": "art/material_library/substances/structures/wood/3276630836538442047_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\2559e2731a7e_3276630836538442047_packed.dds",
+              "texture_name": "art/material_library/substances/structures/wood/str_wood_generic_02_alb",
+              "projection_format": "BC1_UNORM_SRGB",
+              "internal_format": 19
+            },
+            {
+              "name": "__default",
+              "logical_path": "__default",
+              "projection_path": null
+            },
+            {
+              "name": "normalMap",
+              "logical_path": "art/material_library/substances/structures/plaster/1090364353544936065_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\26a26028ed27_1090364353544936065_packed.dds",
+              "texture_name": "art/material_library/substances/structures/plaster/str_plaster_b_daub_17_emi",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "normalMap2",
+              "logical_path": "art/material_library/substances/structures/plaster/7817128557334523862_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\5c0676dab304_7817128557334523862_packed.dds",
+              "texture_name": "art/material_library/substances/structures/plaster/str_plaster_b_daub_20_emi",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "normalMap3",
+              "logical_path": "art/material_library/substances/structures/grout/4373456093999725211_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\fc68f83c9dee_4373456093999725211_packed.dds",
+              "texture_name": "art/material_library/substances/structures/grout/str_grout_white_01_emi",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "normalMap4",
+              "logical_path": "art/material_library/substances/structures/wood/8075824890169796949_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\b8e4ce9f853c_8075824890169796949_packed.dds",
+              "texture_name": "art/material_library/substances/structures/wood/str_wood_generic_02_emi",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "secondaryMaskTex2",
+              "logical_path": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\d5ba288445e3_middle_gray_msk.dds",
+              "texture_name": "art/material_library/painter_materials/textures/middle_gray_msk",
+              "projection_format": "BC1_UNORM",
+              "internal_format": 18
+            },
+            {
+              "name": "secondaryMaskTex3",
+              "logical_path": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\d5ba288445e3_middle_gray_msk.dds",
+              "texture_name": "art/material_library/painter_materials/textures/middle_gray_msk",
+              "projection_format": "BC1_UNORM",
+              "internal_format": 18
+            },
+            {
+              "name": "secondaryMaskTex4",
+              "logical_path": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\d5ba288445e3_middle_gray_msk.dds",
+              "texture_name": "art/material_library/painter_materials/textures/middle_gray_msk",
+              "projection_format": "BC1_UNORM",
+              "internal_format": 18
+            },
+            {
+              "name": "metalTex",
+              "logical_path": "art/material_library/substances/structures/plaster/2144689956639166819_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\7c1bac01889c_2144689956639166819_packed.dds",
+              "texture_name": "art/material_library/substances/structures/plaster/str_plaster_b_daub_17_mtl",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "metalTex2",
+              "logical_path": "art/material_library/substances/structures/plaster/3650453994793044165_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\6e6b6d1e7ee5_3650453994793044165_packed.dds",
+              "texture_name": "art/material_library/substances/structures/plaster/str_plaster_b_daub_20_mtl",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "metalTex3",
+              "logical_path": "art/material_library/substances/structures/grout/10740321618852791956_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\35e374f00eb2_10740321618852791956_packed.dds",
+              "texture_name": "art/material_library/substances/structures/grout/str_grout_white_01_mtl",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "metalTex4",
+              "logical_path": "art/material_library/substances/structures/wood/651613341237364139_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\ec41a9e94ab5_651613341237364139_packed.dds",
+              "texture_name": "art/material_library/substances/structures/wood/str_wood_generic_02_mtl",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "maskTex2",
+              "logical_path": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/12852580227450526001_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\b12e1de36ad5_12852580227450526001_packed.dds",
+              "texture_name": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/mal_stonewall_tower_main_mask2",
+              "projection_format": "BC1_UNORM",
+              "internal_format": 18
+            },
+            {
+              "name": "maskAlpha",
+              "logical_path": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/1016451729546722177_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\0aeaf26d1033_1016451729546722177_packed.dds",
+              "texture_name": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/mal_stonewall_tower_main_maskalpha",
+              "projection_format": "BC1_UNORM",
+              "internal_format": 18
+            },
+            {
+              "name": "overlay1Mask",
+              "logical_path": "art/material_library/painter_materials/textures/black_msk.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\0eb8439c962e_black_msk.dds",
+              "texture_name": "art/material_library/painter_materials/textures/black_msk",
+              "projection_format": "BC1_UNORM",
+              "internal_format": 18
+            },
+            {
+              "name": "overlay2Mask",
+              "logical_path": "art/material_library/painter_materials/textures/patches_01_msk.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\570e02d83fae_patches_01_msk.dds",
+              "texture_name": "art/material_library/painter_materials/textures/patches_01_msk",
+              "projection_format": "BC1_UNORM",
+              "internal_format": 18
+            },
+            {
+              "name": "overlay1Albedo",
+              "logical_path": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/6761565007190403530_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\fc29cc25f6c3_6761565007190403530_packed.dds",
+              "texture_name": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/mal_stonewall_tower_main_overlay1_ovralb",
+              "projection_format": "BC3_UNORM_SRGB",
+              "internal_format": 23
+            },
+            {
+              "name": "overlay2Albedo",
+              "logical_path": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/9813512380306279546_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\57df0c7bb21c_9813512380306279546_packed.dds",
+              "texture_name": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/mal_stonewall_tower_main_overlay2_ovralb",
+              "projection_format": "BC3_UNORM_SRGB",
+              "internal_format": 23
+            },
+            {
+              "name": "albedoTexCharred",
+              "logical_path": "art/material_library/substances/structures/damage/str_damage_charred_01_alb.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\6f3011ce41e3_str_damage_charred_01_alb.dds",
+              "texture_name": "art/material_library/substances/structures/damage/str_damage_charred_01_alb",
+              "projection_format": "BC1_UNORM_SRGB",
+              "internal_format": 19
+            },
+            {
+              "name": "metalTexCharred",
+              "logical_path": "art/material_library/substances/structures/damage/11755559493558267954_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\85c59cbb9679_11755559493558267954_packed.dds",
+              "texture_name": "art/material_library/substances/structures/damage/str_damage_charred_01_mtl",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "normalMapCharred",
+              "logical_path": "art/material_library/substances/structures/damage/11844705194956636559_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\2b5e473bc500_11844705194956636559_packed.dds",
+              "texture_name": "art/material_library/substances/structures/damage/str_damage_charred_01_emi",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "terrainBlendMask",
+              "logical_path": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\d5ba288445e3_middle_gray_msk.dds",
+              "texture_name": "art/material_library/painter_materials/textures/middle_gray_msk",
+              "projection_format": "BC1_UNORM",
+              "internal_format": 18
+            }
+          ]
+        },
+        {
+          "name": "StructureMaterialTextureParams2",
+          "parameters": [],
+          "textures": [
+            {
+              "name": "albedoTex5",
+              "logical_path": "art/material_library/substances/structures/stone/7543808130346397087_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\bcb0b4bb9ec0_7543808130346397087_packed.dds",
+              "texture_name": "art/material_library/substances/structures/stone/str_stone_floor_06_alb",
+              "projection_format": "BC1_UNORM_SRGB",
+              "internal_format": 19
+            },
+            {
+              "name": "albedoTex6",
+              "logical_path": "art/material_library/substances/structures/plaster/12041615973339707457_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\5db26348116b_12041615973339707457_packed.dds",
+              "texture_name": "art/material_library/substances/structures/plaster/str_plaster_cob_01_alb",
+              "projection_format": "BC1_UNORM_SRGB",
+              "internal_format": 19
+            },
+            {
+              "name": "albedoTex7",
+              "logical_path": "art/material_library/substances/structures/debug/6708399669590286008_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\00a2880bf731_6708399669590286008_packed.dds",
+              "texture_name": "art/material_library/substances/structures/debug/str_debug_team_color_alb",
+              "projection_format": "BC1_UNORM_SRGB",
+              "internal_format": 19
+            },
+            {
+              "name": "normalMap5",
+              "logical_path": "art/material_library/substances/structures/stone/15954278044326765436_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\57dd7d2c1069_15954278044326765436_packed.dds",
+              "texture_name": "art/material_library/substances/structures/stone/str_stone_floor_06_emi",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "normalMap6",
+              "logical_path": "art/material_library/substances/structures/plaster/18231663582228185424_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\7b494a2f28b9_18231663582228185424_packed.dds",
+              "texture_name": "art/material_library/substances/structures/plaster/str_plaster_cob_01_emi",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "normalMap7",
+              "logical_path": "art/material_library/substances/structures/debug/940685202008631679_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\5381da0089b5_940685202008631679_packed.dds",
+              "texture_name": "art/material_library/substances/structures/debug/str_debug_team_color_emi",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "secondaryMaskTex5",
+              "logical_path": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\d5ba288445e3_middle_gray_msk.dds",
+              "texture_name": "art/material_library/painter_materials/textures/middle_gray_msk",
+              "projection_format": "BC1_UNORM",
+              "internal_format": 18
+            },
+            {
+              "name": "secondaryMaskTex6",
+              "logical_path": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\d5ba288445e3_middle_gray_msk.dds",
+              "texture_name": "art/material_library/painter_materials/textures/middle_gray_msk",
+              "projection_format": "BC1_UNORM",
+              "internal_format": 18
+            },
+            {
+              "name": "secondaryMaskTex7",
+              "logical_path": "art/material_library/painter_materials/textures/leaks_01_msk.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\c1eb0b07e1df_leaks_01_msk.dds",
+              "texture_name": "art/material_library/painter_materials/textures/leaks_01_msk",
+              "projection_format": "BC1_UNORM",
+              "internal_format": 18
+            },
+            {
+              "name": "metalTex5",
+              "logical_path": "art/material_library/substances/structures/stone/10957026120954162192_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\75445d1f6b2e_10957026120954162192_packed.dds",
+              "texture_name": "art/material_library/substances/structures/stone/str_stone_floor_06_mtl",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "metalTex6",
+              "logical_path": "art/material_library/substances/structures/plaster/10481810468234262313_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\794382be660a_10481810468234262313_packed.dds",
+              "texture_name": "art/material_library/substances/structures/plaster/str_plaster_cob_01_mtl",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "metalTex7",
+              "logical_path": "art/material_library/substances/structures/debug/17716732775687444425_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\ef0164b43256_17716732775687444425_packed.dds",
+              "texture_name": "art/material_library/substances/structures/debug/str_debug_team_color_mtl",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "maskTex5",
+              "logical_path": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/8658189803012978308_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\2a47f7c07892_8658189803012978308_packed.dds",
+              "texture_name": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/mal_stonewall_tower_main_mask5",
+              "projection_format": "BC1_UNORM",
+              "internal_format": 18
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "name": "terrainblend_maskoffsetscale",
+          "type": "Float4",
+          "values": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "raw_values": [
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0"
+          ]
+        },
+        {
+          "name": "terrainblend_falloff",
+          "type": "Float4",
+          "values": [
+            0.75,
+            0.75,
+            0.5,
+            0.5
+          ],
+          "raw_values": [
+            "0.75",
+            "0.75",
+            "0.5",
+            "0.5"
+          ]
+        },
+        {
+          "name": "preserveBaseNormal234",
+          "type": "Float4",
+          "values": [
+            0.4000000059604645,
+            0.25,
+            0.0,
+            0.0
+          ],
+          "raw_values": [
+            "0.4000000059604645",
+            "0.25",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "name": "heightBias1234",
+          "type": "Float4",
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_values": [
+            "0.0",
+            "0.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "name": "mask23LevelMinMax",
+          "type": "Float4",
+          "values": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "raw_values": [
+            "0.0",
+            "1.0",
+            "0.0",
+            "1.0"
+          ]
+        },
+        {
+          "name": "mask45LevelMinMax",
+          "type": "Float4",
+          "values": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "raw_values": [
+            "0.0",
+            "1.0",
+            "0.0",
+            "1.0"
+          ]
+        },
+        {
+          "name": "mask67LevelMinMax",
+          "type": "Float4",
+          "values": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "raw_values": [
+            "0.0",
+            "1.0",
+            "0.0",
+            "1.0"
+          ]
+        },
+        {
+          "name": "secondaryMaskStrength234",
+          "type": "Float4",
+          "values": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "raw_values": [
+            "0.0",
+            "1.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "name": "highlightColor1",
+          "type": "Float4",
+          "values": [
+            0.503000020980835,
+            0.503000020980835,
+            0.503000020980835,
+            1.0
+          ],
+          "raw_values": [
+            "0.503000020980835",
+            "0.503000020980835",
+            "0.503000020980835",
+            "1.0"
+          ]
+        },
+        {
+          "name": "midtoneColor1",
+          "type": "Float4",
+          "values": [
+            0.503000020980835,
+            0.503000020980835,
+            0.503000020980835,
+            1.0
+          ],
+          "raw_values": [
+            "0.503000020980835",
+            "0.503000020980835",
+            "0.503000020980835",
+            "1.0"
+          ]
+        },
+        {
+          "name": "shadowColor1",
+          "type": "Float4",
+          "values": [
+            0.503000020980835,
+            0.503000020980835,
+            0.503000020980835,
+            1.0
+          ],
+          "raw_values": [
+            "0.503000020980835",
+            "0.503000020980835",
+            "0.503000020980835",
+            "1.0"
+          ]
+        },
+        {
+          "name": "highlightColor2",
+          "type": "Float4",
+          "values": [
+            0.5028865933418274,
+            0.5028865933418274,
+            0.5028865933418274,
+            1.0
+          ],
+          "raw_values": [
+            "0.5028865933418274",
+            "0.5028865933418274",
+            "0.5028865933418274",
+            "1.0"
+          ]
+        },
+        {
+          "name": "midtoneColor2",
+          "type": "Float4",
+          "values": [
+            0.6172066330909729,
+            0.5209956765174866,
+            0.40197786688804626,
+            1.0
+          ],
+          "raw_values": [
+            "0.6172066330909729",
+            "0.5209956765174866",
+            "0.40197786688804626",
+            "1.0"
+          ]
+        },
+        {
+          "name": "shadowColor2",
+          "type": "Float4",
+          "values": [
+            0.5028865933418274,
+            0.42326775193214417,
+            0.3277781307697296,
+            1.0
+          ],
+          "raw_values": [
+            "0.5028865933418274",
+            "0.42326775193214417",
+            "0.3277781307697296",
+            "1.0"
+          ]
+        },
+        {
+          "name": "highlightColor3",
+          "type": "Float4",
+          "values": [
+            0.5028865933418274,
+            0.5028865933418274,
+            0.5028865933418274,
+            1.0
+          ],
+          "raw_values": [
+            "0.5028865933418274",
+            "0.5028865933418274",
+            "0.5028865933418274",
+            "1.0"
+          ]
+        },
+        {
+          "name": "midtoneColor3",
+          "type": "Float4",
+          "values": [
+            0.3813261091709137,
+            0.23074007034301758,
+            0.13563334941864014,
+            1.0
+          ],
+          "raw_values": [
+            "0.3813261091709137",
+            "0.23074007034301758",
+            "0.13563334941864014",
+            "1.0"
+          ]
+        },
+        {
+          "name": "shadowColor3",
+          "type": "Float4",
+          "values": [
+            0.5028865933418274,
+            0.5028865933418274,
+            0.5028865933418274,
+            1.0
+          ],
+          "raw_values": [
+            "0.5028865933418274",
+            "0.5028865933418274",
+            "0.5028865933418274",
+            "1.0"
+          ]
+        },
+        {
+          "name": "highlightColor4",
+          "type": "Float4",
+          "values": [
+            0.26225072145462036,
+            0.26225072145462036,
+            0.26225072145462036,
+            1.0
+          ],
+          "raw_values": [
+            "0.26225072145462036",
+            "0.26225072145462036",
+            "0.26225072145462036",
+            "1.0"
+          ]
+        },
+        {
+          "name": "midtoneColor4",
+          "type": "Float4",
+          "values": [
+            0.3515326976776123,
+            0.32314324378967285,
+            0.32314324378967285,
+            1.0
+          ],
+          "raw_values": [
+            "0.3515326976776123",
+            "0.32314324378967285",
+            "0.32314324378967285",
+            "1.0"
+          ]
+        },
+        {
+          "name": "shadowColor4",
+          "type": "Float4",
+          "values": [
+            0.5028865933418274,
+            0.5028865933418274,
+            0.5028865933418274,
+            1.0
+          ],
+          "raw_values": [
+            "0.5028865933418274",
+            "0.5028865933418274",
+            "0.5028865933418274",
+            "1.0"
+          ]
+        },
+        {
+          "name": "maskToNormalIntensities234",
+          "type": "Float4",
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_values": [
+            "0.0",
+            "0.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "name": "maskToNormalWidths234",
+          "type": "Float4",
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_values": [
+            "0.0",
+            "0.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "name": "options",
+          "type": "Float4",
+          "values": [
+            64.0,
+            36.0,
+            1.0,
+            8.0
+          ],
+          "raw_values": [
+            "64.0",
+            "36.0",
+            "1.0",
+            "8.0"
+          ]
+        },
+        {
+          "name": "highlightColor5",
+          "type": "Float4",
+          "values": [
+            0.5028865933418274,
+            0.4178851544857025,
+            0.36625269055366516,
+            1.0
+          ],
+          "raw_values": [
+            "0.5028865933418274",
+            "0.4178851544857025",
+            "0.36625269055366516",
+            "1.0"
+          ]
+        },
+        {
+          "name": "midtoneColor5",
+          "type": "Float4",
+          "values": [
+            0.5028865933418274,
+            0.3564002513885498,
+            0.2746773660182953,
+            1.0
+          ],
+          "raw_values": [
+            "0.5028865933418274",
+            "0.3564002513885498",
+            "0.2746773660182953",
+            "1.0"
+          ]
+        },
+        {
+          "name": "shadowColor5",
+          "type": "Float4",
+          "values": [
+            0.5028865933418274,
+            0.3564002513885498,
+            0.2746773660182953,
+            1.0
+          ],
+          "raw_values": [
+            "0.5028865933418274",
+            "0.3564002513885498",
+            "0.2746773660182953",
+            "1.0"
+          ]
+        },
+        {
+          "name": "highlightColor6",
+          "type": "Float4",
+          "values": [
+            0.503000020980835,
+            0.503000020980835,
+            0.503000020980835,
+            1.0
+          ],
+          "raw_values": [
+            "0.503000020980835",
+            "0.503000020980835",
+            "0.503000020980835",
+            "1.0"
+          ]
+        },
+        {
+          "name": "midtoneColor6",
+          "type": "Float4",
+          "values": [
+            0.503000020980835,
+            0.503000020980835,
+            0.503000020980835,
+            1.0
+          ],
+          "raw_values": [
+            "0.503000020980835",
+            "0.503000020980835",
+            "0.503000020980835",
+            "1.0"
+          ]
+        },
+        {
+          "name": "shadowColor6",
+          "type": "Float4",
+          "values": [
+            0.503000020980835,
+            0.503000020980835,
+            0.503000020980835,
+            1.0
+          ],
+          "raw_values": [
+            "0.503000020980835",
+            "0.503000020980835",
+            "0.503000020980835",
+            "1.0"
+          ]
+        },
+        {
+          "name": "highlightColor7",
+          "type": "Float4",
+          "values": [
+            0.503000020980835,
+            0.503000020980835,
+            0.503000020980835,
+            1.0
+          ],
+          "raw_values": [
+            "0.503000020980835",
+            "0.503000020980835",
+            "0.503000020980835",
+            "1.0"
+          ]
+        },
+        {
+          "name": "midtoneColor7",
+          "type": "Float4",
+          "values": [
+            0.503000020980835,
+            0.503000020980835,
+            0.503000020980835,
+            1.0
+          ],
+          "raw_values": [
+            "0.503000020980835",
+            "0.503000020980835",
+            "0.503000020980835",
+            "1.0"
+          ]
+        },
+        {
+          "name": "shadowColor7",
+          "type": "Float4",
+          "values": [
+            0.503000020980835,
+            0.503000020980835,
+            0.503000020980835,
+            1.0
+          ],
+          "raw_values": [
+            "0.503000020980835",
+            "0.503000020980835",
+            "0.503000020980835",
+            "1.0"
+          ]
+        },
+        {
+          "name": "maskToNormalIntensities567",
+          "type": "Float4",
+          "values": [
+            0.0,
+            0.0,
+            0.18000000715255737,
+            0.0
+          ],
+          "raw_values": [
+            "0.0",
+            "0.0",
+            "0.18000000715255737",
+            "0.0"
+          ]
+        },
+        {
+          "name": "maskToNormalWidths567",
+          "type": "Float4",
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_values": [
+            "0.0",
+            "0.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "name": "heightBias567",
+          "type": "Float4",
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_values": [
+            "0.0",
+            "0.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "name": "secondaryMaskStrength567",
+          "type": "Float4",
+          "values": [
+            0.05999999865889549,
+            0.27000001072883606,
+            0.20999999344348907,
+            0.0
+          ],
+          "raw_values": [
+            "0.05999999865889549",
+            "0.27000001072883606",
+            "0.20999999344348907",
+            "0.0"
+          ]
+        },
+        {
+          "name": "preserveBaseNormal567",
+          "type": "Float4",
+          "values": [
+            0.0,
+            0.5,
+            0.75,
+            0.0
+          ],
+          "raw_values": [
+            "0.0",
+            "0.5",
+            "0.75",
+            "0.0"
+          ]
+        }
+      ],
+      "textures": [
+        {
+          "name": "albedoTex",
+          "logical_path": "art/material_library/substances/structures/plaster/14189176920867230619_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\005c8c49738d_14189176920867230619_packed.dds",
+          "texture_name": "art/material_library/substances/structures/plaster/str_plaster_b_daub_17_alb",
+          "projection_format": "BC1_UNORM_SRGB",
+          "internal_format": 19
+        },
+        {
+          "name": "albedoTex2",
+          "logical_path": "art/material_library/substances/structures/plaster/912430540724886443_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\9839553946b2_912430540724886443_packed.dds",
+          "texture_name": "art/material_library/substances/structures/plaster/str_plaster_b_daub_20_alb",
+          "projection_format": "BC1_UNORM_SRGB",
+          "internal_format": 19
+        },
+        {
+          "name": "albedoTex3",
+          "logical_path": "art/material_library/substances/structures/grout/934894132820687482_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\4aa7961d96b0_934894132820687482_packed.dds",
+          "texture_name": "art/material_library/substances/structures/grout/str_grout_white_01_alb",
+          "projection_format": "BC1_UNORM_SRGB",
+          "internal_format": 19
+        },
+        {
+          "name": "albedoTex4",
+          "logical_path": "art/material_library/substances/structures/wood/3276630836538442047_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\2559e2731a7e_3276630836538442047_packed.dds",
+          "texture_name": "art/material_library/substances/structures/wood/str_wood_generic_02_alb",
+          "projection_format": "BC1_UNORM_SRGB",
+          "internal_format": 19
+        },
+        {
+          "name": "__default",
+          "logical_path": "__default",
+          "projection_path": null
+        },
+        {
+          "name": "normalMap",
+          "logical_path": "art/material_library/substances/structures/plaster/1090364353544936065_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\26a26028ed27_1090364353544936065_packed.dds",
+          "texture_name": "art/material_library/substances/structures/plaster/str_plaster_b_daub_17_emi",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "normalMap2",
+          "logical_path": "art/material_library/substances/structures/plaster/7817128557334523862_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\5c0676dab304_7817128557334523862_packed.dds",
+          "texture_name": "art/material_library/substances/structures/plaster/str_plaster_b_daub_20_emi",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "normalMap3",
+          "logical_path": "art/material_library/substances/structures/grout/4373456093999725211_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\fc68f83c9dee_4373456093999725211_packed.dds",
+          "texture_name": "art/material_library/substances/structures/grout/str_grout_white_01_emi",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "normalMap4",
+          "logical_path": "art/material_library/substances/structures/wood/8075824890169796949_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\b8e4ce9f853c_8075824890169796949_packed.dds",
+          "texture_name": "art/material_library/substances/structures/wood/str_wood_generic_02_emi",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "secondaryMaskTex2",
+          "logical_path": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\d5ba288445e3_middle_gray_msk.dds",
+          "texture_name": "art/material_library/painter_materials/textures/middle_gray_msk",
+          "projection_format": "BC1_UNORM",
+          "internal_format": 18
+        },
+        {
+          "name": "secondaryMaskTex3",
+          "logical_path": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\d5ba288445e3_middle_gray_msk.dds",
+          "texture_name": "art/material_library/painter_materials/textures/middle_gray_msk",
+          "projection_format": "BC1_UNORM",
+          "internal_format": 18
+        },
+        {
+          "name": "secondaryMaskTex4",
+          "logical_path": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\d5ba288445e3_middle_gray_msk.dds",
+          "texture_name": "art/material_library/painter_materials/textures/middle_gray_msk",
+          "projection_format": "BC1_UNORM",
+          "internal_format": 18
+        },
+        {
+          "name": "metalTex",
+          "logical_path": "art/material_library/substances/structures/plaster/2144689956639166819_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\7c1bac01889c_2144689956639166819_packed.dds",
+          "texture_name": "art/material_library/substances/structures/plaster/str_plaster_b_daub_17_mtl",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "metalTex2",
+          "logical_path": "art/material_library/substances/structures/plaster/3650453994793044165_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\6e6b6d1e7ee5_3650453994793044165_packed.dds",
+          "texture_name": "art/material_library/substances/structures/plaster/str_plaster_b_daub_20_mtl",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "metalTex3",
+          "logical_path": "art/material_library/substances/structures/grout/10740321618852791956_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\35e374f00eb2_10740321618852791956_packed.dds",
+          "texture_name": "art/material_library/substances/structures/grout/str_grout_white_01_mtl",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "metalTex4",
+          "logical_path": "art/material_library/substances/structures/wood/651613341237364139_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\ec41a9e94ab5_651613341237364139_packed.dds",
+          "texture_name": "art/material_library/substances/structures/wood/str_wood_generic_02_mtl",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "maskTex2",
+          "logical_path": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/12852580227450526001_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\b12e1de36ad5_12852580227450526001_packed.dds",
+          "texture_name": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/mal_stonewall_tower_main_mask2",
+          "projection_format": "BC1_UNORM",
+          "internal_format": 18
+        },
+        {
+          "name": "maskAlpha",
+          "logical_path": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/1016451729546722177_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\0aeaf26d1033_1016451729546722177_packed.dds",
+          "texture_name": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/mal_stonewall_tower_main_maskalpha",
+          "projection_format": "BC1_UNORM",
+          "internal_format": 18
+        },
+        {
+          "name": "overlay1Mask",
+          "logical_path": "art/material_library/painter_materials/textures/black_msk.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\0eb8439c962e_black_msk.dds",
+          "texture_name": "art/material_library/painter_materials/textures/black_msk",
+          "projection_format": "BC1_UNORM",
+          "internal_format": 18
+        },
+        {
+          "name": "overlay2Mask",
+          "logical_path": "art/material_library/painter_materials/textures/patches_01_msk.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\570e02d83fae_patches_01_msk.dds",
+          "texture_name": "art/material_library/painter_materials/textures/patches_01_msk",
+          "projection_format": "BC1_UNORM",
+          "internal_format": 18
+        },
+        {
+          "name": "overlay1Albedo",
+          "logical_path": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/6761565007190403530_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\fc29cc25f6c3_6761565007190403530_packed.dds",
+          "texture_name": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/mal_stonewall_tower_main_overlay1_ovralb",
+          "projection_format": "BC3_UNORM_SRGB",
+          "internal_format": 23
+        },
+        {
+          "name": "overlay2Albedo",
+          "logical_path": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/9813512380306279546_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\57df0c7bb21c_9813512380306279546_packed.dds",
+          "texture_name": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/mal_stonewall_tower_main_overlay2_ovralb",
+          "projection_format": "BC3_UNORM_SRGB",
+          "internal_format": 23
+        },
+        {
+          "name": "albedoTexCharred",
+          "logical_path": "art/material_library/substances/structures/damage/str_damage_charred_01_alb.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\6f3011ce41e3_str_damage_charred_01_alb.dds",
+          "texture_name": "art/material_library/substances/structures/damage/str_damage_charred_01_alb",
+          "projection_format": "BC1_UNORM_SRGB",
+          "internal_format": 19
+        },
+        {
+          "name": "metalTexCharred",
+          "logical_path": "art/material_library/substances/structures/damage/11755559493558267954_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\85c59cbb9679_11755559493558267954_packed.dds",
+          "texture_name": "art/material_library/substances/structures/damage/str_damage_charred_01_mtl",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "normalMapCharred",
+          "logical_path": "art/material_library/substances/structures/damage/11844705194956636559_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\2b5e473bc500_11844705194956636559_packed.dds",
+          "texture_name": "art/material_library/substances/structures/damage/str_damage_charred_01_emi",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "terrainBlendMask",
+          "logical_path": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\d5ba288445e3_middle_gray_msk.dds",
+          "texture_name": "art/material_library/painter_materials/textures/middle_gray_msk",
+          "projection_format": "BC1_UNORM",
+          "internal_format": 18
+        },
+        {
+          "name": "albedoTex5",
+          "logical_path": "art/material_library/substances/structures/stone/7543808130346397087_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\bcb0b4bb9ec0_7543808130346397087_packed.dds",
+          "texture_name": "art/material_library/substances/structures/stone/str_stone_floor_06_alb",
+          "projection_format": "BC1_UNORM_SRGB",
+          "internal_format": 19
+        },
+        {
+          "name": "albedoTex6",
+          "logical_path": "art/material_library/substances/structures/plaster/12041615973339707457_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\5db26348116b_12041615973339707457_packed.dds",
+          "texture_name": "art/material_library/substances/structures/plaster/str_plaster_cob_01_alb",
+          "projection_format": "BC1_UNORM_SRGB",
+          "internal_format": 19
+        },
+        {
+          "name": "albedoTex7",
+          "logical_path": "art/material_library/substances/structures/debug/6708399669590286008_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\00a2880bf731_6708399669590286008_packed.dds",
+          "texture_name": "art/material_library/substances/structures/debug/str_debug_team_color_alb",
+          "projection_format": "BC1_UNORM_SRGB",
+          "internal_format": 19
+        },
+        {
+          "name": "normalMap5",
+          "logical_path": "art/material_library/substances/structures/stone/15954278044326765436_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\57dd7d2c1069_15954278044326765436_packed.dds",
+          "texture_name": "art/material_library/substances/structures/stone/str_stone_floor_06_emi",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "normalMap6",
+          "logical_path": "art/material_library/substances/structures/plaster/18231663582228185424_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\7b494a2f28b9_18231663582228185424_packed.dds",
+          "texture_name": "art/material_library/substances/structures/plaster/str_plaster_cob_01_emi",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "normalMap7",
+          "logical_path": "art/material_library/substances/structures/debug/940685202008631679_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\5381da0089b5_940685202008631679_packed.dds",
+          "texture_name": "art/material_library/substances/structures/debug/str_debug_team_color_emi",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "secondaryMaskTex5",
+          "logical_path": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\d5ba288445e3_middle_gray_msk.dds",
+          "texture_name": "art/material_library/painter_materials/textures/middle_gray_msk",
+          "projection_format": "BC1_UNORM",
+          "internal_format": 18
+        },
+        {
+          "name": "secondaryMaskTex6",
+          "logical_path": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\d5ba288445e3_middle_gray_msk.dds",
+          "texture_name": "art/material_library/painter_materials/textures/middle_gray_msk",
+          "projection_format": "BC1_UNORM",
+          "internal_format": 18
+        },
+        {
+          "name": "secondaryMaskTex7",
+          "logical_path": "art/material_library/painter_materials/textures/leaks_01_msk.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\c1eb0b07e1df_leaks_01_msk.dds",
+          "texture_name": "art/material_library/painter_materials/textures/leaks_01_msk",
+          "projection_format": "BC1_UNORM",
+          "internal_format": 18
+        },
+        {
+          "name": "metalTex5",
+          "logical_path": "art/material_library/substances/structures/stone/10957026120954162192_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\75445d1f6b2e_10957026120954162192_packed.dds",
+          "texture_name": "art/material_library/substances/structures/stone/str_stone_floor_06_mtl",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "metalTex6",
+          "logical_path": "art/material_library/substances/structures/plaster/10481810468234262313_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\794382be660a_10481810468234262313_packed.dds",
+          "texture_name": "art/material_library/substances/structures/plaster/str_plaster_cob_01_mtl",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "metalTex7",
+          "logical_path": "art/material_library/substances/structures/debug/17716732775687444425_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\ef0164b43256_17716732775687444425_packed.dds",
+          "texture_name": "art/material_library/substances/structures/debug/str_debug_team_color_mtl",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "maskTex5",
+          "logical_path": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/8658189803012978308_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\2a47f7c07892_8658189803012978308_packed.dds",
+          "texture_name": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/mal_stonewall_tower_main_mask5",
+          "projection_format": "BC1_UNORM",
+          "internal_format": 18
+        }
+      ]
+    },
+    {
+      "name": "main_collection",
+      "class": "structure_collection",
+      "blocks": [
+        {
+          "name": "StructureMaterialParams",
+          "parameters": [
+            {
+              "name": "terrainblend_maskoffsetscale",
+              "type": "Float4",
+              "values": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "raw_values": [
+                "1.0",
+                "1.0",
+                "1.0",
+                "1.0"
+              ]
+            },
+            {
+              "name": "terrainblend_falloff",
+              "type": "Float4",
+              "values": [
+                0.75,
+                0.75,
+                0.5,
+                0.5
+              ],
+              "raw_values": [
+                "0.75",
+                "0.75",
+                "0.5",
+                "0.5"
+              ]
+            },
+            {
+              "name": "preserveBaseNormal234",
+              "type": "Float4",
+              "values": [
+                0.4000000059604645,
+                0.25,
+                0.0,
+                0.0
+              ],
+              "raw_values": [
+                "0.4000000059604645",
+                "0.25",
+                "0.0",
+                "0.0"
+              ]
+            },
+            {
+              "name": "heightBias1234",
+              "type": "Float4",
+              "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "raw_values": [
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0"
+              ]
+            },
+            {
+              "name": "mask23LevelMinMax",
+              "type": "Float4",
+              "values": [
+                0.0,
+                1.0,
+                0.0,
+                1.0
+              ],
+              "raw_values": [
+                "0.0",
+                "1.0",
+                "0.0",
+                "1.0"
+              ]
+            },
+            {
+              "name": "mask45LevelMinMax",
+              "type": "Float4",
+              "values": [
+                0.0,
+                1.0,
+                0.0,
+                1.0
+              ],
+              "raw_values": [
+                "0.0",
+                "1.0",
+                "0.0",
+                "1.0"
+              ]
+            },
+            {
+              "name": "mask67LevelMinMax",
+              "type": "Float4",
+              "values": [
+                0.0,
+                1.0,
+                0.0,
+                1.0
+              ],
+              "raw_values": [
+                "0.0",
+                "1.0",
+                "0.0",
+                "1.0"
+              ]
+            },
+            {
+              "name": "secondaryMaskStrength234",
+              "type": "Float4",
+              "values": [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+              ],
+              "raw_values": [
+                "0.0",
+                "1.0",
+                "0.0",
+                "0.0"
+              ]
+            },
+            {
+              "name": "highlightColor1",
+              "type": "Float4",
+              "values": [
+                0.503000020980835,
+                0.503000020980835,
+                0.503000020980835,
+                1.0
+              ],
+              "raw_values": [
+                "0.503000020980835",
+                "0.503000020980835",
+                "0.503000020980835",
+                "1.0"
+              ]
+            },
+            {
+              "name": "midtoneColor1",
+              "type": "Float4",
+              "values": [
+                0.503000020980835,
+                0.503000020980835,
+                0.503000020980835,
+                1.0
+              ],
+              "raw_values": [
+                "0.503000020980835",
+                "0.503000020980835",
+                "0.503000020980835",
+                "1.0"
+              ]
+            },
+            {
+              "name": "shadowColor1",
+              "type": "Float4",
+              "values": [
+                0.503000020980835,
+                0.503000020980835,
+                0.503000020980835,
+                1.0
+              ],
+              "raw_values": [
+                "0.503000020980835",
+                "0.503000020980835",
+                "0.503000020980835",
+                "1.0"
+              ]
+            },
+            {
+              "name": "highlightColor2",
+              "type": "Float4",
+              "values": [
+                0.5028865933418274,
+                0.5028865933418274,
+                0.5028865933418274,
+                1.0
+              ],
+              "raw_values": [
+                "0.5028865933418274",
+                "0.5028865933418274",
+                "0.5028865933418274",
+                "1.0"
+              ]
+            },
+            {
+              "name": "midtoneColor2",
+              "type": "Float4",
+              "values": [
+                0.6172066330909729,
+                0.5209956765174866,
+                0.40197786688804626,
+                1.0
+              ],
+              "raw_values": [
+                "0.6172066330909729",
+                "0.5209956765174866",
+                "0.40197786688804626",
+                "1.0"
+              ]
+            },
+            {
+              "name": "shadowColor2",
+              "type": "Float4",
+              "values": [
+                0.5028865933418274,
+                0.42326775193214417,
+                0.3277781307697296,
+                1.0
+              ],
+              "raw_values": [
+                "0.5028865933418274",
+                "0.42326775193214417",
+                "0.3277781307697296",
+                "1.0"
+              ]
+            },
+            {
+              "name": "highlightColor3",
+              "type": "Float4",
+              "values": [
+                0.5028865933418274,
+                0.5028865933418274,
+                0.5028865933418274,
+                1.0
+              ],
+              "raw_values": [
+                "0.5028865933418274",
+                "0.5028865933418274",
+                "0.5028865933418274",
+                "1.0"
+              ]
+            },
+            {
+              "name": "midtoneColor3",
+              "type": "Float4",
+              "values": [
+                0.3813261091709137,
+                0.23074007034301758,
+                0.13563334941864014,
+                1.0
+              ],
+              "raw_values": [
+                "0.3813261091709137",
+                "0.23074007034301758",
+                "0.13563334941864014",
+                "1.0"
+              ]
+            },
+            {
+              "name": "shadowColor3",
+              "type": "Float4",
+              "values": [
+                0.5028865933418274,
+                0.5028865933418274,
+                0.5028865933418274,
+                1.0
+              ],
+              "raw_values": [
+                "0.5028865933418274",
+                "0.5028865933418274",
+                "0.5028865933418274",
+                "1.0"
+              ]
+            },
+            {
+              "name": "highlightColor4",
+              "type": "Float4",
+              "values": [
+                0.26225072145462036,
+                0.26225072145462036,
+                0.26225072145462036,
+                1.0
+              ],
+              "raw_values": [
+                "0.26225072145462036",
+                "0.26225072145462036",
+                "0.26225072145462036",
+                "1.0"
+              ]
+            },
+            {
+              "name": "midtoneColor4",
+              "type": "Float4",
+              "values": [
+                0.3515326976776123,
+                0.32314324378967285,
+                0.32314324378967285,
+                1.0
+              ],
+              "raw_values": [
+                "0.3515326976776123",
+                "0.32314324378967285",
+                "0.32314324378967285",
+                "1.0"
+              ]
+            },
+            {
+              "name": "shadowColor4",
+              "type": "Float4",
+              "values": [
+                0.5028865933418274,
+                0.5028865933418274,
+                0.5028865933418274,
+                1.0
+              ],
+              "raw_values": [
+                "0.5028865933418274",
+                "0.5028865933418274",
+                "0.5028865933418274",
+                "1.0"
+              ]
+            },
+            {
+              "name": "maskToNormalIntensities234",
+              "type": "Float4",
+              "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "raw_values": [
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0"
+              ]
+            },
+            {
+              "name": "maskToNormalWidths234",
+              "type": "Float4",
+              "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "raw_values": [
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0"
+              ]
+            },
+            {
+              "name": "options",
+              "type": "Float4",
+              "values": [
+                64.0,
+                36.0,
+                1.0,
+                8.0
+              ],
+              "raw_values": [
+                "64.0",
+                "36.0",
+                "1.0",
+                "8.0"
+              ]
+            }
+          ],
+          "textures": []
+        },
+        {
+          "name": "StructureMaterialParams2",
+          "parameters": [
+            {
+              "name": "highlightColor5",
+              "type": "Float4",
+              "values": [
+                0.5028865933418274,
+                0.4178851544857025,
+                0.36625269055366516,
+                1.0
+              ],
+              "raw_values": [
+                "0.5028865933418274",
+                "0.4178851544857025",
+                "0.36625269055366516",
+                "1.0"
+              ]
+            },
+            {
+              "name": "midtoneColor5",
+              "type": "Float4",
+              "values": [
+                0.5028865933418274,
+                0.3564002513885498,
+                0.2746773660182953,
+                1.0
+              ],
+              "raw_values": [
+                "0.5028865933418274",
+                "0.3564002513885498",
+                "0.2746773660182953",
+                "1.0"
+              ]
+            },
+            {
+              "name": "shadowColor5",
+              "type": "Float4",
+              "values": [
+                0.5028865933418274,
+                0.3564002513885498,
+                0.2746773660182953,
+                1.0
+              ],
+              "raw_values": [
+                "0.5028865933418274",
+                "0.3564002513885498",
+                "0.2746773660182953",
+                "1.0"
+              ]
+            },
+            {
+              "name": "highlightColor6",
+              "type": "Float4",
+              "values": [
+                0.503000020980835,
+                0.503000020980835,
+                0.503000020980835,
+                1.0
+              ],
+              "raw_values": [
+                "0.503000020980835",
+                "0.503000020980835",
+                "0.503000020980835",
+                "1.0"
+              ]
+            },
+            {
+              "name": "midtoneColor6",
+              "type": "Float4",
+              "values": [
+                0.503000020980835,
+                0.503000020980835,
+                0.503000020980835,
+                1.0
+              ],
+              "raw_values": [
+                "0.503000020980835",
+                "0.503000020980835",
+                "0.503000020980835",
+                "1.0"
+              ]
+            },
+            {
+              "name": "shadowColor6",
+              "type": "Float4",
+              "values": [
+                0.503000020980835,
+                0.503000020980835,
+                0.503000020980835,
+                1.0
+              ],
+              "raw_values": [
+                "0.503000020980835",
+                "0.503000020980835",
+                "0.503000020980835",
+                "1.0"
+              ]
+            },
+            {
+              "name": "highlightColor7",
+              "type": "Float4",
+              "values": [
+                0.503000020980835,
+                0.503000020980835,
+                0.503000020980835,
+                1.0
+              ],
+              "raw_values": [
+                "0.503000020980835",
+                "0.503000020980835",
+                "0.503000020980835",
+                "1.0"
+              ]
+            },
+            {
+              "name": "midtoneColor7",
+              "type": "Float4",
+              "values": [
+                0.503000020980835,
+                0.503000020980835,
+                0.503000020980835,
+                1.0
+              ],
+              "raw_values": [
+                "0.503000020980835",
+                "0.503000020980835",
+                "0.503000020980835",
+                "1.0"
+              ]
+            },
+            {
+              "name": "shadowColor7",
+              "type": "Float4",
+              "values": [
+                0.503000020980835,
+                0.503000020980835,
+                0.503000020980835,
+                1.0
+              ],
+              "raw_values": [
+                "0.503000020980835",
+                "0.503000020980835",
+                "0.503000020980835",
+                "1.0"
+              ]
+            },
+            {
+              "name": "maskToNormalIntensities567",
+              "type": "Float4",
+              "values": [
+                0.0,
+                0.0,
+                0.18000000715255737,
+                0.0
+              ],
+              "raw_values": [
+                "0.0",
+                "0.0",
+                "0.18000000715255737",
+                "0.0"
+              ]
+            },
+            {
+              "name": "maskToNormalWidths567",
+              "type": "Float4",
+              "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "raw_values": [
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0"
+              ]
+            },
+            {
+              "name": "heightBias567",
+              "type": "Float4",
+              "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "raw_values": [
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0"
+              ]
+            },
+            {
+              "name": "secondaryMaskStrength567",
+              "type": "Float4",
+              "values": [
+                0.05999999865889549,
+                0.27000001072883606,
+                0.20999999344348907,
+                0.0
+              ],
+              "raw_values": [
+                "0.05999999865889549",
+                "0.27000001072883606",
+                "0.20999999344348907",
+                "0.0"
+              ]
+            },
+            {
+              "name": "preserveBaseNormal567",
+              "type": "Float4",
+              "values": [
+                0.0,
+                0.5,
+                0.75,
+                0.0
+              ],
+              "raw_values": [
+                "0.0",
+                "0.5",
+                "0.75",
+                "0.0"
+              ]
+            }
+          ],
+          "textures": []
+        },
+        {
+          "name": "StructureMaterialTextureParams",
+          "parameters": [],
+          "textures": [
+            {
+              "name": "albedoTex",
+              "logical_path": "art/material_library/substances/structures/plaster/14189176920867230619_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\005c8c49738d_14189176920867230619_packed.dds",
+              "texture_name": "art/material_library/substances/structures/plaster/str_plaster_b_daub_17_alb",
+              "projection_format": "BC1_UNORM_SRGB",
+              "internal_format": 19
+            },
+            {
+              "name": "albedoTex2",
+              "logical_path": "art/material_library/substances/structures/plaster/912430540724886443_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\9839553946b2_912430540724886443_packed.dds",
+              "texture_name": "art/material_library/substances/structures/plaster/str_plaster_b_daub_20_alb",
+              "projection_format": "BC1_UNORM_SRGB",
+              "internal_format": 19
+            },
+            {
+              "name": "albedoTex3",
+              "logical_path": "art/material_library/substances/structures/grout/934894132820687482_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\4aa7961d96b0_934894132820687482_packed.dds",
+              "texture_name": "art/material_library/substances/structures/grout/str_grout_white_01_alb",
+              "projection_format": "BC1_UNORM_SRGB",
+              "internal_format": 19
+            },
+            {
+              "name": "albedoTex4",
+              "logical_path": "art/material_library/substances/structures/wood/3276630836538442047_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\2559e2731a7e_3276630836538442047_packed.dds",
+              "texture_name": "art/material_library/substances/structures/wood/str_wood_generic_02_alb",
+              "projection_format": "BC1_UNORM_SRGB",
+              "internal_format": 19
+            },
+            {
+              "name": "__default",
+              "logical_path": "__default",
+              "projection_path": null
+            },
+            {
+              "name": "normalMap",
+              "logical_path": "art/material_library/substances/structures/plaster/1090364353544936065_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\26a26028ed27_1090364353544936065_packed.dds",
+              "texture_name": "art/material_library/substances/structures/plaster/str_plaster_b_daub_17_emi",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "normalMap2",
+              "logical_path": "art/material_library/substances/structures/plaster/7817128557334523862_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\5c0676dab304_7817128557334523862_packed.dds",
+              "texture_name": "art/material_library/substances/structures/plaster/str_plaster_b_daub_20_emi",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "normalMap3",
+              "logical_path": "art/material_library/substances/structures/grout/4373456093999725211_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\fc68f83c9dee_4373456093999725211_packed.dds",
+              "texture_name": "art/material_library/substances/structures/grout/str_grout_white_01_emi",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "normalMap4",
+              "logical_path": "art/material_library/substances/structures/wood/8075824890169796949_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\b8e4ce9f853c_8075824890169796949_packed.dds",
+              "texture_name": "art/material_library/substances/structures/wood/str_wood_generic_02_emi",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "secondaryMaskTex2",
+              "logical_path": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\d5ba288445e3_middle_gray_msk.dds",
+              "texture_name": "art/material_library/painter_materials/textures/middle_gray_msk",
+              "projection_format": "BC1_UNORM",
+              "internal_format": 18
+            },
+            {
+              "name": "secondaryMaskTex3",
+              "logical_path": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\d5ba288445e3_middle_gray_msk.dds",
+              "texture_name": "art/material_library/painter_materials/textures/middle_gray_msk",
+              "projection_format": "BC1_UNORM",
+              "internal_format": 18
+            },
+            {
+              "name": "secondaryMaskTex4",
+              "logical_path": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\d5ba288445e3_middle_gray_msk.dds",
+              "texture_name": "art/material_library/painter_materials/textures/middle_gray_msk",
+              "projection_format": "BC1_UNORM",
+              "internal_format": 18
+            },
+            {
+              "name": "metalTex",
+              "logical_path": "art/material_library/substances/structures/plaster/2144689956639166819_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\7c1bac01889c_2144689956639166819_packed.dds",
+              "texture_name": "art/material_library/substances/structures/plaster/str_plaster_b_daub_17_mtl",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "metalTex2",
+              "logical_path": "art/material_library/substances/structures/plaster/3650453994793044165_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\6e6b6d1e7ee5_3650453994793044165_packed.dds",
+              "texture_name": "art/material_library/substances/structures/plaster/str_plaster_b_daub_20_mtl",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "metalTex3",
+              "logical_path": "art/material_library/substances/structures/grout/10740321618852791956_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\35e374f00eb2_10740321618852791956_packed.dds",
+              "texture_name": "art/material_library/substances/structures/grout/str_grout_white_01_mtl",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "metalTex4",
+              "logical_path": "art/material_library/substances/structures/wood/651613341237364139_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\ec41a9e94ab5_651613341237364139_packed.dds",
+              "texture_name": "art/material_library/substances/structures/wood/str_wood_generic_02_mtl",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "maskTex2",
+              "logical_path": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/12852580227450526001_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\b12e1de36ad5_12852580227450526001_packed.dds",
+              "texture_name": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/mal_stonewall_tower_main_mask2",
+              "projection_format": "BC1_UNORM",
+              "internal_format": 18
+            },
+            {
+              "name": "maskAlpha",
+              "logical_path": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/1016451729546722177_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\0aeaf26d1033_1016451729546722177_packed.dds",
+              "texture_name": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/mal_stonewall_tower_main_maskalpha",
+              "projection_format": "BC1_UNORM",
+              "internal_format": 18
+            },
+            {
+              "name": "overlay1Mask",
+              "logical_path": "art/material_library/painter_materials/textures/black_msk.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\0eb8439c962e_black_msk.dds",
+              "texture_name": "art/material_library/painter_materials/textures/black_msk",
+              "projection_format": "BC1_UNORM",
+              "internal_format": 18
+            },
+            {
+              "name": "overlay2Mask",
+              "logical_path": "art/material_library/painter_materials/textures/patches_01_msk.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\570e02d83fae_patches_01_msk.dds",
+              "texture_name": "art/material_library/painter_materials/textures/patches_01_msk",
+              "projection_format": "BC1_UNORM",
+              "internal_format": 18
+            },
+            {
+              "name": "overlay1Albedo",
+              "logical_path": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/6761565007190403530_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\fc29cc25f6c3_6761565007190403530_packed.dds",
+              "texture_name": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/mal_stonewall_tower_main_overlay1_ovralb",
+              "projection_format": "BC3_UNORM_SRGB",
+              "internal_format": 23
+            },
+            {
+              "name": "overlay2Albedo",
+              "logical_path": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/9813512380306279546_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\57df0c7bb21c_9813512380306279546_packed.dds",
+              "texture_name": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/mal_stonewall_tower_main_overlay2_ovralb",
+              "projection_format": "BC3_UNORM_SRGB",
+              "internal_format": 23
+            },
+            {
+              "name": "albedoTexCharred",
+              "logical_path": "art/material_library/substances/structures/damage/str_damage_charred_01_alb.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\6f3011ce41e3_str_damage_charred_01_alb.dds",
+              "texture_name": "art/material_library/substances/structures/damage/str_damage_charred_01_alb",
+              "projection_format": "BC1_UNORM_SRGB",
+              "internal_format": 19
+            },
+            {
+              "name": "metalTexCharred",
+              "logical_path": "art/material_library/substances/structures/damage/11755559493558267954_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\85c59cbb9679_11755559493558267954_packed.dds",
+              "texture_name": "art/material_library/substances/structures/damage/str_damage_charred_01_mtl",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "normalMapCharred",
+              "logical_path": "art/material_library/substances/structures/damage/11844705194956636559_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\2b5e473bc500_11844705194956636559_packed.dds",
+              "texture_name": "art/material_library/substances/structures/damage/str_damage_charred_01_emi",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "terrainBlendMask",
+              "logical_path": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\d5ba288445e3_middle_gray_msk.dds",
+              "texture_name": "art/material_library/painter_materials/textures/middle_gray_msk",
+              "projection_format": "BC1_UNORM",
+              "internal_format": 18
+            }
+          ]
+        },
+        {
+          "name": "StructureMaterialTextureParams2",
+          "parameters": [],
+          "textures": [
+            {
+              "name": "albedoTex5",
+              "logical_path": "art/material_library/substances/structures/stone/7543808130346397087_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\bcb0b4bb9ec0_7543808130346397087_packed.dds",
+              "texture_name": "art/material_library/substances/structures/stone/str_stone_floor_06_alb",
+              "projection_format": "BC1_UNORM_SRGB",
+              "internal_format": 19
+            },
+            {
+              "name": "albedoTex6",
+              "logical_path": "art/material_library/substances/structures/plaster/12041615973339707457_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\5db26348116b_12041615973339707457_packed.dds",
+              "texture_name": "art/material_library/substances/structures/plaster/str_plaster_cob_01_alb",
+              "projection_format": "BC1_UNORM_SRGB",
+              "internal_format": 19
+            },
+            {
+              "name": "albedoTex7",
+              "logical_path": "art/material_library/substances/structures/debug/6708399669590286008_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\00a2880bf731_6708399669590286008_packed.dds",
+              "texture_name": "art/material_library/substances/structures/debug/str_debug_team_color_alb",
+              "projection_format": "BC1_UNORM_SRGB",
+              "internal_format": 19
+            },
+            {
+              "name": "normalMap5",
+              "logical_path": "art/material_library/substances/structures/stone/15954278044326765436_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\57dd7d2c1069_15954278044326765436_packed.dds",
+              "texture_name": "art/material_library/substances/structures/stone/str_stone_floor_06_emi",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "normalMap6",
+              "logical_path": "art/material_library/substances/structures/plaster/18231663582228185424_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\7b494a2f28b9_18231663582228185424_packed.dds",
+              "texture_name": "art/material_library/substances/structures/plaster/str_plaster_cob_01_emi",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "normalMap7",
+              "logical_path": "art/material_library/substances/structures/debug/940685202008631679_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\5381da0089b5_940685202008631679_packed.dds",
+              "texture_name": "art/material_library/substances/structures/debug/str_debug_team_color_emi",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "secondaryMaskTex5",
+              "logical_path": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\d5ba288445e3_middle_gray_msk.dds",
+              "texture_name": "art/material_library/painter_materials/textures/middle_gray_msk",
+              "projection_format": "BC1_UNORM",
+              "internal_format": 18
+            },
+            {
+              "name": "secondaryMaskTex6",
+              "logical_path": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\d5ba288445e3_middle_gray_msk.dds",
+              "texture_name": "art/material_library/painter_materials/textures/middle_gray_msk",
+              "projection_format": "BC1_UNORM",
+              "internal_format": 18
+            },
+            {
+              "name": "secondaryMaskTex7",
+              "logical_path": "art/material_library/painter_materials/textures/leaks_01_msk.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\c1eb0b07e1df_leaks_01_msk.dds",
+              "texture_name": "art/material_library/painter_materials/textures/leaks_01_msk",
+              "projection_format": "BC1_UNORM",
+              "internal_format": 18
+            },
+            {
+              "name": "metalTex5",
+              "logical_path": "art/material_library/substances/structures/stone/10957026120954162192_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\75445d1f6b2e_10957026120954162192_packed.dds",
+              "texture_name": "art/material_library/substances/structures/stone/str_stone_floor_06_mtl",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "metalTex6",
+              "logical_path": "art/material_library/substances/structures/plaster/10481810468234262313_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\794382be660a_10481810468234262313_packed.dds",
+              "texture_name": "art/material_library/substances/structures/plaster/str_plaster_cob_01_mtl",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "metalTex7",
+              "logical_path": "art/material_library/substances/structures/debug/17716732775687444425_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\ef0164b43256_17716732775687444425_packed.dds",
+              "texture_name": "art/material_library/substances/structures/debug/str_debug_team_color_mtl",
+              "projection_format": "BC3_UNORM",
+              "internal_format": 22
+            },
+            {
+              "name": "maskTex5",
+              "logical_path": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/8658189803012978308_packed.rrtex",
+              "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\2a47f7c07892_8658189803012978308_packed.dds",
+              "texture_name": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/mal_stonewall_tower_main_mask5",
+              "projection_format": "BC1_UNORM",
+              "internal_format": 18
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "name": "terrainblend_maskoffsetscale",
+          "type": "Float4",
+          "values": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "raw_values": [
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0"
+          ]
+        },
+        {
+          "name": "terrainblend_falloff",
+          "type": "Float4",
+          "values": [
+            0.75,
+            0.75,
+            0.5,
+            0.5
+          ],
+          "raw_values": [
+            "0.75",
+            "0.75",
+            "0.5",
+            "0.5"
+          ]
+        },
+        {
+          "name": "preserveBaseNormal234",
+          "type": "Float4",
+          "values": [
+            0.4000000059604645,
+            0.25,
+            0.0,
+            0.0
+          ],
+          "raw_values": [
+            "0.4000000059604645",
+            "0.25",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "name": "heightBias1234",
+          "type": "Float4",
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_values": [
+            "0.0",
+            "0.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "name": "mask23LevelMinMax",
+          "type": "Float4",
+          "values": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "raw_values": [
+            "0.0",
+            "1.0",
+            "0.0",
+            "1.0"
+          ]
+        },
+        {
+          "name": "mask45LevelMinMax",
+          "type": "Float4",
+          "values": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "raw_values": [
+            "0.0",
+            "1.0",
+            "0.0",
+            "1.0"
+          ]
+        },
+        {
+          "name": "mask67LevelMinMax",
+          "type": "Float4",
+          "values": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "raw_values": [
+            "0.0",
+            "1.0",
+            "0.0",
+            "1.0"
+          ]
+        },
+        {
+          "name": "secondaryMaskStrength234",
+          "type": "Float4",
+          "values": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "raw_values": [
+            "0.0",
+            "1.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "name": "highlightColor1",
+          "type": "Float4",
+          "values": [
+            0.503000020980835,
+            0.503000020980835,
+            0.503000020980835,
+            1.0
+          ],
+          "raw_values": [
+            "0.503000020980835",
+            "0.503000020980835",
+            "0.503000020980835",
+            "1.0"
+          ]
+        },
+        {
+          "name": "midtoneColor1",
+          "type": "Float4",
+          "values": [
+            0.503000020980835,
+            0.503000020980835,
+            0.503000020980835,
+            1.0
+          ],
+          "raw_values": [
+            "0.503000020980835",
+            "0.503000020980835",
+            "0.503000020980835",
+            "1.0"
+          ]
+        },
+        {
+          "name": "shadowColor1",
+          "type": "Float4",
+          "values": [
+            0.503000020980835,
+            0.503000020980835,
+            0.503000020980835,
+            1.0
+          ],
+          "raw_values": [
+            "0.503000020980835",
+            "0.503000020980835",
+            "0.503000020980835",
+            "1.0"
+          ]
+        },
+        {
+          "name": "highlightColor2",
+          "type": "Float4",
+          "values": [
+            0.5028865933418274,
+            0.5028865933418274,
+            0.5028865933418274,
+            1.0
+          ],
+          "raw_values": [
+            "0.5028865933418274",
+            "0.5028865933418274",
+            "0.5028865933418274",
+            "1.0"
+          ]
+        },
+        {
+          "name": "midtoneColor2",
+          "type": "Float4",
+          "values": [
+            0.6172066330909729,
+            0.5209956765174866,
+            0.40197786688804626,
+            1.0
+          ],
+          "raw_values": [
+            "0.6172066330909729",
+            "0.5209956765174866",
+            "0.40197786688804626",
+            "1.0"
+          ]
+        },
+        {
+          "name": "shadowColor2",
+          "type": "Float4",
+          "values": [
+            0.5028865933418274,
+            0.42326775193214417,
+            0.3277781307697296,
+            1.0
+          ],
+          "raw_values": [
+            "0.5028865933418274",
+            "0.42326775193214417",
+            "0.3277781307697296",
+            "1.0"
+          ]
+        },
+        {
+          "name": "highlightColor3",
+          "type": "Float4",
+          "values": [
+            0.5028865933418274,
+            0.5028865933418274,
+            0.5028865933418274,
+            1.0
+          ],
+          "raw_values": [
+            "0.5028865933418274",
+            "0.5028865933418274",
+            "0.5028865933418274",
+            "1.0"
+          ]
+        },
+        {
+          "name": "midtoneColor3",
+          "type": "Float4",
+          "values": [
+            0.3813261091709137,
+            0.23074007034301758,
+            0.13563334941864014,
+            1.0
+          ],
+          "raw_values": [
+            "0.3813261091709137",
+            "0.23074007034301758",
+            "0.13563334941864014",
+            "1.0"
+          ]
+        },
+        {
+          "name": "shadowColor3",
+          "type": "Float4",
+          "values": [
+            0.5028865933418274,
+            0.5028865933418274,
+            0.5028865933418274,
+            1.0
+          ],
+          "raw_values": [
+            "0.5028865933418274",
+            "0.5028865933418274",
+            "0.5028865933418274",
+            "1.0"
+          ]
+        },
+        {
+          "name": "highlightColor4",
+          "type": "Float4",
+          "values": [
+            0.26225072145462036,
+            0.26225072145462036,
+            0.26225072145462036,
+            1.0
+          ],
+          "raw_values": [
+            "0.26225072145462036",
+            "0.26225072145462036",
+            "0.26225072145462036",
+            "1.0"
+          ]
+        },
+        {
+          "name": "midtoneColor4",
+          "type": "Float4",
+          "values": [
+            0.3515326976776123,
+            0.32314324378967285,
+            0.32314324378967285,
+            1.0
+          ],
+          "raw_values": [
+            "0.3515326976776123",
+            "0.32314324378967285",
+            "0.32314324378967285",
+            "1.0"
+          ]
+        },
+        {
+          "name": "shadowColor4",
+          "type": "Float4",
+          "values": [
+            0.5028865933418274,
+            0.5028865933418274,
+            0.5028865933418274,
+            1.0
+          ],
+          "raw_values": [
+            "0.5028865933418274",
+            "0.5028865933418274",
+            "0.5028865933418274",
+            "1.0"
+          ]
+        },
+        {
+          "name": "maskToNormalIntensities234",
+          "type": "Float4",
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_values": [
+            "0.0",
+            "0.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "name": "maskToNormalWidths234",
+          "type": "Float4",
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_values": [
+            "0.0",
+            "0.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "name": "options",
+          "type": "Float4",
+          "values": [
+            64.0,
+            36.0,
+            1.0,
+            8.0
+          ],
+          "raw_values": [
+            "64.0",
+            "36.0",
+            "1.0",
+            "8.0"
+          ]
+        },
+        {
+          "name": "highlightColor5",
+          "type": "Float4",
+          "values": [
+            0.5028865933418274,
+            0.4178851544857025,
+            0.36625269055366516,
+            1.0
+          ],
+          "raw_values": [
+            "0.5028865933418274",
+            "0.4178851544857025",
+            "0.36625269055366516",
+            "1.0"
+          ]
+        },
+        {
+          "name": "midtoneColor5",
+          "type": "Float4",
+          "values": [
+            0.5028865933418274,
+            0.3564002513885498,
+            0.2746773660182953,
+            1.0
+          ],
+          "raw_values": [
+            "0.5028865933418274",
+            "0.3564002513885498",
+            "0.2746773660182953",
+            "1.0"
+          ]
+        },
+        {
+          "name": "shadowColor5",
+          "type": "Float4",
+          "values": [
+            0.5028865933418274,
+            0.3564002513885498,
+            0.2746773660182953,
+            1.0
+          ],
+          "raw_values": [
+            "0.5028865933418274",
+            "0.3564002513885498",
+            "0.2746773660182953",
+            "1.0"
+          ]
+        },
+        {
+          "name": "highlightColor6",
+          "type": "Float4",
+          "values": [
+            0.503000020980835,
+            0.503000020980835,
+            0.503000020980835,
+            1.0
+          ],
+          "raw_values": [
+            "0.503000020980835",
+            "0.503000020980835",
+            "0.503000020980835",
+            "1.0"
+          ]
+        },
+        {
+          "name": "midtoneColor6",
+          "type": "Float4",
+          "values": [
+            0.503000020980835,
+            0.503000020980835,
+            0.503000020980835,
+            1.0
+          ],
+          "raw_values": [
+            "0.503000020980835",
+            "0.503000020980835",
+            "0.503000020980835",
+            "1.0"
+          ]
+        },
+        {
+          "name": "shadowColor6",
+          "type": "Float4",
+          "values": [
+            0.503000020980835,
+            0.503000020980835,
+            0.503000020980835,
+            1.0
+          ],
+          "raw_values": [
+            "0.503000020980835",
+            "0.503000020980835",
+            "0.503000020980835",
+            "1.0"
+          ]
+        },
+        {
+          "name": "highlightColor7",
+          "type": "Float4",
+          "values": [
+            0.503000020980835,
+            0.503000020980835,
+            0.503000020980835,
+            1.0
+          ],
+          "raw_values": [
+            "0.503000020980835",
+            "0.503000020980835",
+            "0.503000020980835",
+            "1.0"
+          ]
+        },
+        {
+          "name": "midtoneColor7",
+          "type": "Float4",
+          "values": [
+            0.503000020980835,
+            0.503000020980835,
+            0.503000020980835,
+            1.0
+          ],
+          "raw_values": [
+            "0.503000020980835",
+            "0.503000020980835",
+            "0.503000020980835",
+            "1.0"
+          ]
+        },
+        {
+          "name": "shadowColor7",
+          "type": "Float4",
+          "values": [
+            0.503000020980835,
+            0.503000020980835,
+            0.503000020980835,
+            1.0
+          ],
+          "raw_values": [
+            "0.503000020980835",
+            "0.503000020980835",
+            "0.503000020980835",
+            "1.0"
+          ]
+        },
+        {
+          "name": "maskToNormalIntensities567",
+          "type": "Float4",
+          "values": [
+            0.0,
+            0.0,
+            0.18000000715255737,
+            0.0
+          ],
+          "raw_values": [
+            "0.0",
+            "0.0",
+            "0.18000000715255737",
+            "0.0"
+          ]
+        },
+        {
+          "name": "maskToNormalWidths567",
+          "type": "Float4",
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_values": [
+            "0.0",
+            "0.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "name": "heightBias567",
+          "type": "Float4",
+          "values": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "raw_values": [
+            "0.0",
+            "0.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "name": "secondaryMaskStrength567",
+          "type": "Float4",
+          "values": [
+            0.05999999865889549,
+            0.27000001072883606,
+            0.20999999344348907,
+            0.0
+          ],
+          "raw_values": [
+            "0.05999999865889549",
+            "0.27000001072883606",
+            "0.20999999344348907",
+            "0.0"
+          ]
+        },
+        {
+          "name": "preserveBaseNormal567",
+          "type": "Float4",
+          "values": [
+            0.0,
+            0.5,
+            0.75,
+            0.0
+          ],
+          "raw_values": [
+            "0.0",
+            "0.5",
+            "0.75",
+            "0.0"
+          ]
+        }
+      ],
+      "textures": [
+        {
+          "name": "albedoTex",
+          "logical_path": "art/material_library/substances/structures/plaster/14189176920867230619_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\005c8c49738d_14189176920867230619_packed.dds",
+          "texture_name": "art/material_library/substances/structures/plaster/str_plaster_b_daub_17_alb",
+          "projection_format": "BC1_UNORM_SRGB",
+          "internal_format": 19
+        },
+        {
+          "name": "albedoTex2",
+          "logical_path": "art/material_library/substances/structures/plaster/912430540724886443_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\9839553946b2_912430540724886443_packed.dds",
+          "texture_name": "art/material_library/substances/structures/plaster/str_plaster_b_daub_20_alb",
+          "projection_format": "BC1_UNORM_SRGB",
+          "internal_format": 19
+        },
+        {
+          "name": "albedoTex3",
+          "logical_path": "art/material_library/substances/structures/grout/934894132820687482_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\4aa7961d96b0_934894132820687482_packed.dds",
+          "texture_name": "art/material_library/substances/structures/grout/str_grout_white_01_alb",
+          "projection_format": "BC1_UNORM_SRGB",
+          "internal_format": 19
+        },
+        {
+          "name": "albedoTex4",
+          "logical_path": "art/material_library/substances/structures/wood/3276630836538442047_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\2559e2731a7e_3276630836538442047_packed.dds",
+          "texture_name": "art/material_library/substances/structures/wood/str_wood_generic_02_alb",
+          "projection_format": "BC1_UNORM_SRGB",
+          "internal_format": 19
+        },
+        {
+          "name": "__default",
+          "logical_path": "__default",
+          "projection_path": null
+        },
+        {
+          "name": "normalMap",
+          "logical_path": "art/material_library/substances/structures/plaster/1090364353544936065_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\26a26028ed27_1090364353544936065_packed.dds",
+          "texture_name": "art/material_library/substances/structures/plaster/str_plaster_b_daub_17_emi",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "normalMap2",
+          "logical_path": "art/material_library/substances/structures/plaster/7817128557334523862_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\5c0676dab304_7817128557334523862_packed.dds",
+          "texture_name": "art/material_library/substances/structures/plaster/str_plaster_b_daub_20_emi",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "normalMap3",
+          "logical_path": "art/material_library/substances/structures/grout/4373456093999725211_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\fc68f83c9dee_4373456093999725211_packed.dds",
+          "texture_name": "art/material_library/substances/structures/grout/str_grout_white_01_emi",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "normalMap4",
+          "logical_path": "art/material_library/substances/structures/wood/8075824890169796949_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\b8e4ce9f853c_8075824890169796949_packed.dds",
+          "texture_name": "art/material_library/substances/structures/wood/str_wood_generic_02_emi",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "secondaryMaskTex2",
+          "logical_path": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\d5ba288445e3_middle_gray_msk.dds",
+          "texture_name": "art/material_library/painter_materials/textures/middle_gray_msk",
+          "projection_format": "BC1_UNORM",
+          "internal_format": 18
+        },
+        {
+          "name": "secondaryMaskTex3",
+          "logical_path": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\d5ba288445e3_middle_gray_msk.dds",
+          "texture_name": "art/material_library/painter_materials/textures/middle_gray_msk",
+          "projection_format": "BC1_UNORM",
+          "internal_format": 18
+        },
+        {
+          "name": "secondaryMaskTex4",
+          "logical_path": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\d5ba288445e3_middle_gray_msk.dds",
+          "texture_name": "art/material_library/painter_materials/textures/middle_gray_msk",
+          "projection_format": "BC1_UNORM",
+          "internal_format": 18
+        },
+        {
+          "name": "metalTex",
+          "logical_path": "art/material_library/substances/structures/plaster/2144689956639166819_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\7c1bac01889c_2144689956639166819_packed.dds",
+          "texture_name": "art/material_library/substances/structures/plaster/str_plaster_b_daub_17_mtl",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "metalTex2",
+          "logical_path": "art/material_library/substances/structures/plaster/3650453994793044165_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\6e6b6d1e7ee5_3650453994793044165_packed.dds",
+          "texture_name": "art/material_library/substances/structures/plaster/str_plaster_b_daub_20_mtl",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "metalTex3",
+          "logical_path": "art/material_library/substances/structures/grout/10740321618852791956_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\35e374f00eb2_10740321618852791956_packed.dds",
+          "texture_name": "art/material_library/substances/structures/grout/str_grout_white_01_mtl",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "metalTex4",
+          "logical_path": "art/material_library/substances/structures/wood/651613341237364139_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\ec41a9e94ab5_651613341237364139_packed.dds",
+          "texture_name": "art/material_library/substances/structures/wood/str_wood_generic_02_mtl",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "maskTex2",
+          "logical_path": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/12852580227450526001_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\b12e1de36ad5_12852580227450526001_packed.dds",
+          "texture_name": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/mal_stonewall_tower_main_mask2",
+          "projection_format": "BC1_UNORM",
+          "internal_format": 18
+        },
+        {
+          "name": "maskAlpha",
+          "logical_path": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/1016451729546722177_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\0aeaf26d1033_1016451729546722177_packed.dds",
+          "texture_name": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/mal_stonewall_tower_main_maskalpha",
+          "projection_format": "BC1_UNORM",
+          "internal_format": 18
+        },
+        {
+          "name": "overlay1Mask",
+          "logical_path": "art/material_library/painter_materials/textures/black_msk.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\0eb8439c962e_black_msk.dds",
+          "texture_name": "art/material_library/painter_materials/textures/black_msk",
+          "projection_format": "BC1_UNORM",
+          "internal_format": 18
+        },
+        {
+          "name": "overlay2Mask",
+          "logical_path": "art/material_library/painter_materials/textures/patches_01_msk.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\570e02d83fae_patches_01_msk.dds",
+          "texture_name": "art/material_library/painter_materials/textures/patches_01_msk",
+          "projection_format": "BC1_UNORM",
+          "internal_format": 18
+        },
+        {
+          "name": "overlay1Albedo",
+          "logical_path": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/6761565007190403530_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\fc29cc25f6c3_6761565007190403530_packed.dds",
+          "texture_name": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/mal_stonewall_tower_main_overlay1_ovralb",
+          "projection_format": "BC3_UNORM_SRGB",
+          "internal_format": 23
+        },
+        {
+          "name": "overlay2Albedo",
+          "logical_path": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/9813512380306279546_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\57df0c7bb21c_9813512380306279546_packed.dds",
+          "texture_name": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/mal_stonewall_tower_main_overlay2_ovralb",
+          "projection_format": "BC3_UNORM_SRGB",
+          "internal_format": 23
+        },
+        {
+          "name": "albedoTexCharred",
+          "logical_path": "art/material_library/substances/structures/damage/str_damage_charred_01_alb.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\6f3011ce41e3_str_damage_charred_01_alb.dds",
+          "texture_name": "art/material_library/substances/structures/damage/str_damage_charred_01_alb",
+          "projection_format": "BC1_UNORM_SRGB",
+          "internal_format": 19
+        },
+        {
+          "name": "metalTexCharred",
+          "logical_path": "art/material_library/substances/structures/damage/11755559493558267954_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\85c59cbb9679_11755559493558267954_packed.dds",
+          "texture_name": "art/material_library/substances/structures/damage/str_damage_charred_01_mtl",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "normalMapCharred",
+          "logical_path": "art/material_library/substances/structures/damage/11844705194956636559_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\2b5e473bc500_11844705194956636559_packed.dds",
+          "texture_name": "art/material_library/substances/structures/damage/str_damage_charred_01_emi",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "terrainBlendMask",
+          "logical_path": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\d5ba288445e3_middle_gray_msk.dds",
+          "texture_name": "art/material_library/painter_materials/textures/middle_gray_msk",
+          "projection_format": "BC1_UNORM",
+          "internal_format": 18
+        },
+        {
+          "name": "albedoTex5",
+          "logical_path": "art/material_library/substances/structures/stone/7543808130346397087_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\bcb0b4bb9ec0_7543808130346397087_packed.dds",
+          "texture_name": "art/material_library/substances/structures/stone/str_stone_floor_06_alb",
+          "projection_format": "BC1_UNORM_SRGB",
+          "internal_format": 19
+        },
+        {
+          "name": "albedoTex6",
+          "logical_path": "art/material_library/substances/structures/plaster/12041615973339707457_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\5db26348116b_12041615973339707457_packed.dds",
+          "texture_name": "art/material_library/substances/structures/plaster/str_plaster_cob_01_alb",
+          "projection_format": "BC1_UNORM_SRGB",
+          "internal_format": 19
+        },
+        {
+          "name": "albedoTex7",
+          "logical_path": "art/material_library/substances/structures/debug/6708399669590286008_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\00a2880bf731_6708399669590286008_packed.dds",
+          "texture_name": "art/material_library/substances/structures/debug/str_debug_team_color_alb",
+          "projection_format": "BC1_UNORM_SRGB",
+          "internal_format": 19
+        },
+        {
+          "name": "normalMap5",
+          "logical_path": "art/material_library/substances/structures/stone/15954278044326765436_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\57dd7d2c1069_15954278044326765436_packed.dds",
+          "texture_name": "art/material_library/substances/structures/stone/str_stone_floor_06_emi",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "normalMap6",
+          "logical_path": "art/material_library/substances/structures/plaster/18231663582228185424_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\7b494a2f28b9_18231663582228185424_packed.dds",
+          "texture_name": "art/material_library/substances/structures/plaster/str_plaster_cob_01_emi",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "normalMap7",
+          "logical_path": "art/material_library/substances/structures/debug/940685202008631679_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\5381da0089b5_940685202008631679_packed.dds",
+          "texture_name": "art/material_library/substances/structures/debug/str_debug_team_color_emi",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "secondaryMaskTex5",
+          "logical_path": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\d5ba288445e3_middle_gray_msk.dds",
+          "texture_name": "art/material_library/painter_materials/textures/middle_gray_msk",
+          "projection_format": "BC1_UNORM",
+          "internal_format": 18
+        },
+        {
+          "name": "secondaryMaskTex6",
+          "logical_path": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\d5ba288445e3_middle_gray_msk.dds",
+          "texture_name": "art/material_library/painter_materials/textures/middle_gray_msk",
+          "projection_format": "BC1_UNORM",
+          "internal_format": 18
+        },
+        {
+          "name": "secondaryMaskTex7",
+          "logical_path": "art/material_library/painter_materials/textures/leaks_01_msk.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\c1eb0b07e1df_leaks_01_msk.dds",
+          "texture_name": "art/material_library/painter_materials/textures/leaks_01_msk",
+          "projection_format": "BC1_UNORM",
+          "internal_format": 18
+        },
+        {
+          "name": "metalTex5",
+          "logical_path": "art/material_library/substances/structures/stone/10957026120954162192_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\75445d1f6b2e_10957026120954162192_packed.dds",
+          "texture_name": "art/material_library/substances/structures/stone/str_stone_floor_06_mtl",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "metalTex6",
+          "logical_path": "art/material_library/substances/structures/plaster/10481810468234262313_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\794382be660a_10481810468234262313_packed.dds",
+          "texture_name": "art/material_library/substances/structures/plaster/str_plaster_cob_01_mtl",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "metalTex7",
+          "logical_path": "art/material_library/substances/structures/debug/17716732775687444425_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\ef0164b43256_17716732775687444425_packed.dds",
+          "texture_name": "art/material_library/substances/structures/debug/str_debug_team_color_mtl",
+          "projection_format": "BC3_UNORM",
+          "internal_format": 22
+        },
+        {
+          "name": "maskTex5",
+          "logical_path": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/8658189803012978308_packed.rrtex",
+          "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\wall_tower\\stock\\ca0f7e2869034461016a\\textures\\2a47f7c07892_8658189803012978308_packed.dds",
+          "texture_name": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/mal_stonewall_tower_main_mask5",
+          "projection_format": "BC1_UNORM",
+          "internal_format": 18
+        }
+      ]
+    }
+  ],
+  "stock_collection_effect": "structure_collection",
+  "native_channel_layouts": {
+    "albedoTex": "BC1/BC3 sRGB RGB; optional alpha supplied by the semantic slot",
+    "normalMap": "BC3 R=emissive, G=normal_y, B=ambient_occlusion, A=normal_x",
+    "metalTex": "BC3 R=metalness, G=dielectric, B=height, A=roughness",
+    "maskTex2": "BC1 linear R=layer2, G=layer3, B=layer4",
+    "maskTex5": "BC1 linear R=layer5, G=layer6, B=layer7"
+  },
+  "encoder_contract": {
+    "status": "source-preserving-projection",
+    "lossless_chunk_sources_retained": true,
+    "editable_fields": [
+      "positions",
+      "normals",
+      "UVMap",
+      "UV2",
+      "material parameters",
+      "texture images"
+    ],
+    "unknown_fields": "retained in hash-bound source files; encoder must patch known spans or recook",
+    "direct_binary_reencode_enabled": false,
+    "official_recook_path": "FBX/material/texture source projection -> existing core burner pipeline",
+    "confirmed_stock_channel_layouts": {
+      "albedoTex": "BC1/BC3 sRGB RGB; optional alpha supplied by the semantic slot",
+      "normalMap": "BC3 R=emissive, G=normal_y, B=ambient_occlusion, A=normal_x",
+      "metalTex": "BC3 R=metalness, G=dielectric, B=height, A=roughness",
+      "maskTex2": "BC1 linear R=layer2, G=layer3, B=layer4",
+      "maskTex5": "BC1 linear R=layer5, G=layer6, B=layer7"
+    }
+  },
+  "stock_slot_collisions": {
+    "albedoTex": {
+      "extra": "art/material_library/substances/structures/plaster/14189176920867230619_packed.rrtex",
+      "extra_collection": "art/material_library/substances/structures/plaster/14189176920867230619_packed.rrtex",
+      "main": "art/material_library/substances/structures/plaster/14189176920867230619_packed.rrtex",
+      "main_collection": "art/material_library/substances/structures/plaster/14189176920867230619_packed.rrtex",
+      "misc": "art/material_library/substances/structures/wood/3276630836538442047_packed.rrtex",
+      "misc_collection": "art/material_library/substances/structures/wood/3276630836538442047_packed.rrtex"
+    },
+    "albedoTex2": {
+      "extra": "art/material_library/substances/structures/stone/17806327285596061758_packed.rrtex",
+      "extra_collection": "art/material_library/substances/structures/stone/17806327285596061758_packed.rrtex",
+      "main": "art/material_library/substances/structures/plaster/912430540724886443_packed.rrtex",
+      "main_collection": "art/material_library/substances/structures/plaster/912430540724886443_packed.rrtex",
+      "misc": "art/material_library/substances/structures/wood/9512995186287813291_packed.rrtex",
+      "misc_collection": "art/material_library/substances/structures/wood/9512995186287813291_packed.rrtex"
+    },
+    "albedoTex3": {
+      "extra": "art/material_library/substances/structures/grout/934894132820687482_packed.rrtex",
+      "extra_collection": "art/material_library/substances/structures/grout/934894132820687482_packed.rrtex",
+      "main": "art/material_library/substances/structures/grout/934894132820687482_packed.rrtex",
+      "main_collection": "art/material_library/substances/structures/grout/934894132820687482_packed.rrtex",
+      "misc": "art/material_library/substances/structures/wood/13131372411397640740_packed.rrtex",
+      "misc_collection": "art/material_library/substances/structures/wood/13131372411397640740_packed.rrtex"
+    },
+    "albedoTex4": {
+      "extra": "art/material_library/substances/structures/wood/15538720744557451732_packed.rrtex",
+      "extra_collection": "art/material_library/substances/structures/wood/15538720744557451732_packed.rrtex",
+      "main": "art/material_library/substances/structures/wood/3276630836538442047_packed.rrtex",
+      "main_collection": "art/material_library/substances/structures/wood/3276630836538442047_packed.rrtex",
+      "misc": "art/material_library/substances/structures/building_kits/9779992567948095736_packed.rrtex",
+      "misc_collection": "art/material_library/substances/structures/building_kits/9779992567948095736_packed.rrtex"
+    },
+    "normalMap": {
+      "extra": "art/material_library/substances/structures/plaster/1090364353544936065_packed.rrtex",
+      "extra_collection": "art/material_library/substances/structures/plaster/1090364353544936065_packed.rrtex",
+      "main": "art/material_library/substances/structures/plaster/1090364353544936065_packed.rrtex",
+      "main_collection": "art/material_library/substances/structures/plaster/1090364353544936065_packed.rrtex",
+      "misc": "art/material_library/substances/structures/wood/8075824890169796949_packed.rrtex",
+      "misc_collection": "art/material_library/substances/structures/wood/8075824890169796949_packed.rrtex"
+    },
+    "normalMap2": {
+      "extra": "art/material_library/substances/structures/stone/14178410758489216611_packed.rrtex",
+      "extra_collection": "art/material_library/substances/structures/stone/14178410758489216611_packed.rrtex",
+      "main": "art/material_library/substances/structures/plaster/7817128557334523862_packed.rrtex",
+      "main_collection": "art/material_library/substances/structures/plaster/7817128557334523862_packed.rrtex",
+      "misc": "art/material_library/substances/structures/wood/4469932149589080082_packed.rrtex",
+      "misc_collection": "art/material_library/substances/structures/wood/4469932149589080082_packed.rrtex"
+    },
+    "normalMap3": {
+      "extra": "art/material_library/substances/structures/grout/4373456093999725211_packed.rrtex",
+      "extra_collection": "art/material_library/substances/structures/grout/4373456093999725211_packed.rrtex",
+      "main": "art/material_library/substances/structures/grout/4373456093999725211_packed.rrtex",
+      "main_collection": "art/material_library/substances/structures/grout/4373456093999725211_packed.rrtex",
+      "misc": "art/material_library/substances/structures/wood/18244351080216922448_packed.rrtex",
+      "misc_collection": "art/material_library/substances/structures/wood/18244351080216922448_packed.rrtex"
+    },
+    "normalMap4": {
+      "extra": "art/material_library/substances/structures/wood/16619984276738709410_packed.rrtex",
+      "extra_collection": "art/material_library/substances/structures/wood/16619984276738709410_packed.rrtex",
+      "main": "art/material_library/substances/structures/wood/8075824890169796949_packed.rrtex",
+      "main_collection": "art/material_library/substances/structures/wood/8075824890169796949_packed.rrtex",
+      "misc": "art/material_library/substances/structures/building_kits/11978406380669245476_packed.rrtex",
+      "misc_collection": "art/material_library/substances/structures/building_kits/11978406380669245476_packed.rrtex"
+    },
+    "secondaryMaskTex3": {
+      "extra": "art/material_library/painter_materials/textures/noise_02_msk.rrtex",
+      "extra_collection": "art/material_library/painter_materials/textures/noise_02_msk.rrtex",
+      "main": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+      "main_collection": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+      "misc": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+      "misc_collection": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex"
+    },
+    "metalTex": {
+      "extra": "art/material_library/substances/structures/plaster/2144689956639166819_packed.rrtex",
+      "extra_collection": "art/material_library/substances/structures/plaster/2144689956639166819_packed.rrtex",
+      "main": "art/material_library/substances/structures/plaster/2144689956639166819_packed.rrtex",
+      "main_collection": "art/material_library/substances/structures/plaster/2144689956639166819_packed.rrtex",
+      "misc": "art/material_library/substances/structures/wood/651613341237364139_packed.rrtex",
+      "misc_collection": "art/material_library/substances/structures/wood/651613341237364139_packed.rrtex"
+    },
+    "metalTex2": {
+      "extra": "art/material_library/substances/structures/stone/10969857256550625356_packed.rrtex",
+      "extra_collection": "art/material_library/substances/structures/stone/10969857256550625356_packed.rrtex",
+      "main": "art/material_library/substances/structures/plaster/3650453994793044165_packed.rrtex",
+      "main_collection": "art/material_library/substances/structures/plaster/3650453994793044165_packed.rrtex",
+      "misc": "art/material_library/substances/structures/wood/5205144908839024109_packed.rrtex",
+      "misc_collection": "art/material_library/substances/structures/wood/5205144908839024109_packed.rrtex"
+    },
+    "metalTex3": {
+      "extra": "art/material_library/substances/structures/grout/10740321618852791956_packed.rrtex",
+      "extra_collection": "art/material_library/substances/structures/grout/10740321618852791956_packed.rrtex",
+      "main": "art/material_library/substances/structures/grout/10740321618852791956_packed.rrtex",
+      "main_collection": "art/material_library/substances/structures/grout/10740321618852791956_packed.rrtex",
+      "misc": "art/material_library/substances/structures/wood/16342452104243438260_packed.rrtex",
+      "misc_collection": "art/material_library/substances/structures/wood/16342452104243438260_packed.rrtex"
+    },
+    "metalTex4": {
+      "extra": "art/material_library/substances/structures/wood/3657239726212681857_packed.rrtex",
+      "extra_collection": "art/material_library/substances/structures/wood/3657239726212681857_packed.rrtex",
+      "main": "art/material_library/substances/structures/wood/651613341237364139_packed.rrtex",
+      "main_collection": "art/material_library/substances/structures/wood/651613341237364139_packed.rrtex",
+      "misc": "art/material_library/substances/structures/building_kits/6066786514291190455_packed.rrtex",
+      "misc_collection": "art/material_library/substances/structures/building_kits/6066786514291190455_packed.rrtex"
+    },
+    "maskTex2": {
+      "extra": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/10866997052695030508_packed.rrtex",
+      "extra_collection": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/10866997052695030508_packed.rrtex",
+      "main": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/12852580227450526001_packed.rrtex",
+      "main_collection": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/12852580227450526001_packed.rrtex",
+      "misc": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/126625238297809725_packed.rrtex",
+      "misc_collection": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/126625238297809725_packed.rrtex"
+    },
+    "maskAlpha": {
+      "extra": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/9972214638326256452_packed.rrtex",
+      "extra_collection": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/9972214638326256452_packed.rrtex",
+      "main": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/1016451729546722177_packed.rrtex",
+      "main_collection": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/1016451729546722177_packed.rrtex",
+      "misc": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/13873878639169863468_packed.rrtex",
+      "misc_collection": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/13873878639169863468_packed.rrtex"
+    },
+    "overlay2Mask": {
+      "extra": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+      "extra_collection": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+      "main": "art/material_library/painter_materials/textures/patches_01_msk.rrtex",
+      "main_collection": "art/material_library/painter_materials/textures/patches_01_msk.rrtex",
+      "misc": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+      "misc_collection": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex"
+    },
+    "overlay1Albedo": {
+      "extra": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/12264467795289917290_packed.rrtex",
+      "extra_collection": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/12264467795289917290_packed.rrtex",
+      "main": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/6761565007190403530_packed.rrtex",
+      "main_collection": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/6761565007190403530_packed.rrtex",
+      "misc": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/9310345860531000713_packed.rrtex",
+      "misc_collection": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/9310345860531000713_packed.rrtex"
+    },
+    "overlay2Albedo": {
+      "extra": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/15756489211468143204_packed.rrtex",
+      "extra_collection": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/15756489211468143204_packed.rrtex",
+      "main": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/9813512380306279546_packed.rrtex",
+      "main_collection": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/9813512380306279546_packed.rrtex",
+      "misc": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/1811031609682887850_packed.rrtex",
+      "misc_collection": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/1811031609682887850_packed.rrtex"
+    },
+    "albedoTex5": {
+      "extra": "art/material_library/substances/structures/wood/13131372411397640740_packed.rrtex",
+      "extra_collection": "art/material_library/substances/structures/wood/13131372411397640740_packed.rrtex",
+      "main": "art/material_library/substances/structures/stone/7543808130346397087_packed.rrtex",
+      "main_collection": "art/material_library/substances/structures/stone/7543808130346397087_packed.rrtex",
+      "misc": "art/material_library/substances/structures/building_kits/17790948648766371102_packed.rrtex",
+      "misc_collection": "art/material_library/substances/structures/building_kits/17790948648766371102_packed.rrtex"
+    },
+    "albedoTex6": {
+      "extra": "art/material_library/substances/structures/plaster/12041615973339707457_packed.rrtex",
+      "extra_collection": "art/material_library/substances/structures/plaster/12041615973339707457_packed.rrtex",
+      "main": "art/material_library/substances/structures/plaster/12041615973339707457_packed.rrtex",
+      "main_collection": "art/material_library/substances/structures/plaster/12041615973339707457_packed.rrtex",
+      "misc": "art/material_library/substances/structures/fabric/4260602715092551306_packed.rrtex",
+      "misc_collection": "art/material_library/substances/structures/fabric/4260602715092551306_packed.rrtex"
+    },
+    "albedoTex7": {
+      "extra": "art/material_library/substances/structures/building_kits/17790948648766371102_packed.rrtex",
+      "extra_collection": "art/material_library/substances/structures/building_kits/17790948648766371102_packed.rrtex",
+      "main": "art/material_library/substances/structures/debug/6708399669590286008_packed.rrtex",
+      "main_collection": "art/material_library/substances/structures/debug/6708399669590286008_packed.rrtex",
+      "misc": "art/material_library/substances/structures/plaster/12041615973339707457_packed.rrtex",
+      "misc_collection": "art/material_library/substances/structures/plaster/12041615973339707457_packed.rrtex"
+    },
+    "normalMap5": {
+      "extra": "art/material_library/substances/structures/wood/18244351080216922448_packed.rrtex",
+      "extra_collection": "art/material_library/substances/structures/wood/18244351080216922448_packed.rrtex",
+      "main": "art/material_library/substances/structures/stone/15954278044326765436_packed.rrtex",
+      "main_collection": "art/material_library/substances/structures/stone/15954278044326765436_packed.rrtex",
+      "misc": "art/material_library/substances/structures/building_kits/8465263848246101050_packed.rrtex",
+      "misc_collection": "art/material_library/substances/structures/building_kits/8465263848246101050_packed.rrtex"
+    },
+    "normalMap6": {
+      "extra": "art/material_library/substances/structures/plaster/18231663582228185424_packed.rrtex",
+      "extra_collection": "art/material_library/substances/structures/plaster/18231663582228185424_packed.rrtex",
+      "main": "art/material_library/substances/structures/plaster/18231663582228185424_packed.rrtex",
+      "main_collection": "art/material_library/substances/structures/plaster/18231663582228185424_packed.rrtex",
+      "misc": "art/material_library/substances/structures/fabric/6373207517278852646_packed.rrtex",
+      "misc_collection": "art/material_library/substances/structures/fabric/6373207517278852646_packed.rrtex"
+    },
+    "normalMap7": {
+      "extra": "art/material_library/substances/structures/building_kits/8465263848246101050_packed.rrtex",
+      "extra_collection": "art/material_library/substances/structures/building_kits/8465263848246101050_packed.rrtex",
+      "main": "art/material_library/substances/structures/debug/940685202008631679_packed.rrtex",
+      "main_collection": "art/material_library/substances/structures/debug/940685202008631679_packed.rrtex",
+      "misc": "art/material_library/substances/structures/plaster/18231663582228185424_packed.rrtex",
+      "misc_collection": "art/material_library/substances/structures/plaster/18231663582228185424_packed.rrtex"
+    },
+    "secondaryMaskTex7": {
+      "extra": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+      "extra_collection": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+      "main": "art/material_library/painter_materials/textures/leaks_01_msk.rrtex",
+      "main_collection": "art/material_library/painter_materials/textures/leaks_01_msk.rrtex",
+      "misc": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+      "misc_collection": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex"
+    },
+    "metalTex5": {
+      "extra": "art/material_library/substances/structures/wood/16342452104243438260_packed.rrtex",
+      "extra_collection": "art/material_library/substances/structures/wood/16342452104243438260_packed.rrtex",
+      "main": "art/material_library/substances/structures/stone/10957026120954162192_packed.rrtex",
+      "main_collection": "art/material_library/substances/structures/stone/10957026120954162192_packed.rrtex",
+      "misc": "art/material_library/substances/structures/building_kits/6198874812547331005_packed.rrtex",
+      "misc_collection": "art/material_library/substances/structures/building_kits/6198874812547331005_packed.rrtex"
+    },
+    "metalTex6": {
+      "extra": "art/material_library/substances/structures/plaster/10481810468234262313_packed.rrtex",
+      "extra_collection": "art/material_library/substances/structures/plaster/10481810468234262313_packed.rrtex",
+      "main": "art/material_library/substances/structures/plaster/10481810468234262313_packed.rrtex",
+      "main_collection": "art/material_library/substances/structures/plaster/10481810468234262313_packed.rrtex",
+      "misc": "art/material_library/substances/structures/fabric/13917905559452269230_packed.rrtex",
+      "misc_collection": "art/material_library/substances/structures/fabric/13917905559452269230_packed.rrtex"
+    },
+    "metalTex7": {
+      "extra": "art/material_library/substances/structures/building_kits/6198874812547331005_packed.rrtex",
+      "extra_collection": "art/material_library/substances/structures/building_kits/6198874812547331005_packed.rrtex",
+      "main": "art/material_library/substances/structures/debug/17716732775687444425_packed.rrtex",
+      "main_collection": "art/material_library/substances/structures/debug/17716732775687444425_packed.rrtex",
+      "misc": "art/material_library/substances/structures/plaster/10481810468234262313_packed.rrtex",
+      "misc_collection": "art/material_library/substances/structures/plaster/10481810468234262313_packed.rrtex"
+    },
+    "maskTex5": {
+      "extra": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/1537046808127874637_packed.rrtex",
+      "extra_collection": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/1537046808127874637_packed.rrtex",
+      "main": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/8658189803012978308_packed.rrtex",
+      "main_collection": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/8658189803012978308_packed.rrtex",
+      "misc": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/16398591698293087383_packed.rrtex",
+      "misc_collection": "art/civilizations/malian/structures/stonewall/mal_stonewall_tower/16398591698293087383_packed.rrtex"
+    }
+  },
+  "variant_api_flattened_slots": {
+    "textures": {
+      "albedoTex": "art\\material_library\\substances\\structures\\plaster\\14189176920867230619_packed.rrtex",
+      "albedoTex2": "art\\material_library\\substances\\structures\\stone\\17806327285596061758_packed.rrtex",
+      "albedoTex3": "art\\material_library\\substances\\structures\\grout\\934894132820687482_packed.rrtex",
+      "albedoTex4": "art\\material_library\\substances\\structures\\wood\\15538720744557451732_packed.rrtex",
+      "__default": "__default",
+      "normalMap": "art\\material_library\\substances\\structures\\plaster\\1090364353544936065_packed.rrtex",
+      "normalMap2": "art\\material_library\\substances\\structures\\stone\\14178410758489216611_packed.rrtex",
+      "normalMap3": "art\\material_library\\substances\\structures\\grout\\4373456093999725211_packed.rrtex",
+      "normalMap4": "art\\material_library\\substances\\structures\\wood\\16619984276738709410_packed.rrtex",
+      "secondaryMaskTex2": "art\\material_library\\painter_materials\\textures\\middle_gray_msk.rrtex",
+      "secondaryMaskTex3": "art\\material_library\\painter_materials\\textures\\noise_02_msk.rrtex",
+      "secondaryMaskTex4": "art\\material_library\\painter_materials\\textures\\middle_gray_msk.rrtex",
+      "metalTex": "art\\material_library\\substances\\structures\\plaster\\2144689956639166819_packed.rrtex",
+      "metalTex2": "art\\material_library\\substances\\structures\\stone\\10969857256550625356_packed.rrtex",
+      "metalTex3": "art\\material_library\\substances\\structures\\grout\\10740321618852791956_packed.rrtex",
+      "metalTex4": "art\\material_library\\substances\\structures\\wood\\3657239726212681857_packed.rrtex",
+      "maskTex2": "art\\civilizations\\malian\\structures\\stonewall\\mal_stonewall_tower\\10866997052695030508_packed.rrtex",
+      "maskAlpha": "art\\civilizations\\malian\\structures\\stonewall\\mal_stonewall_tower\\9972214638326256452_packed.rrtex",
+      "overlay1Mask": "art\\material_library\\painter_materials\\textures\\black_msk.rrtex",
+      "overlay2Mask": "art\\material_library\\painter_materials\\textures\\middle_gray_msk.rrtex",
+      "overlay1Albedo": "art\\civilizations\\malian\\structures\\stonewall\\mal_stonewall_tower\\12264467795289917290_packed.rrtex",
+      "overlay2Albedo": "art\\civilizations\\malian\\structures\\stonewall\\mal_stonewall_tower\\15756489211468143204_packed.rrtex",
+      "albedoTexCharred": "art\\material_library\\substances\\structures\\damage\\str_damage_charred_01_alb.rrtex",
+      "metalTexCharred": "art\\material_library\\substances\\structures\\damage\\11755559493558267954_packed.rrtex",
+      "normalMapCharred": "art\\material_library\\substances\\structures\\damage\\11844705194956636559_packed.rrtex",
+      "terrainBlendMask": "art\\material_library\\painter_materials\\textures\\middle_gray_msk.rrtex",
+      "albedoTex5": "art\\material_library\\substances\\structures\\wood\\13131372411397640740_packed.rrtex",
+      "albedoTex6": "art\\material_library\\substances\\structures\\plaster\\12041615973339707457_packed.rrtex",
+      "albedoTex7": "art\\material_library\\substances\\structures\\building_kits\\17790948648766371102_packed.rrtex",
+      "normalMap5": "art\\material_library\\substances\\structures\\wood\\18244351080216922448_packed.rrtex",
+      "normalMap6": "art\\material_library\\substances\\structures\\plaster\\18231663582228185424_packed.rrtex",
+      "normalMap7": "art\\material_library\\substances\\structures\\building_kits\\8465263848246101050_packed.rrtex",
+      "secondaryMaskTex5": "art\\material_library\\painter_materials\\textures\\middle_gray_msk.rrtex",
+      "secondaryMaskTex6": "art\\material_library\\painter_materials\\textures\\middle_gray_msk.rrtex",
+      "secondaryMaskTex7": "art\\material_library\\painter_materials\\textures\\middle_gray_msk.rrtex",
+      "metalTex5": "art\\material_library\\substances\\structures\\wood\\16342452104243438260_packed.rrtex",
+      "metalTex6": "art\\material_library\\substances\\structures\\plaster\\10481810468234262313_packed.rrtex",
+      "metalTex7": "art\\material_library\\substances\\structures\\building_kits\\6198874812547331005_packed.rrtex",
+      "maskTex5": "art\\civilizations\\malian\\structures\\stonewall\\mal_stonewall_tower\\1537046808127874637_packed.rrtex"
+    },
+    "parameters": {
+      "terrainblend_maskoffsetscale": {
+        "type": "Float4",
+        "values": [
+          "1.0",
+          "1.0",
+          "1.0",
+          "1.0"
+        ]
+      },
+      "terrainblend_falloff": {
+        "type": "Float4",
+        "values": [
+          "0.75",
+          "0.75",
+          "0.5",
+          "0.5"
+        ]
+      },
+      "preserveBaseNormal234": {
+        "type": "Float4",
+        "values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      "heightBias1234": {
+        "type": "Float4",
+        "values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      "mask23LevelMinMax": {
+        "type": "Float4",
+        "values": [
+          "0.0",
+          "1.0",
+          "0.0",
+          "1.0"
+        ]
+      },
+      "mask45LevelMinMax": {
+        "type": "Float4",
+        "values": [
+          "0.0",
+          "1.0",
+          "0.0",
+          "1.0"
+        ]
+      },
+      "mask67LevelMinMax": {
+        "type": "Float4",
+        "values": [
+          "0.0",
+          "1.0",
+          "0.0",
+          "1.0"
+        ]
+      },
+      "secondaryMaskStrength234": {
+        "type": "Float4",
+        "values": [
+          "0.0",
+          "0.03999999910593033",
+          "0.0",
+          "0.0"
+        ]
+      },
+      "highlightColor1": {
+        "type": "Float4",
+        "values": [
+          "0.503000020980835",
+          "0.503000020980835",
+          "0.503000020980835",
+          "1.0"
+        ]
+      },
+      "midtoneColor1": {
+        "type": "Float4",
+        "values": [
+          "0.503000020980835",
+          "0.503000020980835",
+          "0.503000020980835",
+          "1.0"
+        ]
+      },
+      "shadowColor1": {
+        "type": "Float4",
+        "values": [
+          "0.503000020980835",
+          "0.503000020980835",
+          "0.503000020980835",
+          "1.0"
+        ]
+      },
+      "highlightColor2": {
+        "type": "Float4",
+        "values": [
+          "0.503000020980835",
+          "0.503000020980835",
+          "0.503000020980835",
+          "1.0"
+        ]
+      },
+      "midtoneColor2": {
+        "type": "Float4",
+        "values": [
+          "0.503000020980835",
+          "0.503000020980835",
+          "0.503000020980835",
+          "1.0"
+        ]
+      },
+      "shadowColor2": {
+        "type": "Float4",
+        "values": [
+          "0.5028865933418274",
+          "0.5028865933418274",
+          "0.5028865933418274",
+          "1.0"
+        ]
+      },
+      "highlightColor3": {
+        "type": "Float4",
+        "values": [
+          "0.5028865933418274",
+          "0.5028865933418274",
+          "0.5028865933418274",
+          "1.0"
+        ]
+      },
+      "midtoneColor3": {
+        "type": "Float4",
+        "values": [
+          "0.3813261091709137",
+          "0.23074007034301758",
+          "0.13563334941864014",
+          "1.0"
+        ]
+      },
+      "shadowColor3": {
+        "type": "Float4",
+        "values": [
+          "0.5028865933418274",
+          "0.5028865933418274",
+          "0.5028865933418274",
+          "1.0"
+        ]
+      },
+      "highlightColor4": {
+        "type": "Float4",
+        "values": [
+          "0.4507858455181122",
+          "0.4507858455181122",
+          "0.4507858455181122",
+          "1.0"
+        ]
+      },
+      "midtoneColor4": {
+        "type": "Float4",
+        "values": [
+          "0.4507858455181122",
+          "0.4507858455181122",
+          "0.4507858455181122",
+          "1.0"
+        ]
+      },
+      "shadowColor4": {
+        "type": "Float4",
+        "values": [
+          "0.4507858455181122",
+          "0.4507858455181122",
+          "0.4507858455181122",
+          "1.0"
+        ]
+      },
+      "maskToNormalIntensities234": {
+        "type": "Float4",
+        "values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      "maskToNormalWidths234": {
+        "type": "Float4",
+        "values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      "options": {
+        "type": "Float4",
+        "values": [
+          "0.0",
+          "0.0",
+          "1.0",
+          "8.0"
+        ]
+      },
+      "highlightColor5": {
+        "type": "Float4",
+        "values": [
+          "0.33127260208129883",
+          "0.30006951093673706",
+          "0.27967941761016846",
+          "1.0"
+        ]
+      },
+      "midtoneColor5": {
+        "type": "Float4",
+        "values": [
+          "0.5679321885108948",
+          "0.5049041509628296",
+          "0.4794810712337494",
+          "1.0"
+        ]
+      },
+      "shadowColor5": {
+        "type": "Float4",
+        "values": [
+          "0.6494521498680115",
+          "0.5888972282409668",
+          "0.5644716620445251",
+          "1.0"
+        ]
+      },
+      "highlightColor6": {
+        "type": "Float4",
+        "values": [
+          "0.5028865933418274",
+          "0.5028865933418274",
+          "0.5028865933418274",
+          "1.0"
+        ]
+      },
+      "midtoneColor6": {
+        "type": "Float4",
+        "values": [
+          "0.5028865933418274",
+          "0.5028865933418274",
+          "0.5028865933418274",
+          "1.0"
+        ]
+      },
+      "shadowColor6": {
+        "type": "Float4",
+        "values": [
+          "0.5028865933418274",
+          "0.5028865933418274",
+          "0.5028865933418274",
+          "1.0"
+        ]
+      },
+      "highlightColor7": {
+        "type": "Float4",
+        "values": [
+          "0.503000020980835",
+          "0.503000020980835",
+          "0.503000020980835",
+          "1.0"
+        ]
+      },
+      "midtoneColor7": {
+        "type": "Float4",
+        "values": [
+          "0.503000020980835",
+          "0.503000020980835",
+          "0.503000020980835",
+          "1.0"
+        ]
+      },
+      "shadowColor7": {
+        "type": "Float4",
+        "values": [
+          "0.503000020980835",
+          "0.503000020980835",
+          "0.503000020980835",
+          "1.0"
+        ]
+      },
+      "maskToNormalIntensities567": {
+        "type": "Float4",
+        "values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      "maskToNormalWidths567": {
+        "type": "Float4",
+        "values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      "heightBias567": {
+        "type": "Float4",
+        "values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      "secondaryMaskStrength567": {
+        "type": "Float4",
+        "values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      },
+      "preserveBaseNormal567": {
+        "type": "Float4",
+        "values": [
+          "0.0",
+          "0.0",
+          "0.0",
+          "0.0"
+        ]
+      }
+    }
+  },
+  "variant_api": {
+    "material_slots": "(material: 'bytes') -> 'dict[str, Any]'",
+    "rewrite_material": "(material: 'bytes', textures: 'Mapping[str, str]', parameters: 'Mapping[str, Sequence[str]]') -> 'bytes'",
+    "set_texture": "(record: 'Mapping[str, Any]', slot: 'str', image: 'str', material: 'bytes') -> 'dict[str, Any]'",
+    "set_parameter": "(record: 'Mapping[str, Any]', parameter: 'str', values: 'Sequence[Any]', material: 'bytes') -> 'dict[str, Any]'",
+    "build": "(record: 'Mapping[str, Any]', stock: 'Mapping[str, bytes]', mod_key: 'str') -> 'dict[str, bytes]'"
+  },
+  "variant_api_layer7_is_first_material_not_main": true,
+  "indexed_native_team_assets": [
+    [
+      "art/civilizations/japanese/weapons/jpn_banner_siege/jpn_samurai_siege_bannerrear_flags_gen7_team_alb_packed.rrtex",
+      2925
+    ],
+    [
+      "art/civilizations/jin_dynasty/props/jin_training_post/jin_training_postflag_gen7_team_alb_packed.rrtex",
+      380
+    ],
+    [
+      "art/civilizations/jin_dynasty/props/song_banner_01/jin_tent_controlflag_gen7_team_alb_packed.rrtex",
+      374
+    ],
+    [
+      "art/civilizations/jin_dynasty/props/song_banner_01/song_banner_01flag_gen7_team_alb_packed.rrtex",
+      374
+    ],
+    [
+      "art/civilizations/jin_dynasty/props/song_banner_01/song_banner_02flag_gen7_team_alb_packed.rrtex",
+      374
+    ],
+    [
+      "art/civilizations/jin_dynasty/props/song_banner_01/song_banner_03flag_gen7_team_alb_packed.rrtex",
+      374
+    ],
+    [
+      "art/civilizations/jin_dynasty/props/song_banner_01/song_banner_04flag_gen7_team_alb_packed.rrtex",
+      374
+    ],
+    [
+      "art/civilizations/jin_dynasty/weapons/jin_iron_pagoda_spear/jin_iron_pagoda_spearflag_gen7_team_alb_packed.rrtex",
+      389
+    ],
+    [
+      "art/material_library/painter_materials/textures/byz_arsenal_control_age03extra_gen7_team_alb_packed.rrtex",
+      357
+    ],
+    [
+      "art/material_library/painter_materials/textures/byz_arsenal_control_age03main_gen7_team_alb_packed.rrtex",
+      8464
+    ],
+    [
+      "art/material_library/painter_materials/textures/byz_arsenal_control_age03roof_gen7_team_alb_packed.rrtex",
+      357
+    ],
+    [
+      "art/material_library/painter_materials/textures/byz_arsenal_control_age04extra_gen7_team_alb_packed.rrtex",
+      357
+    ],
+    [
+      "art/material_library/painter_materials/textures/byz_arsenal_control_age04main_gen7_team_alb_packed.rrtex",
+      10479
+    ],
+    [
+      "art/material_library/painter_materials/textures/byz_arsenal_control_age04roof_gen7_team_alb_packed.rrtex",
+      357
+    ],
+    [
+      "art/material_library/painter_materials/textures/byz_scoutdetails_gen7_team_alb_packed.rrtex",
+      357
+    ],
+    [
+      "art/material_library/painter_materials/textures/byz_scoutflags_gen7_team_alb_packed.rrtex",
+      5141
+    ],
+    [
+      "art/material_library/painter_materials/textures/byz_scouthull_gen7_team_alb_packed.rrtex",
+      5854
+    ],
+    [
+      "art/material_library/painter_materials/textures/byz_scoutsails_gen7_team_alb_packed.rrtex",
+      7215
+    ],
+    [
+      "art/material_library/painter_materials/textures/jpn_scoutdetails_gen7_team_alb_packed.rrtex",
+      357
+    ],
+    [
+      "art/material_library/painter_materials/textures/jpn_scoutflags_gen7_team_alb_packed.rrtex",
+      5153
+    ],
+    [
+      "art/material_library/painter_materials/textures/jpn_scouthull_gen7_team_alb_packed.rrtex",
+      4400
+    ],
+    [
+      "art/material_library/painter_materials/textures/jpn_scoutsails_gen7_team_alb_packed.rrtex",
+      12343
+    ],
+    [
+      "art/material_library/painter_materials/textures/mal_arsenal_control_age03extras_gen7_team_alb_packed.rrtex",
+      357
+    ],
+    [
+      "art/material_library/painter_materials/textures/mal_arsenal_control_age03main_gen7_team_alb_packed.rrtex",
+      9068
+    ],
+    [
+      "art/material_library/painter_materials/textures/mal_arsenal_control_age03roof_gen7_team_alb_packed.rrtex",
+      357
+    ],
+    [
+      "art/material_library/painter_materials/textures/mal_arsenal_control_age04extras_gen7_team_alb_packed.rrtex",
+      357
+    ],
+    [
+      "art/material_library/painter_materials/textures/mal_arsenal_control_age04main_gen7_team_alb_packed.rrtex",
+      5824
+    ],
+    [
+      "art/material_library/painter_materials/textures/mal_arsenal_control_age04roof_gen7_team_alb_packed.rrtex",
+      357
+    ],
+    [
+      "art/material_library/painter_materials/textures/mal_scoutdetails_gen7_team_alb_packed.rrtex",
+      357
+    ],
+    [
+      "art/material_library/painter_materials/textures/mal_scoutflags_gen7_team_alb_packed.rrtex",
+      5141
+    ]
+  ],
+  "indexed_structure_source_definitions": [],
+  "source_export_evidence": {
+    "static_material_adoption": "C:\\Users\\RS\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\extensions\\raw_githubusercontent_com\\garrison\\material_adoption.py",
+    "static_export": "C:\\Users\\RS\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\extensions\\raw_githubusercontent_com\\garrison\\asset_authoring.py",
+    "decoder_owner_mix": "preview only; adoption follows unblended base input",
+    "export_semantics": [
+      "albedo",
+      "normal",
+      "roughness",
+      "metalness"
+    ],
+    "native_source_material_schema_confirmed": false,
+    "structure_producer_texture_packing_confirmed": false,
+    "native_options_bit_semantics_confirmed": false
+  },
+  "new_cook_attempted": false,
+  "native_two_owner_acceptance": "pending"
+}

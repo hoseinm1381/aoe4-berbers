@@ -1,0 +1,34 @@
+{
+  "skill_root": "C:\\Users\\RS\\.codex\\skills\\aoe4-garrison-blender",
+  "modified_files": [
+    "C:\\Users\\RS\\.codex\\skills\\aoe4-garrison-blender\\SKILL.md",
+    "C:\\Users\\RS\\.codex\\skills\\aoe4-garrison-blender\\references\\scripted-unit-voices.md",
+    "C:\\Users\\RS\\.codex\\skills\\aoe4-garrison-blender\\references\\native-voices.md",
+    "C:\\Users\\RS\\.codex\\skills\\aoe4-garrison-blender\\references\\music-and-audio.md",
+    "C:\\Users\\RS\\.codex\\skills\\aoe4-garrison-blender\\references\\packaging-and-catalog.md"
+  ],
+  "quick_validate": "Skill is valid!",
+  "local_links_and_anchors_checked": 42,
+  "link_errors": [],
+  "file_sha256": {
+    "SKILL.md": "502eddc5d9e94286385a3bf872027de6a144b892f57f0c7387fcb6eb2aa104c1",
+    "references\\scripted-unit-voices.md": "6a96d37322c8f9f2702a889cbeb83f9ec292510bee43fc6a6c4fb3fe0951fd46",
+    "references\\native-voices.md": "4e4899f28ba2d989b79ea1ecc4e191bc811786724760f02b4f25a19097b5f64a",
+    "references\\music-and-audio.md": "ee366ba16d1dcb6ccf1570537d9c6c38b9b45a3e9870de383b12a130130b0ec8",
+    "references\\packaging-and-catalog.md": "779dd23cd584f87141d6134934d97af5d1d750f59868d5edc386d28267795595"
+  },
+  "reference_lines": 334,
+  "independent_forward_check": {
+    "scenarios": [
+      "Villager overlap after main speech removal",
+      "normal playback versus unsupported native_speech",
+      "duplicate ZIP manifest"
+    ],
+    "result": "passed",
+    "followup": "Old-companion comparison ambiguity clarified and independently rechecked"
+  },
+  "baseline_failures": "Observed 0.7.1 incomplete binding failures and 0.8.0 Villager overlap; 0.8.1 attachment repair confirmed by operator",
+  "operator_confirmation_recorded": true,
+  "delivery_hashes_unchanged": true,
+  "memory_files_modified": false
+}

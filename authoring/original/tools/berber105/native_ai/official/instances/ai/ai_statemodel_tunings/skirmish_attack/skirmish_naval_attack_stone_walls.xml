@@ -1,0 +1,120 @@
+<instance version="6" description="Skirmish Attack Stone Walls Encounter setup" template="ai\ai_statemodel_tunings">
+  <group name="ai_statemodel_tunings_bag">
+    <list name="bool_tunings">
+      <group name="value_tuning" List.ItemID="-192565608" List.ParentItemID="-192565608">
+        <bool name="value" value="False" overrideParent="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="1770114847" List.ParentItemID="1770114847">
+        <bool name="value" value="False" overrideParent="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="1728744307" List.ParentItemID="1728744307">
+        <bool name="value" value="False" overrideParent="True" />
+      </group>
+    </list>
+    <list name="float_tunings">
+      <group name="value_tuning" List.ItemID="-150290806" List.ParentItemID="-150290806">
+        <float name="value" value="40" overrideParent="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="-336056717" List.ParentItemID="-336056717">
+        <float name="value" value="40" overrideParent="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="673414398" List.ParentItemID="673414398">
+        <float name="value" value="1" overrideParent="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="1350356719" List.ParentItemID="1350356719">
+        <float name="value" value="40" overrideParent="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="-1696196552" List.ParentItemID="-1696196552">
+        <float name="value" value="0.3" overrideParent="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="-69499576" List.ParentItemID="-69499576">
+        <float name="value" value="0.75" overrideParent="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="-456788771" List.ParentItemID="-456788771">
+        <float name="value" value="0.5" overrideParent="True" />
+      </group>
+    </list>
+  </group>
+  <uniqueid name="pbgid" value="2045192" />
+  <instance_reference name="parent_pbg" value="ai\ai_statemodel_tunings\skirmish_attack\skirmish_attack_default" />
+  <variant name="xp3">
+    <group name="ai_statemodel_tunings_bag">
+      <list name="bool_tunings">
+        <group name="value_tuning" List.ItemID="-192565608" List.ParentItemID="-192565608">
+          <bool name="value" value="False" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="1770114847" List.ParentItemID="1770114847">
+          <bool name="value" value="False" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="1728744307" List.ParentItemID="1728744307">
+          <bool name="value" value="False" overrideParent="True" />
+        </group>
+      </list>
+      <list name="float_tunings">
+        <group name="value_tuning" List.ItemID="-150290806" List.ParentItemID="-150290806">
+          <float name="value" value="40" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="-336056717" List.ParentItemID="-336056717">
+          <float name="value" value="40" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="673414398" List.ParentItemID="673414398">
+          <float name="value" value="1" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="1350356719" List.ParentItemID="1350356719">
+          <float name="value" value="40" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="-1696196552" List.ParentItemID="-1696196552">
+          <float name="value" value="0.3" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="-69499576" List.ParentItemID="-69499576">
+          <float name="value" value="0.75" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="-456788771" List.ParentItemID="-456788771">
+          <float name="value" value="0.5" overrideParent="True" />
+        </group>
+      </list>
+    </group>
+    <uniqueid name="pbgid" value="2045192" />
+    <instance_reference name="parent_pbg" value="ai\ai_statemodel_tunings\skirmish_attack\skirmish_attack_default" />
+  </variant>
+  <variant name="cordoba">
+    <group name="ai_statemodel_tunings_bag">
+      <list name="bool_tunings">
+        <group name="value_tuning" List.ItemID="-192565608" List.ParentItemID="-192565608">
+          <bool name="value" value="False" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="1770114847" List.ParentItemID="1770114847">
+          <bool name="value" value="False" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="1728744307" List.ParentItemID="1728744307">
+          <bool name="value" value="False" overrideParent="True" />
+        </group>
+      </list>
+      <list name="float_tunings">
+        <group name="value_tuning" List.ItemID="-150290806" List.ParentItemID="-150290806">
+          <float name="value" value="40" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="-336056717" List.ParentItemID="-336056717">
+          <float name="value" value="40" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="673414398" List.ParentItemID="673414398">
+          <float name="value" value="1" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="1350356719" List.ParentItemID="1350356719">
+          <float name="value" value="40" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="-1696196552" List.ParentItemID="-1696196552">
+          <float name="value" value="0.3" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="-69499576" List.ParentItemID="-69499576">
+          <float name="value" value="0.75" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="-456788771" List.ParentItemID="-456788771">
+          <float name="value" value="0.5" overrideParent="True" />
+        </group>
+      </list>
+    </group>
+    <uniqueid name="pbgid" value="2045192" />
+    <instance_reference name="parent_pbg" value="ai\ai_statemodel_tunings\skirmish_attack\skirmish_attack_default" />
+  </variant>
+</instance>

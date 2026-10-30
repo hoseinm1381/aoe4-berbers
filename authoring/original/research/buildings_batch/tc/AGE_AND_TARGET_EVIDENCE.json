@@ -1,0 +1,10 @@
+{
+  "scope": "Town Center capital/start/Nomad/additional presentation",
+  "targets": ["ebps/races/malian/buildings/building_town_center_capital_mal", "ebps/races/malian/buildings/building_town_center_mal"],
+  "source_min_age": {"first_start_nomad": 1, "additional_with_existing_tc": 2, "replacement_without_tc": 1},
+  "evidence": {"mod_xml": "Both targets inherit ebps/races/core/buildings/building_town_center without requirement_ext/site_ext overrides", "installed_core_requirement": "required_any_in_list: completed feudal_age OR NOT existing building_town_center count 1", "readback": "core_town_center.xml", "tier_actions": ["act_set_current_age_feudal", "act_set_current_age_castle", "act_set_current_age_imperial"]},
+  "shared_visual_policy": "One original model per age covers gameplay variants; no fictional native variant selectors introduced",
+  "native_owner_colour": "pending separate shared shader qualification",
+  "stage_mapping": "Source cumulative first visibility 0/20/40/60/80/100; native recipe binding pending",
+  "footprint": {"installed_site_ext": [8,8], "authored_plan": [8,8], "native_exit_markers": "layout_towncenter binding retained in production; source author anchors are not engine marker proof"}
+}

@@ -1,0 +1,11 @@
+# Source inspection, 2026-10-13
+
+Inspected the final 768 px isometric preview, six orthographic sides in the contact sheet, and 768 px roof-hidden interior. Dominant square tower, low broad hypostyle hall/raised axis, legible hollow portal/arcades, seated lantern supports, courtyard basin and neutral banners read coherently. Bottom view shows a continuous grounded platform. No floating roof supports or disconnected gallery/hall interfaces remained.
+
+The first source attempt caught a real defect: tower cutters were shallower than the 2.2-wide masonry. Increased cutter span to 3.0 and ray span to 3.2; the shaft gateway and upper windows now pass actual through tests. The first preview exposed a 0.15 gallery/hall end gap; extending the gallery from 4.98 to 5.13 while holding its front plane at -4.53 closes that interface. Added measured gallery/hall joins. Thin footing void proof now samples z=0.30 inside its volume rather than above it. Final renders correspond to these repairs.
+
+Final checks: 111 single-user mesh objects, 2,686 triangles, zero non-manifold edges or degenerate triangles, positive signed volumes/transforms, finite positions, strictly positive UV triangle areas. Eighty-five measured contact checks passed in the build, with five additional saved-source contacts covering nave and hanging banner interfaces. Seventeen actual through-opening ray guards passed. Site footprint comes from XML/RGD 12×12, independently measured source envelope is [-5.8,-5.8,0] to [5.8,5.8,8.13]. Foundation sits at z=0.
+
+Reopened saved source in a separate task-owned hidden Blender process: all five image maps are packed, all meshes have UVs and explicit first-visible stage properties. UV-sampled pattern audit checked 8,058 loops (144 owner, 7,914 neutral), zero incorrect red/green/blue samples. Owner mask applies only to neutral tower banners and gallery friezes. FBX is 420,220 bytes and final geometry only. This validates source authoring and retained masks; no native owner shader, construction-state binding, Garrison cook, LOD or gameplay pass is claimed.
+
+Reproduce with bundled Python: `research/buildings_batch/wonder/run_build.py`; then `run_build.py audit_saved.py`; then `finalize.py`. Blender uses factory-startup offline hidden GUI and task-private config. No production assets/archives were edited.

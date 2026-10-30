@@ -1,0 +1,55 @@
+-- Berber repair candidate: one +0.08 bonus per live trader, not per poll.
+-- Retains the author's 30-second discovery interval and modifier values.
+Core_RegisterModule("BerberSaharanTrader")
+local started=false
+local applied={}
+local function valid(entity,id)
+    return Entity_IsValid(id) and Entity_FromID(id)==entity and Entity_IsAlive(entity)
+end
+function ModifyUnitSpeed(entity, amount)
+    if entity==nil or scartype(entity)~=ST_ENTITY then return end
+    local id=Entity_GetID(entity)
+    if not valid(entity,id) then return end
+    local old=applied[id]
+    if old and old.entity==entity then return end
+    local speed=Modifier_Create(MAT_Entity,"speed_maximum_modifier",MUT_Addition,false,amount,"")
+    local acceleration=Modifier_Create(MAT_Entity,"acceleration_modifier",MUT_Addition,false,amount,"")
+    applied[id]={entity=entity,speed=Modifier_ApplyToEntity(speed,entity,0),
+        acceleration=Modifier_ApplyToEntity(acceleration,entity,0)}
+end
+function saharan_trader_count_check()
+    for id, record in pairs(applied) do
+        if not valid(record.entity,id) then applied[id]=nil end
+    end
+    local any=false
+    for i=1,World_GetPlayerCount() do
+        local player=World_GetPlayerAt(i)
+        if Player_IsAlive(player) and Player_GetRaceName(player)=="malian" then
+            any=true
+            -- Do not mutate/filter the player-owned observer group.
+            local entities=Player_GetAllEntities(player)
+            for j=1,EGroup_Count(entities) do
+                local entity=EGroup_GetEntityAt(entities,j)
+                if Entity_IsOfType(entity,"trade_cart") then ModifyUnitSpeed(entity,0.08) end
+            end
+        end
+    end
+    if not any then Rule_Remove(saharan_trader_count_check);started=false end
+end
+function saharan_trader_start()
+    if started then return end
+    started=true
+    Rule_AddInterval(saharan_trader_count_check,30)
+end
+function BerberSaharanTrader_OnInit() end
+function BerberSaharanTrader_Start() end
+function BerberSaharanTrader_OnGameOver()
+    Rule_Remove(saharan_trader_count_check)
+    for id,record in pairs(applied) do
+        if valid(record.entity,id) then
+            if record.speed~=nil then Modifier_Remove(record.speed) end
+            if record.acceleration~=nil then Modifier_Remove(record.acceleration) end
+        end
+    end
+    applied={};started=false
+end

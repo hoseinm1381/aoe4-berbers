@@ -1,0 +1,19 @@
+{
+  "status": "package_verified",
+  "version": "0.8.0",
+  "sga_sha256": "48f09ed61020740932b0a653e165710fda49d25aa7739d05f6486b79dbe661bb",
+  "voices": "Unchanged 0.7.3 payloads and ownership states",
+  "audible_gameplay": "pending",
+  "packages": [
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\_archive_cleanup_smoke\\Berber-0.8.0-MAIN-GARRISON.zip",
+      "sha256": "97d846742b66cac7b6207615876f4b5e9590c8f35a6b12100650003c5fc93e2d",
+      "bytes": 189838948
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\_archive_cleanup_smoke\\Berber-0.8.0-VOICES-INSTALLER.zip",
+      "sha256": "02b278858d8d486a4565a3d960212828357f7ea5faf54c1dfe48cda6a8701520",
+      "bytes": 73651626
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<instance version="6" description="designed for small attack formations, prioritizes economy and production buildings that can be quickly set on fire" template="ai\ai_formation_coordinator">
+  <group name="ai_formation_coordinator">
+    <list name="combat_target_exclude_unit_types" overrideParent="True">
+      <enum name="unit_class" value="settlement" List.ItemID="-1042440349" />
+      <enum name="unit_class" value="animal_gatherable" List.ItemID="477211588" />
+      <enum name="unit_class" value="wall" List.ItemID="-1866755661" />
+      <enum name="unit_class" value="gate" List.ItemID="-954804401" />
+    </list>
+  </group>
+  <uniqueid name="pbgid" value="202536" />
+  <instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\campaign\ai_formation_coordinator_campaign_default_enroute" />
+  <variant name="xp3">
+    <group name="ai_formation_coordinator">
+      <list name="combat_target_exclude_unit_types" overrideParent="True">
+        <enum name="unit_class" value="settlement" List.ItemID="-1042440349" />
+        <enum name="unit_class" value="animal_gatherable" List.ItemID="477211588" />
+        <enum name="unit_class" value="wall" List.ItemID="-1866755661" />
+        <enum name="unit_class" value="gate" List.ItemID="-954804401" />
+      </list>
+    </group>
+    <uniqueid name="pbgid" value="202536" />
+    <instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\campaign\ai_formation_coordinator_campaign_default_enroute" />
+  </variant>
+  <variant name="cordoba">
+    <group name="ai_formation_coordinator">
+      <list name="combat_target_exclude_unit_types" overrideParent="True">
+        <enum name="unit_class" value="settlement" List.ItemID="-1042440349" />
+        <enum name="unit_class" value="animal_gatherable" List.ItemID="477211588" />
+        <enum name="unit_class" value="wall" List.ItemID="-1866755661" />
+        <enum name="unit_class" value="gate" List.ItemID="-954804401" />
+      </list>
+    </group>
+    <uniqueid name="pbgid" value="202536" />
+    <instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\campaign\ai_formation_coordinator_campaign_default_enroute" />
+  </variant>
+</instance>

@@ -1,0 +1,2 @@
+from pathlib import Path
+p=Path('art/buildings/university/build_university.py');s=p.read_text().replace("origin=o.matrix_world.inverted()@world;origin.y=-.8", "origin=Vector((-.8,0,z));direction=Vector((1,0,0))").replace("origin=Vector((cx,-4,z))", "origin=Vector((cx,-4,z));direction=Vector((0,1,0))").replace("tree.ray_cast(origin,Vector((0,1,0)),8)","tree.ray_cast(origin,direction,8)");p.write_text(s)

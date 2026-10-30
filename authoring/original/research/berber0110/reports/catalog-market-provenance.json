@@ -1,0 +1,37 @@
+{
+  "files": [
+    {
+      "path": "research\\berber0110\\reports\\catalog-market\\buy-stone.decoded.xml",
+      "bytes": 78560,
+      "sha256": "7a7a163ce24fd459c1931fb30608e29bd5bfed37c89d38ebb23724ad85ac0d20"
+    },
+    {
+      "path": "research\\berber0110\\reports\\catalog-market\\cardinalcommandbpdatabase.lua",
+      "bytes": 1080,
+      "sha256": "a2d0e03e33f0dd44d62835255b9bbdfa4885d7799d9be20879da70c3707274c3"
+    },
+    {
+      "path": "research\\berber0110\\reports\\catalog-market\\sell-stone.decoded.xml",
+      "bytes": 78566,
+      "sha256": "85546c2f619178f5b251915d26763cea88aebc1d73137c09f0663d4648d8cc91"
+    },
+    {
+      "path": "research\\berber0110\\reports\\catalog-market\\simulation-statetree.bin",
+      "bytes": 45493176,
+      "sha256": "fc5fa3a2d70cf91c84672f3f65d3af1648e1d657d391ffc81684a05c0533ec43"
+    },
+    {
+      "path": "research\\berber0110\\reports\\catalog-market\\attrib\\abilities\\timed_abilities\\civ_core\\core_market_buy_stone.rgd",
+      "bytes": 30452,
+      "sha256": "5233c7d1df990e80d04f4d3d2e1814c77ef6e352548415c1ec537b3b3075f2bf"
+    },
+    {
+      "path": "research\\berber0110\\reports\\catalog-market\\attrib\\abilities\\timed_abilities\\civ_core\\core_market_sell_stone.rgd",
+      "bytes": 30452,
+      "sha256": "4a830a4a0ed3fdb9b82bbf65b74e3a177e2bf52c55d6818fdc6b3585274c5f54"
+    }
+  ],
+  "official_attrib_sha256": "03b8e431c91920535fa65cdae340ee206f31bbdfbb1740feddb4a0430625a977",
+  "source_data_archive": "E:/Games/steamapps/common/Age of Empires IV/cardinal/archives/Data.sga",
+  "simulation_member": "statetrees/simulation/statetree.bin"
+}

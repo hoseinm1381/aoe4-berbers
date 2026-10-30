@@ -1,0 +1,90 @@
+<instance version="6" description="" template="ai\ai_entity">
+  <uniqueid name="pbgid" value="180423" />
+  <group name="ai_entity_bag">
+    <list name="applicable_blueprints" comment="Everything except gers, pastures, and ovoos">
+      <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_town_center_capital_mon" List.ItemID="397965097" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_town_center_mon" List.ItemID="-1671534181" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_tech_unit_ranged_mon" List.ItemID="-489728682" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_tech_unit_infantry_mon" List.ItemID="-2000765141" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_unit_cavalry_mon" List.ItemID="-50405534" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_unit_siege_mon" List.ItemID="-2109284155" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_unit_ranged_mon" List.ItemID="-222713067" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_unit_infantry_mon" List.ItemID="1433206383" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_unit_religious_mon" List.ItemID="664120860" />
+    </list>
+    <group name="construction">
+      <string name="placement_function" value="" />
+      <bool name="can_build_multiple_in_parallel" value="False" />
+      <int name="max_num_additional_builders" value="4" />
+      <int name="max_num_incomplete_structures_builders" value="-1" />
+      <list name="near_to_structures">
+        <instance_reference name="structure" value="ebps\races\mongol\buildings\building_stone_deposit_ovoo_mon" List.ItemID="-1204960797" />
+        <instance_reference name="structure" value="ebps\races\mongol\buildings\building_stone_deposit_ovoo_large_mon" List.ItemID="23279740" />
+      </list>
+      <list name="requires_structures">
+      </list>
+      <list name="near_structures_with_capability">
+      </list>
+    </group>
+  </group>
+  <variant name="xp3">
+    <uniqueid name="pbgid" value="180423" />
+    <group name="ai_entity_bag">
+      <list name="applicable_blueprints" comment="Everything except gers, pastures, and ovoos">
+        <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_town_center_capital_mon" List.ItemID="397965097" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_town_center_mon" List.ItemID="-1671534181" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_tech_unit_ranged_mon" List.ItemID="-489728682" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_tech_unit_infantry_mon" List.ItemID="-2000765141" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_unit_cavalry_mon" List.ItemID="-50405534" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_unit_siege_mon" List.ItemID="-2109284155" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_unit_ranged_mon" List.ItemID="-222713067" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_unit_infantry_mon" List.ItemID="1433206383" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_unit_religious_mon" List.ItemID="664120860" />
+      </list>
+      <group name="construction">
+        <string name="placement_function" value="" />
+        <bool name="can_build_multiple_in_parallel" value="False" />
+        <int name="max_num_additional_builders" value="4" />
+        <int name="max_num_incomplete_structures_builders" value="-1" />
+        <list name="near_to_structures">
+          <instance_reference name="structure" value="ebps\races\mongol\buildings\building_stone_deposit_ovoo_mon" List.ItemID="-1204960797" />
+          <instance_reference name="structure" value="ebps\races\mongol\buildings\building_stone_deposit_ovoo_large_mon" List.ItemID="23279740" />
+        </list>
+        <list name="requires_structures">
+        </list>
+        <list name="near_structures_with_capability">
+        </list>
+      </group>
+    </group>
+  </variant>
+  <variant name="cordoba">
+    <uniqueid name="pbgid" value="180423" />
+    <group name="ai_entity_bag">
+      <list name="applicable_blueprints" comment="Everything except gers, pastures, and ovoos">
+        <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_town_center_capital_mon" List.ItemID="397965097" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_town_center_mon" List.ItemID="-1671534181" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_tech_unit_ranged_mon" List.ItemID="-489728682" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_tech_unit_infantry_mon" List.ItemID="-2000765141" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_unit_cavalry_mon" List.ItemID="-50405534" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_unit_siege_mon" List.ItemID="-2109284155" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_unit_ranged_mon" List.ItemID="-222713067" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_unit_infantry_mon" List.ItemID="1433206383" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\mongol\buildings\building_unit_religious_mon" List.ItemID="664120860" />
+      </list>
+      <group name="construction">
+        <string name="placement_function" value="" />
+        <bool name="can_build_multiple_in_parallel" value="False" />
+        <int name="max_num_additional_builders" value="4" />
+        <int name="max_num_incomplete_structures_builders" value="-1" />
+        <list name="near_to_structures">
+          <instance_reference name="structure" value="ebps\races\mongol\buildings\building_stone_deposit_ovoo_mon" List.ItemID="-1204960797" />
+          <instance_reference name="structure" value="ebps\races\mongol\buildings\building_stone_deposit_ovoo_large_mon" List.ItemID="23279740" />
+        </list>
+        <list name="requires_structures">
+        </list>
+        <list name="near_structures_with_capability">
+        </list>
+      </group>
+    </group>
+  </variant>
+</instance>

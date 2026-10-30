@@ -1,0 +1,38 @@
+{
+  "key": "outpost",
+  "minimum_age": 1,
+  "required_ages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "current_entity": "assets/attrib/instances/ebps/races/malian/buildings/building_defense_outpost_mal.xml",
+  "villager_command": "assets/attrib/instances/sbps/races/malian/berbers/unit_villager_1_mal.xml:179",
+  "minimum_age_evidence": "current requirement_ext lines538-606 has only bedrock_foundations special-mode cap, no age upgrade; installed official core.xml default requirement_ext1550-1614 confirms; dark_age tier core.xml393",
+  "footprint_m": [
+    4,
+    4
+  ],
+  "footprint_evidence": "current XML364-368 footprint_scale x4 y4 forced axis aligned; core.xml106-110 matches",
+  "render_bounds_used_as_footprint": false,
+  "upgrades": {
+    "arrowslits": {
+      "age": 2,
+      "evidence": "arrowslits.xml required_player_upgrade69-86 feudal_age"
+    },
+    "stone": {
+      "age": 2,
+      "evidence": "stone.xml72-89 feudal_age"
+    },
+    "springald": {
+      "age": 3,
+      "evidence": "springald.xml72-89 castle_age"
+    },
+    "cannon": {
+      "age": 4,
+      "evidence": "cannon.xml72-89 imperial_age"
+    }
+  },
+  "retained_gameplay": "No production XML edits; existing upgrade research, attack/garrison weapon entities and marker names retained as downstream binding inputs"
+}

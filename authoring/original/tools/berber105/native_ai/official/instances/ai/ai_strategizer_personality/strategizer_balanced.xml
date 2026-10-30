@@ -1,0 +1,21 @@
+<instance version="6" description="Base tunings for offensive strategy AI" template="ai\ai_strategizer_personality">
+  <group name="ai_strategizer_personality_bag">
+    <list name="base_intention_tunings">
+    </list>
+  </group>
+  <uniqueid name="pbgid" value="1455982" />
+  <variant name="xp3">
+    <group name="ai_strategizer_personality_bag">
+      <list name="base_intention_tunings">
+      </list>
+    </group>
+    <uniqueid name="pbgid" value="1455982" />
+  </variant>
+  <variant name="cordoba">
+    <group name="ai_strategizer_personality_bag">
+      <list name="base_intention_tunings">
+      </list>
+    </group>
+    <uniqueid name="pbgid" value="1455982" />
+  </variant>
+</instance>

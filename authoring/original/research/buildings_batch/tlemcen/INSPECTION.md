@@ -1,0 +1,11 @@
+# Saved-source inspection
+
+Inspected final Age III and IV preview images, interior cutaways and the 16-image contact sheet (preview, front, back, left, right, top, bottom and interior per age). The repeated prayer-hall bays, genuine courtyard void, hollow side galleries, tall square minaret, blind mihrab and small roof cupola remain coherent. Bottom shows the grounded single foundation. Roof contact faults found in the first preview were corrected: coplanar hall/gallery overlap removed, and gallery fronts extended to the enclosure front face. Saved audit measures both interfaces to below 0.000001 m signed gap. Each intended painted owner stripe is neutral in the source preview.
+
+The saved geometry was reopened after repair and freshly checked: III has 71 mesh objects / 8,248 triangles; IV has 86 / 8,428. Each age passes 34 measured structural contacts, 94 wall through-opening guards and a separate courtyard vertical-clearance ray. Meshes have finite coordinates, positive transforms and positive signed closed volumes, with no non-manifold edges or degenerate faces. Atlas triangles have positive UV area. Source mesh envelope is 7.7×7.7 m at ground Z=0, inside the actual audited 8×8 gameplay placement footprint. Native 150% animator scaling remains a separate explicit integration gate.
+
+Both saved Blend files contain five packed texture images. Pattern sampling matches ber_owner_mask for all 144 owner UV corner samples per age and all neutral samples, with zero incorrect samples; G/B remain zero. Every authored object carries an explicit first-construction-stage property, and FBX files were freshly exported after repair. The interior cutaway hides roofs only in the evidence render, while saved sources retain all meshes visible.
+
+Untouched installed Malian landmark_2a decoded geometry was inspected separately in stock_reference_geometry.png. It is an exact inherited donor reference, retaining all decoded groups; it is not a reconstructed stock material/render, and its bounds do not establish footprint. No donor mesh was reused.
+
+These are source and preview checks only. No Garrison cook or native match was run; native owner colour, construction stages/age selectors, anchor mapping, LODs and damage remain pending.

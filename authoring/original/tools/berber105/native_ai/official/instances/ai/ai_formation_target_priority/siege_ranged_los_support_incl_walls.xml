@@ -1,0 +1,126 @@
+<instance version="6" description="Designed for ranged siege weapons that are targeting anything around them while a siege ram is being built " template="ai\ai_formation_target_priority">
+  <group name="ai_formation_target_priority">
+    <float name="target_check_interval_seconds" value="3" />
+    <list name="formation_priority_options">
+      <template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-1671071808">
+        <float name="time_to_kill_scale" value="-1" />
+        <float name="time_to_target_scale" value="-5" />
+        <float name="already_assigned_scale" value="-1" />
+        <float name="can_move_scale" value="0" />
+        <float name="movement_speed_scale" value="0" />
+        <float name="critical_target_scale" value="0" />
+        <float name="current_target_scale" value="10" />
+        <template_reference name="unit_type_scores" value="options\ai\encounters\unit_type_scores">
+          <list name="unit_type_scores">
+            <group name="unit_type_score" List.ItemID="-905112633">
+              <enum name="unit_type" value="stone_wall" />
+              <float name="score" value="1" />
+            </group>
+            <group name="unit_type_score" List.ItemID="-1607279165">
+              <enum name="unit_type" value="stone_gate" />
+              <float name="score" value="5" />
+            </group>
+            <group name="unit_type_score" List.ItemID="-284291817">
+              <enum name="unit_type" value="stone_wall_tower" />
+              <float name="score" value="10" />
+            </group>
+            <group name="unit_type_score" List.ItemID="718459240">
+              <enum name="unit_type" value="ranged" />
+              <float name="score" value="15" />
+            </group>
+          </list>
+        </template_reference>
+        <bool name="exclude_no_los" value="True" />
+        <float name="can_shoot_at_scale" value="5" comment="prefers target that the ranged siege attackers can already shoot at, to minimize teardown/setting up." />
+        <bool name="always_consider_non_combat_targets" value="False" />
+      </template_reference>
+    </list>
+    <list name="exclude_unit_types">
+    </list>
+  </group>
+  <uniqueid name="pbgid" value="2058275" />
+  <variant name="xp3">
+    <group name="ai_formation_target_priority">
+      <float name="target_check_interval_seconds" value="3" />
+      <list name="formation_priority_options">
+        <template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-1671071808">
+          <float name="time_to_kill_scale" value="-1" />
+          <float name="time_to_target_scale" value="-5" />
+          <float name="already_assigned_scale" value="-1" />
+          <float name="can_move_scale" value="0" />
+          <float name="movement_speed_scale" value="0" />
+          <float name="critical_target_scale" value="0" />
+          <float name="current_target_scale" value="10" />
+          <template_reference name="unit_type_scores" value="options\ai\encounters\unit_type_scores">
+            <list name="unit_type_scores">
+              <group name="unit_type_score" List.ItemID="-905112633">
+                <enum name="unit_type" value="stone_wall" />
+                <float name="score" value="1" />
+              </group>
+              <group name="unit_type_score" List.ItemID="-1607279165">
+                <enum name="unit_type" value="stone_gate" />
+                <float name="score" value="5" />
+              </group>
+              <group name="unit_type_score" List.ItemID="-284291817">
+                <enum name="unit_type" value="stone_wall_tower" />
+                <float name="score" value="10" />
+              </group>
+              <group name="unit_type_score" List.ItemID="718459240">
+                <enum name="unit_type" value="ranged" />
+                <float name="score" value="15" />
+              </group>
+            </list>
+          </template_reference>
+          <bool name="exclude_no_los" value="True" />
+          <float name="can_shoot_at_scale" value="5" comment="prefers target that the ranged siege attackers can already shoot at, to minimize teardown/setting up." />
+          <bool name="always_consider_non_combat_targets" value="False" />
+        </template_reference>
+      </list>
+      <list name="exclude_unit_types">
+      </list>
+    </group>
+    <uniqueid name="pbgid" value="2058275" />
+  </variant>
+  <variant name="cordoba">
+    <group name="ai_formation_target_priority">
+      <float name="target_check_interval_seconds" value="3" />
+      <list name="formation_priority_options">
+        <template_reference name="formation_priority_option" value="options\ai\encounters\formation_target_scorer_option" List.ItemID="-1671071808">
+          <float name="time_to_kill_scale" value="-1" />
+          <float name="time_to_target_scale" value="-5" />
+          <float name="already_assigned_scale" value="-1" />
+          <float name="can_move_scale" value="0" />
+          <float name="movement_speed_scale" value="0" />
+          <float name="critical_target_scale" value="0" />
+          <float name="current_target_scale" value="10" />
+          <template_reference name="unit_type_scores" value="options\ai\encounters\unit_type_scores">
+            <list name="unit_type_scores">
+              <group name="unit_type_score" List.ItemID="-905112633">
+                <enum name="unit_type" value="stone_wall" />
+                <float name="score" value="1" />
+              </group>
+              <group name="unit_type_score" List.ItemID="-1607279165">
+                <enum name="unit_type" value="stone_gate" />
+                <float name="score" value="5" />
+              </group>
+              <group name="unit_type_score" List.ItemID="-284291817">
+                <enum name="unit_type" value="stone_wall_tower" />
+                <float name="score" value="10" />
+              </group>
+              <group name="unit_type_score" List.ItemID="718459240">
+                <enum name="unit_type" value="ranged" />
+                <float name="score" value="15" />
+              </group>
+            </list>
+          </template_reference>
+          <bool name="exclude_no_los" value="True" />
+          <float name="can_shoot_at_scale" value="5" comment="prefers target that the ranged siege attackers can already shoot at, to minimize teardown/setting up." />
+          <bool name="always_consider_non_combat_targets" value="False" />
+        </template_reference>
+      </list>
+      <list name="exclude_unit_types">
+      </list>
+    </group>
+    <uniqueid name="pbgid" value="2058275" />
+  </variant>
+</instance>

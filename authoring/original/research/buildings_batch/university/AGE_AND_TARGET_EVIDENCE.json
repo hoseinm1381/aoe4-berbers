@@ -1,0 +1,20 @@
+{
+  "key": "university",
+  "minimum_age": 4,
+  "required_ages": [
+    4
+  ],
+  "current_entity": "assets/attrib/instances/ebps/races/malian/buildings/building_tech_university_mal.xml",
+  "current_parent_evidence": "current XML line115 -> ebps/races/core/buildings/building_tech_university",
+  "villager_build_command_evidence": "assets/attrib/instances/sbps/races/malian/berbers/unit_villager_1_mal.xml:1632",
+  "official_requirement": "core.xml:813-833 required_player_upgrade imperial_age include_completed true min_completed1 is_present true",
+  "footprint_m": [
+    8,
+    8
+  ],
+  "footprint_evidence": "core.xml:86-105 site_ext footprint_scale x8 y8 forced_axis_aligned true",
+  "render_bounds_used_as_footprint": false,
+  "live_tier_state": "tier4_tech_university_control_mal; no pre-Imperial variant required",
+  "donor": "Abbasid Age IV university control, decoded untouched reference",
+  "authoring_policy": "New geometry replaces donor silhouette while preserving centered ground origin and fitting verified 8m footprint. Native attachment/anchor and construction material integration pending."
+}

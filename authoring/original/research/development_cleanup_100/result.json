@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "scope_file_bytes_before": 31874344138,
+  "scope_file_bytes_after": 26535139710,
+  "net_bytes_reclaimed": 5339204428,
+  "net_bytes_reclaimed_by_drive": {
+    "E:": 823409244,
+    "F:": 4515795184
+  },
+  "files_after": 101052,
+  "files_removed": 6207,
+  "gross_file_bytes_removed": 6393726091,
+  "lossless_bundle_bytes": 1025090225,
+  "bundle_original_paths": 6089,
+  "unique_source_blobs": 1999,
+  "protected_inputs_rehashed": 101012,
+  "selected_checkpoints": 5,
+  "native_sgas_passed": 22,
+  "historical_probe_exceptions": 1,
+  "tests_passed": 185,
+  "outside_files_deleted": 0,
+  "git": "unchanged",
+  "accounting": "Physical-path file lengths, E and F counted once, Git excluded. New bundles, scripts, documentation and cleanup evidence included in after total. Not a system free-space delta; filesystem allocation can differ."
+}

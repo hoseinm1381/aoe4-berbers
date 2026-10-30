@@ -1,0 +1,1146 @@
+{
+  "music_silence": {
+    "status": "ok",
+    "symbol": "Sound_SetForceSilence",
+    "symbol_status": "documented_high",
+    "api": [
+      {
+        "name": "Sound_SetForceSilence",
+        "return_type": "",
+        "params": "Boolean value",
+        "returns_doc": "",
+        "description": "tells the music system if it should be trying to enter/stay in the silent state",
+        "confidence": "high",
+        "source_set": "official_api",
+        "usage_count": 11,
+        "usage_sources": "official_scar:11",
+        "file_path": "official_api/Essence_ScarFunctions.api",
+        "line_no": 1500,
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "api",
+          "overall": {
+            "level": "high",
+            "score": 0.987,
+            "reason": "source=high; match=exact:name; api=high"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.98,
+            "source_set": "official_api",
+            "reason": "官方 API 文档 / official API docs"
+          },
+          "match": {
+            "level": "high",
+            "score": 1,
+            "reason": "exact:name"
+          },
+          "api_documentation": {
+            "level": "high",
+            "score": 0.96
+          }
+        }
+      }
+    ],
+    "usage_samples": [],
+    "confidence_summary": {
+      "best_level": "high",
+      "best_score": 0.987,
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "confidence_model": "source_match_v1",
+    "codex_hint": "Prefer this tool when you need both API docs and usage examples; it avoids multiple MCP round trips."
+  },
+  "music_silence_official_usage": {
+    "status": "ok",
+    "symbol": "Sound_SetForceSilence",
+    "source": "official_scar",
+    "matches": [
+      {
+        "symbol": "Sound_SetForceSilence",
+        "symbol_kind": "call",
+        "source_set": "official_scar",
+        "file_path": "official_scar/core.scar",
+        "module_path": "core.scar",
+        "line_no": 208,
+        "detail": "",
+        "snippet": "Timer_PauseAllTimers()\n\tSound_SetForceSilence(true)",
+        "confidence": "high",
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "usage",
+          "overall": {
+            "level": "high",
+            "score": 0.972,
+            "reason": "source=high; match=exact:symbol"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.95,
+            "source_set": "official_scar",
+            "reason": "官方 SCAR 代码 / official SCAR source"
+          },
+          "match": {
+            "level": "high",
+            "score": 1,
+            "reason": "exact:symbol"
+          },
+          "api_documentation": null
+        }
+      },
+      {
+        "symbol": "Sound_SetForceSilence",
+        "symbol_kind": "call",
+        "source_set": "official_scar",
+        "file_path": "official_scar/core.scar",
+        "module_path": "core.scar",
+        "line_no": 225,
+        "detail": "",
+        "snippet": "Sound_SetForceSilence(false)\n\tTimer_ResumeAllTimers()",
+        "confidence": "high",
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "usage",
+          "overall": {
+            "level": "high",
+            "score": 0.972,
+            "reason": "source=high; match=exact:symbol"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.95,
+            "source_set": "official_scar",
+            "reason": "官方 SCAR 代码 / official SCAR source"
+          },
+          "match": {
+            "level": "high",
+            "score": 1,
+            "reason": "exact:symbol"
+          },
+          "api_documentation": null
+        }
+      },
+      {
+        "symbol": "Sound_SetForceSilence",
+        "symbol_kind": "call",
+        "source_set": "official_scar",
+        "file_path": "official_scar/music.scar",
+        "module_path": "music.scar",
+        "line_no": 94,
+        "detail": "",
+        "snippet": "if _musicCurrentIntensityString == MUSIC_SILENT then\n\t\tSound_SetForceSilence(false)\n\t\tSound_SetForceMusic(true)",
+        "confidence": "high",
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "usage",
+          "overall": {
+            "level": "high",
+            "score": 0.972,
+            "reason": "source=high; match=exact:symbol"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.95,
+            "source_set": "official_scar",
+            "reason": "官方 SCAR 代码 / official SCAR source"
+          },
+          "match": {
+            "level": "high",
+            "score": 1,
+            "reason": "exact:symbol"
+          },
+          "api_documentation": null
+        }
+      },
+      {
+        "symbol": "Sound_SetForceSilence",
+        "symbol_kind": "call",
+        "source_set": "official_scar",
+        "file_path": "official_scar/music.scar",
+        "module_path": "music.scar",
+        "line_no": 106,
+        "detail": "",
+        "snippet": "Sound_Play2D(intensityString)\n\t\t\tSound_SetForceSilence(false)\n\t\tend",
+        "confidence": "high",
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "usage",
+          "overall": {
+            "level": "high",
+            "score": 0.972,
+            "reason": "source=high; match=exact:symbol"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.95,
+            "source_set": "official_scar",
+            "reason": "官方 SCAR 代码 / official SCAR source"
+          },
+          "match": {
+            "level": "high",
+            "score": 1,
+            "reason": "exact:symbol"
+          },
+          "api_documentation": null
+        }
+      }
+    ],
+    "confidence_model": "source_match_v1"
+  },
+  "music_stop": {
+    "status": "ok",
+    "symbol": "Sound_MusicStop",
+    "symbol_status": "documented_high",
+    "api": [
+      {
+        "name": "Sound_MusicStop",
+        "return_type": "",
+        "params": "",
+        "returns_doc": "",
+        "description": "stops the music immediately and go into silence.",
+        "confidence": "high",
+        "source_set": "official_api",
+        "usage_count": 2,
+        "usage_sources": "official_scar:2",
+        "file_path": "official_api/Essence_ScarFunctions.api",
+        "line_no": 1493,
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "api",
+          "overall": {
+            "level": "high",
+            "score": 0.987,
+            "reason": "source=high; match=exact:name; api=high"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.98,
+            "source_set": "official_api",
+            "reason": "官方 API 文档 / official API docs"
+          },
+          "match": {
+            "level": "high",
+            "score": 1,
+            "reason": "exact:name"
+          },
+          "api_documentation": {
+            "level": "high",
+            "score": 0.96
+          }
+        }
+      }
+    ],
+    "usage_samples": [],
+    "confidence_summary": {
+      "best_level": "high",
+      "best_score": 0.987,
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "confidence_model": "source_match_v1",
+    "codex_hint": "Prefer this tool when you need both API docs and usage examples; it avoids multiple MCP round trips."
+  },
+  "native_civ_collection": {
+    "status": "ok",
+    "query": "AvailableConcreteOrRandomRaces",
+    "scan": null,
+    "ui_records": [
+      {
+        "symbol": "AvailableConcreteOrRandomRaces",
+        "symbol_kind": "ui_binding",
+        "source_set": "official_ui",
+        "file_path": "official_ui/lobby/pages/xboxcreatecustomskirmishpage.xaml",
+        "module_path": "xboxcreatecustomskirmishpage.xaml",
+        "line_no": 2201,
+        "detail": "Binding",
+        "snippet": "IsEnabled=\"{Binding CanChangeRace}\"\n                                                          ItemsSource=\"{Binding AvailableConcreteOrRandomRaces}\"\n                                                          MaxDropDownHeight=\"{wm:UserDIP 400}\"",
+        "confidence": "high",
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "ui_trace",
+          "overall": {
+            "level": "high",
+            "score": 0.956,
+            "reason": "source=high; match=exact:symbol"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.92,
+            "source_set": "official_ui",
+            "reason": "官方 UI 资源 / official UI source"
+          },
+          "match": {
+            "level": "high",
+            "score": 1,
+            "reason": "exact:symbol"
+          },
+          "api_documentation": null
+        }
+      },
+      {
+        "symbol": "AvailableConcreteOrRandomRaces",
+        "symbol_kind": "ui_binding",
+        "source_set": "official_ui",
+        "file_path": "official_ui/lobby/semimodalpages/createcustommatchsemimodalpage.xaml",
+        "module_path": "createcustommatchsemimodalpage.xaml",
+        "line_no": 2211,
+        "detail": "Binding",
+        "snippet": "IsEnabled=\"{Binding CanChangeRace}\"\n                                                                  ItemsSource=\"{Binding AvailableConcreteOrRandomRaces}\"\n                                                                  MaxDropDownHeight=\"{wm:UserDIP 450}\"",
+        "confidence": "high",
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "ui_trace",
+          "overall": {
+            "level": "high",
+            "score": 0.956,
+            "reason": "source=high; match=exact:symbol"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.92,
+            "source_set": "official_ui",
+            "reason": "官方 UI 资源 / official UI source"
+          },
+          "match": {
+            "level": "high",
+            "score": 1,
+            "reason": "exact:symbol"
+          },
+          "api_documentation": null
+        }
+      },
+      {
+        "symbol": "CanChangeRace",
+        "symbol_kind": "ui_binding",
+        "source_set": "official_ui",
+        "file_path": "official_ui/lobby/pages/xboxcreatecustomskirmishpage.xaml",
+        "module_path": "xboxcreatecustomskirmishpage.xaml",
+        "line_no": 2200,
+        "detail": "Binding",
+        "snippet": "AutomationProperties.Name=\"{esUtility:LocString $11193310}\"\n                                                          IsEnabled=\"{Binding CanChangeRace}\"\n                                                          ItemsSource=\"{Binding AvailableConcreteOrRandomRaces}\"",
+        "confidence": "high",
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "ui_trace",
+          "overall": {
+            "level": "high",
+            "score": 0.848,
+            "reason": "source=high; match=contains:snippet"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.92,
+            "source_set": "official_ui",
+            "reason": "官方 UI 资源 / official UI source"
+          },
+          "match": {
+            "level": "medium",
+            "score": 0.76,
+            "reason": "contains:snippet"
+          },
+          "api_documentation": null
+        }
+      },
+      {
+        "symbol": "CanChangeRace",
+        "symbol_kind": "ui_binding",
+        "source_set": "official_ui",
+        "file_path": "official_ui/lobby/semimodalpages/createcustommatchsemimodalpage.xaml",
+        "module_path": "createcustommatchsemimodalpage.xaml",
+        "line_no": 2210,
+        "detail": "Binding",
+        "snippet": "AutomationProperties.Name=\"{esUtility:LocString $11193310}\"\n                                                                  IsEnabled=\"{Binding CanChangeRace}\"\n                                                                  ItemsSource=\"{Binding AvailableConcreteOrRandomRaces}\"",
+        "confidence": "high",
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "ui_trace",
+          "overall": {
+            "level": "high",
+            "score": 0.848,
+            "reason": "source=high; match=contains:snippet"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.92,
+            "source_set": "official_ui",
+            "reason": "官方 UI 资源 / official UI source"
+          },
+          "match": {
+            "level": "medium",
+            "score": 0.76,
+            "reason": "contains:snippet"
+          },
+          "api_documentation": null
+        }
+      }
+    ],
+    "scar_records": [
+      {
+        "symbol": "UI_CreateCommand",
+        "symbol_kind": "call",
+        "source_set": "project",
+        "file_path": "E:\\age of empires 4 mods\\Empire_Royale\\archives\\before_tournament_20261002\\assets\\scar\\winconditions\\royal\\royal_ui_deck.scar",
+        "module_path": "archives/before_tournament_20261002/assets/scar/winconditions/royal/royal_ui_deck.scar",
+        "line_no": 888,
+        "detail": "",
+        "snippet": "function Royal_UI_DraftInit()\n\tlocal select_cmd = UI_CreateCommand(\"Royal_UI_DraftSelectCard\")\n\tg_royal_draft_data.commands = {",
+        "confidence": "medium",
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "ui_scar_trace",
+          "overall": {
+            "level": "medium",
+            "score": 0.652,
+            "reason": "source=high; match=no_direct_text_match"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.9,
+            "source_set": "project",
+            "reason": "当前项目扫描结果 / scanned project source"
+          },
+          "match": {
+            "level": "low",
+            "score": 0.35,
+            "reason": "no_direct_text_match"
+          },
+          "api_documentation": null
+        }
+      },
+      {
+        "symbol": "UI_CreateCommand",
+        "symbol_kind": "call",
+        "source_set": "project",
+        "file_path": "E:\\age of empires 4 mods\\Empire_Royale\\archives\\before_tournament_20261002\\assets\\scar\\winconditions\\royal\\royal_ui_deck.scar",
+        "module_path": "archives/before_tournament_20261002/assets/scar/winconditions/royal/royal_ui_deck.scar",
+        "line_no": 891,
+        "detail": "",
+        "snippet": "selectCard = select_cmd,\n\t\tdeselectCard = UI_CreateCommand(\"Royal_UI_DraftDeselectCard\"),\n\t\tlockIn = UI_CreateCommand(\"Royal_UI_DraftLockIn\"),",
+        "confidence": "medium",
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "ui_scar_trace",
+          "overall": {
+            "level": "medium",
+            "score": 0.652,
+            "reason": "source=high; match=no_direct_text_match"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.9,
+            "source_set": "project",
+            "reason": "当前项目扫描结果 / scanned project source"
+          },
+          "match": {
+            "level": "low",
+            "score": 0.35,
+            "reason": "no_direct_text_match"
+          },
+          "api_documentation": null
+        }
+      },
+      {
+        "symbol": "UI_SetDataContext",
+        "symbol_kind": "call",
+        "source_set": "project",
+        "file_path": "E:\\age of empires 4 mods\\Empire_Royale\\archives\\before_tournament_20261002\\assets\\scar\\winconditions\\royal\\royal_core.scar",
+        "module_path": "archives/before_tournament_20261002/assets/scar/winconditions/royal/royal_core.scar",
+        "line_no": 153,
+        "detail": "",
+        "snippet": "g_royal_draft_data.timerText = string.format(\"%ds\", math.max(0, g_royal_core.draftCountdown))\n\tUI_SetDataContext(\"RoyalDraftUI\", g_royal_draft_data)",
+        "confidence": "medium",
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "ui_scar_trace",
+          "overall": {
+            "level": "medium",
+            "score": 0.652,
+            "reason": "source=high; match=no_direct_text_match"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.9,
+            "source_set": "project",
+            "reason": "当前项目扫描结果 / scanned project source"
+          },
+          "match": {
+            "level": "low",
+            "score": 0.35,
+            "reason": "no_direct_text_match"
+          },
+          "api_documentation": null
+        }
+      },
+      {
+        "symbol": "UI_SetDataContext",
+        "symbol_kind": "call",
+        "source_set": "project",
+        "file_path": "E:\\age of empires 4 mods\\Empire_Royale\\archives\\before_tournament_20261002\\assets\\scar\\winconditions\\royal\\royal_core.scar",
+        "module_path": "archives/before_tournament_20261002/assets/scar/winconditions/royal/royal_core.scar",
+        "line_no": 177,
+        "detail": "",
+        "snippet": "g_royal_draft_data.isVisible = false\n\tUI_SetDataContext(\"RoyalDraftUI\", g_royal_draft_data)",
+        "confidence": "medium",
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "ui_scar_trace",
+          "overall": {
+            "level": "medium",
+            "score": 0.652,
+            "reason": "source=high; match=no_direct_text_match"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.9,
+            "source_set": "project",
+            "reason": "当前项目扫描结果 / scanned project source"
+          },
+          "match": {
+            "level": "low",
+            "score": 0.35,
+            "reason": "no_direct_text_match"
+          },
+          "api_documentation": null
+        }
+      },
+      {
+        "symbol": "UI_SetDataContext",
+        "symbol_kind": "call",
+        "source_set": "project",
+        "file_path": "E:\\age of empires 4 mods\\Empire_Royale\\archives\\before_tournament_20261002\\assets\\scar\\winconditions\\royal\\royal_ui_deck.scar",
+        "module_path": "archives/before_tournament_20261002/assets/scar/winconditions/royal/royal_ui_deck.scar",
+        "line_no": 857,
+        "detail": "",
+        "snippet": "if _draft_ui_created then\n\t\tUI_SetDataContext(\"RoyalDraftUI\", g_royal_draft_data)\n\tend",
+        "confidence": "medium",
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "ui_scar_trace",
+          "overall": {
+            "level": "medium",
+            "score": 0.652,
+            "reason": "source=high; match=no_direct_text_match"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.9,
+            "source_set": "project",
+            "reason": "当前项目扫描结果 / scanned project source"
+          },
+          "match": {
+            "level": "low",
+            "score": 0.35,
+            "reason": "no_direct_text_match"
+          },
+          "api_documentation": null
+        }
+      },
+      {
+        "symbol": "UI_SetDataContext",
+        "symbol_kind": "call",
+        "source_set": "project",
+        "file_path": "E:\\age of empires 4 mods\\Empire_Royale\\archives\\before_tournament_20261002\\assets\\scar\\winconditions\\royal\\royal_ui_deck.scar",
+        "module_path": "archives/before_tournament_20261002/assets/scar/winconditions/royal/royal_ui_deck.scar",
+        "line_no": 883,
+        "detail": "",
+        "snippet": "if _draft_ui_created then\n\t\tUI_SetDataContext(\"RoyalDraftUI\", g_royal_draft_data)\n\tend",
+        "confidence": "medium",
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "ui_scar_trace",
+          "overall": {
+            "level": "medium",
+            "score": 0.652,
+            "reason": "source=high; match=no_direct_text_match"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.9,
+            "source_set": "project",
+            "reason": "当前项目扫描结果 / scanned project source"
+          },
+          "match": {
+            "level": "low",
+            "score": 0.35,
+            "reason": "no_direct_text_match"
+          },
+          "api_documentation": null
+        }
+      }
+    ],
+    "confidence_summary": {
+      "best_level": "high",
+      "best_score": 0.956,
+      "high": 4,
+      "medium": 6,
+      "low": 0
+    },
+    "confidence_model": "source_match_v1",
+    "codex_hint": "先看 project 记录确定本模组挂接点；没有项目记录时再参考 official_ui/official_scar 的模式。"
+  },
+  "race_api": {
+    "status": "ok",
+    "query": "Race",
+    "matches": [
+      {
+        "name": "BP_GetEntityTypeExtRaceBlueprintAtIndex",
+        "return_type": "",
+        "params": "String pbgShortname, Integer index",
+        "returns_doc": "",
+        "description": "Returns race blueprint associated with an entity blueprint type_ext at specified index.",
+        "confidence": "high",
+        "source_set": "official_api",
+        "usage_count": 6,
+        "usage_sources": "official_scar:6",
+        "file_path": "official_api/Essence_ScarFunctions.api",
+        "line_no": 448,
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "api",
+          "overall": {
+            "level": "high",
+            "score": 0.879,
+            "reason": "source=high; match=contains:name; api=high"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.98,
+            "source_set": "official_api",
+            "reason": "官方 API 文档 / official API docs"
+          },
+          "match": {
+            "level": "medium",
+            "score": 0.76,
+            "reason": "contains:name"
+          },
+          "api_documentation": {
+            "level": "high",
+            "score": 0.96
+          }
+        }
+      },
+      {
+        "name": "BP_GetEntityTypeExtRaceCount",
+        "return_type": "",
+        "params": "String pbgShortname",
+        "returns_doc": "",
+        "description": "Returns the number of race blueprints associated with an entity blueprint type_ext.",
+        "confidence": "high",
+        "source_set": "official_api",
+        "usage_count": 6,
+        "usage_sources": "official_scar:6",
+        "file_path": "official_api/Essence_ScarFunctions.api",
+        "line_no": 449,
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "api",
+          "overall": {
+            "level": "high",
+            "score": 0.879,
+            "reason": "source=high; match=contains:name; api=high"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.98,
+            "source_set": "official_api",
+            "reason": "官方 API 文档 / official API docs"
+          },
+          "match": {
+            "level": "medium",
+            "score": 0.76,
+            "reason": "contains:name"
+          },
+          "api_documentation": {
+            "level": "high",
+            "score": 0.96
+          }
+        }
+      },
+      {
+        "name": "BP_GetSquadArchetypeBlueprintForPlayer",
+        "return_type": "",
+        "params": "Player& player, FamilyIndex index",
+        "returns_doc": "",
+        "description": "Returns a squad blueprint of type BLUEPRINT_ARCHETYPE index for the associated race of the player.",
+        "confidence": "high",
+        "source_set": "official_api",
+        "usage_count": 2,
+        "usage_sources": "official_scar:2",
+        "file_path": "official_api/Essence_ScarFunctions.api",
+        "line_no": 465,
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "api",
+          "overall": {
+            "level": "high",
+            "score": 0.879,
+            "reason": "source=high; match=contains:description; api=high"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.98,
+            "source_set": "official_api",
+            "reason": "官方 API 文档 / official API docs"
+          },
+          "match": {
+            "level": "medium",
+            "score": 0.76,
+            "reason": "contains:description"
+          },
+          "api_documentation": {
+            "level": "high",
+            "score": 0.96
+          }
+        }
+      },
+      {
+        "name": "BP_GetSquadTypeExtRaceBlueprintAtIndex",
+        "return_type": "",
+        "params": "String pbgShortname, Integer index",
+        "returns_doc": "",
+        "description": "Returns race blueprint associated with a squad blueprint squad_type_ext at specified index.",
+        "confidence": "high",
+        "source_set": "official_api",
+        "usage_count": 3,
+        "usage_sources": "official_scar:3",
+        "file_path": "official_api/Essence_ScarFunctions.api",
+        "line_no": 473,
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "api",
+          "overall": {
+            "level": "high",
+            "score": 0.879,
+            "reason": "source=high; match=contains:name; api=high"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.98,
+            "source_set": "official_api",
+            "reason": "官方 API 文档 / official API docs"
+          },
+          "match": {
+            "level": "medium",
+            "score": 0.76,
+            "reason": "contains:name"
+          },
+          "api_documentation": {
+            "level": "high",
+            "score": 0.96
+          }
+        }
+      },
+      {
+        "name": "BP_GetSquadTypeExtRaceCount",
+        "return_type": "",
+        "params": "String pbgShortname",
+        "returns_doc": "",
+        "description": "Returns the number of race blueprints associated with a squad blueprint squad_type_ext.",
+        "confidence": "high",
+        "source_set": "official_api",
+        "usage_count": 3,
+        "usage_sources": "official_scar:3",
+        "file_path": "official_api/Essence_ScarFunctions.api",
+        "line_no": 474,
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "api",
+          "overall": {
+            "level": "high",
+            "score": 0.879,
+            "reason": "source=high; match=contains:name; api=high"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.98,
+            "source_set": "official_api",
+            "reason": "官方 API 文档 / official API docs"
+          },
+          "match": {
+            "level": "medium",
+            "score": 0.76,
+            "reason": "contains:name"
+          },
+          "api_documentation": {
+            "level": "high",
+            "score": 0.96
+          }
+        }
+      },
+      {
+        "name": "BP_GetSquadUIInfo",
+        "return_type": "",
+        "params": "ScarSquadPBG sbp, ScarRacePBG rbp",
+        "returns_doc": "",
+        "description": "Returns a table containing the ui_ext info for given squad and race",
+        "confidence": "high",
+        "source_set": "official_api",
+        "usage_count": 4,
+        "usage_sources": "official_scar:4",
+        "file_path": "official_api/Essence_ScarFunctions.api",
+        "line_no": 475,
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "api",
+          "overall": {
+            "level": "high",
+            "score": 0.879,
+            "reason": "source=high; match=contains:description; api=high"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.98,
+            "source_set": "official_api",
+            "reason": "官方 API 文档 / official API docs"
+          },
+          "match": {
+            "level": "medium",
+            "score": 0.76,
+            "reason": "contains:description"
+          },
+          "api_documentation": {
+            "level": "high",
+            "score": 0.96
+          }
+        }
+      },
+      {
+        "name": "Player_GetRace",
+        "return_type": "",
+        "params": "Player& player",
+        "returns_doc": "",
+        "description": "Returns the race for the given player.",
+        "confidence": "high",
+        "source_set": "official_api",
+        "usage_count": 43,
+        "usage_sources": "official_scar:43",
+        "file_path": "official_api/Essence_ScarFunctions.api",
+        "line_no": 1296,
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "api",
+          "overall": {
+            "level": "high",
+            "score": 0.879,
+            "reason": "source=high; match=contains:name; api=high"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.98,
+            "source_set": "official_api",
+            "reason": "官方 API 文档 / official API docs"
+          },
+          "match": {
+            "level": "medium",
+            "score": 0.76,
+            "reason": "contains:name"
+          },
+          "api_documentation": {
+            "level": "high",
+            "score": 0.96
+          }
+        }
+      },
+      {
+        "name": "Player_GetRaceName",
+        "return_type": "",
+        "params": "Player& player",
+        "returns_doc": "",
+        "description": "Returns the name of the race for a given player (always in english)",
+        "confidence": "high",
+        "source_set": "official_api",
+        "usage_count": 101,
+        "usage_sources": "official_scar:101",
+        "file_path": "official_api/Essence_ScarFunctions.api",
+        "line_no": 1297,
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "api",
+          "overall": {
+            "level": "high",
+            "score": 0.879,
+            "reason": "source=high; match=contains:name; api=high"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.98,
+            "source_set": "official_api",
+            "reason": "官方 API 文档 / official API docs"
+          },
+          "match": {
+            "level": "medium",
+            "score": 0.76,
+            "reason": "contains:name"
+          },
+          "api_documentation": {
+            "level": "high",
+            "score": 0.96
+          }
+        }
+      },
+      {
+        "name": "Setup_SetPlayerRace",
+        "return_type": "",
+        "params": "PlayerID player, ScarRacePBG racePBG",
+        "returns_doc": "",
+        "description": "Set the race for a given player. Use World_GetRaceBlueprint() to get the race id from the ME name.",
+        "confidence": "high",
+        "source_set": "official_api",
+        "usage_count": 1,
+        "usage_sources": "official_scar:1",
+        "file_path": "official_api/Essence_ScarFunctions.api",
+        "line_no": 1419,
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "api",
+          "overall": {
+            "level": "high",
+            "score": 0.879,
+            "reason": "source=high; match=contains:name; api=high"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.98,
+            "source_set": "official_api",
+            "reason": "官方 API 文档 / official API docs"
+          },
+          "match": {
+            "level": "medium",
+            "score": 0.76,
+            "reason": "contains:name"
+          },
+          "api_documentation": {
+            "level": "high",
+            "score": 0.96
+          }
+        }
+      },
+      {
+        "name": "World_GetRaceBlueprint",
+        "return_type": "",
+        "params": "String racename",
+        "returns_doc": "",
+        "description": "Returns the race index of a race, given its name (from the ME).",
+        "confidence": "high",
+        "source_set": "official_api",
+        "usage_count": 2,
+        "usage_sources": "official_scar:2",
+        "file_path": "official_api/Essence_ScarFunctions.api",
+        "line_no": 1947,
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "api",
+          "overall": {
+            "level": "high",
+            "score": 0.879,
+            "reason": "source=high; match=contains:name; api=high"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.98,
+            "source_set": "official_api",
+            "reason": "官方 API 文档 / official API docs"
+          },
+          "match": {
+            "level": "medium",
+            "score": 0.76,
+            "reason": "contains:name"
+          },
+          "api_documentation": {
+            "level": "high",
+            "score": 0.96
+          }
+        }
+      },
+      {
+        "name": "AISquad_ShouldFallBackOrBraceSelf",
+        "return_type": "",
+        "params": "SquadID pAISquad",
+        "returns_doc": "",
+        "description": "Checks if the squad should fall back or brace itself given the current situation.",
+        "confidence": "low",
+        "source_set": "official_api",
+        "usage_count": 0,
+        "usage_sources": "",
+        "file_path": "official_api/Essence_ScarFunctions.api",
+        "line_no": 413,
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "api",
+          "overall": {
+            "level": "high",
+            "score": 0.835,
+            "reason": "source=high; match=contains:name; api=low"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.98,
+            "source_set": "official_api",
+            "reason": "官方 API 文档 / official API docs"
+          },
+          "match": {
+            "level": "medium",
+            "score": 0.76,
+            "reason": "contains:name"
+          },
+          "api_documentation": {
+            "level": "low",
+            "score": 0.52
+          }
+        }
+      },
+      {
+        "name": "BP_GetEntityArchetypeBlueprintForPlayer",
+        "return_type": "",
+        "params": "Player& player, FamilyIndex index",
+        "returns_doc": "",
+        "description": "Returns an entity blueprint of type BLUEPRINT_ARCHETYPE index for the associated race for the player.",
+        "confidence": "low",
+        "source_set": "official_api",
+        "usage_count": 0,
+        "usage_sources": "",
+        "file_path": "official_api/Essence_ScarFunctions.api",
+        "line_no": 437,
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "api",
+          "overall": {
+            "level": "high",
+            "score": 0.835,
+            "reason": "source=high; match=contains:description; api=low"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.98,
+            "source_set": "official_api",
+            "reason": "官方 API 文档 / official API docs"
+          },
+          "match": {
+            "level": "medium",
+            "score": 0.76,
+            "reason": "contains:description"
+          },
+          "api_documentation": {
+            "level": "low",
+            "score": 0.52
+          }
+        }
+      },
+      {
+        "name": "BP_GetEntityArchetypeBlueprintForRace",
+        "return_type": "",
+        "params": "ScarRacePBG racePBG, FamilyIndex index",
+        "returns_doc": "",
+        "description": "Returns an entity blueprint of type BLUEPRINT_ARCHETYPE index for the associated race.",
+        "confidence": "low",
+        "source_set": "official_api",
+        "usage_count": 0,
+        "usage_sources": "",
+        "file_path": "official_api/Essence_ScarFunctions.api",
+        "line_no": 438,
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "api",
+          "overall": {
+            "level": "high",
+            "score": 0.835,
+            "reason": "source=high; match=contains:name; api=low"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.98,
+            "source_set": "official_api",
+            "reason": "官方 API 文档 / official API docs"
+          },
+          "match": {
+            "level": "medium",
+            "score": 0.76,
+            "reason": "contains:name"
+          },
+          "api_documentation": {
+            "level": "low",
+            "score": 0.52
+          }
+        }
+      },
+      {
+        "name": "BP_GetSquadArchetypeBlueprintForRace",
+        "return_type": "",
+        "params": "ScarRacePBG racePBG, FamilyIndex index",
+        "returns_doc": "",
+        "description": "Returns a squad blueprint of type BLUEPRINT_ARCHETYPE index for the associated race.",
+        "confidence": "low",
+        "source_set": "official_api",
+        "usage_count": 0,
+        "usage_sources": "",
+        "file_path": "official_api/Essence_ScarFunctions.api",
+        "line_no": 466,
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "api",
+          "overall": {
+            "level": "high",
+            "score": 0.835,
+            "reason": "source=high; match=contains:name; api=low"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.98,
+            "source_set": "official_api",
+            "reason": "官方 API 文档 / official API docs"
+          },
+          "match": {
+            "level": "medium",
+            "score": 0.76,
+            "reason": "contains:name"
+          },
+          "api_documentation": {
+            "level": "low",
+            "score": 0.52
+          }
+        }
+      },
+      {
+        "name": "EBP_IsOfRace",
+        "return_type": "",
+        "params": "String pbgShortname, ScarRacePBG race",
+        "returns_doc": "",
+        "description": "Returns whether the entity blueprint is of specified race",
+        "confidence": "low",
+        "source_set": "official_api",
+        "usage_count": 0,
+        "usage_sources": "",
+        "file_path": "official_api/Essence_ScarFunctions.api",
+        "line_no": 577,
+        "confidence_detail": {
+          "model": "source_match_v1",
+          "kind": "api",
+          "overall": {
+            "level": "high",
+            "score": 0.835,
+            "reason": "source=high; match=contains:name; api=low"
+          },
+          "source": {
+            "level": "high",
+            "score": 0.98,
+            "source_set": "official_api",
+            "reason": "官方 API 文档 / official API docs"
+          },
+          "match": {
+            "level": "medium",
+            "score": 0.76,
+            "reason": "contains:name"
+          },
+          "api_documentation": {
+            "level": "low",
+            "score": 0.52
+          }
+        }
+      }
+    ],
+    "confidence_model": "source_match_v1"
+  }
+}

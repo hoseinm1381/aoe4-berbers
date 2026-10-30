@@ -1,0 +1,2 @@
+from pathlib import Path
+p=Path('research/buildings_batch/university/audit_saved.py');s=p.read_text().replace("            report.append(","            assert all(all(math.isfinite(v) for ve in o.data.vertices for v in ve.co) for o in imported)\n            assert all(bb(o)[0][0]>=-4.001 and bb(o)[1][0]<=4.001 and bb(o)[0][1]>=-4.001 and bb(o)[1][1]<=4.001 and bb(o)[0][2]>=-.001 for o in imported)\n            report.append(");p.write_text(s)

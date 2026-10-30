@@ -1,0 +1,177 @@
+<instance version="6" description="designed for small attack formations, prioritizes economy and production buildings that can be quickly set on fire" template="ai\ai_formation_coordinator">
+  <group name="ai_formation_coordinator">
+    <list name="non_combat_target_info" overrideParent="True">
+      <group name="info" List.ItemID="1357050547">
+        <float name="burn_amount_threshold" value="1" />
+        <int name="max_units" value="0" />
+        <int name="priority" value="0" />
+        <list name="unit_types">
+          <enum name="unit_class" value="castle" List.ItemID="-1724152226" />
+          <enum name="unit_class" value="outpost" List.ItemID="976782617" />
+          <enum name="unit_class" value="tower" List.ItemID="-1859496157" />
+          <enum name="unit_class" value="landmark" List.ItemID="1342768265" />
+          <enum name="unit_class" value="wonder" List.ItemID="-1211110617" />
+          <enum name="unit_class" value="hq" List.ItemID="-1276076037" />
+          <enum name="unit_class" value="town_bell_target" List.ItemID="-1431248399" />
+        </list>
+      </group>
+      <group name="info" List.ItemID="933234689">
+        <float name="burn_amount_threshold" value="0" />
+        <int name="max_units" value="0" />
+        <int name="priority" value="0" />
+        <list name="unit_types">
+          <enum name="unit_class" value="military" List.ItemID="-1767272990" />
+          <enum name="unit_class" value="mobile_building" List.ItemID="-579881092" />
+        </list>
+      </group>
+      <group name="info" List.ItemID="-986841267">
+        <float name="burn_amount_threshold" value="1" />
+        <int name="max_units" value="4" />
+        <int name="priority" value="3" />
+        <list name="unit_types">
+          <enum name="unit_class" value="building" List.ItemID="-390087423" />
+        </list>
+      </group>
+      <group name="info" List.ItemID="814726289">
+        <float name="burn_amount_threshold" value="0" />
+        <int name="max_units" value="1" />
+        <int name="priority" value="5" overrideParent="True" />
+        <list name="unit_types">
+          <enum name="unit_class" value="villager" List.ItemID="-1031091142" />
+        </list>
+      </group>
+    </list>
+    <list name="combat_target_exclude_unit_types" overrideParent="True">
+      <enum name="unit_class" value="house" List.ItemID="733190824" />
+      <enum name="unit_class" value="farm" List.ItemID="-718347749" />
+      <enum name="unit_class" value="settlement" List.ItemID="346546589" />
+      <enum name="unit_class" value="animal_gatherable" List.ItemID="1151935312" />
+      <enum name="unit_class" value="wall" List.ItemID="-510760199" />
+      <enum name="unit_class" value="gate" List.ItemID="1691686029" />
+    </list>
+    <list name="path_blocker_targeting_info">
+      <group name="targeting_info" comment="If attackers include siege towers, don't consider stone gates." List.ItemID="-106822080" List.ParentItemID="-106822080">
+      </group>
+    </list>
+  </group>
+  <uniqueid name="pbgid" value="202499" />
+  <instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\campaign\ai_formation_coordinator_campaign_default_attarget" />
+  <variant name="xp3">
+    <group name="ai_formation_coordinator">
+      <list name="non_combat_target_info" overrideParent="True">
+        <group name="info" List.ItemID="1357050547">
+          <float name="burn_amount_threshold" value="1" />
+          <int name="max_units" value="0" />
+          <int name="priority" value="0" />
+          <list name="unit_types">
+            <enum name="unit_class" value="castle" List.ItemID="-1724152226" />
+            <enum name="unit_class" value="outpost" List.ItemID="976782617" />
+            <enum name="unit_class" value="tower" List.ItemID="-1859496157" />
+            <enum name="unit_class" value="landmark" List.ItemID="1342768265" />
+            <enum name="unit_class" value="wonder" List.ItemID="-1211110617" />
+            <enum name="unit_class" value="hq" List.ItemID="-1276076037" />
+            <enum name="unit_class" value="town_bell_target" List.ItemID="-1431248399" />
+          </list>
+        </group>
+        <group name="info" List.ItemID="933234689">
+          <float name="burn_amount_threshold" value="0" />
+          <int name="max_units" value="0" />
+          <int name="priority" value="0" />
+          <list name="unit_types">
+            <enum name="unit_class" value="military" List.ItemID="-1767272990" />
+            <enum name="unit_class" value="mobile_building" List.ItemID="-579881092" />
+          </list>
+        </group>
+        <group name="info" List.ItemID="-986841267">
+          <float name="burn_amount_threshold" value="1" />
+          <int name="max_units" value="4" />
+          <int name="priority" value="3" />
+          <list name="unit_types">
+            <enum name="unit_class" value="building" List.ItemID="-390087423" />
+          </list>
+        </group>
+        <group name="info" List.ItemID="814726289">
+          <float name="burn_amount_threshold" value="0" />
+          <int name="max_units" value="1" />
+          <int name="priority" value="5" overrideParent="True" />
+          <list name="unit_types">
+            <enum name="unit_class" value="villager" List.ItemID="-1031091142" />
+          </list>
+        </group>
+      </list>
+      <list name="combat_target_exclude_unit_types" overrideParent="True">
+        <enum name="unit_class" value="house" List.ItemID="733190824" />
+        <enum name="unit_class" value="farm" List.ItemID="-718347749" />
+        <enum name="unit_class" value="settlement" List.ItemID="346546589" />
+        <enum name="unit_class" value="animal_gatherable" List.ItemID="1151935312" />
+        <enum name="unit_class" value="wall" List.ItemID="-510760199" />
+        <enum name="unit_class" value="gate" List.ItemID="1691686029" />
+      </list>
+      <list name="path_blocker_targeting_info">
+        <group name="targeting_info" comment="If attackers include siege towers, don't consider stone gates." List.ItemID="-106822080" List.ParentItemID="-106822080">
+        </group>
+      </list>
+    </group>
+    <uniqueid name="pbgid" value="202499" />
+    <instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\campaign\ai_formation_coordinator_campaign_default_attarget" />
+  </variant>
+  <variant name="cordoba">
+    <group name="ai_formation_coordinator">
+      <list name="non_combat_target_info" overrideParent="True">
+        <group name="info" List.ItemID="1357050547">
+          <float name="burn_amount_threshold" value="1" />
+          <int name="max_units" value="0" />
+          <int name="priority" value="0" />
+          <list name="unit_types">
+            <enum name="unit_class" value="castle" List.ItemID="-1724152226" />
+            <enum name="unit_class" value="outpost" List.ItemID="976782617" />
+            <enum name="unit_class" value="tower" List.ItemID="-1859496157" />
+            <enum name="unit_class" value="landmark" List.ItemID="1342768265" />
+            <enum name="unit_class" value="wonder" List.ItemID="-1211110617" />
+            <enum name="unit_class" value="hq" List.ItemID="-1276076037" />
+            <enum name="unit_class" value="town_bell_target" List.ItemID="-1431248399" />
+          </list>
+        </group>
+        <group name="info" List.ItemID="933234689">
+          <float name="burn_amount_threshold" value="0" />
+          <int name="max_units" value="0" />
+          <int name="priority" value="0" />
+          <list name="unit_types">
+            <enum name="unit_class" value="military" List.ItemID="-1767272990" />
+            <enum name="unit_class" value="mobile_building" List.ItemID="-579881092" />
+          </list>
+        </group>
+        <group name="info" List.ItemID="-986841267">
+          <float name="burn_amount_threshold" value="1" />
+          <int name="max_units" value="4" />
+          <int name="priority" value="3" />
+          <list name="unit_types">
+            <enum name="unit_class" value="building" List.ItemID="-390087423" />
+          </list>
+        </group>
+        <group name="info" List.ItemID="814726289">
+          <float name="burn_amount_threshold" value="0" />
+          <int name="max_units" value="1" />
+          <int name="priority" value="5" overrideParent="True" />
+          <list name="unit_types">
+            <enum name="unit_class" value="villager" List.ItemID="-1031091142" />
+          </list>
+        </group>
+      </list>
+      <list name="combat_target_exclude_unit_types" overrideParent="True">
+        <enum name="unit_class" value="house" List.ItemID="733190824" />
+        <enum name="unit_class" value="farm" List.ItemID="-718347749" />
+        <enum name="unit_class" value="settlement" List.ItemID="346546589" />
+        <enum name="unit_class" value="animal_gatherable" List.ItemID="1151935312" />
+        <enum name="unit_class" value="wall" List.ItemID="-510760199" />
+        <enum name="unit_class" value="gate" List.ItemID="1691686029" />
+      </list>
+      <list name="path_blocker_targeting_info">
+        <group name="targeting_info" comment="If attackers include siege towers, don't consider stone gates." List.ItemID="-106822080" List.ParentItemID="-106822080">
+        </group>
+      </list>
+    </group>
+    <uniqueid name="pbgid" value="202499" />
+    <instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\campaign\ai_formation_coordinator_campaign_default_attarget" />
+  </variant>
+</instance>

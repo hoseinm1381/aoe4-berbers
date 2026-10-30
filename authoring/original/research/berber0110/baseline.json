@@ -1,0 +1,14 @@
+{
+  "version": "0.10.1",
+  "sga_sha256": "648a2a0c94de851c6eff8d8a242c2131c6db5394d3a508c8182ed8260bc90718",
+  "zip_sha256": "ff5512ea42f771214b603495d526745c42b87519607daa229959e589c2213720",
+  "source_hashes": {
+    "berber_ai_catalog.scar": "2af97941621ad3cfd81d7816332f7e983237e645365d045f0bc7181864fad348",
+    "berber_ai_controller.scar": "2e4246b58760f56c19fd5dd8357d526c419a0db8058ac70d5e46cc5ee3fccaed",
+    "berber_ai_economy.scar": "03ea234edc0234e70db73f0f96c172dd4cde086cf0438d85929c324a5c7e5896",
+    "berber_ai_engine.scar": "87206ad4bfbdb91c56bfb827e0cdb51a8dad5e6968c715328d35e049099332ed",
+    "berber_ai_military.scar": "b84aefcfe8b119cee9cc3bf72bec22ce31137741b0dbc53225365e1c9f0a0114",
+    "berber_ai_policy.scar": "2d70b477e2b7deaf55e62e58ec84840c7584f8c99f175777221ab7d1b81f19d1",
+    "berber_ai_production.scar": "837aae27a046ca34e971a71d204797205027e7c49a26280bb6e5cda810821360"
+  }
+}

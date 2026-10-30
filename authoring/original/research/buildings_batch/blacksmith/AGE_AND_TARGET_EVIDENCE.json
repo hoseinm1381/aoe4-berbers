@@ -1,0 +1,22 @@
+{
+  "key": "blacksmith",
+  "minimum_age": 2,
+  "required_ages": [
+    2,
+    3,
+    4
+  ],
+  "live_entity": "ebps/races/malian/buildings/building_tech_unit_infantry_mal",
+  "current_parent": "assets/attrib/instances/ebps/races/malian/buildings/building_tech_unit_infantry_mal.xml:174 -> core/building_tech_unit_infantry",
+  "build_command": "assets/attrib/instances/sbps/races/malian/berbers/unit_villager_1_mal.xml:776",
+  "official_requirement": "core.xml:837-855 requirement_ext required_player_upgrade feudal_age include_completed=true min_completed=1 is_present=true",
+  "official_footprint": "core.xml:90-98 site_ext forced_axis_aligned_footprint=true footprint_scale x=8 y=8 snap_to_construction_grid=true",
+  "footprint_m": [
+    8,
+    8
+  ],
+  "render_bounds_used_as_footprint": false,
+  "tiers": "live XML tier_group main castle/imperial and outskirts mal_tech_03 castle state at lines 156 onward",
+  "donor": "art/civilizations/abbasids/structures/blacksmith/abb_blacksmith_control_age02/abb_blacksmith_control_age02.rgm",
+  "source_state_policy": "Age II basic detached forge/bench, III adds sacks/quoin/drains, IV continues outskirts with developed monitor/post bases. Native outskirts attachment bindings are preserved downstream pending separate qualification; decorative source objects are not native attachment replacements."
+}

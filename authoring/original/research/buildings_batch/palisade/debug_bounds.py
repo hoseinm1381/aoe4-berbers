@@ -1,0 +1,2 @@
+from pathlib import Path
+q=Path('research/buildings_batch/palisade');p=q/'audit_age1.py';s=p.read_text().replace("assert flatten(actual)==flatten(expected),(age,name,'FBX bounds drift')", "\n    if flatten(actual)!=flatten(expected):\n     (O/'bounds_debug.json').write_text(json.dumps({'state':name,'actual':[(ob.name,bb(ob)) for ob in imported],'expected':list(zip(names,expected))},indent=2))\n     raise AssertionError((age,name,'FBX bounds drift'))");p.write_text(s)

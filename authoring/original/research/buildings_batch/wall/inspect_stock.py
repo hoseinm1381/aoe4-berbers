@@ -1,0 +1,14 @@
+import sqlite3,json,subprocess
+from pathlib import Path
+Q=Path(__file__).parent
+c=sqlite3.connect('file:C:/Users/RS/AppData/Local/Garrison/Kit/game-assets.sqlite3?mode=ro',uri=True)
+cur=c.execute("select * from resolved_assets where logical_path like '%wall%' and extension='.rgm'")
+cols=[d[0] for d in cur.description];rows=[dict(zip(cols,r)) for r in cur];c.close()
+(Q/'catalog.json').write_text(json.dumps(rows,indent=2))
+print(json.dumps([r for r in rows if 'abb' in r['logical_path']][:15],indent=2))
+a='C:/Users/RS/AppData/Roaming/Blender Foundation/Blender/5.2/extensions/raw_githubusercontent_com/garrison/bin/sga-archiver.exe'
+for key,path in [('core','attrib/ebps/races/core/buildings/building_defense_wall.rgd'),('mal','attrib/ebps/races/malian/buildings/building_defense_wall_mal/building_defense_wall_mal.rgd')]:
+ r=Q/(key+'.rgd');x=r.with_suffix('.xml')
+ if not r.exists():subprocess.run([a,'extract-member','E:/Games/steamapps/common/Age of Empires IV/cardinal/archives/Attrib.sga',path,str(r)],check=True,capture_output=True)
+ if not x.exists():subprocess.run([a,'decode-rgd',str(r),str(x)],check=True,capture_output=True)
+

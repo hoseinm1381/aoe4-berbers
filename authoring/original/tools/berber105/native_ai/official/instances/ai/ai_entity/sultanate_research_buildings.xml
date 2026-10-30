@@ -1,0 +1,69 @@
+<instance version="6" description="" template="ai\ai_entity">
+  <uniqueid name="pbgid" value="2081878" />
+  <group name="ai_entity_bag">
+    <list name="applicable_blueprints">
+      <instance_reference name="applicable_blueprint" value="ebps\races\sultanate\buildings\building_tech_unit_infantry_sul\building_tech_unit_infantry_control_sul" List.ItemID="1299496351" />
+    </list>
+    <group name="construction">
+      <string name="placement_function" value="" />
+      <bool name="can_build_multiple_in_parallel" value="False" />
+      <int name="max_num_additional_builders" value="4" />
+      <int name="max_num_incomplete_structures_builders" value="-1" />
+      <list name="near_to_structures">
+        <instance_reference name="structure" value="ebps\races\sultanate\buildings\building_unit_religious_sul\building_unit_religious_control_sul" List.ItemID="-1145553970" />
+        <instance_reference name="structure" value="ebps\races\sultanate\buildings\building_tech_university_sul\building_tech_university_control_sul" List.ItemID="-238966230" />
+        <instance_reference name="structure" value="ebps\races\sultanate\buildings\building_landmark_age3_madrasa_e_firoz_sul\building_landmark_age3_madrasa_e_firoz_sul" List.ItemID="516615503" />
+      </list>
+      <list name="requires_structures">
+      </list>
+      <list name="near_structures_with_capability">
+      </list>
+    </group>
+  </group>
+  <variant name="xp3">
+    <uniqueid name="pbgid" value="2081878" />
+    <group name="ai_entity_bag">
+      <list name="applicable_blueprints">
+        <instance_reference name="applicable_blueprint" value="ebps\races\sultanate\buildings\building_tech_unit_infantry_sul\building_tech_unit_infantry_control_sul" List.ItemID="1299496351" />
+      </list>
+      <group name="construction">
+        <string name="placement_function" value="" />
+        <bool name="can_build_multiple_in_parallel" value="False" />
+        <int name="max_num_additional_builders" value="4" />
+        <int name="max_num_incomplete_structures_builders" value="-1" />
+        <list name="near_to_structures">
+          <instance_reference name="structure" value="ebps\races\sultanate\buildings\building_unit_religious_sul\building_unit_religious_control_sul" List.ItemID="-1145553970" />
+          <instance_reference name="structure" value="ebps\races\sultanate\buildings\building_tech_university_sul\building_tech_university_control_sul" List.ItemID="-238966230" />
+          <instance_reference name="structure" value="ebps\races\sultanate\buildings\building_landmark_age3_madrasa_e_firoz_sul\building_landmark_age3_madrasa_e_firoz_sul" List.ItemID="516615503" />
+        </list>
+        <list name="requires_structures">
+        </list>
+        <list name="near_structures_with_capability">
+        </list>
+      </group>
+    </group>
+  </variant>
+  <variant name="cordoba">
+    <uniqueid name="pbgid" value="2081878" />
+    <group name="ai_entity_bag">
+      <list name="applicable_blueprints">
+        <instance_reference name="applicable_blueprint" value="ebps\races\sultanate\buildings\building_tech_unit_infantry_sul\building_tech_unit_infantry_control_sul" List.ItemID="1299496351" />
+      </list>
+      <group name="construction">
+        <string name="placement_function" value="" />
+        <bool name="can_build_multiple_in_parallel" value="False" />
+        <int name="max_num_additional_builders" value="4" />
+        <int name="max_num_incomplete_structures_builders" value="-1" />
+        <list name="near_to_structures">
+          <instance_reference name="structure" value="ebps\races\sultanate\buildings\building_unit_religious_sul\building_unit_religious_control_sul" List.ItemID="-1145553970" />
+          <instance_reference name="structure" value="ebps\races\sultanate\buildings\building_tech_university_sul\building_tech_university_control_sul" List.ItemID="-238966230" />
+          <instance_reference name="structure" value="ebps\races\sultanate\buildings\building_landmark_age3_madrasa_e_firoz_sul\building_landmark_age3_madrasa_e_firoz_sul" List.ItemID="516615503" />
+        </list>
+        <list name="requires_structures">
+        </list>
+        <list name="near_structures_with_capability">
+        </list>
+      </group>
+    </group>
+  </variant>
+</instance>

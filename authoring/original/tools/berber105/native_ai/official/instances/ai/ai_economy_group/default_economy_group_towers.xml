@@ -1,0 +1,16 @@
+<instance version="4" description="" template="ai\ai_economy_group">
+  <group name="ai_economy_group_bag">
+    <instance_reference name="default" value="ai\ai_economy\complete\default_economy_towers" />
+    <list name="overrides">
+    </list>
+  </group>
+  <uniqueid name="pbgid" value="2162224" />
+  <variant name="cordoba">
+    <group name="ai_economy_group_bag">
+      <instance_reference name="default" value="ai\ai_economy\complete\default_economy_towers" />
+      <list name="overrides">
+      </list>
+    </group>
+    <uniqueid name="pbgid" value="2162224" />
+  </variant>
+</instance>

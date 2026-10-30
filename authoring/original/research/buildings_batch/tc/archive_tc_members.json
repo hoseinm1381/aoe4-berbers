@@ -1,0 +1,920 @@
+{
+  "archive": {
+    "block_size": 262144,
+    "file_count": 28059,
+    "folder_count": 3228,
+    "header_encryption": "None",
+    "name": "CardinalAttributes",
+    "path": "E:/Games/steamapps/common/Age of Empires IV/cardinal/archives/Attrib.sga",
+    "product": 0,
+    "signature_present": true,
+    "toc_count": 1,
+    "tocs": [
+      {
+        "alias": "attrib",
+        "name": "attrib"
+      }
+    ],
+    "verification": null,
+    "version": 10
+  },
+  "filter": "building_town_center",
+  "member_count": 89,
+  "members": [
+    {
+      "crc": 4091596761,
+      "encryption": "None",
+      "path": "attrib/abilities/toggle_abilities/mongol/unpack_building_town_center_capital_mon.rgd",
+      "size": 25562,
+      "storage": "BufferCompress",
+      "stored_size": 6852,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2942569908,
+      "encryption": "None",
+      "path": "attrib/abilities/toggle_abilities/mongol/unpack_building_town_center_mon.rgd",
+      "size": 22073,
+      "storage": "BufferCompress",
+      "stored_size": 5951,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1897326875,
+      "encryption": "None",
+      "path": "attrib/attachments/attachment_lists/civilizations/common/buildings/building_town_center_bell_arch.rgd",
+      "size": 191789,
+      "storage": "BufferCompress",
+      "stored_size": 10197,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3000893695,
+      "encryption": "None",
+      "path": "attrib/attachments/attachment_lists/races/core/buildings/building_town_center.rgd",
+      "size": 1357,
+      "storage": "BufferCompress",
+      "stored_size": 460,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 280797411,
+      "encryption": "None",
+      "path": "attrib/attachments/attachment_lists/races/mongol/buildings/building_town_center_mongol.rgd",
+      "size": 1122,
+      "storage": "BufferCompress",
+      "stored_size": 431,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3969562528,
+      "encryption": "None",
+      "path": "attrib/ebps/races/abbasid/buildings/building_town_center_abb.rgd",
+      "size": 144109,
+      "storage": "BufferCompress",
+      "stored_size": 45107,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 74693669,
+      "encryption": "None",
+      "path": "attrib/ebps/races/abbasid/buildings/building_town_center_capital_abb.rgd",
+      "size": 163452,
+      "storage": "BufferCompress",
+      "stored_size": 45771,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2612912410,
+      "encryption": "None",
+      "path": "attrib/ebps/races/abbasid_ha_01/buildings/building_town_center_abb_ha_01.rgd",
+      "size": 63574,
+      "storage": "BufferCompress",
+      "stored_size": 23011,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 391142272,
+      "encryption": "None",
+      "path": "attrib/ebps/races/abbasid_ha_01/buildings/building_town_center_capital_abb_ha_01.rgd",
+      "size": 70272,
+      "storage": "BufferCompress",
+      "stored_size": 23330,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 704002221,
+      "encryption": "None",
+      "path": "attrib/ebps/races/ayyubid_cmp/buildings/building_town_center_ayy.rgd",
+      "size": 105666,
+      "storage": "BufferCompress",
+      "stored_size": 34069,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3447753427,
+      "encryption": "None",
+      "path": "attrib/ebps/races/ayyubid_cmp/buildings/building_town_center_capital_ayy.rgd",
+      "size": 119661,
+      "storage": "BufferCompress",
+      "stored_size": 34781,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 455955020,
+      "encryption": "None",
+      "path": "attrib/ebps/races/byzantine/buildings/building_town_center_byz.rgd",
+      "size": 63683,
+      "storage": "BufferCompress",
+      "stored_size": 23017,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 488776818,
+      "encryption": "None",
+      "path": "attrib/ebps/races/byzantine/buildings/building_town_center_capital_byz.rgd",
+      "size": 70365,
+      "storage": "BufferCompress",
+      "stored_size": 23310,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1250617894,
+      "encryption": "None",
+      "path": "attrib/ebps/races/byzantine_ha_mac/buildings/building_town_center_byz_ha_mac.rgd",
+      "size": 64825,
+      "storage": "BufferCompress",
+      "stored_size": 23166,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2049716920,
+      "encryption": "None",
+      "path": "attrib/ebps/races/byzantine_ha_mac/buildings/building_town_center_capital_byz_ha_mac.rgd",
+      "size": 69998,
+      "storage": "BufferCompress",
+      "stored_size": 23049,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 645964991,
+      "encryption": "None",
+      "path": "attrib/ebps/races/campaign/lithuania/buildings/building_town_center_lith/building_town_center_main_lith.rgd",
+      "size": 116256,
+      "storage": "BufferCompress",
+      "stored_size": 34335,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3740266680,
+      "encryption": "None",
+      "path": "attrib/ebps/races/campaign/normans/buildings/building_town_center_burh_nrm/building_town_center_capital_nrm.rgd",
+      "size": 83545,
+      "storage": "BufferCompress",
+      "stored_size": 22163,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2951555751,
+      "encryption": "None",
+      "path": "attrib/ebps/races/campaign/normans/buildings/building_town_center_burh_nrm/building_town_center_nrm.rgd",
+      "size": 84098,
+      "storage": "BufferCompress",
+      "stored_size": 22468,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4182146790,
+      "encryption": "None",
+      "path": "attrib/ebps/races/campaign/novgorod/buildings/building_town_center_nov/building_town_center_control_nov.rgd",
+      "size": 114582,
+      "storage": "BufferCompress",
+      "stored_size": 34257,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4043955253,
+      "encryption": "None",
+      "path": "attrib/ebps/races/campaign/novgorod/buildings/building_town_center_nov/building_town_center_nov.rgd",
+      "size": 102384,
+      "storage": "BufferCompress",
+      "stored_size": 33812,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3051541726,
+      "encryption": "None",
+      "path": "attrib/ebps/races/chinese/buildings/building_town_center_chi/building_town_center_capital_chi.rgd",
+      "size": 164007,
+      "storage": "BufferCompress",
+      "stored_size": 44280,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 912369528,
+      "encryption": "None",
+      "path": "attrib/ebps/races/chinese/buildings/building_town_center_chi/building_town_center_chi.rgd",
+      "size": 145110,
+      "storage": "BufferCompress",
+      "stored_size": 43634,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3248384275,
+      "encryption": "None",
+      "path": "attrib/ebps/races/chinese_ha_01/buildings/building_town_center_chi_ha_01/building_town_center_capital_chi_ha_01.rgd",
+      "size": 70025,
+      "storage": "BufferCompress",
+      "stored_size": 22541,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1661277616,
+      "encryption": "None",
+      "path": "attrib/ebps/races/chinese_ha_01/buildings/building_town_center_chi_ha_01/building_town_center_chi_ha_01.rgd",
+      "size": 64075,
+      "storage": "BufferCompress",
+      "stored_size": 22481,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1585940417,
+      "encryption": "None",
+      "path": "attrib/ebps/races/core/buildings/building_town_center.rgd",
+      "size": 159222,
+      "storage": "BufferCompress",
+      "stored_size": 44854,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 104754304,
+      "encryption": "None",
+      "path": "attrib/ebps/races/core/buildings/building_town_center_capital.rgd",
+      "size": 146809,
+      "storage": "BufferCompress",
+      "stored_size": 41463,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2146736356,
+      "encryption": "None",
+      "path": "attrib/ebps/races/crusader_cmp/buildings/building_town_center_capital_cru.rgd",
+      "size": 118798,
+      "storage": "BufferCompress",
+      "stored_size": 33536,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1670164884,
+      "encryption": "None",
+      "path": "attrib/ebps/races/crusader_cmp/buildings/building_town_center_cru.rgd",
+      "size": 104511,
+      "storage": "BufferCompress",
+      "stored_size": 32898,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1057942644,
+      "encryption": "None",
+      "path": "attrib/ebps/races/english/buildings/building_town_center_burh_eng/building_town_center_capital_eng.rgd",
+      "size": 161570,
+      "storage": "BufferCompress",
+      "stored_size": 44162,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2898931185,
+      "encryption": "None",
+      "path": "attrib/ebps/races/english/buildings/building_town_center_burh_eng/building_town_center_eng.rgd",
+      "size": 140295,
+      "storage": "BufferCompress",
+      "stored_size": 43336,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1883378533,
+      "encryption": "None",
+      "path": "attrib/ebps/races/french/buildings/building_town_center_fre/building_town_center_capital_fre.rgd",
+      "size": 161949,
+      "storage": "BufferCompress",
+      "stored_size": 44126,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2027619274,
+      "encryption": "None",
+      "path": "attrib/ebps/races/french/buildings/building_town_center_fre/building_town_center_fre.rgd",
+      "size": 143102,
+      "storage": "BufferCompress",
+      "stored_size": 43692,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2927129657,
+      "encryption": "None",
+      "path": "attrib/ebps/races/french_ha_01/buildings/building_town_center_fre_ha_01/building_town_center_capital_fre_ha_01.rgd",
+      "size": 70013,
+      "storage": "BufferCompress",
+      "stored_size": 22600,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 692485433,
+      "encryption": "None",
+      "path": "attrib/ebps/races/french_ha_01/buildings/building_town_center_fre_ha_01/building_town_center_fre_ha_01.rgd",
+      "size": 63523,
+      "storage": "BufferCompress",
+      "stored_size": 22421,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1995603734,
+      "encryption": "None",
+      "path": "attrib/ebps/races/hre/buildings/building_town_center_hre/building_town_center_capital_hre.rgd",
+      "size": 116568,
+      "storage": "BufferCompress",
+      "stored_size": 34368,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3256577656,
+      "encryption": "None",
+      "path": "attrib/ebps/races/hre/buildings/building_town_center_hre/building_town_center_hre.rgd",
+      "size": 104406,
+      "storage": "BufferCompress",
+      "stored_size": 34316,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1848952941,
+      "encryption": "None",
+      "path": "attrib/ebps/races/hre_ha_01/buildings/building_town_center_hre_ha_01/building_town_center_capital_hre_ha_01.rgd",
+      "size": 70248,
+      "storage": "BufferCompress",
+      "stored_size": 23308,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 892091614,
+      "encryption": "None",
+      "path": "attrib/ebps/races/hre_ha_01/buildings/building_town_center_hre_ha_01/building_town_center_hre_ha_01.rgd",
+      "size": 63510,
+      "storage": "BufferCompress",
+      "stored_size": 22974,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4279742930,
+      "encryption": "None",
+      "path": "attrib/ebps/races/japanese/buildings/building_town_center_capital_jpn.rgd",
+      "size": 78270,
+      "storage": "BufferCompress",
+      "stored_size": 22858,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 710113282,
+      "encryption": "None",
+      "path": "attrib/ebps/races/japanese/buildings/building_town_center_jpn.rgd",
+      "size": 65852,
+      "storage": "BufferCompress",
+      "stored_size": 22511,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2146387085,
+      "encryption": "None",
+      "path": "attrib/ebps/races/japanese_ha_sen/buildings/building_town_center_capital_jpn_ha_sen.rgd",
+      "size": 78002,
+      "storage": "BufferCompress",
+      "stored_size": 22776,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1502388865,
+      "encryption": "None",
+      "path": "attrib/ebps/races/japanese_ha_sen/buildings/building_town_center_jpn_ha_sen.rgd",
+      "size": 65588,
+      "storage": "BufferCompress",
+      "stored_size": 22411,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 890887529,
+      "encryption": "None",
+      "path": "attrib/ebps/races/jin_dynasty/buildings/building_town_center_2_jin.rgd",
+      "size": 108982,
+      "storage": "BufferCompress",
+      "stored_size": 33777,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 979377970,
+      "encryption": "None",
+      "path": "attrib/ebps/races/jin_dynasty/buildings/building_town_center_capital_jin.rgd",
+      "size": 122484,
+      "storage": "BufferCompress",
+      "stored_size": 34297,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1582508294,
+      "encryption": "None",
+      "path": "attrib/ebps/races/lancaster/buildings/building_town_center_capital_lan.rgd",
+      "size": 69598,
+      "storage": "BufferCompress",
+      "stored_size": 22545,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1133308365,
+      "encryption": "None",
+      "path": "attrib/ebps/races/lancaster/buildings/building_town_center_lan.rgd",
+      "size": 62088,
+      "storage": "BufferCompress",
+      "stored_size": 22253,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1252143255,
+      "encryption": "None",
+      "path": "attrib/ebps/races/malian/buildings/building_town_center_capital_mal.rgd",
+      "size": 73544,
+      "storage": "BufferCompress",
+      "stored_size": 22596,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2994614599,
+      "encryption": "None",
+      "path": "attrib/ebps/races/malian/buildings/building_town_center_mal.rgd",
+      "size": 66894,
+      "storage": "BufferCompress",
+      "stored_size": 22404,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 590656036,
+      "encryption": "None",
+      "path": "attrib/ebps/races/mongol/buildings/building_town_center_capital_mon.rgd",
+      "size": 172939,
+      "storage": "BufferCompress",
+      "stored_size": 48372,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1011821575,
+      "encryption": "None",
+      "path": "attrib/ebps/races/mongol/buildings/building_town_center_capital_moving_mon.rgd",
+      "size": 57061,
+      "storage": "BufferCompress",
+      "stored_size": 13143,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1439280105,
+      "encryption": "None",
+      "path": "attrib/ebps/races/mongol/buildings/building_town_center_dummy_start.rgd",
+      "size": 6511,
+      "storage": "BufferCompress",
+      "stored_size": 1887,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 342952041,
+      "encryption": "None",
+      "path": "attrib/ebps/races/mongol/buildings/building_town_center_mon.rgd",
+      "size": 153378,
+      "storage": "BufferCompress",
+      "stored_size": 47072,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 584710562,
+      "encryption": "None",
+      "path": "attrib/ebps/races/mongol/buildings/building_town_center_moving_mon.rgd",
+      "size": 58129,
+      "storage": "BufferCompress",
+      "stored_size": 13149,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2740127375,
+      "encryption": "None",
+      "path": "attrib/ebps/races/mongol_ha_gol/buildings/building_town_center_capital_mon_ha_gol.rgd",
+      "size": 67129,
+      "storage": "BufferCompress",
+      "stored_size": 22152,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 702795303,
+      "encryption": "None",
+      "path": "attrib/ebps/races/mongol_ha_gol/buildings/building_town_center_mon_ha_gol.rgd",
+      "size": 60411,
+      "storage": "BufferCompress",
+      "stored_size": 21841,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2300046780,
+      "encryption": "None",
+      "path": "attrib/ebps/races/ottoman/buildings/building_town_center_capital_ott.rgd",
+      "size": 81336,
+      "storage": "BufferCompress",
+      "stored_size": 22948,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3742710335,
+      "encryption": "None",
+      "path": "attrib/ebps/races/ottoman/buildings/building_town_center_ott.rgd",
+      "size": 70734,
+      "storage": "BufferCompress",
+      "stored_size": 22536,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2314152998,
+      "encryption": "None",
+      "path": "attrib/ebps/races/rus/buildings/building_town_center_rus/building_town_center_capital_rus.rgd",
+      "size": 114586,
+      "storage": "BufferCompress",
+      "stored_size": 34273,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2362182310,
+      "encryption": "None",
+      "path": "attrib/ebps/races/rus/buildings/building_town_center_rus/building_town_center_rus.rgd",
+      "size": 102392,
+      "storage": "BufferCompress",
+      "stored_size": 33820,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 623787174,
+      "encryption": "None",
+      "path": "attrib/ebps/races/song_dynasty_cmp/buildings/building_town_center_capital_song_cmp.rgd",
+      "size": 119068,
+      "storage": "BufferCompress",
+      "stored_size": 33411,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3634199822,
+      "encryption": "None",
+      "path": "attrib/ebps/races/song_dynasty_cmp/buildings/building_town_center_song_cmp.rgd",
+      "size": 105574,
+      "storage": "BufferCompress",
+      "stored_size": 32866,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 77426682,
+      "encryption": "None",
+      "path": "attrib/ebps/races/sultanate/buildings/building_town_center_sul/building_town_center_capital_sul.rgd",
+      "size": 113081,
+      "storage": "BufferCompress",
+      "stored_size": 33575,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2941445207,
+      "encryption": "None",
+      "path": "attrib/ebps/races/sultanate/buildings/building_town_center_sul/building_town_center_sul.rgd",
+      "size": 100891,
+      "storage": "BufferCompress",
+      "stored_size": 33269,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1948795604,
+      "encryption": "None",
+      "path": "attrib/ebps/races/sultanate_ha_tug/buildings/building_town_center_sul_ha_tug/building_town_center_capital_sul_ha_tug.rgd",
+      "size": 70517,
+      "storage": "BufferCompress",
+      "stored_size": 22579,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3427453577,
+      "encryption": "None",
+      "path": "attrib/ebps/races/sultanate_ha_tug/buildings/building_town_center_sul_ha_tug/building_town_center_sul_ha_tug.rgd",
+      "size": 63551,
+      "storage": "BufferCompress",
+      "stored_size": 22307,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3924888933,
+      "encryption": "None",
+      "path": "attrib/ebps/races/templar/buildings/building_town_center_capital_tem.rgd",
+      "size": 71017,
+      "storage": "BufferCompress",
+      "stored_size": 22885,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 525529172,
+      "encryption": "None",
+      "path": "attrib/ebps/races/templar/buildings/building_town_center_tem.rgd",
+      "size": 63735,
+      "storage": "BufferCompress",
+      "stored_size": 22471,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2085333303,
+      "encryption": "None",
+      "path": "attrib/hotkeys/hotkey_binding/building_town_center/ability_pilgrim_destination_target_tem.rgd",
+      "size": 717,
+      "storage": "Store",
+      "stored_size": 717,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 346856923,
+      "encryption": "None",
+      "path": "attrib/hotkeys/hotkey_binding/building_town_center/tech_banco_repairs.rgd",
+      "size": 762,
+      "storage": "Store",
+      "stored_size": 762,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1347862976,
+      "encryption": "None",
+      "path": "attrib/hotkeys/hotkey_binding/building_town_center/tech_collective_hunting_jin.rgd",
+      "size": 762,
+      "storage": "Store",
+      "stored_size": 762,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2215998434,
+      "encryption": "None",
+      "path": "attrib/hotkeys/hotkey_binding/building_town_center/tech_daimyo_manor_jpn.rgd",
+      "size": 762,
+      "storage": "Store",
+      "stored_size": 762,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 611860677,
+      "encryption": "None",
+      "path": "attrib/hotkeys/hotkey_binding/building_town_center/tech_fresh_foodstuffs.rgd",
+      "size": 762,
+      "storage": "Store",
+      "stored_size": 762,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1171786707,
+      "encryption": "None",
+      "path": "attrib/hotkeys/hotkey_binding/building_town_center/tech_safe_passage_tem.rgd",
+      "size": 762,
+      "storage": "Store",
+      "stored_size": 762,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3124373401,
+      "encryption": "None",
+      "path": "attrib/hotkeys/hotkey_binding/building_town_center/tech_sanctuary_tem.rgd",
+      "size": 762,
+      "storage": "Store",
+      "stored_size": 762,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3929882336,
+      "encryption": "None",
+      "path": "attrib/hotkeys/hotkey_binding/building_town_center/tech_textiles.rgd",
+      "size": 762,
+      "storage": "Store",
+      "stored_size": 762,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 258274599,
+      "encryption": "None",
+      "path": "attrib/hotkeys/hotkey_binding/building_town_center/train_cavalry_banner_jpn.rgd",
+      "size": 762,
+      "storage": "Store",
+      "stored_size": 762,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 949676943,
+      "encryption": "None",
+      "path": "attrib/hotkeys/hotkey_binding/building_town_center/train_emissary_jin.rgd",
+      "size": 762,
+      "storage": "Store",
+      "stored_size": 762,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1883431671,
+      "encryption": "None",
+      "path": "attrib/hotkeys/hotkey_binding/building_town_center/train_katana_jpn.rgd",
+      "size": 762,
+      "storage": "Store",
+      "stored_size": 762,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2800224181,
+      "encryption": "None",
+      "path": "attrib/hotkeys/hotkey_binding/building_town_center/train_official.rgd",
+      "size": 762,
+      "storage": "Store",
+      "stored_size": 762,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2652137309,
+      "encryption": "None",
+      "path": "attrib/hotkeys/hotkey_binding/building_town_center/train_prelate.rgd",
+      "size": 762,
+      "storage": "Store",
+      "stored_size": 762,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3324522911,
+      "encryption": "None",
+      "path": "attrib/hotkeys/hotkey_binding/building_town_center/train_saint_hfre.rgd",
+      "size": 717,
+      "storage": "Store",
+      "stored_size": 717,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2042549957,
+      "encryption": "None",
+      "path": "attrib/hotkeys/hotkey_binding/building_town_center/train_scout.rgd",
+      "size": 762,
+      "storage": "Store",
+      "stored_size": 762,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2920450187,
+      "encryption": "None",
+      "path": "attrib/hotkeys/hotkey_binding/building_town_center/train_villager.rgd",
+      "size": 762,
+      "storage": "Store",
+      "stored_size": 762,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 417291350,
+      "encryption": "None",
+      "path": "attrib/hotkeys/hotkey_binding/building_town_center/train_villager_mounted_jin.rgd",
+      "size": 762,
+      "storage": "Store",
+      "stored_size": 762,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 340052957,
+      "encryption": "None",
+      "path": "attrib/hotkeys/hotkey_binding/building_town_center/train_worker_elephant_sul_ha_tug.rgd",
+      "size": 762,
+      "storage": "Store",
+      "stored_size": 762,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1311255843,
+      "encryption": "None",
+      "path": "attrib/hotkeys/hotkey_binding/building_town_center/train_yumi_jpn.rgd",
+      "size": 762,
+      "storage": "Store",
+      "stored_size": 762,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2544531907,
+      "encryption": "None",
+      "path": "attrib/menu/sultanate_ha_tug/building_town_center_governor_modal.rgd",
+      "size": 3098,
+      "storage": "BufferCompress",
+      "stored_size": 1611,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 428996053,
+      "encryption": "None",
+      "path": "attrib/sbps/races/mongol/buildings/building_town_center_capital_moving_mon.rgd",
+      "size": 25822,
+      "storage": "BufferCompress",
+      "stored_size": 6221,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4051223840,
+      "encryption": "None",
+      "path": "attrib/sbps/races/mongol/buildings/building_town_center_moving_mon.rgd",
+      "size": 25982,
+      "storage": "BufferCompress",
+      "stored_size": 6231,
+      "toc": "attrib",
+      "verification": "SHA1Blocks"
+    }
+  ],
+  "schema": "sga-archiver.list/v1",
+  "tool": {
+    "name": "sga-archiver",
+    "version": "0.3.0"
+  }
+}

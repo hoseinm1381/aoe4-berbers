@@ -1,0 +1,2589 @@
+{
+  "core": {
+    "site_ext": {
+      "key": "site_ext",
+      "value": null,
+      "children": [
+        {
+          "extra_build_test_footprint_offset_z": "0"
+        },
+        {
+          "remove_if_constructed_over": "false"
+        },
+        {
+          "extra_build_test_footprint_z": "0"
+        },
+        {
+          "$REF": "ebpextensions\\site_ext"
+        },
+        {
+          "forced_axis_aligned_footprint": "true"
+        },
+        {
+          "minimum_build_test_footprint_z": "0"
+        },
+        {
+          "key": "footprint_scale",
+          "value": null,
+          "children": [
+            {
+              "y": "8"
+            },
+            {
+              "x": "8"
+            }
+          ]
+        },
+        {
+          "despawn_if_constructed_over": "false"
+        },
+        {
+          "snap_to_construction_grid": "true"
+        },
+        {
+          "minimum_build_test_footprint_x": "0"
+        },
+        {
+          "impass_cell_check": "1"
+        },
+        {
+          "snap_to_terrain": "true"
+        },
+        {
+          "extra_build_test_footprint_x": "0"
+        },
+        {
+          "extra_build_test_footprint_offset_x": "0"
+        },
+        {
+          "key": "snap_to_surface_types",
+          "value": null,
+          "children": [
+            {
+              "surface_type": "1"
+            },
+            {
+              "surface_type": "2"
+            }
+          ]
+        }
+      ]
+    },
+    "requirement_ext": {
+      "key": "requirement_ext",
+      "value": null,
+      "children": [
+        {
+          "key": "requirement_table",
+          "value": null,
+          "children": [
+            {
+              "key": "required_statemodelbool",
+              "value": null,
+              "children": [
+                {
+                  "key": "dock_blocked"
+                },
+                {
+                  "default_value": "false"
+                },
+                {
+                  "$REF": "requirements\\required_statemodelbool"
+                },
+                {
+                  "ui_name": "11273201"
+                },
+                {
+                  "data_source_type": "player_datasource"
+                },
+                {
+                  "compare_to_value": "false"
+                },
+                {
+                  "reason": "usage"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$REF": "ebpextensions\\requirement_ext"
+        },
+        {
+          "requirement_statetree": ""
+        }
+      ]
+    },
+    "sim_entity_ext": {
+      "key": "sim_entity_ext",
+      "value": null,
+      "children": [
+        {
+          "rotate_snap": "360"
+        },
+        {
+          "$REF": "ebpextensions\\sim_entity_ext"
+        },
+        {
+          "transferable": "0"
+        },
+        {
+          "kill_paradrop": "false"
+        }
+      ]
+    },
+    "spawner_ext": {
+      "key": "spawner_ext",
+      "value": null,
+      "children": [
+        {
+          "bonus_xp_from_hold_list": null
+        },
+        {
+          "default_rally_points_allowed": "true"
+        },
+        {
+          "enforce_minimum_clearance_at_spawn_positions_search_range": "30"
+        },
+        {
+          "spawn_items": null
+        },
+        {
+          "enforce_minimum_clearance_if_entities_blocking": "true"
+        },
+        {
+          "trade_only_economical_rally": "false"
+        },
+        {
+          "spawn_to_hold_try_first": "false"
+        },
+        {
+          "enforce_minimum_clearance_at_spawn_positions": "true"
+        },
+        {
+          "reset_production_progress_at_current_pop_cap": "false"
+        },
+        {
+          "$REF": "ebpextensions\\spawner_ext"
+        },
+        {
+          "reinforce_requirements_openingbranch": ""
+        },
+        {
+          "use_alternative_rally_point_system": "false"
+        },
+        {
+          "can_spawn_if_neutral": "false"
+        },
+        {
+          "reinforce_requirements": null
+        },
+        {
+          "economic_rally_points_allowed": "true"
+        },
+        {
+          "production_item_completed_openingbranch": "building_production_item_completed\\Master\\building_production_item_complete\\building_production_item_complete_naval"
+        },
+        {
+          "max_queue_size_override": "-1"
+        },
+        {
+          "reinforce_radius": "0"
+        },
+        {
+          "can_rally": "true"
+        },
+        {
+          "key": "animated_spawn_option",
+          "value": null,
+          "children": [
+            {
+              "$REF": "options\\none"
+            }
+          ]
+        },
+        {
+          "always_use_economic_rally_points": "false"
+        },
+        {
+          "queue_requirements": null
+        },
+        {
+          "key": "rally_pass_type",
+          "value": null,
+          "children": [
+            {
+              "$PBGNAME": "water_default"
+            },
+            {
+              "$PBGMAP": "pass_types"
+            }
+          ]
+        },
+        {
+          "queue_requirements_openingbranch": ""
+        },
+        {
+          "must_be_in_supply": "false"
+        }
+      ]
+    },
+    "entity_blueprint_ext": {
+      "key": "entity_blueprint_ext",
+      "value": null,
+      "children": [
+        {
+          "default_spawn_type": ""
+        },
+        {
+          "entity_scale": "100"
+        },
+        {
+          "is_visible_in_game": "true"
+        },
+        {
+          "animator_scale": "100"
+        },
+        {
+          "browsable_in_editor": "false"
+        },
+        {
+          "alternate_sua": ""
+        },
+        {
+          "is_wreck": "false"
+        },
+        {
+          "key": "unit_badge",
+          "value": null,
+          "children": [
+            {
+              "$PBGNAME": ""
+            },
+            {
+              "$PBGMAP": ""
+            }
+          ]
+        },
+        {
+          "$REF": "ebpextensions\\entity_blueprint_ext"
+        },
+        {
+          "always_revealed_in_fow": "false"
+        },
+        {
+          "precise_size": "-1"
+        },
+        {
+          "key": "animator_attachments",
+          "value": null,
+          "children": [
+            {
+              "$PBGNAME": "building_unit_naval"
+            },
+            {
+              "$PBGMAP": "attachments\\attachment_lists"
+            }
+          ]
+        },
+        {
+          "subclass_type": "10"
+        },
+        {
+          "is_spawned_when_not_in_interactive_area": "true"
+        }
+      ]
+    },
+    "upgrade_ext": {
+      "key": "upgrade_ext",
+      "value": null,
+      "children": [
+        {
+          "number_of_standard_slots": "-1"
+        },
+        {
+          "$REF": "ebpextensions\\upgrade_ext"
+        },
+        {
+          "production_item_completed_openingbranch": ""
+        },
+        {
+          "max_queue_size_override": "-1"
+        },
+        {
+          "key": "standard_upgrades",
+          "value": null,
+          "children": [
+            {
+              "key": "upgrade",
+              "value": null,
+              "children": [
+                {
+                  "$PBGNAME": "upgrade_naval_incendiaries"
+                },
+                {
+                  "$PBGMAP": "upgrade"
+                }
+              ]
+            },
+            {
+              "key": "upgrade",
+              "value": null,
+              "children": [
+                {
+                  "$PBGNAME": "upgrade_naval_springald_ship_upgrade_1"
+                },
+                {
+                  "$PBGMAP": "upgrade"
+                }
+              ]
+            },
+            {
+              "key": "upgrade",
+              "value": null,
+              "children": [
+                {
+                  "$PBGNAME": "upgrade_naval_extra_hammocks"
+                },
+                {
+                  "$PBGMAP": "upgrade"
+                }
+              ]
+            },
+            {
+              "key": "upgrade",
+              "value": null,
+              "children": [
+                {
+                  "$PBGNAME": "upgrade_naval_armored_hull"
+                },
+                {
+                  "$PBGMAP": "upgrade"
+                }
+              ]
+            },
+            {
+              "key": "upgrade",
+              "value": null,
+              "children": [
+                {
+                  "$PBGNAME": "upgrade_naval_shipwrights"
+                },
+                {
+                  "$PBGMAP": "upgrade"
+                }
+              ]
+            },
+            {
+              "key": "upgrade",
+              "value": null,
+              "children": [
+                {
+                  "$PBGNAME": "upgrade_naval_explosives"
+                },
+                {
+                  "$PBGMAP": "upgrade"
+                }
+              ]
+            },
+            {
+              "key": "upgrade",
+              "value": null,
+              "children": [
+                {
+                  "$PBGNAME": "upgrade_econ_drift_nets"
+                },
+                {
+                  "$PBGMAP": "upgrade"
+                }
+              ]
+            },
+            {
+              "key": "upgrade",
+              "value": null,
+              "children": [
+                {
+                  "$PBGNAME": "upgrade_econ_extended_lines"
+                },
+                {
+                  "$PBGMAP": "upgrade"
+                }
+              ]
+            },
+            {
+              "key": "upgrade",
+              "value": null,
+              "children": [
+                {
+                  "$PBGNAME": "upgrade_naval_swivel_cannon"
+                },
+                {
+                  "$PBGMAP": "upgrade"
+                }
+              ]
+            },
+            {
+              "key": "upgrade",
+              "value": null,
+              "children": [
+                {
+                  "$PBGNAME": "upgrade_naval_arrowslits"
+                },
+                {
+                  "$PBGMAP": "upgrade"
+                }
+              ]
+            },
+            {
+              "key": "upgrade",
+              "value": null,
+              "children": [
+                {
+                  "$PBGNAME": "upgrade_naval_heated_shot"
+                },
+                {
+                  "$PBGMAP": "upgrade"
+                }
+              ]
+            },
+            {
+              "key": "upgrade",
+              "value": null,
+              "children": [
+                {
+                  "$PBGNAME": "upgrade_naval_javelin_ships_mal"
+                },
+                {
+                  "$PBGMAP": "upgrade"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "must_be_in_supply": "false"
+        }
+      ]
+    }
+  },
+  "mal": {
+    "site_ext": {
+      "key": "site_ext",
+      "value": null,
+      "children": [
+        {
+          "extra_build_test_footprint_offset_z": "0"
+        },
+        {
+          "remove_if_constructed_over": "false"
+        },
+        {
+          "extra_build_test_footprint_z": "0"
+        },
+        {
+          "$REF": "ebpextensions\\site_ext"
+        },
+        {
+          "forced_axis_aligned_footprint": "true"
+        },
+        {
+          "minimum_build_test_footprint_z": "0"
+        },
+        {
+          "key": "footprint_scale",
+          "value": null,
+          "children": [
+            {
+              "y": "8"
+            },
+            {
+              "x": "8"
+            }
+          ]
+        },
+        {
+          "despawn_if_constructed_over": "false"
+        },
+        {
+          "snap_to_construction_grid": "true"
+        },
+        {
+          "minimum_build_test_footprint_x": "0"
+        },
+        {
+          "impass_cell_check": "1"
+        },
+        {
+          "snap_to_terrain": "true"
+        },
+        {
+          "extra_build_test_footprint_x": "0"
+        },
+        {
+          "extra_build_test_footprint_offset_x": "0"
+        },
+        {
+          "key": "snap_to_surface_types",
+          "value": null,
+          "children": [
+            {
+              "surface_type": "1"
+            },
+            {
+              "surface_type": "2"
+            }
+          ]
+        }
+      ]
+    },
+    "requirement_ext": {
+      "key": "requirement_ext",
+      "value": null,
+      "children": [
+        {
+          "key": "requirement_table",
+          "value": null,
+          "children": [
+            {
+              "key": "required_statemodelbool",
+              "value": null,
+              "children": [
+                {
+                  "key": "dock_blocked"
+                },
+                {
+                  "default_value": "false"
+                },
+                {
+                  "$REF": "requirements\\required_statemodelbool"
+                },
+                {
+                  "ui_name": "11273201"
+                },
+                {
+                  "data_source_type": "player_datasource"
+                },
+                {
+                  "compare_to_value": "false"
+                },
+                {
+                  "reason": "usage"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$REF": "ebpextensions\\requirement_ext"
+        },
+        {
+          "requirement_statetree": ""
+        }
+      ]
+    },
+    "sim_entity_ext": {
+      "key": "sim_entity_ext",
+      "value": null,
+      "children": [
+        {
+          "rotate_snap": "360"
+        },
+        {
+          "$REF": "ebpextensions\\sim_entity_ext"
+        },
+        {
+          "transferable": "0"
+        },
+        {
+          "kill_paradrop": "false"
+        }
+      ]
+    },
+    "spawner_ext": {
+      "key": "spawner_ext",
+      "value": null,
+      "children": [
+        {
+          "bonus_xp_from_hold_list": null
+        },
+        {
+          "default_rally_points_allowed": "true"
+        },
+        {
+          "enforce_minimum_clearance_at_spawn_positions_search_range": "30"
+        },
+        {
+          "key": "spawn_items",
+          "value": null,
+          "children": [
+            {
+              "key": "spawn_item",
+              "value": null,
+              "children": [
+                {
+                  "key": "squad",
+                  "value": null,
+                  "children": [
+                    {
+                      "$PBGNAME": "unit_naval_fireship_3_mal"
+                    },
+                    {
+                      "$PBGMAP": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "ui_menu",
+                  "value": null,
+                  "children": [
+                    {
+                      "$PBGNAME": ""
+                    },
+                    {
+                      "$PBGMAP": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "ui_position",
+                  "value": null,
+                  "children": [
+                    {
+                      "ui_position_column": "3"
+                    },
+                    {
+                      "ui_position_row": "2"
+                    }
+                  ]
+                },
+                {
+                  "available_production_count_is_shared": "false"
+                },
+                {
+                  "available_production_count_statemodel": ""
+                },
+                {
+                  "number_to_queue_up_to_when_modified": "5"
+                },
+                {
+                  "key": "entity",
+                  "value": null,
+                  "children": [
+                    {
+                      "$PBGNAME": ""
+                    },
+                    {
+                      "$PBGMAP": ""
+                    }
+                  ]
+                },
+                {
+                  "additional_squads": null
+                },
+                {
+                  "cost_openingbranch": ""
+                },
+                {
+                  "ui_icon_name": ""
+                },
+                {
+                  "key": "item_cost_adjustment",
+                  "value": null,
+                  "children": [
+                    {
+                      "food": "0"
+                    },
+                    {
+                      "action": "0"
+                    },
+                    {
+                      "gold": "0"
+                    },
+                    {
+                      "militia_hre": "0"
+                    },
+                    {
+                      "popcap": "0"
+                    },
+                    {
+                      "stone": "0"
+                    },
+                    {
+                      "merc_byz": "0"
+                    },
+                    {
+                      "command": "0"
+                    },
+                    {
+                      "wood": "0"
+                    }
+                  ]
+                },
+                {
+                  "key": "ui_info_extended",
+                  "value": null,
+                  "children": [
+                    {
+                      "key": "relic_radial_menu_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "key": "linked",
+                          "value": null,
+                          "children": [
+                            {
+                              "$PBGNAME": ""
+                            },
+                            {
+                              "$PBGMAP": ""
+                            }
+                          ]
+                        },
+                        {
+                          "priority": "0"
+                        },
+                        {
+                          "$REF": "relic_radial_menu\\relic_radial_menu_info"
+                        },
+                        {
+                          "nominal_index": "12"
+                        },
+                        {
+                          "key": "menu",
+                          "value": null,
+                          "children": [
+                            {
+                              "$PBGNAME": "default"
+                            },
+                            {
+                              "$PBGMAP": "relic_radial_menu\\relic_radial_menu"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "observer_type": "1"
+                    },
+                    {
+                      "key": "quick_commands_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "quick_commands_launch_hud_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": "ui_quick_commands_launch_hud_info"
+                        },
+                        {
+                          "quick_commands_hold_time": "1"
+                        },
+                        {
+                          "quick_commands_hotkey": ""
+                        },
+                        {
+                          "quick_commands_priority": "-1"
+                        },
+                        {
+                          "quick_commands_slot_index": "-1"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "issuable_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "key": "secondary_issuable",
+                          "value": null,
+                          "children": [
+                            {
+                              "$PBGNAME": ""
+                            },
+                            {
+                              "$PBGMAP": ""
+                            }
+                          ]
+                        },
+                        {
+                          "is_secondary": "false"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "ping_menu_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "$REF": "tables\\ui_info_ext"
+                    },
+                    {
+                      "key": "quick_abilities_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "command_card_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "quick_formation_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "category": "0"
+                    }
+                  ]
+                },
+                {
+                  "spawn_at_map_entry_point": "false"
+                },
+                {
+                  "can_be_cancelled": "true"
+                },
+                {
+                  "number_to_spawn": "1"
+                },
+                {
+                  "ui_tooltip_data_template": ""
+                },
+                {
+                  "key": "hotkey_binding",
+                  "value": null,
+                  "children": [
+                    {
+                      "$PBGNAME": "produce_demo_ship"
+                    },
+                    {
+                      "$PBGMAP": "hotkeys\\hotkey_binding"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "spawn_item",
+              "value": null,
+              "children": [
+                {
+                  "key": "squad",
+                  "value": null,
+                  "children": [
+                    {
+                      "$PBGNAME": "unit_naval_fishing_boat_2_mal"
+                    },
+                    {
+                      "$PBGMAP": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "ui_menu",
+                  "value": null,
+                  "children": [
+                    {
+                      "$PBGNAME": ""
+                    },
+                    {
+                      "$PBGMAP": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "ui_position",
+                  "value": null,
+                  "children": [
+                    {
+                      "ui_position_column": "1"
+                    },
+                    {
+                      "ui_position_row": "1"
+                    }
+                  ]
+                },
+                {
+                  "available_production_count_is_shared": "false"
+                },
+                {
+                  "available_production_count_statemodel": ""
+                },
+                {
+                  "number_to_queue_up_to_when_modified": "5"
+                },
+                {
+                  "key": "entity",
+                  "value": null,
+                  "children": [
+                    {
+                      "$PBGNAME": ""
+                    },
+                    {
+                      "$PBGMAP": ""
+                    }
+                  ]
+                },
+                {
+                  "additional_squads": null
+                },
+                {
+                  "cost_openingbranch": ""
+                },
+                {
+                  "ui_icon_name": ""
+                },
+                {
+                  "key": "item_cost_adjustment",
+                  "value": null,
+                  "children": [
+                    {
+                      "food": "0"
+                    },
+                    {
+                      "action": "0"
+                    },
+                    {
+                      "gold": "0"
+                    },
+                    {
+                      "militia_hre": "0"
+                    },
+                    {
+                      "popcap": "0"
+                    },
+                    {
+                      "stone": "0"
+                    },
+                    {
+                      "merc_byz": "0"
+                    },
+                    {
+                      "command": "0"
+                    },
+                    {
+                      "wood": "0"
+                    }
+                  ]
+                },
+                {
+                  "key": "ui_info_extended",
+                  "value": null,
+                  "children": [
+                    {
+                      "key": "relic_radial_menu_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "key": "linked",
+                          "value": null,
+                          "children": [
+                            {
+                              "$PBGNAME": ""
+                            },
+                            {
+                              "$PBGMAP": ""
+                            }
+                          ]
+                        },
+                        {
+                          "priority": "0"
+                        },
+                        {
+                          "$REF": "relic_radial_menu\\relic_radial_menu_info"
+                        },
+                        {
+                          "nominal_index": "0"
+                        },
+                        {
+                          "key": "menu",
+                          "value": null,
+                          "children": [
+                            {
+                              "$PBGNAME": "default"
+                            },
+                            {
+                              "$PBGMAP": "relic_radial_menu\\relic_radial_menu"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "observer_type": "1"
+                    },
+                    {
+                      "key": "quick_commands_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": "ui_quick_commands_info"
+                        },
+                        {
+                          "quick_commands_hotkey": "x_quick_command_y"
+                        },
+                        {
+                          "quick_commands_priority": "5"
+                        },
+                        {
+                          "quick_commands_slot_index": "0"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "quick_commands_launch_hud_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": "ui_quick_commands_launch_hud_info"
+                        },
+                        {
+                          "quick_commands_hold_time": "1"
+                        },
+                        {
+                          "quick_commands_hotkey": "x_quick_command_y"
+                        },
+                        {
+                          "quick_commands_priority": "5"
+                        },
+                        {
+                          "quick_commands_slot_index": "2"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "issuable_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "key": "secondary_issuable",
+                          "value": null,
+                          "children": [
+                            {
+                              "$PBGNAME": ""
+                            },
+                            {
+                              "$PBGMAP": ""
+                            }
+                          ]
+                        },
+                        {
+                          "is_secondary": "false"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "ping_menu_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "$REF": "tables\\ui_info_ext"
+                    },
+                    {
+                      "key": "quick_abilities_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "command_card_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "quick_formation_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "category": "0"
+                    }
+                  ]
+                },
+                {
+                  "spawn_at_map_entry_point": "false"
+                },
+                {
+                  "can_be_cancelled": "true"
+                },
+                {
+                  "number_to_spawn": "1"
+                },
+                {
+                  "ui_tooltip_data_template": ""
+                },
+                {
+                  "key": "hotkey_binding",
+                  "value": null,
+                  "children": [
+                    {
+                      "$PBGNAME": "produce_fishing_boat"
+                    },
+                    {
+                      "$PBGMAP": "hotkeys\\hotkey_binding"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "spawn_item",
+              "value": null,
+              "children": [
+                {
+                  "key": "squad",
+                  "value": null,
+                  "children": [
+                    {
+                      "$PBGNAME": "unit_naval_transport_ship_2_mal"
+                    },
+                    {
+                      "$PBGMAP": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "ui_menu",
+                  "value": null,
+                  "children": [
+                    {
+                      "$PBGNAME": ""
+                    },
+                    {
+                      "$PBGMAP": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "ui_position",
+                  "value": null,
+                  "children": [
+                    {
+                      "ui_position_column": "3"
+                    },
+                    {
+                      "ui_position_row": "1"
+                    }
+                  ]
+                },
+                {
+                  "available_production_count_is_shared": "false"
+                },
+                {
+                  "available_production_count_statemodel": ""
+                },
+                {
+                  "number_to_queue_up_to_when_modified": "5"
+                },
+                {
+                  "key": "entity",
+                  "value": null,
+                  "children": [
+                    {
+                      "$PBGNAME": ""
+                    },
+                    {
+                      "$PBGMAP": ""
+                    }
+                  ]
+                },
+                {
+                  "additional_squads": null
+                },
+                {
+                  "cost_openingbranch": ""
+                },
+                {
+                  "ui_icon_name": ""
+                },
+                {
+                  "key": "item_cost_adjustment",
+                  "value": null,
+                  "children": [
+                    {
+                      "food": "0"
+                    },
+                    {
+                      "action": "0"
+                    },
+                    {
+                      "gold": "0"
+                    },
+                    {
+                      "militia_hre": "0"
+                    },
+                    {
+                      "popcap": "0"
+                    },
+                    {
+                      "stone": "0"
+                    },
+                    {
+                      "merc_byz": "0"
+                    },
+                    {
+                      "command": "0"
+                    },
+                    {
+                      "wood": "0"
+                    }
+                  ]
+                },
+                {
+                  "key": "ui_info_extended",
+                  "value": null,
+                  "children": [
+                    {
+                      "key": "relic_radial_menu_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "key": "linked",
+                          "value": null,
+                          "children": [
+                            {
+                              "$PBGNAME": ""
+                            },
+                            {
+                              "$PBGMAP": ""
+                            }
+                          ]
+                        },
+                        {
+                          "priority": "0"
+                        },
+                        {
+                          "$REF": "relic_radial_menu\\relic_radial_menu_info"
+                        },
+                        {
+                          "nominal_index": "2"
+                        },
+                        {
+                          "key": "menu",
+                          "value": null,
+                          "children": [
+                            {
+                              "$PBGNAME": "default"
+                            },
+                            {
+                              "$PBGMAP": "relic_radial_menu\\relic_radial_menu"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "observer_type": "1"
+                    },
+                    {
+                      "key": "quick_commands_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": "ui_quick_commands_info"
+                        },
+                        {
+                          "quick_commands_hotkey": "x_quick_command_x"
+                        },
+                        {
+                          "quick_commands_priority": "5"
+                        },
+                        {
+                          "quick_commands_slot_index": "1"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "quick_commands_launch_hud_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": "ui_quick_commands_launch_hud_info"
+                        },
+                        {
+                          "quick_commands_hold_time": "1"
+                        },
+                        {
+                          "quick_commands_hotkey": ""
+                        },
+                        {
+                          "quick_commands_priority": "-1"
+                        },
+                        {
+                          "quick_commands_slot_index": "-1"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "issuable_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "key": "secondary_issuable",
+                          "value": null,
+                          "children": [
+                            {
+                              "$PBGNAME": ""
+                            },
+                            {
+                              "$PBGMAP": ""
+                            }
+                          ]
+                        },
+                        {
+                          "is_secondary": "false"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "ping_menu_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "$REF": "tables\\ui_info_ext"
+                    },
+                    {
+                      "key": "quick_abilities_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "command_card_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "quick_formation_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "category": "0"
+                    }
+                  ]
+                },
+                {
+                  "spawn_at_map_entry_point": "false"
+                },
+                {
+                  "can_be_cancelled": "true"
+                },
+                {
+                  "number_to_spawn": "1"
+                },
+                {
+                  "ui_tooltip_data_template": ""
+                },
+                {
+                  "key": "hotkey_binding",
+                  "value": null,
+                  "children": [
+                    {
+                      "$PBGNAME": "produce_transport_ship"
+                    },
+                    {
+                      "$PBGMAP": "hotkeys\\hotkey_binding"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "spawn_item",
+              "value": null,
+              "children": [
+                {
+                  "key": "squad",
+                  "value": null,
+                  "children": [
+                    {
+                      "$PBGNAME": "unit_naval_light_combat_ship_2_mal"
+                    },
+                    {
+                      "$PBGMAP": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "ui_menu",
+                  "value": null,
+                  "children": [
+                    {
+                      "$PBGNAME": ""
+                    },
+                    {
+                      "$PBGMAP": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "ui_position",
+                  "value": null,
+                  "children": [
+                    {
+                      "ui_position_column": "1"
+                    },
+                    {
+                      "ui_position_row": "2"
+                    }
+                  ]
+                },
+                {
+                  "available_production_count_is_shared": "false"
+                },
+                {
+                  "available_production_count_statemodel": ""
+                },
+                {
+                  "number_to_queue_up_to_when_modified": "5"
+                },
+                {
+                  "key": "entity",
+                  "value": null,
+                  "children": [
+                    {
+                      "$PBGNAME": ""
+                    },
+                    {
+                      "$PBGMAP": ""
+                    }
+                  ]
+                },
+                {
+                  "additional_squads": null
+                },
+                {
+                  "cost_openingbranch": ""
+                },
+                {
+                  "ui_icon_name": ""
+                },
+                {
+                  "key": "item_cost_adjustment",
+                  "value": null,
+                  "children": [
+                    {
+                      "food": "0"
+                    },
+                    {
+                      "action": "0"
+                    },
+                    {
+                      "gold": "0"
+                    },
+                    {
+                      "militia_hre": "0"
+                    },
+                    {
+                      "popcap": "0"
+                    },
+                    {
+                      "stone": "0"
+                    },
+                    {
+                      "merc_byz": "0"
+                    },
+                    {
+                      "command": "0"
+                    },
+                    {
+                      "wood": "0"
+                    }
+                  ]
+                },
+                {
+                  "key": "ui_info_extended",
+                  "value": null,
+                  "children": [
+                    {
+                      "key": "relic_radial_menu_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "key": "linked",
+                          "value": null,
+                          "children": [
+                            {
+                              "$PBGNAME": ""
+                            },
+                            {
+                              "$PBGMAP": ""
+                            }
+                          ]
+                        },
+                        {
+                          "priority": "0"
+                        },
+                        {
+                          "$REF": "relic_radial_menu\\relic_radial_menu_info"
+                        },
+                        {
+                          "nominal_index": "6"
+                        },
+                        {
+                          "key": "menu",
+                          "value": null,
+                          "children": [
+                            {
+                              "$PBGNAME": "default"
+                            },
+                            {
+                              "$PBGMAP": "relic_radial_menu\\relic_radial_menu"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "observer_type": "1"
+                    },
+                    {
+                      "key": "quick_commands_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "quick_commands_launch_hud_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": "ui_quick_commands_launch_hud_info"
+                        },
+                        {
+                          "quick_commands_hold_time": "1"
+                        },
+                        {
+                          "quick_commands_hotkey": ""
+                        },
+                        {
+                          "quick_commands_priority": "-1"
+                        },
+                        {
+                          "quick_commands_slot_index": "-1"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "issuable_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "key": "secondary_issuable",
+                          "value": null,
+                          "children": [
+                            {
+                              "$PBGNAME": ""
+                            },
+                            {
+                              "$PBGMAP": ""
+                            }
+                          ]
+                        },
+                        {
+                          "is_secondary": "false"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "ping_menu_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "$REF": "tables\\ui_info_ext"
+                    },
+                    {
+                      "key": "quick_abilities_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "command_card_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "quick_formation_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "category": "0"
+                    }
+                  ]
+                },
+                {
+                  "spawn_at_map_entry_point": "false"
+                },
+                {
+                  "can_be_cancelled": "true"
+                },
+                {
+                  "number_to_spawn": "1"
+                },
+                {
+                  "ui_tooltip_data_template": ""
+                },
+                {
+                  "key": "hotkey_binding",
+                  "value": null,
+                  "children": [
+                    {
+                      "$PBGNAME": "produce_archer_ship"
+                    },
+                    {
+                      "$PBGMAP": "hotkeys\\hotkey_binding"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "spawn_item",
+              "value": null,
+              "children": [
+                {
+                  "key": "squad",
+                  "value": null,
+                  "children": [
+                    {
+                      "$PBGNAME": "unit_naval_trade_ship_3_mal"
+                    },
+                    {
+                      "$PBGMAP": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "ui_menu",
+                  "value": null,
+                  "children": [
+                    {
+                      "$PBGNAME": ""
+                    },
+                    {
+                      "$PBGMAP": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "ui_position",
+                  "value": null,
+                  "children": [
+                    {
+                      "ui_position_column": "2"
+                    },
+                    {
+                      "ui_position_row": "1"
+                    }
+                  ]
+                },
+                {
+                  "available_production_count_is_shared": "false"
+                },
+                {
+                  "available_production_count_statemodel": ""
+                },
+                {
+                  "number_to_queue_up_to_when_modified": "5"
+                },
+                {
+                  "key": "entity",
+                  "value": null,
+                  "children": [
+                    {
+                      "$PBGNAME": ""
+                    },
+                    {
+                      "$PBGMAP": ""
+                    }
+                  ]
+                },
+                {
+                  "additional_squads": null
+                },
+                {
+                  "cost_openingbranch": ""
+                },
+                {
+                  "ui_icon_name": ""
+                },
+                {
+                  "key": "item_cost_adjustment",
+                  "value": null,
+                  "children": [
+                    {
+                      "food": "0"
+                    },
+                    {
+                      "action": "0"
+                    },
+                    {
+                      "gold": "0"
+                    },
+                    {
+                      "militia_hre": "0"
+                    },
+                    {
+                      "popcap": "0"
+                    },
+                    {
+                      "stone": "0"
+                    },
+                    {
+                      "merc_byz": "0"
+                    },
+                    {
+                      "command": "0"
+                    },
+                    {
+                      "wood": "0"
+                    }
+                  ]
+                },
+                {
+                  "key": "ui_info_extended",
+                  "value": null,
+                  "children": [
+                    {
+                      "key": "relic_radial_menu_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "key": "linked",
+                          "value": null,
+                          "children": [
+                            {
+                              "$PBGNAME": ""
+                            },
+                            {
+                              "$PBGMAP": ""
+                            }
+                          ]
+                        },
+                        {
+                          "priority": "0"
+                        },
+                        {
+                          "$REF": "relic_radial_menu\\relic_radial_menu_info"
+                        },
+                        {
+                          "nominal_index": "4"
+                        },
+                        {
+                          "key": "menu",
+                          "value": null,
+                          "children": [
+                            {
+                              "$PBGNAME": "default"
+                            },
+                            {
+                              "$PBGMAP": "relic_radial_menu\\relic_radial_menu"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "observer_type": "1"
+                    },
+                    {
+                      "key": "quick_commands_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "quick_commands_launch_hud_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": "ui_quick_commands_launch_hud_info"
+                        },
+                        {
+                          "quick_commands_hold_time": "1"
+                        },
+                        {
+                          "quick_commands_hotkey": ""
+                        },
+                        {
+                          "quick_commands_priority": "-1"
+                        },
+                        {
+                          "quick_commands_slot_index": "-1"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "issuable_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "key": "secondary_issuable",
+                          "value": null,
+                          "children": [
+                            {
+                              "$PBGNAME": ""
+                            },
+                            {
+                              "$PBGMAP": ""
+                            }
+                          ]
+                        },
+                        {
+                          "is_secondary": "false"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "ping_menu_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "$REF": "tables\\ui_info_ext"
+                    },
+                    {
+                      "key": "quick_abilities_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "command_card_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "quick_formation_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "category": "0"
+                    }
+                  ]
+                },
+                {
+                  "spawn_at_map_entry_point": "false"
+                },
+                {
+                  "can_be_cancelled": "true"
+                },
+                {
+                  "number_to_spawn": "1"
+                },
+                {
+                  "ui_tooltip_data_template": ""
+                },
+                {
+                  "key": "hotkey_binding",
+                  "value": null,
+                  "children": [
+                    {
+                      "$PBGNAME": "produce_trade_ship"
+                    },
+                    {
+                      "$PBGMAP": "hotkeys\\hotkey_binding"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "spawn_item",
+              "value": null,
+              "children": [
+                {
+                  "key": "squad",
+                  "value": null,
+                  "children": [
+                    {
+                      "$PBGNAME": "unit_naval_combat_ship_2_mal"
+                    },
+                    {
+                      "$PBGMAP": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "ui_menu",
+                  "value": null,
+                  "children": [
+                    {
+                      "$PBGNAME": ""
+                    },
+                    {
+                      "$PBGMAP": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "ui_position",
+                  "value": null,
+                  "children": [
+                    {
+                      "ui_position_column": "2"
+                    },
+                    {
+                      "ui_position_row": "2"
+                    }
+                  ]
+                },
+                {
+                  "available_production_count_is_shared": "false"
+                },
+                {
+                  "available_production_count_statemodel": ""
+                },
+                {
+                  "number_to_queue_up_to_when_modified": "5"
+                },
+                {
+                  "key": "entity",
+                  "value": null,
+                  "children": [
+                    {
+                      "$PBGNAME": ""
+                    },
+                    {
+                      "$PBGMAP": ""
+                    }
+                  ]
+                },
+                {
+                  "additional_squads": null
+                },
+                {
+                  "cost_openingbranch": ""
+                },
+                {
+                  "ui_icon_name": ""
+                },
+                {
+                  "key": "item_cost_adjustment",
+                  "value": null,
+                  "children": [
+                    {
+                      "food": "0"
+                    },
+                    {
+                      "action": "0"
+                    },
+                    {
+                      "gold": "0"
+                    },
+                    {
+                      "militia_hre": "0"
+                    },
+                    {
+                      "popcap": "0"
+                    },
+                    {
+                      "stone": "0"
+                    },
+                    {
+                      "merc_byz": "0"
+                    },
+                    {
+                      "command": "0"
+                    },
+                    {
+                      "wood": "0"
+                    }
+                  ]
+                },
+                {
+                  "key": "ui_info_extended",
+                  "value": null,
+                  "children": [
+                    {
+                      "key": "relic_radial_menu_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "key": "linked",
+                          "value": null,
+                          "children": [
+                            {
+                              "$PBGNAME": ""
+                            },
+                            {
+                              "$PBGMAP": ""
+                            }
+                          ]
+                        },
+                        {
+                          "priority": "0"
+                        },
+                        {
+                          "$REF": "relic_radial_menu\\relic_radial_menu_info"
+                        },
+                        {
+                          "nominal_index": "8"
+                        },
+                        {
+                          "key": "menu",
+                          "value": null,
+                          "children": [
+                            {
+                              "$PBGNAME": "default"
+                            },
+                            {
+                              "$PBGMAP": "relic_radial_menu\\relic_radial_menu"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "observer_type": "1"
+                    },
+                    {
+                      "key": "quick_commands_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "quick_commands_launch_hud_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": "ui_quick_commands_launch_hud_info"
+                        },
+                        {
+                          "quick_commands_hold_time": "1"
+                        },
+                        {
+                          "quick_commands_hotkey": ""
+                        },
+                        {
+                          "quick_commands_priority": "-1"
+                        },
+                        {
+                          "quick_commands_slot_index": "-1"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "issuable_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "key": "secondary_issuable",
+                          "value": null,
+                          "children": [
+                            {
+                              "$PBGNAME": ""
+                            },
+                            {
+                              "$PBGMAP": ""
+                            }
+                          ]
+                        },
+                        {
+                          "is_secondary": "false"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "ping_menu_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "$REF": "tables\\ui_info_ext"
+                    },
+                    {
+                      "key": "quick_abilities_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "command_card_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "key": "quick_formation_info",
+                      "value": null,
+                      "children": [
+                        {
+                          "$REF": ""
+                        }
+                      ]
+                    },
+                    {
+                      "category": "0"
+                    }
+                  ]
+                },
+                {
+                  "spawn_at_map_entry_point": "false"
+                },
+                {
+                  "can_be_cancelled": "true"
+                },
+                {
+                  "number_to_spawn": "1"
+                },
+                {
+                  "ui_tooltip_data_template": ""
+                },
+                {
+                  "key": "hotkey_binding",
+                  "value": null,
+                  "children": [
+                    {
+                      "$PBGNAME": "produce_attack_ship"
+                    },
+                    {
+                      "$PBGMAP": "hotkeys\\hotkey_binding"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "enforce_minimum_clearance_if_entities_blocking": "true"
+        },
+        {
+          "trade_only_economical_rally": "false"
+        },
+        {
+          "spawn_to_hold_try_first": "false"
+        },
+        {
+          "enforce_minimum_clearance_at_spawn_positions": "true"
+        },
+        {
+          "reset_production_progress_at_current_pop_cap": "false"
+        },
+        {
+          "$REF": "ebpextensions\\spawner_ext"
+        },
+        {
+          "reinforce_requirements_openingbranch": ""
+        },
+        {
+          "use_alternative_rally_point_system": "false"
+        },
+        {
+          "can_spawn_if_neutral": "false"
+        },
+        {
+          "reinforce_requirements": null
+        },
+        {
+          "economic_rally_points_allowed": "true"
+        },
+        {
+          "production_item_completed_openingbranch": "building_production_item_completed\\Master\\building_production_item_complete\\building_production_item_complete_naval"
+        },
+        {
+          "max_queue_size_override": "-1"
+        },
+        {
+          "reinforce_radius": "0"
+        },
+        {
+          "can_rally": "true"
+        },
+        {
+          "key": "animated_spawn_option",
+          "value": null,
+          "children": [
+            {
+              "$REF": "options\\none"
+            }
+          ]
+        },
+        {
+          "always_use_economic_rally_points": "false"
+        },
+        {
+          "queue_requirements": null
+        },
+        {
+          "key": "rally_pass_type",
+          "value": null,
+          "children": [
+            {
+              "$PBGNAME": "water_default"
+            },
+            {
+              "$PBGMAP": "pass_types"
+            }
+          ]
+        },
+        {
+          "queue_requirements_openingbranch": ""
+        },
+        {
+          "must_be_in_supply": "false"
+        }
+      ]
+    },
+    "entity_blueprint_ext": {
+      "key": "entity_blueprint_ext",
+      "value": null,
+      "children": [
+        {
+          "default_spawn_type": ""
+        },
+        {
+          "entity_scale": "100"
+        },
+        {
+          "is_visible_in_game": "true"
+        },
+        {
+          "animator_scale": "100"
+        },
+        {
+          "browsable_in_editor": "true"
+        },
+        {
+          "alternate_sua": ""
+        },
+        {
+          "is_wreck": "false"
+        },
+        {
+          "key": "unit_badge",
+          "value": null,
+          "children": [
+            {
+              "$PBGNAME": ""
+            },
+            {
+              "$PBGMAP": ""
+            }
+          ]
+        },
+        {
+          "$REF": "ebpextensions\\entity_blueprint_ext"
+        },
+        {
+          "always_revealed_in_fow": "false"
+        },
+        {
+          "precise_size": "-1"
+        },
+        {
+          "key": "animator_attachments",
+          "value": null,
+          "children": [
+            {
+              "$PBGNAME": "building_unit_naval"
+            },
+            {
+              "$PBGMAP": "attachments\\attachment_lists"
+            }
+          ]
+        },
+        {
+          "subclass_type": "10"
+        },
+        {
+          "is_spawned_when_not_in_interactive_area": "true"
+        }
+      ]
+    },
+    "upgrade_ext": {
+      "key": "upgrade_ext",
+      "value": null,
+      "children": [
+        {
+          "number_of_standard_slots": "-1"
+        },
+        {
+          "$REF": "ebpextensions\\upgrade_ext"
+        },
+        {
+          "production_item_completed_openingbranch": ""
+        },
+        {
+          "max_queue_size_override": "-1"
+        },
+        {
+          "key": "standard_upgrades",
+          "value": null,
+          "children": [
+            {
+              "key": "upgrade",
+              "value": null,
+              "children": [
+                {
+                  "$PBGNAME": "upgrade_naval_incendiaries"
+                },
+                {
+                  "$PBGMAP": "upgrade"
+                }
+              ]
+            },
+            {
+              "key": "upgrade",
+              "value": null,
+              "children": [
+                {
+                  "$PBGNAME": "upgrade_naval_springald_ship_upgrade_1"
+                },
+                {
+                  "$PBGMAP": "upgrade"
+                }
+              ]
+            },
+            {
+              "key": "upgrade",
+              "value": null,
+              "children": [
+                {
+                  "$PBGNAME": "upgrade_naval_extra_hammocks"
+                },
+                {
+                  "$PBGMAP": "upgrade"
+                }
+              ]
+            },
+            {
+              "key": "upgrade",
+              "value": null,
+              "children": [
+                {
+                  "$PBGNAME": "upgrade_naval_armored_hull"
+                },
+                {
+                  "$PBGMAP": "upgrade"
+                }
+              ]
+            },
+            {
+              "key": "upgrade",
+              "value": null,
+              "children": [
+                {
+                  "$PBGNAME": "upgrade_naval_shipwrights"
+                },
+                {
+                  "$PBGMAP": "upgrade"
+                }
+              ]
+            },
+            {
+              "key": "upgrade",
+              "value": null,
+              "children": [
+                {
+                  "$PBGNAME": "upgrade_naval_explosives"
+                },
+                {
+                  "$PBGMAP": "upgrade"
+                }
+              ]
+            },
+            {
+              "key": "upgrade",
+              "value": null,
+              "children": [
+                {
+                  "$PBGNAME": "upgrade_econ_drift_nets"
+                },
+                {
+                  "$PBGMAP": "upgrade"
+                }
+              ]
+            },
+            {
+              "key": "upgrade",
+              "value": null,
+              "children": [
+                {
+                  "$PBGNAME": "upgrade_econ_extended_lines"
+                },
+                {
+                  "$PBGMAP": "upgrade"
+                }
+              ]
+            },
+            {
+              "key": "upgrade",
+              "value": null,
+              "children": [
+                {
+                  "$PBGNAME": "upgrade_naval_swivel_cannon"
+                },
+                {
+                  "$PBGMAP": "upgrade"
+                }
+              ]
+            },
+            {
+              "key": "upgrade",
+              "value": null,
+              "children": [
+                {
+                  "$PBGNAME": "upgrade_naval_arrowslits"
+                },
+                {
+                  "$PBGMAP": "upgrade"
+                }
+              ]
+            },
+            {
+              "key": "upgrade",
+              "value": null,
+              "children": [
+                {
+                  "$PBGNAME": "upgrade_naval_heated_shot"
+                },
+                {
+                  "$PBGMAP": "upgrade"
+                }
+              ]
+            },
+            {
+              "key": "upgrade",
+              "value": null,
+              "children": [
+                {
+                  "$PBGNAME": "upgrade_naval_mounted_guns"
+                },
+                {
+                  "$PBGMAP": "upgrade"
+                }
+              ]
+            },
+            {
+              "key": "upgrade",
+              "value": null,
+              "children": [
+                {
+                  "$PBGNAME": "upgrade_naval_javelin_ships_mal"
+                },
+                {
+                  "$PBGMAP": "upgrade"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "must_be_in_supply": "false"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "files_removed": 19048,
+  "scope": "Older-release exact duplicate caches and hash-proven decoded QA only",
+  "output_baseline_bytes_before": 24664842035,
+  "output_baseline_bytes_after": 21632206836,
+  "selected_bytes_before": 3032635199,
+  "selected_bytes_after": 0,
+  "logical_reclaimed_by_drive": {
+    "E:": 0,
+    "F:": 3032635199
+  },
+  "physical_reclaimed_lower_bound_by_drive": {
+    "E:": 0,
+    "F:": 3032635199
+  },
+  "new_output_bytes_outside_baseline": 0,
+  "zip_post_cleanup": "All 30 retained ZIPs: SHA256 unchanged and full CRC reread passed",
+  "protected_authoritative_sgas": "0.5.1 and 0.6.1 hashes unchanged; packaged 0.7.0 and 0.7.3 archive hashes verified",
+  "retained": [
+    {
+      "path": "All original and normalized voice WAVs, pre-normalization backups, encoded WEM banks, profiles and receipts",
+      "reason": "Required accepted voice sources and exact receipt/normalization provenance"
+    },
+    {
+      "path": "All Blender files/backups and editable texture/model inputs",
+      "reason": "User-protected authoring work"
+    },
+    {
+      "path": "Older decoded-static.json and shared stock caches",
+      "reason": "Existing authoring recipes require their current paths; no newly qualified transparent compressed reader/regeneration route"
+    },
+    {
+      "path": "Unique intermediate/checkpoint files without an exact replacement",
+      "reason": "Unique or uncertain rebuild dependencies retained conservatively"
+    },
+    {
+      "path": "0.7.3 extracted installer folder and installed game audio",
+      "reason": "Active user installation excluded; no game-file operations"
+    }
+  ],
+  "restore_tests": "Two fixture tests passed; decode probe byte-identical; 0.6.0 readback helper supports automatic duplicate restoration",
+  "game_files_modified": false,
+  "garrison_or_blender_sessions_changed": false,
+  "incomplete_deletions": 0
+}

@@ -1,0 +1,4760 @@
+{
+  "archive": {
+    "block_size": 262144,
+    "file_count": 473,
+    "folder_count": 35,
+    "header_encryption": "None",
+    "name": "CardinalUI",
+    "path": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\UI.sga",
+    "product": 0,
+    "signature_present": true,
+    "toc_count": 1,
+    "tocs": [
+      {
+        "alias": "data",
+        "name": "data"
+      }
+    ],
+    "verification": null,
+    "version": 10
+  },
+  "filter": null,
+  "member_count": 473,
+  "members": [
+    {
+      "crc": 3243749779,
+      "encryption": "None",
+      "path": "statetrees/ui_game/statetree.bin",
+      "size": 2174236,
+      "storage": "StreamCompress",
+      "stored_size": 633730,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4028964971,
+      "encryption": "None",
+      "path": "ui/gameuiapp.xaml",
+      "size": 13670,
+      "storage": "StreamCompress",
+      "stored_size": 2426,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2357581377,
+      "encryption": "None",
+      "path": "ui/gameuiappwindow.xaml",
+      "size": 35265,
+      "storage": "StreamCompress",
+      "stored_size": 3524,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3340241166,
+      "encryption": "None",
+      "path": "ui/avui/navbutton.xaml",
+      "size": 429,
+      "storage": "StreamCompress",
+      "stored_size": 239,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2109562573,
+      "encryption": "None",
+      "path": "ui/hud/controls/abilitytooltip.xaml",
+      "size": 2676,
+      "storage": "StreamCompress",
+      "stored_size": 701,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 491877271,
+      "encryption": "None",
+      "path": "ui/hud/controls/buildmenupanel.xaml",
+      "size": 22228,
+      "storage": "StreamCompress",
+      "stored_size": 2821,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 832314089,
+      "encryption": "None",
+      "path": "ui/hud/controls/buildqueuepanel.xaml",
+      "size": 14306,
+      "storage": "StreamCompress",
+      "stored_size": 2395,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 888662864,
+      "encryption": "None",
+      "path": "ui/hud/controls/civflagicons.xaml",
+      "size": 8116,
+      "storage": "StreamCompress",
+      "stored_size": 658,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 434271641,
+      "encryption": "None",
+      "path": "ui/hud/controls/daimyo.xaml",
+      "size": 55019,
+      "storage": "StreamCompress",
+      "stored_size": 5430,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 435632533,
+      "encryption": "None",
+      "path": "ui/hud/controls/debugrelicradialmenu.xaml",
+      "size": 11474,
+      "storage": "StreamCompress",
+      "stored_size": 1947,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1456705896,
+      "encryption": "None",
+      "path": "ui/hud/controls/globalabilitiesresources.xaml",
+      "size": 63681,
+      "storage": "StreamCompress",
+      "stored_size": 4470,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3889410136,
+      "encryption": "None",
+      "path": "ui/hud/controls/globalbuildqueuepanel.xaml",
+      "size": 23261,
+      "storage": "StreamCompress",
+      "stored_size": 2427,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 131038646,
+      "encryption": "None",
+      "path": "ui/hud/controls/historicalfrenchui.xaml",
+      "size": 40190,
+      "storage": "StreamCompress",
+      "stored_size": 3285,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2663167540,
+      "encryption": "None",
+      "path": "ui/hud/controls/issuablebutton.xaml",
+      "size": 244684,
+      "storage": "StreamCompress",
+      "stored_size": 20883,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3682443489,
+      "encryption": "None",
+      "path": "ui/hud/controls/issuabletooltip.xaml",
+      "size": 109830,
+      "storage": "StreamCompress",
+      "stored_size": 8676,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3334876672,
+      "encryption": "None",
+      "path": "ui/hud/controls/legacy.xaml",
+      "size": 16044,
+      "storage": "StreamCompress",
+      "stored_size": 2212,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4118790047,
+      "encryption": "None",
+      "path": "ui/hud/controls/mapcontrol.xaml",
+      "size": 868,
+      "storage": "StreamCompress",
+      "stored_size": 359,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3283718088,
+      "encryption": "None",
+      "path": "ui/hud/controls/objectivetemplates.xaml",
+      "size": 103147,
+      "storage": "StreamCompress",
+      "stored_size": 8430,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3025422221,
+      "encryption": "None",
+      "path": "ui/hud/controls/playerscores.xaml",
+      "size": 21643,
+      "storage": "StreamCompress",
+      "stored_size": 2282,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2451117001,
+      "encryption": "None",
+      "path": "ui/hud/controls/productiontooltip.xaml",
+      "size": 8828,
+      "storage": "StreamCompress",
+      "stored_size": 1744,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 655727230,
+      "encryption": "None",
+      "path": "ui/hud/controls/relicradialmenu.xaml",
+      "size": 235028,
+      "storage": "StreamCompress",
+      "stored_size": 22006,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1695531205,
+      "encryption": "None",
+      "path": "ui/hud/controls/relicradialmenugroup.xaml",
+      "size": 1206,
+      "storage": "StreamCompress",
+      "stored_size": 490,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2207505668,
+      "encryption": "None",
+      "path": "ui/hud/controls/replaycontrol.xaml",
+      "size": 39018,
+      "storage": "StreamCompress",
+      "stored_size": 5042,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 164113190,
+      "encryption": "None",
+      "path": "ui/hud/controls/replaystatviewer.xaml",
+      "size": 218950,
+      "storage": "StreamCompress",
+      "stored_size": 10219,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3478360621,
+      "encryption": "None",
+      "path": "ui/hud/controls/resourcespanel.xaml",
+      "size": 55536,
+      "storage": "StreamCompress",
+      "stored_size": 6107,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 132902750,
+      "encryption": "None",
+      "path": "ui/hud/controls/resourcetooltip.xaml",
+      "size": 2436,
+      "storage": "StreamCompress",
+      "stored_size": 746,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1278807670,
+      "encryption": "None",
+      "path": "ui/hud/controls/selectioncard.xaml",
+      "size": 209390,
+      "storage": "StreamCompress",
+      "stored_size": 15908,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 700230159,
+      "encryption": "None",
+      "path": "ui/hud/controls/selectioncardtooltip.xaml",
+      "size": 49302,
+      "storage": "StreamCompress",
+      "stored_size": 5062,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1510994904,
+      "encryption": "None",
+      "path": "ui/hud/controls/sengokudaimyo.xaml",
+      "size": 15339,
+      "storage": "StreamCompress",
+      "stored_size": 2465,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2373575559,
+      "encryption": "None",
+      "path": "ui/hud/controls/squadorentitytooltip.xaml",
+      "size": 1892,
+      "storage": "StreamCompress",
+      "stored_size": 619,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2144297633,
+      "encryption": "None",
+      "path": "ui/hud/controls/xboxcommandcard.xaml",
+      "size": 39938,
+      "storage": "StreamCompress",
+      "stored_size": 3553,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2601765426,
+      "encryption": "None",
+      "path": "ui/hud/controls/xboxdefeatstingercontrol.xaml",
+      "size": 42244,
+      "storage": "StreamCompress",
+      "stored_size": 2818,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 859001535,
+      "encryption": "None",
+      "path": "ui/hud/controls/xboxglobalbuildqueue.xaml",
+      "size": 6400,
+      "storage": "StreamCompress",
+      "stored_size": 1504,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2182211232,
+      "encryption": "None",
+      "path": "ui/hud/controls/xboxkbmreplaycontrol.xaml",
+      "size": 13948,
+      "storage": "StreamCompress",
+      "stored_size": 1755,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1284046678,
+      "encryption": "None",
+      "path": "ui/hud/controls/xboxlocalbuildqueue.xaml",
+      "size": 9248,
+      "storage": "StreamCompress",
+      "stored_size": 1941,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2836897959,
+      "encryption": "None",
+      "path": "ui/hud/controls/xboxreplaycinematicmode.xaml",
+      "size": 5604,
+      "storage": "StreamCompress",
+      "stored_size": 1295,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2583794200,
+      "encryption": "None",
+      "path": "ui/hud/controls/xboxreplaycontrol.xaml",
+      "size": 30765,
+      "storage": "StreamCompress",
+      "stored_size": 4288,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 220384306,
+      "encryption": "None",
+      "path": "ui/hud/controls/xboxreplayresourcespanel.xaml",
+      "size": 19657,
+      "storage": "StreamCompress",
+      "stored_size": 3078,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3208302212,
+      "encryption": "None",
+      "path": "ui/hud/controls/xboxreplaystatviewer.xaml",
+      "size": 142008,
+      "storage": "StreamCompress",
+      "stored_size": 8382,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2835826421,
+      "encryption": "None",
+      "path": "ui/hud/controls/xboxreplaytablepanel.xaml",
+      "size": 38334,
+      "storage": "StreamCompress",
+      "stored_size": 4308,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 808407564,
+      "encryption": "None",
+      "path": "ui/hud/controls/xboxresourcepaneltooltip.xaml",
+      "size": 4744,
+      "storage": "StreamCompress",
+      "stored_size": 1124,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4097401091,
+      "encryption": "None",
+      "path": "ui/hud/controls/xboxrogueendlessmodestingercontrol.xaml",
+      "size": 59252,
+      "storage": "StreamCompress",
+      "stored_size": 4570,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3420002215,
+      "encryption": "None",
+      "path": "ui/hud/controls/xboxselectioncard.xaml",
+      "size": 188404,
+      "storage": "StreamCompress",
+      "stored_size": 15659,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2638997367,
+      "encryption": "None",
+      "path": "ui/hud/controls/xboxselectioncardtooltip.xaml",
+      "size": 51636,
+      "storage": "StreamCompress",
+      "stored_size": 4821,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4035637737,
+      "encryption": "None",
+      "path": "ui/hud/controls/xboxvictorystingercontrol.xaml",
+      "size": 53247,
+      "storage": "StreamCompress",
+      "stored_size": 3832,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3549388050,
+      "encryption": "None",
+      "path": "ui/hud/controls/castermode/ageadvancement.xaml",
+      "size": 7825,
+      "storage": "StreamCompress",
+      "stored_size": 1363,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3738150128,
+      "encryption": "None",
+      "path": "ui/hud/controls/castermode/armysummary.xaml",
+      "size": 6920,
+      "storage": "StreamCompress",
+      "stored_size": 1518,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1394292389,
+      "encryption": "None",
+      "path": "ui/hud/controls/castermode/balancepanel.xaml",
+      "size": 41462,
+      "storage": "StreamCompress",
+      "stored_size": 3016,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1813094906,
+      "encryption": "None",
+      "path": "ui/hud/controls/castermode/keytechs.xaml",
+      "size": 190362,
+      "storage": "StreamCompress",
+      "stored_size": 10756,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1317187718,
+      "encryption": "None",
+      "path": "ui/hud/controls/castermode/playerscores.xaml",
+      "size": 5588,
+      "storage": "StreamCompress",
+      "stored_size": 1165,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2786773417,
+      "encryption": "None",
+      "path": "ui/hud/controls/castermode/selectioncard.xaml",
+      "size": 199494,
+      "storage": "StreamCompress",
+      "stored_size": 15628,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3897104647,
+      "encryption": "None",
+      "path": "ui/hud/controls/castermode/tablepanel.xaml",
+      "size": 19306,
+      "storage": "StreamCompress",
+      "stored_size": 2588,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3702852293,
+      "encryption": "None",
+      "path": "ui/hud/controls/castermode/teamheader.xaml",
+      "size": 14343,
+      "storage": "StreamCompress",
+      "stored_size": 2370,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2820128375,
+      "encryption": "None",
+      "path": "ui/hud/controls/castermode/techqueue.xaml",
+      "size": 3085,
+      "storage": "StreamCompress",
+      "stored_size": 846,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3354612793,
+      "encryption": "None",
+      "path": "ui/hud/controls/castermode/victorycondition.xaml",
+      "size": 10156,
+      "storage": "StreamCompress",
+      "stored_size": 1504,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 561442275,
+      "encryption": "None",
+      "path": "ui/hud/modalpages/playerlistmodalpage.xaml",
+      "size": 55333,
+      "storage": "StreamCompress",
+      "stored_size": 5021,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1267687306,
+      "encryption": "None",
+      "path": "ui/hud/modalpages/tauntslistmodalpage.xaml",
+      "size": 2941,
+      "storage": "StreamCompress",
+      "stored_size": 938,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1326568156,
+      "encryption": "None",
+      "path": "ui/hud/modalpages/xboxcodexmodalpage.xaml",
+      "size": 1327,
+      "storage": "StreamCompress",
+      "stored_size": 487,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3201759129,
+      "encryption": "None",
+      "path": "ui/hud/modalpages/xboxplayerlistmodalpage.xaml",
+      "size": 61124,
+      "storage": "StreamCompress",
+      "stored_size": 5969,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 487730647,
+      "encryption": "None",
+      "path": "ui/hud/pages/cardinalhudpage.xaml",
+      "size": 981783,
+      "storage": "StreamCompress",
+      "stored_size": 68652,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3253706222,
+      "encryption": "None",
+      "path": "ui/hud/pages/castermodehudpage.xaml",
+      "size": 750721,
+      "storage": "StreamCompress",
+      "stored_size": 54460,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 632185130,
+      "encryption": "None",
+      "path": "ui/hud/pages/observerdelaypage.xaml",
+      "size": 4655,
+      "storage": "StreamCompress",
+      "stored_size": 1306,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2430251833,
+      "encryption": "None",
+      "path": "ui/hud/pages/pausemenupage.xaml",
+      "size": 56002,
+      "storage": "StreamCompress",
+      "stored_size": 5694,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3531678727,
+      "encryption": "None",
+      "path": "ui/hud/pages/xboxcardinalhudpage.xaml",
+      "size": 1215644,
+      "storage": "StreamCompress",
+      "stored_size": 84991,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1796732097,
+      "encryption": "None",
+      "path": "ui/hud/pages/xboxobserverdelaypage.xaml",
+      "size": 7528,
+      "storage": "StreamCompress",
+      "stored_size": 1687,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 390075806,
+      "encryption": "None",
+      "path": "ui/hud/pages/xboxpausemenupage.xaml",
+      "size": 75239,
+      "storage": "StreamCompress",
+      "stored_size": 7505,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 457089539,
+      "encryption": "None",
+      "path": "ui/hud/pages/xboxquickfindhud.xaml",
+      "size": 142850,
+      "storage": "StreamCompress",
+      "stored_size": 9668,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1687877061,
+      "encryption": "None",
+      "path": "ui/intro/pages/connectingandgenericloadingpage.xaml",
+      "size": 6430,
+      "storage": "StreamCompress",
+      "stored_size": 1713,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 930818746,
+      "encryption": "None",
+      "path": "ui/intro/pages/legalpage.xaml",
+      "size": 3262,
+      "storage": "StreamCompress",
+      "stored_size": 906,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 311941443,
+      "encryption": "None",
+      "path": "ui/intro/pages/xboxconnectingandgenericloadingpage.xaml",
+      "size": 6640,
+      "storage": "StreamCompress",
+      "stored_size": 1747,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 208514364,
+      "encryption": "None",
+      "path": "ui/intro/pages/xboxtitlepage.xaml",
+      "size": 30182,
+      "storage": "StreamCompress",
+      "stored_size": 3430,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 782446711,
+      "encryption": "None",
+      "path": "ui/loading/controls/loginpagecontrol.xaml",
+      "size": 1516,
+      "storage": "StreamCompress",
+      "stored_size": 570,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2811066174,
+      "encryption": "None",
+      "path": "ui/loading/pages/loadcampaignpage.xaml",
+      "size": 16698,
+      "storage": "StreamCompress",
+      "stored_size": 3104,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2350273817,
+      "encryption": "None",
+      "path": "ui/loading/pages/loadchallengemissionpage.xaml",
+      "size": 16086,
+      "storage": "StreamCompress",
+      "stored_size": 2889,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3020602930,
+      "encryption": "None",
+      "path": "ui/loading/pages/loadmultiplayerpage.xaml",
+      "size": 53552,
+      "storage": "StreamCompress",
+      "stored_size": 7360,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4273388047,
+      "encryption": "None",
+      "path": "ui/loading/pages/loadroguemodepage.xaml",
+      "size": 23839,
+      "storage": "StreamCompress",
+      "stored_size": 4003,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2196886671,
+      "encryption": "None",
+      "path": "ui/loading/pages/xboxloadcampaignpage.xaml",
+      "size": 77336,
+      "storage": "StreamCompress",
+      "stored_size": 8326,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1928176855,
+      "encryption": "None",
+      "path": "ui/loading/pages/xboxloadchallengemissionpage.xaml",
+      "size": 22480,
+      "storage": "StreamCompress",
+      "stored_size": 3900,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4131156810,
+      "encryption": "None",
+      "path": "ui/loading/pages/xboxloadmultiplayerpage.xaml",
+      "size": 62731,
+      "storage": "StreamCompress",
+      "stored_size": 8065,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 185482842,
+      "encryption": "None",
+      "path": "ui/loading/pages/xboxloadroguemodepage.xaml",
+      "size": 29322,
+      "storage": "StreamCompress",
+      "stored_size": 4701,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3169343177,
+      "encryption": "None",
+      "path": "ui/lobby/lobbyresources.xaml",
+      "size": 40752,
+      "storage": "StreamCompress",
+      "stored_size": 4781,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3929750998,
+      "encryption": "None",
+      "path": "ui/lobby/notificationsresources.xaml",
+      "size": 9013,
+      "storage": "StreamCompress",
+      "stored_size": 1582,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1971210279,
+      "encryption": "None",
+      "path": "ui/lobby/xboxnotificationsresources.xaml",
+      "size": 19690,
+      "storage": "StreamCompress",
+      "stored_size": 2894,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 115050610,
+      "encryption": "None",
+      "path": "ui/lobby/controls/iteminstanceviewer.xaml",
+      "size": 9993,
+      "storage": "StreamCompress",
+      "stored_size": 2189,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4023271143,
+      "encryption": "None",
+      "path": "ui/lobby/controls/postgamegraph.xaml",
+      "size": 51869,
+      "storage": "StreamCompress",
+      "stored_size": 4904,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3923596534,
+      "encryption": "None",
+      "path": "ui/lobby/controls/postgameplayerlist.xaml",
+      "size": 31442,
+      "storage": "StreamCompress",
+      "stored_size": 3933,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2467270311,
+      "encryption": "None",
+      "path": "ui/lobby/controls/postgameprogressionpanel.xaml",
+      "size": 40406,
+      "storage": "StreamCompress",
+      "stored_size": 3692,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1050239868,
+      "encryption": "None",
+      "path": "ui/lobby/controls/postgamestatstable.xaml",
+      "size": 97103,
+      "storage": "StreamCompress",
+      "stored_size": 5672,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3387762715,
+      "encryption": "None",
+      "path": "ui/lobby/controls/styles.xaml",
+      "size": 726,
+      "storage": "StreamCompress",
+      "stored_size": 266,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2294880655,
+      "encryption": "None",
+      "path": "ui/lobby/controls/timelinelistboxstyle.xaml",
+      "size": 54149,
+      "storage": "StreamCompress",
+      "stored_size": 3254,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 279047059,
+      "encryption": "None",
+      "path": "ui/lobby/controls/xboxiteminstanceviewer.xaml",
+      "size": 27242,
+      "storage": "StreamCompress",
+      "stored_size": 3595,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3024078021,
+      "encryption": "None",
+      "path": "ui/lobby/controls/xboxpostgamegraph.xaml",
+      "size": 1619,
+      "storage": "StreamCompress",
+      "stored_size": 538,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3820164035,
+      "encryption": "None",
+      "path": "ui/lobby/controls/xboxpostgameprogressionpanel.xaml",
+      "size": 37179,
+      "storage": "StreamCompress",
+      "stored_size": 3602,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3763701183,
+      "encryption": "None",
+      "path": "ui/lobby/controls/xboxpostgamestatstable.xaml",
+      "size": 203130,
+      "storage": "StreamCompress",
+      "stored_size": 8332,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3141207872,
+      "encryption": "None",
+      "path": "ui/lobby/dialogs/creatingmatchdialogpage.xaml",
+      "size": 2907,
+      "storage": "StreamCompress",
+      "stored_size": 863,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2651843088,
+      "encryption": "None",
+      "path": "ui/lobby/dialogs/xboxcreatingmatchdialogpage.xaml",
+      "size": 10549,
+      "storage": "StreamCompress",
+      "stored_size": 1875,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 475829870,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/campaignchangedifficultymodalpage.xaml",
+      "size": 9019,
+      "storage": "StreamCompress",
+      "stored_size": 1935,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1083988211,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/campaigninitialdifficultymodalpage.xaml",
+      "size": 9518,
+      "storage": "StreamCompress",
+      "stored_size": 1954,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1605865180,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/campaignpostgameunlockablesmodalpage.xaml",
+      "size": 855,
+      "storage": "StreamCompress",
+      "stored_size": 416,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3322205822,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/challengepathsmodalpage.xaml",
+      "size": 75173,
+      "storage": "StreamCompress",
+      "stored_size": 8843,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2746073406,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/challengepostgameunlockablesmodalpage.xaml",
+      "size": 856,
+      "storage": "StreamCompress",
+      "stored_size": 421,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3960688728,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/challengesmodalpage.xaml",
+      "size": 6608,
+      "storage": "StreamCompress",
+      "stored_size": 1376,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2863407150,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/coatofarmspopover.xaml",
+      "size": 30267,
+      "storage": "StreamCompress",
+      "stored_size": 3645,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1016336975,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/creditsmodalpage.xaml",
+      "size": 15480,
+      "storage": "StreamCompress",
+      "stored_size": 2169,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 651881102,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/editgamenamemodalpage.xaml",
+      "size": 4661,
+      "storage": "StreamCompress",
+      "stored_size": 1193,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4184391526,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/frontenditeminstanceviewerpage.xaml",
+      "size": 2089,
+      "storage": "StreamCompress",
+      "stored_size": 677,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4195228147,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/frontendunlockablesmodalpage.xaml",
+      "size": 760,
+      "storage": "StreamCompress",
+      "stored_size": 379,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2475344619,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/ftueplaytabfirstaccessmodalpage.xaml",
+      "size": 28190,
+      "storage": "StreamCompress",
+      "stored_size": 3737,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1554836173,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/itemselectionmodal.xaml",
+      "size": 15454,
+      "storage": "StreamCompress",
+      "stored_size": 2502,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 647418339,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/mapempowermentmodalpage.xaml",
+      "size": 45340,
+      "storage": "StreamCompress",
+      "stored_size": 5606,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2473859049,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/matchhistorypopover.xaml",
+      "size": 41876,
+      "storage": "StreamCompress",
+      "stored_size": 4546,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4109995350,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/monumentpopover.xaml",
+      "size": 7648,
+      "storage": "StreamCompress",
+      "stored_size": 1746,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3151038580,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/multiplayerrankslistmodalpage.xaml",
+      "size": 14409,
+      "storage": "StreamCompress",
+      "stored_size": 2697,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 584824081,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/newsitemmodalpage.xaml",
+      "size": 13510,
+      "storage": "StreamCompress",
+      "stored_size": 2398,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2329760876,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/patchdownloadingpage.xaml",
+      "size": 5266,
+      "storage": "StreamCompress",
+      "stored_size": 1326,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1992503730,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/playersearchpage.xaml",
+      "size": 80479,
+      "storage": "StreamCompress",
+      "stored_size": 5494,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3213010118,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/postgameiteminstanceviewerpage.xaml",
+      "size": 996,
+      "storage": "StreamCompress",
+      "stored_size": 377,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 976124353,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/postgamematchdetailsmodalpage.xaml",
+      "size": 43279,
+      "storage": "StreamCompress",
+      "stored_size": 4838,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3981632910,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/postgameprogressionmodalpage.xaml",
+      "size": 35910,
+      "storage": "StreamCompress",
+      "stored_size": 3661,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4096887955,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/postgameunlockablesmodalpagebase.xaml",
+      "size": 8249,
+      "storage": "StreamCompress",
+      "stored_size": 1724,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3445148071,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/profileimagepopover.xaml",
+      "size": 16048,
+      "storage": "StreamCompress",
+      "stored_size": 2915,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2895672932,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/profilemodalpage.xaml",
+      "size": 103348,
+      "storage": "StreamCompress",
+      "stored_size": 9407,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2574202796,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/profilemodalpagematchhistory.xaml",
+      "size": 28674,
+      "storage": "StreamCompress",
+      "stored_size": 3437,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1741067614,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/profilemodalpagemods.xaml",
+      "size": 556,
+      "storage": "StreamCompress",
+      "stored_size": 304,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1625717890,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/profilemodalpageoverview.xaml",
+      "size": 68066,
+      "storage": "StreamCompress",
+      "stored_size": 5796,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4131792734,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/profilemodalpageranked.xaml",
+      "size": 28410,
+      "storage": "StreamCompress",
+      "stored_size": 2455,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4063248835,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/profilemodalpagerogue.xaml",
+      "size": 7627,
+      "storage": "StreamCompress",
+      "stored_size": 1649,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2997558232,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/profilemodalpagetaunts.xaml",
+      "size": 915,
+      "storage": "StreamCompress",
+      "stored_size": 429,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3139432942,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/roguemodedifficultymodalpage.xaml",
+      "size": 9410,
+      "storage": "StreamCompress",
+      "stored_size": 2045,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2276409411,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/roguemodeftuemodalpage.xaml",
+      "size": 31893,
+      "storage": "StreamCompress",
+      "stored_size": 3382,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 919676490,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/roguemodematchdetailsmodal.xaml",
+      "size": 32069,
+      "storage": "StreamCompress",
+      "stored_size": 3227,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4241098857,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/roguemodemedalmodalpage.xaml",
+      "size": 13670,
+      "storage": "StreamCompress",
+      "stored_size": 2485,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3415091946,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/roguemodeperkstoremodalpage.xaml",
+      "size": 34812,
+      "storage": "StreamCompress",
+      "stored_size": 4703,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2864189790,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/seasoncompletemodalpage.xaml",
+      "size": 25920,
+      "storage": "StreamCompress",
+      "stored_size": 2867,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1318513225,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/selectservermodalpage.xaml",
+      "size": 31714,
+      "storage": "StreamCompress",
+      "stored_size": 4129,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 551438212,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/startupnewsmodalpage.xaml",
+      "size": 2638,
+      "storage": "StreamCompress",
+      "stored_size": 867,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4080529423,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/unlockablesmodalpagebase.xaml",
+      "size": 9706,
+      "storage": "StreamCompress",
+      "stored_size": 2005,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1090417229,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxchallengedebriefingtipsmodalpage.xaml",
+      "size": 6153,
+      "storage": "StreamCompress",
+      "stored_size": 1478,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1352392437,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxchangeskirmishmapfiltermodalpage.xaml",
+      "size": 25848,
+      "storage": "StreamCompress",
+      "stored_size": 3106,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1965062423,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxchangeskirmishmapmodalpage.xaml",
+      "size": 68607,
+      "storage": "StreamCompress",
+      "stored_size": 7486,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1538412330,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxchatmodalpage.xaml",
+      "size": 245967,
+      "storage": "StreamCompress",
+      "stored_size": 20646,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2326192159,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxcreditsmodalpage.xaml",
+      "size": 18444,
+      "storage": "StreamCompress",
+      "stored_size": 2400,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 53416304,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxcustombrowserfilterpage.xaml",
+      "size": 54110,
+      "storage": "StreamCompress",
+      "stored_size": 4868,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 854808598,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxeditgamenamemodalpage.xaml",
+      "size": 8362,
+      "storage": "StreamCompress",
+      "stored_size": 1623,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2603343714,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxexittobrowsermodalpage.xaml",
+      "size": 9276,
+      "storage": "StreamCompress",
+      "stored_size": 1652,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3252979951,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxftuemodstabfirsttimeaccessmodalpage.xaml",
+      "size": 7884,
+      "storage": "StreamCompress",
+      "stored_size": 1479,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3056310279,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxftuemultiplayertabfirsttimeaccessmodalpage.xaml",
+      "size": 40839,
+      "storage": "StreamCompress",
+      "stored_size": 4131,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 184424385,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxftueplaytabfirstaccessmodalpage.xaml",
+      "size": 35798,
+      "storage": "StreamCompress",
+      "stored_size": 4115,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 743610026,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxiteminstanceviewerpage.xaml",
+      "size": 4205,
+      "storage": "StreamCompress",
+      "stored_size": 1118,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1416658879,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxmapempowermentmodalpage.xaml",
+      "size": 83411,
+      "storage": "StreamCompress",
+      "stored_size": 8989,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3436507285,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxmapmultiselectmodalpage.xaml",
+      "size": 64057,
+      "storage": "StreamCompress",
+      "stored_size": 7559,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1016879206,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxmodsexitmodalpage.xaml",
+      "size": 11989,
+      "storage": "StreamCompress",
+      "stored_size": 2055,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 261467639,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxmodsfiltermodalpage.xaml",
+      "size": 19208,
+      "storage": "StreamCompress",
+      "stored_size": 2665,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1086967809,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxmodsratingmodalpage.xaml",
+      "size": 6678,
+      "storage": "StreamCompress",
+      "stored_size": 1417,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1976307789,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxmultiplayerrankslistmodalpage.xaml",
+      "size": 32630,
+      "storage": "StreamCompress",
+      "stored_size": 4553,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 706466745,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxnewsitemmodalpage.xaml",
+      "size": 30138,
+      "storage": "StreamCompress",
+      "stored_size": 4170,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 245972201,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxpatchdownloadingpage.xaml",
+      "size": 7169,
+      "storage": "StreamCompress",
+      "stored_size": 1579,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 838237636,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxpostgamematchdetailsmodalpage.xaml",
+      "size": 58138,
+      "storage": "StreamCompress",
+      "stored_size": 6912,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2279995183,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxpostgametimelinekeymodalpage.xaml",
+      "size": 12852,
+      "storage": "StreamCompress",
+      "stored_size": 1769,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3238052803,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxprofilemodalpage.xaml",
+      "size": 33165,
+      "storage": "StreamCompress",
+      "stored_size": 4154,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1143540399,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxroguemodedifficultymodalpage.xaml",
+      "size": 23243,
+      "storage": "StreamCompress",
+      "stored_size": 3407,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1340469723,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxroguemodeftuemodalpage.xaml",
+      "size": 35747,
+      "storage": "StreamCompress",
+      "stored_size": 3689,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4264033968,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxroguemodemedalmodalpage.xaml",
+      "size": 16374,
+      "storage": "StreamCompress",
+      "stored_size": 2917,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2356348632,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxroguemodeperkstoremodalpage.xaml",
+      "size": 71938,
+      "storage": "StreamCompress",
+      "stored_size": 7043,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2185669929,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxseasoncompletemodalpage.xaml",
+      "size": 17384,
+      "storage": "StreamCompress",
+      "stored_size": 2823,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3545613313,
+      "encryption": "None",
+      "path": "ui/lobby/modalpages/xboxunlockablesmodalpage.xaml",
+      "size": 30029,
+      "storage": "StreamCompress",
+      "stored_size": 3703,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1895493869,
+      "encryption": "None",
+      "path": "ui/lobby/pages/animation.xaml",
+      "size": 26765,
+      "storage": "StreamCompress",
+      "stored_size": 4128,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2756795706,
+      "encryption": "None",
+      "path": "ui/lobby/pages/browseobservablegamespage.xaml",
+      "size": 12013,
+      "storage": "StreamCompress",
+      "stored_size": 2347,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 195194803,
+      "encryption": "None",
+      "path": "ui/lobby/pages/browseobservegamescommonresources.xaml",
+      "size": 140031,
+      "storage": "StreamCompress",
+      "stored_size": 11678,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1480086913,
+      "encryption": "None",
+      "path": "ui/lobby/pages/campaignbriefingpage.xaml",
+      "size": 5354,
+      "storage": "StreamCompress",
+      "stored_size": 1216,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1019876440,
+      "encryption": "None",
+      "path": "ui/lobby/pages/campaigncompletepage.xaml",
+      "size": 515,
+      "storage": "StreamCompress",
+      "stored_size": 275,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2012358097,
+      "encryption": "None",
+      "path": "ui/lobby/pages/campaigncreatepage.xaml",
+      "size": 511,
+      "storage": "StreamCompress",
+      "stored_size": 274,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2301974414,
+      "encryption": "None",
+      "path": "ui/lobby/pages/campaigndebriefingpage.xaml",
+      "size": 32543,
+      "storage": "StreamCompress",
+      "stored_size": 4143,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 640177131,
+      "encryption": "None",
+      "path": "ui/lobby/pages/campaignpanecampaignselectpage.xaml",
+      "size": 3682,
+      "storage": "StreamCompress",
+      "stored_size": 969,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2268960692,
+      "encryption": "None",
+      "path": "ui/lobby/pages/campaignpanestartcampaignpage.xaml",
+      "size": 1351,
+      "storage": "StreamCompress",
+      "stored_size": 575,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3443802163,
+      "encryption": "None",
+      "path": "ui/lobby/pages/challengemissiondebriefingpage.xaml",
+      "size": 89624,
+      "storage": "StreamCompress",
+      "stored_size": 9334,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2951395585,
+      "encryption": "None",
+      "path": "ui/lobby/pages/emptypage.xaml",
+      "size": 493,
+      "storage": "StreamCompress",
+      "stored_size": 271,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2575714308,
+      "encryption": "None",
+      "path": "ui/lobby/pages/febackgroundpage.xaml",
+      "size": 34548,
+      "storage": "StreamCompress",
+      "stored_size": 2247,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 549329401,
+      "encryption": "None",
+      "path": "ui/lobby/pages/ftueaccessibilitysettings.xaml",
+      "size": 23634,
+      "storage": "StreamCompress",
+      "stored_size": 3533,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1852445797,
+      "encryption": "None",
+      "path": "ui/lobby/pages/ftuebrightnesscalibration.xaml",
+      "size": 8757,
+      "storage": "StreamCompress",
+      "stored_size": 1943,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1926836430,
+      "encryption": "None",
+      "path": "ui/lobby/pages/hdrsettings.xaml",
+      "size": 7152,
+      "storage": "StreamCompress",
+      "stored_size": 1705,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4020192643,
+      "encryption": "None",
+      "path": "ui/lobby/pages/ldrsettings.xaml",
+      "size": 6686,
+      "storage": "StreamCompress",
+      "stored_size": 1669,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2249498402,
+      "encryption": "None",
+      "path": "ui/lobby/pages/letterboxpage.xaml",
+      "size": 2950,
+      "storage": "StreamCompress",
+      "stored_size": 897,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4122435820,
+      "encryption": "None",
+      "path": "ui/lobby/pages/loading.xaml",
+      "size": 735,
+      "storage": "StreamCompress",
+      "stored_size": 392,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 689085077,
+      "encryption": "None",
+      "path": "ui/lobby/pages/loadreplaypage.xaml",
+      "size": 7635,
+      "storage": "StreamCompress",
+      "stored_size": 1608,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 145149960,
+      "encryption": "None",
+      "path": "ui/lobby/pages/mainmenupage.xaml",
+      "size": 21217,
+      "storage": "StreamCompress",
+      "stored_size": 2849,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2597863671,
+      "encryption": "None",
+      "path": "ui/lobby/pages/mainmenupagecollectpane.xaml",
+      "size": 927,
+      "storage": "StreamCompress",
+      "stored_size": 445,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3489157812,
+      "encryption": "None",
+      "path": "ui/lobby/pages/mainmenupagecommunitypane.xaml",
+      "size": 51783,
+      "storage": "StreamCompress",
+      "stored_size": 5766,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2469929600,
+      "encryption": "None",
+      "path": "ui/lobby/pages/mainmenupagehomepane.xaml",
+      "size": 166795,
+      "storage": "StreamCompress",
+      "stored_size": 14263,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2698082422,
+      "encryption": "None",
+      "path": "ui/lobby/pages/mainmenupagelearnpane.xaml",
+      "size": 21839,
+      "storage": "StreamCompress",
+      "stored_size": 3587,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2153814237,
+      "encryption": "None",
+      "path": "ui/lobby/pages/mainmenupagemodspane.xaml",
+      "size": 34390,
+      "storage": "StreamCompress",
+      "stored_size": 4539,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2668511142,
+      "encryption": "None",
+      "path": "ui/lobby/pages/modsmanagepage.xaml",
+      "size": 15289,
+      "storage": "StreamCompress",
+      "stored_size": 2657,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 713148023,
+      "encryption": "None",
+      "path": "ui/lobby/pages/modsmanagepagemanagepane.xaml",
+      "size": 28961,
+      "storage": "StreamCompress",
+      "stored_size": 3626,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2516805706,
+      "encryption": "None",
+      "path": "ui/lobby/pages/modsmanagepagepublishpane.xaml",
+      "size": 14712,
+      "storage": "StreamCompress",
+      "stored_size": 2280,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1060534397,
+      "encryption": "None",
+      "path": "ui/lobby/pages/modssearchpage.xaml",
+      "size": 33507,
+      "storage": "StreamCompress",
+      "stored_size": 4912,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3804058421,
+      "encryption": "None",
+      "path": "ui/lobby/pages/multiplayerpage.xaml",
+      "size": 25457,
+      "storage": "StreamCompress",
+      "stored_size": 3067,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 718003156,
+      "encryption": "None",
+      "path": "ui/lobby/pages/multiplayerpagecasualpane.xaml",
+      "size": 72380,
+      "storage": "StreamCompress",
+      "stored_size": 7120,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1492011219,
+      "encryption": "None",
+      "path": "ui/lobby/pages/multiplayerpagecustompane.xaml",
+      "size": 9842,
+      "storage": "StreamCompress",
+      "stored_size": 2079,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2691443556,
+      "encryption": "None",
+      "path": "ui/lobby/pages/multiplayerpagerankedpane.xaml",
+      "size": 103465,
+      "storage": "StreamCompress",
+      "stored_size": 10340,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3903660680,
+      "encryption": "None",
+      "path": "ui/lobby/pages/observergamespane.xaml",
+      "size": 2199,
+      "storage": "StreamCompress",
+      "stored_size": 882,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3789421549,
+      "encryption": "None",
+      "path": "ui/lobby/pages/postgamefeedbackpage.xaml",
+      "size": 14160,
+      "storage": "StreamCompress",
+      "stored_size": 1521,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4018206825,
+      "encryption": "None",
+      "path": "ui/lobby/pages/postgameprogressionpage.xaml",
+      "size": 1430,
+      "storage": "StreamCompress",
+      "stored_size": 568,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3813254326,
+      "encryption": "None",
+      "path": "ui/lobby/pages/postgameresultspage.xaml",
+      "size": 10270,
+      "storage": "StreamCompress",
+      "stored_size": 2223,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 769237256,
+      "encryption": "None",
+      "path": "ui/lobby/pages/postgametimelinepage.xaml",
+      "size": 742,
+      "storage": "StreamCompress",
+      "stored_size": 385,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3543740162,
+      "encryption": "None",
+      "path": "ui/lobby/pages/roguemodedebriefingpage.xaml",
+      "size": 77776,
+      "storage": "StreamCompress",
+      "stored_size": 8779,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1380383101,
+      "encryption": "None",
+      "path": "ui/lobby/pages/roguemodepage.xaml",
+      "size": 13801,
+      "storage": "StreamCompress",
+      "stored_size": 2612,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1730673691,
+      "encryption": "None",
+      "path": "ui/lobby/pages/singleplayerpage.xaml",
+      "size": 21998,
+      "storage": "StreamCompress",
+      "stored_size": 3215,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3783836169,
+      "encryption": "None",
+      "path": "ui/lobby/pages/singleplayerpagecampaignpane.xaml",
+      "size": 38247,
+      "storage": "StreamCompress",
+      "stored_size": 5919,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 646340670,
+      "encryption": "None",
+      "path": "ui/lobby/pages/singleplayerpagechallengespane.xaml",
+      "size": 76603,
+      "storage": "StreamCompress",
+      "stored_size": 7312,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1558228762,
+      "encryption": "None",
+      "path": "ui/lobby/pages/singleplayerpagehistoricbattlespane.xaml",
+      "size": 25957,
+      "storage": "StreamCompress",
+      "stored_size": 3738,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3556679333,
+      "encryption": "None",
+      "path": "ui/lobby/pages/singleplayerpageroguepane.xaml",
+      "size": 66852,
+      "storage": "StreamCompress",
+      "stored_size": 8230,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1883202753,
+      "encryption": "None",
+      "path": "ui/lobby/pages/singleplayerpageskirmishpane.xaml",
+      "size": 18213,
+      "storage": "StreamCompress",
+      "stored_size": 2933,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 943667320,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxautosavepage.xaml",
+      "size": 4697,
+      "storage": "StreamCompress",
+      "stored_size": 1365,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 11841069,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxcampaigndebriefingpage.xaml",
+      "size": 56466,
+      "storage": "StreamCompress",
+      "stored_size": 6478,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2906078184,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxchallengemissiondebriefingpage.xaml",
+      "size": 70549,
+      "storage": "StreamCompress",
+      "stored_size": 7822,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2990816269,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxcreatecustomskirmishpage.xaml",
+      "size": 519474,
+      "storage": "StreamCompress",
+      "stored_size": 40408,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 190252037,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxfebackgroundpage.xaml",
+      "size": 33178,
+      "storage": "StreamCompress",
+      "stored_size": 3067,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2483164725,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxftueaccessibilitysettingspage.xaml",
+      "size": 20264,
+      "storage": "StreamCompress",
+      "stored_size": 3321,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1504826364,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxftuebrightnesspage.xaml",
+      "size": 26091,
+      "storage": "StreamCompress",
+      "stored_size": 3289,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2147309287,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxhdrsettings.xaml",
+      "size": 21336,
+      "storage": "StreamCompress",
+      "stored_size": 2826,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3120997032,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxmainmenuhomepanedailychallenges.xaml",
+      "size": 123909,
+      "storage": "StreamCompress",
+      "stored_size": 9517,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 419042289,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxmainmenupage.xaml",
+      "size": 82808,
+      "storage": "StreamCompress",
+      "stored_size": 8495,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 92821532,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxmainmenupagecodexselectionpage.xaml",
+      "size": 18922,
+      "storage": "StreamCompress",
+      "stored_size": 3298,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 656016036,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxmainmenupagecommunityfeaturedpane.xaml",
+      "size": 18939,
+      "storage": "StreamCompress",
+      "stored_size": 3438,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1365752560,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxmainmenupagecommunitypane.xaml",
+      "size": 51220,
+      "storage": "StreamCompress",
+      "stored_size": 4391,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1664336867,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxmainmenupagecommunitysocialpane.xaml",
+      "size": 15831,
+      "storage": "StreamCompress",
+      "stored_size": 2992,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3125793324,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxmainmenupageeventspane.xaml",
+      "size": 37976,
+      "storage": "StreamCompress",
+      "stored_size": 5161,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1767131760,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxmainmenupagehomepane.xaml",
+      "size": 71961,
+      "storage": "StreamCompress",
+      "stored_size": 6291,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1851153554,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxmainmenupagemodsallpage.xaml",
+      "size": 35782,
+      "storage": "StreamCompress",
+      "stored_size": 5016,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1639338963,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxmainmenupagemodsinstalledpage.xaml",
+      "size": 35956,
+      "storage": "StreamCompress",
+      "stored_size": 4624,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3634842368,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxmainmenupagemodspane.xaml",
+      "size": 52458,
+      "storage": "StreamCompress",
+      "stored_size": 5868,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3354907371,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxmultiplayerbrowsecustompagebase.xaml",
+      "size": 126627,
+      "storage": "StreamCompress",
+      "stored_size": 11832,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1074228372,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxmultiplayercustompage.xaml",
+      "size": 1543,
+      "storage": "StreamCompress",
+      "stored_size": 544,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3371005599,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxmultiplayerobservepage.xaml",
+      "size": 1545,
+      "storage": "StreamCompress",
+      "stored_size": 549,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 11949832,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxmultiplayerquickmatchpage.xaml",
+      "size": 129000,
+      "storage": "StreamCompress",
+      "stored_size": 11735,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4235233125,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxmultiplayerrankedpage.xaml",
+      "size": 114920,
+      "storage": "StreamCompress",
+      "stored_size": 10600,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 666271207,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxmultiplayerselectionpage.xaml",
+      "size": 60114,
+      "storage": "StreamCompress",
+      "stored_size": 4533,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1003798554,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxpostgameoverviewpage.xaml",
+      "size": 46507,
+      "storage": "StreamCompress",
+      "stored_size": 4899,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 911353922,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxpostgameprogressionpage.xaml",
+      "size": 32954,
+      "storage": "StreamCompress",
+      "stored_size": 4943,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2259993589,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxpostgameresultspage.xaml",
+      "size": 22150,
+      "storage": "StreamCompress",
+      "stored_size": 3331,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4252252448,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxpostgametimelinepage.xaml",
+      "size": 62905,
+      "storage": "StreamCompress",
+      "stored_size": 6165,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3729504156,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxprofilecoatofarmspage.xaml",
+      "size": 33847,
+      "storage": "StreamCompress",
+      "stored_size": 4246,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2172832339,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxprofilemasteriespage.xaml",
+      "size": 11721,
+      "storage": "StreamCompress",
+      "stored_size": 2369,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4239438940,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxprofilemasterydetailspage.xaml",
+      "size": 37519,
+      "storage": "StreamCompress",
+      "stored_size": 4862,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 6907792,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxprofilematchdetailspage.xaml",
+      "size": 30968,
+      "storage": "StreamCompress",
+      "stored_size": 3435,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 129611322,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxprofilematchhistorypage.xaml",
+      "size": 30797,
+      "storage": "StreamCompress",
+      "stored_size": 4391,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1808212589,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxprofilemonumentspage.xaml",
+      "size": 17032,
+      "storage": "StreamCompress",
+      "stored_size": 2769,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 842500294,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxprofileoverviewpage.xaml",
+      "size": 43386,
+      "storage": "StreamCompress",
+      "stored_size": 5135,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4081838391,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxprofileportraitpage.xaml",
+      "size": 14834,
+      "storage": "StreamCompress",
+      "stored_size": 2574,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2075191178,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxprofileroguepage.xaml",
+      "size": 11272,
+      "storage": "StreamCompress",
+      "stored_size": 2262,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3788576162,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxprofiletauntspage.xaml",
+      "size": 17433,
+      "storage": "StreamCompress",
+      "stored_size": 3170,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3799121577,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxroguemodedebriefingpage.xaml",
+      "size": 61650,
+      "storage": "StreamCompress",
+      "stored_size": 7197,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1464126014,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxroguemodepage.xaml",
+      "size": 105192,
+      "storage": "StreamCompress",
+      "stored_size": 10827,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1950381138,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxsettingspage.xaml",
+      "size": 50486,
+      "storage": "StreamCompress",
+      "stored_size": 5601,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3503003597,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxsingleplayerartofwarpage.xaml",
+      "size": 97542,
+      "storage": "StreamCompress",
+      "stored_size": 9452,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2614568772,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxsingleplayercampaignpage.xaml",
+      "size": 53784,
+      "storage": "StreamCompress",
+      "stored_size": 6318,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1082569314,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxsingleplayerlearnpage.xaml",
+      "size": 41551,
+      "storage": "StreamCompress",
+      "stored_size": 3949,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3482629735,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxsingleplayerselectionpage.xaml",
+      "size": 53621,
+      "storage": "StreamCompress",
+      "stored_size": 4107,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2044749061,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxsingleplayerskirmishpage.xaml",
+      "size": 49431,
+      "storage": "StreamCompress",
+      "stored_size": 5630,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1394944175,
+      "encryption": "None",
+      "path": "ui/lobby/pages/xboxstatspage.xaml",
+      "size": 17554,
+      "storage": "StreamCompress",
+      "stored_size": 2687,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2920757415,
+      "encryption": "None",
+      "path": "ui/lobby/semimodalpages/automatchlobbysemimodalpage.xaml",
+      "size": 62011,
+      "storage": "StreamCompress",
+      "stored_size": 6358,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3732943947,
+      "encryption": "None",
+      "path": "ui/lobby/semimodalpages/createcustommatchsemimodalpage.xaml",
+      "size": 620210,
+      "storage": "StreamCompress",
+      "stored_size": 49127,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1244967818,
+      "encryption": "None",
+      "path": "ui/lobby/semimodalpages/xboxautomatchlobbysemimodalpage.xaml",
+      "size": 47200,
+      "storage": "StreamCompress",
+      "stored_size": 5296,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1492222792,
+      "encryption": "None",
+      "path": "ui/lobby/widgets/notificationwidget.xaml",
+      "size": 9293,
+      "storage": "StreamCompress",
+      "stored_size": 1716,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1561021043,
+      "encryption": "None",
+      "path": "ui/lobby/widgets/taskbarwidget.xaml",
+      "size": 333140,
+      "storage": "StreamCompress",
+      "stored_size": 29999,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2940713346,
+      "encryption": "None",
+      "path": "ui/resources/accessibilityresources.xaml",
+      "size": 29571,
+      "storage": "StreamCompress",
+      "stored_size": 3939,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1869793156,
+      "encryption": "None",
+      "path": "ui/resources/ageupmodalresources.xaml",
+      "size": 163644,
+      "storage": "StreamCompress",
+      "stored_size": 11155,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3456904453,
+      "encryption": "None",
+      "path": "ui/resources/buttonresources.xaml",
+      "size": 229927,
+      "storage": "StreamCompress",
+      "stored_size": 12643,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 195416932,
+      "encryption": "None",
+      "path": "ui/resources/campaignresources.xaml",
+      "size": 22656,
+      "storage": "StreamCompress",
+      "stored_size": 2793,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1743423993,
+      "encryption": "None",
+      "path": "ui/resources/castermoderesources.xaml",
+      "size": 256,
+      "storage": "StreamCompress",
+      "stored_size": 163,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 16729039,
+      "encryption": "None",
+      "path": "ui/resources/challengemissionresources.xaml",
+      "size": 21443,
+      "storage": "StreamCompress",
+      "stored_size": 2333,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3274433853,
+      "encryption": "None",
+      "path": "ui/resources/controlresources.xaml",
+      "size": 457993,
+      "storage": "StreamCompress",
+      "stored_size": 38469,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1957509241,
+      "encryption": "None",
+      "path": "ui/resources/controlsmoderesources.xaml",
+      "size": 3785,
+      "storage": "StreamCompress",
+      "stored_size": 618,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2919658477,
+      "encryption": "None",
+      "path": "ui/resources/grtestresources.xaml",
+      "size": 88729,
+      "storage": "StreamCompress",
+      "stored_size": 8755,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3723038269,
+      "encryption": "None",
+      "path": "ui/resources/hudbrushresources.xaml",
+      "size": 14755,
+      "storage": "StreamCompress",
+      "stored_size": 1984,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1728412969,
+      "encryption": "None",
+      "path": "ui/resources/hudcolorresources.xaml",
+      "size": 600,
+      "storage": "StreamCompress",
+      "stored_size": 265,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 525574067,
+      "encryption": "None",
+      "path": "ui/resources/hudeffectresources.xaml",
+      "size": 2632,
+      "storage": "StreamCompress",
+      "stored_size": 474,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3249048064,
+      "encryption": "None",
+      "path": "ui/resources/hudresources.xaml",
+      "size": 530490,
+      "storage": "StreamCompress",
+      "stored_size": 43944,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2170100522,
+      "encryption": "None",
+      "path": "ui/resources/hudtextresources.xaml",
+      "size": 69643,
+      "storage": "StreamCompress",
+      "stored_size": 4490,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4092216169,
+      "encryption": "None",
+      "path": "ui/resources/layoutresources.xaml",
+      "size": 23573,
+      "storage": "StreamCompress",
+      "stored_size": 3228,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2285131647,
+      "encryption": "None",
+      "path": "ui/resources/modmanagerandpublisherresources.xaml",
+      "size": 16521,
+      "storage": "StreamCompress",
+      "stored_size": 2475,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3519953102,
+      "encryption": "None",
+      "path": "ui/resources/modsresources.xaml",
+      "size": 23183,
+      "storage": "StreamCompress",
+      "stored_size": 3716,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3945922307,
+      "encryption": "None",
+      "path": "ui/resources/notificationtypes.xaml",
+      "size": 25677,
+      "storage": "StreamCompress",
+      "stored_size": 2173,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3459948236,
+      "encryption": "None",
+      "path": "ui/resources/playerresources.xaml",
+      "size": 112088,
+      "storage": "StreamCompress",
+      "stored_size": 10395,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3438428726,
+      "encryption": "None",
+      "path": "ui/resources/roguemodeboonresources.xaml",
+      "size": 51602,
+      "storage": "StreamCompress",
+      "stored_size": 6017,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2046652334,
+      "encryption": "None",
+      "path": "ui/resources/saveloadresources.xaml",
+      "size": 13030,
+      "storage": "StreamCompress",
+      "stored_size": 2375,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2756886640,
+      "encryption": "None",
+      "path": "ui/resources/screenreaderresources.xaml",
+      "size": 4423,
+      "storage": "StreamCompress",
+      "stored_size": 1211,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2691723881,
+      "encryption": "None",
+      "path": "ui/resources/settingsresources.xaml",
+      "size": 70201,
+      "storage": "StreamCompress",
+      "stored_size": 7907,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4101624606,
+      "encryption": "None",
+      "path": "ui/resources/shadereffectresources.xaml",
+      "size": 4906,
+      "storage": "StreamCompress",
+      "stored_size": 723,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1393881598,
+      "encryption": "None",
+      "path": "ui/resources/stingersresources.xaml",
+      "size": 15443,
+      "storage": "StreamCompress",
+      "stored_size": 2112,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 783524122,
+      "encryption": "None",
+      "path": "ui/resources/ta_jadresources.xaml",
+      "size": 336183,
+      "storage": "StreamCompress",
+      "stored_size": 22816,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3571625005,
+      "encryption": "None",
+      "path": "ui/resources/ta_mikeresources.xaml",
+      "size": 616696,
+      "storage": "StreamCompress",
+      "stored_size": 31750,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2582719637,
+      "encryption": "None",
+      "path": "ui/resources/ta_ythenresources.xaml",
+      "size": 1064694,
+      "storage": "StreamCompress",
+      "stored_size": 69161,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3809286954,
+      "encryption": "None",
+      "path": "ui/resources/techartxboxferesources.xaml",
+      "size": 11763,
+      "storage": "StreamCompress",
+      "stored_size": 1325,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 554737828,
+      "encryption": "None",
+      "path": "ui/resources/techartxboxhudresources.xaml",
+      "size": 38589,
+      "storage": "StreamCompress",
+      "stored_size": 4185,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4097489818,
+      "encryption": "None",
+      "path": "ui/resources/textresources.xaml",
+      "size": 63669,
+      "storage": "StreamCompress",
+      "stored_size": 3829,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3055088587,
+      "encryption": "None",
+      "path": "ui/resources/textserviceresources.xaml",
+      "size": 9420,
+      "storage": "StreamCompress",
+      "stored_size": 1336,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1381425863,
+      "encryption": "None",
+      "path": "ui/resources/toastnotificationtypes.xaml",
+      "size": 28454,
+      "storage": "StreamCompress",
+      "stored_size": 2384,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2519690854,
+      "encryption": "None",
+      "path": "ui/resources/xboxaccessibilityresources.xaml",
+      "size": 15353,
+      "storage": "StreamCompress",
+      "stored_size": 2625,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2159780379,
+      "encryption": "None",
+      "path": "ui/resources/xboxageupmodalresources.xaml",
+      "size": 142770,
+      "storage": "StreamCompress",
+      "stored_size": 11772,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2445048116,
+      "encryption": "None",
+      "path": "ui/resources/xboxbrowseobservegamescommonresources.xaml",
+      "size": 49366,
+      "storage": "StreamCompress",
+      "stored_size": 4597,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3621615011,
+      "encryption": "None",
+      "path": "ui/resources/xboxcampaignresources.xaml",
+      "size": 147058,
+      "storage": "StreamCompress",
+      "stored_size": 13993,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1870862505,
+      "encryption": "None",
+      "path": "ui/resources/xboxcivspecificresources.xaml",
+      "size": 422789,
+      "storage": "StreamCompress",
+      "stored_size": 28746,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3931205993,
+      "encryption": "None",
+      "path": "ui/resources/xboxferesources.xaml",
+      "size": 433265,
+      "storage": "StreamCompress",
+      "stored_size": 33268,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3772229287,
+      "encryption": "None",
+      "path": "ui/resources/xboxhotkeyremapresources.xaml",
+      "size": 51200,
+      "storage": "StreamCompress",
+      "stored_size": 5013,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1043774886,
+      "encryption": "None",
+      "path": "ui/resources/xboxhudresources.xaml",
+      "size": 883290,
+      "storage": "StreamCompress",
+      "stored_size": 72694,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4051855355,
+      "encryption": "None",
+      "path": "ui/resources/xboxkeybindresources.xaml",
+      "size": 95579,
+      "storage": "StreamCompress",
+      "stored_size": 6330,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2744523119,
+      "encryption": "None",
+      "path": "ui/resources/xboxmainmenuhomepaneresources.xaml",
+      "size": 59446,
+      "storage": "StreamCompress",
+      "stored_size": 5391,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1454517738,
+      "encryption": "None",
+      "path": "ui/resources/xboxmainmenuresources.xaml",
+      "size": 32591,
+      "storage": "StreamCompress",
+      "stored_size": 4096,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4223856365,
+      "encryption": "None",
+      "path": "ui/resources/xboxmodsresources.xaml",
+      "size": 54614,
+      "storage": "StreamCompress",
+      "stored_size": 6464,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1129286185,
+      "encryption": "None",
+      "path": "ui/resources/xboxmultiplayerresources.xaml",
+      "size": 18426,
+      "storage": "StreamCompress",
+      "stored_size": 2509,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 442186308,
+      "encryption": "None",
+      "path": "ui/resources/xboxnotificationtypes.xaml",
+      "size": 49553,
+      "storage": "StreamCompress",
+      "stored_size": 4094,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1418705717,
+      "encryption": "None",
+      "path": "ui/resources/xboxpostgameresources.xaml",
+      "size": 11152,
+      "storage": "StreamCompress",
+      "stored_size": 1829,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2371905703,
+      "encryption": "None",
+      "path": "ui/resources/xboxprofilepageresources.xaml",
+      "size": 210029,
+      "storage": "StreamCompress",
+      "stored_size": 19057,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2638685199,
+      "encryption": "None",
+      "path": "ui/resources/xboxroguemodeboonresources.xaml",
+      "size": 66724,
+      "storage": "StreamCompress",
+      "stored_size": 6909,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1587588429,
+      "encryption": "None",
+      "path": "ui/resources/xboxsaveloadresources.xaml",
+      "size": 12683,
+      "storage": "StreamCompress",
+      "stored_size": 2349,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 974051891,
+      "encryption": "None",
+      "path": "ui/resources/xboxsettingspageresources.xaml",
+      "size": 90834,
+      "storage": "StreamCompress",
+      "stored_size": 10158,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1191401120,
+      "encryption": "None",
+      "path": "ui/resources/xboxsharedresources.xaml",
+      "size": 21472,
+      "storage": "StreamCompress",
+      "stored_size": 2794,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2381188454,
+      "encryption": "None",
+      "path": "ui/resources/xboxtaresources.xaml",
+      "size": 99821,
+      "storage": "StreamCompress",
+      "stored_size": 10265,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 798913779,
+      "encryption": "None",
+      "path": "ui/resources/xboxtextresources.xaml",
+      "size": 81479,
+      "storage": "StreamCompress",
+      "stored_size": 2978,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3459829170,
+      "encryption": "None",
+      "path": "ui/resources/fonts/arialuni.ttf",
+      "size": 23275812,
+      "storage": "StreamCompress",
+      "stored_size": 15153025,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1992064432,
+      "encryption": "None",
+      "path": "ui/resources/fonts/cambria.ttf",
+      "size": 1514792,
+      "storage": "StreamCompress",
+      "stored_size": 850057,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4148575004,
+      "encryption": "None",
+      "path": "ui/resources/fonts/cambriab.ttf",
+      "size": 804984,
+      "storage": "StreamCompress",
+      "stored_size": 414192,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1235610807,
+      "encryption": "None",
+      "path": "ui/resources/fonts/maiolaallcapsbold.otf",
+      "size": 100340,
+      "storage": "StreamCompress",
+      "stored_size": 60785,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 648892920,
+      "encryption": "None",
+      "path": "ui/resources/fonts/maiolabold.otf",
+      "size": 112828,
+      "storage": "StreamCompress",
+      "stored_size": 77079,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2973554319,
+      "encryption": "None",
+      "path": "ui/resources/fonts/maiolabolditalic.otf",
+      "size": 113236,
+      "storage": "StreamCompress",
+      "stored_size": 78365,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3283467224,
+      "encryption": "None",
+      "path": "ui/resources/fonts/maiolatextfiguresbold.otf",
+      "size": 113668,
+      "storage": "StreamCompress",
+      "stored_size": 77780,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 51928340,
+      "encryption": "None",
+      "path": "ui/resources/fonts/maiolatextfiguresregular.otf",
+      "size": 111908,
+      "storage": "StreamCompress",
+      "stored_size": 75544,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3876332059,
+      "encryption": "None",
+      "path": "ui/resources/fonts/malgun_lang_ko.ttf",
+      "size": 9595100,
+      "storage": "StreamCompress",
+      "stored_size": 5001164,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3318259722,
+      "encryption": "None",
+      "path": "ui/resources/fonts/malgunbd_lang_ko.ttf",
+      "size": 8920700,
+      "storage": "StreamCompress",
+      "stored_size": 4854746,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3109258156,
+      "encryption": "None",
+      "path": "ui/resources/fonts/malgunsl_lang_ko.ttf",
+      "size": 5083156,
+      "storage": "StreamCompress",
+      "stored_size": 2006117,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4129185068,
+      "encryption": "None",
+      "path": "ui/resources/fonts/mangal_lang_hi.ttf",
+      "size": 200140,
+      "storage": "StreamCompress",
+      "stored_size": 110678,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3189512286,
+      "encryption": "None",
+      "path": "ui/resources/fonts/mangalb_lang_hi.ttf",
+      "size": 186336,
+      "storage": "StreamCompress",
+      "stored_size": 103137,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3110444632,
+      "encryption": "None",
+      "path": "ui/resources/fonts/meiryo_bold_lang_ja.ttf",
+      "size": 8922784,
+      "storage": "StreamCompress",
+      "stored_size": 5814980,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 373036343,
+      "encryption": "None",
+      "path": "ui/resources/fonts/meiryo_lang_ja.ttc",
+      "size": 9524020,
+      "storage": "StreamCompress",
+      "stored_size": 6097286,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 716322300,
+      "encryption": "None",
+      "path": "ui/resources/fonts/msjh_lang_zh-hant.ttc",
+      "size": 21482296,
+      "storage": "StreamCompress",
+      "stored_size": 13968375,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2665757951,
+      "encryption": "None",
+      "path": "ui/resources/fonts/msjhbd_lang_zh-hant.ttc",
+      "size": 14437520,
+      "storage": "StreamCompress",
+      "stored_size": 9490186,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1366100068,
+      "encryption": "None",
+      "path": "ui/resources/fonts/msjhl_lang_zh-hant.ttc",
+      "size": 12875740,
+      "storage": "StreamCompress",
+      "stored_size": 7757116,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2092339112,
+      "encryption": "None",
+      "path": "ui/resources/fonts/msyh_lang_zh-hans.ttc",
+      "size": 21632712,
+      "storage": "StreamCompress",
+      "stored_size": 13795133,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1250161161,
+      "encryption": "None",
+      "path": "ui/resources/fonts/msyhbd_lang_zh-hans.ttc",
+      "size": 14460368,
+      "storage": "StreamCompress",
+      "stored_size": 9399047,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 618919657,
+      "encryption": "None",
+      "path": "ui/resources/fonts/msyhl_lang_zh-hans.ttc",
+      "size": 12139380,
+      "storage": "StreamCompress",
+      "stored_size": 7603009,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3384027831,
+      "encryption": "None",
+      "path": "ui/resources/fonts/segoeui.ttf",
+      "size": 925736,
+      "storage": "StreamCompress",
+      "stored_size": 526824,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3785099507,
+      "encryption": "None",
+      "path": "ui/resources/fonts/segoeuib.ttf",
+      "size": 914092,
+      "storage": "StreamCompress",
+      "stored_size": 515686,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2588066496,
+      "encryption": "None",
+      "path": "ui/resources/fonts/segoeuii.ttf",
+      "size": 514920,
+      "storage": "StreamCompress",
+      "stored_size": 303603,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1196528963,
+      "encryption": "None",
+      "path": "ui/resources/fonts/segoeuil.ttf",
+      "size": 878372,
+      "storage": "StreamCompress",
+      "stored_size": 504744,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3847121229,
+      "encryption": "None",
+      "path": "ui/resources/fonts/segoeuisl.ttf",
+      "size": 816540,
+      "storage": "StreamCompress",
+      "stored_size": 471463,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 413660693,
+      "encryption": "None",
+      "path": "ui/resources/fonts/segoeuiz.ttf",
+      "size": 528476,
+      "storage": "StreamCompress",
+      "stored_size": 312495,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2487837132,
+      "encryption": "None",
+      "path": "ui/resources/fonts/seguibl.ttf",
+      "size": 324452,
+      "storage": "StreamCompress",
+      "stored_size": 185185,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4259022490,
+      "encryption": "None",
+      "path": "ui/resources/fonts/seguibli.ttf",
+      "size": 351896,
+      "storage": "StreamCompress",
+      "stored_size": 204386,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3224891794,
+      "encryption": "None",
+      "path": "ui/resources/fonts/seguili.ttf",
+      "size": 445872,
+      "storage": "StreamCompress",
+      "stored_size": 261808,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 193719391,
+      "encryption": "None",
+      "path": "ui/resources/fonts/seguisb.ttf",
+      "size": 941172,
+      "storage": "StreamCompress",
+      "stored_size": 523716,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2460434477,
+      "encryption": "None",
+      "path": "ui/resources/fonts/seguisbi.ttf",
+      "size": 443880,
+      "storage": "StreamCompress",
+      "stored_size": 271637,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 206259039,
+      "encryption": "None",
+      "path": "ui/resources/fonts/seguisli.ttf",
+      "size": 453264,
+      "storage": "StreamCompress",
+      "stored_size": 273361,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1442285394,
+      "encryption": "None",
+      "path": "ui/resources/fonts/syntaxnextltpro-allcaps.otf",
+      "size": 82776,
+      "storage": "StreamCompress",
+      "stored_size": 32109,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1608883866,
+      "encryption": "None",
+      "path": "ui/resources/fonts/syntaxnextltpro-bold.otf",
+      "size": 78664,
+      "storage": "StreamCompress",
+      "stored_size": 44755,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3600922991,
+      "encryption": "None",
+      "path": "ui/resources/fonts/syntaxnextltpro-bolditalic.otf",
+      "size": 77348,
+      "storage": "StreamCompress",
+      "stored_size": 44915,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 15544280,
+      "encryption": "None",
+      "path": "ui/resources/fonts/syntaxnextltpro-italic.otf",
+      "size": 76852,
+      "storage": "StreamCompress",
+      "stored_size": 43157,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 675543675,
+      "encryption": "None",
+      "path": "ui/resources/fonts/syntaxnextltpro-regular.otf",
+      "size": 74936,
+      "storage": "StreamCompress",
+      "stored_size": 43100,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1065678591,
+      "encryption": "None",
+      "path": "ui/resources/highcontrastoff/brushresources.xaml",
+      "size": 40866,
+      "storage": "StreamCompress",
+      "stored_size": 3734,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2087788392,
+      "encryption": "None",
+      "path": "ui/resources/highcontrastoff/colorresources.xaml",
+      "size": 8141,
+      "storage": "StreamCompress",
+      "stored_size": 1582,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1178286060,
+      "encryption": "None",
+      "path": "ui/resources/highcontrastoff/effectresources.xaml",
+      "size": 4848,
+      "storage": "StreamCompress",
+      "stored_size": 732,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2166248600,
+      "encryption": "None",
+      "path": "ui/resources/highcontrastoff/hudimageresources.xaml",
+      "size": 9838,
+      "storage": "StreamCompress",
+      "stored_size": 1536,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3449852243,
+      "encryption": "None",
+      "path": "ui/resources/highcontrastoff/xboxcardresources.xaml",
+      "size": 660857,
+      "storage": "StreamCompress",
+      "stored_size": 38829,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2292663116,
+      "encryption": "None",
+      "path": "ui/resources/highcontrastoff/xboxcolorresources.xaml",
+      "size": 71796,
+      "storage": "StreamCompress",
+      "stored_size": 9150,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3002239520,
+      "encryption": "None",
+      "path": "ui/resources/highcontrastoff/xboxfeimagestyles.xaml",
+      "size": 23152,
+      "storage": "StreamCompress",
+      "stored_size": 2040,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3555341266,
+      "encryption": "None",
+      "path": "ui/resources/highcontrastoff/xboxmainmenuimageresources.xaml",
+      "size": 448,
+      "storage": "StreamCompress",
+      "stored_size": 253,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3618398919,
+      "encryption": "None",
+      "path": "ui/resources/highcontraston/hcbrushresources.xaml",
+      "size": 27832,
+      "storage": "StreamCompress",
+      "stored_size": 3071,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3474687002,
+      "encryption": "None",
+      "path": "ui/resources/highcontraston/hccolorresources.xaml",
+      "size": 7973,
+      "storage": "StreamCompress",
+      "stored_size": 1535,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1042260869,
+      "encryption": "None",
+      "path": "ui/resources/highcontraston/hceffectresources.xaml",
+      "size": 4326,
+      "storage": "StreamCompress",
+      "stored_size": 703,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2011912875,
+      "encryption": "None",
+      "path": "ui/resources/highcontraston/hchudimageresources.xaml",
+      "size": 6578,
+      "storage": "StreamCompress",
+      "stored_size": 1054,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2439777570,
+      "encryption": "None",
+      "path": "ui/resources/highcontraston/hcxboxcardresources.xaml",
+      "size": 210908,
+      "storage": "StreamCompress",
+      "stored_size": 10725,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4083082793,
+      "encryption": "None",
+      "path": "ui/resources/highcontraston/hcxboxcolorresources.xaml",
+      "size": 68817,
+      "storage": "StreamCompress",
+      "stored_size": 8211,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1752544261,
+      "encryption": "None",
+      "path": "ui/resources/highcontraston/hcxboxfeimagestyles.xaml",
+      "size": 9621,
+      "storage": "StreamCompress",
+      "stored_size": 1373,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1047952962,
+      "encryption": "None",
+      "path": "ui/resources/highcontraston/hcxboxmainmenuimageresources.xaml",
+      "size": 470,
+      "storage": "StreamCompress",
+      "stored_size": 275,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4182871038,
+      "encryption": "None",
+      "path": "ui/shaders/pixel/animatedborder.ps",
+      "size": 4724,
+      "storage": "StreamCompress",
+      "stored_size": 1637,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3027181058,
+      "encryption": "None",
+      "path": "ui/shaders/pixel/border.ps",
+      "size": 4340,
+      "storage": "StreamCompress",
+      "stored_size": 1609,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2733095522,
+      "encryption": "None",
+      "path": "ui/shaders/pixel/burn.ps",
+      "size": 7448,
+      "storage": "StreamCompress",
+      "stored_size": 2310,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1332607156,
+      "encryption": "None",
+      "path": "ui/shaders/pixel/ftueholylines.ps",
+      "size": 9084,
+      "storage": "StreamCompress",
+      "stored_size": 2831,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1346898960,
+      "encryption": "None",
+      "path": "ui/shaders/pixel/line.ps",
+      "size": 5388,
+      "storage": "StreamCompress",
+      "stored_size": 1920,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2532009191,
+      "encryption": "None",
+      "path": "ui/shaders/pixel/loadingscreen.ps",
+      "size": 3508,
+      "storage": "StreamCompress",
+      "stored_size": 1363,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3514652339,
+      "encryption": "None",
+      "path": "ui/shaders/pixel/overlayflat.ps",
+      "size": 2176,
+      "storage": "StreamCompress",
+      "stored_size": 971,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2327444786,
+      "encryption": "None",
+      "path": "ui/shaders/pixel/plate.ps",
+      "size": 4776,
+      "storage": "StreamCompress",
+      "stored_size": 1790,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1819307426,
+      "encryption": "None",
+      "path": "ui/shaders/pixel/sine.ps",
+      "size": 5812,
+      "storage": "StreamCompress",
+      "stored_size": 1941,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1122113716,
+      "encryption": "None",
+      "path": "ui/shaders/pixel/tint.ps",
+      "size": 1740,
+      "storage": "StreamCompress",
+      "stored_size": 791,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 356814961,
+      "encryption": "None",
+      "path": "ui/shaders/vertex/common.vs",
+      "size": 1656,
+      "storage": "StreamCompress",
+      "stored_size": 739,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2200909136,
+      "encryption": "None",
+      "path": "ui/shared/controls/chatboxstyle.xaml",
+      "size": 3243,
+      "storage": "StreamCompress",
+      "stored_size": 797,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2726387288,
+      "encryption": "None",
+      "path": "ui/shared/controls/horizontaltimelineprogressbarstyle.xaml",
+      "size": 17275,
+      "storage": "StreamCompress",
+      "stored_size": 1939,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3064059230,
+      "encryption": "None",
+      "path": "ui/shared/controls/requestcreatematchsemimodalbuttonstyle.xaml",
+      "size": 371,
+      "storage": "StreamCompress",
+      "stored_size": 235,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 371364093,
+      "encryption": "None",
+      "path": "ui/shared/controls/requestmodalbuttonstyle.xaml",
+      "size": 356,
+      "storage": "StreamCompress",
+      "stored_size": 226,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 655782968,
+      "encryption": "None",
+      "path": "ui/shared/controls/styles.xaml",
+      "size": 760,
+      "storage": "StreamCompress",
+      "stored_size": 275,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2226407122,
+      "encryption": "None",
+      "path": "ui/shared/controls/tabradiobuttonstyle.xaml",
+      "size": 3703,
+      "storage": "StreamCompress",
+      "stored_size": 884,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3861498242,
+      "encryption": "None",
+      "path": "ui/shared/controls/xboxchatbuttonstyle.xaml",
+      "size": 9574,
+      "storage": "StreamCompress",
+      "stored_size": 1011,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 510848103,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/campaignstatsmodalpage.xaml",
+      "size": 4675,
+      "storage": "StreamCompress",
+      "stored_size": 1354,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 113871296,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/codexmodalpage.xaml",
+      "size": 256311,
+      "storage": "StreamCompress",
+      "stored_size": 18224,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 719383648,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/hotkeyremapcommonkeystabpage.xaml",
+      "size": 30772,
+      "storage": "StreamCompress",
+      "stored_size": 3261,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4063170084,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/hotkeyremapgridkeystabpage.xaml",
+      "size": 30293,
+      "storage": "StreamCompress",
+      "stored_size": 3488,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1936785021,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/hotkeyremapmodalpage.xaml",
+      "size": 38539,
+      "storage": "StreamCompress",
+      "stored_size": 4584,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 103906184,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/hotkeyremapmodularkeystabpage.xaml",
+      "size": 30733,
+      "storage": "StreamCompress",
+      "stored_size": 3256,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3342911763,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/loadmodalpage.xaml",
+      "size": 14781,
+      "storage": "StreamCompress",
+      "stored_size": 2533,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3787796510,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/modconsentmodalpage.xaml",
+      "size": 19461,
+      "storage": "StreamCompress",
+      "stored_size": 2738,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3464929698,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/moddetailsmodalpage.xaml",
+      "size": 71361,
+      "storage": "StreamCompress",
+      "stored_size": 7661,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 722682416,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/reportconfirmationmodal.xaml",
+      "size": 3300,
+      "storage": "StreamCompress",
+      "stored_size": 927,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3625419588,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/reportmodmodalpage.xaml",
+      "size": 7079,
+      "storage": "StreamCompress",
+      "stored_size": 1529,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2813314222,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/reportusermodalpage.xaml",
+      "size": 7479,
+      "storage": "StreamCompress",
+      "stored_size": 1590,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1452613274,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/savemodalpage.xaml",
+      "size": 10051,
+      "storage": "StreamCompress",
+      "stored_size": 2125,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1004012819,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/savingpleasewait.xaml",
+      "size": 2859,
+      "storage": "StreamCompress",
+      "stored_size": 852,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2536581532,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/settingsmodalpage.xaml",
+      "size": 34952,
+      "storage": "StreamCompress",
+      "stored_size": 4883,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3113727295,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/settingsmodalpagecontrolspane.xaml",
+      "size": 19995,
+      "storage": "StreamCompress",
+      "stored_size": 2787,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 224253422,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/statsmodalpage.xaml",
+      "size": 5088,
+      "storage": "StreamCompress",
+      "stored_size": 1470,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2071659135,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/systemconfiggenericpane.xaml",
+      "size": 1215,
+      "storage": "StreamCompress",
+      "stored_size": 517,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 235261525,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/userpromptmodalpage.xaml",
+      "size": 35151,
+      "storage": "StreamCompress",
+      "stored_size": 3090,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 872295736,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/xboxaccountlinkwithcodemodalpage.xaml",
+      "size": 8981,
+      "storage": "StreamCompress",
+      "stored_size": 1861,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1303469610,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/xboxcampaigndifficultymodalpage.xaml",
+      "size": 22035,
+      "storage": "StreamCompress",
+      "stored_size": 3294,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4028771245,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/xboxcodextooltipmodalpage.xaml",
+      "size": 15714,
+      "storage": "StreamCompress",
+      "stored_size": 2744,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 985888391,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/xboxcontrolsvisualspage.xaml",
+      "size": 639897,
+      "storage": "StreamCompress",
+      "stored_size": 19109,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 709709068,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/xboxcursorscalemodalpage.xaml",
+      "size": 2492,
+      "storage": "StreamCompress",
+      "stored_size": 849,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2970846996,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/xboxdailiesandeventspage.xaml",
+      "size": 3085,
+      "storage": "StreamCompress",
+      "stored_size": 947,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1808909563,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/xboxhotkeyremapcommonkeystabpage.xaml",
+      "size": 7362,
+      "storage": "StreamCompress",
+      "stored_size": 1611,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1517979851,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/xboxhotkeyremapgridkeystabpage.xaml",
+      "size": 14078,
+      "storage": "StreamCompress",
+      "stored_size": 2199,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2589393485,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/xboxhotkeyremapmodalpage.xaml",
+      "size": 58343,
+      "storage": "StreamCompress",
+      "stored_size": 5575,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1556457004,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/xboxhotkeyremapmodularkeystabpage.xaml",
+      "size": 17419,
+      "storage": "StreamCompress",
+      "stored_size": 2721,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2058892806,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/xboxloadmodalpage.xaml",
+      "size": 18975,
+      "storage": "StreamCompress",
+      "stored_size": 2950,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2951702087,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/xboxmodconsentmodalpage.xaml",
+      "size": 26759,
+      "storage": "StreamCompress",
+      "stored_size": 3312,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1095654637,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/xboxnotificationmodalpage.xaml",
+      "size": 8981,
+      "storage": "StreamCompress",
+      "stored_size": 1797,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4036491915,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/xboxreportconfirmationmodal.xaml",
+      "size": 5999,
+      "storage": "StreamCompress",
+      "stored_size": 1397,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 216798976,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/xboxreportmodmodalpage.xaml",
+      "size": 14203,
+      "storage": "StreamCompress",
+      "stored_size": 2292,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 4292055083,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/xboxreportusermodalpage.xaml",
+      "size": 11373,
+      "storage": "StreamCompress",
+      "stored_size": 2078,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3561030992,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/xboxsavemodalpage.xaml",
+      "size": 27442,
+      "storage": "StreamCompress",
+      "stored_size": 3728,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2548878166,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/xboxsystemconfiggenericpane.xaml",
+      "size": 6494,
+      "storage": "StreamCompress",
+      "stored_size": 1470,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 138511638,
+      "encryption": "None",
+      "path": "ui/shared/modalpages/xboxuserpromptmodalpage.xaml",
+      "size": 30329,
+      "storage": "StreamCompress",
+      "stored_size": 2920,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1992477965,
+      "encryption": "None",
+      "path": "ui/shared/pages/fullscreenvideopage.xaml",
+      "size": 7397,
+      "storage": "StreamCompress",
+      "stored_size": 1710,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1499897569,
+      "encryption": "None",
+      "path": "ui/shared/pages/statspage.xaml",
+      "size": 8904,
+      "storage": "StreamCompress",
+      "stored_size": 1845,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1231076484,
+      "encryption": "None",
+      "path": "ui/shared/pages/xboxcodexpage.xaml",
+      "size": 111282,
+      "storage": "StreamCompress",
+      "stored_size": 11447,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1376609431,
+      "encryption": "None",
+      "path": "ui/shared/pages/xboxfullscreenvideopage.xaml",
+      "size": 10316,
+      "storage": "StreamCompress",
+      "stored_size": 2337,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 876084833,
+      "encryption": "None",
+      "path": "ui/shared/warningdialogs/xboxinputdisconnectedwarningdialogpage.xaml",
+      "size": 44908,
+      "storage": "StreamCompress",
+      "stored_size": 4331,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2936778910,
+      "encryption": "None",
+      "path": "ui/unittests/backgroundmovietest.xaml",
+      "size": 1520,
+      "storage": "StreamCompress",
+      "stored_size": 612,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 564760606,
+      "encryption": "None",
+      "path": "ui/unittests/blendmodebugtest.xaml",
+      "size": 8670,
+      "storage": "StreamCompress",
+      "stored_size": 1658,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1737488339,
+      "encryption": "None",
+      "path": "ui/unittests/capturetooltest.xaml",
+      "size": 556,
+      "storage": "StreamCompress",
+      "stored_size": 279,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3478748116,
+      "encryption": "None",
+      "path": "ui/unittests/commandtest.xaml",
+      "size": 1282,
+      "storage": "StreamCompress",
+      "stored_size": 535,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1552698630,
+      "encryption": "None",
+      "path": "ui/unittests/contextmenuwithbrokenmousetest.xaml",
+      "size": 2304,
+      "storage": "StreamCompress",
+      "stored_size": 636,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3728379534,
+      "encryption": "None",
+      "path": "ui/unittests/controltest.xaml",
+      "size": 3420,
+      "storage": "StreamCompress",
+      "stored_size": 1124,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2311037207,
+      "encryption": "None",
+      "path": "ui/unittests/converterstest.xaml",
+      "size": 3441,
+      "storage": "StreamCompress",
+      "stored_size": 798,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2456009867,
+      "encryption": "None",
+      "path": "ui/unittests/designsystem.xaml",
+      "size": 37722,
+      "storage": "StreamCompress",
+      "stored_size": 3444,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3605233252,
+      "encryption": "None",
+      "path": "ui/unittests/ecamsubtitletest.xaml",
+      "size": 6592,
+      "storage": "StreamCompress",
+      "stored_size": 1213,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2453550821,
+      "encryption": "None",
+      "path": "ui/unittests/effecttest.xaml",
+      "size": 18284,
+      "storage": "StreamCompress",
+      "stored_size": 2361,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2607149974,
+      "encryption": "None",
+      "path": "ui/unittests/errorwithstaticresourcespage.xaml",
+      "size": 2167,
+      "storage": "StreamCompress",
+      "stored_size": 822,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1794259873,
+      "encryption": "None",
+      "path": "ui/unittests/errorwithstaticresourcesresourcedictionary.xaml",
+      "size": 709,
+      "storage": "StreamCompress",
+      "stored_size": 324,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2008578273,
+      "encryption": "None",
+      "path": "ui/unittests/frontendbackgroundtest.xaml",
+      "size": 620,
+      "storage": "StreamCompress",
+      "stored_size": 333,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 246787592,
+      "encryption": "None",
+      "path": "ui/unittests/greenrenderingbugtest.xaml",
+      "size": 12501,
+      "storage": "StreamCompress",
+      "stored_size": 1958,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1004679863,
+      "encryption": "None",
+      "path": "ui/unittests/grtest.xaml",
+      "size": 1620,
+      "storage": "StreamCompress",
+      "stored_size": 551,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1552934901,
+      "encryption": "None",
+      "path": "ui/unittests/highcontrasttest.xaml",
+      "size": 39302,
+      "storage": "StreamCompress",
+      "stored_size": 3835,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3625275578,
+      "encryption": "None",
+      "path": "ui/unittests/listviewwithheaders.xaml",
+      "size": 12770,
+      "storage": "StreamCompress",
+      "stored_size": 2217,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 463906990,
+      "encryption": "None",
+      "path": "ui/unittests/main.xaml",
+      "size": 3910,
+      "storage": "StreamCompress",
+      "stored_size": 890,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1416287544,
+      "encryption": "None",
+      "path": "ui/unittests/multibindtest.xaml",
+      "size": 1782,
+      "storage": "StreamCompress",
+      "stored_size": 625,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3244017296,
+      "encryption": "None",
+      "path": "ui/unittests/perf.xaml",
+      "size": 1766,
+      "storage": "StreamCompress",
+      "stored_size": 621,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3407614556,
+      "encryption": "None",
+      "path": "ui/unittests/playaudio.xaml",
+      "size": 1119,
+      "storage": "StreamCompress",
+      "stored_size": 510,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3929984904,
+      "encryption": "None",
+      "path": "ui/unittests/righttolefttest.xaml",
+      "size": 24935,
+      "storage": "StreamCompress",
+      "stored_size": 2982,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3184577857,
+      "encryption": "None",
+      "path": "ui/unittests/screenreadertest.xaml",
+      "size": 32876,
+      "storage": "StreamCompress",
+      "stored_size": 4219,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1868121220,
+      "encryption": "None",
+      "path": "ui/unittests/shadertest.xaml",
+      "size": 559044,
+      "storage": "StreamCompress",
+      "stored_size": 227967,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 582525082,
+      "encryption": "None",
+      "path": "ui/unittests/sharedsizegrouptest.xaml",
+      "size": 1737,
+      "storage": "StreamCompress",
+      "stored_size": 488,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1298553778,
+      "encryption": "None",
+      "path": "ui/unittests/snoopglite.xaml",
+      "size": 7915,
+      "storage": "StreamCompress",
+      "stored_size": 1276,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1515641018,
+      "encryption": "None",
+      "path": "ui/unittests/ta_colorresourcespreview.xaml",
+      "size": 31544,
+      "storage": "StreamCompress",
+      "stored_size": 1761,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1560800416,
+      "encryption": "None",
+      "path": "ui/unittests/tagtest.xaml",
+      "size": 10765,
+      "storage": "StreamCompress",
+      "stored_size": 1040,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 78410991,
+      "encryption": "None",
+      "path": "ui/unittests/techartjad.xaml",
+      "size": 258255,
+      "storage": "StreamCompress",
+      "stored_size": 17739,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3233646508,
+      "encryption": "None",
+      "path": "ui/unittests/techartmike.xaml",
+      "size": 182276,
+      "storage": "StreamCompress",
+      "stored_size": 12000,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3817100882,
+      "encryption": "None",
+      "path": "ui/unittests/techartythen.xaml",
+      "size": 2490,
+      "storage": "StreamCompress",
+      "stored_size": 602,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1546445438,
+      "encryption": "None",
+      "path": "ui/unittests/textscalingtest.xaml",
+      "size": 113212,
+      "storage": "StreamCompress",
+      "stored_size": 9519,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 988314970,
+      "encryption": "None",
+      "path": "ui/unittests/texttest.xaml",
+      "size": 2508,
+      "storage": "StreamCompress",
+      "stored_size": 819,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 3376270811,
+      "encryption": "None",
+      "path": "ui/unittests/texturetest.xaml",
+      "size": 777,
+      "storage": "StreamCompress",
+      "stored_size": 374,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 30625967,
+      "encryption": "None",
+      "path": "ui/unittests/tooltiptest.xaml",
+      "size": 17500,
+      "storage": "StreamCompress",
+      "stored_size": 1920,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 1687132579,
+      "encryption": "None",
+      "path": "ui/unittests/vectorflagstest.xaml",
+      "size": 308272,
+      "storage": "StreamCompress",
+      "stored_size": 91644,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 2974887848,
+      "encryption": "None",
+      "path": "ui/unittests/videotest.xaml",
+      "size": 3412,
+      "storage": "StreamCompress",
+      "stored_size": 1063,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    },
+    {
+      "crc": 346476309,
+      "encryption": "None",
+      "path": "ui/unittests/webbrowsertest.xaml",
+      "size": 655,
+      "storage": "StreamCompress",
+      "stored_size": 338,
+      "toc": "data",
+      "verification": "SHA1Blocks"
+    }
+  ],
+  "schema": "sga-archiver.list/v1",
+  "tool": {
+    "name": "sga-archiver",
+    "version": "0.3.0"
+  }
+}

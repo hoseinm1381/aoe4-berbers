@@ -1,0 +1,2 @@
+from pathlib import Path
+q=Path('research/buildings_batch/palisade');s=(q/'audit_saved.py').read_text().replace('for age in range(1,5):','for age in [1]:').replace("'saved_source_fbx_audit.json'","'age1_audit.json'");(q/'audit_age1.py').write_text(s);s=(q/'run_audit.py').read_text().replace('audit_saved.py','audit_age1.py').replace("'audit.log'","'age1_audit.log'").replace("'audit_process.json'","'age1_audit_process.json'");(q/'run_audit_age1.py').write_text(s)

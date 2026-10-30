@@ -1,0 +1,24 @@
+{
+  "key": "wall_gate",
+  "minimum_age": 2,
+  "required_ages": [
+    2,
+    3,
+    4
+  ],
+  "current_builder": "assets/attrib/instances/sbps/races/malian/berbers/unit_villager_1_mal.xml:1200-1209",
+  "official_required_upgrade": "mal.xml:941-962 completed feudal_age min1; core parent agrees",
+  "donor": "Malian mal_stonewall_smallgate_mp",
+  "donor_sha256": "8f8f205fd4cd7ee704ee6b754763f2406113d54962696dab269bd567de1f8604",
+  "native_bones": [
+    "bone_root",
+    "bone_gate"
+  ],
+  "native_pivot": [
+    0,
+    0,
+    0
+  ],
+  "native_mechanism": "rigid portcullis; source +6m travel original fixture not native decoded amplitude",
+  "wall_interface": "x +/-5,z7,deck width4.2,clear walkway3,crest8.2; source planes only"
+}

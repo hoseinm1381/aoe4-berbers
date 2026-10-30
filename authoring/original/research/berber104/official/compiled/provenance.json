@@ -1,0 +1,16 @@
+{
+  "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+  "sha256": "03b8e431c91920535fa65cdae340ee206f31bbdfbb1740feddb4a0430625a977",
+  "records": [
+    {
+      "member": "attrib/ai/ai_ability/monastery_create_relic.rgd",
+      "sha256": "bf7f6073841555ed0f7f077bc696fc7817fe7bb3e50bd083ef8790c5315572ed",
+      "ability_type": 1
+    },
+    {
+      "member": "attrib/ai/ai_ability/races/mongol/khan_defensive_arrow.rgd",
+      "sha256": "508744b3c29fff0c42bad13b524770a876adcd6e6c07db55a2bfb1f1677c81f4",
+      "ability_type": 0
+    }
+  ]
+}

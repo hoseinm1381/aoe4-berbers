@@ -1,0 +1,51 @@
+{
+  "units": "metres",
+  "orientation": "length +X, width +Y, up +Z",
+  "origin": "ground center",
+  "all_ages": [
+    2,
+    3,
+    4
+  ],
+  "walk_z": 7,
+  "walk_clear_width": 3,
+  "walk_y_interval": [
+    -1.5,
+    1.5
+  ],
+  "deck_y_interval": [
+    -2.1,
+    2.1
+  ],
+  "base_y_interval": [
+    -2.9,
+    2.9
+  ],
+  "parapet_y_interval": [
+    [
+      -2.2,
+      -1.5
+    ],
+    [
+      1.5,
+      2.2
+    ]
+  ],
+  "crest_z": 8.2,
+  "straight_sockets": "x\u00b1length/2,y0,z7 normals outward \u00b1X",
+  "elbow_sockets": [
+    [
+      -6,
+      0,
+      7
+    ],
+    [
+      0,
+      6,
+      7
+    ]
+  ],
+  "slope": "source rise\u00b11.2m over6m, socket z6.4/7.6; no native terrain conform proof",
+  "stock_render_bounds": "6m x\u00b13, yapprox\u00b13, lower donor extension -3, crest8.2578125; not footprint",
+  "binding": "native entity walk extension and selectors must be retained by integration"
+}

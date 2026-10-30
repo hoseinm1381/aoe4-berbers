@@ -1,0 +1,37 @@
+{
+  "entity_binding": {
+    "status": "unresolved",
+    "reason": "An art RGO/RGM path is not itself a qualified gameplay EBP identity.",
+    "stats": null
+  },
+  "building_boundary_binding": {
+    "status": "not_available_from_render_model",
+    "reason": "Placement footprint, simboxes and boundary-cell policy belong to the gameplay EBP/attachment graph, not to RGO/RGM/RRGeometry.",
+    "required_source": "qualified gameplay EBP plus inheritance, attachment, stamp and simbox references",
+    "render_mesh_bounds_are_authoritative": false
+  },
+  "skeleton": {
+    "schema": "garrison.decoded-rgm-skeleton/v1",
+    "status": "not_present",
+    "source": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\dock\\stock\\cfe298521ff0f1030da5\\source\\art\\civilizations\\abbasids\\structures\\dock\\abb_dock_control_age02\\abb_dock_control_age02.rgm",
+    "source_size_bytes": 375032,
+    "source_sha256": "ef1b7845ce324885640b81a4379916ebc7a4868bcf2d76a06f70a62e4b65fb1f",
+    "bone_count": 0,
+    "bones": [],
+    "rest_pose": {
+      "status": "not_present"
+    }
+  },
+  "completeness": {
+    "status": "complete",
+    "decoded_textures": 85,
+    "unsupported_textures": 0,
+    "missing_texture_references": 0,
+    "non_file_texture_sentinels": 1,
+    "rig_projection_status": "not_applicable",
+    "unresolved_rig_groups": 0,
+    "animation_projection_status": "not_applicable"
+  },
+  "blockers": [],
+  "structure_collection_contract_status": "decoded"
+}

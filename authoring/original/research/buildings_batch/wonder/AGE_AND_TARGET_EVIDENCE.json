@@ -1,0 +1,17 @@
+{
+  "minimum_age": 4,
+  "ages": [
+    4
+  ],
+  "live_requirement": "XML requirement_table imperial_age completed >=1",
+  "installed_requirement": "mal.xml:789-805 required_player_upgrade imperial_age",
+  "builder": "assets/attrib/instances/sbps/races/malian/berbers/unit_villager_1_mal.xml:1685",
+  "footprint": "mal.xml:93-96 site_ext 12x12; live override same",
+  "source_origin": [
+    0,
+    0,
+    0
+  ],
+  "live_animator_scale": 150,
+  "installed_animator_scale": 100
+}

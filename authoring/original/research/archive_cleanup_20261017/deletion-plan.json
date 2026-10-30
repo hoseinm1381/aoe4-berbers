@@ -1,0 +1,1453 @@
+{
+  "status": "prepared",
+  "files": [
+    {
+      "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\archives\\current_test_0_2_6.zip",
+      "bytes": 77268668,
+      "sha256": "7a6a7ea8c6626481ed946cbb973589c99a7f4273326feaaf749edee1b57f4f87",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_shield\\garrison_library\\Mods\\tuareg_shield_assets\\dist\\cook\\20261010T184346Z-c7b0dd03\\intermediate\\archives\\tuareg_shield_assets.sga",
+      "bytes": 428,
+      "sha256": "211f789d66cbfaa53176504788047403394a89a287c4d75750edbe74d83ec4a2",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_refined\\garrison_library\\Mods\\tuareg_refined_art\\dist\\cook\\20261011T180300Z-f4a21b60\\intermediate\\archives\\tuareg_refined_art.sga",
+      "bytes": 1597608,
+      "sha256": "58a39f18b42f83fa86ae430d8f630217e31dc9ceaa27d7480707a18fb454ad54",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_refined\\garrison_library\\Mods\\tuareg_refined_art\\dist\\cook\\20261011T170127Z-c3780264\\intermediate\\archives\\tuareg_refined_art.sga",
+      "bytes": 1597608,
+      "sha256": "58a39f18b42f83fa86ae430d8f630217e31dc9ceaa27d7480707a18fb454ad54",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_weapon_lists\\dist\\tuareg_weapon_lists.sga",
+      "bytes": 7579,
+      "sha256": "aed9f8d16311c897b3d8208147cb1e15e44d3037e09acc3e31319c654e4f43c4",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_weapon_lists\\dist\\cook\\20261011T133804Z-662b5b25\\output\\extension\\tuareg_weapon_lists\\tuareg_weapon_lists.sga",
+      "bytes": 3124,
+      "sha256": "5b733d5325b17b6a0755dad67699fc42a8019d55ac663e0ec0389ad06a78e666",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_weapon_lists\\dist\\cook\\20261011T133804Z-662b5b25\\intermediate\\archives\\tuareg_weapon_lists.sga",
+      "bytes": 3124,
+      "sha256": "5b733d5325b17b6a0755dad67699fc42a8019d55ac663e0ec0389ad06a78e666",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_weapon_lists\\dist\\cook\\20261011T133804Z-662b5b25\\assembly\\00-derived_blueprints\\attrib\\tuareg_weapon_lists.sga",
+      "bytes": 7579,
+      "sha256": "aed9f8d16311c897b3d8208147cb1e15e44d3037e09acc3e31319c654e4f43c4",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\tuareg_art_v2.sga",
+      "bytes": 27593386,
+      "sha256": "d4bccda47d1f3519a688bc3be89c2e0249f898c8f1dc3dc632c58f642eda261a",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\previous.sga",
+      "bytes": 27593316,
+      "sha256": "001fffb9e7b10c99b2752f77b6f3562a3eac14c34c7ac01bda9f937791e170d0",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\output\\extension\\tuareg_art_v2\\tuareg_art_v2.sga",
+      "bytes": 995867,
+      "sha256": "95073b5fa334fdc99e87b1f8cdaeab53213fdd45a0bbff19193c03581d2f2dc4",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\archives\\tuareg_art_v2.sga",
+      "bytes": 995867,
+      "sha256": "95073b5fa334fdc99e87b1f8cdaeab53213fdd45a0bbff19193c03581d2f2dc4",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\assembly\\00-animated_units\\members\\donor.sga",
+      "bytes": 26234528,
+      "sha256": "5b5e02f77f14bbc2f0bfbb248bbdd984405788a2545a470db5c4b662ce838de8",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\assembly\\00-animated_units\\members\\grafted.sga",
+      "bytes": 27135658,
+      "sha256": "790bcd81564f4a7c884c59ffb09e986c33fa020f3ca02218f9d3b0d791e850e0",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\assembly\\00-animated_units\\attrib\\grafted.sga",
+      "bytes": 27593386,
+      "sha256": "d4bccda47d1f3519a688bc3be89c2e0249f898c8f1dc3dc632c58f642eda261a",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\previous.sga",
+      "bytes": 27593315,
+      "sha256": "d9bbe7d6176f83255a1783d33da047b167ec2c737c35af85da33cf9eb8f080ce",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\output\\extension\\tuareg_art_v2\\tuareg_art_v2.sga",
+      "bytes": 995798,
+      "sha256": "8d4f2c2038dd61d5b2d0a29f79cb2354fce95a157a42d3868f0f88a9abbf262e",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\archives\\tuareg_art_v2.sga",
+      "bytes": 995798,
+      "sha256": "8d4f2c2038dd61d5b2d0a29f79cb2354fce95a157a42d3868f0f88a9abbf262e",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\assembly\\00-animated_units\\members\\donor.sga",
+      "bytes": 26234528,
+      "sha256": "632d7587b25bc1cf63c308161e138b44012ea7527f35b882d0be66b1196afa0d",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\assembly\\00-animated_units\\members\\grafted.sga",
+      "bytes": 27135588,
+      "sha256": "c7a745098afe7b466345cf6629b9cdcd44ed1ad4e0e680756903364a56226b40",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\assembly\\00-animated_units\\attrib\\grafted.sga",
+      "bytes": 27593316,
+      "sha256": "001fffb9e7b10c99b2752f77b6f3562a3eac14c34c7ac01bda9f937791e170d0",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\output\\extension\\tuareg_art_v2\\tuareg_art_v2.sga",
+      "bytes": 995797,
+      "sha256": "6cf6f5b04c732027e8f3724194bf2e71c77a465f06fb1ab35e4d879928bea7a9",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\archives\\tuareg_art_v2.sga",
+      "bytes": 995797,
+      "sha256": "6cf6f5b04c732027e8f3724194bf2e71c77a465f06fb1ab35e4d879928bea7a9",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\assembly\\00-animated_units\\members\\donor.sga",
+      "bytes": 26234528,
+      "sha256": "632d7587b25bc1cf63c308161e138b44012ea7527f35b882d0be66b1196afa0d",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\assembly\\00-animated_units\\members\\grafted.sga",
+      "bytes": 27135587,
+      "sha256": "822ff550365e1ba946dfbd458f449dee16feae3f1a74a40abdda0504fd2fe851",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\assembly\\00-animated_units\\attrib\\grafted.sga",
+      "bytes": 27593315,
+      "sha256": "d9bbe7d6176f83255a1783d33da047b167ec2c737c35af85da33cf9eb8f080ce",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\archives\\tuareg_art_v2.sga",
+      "bytes": 979091,
+      "sha256": "04ebe84b0119190593c03c40c4d7d9d58b163f507c60b198cd160d08a3dee796",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\output\\extension\\tuareg_art_v2\\tuareg_art_v2.sga",
+      "bytes": 408756,
+      "sha256": "e1689d1cff1f19028e1a6a87d0c02cc1955dc3d634863ef086c22be4c22b387a",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\archives\\tuareg_art_v2.sga",
+      "bytes": 408756,
+      "sha256": "e1689d1cff1f19028e1a6a87d0c02cc1955dc3d634863ef086c22be4c22b387a",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_7_2\\Berber-0.7.2-MAIN-GARRISON.zip",
+      "bytes": 189839076,
+      "sha256": "32a9a769c0067e5dae443cf3154995491734be61e8e3ab3ad55d6de05aa234c1",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_7_2\\Berber-0.7.2-VOICES-INSTALLER.zip",
+      "bytes": 73650265,
+      "sha256": "b44cc172ccd8dfa3ee46c1aeb320ece0d8d1cc35a797e32cb00885b71b5d47ce",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_7_1\\Berber071-PILOT.sga",
+      "bytes": 300804399,
+      "sha256": "d2590d135f548749118e1fb4b3513c47805f880b630f320d34c01fa317376790",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_7_1\\Berber-0.7.1-PILOT.zip",
+      "bytes": 190958573,
+      "sha256": "d1cb2e21801b09f985aa42d7ae01b960b327b4b51a1a6580abf81404cad3d6cf",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_7_1\\Berber-0.7.1-PILOT-2.zip",
+      "bytes": 190958951,
+      "sha256": "837a60865d2f5b5653d09e4cee2f4e78c2c46208105fb3b496a464ea240a3b65",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_7_1\\pilot2\\Berber071-PILOT.sga",
+      "bytes": 300808999,
+      "sha256": "0877945e5e556284c8b88e52d8e3881100e1df9d78592596b8ec881a9f842b14",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_7_1\\pilot2\\pilot\\attrib-pilot-f2548796cccd.sga",
+      "bytes": 299334580,
+      "sha256": "1bfafb1645373df056f374f1b4a04da9d0665b98a249039e6afbbd7ff17383a7",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_7_1\\pilot\\attrib-pilot.sga",
+      "bytes": 299331536,
+      "sha256": "fbc424380c2f9ffd5b2ca273ba7908cfbedf3f972f3208094ebde3c2d975996f",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_7_0\\Berber-0.7.0-MAIN-GARRISON.zip",
+      "bytes": 189839064,
+      "sha256": "67464117d89d569d302929e8b72f8037c8817c505cc9bfb1cf9ff96cf0a89306",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_7_0\\Berber-0.7.0-VOICES-INSTALLER.zip",
+      "bytes": 73765676,
+      "sha256": "a98271d4d08ba6d1cc58e3a049297849b11a7794e056a54977774f36ec305098",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_6_1\\Berber-0.6.1.zip",
+      "bytes": 189839091,
+      "sha256": "0192f4c8ad139a16036558924ed94519636f8de136b5a2aa273c261ad91e6dec",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_6_1\\Berber-0.6.1-COMPLETE-PORTABLE.zip",
+      "bytes": 263233783,
+      "sha256": "ca805b02689aa2f1204881ebeb9101efb99705a7ef2b0c0a084acb14a56713bd",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_6_0\\berber_native_audio-0.6.0.zip",
+      "bytes": 71962980,
+      "sha256": "ac32ed59faf1eec58c40e206dbc911d7585791c1eb09d99d0e63d4ee7478e22b",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_6_0\\berber_future_kingdom-0.6.0.zip",
+      "bytes": 191247170,
+      "sha256": "6ac53dc65654020e27f895dc0d82712761f6fd1cf0ec70364f0e87273c1f558c",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_6_0\\Berber-0.6.0-COMPLETE-PORTABLE.zip",
+      "bytes": 261665162,
+      "sha256": "28c41f9f465bba9d196dc0a675da05be459db8f0cb044a094a797a93d1620158",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_6_0\\integration\\attrib-candidate.sga",
+      "bytes": 299260502,
+      "sha256": "732408091610de24fa939d50c7bfaeaaeb530667a6d8daf17fe9334c47ed8cee",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_6_0\\READY_TO_IMPORT\\Berber-0.6.0.zip",
+      "bytes": 189843868,
+      "sha256": "f8bb7f6a48921a3711ddb1382ddc29f9f03e8948ceade992971d14e7ba0a602a",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_6_0\\package\\Berber_future_kingdom.sga",
+      "bytes": 299260928,
+      "sha256": "6e4a4f3fcb00627df40f5a50fbf128c949cc281f54b4cf1a424f6bdfc9370f51",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_5_1\\berber_future_kingdom-0.5.1.zip",
+      "bytes": 191238968,
+      "sha256": "02f5eb2df207e162030cb6be21a977222bb7e359f0362567466aae58f12ddd60",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_5_0\\berber_future_kingdom-0.5.0.zip",
+      "bytes": 193090309,
+      "sha256": "2cd6f82a7c722b7ff72fa98ad5ab7ad18ef443c9ac2b159a88892e10e88c66aa",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_5_0\\rebuild\\decoded-manifests.zip",
+      "bytes": 22804941,
+      "sha256": "0773bf48dfa5f5440fd087e7e96ab7e7a46979484bbc67c64cc08fc02d9a95da",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_4_0\\berber_future_kingdom-0.4.0.zip",
+      "bytes": 174632184,
+      "sha256": "098898babe74c84c9a2aec26efc05109dfbc9552f3b93df3e1a19aea193b701c",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\berber_future_kingdom-0.3.1.zip",
+      "bytes": 167348534,
+      "sha256": "7f96a45a53860f73ef19e5dba904573e8e10f3a4875d07b18a19ef2c2376af6d",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\garrison-library\\Mods\\berber_buildings_031\\dist\\berber_buildings_031.sga",
+      "bytes": 278374453,
+      "sha256": "749db971f31aaff14ccd6b7c4bdb450bee1f66666fcfd86d704f5ce142555fdd",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\garrison-library\\Mods\\berber_buildings_031\\dist\\cook\\20261015T161543Z-1b3d1ef3\\assembly\\01-derived_blueprints\\attrib\\grafted.sga",
+      "bytes": 278374453,
+      "sha256": "749db971f31aaff14ccd6b7c4bdb450bee1f66666fcfd86d704f5ce142555fdd",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\garrison-library\\Mods\\berber_buildings_031\\dist\\cook\\20261015T161543Z-1b3d1ef3\\assembly\\00-model_variants\\members\\donor.sga",
+      "bytes": 270227737,
+      "sha256": "c19df49f5d564921a9df29fdb80293f85d238bdd59f7606edda50714bee6c4ae",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\garrison-library\\Mods\\berber_buildings_031\\dist\\cook\\20261015T161543Z-1b3d1ef3\\assembly\\00-model_variants\\members\\grafted.sga",
+      "bytes": 278357288,
+      "sha256": "515c1ea5cebb211ce5652fc3ff014d3f773f2aaf57d86f73523b42331bcb4f8f",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\garrison-library\\Mods\\berber_buildings_031\\dist\\cook\\20261015T161543Z-1b3d1ef3\\intermediate\\archives\\berber_buildings_031.sga",
+      "bytes": 8138769,
+      "sha256": "5e03f9bd1271536e357fb45712a70e26c5ce99ee42bb8b253a26aab650b0467d",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\garrison-library\\Mods\\berber_buildings_031\\dist\\cook\\20261015T161543Z-1b3d1ef3\\output\\extension\\berber_buildings_031\\berber_buildings_031.sga",
+      "bytes": 8138769,
+      "sha256": "5e03f9bd1271536e357fb45712a70e26c5ce99ee42bb8b253a26aab650b0467d",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_7_1_manifest_repair\\berber_future_kingdom-0.2.8-test.zip",
+      "bytes": 96651802,
+      "sha256": "88ec19863f0ba4fce84c7ffc1ff91c08664ad80890ab642fc6d28cdd789ab1bd",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_0\\berber_future_kingdom-0.3.0.zip",
+      "bytes": 119091790,
+      "sha256": "081691bfcb595fbd8e1fda49e88a10b01600d5646d8234a8c23aefad81cef649",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_7_1\\berber_future_kingdom-0.2.7.1.zip",
+      "bytes": 96651808,
+      "sha256": "ea15e280231d3bd5d1d53f83af66f3bbd9b7a35e0152c1bdffd239bb9c9dbcb1",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_7\\berber_future_kingdom-0.2.7.zip",
+      "bytes": 96689481,
+      "sha256": "bf4b890345ac824c0f75d7e5937e5d019202025d9e27d78694b0d7c2cb0d5820",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\releases\\historical\\berber_future_kingdom-0.1.0-tuareg-voices.1.zip",
+      "bytes": 5125747,
+      "sha256": "181573a0ec133b7ca46b431fa590863f189956386e61e4fb52c7fbb9eb556908",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\releases\\historical\\Berber_future_kingdom_tuareg_voices.sga",
+      "bytes": 5173872,
+      "sha256": "b7a585cbb163650663e134d23d743ffe640e7acd6b51fa33cfc4448d98a76cf4",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\releases\\historical\\campaign_identity_probe-0.1.0-probe.1.zip",
+      "bytes": 93183,
+      "sha256": "f26f97adc8cc134234def494c36f54d59ea9186235ed595e8cfac3586185ccaf",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\releases\\historical\\campaign_identity_probe.sga",
+      "bytes": 262790,
+      "sha256": "f8bc512c0180f460492cc6c7e1ed55e7824bf1856e2bacfacfd54fd0615770b8",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\releases\\historical\\music_playback_probe-0.1.0-probe.1.zip",
+      "bytes": 159494231,
+      "sha256": "cd53dab446eec3bdb1d40d72644b984508089c9eb6a4713beb8c292ff896c50f",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\releases\\historical\\music_playback_probe-0.1.0-probe.2.zip",
+      "bytes": 159496500,
+      "sha256": "1a9ad23150b8a3b9b1a00c390bd593f7a0233d121606b1978ed0b4ca3a2f00c6",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\releases\\historical\\music_playback_probe.sga",
+      "bytes": 174443868,
+      "sha256": "30f78e42e4f4437096b0f5ef85719ecf2f51a11672fe65b050a0f7c02c8f2b18",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\releases\\historical\\tuareg_native_audio_full.zip",
+      "bytes": 26851006,
+      "sha256": "412cb515fa76719a974e92f086149b645fe42160aecf8574dc1b597919ec232c",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\releases\\historical\\tuareg_native_audio_probe.zip",
+      "bytes": 22290073,
+      "sha256": "6f05624e93efe4e31b30e7c3c0c13167f0528ee54d6ca8888d7e9fbfad9730d5",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\releases\\historical\\tuareg_voice_probe-0.1.0-probe.4.zip",
+      "bytes": 55622,
+      "sha256": "69b445713696c9c9c14219ce40c6cf6211a344783e88617e2a4bdb0b450a9bdc",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_voice_test\\withdrawn\\tuareg_voice_probe-0.1.0-probe.1.zip",
+      "bytes": 399889,
+      "sha256": "71caa5c320e44b3cb6401cbd96630bc801903ec420f0146106d73b63e2e2b559",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_voice_test\\withdrawn\\tuareg_voice_probe-0.1.0-probe.2.zip",
+      "bytes": 402681,
+      "sha256": "ebe6b8743ef924d12c05919cc444c75e43ee08bc6551c1f4da0b9d8d70761b3e",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_voice_test\\withdrawn\\tuareg_voice_probe-0.1.0-probe.3.zip",
+      "bytes": 402800,
+      "sha256": "d54744a06d79f4d4d582d67587bde8b146b7aaba4707e11a120e1e6040e864b8",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_voice_test\\withdrawn\\tuareg_voice_probe-native.sga",
+      "bytes": 22574915,
+      "sha256": "63a903ff7886f10371499e5bce068c333eb65cb06546b628ca34e57e91435a2a",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_voice_test\\withdrawn\\tuareg_voice_probe-probe2.sga",
+      "bytes": 22574784,
+      "sha256": "21be8634572aece12507bdeb8bab9dab10175d0b590d16cd4e7f1ee0ca3388c2",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_voice_test\\package-probe4\\tuareg_voice_probe.sga",
+      "bytes": 132204,
+      "sha256": "819b848e1dba062c4fae466501a2f80aa8b461e48bddf320994dd0b89a506a6d",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_voice_test\\native-package\\tuareg_voice_probe.sga",
+      "bytes": 22574790,
+      "sha256": "eb8d3d72ef68936fa65c2605d327439a7a268c26954d3bb7b9865c55c591edc7",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_voice_test\\garrison_library\\Mods\\tuareg_voice_probe\\dist\\tuareg_voice_probe-0.1.0-probe.1.zip",
+      "bytes": 49762,
+      "sha256": "53f98610cc246a2713a585ea1f7fd75fa917885a732b025a886310738d4bd081",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_voice_test\\garrison_library\\Mods\\tuareg_voice_probe\\dist\\package\\tuareg_voice_probe.sga",
+      "bytes": 131969,
+      "sha256": "691f31154a98959540b2f058c916e6ae201f63feaf3a9840ba6abffba158ff28",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_shrek_animation_test\\berber_future_kingdom-0.1.3-tuareg-q-trigger.1.zip",
+      "bytes": 5397746,
+      "sha256": "b4141e3d082638daa7be57838d258f44f0031d40e76e3f011da402193d687a9c",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_shrek_animation_test\\package\\Berber_future_kingdom.sga",
+      "bytes": 5805037,
+      "sha256": "012317bfefa767a3df23558693320e773f258ac28ef628c6b86a9f0c6a94c20d",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_shrek_animation_test\\candidate-build\\output\\extension\\Berber_future_kingdom\\Berber_future_kingdom.sga",
+      "bytes": 5178090,
+      "sha256": "bfc38aca2281e2b0249ca56b6bf5f1aff623d05ff6dd7ba000cd44b18655d7b2",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_shield_test\\berber_future_kingdom-0.1.3-tuareg-shields.2.zip",
+      "bytes": 5398856,
+      "sha256": "7897e2e8477617c5e31edeebbd990bac06a37ae70056b5e07dbfbea1b333c884",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_shield_test\\garrison-models.sga",
+      "bytes": 626896,
+      "sha256": "e27595c50d06155ff24d9e4be37139391c21aa8fafdbbb3f4811a0c523ec153e",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_shield_test\\package\\Berber_future_kingdom.sga",
+      "bytes": 5794931,
+      "sha256": "e08e61bd1636c3521a7a509106d2cab27e0c1e8a5ef6a678bc33d66a2dbdfa6c",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_shield_test\\failure-probe1\\berber_future_kingdom-0.1.3-tuareg-shields.1.withdrawn.zip",
+      "bytes": 5124758,
+      "sha256": "058362b7e80b9d07370c1ccda2d8367b6c2e373dc5b8cfccc4de28c7eec63d1e",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_shield_test\\build\\195553\\output\\extension\\Berber_future_kingdom\\Berber_future_kingdom.sga",
+      "bytes": 5178084,
+      "sha256": "7a9e864731e8e34fca72de6c9dfe9a34a7a035ab2f551bd515da748405443d0f",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_shield_test\\build\\191738\\output\\extension\\Berber_future_kingdom\\Berber_future_kingdom.sga",
+      "bytes": 5178140,
+      "sha256": "7e9be14fed7be9d4f563835e10ec5cabae25382d74357d50377a6afca21e0910",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_shield_test\\build\\185632\\output\\extension\\Berber_future_kingdom\\Berber_future_kingdom.sga",
+      "bytes": 5173778,
+      "sha256": "f34f2d0fc379c567a4b0a1104c3073e78227ceb7ec2a5d1ef5526c129fe6517a",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_shield_posture_test\\berber_future_kingdom-0.1.3-tuareg-q-posture.1.zip",
+      "bytes": 5350472,
+      "sha256": "83cf10c2674d0f48ac220fdc6acd285ef63efab54f985d5a48ddc7f969434dfc",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_shield_posture_test\\schema-library\\Mods\\tuareg_posture_schema\\dist\\tuareg_posture_schema.sga",
+      "bytes": 25872,
+      "sha256": "1dd705b39cb8ccec5344661867fd4cd4d87805a685b979e0560980aa971fe823",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_shield_posture_test\\package\\Berber_future_kingdom.sga",
+      "bytes": 5945997,
+      "sha256": "528d7179971d82005a358c69ff5a0d35447a51e640631f1a56722c7f59f36d7c",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_shield_posture_test\\candidate-build-before-cleanup-fix\\output\\extension\\Berber_future_kingdom\\Berber_future_kingdom.sga",
+      "bytes": 5182656,
+      "sha256": "f34dac1de4b13489b2eb6c65a16b70ce7f91f33a09c1c9fe60c4309cf4d0706c",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_shield_posture_test\\candidate-build\\output\\extension\\Berber_future_kingdom\\Berber_future_kingdom.sga",
+      "bytes": 5182837,
+      "sha256": "cbe4f69ee719c590b4bb30e80cddb7ab8022a97a605a9f35334d8934706b6d25",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_refined_trial\\berber_future_kingdom-0.1.5-tuareg-refined.1.zip",
+      "bytes": 14776453,
+      "sha256": "6b88839fcc65fbfadc7c1f7c97c1b7303150e533b502eb8d18255f02ee2bc9ec",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_refined_trial\\tuning-graft.sga",
+      "bytes": 7895456,
+      "sha256": "2dfeaa35a5fae479be3c927c841e929bc1e9d71237630d6d9ce60826511365b5",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_refined_trial\\package\\Berber_future_kingdom.sga",
+      "bytes": 17620612,
+      "sha256": "fb06e221a07667ec786051d5010178a436ab976ecd6a8d98887314bb34145444",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_refined_trial\\candidate-build\\output\\extension\\Berber_future_kingdom\\Berber_future_kingdom.sga",
+      "bytes": 5188311,
+      "sha256": "e4b8f5223c69f6c4f2918b2251f488edab585053338854109363e839513ede09",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_q_command_test\\berber_future_kingdom-0.1.3-tuareg-q-command.1.zip",
+      "bytes": 5401136,
+      "sha256": "a52a698cc384d914b4c2549bc9076b43cce2e883e92d26461e64d71b69f1ad01",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_q_command_test\\package\\Berber_future_kingdom.sga",
+      "bytes": 5813346,
+      "sha256": "d58f131f4c36ec0cdfa962db04565e7caf8a7ad256f765b75d4ece56c12588dc",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_q_command_test\\candidate-build-before-final-guards\\output\\extension\\Berber_future_kingdom\\Berber_future_kingdom.sga",
+      "bytes": 5180483,
+      "sha256": "f07e1e9dce1649add5366a1e846c5033ebd988876fa1198500c70a7c2d8d15f7",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_q_command_test\\candidate-build\\output\\extension\\Berber_future_kingdom\\Berber_future_kingdom.sga",
+      "bytes": 5180664,
+      "sha256": "63741b3d13a4c0cfcd3f9f0aba11f74a53487d2793b9d448ec837e8afce31f89",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_lowprofile_shield_trial\\berber_future_kingdom-0.1.7-tuareg-lowprofile-shield.1.zip",
+      "bytes": 15525266,
+      "sha256": "f0840266ad3ed9ed058d85a9eee3cdb39d8e6ad77d14f02987131b8c7adcbcc7",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_lowprofile_shield_trial\\tuning-graft.sga",
+      "bytes": 17620640,
+      "sha256": "ccd096733c21fdc3e3bed79ec620dc5886d97a6ea317b1e4034d6347a03283ad",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_lowprofile_shield_trial\\package\\Berber_future_kingdom.sga",
+      "bytes": 18448575,
+      "sha256": "1e18879866ce5e4a5097a858d0d6cb7a7eb59ffdca6201945e303454c5feb907",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_lowprofile_shield_trial\\candidate-build\\output\\extension\\Berber_future_kingdom\\Berber_future_kingdom.sga",
+      "bytes": 5188336,
+      "sha256": "a3c5df0369366ab21293232782f6d066c3de89a5ff42edcf4a42526c79ede6c8",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_lower_shield_trial\\berber_future_kingdom-0.1.6-tuareg-lower-shield.1.zip",
+      "bytes": 14730930,
+      "sha256": "276effb3a05c642b0cfb8f1bfbbcb3df3f23145fc210c98aea27125208187970",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_lower_shield_trial\\package\\Berber_future_kingdom.sga",
+      "bytes": 17620608,
+      "sha256": "75740157d00e8f176d74b14944a6aa657ad9235bc84dca08711b3186b73ed2b7",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_force_trial\\berber_future_kingdom-0.1.3-tuareg-q-force.1.zip",
+      "bytes": 5352267,
+      "sha256": "790b01cf7db2e197da71b38a2525848dc30e8223c746f1d8283b7d5e123b6408",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_force_trial\\package\\Berber_future_kingdom.sga",
+      "bytes": 5957461,
+      "sha256": "2b13f7df8d639c1e08cab443140def1402437b96f245eb131447f16f9945f633",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_force_trial\\candidate-build\\output\\extension\\Berber_future_kingdom\\Berber_future_kingdom.sga",
+      "bytes": 5185977,
+      "sha256": "53b51390042b66f1143d02890ab90288db6f57d4c93e1910629aa5d6e361218f",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_complete_overhaul\\baseline\\berber_future_kingdom-0.1.3-tuareg-q-posture.1.zip",
+      "bytes": 5350472,
+      "sha256": "83cf10c2674d0f48ac220fdc6acd285ef63efab54f985d5a48ddc7f969434dfc",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_art_guard_trial\\berber_future_kingdom-0.1.4-tuareg-original-art.1.zip",
+      "bytes": 6316327,
+      "sha256": "586ed51ac00316a7185427fc823b27902f8986da61b1c10f70e420d25d028ce9",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_art_guard_trial\\candidate-tuning.sga",
+      "bytes": 5964869,
+      "sha256": "ae6bf56b1e59bdb0e0d1c3e41100b6b76700427e25c4b32a21f46bbe2209e099",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_art_guard_trial\\package\\Berber_future_kingdom.sga",
+      "bytes": 7895280,
+      "sha256": "c77b7b0e04243f1905c741e0f08e0f911c9063b06dd9fab2885a1ac00aaee906",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_art_guard_trial\\candidate-build\\output\\extension\\Berber_future_kingdom\\Berber_future_kingdom.sga",
+      "bytes": 5188253,
+      "sha256": "38ce26d47f2c944d964d16eba0dd524f59bca1c1892bfb42eaca9401897d4fbc",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\music_test\\probe1-package-backup\\music_playback_probe.sga",
+      "bytes": 174442369,
+      "sha256": "a483222018071b53d00108fa0c2865d49026a0dac49561c26fda78625fd81284",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\mp\\Mods\\music_playback_probe\\dist\\music_playback_probe-0.1.0-probe.2.zip",
+      "bytes": 159493791,
+      "sha256": "624f36c41dc25a5ffb47f894d28354184882349ffdabee4e1b6be9ef61929dd9",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\mp\\Mods\\music_playback_probe\\dist\\package\\music_playback_probe.sga",
+      "bytes": 174443868,
+      "sha256": "30f78e42e4f4437096b0f5ef85719ecf2f51a11672fe65b050a0f7c02c8f2b18",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\ip\\Mods\\campaign_identity_probe\\dist\\campaign_identity_probe-0.1.0-probe.1.zip",
+      "bytes": 91485,
+      "sha256": "084b1660a023738f225a616da537b4433e345480eb744825999fee561d4f3bc6",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\ip\\Mods\\campaign_identity_probe\\dist\\package\\campaign_identity_probe.sga",
+      "bytes": 262790,
+      "sha256": "f8bc512c0180f460492cc6c7e1ed55e7824bf1856e2bacfacfd54fd0615770b8",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\berber_future_kingdom-0.2.6.zip",
+      "bytes": 77268668,
+      "sha256": "7a6a7ea8c6626481ed946cbb973589c99a7f4273326feaaf749edee1b57f4f87",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\integration\\media-candidate.sga",
+      "bytes": 117057322,
+      "sha256": "d27e6386796fc88d838503845da67359a17d82739221329ba91bd595025fd207",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\integration\\stamp-build\\output\\extension\\buildings\\b026.sga",
+      "bytes": 87373,
+      "sha256": "d50edddac28c4ff468cc0a4733e5cea0609e310685e51b753aa16d81e4c17882",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\integration\\stamp-build\\intermediate\\archives\\b026.sga",
+      "bytes": 87373,
+      "sha256": "d50edddac28c4ff468cc0a4733e5cea0609e310685e51b753aa16d81e4c17882",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\integration\\l\\Mods\\b026\\dist\\b026.sga",
+      "bytes": 22181,
+      "sha256": "63bfcf3e2997ab92c790de4fe246c597d57a7307b459811cefc8f639f485c64a",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\integration\\l\\Mods\\b026\\dist\\cook\\20261013T192641Z-224cc43d\\output\\extension\\b026\\b026.sga",
+      "bytes": 3211,
+      "sha256": "7c803c52437940c3adb2d3c4b15c787a11f0fb1453f2db1ce929a2892fb42bd0",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\integration\\l\\Mods\\b026\\dist\\cook\\20261013T192641Z-224cc43d\\intermediate\\archives\\b026.sga",
+      "bytes": 3211,
+      "sha256": "7c803c52437940c3adb2d3c4b15c787a11f0fb1453f2db1ce929a2892fb42bd0",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\integration\\l\\Mods\\b026\\dist\\cook\\20261013T192641Z-224cc43d\\assembly\\00-derived_blueprints\\attrib\\b026.sga",
+      "bytes": 22181,
+      "sha256": "63bfcf3e2997ab92c790de4fe246c597d57a7307b459811cefc8f639f485c64a",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\integration\\candidate\\Berber_future_kingdom.sga",
+      "bytes": 117266455,
+      "sha256": "cf9c73bdc0a64c655525f943f7e7b4ddfd1338124216ec7bf75eb331614f8123",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\windmill\\library\\Mods\\berber_windmill_026\\dist\\cook\\20261013T184133Z-18d8e653\\intermediate\\archives\\berber_windmill_026.sga",
+      "bytes": 143636,
+      "sha256": "0fa4b2f842c94c7e373238a6170f19ffe00a3f5c42df395c5d9ea82c895b3c06",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\windmill\\l\\Mods\\bw026\\dist\\bw026.sga",
+      "bytes": 1408392,
+      "sha256": "cb72332f05ece946c9b9756ebba9b921f5013204d403d037fc694b95b0edc955",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\windmill\\l\\Mods\\bw026\\dist\\cook\\20261013T210815Z-c3050960\\previous.sga",
+      "bytes": 1372727,
+      "sha256": "1e7dfc5c9e4d2c90eb925b7e54d954930937e911b7758bf6acd19cafcc4b54ea",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\windmill\\l\\Mods\\bw026\\dist\\cook\\20261013T210815Z-c3050960\\output\\extension\\bw026\\bw026.sga",
+      "bytes": 488938,
+      "sha256": "6ab6929f64bac1d3c945639a8da30db94716d01bc2c9a47679b12969147b59be",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\windmill\\l\\Mods\\bw026\\dist\\cook\\20261013T210815Z-c3050960\\intermediate\\archives\\bw026.sga",
+      "bytes": 488938,
+      "sha256": "6ab6929f64bac1d3c945639a8da30db94716d01bc2c9a47679b12969147b59be",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\windmill\\l\\Mods\\bw026\\dist\\cook\\20261013T210815Z-c3050960\\assembly\\00-model_variants\\members\\donor.sga",
+      "bytes": 920362,
+      "sha256": "7992d2d30afeae4481347b60bbf788bfe7ad2cc164c1434c8f4b43fcd5aadb6b",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\windmill\\l\\Mods\\bw026\\dist\\cook\\20261013T210815Z-c3050960\\assembly\\00-model_variants\\members\\grafted.sga",
+      "bytes": 1408392,
+      "sha256": "cb72332f05ece946c9b9756ebba9b921f5013204d403d037fc694b95b0edc955",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\windmill\\l\\Mods\\bw026\\dist\\cook\\20261013T184451Z-4062cc82\\output\\extension\\bw026\\bw026.sga",
+      "bytes": 453273,
+      "sha256": "154e908e1089e9ea0e57fc3ba59f73b6de4d91d2dbd096cd2dd7c39cd5c98bf9",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\windmill\\l\\Mods\\bw026\\dist\\cook\\20261013T184451Z-4062cc82\\intermediate\\archives\\bw026.sga",
+      "bytes": 453273,
+      "sha256": "154e908e1089e9ea0e57fc3ba59f73b6de4d91d2dbd096cd2dd7c39cd5c98bf9",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\windmill\\l\\Mods\\bw026\\dist\\cook\\20261013T184451Z-4062cc82\\assembly\\00-model_variants\\members\\grafted.sga",
+      "bytes": 1372727,
+      "sha256": "1e7dfc5c9e4d2c90eb925b7e54d954930937e911b7758bf6acd19cafcc4b54ea",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\towncenter\\l\\Mods\\bt026\\dist\\bt026.sga",
+      "bytes": 29334317,
+      "sha256": "3b03a9938a0d95f8e1c4ea45ee2e6351851cf01978d5c477a315fa87b470bc55",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\towncenter\\l\\Mods\\bt026\\dist\\cook\\20261013T194523Z-d63f8c0e\\output\\extension\\bt026\\bt026.sga",
+      "bytes": 2348562,
+      "sha256": "4204c8464375b66dcd9ca807f15f70205010f602fac1c2a5d5c1eefc8e7c44e3",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\towncenter\\l\\Mods\\bt026\\dist\\cook\\20261013T194523Z-d63f8c0e\\intermediate\\archives\\bt026.sga",
+      "bytes": 2348562,
+      "sha256": "4204c8464375b66dcd9ca807f15f70205010f602fac1c2a5d5c1eefc8e7c44e3",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\towncenter\\l\\Mods\\bt026\\dist\\cook\\20261013T194523Z-d63f8c0e\\assembly\\00-model_variants\\members\\donor.sga",
+      "bytes": 26988868,
+      "sha256": "29b538f68ac6ec14b514c5a848030504d970f426d54a455c12cc16ef7cae0b21",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\towncenter\\l\\Mods\\bt026\\dist\\cook\\20261013T194523Z-d63f8c0e\\assembly\\00-model_variants\\members\\grafted.sga",
+      "bytes": 29334317,
+      "sha256": "3b03a9938a0d95f8e1c4ea45ee2e6351851cf01978d5c477a315fa87b470bc55",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\towncenter\\l\\Mods\\bt026\\dist\\cook\\20261013T190011Z-de857e25\\intermediate\\archives\\bt026.sga",
+      "bytes": 2342557,
+      "sha256": "d31a1b72e2790aeaaee5af464be61ae0023cef31fd0f59bfc37987fe4f64eb5d",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\outpost\\l\\Mods\\bo026\\dist\\bo026.sga",
+      "bytes": 16480282,
+      "sha256": "15a0c9d1fff1df5bb3d74a98d13ffc30c07afbcd22c65e781f92c826c4628e65",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\outpost\\l\\Mods\\bo026\\dist\\cook\\20261013T215325Z-cfffd592\\output\\extension\\bo026\\bo026.sga",
+      "bytes": 2492743,
+      "sha256": "387e47a56950b068ed9194827910eeec7fc45f2cacd8d2b9531575bf4a1cc937",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\outpost\\l\\Mods\\bo026\\dist\\cook\\20261013T215325Z-cfffd592\\intermediate\\archives\\bo026.sga",
+      "bytes": 2492743,
+      "sha256": "387e47a56950b068ed9194827910eeec7fc45f2cacd8d2b9531575bf4a1cc937",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\outpost\\l\\Mods\\bo026\\dist\\cook\\20261013T215325Z-cfffd592\\assembly\\00-model_variants\\members\\donor.sga",
+      "bytes": 13988660,
+      "sha256": "598db2e4f0327af82c89d821af3dcfe2e609f75a96f671bef18b2060c83db2af",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\outpost\\l\\Mods\\bo026\\dist\\cook\\20261013T215325Z-cfffd592\\assembly\\00-model_variants\\members\\grafted.sga",
+      "bytes": 16480282,
+      "sha256": "15a0c9d1fff1df5bb3d74a98d13ffc30c07afbcd22c65e781f92c826c4628e65",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\outpost\\l\\Mods\\bo026\\dist\\cook\\20261013T211521Z-426b2cf9\\intermediate\\archives\\bo026.sga",
+      "bytes": 2488516,
+      "sha256": "96351ba1b0edd1156487e781a5af8a45b9ebcb1b2a539bdd800478925c37c582",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\dock\\l\\Mods\\bd026\\dist\\bd026.sga",
+      "bytes": 36579938,
+      "sha256": "73e2cc33a9cac80e0d89bff08a58766fa52bbe64681f01ddd77322c7d4f8aa03",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\dock\\l\\Mods\\bd026\\dist\\cook\\20261013T204056Z-f66e5bd6\\output\\extension\\bd026\\bd026.sga",
+      "bytes": 1974029,
+      "sha256": "1168bba21a4030f0e4b5cee710c1c63d8e1a9af91f8099bdc4e3575f3dc2db29",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\dock\\l\\Mods\\bd026\\dist\\cook\\20261013T204056Z-f66e5bd6\\intermediate\\archives\\bd026.sga",
+      "bytes": 1974029,
+      "sha256": "1168bba21a4030f0e4b5cee710c1c63d8e1a9af91f8099bdc4e3575f3dc2db29",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\dock\\l\\Mods\\bd026\\dist\\cook\\20261013T204056Z-f66e5bd6\\assembly\\00-model_variants\\members\\donor.sga",
+      "bytes": 34608797,
+      "sha256": "070b55f07420b15ec93ba2683638288fcaefba552806b9213b1da691ea76b291",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\dock\\l\\Mods\\bd026\\dist\\cook\\20261013T204056Z-f66e5bd6\\assembly\\00-model_variants\\members\\grafted.sga",
+      "bytes": 36579938,
+      "sha256": "73e2cc33a9cac80e0d89bff08a58766fa52bbe64681f01ddd77322c7d4f8aa03",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\dock\\l\\Mods\\bd026\\dist\\cook\\20261013T195123Z-6f2b1c67\\intermediate\\archives\\bd026.sga",
+      "bytes": 1968386,
+      "sha256": "684c95666147270195838c2369b157bd292bbe9049feeac7eadb21135a7a93dc",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\barracks\\l\\Mods\\bb026\\dist\\bb026.sga",
+      "bytes": 126389142,
+      "sha256": "4563c63f6566d63c82a94e2301fed874b2261cc6e249679d489bbf9d422f5894",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\barracks\\l\\Mods\\bb026\\dist\\cook\\20261013T211002Z-17e36d8e\\output\\extension\\bb026\\bb026.sga",
+      "bytes": 1442650,
+      "sha256": "4e71f7c5dd77c0b16932c3b8e5f9539517e918ad92666c778be67fbe25237c62",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\barracks\\l\\Mods\\bb026\\dist\\cook\\20261013T211002Z-17e36d8e\\intermediate\\archives\\bb026.sga",
+      "bytes": 1442650,
+      "sha256": "4e71f7c5dd77c0b16932c3b8e5f9539517e918ad92666c778be67fbe25237c62",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\barracks\\l\\Mods\\bb026\\dist\\cook\\20261013T211002Z-17e36d8e\\assembly\\00-model_variants\\members\\donor.sga",
+      "bytes": 124948855,
+      "sha256": "4683917000e237db7e5bcb57bd8b9f1b3c8ae09e4bf19869467dc76feae1a9bc",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\authors\\barracks\\l\\Mods\\bb026\\dist\\cook\\20261013T211002Z-17e36d8e\\assembly\\00-model_variants\\members\\grafted.sga",
+      "bytes": 126389142,
+      "sha256": "4563c63f6566d63c82a94e2301fed874b2261cc6e249679d489bbf9d422f5894",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\berber_future_kingdom-0.2.5.zip",
+      "bytes": 33688858,
+      "sha256": "339764a8087f711a30dc6eed630e696636bbfb7875913999f15cafe2ae8ff1f7",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\integration\\media-candidate.sga",
+      "bytes": 40498334,
+      "sha256": "4c58cba73bfa47bf0a4039727931d05a6cbc15771a2688554f4f4c3a9fb2a9ea",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\integration\\stamp-probe.sga",
+      "bytes": 35815961,
+      "sha256": "fd9258079652799740637103730ac6a183c6b0bc696060472ae40739fdaf1973",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\integration\\stamp-build-v5\\output\\extension\\economic_stamps\\berber_economy_025.sga",
+      "bytes": 16945,
+      "sha256": "6d9171d0a9f7c5ecc59c5732987361e56148269417ae11faed699ad794eca886",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\integration\\stamp-build-v5\\intermediate\\archives\\berber_economy_025.sga",
+      "bytes": 16945,
+      "sha256": "6d9171d0a9f7c5ecc59c5732987361e56148269417ae11faed699ad794eca886",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\integration\\stamp-build-v4\\intermediate\\archives\\berber_economy_025.sga",
+      "bytes": 472,
+      "sha256": "292d1dba7cd9f7f4eb48be1b3bcfa8f867df2ebaa7b515c8756f019d1e5518c4",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\integration\\stamp-build-v3\\intermediate\\archives\\berber_economy_025.sga",
+      "bytes": 472,
+      "sha256": "292d1dba7cd9f7f4eb48be1b3bcfa8f867df2ebaa7b515c8756f019d1e5518c4",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\integration\\stamp-build-v2\\intermediate\\archives\\berber_economy_025.sga",
+      "bytes": 472,
+      "sha256": "292d1dba7cd9f7f4eb48be1b3bcfa8f867df2ebaa7b515c8756f019d1e5518c4",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\integration\\stamp-build\\intermediate\\archives\\berber_economy_025.sga",
+      "bytes": 472,
+      "sha256": "292d1dba7cd9f7f4eb48be1b3bcfa8f867df2ebaa7b515c8756f019d1e5518c4",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\integration\\library\\Mods\\berber_economy_025\\dist\\berber_economy_025.sga",
+      "bytes": 9053,
+      "sha256": "33cc8bffcdf717e8c662819439b905a89d658dd6d5597516b5940ff0f5911339",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\integration\\library\\Mods\\berber_economy_025\\dist\\cook\\20261013T172041Z-2437ddb7\\output\\extension\\berber_economy_025\\berber_economy_025.sga",
+      "bytes": 3095,
+      "sha256": "d82525b262d76fc44b9a29ed1bfcfde94834e68f67c5f3694c14231e01ee5d36",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\integration\\library\\Mods\\berber_economy_025\\dist\\cook\\20261013T172041Z-2437ddb7\\intermediate\\archives\\berber_economy_025.sga",
+      "bytes": 3095,
+      "sha256": "d82525b262d76fc44b9a29ed1bfcfde94834e68f67c5f3694c14231e01ee5d36",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\integration\\library\\Mods\\berber_economy_025\\dist\\cook\\20261013T172041Z-2437ddb7\\assembly\\00-derived_blueprints\\attrib\\berber_economy_025.sga",
+      "bytes": 9053,
+      "sha256": "33cc8bffcdf717e8c662819439b905a89d658dd6d5597516b5940ff0f5911339",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\authors\\mining\\library\\Mods\\berber_mining_025\\dist\\berber_mining_025.sga",
+      "bytes": 1741812,
+      "sha256": "ea4593423d9fbf10a860de83742e9412317fcb54fa48b8050d2edc78e56e8aeb",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\authors\\mining\\library\\Mods\\berber_mining_025\\dist\\cook\\20261013T165405Z-3859f6aa\\output\\extension\\berber_mining_025\\berber_mining_025.sga",
+      "bytes": 831538,
+      "sha256": "584b8bfe3bf00962567aa8dbc7a78976de0b03d6171942d033c74076f9e00dc5",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\authors\\mining\\library\\Mods\\berber_mining_025\\dist\\cook\\20261013T165405Z-3859f6aa\\intermediate\\archives\\berber_mining_025.sga",
+      "bytes": 831538,
+      "sha256": "584b8bfe3bf00962567aa8dbc7a78976de0b03d6171942d033c74076f9e00dc5",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\authors\\mining\\library\\Mods\\berber_mining_025\\dist\\cook\\20261013T165405Z-3859f6aa\\assembly\\00-model_variants\\members\\donor.sga",
+      "bytes": 911215,
+      "sha256": "d3286f4b3a18c0e8392d1560f261a4ceaeae54997cbeeffddfd426de2b775bf0",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\authors\\mining\\library\\Mods\\berber_mining_025\\dist\\cook\\20261013T165405Z-3859f6aa\\assembly\\00-model_variants\\members\\grafted.sga",
+      "bytes": 1741812,
+      "sha256": "ea4593423d9fbf10a860de83742e9412317fcb54fa48b8050d2edc78e56e8aeb",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\authors\\mill\\library\\Mods\\berber_mill_025\\dist\\berber_mill_025.sga",
+      "bytes": 2902710,
+      "sha256": "50d7a68d5ce4725ba40747aff68884d56106954478bd3f7f393b166c2a4472c3",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\authors\\mill\\library\\Mods\\berber_mill_025\\dist\\cook\\20261013T151241Z-f75c3730\\output\\extension\\berber_mill_025\\berber_mill_025.sga",
+      "bytes": 979240,
+      "sha256": "c067ed71284631906ad722d8e94c4e3e03081941ffa89b1e2c7ec3525ffcdcf2",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\authors\\mill\\library\\Mods\\berber_mill_025\\dist\\cook\\20261013T151241Z-f75c3730\\intermediate\\archives\\berber_mill_025.sga",
+      "bytes": 979240,
+      "sha256": "c067ed71284631906ad722d8e94c4e3e03081941ffa89b1e2c7ec3525ffcdcf2",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\authors\\mill\\library\\Mods\\berber_mill_025\\dist\\cook\\20261013T151241Z-f75c3730\\assembly\\00-model_variants\\members\\donor.sga",
+      "bytes": 1924399,
+      "sha256": "082741ca6869fb46f8de9528014bca1f1162fb9d3327675fbd441da5832f312f",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\authors\\mill\\library\\Mods\\berber_mill_025\\dist\\cook\\20261013T151241Z-f75c3730\\assembly\\00-model_variants\\members\\grafted.sga",
+      "bytes": 2902710,
+      "sha256": "50d7a68d5ce4725ba40747aff68884d56106954478bd3f7f393b166c2a4472c3",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\authors\\lumber\\library\\Mods\\berber_lumber_025\\dist\\berber_lumber_025.sga",
+      "bytes": 1677466,
+      "sha256": "5126dd08b804ba6b405bfb917d3993d54b411cb60e0731a6942088d9b8ef4e76",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\authors\\lumber\\library\\Mods\\berber_lumber_025\\dist\\cook\\20261013T164923Z-b1c8aab2\\output\\extension\\berber_lumber_025\\berber_lumber_025.sga",
+      "bytes": 1031658,
+      "sha256": "243f5c54160e52747244b4baf369cc8bd3a93a68d54e7fd4c83f87cf6efb0323",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\authors\\lumber\\library\\Mods\\berber_lumber_025\\dist\\cook\\20261013T164923Z-b1c8aab2\\intermediate\\archives\\berber_lumber_025.sga",
+      "bytes": 1031658,
+      "sha256": "243f5c54160e52747244b4baf369cc8bd3a93a68d54e7fd4c83f87cf6efb0323",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\authors\\lumber\\library\\Mods\\berber_lumber_025\\dist\\cook\\20261013T164923Z-b1c8aab2\\assembly\\00-model_variants\\members\\donor.sga",
+      "bytes": 647015,
+      "sha256": "f57ba0c6cc650ac2658c32bd50a7706ed6106b7ddf239ee6724e102244f4c46d",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\authors\\lumber\\library\\Mods\\berber_lumber_025\\dist\\cook\\20261013T164923Z-b1c8aab2\\assembly\\00-model_variants\\members\\grafted.sga",
+      "bytes": 1677466,
+      "sha256": "5126dd08b804ba6b405bfb917d3993d54b411cb60e0731a6942088d9b8ef4e76",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\authors\\lumber\\library\\Mods\\berber_lumber_025\\dist\\cook\\20261013T151928Z-fe5dfdb6\\intermediate\\archives\\berber_lumber_025.sga",
+      "bytes": 1028260,
+      "sha256": "da005f1c3ed0213fc14d522c7d31adfaf459005261012c2c1c8f11c1a681d17f",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_4\\berber_future_kingdom-0.2.4.zip",
+      "bytes": 29969845,
+      "sha256": "3f540a900d87de1a3b79dc9b5980dd9413c89c1b86497eff3f1c43d8c25fb6fe",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_4\\stamp-build-normal-access\\output\\extension\\house_stamps\\berber_house_022.sga",
+      "bytes": 11628,
+      "sha256": "f606d974e9ca2d96e6f966f11a0675a538e7ea0d63de8cefccf65869890a92ee",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_4\\stamp-build-normal-access\\intermediate\\archives\\berber_house_022.sga",
+      "bytes": 11628,
+      "sha256": "f606d974e9ca2d96e6f966f11a0675a538e7ea0d63de8cefccf65869890a92ee",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_4\\package\\Berber_future_kingdom.sga",
+      "bytes": 35795410,
+      "sha256": "3246e2bbe002502ffb087c49af5ac83ffde75c4b956c918fe99881ac80d771c3",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_3\\berber_future_kingdom-0.2.3.zip",
+      "bytes": 29970142,
+      "sha256": "176f5b59ab5024d588deb929b17167a3978164e51d01c25c56ae452a0929cbe5",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_3\\package\\Berber_future_kingdom.sga",
+      "bytes": 35795410,
+      "sha256": "585ef2b1469b67514327e939137299e9bb960499094eb32a071a35123c8eebc7",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_2\\berber_future_kingdom-0.2.2.zip",
+      "bytes": 29976800,
+      "sha256": "8d12d37f25b44c8d38df8a69f8b288a0053f814d208259f94556830fa2e72299",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_2\\stamp-build-v4\\output\\extension\\house_stamps\\berber_house_022.sga",
+      "bytes": 11628,
+      "sha256": "ffe5a32a5765edae244eb3bca11808c970d78457946a9fa79863ae35efa292e5",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_2\\stamp-build\\output\\extension\\house_stamps\\berber_house_022.sga",
+      "bytes": 1976,
+      "sha256": "c0546a80e6c18b976a6736af480ba6a3e443d10326530b951e9645b2a5e89a82",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_2\\rollback\\Berber_future_kingdom-0.2.1.sga",
+      "bytes": 25566154,
+      "sha256": "348378e6562cd5bc16bb9167a4e2596c9691209383a470d43e4273b21c3d800e",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_2\\package\\Berber_future_kingdom.sga",
+      "bytes": 35795597,
+      "sha256": "5cdb9b2c264eecc1d0986c3c50899bf15ac9ea1aa653093c8c24697becd9fb38",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_1\\berber_future_kingdom-0.2.1.zip",
+      "bytes": 23403618,
+      "sha256": "f68b81c9e11122537ac16f5f9cea25e97994a7d62107fe645b5e6f21c9b5950e",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_1\\rollback\\Berber_future_kingdom-0.2.0.sga",
+      "bytes": 25565988,
+      "sha256": "18922d05cd38fb1c4cb00cc32014a2c753a499474fd272dd70c14e714e7c3172",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_1\\package\\Berber_future_kingdom.sga",
+      "bytes": 25566154,
+      "sha256": "348378e6562cd5bc16bb9167a4e2596c9691209383a470d43e4273b21c3d800e",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_0\\berber_future_kingdom-0.2.0.zip",
+      "bytes": 23416664,
+      "sha256": "63b434cb8c44b2bf840d6093dcf84042cf66030a4307b25dd76562cba05b3f29",
+      "kind": "zip"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_0\\production-with-tuareg.sga",
+      "bytes": 14914423,
+      "sha256": "3c78b1a45c61770f296ba6f3eaab4a7d5bd1ef76d5a9eb1e9163dbaa3307a18b",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_0\\rollback\\Berber_future_kingdom.sga",
+      "bytes": 5180029,
+      "sha256": "6f8449b74da3e4dddcdaa7990a11327ba6e436c90c9d9f40e677d56baeb9f4d6",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_0\\production-build-v2\\output\\extension\\Berber_future_kingdom\\Berber_future_kingdom.sga",
+      "bytes": 5189076,
+      "sha256": "b229bd4b6db0d9017124bdfb45e97d919a10b3f343d7504665bd643f55718d20",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_0\\production-build\\output\\extension\\Berber_future_kingdom\\Berber_future_kingdom.sga",
+      "bytes": 5185774,
+      "sha256": "cbf2c744bbaa972001f7a8d2dd268f911dce0b5054c22acdfb1fc0fbd99d29b5",
+      "kind": "sga"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_0\\package\\Berber_future_kingdom.sga",
+      "bytes": 25565988,
+      "sha256": "18922d05cd38fb1c4cb00cc32014a2c753a499474fd272dd70c14e714e7c3172",
+      "kind": "sga"
+    }
+  ],
+  "retained": [
+    {
+      "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_4_0\\university\\rebuild-cache.zip",
+      "bytes": 3111986,
+      "reason": "Source/rebuild evidence/tool archive, not an old delivery",
+      "sha256": "9055a4bd8299c7fbd61e915dc7ff9941236800795a171a6d6c98f2fb12a14784"
+    },
+    {
+      "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_4_0\\siege\\rebuild-cache.zip",
+      "bytes": 10118567,
+      "reason": "Source/rebuild evidence/tool archive, not an old delivery",
+      "sha256": "3b52705505f346bb2f8c0cda004868656b1d573e1fd110c28d79cd47fad1b535"
+    },
+    {
+      "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_4_0\\marrakech\\rebuild-cache.zip",
+      "bytes": 8296924,
+      "reason": "Source/rebuild evidence/tool archive, not an old delivery",
+      "sha256": "437a4ca9f34a0fc427b5a3409c64eaf0129f5e0f9047798447c09d07440e2c22"
+    },
+    {
+      "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_4_0\\keep\\rebuild-cache.zip",
+      "bytes": 18385324,
+      "reason": "Source/rebuild evidence/tool archive, not an old delivery",
+      "sha256": "1effe9d79da710fb36e52050132c9366c9cbccc3c063f569a0b34c2f3ea5283d"
+    },
+    {
+      "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\archives\\Berber_future_kingdom.sga",
+      "bytes": 25566154,
+      "reason": "Original project source archive",
+      "sha256": "348378e6562cd5bc16bb9167a4e2596c9691209383a470d43e4273b21c3d800e"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_7_3\\Berber-0.7.3-MAIN-GARRISON.zip",
+      "bytes": 189839049,
+      "reason": "Current 0.7.3 delivery",
+      "sha256": "e3ebbba48d43a2a1770136a4c447b6fd5669840fc3d2d6590ccca843fe562f67"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_7_3\\Berber-0.7.3-VOICES-INSTALLER.zip",
+      "bytes": 73651625,
+      "reason": "Current 0.7.3 delivery",
+      "sha256": "a422fdada1fae23cb4192fd884b5302383be0353b0d2733bc7d4bee429074c2f"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_6_1\\Berber_future_kingdom.sga",
+      "bytes": 299334576,
+      "reason": "Current content base for 0.7.3 and future versions",
+      "sha256": "48f09ed61020740932b0a653e165710fda49d25aa7739d05f6486b79dbe661bb"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_6_0\\candidate.sga",
+      "bytes": 299260928,
+      "reason": "0.6.0 voice composition base for 0.6.1",
+      "sha256": "6e4a4f3fcb00627df40f5a50fbf128c949cc281f54b4cf1a424f6bdfc9370f51"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_6_0\\tools\\vgmstream-win64-r2117.zip",
+      "bytes": 4468180,
+      "reason": "Source/rebuild evidence/tool archive, not an old delivery",
+      "sha256": "6c4a8a3813864fefed081bbd337dbc0ad93bf88e0b92f5db98d7ab258b22dc6c"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_6_0\\prior-compositions\\6e4a4f3fcb00627df40f5a50fbf128c949cc281f54b4cf1a424f6bdfc9370f51\\unpack-sidecar-evidence.zip",
+      "bytes": 1033977,
+      "reason": "Source/rebuild evidence/tool archive, not an old delivery",
+      "sha256": "3882f48ffea1fd4500d191ed629413f834c8a1322e44c2dc640bb9748ef2528a"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_6_0\\prior-compositions\\6e4a4f3fcb00627df40f5a50fbf128c949cc281f54b4cf1a424f6bdfc9370f51\\base-unpack-sidecar-evidence.zip",
+      "bytes": 961027,
+      "reason": "Source/rebuild evidence/tool archive, not an old delivery",
+      "sha256": "cacfbf06e5faa35aa341a78710cdde444708dd50121b00dd3998759a20cedf86"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_6_0\\prior-compositions\\41d4f2255610c723c66c816ae51ea9247c368c5c8d262120eb335b90c8a92948\\unpack-sidecar-evidence.zip",
+      "bytes": 1033977,
+      "reason": "Source/rebuild evidence/tool archive, not an old delivery",
+      "sha256": "25d78eba6488b20c86f1d0f28b9435a3306a2cd6676035edfd4101cb2f3f757b"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_6_0\\prior-compositions\\41d4f2255610c723c66c816ae51ea9247c368c5c8d262120eb335b90c8a92948\\base-unpack-sidecar-evidence.zip",
+      "bytes": 961027,
+      "reason": "Source/rebuild evidence/tool archive, not an old delivery",
+      "sha256": "cacfbf06e5faa35aa341a78710cdde444708dd50121b00dd3998759a20cedf86"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_5_1\\package\\Berber_future_kingdom.sga",
+      "bytes": 298159356,
+      "reason": "Historical patch-chain base retained for existing art rebuild recipes",
+      "sha256": "acbcd6501a1e8ebea2c7dae8701641625c96c078e3a4d33e9c2968111732717b"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_5_0\\baseline-source-snapshot.zip",
+      "bytes": 550255,
+      "reason": "Source/rebuild evidence/tool archive, not an old delivery",
+      "sha256": "60d2803343284ca96d8e1bd416e4ca4710b7f84d73dc72e11bdebc808ab49518"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_5_0\\package\\Berber_future_kingdom.sga",
+      "bytes": 298023249,
+      "reason": "Historical patch-chain base retained for existing art rebuild recipes",
+      "sha256": "0bf6d113bf4c710d89d10affc95978b629ed13f6399cd343dcf2ca316e23184f"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_4_0\\package\\Berber_future_kingdom.sga",
+      "bytes": 274587047,
+      "reason": "Historical patch-chain base retained for existing art rebuild recipes",
+      "sha256": "a23d308c4dda1af40fc6138e40b97904afd73c0a0a0816d0f3e4b1130d8718ec"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\package\\Berber_future_kingdom.sga",
+      "bytes": 262978608,
+      "reason": "Historical patch-chain base retained for existing art rebuild recipes",
+      "sha256": "782234abffec0a54cb9133067d69ba95d29e06a5a734cedcb4f7054093773f6f"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_0\\package\\Berber_future_kingdom.sga",
+      "bytes": 179576353,
+      "reason": "Historical patch-chain base retained for existing art rebuild recipes",
+      "sha256": "33cbb2d3d60914da49e893fe0f19c37dc6cb9aaaa120c0d00613a26a2ebbe5af"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_7_1\\package\\Berber_future_kingdom.sga",
+      "bytes": 139904878,
+      "reason": "Historical patch-chain base retained for existing art rebuild recipes",
+      "sha256": "6f2d9844e2a932bd4ae9e440d2e07720dfd6e0fe1c60e9b53b23cc0549cb8faf"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_7\\package\\Berber_future_kingdom.sga",
+      "bytes": 139893939,
+      "reason": "Historical patch-chain base retained for existing art rebuild recipes",
+      "sha256": "bbc965d9797c37e79aa95626bca1a83eb17874945671d9bd0b8ca463076c3b91"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\_cleanup\\HISTORICAL_METADATA.zip",
+      "bytes": 66074546,
+      "reason": "Source/rebuild evidence/tool archive, not an old delivery",
+      "sha256": "6168f710a32fe8d367cc036b5440c8b7918b8a5560fabe4354edd5fc6295d095"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_voice_test\\garrison_library\\Mods\\tuareg_voice_probe\\project\\archives\\tuareg_voice_probe.sga",
+      "bytes": 428,
+      "reason": "Source archive or shared stock input",
+      "sha256": "5d64b3dc19e93bc2f8a7fafdf06882c082af0b0340f4b165b619a5f7366a0a1e"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\package\\Berber_future_kingdom.sga",
+      "bytes": 117266455,
+      "reason": "Historical patch-chain base retained for existing art rebuild recipes",
+      "sha256": "cf9c73bdc0a64c655525f943f7e7b4ddfd1338124216ec7bf75eb331614f8123"
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\package\\Berber_future_kingdom.sga",
+      "bytes": 40572578,
+      "reason": "Historical patch-chain base retained for existing art rebuild recipes",
+      "sha256": "91b486656ed4194cdbd366a96cb4f539800ecb0634e87e40bd49afcbe1cefc0d"
+    }
+  ],
+  "bytes_before": 9446097940,
+  "rebuild_blobs_added": [],
+  "rebuild_blob_bytes_added": 0,
+  "restore_references_migrated": 0,
+  "scope": "ZIP/SGA files only; current 0.7.3 deliveries and source/rebuild inputs retained. All other existing files remain in place.",
+  "retired_temporary_archive_restore_entries": 2
+}

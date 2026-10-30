@@ -1,0 +1,87 @@
+<instance version="6" description="" template="ai\ai_entity">
+  <uniqueid name="pbgid" value="2145001" />
+  <group name="ai_entity_bag">
+    <list name="applicable_blueprints">
+      <instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_tech_unit_infantry_control_byz" List.ItemID="-467675990" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_tech_university_control_byz" List.ItemID="943029279" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_unit_cavalry_control_byz" List.ItemID="1347068112" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_unit_infantry_control_byz" List.ItemID="-1773915629" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_unit_ranged_control_byz" List.ItemID="-1862653438" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_unit_siege_control_byz" List.ItemID="1246065802" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_landmark_age3_eastern_merc_house_byz" List.ItemID="-675747414" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_landmark_age1_hippodrome_byz" List.ItemID="2118393470" />
+    </list>
+    <group name="construction">
+      <string name="placement_function" value="" />
+      <bool name="can_build_multiple_in_parallel" value="False" />
+      <int name="max_num_additional_builders" value="4" />
+      <int name="max_num_incomplete_structures_builders" value="-1" />
+      <list name="near_to_structures">
+        <instance_reference name="structure" value="ebps\races\byzantine\buildings\building_cistern_byz" List.ItemID="-1809886340" />
+        <instance_reference name="structure" value="ebps\races\byzantine\buildings\building_landmark_age2_cistern_byz" List.ItemID="-349632098" />
+      </list>
+      <list name="requires_structures">
+      </list>
+      <list name="near_structures_with_capability">
+      </list>
+    </group>
+  </group>
+  <variant name="xp3">
+    <uniqueid name="pbgid" value="2145001" />
+    <group name="ai_entity_bag">
+      <list name="applicable_blueprints">
+        <instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_tech_unit_infantry_control_byz" List.ItemID="-467675990" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_tech_university_control_byz" List.ItemID="943029279" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_unit_cavalry_control_byz" List.ItemID="1347068112" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_unit_infantry_control_byz" List.ItemID="-1773915629" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_unit_ranged_control_byz" List.ItemID="-1862653438" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_unit_siege_control_byz" List.ItemID="1246065802" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_landmark_age3_eastern_merc_house_byz" List.ItemID="-675747414" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_landmark_age1_hippodrome_byz" List.ItemID="2118393470" />
+      </list>
+      <group name="construction">
+        <string name="placement_function" value="" />
+        <bool name="can_build_multiple_in_parallel" value="False" />
+        <int name="max_num_additional_builders" value="4" />
+        <int name="max_num_incomplete_structures_builders" value="-1" />
+        <list name="near_to_structures">
+          <instance_reference name="structure" value="ebps\races\byzantine\buildings\building_cistern_byz" List.ItemID="-1809886340" />
+          <instance_reference name="structure" value="ebps\races\byzantine\buildings\building_landmark_age2_cistern_byz" List.ItemID="-349632098" />
+        </list>
+        <list name="requires_structures">
+        </list>
+        <list name="near_structures_with_capability">
+        </list>
+      </group>
+    </group>
+  </variant>
+  <variant name="cordoba">
+    <uniqueid name="pbgid" value="2145001" />
+    <group name="ai_entity_bag">
+      <list name="applicable_blueprints">
+        <instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_tech_unit_infantry_control_byz" List.ItemID="-467675990" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_tech_university_control_byz" List.ItemID="943029279" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_unit_cavalry_control_byz" List.ItemID="1347068112" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_unit_infantry_control_byz" List.ItemID="-1773915629" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_unit_ranged_control_byz" List.ItemID="-1862653438" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_unit_siege_control_byz" List.ItemID="1246065802" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_landmark_age3_eastern_merc_house_byz" List.ItemID="-675747414" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\byzantine\buildings\building_landmark_age1_hippodrome_byz" List.ItemID="2118393470" />
+      </list>
+      <group name="construction">
+        <string name="placement_function" value="" />
+        <bool name="can_build_multiple_in_parallel" value="False" />
+        <int name="max_num_additional_builders" value="4" />
+        <int name="max_num_incomplete_structures_builders" value="-1" />
+        <list name="near_to_structures">
+          <instance_reference name="structure" value="ebps\races\byzantine\buildings\building_cistern_byz" List.ItemID="-1809886340" />
+          <instance_reference name="structure" value="ebps\races\byzantine\buildings\building_landmark_age2_cistern_byz" List.ItemID="-349632098" />
+        </list>
+        <list name="requires_structures">
+        </list>
+        <list name="near_structures_with_capability">
+        </list>
+      </group>
+    </group>
+  </variant>
+</instance>

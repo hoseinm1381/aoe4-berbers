@@ -1,0 +1,19 @@
+{
+  "key": "siege",
+  "minimum_age": 3,
+  "required_ages": [3, 4],
+  "live_entity": "ebps/races/malian/buildings/building_unit_siege_mal",
+  "current_parent": "assets/attrib/instances/ebps/races/malian/buildings/building_unit_siege_mal.xml:564 -> ebps/races/core/buildings/building_unit_siege",
+  "live_build_command": "assets/attrib/instances/sbps/races/malian/berbers/unit_villager_1_mal.xml:1373",
+  "current_age_tiers": "current entity lines 404 and 423, tier3_unit_siege_control_mal and tier4_unit_siege_control_mal",
+  "outskirts_modular_state": "current entity tier_group at 456 onward; native integration remains pending",
+  "official_archive": "E:/Games/steamapps/common/Age of Empires IV/cardinal/archives/Attrib.sga",
+  "official_parent_member": "attrib/ebps/races/core/buildings/building_unit_siege.rgd",
+  "official_requirement": "core.xml:1487-1507 required_player_upgrade castle_age, include_completed=true, min_completed=1, is_present=true",
+  "footprint_m": [6, 6],
+  "footprint_evidence": "core.xml:86-99 site_ext footprint_scale x=6,y=6; forced_axis_aligned_footprint=true, snap_to_construction_grid=true",
+  "render_bounds_used_as_footprint": false,
+  "donor": "art/civilizations/abbasids/structures/siege_workshop/abb_siege_workshop_control_age03/abb_siege_workshop_control_age03.rgm",
+  "stock_decode_manifest": "stock/028f0735c6a97dbf180a/decoded-static.json",
+  "native_anchors": "pending; AUTHOR empties are original source annotations, not copied native bindings"
+}

@@ -1,0 +1,50 @@
+<instance version="6" description="Grasslands need to be placed near stables" template="ai\ai_entity">
+	<uniqueid name="pbgid" value="9005073" />
+	<group name="ai_entity_bag">
+		<list name="applicable_blueprints">
+			<instance_reference name="applicable_blueprint" value="ebps\races\jin_dynasty\buildings\building_stable_2_jin" List.ItemID="672166142" />
+		</list>
+		<group name="construction">
+			<string name="placement_function" value="" />
+			<bool name="can_build_multiple_in_parallel" value="False" />
+			<int name="max_num_additional_builders" value="4" />
+			<int name="max_num_incomplete_structures_builders" value="-1" />
+			<list name="near_to_structures">
+				<instance_reference name="structure" value="ebps\races\jin_dynasty\buildings\building_grassland_2_jin" List.ItemID="-651213572" />
+			</list>
+			<list name="requires_structures">
+			</list>
+			<list name="near_structures_with_capability">
+			</list>
+			<list name="away_from_structures">
+			</list>
+		</group>
+	</group>
+	<variant name="cordoba">
+		<uniqueid name="pbgid" value="9005073" />
+		<group name="ai_entity_bag">
+			<list name="applicable_blueprints">
+				<instance_reference name="applicable_blueprint" value="ebps\races\jin_dynasty\buildings\building_grassland_2_jin" List.ItemID="-2011529802" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\jin_dynasty\buildings\building_stable_2_jin" List.ItemID="672166142" />
+				<instance_reference name="applicable_blueprint" value="ebps\races\jin_dynasty\buildings\building_landmark_age1_great_pasture_jin" List.ItemID="-20358281" />
+			</list>
+			<group name="construction">
+				<string name="placement_function" value="" />
+				<bool name="can_build_multiple_in_parallel" value="False" />
+				<int name="max_num_additional_builders" value="4" />
+				<int name="max_num_incomplete_structures_builders" value="-1" />
+				<list name="near_to_structures">
+					<instance_reference name="structure" value="ebps\races\jin_dynasty\buildings\building_stable_2_jin" List.ItemID="-1422323863" />
+					<instance_reference name="structure" value="ebps\races\jin_dynasty\buildings\building_landmark_age1_great_pasture_jin" List.ItemID="-66332971" />
+					<instance_reference name="structure" value="ebps\races\jin_dynasty\buildings\building_grassland_2_jin" List.ItemID="-651213572" />
+				</list>
+				<list name="requires_structures">
+				</list>
+				<list name="near_structures_with_capability">
+				</list>
+				<list name="away_from_structures">
+				</list>
+			</group>
+		</group>
+	</variant>
+</instance>

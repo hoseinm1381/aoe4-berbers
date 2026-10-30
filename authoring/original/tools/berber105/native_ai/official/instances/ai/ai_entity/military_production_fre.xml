@@ -1,0 +1,78 @@
+<instance version="6" description="French military production buildings should be near keeps" template="ai\ai_entity">
+  <uniqueid name="pbgid" value="2082327" />
+  <group name="ai_entity_bag">
+    <list name="applicable_blueprints">
+      <instance_reference name="applicable_blueprint" value="ebps\races\french\buildings\building_unit_ranged_fre\building_unit_ranged_control_fre" List.ItemID="-324249534" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\french\buildings\building_unit_cavalry_fre\building_unit_cavalry_control_fre" List.ItemID="-1888530552" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\french_ha_01\buildings\building_unit_cavalry_fre_ha_01\building_unit_cavalry_control_fre_ha_01" List.ItemID="346028233" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\french_ha_01\buildings\building_unit_ranged_fre_ha_01\building_unit_ranged_control_fre_ha_01" List.ItemID="-1831995755" />
+    </list>
+    <group name="construction">
+      <string name="placement_function" value="" />
+      <bool name="can_build_multiple_in_parallel" value="False" />
+      <int name="max_num_additional_builders" value="4" />
+      <int name="max_num_incomplete_structures_builders" value="-1" />
+      <list name="near_to_structures">
+        <instance_reference name="structure" value="ebps\races\french\buildings\building_defense_keep_fre\building_defense_keep_fre" List.ItemID="-215648241" />
+        <instance_reference name="structure" value="ebps\races\french\buildings\building_landmark_age2_la_chateau_rouge_fre\building_landmark_age2_la_chateau_rouge_fre" List.ItemID="1816670693" />
+        <instance_reference name="structure" value="ebps\races\french_ha_01\buildings\building_landmark_age2_la_chateau_rouge_fre_ha_01\building_landmark_age2_la_chateau_rouge_fre_ha_01" List.ItemID="-1584871730" />
+      </list>
+      <list name="requires_structures">
+      </list>
+      <list name="near_structures_with_capability">
+      </list>
+    </group>
+  </group>
+  <variant name="xp3">
+    <uniqueid name="pbgid" value="2082327" />
+    <group name="ai_entity_bag">
+      <list name="applicable_blueprints">
+        <instance_reference name="applicable_blueprint" value="ebps\races\french\buildings\building_unit_ranged_fre\building_unit_ranged_control_fre" List.ItemID="-324249534" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\french\buildings\building_unit_cavalry_fre\building_unit_cavalry_control_fre" List.ItemID="-1888530552" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\french_ha_01\buildings\building_unit_cavalry_fre_ha_01\building_unit_cavalry_control_fre_ha_01" List.ItemID="346028233" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\french_ha_01\buildings\building_unit_ranged_fre_ha_01\building_unit_ranged_control_fre_ha_01" List.ItemID="-1831995755" />
+      </list>
+      <group name="construction">
+        <string name="placement_function" value="" />
+        <bool name="can_build_multiple_in_parallel" value="False" />
+        <int name="max_num_additional_builders" value="4" />
+        <int name="max_num_incomplete_structures_builders" value="-1" />
+        <list name="near_to_structures">
+          <instance_reference name="structure" value="ebps\races\french\buildings\building_defense_keep_fre\building_defense_keep_fre" List.ItemID="-215648241" />
+          <instance_reference name="structure" value="ebps\races\french\buildings\building_landmark_age2_la_chateau_rouge_fre\building_landmark_age2_la_chateau_rouge_fre" List.ItemID="1816670693" />
+          <instance_reference name="structure" value="ebps\races\french_ha_01\buildings\building_landmark_age2_la_chateau_rouge_fre_ha_01\building_landmark_age2_la_chateau_rouge_fre_ha_01" List.ItemID="-1584871730" />
+        </list>
+        <list name="requires_structures">
+        </list>
+        <list name="near_structures_with_capability">
+        </list>
+      </group>
+    </group>
+  </variant>
+  <variant name="cordoba">
+    <uniqueid name="pbgid" value="2082327" />
+    <group name="ai_entity_bag">
+      <list name="applicable_blueprints">
+        <instance_reference name="applicable_blueprint" value="ebps\races\french\buildings\building_unit_ranged_fre\building_unit_ranged_control_fre" List.ItemID="-324249534" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\french\buildings\building_unit_cavalry_fre\building_unit_cavalry_control_fre" List.ItemID="-1888530552" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\french_ha_01\buildings\building_unit_cavalry_fre_ha_01\building_unit_cavalry_control_fre_ha_01" List.ItemID="346028233" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\french_ha_01\buildings\building_unit_ranged_fre_ha_01\building_unit_ranged_control_fre_ha_01" List.ItemID="-1831995755" />
+      </list>
+      <group name="construction">
+        <string name="placement_function" value="" />
+        <bool name="can_build_multiple_in_parallel" value="False" />
+        <int name="max_num_additional_builders" value="4" />
+        <int name="max_num_incomplete_structures_builders" value="-1" />
+        <list name="near_to_structures">
+          <instance_reference name="structure" value="ebps\races\french\buildings\building_defense_keep_fre\building_defense_keep_fre" List.ItemID="-215648241" />
+          <instance_reference name="structure" value="ebps\races\french\buildings\building_landmark_age2_la_chateau_rouge_fre\building_landmark_age2_la_chateau_rouge_fre" List.ItemID="1816670693" />
+          <instance_reference name="structure" value="ebps\races\french_ha_01\buildings\building_landmark_age2_la_chateau_rouge_fre_ha_01\building_landmark_age2_la_chateau_rouge_fre_ha_01" List.ItemID="-1584871730" />
+        </list>
+        <list name="requires_structures">
+        </list>
+        <list name="near_structures_with_capability">
+        </list>
+      </group>
+    </group>
+  </variant>
+</instance>

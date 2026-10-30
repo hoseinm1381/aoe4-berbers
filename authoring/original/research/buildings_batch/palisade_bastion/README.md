@@ -1,0 +1,13 @@
+# Palisade bastion source delivery
+
+Age I-IV automatic palisade cap/end family. English/common stock bastion identified by installed Malian EBP alternate_sua and decoded with Garrison 0.1.4. Untouched all18-partition position/topology reference saved separately. Render bounds include construction/damaged partitions and do not represent a footprint or healthy silhouette. Official site_ext footprint_scale is1x1. No gameplay XML or archive edits.
+
+Four0.22m split timbers centred at +/-0.165m, compacted earth seat0.22m tall, top4.578125m, crossed binding ties at1.05/2.85m, rectangular lashings, neutral owner cloth stripe at3.24m. The cloth spans the gap and seats onto two timbers per face. Inactive faces use one diagonal timber stay each, seated on the0.275m outer timber face. II adds locking pegs and exposed head ties at4.08m, III adds earth post sockets, IV lime finish and small geometric inlays. Peak and width0.682861328125m match peer palisade. Stock all-partition cap top5.28515625m is recorded and deliberately replaced by wall-aligned source top; native silhouette review remains required.
+
+Logical ground sockets sit at radius width/2 pointing0/90/180/270 degrees. Terminal, straight, corner90, T and cross sources supplied each age. Network minimum connection angle45deg permits branching; official cap_connection_variants is empty. These alternatives are not verified native selector states. Bind selection downstream before integration; test arbitrary-angle and terrain joins separately. Donor bone_root/right_bone/left_bone local reference transforms remain in decoded JSON, with reference semantics unqualified.
+
+Object manifests carry explicit0/20/40/60/80/100 FirstVisible. Target auto-completes cap; native stage policy qualification remains. Packed source RGB pattern red marks neutral stripes, green/blue zero, same UV as albedo. Native shader/export route remains blocked under shared owner-colour contract.
+
+Rebuild: run run_hidden.py with bundled Python. It launches own hidden factory-startup offline Blender, saves packed all-age blends, five FBX states per age, PNGs, previews/six-side views and numeric JSON, then closes its process. Durable recipe is art/buildings/palisade_bastion/build_palisade_bastion.py. Helpers were copied locally, no peer changes.
+
+Numeric checks cover manifold closed individual parts, positive signed volumes/outward winding, finite coordinates, no degenerate or zero-area UV faces, positive scales, seating and wall interface planes. Multiple intentional overlaps are fitted assemblies, not a Boolean union. Native gates: structure owner colour, cap selector/stamp mapping, ages/stages/LODs, damage/destruction, arbitrary angle/terrain, game placement and multiplayer. No cook/package/native match run.

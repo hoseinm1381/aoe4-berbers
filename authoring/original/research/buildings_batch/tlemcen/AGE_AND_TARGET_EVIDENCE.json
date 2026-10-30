@@ -1,0 +1,18 @@
+{
+  "construction_age": 2,
+  "completed_age": 3,
+  "ages": [
+    3,
+    4
+  ],
+  "current_requirement": "castle_age absent and feudal_age present, min_completed=1 XML:522-550",
+  "builder": "unit_villager_1_mal.xml:1276-1279 mal_age2_wonders exact target",
+  "installed_parent": "core building_wonder_age2 fresh RGD/XML",
+  "installed_and_live_footprint": [
+    8,
+    8
+  ],
+  "live_animator_scale": 150,
+  "stock_animator_scale": 100,
+  "donor_attachment": "official mal controller mal_landmark_a_02, Grand Fulani Corral"
+}

@@ -1,0 +1,22 @@
+{
+  "construction_age": 1,
+  "completed_age": 2,
+  "ages": [
+    2,
+    3,
+    4
+  ],
+  "current_requirement": "feudal_age is_present=False; min_completed=1",
+  "installed_requirement": "mal.xml:813\u2013818 feudal_age is_present=false",
+  "builder": "sbps/races/malian/berbers/unit_villager_1_mal.xml:726",
+  "live_parent": "ebps/races/core/buildings/building_wonder_age1",
+  "installed_core_site_footprint": [
+    8,
+    8
+  ],
+  "installed_malian_site_footprint": [
+    8,
+    8
+  ],
+  "native_animator_scale": 125
+}

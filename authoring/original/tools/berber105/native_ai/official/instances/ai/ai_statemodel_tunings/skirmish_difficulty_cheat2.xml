@@ -1,0 +1,12 @@
+<instance version="6" description="State model tunings for AI difficulty level &quot;Cheat2&quot;." template="ai\ai_statemodel_tunings">
+  <uniqueid name="pbgid" value="2134260" />
+  <instance_reference name="parent_pbg" value="ai\ai_statemodel_tunings\skirmish_difficulty_expert" />
+  <variant name="xp3">
+    <uniqueid name="pbgid" value="2134260" />
+    <instance_reference name="parent_pbg" value="ai\ai_statemodel_tunings\skirmish_difficulty_expert" />
+  </variant>
+  <variant name="cordoba">
+    <uniqueid name="pbgid" value="2134260" />
+    <instance_reference name="parent_pbg" value="ai\ai_statemodel_tunings\skirmish_difficulty_expert" />
+  </variant>
+</instance>

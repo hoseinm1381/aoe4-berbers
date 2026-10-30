@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "deleted_files": 16533,
+  "bytes_removed": 5275709492,
+  "protected_state": "Refs, reflogs and both worktree indexes byte-identical; protected reachable-object set identical",
+  "integrity": "git fsck --full --cache passed",
+  "history_rewritten": false,
+  "project_files_deleted": 0,
+  "count_objects_after": "count: 2749\nsize: 1597598\nin-pack: 1576\npacks: 8\nsize-pack: 39958\nprune-packable: 186\ngarbage: 0\nsize-garbage: 0\n",
+  "recent_objects_preserved": 345,
+  "git_bytes_after": 1677316478,
+  "project_E_bytes_after": 6562288639,
+  "F_bytes_removed": 0
+}

@@ -1,0 +1,45 @@
+{
+  "minimum_age": 2,
+  "ages": [
+    2,
+    3,
+    4
+  ],
+  "footprint_m": [
+    6,
+    6
+  ],
+  "official_evidence": [
+    {
+      "file": "core.xml",
+      "lines": [
+        1241,
+        1261
+      ],
+      "finding": "requirement_ext requires completed feudal_age min_completed=1"
+    },
+    {
+      "file": "core.xml",
+      "lines": [
+        90,
+        97
+      ],
+      "finding": "site_ext forced axis-aligned footprint_scale x=6 y=6"
+    }
+  ],
+  "current_evidence": [
+    {
+      "file": "assets/attrib/instances/ebps/races/malian/buildings/building_unit_cavalry_mal.xml",
+      "finding": "parent_pbg core building_unit_cavalry; tier2 blank then Castle and Imperial requirements"
+    },
+    {
+      "file": "assets/attrib/instances/sbps/races/malian/berbers/unit_villager_1_mal.xml",
+      "lines": [
+        987,
+        1001
+      ],
+      "finding": "Stable target blueprint; age_2 build_stable hotkey; empty additional_requirements"
+    }
+  ],
+  "visual_bounds_are_not_footprint": true
+}

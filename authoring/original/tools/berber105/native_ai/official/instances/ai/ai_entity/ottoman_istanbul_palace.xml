@@ -1,0 +1,72 @@
+<instance version="6" description="" template="ai\ai_entity">
+  <uniqueid name="pbgid" value="2081616" />
+  <group name="ai_entity_bag" comment="Prefer to place this landmark near military production buildings">
+    <list name="applicable_blueprints">
+      <instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_landmark_age2_topkapi_palace_ott" List.ItemID="2085215838" />
+    </list>
+    <group name="construction">
+      <string name="placement_function" value="" />
+      <bool name="can_build_multiple_in_parallel" value="True" />
+      <int name="max_num_additional_builders" value="4" />
+      <int name="max_num_incomplete_structures_builders" value="-1" />
+      <list name="near_to_structures">
+        <instance_reference name="structure" value="ebps\races\ottoman\buildings\building_unit_infantry_ott" List.ItemID="-1175138702" />
+        <instance_reference name="structure" value="ebps\races\ottoman\buildings\building_unit_cavalry_ott" List.ItemID="-677237037" />
+        <instance_reference name="structure" value="ebps\races\ottoman\buildings\building_unit_ranged_ott" List.ItemID="-213559490" />
+        <instance_reference name="structure" value="ebps\races\ottoman\buildings\building_military_school_ott" List.ItemID="967504290" />
+      </list>
+      <list name="requires_structures">
+      </list>
+      <list name="near_structures_with_capability">
+      </list>
+    </group>
+  </group>
+  <variant name="xp3">
+    <uniqueid name="pbgid" value="2081616" />
+    <group name="ai_entity_bag" comment="Prefer to place this landmark near military production buildings">
+      <list name="applicable_blueprints">
+        <instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_landmark_age2_topkapi_palace_ott" List.ItemID="2085215838" />
+      </list>
+      <group name="construction">
+        <string name="placement_function" value="" />
+        <bool name="can_build_multiple_in_parallel" value="True" />
+        <int name="max_num_additional_builders" value="4" />
+        <int name="max_num_incomplete_structures_builders" value="-1" />
+        <list name="near_to_structures">
+          <instance_reference name="structure" value="ebps\races\ottoman\buildings\building_unit_infantry_ott" List.ItemID="-1175138702" />
+          <instance_reference name="structure" value="ebps\races\ottoman\buildings\building_unit_cavalry_ott" List.ItemID="-677237037" />
+          <instance_reference name="structure" value="ebps\races\ottoman\buildings\building_unit_ranged_ott" List.ItemID="-213559490" />
+          <instance_reference name="structure" value="ebps\races\ottoman\buildings\building_military_school_ott" List.ItemID="967504290" />
+        </list>
+        <list name="requires_structures">
+        </list>
+        <list name="near_structures_with_capability">
+        </list>
+      </group>
+    </group>
+  </variant>
+  <variant name="cordoba">
+    <uniqueid name="pbgid" value="2081616" />
+    <group name="ai_entity_bag" comment="Prefer to place this landmark near military production buildings">
+      <list name="applicable_blueprints">
+        <instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_landmark_age2_topkapi_palace_ott" List.ItemID="2085215838" />
+      </list>
+      <group name="construction">
+        <string name="placement_function" value="" />
+        <bool name="can_build_multiple_in_parallel" value="True" />
+        <int name="max_num_additional_builders" value="4" />
+        <int name="max_num_incomplete_structures_builders" value="-1" />
+        <list name="near_to_structures">
+          <instance_reference name="structure" value="ebps\races\ottoman\buildings\building_unit_infantry_ott" List.ItemID="-1175138702" />
+          <instance_reference name="structure" value="ebps\races\ottoman\buildings\building_unit_cavalry_ott" List.ItemID="-677237037" />
+          <instance_reference name="structure" value="ebps\races\ottoman\buildings\building_unit_ranged_ott" List.ItemID="-213559490" />
+          <instance_reference name="structure" value="ebps\races\ottoman\buildings\building_military_school_ott" List.ItemID="967504290" />
+        </list>
+        <list name="requires_structures">
+        </list>
+        <list name="near_structures_with_capability">
+        </list>
+      </group>
+    </group>
+  </variant>
+</instance>

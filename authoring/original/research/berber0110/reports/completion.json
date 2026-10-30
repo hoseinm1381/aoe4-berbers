@@ -1,0 +1,13 @@
+{
+  "version": "0.11.0",
+  "status": "delivered_native_acceptance_pending",
+  "zip_sha256": "9ddd72c1739fa21ca4c0a6a577f3fa3e9d557bec04d713698334d25a390e61ce",
+  "zip_bytes": 385957439,
+  "sga_sha256": "21932382a903257310697d47731c6c8f5d54a48d3ef2b575493fd6afcf018e1b",
+  "tests": 144,
+  "cleanup_bytes_before": 50126534,
+  "cleanup_bytes_after": 0,
+  "cleanup_bytes_reclaimed": 50126534,
+  "metadata_scope_correction": "Normal connected-land starts; no Nomad claim. See output metadata-correction.json for post-cleanup protected-input verification.",
+  "rebuild": "research/berber0110/REBUILD.md"
+}

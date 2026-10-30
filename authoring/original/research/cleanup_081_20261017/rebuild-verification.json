@@ -1,0 +1,230 @@
+{
+  "working_release": {
+    "status": "passed",
+    "retained_package": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_8_1\\Berber-0.8.1.zip",
+    "base_sga": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_8_1\\Berber_future_kingdom.sga",
+    "base_sga_sha256": "c58ef43ad4b0e664609161eb35178c97500837e9a844d7583fb014a50b7cc441",
+    "dependencies": "Working 0.8.1 ZIP + SGA + compact report only; no older delivery ZIPs"
+  },
+  "actual_preserved_source_restore_probes": [
+    {
+      "file": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_7_3\\Berber-0.7.3-VOICES-INSTALLER\\NativeAudio\\payloads\\26aa4765b896df357f023b8e28f308d7cb10964248f368b27a54345c87d61c58.wem",
+      "sha256": "26aa4765b896df357f023b8e28f308d7cb10964248f368b27a54345c87d61c58"
+    },
+    {
+      "file": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_7_3\\Berber-0.7.3-VOICES-INSTALLER\\NativeAudio\\payloads\\aed18f6980af88d53446c2104882dbf05132df745c6df5a2a373238328dd473d.spd",
+      "sha256": "aed18f6980af88d53446c2104882dbf05132df745c6df5a2a373238328dd473d"
+    }
+  ],
+  "restored_payloads": 2,
+  "scope_and_existing_file_checks": "passed",
+  "retained_base_sga_verification": [
+    {
+      "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\archives\\Berber_future_kingdom.sga",
+      "sha256": "348378e6562cd5bc16bb9167a4e2596c9691209383a470d43e4273b21c3d800e",
+      "file_count": 336,
+      "verification": {
+        "checked_files": 336,
+        "crc_mismatches": [],
+        "scope": "stored bytes against recorded CRC32 and SHA1 block hashes; the header signature is not validated",
+        "sha1_mismatches": [],
+        "unhashed_files": 0,
+        "verified": true
+      }
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\Berber-0.7.4-handoff.1-2026-10-17\\berber_future_kingdom.sga",
+      "sha256": "559f71581f91c1fee77a5eba81c0613496c080a7d262a8ef9f80bdba037a317f",
+      "file_count": 8259,
+      "verification": {
+        "checked_files": 8259,
+        "crc_mismatches": [],
+        "scope": "stored bytes against recorded CRC32 and SHA1 block hashes; the header signature is not validated",
+        "sha1_mismatches": [],
+        "unhashed_files": 0,
+        "verified": true
+      }
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_5\\package\\Berber_future_kingdom.sga",
+      "sha256": "91b486656ed4194cdbd366a96cb4f539800ecb0634e87e40bd49afcbe1cefc0d",
+      "file_count": 469,
+      "verification": {
+        "checked_files": 469,
+        "crc_mismatches": [],
+        "scope": "stored bytes against recorded CRC32 and SHA1 block hashes; the header signature is not validated",
+        "sha1_mismatches": [],
+        "unhashed_files": 0,
+        "verified": true
+      }
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_6\\package\\Berber_future_kingdom.sga",
+      "sha256": "cf9c73bdc0a64c655525f943f7e7b4ddfd1338124216ec7bf75eb331614f8123",
+      "file_count": 697,
+      "verification": {
+        "checked_files": 697,
+        "crc_mismatches": [],
+        "scope": "stored bytes against recorded CRC32 and SHA1 block hashes; the header signature is not validated",
+        "sha1_mismatches": [],
+        "unhashed_files": 0,
+        "verified": true
+      }
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_7\\package\\Berber_future_kingdom.sga",
+      "sha256": "bbc965d9797c37e79aa95626bca1a83eb17874945671d9bd0b8ca463076c3b91",
+      "file_count": 723,
+      "verification": {
+        "checked_files": 723,
+        "crc_mismatches": [],
+        "scope": "stored bytes against recorded CRC32 and SHA1 block hashes; the header signature is not validated",
+        "sha1_mismatches": [],
+        "unhashed_files": 0,
+        "verified": true
+      }
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_2_7_1\\package\\Berber_future_kingdom.sga",
+      "sha256": "6f2d9844e2a932bd4ae9e440d2e07720dfd6e0fe1c60e9b53b23cc0549cb8faf",
+      "file_count": 724,
+      "verification": {
+        "checked_files": 724,
+        "crc_mismatches": [],
+        "scope": "stored bytes against recorded CRC32 and SHA1 block hashes; the header signature is not validated",
+        "sha1_mismatches": [],
+        "unhashed_files": 0,
+        "verified": true
+      }
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_0\\package\\Berber_future_kingdom.sga",
+      "sha256": "33cbb2d3d60914da49e893fe0f19c37dc6cb9aaaa120c0d00613a26a2ebbe5af",
+      "file_count": 890,
+      "verification": {
+        "checked_files": 890,
+        "crc_mismatches": [],
+        "scope": "stored bytes against recorded CRC32 and SHA1 block hashes; the header signature is not validated",
+        "sha1_mismatches": [],
+        "unhashed_files": 0,
+        "verified": true
+      }
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\package\\Berber_future_kingdom.sga",
+      "sha256": "782234abffec0a54cb9133067d69ba95d29e06a5a734cedcb4f7054093773f6f",
+      "file_count": 1172,
+      "verification": {
+        "checked_files": 1172,
+        "crc_mismatches": [],
+        "scope": "stored bytes against recorded CRC32 and SHA1 block hashes; the header signature is not validated",
+        "sha1_mismatches": [],
+        "unhashed_files": 0,
+        "verified": true
+      }
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_4_0\\package\\Berber_future_kingdom.sga",
+      "sha256": "a23d308c4dda1af40fc6138e40b97904afd73c0a0a0816d0f3e4b1130d8718ec",
+      "file_count": 1224,
+      "verification": {
+        "checked_files": 1224,
+        "crc_mismatches": [],
+        "scope": "stored bytes against recorded CRC32 and SHA1 block hashes; the header signature is not validated",
+        "sha1_mismatches": [],
+        "unhashed_files": 0,
+        "verified": true
+      }
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_5_0\\package\\Berber_future_kingdom.sga",
+      "sha256": "0bf6d113bf4c710d89d10affc95978b629ed13f6399cd343dcf2ca316e23184f",
+      "file_count": 1524,
+      "verification": {
+        "checked_files": 1524,
+        "crc_mismatches": [],
+        "scope": "stored bytes against recorded CRC32 and SHA1 block hashes; the header signature is not validated",
+        "sha1_mismatches": [],
+        "unhashed_files": 0,
+        "verified": true
+      }
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_5_1\\package\\Berber_future_kingdom.sga",
+      "sha256": "acbcd6501a1e8ebea2c7dae8701641625c96c078e3a4d33e9c2968111732717b",
+      "file_count": 1525,
+      "verification": {
+        "checked_files": 1525,
+        "crc_mismatches": [],
+        "scope": "stored bytes against recorded CRC32 and SHA1 block hashes; the header signature is not validated",
+        "sha1_mismatches": [],
+        "unhashed_files": 0,
+        "verified": true
+      }
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_6_0\\candidate.sga",
+      "sha256": "6e4a4f3fcb00627df40f5a50fbf128c949cc281f54b4cf1a424f6bdfc9370f51",
+      "file_count": 1537,
+      "verification": {
+        "checked_files": 1537,
+        "crc_mismatches": [],
+        "scope": "stored bytes against recorded CRC32 and SHA1 block hashes; the header signature is not validated",
+        "sha1_mismatches": [],
+        "unhashed_files": 0,
+        "verified": true
+      }
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_6_1\\Berber_future_kingdom.sga",
+      "sha256": "48f09ed61020740932b0a653e165710fda49d25aa7739d05f6486b79dbe661bb",
+      "file_count": 1539,
+      "verification": {
+        "checked_files": 1539,
+        "crc_mismatches": [],
+        "scope": "stored bytes against recorded CRC32 and SHA1 block hashes; the header signature is not validated",
+        "sha1_mismatches": [],
+        "unhashed_files": 0,
+        "verified": true
+      }
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_8_0\\Berber_future_kingdom.sga",
+      "sha256": "7d86a7ed79c6dcfd79dba6d69b9b4a68f6f77e2737b2989f5475cf2db866c379",
+      "file_count": 8360,
+      "verification": {
+        "checked_files": 8360,
+        "crc_mismatches": [],
+        "scope": "stored bytes against recorded CRC32 and SHA1 block hashes; the header signature is not validated",
+        "sha1_mismatches": [],
+        "unhashed_files": 0,
+        "verified": true
+      }
+    },
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_8_1\\Berber_future_kingdom.sga",
+      "sha256": "c58ef43ad4b0e664609161eb35178c97500837e9a844d7583fb014a50b7cc441",
+      "file_count": 8360,
+      "verification": {
+        "checked_files": 8360,
+        "crc_mismatches": [],
+        "scope": "stored bytes against recorded CRC32 and SHA1 block hashes; the header signature is not validated",
+        "sha1_mismatches": [],
+        "unhashed_files": 0,
+        "verified": true
+      }
+    }
+  ],
+  "historical_probe_limitations": [
+    {
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\discoveries\\tuareg_voice_test\\garrison_library\\Mods\\tuareg_voice_probe\\project\\archives\\tuareg_voice_probe.sga",
+      "sha256": "5d64b3dc19e93bc2f8a7fafdf06882c082af0b0340f4b165b619a5f7366a0a1e",
+      "bytes": 428,
+      "archiver_exit_code": 3221226505,
+      "status": "preserved unchanged; current archiver cannot verify historical probe",
+      "required_for_current_release_rebuild": false
+    }
+  ],
+  "temporary_probe_files": "removed by owned TemporaryDirectory",
+  "older_delivery_zip_dependencies": 0
+}

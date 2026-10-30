@@ -1,0 +1,32 @@
+<instance version="6" description="" template="ai\ai_economy_group">
+  <group name="ai_economy_group_bag">
+    <instance_reference name="default" value="ai\ai_economy\complete\default_economy" />
+    <list name="overrides">
+    </list>
+  </group>
+  <uniqueid name="pbgid" value="17637" />
+  <variant name="campaign">
+    <group name="ai_economy_group_bag">
+      <instance_reference name="default" value="ai\ai_economy\complete\default_economy" />
+      <list name="overrides">
+      </list>
+    </group>
+    <uniqueid name="pbgid" value="17637" />
+  </variant>
+  <variant name="xp3">
+    <group name="ai_economy_group_bag">
+      <instance_reference name="default" value="ai\ai_economy\complete\default_economy" />
+      <list name="overrides">
+      </list>
+    </group>
+    <uniqueid name="pbgid" value="17637" />
+  </variant>
+  <variant name="cordoba">
+    <group name="ai_economy_group_bag">
+      <instance_reference name="default" value="ai\ai_economy\complete\default_economy" />
+      <list name="overrides">
+      </list>
+    </group>
+    <uniqueid name="pbgid" value="17637" />
+  </variant>
+</instance>

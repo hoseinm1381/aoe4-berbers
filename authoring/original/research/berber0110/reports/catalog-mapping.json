@@ -1,0 +1,1178 @@
+{
+  "building_upgrades": {
+    "building_econ_mining_camp_mal": [
+      "upgrade_econ_resource_gold_harvest_rate_2",
+      "upgrade_econ_resource_gold_harvest_rate_3",
+      "upgrade_econ_resource_gold_harvest_rate_4"
+    ],
+    "building_econ_wood_mal": [
+      "upgrade_econ_resource_wood_harvest_rate_2",
+      "upgrade_econ_resource_wood_harvest_rate_3",
+      "upgrade_econ_resource_wood_harvest_rate_4",
+      "upgrade_econ_resource_wood_fell_rate_1"
+    ]
+  },
+  "upgrades": {
+    "upgrade_melee_armor_i": {
+      "age": 2,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "feudal_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_armor_i",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_armor_i_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_armor_i_improved_mon",
+            "present": false
+          }
+        ]
+      }
+    },
+    "upgrade_melee_armor_ii": {
+      "age": 3,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "castle_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_melee_armor_i",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_melee_armor_i_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_armor_ii",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_armor_ii_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_armor_ii_improved_mon",
+            "present": false
+          }
+        ]
+      }
+    },
+    "upgrade_melee_armor_iii": {
+      "age": 4,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "imperial_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_melee_armor_i",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_melee_armor_i_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_melee_armor_ii",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_melee_armor_ii_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_armor_iii",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_armor_iii_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_armor_iii_improved_mon",
+            "present": false
+          }
+        ]
+      }
+    },
+    "upgrade_melee_damage_i": {
+      "age": 2,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "feudal_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_damage_i",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_damage_i_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_damage_i_improved_mon",
+            "present": false
+          }
+        ]
+      }
+    },
+    "upgrade_melee_damage_ii": {
+      "age": 3,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "castle_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_melee_damage_i",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_melee_damage_i_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_damage_ii",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_damage_ii_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_damage_ii_improved_mon",
+            "present": false
+          }
+        ]
+      }
+    },
+    "upgrade_melee_damage_iii": {
+      "age": 4,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "imperial_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_melee_damage_i",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_melee_damage_i_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_melee_damage_ii",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_melee_damage_ii_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_damage_iii",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_damage_iii_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_damage_iii_improved_mon",
+            "present": false
+          }
+        ]
+      }
+    },
+    "upgrade_ranged_armor_i": {
+      "age": 2,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "feudal_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_armor_i",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_armor_i_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_armor_i_improved_mon",
+            "present": false
+          }
+        ]
+      }
+    },
+    "upgrade_ranged_armor_ii": {
+      "age": 3,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "castle_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_ranged_armor_i",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_ranged_armor_i_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_armor_ii",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_armor_ii_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_armor_ii_improved_mon",
+            "present": false
+          }
+        ]
+      }
+    },
+    "upgrade_ranged_armor_iii": {
+      "age": 4,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "imperial_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_ranged_armor_i",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_ranged_armor_i_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_ranged_armor_ii",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_ranged_armor_ii_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_armor_iii",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_armor_iii_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_armor_iii_improved_mon",
+            "present": false
+          }
+        ]
+      }
+    },
+    "upgrade_ranged_damage_i": {
+      "age": 2,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "feudal_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_damage_i",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_damage_i_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_damage_i_improved_mon",
+            "present": false
+          }
+        ]
+      }
+    },
+    "upgrade_ranged_damage_ii": {
+      "age": 3,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "castle_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_ranged_damage_i",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_ranged_damage_i_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_damage_ii",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_damage_ii_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_damage_ii_improved_mon",
+            "present": false
+          }
+        ]
+      }
+    },
+    "upgrade_ranged_damage_iii": {
+      "age": 4,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "imperial_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_ranged_damage_i",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_ranged_damage_i_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_ranged_damage_ii",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_ranged_damage_ii_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_damage_iii",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_damage_iii_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_damage_iii_improved_mon",
+            "present": false
+          }
+        ]
+      }
+    },
+    "upgrade_siege_engineers": {
+      "age": 1,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "feudal_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_siege_engineers",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_improved_siege_engineers_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_improved_siege_engineers_mon",
+            "present": false
+          }
+        ]
+      }
+    },
+    "upgrade_econ_resource_food_harvest_rate_2": {
+      "age": 2,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "feudal_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_food_harvest_rate_2",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_food_harvest_rate_2_byz",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_food_harvest_rate_2_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_food_harvest_rate_2_improved_mon",
+            "present": false
+          },
+          true
+        ]
+      }
+    },
+    "upgrade_econ_resource_food_harvest_rate_3": {
+      "age": 3,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "castle_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_econ_resource_food_harvest_rate_2",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_econ_resource_food_harvest_rate_2_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_food_harvest_rate_3_byz",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_food_harvest_rate_3",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_food_harvest_rate_3_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_food_harvest_rate_3_improved_mon",
+            "present": false
+          },
+          true
+        ]
+      }
+    },
+    "upgrade_econ_resource_food_harvest_rate_4": {
+      "age": 4,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "imperial_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_econ_resource_food_harvest_rate_3",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_econ_resource_food_harvest_rate_3_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_food_harvest_rate_4_byz",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_food_harvest_rate_4",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_food_harvest_rate_4_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_food_harvest_rate_4_improved_mon",
+            "present": false
+          },
+          true
+        ]
+      }
+    },
+    "upgrade_econ_resource_gold_harvest_rate_2": {
+      "age": 2,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "feudal_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_gold_harvest_rate_2",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_gold_harvest_rate_2_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_gold_harvest_rate_2_improved_mon",
+            "present": false
+          },
+          true
+        ]
+      }
+    },
+    "upgrade_econ_resource_gold_harvest_rate_3": {
+      "age": 3,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "castle_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_econ_resource_gold_harvest_rate_2",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_econ_resource_gold_harvest_rate_2_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_gold_harvest_rate_3",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_gold_harvest_rate_3_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_gold_harvest_rate_3_improved_mon",
+            "present": false
+          },
+          true
+        ]
+      }
+    },
+    "upgrade_econ_resource_gold_harvest_rate_4": {
+      "age": 4,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "imperial_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_econ_resource_gold_harvest_rate_3",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_econ_resource_gold_harvest_rate_3_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_gold_harvest_rate_4",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_gold_harvest_rate_4_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_gold_harvest_rate_4_improved_mon",
+            "present": false
+          },
+          true
+        ]
+      }
+    },
+    "upgrade_econ_resource_stone_harvest_rate_2": {
+      "age": 2,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "feudal_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_stone_harvest_rate_2",
+            "present": false
+          },
+          true
+        ]
+      }
+    },
+    "upgrade_econ_resource_stone_harvest_rate_3": {
+      "age": 3,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "castle_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_stone_harvest_rate_2",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_stone_harvest_rate_3",
+            "present": false
+          },
+          true
+        ]
+      }
+    },
+    "upgrade_econ_resource_stone_harvest_rate_4": {
+      "age": 4,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "imperial_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_stone_harvest_rate_3",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_stone_harvest_rate_4",
+            "present": false
+          },
+          true
+        ]
+      }
+    },
+    "upgrade_econ_resource_wood_fell_rate_1": {
+      "age": 1,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_wood_fell_rate_1",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_wood_fell_rate_1_improved_mon",
+            "present": false
+          },
+          true
+        ]
+      }
+    },
+    "upgrade_econ_resource_wood_harvest_rate_2": {
+      "age": 2,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "feudal_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_wood_harvest_rate_2",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_wood_harvest_rate_2_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_wood_harvest_rate_2_improved_mon",
+            "present": false
+          },
+          true
+        ]
+      }
+    },
+    "upgrade_econ_resource_wood_harvest_rate_3": {
+      "age": 3,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "castle_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_econ_resource_wood_harvest_rate_2",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_econ_resource_wood_harvest_rate_2_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_wood_harvest_rate_3",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_wood_harvest_rate_3_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_wood_harvest_rate_3_improved_mon",
+            "present": false
+          },
+          true
+        ]
+      }
+    },
+    "upgrade_econ_resource_wood_harvest_rate_4": {
+      "age": 4,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "imperial_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_econ_resource_wood_harvest_rate_3",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_econ_resource_wood_harvest_rate_3_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_wood_harvest_rate_4",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_wood_harvest_rate_4_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_wood_harvest_rate_4_improved_mon",
+            "present": false
+          },
+          true
+        ]
+      }
+    },
+    "upgrade_unit_town_center_wheelbarrow_1": {
+      "age": 1,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_town_center_wheelbarrow_1",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_town_center_wheelbarrow_byz",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_wheelbarrow_1_improved_mon",
+            "present": false
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "not",
+                "items": [
+                  {
+                    "op": "engine"
+                  }
+                ]
+              },
+              {
+                "op": "engine"
+              },
+              {
+                "op": "engine"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "upgrade_unit_archer_3_mal": {
+      "age": 3,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "castle_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_archer_3_mal",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_archer_3_farimba_mal",
+            "present": false
+          }
+        ]
+      }
+    },
+    "upgrade_unit_archer_4_mal": {
+      "age": 4,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "imperial_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_archer_3_mal",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_archer_4_mal",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_archer_4_farimba_mal",
+            "present": false
+          }
+        ]
+      }
+    },
+    "upgrade_unit_horseman_3_mal": {
+      "age": 3,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "castle_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_horseman_3_mal",
+            "present": false
+          }
+        ]
+      }
+    },
+    "upgrade_unit_horseman_4_mal": {
+      "age": 4,
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "imperial_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_horseman_3_mal",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_horseman_4_mal",
+            "present": false
+          }
+        ]
+      }
+    }
+  },
+  "entities": {
+    "unit_ram_3_mal": {
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "upgrade_siege_engineers",
+            "present": true
+          }
+        ]
+      }
+    }
+  },
+  "squad_builders": {
+    "unit_archer_2_mal": [
+      "siege_engineer",
+      "",
+      "",
+      "field_upgrades",
+      "",
+      "unit_ram_3_mal",
+      "ability_build_battering_ram",
+      "",
+      "",
+      "field_upgrades",
+      "",
+      "unit_siege_tower_3_mal",
+      "ability_build_siege_tower"
+    ]
+  }
+}

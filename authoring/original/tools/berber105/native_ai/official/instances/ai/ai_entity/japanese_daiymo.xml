@@ -1,0 +1,71 @@
+<instance version="6" description="" template="ai\ai_entity">
+  <uniqueid name="pbgid" value="9004086" />
+  <group name="ai_entity_bag">
+    <list name="applicable_blueprints">
+      <instance_reference name="applicable_blueprint" value="ebps\races\japanese_ha_sen\buildings\building_unit_daimyo_estate_hojo_jpn_ha_sen" List.ItemID="420565616" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\japanese_ha_sen\buildings\building_unit_daimyo_estate_oda_jpn_ha_sen" List.ItemID="-51516687" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\japanese_ha_sen\buildings\building_unit_daimyo_estate_takeda_jpn_ha_sen" List.ItemID="-1809537097" />
+    </list>
+    <group name="construction">
+      <string name="placement_function" value="" />
+      <bool name="can_build_multiple_in_parallel" value="True" />
+      <int name="max_num_additional_builders" value="1" />
+      <int name="max_num_incomplete_structures_builders" value="-1" />
+      <list name="near_to_structures">
+        <instance_reference name="structure" value="ebps\races\japanese_ha_sen\buildings\building_unit_cavalry_jpn_ha_sen" List.ItemID="738771462" />
+        <instance_reference name="structure" value="ebps\races\japanese_ha_sen\buildings\building_unit_ranged_jpn_ha_sen" List.ItemID="768524332" />
+        <instance_reference name="structure" value="ebps\races\japanese_ha_sen\buildings\building_unit_infantry_jpn_ha_sen" List.ItemID="-1564742539" />
+      </list>
+      <list name="requires_structures">
+      </list>
+      <list name="near_structures_with_capability">
+      </list>
+    </group>
+  </group>
+  <variant name="xp3">
+    <uniqueid name="pbgid" value="9004086" />
+    <group name="ai_entity_bag">
+      <list name="applicable_blueprints">
+        <instance_reference name="applicable_blueprint" value="ebps\races\japanese\buildings\building_house_jpn" List.ItemID="420565616" />
+      </list>
+      <group name="construction">
+        <string name="placement_function" value="" />
+        <bool name="can_build_multiple_in_parallel" value="True" />
+        <int name="max_num_additional_builders" value="1" />
+        <int name="max_num_incomplete_structures_builders" value="-1" />
+        <list name="near_to_structures">
+          <instance_reference name="structure" value="ebps\races\japanese\buildings\building_house_jpn" List.ItemID="-1385316205" />
+        </list>
+        <list name="requires_structures">
+        </list>
+        <list name="near_structures_with_capability">
+        </list>
+      </group>
+    </group>
+  </variant>
+  <variant name="cordoba">
+    <uniqueid name="pbgid" value="9004086" />
+    <group name="ai_entity_bag">
+      <list name="applicable_blueprints">
+        <instance_reference name="applicable_blueprint" value="ebps\races\japanese_ha_sen\buildings\building_unit_daimyo_estate_hojo_jpn_ha_sen" List.ItemID="420565616" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\japanese_ha_sen\buildings\building_unit_daimyo_estate_oda_jpn_ha_sen" List.ItemID="-51516687" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\japanese_ha_sen\buildings\building_unit_daimyo_estate_takeda_jpn_ha_sen" List.ItemID="-1809537097" />
+      </list>
+      <group name="construction">
+        <string name="placement_function" value="" />
+        <bool name="can_build_multiple_in_parallel" value="True" />
+        <int name="max_num_additional_builders" value="1" />
+        <int name="max_num_incomplete_structures_builders" value="-1" />
+        <list name="near_to_structures">
+          <instance_reference name="structure" value="ebps\races\japanese_ha_sen\buildings\building_unit_cavalry_jpn_ha_sen" List.ItemID="738771462" />
+          <instance_reference name="structure" value="ebps\races\japanese_ha_sen\buildings\building_unit_ranged_jpn_ha_sen" List.ItemID="768524332" />
+          <instance_reference name="structure" value="ebps\races\japanese_ha_sen\buildings\building_unit_infantry_jpn_ha_sen" List.ItemID="-1564742539" />
+        </list>
+        <list name="requires_structures">
+        </list>
+        <list name="near_structures_with_capability">
+        </list>
+      </group>
+    </group>
+  </variant>
+</instance>

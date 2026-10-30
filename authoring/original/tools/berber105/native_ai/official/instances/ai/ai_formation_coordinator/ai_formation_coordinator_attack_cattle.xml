@@ -1,0 +1,45 @@
+<instance version="6" description="use to include enemy cattle" template="ai\ai_formation_coordinator">
+  <group name="ai_formation_coordinator">
+    <list name="non_combat_target_info">
+      <group name="info" List.ItemID="642469532" List.ParentItemID="642469532">
+        <list name="unit_types" overrideParent="True">
+          <enum name="unit_class" value="wonder_imperial_age" List.ItemID="-1026782462" />
+          <enum name="unit_class" value="gate" List.ItemID="919283774" />
+          <enum name="unit_class" value="animal_cattle_mal" List.ItemID="-1769612782" />
+        </list>
+      </group>
+    </list>
+  </group>
+  <uniqueid name="pbgid" value="2080925" />
+  <instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_basic" />
+  <variant name="xp3">
+    <group name="ai_formation_coordinator">
+      <list name="non_combat_target_info">
+        <group name="info" List.ItemID="642469532" List.ParentItemID="642469532">
+          <list name="unit_types" overrideParent="True">
+            <enum name="unit_class" value="wonder_imperial_age" List.ItemID="-1026782462" />
+            <enum name="unit_class" value="gate" List.ItemID="919283774" />
+            <enum name="unit_class" value="animal_cattle_mal" List.ItemID="-1769612782" />
+          </list>
+        </group>
+      </list>
+    </group>
+    <uniqueid name="pbgid" value="2080925" />
+    <instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_basic" />
+  </variant>
+  <variant name="cordoba">
+    <group name="ai_formation_coordinator">
+      <list name="non_combat_target_info">
+        <group name="info" List.ItemID="642469532" List.ParentItemID="642469532">
+          <list name="unit_types" overrideParent="True">
+            <enum name="unit_class" value="wonder_imperial_age" List.ItemID="-1026782462" />
+            <enum name="unit_class" value="gate" List.ItemID="919283774" />
+            <enum name="unit_class" value="animal_cattle_mal" List.ItemID="-1769612782" />
+          </list>
+        </group>
+      </list>
+    </group>
+    <uniqueid name="pbgid" value="2080925" />
+    <instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_basic" />
+  </variant>
+</instance>

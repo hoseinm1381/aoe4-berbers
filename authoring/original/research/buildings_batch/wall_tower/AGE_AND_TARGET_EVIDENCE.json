@@ -1,0 +1,23 @@
+{
+  "key": "wall_tower",
+  "target": "ebps/races/malian/buildings/building_defense_wall_mal/building_defense_tower_mal",
+  "minimum_age": 2,
+  "required_ages": [2, 3, 4],
+  "current_builder": "assets/attrib/instances/sbps/races/malian/berbers/unit_villager_1_mal.xml:882; age_2 hotkey line891",
+  "official_requirement": "mal.xml1122-1128 and core.xml4494-4500: completed feudal_age min1",
+  "gameplay_footprint": {
+    "site_footprint_scale": [0, 0],
+    "snap_to_grid": false,
+    "snap_to_terrain": false,
+    "dependent_clearance_marker": "mkr_stair_impass",
+    "clearance_width_override": 2,
+    "impass_simbox": "impass",
+    "extra_boundary_simbox": "DoorBoundaryBox",
+    "note": "Native stamp/layout and simbox boundaries must be retained. Render envelope is not footprint."
+  },
+  "donor_render_envelope": [[-3.6484375,-6.125,-3],[3.689453125,5.0390625,12]],
+  "source_walk": {"deck_z":7,"clear_width":3,"side_socket_x":[-3.2,3.2]},
+  "source_optional_states": {"arrow":[2,3,4],"springald":[3,4],"cannon":[4]},
+  "state_evidence": "Generic common upgrade_tower_arrowslits / springald / cannon require Feudal / Castle / Imperial. Native wall tower standard_upgrades is empty. Source options are not proof of wall-tower gameplay progression.",
+  "native_state_binding": "pending; preserve existing native stamp/layout/actions and qualify actual firing"
+}

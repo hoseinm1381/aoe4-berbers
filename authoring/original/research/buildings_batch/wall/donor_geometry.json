@@ -1,0 +1,359 @@
+[
+  {
+    "name": "0_geo_6mwall_build_00",
+    "render_bounds": [
+      [
+        -3.0,
+        -2.951171875,
+        -3.0
+      ],
+      [
+        3.0,
+        2.9453125,
+        1.384765625
+      ]
+    ],
+    "vertices": 563,
+    "triangles": 486
+  },
+  {
+    "name": "1_geo_6mwall_build_80",
+    "render_bounds": [
+      [
+        -3.0,
+        -2.115234375,
+        2.578125
+      ],
+      [
+        3.0,
+        2.115234375,
+        6.2265625
+      ]
+    ],
+    "vertices": 234,
+    "triangles": 200
+  },
+  {
+    "name": "2_geo_6mwall_build_80",
+    "render_bounds": [
+      [
+        -3.0,
+        -2.537109375,
+        4.2109375
+      ],
+      [
+        3.0,
+        2.54296875,
+        6.0078125
+      ]
+    ],
+    "vertices": 448,
+    "triangles": 408
+  },
+  {
+    "name": "3_geo_6mwall_center_healthy_wreck",
+    "render_bounds": [
+      [
+        -3.0,
+        -2.951171875,
+        -3.0
+      ],
+      [
+        3.0,
+        2.9453125,
+        8.2578125
+      ]
+    ],
+    "vertices": 2441,
+    "triangles": 2834
+  },
+  {
+    "name": "4_geo_6mwall_center_healthy_wreck",
+    "render_bounds": [
+      [
+        -3.0,
+        -2.97265625,
+        1.4853515625
+      ],
+      [
+        3.0,
+        3.01953125,
+        7.05078125
+      ]
+    ],
+    "vertices": 1968,
+    "triangles": 1978
+  },
+  {
+    "name": "5_geo_wall_right_healthy_wreck__000",
+    "render_bounds": [
+      [
+        -3.0,
+        -2.951171875,
+        -3.0
+      ],
+      [
+        3.0,
+        2.9453125,
+        8.1171875
+      ]
+    ],
+    "vertices": 1303,
+    "triangles": 1355
+  },
+  {
+    "name": "6_geo_wall_right_healthy_wreck__000",
+    "render_bounds": [
+      [
+        -1.6767578125,
+        -2.97265625,
+        1.4853515625
+      ],
+      [
+        3.0,
+        3.01953125,
+        7.08203125
+      ]
+    ],
+    "vertices": 673,
+    "triangles": 715
+  },
+  {
+    "name": "7_geo_6mwall_build_40",
+    "render_bounds": [
+      [
+        -0.9677734375,
+        -2.822265625,
+        0.2108154296875
+      ],
+      [
+        0.9501953125,
+        2.826171875,
+        8.2578125
+      ]
+    ],
+    "vertices": 462,
+    "triangles": 574
+  },
+  {
+    "name": "8_geo_6mwall_build_60",
+    "render_bounds": [
+      [
+        -3.0,
+        -2.42578125,
+        0.2498779296875
+      ],
+      [
+        3.0,
+        2.42578125,
+        4.12890625
+      ]
+    ],
+    "vertices": 544,
+    "triangles": 555
+  },
+  {
+    "name": "9_geo_6mwall_build_60",
+    "render_bounds": [
+      [
+        -2.650390625,
+        -2.97265625,
+        1.4853515625
+      ],
+      [
+        2.5859375,
+        3.01953125,
+        2.298828125
+      ]
+    ],
+    "vertices": 512,
+    "triangles": 608
+  },
+  {
+    "name": "10_geo_wall_right_damaged_wreck__000",
+    "render_bounds": [
+      [
+        -3.0,
+        -2.951171875,
+        -3.0
+      ],
+      [
+        3.0,
+        2.9453125,
+        8.1171875
+      ]
+    ],
+    "vertices": 1113,
+    "triangles": 1209
+  },
+  {
+    "name": "11_geo_wall_right_damaged_wreck__000",
+    "render_bounds": [
+      [
+        1.4677734375,
+        -2.962890625,
+        1.5439453125
+      ],
+      [
+        3.0,
+        3.01953125,
+        7.08203125
+      ]
+    ],
+    "vertices": 499,
+    "triangles": 525
+  },
+  {
+    "name": "12_geo_wall_left_damaged_wreck__002",
+    "render_bounds": [
+      [
+        -3.0,
+        -2.951171875,
+        -3.0
+      ],
+      [
+        3.0,
+        2.9453125,
+        8.1171875
+      ]
+    ],
+    "vertices": 929,
+    "triangles": 1084
+  },
+  {
+    "name": "13_geo_wall_left_damaged_wreck__002",
+    "render_bounds": [
+      [
+        -3.0,
+        -2.97265625,
+        1.4853515625
+      ],
+      [
+        -1.4638671875,
+        2.97265625,
+        7.0390625
+      ]
+    ],
+    "vertices": 476,
+    "triangles": 491
+  },
+  {
+    "name": "14_geo_6mwall_left_healthy_wreck_01",
+    "render_bounds": [
+      [
+        -3.0,
+        -2.951171875,
+        -3.0
+      ],
+      [
+        3.0,
+        2.9453125,
+        8.1171875
+      ]
+    ],
+    "vertices": 1175,
+    "triangles": 1324
+  },
+  {
+    "name": "15_geo_6mwall_left_healthy_wreck_01",
+    "render_bounds": [
+      [
+        -3.0,
+        -2.97265625,
+        1.4853515625
+      ],
+      [
+        2.5859375,
+        3.01953125,
+        7.0390625
+      ]
+    ],
+    "vertices": 651,
+    "triangles": 702
+  },
+  {
+    "name": "16_geo_wall_center_damaged_wreck__001",
+    "render_bounds": [
+      [
+        -3.0,
+        -2.951171875,
+        -3.0
+      ],
+      [
+        3.0,
+        2.9453125,
+        8.1171875
+      ]
+    ],
+    "vertices": 1433,
+    "triangles": 1550
+  },
+  {
+    "name": "17_geo_wall_center_damaged_wreck__001",
+    "render_bounds": [
+      [
+        -3.0,
+        -2.126953125,
+        5.71875
+      ],
+      [
+        3.0,
+        2.126953125,
+        7.05078125
+      ]
+    ],
+    "vertices": 304,
+    "triangles": 180
+  },
+  {
+    "name": "18_mesh_10_group_00",
+    "render_bounds": [
+      [
+        -3.0,
+        -2.82421875,
+        0.45654296875
+      ],
+      [
+        3.0,
+        2.87109375,
+        8.2578125
+      ]
+    ],
+    "vertices": 25841,
+    "triangles": 22520
+  },
+  {
+    "name": "19_mesh_11_group_00",
+    "render_bounds": [
+      [
+        -3.0,
+        -2.869140625,
+        0.6484375
+      ],
+      [
+        3.0,
+        2.8671875,
+        8.1171875
+      ]
+    ],
+    "vertices": 11508,
+    "triangles": 11204
+  },
+  {
+    "name": "20_mesh_12_group_00",
+    "render_bounds": [
+      [
+        -3.0,
+        -2.126953125,
+        5.26953125
+      ],
+      [
+        3.0,
+        2.126953125,
+        7.05078125
+      ]
+    ],
+    "vertices": 2287,
+    "triangles": 1812
+  }
+]

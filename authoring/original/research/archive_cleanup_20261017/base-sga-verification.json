@@ -1,0 +1,35 @@
+[
+  {
+    "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_5_1\\package\\Berber_future_kingdom.sga",
+    "verification": {
+      "checked_files": 1525,
+      "crc_mismatches": [],
+      "scope": "stored bytes against recorded CRC32 and SHA1 block hashes; the header signature is not validated",
+      "sha1_mismatches": [],
+      "unhashed_files": 0,
+      "verified": true
+    }
+  },
+  {
+    "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_6_0\\candidate.sga",
+    "verification": {
+      "checked_files": 1537,
+      "crc_mismatches": [],
+      "scope": "stored bytes against recorded CRC32 and SHA1 block hashes; the header signature is not validated",
+      "sha1_mismatches": [],
+      "unhashed_files": 0,
+      "verified": true
+    }
+  },
+  {
+    "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_6_1\\Berber_future_kingdom.sga",
+    "verification": {
+      "checked_files": 1539,
+      "crc_mismatches": [],
+      "scope": "stored bytes against recorded CRC32 and SHA1 block hashes; the header signature is not validated",
+      "sha1_mismatches": [],
+      "unhashed_files": 0,
+      "verified": true
+    }
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "key": "fez",
+  "construction_age": 3,
+  "completed_age": 4,
+  "required_ages": [
+    4
+  ],
+  "current_xml": "assets/attrib/instances/ebps/races/malian/buildings/landmarks/madrasa_fez/building_landmark_age3_landmarke_mal.xml",
+  "live_requirements": "lines590 Imperial absent;616 Castle present; both completed and min_completed1",
+  "official_parent": "core building_wonder_age3; extracted/decode-rgd official_parent.rgd/xml; requirement table same Castle present/Imperial absent",
+  "footprint_m": [
+    6,
+    6
+  ],
+  "footprint_evidence": "live XML129-133 site_ext footprint_scale x6/y6; actual gameplay footprint, not donor render bounds",
+  "render_scale_evidence": "live XML14 animator_scale130 /15 entity_scale100",
+  "source_envelope_m": [
+    4.4,
+    4.4
+  ],
+  "scaled_source_envelope_m": [
+    5.72,
+    5.72
+  ],
+  "render_bounds_used_as_footprint": false,
+  "build_command": "villager unit_villager_1_mal.xml1582 references flat stock landmarke path; nested Fez target is not currently bound by that command",
+  "binding_status": "nested landmark source requires downstream command/visual binding audit; no production change",
+  "completion_age_basis": "inventory AgeIV landmark and official age3 landmark construction prerequisites; exact age-up action runtime remains pending",
+  "donor": "installed Abbasid university AgeIV control, decoded read-only using installed Garrison0.1.4; inspected catalog plus source groups",
+  "donor_geometry_reused": false,
+  "stage_policy": "age4_construction.json cumulative mesh first-visible percentages reused while constructing in CastleIII; no completed AgeIII asset"
+}

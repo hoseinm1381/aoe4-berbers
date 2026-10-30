@@ -1,0 +1,8 @@
+from pathlib import Path
+R=Path.cwd();Q=R/'research/buildings_batch/palisade_bastion'
+s=(Q/'repair_stay_contacts.py').read_text()
+s=s.replace("states=json.loads((A/f'age{age}_states.json').read_text())['states']", "manifest=json.loads((A/f'age{age}_states.json').read_text());states=manifest['states']\n  removed=set()\n  for state,v in states.items():\n   stays=[n for n in v['objects'] if n.startswith('terminal_diagonal_stay')]\n   for n in stays[1::2]:bpy.data.objects.remove(bpy.data.objects[n],do_unlink=True);removed.add(n)\n   v['objects']=[n for n in v['objects'] if n not in removed]\n  (A/f'age{age}_states.json').write_text(json.dumps(manifest,indent=2))\n  c=json.loads((A/f'age{age}_construction.json').read_text());c['parts']=[p for p in c['parts'] if p['object'] not in removed];(A/f'age{age}_construction.json').write_text(json.dumps(c,indent=2))\n  validation=json.loads((O/f'age{age}_validation.json').read_text())\n  for k in validation['states']:validation['states'][k]=[p for p in validation['states'][k] if p['object'] not in removed]\n  (O/f'age{age}_validation.json').write_text(json.dumps(validation,indent=2))")
+s=s.replace("assert abs(abs(ob.location[ax])-.265)<1e-6;ob.location[ax]+=math.copysign(.04,ob.location[ax]);", "assert abs(abs(ob.location[ax])-.305)<1e-6;")
+(Q/'final_stay_repair.py').write_text(s)
+s=(Q/'run_hidden.py').read_text().replace("ROOT/'art/buildings/palisade_bastion/build_palisade_bastion.py'","ROOT/'research/buildings_batch/palisade_bastion/final_stay_repair.py'").replace("'blender.log'","'final_stay_repair.log'")
+(Q/'run_final_repair.py').write_text(s)

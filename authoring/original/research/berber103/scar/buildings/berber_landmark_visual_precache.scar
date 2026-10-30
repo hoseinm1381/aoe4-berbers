@@ -1,0 +1,25 @@
+-- Berber 0.2.7.1: load both custom landmark visual families before the match.
+-- The native pink cube explicitly reports that its model was not precached.
+-- Follow official rogue.scar OnLoading + Scar_AddInit and Garrison getting_started.scar.
+-- Resolving the villager/build menu alone does not preload its building choices.
+import("ScarUtil.scar")
+
+local BERBER_LANDMARK_VISUAL_BLUEPRINTS = {
+    "1d3145e8f1b2427f8bb0067851fcf0f1:building_landmark_age1_landmarka_mal",
+    "1d3145e8f1b2427f8bb0067851fcf0f1:building_landmark_age1_landmarkb_mal",
+}
+
+function BerberLandmarkVisuals_OnLoading()
+    for _, name in ipairs(BERBER_LANDMARK_VISUAL_BLUEPRINTS) do
+        -- Preserve the existing missing-companion-pack warning path.
+        local found, blueprint = pcall(BP_GetEntityBlueprint, name)
+        if found and blueprint ~= nil then
+            Scar_PrecachePrematchResource(blueprint)
+            print("BERBER_LANDMARK_PRECACHE_REQUESTED " .. name)
+        else
+            print("BERBER_LANDMARK_PRECACHE_UNAVAILABLE " .. name)
+        end
+    end
+end
+
+Scar_AddInit(BerberLandmarkVisuals_OnLoading)

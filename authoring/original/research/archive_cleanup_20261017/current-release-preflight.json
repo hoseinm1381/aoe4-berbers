@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "retained_packages": 2,
+  "base_sga_sha256": "48f09ed61020740932b0a653e165710fda49d25aa7739d05f6486b79dbe661bb",
+  "dependencies": "0.7.3 ZIP pair and 0.6.1 SGA; no older release ZIPs",
+  "scope": "Package/rebuild input check only, not gameplay acceptance"
+}

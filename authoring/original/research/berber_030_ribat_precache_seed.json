@@ -1,0 +1,9 @@
+{
+  "schema": "garrison.game-mode/v1",
+  "key": "berber_buildings_030",
+  "script": "winconditions\\berber_buildings_030",
+  "tuning_mod": "1d3145e8f1b2427f8bb0067851fcf0f1",
+  "precache": [
+    {"kind": "entity", "blueprint": "building_landmark_age1_landmarka_mal"}
+  ]
+}

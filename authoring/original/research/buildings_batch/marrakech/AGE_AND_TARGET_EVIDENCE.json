@@ -1,0 +1,18 @@
+{
+  "construction_age": 2,
+  "completed_age": 3,
+  "ages": [
+    3,
+    4
+  ],
+  "current_requirement": "inherited core requirement: castle_age absent, feudal_age present; freshly decoded core.xml and mal.xml",
+  "builder": "unit_villager_1_mal.xml:1323 mal_age2_wonders exact target",
+  "installed_parent": "core building_wonder_age2 fresh RGD/XML",
+  "installed_and_live_footprint": [
+    8,
+    8
+  ],
+  "live_animator_scale": 100,
+  "stock_animator_scale": 100,
+  "donor_attachment": "official mal controller mal_landmark_b_02, Farimba Garrison"
+}

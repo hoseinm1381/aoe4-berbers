@@ -1,0 +1,69 @@
+{
+  "path": {
+    "logical_path": "art/civilizations/abbasids/structures/towncenter/abb_towncenter_control_age01/abb_towncenter_control_age01.rgm"
+  },
+  "bounds": [
+    {
+      "minimum": [
+        -4.66015625,
+        -1.83203125,
+        3.48828125
+      ],
+      "maximum": [
+        4.66015625,
+        1.83203125,
+        6.27734375
+      ],
+      "extent": [
+        9.3203125,
+        3.6640625,
+        2.7890625
+      ]
+    },
+    {
+      "minimum": [
+        -5.234375,
+        -2.59765625,
+        -1.599609375
+      ],
+      "maximum": [
+        5.296875,
+        2.583984375,
+        4.4375
+      ],
+      "extent": [
+        10.53125,
+        5.181640625,
+        6.037109375
+      ]
+    },
+    {
+      "minimum": [
+        -4.7265625,
+        -1.9482421875,
+        -9.554624557495117e-05
+      ],
+      "maximum": [
+        4.7265625,
+        1.9365234375,
+        6.4140625
+      ],
+      "extent": [
+        9.453125,
+        3.884765625,
+        6.414158046245575
+      ]
+    }
+  ],
+  "building_boundary_binding": {
+    "status": "not_available_from_render_model",
+    "reason": "Placement footprint, simboxes and boundary-cell policy belong to the gameplay EBP/attachment graph, not to RGO/RGM/RRGeometry.",
+    "required_source": "qualified gameplay EBP plus inheritance, attachment, stamp and simbox references",
+    "render_mesh_bounds_are_authoritative": false
+  },
+  "entity_binding": {
+    "status": "unresolved",
+    "reason": "An art RGO/RGM path is not itself a qualified gameplay EBP identity.",
+    "stats": null
+  }
+}

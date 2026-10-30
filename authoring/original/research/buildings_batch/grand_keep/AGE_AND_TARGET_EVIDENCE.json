@@ -1,0 +1,59 @@
+{
+  "construction_age": 3,
+  "completed_minimum_age": 4,
+  "required_completed_sources": [
+    4
+  ],
+  "source_scale_factor": 0.8,
+  "target_animator_scale": 125,
+  "entity_scale": 100,
+  "site_footprint": [
+    8,
+    8
+  ],
+  "source_envelope_plan": 6.24,
+  "native_rendered_envelope_plan": 7.8,
+  "current_xml_values": [
+    {
+      "tag": "instance_reference",
+      "name": "upgrade_name",
+      "value": "upgrade\\dev\\ages\\imperial_age"
+    },
+    {
+      "tag": "instance_reference",
+      "name": "upgrade_name",
+      "value": "upgrade\\dev\\ages\\castle_age"
+    },
+    {
+      "tag": "string",
+      "name": "state_tree",
+      "value": "building_action_apply\\buildings\\landmark_age_3_action_apply"
+    },
+    {
+      "tag": "float",
+      "name": "animator_scale",
+      "value": "125"
+    },
+    {
+      "tag": "float",
+      "name": "entity_scale",
+      "value": "100"
+    },
+    {
+      "tag": "group",
+      "name": "footprint_scale",
+      "value": null
+    },
+    {
+      "tag": "instance_reference",
+      "name": "parent_pbg",
+      "value": "ebps\\races\\core\\buildings\\building_wonder_age3"
+    }
+  ],
+  "construction_reuse": "Age IV cumulative stages in Age III construction, no separate completed Age III model",
+  "official_readbacks": [
+    "core.xml",
+    "mal.xml"
+  ],
+  "builder_reference": "assets/attrib/instances/sbps/races/malian/berbers/unit_villager_1_mal.xml:1538"
+}

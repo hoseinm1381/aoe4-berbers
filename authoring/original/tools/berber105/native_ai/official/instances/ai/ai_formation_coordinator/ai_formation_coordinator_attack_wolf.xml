@@ -1,0 +1,60 @@
+<instance version="6" description="" template="ai\ai_formation_coordinator">
+  <group name="ai_formation_coordinator">
+    <list name="non_combat_target_info">
+      <group name="info" List.ItemID="301037135" List.ParentItemID="301037135">
+        <list name="unit_types">
+          <enum name="unit_class" value="wolf" overrideParent="True" List.ItemID="2037356794" List.ParentItemID="2037356794" />
+        </list>
+      </group>
+    </list>
+    <list name="combat_target_exclude_unit_types" overrideParent="True">
+      <enum name="unit_class" value="wall" List.ItemID="-1463820512" />
+      <enum name="unit_class" value="building" List.ItemID="392098917" />
+      <enum name="unit_class" value="animal_huntable" List.ItemID="2131963302" />
+      <enum name="unit_class" value="animal_herdable" List.ItemID="-1749814144" />
+    </list>
+    <bool name="include_world_neutral_enemies" value="True" overrideParent="True" />
+  </group>
+  <uniqueid name="pbgid" value="2075998" />
+  <instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_attack_boar" />
+  <variant name="xp3">
+    <group name="ai_formation_coordinator">
+      <list name="non_combat_target_info">
+        <group name="info" List.ItemID="301037135" List.ParentItemID="301037135">
+          <list name="unit_types">
+            <enum name="unit_class" value="wolf" overrideParent="True" List.ItemID="2037356794" List.ParentItemID="2037356794" />
+          </list>
+        </group>
+      </list>
+      <list name="combat_target_exclude_unit_types" overrideParent="True">
+        <enum name="unit_class" value="wall" List.ItemID="-1463820512" />
+        <enum name="unit_class" value="building" List.ItemID="392098917" />
+        <enum name="unit_class" value="animal_huntable" List.ItemID="2131963302" />
+        <enum name="unit_class" value="animal_herdable" List.ItemID="922036070" />
+      </list>
+      <bool name="include_world_neutral_enemies" value="True" overrideParent="True" />
+    </group>
+    <uniqueid name="pbgid" value="2075998" />
+    <instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_attack_boar" />
+  </variant>
+  <variant name="cordoba">
+    <group name="ai_formation_coordinator">
+      <list name="non_combat_target_info">
+        <group name="info" List.ItemID="301037135" List.ParentItemID="301037135">
+          <list name="unit_types">
+            <enum name="unit_class" value="wolf" overrideParent="True" List.ItemID="2037356794" List.ParentItemID="2037356794" />
+          </list>
+        </group>
+      </list>
+      <list name="combat_target_exclude_unit_types" overrideParent="True">
+        <enum name="unit_class" value="wall" List.ItemID="-1463820512" />
+        <enum name="unit_class" value="building" List.ItemID="392098917" />
+        <enum name="unit_class" value="animal_huntable" List.ItemID="2131963302" />
+        <enum name="unit_class" value="animal_herdable" List.ItemID="-1749814144" />
+      </list>
+      <bool name="include_world_neutral_enemies" value="True" overrideParent="True" />
+    </group>
+    <uniqueid name="pbgid" value="2075998" />
+    <instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_attack_boar" />
+  </variant>
+</instance>

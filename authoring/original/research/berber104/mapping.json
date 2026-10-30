@@ -1,0 +1,2385 @@
+{
+  "version": "1.0.4",
+  "native_ai_from_start": true,
+  "custom_squads": [
+    "mehari_2_ber",
+    "mehari_3_ber",
+    "mehari_4_ber",
+    "unit_handcannon_4_mal",
+    "unit_horseman_2_mal",
+    "unit_horseman_3_mal",
+    "unit_horseman_4_mal",
+    "unit_knight_3_song_cmp",
+    "unit_knight_4_song_cmp",
+    "unit_masmuda_cb_2_ber",
+    "unit_masmuda_cb_3_ber",
+    "unit_masmuda_cb_4_ber",
+    "unit_sanhaja_ca_2_ber",
+    "unit_sanhaja_ca_3_ber",
+    "unit_sanhaja_ca_4_ber",
+    "unit_scout_1_mal",
+    "unit_scout_2_mal",
+    "unit_spearman_tuareg_1_ber",
+    "unit_spearman_tuareg_2_ber",
+    "unit_spearman_tuareg_3_ber",
+    "unit_spearman_tuareg_4_ber",
+    "unit_trade_cart_mal",
+    "unit_villager_1_mal"
+  ],
+  "roster": {
+    "buildings": [
+      "building_defense_keep_mal",
+      "building_defense_outpost_mal",
+      "building_defense_palisade_bastion_mal",
+      "building_defense_palisade_gate_mal",
+      "building_defense_palisade_mal",
+      "building_defense_tower_mal",
+      "building_defense_wall_bastion_mal",
+      "building_defense_wall_gate_mal",
+      "building_defense_wall_mal",
+      "building_econ_food_mal",
+      "building_econ_market_mal",
+      "building_econ_mining_camp_mal",
+      "building_econ_wood_mal",
+      "building_house_mal",
+      "building_hut_ayy",
+      "building_landmark_age1_landmarka_mal",
+      "building_landmark_age1_landmarkb_mal",
+      "building_landmark_age2_landmarkc_control_mal",
+      "building_landmark_age2_landmarkd_control_mal",
+      "building_landmark_age3_landmarke_mal",
+      "building_landmark_age3_landmarkf_mal",
+      "building_resource_farm_mal",
+      "building_tech_unit_infantry_mal",
+      "building_tech_university_mal",
+      "building_town_center_capital_mal",
+      "building_town_center_mal",
+      "building_unit_cavalry_mal",
+      "building_unit_infantry_mal",
+      "building_unit_naval_mal",
+      "building_unit_ranged_mal",
+      "building_unit_religious_mal",
+      "building_unit_siege_mal",
+      "building_wonder_age4_great_mosque_control_mal",
+      "unit_ram_3_mal"
+    ],
+    "squads": [
+      "herdable_cattle_mal",
+      "mehari_2_ber",
+      "mehari_3_ber",
+      "mehari_4_ber",
+      "unit_archer_2_mal",
+      "unit_archer_3_mal",
+      "unit_archer_4_mal",
+      "unit_bombard_4_mal",
+      "unit_cannon_4_mal",
+      "unit_culverin_4_mal",
+      "unit_gbeto_2_mal",
+      "unit_gbeto_3_mal",
+      "unit_gbeto_4_mal",
+      "unit_handcannon_4_mal",
+      "unit_horseman_2_mal",
+      "unit_horseman_3_mal",
+      "unit_horseman_4_mal",
+      "unit_king_1_mal",
+      "unit_knight_3_song_cmp",
+      "unit_knight_4_song_cmp",
+      "unit_mangonel_3_mal",
+      "unit_masmuda_cb_2_ber",
+      "unit_masmuda_cb_3_ber",
+      "unit_masmuda_cb_4_ber",
+      "unit_monk_3_mal",
+      "unit_naval_combat_ship_2_abb",
+      "unit_naval_combat_ship_2_mal",
+      "unit_naval_combat_warship_4_abb",
+      "unit_naval_fireship_3_mal",
+      "unit_naval_fishing_boat_2_mal",
+      "unit_naval_light_combat_ship_2_mal",
+      "unit_naval_scout_2_mal",
+      "unit_naval_trade_ship_3_mal",
+      "unit_naval_transport_ship_2_mal",
+      "unit_ram_3_mal",
+      "unit_ribauldequin_4_mal",
+      "unit_sanhaja_ca_2_ber",
+      "unit_sanhaja_ca_3_ber",
+      "unit_sanhaja_ca_4_ber",
+      "unit_scout_1_mal",
+      "unit_scout_2_mal",
+      "unit_scout_3_mal",
+      "unit_scout_4_mal",
+      "unit_siege_tower_3_mal",
+      "unit_spearman_tuareg_1_ber",
+      "unit_spearman_tuareg_2_ber",
+      "unit_spearman_tuareg_3_ber",
+      "unit_spearman_tuareg_4_ber",
+      "unit_springald_3_mal",
+      "unit_trade_cart_mal",
+      "unit_trebuchet_4_cw_mal",
+      "unit_trebuchet_4_tr_mal",
+      "unit_villager_1_mal",
+      "unit_workshop_ram_3_mal"
+    ],
+    "upgrades": [
+      "upgrade_cul_ancient_relics_ayy",
+      "upgrade_cul_medical_centers_ayy",
+      "upgrade_econ_agriculture_ayy",
+      "upgrade_econ_drift_nets",
+      "upgrade_econ_extended_lines",
+      "upgrade_econ_resource_food_harvest_rate_2",
+      "upgrade_econ_resource_food_harvest_rate_3",
+      "upgrade_econ_resource_food_harvest_rate_4",
+      "upgrade_econ_resource_gold_harvest_rate_2",
+      "upgrade_econ_resource_gold_harvest_rate_3",
+      "upgrade_econ_resource_gold_harvest_rate_4",
+      "upgrade_econ_resource_stone_harvest_rate_2",
+      "upgrade_econ_resource_stone_harvest_rate_3",
+      "upgrade_econ_resource_stone_harvest_rate_4",
+      "upgrade_econ_resource_wood_fell_rate_1",
+      "upgrade_econ_resource_wood_harvest_rate_2",
+      "upgrade_econ_resource_wood_harvest_rate_3",
+      "upgrade_econ_resource_wood_harvest_rate_4",
+      "upgrade_econ_villager_hunting_gear_1",
+      "upgrade_keep_cannon",
+      "upgrade_keep_springald",
+      "upgrade_manatarms_elite_army_tactics",
+      "upgrade_melee_armor_i",
+      "upgrade_melee_armor_ii",
+      "upgrade_melee_armor_iii",
+      "upgrade_melee_damage_i",
+      "upgrade_melee_damage_ii",
+      "upgrade_melee_damage_iii",
+      "upgrade_naval_armored_hull",
+      "upgrade_naval_arrowslits",
+      "upgrade_naval_explosives",
+      "upgrade_naval_extra_hammocks",
+      "upgrade_naval_heated_shot",
+      "upgrade_naval_incendiaries",
+      "upgrade_naval_javelin_ships_mal",
+      "upgrade_naval_mounted_guns",
+      "upgrade_naval_shipwrights",
+      "upgrade_naval_springald_ship_upgrade_1",
+      "upgrade_naval_swivel_cannon",
+      "upgrade_night_buff_song_cmp",
+      "upgrade_outpost_arrowslits",
+      "upgrade_outpost_cannon",
+      "upgrade_outpost_springald",
+      "upgrade_outpost_stone",
+      "upgrade_ranged_archer_silkstring",
+      "upgrade_ranged_armor_i",
+      "upgrade_ranged_armor_ii",
+      "upgrade_ranged_armor_iii",
+      "upgrade_ranged_damage_i",
+      "upgrade_ranged_damage_ii",
+      "upgrade_ranged_damage_iii",
+      "upgrade_ranged_incendiary",
+      "upgrade_ranged_leadshot",
+      "upgrade_sanhaja_armor_buff",
+      "upgrade_scout_forester",
+      "upgrade_scout_los_increase_mal",
+      "upgrade_siege_chemistry",
+      "upgrade_siege_engineers",
+      "upgrade_siege_works",
+      "upgrade_surplus_iron_fre",
+      "upgrade_tech_military_academy",
+      "upgrade_tech_university_architecture_4",
+      "upgrade_tech_university_biology",
+      "upgrade_tech_university_murder_holes_4",
+      "upgrade_unit_archer_3_mal",
+      "upgrade_unit_archer_4_mal",
+      "upgrade_unit_gbeto_3_mal",
+      "upgrade_unit_gbeto_4_mal",
+      "upgrade_unit_horseman_3_mal",
+      "upgrade_unit_horseman_4_mal",
+      "upgrade_unit_knight_4",
+      "upgrade_unit_knight_4_ber",
+      "upgrade_unit_religious_herbal_medicine_4",
+      "upgrade_unit_religious_piety_4",
+      "upgrade_unit_religious_tithe_barn_4_mal",
+      "upgrade_unit_scout_mal_2",
+      "upgrade_unit_spearman_2_mal",
+      "upgrade_unit_spearman_3_mal",
+      "upgrade_unit_spearman_4_mal",
+      "upgrade_unit_town_center_wheelbarrow_1",
+      "upgrade_villager_health"
+    ]
+  },
+  "added": [
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "mehari_2_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "mehari_3_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "mehari_4_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "unit_cannon_4_mal",
+      "binding": "ScoringFunctions_Siege"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "unit_handcannon_4_mal",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "unit_horseman_2_mal",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "unit_horseman_3_mal",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "unit_horseman_4_mal",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "unit_knight_3_song_cmp",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "unit_knight_4_song_cmp",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "unit_masmuda_cb_2_ber",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "unit_masmuda_cb_3_ber",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "unit_masmuda_cb_4_ber",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "unit_naval_combat_ship_2_abb",
+      "binding": "ScoringFunctions_NavalMilitary"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "unit_naval_combat_warship_4_abb",
+      "binding": "ScoringFunctions_WarShip"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "unit_sanhaja_ca_2_ber",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "unit_sanhaja_ca_3_ber",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "unit_sanhaja_ca_4_ber",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "unit_scout_1_mal",
+      "binding": "ScoringFunctions_Scouting"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "unit_scout_2_mal",
+      "binding": "ScoringFunctions_Scouting"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "unit_spearman_tuareg_1_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "unit_spearman_tuareg_2_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "unit_spearman_tuareg_3_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "unit_spearman_tuareg_4_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "unit_trade_cart_mal",
+      "binding": "ScoringFunctions_Trader"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "unit_trebuchet_4_tr_mal",
+      "binding": "ScoringFunctions_Siege"
+    },
+    {
+      "variant": "default",
+      "category": "squad",
+      "name": "unit_villager_1_mal",
+      "binding": "ScoringFunctions_Gatherer"
+    },
+    {
+      "variant": "default",
+      "category": "upgrade",
+      "name": "upgrade_econ_resource_stone_harvest_rate_2",
+      "binding": "ScoringFunctions_PlayerEconGatheringUpgrade"
+    },
+    {
+      "variant": "default",
+      "category": "upgrade",
+      "name": "upgrade_econ_resource_stone_harvest_rate_3",
+      "binding": "ScoringFunctions_PlayerEconGatheringUpgrade"
+    },
+    {
+      "variant": "default",
+      "category": "upgrade",
+      "name": "upgrade_econ_resource_stone_harvest_rate_4",
+      "binding": "ScoringFunctions_PlayerEconGatheringUpgrade"
+    },
+    {
+      "variant": "default",
+      "category": "upgrade",
+      "name": "upgrade_night_buff_song_cmp",
+      "binding": "ScoringFunctions_PlayerUnitCombatUpgrade"
+    },
+    {
+      "variant": "default",
+      "category": "upgrade",
+      "name": "upgrade_sanhaja_armor_buff",
+      "binding": "ScoringFunctions_PlayerUnitCombatUpgrade"
+    },
+    {
+      "variant": "default",
+      "category": "upgrade",
+      "name": "upgrade_surplus_iron_fre",
+      "binding": "ScoringFunctions_PlayerUnitCombatUpgrade"
+    },
+    {
+      "variant": "default",
+      "category": "upgrade",
+      "name": "upgrade_unit_gbeto_3_mal",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "default",
+      "category": "upgrade",
+      "name": "upgrade_unit_gbeto_4_mal",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "default",
+      "category": "upgrade",
+      "name": "upgrade_unit_knight_4_ber",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "default",
+      "category": "upgrade",
+      "name": "upgrade_unit_spearman_2_mal",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "default",
+      "category": "upgrade",
+      "name": "upgrade_unit_spearman_3_mal",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "default",
+      "category": "upgrade",
+      "name": "upgrade_unit_spearman_4_mal",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "default",
+      "category": "building",
+      "name": "building_landmark_age1_landmarka_mal",
+      "binding": "ScoringFunctions_LandmarkRandomB"
+    },
+    {
+      "variant": "default",
+      "category": "building",
+      "name": "building_landmark_age1_landmarkb_mal",
+      "binding": "ScoringFunctions_LandmarkRandomA"
+    },
+    {
+      "variant": "default",
+      "category": "building",
+      "name": "building_landmark_age2_landmarkc_control_mal",
+      "binding": "ScoringFunctions_LandmarkEcon"
+    },
+    {
+      "variant": "default",
+      "category": "building",
+      "name": "building_landmark_age2_landmarkd_control_mal",
+      "binding": "ScoringFunctions_LandmarkOffensive"
+    },
+    {
+      "variant": "default",
+      "category": "building",
+      "name": "building_landmark_age3_landmarke_mal",
+      "binding": "ScoringFunctions_LandmarkEcon"
+    },
+    {
+      "variant": "default",
+      "category": "building",
+      "name": "building_landmark_age3_landmarkf_mal",
+      "binding": "ScoringFunctions_LandmarkDefensive"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "herdable_cattle_mal",
+      "binding": "ScoringFunctions_Cattle"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "mehari_2_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "mehari_3_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "mehari_4_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_archer_2_mal",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_archer_3_mal",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_archer_4_mal",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_bombard_4_mal",
+      "binding": "ScoringFunctions_Siege"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_cannon_4_mal",
+      "binding": "ScoringFunctions_Siege"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_culverin_4_mal",
+      "binding": "ScoringFunctions_CombatSiege"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_gbeto_2_mal",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_gbeto_3_mal",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_gbeto_4_mal",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_handcannon_4_mal",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_horseman_2_mal",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_horseman_3_mal",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_horseman_4_mal",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_knight_3_song_cmp",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_knight_4_song_cmp",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_mangonel_3_mal",
+      "binding": "ScoringFunctions_CombatSiege"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_masmuda_cb_2_ber",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_masmuda_cb_3_ber",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_masmuda_cb_4_ber",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_monk_3_mal",
+      "binding": "ScoringFunctions_Monk"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_naval_combat_ship_2_abb",
+      "binding": "ScoringFunctions_NavalMilitary"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_naval_combat_ship_2_mal",
+      "binding": "ScoringFunctions_NavalMilitary"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_naval_combat_warship_4_abb",
+      "binding": "ScoringFunctions_WarShip"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_naval_fireship_3_mal",
+      "binding": "ScoringFunctions_Fireship"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_naval_fishing_boat_2_mal",
+      "binding": "ScoringFunctions_FishingBoat"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_naval_light_combat_ship_2_mal",
+      "binding": "ScoringFunctions_NavalMilitary"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_naval_scout_2_mal",
+      "binding": "ScoringFunctions_NoScoring"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_naval_trade_ship_3_mal",
+      "binding": "ScoringFunctions_TradeBoat"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_naval_transport_ship_2_mal",
+      "binding": "ScoringFunctions_TransportBoat"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_ram_3_mal",
+      "binding": "ScoringFunctions_Siege"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_ribauldequin_4_mal",
+      "binding": "ScoringFunctions_CombatSiege"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_sanhaja_ca_2_ber",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_sanhaja_ca_3_ber",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_sanhaja_ca_4_ber",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_scout_1_mal",
+      "binding": "ScoringFunctions_Scouting"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_scout_2_mal",
+      "binding": "ScoringFunctions_Scouting"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_scout_3_mal",
+      "binding": "ScoringFunctions_Scouting"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_scout_4_mal",
+      "binding": "ScoringFunctions_Scouting"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_siege_tower_3_mal",
+      "binding": "ScoringFunctions_SiegeTower"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_spearman_tuareg_1_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_spearman_tuareg_2_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_spearman_tuareg_3_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_spearman_tuareg_4_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_springald_3_mal",
+      "binding": "ScoringFunctions_CombatSiege"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_trade_cart_mal",
+      "binding": "ScoringFunctions_Trader"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_trebuchet_4_cw_mal",
+      "binding": "ScoringFunctions_Siege"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_trebuchet_4_tr_mal",
+      "binding": "ScoringFunctions_Siege"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_villager_1_mal",
+      "binding": "ScoringFunctions_Gatherer"
+    },
+    {
+      "variant": "campaign",
+      "category": "squad",
+      "name": "unit_workshop_ram_3_mal",
+      "binding": "ScoringFunctions_Siege"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_econ_drift_nets",
+      "binding": "ScoringFunctions_PlayerEconNavalUpgrade"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_econ_extended_lines",
+      "binding": "ScoringFunctions_PlayerEconNavalUpgrade"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_naval_arrowslits",
+      "binding": "ScoringFunctions_DefensiveStructureUpgrades"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_naval_extra_hammocks",
+      "binding": "ScoringFunctions_NavalUnitCombatUpgrades"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_naval_heated_shot",
+      "binding": "ScoringFunctions_NavalUnitCombatUpgrades"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_naval_incendiaries",
+      "binding": "ScoringFunctions_NavalUnitCombatUpgrades"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_naval_javelin_ships_mal",
+      "binding": "ScoringFunctions_NavalUnitCombatUpgrades"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_naval_shipwrights",
+      "binding": "ScoringFunctions_NavalUnitCombatUpgrades"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_naval_springald_ship_upgrade_1",
+      "binding": "ScoringFunctions_NavalUnitCombatUpgrades"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_naval_swivel_cannon",
+      "binding": "ScoringFunctions_NavalUnitCombatUpgrades"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_night_buff_song_cmp",
+      "binding": "ScoringFunctions_PlayerUnitCombatUpgrade"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_ranged_leadshot",
+      "binding": "ScoringFunctions_PlayerUnitCombatUpgrade"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_sanhaja_armor_buff",
+      "binding": "ScoringFunctions_PlayerUnitCombatUpgrade"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_scout_los_increase_mal",
+      "binding": "ScoringFunctions_PlayerCombatProductionUpgrade"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_surplus_iron_fre",
+      "binding": "ScoringFunctions_PlayerUnitCombatUpgrade"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_unit_archer_3_mal",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_unit_archer_4_mal",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_unit_gbeto_3_mal",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_unit_gbeto_4_mal",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_unit_horseman_3_mal",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_unit_horseman_4_mal",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_unit_knight_4_ber",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_unit_religious_tithe_barn_4_mal",
+      "binding": "ScoringFunctions_PlayerEconProductionUpgrade"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_unit_scout_mal_2",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_unit_spearman_2_mal",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_unit_spearman_3_mal",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_unit_spearman_4_mal",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "campaign",
+      "category": "upgrade",
+      "name": "upgrade_villager_health",
+      "binding": "ScoringFunctions_DefensiveUpgrade"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_defense_keep_mal",
+      "binding": "ScoringFunctions_Keeps"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_defense_outpost_mal",
+      "binding": "ScoringFunctions_Outposts"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_defense_palisade_gate_mal",
+      "binding": "ScoringFunctions_WallAndGate"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_defense_palisade_mal",
+      "binding": "ScoringFunctions_WallAndGate"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_defense_tower_mal",
+      "binding": "ScoringFunctions_WallTower"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_defense_wall_gate_mal",
+      "binding": "ScoringFunctions_WallAndGate"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_defense_wall_mal",
+      "binding": "ScoringFunctions_WallAndGate"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_econ_food_mal",
+      "binding": "ScoringFunction_Mills"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_econ_market_mal",
+      "binding": "ScoringFunctions_Markets"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_econ_mining_camp_mal",
+      "binding": "ScoringFunctions_DropOffs"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_econ_wood_mal",
+      "binding": "ScoringFunctions_DropOffs"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_house_mal",
+      "binding": "ScoringFunctions_House"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_landmark_age1_landmarka_mal",
+      "binding": "ScoringFunctions_LandmarkRandomB"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_landmark_age1_landmarkb_mal",
+      "binding": "ScoringFunctions_LandmarkRandomA"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_landmark_age2_landmarkc_control_mal",
+      "binding": "ScoringFunctions_LandmarkEcon"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_landmark_age2_landmarkd_control_mal",
+      "binding": "ScoringFunctions_LandmarkOffensive"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_landmark_age3_landmarke_mal",
+      "binding": "ScoringFunctions_LandmarkEcon"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_landmark_age3_landmarkf_mal",
+      "binding": "ScoringFunctions_LandmarkDefensive"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_resource_farm_mal",
+      "binding": "ScoringFunctions_ResourceGenerator"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_tech_unit_infantry_mal",
+      "binding": "ScoringFunctions_MilitaryResearchBuilding"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_tech_university_mal",
+      "binding": "ScoringFunctions_ProductionBuilding"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_town_center_mal",
+      "binding": "ScoringFunctions_ExpansionTC"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_unit_cavalry_mal",
+      "binding": "ScoringFunctions_MilitaryProductionBuilding"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_unit_infantry_mal",
+      "binding": "ScoringFunctions_MilitaryProductionBuilding"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_unit_naval_mal",
+      "binding": "ScoringFunctions_Dock"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_unit_ranged_mal",
+      "binding": "ScoringFunctions_MilitaryProductionBuilding"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_unit_religious_mal",
+      "binding": "ScoringFunctions_Monastery"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_unit_siege_mal",
+      "binding": "ScoringFunctions_MilitaryProductionBuilding"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "building_wonder_age4_great_mosque_control_mal",
+      "binding": "ScoringFunctions_Wonder"
+    },
+    {
+      "variant": "campaign",
+      "category": "building",
+      "name": "unit_ram_3_mal",
+      "binding": "ScoringFunctions_Siege"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "mehari_2_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "mehari_3_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "mehari_4_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "unit_cannon_4_mal",
+      "binding": "ScoringFunctions_Siege"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "unit_handcannon_4_mal",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "unit_horseman_2_mal",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "unit_horseman_3_mal",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "unit_horseman_4_mal",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "unit_knight_3_song_cmp",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "unit_knight_4_song_cmp",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "unit_masmuda_cb_2_ber",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "unit_masmuda_cb_3_ber",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "unit_masmuda_cb_4_ber",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "unit_naval_combat_ship_2_abb",
+      "binding": "ScoringFunctions_NavalMilitary"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "unit_naval_combat_warship_4_abb",
+      "binding": "ScoringFunctions_WarShip"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "unit_sanhaja_ca_2_ber",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "unit_sanhaja_ca_3_ber",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "unit_sanhaja_ca_4_ber",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "unit_scout_1_mal",
+      "binding": "ScoringFunctions_Scouting"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "unit_scout_2_mal",
+      "binding": "ScoringFunctions_Scouting"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "unit_spearman_tuareg_1_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "unit_spearman_tuareg_2_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "unit_spearman_tuareg_3_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "unit_spearman_tuareg_4_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "unit_trade_cart_mal",
+      "binding": "ScoringFunctions_Trader"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "unit_trebuchet_4_tr_mal",
+      "binding": "ScoringFunctions_Siege"
+    },
+    {
+      "variant": "xp3",
+      "category": "squad",
+      "name": "unit_villager_1_mal",
+      "binding": "ScoringFunctions_Gatherer"
+    },
+    {
+      "variant": "xp3",
+      "category": "upgrade",
+      "name": "upgrade_econ_resource_stone_harvest_rate_2",
+      "binding": "ScoringFunctions_PlayerEconGatheringUpgrade"
+    },
+    {
+      "variant": "xp3",
+      "category": "upgrade",
+      "name": "upgrade_econ_resource_stone_harvest_rate_3",
+      "binding": "ScoringFunctions_PlayerEconGatheringUpgrade"
+    },
+    {
+      "variant": "xp3",
+      "category": "upgrade",
+      "name": "upgrade_econ_resource_stone_harvest_rate_4",
+      "binding": "ScoringFunctions_PlayerEconGatheringUpgrade"
+    },
+    {
+      "variant": "xp3",
+      "category": "upgrade",
+      "name": "upgrade_night_buff_song_cmp",
+      "binding": "ScoringFunctions_PlayerUnitCombatUpgrade"
+    },
+    {
+      "variant": "xp3",
+      "category": "upgrade",
+      "name": "upgrade_ranged_leadshot",
+      "binding": "ScoringFunctions_PlayerUnitCombatUpgrade"
+    },
+    {
+      "variant": "xp3",
+      "category": "upgrade",
+      "name": "upgrade_sanhaja_armor_buff",
+      "binding": "ScoringFunctions_PlayerUnitCombatUpgrade"
+    },
+    {
+      "variant": "xp3",
+      "category": "upgrade",
+      "name": "upgrade_surplus_iron_fre",
+      "binding": "ScoringFunctions_PlayerUnitCombatUpgrade"
+    },
+    {
+      "variant": "xp3",
+      "category": "upgrade",
+      "name": "upgrade_unit_gbeto_3_mal",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "xp3",
+      "category": "upgrade",
+      "name": "upgrade_unit_gbeto_4_mal",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "xp3",
+      "category": "upgrade",
+      "name": "upgrade_unit_knight_4_ber",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "xp3",
+      "category": "upgrade",
+      "name": "upgrade_unit_spearman_2_mal",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "xp3",
+      "category": "upgrade",
+      "name": "upgrade_unit_spearman_3_mal",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "xp3",
+      "category": "upgrade",
+      "name": "upgrade_unit_spearman_4_mal",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "xp3",
+      "category": "building",
+      "name": "building_landmark_age1_landmarka_mal",
+      "binding": "ScoringFunctions_LandmarkRandomB"
+    },
+    {
+      "variant": "xp3",
+      "category": "building",
+      "name": "building_landmark_age1_landmarkb_mal",
+      "binding": "ScoringFunctions_LandmarkRandomA"
+    },
+    {
+      "variant": "xp3",
+      "category": "building",
+      "name": "building_landmark_age2_landmarkc_control_mal",
+      "binding": "ScoringFunctions_LandmarkEcon"
+    },
+    {
+      "variant": "xp3",
+      "category": "building",
+      "name": "building_landmark_age2_landmarkd_control_mal",
+      "binding": "ScoringFunctions_LandmarkOffensive"
+    },
+    {
+      "variant": "xp3",
+      "category": "building",
+      "name": "building_landmark_age3_landmarke_mal",
+      "binding": "ScoringFunctions_LandmarkEcon"
+    },
+    {
+      "variant": "xp3",
+      "category": "building",
+      "name": "building_landmark_age3_landmarkf_mal",
+      "binding": "ScoringFunctions_LandmarkDefensive"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "mehari_2_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "mehari_3_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "mehari_4_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "unit_cannon_4_mal",
+      "binding": "ScoringFunctions_Siege"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "unit_handcannon_4_mal",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "unit_horseman_2_mal",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "unit_horseman_3_mal",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "unit_horseman_4_mal",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "unit_knight_3_song_cmp",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "unit_knight_4_song_cmp",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "unit_masmuda_cb_2_ber",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "unit_masmuda_cb_3_ber",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "unit_masmuda_cb_4_ber",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "unit_naval_combat_ship_2_abb",
+      "binding": "ScoringFunctions_NavalMilitary"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "unit_naval_combat_warship_4_abb",
+      "binding": "ScoringFunctions_WarShip"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "unit_sanhaja_ca_2_ber",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "unit_sanhaja_ca_3_ber",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "unit_sanhaja_ca_4_ber",
+      "binding": "ScoringFunctions_RangedInfantry"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "unit_scout_1_mal",
+      "binding": "ScoringFunctions_Scouting"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "unit_scout_2_mal",
+      "binding": "ScoringFunctions_Scouting"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "unit_spearman_tuareg_1_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "unit_spearman_tuareg_2_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "unit_spearman_tuareg_3_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "unit_spearman_tuareg_4_ber",
+      "binding": "ScoringFunctions_Infantry"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "unit_trade_cart_mal",
+      "binding": "ScoringFunctions_Trader"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "unit_trebuchet_4_tr_mal",
+      "binding": "ScoringFunctions_Siege"
+    },
+    {
+      "variant": "cordoba",
+      "category": "squad",
+      "name": "unit_villager_1_mal",
+      "binding": "ScoringFunctions_Gatherer"
+    },
+    {
+      "variant": "cordoba",
+      "category": "upgrade",
+      "name": "upgrade_econ_resource_stone_harvest_rate_2",
+      "binding": "ScoringFunctions_PlayerEconGatheringUpgrade"
+    },
+    {
+      "variant": "cordoba",
+      "category": "upgrade",
+      "name": "upgrade_econ_resource_stone_harvest_rate_3",
+      "binding": "ScoringFunctions_PlayerEconGatheringUpgrade"
+    },
+    {
+      "variant": "cordoba",
+      "category": "upgrade",
+      "name": "upgrade_econ_resource_stone_harvest_rate_4",
+      "binding": "ScoringFunctions_PlayerEconGatheringUpgrade"
+    },
+    {
+      "variant": "cordoba",
+      "category": "upgrade",
+      "name": "upgrade_night_buff_song_cmp",
+      "binding": "ScoringFunctions_PlayerUnitCombatUpgrade"
+    },
+    {
+      "variant": "cordoba",
+      "category": "upgrade",
+      "name": "upgrade_sanhaja_armor_buff",
+      "binding": "ScoringFunctions_PlayerUnitCombatUpgrade"
+    },
+    {
+      "variant": "cordoba",
+      "category": "upgrade",
+      "name": "upgrade_surplus_iron_fre",
+      "binding": "ScoringFunctions_PlayerUnitCombatUpgrade"
+    },
+    {
+      "variant": "cordoba",
+      "category": "upgrade",
+      "name": "upgrade_unit_gbeto_3_mal",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "cordoba",
+      "category": "upgrade",
+      "name": "upgrade_unit_gbeto_4_mal",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "cordoba",
+      "category": "upgrade",
+      "name": "upgrade_unit_knight_4_ber",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "cordoba",
+      "category": "upgrade",
+      "name": "upgrade_unit_spearman_2_mal",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "cordoba",
+      "category": "upgrade",
+      "name": "upgrade_unit_spearman_3_mal",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "cordoba",
+      "category": "upgrade",
+      "name": "upgrade_unit_spearman_4_mal",
+      "binding": "ScoringFunctions_PlayerUnitTierUpgrade"
+    },
+    {
+      "variant": "cordoba",
+      "category": "building",
+      "name": "building_landmark_age1_landmarka_mal",
+      "binding": "ScoringFunctions_LandmarkRandomB"
+    },
+    {
+      "variant": "cordoba",
+      "category": "building",
+      "name": "building_landmark_age1_landmarkb_mal",
+      "binding": "ScoringFunctions_LandmarkRandomA"
+    },
+    {
+      "variant": "cordoba",
+      "category": "building",
+      "name": "building_landmark_age2_landmarkc_control_mal",
+      "binding": "ScoringFunctions_LandmarkEcon"
+    },
+    {
+      "variant": "cordoba",
+      "category": "building",
+      "name": "building_landmark_age2_landmarkd_control_mal",
+      "binding": "ScoringFunctions_LandmarkOffensive"
+    },
+    {
+      "variant": "cordoba",
+      "category": "building",
+      "name": "building_landmark_age3_landmarke_mal",
+      "binding": "ScoringFunctions_LandmarkEcon"
+    },
+    {
+      "variant": "cordoba",
+      "category": "building",
+      "name": "building_landmark_age3_landmarkf_mal",
+      "binding": "ScoringFunctions_LandmarkDefensive"
+    }
+  ],
+  "new_instances": [
+    "ai/ai_entity/berber_tribal_tent.xml",
+    "ai/ai_entity/berber_production.xml",
+    "ai/ai_ability/berber_alliances.xml",
+    "ai/ai_ability/berber_defensive_combat.xml"
+  ],
+  "grant_only_upgrades": [
+    "upgrade_cul_ancient_relics_ayy",
+    "upgrade_cul_medical_centers_ayy",
+    "upgrade_econ_agriculture_ayy"
+  ],
+  "automatic_buildings": [
+    "building_defense_palisade_bastion_mal",
+    "building_defense_wall_bastion_mal"
+  ],
+  "special_mode_only_squads": [
+    "unit_king_1_mal"
+  ],
+  "reference_project_hashes": {
+    "E:\\age of empires 4 mods\\01_Custom_Civilizations\\Community_Civilization_pack\\Community_civilization_pack_normal\\assets\\attrib\\instances\\ai\\ai_economy\\complete\\default_economy.xml": "519cb0ddfe88f793c41d79a0b7a393028fd9679f38f858f97b27e1369b72c425"
+  },
+  "official_reference_archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\ReferenceAttributes.sga",
+  "official_reference_sha256": "cbaf6803ca8309cfb3861c8a19c3c9c34c0ec50d7c6c507f9c6906be301cfe5c",
+  "source_hashes": {
+    "source/attrib/instances/ai/ai_ability/berber_alliances.xml": "81289c9ee65cd19be3dd7cfaf72a19dd68bed825388b0e826868be18e98a257c",
+    "source/attrib/instances/ai/ai_ability/berber_defensive_combat.xml": "eac3392d6de26db8464ac8be0345b5c4ae2c35c0e3770d9bf0c58a0475f8705b",
+    "source/attrib/instances/ai/ai_economy/complete/default_economy.xml": "9379169f46f0a0bf9f558e64c67399b10a3c629c07e806f13ff968ae48d32bc5",
+    "source/attrib/instances/ai/ai_entity/berber_production.xml": "96130264d42d6bc8ee9fae75990fe847a147c7db777266ed0dfc23cae16af81b",
+    "source/attrib/instances/ai/ai_entity/berber_tribal_tent.xml": "b4a87ca9488df3e0b7b06f8d592cebd0730af7732919c4172dea282f006703f8",
+    "source/attrib/instances/ai/ai_entity/malian_house.xml": "1158ba43d2812dd5ec05afc0891f216462337258d0123955e376258a430654e1",
+    "source/attrib/instances/ai/ai_entity/mining_camp.xml": "b032e36e4f3110a5afadbead7a960a8f59fd0b0f63ca493270953032084dbf74"
+  },
+  "allocated_list_ids_used": [
+    "1566297309",
+    "-1068898535",
+    "586780602",
+    "-1307592995",
+    "1961388121",
+    "-981802164",
+    "2118439812",
+    "452883208",
+    "-141862215",
+    "817304170",
+    "-248612776",
+    "2107253052",
+    "-1163470865",
+    "184401719",
+    "1226311267",
+    "146665629",
+    "-1077802303",
+    "-775311306",
+    "-1047194940",
+    "1263783302",
+    "-622972068",
+    "-1813487944",
+    "2132986559",
+    "-225295978",
+    "592837283",
+    "706664502",
+    "94774671",
+    "-410652325",
+    "-1841091762",
+    "-2037053018",
+    "-1498382871",
+    "1139897538",
+    "1888748462",
+    "-946674419",
+    "1329039800",
+    "-164326907",
+    "2012426139",
+    "1477181744",
+    "245341668",
+    "1519998098",
+    "1833375300",
+    "-1394395337",
+    "-921723997",
+    "1169054603",
+    "-1630031633",
+    "440794339",
+    "-1848502803",
+    "566046543",
+    "1814951864",
+    "-1970906307",
+    "-350758305",
+    "-409666649",
+    "-642051768",
+    "-1312593780",
+    "-1492502762",
+    "618812817",
+    "-1960138076",
+    "-108894879",
+    "-1840851716",
+    "1645093050",
+    "487254521",
+    "-2035512496",
+    "930658151",
+    "-497204841",
+    "857434980",
+    "-815615224",
+    "-887688732",
+    "-1182687349",
+    "-1999179567",
+    "360279057",
+    "356149662",
+    "1761582718",
+    "788686093",
+    "819649458",
+    "-1704517487",
+    "99975816",
+    "-602392218",
+    "1662510830",
+    "-1480048974",
+    "-1836526785",
+    "1466941270",
+    "21403084",
+    "-1724833375",
+    "913025503",
+    "-514003214",
+    "-1874208790",
+    "665850239",
+    "-869438943",
+    "943068494",
+    "157449429",
+    "761674671",
+    "-855934908",
+    "152530727",
+    "296980558",
+    "-261983428",
+    "1108675542",
+    "-899084609",
+    "-2136609997",
+    "156977698",
+    "-1877244873",
+    "-1006157723",
+    "1218450970",
+    "890180668",
+    "-1174154298",
+    "-1533943046",
+    "-1378756197",
+    "446786755",
+    "1485076826",
+    "-112006925",
+    "-1293493185",
+    "-1483318314",
+    "1634577574",
+    "146876461",
+    "1013454744",
+    "-678047217",
+    "-1935396718",
+    "-1805754052",
+    "-1059254255",
+    "-1286511264",
+    "1604782434",
+    "-114096414",
+    "993210917",
+    "-1119937555",
+    "-665324530",
+    "-2042324429",
+    "-353095962",
+    "255271494",
+    "974718881",
+    "1598550008",
+    "-35305618",
+    "1163555328",
+    "1824957836",
+    "-1987436643",
+    "2038875212",
+    "-1870318369",
+    "1421192829",
+    "1659258351",
+    "-290796905",
+    "35879512",
+    "2037807270",
+    "1248433639",
+    "621670540",
+    "-1320714713",
+    "-1920691847",
+    "-598139473",
+    "615860900",
+    "-1023280267",
+    "1850123028",
+    "1739994984",
+    "1828282993",
+    "-1018295307",
+    "-1206210750",
+    "-4927157",
+    "1811661843",
+    "-1021231522",
+    "1545975481",
+    "-1784346746",
+    "-1264785499",
+    "-1415786090",
+    "141130000",
+    "502364994",
+    "-1241136448",
+    "1718060138",
+    "867748296",
+    "1597754385",
+    "-1480703275",
+    "1415069219",
+    "-266681884",
+    "-663463351",
+    "653071238",
+    "-1105089410",
+    "-1110967283",
+    "-1362308870",
+    "510353313",
+    "-2140260049",
+    "642521484",
+    "362372588",
+    "-1208928446",
+    "1971420918",
+    "2145387232",
+    "-1455882516",
+    "-1469902974",
+    "-89783660",
+    "1955754134",
+    "612520524",
+    "-1417183770",
+    "1048719324",
+    "-378577407",
+    "-1180888668",
+    "201289573",
+    "39287649",
+    "-1515802477",
+    "-1749139108",
+    "1392584147",
+    "-667978511",
+    "-1092389684",
+    "1605741041",
+    "-1359042250",
+    "2078573118",
+    "-779755227",
+    "-245420703",
+    "-418228340",
+    "-912201461",
+    "-742270826",
+    "503523705",
+    "-352280792",
+    "-384025512",
+    "-855503932",
+    "148503213",
+    "-1354458003",
+    "-650811485",
+    "-193599859",
+    "238756856",
+    "-1579605109",
+    "247856556",
+    "-1262140834",
+    "-2116067529",
+    "880474489",
+    "-418415103",
+    "-1380420262",
+    "1319769223",
+    "-2018954870",
+    "306152404",
+    "142944089",
+    "521238355",
+    "-287872967",
+    "1144943315",
+    "770759430",
+    "1751412055",
+    "1114345471",
+    "2104990252",
+    "834546362",
+    "863790939",
+    "1851578113",
+    "-1391863344",
+    "-1780118404",
+    "1125928490",
+    "-240664684",
+    "61698839",
+    "794803839",
+    "2034488393",
+    "-314340405",
+    "1815272410",
+    "-976230759",
+    "279538511",
+    "-517763474",
+    "-1379066851",
+    "-1252585112",
+    "-1967501034",
+    "250524495",
+    "722875147",
+    "-708979591",
+    "1858758973",
+    "399462950",
+    "-357024166",
+    "1462600142",
+    "-280042003",
+    "-1945420583",
+    "-819951821",
+    "1031787034",
+    "1973708824",
+    "-1464673578",
+    "1873849641",
+    "1026524432",
+    "1854793883",
+    "887641241",
+    "571038389",
+    "-1112018072",
+    "893112395",
+    "-442830087",
+    "1456106163",
+    "963196074",
+    "-1146805328",
+    "623753293",
+    "-1535909013",
+    "-1519991986",
+    "-726498118",
+    "-573870377",
+    "2082620144",
+    "741005405",
+    "1204218251",
+    "1861640933",
+    "1273808713",
+    "13329895",
+    "1448221196",
+    "-589809818",
+    "-190649354",
+    "-207200491",
+    "986219919",
+    "-837359311",
+    "-552762247",
+    "1181750488",
+    "-1300359484",
+    "294031539",
+    "-632318356",
+    "-525641613",
+    "1909346913",
+    "-1357949300",
+    "-1825885012",
+    "-682924882",
+    "2083109182",
+    "933940883",
+    "-1458578983",
+    "-596182799",
+    "-1478645612",
+    "727159311",
+    "-1292928189",
+    "749256968",
+    "-202457986",
+    "-143739690",
+    "-1791845675",
+    "1882178325",
+    "818471414",
+    "1716231533",
+    "-265298598",
+    "-848182282",
+    "1546941235",
+    "-1340751911",
+    "-1145204613",
+    "329622597",
+    "1758206332",
+    "415185007",
+    "-2102019821",
+    "-1179893575",
+    "-1807645423",
+    "1020882473",
+    "451288746",
+    "-472554466",
+    "-71454616",
+    "-49507289",
+    "-833374730",
+    "2076187382",
+    "-1518435244",
+    "2022664410",
+    "-121079631",
+    "-1419282376",
+    "1899120570",
+    "-1251394885",
+    "-260184875",
+    "-37113788",
+    "1659078905",
+    "1206848553",
+    "-1638279870",
+    "-1735640910",
+    "-98386492",
+    "-928538837",
+    "617679614",
+    "1052367842",
+    "-48350526",
+    "506189313",
+    "252983950",
+    "1681288743",
+    "301679987",
+    "1215429109",
+    "605685800",
+    "-1178442746",
+    "317264113",
+    "-224453112",
+    "653159368",
+    "1406339203",
+    "-50558756",
+    "-1430256375",
+    "956577800",
+    "727168676",
+    "587948766",
+    "953747823",
+    "1378037773",
+    "-2080132760",
+    "-1737634179",
+    "-497782499",
+    "1140774385",
+    "-950772103",
+    "-619294218",
+    "681020532",
+    "-1405938717",
+    "-581344368",
+    "1535127722",
+    "-2143599698",
+    "-1084579531",
+    "-1818766711",
+    "1127019116",
+    "655282328",
+    "-1415405457",
+    "-1056519010",
+    "-576035434",
+    "-757310788",
+    "1772294867",
+    "1668679282",
+    "-1354017500",
+    "-80939705",
+    "-1643084340",
+    "1450281098",
+    "500370781",
+    "-1577075680",
+    "972054330",
+    "854484895",
+    "1886946318",
+    "733211596",
+    "1359249861",
+    "482368118",
+    "1032637944",
+    "-1377319956",
+    "42754502",
+    "1180796406",
+    "-1491055110",
+    "1817044302",
+    "-1450299106",
+    "664159658",
+    "442051704",
+    "-987366346",
+    "-1528732829",
+    "1408634074",
+    "212406456",
+    "824459860",
+    "1502232767",
+    "1926343656",
+    "1444526692",
+    "-33532915",
+    "1954565793",
+    "1514036981",
+    "1790597440",
+    "-488749469",
+    "1955386735",
+    "-401245984",
+    "1660169262",
+    "1346667425",
+    "-589049068",
+    "1374340801",
+    "425519421",
+    "357918054",
+    "2039179512",
+    "2074910415",
+    "-1949593719",
+    "1770382891",
+    "879267497",
+    "410647234",
+    "116704811",
+    "-1273623246",
+    "1699308208",
+    "1998388912",
+    "-705543649",
+    "401368877",
+    "-107806792",
+    "781878939",
+    "-1819074500",
+    "1560437316",
+    "1069266627",
+    "-497809988",
+    "-1243517673",
+    "-1373604465",
+    "2016824711",
+    "-941374781",
+    "2101920834",
+    "1306778966",
+    "837821610",
+    "-254917143",
+    "802788174",
+    "-1980154277",
+    "-1128539865",
+    "-1890466752",
+    "323404357",
+    "1663935511",
+    "1546230848",
+    "1686067711",
+    "-1550247575",
+    "474424589",
+    "1297862987",
+    "1976741112",
+    "1198202564",
+    "-1117667527",
+    "1886303203",
+    "-963634121",
+    "1293910191",
+    "668357621",
+    "-1898077975",
+    "921530795",
+    "-708725431",
+    "-484412994",
+    "-663121403",
+    "302348134",
+    "-1308491476",
+    "2110694473",
+    "331480370",
+    "1549267437",
+    "2020052186",
+    "-1290391674",
+    "-196434629",
+    "797857350",
+    "491670650",
+    "-681508497",
+    "-382337585",
+    "-1303602011",
+    "-1846063133",
+    "2038723592",
+    "1742633369",
+    "-1495830026",
+    "-78065098",
+    "-931550364",
+    "1672835431",
+    "1110402437",
+    "-419024249",
+    "1026677183",
+    "-50057971",
+    "-807863458",
+    "195191823",
+    "-96418304",
+    "1009916483",
+    "-239388051",
+    "726268633",
+    "1833154802",
+    "1651313236",
+    "-596193485",
+    "-1396320283",
+    "1872806653",
+    "-1172065349",
+    "-1874465758",
+    "-861873471",
+    "-1326371910",
+    "972570009",
+    "-268843088",
+    "-1412953287",
+    "1313950694",
+    "-2075553030",
+    "-216858761",
+    "-1158555607",
+    "-1979471155",
+    "1819917275",
+    "842998285",
+    "336313613",
+    "-1575570132",
+    "322694396",
+    "962507080",
+    "-1370012226",
+    "1285558749",
+    "-1290185876",
+    "1644772518",
+    "1103837526",
+    "-892005829",
+    "1058180275",
+    "79175430",
+    "997531284",
+    "1054220540",
+    "-825886293",
+    "-1125404371",
+    "561566003",
+    "520491901",
+    "-857060326",
+    "-366341704",
+    "1781969997",
+    "-357618418",
+    "-411966754",
+    "531205232",
+    "-641196454",
+    "819323316",
+    "-318081192",
+    "-841151565",
+    "759578178",
+    "-825294320",
+    "-311429940",
+    "-1763685988",
+    "1283654000",
+    "-267868887",
+    "1769198506",
+    "2110890261",
+    "-1924444917",
+    "-1151466014",
+    "-1605966636",
+    "-1108736781",
+    "-1291162586",
+    "-1467341102",
+    "2033414151",
+    "-934349107",
+    "-353729280",
+    "-1490325117",
+    "-1431404382",
+    "28416563",
+    "-781080096",
+    "1861230179",
+    "1316056558",
+    "-450507536",
+    "-1556426504",
+    "-1430574344",
+    "1148758476",
+    "-1603510655",
+    "-1738085645",
+    "71680801",
+    "-1338584050",
+    "-47702607",
+    "379111369",
+    "-1546307201",
+    "307041014",
+    "-1609239479",
+    "1310913824",
+    "-1485290970",
+    "-858812124",
+    "719209317",
+    "2033594891",
+    "461825017",
+    "-751022059",
+    "234652010",
+    "161994873",
+    "-535410488",
+    "-497531771",
+    "-54934025",
+    "-1853057527",
+    "2034235062",
+    "388397478",
+    "1783329775",
+    "1839078377",
+    "-1122537426",
+    "813412025",
+    "2029515665",
+    "1265256249",
+    "1280949745",
+    "214113598",
+    "2001473253",
+    "-1991215472",
+    "68088834",
+    "1561092151",
+    "-728592170",
+    "2064831547",
+    "1661275614",
+    "1590980251",
+    "1097966363",
+    "1146879901",
+    "-896358225",
+    "2053321106",
+    "-1363068895",
+    "-1392244594",
+    "411677437",
+    "126823123",
+    "-211653190",
+    "-429544809",
+    "1173275276",
+    "-419169022",
+    "-2082824428",
+    "-713467287",
+    "-660756696",
+    "-509777395",
+    "1032022323",
+    "-1857975227",
+    "-843621512",
+    "1923767325",
+    "2130634836",
+    "453334707",
+    "-1197397568",
+    "-1384675290",
+    "-1858468486",
+    "1126512288",
+    "-807177531",
+    "2140125137",
+    "-1815339330",
+    "-576842976",
+    "1768987910"
+  ],
+  "unrun_native_gates": [
+    "native economy",
+    "tent placement within influence",
+    "alliance ability selection and anti-switch filter",
+    "combat ability activation",
+    "all ages/save/load/multiplayer"
+  ]
+}

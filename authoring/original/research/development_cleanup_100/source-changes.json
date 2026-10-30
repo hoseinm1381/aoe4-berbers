@@ -1,0 +1,42 @@
+{
+  "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\STORAGE.md": {
+    "before": "48bc4fda436f198d6203b6e9f670cb76782b45cc7f5e3397431095e73ebfbce4",
+    "after": "ce6c4c32fe95b10036194fe8deb6e06def429f267f66c83854e1584527f71282",
+    "reason": "Approved source-bundle reader, restore safety regression fix, or rebuild/storage documentation"
+  },
+  "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\REBUILD_NEXT.md": {
+    "before": "b236aff45b1ff101d901dbc5c82cde945a7c0c14d491d34015438f9927afbc1c",
+    "after": "561d58240a08ed632fd774321db12fdf05c86fca800188c88c0891f098645fca",
+    "reason": "Approved source-bundle reader, restore safety regression fix, or rebuild/storage documentation"
+  },
+  "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\source_bundle.py": {
+    "before": "e5c0c017c065ec1aabf1346bc02ea156b6772efab97d52c46f428f218b0cd42d",
+    "after": "f69cf857c22a617bcf20ed6140a0928645667dfdaf0e76fb71131848cdedf104",
+    "reason": "Approved source-bundle reader, restore safety regression fix, or rebuild/storage documentation"
+  },
+  "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\test_source_bundle.py": {
+    "before": "192d24ae623a488ad35b428e83fe8d150c09868722f75e0f64955696cb235d77",
+    "after": "f2575921f9eaed27992fec6d1735bd475ef5eb02255f2878243caac04822241f",
+    "reason": "Approved source-bundle reader, restore safety regression fix, or rebuild/storage documentation"
+  },
+  "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\restore_cleanup_cache.py": {
+    "before": "0104f3f05a99e7094f7eaaa33c2138784d20d76e95a8445d1da7e8d288ddb6cd",
+    "after": "46d1a45fa899188816ce878f25229efeab484f94d99bd9ddbaf61c5622cff659",
+    "reason": "Approved source-bundle reader, restore safety regression fix, or rebuild/storage documentation"
+  },
+  "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\test_restore_cleanup_cache.py": {
+    "before": "35278203b37c3a13963eb968532050af3c7db2696d9dbbe99c545e5e172b7d19",
+    "after": "0054aa62bf4b608137ec99e329b730bc182ccb2466428943bb7f136f96c04c37",
+    "reason": "Approved source-bundle reader, restore safety regression fix, or rebuild/storage documentation"
+  },
+  "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\berber_040_integrate_cache.py": {
+    "before": "0121d9401791cff73f7885a79e1654cbc5f0a425817a8946b3a69de5836175ec",
+    "after": "9a6e5c32e47309430e88dd2388b28a2480f50619a8039c1cccea67a20127323a",
+    "reason": "Approved source-bundle reader, restore safety regression fix, or rebuild/storage documentation"
+  },
+  "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\asset_audit_100\\geometry_audit.py": {
+    "before": "b020e8618999cef2093ed9ca021061cb58dc3df6b8150aa4835ec60c5d09cff6",
+    "after": "9af49464c6d5b5c31fdd956b56fa83cde5a328a004d00ffa2b896792e59631d8",
+    "reason": "Approved source-bundle reader, restore safety regression fix, or rebuild/storage documentation"
+  }
+}

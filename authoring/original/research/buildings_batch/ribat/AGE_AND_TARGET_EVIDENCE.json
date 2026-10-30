@@ -1,0 +1,18 @@
+{
+  "construction_age": 1,
+  "completed_age": 2,
+  "ages": [
+    2,
+    3,
+    4
+  ],
+  "current_requirement": "feudal_age is_present=False; min_completed=1 XML:980-986",
+  "installed_requirement": "mal.xml:1918-1930 feudal_age is_present=false",
+  "builder": "unit_villager_1_mal.xml:682",
+  "installed_parent": "core building_wonder_age1",
+  "installed_and_live_footprint": [
+    6,
+    6
+  ],
+  "native_animator_scale": 100
+}

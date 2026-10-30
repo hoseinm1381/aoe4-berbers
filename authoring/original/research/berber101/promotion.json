@@ -1,0 +1,33 @@
+{
+  "source_root": "research/berber101",
+  "promoted": [
+    {
+      "file": "assets/scar/ai/berber_ai_military.scar",
+      "before": "d030c764bc8be86436db8f464fe0e0432369ba0cd2bff31b32b24c3d09ca2b1d",
+      "after": "40a436af4bcba8a9f810963b5d450a035930d26886d2ce973b28a9f3ebc74410",
+      "backup": "research\\berber101\\pre-promotion-source\\berber_ai_military.scar"
+    },
+    {
+      "file": "assets/scar/Units/saharan_trader.scar",
+      "before": "4780dbaef02ae221258964de1e8dd0716a6991cf21e055192d1b78d53ba425ea",
+      "after": "88696786f92b8dd0ad4649d046af9461b9397e18ba2512f7b4df98715210c7e0",
+      "backup": "research\\berber101\\pre-promotion-source\\saharan_trader.scar"
+    },
+    {
+      "file": "assets\\scar\\music\\berber_music.scar",
+      "after": "775c68b27b2ce7f54c0e38883685f4f6806355aa874c62d609e99c86a986e6e6",
+      "new_file": true
+    },
+    {
+      "file": "assets\\scar\\music\\berber_music_catalog.scar",
+      "after": "e6f3872e19deb9b493bf7da9c10e65afe735df366c8c49d79afbd83c87aff477",
+      "new_file": true
+    },
+    {
+      "file": "assets\\scar\\music\\berber_music_policy.scar",
+      "after": "e7a46dbab2573c498a1bb1a0bd4b34d1f5ab55725f4e2831b4faf6e4eecd15d0",
+      "new_file": true
+    }
+  ],
+  "editable_GM": "Intentionally preserved; packaged GM already imports music. Frozen package route remains authoritative."
+}

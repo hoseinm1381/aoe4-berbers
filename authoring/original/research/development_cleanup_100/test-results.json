@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "ai_tests": 144,
+  "music_tests": 31,
+  "restore_tests": 10,
+  "commands": [
+    {
+      "command": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "research/berber0110/tests",
+        "-q"
+      ],
+      "exit_code": 0,
+      "log": "post-check-0.log"
+    },
+    {
+      "command": [
+        "research/berber100/test_music.py"
+      ],
+      "exit_code": 0,
+      "log": "post-check-1.log"
+    },
+    {
+      "command": [
+        "research/berber100/test_audio.py"
+      ],
+      "exit_code": 0,
+      "log": "post-check-2.log"
+    },
+    {
+      "command": [
+        "research/test_source_bundle.py"
+      ],
+      "exit_code": 0,
+      "log": "post-check-3.log"
+    },
+    {
+      "command": [
+        "research/test_restore_cleanup_cache.py"
+      ],
+      "exit_code": 0,
+      "log": "post-check-4.log"
+    },
+    {
+      "command": [
+        "research/berber100/build.py",
+        "verify"
+      ],
+      "exit_code": 0,
+      "log": "post-check-5.log"
+    }
+  ],
+  "native_match": "not performed or implied by storage cleanup"
+}

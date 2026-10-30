@@ -1,0 +1,17 @@
+{
+  "key": "wall_bastion",
+  "minimum_age": 2,
+  "required_ages": [
+    2,
+    3,
+    4
+  ],
+  "reason": "automatically owned by installed Malian stone-wall spline; not separately buildable; empty standalone requirement table cannot imply age I",
+  "owner_build_command": "assets/attrib/instances/sbps/races/malian/berbers/unit_villager_1_mal.xml:1041",
+  "owner": "research/buildings_batch/wall/mal.xml:129-132 fence_cap_entity -> building_defense_wall_bastion_mal; 908-928 completed feudal_age requirement",
+  "standalone": "mal.xml:998-1002 empty requirement_table",
+  "native_cap_walk": "mal.xml:676 width4,705 height7",
+  "shared_interface": "research/buildings_batch/wall/WALL_INTERFACE.json walk_z7 clear_width3",
+  "native_categories": "mal.xml:233-353 default/end/corner/thru/tee/cross/why; 120deg why preserved",
+  "bounds_evidence": "donor_dimensions.json exact decoded group bounds; render bounds are not footprint"
+}

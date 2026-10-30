@@ -1,0 +1,6 @@
+{
+  "status": "not_available_from_render_model",
+  "reason": "Placement footprint, simboxes and boundary-cell policy belong to the gameplay EBP/attachment graph, not to RGO/RGM/RRGeometry.",
+  "required_source": "qualified gameplay EBP plus inheritance, attachment, stamp and simbox references",
+  "render_mesh_bounds_are_authoritative": false
+}

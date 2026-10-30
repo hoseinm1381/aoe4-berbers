@@ -1,0 +1,17 @@
+{
+  "minimum_age": 3,
+  "required_ages": [
+    3,
+    4
+  ],
+  "target": "ebps/races/malian/buildings/building_unit_religious_mal",
+  "live_builder": "assets/attrib/instances/sbps/races/malian/berbers/unit_villager_1_mal.xml:1479",
+  "installed_requirement": "mal.xml:1055-1075 completed castle_age; core.xml:922-942 same requirement",
+  "footprint": "core.xml:103-106 site_ext 8x8 forced axis aligned",
+  "origin": [
+    0,
+    0,
+    0
+  ],
+  "render_bounds_are_footprint": false
+}

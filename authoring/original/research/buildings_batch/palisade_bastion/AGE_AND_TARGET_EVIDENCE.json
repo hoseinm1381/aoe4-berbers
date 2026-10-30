@@ -1,0 +1,70 @@
+{
+  "key": "palisade_bastion",
+  "minimum_age": 1,
+  "required_ages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "automatic_cap": true,
+  "builder_command": "assets/attrib/instances/sbps/races/malian/berbers/unit_villager_1_mal.xml:337-349 palisade EBP, age_1 hotkey, empty additional requirements",
+  "caller": "caller_mal.xml:129-132 fence_cap_entity = building_defense_palisade_bastion_mal",
+  "official_target": "mal.xml:70 alternate_sua points to decoded English bastion; mal.xml:871-874 empty requirement_table/statetree; core.xml preserved as parent evidence",
+  "native_network": {
+    "cap_auto_complete": true,
+    "minimum_angle_degrees": 45,
+    "cap_connection_variants": [],
+    "cap_attachment_list": "empty PBG",
+    "source": "mal.xml:154,233-243,258"
+  },
+  "site_footprint_scale": [
+    1,
+    1
+  ],
+  "footprint_source": "mal.xml:93-96 site_ext; not render bounds",
+  "stock_all_partition_render_bounds": [
+    [
+      -0.4638671875,
+      -0.391357421875,
+      -2.431640625
+    ],
+    [
+      0.44970703125,
+      0.452880859375,
+      5.28515625
+    ]
+  ],
+  "stock_render_bounds_are_footprint": false,
+  "donor_healthy_partition_unqualified": true,
+  "source_top": 4.578125,
+  "source_width": 0.682861328125,
+  "datum_source": "adjoining palisade healthy mesh measured peer source; deliberately matches wall lower top instead of all-partition cap top5.28515625",
+  "connection_sockets": {
+    "terminal": [
+      0
+    ],
+    "straight": [
+      0,
+      180
+    ],
+    "corner_90": [
+      0,
+      90
+    ],
+    "junction_T": [
+      0,
+      90,
+      180
+    ],
+    "junction_cross": [
+      0,
+      90,
+      180,
+      270
+    ]
+  },
+  "socket_radius_m": 0.3414306640625,
+  "socket_plane": "local origin0, groundZ0, radial plane; peer logical end matches plane when rotated and translated",
+  "native_stamps": "No explicit cap stamp in target, cap_attachment_list empty. Caller segment attachment stamps com_palisade_1m_a/3m_a/6m_a see caller_segments.xml. Exact stamp/selector transforms pending."
+}

@@ -1,0 +1,28 @@
+{
+  "minimum_age": 1,
+  "ages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "live_builder_lines": [
+    443,
+    456
+  ],
+  "live_parent_line": 587,
+  "official_default_requirement": "dock_blocked=false usage flag only; no completed age upgrade",
+  "official_site_footprint": [
+    8,
+    8
+  ],
+  "placement_uses_simbox_scale": true,
+  "required_pass_cells": {
+    "infantry": 14,
+    "water_default": 7
+  },
+  "water_rally": true,
+  "minimum_spawn_clearance_search_range": 30,
+  "native_layout": "layout.xml default parent_animator layout_docks; raw RGO/RGM preserved",
+  "native_marker_transforms": "pending decoder; not inferred from render bounds"
+}

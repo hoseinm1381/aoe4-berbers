@@ -1,0 +1,21 @@
+{
+  "key": "palisade",
+  "minimum_age": 1,
+  "required_ages": [1, 2, 3, 4],
+  "builder_evidence": "assets/attrib/instances/sbps/races/malian/berbers/unit_villager_1_mal.xml:338; age_1 hotkey347",
+  "local_target_xml_exists": false,
+  "official_requirements": "mal.xml893-897 empty requirement_table and requirement_statetree; official core matches",
+  "official_segment_lengths_m": [1, 3, 6],
+  "official_gap_fill_lengths_m": [1, 2, 3, 4],
+  "official_gap_fill_rotation_degrees": 90,
+  "footprint": {"m": [3, 1], "source": "mal.xml93-96 site_ext", "render_bounds_used_as_footprint": false},
+  "donor": "Malian alternate_sua mal.xml70 English/common6m palisade",
+  "healthy_render_bounds": [[-3.14453125, -0.3642578125, -0.2447509765625], [3.134765625, 0.318603515625, 4.578125]],
+  "authored_width_m": 0.682861328125,
+  "authored_top_m": 4.578125,
+  "socket_contract": "Logical ±length/2 at local ground derive from official inventory length; native marker/stamp transforms remain pending",
+  "joinery_heights_m": [1.05, 2.85],
+  "joinery_heights_are_inference": true,
+  "slope_test_rise_m": 1,
+  "slope_test_is_not_native_limit": true
+}

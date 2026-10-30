@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "real_bundled_inputs": [
+    {
+      "kind": "decoded",
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\decoded-static.json",
+      "bytes": 39706,
+      "sha256": "32389978fbe05a33c268df88344701d57d97a1f308bc3bc48f2da62b14c23023",
+      "direct_read": "passed",
+      "actual_restore": "passed",
+      "idempotence": "passed",
+      "probe_removed": true
+    },
+    {
+      "kind": "projection",
+      "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_2_6\\windmill\\remix-projection.json",
+      "bytes": 2382830,
+      "sha256": "c4fb294ea9d21f2fd89289b2fe157eccd2cc3e99c4e5fc4ce82663080a1f162a",
+      "direct_read": "passed",
+      "actual_restore": "passed",
+      "idempotence": "passed",
+      "probe_removed": true
+    },
+    {
+      "kind": "duplicate_cache",
+      "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_7_1\\pilot2\\pilot\\readback\\attrib\\berber_future_kingdom.rgd",
+      "bytes": 186,
+      "sha256": "feea8cae515bc04aa440c341ddf44b3615219ac9920b70cbc25f9ba148ab73ec",
+      "direct_read": "passed",
+      "actual_restore": "passed",
+      "idempotence": "passed",
+      "probe_removed": true
+    }
+  ],
+  "legacy_restore_reads_archived_source": "passed",
+  "existing_user_edits": "preserved",
+  "temporary_probe_tree": "removed"
+}

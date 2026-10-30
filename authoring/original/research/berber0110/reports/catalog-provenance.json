@@ -1,0 +1,1795 @@
+{
+  "archives": [
+    {
+      "source": "official",
+      "path": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "sha256": "03b8e431c91920535fa65cdae340ee206f31bbdfbb1740feddb4a0430625a977"
+    },
+    {
+      "source": "baseline",
+      "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_10_1\\Berber_future_kingdom.sga",
+      "sha256": "648a2a0c94de851c6eff8d8a242c2131c6db5394d3a508c8182ed8260bc90718"
+    }
+  ],
+  "records": [
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/ebps/races/malian/buildings/building_econ_mining_camp_mal.rgd",
+      "rgd_sha256": "1c3230997a4c5d7edd18e8b13743f10f25d3a13e4581b9690fed7d96a18df882",
+      "requirement": true,
+      "upgrade_refs": [
+        "upgrade_econ_resource_gold_harvest_rate_2",
+        "upgrade_econ_resource_gold_harvest_rate_3",
+        "upgrade_econ_resource_gold_harvest_rate_4"
+      ],
+      "construction_refs": [
+        "",
+        "",
+        "construction_placement_valid",
+        "construction_placement_invalid",
+        "",
+        "",
+        "",
+        "water_default",
+        "infantry"
+      ],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/ebps/races/malian/buildings/building_econ_wood_mal.rgd",
+      "rgd_sha256": "22f09537e903de54537eae957de1771e6bb147043805847120260f447f53eee5",
+      "requirement": true,
+      "upgrade_refs": [
+        "upgrade_econ_resource_wood_harvest_rate_2",
+        "upgrade_econ_resource_wood_harvest_rate_3",
+        "upgrade_econ_resource_wood_harvest_rate_4",
+        "upgrade_econ_resource_wood_fell_rate_1"
+      ],
+      "construction_refs": [
+        "",
+        "",
+        "construction_placement_valid",
+        "construction_placement_invalid",
+        "",
+        "",
+        "",
+        "water_default",
+        "infantry"
+      ],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/ebps/races/malian/units/unit_archer_2_mal.rgd",
+      "rgd_sha256": "33274e7808e70f89e6a9f3159153f7bef47c658c12241f2125d925f9e8902c69",
+      "requirement": true,
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/ebps/races/malian/units/unit_ram_3_mal.rgd",
+      "rgd_sha256": "15a5da76d7ee5662b80365f39f2b740d2287f5ef589456da250c0011ef42a5d6",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "upgrade_siege_engineers",
+            "present": true
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [
+        "",
+        "",
+        "construction_placement_valid",
+        "construction_placement_invalid",
+        "",
+        "",
+        "unit_ram_3_mal",
+        "water_default",
+        "infantry"
+      ],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/sbps/races/malian/unit_archer_2_mal.rgd",
+      "rgd_sha256": "be34078bf53aba58b1d9f9f5510cd5a1e44ec11cc48abe3a7e11ec6decd2ca7f",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "feudal_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_archer_3_mal",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_archer_4_mal",
+            "present": false
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [
+        "siege_engineer",
+        "",
+        "",
+        "field_upgrades",
+        "",
+        "unit_ram_3_mal",
+        "ability_build_battering_ram",
+        "",
+        "",
+        "field_upgrades",
+        "",
+        "unit_siege_tower_3_mal",
+        "ability_build_siege_tower"
+      ],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/sbps/races/malian/unit_ram_3_mal.rgd",
+      "rgd_sha256": "64bd3f040987ab51d1b86c0025f9ed0985b6ae3be19fe27bcf29a178705be765",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "feudal_age",
+            "present": true
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/upgrade_melee_armor_i.rgd",
+      "rgd_sha256": "f9c46817beddfe74fd5b37494cb57070c3639ee061cd3e20c1aa93bd0828940e",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "feudal_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_armor_i",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_armor_i_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_armor_i_improved_mon",
+            "present": false
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/upgrade_melee_armor_ii.rgd",
+      "rgd_sha256": "dc5e5b71f1ef56b32fc70de66876c8db8c3fb95f4a12ea8836c4c7d31525da24",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "castle_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_melee_armor_i",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_melee_armor_i_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_armor_ii",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_armor_ii_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_armor_ii_improved_mon",
+            "present": false
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/upgrade_melee_armor_iii.rgd",
+      "rgd_sha256": "0651812e534def16b0222f8d3b4ae8cc6c5fa080b0166624d4303537a59d90f2",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "imperial_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_melee_armor_i",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_melee_armor_i_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_melee_armor_ii",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_melee_armor_ii_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_armor_iii",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_armor_iii_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_armor_iii_improved_mon",
+            "present": false
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/upgrade_melee_damage_i.rgd",
+      "rgd_sha256": "8ed0c3123043a55286ec31956a783588c346077d5c9da278a94fa3c90cd480b8",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "feudal_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_damage_i",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_damage_i_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_damage_i_improved_mon",
+            "present": false
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/upgrade_melee_damage_ii.rgd",
+      "rgd_sha256": "aa9656f767c8f70b04b630e797188f8fa62cc75950bb42a3a210c1fb0f618a41",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "castle_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_melee_damage_i",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_melee_damage_i_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_damage_ii",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_damage_ii_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_damage_ii_improved_mon",
+            "present": false
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/upgrade_melee_damage_iii.rgd",
+      "rgd_sha256": "b387ab863d8f0624a8cb1c1fc69c3d45ab3f1532d679a2869e4966710196f96b",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "imperial_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_melee_damage_i",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_melee_damage_i_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_melee_damage_ii",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_melee_damage_ii_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_damage_iii",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_damage_iii_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_melee_damage_iii_improved_mon",
+            "present": false
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/upgrade_ranged_armor_i.rgd",
+      "rgd_sha256": "fdd039ab640036ff829aba50dffccd4bab852e3525223cb9a2438201d8f58804",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "feudal_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_armor_i",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_armor_i_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_armor_i_improved_mon",
+            "present": false
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/upgrade_ranged_armor_ii.rgd",
+      "rgd_sha256": "a302eaca06328d4c9c08e885510ef8a7e686b74159db8d3bf50dbd6ab913a4b8",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "castle_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_ranged_armor_i",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_ranged_armor_i_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_armor_ii",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_armor_ii_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_armor_ii_improved_mon",
+            "present": false
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/upgrade_ranged_armor_iii.rgd",
+      "rgd_sha256": "813fc9616cb229f12be0e79ff3de0d0d501a5a471627f0f4a2af08d1909a0462",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "imperial_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_ranged_armor_i",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_ranged_armor_i_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_ranged_armor_ii",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_ranged_armor_ii_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_armor_iii",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_armor_iii_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_armor_iii_improved_mon",
+            "present": false
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/upgrade_ranged_damage_i.rgd",
+      "rgd_sha256": "b572a8b50a306bc1a8aced6f3078e3b7eb3b45094996ec990a6db161e2d1f20f",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "feudal_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_damage_i",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_damage_i_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_damage_i_improved_mon",
+            "present": false
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/upgrade_ranged_damage_ii.rgd",
+      "rgd_sha256": "b5bd41e3cbf4d20b8ac96c449f58ad4f847d2df7a84736cedc8f842bb06a6ea6",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "castle_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_ranged_damage_i",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_ranged_damage_i_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_damage_ii",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_damage_ii_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_damage_ii_improved_mon",
+            "present": false
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/upgrade_ranged_damage_iii.rgd",
+      "rgd_sha256": "8cd26d5a127526ef36c3b46fbd2473cac7837935e3d67f2958c5c321492376c7",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "imperial_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_ranged_damage_i",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_ranged_damage_i_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_ranged_damage_ii",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_ranged_damage_ii_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_damage_iii",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_damage_iii_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_ranged_damage_iii_improved_mon",
+            "present": false
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/upgrade_siege_engineers.rgd",
+      "rgd_sha256": "e4bc490a6de64113169bd037c63effdba17c9411ef45c1b823e680b3afb02cc5",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "feudal_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_siege_engineers",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_improved_siege_engineers_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_improved_siege_engineers_mon",
+            "present": false
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/economy/upgrade_econ_resource_food_harvest_rate_2.rgd",
+      "rgd_sha256": "485197d1304faaa70efd2881890202b030eabfa21c0e75acffedf10e72a298d6",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "feudal_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_food_harvest_rate_2",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_food_harvest_rate_2_byz",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_food_harvest_rate_2_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_food_harvest_rate_2_improved_mon",
+            "present": false
+          },
+          true
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/economy/upgrade_econ_resource_food_harvest_rate_3.rgd",
+      "rgd_sha256": "43be6a14c81473d1c92a6de2de8e152a628d9f5215872fcd0cfc88efe74745a3",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "castle_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_econ_resource_food_harvest_rate_2",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_econ_resource_food_harvest_rate_2_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_food_harvest_rate_3_byz",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_food_harvest_rate_3",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_food_harvest_rate_3_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_food_harvest_rate_3_improved_mon",
+            "present": false
+          },
+          true
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/economy/upgrade_econ_resource_food_harvest_rate_4.rgd",
+      "rgd_sha256": "f8ef475d85f19946fa90ff1f7e2fda5ced925e82efc5d43d04c1e545ee8ee6db",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "imperial_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_econ_resource_food_harvest_rate_3",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_econ_resource_food_harvest_rate_3_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_food_harvest_rate_4_byz",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_food_harvest_rate_4",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_food_harvest_rate_4_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_food_harvest_rate_4_improved_mon",
+            "present": false
+          },
+          true
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/economy/upgrade_econ_resource_gold_harvest_rate_2.rgd",
+      "rgd_sha256": "793c3c9396a49cf0af1daf6ddeb089f96f730ee59d655cb02955ca1fd1ea8429",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "feudal_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_gold_harvest_rate_2",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_gold_harvest_rate_2_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_gold_harvest_rate_2_improved_mon",
+            "present": false
+          },
+          true
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/economy/upgrade_econ_resource_gold_harvest_rate_3.rgd",
+      "rgd_sha256": "be2549349c704f4c5aeacc9fe39be4de1b08e20262c66da6df8242a1e337ff76",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "castle_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_econ_resource_gold_harvest_rate_2",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_econ_resource_gold_harvest_rate_2_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_gold_harvest_rate_3",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_gold_harvest_rate_3_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_gold_harvest_rate_3_improved_mon",
+            "present": false
+          },
+          true
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/economy/upgrade_econ_resource_gold_harvest_rate_4.rgd",
+      "rgd_sha256": "239df4169803c99011038c7daca2add6d8dad068c07959d651b5feaf6f81c62f",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "imperial_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_econ_resource_gold_harvest_rate_3",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_econ_resource_gold_harvest_rate_3_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_gold_harvest_rate_4",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_gold_harvest_rate_4_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_gold_harvest_rate_4_improved_mon",
+            "present": false
+          },
+          true
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/economy/upgrade_econ_resource_stone_harvest_rate_2.rgd",
+      "rgd_sha256": "aa0085b8bf5733abda0dd953ee527f5a30df2c3355f0446a3d862ab6dade41ae",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "feudal_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_stone_harvest_rate_2",
+            "present": false
+          },
+          true
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/economy/upgrade_econ_resource_stone_harvest_rate_3.rgd",
+      "rgd_sha256": "8b4645f5a41d9667cff963a4fcb00c0bdcd1fd85ebc959e6a288a556aa26a642",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "castle_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_stone_harvest_rate_2",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_stone_harvest_rate_3",
+            "present": false
+          },
+          true
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/economy/upgrade_econ_resource_stone_harvest_rate_4.rgd",
+      "rgd_sha256": "e5b102f9c4dff4e6b27b8139e7545689f2c87f5ce05a6b59ef6163b993679a1a",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "imperial_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_stone_harvest_rate_3",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_stone_harvest_rate_4",
+            "present": false
+          },
+          true
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/economy/upgrade_econ_resource_wood_fell_rate_1.rgd",
+      "rgd_sha256": "9c0898fac003ae5ca99af46a8ac3d06571d05cae9ca6f1e53680017f6fe44f43",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_wood_fell_rate_1",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_wood_fell_rate_1_improved_mon",
+            "present": false
+          },
+          true
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/economy/upgrade_econ_resource_wood_harvest_rate_2.rgd",
+      "rgd_sha256": "f124522e78dd9f3c5db96e4afd3c7b0f094d09f7291518e2836156e7aeef54fd",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "feudal_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_wood_harvest_rate_2",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_wood_harvest_rate_2_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_wood_harvest_rate_2_improved_mon",
+            "present": false
+          },
+          true
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/economy/upgrade_econ_resource_wood_harvest_rate_3.rgd",
+      "rgd_sha256": "dd7aa2bac93da223135a9ceaa027a4399d3436a691342c0cc2fd434ec8185bd2",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "castle_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_econ_resource_wood_harvest_rate_2",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_econ_resource_wood_harvest_rate_2_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_wood_harvest_rate_3",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_wood_harvest_rate_3_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_wood_harvest_rate_3_improved_mon",
+            "present": false
+          },
+          true
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/economy/upgrade_econ_resource_wood_harvest_rate_4.rgd",
+      "rgd_sha256": "7ac845a948163d224cefff7f79106eed493017fbe57fea97d3c60c2efe9ff878",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "imperial_age",
+            "present": true
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "upgrade",
+                "name": "upgrade_econ_resource_wood_harvest_rate_3",
+                "present": true
+              },
+              {
+                "op": "upgrade",
+                "name": "upgrade_econ_resource_wood_harvest_rate_3_improved_mon",
+                "present": true
+              }
+            ]
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_wood_harvest_rate_4",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_wood_harvest_rate_4_improved_mon",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_econ_resource_wood_harvest_rate_4_improved_mon",
+            "present": false
+          },
+          true
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/common/research/unit/upgrade_unit_town_center_wheelbarrow_1.rgd",
+      "rgd_sha256": "e07127e5237248f954f7a8826f36891946c94bd9293f445bd6c407f7cb9f44a4",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_town_center_wheelbarrow_1",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_town_center_wheelbarrow_byz",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_wheelbarrow_1_improved_mon",
+            "present": false
+          },
+          {
+            "op": "any",
+            "items": [
+              {
+                "op": "not",
+                "items": [
+                  {
+                    "op": "engine"
+                  }
+                ]
+              },
+              {
+                "op": "engine"
+              },
+              {
+                "op": "engine"
+              }
+            ]
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/malian/units/upgrade_unit_archer_3_mal.rgd",
+      "rgd_sha256": "111f01ebc2e10b47e84d0fcb1fb58ef60288849ba9c5d1773787d8a796177118",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "castle_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_archer_3_mal",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_archer_3_farimba_mal",
+            "present": false
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/malian/units/upgrade_unit_archer_4_mal.rgd",
+      "rgd_sha256": "eb80ff278ba0329110c7fa7983e40dcb8652109f1e935d32d251442597aef758",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "imperial_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_archer_3_mal",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_archer_4_mal",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_archer_4_farimba_mal",
+            "present": false
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/malian/units/upgrade_unit_horseman_3_mal.rgd",
+      "rgd_sha256": "a4b0927435955a191d18ec893680ab40021ab2d39d92bca3e07edc74b780d5be",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "castle_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_horseman_3_mal",
+            "present": false
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "official",
+      "archive": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\Attrib.sga",
+      "member": "attrib/upgrade/races/malian/units/upgrade_unit_horseman_4_mal.rgd",
+      "rgd_sha256": "7533e950a9569fc0229b7bb92a421b36f2599cef11144e9a1a4408b89bbfe37e",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "imperial_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_horseman_3_mal",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_horseman_4_mal",
+            "present": false
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "baseline",
+      "archive": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_10_1\\Berber_future_kingdom.sga",
+      "member": "attrib/ebps/races/malian/buildings/building_econ_mining_camp_mal.rgd",
+      "rgd_sha256": "dd6a6afb3cf0e0567219cf736a13df5c09d4d3c8708815f89e8058dcfb17864b",
+      "requirement": true,
+      "upgrade_refs": [
+        "upgrade_econ_resource_gold_harvest_rate_2",
+        "upgrade_econ_resource_gold_harvest_rate_3",
+        "upgrade_econ_resource_gold_harvest_rate_4"
+      ],
+      "construction_refs": [
+        "",
+        "",
+        "construction_placement_valid",
+        "construction_placement_invalid",
+        "",
+        "",
+        "",
+        "water_default",
+        "infantry"
+      ],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "baseline",
+      "archive": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_10_1\\Berber_future_kingdom.sga",
+      "member": "attrib/ebps/races/malian/buildings/building_econ_wood_mal.rgd",
+      "rgd_sha256": "d1ddae33a61e1922890f88e7d13278aa33d098319b83ba26b4514e18ebcd9038",
+      "requirement": true,
+      "upgrade_refs": [
+        "upgrade_econ_resource_wood_harvest_rate_2",
+        "upgrade_econ_resource_wood_harvest_rate_3",
+        "upgrade_econ_resource_wood_harvest_rate_4",
+        "upgrade_econ_resource_wood_fell_rate_1"
+      ],
+      "construction_refs": [
+        "",
+        "",
+        "construction_placement_valid",
+        "construction_placement_invalid",
+        "",
+        "",
+        "",
+        "water_default",
+        "infantry"
+      ],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "baseline",
+      "archive": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_10_1\\Berber_future_kingdom.sga",
+      "member": "attrib/ebps/races/malian/units/unit_archer_2_mal.rgd",
+      "rgd_sha256": "48d06e6a2df272189f993251dbd8d588e8faa28146891d9b1ecaa79b18fed6a3",
+      "requirement": true,
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "baseline",
+      "archive": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_10_1\\Berber_future_kingdom.sga",
+      "member": "attrib/ebps/races/malian/units/unit_ram_3_mal.rgd",
+      "rgd_sha256": "885e226ad20e01703b56b6fe0524582f4a9418d0dd313dd72c7f49061399d7af",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "upgrade_siege_engineers",
+            "present": true
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [
+        "",
+        "",
+        "construction_placement_valid",
+        "construction_placement_invalid",
+        "",
+        "",
+        "unit_ram_3_mal",
+        "water_default",
+        "infantry"
+      ],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "baseline",
+      "archive": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_10_1\\Berber_future_kingdom.sga",
+      "member": "attrib/sbps/races/malian/unit_archer_2_mal.rgd",
+      "rgd_sha256": "72e3522c14044500865d1bdd4525d6f77929c678a52b773ee27883d323389e6f",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "feudal_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_archer_3_mal",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_archer_4_mal",
+            "present": false
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [
+        "siege_engineer",
+        "",
+        "",
+        "field_upgrades",
+        "",
+        "unit_ram_3_mal",
+        "ability_build_battering_ram",
+        "",
+        "",
+        "field_upgrades",
+        "",
+        "unit_siege_tower_3_mal",
+        "ability_build_siege_tower"
+      ],
+      "spawner_refs": []
+    },
+    {
+      "source": "baseline",
+      "archive": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_10_1\\Berber_future_kingdom.sga",
+      "member": "attrib/sbps/races/malian/unit_ram_3_mal.rgd",
+      "rgd_sha256": "19566a637805cbf37083e03acc8e83d2fcc54f05f0648c3e61282aa1d978bf12",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "feudal_age",
+            "present": true
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "baseline",
+      "archive": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_10_1\\Berber_future_kingdom.sga",
+      "member": "attrib/upgrade/races/malian/units/upgrade_unit_archer_3_mal.rgd",
+      "rgd_sha256": "891df1b47d96f9f6098cc8f9f92869b8ab7cc59ad9b3bb56787e24faf667a058",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "castle_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_archer_3_mal",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_archer_3_farimba_mal",
+            "present": false
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "baseline",
+      "archive": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_10_1\\Berber_future_kingdom.sga",
+      "member": "attrib/upgrade/races/malian/units/upgrade_unit_archer_4_mal.rgd",
+      "rgd_sha256": "834335d6f6596e7580476974332394a6eb01552375176ff60b6e3aab1f0a080f",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "imperial_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_archer_3_mal",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_archer_4_mal",
+            "present": false
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_archer_4_farimba_mal",
+            "present": false
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "baseline",
+      "archive": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_10_1\\Berber_future_kingdom.sga",
+      "member": "attrib/upgrade/races/malian/units/upgrade_unit_horseman_3_mal.rgd",
+      "rgd_sha256": "17ec28b85ee6144621f87dc8af337da9106c90cad44810624f0dc6ab081203ed",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "castle_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_horseman_3_mal",
+            "present": false
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    },
+    {
+      "source": "baseline",
+      "archive": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_10_1\\Berber_future_kingdom.sga",
+      "member": "attrib/upgrade/races/malian/units/upgrade_unit_horseman_4_mal.rgd",
+      "rgd_sha256": "686de3f35efaddffa0bfe1d76fa9ef591b9276ee137e3cf89541db9ccbc6529c",
+      "requirement": {
+        "op": "all",
+        "items": [
+          {
+            "op": "upgrade",
+            "name": "imperial_age",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_horseman_3_mal",
+            "present": true
+          },
+          {
+            "op": "upgrade",
+            "name": "upgrade_unit_horseman_4_mal",
+            "present": false
+          }
+        ]
+      },
+      "upgrade_refs": [],
+      "construction_refs": [],
+      "builder_refs": [],
+      "spawner_refs": []
+    }
+  ]
+}

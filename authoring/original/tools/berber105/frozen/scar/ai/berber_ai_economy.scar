@@ -1,0 +1,580 @@
+-- Approved 0.11.0 economy. Simulation state only; native commands pay native costs.
+local FEUDAL="building_landmark_age1_landmarkb_mal"
+local CASTLE="building_landmark_age2_landmarkc_control_mal"
+local IMPERIAL_KEEP="building_landmark_age3_landmarkf_mal"
+local IMPERIAL_FEZ="building_landmark_age3_landmarke_mal"
+local function init(st)
+    st.worker_role=st.worker_role or {};st.worker_jobs=st.worker_jobs or {}
+    st.gather_targets=st.gather_targets or {};st.reserved=st.reserved or {}
+    st.build_pending=st.build_pending or {};st.construction_jobs=st.construction_jobs or {}
+    st.economy=st.economy or {cycle=0};st.economy.cycle=st.economy.cycle or 0
+    st.resource_counts=st.resource_counts or {};st.age_projects=st.age_projects or {}
+    st.temporary_miners=st.temporary_miners or {};st.second_tc_workers=st.second_tc_workers or {}
+    st.farm_clusters=st.farm_clusters or {};st.next_expansion=st.next_expansion or 600
+end
+local function cost(st,name) return BerberAI.Cost(st,"entity",BP_GetEntityBlueprint(name)) end
+local function affordable(st,c)
+    for _,k in ipairs(BerberAI.Resources) do if (st.budget[k] or 0)<(c[k] or 0) then return false end end
+    return true
+end
+local function combined(a,b)
+    local c={};for _,k in ipairs(BerberAI.Resources) do c[k]=(a[k] or 0)+(b[k] or 0) end;return c
+end
+local function alive_workers(st)
+    local result={};for _,s in ipairs(st.squads) do if s.role=="villager" then table.insert(result,s) end end
+    table.sort(result,function(a,b) return a.id<b.id end);return result
+end
+local function count_roles(st)
+    local counts={food=0,wood=0,gold=0,stone=0}
+    for _,s in ipairs(alive_workers(st)) do
+        local role=st.worker_role[s.id];if role then counts[role]=(counts[role] or 0)+1 end
+    end
+    return counts
+end
+local function next_role(st,c)
+    if c.food<6 then return "food" end
+    if c.gold<3 then return "gold" end
+    if c.food<9 then return "food" end
+    if c.wood<8 then return "wood" end
+    if c.gold<5 then return "gold" end
+    if c.food<14 then return "food" end
+    local cycle={"food","food","wood","wood","gold"}
+    local key=cycle[(st.economy.cycle%5)+1];st.economy.cycle=st.economy.cycle+1;return key
+end
+local function assign_roles(st)
+    local counts=count_roles(st);local live={}
+    for _,s in ipairs(alive_workers(st)) do
+        live[s.id]=true
+        if not st.worker_role[s.id] then
+            local key=next_role(st,counts);st.worker_role[s.id]=key;counts[key]=counts[key]+1
+        end
+    end
+    for id in pairs(st.worker_role) do
+        if not live[id] then st.worker_role[id]=nil;st.gather_targets[id]=nil;st.temporary_miners[id]=nil end
+    end
+end
+local function food_rank(name)
+    if string.find(name,"sheep",1,true) then return 1 end
+    if string.find(name,"deer",1,true) or string.find(name,"gazelle",1,true) then return 2 end
+    if string.find(name,"berry",1,true) or string.find(name,"berries",1,true) then return 3 end
+    if string.find(name,"farm",1,true) then return 4 end
+    return 3 -- Other edible huntables follow the explicitly preferred deer.
+end
+function BerberAI.FindDeposit(st,key,pos)
+    init(st);local available={}
+    for _,item in ipairs(BerberAI_State.world_entities or {}) do
+        local e=type(item)=="table" and item.entity or nil;e=e or item
+        if BerberAI.DepositValid(e) and (Entity_GetResource(e,st.rt[key]) or 0)>0
+            and (World_OwnsEntity(e) or Entity_GetPlayerOwner(e)==st.player) then
+            local p=Entity_GetPosition(e)
+            if BerberAI.SafePoint(st,p,0) then
+                local name=BerberAI.Name(Entity_GetBlueprint(e));local rank=key=="food" and food_rank(name) or 1
+                table.insert(available,{entity=e,id=Entity_GetID(e),pos=p,name=name,farm=rank==4,
+                    sheep=key=="food" and rank==1,rank=rank,distance=BerberAI.Distance(pos,p)})
+            end
+        end
+    end
+    table.sort(available,function(a,b)
+        if a.rank~=b.rank then return a.rank<b.rank end
+        if a.distance~=b.distance then return a.distance<b.distance end
+        return a.id<b.id
+    end)
+    return available[1] and available[1].entity or nil,available
+end
+function BerberAI.HasDropoff(st,name,pos)
+    local B=BerberAI.Building
+    for _,b in ipairs(st.buildings) do
+        if b.complete and (b.name==name or b.name==B.tc or b.name==B.expansion)
+            and BerberAI.Distance(b.pos,pos)<24*24 then return true end
+    end
+    -- A pending drop-off avoids duplicate requests; completed validity is rechecked next tick.
+    for _,b in ipairs(st.build_pending or {}) do
+        if b.name==name and BerberAI.Distance(b.pos,pos)<24*24 then return true end
+    end
+    for _,b in ipairs(st.buildings) do
+        if not b.complete and b.name==name and BerberAI.Distance(b.pos,pos)<24*24 then return true end
+    end
+    return false
+end
+function BerberAI.Gather(st)
+    init(st);assign_roles(st)
+    st.deposits={};st.deposit_positions={};st.deposit_choices={};st.resource_counts={food=0,wood=0,gold=0,stone=0}
+    for _,key in ipairs(BerberAI.Resources) do
+        local e,choices=BerberAI.FindDeposit(st,key,st.home)
+        st.deposits[key]=e;st.deposit_choices[key]=choices
+        st.deposit_positions[key]=choices[1] and choices[1].pos or nil
+    end
+    local food=st.deposit_choices.food;st.natural_food=false
+    for _,d in ipairs(food) do if not d.farm then st.natural_food=true end end
+    st.food_missing=#food==0;st.farm_funding=false;st.worksites={}
+    local occupied={};local farms={}
+    for _,s in ipairs(alive_workers(st)) do
+        local old=st.gather_targets[s.id]
+        if old and old.farm then farms[old.id]=s.id end
+    end
+    local farmcost=cost(st,BerberAI.Building.farm)
+    for _,s in ipairs(alive_workers(st)) do
+        if not st.reserved[s.id] and not Squad_IsInHoldEntity(s.squad) then
+            local key=st.worker_role[s.id];local selected=nil
+            local choices=st.deposit_choices[key] or {}
+            for _,d in ipairs(choices) do
+                if not d.farm or ((not occupied[d.id]) and (not farms[d.id] or farms[d.id]==s.id)) then selected=d;break end
+            end
+            -- Workers waiting for their own farms fund them from wood; retain their food role.
+            if key=="food" and not selected and not st.natural_food then
+                st.farm_funding=true;key="wood";selected=st.deposit_choices.wood[1]
+            end
+            if selected then
+                st.resource_counts[key]=(st.resource_counts[key] or 0)+1
+                occupied[selected.id]=(occupied[selected.id] or 0)+1
+                local previous=st.gather_targets[s.id]
+                if not previous or previous.id~=selected.id or previous.key~=key or Squad_IsIdle(s.squad)
+                    or (st.now-(previous.time or -30)>=30 and not Squad_IsGatheringResourceType(s.squad,st.rt[key])) then
+                    BerberAI.Target(st,{s.squad},SCMD_Gather,selected.entity,false)
+                    st.gather_targets[s.id]={id=selected.id,key=key,farm=selected.farm,time=st.now}
+                end
+                local site=st.worksites[selected.id]
+                if not site then site={id=selected.id,pos=selected.pos,key=key,sheep=selected.sheep,workers=0};st.worksites[selected.id]=site end
+                site.workers=site.workers+1
+            end
+        end
+    end
+    st.farm_cost=farmcost
+end
+-- Engine tracks exact job IDs and previous roles. Reuse assigned builders rather than stealing fresh ones each tick.
+local function explicitly_allowed(ids,id)
+    if ids==nil or ids[id]==true then return true end
+    for _,candidate in ipairs(ids) do if candidate==id then return true end end
+    return false
+end
+local function replenish_crew(st,b,job,issue)
+    local missing=job.required_workers-#job.workers
+    if missing<=0 then return end
+    local options=job.options or {};local safe_ids={};local original_ids={}
+    for _,s in ipairs(st.squads) do
+        if BerberAI.SquadValid(s.squad) and not (st.sheltered or {})[s.id]
+            and not Squad_IsInHoldEntity(s.squad) and not st.reserved[s.id] and not st.worker_jobs[s.id] then
+            table.insert(safe_ids,s.id)
+            if explicitly_allowed(options.ids,s.id) then table.insert(original_ids,s.id) end
+        end
+    end
+    local function recruit(ids)
+        local squads,chosen=BerberAI.Workers(st,b.pos,missing,{resource=options.resource,role=options.role,ids=ids})
+        for i,id in ipairs(chosen) do
+            table.insert(job.workers,id);job.previous_roles[id]=st.worker_role[id]
+            st.worker_jobs[id]=b.id;st.reserved[id]=true;table.insert(issue,squads[i])
+        end
+        missing=job.required_workers-#job.workers
+    end
+    recruit(original_ids)
+    -- Explicit IDs describe the original builders, not a permanent ban on replacing a dead crew.
+    if missing>0 and options.ids then recruit(safe_ids) end
+end
+function BerberAI.MaintainConstruction(st)
+    init(st);local byid={};local visited={}
+    for _,s in ipairs(st.squads) do if BerberAI.SquadValid(s.squad) then byid[s.id]=s end end
+    for _,b in ipairs(st.construction_entities or st.buildings) do
+        local job=st.construction_jobs[b.id]
+        if not b.complete and not visited[b.id] and BerberAI.EntityValid(b.entity) then
+            visited[b.id]=true
+            local issue={}
+            if not job then
+                -- Existing foundations on restore without a recorded job receive a bounded repair crew.
+                job={name=b.name,pos=b.pos,workers={},required_workers=2,previous_roles={},options={}}
+                st.construction_jobs[b.id]=job
+            end
+            job.workers=job.workers or {};job.previous_roles=job.previous_roles or {}
+            job.required_workers=job.required_workers or #job.workers;job.entity_id=job.entity_id or b.id
+            local crew={}
+            for _,id in ipairs(job.workers) do
+                local s=byid[id];local owner=st.worker_jobs[id]
+                if s and (owner==nil or owner==b.id or owner==job.id) then
+                    table.insert(crew,id);st.worker_jobs[id]=b.id;st.reserved[id]=true
+                    if not Squad_IsInHoldEntity(s.squad) and not (st.sheltered or {})[id] and Squad_IsIdle(s.squad) then
+                        table.insert(issue,s.squad)
+                    end
+                else
+                    if owner==b.id or owner==job.id then st.worker_jobs[id]=nil end
+                    job.previous_roles[id]=nil
+                end
+            end
+            job.workers=crew
+            replenish_crew(st,b,job,issue)
+            BerberAI.Target(st,issue,SCMD_BuildStructure,b.entity,false)
+        end
+    end
+    local project=st.age_projects[1]
+    if project and not st.economy.feudal_builder_selected then
+        for _,b in ipairs(st.buildings) do if b.name==FEUDAL and b.complete then
+            st.economy.feudal_builder_selected=true
+            local ids=project.workers or {};st.opening_market_builder=ids[#ids];break
+        end end
+    end
+end
+local function available_ids(st,key,n)
+    local _,ids=BerberAI.Workers(st,st.home,n,{resource=key});return ids
+end
+local function nearest_role(st,pos,n)
+    local best=nil;local distance=nil
+    for _,key in ipairs({"food","wood","gold","stone"}) do
+        local workers,ids=BerberAI.Workers(st,pos,n,{resource=key})
+        if #workers>=n then
+            local d=0
+            for _,s in ipairs(st.squads) do for _,id in ipairs(ids) do if id==s.id then d=d+BerberAI.Distance(s.pos,pos) end end end
+            if not distance or d<distance then best=key;distance=d end
+        end
+    end
+    return best
+end
+function BerberAI.AgeUp(st)
+    init(st);st.saving_age=false;st.age_cost=nil
+    if st.age>=4 then return end
+    local names={FEUDAL,CASTLE,(st.live.trader or 0)>=15 and IMPERIAL_KEEP or IMPERIAL_FEZ}
+    local alternatives={{FEUDAL,"building_landmark_age1_landmarka_mal"},{CASTLE,"building_landmark_age2_landmarkd_control_mal"},{IMPERIAL_KEEP,IMPERIAL_FEZ}}
+    for _,name in ipairs(alternatives[st.age]) do if BerberAI.CountBuilding(st,name,false)>0 then return end end
+    local due=st.age==1 or (st.age==2 and st.now>=(st.castle_time or 840)) or (st.age==3 and st.now>=1260)
+    if not due then return end
+    st.saving_age=st.age>=2
+    local name=names[st.age];local anchor=st.home;local n=3;local role="food"
+    if st.age==2 then
+        n=8;role="wood";anchor=st.deposit_positions and st.deposit_positions.wood or st.home
+    elseif st.age==3 then
+        n=20
+        local enemy=st.enemy_home or BerberAI.Pos(st.home,100,0)
+        local dx,dz=enemy.x-st.home.x,enemy.z-st.home.z;local length=math.sqrt(dx*dx+dz*dz)
+        if length==0 then dx=1;dz=0;length=1 end
+        local sign=name==IMPERIAL_KEEP and 1 or -1
+        anchor=BerberAI.Pos(st.home,sign*dx/length*36,sign*dz/length*36)
+        role=nearest_role(st,anchor,n)
+    end
+    st.age_cost=cost(st,name)
+    if st.age==1 and count_roles(st).food<9 then return end
+    if not affordable(st,st.age_cost) or not role or #available_ids(st,role,n)<n then return end
+    local ok,job=BerberAI.Construct(st,name,anchor,n,false,st.age==1 and 16 or 24,{resource=role,return_jobs=true})
+    if ok then st.age_projects[st.age]=job or {name=name,workers={}};st.saving_age=false;st.age_cost=nil end
+end
+local function housing_and_workers(st)
+    local B=BerberAI.Building
+    local cap=Player_GetCurrentPopulationCap(st.player,CT_Personnel)
+    if cap<Player_GetMaxPopulationCap(st.player,CT_Personnel) and cap-Player_GetCurrentPopulation(st.player,CT_Personnel)<=2
+        and BerberAI.CountBuilding(st,B.house,false)==BerberAI.CountBuilding(st,B.house,true) then
+        local anchor=st.deposit_positions and st.deposit_positions.gold or st.home
+        BerberAI.Construct(st,B.house,anchor,1,true,16,{resource="gold",return_jobs=true})
+    end
+    -- One request per available TC; Train enforces exact producer queues and shared population budget.
+    for _,b in ipairs(st.buildings) do
+        if b.complete and (b.name==B.tc or b.name==B.expansion or b.name==FEUDAL)
+            and (st.counts.villager or 0)<st.config.workers then
+            BerberAI.Train(st,"villager",{building_id=b.id})
+        end
+    end
+end
+local function opening_dropoffs(st)
+    local B=BerberAI.Building;local econ=st.economy
+    local gold=st.deposit_positions and st.deposit_positions.gold
+    local wood=st.deposit_positions and st.deposit_positions.wood
+    if not econ.first_miner then
+        for _,s in ipairs(alive_workers(st)) do if st.worker_role[s.id]=="gold" then econ.first_miner=s.id;break end end
+    end
+    if not econ.first_woodcutter then
+        for _,s in ipairs(alive_workers(st)) do if st.worker_role[s.id]=="wood" then econ.first_woodcutter=s.id;break end end
+    end
+    if econ.first_miner and gold then
+        if BerberAI.CountBuilding(st,B.mine,false)==0 then
+            BerberAI.Construct(st,B.mine,gold,1,true,12,{resource="gold",ids={econ.first_miner},return_jobs=true})
+        elseif BerberAI.CountBuilding(st,B.mine,true)>0 and not econ.opening_house_done then
+            if BerberAI.CountBuilding(st,B.house,false)>0 then econ.opening_house_done=true
+            elseif BerberAI.Construct(st,B.house,gold,1,true,12,{resource="gold",ids={econ.first_miner},return_jobs=true}) then econ.opening_house_done=true end
+        end
+    end
+    if econ.first_woodcutter and wood and BerberAI.CountBuilding(st,B.lumber,false)==0 then
+        BerberAI.Construct(st,B.lumber,wood,1,true,12,{resource="wood",ids={econ.first_woodcutter},return_jobs=true})
+    end
+end
+local function dropoffs(st)
+    local B=BerberAI.Building
+    for _,key in ipairs({"food","wood","gold","stone"}) do
+        local p=st.deposit_positions and st.deposit_positions[key]
+        local choices=st.deposit_choices and st.deposit_choices[key] or {}
+        local name=key=="food" and B.mill or (key=="wood" and B.lumber or B.mine)
+        local employed=(st.resource_counts[key] or 0)>0
+        if p and employed and not (key=="food" and choices[1] and choices[1].sheep)
+            and not BerberAI.HasDropoff(st,name,p) then
+            BerberAI.Construct(st,name,p,1,true,12,{resource=key,return_jobs=true})
+        end
+    end
+end
+local function protected(st,p)
+    local B=BerberAI.Building
+    for _,b in ipairs(st.buildings) do
+        if b.complete and (b.name==B.tc or b.name==B.expansion) and BerberAI.Distance(b.pos,p)<=24*24 then return true end
+        if b.name==B.outpost and BerberAI.Distance(b.pos,p)<=24*24 then return true end
+    end
+    for _,b in ipairs(st.build_pending) do if b.name==B.outpost and BerberAI.Distance(b.pos,p)<=24*24 then return true end end
+    return false
+end
+local function towers(st)
+    local knights=st.enemy_knights==true or (type(st.enemy_knights)=="number" and st.enemy_knights>0)
+    if (st.budget.wood or 0)<(knights and 150 or 200) then return end
+    local sites={};for _,site in pairs(st.worksites or {}) do table.insert(sites,site) end
+    table.sort(sites,function(a,b) return a.id<b.id end)
+    for _,site in ipairs(sites) do
+        if not site.sheep and site.workers>=5 and not protected(st,site.pos) then
+            if BerberAI.Construct(st,BerberAI.Building.outpost,site.pos,1,true,12,{resource=site.key,return_jobs=true}) then return end
+        end
+    end
+end
+local function restore_miners(st)
+    for id,key in pairs(st.temporary_miners) do
+        st.worker_role[id]=key
+        -- A miner may build its mining camp. Completion must not resurrect the expired temporary role.
+        for _,job in pairs(st.construction_jobs) do
+            if job.previous_roles and job.previous_roles[id]=="stone" then job.previous_roles[id]=key end
+        end
+        for _,job in ipairs(st.build_pending) do
+            if job.previous_roles and job.previous_roles[id]=="stone" then job.previous_roles[id]=key end
+        end
+    end
+    st.temporary_miners={};st.mining_target=nil
+end
+local function food_gold_workers(st,n,preferred)
+    local workers=alive_workers(st);local eligible={};local ordered={};local used={}
+    for _,s in ipairs(workers) do
+        local role=st.temporary_miners[s.id] or st.worker_role[s.id]
+        if not st.reserved[s.id] and not Squad_IsInHoldEntity(s.squad) and (role=="food" or role=="gold") then eligible[s.id]=role end
+    end
+    for _,id in ipairs(preferred or {}) do if eligible[id] and not used[id] then table.insert(ordered,id);used[id]=true end end
+    for _,s in ipairs(workers) do if eligible[s.id] and not used[s.id] then table.insert(ordered,s.id);used[s.id]=true end end
+    local selected={};local picked={};local counts={food=0,gold=0}
+    local quotas={food=math.floor(n/2),gold=n-math.floor(n/2)}
+    for _,id in ipairs(ordered) do
+        local role=eligible[id]
+        if counts[role]<quotas[role] then table.insert(selected,id);picked[id]=true;counts[role]=counts[role]+1 end
+    end
+    -- Only an actual shortage of one cohort permits substituting the other cohort.
+    for _,id in ipairs(ordered) do if #selected<n and not picked[id] then table.insert(selected,id);picked[id]=true end end
+    return selected
+end
+local function mine_stone(st,amount,n)
+    local preferred={}
+    for _,s in ipairs(alive_workers(st)) do if st.temporary_miners[s.id] then table.insert(preferred,s.id) end end
+    local selected=food_gold_workers(st,n,preferred)
+    restore_miners(st);st.mining_target=amount
+    for _,id in ipairs(selected) do st.temporary_miners[id]=st.worker_role[id];st.worker_role[id]="stone" end
+    return selected
+end
+local function second_tc(st)
+    local B=BerberAI.Building
+    if not st.second_tc_decided and st.now>=630 then
+        st.second_tc_decided=true;st.second_tc_needed=(st.live.trader or 0)<10
+    end
+    if not st.second_tc_needed then return end
+    if BerberAI.CountBuilding(st,B.tc,false)+BerberAI.CountBuilding(st,B.expansion,false)>=2 then
+        st.second_tc_needed=false;restore_miners(st);return
+    end
+    local c=cost(st,B.expansion)
+    if (st.budget.stone or 0)<(c.stone or 0) then
+        st.second_tc_workers=mine_stone(st,c.stone or 0,8);return
+    end
+    local ids=food_gold_workers(st,8,st.second_tc_workers)
+    restore_miners(st);st.second_tc_workers=ids
+    local _,gold=BerberAI.FindDeposit(st,"gold",st.home);local anchor=nil
+    for _,d in ipairs(gold) do if Entity_GetResource(d.entity,st.rt.gold)>2400 then anchor=d.pos;break end end
+    if not anchor then local _,wood=BerberAI.FindDeposit(st,"wood",st.home);anchor=wood[1] and wood[1].pos end
+    if #ids>=8 and anchor and affordable(st,c) then
+        if BerberAI.Construct(st,B.expansion,anchor,8,true,24,{ids=ids,return_jobs=true}) then st.second_tc_needed=false end
+    end
+end
+local function farms(st)
+    if st.natural_food then return false end
+    local B=BerberAI.Building;local desired=count_roles(st).food;local have=BerberAI.CountBuilding(st,B.farm,false)
+    if have>=desired then return false end
+    st.farm_funding=true
+    local tcslots=0;local anchor=nil
+    for _,b in ipairs(st.buildings) do if b.complete and (b.name==B.tc or b.name==B.expansion) then
+        local localfarms=0
+        for _,f in ipairs(st.buildings) do if f.name==B.farm and BerberAI.Distance(b.pos,f.pos)<=16*16 then localfarms=localfarms+1 end end
+        for _,f in ipairs(st.build_pending) do if f.name==B.farm and BerberAI.Distance(b.pos,f.pos)<=16*16 then localfarms=localfarms+1 end end
+        tcslots=tcslots+8;if localfarms<8 and not anchor then anchor=b.pos end
+    end end
+    if not anchor and have>=tcslots then
+        for _,c in ipairs(st.farm_clusters) do
+            c.count=0
+            for _,f in ipairs(st.buildings) do if f.name==B.farm and BerberAI.Distance(c.pos,f.pos)<=16*16 then c.count=c.count+1 end end
+            for _,f in ipairs(st.build_pending) do if f.name==B.farm and BerberAI.Distance(c.pos,f.pos)<=16*16 then c.count=c.count+1 end end
+        end
+        local cluster=nil
+        for _,c in ipairs(st.farm_clusters) do if (c.count or 0)<8 then cluster=c;break end end
+        if not cluster then
+            -- Complete eight farms per new mill before creating the next cluster.
+            local p=BerberAI.Pos(st.home,36+(#st.farm_clusters%4)*36,36+math.floor(#st.farm_clusters/4)*36)
+            local ok,job=BerberAI.Construct(st,B.mill,p,1,true,12,{resource="food",return_jobs=true})
+            if ok then table.insert(st.farm_clusters,{pos=job and job.pos or p,count=0}) end
+            return true
+        end
+        anchor=cluster.pos
+        local millready=false
+        for _,b in ipairs(st.buildings) do if b.complete and b.name==B.mill and BerberAI.Distance(b.pos,anchor)<=16*16 then millready=true;break end end
+        if not millready then
+            local pending=false
+            for _,b in ipairs(st.build_pending) do if b.name==B.mill and BerberAI.Distance(b.pos,anchor)<=16*16 then pending=true end end
+            for _,b in ipairs(st.buildings) do if b.name==B.mill and BerberAI.Distance(b.pos,anchor)<=16*16 then pending=true end end
+            if not pending then BerberAI.Construct(st,B.mill,anchor,1,true,12,{resource="food",return_jobs=true}) end
+            return true
+        end
+        local ok=BerberAI.Construct(st,B.farm,anchor,1,true,16,{resource="food",return_jobs=true})
+        if ok then cluster.count=cluster.count+1 end
+        return true
+    end
+    if anchor then BerberAI.Construct(st,B.farm,anchor,1,true,16,{resource="food",return_jobs=true}) end
+    return true
+end
+local function influence(st)
+    local result={};for _,b in ipairs(st.buildings) do
+        if b.complete and (b.name==BerberAI.Building.tent or b.name==FEUDAL) then table.insert(result,b) end
+    end
+    table.sort(result,function(a,b) return a.id<b.id end);return result
+end
+local function build_influence(st,name,count,options)
+    options=options or {};options.influence=true;options.return_jobs=true
+    local all_full=true;local attempted=false
+    for _,b in ipairs(influence(st)) do
+        attempted=true
+        local existing={};for _,prior in ipairs(st.buildings) do if prior.name==name then existing[prior.id]=true end end
+        local ok,job=BerberAI.Construct(st,name,b.pos,count,false,20,options)
+        if ok then
+            if job then job.existing_ids=job.existing_ids or existing end
+            return true,job
+        end
+        if st.last_construct_failure~="placement" then all_full=false end
+    end
+    st.influence_full=attempted and all_full
+    return false
+end
+local function extra_tent(st)
+    local B=BerberAI.Building
+    if BerberAI.CountBuilding(st,B.tent,false)>=math.min(4,st.age) then return false end
+    local c=cost(st,B.tent);local missing=math.max(0,(c.stone or 0)-(st.budget.stone or 0))
+    if missing>0 then
+        if not BerberAI.BuyStone(st,missing) then
+            if not st.second_tc_needed then mine_stone(st,c.stone or 0,8) end
+            return false
+        end
+    end
+    local anchor=BerberAI.Pos(st.home,(BerberAI.CountBuilding(st,B.tent,false)+1)*28,0)
+    if not st.second_tc_needed then restore_miners(st) end
+    if BerberAI.Construct(st,B.tent,anchor,2,true,16,{return_jobs=true}) then
+        return true
+    end
+    return false
+end
+local function military_buildings(st)
+    local B=BerberAI.Building
+    -- Destruction or a newly completed influence source makes previously full space eligible again.
+    local signature=tostring(st.age)
+    for _,b in ipairs(st.buildings) do
+        if b.complete and (b.name==B.tent or b.name==FEUDAL or b.name==B.market or b.name==B.range) then signature=signature..":"..b.id end
+    end
+    if st.expansion_signature~=signature then st.expansion_exhausted=false;st.expansion_signature=signature end
+    local military=0
+    for _,b in ipairs(st.buildings) do if b.name==B.market and b.id~=st.trade_market_id then military=military+1 end end
+    for _,b in ipairs(st.build_pending) do if b.name==B.market and not (b.options and b.options.trade) then military=military+1 end end
+    if military==0 then
+        local o=st.opening_market_builder and {ids={st.opening_market_builder}} or {}
+        if not build_influence(st,B.market,1,o) and st.opening_market_builder then
+            -- A killed or sheltered designated builder must not permanently block the opening.
+            local alive=false;for _,s in ipairs(st.squads) do if s.id==st.opening_market_builder then alive=true end end
+            if not alive then st.opening_market_builder=nil;build_influence(st,B.market,1) end
+        end
+        return
+    end
+    if BerberAI.CountBuilding(st,B.range,false)==0 then
+        if (st.budget.wood or 0)>=200 then build_influence(st,B.range,1) end
+        return
+    end
+    if st.expansion_exhausted or st.now<st.next_expansion or st.farm_funding then return end
+    local pair=st.expansion_pair or {};st.expansion_pair=pair
+    -- An accepted native command can still fail to materialize; expired halves must be requested again.
+    for _,key in ipairs({"market","range"}) do
+        local job=pair[key]
+        if type(job)=="table" then
+            local present=false
+            for _,b in ipairs(st.buildings) do
+                if b.name==job.name and not (job.existing_ids and job.existing_ids[b.id])
+                    and BerberAI.Distance(b.pos,job.pos)<64 then present=true;break end
+            end
+            for _,b in ipairs(st.build_pending) do if b==job then present=true;break end end
+            if not present and (job.until_time or 0)<=st.now then pair[key]=nil end
+        end
+    end
+    if not pair.market and not pair.range and not affordable(st,combined(cost(st,B.market),cost(st,B.range))) then
+        st.next_expansion=st.now+60;return
+    end
+    if not pair.market then local ok,job=build_influence(st,B.market,1);if ok then pair.market=job or true end end
+    if pair.market and not pair.range then local ok,job=build_influence(st,B.range,1);if ok then pair.range=job or true end end
+    if pair.market and pair.range then
+        st.expansion_pair=nil;st.next_expansion=st.now+120
+    else
+        -- A pair is a single outstanding request, never a backlog of missed intervals.
+        if st.influence_full and (affordable(st,cost(st,B.market)) or pair.market) then
+            if st.age>=4 and BerberAI.CountBuilding(st,B.tent,true)>=4 then st.expansion_exhausted=true
+            else extra_tent(st) end
+        end
+        st.next_expansion=st.now+60
+    end
+end
+local function trade_market(st)
+    local B=BerberAI.Building
+    if st.trade_market_id then
+        for _,b in ipairs(st.buildings) do if b.id==st.trade_market_id then st.trade_build_needed=false;return end end
+        st.trade_market_id=nil
+    end
+    for _,b in ipairs(st.build_pending) do if b.options and b.options.trade then st.trade_build_needed=true;return end end
+    if not BerberAI.EntityValid(st.trade_target) then st.trade_build_needed=false;return end
+    st.trade_build_needed=true
+    if (st.budget.wood or 0)<300 or (st.budget.gold or 0)<250 then return end
+    local target=Entity_GetPosition(st.trade_target);local anchor=st.home
+    local d=math.sqrt(BerberAI.Distance(st.home,target))
+    if d<100 then
+        local dx,dz=st.home.x-target.x,st.home.z-target.z
+        if d==0 then dx=1;dz=0;d=1 end
+        anchor=BerberAI.Pos(target,dx/d*100,dz/d*100)
+    end
+    BerberAI.Construct(st,B.market,anchor,1,true,24,{trade=true,target_pos=target,min_target_distance=100,
+        exact_anchor=true,return_jobs=true})
+end
+function BerberAI.Infrastructure(st)
+    init(st)
+    if not st.economy.funded_this_tick then housing_and_workers(st) end
+    if st.saving_age then return end
+    if not st.second_tc_decided and st.now>=630 then
+        st.second_tc_decided=true;st.second_tc_needed=(st.live.trader or 0)<10
+    end
+    -- Protect workers against cavalry before discretionary production or new work sites.
+    towers(st);second_tc(st);opening_dropoffs(st);dropoffs(st)
+    if st.age>=2 then farms(st) end
+    if st.age>=2 then
+        military_buildings(st)
+        trade_market(st)
+    end
+end
+function BerberAI.Repair(st)
+    init(st);if st.saving_age or st.defense then return end
+    for _,b in ipairs(st.buildings) do
+        if b.complete and Entity_GetHealth(b.entity)<Entity_GetHealthMax(b.entity)*0.7 then
+            local workers,ids=BerberAI.Workers(st,b.pos,2)
+            BerberAI.Target(st,workers,SCMD_DefaultAction,b.entity,false)
+            for _,id in ipairs(ids) do st.reserved[id]=true end
+            return
+        end
+    end
+end
+function BerberAI.Economy(st)
+    init(st)
+    if st.mining_target and (st.budget.stone or 0)>=st.mining_target then restore_miners(st) end
+    -- Assign before filtered construction, fund villagers/housing before savings and all discretionary purchases.
+    assign_roles(st);housing_and_workers(st);st.economy.funded_this_tick=true
+    BerberAI.AgeUp(st);BerberAI.Gather(st);BerberAI.Infrastructure(st)
+    st.economy.funded_this_tick=nil
+    BerberAI.Repair(st)
+end

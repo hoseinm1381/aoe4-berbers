@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "files": [
+    {
+      "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\assets\\attrib\\instances\\ai\\ai_ability\\berber_alliances.xml",
+      "before": null,
+      "after": "81289c9ee65cd19be3dd7cfaf72a19dd68bed825388b0e826868be18e98a257c",
+      "source": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\berber104\\source\\attrib\\instances\\ai\\ai_ability\\berber_alliances.xml"
+    },
+    {
+      "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\assets\\attrib\\instances\\ai\\ai_ability\\berber_defensive_combat.xml",
+      "before": null,
+      "after": "eac3392d6de26db8464ac8be0345b5c4ae2c35c0e3770d9bf0c58a0475f8705b",
+      "source": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\berber104\\source\\attrib\\instances\\ai\\ai_ability\\berber_defensive_combat.xml"
+    },
+    {
+      "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\assets\\attrib\\instances\\ai\\ai_entity\\berber_production.xml",
+      "before": null,
+      "after": "96130264d42d6bc8ee9fae75990fe847a147c7db777266ed0dfc23cae16af81b",
+      "source": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\berber104\\source\\attrib\\instances\\ai\\ai_entity\\berber_production.xml"
+    },
+    {
+      "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\assets\\attrib\\instances\\ai\\ai_entity\\berber_tribal_tent.xml",
+      "before": null,
+      "after": "b4a87ca9488df3e0b7b06f8d592cebd0730af7732919c4172dea282f006703f8",
+      "source": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\berber104\\source\\attrib\\instances\\ai\\ai_entity\\berber_tribal_tent.xml"
+    },
+    {
+      "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\assets\\attrib\\instances\\ai\\ai_entity\\malian_house.xml",
+      "before": null,
+      "after": "1158ba43d2812dd5ec05afc0891f216462337258d0123955e376258a430654e1",
+      "source": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\berber104\\source\\attrib\\instances\\ai\\ai_entity\\malian_house.xml"
+    },
+    {
+      "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\assets\\attrib\\instances\\ai\\ai_entity\\mining_camp.xml",
+      "before": null,
+      "after": "b032e36e4f3110a5afadbead7a960a8f59fd0b0f63ca493270953032084dbf74",
+      "source": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\berber104\\source\\attrib\\instances\\ai\\ai_entity\\mining_camp.xml"
+    },
+    {
+      "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\assets\\attrib\\instances\\ai\\ai_economy\\complete\\default_economy.xml",
+      "before": null,
+      "after": "9379169f46f0a0bf9f558e64c67399b10a3c629c07e806f13ff968ae48d32bc5",
+      "source": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\berber104\\source\\attrib\\instances\\ai\\ai_economy\\complete\\default_economy.xml"
+    },
+    {
+      "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\assets\\scar\\winconditions\\berber_future_kingdom_GM.scar",
+      "before": "0aec44a5a46490903a68008ecf6c95acaa2bd14e76e083471c3f67e330e9518f",
+      "after": "f7e8986e41ad9b964afcb44ad229e856db947662c8940daccd7cdd4fea7c2286",
+      "backup": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\berber104\\pre-promotion-source\\berber_future_kingdom_GM.scar",
+      "change": "Only controller import replaced; all other editable bytes preserved"
+    }
+  ]
+}

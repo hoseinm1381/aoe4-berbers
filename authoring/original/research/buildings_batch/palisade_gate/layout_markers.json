@@ -1,0 +1,93 @@
+{
+  "sha256": "7b9656f5dfd45ea2d072716fc5baee76869b2f38f5b14b43f8e9a1714e66de75",
+  "markers": [
+    {
+      "name": "mkr_doorway_front",
+      "parent": "bone_root",
+      "flag": 1,
+      "quaternion_xyzw": [
+        0.7071067690849304,
+        0.0,
+        0.0,
+        0.7071067690849304
+      ],
+      "translation_xyz_parent_local": [
+        0.0,
+        -0.8452354073524475,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "qualification": "binary extracted marker fields; coordinate hierarchy binding requires native integration"
+    },
+    {
+      "name": "mkr_slotid_01",
+      "parent": "bone_root",
+      "flag": 1,
+      "quaternion_xyzw": [
+        0.7071067690849304,
+        0.0,
+        0.0,
+        0.7071067690849304
+      ],
+      "translation_xyz_parent_local": [
+        -3.23915433883667,
+        0.0,
+        4.79202127456665
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "qualification": "binary extracted marker fields; coordinate hierarchy binding requires native integration"
+    },
+    {
+      "name": "mkr_slotid_00",
+      "parent": "bone_root",
+      "flag": 1,
+      "quaternion_xyzw": [
+        0.7071067690849304,
+        0.0,
+        0.0,
+        0.7071067690849304
+      ],
+      "translation_xyz_parent_local": [
+        3.3543760776519775,
+        0.0,
+        4.596016883850098
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "qualification": "binary extracted marker fields; coordinate hierarchy binding requires native integration"
+    },
+    {
+      "name": "mkr_doorway_back",
+      "parent": "bone_root",
+      "flag": 1,
+      "quaternion_xyzw": [
+        0.7071067690849304,
+        0.0,
+        0.0,
+        0.7071067690849304
+      ],
+      "translation_xyz_parent_local": [
+        0.0,
+        0.860114574432373,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "qualification": "binary extracted marker fields; coordinate hierarchy binding requires native integration"
+    }
+  ]
+}

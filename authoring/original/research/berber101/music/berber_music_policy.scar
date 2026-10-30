@@ -1,0 +1,31 @@
+-- Presentation-only policy. Damage events are deduplicated by attacker ID.
+BMPolicy={}
+function BMPolicy.new(now)
+    return {seen={},level=1,pending=1,since=now,last=now}
+end
+function BMPolicy.record(s,id,now) s.seen[id]=now end
+function BMPolicy.count(s,now)
+    local n=0
+    for id,time in pairs(s.seen) do
+        if time>now or time<=now-8 then s.seen[id]=nil else n=n+1 end
+    end
+    return n
+end
+function BMPolicy.demand(n)
+    if n>=20 then return 4 elseif n>=6 then return 3 elseif n>0 then return 2 end
+    return 1
+end
+function BMPolicy.tick(s,now)
+    if now<s.last then s.seen={};s.level=1;s.pending=1;s.since=now end
+    s.last=now
+    local desired=BMPolicy.demand(BMPolicy.count(s,now))
+    if desired~=s.pending then s.pending=desired;s.since=now end
+    if desired~=s.level then
+        local wait=desired>s.level and 1 or 12
+        if now-s.since>=wait then s.level=desired end
+    end
+    return s.level
+end
+function BMPolicy.needs_track(current,wanted,muted)
+    return not muted and current~=wanted
+end

@@ -1,0 +1,31 @@
+{
+  "key": "wall",
+  "minimum_age": 2,
+  "required_ages": [
+    2,
+    3,
+    4
+  ],
+  "current_builder": "assets/attrib/instances/sbps/races/malian/berbers/unit_villager_1_mal.xml:1041",
+  "current_entity_override": "none found under assets/attrib/instances; installed inherited target inspected",
+  "installed_malian_entity": "attrib/ebps/races/malian/buildings/building_defense_wall_mal/building_defense_wall_mal.rgd",
+  "age_requirement": "mal.xml lines 908-928 required_player_upgrade completed feudal_age min1; official core requirement agrees",
+  "stock_lengths_m": [
+    1,
+    3,
+    6
+  ],
+  "gapfill_lengths_m": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "walkable_width_m": 3,
+  "primary_walkable_height_m": 7,
+  "evidence": [
+    "mal.xml:578",
+    "mal.xml:611"
+  ],
+  "footprint": "slotted spline envelope; no render bounds treated as gameplay footprint"
+}

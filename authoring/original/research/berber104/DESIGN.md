@@ -1,0 +1,9 @@
+# Berber 1.0.4: native AI ownership
+
+The game AI owns Berber from match initialization. Remove the scripted-controller import from the shipped game-mode entry; no watchdog, controller rules, commands, income grants or custom difficulty override run. Preserve the scripted sources as rollback evidence only.
+
+Map every trainable roster member, researchable technology, landmark and production building to current native economy utilities/production groups. Add Tribal Tent construction utility, suitable native placement information, three alliance production abilities and a native combat tactic for the Tuareg shield ability. Distinguish passive/automatic abilities and granted alliance upgrades from directly researchable upgrades. Preserve human requirements, costs, unit balance and all source-independent delivered assets.
+
+Authority: installed ReferenceAttributes.sga XML and current Attribute Editor assemblies; Community Civilization Pack default_economy.xml is read-only comparison only. Allocate new root and list identities using the installed Attribute Editor allocator classes, retaining their DLL hashes and allocated values. Compile scoped XML with the current Content Editor. Compose only compiled AI mapping RGDs and the game-mode import change onto final1.0.3. Do not replace unrelated gameplay RGDs from the raw editable tree.
+
+Validate source identities/coverage/references, unchanged existing native entries, scripted-controller import reachability, actual Content Editor output, decoded compiled mappings, all archive member hashes, ZIP integrity and retained art/audio/UV bytes. Preserve original sources and baseline. Follow release cleanup only after delivery verification. Native matches remain a separate acceptance gate, especially actual alliance production and native competence with Berber mechanics.

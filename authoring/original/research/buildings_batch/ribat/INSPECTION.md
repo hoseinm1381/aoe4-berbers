@@ -1,0 +1,7 @@
+# Source inspection
+
+Inspected all II-IV preview and front/back/left/right/top/bottom renders in contact_sheet.png. Initial II preview exposed coplanar overlap at rear-to-cell roof joints and tower stripes hidden by enclosure. Recipe repaired those defects: council roof width derives from the cell-roof inner face (2.544), and stripe elevations are 2.35/2.80. Rebuilt and inspected clean joints, exposed tower stripes, continuous ground seating, open court and south entry. The three ages remain the same functional ribat but progress in height, lime roofs/coping, entry joinery and frieze/drains.
+
+Numeric source checks per age: 23 measured part contacts plus 2 saved roof join checks; 10 ray guards through the actual Boolean-cut entry/arcades; all objects closed manifold, positive signed volumes, positive transforms, finite positions, no degenerate triangles, nonzero UV triangles. Exact centered 5.8 square ground mesh is contained in installed/current 6x6 gameplay site footprint. Bounds and source origin are reported independently. Five images packed in each age Blend; matching red-only mask tested at every face UV loop with zero incorrect samples. FBX saved/reopened source audit passes.
+
+The 1mm tower stripe surface separation is intentional to avoid coplanar flicker. Cell partitions seat on foundation and support continuous connected flat roofs. Entry is a through architectural opening, no animated gate. No native game/cook/LOD or owner-colour success is implied.

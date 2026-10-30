@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "protected_inputs_rehashed": 101012,
+  "removed_files": 6207,
+  "logical_bytes_removed": 6393726091,
+  "single_link_bytes_removed_by_drive": {
+    "E:": 850276135,
+    "F:": 5543449956
+  },
+  "bundle_bytes": 1025090225,
+  "deliveries": [
+    {
+      "zip": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_1_0_0\\Berber-1.0.0.zip",
+      "zip_sha256": "86425e4746cd1bdcf1b4fb66e73de0b5148c60b853ca5fd72c35596e8e70da09",
+      "sga": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_1_0_0\\Berber_future_kingdom.sga",
+      "sga_sha256": "a96adced078ff7a1d97a7e22e6980165f723a1551abb8794b9a016738c68d42a",
+      "zip_crc": "passed"
+    },
+    {
+      "zip": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_11_0\\Berber-0.11.0.zip",
+      "zip_sha256": "9ddd72c1739fa21ca4c0a6a577f3fa3e9d557bec04d713698334d25a390e61ce",
+      "sga": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_11_0\\Berber_future_kingdom.sga",
+      "sga_sha256": "21932382a903257310697d47731c6c8f5d54a48d3ef2b575493fd6afcf018e1b",
+      "zip_crc": "passed"
+    },
+    {
+      "zip": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_9_1\\Berber-0.9.1.zip",
+      "zip_sha256": "8e2b1ad7b05ef596bd23b92f0b84f67c4afae570e4f7ce07ee73df9d80952b78",
+      "sga": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_9_1\\Berber_future_kingdom.sga",
+      "sga_sha256": "76bc149faf0a82214806d002a2d91dc6df07461e583a8da74b6a16caeb4b7d14",
+      "zip_crc": "passed"
+    },
+    {
+      "zip": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_8_1\\Berber-0.8.1.zip",
+      "zip_sha256": "a57bf7ce3beb8614cb8df2f4ee8349ca1d02e8adeb5d6909401c39667f6fb54c",
+      "sga": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_8_1\\Berber_future_kingdom.sga",
+      "sga_sha256": "c58ef43ad4b0e664609161eb35178c97500837e9a844d7583fb014a50b7cc441",
+      "zip_crc": "passed"
+    },
+    {
+      "zip": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_dark_age_music_test_2\\Berber-Dark-Age-Music-Test-2.zip",
+      "zip_sha256": "29b1f27b8a13b425f153fc8ac78d454a78071251d2d2238ccabc61f7d2c185d3",
+      "sga": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_dark_age_music_test_2\\Berber_future_kingdom.sga",
+      "sga_sha256": "ee2f5fbeda187398de1f0cf09af8e6651c079a14de375a64f7acd915ecc5de6c",
+      "zip_crc": "passed"
+    }
+  ],
+  "git": "refs, logs, index and worktree metadata unchanged",
+  "native_match": "not part of storage cleanup",
+  "final_documentation_hashes": {
+    "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\STORAGE.md": "ce6c4c32fe95b10036194fe8deb6e06def429f267f66c83854e1584527f71282",
+    "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\REBUILD_NEXT.md": "561d58240a08ed632fd774321db12fdf05c86fca800188c88c0891f098645fca",
+    "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\PORTING.md": "6bfff80228fd63def4354d2367c2407478f37395ce4f5be6b3011a0dd6398b40"
+  }
+}

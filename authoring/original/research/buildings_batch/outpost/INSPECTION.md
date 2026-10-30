@@ -1,0 +1,7 @@
+# Source visual review
+
+Inspected actual age1 perspective, age3 springald perspective, sixside_contact_sheet.png (24 views), and upgrade_contact_sheet.png (fortified stone II, arrowslits II, springald III, cannon IV). Solid material/Workbench renders show ground foundation/threshold continuous, actual recessed entrance, narrow side firing apertures, clean back wall, fitted roof and canopy, clear central front embrasure, neutral visible owner bands, hollow cannon muzzle, physically seated springald stock and unobstructed loaded bolt. Top views show rear canopy leaves the forward emplacement pad uncovered; underside shows a closed foundation. Back apertures are less legible in flat straight-on light but numeric ray tests distinguish actual cuts from painted rectangles.
+
+Interface correction: first design had a full frontal parapet which would intersect the cannon shot mouth. Final source has two front parapet segments with a measured 1m central opening. Cannon max width .44m leaves .28m per-side clearance. Proposed front cannon FX marker meets barrel mouth; springald marker meets bolt tip. Geometry checks pass in the final saved files/FBXs.
+
+Final views use Workbench studio/material shading (8 AA) for bounded source inspection; they are not native game screenshots or shader qualification. The initial Cycles material preview is superseded by final geometry views. Footprint conclusions come from XML/RGD and numeric bounds, never screenshots. Colour mask is authoring-ready but native owner behaviour remains blocked per shared contract.

@@ -1,0 +1,109 @@
+{
+  "groups": [
+    {
+      "name": "mesh_00_group_00",
+      "vertices": 52167,
+      "faces": 31630,
+      "bounds": [
+        [
+          -5.51171875,
+          -6.86328125,
+          -1.9669532775878906e-06
+        ],
+        [
+          6.50390625,
+          6.046875,
+          9.2734375
+        ]
+      ]
+    },
+    {
+      "name": "mesh_01_group_00",
+      "vertices": 2500,
+      "faces": 1520,
+      "bounds": [
+        [
+          -3.97265625,
+          -6.26953125,
+          0.328125
+        ],
+        [
+          3.38671875,
+          5.96484375,
+          8.2109375
+        ]
+      ]
+    },
+    {
+      "name": "mesh_02_group_00",
+      "vertices": 19229,
+      "faces": 11346,
+      "bounds": [
+        [
+          -5.44140625,
+          -6.78125,
+          1.1324882507324219e-06
+        ],
+        [
+          6.44140625,
+          5.7421875,
+          8.953125
+        ]
+      ]
+    },
+    {
+      "name": "mesh_03_group_00",
+      "vertices": 48530,
+      "faces": 32038,
+      "bounds": [
+        [
+          -5.62890625,
+          -6.9609375,
+          -0.328369140625
+        ],
+        [
+          6.609375,
+          6.359375,
+          6.4296875
+        ]
+      ]
+    },
+    {
+      "name": "mesh_04_group_00",
+      "vertices": 25962,
+      "faces": 17504,
+      "bounds": [
+        [
+          -5.640625,
+          -7.015625,
+          -1.599609375
+        ],
+        [
+          6.61328125,
+          6.30859375,
+          4.66015625
+        ]
+      ]
+    },
+    {
+      "name": "mesh_05_group_00",
+      "vertices": 23217,
+      "faces": 15114,
+      "bounds": [
+        [
+          -5.6015625,
+          -6.88671875,
+          -5.352497100830078e-05
+        ],
+        [
+          6.57421875,
+          6.30859375,
+          4.66015625
+        ]
+      ]
+    }
+  ],
+  "geometry_reused_in_final": false,
+  "footprint_from": "Current Fez target site_ext x6/y6; source4.4m at animator130% gives5.72m; stock university official8m is donor-only history",
+  "reference": "UNTouched_Abbasid_University_Age4_Reference.blend"
+}

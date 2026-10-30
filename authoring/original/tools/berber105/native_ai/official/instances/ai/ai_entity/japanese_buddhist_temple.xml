@@ -1,0 +1,72 @@
+<instance version="6" description="" template="ai\ai_entity">
+  <uniqueid name="pbgid" value="2140633" />
+  <group name="ai_entity_bag">
+    <list name="applicable_blueprints">
+      <instance_reference name="applicable_blueprint" value="ebps\races\japanese\buildings\building_unit_religious_buddhist_jpn" List.ItemID="1074354776" />
+    </list>
+    <group name="construction">
+      <string name="placement_function" value="" />
+      <bool name="can_build_multiple_in_parallel" value="False" />
+      <int name="max_num_additional_builders" value="4" />
+      <int name="max_num_incomplete_structures_builders" value="-1" />
+      <list name="near_to_structures">
+        <instance_reference name="structure" value="ebps\races\japanese\buildings\building_unit_infantry_jpn" List.ItemID="1634120745" />
+        <instance_reference name="structure" value="ebps\races\japanese\buildings\building_unit_cavalry_jpn" List.ItemID="33876646" />
+        <instance_reference name="structure" value="ebps\races\japanese\buildings\building_unit_ranged_jpn" List.ItemID="249776815" />
+        <instance_reference name="structure" value="ebps\races\japanese\buildings\building_unit_siege_jpn" List.ItemID="1312056614" />
+      </list>
+      <list name="requires_structures">
+      </list>
+      <list name="near_structures_with_capability">
+      </list>
+    </group>
+  </group>
+  <variant name="xp3">
+    <uniqueid name="pbgid" value="2140633" />
+    <group name="ai_entity_bag">
+      <list name="applicable_blueprints">
+        <instance_reference name="applicable_blueprint" value="ebps\races\japanese\buildings\building_unit_religious_buddhist_jpn" List.ItemID="1074354776" />
+      </list>
+      <group name="construction">
+        <string name="placement_function" value="" />
+        <bool name="can_build_multiple_in_parallel" value="False" />
+        <int name="max_num_additional_builders" value="4" />
+        <int name="max_num_incomplete_structures_builders" value="-1" />
+        <list name="near_to_structures">
+          <instance_reference name="structure" value="ebps\races\japanese\buildings\building_unit_infantry_jpn" List.ItemID="1634120745" />
+          <instance_reference name="structure" value="ebps\races\japanese\buildings\building_unit_cavalry_jpn" List.ItemID="33876646" />
+          <instance_reference name="structure" value="ebps\races\japanese\buildings\building_unit_ranged_jpn" List.ItemID="249776815" />
+          <instance_reference name="structure" value="ebps\races\japanese\buildings\building_unit_siege_jpn" List.ItemID="1312056614" />
+        </list>
+        <list name="requires_structures">
+        </list>
+        <list name="near_structures_with_capability">
+        </list>
+      </group>
+    </group>
+  </variant>
+  <variant name="cordoba">
+    <uniqueid name="pbgid" value="2140633" />
+    <group name="ai_entity_bag">
+      <list name="applicable_blueprints">
+        <instance_reference name="applicable_blueprint" value="ebps\races\japanese\buildings\building_unit_religious_buddhist_jpn" List.ItemID="1074354776" />
+      </list>
+      <group name="construction">
+        <string name="placement_function" value="" />
+        <bool name="can_build_multiple_in_parallel" value="False" />
+        <int name="max_num_additional_builders" value="4" />
+        <int name="max_num_incomplete_structures_builders" value="-1" />
+        <list name="near_to_structures">
+          <instance_reference name="structure" value="ebps\races\japanese\buildings\building_unit_infantry_jpn" List.ItemID="1634120745" />
+          <instance_reference name="structure" value="ebps\races\japanese\buildings\building_unit_cavalry_jpn" List.ItemID="33876646" />
+          <instance_reference name="structure" value="ebps\races\japanese\buildings\building_unit_ranged_jpn" List.ItemID="249776815" />
+          <instance_reference name="structure" value="ebps\races\japanese\buildings\building_unit_siege_jpn" List.ItemID="1312056614" />
+        </list>
+        <list name="requires_structures">
+        </list>
+        <list name="near_structures_with_capability">
+        </list>
+      </group>
+    </group>
+  </variant>
+</instance>

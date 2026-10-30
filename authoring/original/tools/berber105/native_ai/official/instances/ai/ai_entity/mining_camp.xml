@@ -1,0 +1,81 @@
+<instance version="6" description="" template="ai\ai_entity">
+  <uniqueid name="pbgid" value="185668" />
+  <group name="ai_entity_bag">
+    <list name="applicable_blueprints">
+      <instance_reference name="applicable_blueprint" value="ebps\races\campaign\lithuania\buildings\building_econ_mining_camp_lith\building_econ_mining_camp_control_lith" List.ItemID="-652030495" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\chinese\buildings\building_econ_mining_camp_chi\building_econ_mining_camp_control_chi" List.ItemID="677293668" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\english\buildings\building_econ_mining_camp_eng\building_econ_mining_camp_control_eng" List.ItemID="-838095946" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\french\buildings\building_econ_mining_camp_fre\building_econ_mining_camp_control_fre" List.ItemID="-937000503" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\hre\buildings\building_econ_mining_camp_hre\building_econ_mining_camp_control_hre" List.ItemID="1110184865" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\rus\buildings\building_econ_mining_camp_rus\building_econ_mining_camp_control_rus" List.ItemID="-1718841839" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\sultanate\buildings\building_econ_mining_camp_sul\building_econ_mining_camp_control_sul" List.ItemID="-947968003" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\chinese_ha_01\buildings\building_econ_mining_camp_chi_ha_01\building_econ_mining_camp_control_chi_ha_01" List.ItemID="1770426970" />
+    </list>
+    <group name="construction">
+      <string name="placement_function" value="" />
+      <bool name="can_build_multiple_in_parallel" value="True" />
+      <int name="max_num_additional_builders" value="4" />
+      <int name="max_num_incomplete_structures_builders" value="-1" />
+      <list name="near_to_structures">
+      </list>
+      <list name="requires_structures">
+      </list>
+      <list name="near_structures_with_capability">
+      </list>
+    </group>
+  </group>
+  <variant name="xp3">
+    <uniqueid name="pbgid" value="185668" />
+    <group name="ai_entity_bag">
+      <list name="applicable_blueprints">
+        <instance_reference name="applicable_blueprint" value="ebps\races\campaign\lithuania\buildings\building_econ_mining_camp_lith\building_econ_mining_camp_control_lith" List.ItemID="-652030495" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\chinese\buildings\building_econ_mining_camp_chi\building_econ_mining_camp_control_chi" List.ItemID="677293668" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\english\buildings\building_econ_mining_camp_eng\building_econ_mining_camp_control_eng" List.ItemID="-838095946" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\french\buildings\building_econ_mining_camp_fre\building_econ_mining_camp_control_fre" List.ItemID="-937000503" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\hre\buildings\building_econ_mining_camp_hre\building_econ_mining_camp_control_hre" List.ItemID="1110184865" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\rus\buildings\building_econ_mining_camp_rus\building_econ_mining_camp_control_rus" List.ItemID="-1718841839" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\sultanate\buildings\building_econ_mining_camp_sul\building_econ_mining_camp_control_sul" List.ItemID="-947968003" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\chinese_ha_01\buildings\building_econ_mining_camp_chi_ha_01\building_econ_mining_camp_control_chi_ha_01" List.ItemID="1770426970" />
+      </list>
+      <group name="construction">
+        <string name="placement_function" value="" />
+        <bool name="can_build_multiple_in_parallel" value="True" />
+        <int name="max_num_additional_builders" value="4" />
+        <int name="max_num_incomplete_structures_builders" value="-1" />
+        <list name="near_to_structures">
+        </list>
+        <list name="requires_structures">
+        </list>
+        <list name="near_structures_with_capability">
+        </list>
+      </group>
+    </group>
+  </variant>
+  <variant name="cordoba">
+    <uniqueid name="pbgid" value="185668" />
+    <group name="ai_entity_bag">
+      <list name="applicable_blueprints">
+        <instance_reference name="applicable_blueprint" value="ebps\races\campaign\lithuania\buildings\building_econ_mining_camp_lith\building_econ_mining_camp_control_lith" List.ItemID="-652030495" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\chinese\buildings\building_econ_mining_camp_chi\building_econ_mining_camp_control_chi" List.ItemID="677293668" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\english\buildings\building_econ_mining_camp_eng\building_econ_mining_camp_control_eng" List.ItemID="-838095946" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\french\buildings\building_econ_mining_camp_fre\building_econ_mining_camp_control_fre" List.ItemID="-937000503" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\hre\buildings\building_econ_mining_camp_hre\building_econ_mining_camp_control_hre" List.ItemID="1110184865" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\rus\buildings\building_econ_mining_camp_rus\building_econ_mining_camp_control_rus" List.ItemID="-1718841839" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\sultanate\buildings\building_econ_mining_camp_sul\building_econ_mining_camp_control_sul" List.ItemID="-947968003" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\chinese_ha_01\buildings\building_econ_mining_camp_chi_ha_01\building_econ_mining_camp_control_chi_ha_01" List.ItemID="1770426970" />
+      </list>
+      <group name="construction">
+        <string name="placement_function" value="" />
+        <bool name="can_build_multiple_in_parallel" value="True" />
+        <int name="max_num_additional_builders" value="4" />
+        <int name="max_num_incomplete_structures_builders" value="-1" />
+        <list name="near_to_structures">
+        </list>
+        <list name="requires_structures">
+        </list>
+        <list name="near_structures_with_capability">
+        </list>
+      </group>
+    </group>
+  </variant>
+</instance>

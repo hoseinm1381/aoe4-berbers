@@ -1,0 +1,188 @@
+-- Snapshot counts include living, queued and pending squads. All costs are paid.
+local function BerberAI_ProductionState(st)
+    st.producer_used=st.producer_used or {}
+    st.production_pending=st.production_pending or {}
+    st.queued_upgrades=st.queued_upgrades or {}
+    st.research_retry=st.research_retry or {}
+    st.research_draining=st.research_draining or {}
+    st.resource_counts=st.resource_counts or {}
+    st.siege_targets=st.siege_targets or {}
+end
+local function BerberAI_UpgradeOwned(st,name)
+    return Player_HasUpgrade(st.player,BP_GetUpgradeBlueprint(name))
+end
+local function BerberAI_CoreReady(st)
+    for age=3,math.min(st.age,4) do
+        for _,unit in ipairs({"archer","horseman"}) do
+            local name="upgrade_unit_"..unit.."_"..age.."_mal"
+            if not BerberAI_UpgradeOwned(st,name) and not st.queued_upgrades[name] then return false end
+        end
+    end
+    return true
+end
+local function BerberAI_Affordable(st,cost)
+    for _,key in ipairs({"food","wood","gold","stone"}) do
+        if (st.budget[key] or 0)+0.001<(cost[key] or 0) then return false end
+    end
+    return true
+end
+function BerberAI.SelectAlliance(st)
+    BerberAI_ProductionState(st)
+    if st.saving_age or st.age<2 then return end
+    local alliance=BerberAI.Alliances.zenata
+    if BerberAI_UpgradeOwned(st,alliance.upgrade) then st.alliance="zenata";return end
+    if st.now<(st.alliance_retry or 0) then return end
+    local tent=BerberAI.FirstBuilding(st,BerberAI.Building.tent)
+        or BerberAI.FirstBuilding(st,"building_landmark_age1_landmarkb_mal")
+    if not BerberAI.EntityValid(tent) then return end
+    local ability=BP_GetAbilityBlueprint(alliance.ability)
+    if not BerberAI.Spend(st,Player_GetAbilityBPCost(st.player,ability)) then return end
+    BerberAI.WithEntity(tent,function(eg) LocalCommand_EntityAbility(st.player,eg,ability,false,false) end)
+    st.alliance_retry=st.now+15
+end
+local function BerberAI_ResearchPriority(st,b,name)
+    if string.match(name,"^upgrade_unit_archer_[34]_mal$")
+        or string.match(name,"^upgrade_unit_horseman_[34]_mal$") then return 100 end
+    if name=="upgrade_unit_town_center_wheelbarrow_1" then return 90 end
+    if name=="upgrade_econ_resource_wood_fell_rate_1" then
+        if (st.resource_counts.wood or 0)>=8 then return 80 end
+        return nil
+    end
+    local resource,tier=string.match(name,"^upgrade_econ_resource_(%a+)_harvest_rate_(%d)$")
+    if resource~=nil then
+        local threshold=({8,15,22})[tonumber(tier)-1]
+        local workers=st.resource_counts[resource] or 0
+        -- Native camps expose gold-named mining tech with a mining_rate_stone property.
+        if resource=="gold" then workers=math.max(workers,st.resource_counts.stone or 0) end
+        if threshold~=nil and workers>=threshold then return 80 end
+        return nil
+    end
+    if name=="upgrade_siege_engineers" then
+        if st.age==2 and (st.siege_targets.ram or 0)>0 then return 85 end
+        return nil
+    end
+    if b.name==BerberAI.Building.smith then
+        if name=="upgrade_ranged_damage_i" and (st.archers_trained or 0)>=6 then return 75 end
+        if st.age>=3 and BerberAI_CoreReady(st) then return 10 end
+    end
+    return nil
+end
+function BerberAI.Research(st)
+    BerberAI_ProductionState(st)
+    if st.saving_age then return end
+    local candidates={}
+    local previous_drains=st.research_draining
+    st.research_draining={}
+    for _,b in ipairs(st.buildings) do
+        local row=BerberAI_Catalog.buildings[b.name]
+        if b.complete and BerberAI.EntityValid(b.entity) and row~=nil
+            and Entity_HasProductionQueue(b.entity) and Entity_IsProductionQueueAvailable(b.entity) then
+            local busy=Entity_GetProductionQueueSize(b.entity)>0 or st.producer_used[b.id]
+            for _,name in ipairs(row.upgrades or {}) do
+                local info=BerberAI_Catalog.upgrades[name]
+                local score=BerberAI_ResearchPriority(st,b,name)
+                if score~=nil and info~=nil and info.age<=st.age
+                    and not BerberAI_UpgradeOwned(st,name) and not st.queued_upgrades[name]
+                    and BerberAI.Require(st,info.requirement) and (st.research_retry[name] or 0)<=st.now then
+                    local bp=BP_GetUpgradeBlueprint(name)
+                    local cost=BerberAI.Cost(st,"upgrade",bp)
+                    local draining=previous_drains[b.id]==name
+                    if draining or BerberAI_Affordable(st,cost) then
+                        table.insert(candidates,{building=b,name=name,bp=bp,cost=cost,
+                            score=score+(draining and 1000 or 0),busy=busy,draining=draining})
+                    end
+                end
+            end
+        end
+    end
+    table.sort(candidates,function(a,b)
+        if a.score~=b.score then return a.score>b.score end
+        if a.name~=b.name then return a.name<b.name end
+        return a.building.id<b.building.id
+    end)
+    while #candidates>0 do
+        local choice=1
+        if candidates[1].score==10 then choice=World_GetRand(1,#candidates) end
+        local c=table.remove(candidates,choice)
+        if not c.busy and BerberAI.Spend(st,c.cost) then
+            BerberAI.WithEntity(c.building.entity,function(eg) LocalCommand_EntityUpgrade(st.player,eg,c.bp,false,false) end)
+            st.producer_used[c.building.id]=true;st.queued_upgrades[c.name]=true
+            st.research_retry[c.name]=st.now+15
+            st.production_pending[c.building.id]={name=c.name,upgrade=true,until_time=st.now+3}
+        else
+            -- Preserve paid queues and stop replenishing this producer until
+            -- its chosen upgrade can start. Protect its cost from other spenders.
+            st.research_draining[c.building.id]=c.name
+            st.producer_used[c.building.id]=true
+            if BerberAI_Affordable(st,c.cost) then
+                for _,key in ipairs({"food","wood","gold","stone"}) do
+                    st.budget[key]=(st.budget[key] or 0)-(c.cost[key] or 0)
+                end
+            end
+        end
+        local keep={}
+        for _,next in ipairs(candidates) do
+            if not st.producer_used[next.building.id] and not st.queued_upgrades[next.name]
+                and next.name~=c.name and (next.draining or BerberAI_Affordable(st,next.cost)) then table.insert(keep,next) end
+        end
+        candidates=keep
+    end
+end
+local function BerberAI_TrainTo(st,role,target,options)
+    for attempt=1,#st.buildings do
+        if (st.counts[role] or 0)>=target or not BerberAI.Train(st,role,options) then return end
+    end
+end
+function BerberAI.Produce(st)
+    BerberAI_ProductionState(st)
+    if st.saving_age then return end
+    BerberAI.SelectAlliance(st)
+    BerberAI.Research(st)
+    if (st.counts.scout or 0)<(st.config.scouts or 1) then BerberAI.Train(st,"scout") end
+    if st.age<2 then return end
+    local need_ram=st.age==2 and (st.siege_targets.ram or 0)>0
+    if ((st.archers_trained or 0)>=6 or need_ram) and BerberAI.CountBuilding(st,BerberAI.Building.smith,false)==0 then
+        BerberAI.Construct(st,BerberAI.Building.smith,st.home,1,false,24)
+    end
+    if st.age>=3 and BerberAI_CoreReady(st) then
+        if BerberAI.CountBuilding(st,BerberAI.Building.mosque,false)==0 then
+            BerberAI.Construct(st,BerberAI.Building.mosque,st.home,2,false,24)
+        end
+        local healer=st.needs_healer
+        if st.imam_roles~=nil and st.imam_roles.healer~=nil then
+            for _,s in ipairs(st.squads or {}) do
+                if s.role=="monk" and s.id==st.imam_roles.healer then healer=true;break end
+            end
+        end
+        BerberAI_TrainTo(st,"monk",2+(healer and 1 or 0))
+    end
+    if st.trade_target~=nil and st.trade_market_id~=nil then
+        BerberAI_TrainTo(st,"trader",st.config.traders or 0,{building_id=st.trade_market_id})
+    end
+    if st.age>=3 then
+        local need=false
+        for _,role in ipairs({"springald","mangonel","treb","cannon"}) do
+            if (st.siege_targets[role] or 0)>(st.counts[role] or 0) then need=true end
+        end
+        if need and BerberAI.CountBuilding(st,BerberAI.Building.siege,false)==0 then
+            BerberAI.Construct(st,BerberAI.Building.siege,st.home,2,false,24)
+        end
+        for _,role in ipairs({"springald","mangonel","treb","cannon"}) do
+            BerberAI_TrainTo(st,role,st.siege_targets[role] or 0)
+        end
+    elseif need_ram and BerberAI_UpgradeOwned(st,"upgrade_siege_engineers") then
+        local pending=0
+        for _,job in ipairs(st.build_pending or {}) do if job.name=="unit_ram_3_mal" then pending=pending+1 end end
+        if (st.counts.ram or 0)+pending<(st.siege_targets.ram or 0) then
+            BerberAI.Construct(st,"unit_ram_3_mal",st.home,3,false,24,{role="archer"})
+        end
+    end
+    local excluded={}
+    if st.trade_market_id~=nil then excluded[st.trade_market_id]=true end
+    for attempt=1,#st.buildings do
+        local role=(st.counts.archer or 0)<2*(st.counts.zenata or 0) and "archer" or "zenata"
+        local other=role=="archer" and "zenata" or "archer"
+        if not BerberAI.Train(st,role,{exclude_ids=excluded})
+            and not BerberAI.Train(st,other,{exclude_ids=excluded}) then break end
+    end
+end

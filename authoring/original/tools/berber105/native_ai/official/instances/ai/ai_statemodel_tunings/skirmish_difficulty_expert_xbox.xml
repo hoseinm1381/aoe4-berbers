@@ -1,0 +1,42 @@
+<instance version="6" description="State model tunings for AI difficulty level &quot;Expert&quot;." template="ai\ai_statemodel_tunings">
+  <uniqueid name="pbgid" value="2129149" />
+  <instance_reference name="parent_pbg" value="ai\ai_statemodel_tunings\skirmish_difficulty_expert" />
+  <group name="ai_statemodel_tunings_bag">
+    <list name="float_tunings">
+      <group name="value_tuning" List.ItemID="-924152782" List.ParentItemID="-924152782">
+        <float name="value" value="0.25" overrideParent="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="-757168426" List.ParentItemID="-757168426">
+        <float name="value" value="0.525" overrideParent="True" />
+      </group>
+    </list>
+  </group>
+  <variant name="xp3">
+    <uniqueid name="pbgid" value="2129149" />
+    <instance_reference name="parent_pbg" value="ai\ai_statemodel_tunings\skirmish_difficulty_expert" />
+    <group name="ai_statemodel_tunings_bag">
+      <list name="float_tunings">
+        <group name="value_tuning" List.ItemID="-924152782" List.ParentItemID="-924152782">
+          <float name="value" value="0.25" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="-757168426" List.ParentItemID="-757168426">
+          <float name="value" value="0.525" overrideParent="True" />
+        </group>
+      </list>
+    </group>
+  </variant>
+  <variant name="cordoba">
+    <uniqueid name="pbgid" value="2129149" />
+    <instance_reference name="parent_pbg" value="ai\ai_statemodel_tunings\skirmish_difficulty_expert" />
+    <group name="ai_statemodel_tunings_bag">
+      <list name="float_tunings">
+        <group name="value_tuning" List.ItemID="-924152782" List.ParentItemID="-924152782">
+          <float name="value" value="0.25" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="-757168426" List.ParentItemID="-757168426">
+          <float name="value" value="0.525" overrideParent="True" />
+        </group>
+      </list>
+    </group>
+  </variant>
+</instance>

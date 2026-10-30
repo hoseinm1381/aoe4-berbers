@@ -1,0 +1,142 @@
+[
+  {
+    "event": "common_spear_tamba_charge_sfx_hit_play",
+    "id": "288481126",
+    "source": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\audiohigh\\card_events_00.txt",
+    "line": 320,
+    "notes": "[melee_impacts]"
+  },
+  {
+    "event": "common_torch_sfx_hit_play",
+    "id": "424821600",
+    "source": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\audiohigh\\card_events_00.txt",
+    "line": 473,
+    "notes": "[torches] "
+  },
+  {
+    "event": "set_switch_spearmen_04",
+    "id": "967286619",
+    "source": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\audiohigh\\card_events_00.txt",
+    "line": 1033,
+    "notes": "This event sets the foley/footstep type for the spearmen uint, age 4. The switch is set via sound action in the unit sbps."
+  },
+  {
+    "event": "set_switch_spearmen_03",
+    "id": "967286620",
+    "source": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\audiohigh\\card_events_00.txt",
+    "line": 1034,
+    "notes": "This event sets the foley/footstep type for the spearmen uint, age 3. The switch is set via sound action in the unit sbps. "
+  },
+  {
+    "event": "set_switch_spearmen_02",
+    "id": "967286621",
+    "source": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\audiohigh\\card_events_00.txt",
+    "line": 1035,
+    "notes": "This event sets the foley/footstep type for the spearmen uint, age 2. The switch is set via sound action in the unit sbps."
+  },
+  {
+    "event": "set_switch_spearmen_01",
+    "id": "967286622",
+    "source": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\audiohigh\\card_events_00.txt",
+    "line": 1036,
+    "notes": "This event sets the foley/footstep type for the spearmen uint, age 1. The switch is set via sound action in the unit sbps."
+  },
+  {
+    "event": "common_spear_sfx_hit_play",
+    "id": "1079794555",
+    "source": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\audiohigh\\card_events_00.txt",
+    "line": 1139,
+    "notes": "[melee_impacts]"
+  },
+  {
+    "event": "sfx_ui_shared_ally_spearman_created_play",
+    "id": "1190793330",
+    "source": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\audiohigh\\card_events_00.txt",
+    "line": 1275,
+    "notes": "[0]"
+  },
+  {
+    "event": "sfx_weapon_projectile_torch",
+    "id": "1450739254",
+    "source": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\audiohigh\\card_events_00.txt",
+    "line": 1559,
+    "notes": "[projectile_small]"
+  },
+  {
+    "event": "sfx_campaign_scripted_medium_group_spearwall",
+    "id": "2116719928",
+    "source": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\audiohigh\\card_events_00.txt",
+    "line": 2224,
+    "notes": ""
+  },
+  {
+    "event": "common_spear_charge_sfx_hit_play",
+    "id": "2249603014",
+    "source": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\audiohigh\\card_events_00.txt",
+    "line": 2400,
+    "notes": ""
+  },
+  {
+    "event": "common_spear_shaolin_monk_sfx_hit_play",
+    "id": "2395333046",
+    "source": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\audiohigh\\card_events_00.txt",
+    "line": 2600,
+    "notes": "[melee_impacts]"
+  },
+  {
+    "event": "common_spear_wall_sfx_hit_play",
+    "id": "2944402330",
+    "source": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\audiohigh\\card_events_00.txt",
+    "line": 3194,
+    "notes": "[melee_impacts] "
+  },
+  {
+    "event": "sfx_campaign_scripted_small_group_spearwall",
+    "id": "3014437010",
+    "source": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\audiohigh\\card_events_00.txt",
+    "line": 3255,
+    "notes": ""
+  },
+  {
+    "event": "common_spear_tamba_sfx_hit_play",
+    "id": "3161709275",
+    "source": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\audiohigh\\card_events_00.txt",
+    "line": 3415,
+    "notes": "[melee_impacts]"
+  },
+  {
+    "event": "sfx_elephant_vocal_spearwall",
+    "id": "3367426258",
+    "source": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\audiohigh\\card_events_00.txt",
+    "line": 3649,
+    "notes": "[elephant_vocals]"
+  },
+  {
+    "event": "sfx_ui_shared_spearman_created_play",
+    "id": "3478254241",
+    "source": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\audiohigh\\card_events_00.txt",
+    "line": 3767,
+    "notes": "[0]"
+  },
+  {
+    "event": "sfx_melee_block_spear",
+    "id": "3741327139",
+    "source": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\audiohigh\\card_events_00.txt",
+    "line": 4026,
+    "notes": "[impacts_other_type]"
+  },
+  {
+    "event": "sfx_ui_shared_spearman_created_play_nis",
+    "id": "4254539558",
+    "source": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\audiohigh\\card_events_00.txt",
+    "line": 4605,
+    "notes": "[0]"
+  },
+  {
+    "event": "sfx_campaign_scripted_large_group_spearwall",
+    "id": "4281163130",
+    "source": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\audiohigh\\card_events_00.txt",
+    "line": 4627,
+    "notes": ""
+  }
+]

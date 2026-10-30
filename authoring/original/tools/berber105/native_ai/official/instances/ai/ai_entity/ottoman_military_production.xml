@@ -1,0 +1,84 @@
+<instance version="6" description="Ottomans should place military production near blacksmith and university" template="ai\ai_entity">
+  <uniqueid name="pbgid" value="2081683" />
+  <group name="ai_entity_bag" comment="Take advantage of Ottoman influence bonus. Blacksmith and University increase production rate for Military Schools (and the Istanbul Observatory acts like a University and the Tophane Armory is like a Military School).">
+    <list name="applicable_blueprints">
+      <instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_unit_infantry_ott" List.ItemID="-1778276578" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_unit_ranged_ott" List.ItemID="778728921" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_unit_cavalry_ott" List.ItemID="1339177456" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_unit_siege_ott" List.ItemID="337919948" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_military_school_ott" List.ItemID="2012975226" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_landmark_age2_tophane_armory_ott" List.ItemID="645568578" />
+    </list>
+    <group name="construction">
+      <string name="placement_function" value="" />
+      <bool name="can_build_multiple_in_parallel" value="True" />
+      <int name="max_num_additional_builders" value="4" />
+      <int name="max_num_incomplete_structures_builders" value="-1" />
+      <list name="near_to_structures">
+        <instance_reference name="structure" value="ebps\races\ottoman\buildings\building_tech_unit_infantry_ott" List.ItemID="1137554441" />
+        <instance_reference name="structure" value="ebps\races\ottoman\buildings\building_landmark_age3_istanbul_observatory_ott" List.ItemID="1616362787" />
+        <instance_reference name="structure" value="ebps\races\ottoman\buildings\building_tech_university_ott" List.ItemID="-1191945490" />
+      </list>
+      <list name="requires_structures">
+      </list>
+      <list name="near_structures_with_capability">
+      </list>
+    </group>
+  </group>
+  <variant name="xp3">
+    <uniqueid name="pbgid" value="2081683" />
+    <group name="ai_entity_bag" comment="Take advantage of Ottoman influence bonus. Blacksmith and University increase production rate for Military Schools (and the Istanbul Observatory acts like a University and the Tophane Armory is like a Military School).">
+      <list name="applicable_blueprints">
+        <instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_unit_infantry_ott" List.ItemID="-1778276578" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_unit_ranged_ott" List.ItemID="778728921" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_unit_cavalry_ott" List.ItemID="1339177456" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_unit_siege_ott" List.ItemID="337919948" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_military_school_ott" List.ItemID="2012975226" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_landmark_age2_tophane_armory_ott" List.ItemID="645568578" />
+      </list>
+      <group name="construction">
+        <string name="placement_function" value="" />
+        <bool name="can_build_multiple_in_parallel" value="True" />
+        <int name="max_num_additional_builders" value="4" />
+        <int name="max_num_incomplete_structures_builders" value="-1" />
+        <list name="near_to_structures">
+          <instance_reference name="structure" value="ebps\races\ottoman\buildings\building_tech_unit_infantry_ott" List.ItemID="1137554441" />
+          <instance_reference name="structure" value="ebps\races\ottoman\buildings\building_landmark_age3_istanbul_observatory_ott" List.ItemID="1616362787" />
+          <instance_reference name="structure" value="ebps\races\ottoman\buildings\building_tech_university_ott" List.ItemID="-1191945490" />
+        </list>
+        <list name="requires_structures">
+        </list>
+        <list name="near_structures_with_capability">
+        </list>
+      </group>
+    </group>
+  </variant>
+  <variant name="cordoba">
+    <uniqueid name="pbgid" value="2081683" />
+    <group name="ai_entity_bag" comment="Take advantage of Ottoman influence bonus. Blacksmith and University increase production rate for Military Schools (and the Istanbul Observatory acts like a University and the Tophane Armory is like a Military School).">
+      <list name="applicable_blueprints">
+        <instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_unit_infantry_ott" List.ItemID="-1778276578" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_unit_ranged_ott" List.ItemID="778728921" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_unit_cavalry_ott" List.ItemID="1339177456" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_unit_siege_ott" List.ItemID="337919948" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_military_school_ott" List.ItemID="2012975226" />
+        <instance_reference name="applicable_blueprint" value="ebps\races\ottoman\buildings\building_landmark_age2_tophane_armory_ott" List.ItemID="645568578" />
+      </list>
+      <group name="construction">
+        <string name="placement_function" value="" />
+        <bool name="can_build_multiple_in_parallel" value="True" />
+        <int name="max_num_additional_builders" value="4" />
+        <int name="max_num_incomplete_structures_builders" value="-1" />
+        <list name="near_to_structures">
+          <instance_reference name="structure" value="ebps\races\ottoman\buildings\building_tech_unit_infantry_ott" List.ItemID="1137554441" />
+          <instance_reference name="structure" value="ebps\races\ottoman\buildings\building_landmark_age3_istanbul_observatory_ott" List.ItemID="1616362787" />
+          <instance_reference name="structure" value="ebps\races\ottoman\buildings\building_tech_university_ott" List.ItemID="-1191945490" />
+        </list>
+        <list name="requires_structures">
+        </list>
+        <list name="near_structures_with_capability">
+        </list>
+      </group>
+    </group>
+  </variant>
+</instance>

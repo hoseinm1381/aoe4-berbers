@@ -1,0 +1,46 @@
+{
+  "installed_donor_request": {
+    "logical_path": "art/civilizations/abbasids/structures/keep/abb_keep_control_age03/abb_keep_control_age03.rgm"
+  },
+  "decoder_fingerprint": {
+    "sha256": "15120772b5bd1232ed437736135322b7814f82a07b0843c3e00b8b9defe01b7a",
+    "sources": {
+      "compiled_core": "15120772b5bd1232ed437736135322b7814f82a07b0843c3e00b8b9defe01b7a"
+    }
+  },
+  "provider_contract": {
+    "geometry": {
+      "logical_path": "art/civilizations/abbasids/structures/keep/abb_keep_control_age03/abb_keep_control_age03.rrgeom",
+      "provider_archive_id": "GameDX12GeoAbbasids",
+      "archive_version": "10",
+      "size": 9671980
+    },
+    "material": {
+      "logical_path": "art/civilizations/abbasids/structures/keep/abb_keep_control_age03/abb_keep_control_age03.rrmaterial",
+      "provider_archive_id": "GameDX12AssetsAbbasids",
+      "archive_version": "10",
+      "size": 84148
+    },
+    "model": {
+      "logical_path": "art/civilizations/abbasids/structures/keep/abb_keep_control_age03/abb_keep_control_age03.rgm",
+      "provider_archive_id": "CardinalArtHigh",
+      "archive_version": "10",
+      "size": 1751405
+    }
+  },
+  "copied_from_peer_readonly_cache": "research/buildings_batch/keep/stock",
+  "own_untouched_reference_blend": true,
+  "official_attrib_readbacks": [
+    "core.rgd",
+    "core.xml",
+    "mal.rgd",
+    "mal.xml"
+  ],
+  "current_xml_snapshot": "current_target.xml",
+  "geometry_reused": false,
+  "sources": [
+    "https://whc.unesco.org/en/list/1401",
+    "https://whc.unesco.org/document/152576",
+    "https://www.visitrabat.com/en/lieux/bab-el-had-2/"
+  ]
+}

@@ -1,0 +1,68 @@
+<instance version="6" description="" template="ai\ai_entity">
+  <uniqueid name="pbgid" value="2077153" />
+  <group name="ai_entity_bag">
+    <list name="applicable_blueprints">
+      <instance_reference name="applicable_blueprint" value="ebps\races\malian\buildings\building_house_mal" List.ItemID="-1054035410" />
+    </list>
+    <group name="construction">
+      <string name="placement_function" value="" />
+      <bool name="can_build_multiple_in_parallel" value="False" />
+      <int name="max_num_additional_builders" value="4" />
+      <int name="max_num_incomplete_structures_builders" value="-1" />
+      <list name="near_to_structures">
+        <instance_reference name="structure" value="ebps\races\malian\buildings\building_open_pit_mine_mal" List.ItemID="1555662183" />
+        <instance_reference name="structure" value="ebps\races\malian\buildings\building_open_pit_mine_small_mal" List.ItemID="-146677655" />
+        <instance_reference name="structure" value="ebps\races\malian\buildings\building_open_pit_mine_tiny_mal" List.ItemID="-1851014022" />
+      </list>
+      <list name="requires_structures">
+      </list>
+      <list name="near_structures_with_capability">
+      </list>
+    </group>
+  </group>
+  <variant name="xp3">
+    <uniqueid name="pbgid" value="2077153" />
+    <group name="ai_entity_bag">
+      <list name="applicable_blueprints">
+        <instance_reference name="applicable_blueprint" value="ebps\races\malian\buildings\building_house_mal" List.ItemID="-1054035410" />
+      </list>
+      <group name="construction">
+        <string name="placement_function" value="" />
+        <bool name="can_build_multiple_in_parallel" value="False" />
+        <int name="max_num_additional_builders" value="4" />
+        <int name="max_num_incomplete_structures_builders" value="-1" />
+        <list name="near_to_structures">
+          <instance_reference name="structure" value="ebps\races\malian\buildings\building_open_pit_mine_mal" List.ItemID="1555662183" />
+          <instance_reference name="structure" value="ebps\races\malian\buildings\building_open_pit_mine_small_mal" List.ItemID="-146677655" />
+        </list>
+        <list name="requires_structures">
+        </list>
+        <list name="near_structures_with_capability">
+        </list>
+      </group>
+    </group>
+  </variant>
+  <variant name="cordoba">
+    <uniqueid name="pbgid" value="2077153" />
+    <group name="ai_entity_bag">
+      <list name="applicable_blueprints">
+        <instance_reference name="applicable_blueprint" value="ebps\races\malian\buildings\building_house_mal" List.ItemID="-1054035410" />
+      </list>
+      <group name="construction">
+        <string name="placement_function" value="" />
+        <bool name="can_build_multiple_in_parallel" value="False" />
+        <int name="max_num_additional_builders" value="4" />
+        <int name="max_num_incomplete_structures_builders" value="-1" />
+        <list name="near_to_structures">
+          <instance_reference name="structure" value="ebps\races\malian\buildings\building_open_pit_mine_mal" List.ItemID="1555662183" />
+          <instance_reference name="structure" value="ebps\races\malian\buildings\building_open_pit_mine_small_mal" List.ItemID="-146677655" />
+          <instance_reference name="structure" value="ebps\races\malian\buildings\building_open_pit_mine_tiny_mal" List.ItemID="-1851014022" />
+        </list>
+        <list name="requires_structures">
+        </list>
+        <list name="near_structures_with_capability">
+        </list>
+      </group>
+    </group>
+  </variant>
+</instance>

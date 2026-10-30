@@ -1,0 +1,44 @@
+<instance version="4" description="" template="ai\ai_entity">
+  <uniqueid name="pbgid" value="9005043" />
+  <group name="ai_entity_bag">
+    <list name="applicable_blueprints">
+      <instance_reference name="applicable_blueprint" value="ebps\races\mongol_ha_gol\buildings\building_resource_pasture_mon_ha_gol" List.ItemID="-786016698" />
+    </list>
+    <group name="construction">
+      <string name="placement_function" value="" />
+      <bool name="can_build_multiple_in_parallel" value="False" />
+      <int name="max_num_additional_builders" value="4" />
+      <int name="max_num_incomplete_structures_builders" value="-1" />
+      <list name="near_to_structures">
+        <instance_reference name="structure" value="ebps\races\mongol_ha_gol\buildings\building_fortified_outpost_mon_ha_gol" List.ItemID="551866671" />
+      </list>
+      <list name="requires_structures">
+        <instance_reference name="structure" value="ebps\races\mongol_ha_gol\buildings\building_fortified_outpost_mon_ha_gol" List.ItemID="1309732276" />
+      </list>
+      <list name="near_structures_with_capability">
+      </list>
+    </group>
+  </group>
+  <variant name="cordoba">
+    <uniqueid name="pbgid" value="9005043" />
+    <group name="ai_entity_bag">
+      <list name="applicable_blueprints">
+        <instance_reference name="applicable_blueprint" value="ebps\races\mongol_ha_gol\buildings\building_resource_pasture_mon_ha_gol" List.ItemID="-786016698" />
+      </list>
+      <group name="construction">
+        <string name="placement_function" value="" />
+        <bool name="can_build_multiple_in_parallel" value="False" />
+        <int name="max_num_additional_builders" value="4" />
+        <int name="max_num_incomplete_structures_builders" value="-1" />
+        <list name="near_to_structures">
+          <instance_reference name="structure" value="ebps\races\mongol_ha_gol\buildings\building_fortified_outpost_mon_ha_gol" List.ItemID="551866671" />
+        </list>
+        <list name="requires_structures">
+          <instance_reference name="structure" value="ebps\races\mongol_ha_gol\buildings\building_fortified_outpost_mon_ha_gol" List.ItemID="1309732276" />
+        </list>
+        <list name="near_structures_with_capability">
+        </list>
+      </group>
+    </group>
+  </variant>
+</instance>

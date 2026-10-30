@@ -1,0 +1,6 @@
+import json
+from pathlib import Path
+Q=Path('research/buildings_batch/blacksmith');O=Path('output/buildings_batch/blacksmith')
+p=Q/'README.md';s=p.read_text();s+='\nFinal visual review: all three perspective previews and all eighteen orthographic views were inspected. The flue is visibly open in top views; exposed anvil/stump, quench rim and roof supports are grounded. The forge mouth and workshop bench are legible in front views. Independent audit passed ages II/III/IV with 85/101/112 saved meshes respectively, identical FBX reimport counts, packed images and matching manifests. The first audit used an overlong forge-mouth clearance extent 4cm into the rear wall; its failure is retained as iteration2_audit_extent_error.txt, and the corrected inner cavity ends at Y=1.84 (rear wall front Y=1.86). No geometry was relaxed or deleted to make that check pass.\n';p.write_text(s)
+d=json.loads((O/'delivery.json').read_text());d['visual_inspection']='All three perspectives and eighteen orthographic views inspected; anvil exposed, flue visibly open, supports grounded.';d['audit_result']={'ages':[2,3,4],'mesh_counts':[85,101,112],'saved_and_fbx_counts_equal':True,'packed_maps':True,'actual_void_contact_geometry_checks':True};(O/'delivery.json').write_text(json.dumps(d,indent=2))
+print('Blacksmith delivery complete; native integration pending.')

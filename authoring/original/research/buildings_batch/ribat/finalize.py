@@ -1,0 +1,14 @@
+import json,hashlib
+from pathlib import Path
+from PIL import Image,ImageDraw
+R=Path(__file__).resolve().parents[3];A=R/'art/buildings/ribat';O=R/'output/buildings_batch/ribat';Q=Path(__file__).parent
+names=['preview','front','back','left','right','top','bottom'];sheet=Image.new('RGB',(1400,660),(34,37,39));draw=ImageDraw.Draw(sheet)
+for row,age in enumerate([2,3,4]):
+ for i,n in enumerate(names):
+  im=Image.open(O/f'age{age}_{n}.png').convert('RGB');im.thumbnail((196,192));sheet.paste(im,(i*200+(200-im.width)//2,row*220+24));draw.text((i*200+5,row*220+5),f'Age {age} {n}',fill=(235,229,211))
+sheet.save(O/'contact_sheet.png')
+v=[json.loads((O/f'age{a}_validation.json').read_text()) for a in [2,3,4]];audit=json.loads((O/'saved_source_audit.json').read_text())
+files=[{'path':str(p.relative_to(R)).replace('\\','/'),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(A.iterdir()) if p.is_file() and p.suffix in ['.blend','.fbx','.png','.json','.py']]
+d={'key':'ribat','ages':[2,3,4],'construction_age':1,'completed_minimum_age':2,'construction_age1_source':'Age2 cumulative stage manifest','target':'ebps/races/malian/buildings/landmarks/ribat_of_sanhaja/building_landmark_age1_landmarka_mal','footprint':[6,6],'origin':[0,0,0],'animator_scale':100,'design':'Original fortified devotional/council quadrangle; cells, arcade, open court, attached southeast signal tower','donor':'Installed Malian landmark1a decoded and preserved untouched separately; no donor mesh reused','files':files,'contact_sheet':'output/buildings_batch/ribat/contact_sheet.png','source_checks':[{'age':x['age'],'mesh_objects':len(x['objects']),'triangles':sum(o['triangles'] for o in x['objects']),'measured_contacts':len(x['contacts']),'through_void_guards':len(x['void_guards']),'bounds':x['mesh_bounds'],'footprint_pass':x['footprint_pass']} for x in v],'saved_audit':audit,'owner_colour':{'source':'neutral tower/entry painted stripe zones, ber_owner_mask 1 and red-only pattern sharing albedo UV','native':'blocked integration pending; not native-ready'},'qualification':{'source':True,'cook':False,'native':False},'remaining':['native owner-colour structure shader','native construction stages/age selectors','garrison and hit anchors','LOD, damage/destruction','solo appearance and gameplay'],'production_changed':False,'distributable_built':False}
+(O/'delivery.json').write_text(json.dumps(d,indent=2))
+(Q/'AGE_AND_TARGET_EVIDENCE.json').write_text(json.dumps({'construction_age':1,'completed_age':2,'ages':[2,3,4],'current_requirement':'feudal_age is_present=False; min_completed=1 XML:980-986','installed_requirement':'mal.xml:1918-1930 feudal_age is_present=false','builder':'unit_villager_1_mal.xml:682','installed_parent':'core building_wonder_age1','installed_and_live_footprint':[6,6],'native_animator_scale':100},indent=2));print(json.dumps(d['source_checks'],indent=2))

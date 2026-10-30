@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "target_file": "scar/berber_scripted_speech.scar",
+  "unknown_calls": [
+    "family",
+    "forMod",
+    "play",
+    "pulse",
+    "session",
+    "speak",
+    "track",
+    "unit_spearman_tuareg_"
+  ],
+  "low_confidence_apis": [],
+  "missing_locdb_ids": [],
+  "summary": {
+    "call_count": 49,
+    "loc_ref_count": 0,
+    "unknown_call_count": 8,
+    "missing_locdb_count": 0
+  },
+  "confidence_model": "source_match_v1"
+}

@@ -1,0 +1,129 @@
+<instance version="6" description="designed for small attack formations, prioritizes economy and production buildings that can be quickly set on fire" template="ai\ai_formation_coordinator">
+  <group name="ai_formation_coordinator">
+    <list name="non_combat_target_info">
+      <group name="info" List.ItemID="642469532" List.ParentItemID="642469532">
+        <int name="max_units" value="0" overrideParent="True" />
+        <list name="unit_types" overrideParent="True">
+          <enum name="unit_class" value="gate" List.ItemID="54709905" />
+        </list>
+      </group>
+      <group name="info" List.ItemID="-501217517" List.ParentItemID="-501217517">
+        <list name="unit_types">
+          <enum name="unit_class" value="house" overrideParent="True" List.ItemID="-2084039848" List.ParentItemID="-2084039848" />
+          <enum name="unit_class" value="farm" overrideParent="True" List.ItemID="1665746189" List.ParentItemID="1665746189" />
+        </list>
+      </group>
+      <group name="info" List.ItemID="1870002138" List.ParentItemID="1870002138">
+        <int name="max_units" value="0" overrideParent="True" />
+        <int name="priority" value="2" overrideParent="True" />
+        <list name="unit_types" overrideParent="True">
+          <enum name="unit_class" value="resource_drop_off" overrideParent="True" List.ItemID="2103302076" />
+          <enum name="unit_class" value="capture_point" List.ItemID="216742383" />
+        </list>
+      </group>
+      <group name="info" List.ItemID="-286586598" List.ParentItemID="-286586598">
+        <int name="priority" value="3" overrideParent="True" />
+        <list name="unit_types" overrideParent="True">
+          <enum name="unit_class" value="trade_post" overrideParent="True" List.ItemID="1165429732" />
+          <enum name="unit_class" value="economy_building" List.ItemID="-1514829553" />
+          <enum name="unit_class" value="military_only_production" List.ItemID="660762704" />
+          <enum name="unit_class" value="military_production_building" List.ItemID="784030286" />
+          <enum name="unit_class" value="research_building" List.ItemID="1879714189" />
+        </list>
+      </group>
+    </list>
+    <list name="combat_target_exclude_unit_types" overrideParent="True">
+      <enum name="unit_class" value="wall" List.ItemID="828409273" />
+      <enum name="unit_class" value="landmark" overrideParent="True" List.ItemID="2058487872" />
+      <enum name="unit_class" value="animal_herdable" List.ItemID="911326469" />
+    </list>
+  </group>
+  <uniqueid name="pbgid" value="191920" />
+  <instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_basic" />
+  <variant name="xp3">
+    <group name="ai_formation_coordinator">
+      <list name="non_combat_target_info">
+        <group name="info" List.ItemID="642469532" List.ParentItemID="642469532">
+          <int name="max_units" value="0" overrideParent="True" />
+          <list name="unit_types" overrideParent="True">
+            <enum name="unit_class" value="gate" List.ItemID="54709905" />
+          </list>
+        </group>
+        <group name="info" List.ItemID="-501217517" List.ParentItemID="-501217517">
+          <list name="unit_types">
+            <enum name="unit_class" value="house" overrideParent="True" List.ItemID="-2084039848" List.ParentItemID="-2084039848" />
+            <enum name="unit_class" value="farm" overrideParent="True" List.ItemID="1665746189" List.ParentItemID="1665746189" />
+          </list>
+        </group>
+        <group name="info" List.ItemID="1870002138" List.ParentItemID="1870002138">
+          <int name="max_units" value="0" overrideParent="True" />
+          <int name="priority" value="2" overrideParent="True" />
+          <list name="unit_types" overrideParent="True">
+            <enum name="unit_class" value="resource_drop_off" overrideParent="True" List.ItemID="2103302076" />
+          </list>
+        </group>
+        <group name="info" List.ItemID="-286586598" List.ParentItemID="-286586598">
+          <int name="priority" value="3" overrideParent="True" />
+          <list name="unit_types" overrideParent="True">
+            <enum name="unit_class" value="trade_post" overrideParent="True" List.ItemID="1165429732" />
+            <enum name="unit_class" value="economy_building" List.ItemID="-1514829553" />
+            <enum name="unit_class" value="military_only_production" List.ItemID="660762704" />
+            <enum name="unit_class" value="military_production_building" List.ItemID="784030286" />
+            <enum name="unit_class" value="research_building" List.ItemID="1879714189" />
+          </list>
+        </group>
+      </list>
+      <list name="combat_target_exclude_unit_types" overrideParent="True">
+        <enum name="unit_class" value="wall" List.ItemID="828409273" />
+        <enum name="unit_class" value="castle" List.ItemID="1408078134" />
+        <enum name="unit_class" value="landmark" overrideParent="True" List.ItemID="2058487872" />
+        <enum name="unit_class" value="animal_herdable" List.ItemID="2062471956" />
+      </list>
+    </group>
+    <uniqueid name="pbgid" value="191920" />
+    <instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_basic" />
+  </variant>
+  <variant name="cordoba">
+    <group name="ai_formation_coordinator">
+      <list name="non_combat_target_info">
+        <group name="info" List.ItemID="642469532" List.ParentItemID="642469532">
+          <int name="max_units" value="0" overrideParent="True" />
+          <list name="unit_types" overrideParent="True">
+            <enum name="unit_class" value="gate" List.ItemID="54709905" />
+          </list>
+        </group>
+        <group name="info" List.ItemID="-501217517" List.ParentItemID="-501217517">
+          <list name="unit_types">
+            <enum name="unit_class" value="house" overrideParent="True" List.ItemID="-2084039848" List.ParentItemID="-2084039848" />
+            <enum name="unit_class" value="farm" overrideParent="True" List.ItemID="1665746189" List.ParentItemID="1665746189" />
+          </list>
+        </group>
+        <group name="info" List.ItemID="1870002138" List.ParentItemID="1870002138">
+          <int name="max_units" value="0" overrideParent="True" />
+          <int name="priority" value="2" overrideParent="True" />
+          <list name="unit_types" overrideParent="True">
+            <enum name="unit_class" value="resource_drop_off" overrideParent="True" List.ItemID="2103302076" />
+            <enum name="unit_class" value="capture_point" List.ItemID="216742383" />
+          </list>
+        </group>
+        <group name="info" List.ItemID="-286586598" List.ParentItemID="-286586598">
+          <int name="priority" value="3" overrideParent="True" />
+          <list name="unit_types" overrideParent="True">
+            <enum name="unit_class" value="trade_post" overrideParent="True" List.ItemID="1165429732" />
+            <enum name="unit_class" value="economy_building" List.ItemID="-1514829553" />
+            <enum name="unit_class" value="military_only_production" List.ItemID="660762704" />
+            <enum name="unit_class" value="military_production_building" List.ItemID="784030286" />
+            <enum name="unit_class" value="research_building" List.ItemID="1879714189" />
+          </list>
+        </group>
+      </list>
+      <list name="combat_target_exclude_unit_types" overrideParent="True">
+        <enum name="unit_class" value="wall" List.ItemID="828409273" />
+        <enum name="unit_class" value="landmark" overrideParent="True" List.ItemID="2058487872" />
+        <enum name="unit_class" value="animal_herdable" List.ItemID="911326469" />
+      </list>
+    </group>
+    <uniqueid name="pbgid" value="191920" />
+    <instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\ai_formation_coordinator_basic" />
+  </variant>
+</instance>

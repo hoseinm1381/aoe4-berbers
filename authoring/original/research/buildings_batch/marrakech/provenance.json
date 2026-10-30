@@ -1,0 +1,33 @@
+{
+  "stock_decode": "read-only Garrison 0.1.4 decode-static, exact logical path in catalog.json; original archive provenance in stock decoded-static.json",
+  "untouched_reference": "art/buildings/marrakech/UNTouched_Malian_Landmark2b_Reference.blend",
+  "geometry_reused": false,
+  "historical_named_building": "game-invented; inspired by actual Almohad kasbah/Bab Agnaou",
+  "evidence_files": [
+    {
+      "path": "research/buildings_batch/marrakech/core.rgd",
+      "sha256": "33dd34e47e5c97d35aafa52704f816c9e5bd678cf13246fa1e04da7131912ea7"
+    },
+    {
+      "path": "research/buildings_batch/marrakech/core.xml",
+      "sha256": "ccec2a311aa40ec25b2565a597b5efaa5b93235d3b6bb5cbbc92eedd2bc3b072"
+    },
+    {
+      "path": "research/buildings_batch/marrakech/mal.rgd",
+      "sha256": "f5c9ba279196441a77fec53122dc676827ea22ea132a184b64361acbdb07c1c8"
+    },
+    {
+      "path": "research/buildings_batch/marrakech/mal.xml",
+      "sha256": "87cb69ee6a723833f0a51f2d9bcbb5d20d900bf45a85ba71aedf58ae4251d355"
+    },
+    {
+      "path": "assets/attrib/instances/ebps/races/malian/buildings/landmarks/marrakech/building_landmark_age2_landmarkd_control_mal.xml",
+      "sha256": "223a828d33d14acab674a58badc5835887bb575096f98fbf7ef43f2d4ced0bf5"
+    },
+    {
+      "path": "assets/attrib/instances/sbps/races/malian/berbers/unit_villager_1_mal.xml",
+      "sha256": "975aa9648323baeea5ecf195edc2b138f628502cafdb11bf2f5bcbe6952d814e"
+    }
+  ],
+  "production_changed": false
+}

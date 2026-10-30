@@ -1,0 +1,8 @@
+# Outpost authoring history — 2026-10-13
+
+1. Audited current target/villager command, decoded installed official parent and four upgrade RGD files. Initial lookup guessed upgrade_outpost_fortify and returned member-not-found; queue proved upgrade_outpost_stone, whose official requirements were then decoded successfully.
+2. Catalog/decode of installed Abbasid outpost control age01 selected the stock donor matching current attachment ancestry. Raw sources and untouched decoded reference were preserved separately.
+3. Original measured square hollow tower recipe generated I–IV. Added stone fortress sleeves, arrowslit shield, springald and hollow faceted cannon in age-gated source collections, plus all valid stone/emplacement export combinations.
+4. Inspection corrected the central front parapet to clear the emplacement mouth and aligned source front FX marker positions. Final recipe includes repair_embrasure.py changes.
+5. Cycles inspection rendering competed for CPU during concurrent batch work. Two task-owned rendering attempts were stopped by their recorded PIDs only; fixed thread count was tested and final Workbench 8AA source inspection completed all views. No unrelated Blender process was touched. Final build uses private config and two render threads. This change affected presentation cost, not geometry.
+6. Source numeric audit passed all ages/states. Saved-file audit opened each packed age blend and reimported all 19 FBX states, checking counts, UVs, origin/footprint and measured contacts. Additional floor seating and canopy-beam measurements were added and reverified. Final image sheets were inspected. No cook, production integration, archive or native runtime test was performed.

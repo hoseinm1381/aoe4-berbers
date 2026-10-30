@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "archives_removed": 214,
+  "removed_by_kind": {
+    "zip": 53,
+    "sga": 161
+  },
+  "bytes_removed_by_drive": {
+    "E:": 77268668,
+    "F:": 9368829272
+  },
+  "net_bytes_reclaimed": 9446097940,
+  "retained_delivery_zips": 2,
+  "retained_source_rebuild_tool_zips": 11,
+  "retained_base_and_source_sgas": 13,
+  "all_other_existing_assets": "No non-ZIP/SGA assets deleted or modified. Documentation/scripts and active cache restore map updated deliberately.",
+  "latest_delivery_hashes": "Both 0.7.3 ZIPs unchanged, full member SHA256/CRC checks passed after deletion",
+  "base_sgas": "Retained hashes unchanged; 0.5.1, 0.6.0 and 0.6.1 internal archive verification passed",
+  "future_packaging": "Full-size isolated 0.8.0 packaging smoke test passed; temporary test ZIPs removed; not a new content release",
+  "tests": "4 fixture tests passed; active restore map has 6821 existing source paths and zero missing dependencies",
+  "rebuild_entrypoint": "research/next_release.py",
+  "instructions": "REBUILD_NEXT.md",
+  "game_files_modified": false,
+  "incomplete_deletions": 0
+}

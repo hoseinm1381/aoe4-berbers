@@ -1,0 +1,1131 @@
+<instance version="6" description="" template="ai\ai_updater">
+  <group name="ai_updater_bag">
+    <list name="ai_updater_schedule">
+      <group name="ai_updater_sequence" comment="3 active AI or dynamic limit" List.ItemID="-1929932581">
+        <list name="ai_updater_offsets">
+          <int name="ai_updater_tick_index" value="0" List.ItemID="599955865" />
+          <int name="ai_updater_tick_index" value="2" List.ItemID="-1238899121" />
+          <int name="ai_updater_tick_index" value="4" List.ItemID="-1351578221" />
+          <int name="ai_updater_tick_index" value="6" List.ItemID="1083086540" />
+          <int name="ai_updater_tick_index" value="8" List.ItemID="-483875604" />
+          <int name="ai_updater_tick_index" value="10" List.ItemID="-753396557" />
+          <int name="ai_updater_tick_index" value="12" List.ItemID="-1814046484" />
+          <int name="ai_updater_tick_index" value="12" comment="Repeated index is for 8th AI which is always a human controlled player toggled through debug menu." List.ItemID="1517142120" />
+        </list>
+        <list name="ai_updater_ticks">
+          <group name="ai_tick_state" comment="Full Update" List.ItemID="534739988">
+            <enum name="update_state" value="Full" />
+            <enum name="update_behaviour" value="Full" />
+            <enum name="update_stats" value="Full" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-414163153">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="2100064376">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="98401967">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1051625450">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1960554920">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1602734858">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="338868209">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-192777195">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1075911599">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="47725178">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="1235464243">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="628435153">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="1943520365">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+        </list>
+        <int name="ai_max_alive_threshold" value="3" />
+        <float name="ai_cpu_limit_milliseconds" value="70" />
+        <int name="ai_cpu_tick_count_threshold" value="70" />
+        <float name="ai_cpu_floor_milliseconds" value="0" />
+      </group>
+      <group name="ai_updater_sequence" comment="5 active AI or dynamic limit" List.ItemID="-1491135868">
+        <list name="ai_updater_offsets">
+          <int name="ai_updater_tick_index" value="0" List.ItemID="-849045280" />
+          <int name="ai_updater_tick_index" value="3" List.ItemID="1888492238" />
+          <int name="ai_updater_tick_index" value="6" List.ItemID="-1413258425" />
+          <int name="ai_updater_tick_index" value="9" List.ItemID="-1395361682" />
+          <int name="ai_updater_tick_index" value="12" List.ItemID="-819438118" />
+          <int name="ai_updater_tick_index" value="15" List.ItemID="1871200083" />
+          <int name="ai_updater_tick_index" value="18" List.ItemID="690464978" />
+          <int name="ai_updater_tick_index" value="18" comment="Repeated index is for 8th AI which is always a human controlled player toggled through debug menu." List.ItemID="2111506141" />
+        </list>
+        <list name="ai_updater_ticks">
+          <group name="ai_tick_state" comment="Full Update State" List.ItemID="-661480369">
+            <enum name="update_state" value="Full" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Full" />
+          </group>
+          <group name="ai_tick_state" comment="Full Update Behaviour" List.ItemID="613321904">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Full" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-2062332661">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="1621522390">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="1454799086">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="1590875851">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1089929860">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-465320234">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="1690266519">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1644006627">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="1439456715">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-250686660">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1098152102">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="763760860">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1020389751">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-341163181">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="737184372">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1613278606">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="624797745">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1327282894">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-262350592">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+        </list>
+        <int name="ai_max_alive_threshold" value="5" />
+        <float name="ai_cpu_limit_milliseconds" value="70" />
+        <int name="ai_cpu_tick_count_threshold" value="105" />
+        <float name="ai_cpu_floor_milliseconds" value="40" />
+      </group>
+      <group name="ai_updater_sequence" comment="8 active AI or dynamic limit" List.ItemID="1151643165">
+        <list name="ai_updater_offsets">
+          <int name="ai_updater_tick_index" value="0" List.ItemID="-1632389252" />
+          <int name="ai_updater_tick_index" value="4" List.ItemID="776497908" />
+          <int name="ai_updater_tick_index" value="8" List.ItemID="-1854851969" />
+          <int name="ai_updater_tick_index" value="12" List.ItemID="-950670193" />
+          <int name="ai_updater_tick_index" value="16" List.ItemID="1104386957" />
+          <int name="ai_updater_tick_index" value="20" List.ItemID="-1240958746" />
+          <int name="ai_updater_tick_index" value="24" List.ItemID="670379912" />
+          <int name="ai_updater_tick_index" value="24" comment="Repeated index is for 8th AI which is always a human controlled player toggled through debug menu." List.ItemID="1709101130" />
+        </list>
+        <list name="ai_updater_ticks">
+          <group name="ai_tick_state" comment="Full Update Stats" List.ItemID="-1364866242">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Full" />
+          </group>
+          <group name="ai_tick_state" comment="Full Update State" List.ItemID="1858654111">
+            <enum name="update_state" value="Full" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Full Update Behaviour" List.ItemID="-555721323">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Full" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="535435869">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1476340629">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1548534302">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="1041534431">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1437244400">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="681849378">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="652528862">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="1512582350">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-728743200">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1779216302">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="1036659716">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1168819458">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1690094812">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="1184074664">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="1475080896">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="1465868123">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="1718998231">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="698316779">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-755851713">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-595257987">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-595478605">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1931784401">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1706491567">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1799927701">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+          <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1496024095">
+            <enum name="update_state" value="Partial" />
+            <enum name="update_behaviour" value="Partial" />
+            <enum name="update_stats" value="Partial" />
+          </group>
+        </list>
+        <int name="ai_max_alive_threshold" value="8" />
+        <float name="ai_cpu_limit_milliseconds" value="1024" />
+        <int name="ai_cpu_tick_count_threshold" value="140" />
+        <float name="ai_cpu_floor_milliseconds" value="40" />
+      </group>
+    </list>
+    <bool name="ai_updater_dynamic" value="False" />
+  </group>
+  <uniqueid name="pbgid" value="235012" />
+  <variant name="xp3">
+    <group name="ai_updater_bag">
+      <list name="ai_updater_schedule">
+        <group name="ai_updater_sequence" comment="3 active AI or dynamic limit" List.ItemID="-1929932581">
+          <list name="ai_updater_offsets">
+            <int name="ai_updater_tick_index" value="0" List.ItemID="599955865" />
+            <int name="ai_updater_tick_index" value="2" List.ItemID="-1238899121" />
+            <int name="ai_updater_tick_index" value="4" List.ItemID="-1351578221" />
+            <int name="ai_updater_tick_index" value="6" List.ItemID="1083086540" />
+            <int name="ai_updater_tick_index" value="8" List.ItemID="-483875604" />
+            <int name="ai_updater_tick_index" value="10" List.ItemID="-753396557" />
+            <int name="ai_updater_tick_index" value="12" List.ItemID="-1814046484" />
+            <int name="ai_updater_tick_index" value="12" comment="Repeated index is for 8th AI which is always a human controlled player toggled through debug menu." List.ItemID="1517142120" />
+          </list>
+          <list name="ai_updater_ticks">
+            <group name="ai_tick_state" comment="Full Update" List.ItemID="534739988">
+              <enum name="update_state" value="Full" />
+              <enum name="update_behaviour" value="Full" />
+              <enum name="update_stats" value="Full" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-414163153">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="2100064376">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="98401967">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1051625450">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1960554920">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1602734858">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="338868209">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-192777195">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1075911599">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="47725178">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1235464243">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="628435153">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1943520365">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+          </list>
+          <int name="ai_max_alive_threshold" value="3" />
+          <float name="ai_cpu_limit_milliseconds" value="70" />
+          <int name="ai_cpu_tick_count_threshold" value="70" />
+          <float name="ai_cpu_floor_milliseconds" value="0" />
+        </group>
+        <group name="ai_updater_sequence" comment="5 active AI or dynamic limit" List.ItemID="-1491135868">
+          <list name="ai_updater_offsets">
+            <int name="ai_updater_tick_index" value="0" List.ItemID="-849045280" />
+            <int name="ai_updater_tick_index" value="3" List.ItemID="1888492238" />
+            <int name="ai_updater_tick_index" value="6" List.ItemID="-1413258425" />
+            <int name="ai_updater_tick_index" value="9" List.ItemID="-1395361682" />
+            <int name="ai_updater_tick_index" value="12" List.ItemID="-819438118" />
+            <int name="ai_updater_tick_index" value="15" List.ItemID="1871200083" />
+            <int name="ai_updater_tick_index" value="18" List.ItemID="690464978" />
+            <int name="ai_updater_tick_index" value="18" comment="Repeated index is for 8th AI which is always a human controlled player toggled through debug menu." List.ItemID="2111506141" />
+          </list>
+          <list name="ai_updater_ticks">
+            <group name="ai_tick_state" comment="Full Update State" List.ItemID="-661480369">
+              <enum name="update_state" value="Full" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Full" />
+            </group>
+            <group name="ai_tick_state" comment="Full Update Behaviour" List.ItemID="613321904">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Full" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-2062332661">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1621522390">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1454799086">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1590875851">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1089929860">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-465320234">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1690266519">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1644006627">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1439456715">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-250686660">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1098152102">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="763760860">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1020389751">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-341163181">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="737184372">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1613278606">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="624797745">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1327282894">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-262350592">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+          </list>
+          <int name="ai_max_alive_threshold" value="5" />
+          <float name="ai_cpu_limit_milliseconds" value="70" />
+          <int name="ai_cpu_tick_count_threshold" value="105" />
+          <float name="ai_cpu_floor_milliseconds" value="40" />
+        </group>
+        <group name="ai_updater_sequence" comment="8 active AI or dynamic limit" List.ItemID="1151643165">
+          <list name="ai_updater_offsets">
+            <int name="ai_updater_tick_index" value="0" List.ItemID="-1632389252" />
+            <int name="ai_updater_tick_index" value="4" List.ItemID="776497908" />
+            <int name="ai_updater_tick_index" value="8" List.ItemID="-1854851969" />
+            <int name="ai_updater_tick_index" value="12" List.ItemID="-950670193" />
+            <int name="ai_updater_tick_index" value="16" List.ItemID="1104386957" />
+            <int name="ai_updater_tick_index" value="20" List.ItemID="-1240958746" />
+            <int name="ai_updater_tick_index" value="24" List.ItemID="670379912" />
+            <int name="ai_updater_tick_index" value="24" comment="Repeated index is for 8th AI which is always a human controlled player toggled through debug menu." List.ItemID="1709101130" />
+          </list>
+          <list name="ai_updater_ticks">
+            <group name="ai_tick_state" comment="Full Update Stats" List.ItemID="-1364866242">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Full" />
+            </group>
+            <group name="ai_tick_state" comment="Full Update State" List.ItemID="1858654111">
+              <enum name="update_state" value="Full" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Full Update Behaviour" List.ItemID="-555721323">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Full" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="535435869">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1476340629">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1548534302">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1041534431">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1437244400">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="681849378">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="652528862">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1512582350">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-728743200">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1779216302">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1036659716">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1168819458">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1690094812">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1184074664">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1475080896">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1465868123">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1718998231">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="698316779">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-755851713">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-595257987">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-595478605">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1931784401">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1706491567">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1799927701">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1496024095">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+          </list>
+          <int name="ai_max_alive_threshold" value="8" />
+          <float name="ai_cpu_limit_milliseconds" value="1024" />
+          <int name="ai_cpu_tick_count_threshold" value="140" />
+          <float name="ai_cpu_floor_milliseconds" value="40" />
+        </group>
+      </list>
+      <bool name="ai_updater_dynamic" value="False" />
+    </group>
+    <uniqueid name="pbgid" value="235012" />
+  </variant>
+  <variant name="cordoba">
+    <group name="ai_updater_bag">
+      <list name="ai_updater_schedule">
+        <group name="ai_updater_sequence" comment="3 active AI or dynamic limit" List.ItemID="-1929932581">
+          <list name="ai_updater_offsets">
+            <int name="ai_updater_tick_index" value="0" List.ItemID="599955865" />
+            <int name="ai_updater_tick_index" value="2" List.ItemID="-1238899121" />
+            <int name="ai_updater_tick_index" value="4" List.ItemID="-1351578221" />
+            <int name="ai_updater_tick_index" value="6" List.ItemID="1083086540" />
+            <int name="ai_updater_tick_index" value="8" List.ItemID="-483875604" />
+            <int name="ai_updater_tick_index" value="10" List.ItemID="-753396557" />
+            <int name="ai_updater_tick_index" value="12" List.ItemID="-1814046484" />
+            <int name="ai_updater_tick_index" value="12" comment="Repeated index is for 8th AI which is always a human controlled player toggled through debug menu." List.ItemID="1517142120" />
+          </list>
+          <list name="ai_updater_ticks">
+            <group name="ai_tick_state" comment="Full Update" List.ItemID="534739988">
+              <enum name="update_state" value="Full" />
+              <enum name="update_behaviour" value="Full" />
+              <enum name="update_stats" value="Full" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-414163153">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="2100064376">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="98401967">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1051625450">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1960554920">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1602734858">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="338868209">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-192777195">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1075911599">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="47725178">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1235464243">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="628435153">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1943520365">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+          </list>
+          <int name="ai_max_alive_threshold" value="3" />
+          <float name="ai_cpu_limit_milliseconds" value="70" />
+          <int name="ai_cpu_tick_count_threshold" value="70" />
+          <float name="ai_cpu_floor_milliseconds" value="0" />
+        </group>
+        <group name="ai_updater_sequence" comment="5 active AI or dynamic limit" List.ItemID="-1491135868">
+          <list name="ai_updater_offsets">
+            <int name="ai_updater_tick_index" value="0" List.ItemID="-849045280" />
+            <int name="ai_updater_tick_index" value="3" List.ItemID="1888492238" />
+            <int name="ai_updater_tick_index" value="6" List.ItemID="-1413258425" />
+            <int name="ai_updater_tick_index" value="9" List.ItemID="-1395361682" />
+            <int name="ai_updater_tick_index" value="12" List.ItemID="-819438118" />
+            <int name="ai_updater_tick_index" value="15" List.ItemID="1871200083" />
+            <int name="ai_updater_tick_index" value="18" List.ItemID="690464978" />
+            <int name="ai_updater_tick_index" value="18" comment="Repeated index is for 8th AI which is always a human controlled player toggled through debug menu." List.ItemID="2111506141" />
+          </list>
+          <list name="ai_updater_ticks">
+            <group name="ai_tick_state" comment="Full Update State" List.ItemID="-661480369">
+              <enum name="update_state" value="Full" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Full" />
+            </group>
+            <group name="ai_tick_state" comment="Full Update Behaviour" List.ItemID="613321904">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Full" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-2062332661">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1621522390">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1454799086">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1590875851">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1089929860">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-465320234">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1690266519">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1644006627">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1439456715">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-250686660">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1098152102">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="763760860">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1020389751">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-341163181">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="737184372">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1613278606">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="624797745">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1327282894">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-262350592">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+          </list>
+          <int name="ai_max_alive_threshold" value="5" />
+          <float name="ai_cpu_limit_milliseconds" value="70" />
+          <int name="ai_cpu_tick_count_threshold" value="105" />
+          <float name="ai_cpu_floor_milliseconds" value="40" />
+        </group>
+        <group name="ai_updater_sequence" comment="8 active AI or dynamic limit" List.ItemID="1151643165">
+          <list name="ai_updater_offsets">
+            <int name="ai_updater_tick_index" value="0" List.ItemID="-1632389252" />
+            <int name="ai_updater_tick_index" value="4" List.ItemID="776497908" />
+            <int name="ai_updater_tick_index" value="8" List.ItemID="-1854851969" />
+            <int name="ai_updater_tick_index" value="12" List.ItemID="-950670193" />
+            <int name="ai_updater_tick_index" value="16" List.ItemID="1104386957" />
+            <int name="ai_updater_tick_index" value="20" List.ItemID="-1240958746" />
+            <int name="ai_updater_tick_index" value="24" List.ItemID="670379912" />
+            <int name="ai_updater_tick_index" value="24" comment="Repeated index is for 8th AI which is always a human controlled player toggled through debug menu." List.ItemID="1709101130" />
+          </list>
+          <list name="ai_updater_ticks">
+            <group name="ai_tick_state" comment="Full Update Stats" List.ItemID="-1364866242">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Full" />
+            </group>
+            <group name="ai_tick_state" comment="Full Update State" List.ItemID="1858654111">
+              <enum name="update_state" value="Full" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Full Update Behaviour" List.ItemID="-555721323">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Full" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="535435869">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1476340629">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1548534302">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1041534431">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1437244400">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="681849378">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="652528862">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1512582350">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-728743200">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1779216302">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1036659716">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1168819458">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1690094812">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1184074664">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1475080896">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1465868123">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="1718998231">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="698316779">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-755851713">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-595257987">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-595478605">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1931784401">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1706491567">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1799927701">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+            <group name="ai_tick_state" comment="Partial Update" List.ItemID="-1496024095">
+              <enum name="update_state" value="Partial" />
+              <enum name="update_behaviour" value="Partial" />
+              <enum name="update_stats" value="Partial" />
+            </group>
+          </list>
+          <int name="ai_max_alive_threshold" value="8" />
+          <float name="ai_cpu_limit_milliseconds" value="1024" />
+          <int name="ai_cpu_tick_count_threshold" value="140" />
+          <float name="ai_cpu_floor_milliseconds" value="40" />
+        </group>
+      </list>
+      <bool name="ai_updater_dynamic" value="False" />
+    </group>
+    <uniqueid name="pbgid" value="235012" />
+  </variant>
+</instance>

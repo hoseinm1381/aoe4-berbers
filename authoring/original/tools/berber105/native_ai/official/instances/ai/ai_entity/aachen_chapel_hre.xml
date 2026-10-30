@@ -1,0 +1,66 @@
+<instance version="6" description="Aachen Chapel landmark should be near resource drop-offs" template="ai\ai_entity">
+  <uniqueid name="pbgid" value="2085233" />
+  <group name="ai_entity_bag">
+    <list name="applicable_blueprints">
+      <instance_reference name="applicable_blueprint" value="ebps\races\hre\buildings\building_landmark_age1_palantine_chapel_hre\building_landmark_age1_palantine_chapel_hre" List.ItemID="1367587985" />
+    </list>
+    <group name="construction">
+      <string name="placement_function" value="" />
+      <bool name="can_build_multiple_in_parallel" value="False" />
+      <int name="max_num_additional_builders" value="4" />
+      <int name="max_num_incomplete_structures_builders" value="-1" />
+      <list name="near_to_structures">
+        <instance_reference name="structure" value="ebps\races\hre\buildings\building_econ_mining_camp_hre\building_econ_mining_camp_control_hre" List.ItemID="1201449726" />
+        <instance_reference name="structure" value="ebps\races\hre\buildings\building_econ_food_hre\building_econ_food_control_hre" List.ItemID="983966975" />
+      </list>
+      <list name="requires_structures">
+      </list>
+      <list name="near_structures_with_capability">
+      </list>
+    </group>
+  </group>
+  <variant name="xp3">
+    <uniqueid name="pbgid" value="2085233" />
+    <group name="ai_entity_bag">
+      <list name="applicable_blueprints">
+        <instance_reference name="applicable_blueprint" value="ebps\races\hre\buildings\building_landmark_age1_palantine_chapel_hre\building_landmark_age1_palantine_chapel_hre" List.ItemID="1367587985" />
+      </list>
+      <group name="construction">
+        <string name="placement_function" value="" />
+        <bool name="can_build_multiple_in_parallel" value="False" />
+        <int name="max_num_additional_builders" value="4" />
+        <int name="max_num_incomplete_structures_builders" value="-1" />
+        <list name="near_to_structures">
+          <instance_reference name="structure" value="ebps\races\hre\buildings\building_econ_mining_camp_hre\building_econ_mining_camp_control_hre" List.ItemID="1201449726" />
+          <instance_reference name="structure" value="ebps\races\hre\buildings\building_econ_food_hre\building_econ_food_control_hre" List.ItemID="983966975" />
+        </list>
+        <list name="requires_structures">
+        </list>
+        <list name="near_structures_with_capability">
+        </list>
+      </group>
+    </group>
+  </variant>
+  <variant name="cordoba">
+    <uniqueid name="pbgid" value="2085233" />
+    <group name="ai_entity_bag">
+      <list name="applicable_blueprints">
+        <instance_reference name="applicable_blueprint" value="ebps\races\hre\buildings\building_landmark_age1_palantine_chapel_hre\building_landmark_age1_palantine_chapel_hre" List.ItemID="1367587985" />
+      </list>
+      <group name="construction">
+        <string name="placement_function" value="" />
+        <bool name="can_build_multiple_in_parallel" value="False" />
+        <int name="max_num_additional_builders" value="4" />
+        <int name="max_num_incomplete_structures_builders" value="-1" />
+        <list name="near_to_structures">
+          <instance_reference name="structure" value="ebps\races\hre\buildings\building_econ_mining_camp_hre\building_econ_mining_camp_control_hre" List.ItemID="1201449726" />
+          <instance_reference name="structure" value="ebps\races\hre\buildings\building_econ_food_hre\building_econ_food_control_hre" List.ItemID="983966975" />
+        </list>
+        <list name="requires_structures">
+        </list>
+        <list name="near_structures_with_capability">
+        </list>
+      </group>
+    </group>
+  </variant>
+</instance>

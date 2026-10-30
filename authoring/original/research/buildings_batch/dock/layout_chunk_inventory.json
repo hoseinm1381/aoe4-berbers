@@ -1,0 +1,82 @@
+[
+  {
+    "offset": 24,
+    "id": "FOLDMODL",
+    "next_uint32": [
+      3,
+      17551,
+      0,
+      1096040772
+    ]
+  },
+  {
+    "offset": 44,
+    "id": "DATAINFO",
+    "next_uint32": [
+      12,
+      32,
+      0,
+      16842753
+    ]
+  },
+  {
+    "offset": 96,
+    "id": "DATAMRKS",
+    "next_uint32": [
+      3,
+      15441,
+      0,
+      9
+    ]
+  },
+  {
+    "offset": 15557,
+    "id": "DATASKLN",
+    "next_uint32": [
+      6,
+      121,
+      0,
+      0
+    ]
+  },
+  {
+    "offset": 15698,
+    "id": "DATABANA",
+    "next_uint32": [
+      3,
+      73,
+      0,
+      69
+    ]
+  },
+  {
+    "offset": 15791,
+    "id": "FOLDMSBP",
+    "next_uint32": [
+      2,
+      70,
+      0,
+      1096040772
+    ]
+  },
+  {
+    "offset": 15881,
+    "id": "FOLDMRBP",
+    "next_uint32": [
+      1,
+      24,
+      0,
+      1096040772
+    ]
+  },
+  {
+    "offset": 15925,
+    "id": "DATACUAT",
+    "next_uint32": [
+      2,
+      1650,
+      0,
+      35
+    ]
+  }
+]

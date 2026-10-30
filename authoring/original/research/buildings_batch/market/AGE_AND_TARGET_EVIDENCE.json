@@ -1,0 +1,16 @@
+{
+  "minimum_age": 2,
+  "required_ages": [
+    2,
+    3,
+    4
+  ],
+  "live_entity": "ebps/races/malian/buildings/building_econ_market_mal",
+  "live_xml_parent_line": 833,
+  "live_builder": "assets/attrib/instances/sbps/races/malian/berbers/unit_villager_1_mal.xml:935",
+  "official_source_archive": "E:/Games/steamapps/common/Age of Empires IV/cardinal/archives/Attrib.sga",
+  "official_requirement": "core.xml:979-999 requirement_ext.required_player_upgrade feudal_age include_completed=true min_completed=1 is_present=true",
+  "footprint": "core.xml:111-118 site_ext footprint_scale x=8,y=8 forced_axis_aligned_footprint=true snap_to_construction_grid=true",
+  "render_bounds_are_footprint": false,
+  "native_anchor_binding": "pending; author markers are separate source annotations"
+}

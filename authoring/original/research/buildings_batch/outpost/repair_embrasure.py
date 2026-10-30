@@ -1,0 +1,11 @@
+from pathlib import Path
+p=Path('art/buildings/outpost/build_outpost.py');s=p.read_text()
+s=s.replace("for y in [-1.44,1.44]:box('lookout_parapet',(0,y,top+.35),(3.16,.28,.46),wall,80);contact(bpy.context.object.name,'lookout_floor')","box('lookout_parapet_back',(0,1.44,top+.35),(3.16,.28,.46),wall,80);contact(bpy.context.object.name,'lookout_floor')\n for x in [-1.04,1.04]:box('lookout_parapet_front',(x,-1.44,top+.35),(1.08,.28,.46),wall,80);contact(bpy.context.object.name,'lookout_floor')")
+s=s.replace("box('neutral_owner_front_band',(0,-1.59,top+.36),(2.40,.025,.18),'owner_cloth',100)","for x in [-1.04,1.04]:box('neutral_owner_front_band',(x,-1.59,top+.36),(.85,.025,.18),'owner_cloth',100)")
+s=s.replace("for i,(x,y,ang) in enumerate([(0,-1.75,0),(1.75,0,math.pi/2),(0,1.75,math.pi),(-1.75,0,-math.pi/2)]):", "radius,zoff={'arrow':(1.06,.42),'springald':(1.45,.77),'cannon':(1.43,.58)}[weapon]\n  for i,(x,y,ang) in enumerate([(0,-radius,0),(radius,0,math.pi/2),(0,radius,math.pi),(-radius,0,-math.pi/2)]):")
+s=s.replace("location=(x,y,top+.63)","location=(x,y,top+zoff)")
+s=s.replace("ctx=reset_scene();PARTS=[]", "print('AGE_START',age,flush=True);ctx=reset_scene();PARTS=[]")
+s=s.replace("base=[o for o", "print('BASE_DONE',age,flush=True);base=[o for o")
+s=s.replace("alt['stone']=[o", "print('STONE_DONE',age,flush=True);alt['stone']=[o")
+s=s.replace("allmesh=[o", "print('STATES_DONE',age,flush=True);allmesh=[o")
+p.write_text(s)

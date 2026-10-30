@@ -1,0 +1,52 @@
+{
+  "garrison_shared.building_project": {
+    "sha256_bytes": "(data: 'bytes') -> 'str'",
+    "sha256_file": "(path: 'str | os.PathLike[str]') -> 'str'",
+    "catalog": "()",
+    "profile": "(key='english-house')",
+    "parts": "(rows, profile_id='english-house')",
+    "selectors": "(rows, profile_id='english-house')",
+    "stem": "(key, name)",
+    "stamp_path": "(key, name)",
+    "stamp_source": "(key, name)",
+    "_strings": "(payload)",
+    "construction_model": "(cooked, stock, rows, profile_id='english-house')",
+    "_derived": "(key, name, game, existing, profile_id='english-house')",
+    "check_recipes": "(record, name)",
+    "add": "(project, source, name, *, profile_id=None, integration=None, replace_house_button=None)",
+    "build_commands": "(builder, game=None)",
+    "check_integration": "(value, game)",
+    "_integration": "(item, game)",
+    "has_builder_edits": "(record)",
+    "builder_edits": "(record, game)",
+    "owned_recipe": "(record, family, name)",
+    "remove": "(project, name)",
+    "contribution": "(inputs)"
+  },
+  "tables": [
+    [
+      "metadata",
+      "CREATE TABLE metadata (key TEXT PRIMARY KEY, value TEXT NOT NULL)"
+    ],
+    [
+      "archives",
+      "CREATE TABLE archives (\n            id INTEGER PRIMARY KEY,\n            product TEXT NOT NULL,\n            name TEXT NOT NULL,\n            path TEXT NOT NULL UNIQUE,\n            size INTEGER NOT NULL,\n            mtime_ns INTEGER NOT NULL,\n            archive_id TEXT NOT NULL,\n            archive_version TEXT NOT NULL,\n            product_version TEXT NOT NULL,\n            verified INTEGER NOT NULL,\n            indexed_members INTEGER NOT NULL\n        )"
+    ],
+    [
+      "assets",
+      "CREATE TABLE assets (\n            id INTEGER PRIMARY KEY,\n            archive_id INTEGER NOT NULL REFERENCES archives(id),\n            logical_path TEXT NOT NULL,\n            folder TEXT NOT NULL,\n            name TEXT NOT NULL,\n            extension TEXT NOT NULL,\n            asset_kind TEXT NOT NULL,\n            curated_category TEXT NOT NULL,\n            civilization TEXT NOT NULL,\n            object_class TEXT NOT NULL,\n            object_type TEXT NOT NULL,\n            size INTEGER NOT NULL,\n            raw_name TEXT NOT NULL,\n            verification TEXT NOT NULL,\n            storage TEXT NOT NULL,\n            encryption TEXT NOT NULL,\n            preview_status TEXT NOT NULL DEFAULT 'not_generated',\n            preview_path TEXT\n        )"
+    ],
+    [
+      "resolved_assets",
+      "CREATE TABLE resolved_assets(\n  id INT,\n  logical_path TEXT,\n  folder TEXT,\n  name TEXT,\n  extension TEXT,\n  asset_kind TEXT,\n  curated_category TEXT,\n  civilization TEXT,\n  object_class TEXT,\n  object_type TEXT,\n  size INT,\n  raw_name TEXT,\n  preview_status TEXT,\n  preview_path TEXT,\n  product TEXT,\n  archive TEXT,\n  archive_path TEXT,\n  provider_archive_id TEXT,\n  archive_version TEXT,\n  product_version TEXT,\n  verified INT,\n  provider_count\n)"
+    ],
+    [
+      "folders",
+      "CREATE TABLE folders(folder TEXT,file_count)"
+    ],
+    [
+      "object_types",
+      "CREATE TABLE object_types(\n  object_class TEXT,\n  object_type TEXT,\n  resource_count,\n  model_count,\n  representative_model\n)"
+    ]
+  ]
+}

@@ -1,0 +1,482 @@
+<instance version="6" description="" template="ai\ai_formation_coordinator">
+  <group name="ai_formation_coordinator">
+    <list name="non_combat_target_info">
+      <group name="info" List.ItemID="642469532">
+        <float name="burn_amount_threshold" value="0" />
+        <int name="max_units" value="0" />
+        <int name="priority" value="0" />
+        <list name="unit_types">
+          <enum name="unit_class" value="wonder_imperial_age" List.ItemID="-622470516" />
+          <enum name="unit_class" value="gate" List.ItemID="-1196419187" />
+        </list>
+      </group>
+      <group name="info" List.ItemID="-501217517">
+        <float name="burn_amount_threshold" value="1" />
+        <int name="max_units" value="8" />
+        <int name="priority" value="1" />
+        <list name="unit_types">
+          <enum name="unit_class" value="farm" List.ItemID="-2084039848" />
+          <enum name="unit_class" value="house" List.ItemID="1665746189" />
+          <enum name="unit_class" value="pit_mine" List.ItemID="365211841" />
+          <enum name="unit_class" value="ranch" List.ItemID="1305321920" />
+          <enum name="unit_class" value="cistern" List.ItemID="-1116179337" />
+          <enum name="unit_class" value="aqueduct" List.ItemID="-381390611" />
+          <enum name="unit_class" value="aqueduct_bastion" List.ItemID="-1992067485" />
+        </list>
+      </group>
+      <group name="info" List.ItemID="1870002138">
+        <float name="burn_amount_threshold" value="0" />
+        <int name="max_units" value="0" />
+        <int name="priority" value="2" />
+        <list name="unit_types">
+          <enum name="unit_class" value="outpost" List.ItemID="803582799" />
+          <enum name="unit_class" value="castle" List.ItemID="-1580110751" />
+          <enum name="unit_class" value="capture_point" List.ItemID="-573087101" />
+        </list>
+      </group>
+      <group name="info" List.ItemID="-286586598">
+        <float name="burn_amount_threshold" value="1" />
+        <int name="max_units" value="0" />
+        <int name="priority" value="3" />
+        <list name="unit_types">
+          <enum name="unit_class" value="economy_building" List.ItemID="860525961" />
+          <enum name="unit_class" value="research_building" List.ItemID="-1571603521" />
+          <enum name="unit_class" value="military_production_building" List.ItemID="-1159629827" />
+          <enum name="unit_class" value="mobile_building" List.ItemID="-595769816" />
+        </list>
+      </group>
+      <group name="info" List.ItemID="1580560633">
+        <float name="burn_amount_threshold" value="0" />
+        <int name="max_units" value="0" />
+        <int name="priority" value="4" />
+        <list name="unit_types">
+          <enum name="unit_class" value="landmark" List.ItemID="1334007492" />
+          <enum name="unit_class" value="town_center" List.ItemID="-787081887" />
+          <enum name="unit_class" value="wonder" List.ItemID="-667998190" />
+        </list>
+      </group>
+    </list>
+    <float name="ranged_unit_danger_distance" value="12" />
+    <template_reference name="siege_option" value="options\ai\encounters\formation_siege_coordinator_option">
+      <int name="destroy_sections_count" value="1" />
+      <int name="max_attackers_per_section" value="0" />
+      <template_reference name="unit_type_scores" value="">
+      </template_reference>
+      <bool name="initialize_at_encounter_target" value="True" />
+    </template_reference>
+    <float name="ranged_unit_critical_value" value="1" />
+    <float name="setup_unit_critical_value" value="2" />
+    <bool name="ignore_walls_if_no_other_targets" value="True" />
+    <float name="direct_path_to_target_tolerance" value="3.3" />
+    <float name="direct_path_to_target_tolerance_on_wall" value="1.7" />
+    <float name="path_distance_to_target_threshold" value="2" />
+    <template_reference name="defensive_wall_option" value="">
+    </template_reference>
+    <list name="combat_target_exclude_unit_types">
+      <enum name="unit_class" value="wall" List.ItemID="-116817004" />
+      <enum name="unit_class" value="animal_herdable" List.ItemID="-39850611" />
+    </list>
+    <bool name="ignore_non_pathable_targets" value="False" />
+    <bool name="ignore_behind_wall_targets" value="False" />
+    <bool name="ignore_on_wall_targets" value="False" />
+    <list name="path_blocker_targeting_info">
+      <group name="targeting_info" comment="If attackers include siege towers, don't consider stone gates." List.ItemID="-122734549">
+        <list name="attacker_unit_types_include">
+          <enum name="unit_class" value="siege_tower" List.ItemID="495658543" />
+        </list>
+        <group name="blocker_target_scoring">
+          <float name="proximity_multiplier" value="1" />
+          <list name="unit_type_multipliers">
+            <group name="unit_type_multiplier" List.ItemID="925109192">
+              <list name="unit_types">
+                <enum name="unit_type" value="stone_wall" List.ItemID="-1976074658" />
+              </list>
+              <float name="multiplier" value="1" />
+            </group>
+            <group name="unit_type_multiplier" List.ItemID="951801846">
+              <list name="unit_types">
+                <enum name="unit_type" value="palisade_gate" List.ItemID="1366101550" />
+                <enum name="unit_type" value="stone_gate" List.ItemID="-1459140302" />
+                <enum name="unit_type" value="palisade_wall" List.ItemID="-94506293" />
+              </list>
+              <float name="multiplier" value="0" />
+            </group>
+          </list>
+        </group>
+        <list name="attacker_unit_types_exclude">
+        </list>
+      </group>
+      <group name="targeting_info" List.ItemID="-303516486">
+        <list name="attacker_unit_types_include">
+          <enum name="unit_class" value="siege" List.ItemID="1502087191" />
+        </list>
+        <group name="blocker_target_scoring">
+          <float name="proximity_multiplier" value="1" />
+          <list name="unit_type_multipliers">
+            <group name="unit_type_multiplier" List.ItemID="-1844994643">
+              <list name="unit_types">
+                <enum name="unit_type" value="palisade_gate" List.ItemID="1861238799" />
+                <enum name="unit_type" value="palisade_wall" List.ItemID="1133218698" />
+                <enum name="unit_type" value="stone_wall" List.ItemID="-1674354871" />
+                <enum name="unit_type" value="stone_gate" List.ItemID="175224813" />
+              </list>
+              <float name="multiplier" value="1" />
+            </group>
+          </list>
+        </group>
+        <list name="attacker_unit_types_exclude">
+          <enum name="unit_class" value="siege_tower" List.ItemID="1081107753" />
+        </list>
+      </group>
+      <group name="targeting_info" List.ItemID="30327303">
+        <list name="attacker_unit_types_include">
+          <enum name="unit_class" value="military" List.ItemID="-1446396379" />
+        </list>
+        <group name="blocker_target_scoring">
+          <float name="proximity_multiplier" value="1" />
+          <list name="unit_type_multipliers">
+            <group name="unit_type_multiplier" List.ItemID="23729112">
+              <list name="unit_types">
+                <enum name="unit_type" value="palisade_wall" List.ItemID="335866275" />
+              </list>
+              <float name="multiplier" value="0.8" />
+            </group>
+            <group name="unit_type_multiplier" List.ItemID="-387735769">
+              <list name="unit_types">
+                <enum name="unit_type" value="palisade_gate" List.ItemID="1642854592" />
+              </list>
+              <float name="multiplier" value="1" />
+            </group>
+          </list>
+        </group>
+        <list name="attacker_unit_types_exclude">
+        </list>
+      </group>
+    </list>
+    <bool name="include_world_neutral_enemies" value="False" />
+    <float name="non_pathable_target_max_age" value="5" />
+  </group>
+  <uniqueid name="pbgid" value="190938" />
+  <instance_reference name="parent_pbg" value="" />
+  <variant name="xp3">
+    <group name="ai_formation_coordinator">
+      <list name="non_combat_target_info">
+        <group name="info" List.ItemID="642469532">
+          <float name="burn_amount_threshold" value="0" />
+          <int name="max_units" value="0" />
+          <int name="priority" value="0" />
+          <list name="unit_types">
+            <enum name="unit_class" value="wonder_imperial_age" List.ItemID="-622470516" />
+            <enum name="unit_class" value="gate" List.ItemID="-1196419187" />
+          </list>
+        </group>
+        <group name="info" List.ItemID="-501217517">
+          <float name="burn_amount_threshold" value="1" />
+          <int name="max_units" value="8" />
+          <int name="priority" value="1" />
+          <list name="unit_types">
+            <enum name="unit_class" value="farm" List.ItemID="-2084039848" />
+            <enum name="unit_class" value="house" List.ItemID="1665746189" />
+            <enum name="unit_class" value="pit_mine" List.ItemID="365211841" />
+            <enum name="unit_class" value="ranch" List.ItemID="1305321920" />
+            <enum name="unit_class" value="cistern" List.ItemID="-1116179337" />
+            <enum name="unit_class" value="aqueduct" List.ItemID="-381390611" />
+            <enum name="unit_class" value="aqueduct_bastion" List.ItemID="-1992067485" />
+          </list>
+        </group>
+        <group name="info" List.ItemID="1870002138">
+          <float name="burn_amount_threshold" value="0" />
+          <int name="max_units" value="0" />
+          <int name="priority" value="2" />
+          <list name="unit_types">
+            <enum name="unit_class" value="outpost" List.ItemID="803582799" />
+            <enum name="unit_class" value="castle" List.ItemID="-1580110751" />
+          </list>
+        </group>
+        <group name="info" List.ItemID="-286586598">
+          <float name="burn_amount_threshold" value="1" />
+          <int name="max_units" value="0" />
+          <int name="priority" value="3" />
+          <list name="unit_types">
+            <enum name="unit_class" value="economy_building" List.ItemID="860525961" />
+            <enum name="unit_class" value="research_building" List.ItemID="-1571603521" />
+            <enum name="unit_class" value="military_production_building" List.ItemID="-1159629827" />
+            <enum name="unit_class" value="mobile_building" List.ItemID="-595769816" />
+          </list>
+        </group>
+        <group name="info" List.ItemID="1580560633">
+          <float name="burn_amount_threshold" value="0" />
+          <int name="max_units" value="0" />
+          <int name="priority" value="4" />
+          <list name="unit_types">
+            <enum name="unit_class" value="landmark" List.ItemID="1334007492" />
+            <enum name="unit_class" value="town_center" List.ItemID="-787081887" />
+            <enum name="unit_class" value="wonder" List.ItemID="-667998190" />
+          </list>
+        </group>
+      </list>
+      <float name="ranged_unit_danger_distance" value="12" />
+      <template_reference name="siege_option" value="options\ai\encounters\formation_siege_coordinator_option">
+        <int name="destroy_sections_count" value="1" />
+        <int name="max_attackers_per_section" value="0" />
+        <template_reference name="unit_type_scores" value="">
+        </template_reference>
+        <bool name="initialize_at_encounter_target" value="True" />
+      </template_reference>
+      <float name="ranged_unit_critical_value" value="1" />
+      <float name="setup_unit_critical_value" value="2" />
+      <bool name="ignore_walls_if_no_other_targets" value="True" />
+      <float name="direct_path_to_target_tolerance" value="3.3" />
+      <float name="direct_path_to_target_tolerance_on_wall" value="1.7" />
+      <float name="path_distance_to_target_threshold" value="2" />
+      <template_reference name="defensive_wall_option" value="">
+      </template_reference>
+      <list name="combat_target_exclude_unit_types">
+        <enum name="unit_class" value="wall" List.ItemID="-116817004" />
+        <enum name="unit_class" value="animal_herdable" List.ItemID="1252021253" />
+      </list>
+      <bool name="ignore_non_pathable_targets" value="False" />
+      <bool name="ignore_behind_wall_targets" value="False" />
+      <bool name="ignore_on_wall_targets" value="False" />
+      <list name="path_blocker_targeting_info">
+        <group name="targeting_info" comment="If attackers include siege towers, don't consider stone gates." List.ItemID="-122734549">
+          <list name="attacker_unit_types_include">
+            <enum name="unit_class" value="siege_tower" List.ItemID="495658543" />
+          </list>
+          <group name="blocker_target_scoring">
+            <float name="proximity_multiplier" value="1" />
+            <list name="unit_type_multipliers">
+              <group name="unit_type_multiplier" List.ItemID="925109192">
+                <list name="unit_types">
+                  <enum name="unit_type" value="stone_wall" List.ItemID="-1976074658" />
+                </list>
+                <float name="multiplier" value="1" />
+              </group>
+              <group name="unit_type_multiplier" List.ItemID="951801846">
+                <list name="unit_types">
+                  <enum name="unit_type" value="palisade_gate" List.ItemID="1366101550" />
+                  <enum name="unit_type" value="stone_gate" List.ItemID="-1459140302" />
+                  <enum name="unit_type" value="palisade_wall" List.ItemID="-94506293" />
+                </list>
+                <float name="multiplier" value="0" />
+              </group>
+            </list>
+          </group>
+          <list name="attacker_unit_types_exclude">
+          </list>
+        </group>
+        <group name="targeting_info" List.ItemID="-303516486">
+          <list name="attacker_unit_types_include">
+            <enum name="unit_class" value="siege" List.ItemID="1502087191" />
+          </list>
+          <group name="blocker_target_scoring">
+            <float name="proximity_multiplier" value="1" />
+            <list name="unit_type_multipliers">
+              <group name="unit_type_multiplier" List.ItemID="-1844994643">
+                <list name="unit_types">
+                  <enum name="unit_type" value="palisade_gate" List.ItemID="1861238799" />
+                  <enum name="unit_type" value="palisade_wall" List.ItemID="1133218698" />
+                  <enum name="unit_type" value="stone_wall" List.ItemID="-1674354871" />
+                  <enum name="unit_type" value="stone_gate" List.ItemID="175224813" />
+                </list>
+                <float name="multiplier" value="1" />
+              </group>
+            </list>
+          </group>
+          <list name="attacker_unit_types_exclude">
+            <enum name="unit_class" value="siege_tower" List.ItemID="1081107753" />
+          </list>
+        </group>
+        <group name="targeting_info" List.ItemID="30327303">
+          <list name="attacker_unit_types_include">
+            <enum name="unit_class" value="military" List.ItemID="-1446396379" />
+          </list>
+          <group name="blocker_target_scoring">
+            <float name="proximity_multiplier" value="1" />
+            <list name="unit_type_multipliers">
+              <group name="unit_type_multiplier" List.ItemID="23729112">
+                <list name="unit_types">
+                  <enum name="unit_type" value="palisade_wall" List.ItemID="335866275" />
+                </list>
+                <float name="multiplier" value="0.8" />
+              </group>
+              <group name="unit_type_multiplier" List.ItemID="-387735769">
+                <list name="unit_types">
+                  <enum name="unit_type" value="palisade_gate" List.ItemID="1642854592" />
+                </list>
+                <float name="multiplier" value="1" />
+              </group>
+            </list>
+          </group>
+          <list name="attacker_unit_types_exclude">
+          </list>
+        </group>
+      </list>
+      <bool name="include_world_neutral_enemies" value="False" />
+      <float name="non_pathable_target_max_age" value="5" />
+    </group>
+    <uniqueid name="pbgid" value="190938" />
+    <instance_reference name="parent_pbg" value="" />
+  </variant>
+  <variant name="cordoba">
+    <group name="ai_formation_coordinator">
+      <list name="non_combat_target_info">
+        <group name="info" List.ItemID="642469532">
+          <float name="burn_amount_threshold" value="0" />
+          <int name="max_units" value="0" />
+          <int name="priority" value="0" />
+          <list name="unit_types">
+            <enum name="unit_class" value="wonder_imperial_age" List.ItemID="-622470516" />
+            <enum name="unit_class" value="gate" List.ItemID="-1196419187" />
+          </list>
+        </group>
+        <group name="info" List.ItemID="-501217517">
+          <float name="burn_amount_threshold" value="1" />
+          <int name="max_units" value="8" />
+          <int name="priority" value="1" />
+          <list name="unit_types">
+            <enum name="unit_class" value="farm" List.ItemID="-2084039848" />
+            <enum name="unit_class" value="house" List.ItemID="1665746189" />
+            <enum name="unit_class" value="pit_mine" List.ItemID="365211841" />
+            <enum name="unit_class" value="ranch" List.ItemID="1305321920" />
+            <enum name="unit_class" value="cistern" List.ItemID="-1116179337" />
+            <enum name="unit_class" value="aqueduct" List.ItemID="-381390611" />
+            <enum name="unit_class" value="aqueduct_bastion" List.ItemID="-1992067485" />
+          </list>
+        </group>
+        <group name="info" List.ItemID="1870002138">
+          <float name="burn_amount_threshold" value="0" />
+          <int name="max_units" value="0" />
+          <int name="priority" value="2" />
+          <list name="unit_types">
+            <enum name="unit_class" value="outpost" List.ItemID="803582799" />
+            <enum name="unit_class" value="castle" List.ItemID="-1580110751" />
+            <enum name="unit_class" value="capture_point" List.ItemID="-573087101" />
+          </list>
+        </group>
+        <group name="info" List.ItemID="-286586598">
+          <float name="burn_amount_threshold" value="1" />
+          <int name="max_units" value="0" />
+          <int name="priority" value="3" />
+          <list name="unit_types">
+            <enum name="unit_class" value="economy_building" List.ItemID="860525961" />
+            <enum name="unit_class" value="research_building" List.ItemID="-1571603521" />
+            <enum name="unit_class" value="military_production_building" List.ItemID="-1159629827" />
+            <enum name="unit_class" value="mobile_building" List.ItemID="-595769816" />
+          </list>
+        </group>
+        <group name="info" List.ItemID="1580560633">
+          <float name="burn_amount_threshold" value="0" />
+          <int name="max_units" value="0" />
+          <int name="priority" value="4" />
+          <list name="unit_types">
+            <enum name="unit_class" value="landmark" List.ItemID="1334007492" />
+            <enum name="unit_class" value="town_center" List.ItemID="-787081887" />
+            <enum name="unit_class" value="wonder" List.ItemID="-667998190" />
+          </list>
+        </group>
+      </list>
+      <float name="ranged_unit_danger_distance" value="12" />
+      <template_reference name="siege_option" value="options\ai\encounters\formation_siege_coordinator_option">
+        <int name="destroy_sections_count" value="1" />
+        <int name="max_attackers_per_section" value="0" />
+        <template_reference name="unit_type_scores" value="">
+        </template_reference>
+        <bool name="initialize_at_encounter_target" value="True" />
+      </template_reference>
+      <float name="ranged_unit_critical_value" value="1" />
+      <float name="setup_unit_critical_value" value="2" />
+      <bool name="ignore_walls_if_no_other_targets" value="True" />
+      <float name="direct_path_to_target_tolerance" value="3.3" />
+      <float name="direct_path_to_target_tolerance_on_wall" value="1.7" />
+      <float name="path_distance_to_target_threshold" value="2" />
+      <template_reference name="defensive_wall_option" value="">
+      </template_reference>
+      <list name="combat_target_exclude_unit_types">
+        <enum name="unit_class" value="wall" List.ItemID="-116817004" />
+        <enum name="unit_class" value="animal_herdable" List.ItemID="-39850611" />
+      </list>
+      <bool name="ignore_non_pathable_targets" value="False" />
+      <bool name="ignore_behind_wall_targets" value="False" />
+      <bool name="ignore_on_wall_targets" value="False" />
+      <list name="path_blocker_targeting_info">
+        <group name="targeting_info" comment="If attackers include siege towers, don't consider stone gates." List.ItemID="-122734549">
+          <list name="attacker_unit_types_include">
+            <enum name="unit_class" value="siege_tower" List.ItemID="495658543" />
+          </list>
+          <group name="blocker_target_scoring">
+            <float name="proximity_multiplier" value="1" />
+            <list name="unit_type_multipliers">
+              <group name="unit_type_multiplier" List.ItemID="925109192">
+                <list name="unit_types">
+                  <enum name="unit_type" value="stone_wall" List.ItemID="-1976074658" />
+                </list>
+                <float name="multiplier" value="1" />
+              </group>
+              <group name="unit_type_multiplier" List.ItemID="951801846">
+                <list name="unit_types">
+                  <enum name="unit_type" value="palisade_gate" List.ItemID="1366101550" />
+                  <enum name="unit_type" value="stone_gate" List.ItemID="-1459140302" />
+                  <enum name="unit_type" value="palisade_wall" List.ItemID="-94506293" />
+                </list>
+                <float name="multiplier" value="0" />
+              </group>
+            </list>
+          </group>
+          <list name="attacker_unit_types_exclude">
+          </list>
+        </group>
+        <group name="targeting_info" List.ItemID="-303516486">
+          <list name="attacker_unit_types_include">
+            <enum name="unit_class" value="siege" List.ItemID="1502087191" />
+          </list>
+          <group name="blocker_target_scoring">
+            <float name="proximity_multiplier" value="1" />
+            <list name="unit_type_multipliers">
+              <group name="unit_type_multiplier" List.ItemID="-1844994643">
+                <list name="unit_types">
+                  <enum name="unit_type" value="palisade_gate" List.ItemID="1861238799" />
+                  <enum name="unit_type" value="palisade_wall" List.ItemID="1133218698" />
+                  <enum name="unit_type" value="stone_wall" List.ItemID="-1674354871" />
+                  <enum name="unit_type" value="stone_gate" List.ItemID="175224813" />
+                </list>
+                <float name="multiplier" value="1" />
+              </group>
+            </list>
+          </group>
+          <list name="attacker_unit_types_exclude">
+            <enum name="unit_class" value="siege_tower" List.ItemID="1081107753" />
+          </list>
+        </group>
+        <group name="targeting_info" List.ItemID="30327303">
+          <list name="attacker_unit_types_include">
+            <enum name="unit_class" value="military" List.ItemID="-1446396379" />
+          </list>
+          <group name="blocker_target_scoring">
+            <float name="proximity_multiplier" value="1" />
+            <list name="unit_type_multipliers">
+              <group name="unit_type_multiplier" List.ItemID="23729112">
+                <list name="unit_types">
+                  <enum name="unit_type" value="palisade_wall" List.ItemID="335866275" />
+                </list>
+                <float name="multiplier" value="0.8" />
+              </group>
+              <group name="unit_type_multiplier" List.ItemID="-387735769">
+                <list name="unit_types">
+                  <enum name="unit_type" value="palisade_gate" List.ItemID="1642854592" />
+                </list>
+                <float name="multiplier" value="1" />
+              </group>
+            </list>
+          </group>
+          <list name="attacker_unit_types_exclude">
+          </list>
+        </group>
+      </list>
+      <bool name="include_world_neutral_enemies" value="False" />
+      <float name="non_pathable_target_max_age" value="5" />
+    </group>
+    <uniqueid name="pbgid" value="190938" />
+    <instance_reference name="parent_pbg" value="" />
+  </variant>
+</instance>

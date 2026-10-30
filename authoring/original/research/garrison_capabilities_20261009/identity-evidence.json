@@ -1,0 +1,3558 @@
+{
+  "garrison_editable_families": [
+    "ebps",
+    "sbps",
+    "upgrade",
+    "abilities",
+    "weapon",
+    "army",
+    "racebps",
+    "attachments"
+  ],
+  "package_roles": [
+    "map",
+    "tuning"
+  ],
+  "lobby_identity_bindings": [
+    {
+      "line": 531,
+      "text": "<Setter Property=\"Source\" Value=\"{Binding OnlineStatus.CustomMatchLobby.WinConditionGameMode.SelectedImagePath}\" />"
+    },
+    {
+      "line": 534,
+      "text": "<DataTrigger Binding=\"{Binding OnlineStatus.CustomMatchLobby.WinConditionGameMode.SelectedImagePath, Converter={StaticResource NullOrEmptyString}}\" Value=\"True\">"
+    },
+    {
+      "line": 648,
+      "text": "<Setter Property=\"Source\" Value=\"{Binding SelectedImagePath}\" />"
+    },
+    {
+      "line": 650,
+      "text": "<DataTrigger Binding=\"{Binding SelectedImagePath, Converter={StaticResource NullOrEmptyString}}\" Value=\"True\">"
+    },
+    {
+      "line": 683,
+      "text": "<Setter Property=\"Source\" Value=\"{Binding OnlineStatus.CustomMatchLobby.GeneratedMapLayoutSelected.IconImagePath}\" />"
+    },
+    {
+      "line": 2211,
+      "text": "ItemsSource=\"{Binding AvailableConcreteOrRandomRaces}\""
+    },
+    {
+      "line": 2252,
+      "text": "Source=\"{Binding ImagePath}\" />"
+    },
+    {
+      "line": 2383,
+      "text": "Source=\"{Binding ImagePath}\""
+    },
+    {
+      "line": 2388,
+      "text": "<TextBlock x:Name=\"CivName\""
+    },
+    {
+      "line": 2412,
+      "text": "<Setter TargetName=\"CivName\" Property=\"Opacity\" Value=\"0.5\" />"
+    },
+    {
+      "line": 2430,
+      "text": "esUtility:Telemetry.Name=\"{Binding Path=SelectedRace.TelemetryPrefix, FallbackValue=UnknownCodex, Converter={StaticResource FormatString}, ConverterParameter={}{0}Codex}\""
+    },
+    {
+      "line": 2451,
+      "text": "<esActions:SetPropertyTrigger PropertyName=\"SelectedRace\" RoutedEvent=\"Button.Click\""
+    },
+    {
+      "line": 3316,
+      "text": "<Setter Property=\"Source\" Value=\"{Binding OnlineStatus.CustomMatchLobby.GeneratedMapDisplayedBiome.FlavorImagePath}\" />"
+    },
+    {
+      "line": 3340,
+      "text": "<Setter Property=\"Source\" Value=\"{Binding OnlineStatus.CustomMatchLobby.GeneratedMapDisplayedBiome.FlavorImagePath}\" />"
+    },
+    {
+      "line": 4187,
+      "text": "<Setter Property=\"Source\" Value=\"{Binding OnlineStatus.CustomMatchLobby.GeneratedMapDisplayedBiome.FlavorImagePath}\" />"
+    },
+    {
+      "line": 4681,
+      "text": "<Setter Property=\"Source\" Value=\"{Binding FlavorImagePath}\" />"
+    },
+    {
+      "line": 4736,
+      "text": "Dummy image - used to preload the FlavorImagePath, which is used in the item tooltip above."
+    },
+    {
+      "line": 4742,
+      "text": "<Setter Property=\"Source\" Value=\"{Binding FlavorImagePath}\" />"
+    },
+    {
+      "line": 5754,
+      "text": "<Setter Property=\"Source\" Value=\"{Binding IconImagePath}\" />"
+    },
+    {
+      "line": 6418,
+      "text": "<Setter Property=\"Source\" Value=\"{Binding IconImagePath}\" />"
+    }
+  ],
+  "lobby_civ_combo_context": [
+    {
+      "line": 2211,
+      "text": "VerticalAlignment=\"Center\"\nesControls:AutomationPropertiesHelper.ItemNamePath=\"Name\" esUtility:Telemetry.Name=\"CivSelect\"\nAutomationProperties.ItemType=\"{esUtility:LocString $11192571}\"\nAutomationProperties.Name=\"{esUtility:LocString $11193310}\"\nIsEnabled=\"{Binding CanChangeRace}\"\nItemsSource=\"{Binding AvailableConcreteOrRandomRaces}\"\nMaxDropDownHeight=\"{wm:UserDIP 450}\"\nSelectedIndex=\"{Binding RaceSelectedIndex}\"\nTabIndex=\"1\" ToolTipService.InitialShowDelay=\"0\"\nToolTipService.Placement=\"Right\" ToolTipService.ShowDuration=\"8640000\""
+    }
+  ],
+  "malian_identity": {
+    "name": "11215009",
+    "icon": "civ_flags\\civ_icon_medium_malian",
+    "icon_secondary": "civ_flags\\civ_icon_secondary_malian",
+    "ui_visibility": "true",
+    "front_end_music_layer_event": "mus_fe_set_civ_mal",
+    "multiplayer": "true",
+    "image_small": "civ_flags\\flag_malian",
+    "pattern": "backgrounds\\civ\\civ_pattern_malian",
+    "image": "backgrounds\\loading\\flags\\malian_bg",
+    "ui_priority": "10"
+  },
+  "malian_music_metadata": [
+    {
+      "kind": "SwitchGroup",
+      "name": "fe_mus_civs",
+      "id": "2326905668",
+      "object_path": null
+    },
+    {
+      "kind": "SwitchGroup",
+      "name": "mus_civs",
+      "id": "3743929060",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_seg_b_ten.wav",
+      "id": "3196767",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_seg_d_rare.wav",
+      "id": "6798048",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_seg_b_exp.wav",
+      "id": "7655118",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_2_seg_b_exp.wav",
+      "id": "10191760",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_seg_d_exp.wav",
+      "id": "11587984",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_seg_c_exp.wav",
+      "id": "18746464",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_seg_c_com.wav",
+      "id": "30206308",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\Griot_Bara_Stingers\\mus_stinger_griot_barra_activate_festival_food_v2.wav",
+      "id": "36163946",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_intro_ten.wav",
+      "id": "36419893",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_intro_com.wav",
+      "id": "37752562",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_exit_ten.wav",
+      "id": "38449378",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_seg_b_com.wav",
+      "id": "41483856",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_seg_d_rare.wav",
+      "id": "48071469",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_2_exit_exp.wav",
+      "id": "49459661",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_seg_b_rare.wav",
+      "id": "53948475",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_pos_short_alt.wav",
+      "id": "60010495",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_5_seg_a_exp.wav",
+      "id": "62258751",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_intro_ten.wav",
+      "id": "64935472",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age1_to_2_com.wav",
+      "id": "68910249",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_neg.wav",
+      "id": "72429390",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_pos_short_alt.wav",
+      "id": "73140274",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_seg_a_ten.wav",
+      "id": "76112449",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_alert.wav",
+      "id": "77336876",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_2_seg_d_exp.wav",
+      "id": "77369863",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_triumph_long.wav",
+      "id": "78775092",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_neg.wav",
+      "id": "79171129",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_seg_c_rare.wav",
+      "id": "101829276",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_seg_c_rare.wav",
+      "id": "108112294",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_seg_b_ten.wav",
+      "id": "116786586",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_seg_c_ten.wav",
+      "id": "129968961",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_seg_a_com.wav",
+      "id": "132624905",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_pos_short_alt.wav",
+      "id": "135376851",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_3_seg_c_exp.wav",
+      "id": "137857589",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_exit_rare.wav",
+      "id": "140415345",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_exit_exp.wav",
+      "id": "145439219",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_pos.wav",
+      "id": "150726361",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_seg_e_com.wav",
+      "id": "154705911",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_exit_rare.wav",
+      "id": "155584037",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_intro_ten.wav",
+      "id": "157155077",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_seg_d_rare.wav",
+      "id": "163153621",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_seg_c_ten.wav",
+      "id": "170751196",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_seg_c_exp.wav",
+      "id": "182628165",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_6_seg_b_exp.wav",
+      "id": "185332052",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age1_to_2_exp.wav",
+      "id": "189327115",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age2_to_3_com.wav",
+      "id": "193536484",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_2_seg_b_exp.wav",
+      "id": "195379472",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_neg_short_alt.wav",
+      "id": "198815628",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_intro_rare.wav",
+      "id": "204027375",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_2_seg_e_exp.wav",
+      "id": "207708716",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_seg_a_exp.wav",
+      "id": "208146516",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_religious_neg.wav",
+      "id": "212750041",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_FrontEnd\\mus_frontend_loop_mal.wav",
+      "id": "212857094",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_4_seg_a_exp.wav",
+      "id": "214473207",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_pos.wav",
+      "id": "215876848",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\Griot_Bara_Stingers\\mus_stinger_griot_barra_activate_festival_military_v2.wav",
+      "id": "217958901",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_3_seg_c_exp.wav",
+      "id": "223343720",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_exit_com.wav",
+      "id": "238175542",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_2_seg_a_exp.wav",
+      "id": "243891546",
+      "object_path": null
+    }
+  ],
+  "malian_music_files": [
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_seg_b_ten.wav",
+      "id": "3196767",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_seg_d_rare.wav",
+      "id": "6798048",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_seg_b_exp.wav",
+      "id": "7655118",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_2_seg_b_exp.wav",
+      "id": "10191760",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_seg_d_exp.wav",
+      "id": "11587984",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_seg_c_exp.wav",
+      "id": "18746464",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_seg_c_com.wav",
+      "id": "30206308",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\Griot_Bara_Stingers\\mus_stinger_griot_barra_activate_festival_food_v2.wav",
+      "id": "36163946",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_intro_ten.wav",
+      "id": "36419893",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_intro_com.wav",
+      "id": "37752562",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_exit_ten.wav",
+      "id": "38449378",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_seg_b_com.wav",
+      "id": "41483856",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_seg_d_rare.wav",
+      "id": "48071469",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_2_exit_exp.wav",
+      "id": "49459661",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_seg_b_rare.wav",
+      "id": "53948475",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_pos_short_alt.wav",
+      "id": "60010495",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_5_seg_a_exp.wav",
+      "id": "62258751",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_intro_ten.wav",
+      "id": "64935472",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age1_to_2_com.wav",
+      "id": "68910249",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_neg.wav",
+      "id": "72429390",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_pos_short_alt.wav",
+      "id": "73140274",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_seg_a_ten.wav",
+      "id": "76112449",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_alert.wav",
+      "id": "77336876",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_2_seg_d_exp.wav",
+      "id": "77369863",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_triumph_long.wav",
+      "id": "78775092",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_neg.wav",
+      "id": "79171129",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_seg_c_rare.wav",
+      "id": "101829276",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_seg_c_rare.wav",
+      "id": "108112294",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_seg_b_ten.wav",
+      "id": "116786586",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_seg_c_ten.wav",
+      "id": "129968961",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_seg_a_com.wav",
+      "id": "132624905",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_pos_short_alt.wav",
+      "id": "135376851",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_3_seg_c_exp.wav",
+      "id": "137857589",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_exit_rare.wav",
+      "id": "140415345",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_exit_exp.wav",
+      "id": "145439219",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_pos.wav",
+      "id": "150726361",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_seg_e_com.wav",
+      "id": "154705911",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_exit_rare.wav",
+      "id": "155584037",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_intro_ten.wav",
+      "id": "157155077",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_seg_d_rare.wav",
+      "id": "163153621",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_seg_c_ten.wav",
+      "id": "170751196",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_seg_c_exp.wav",
+      "id": "182628165",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_6_seg_b_exp.wav",
+      "id": "185332052",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age1_to_2_exp.wav",
+      "id": "189327115",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age2_to_3_com.wav",
+      "id": "193536484",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_2_seg_b_exp.wav",
+      "id": "195379472",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_neg_short_alt.wav",
+      "id": "198815628",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_intro_rare.wav",
+      "id": "204027375",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_2_seg_e_exp.wav",
+      "id": "207708716",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_seg_a_exp.wav",
+      "id": "208146516",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_religious_neg.wav",
+      "id": "212750041",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_4_seg_a_exp.wav",
+      "id": "214473207",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_pos.wav",
+      "id": "215876848",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\Griot_Bara_Stingers\\mus_stinger_griot_barra_activate_festival_military_v2.wav",
+      "id": "217958901",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_3_seg_c_exp.wav",
+      "id": "223343720",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_exit_com.wav",
+      "id": "238175542",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_2_seg_a_exp.wav",
+      "id": "243891546",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_seg_e_exp.wav",
+      "id": "250017018",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_seg_d_com.wav",
+      "id": "258034406",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_exit_rare.wav",
+      "id": "262929429",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_neg.wav",
+      "id": "263057674",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_3_seg_a_exp.wav",
+      "id": "265546411",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_combat_threat.wav",
+      "id": "266419582",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_2_seg_e_exp.wav",
+      "id": "279115834",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_seg_d_exp.wav",
+      "id": "282957782",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_war.wav",
+      "id": "288729262",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_exit_exp.wav",
+      "id": "295451321",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_seg_b_rare.wav",
+      "id": "297366630",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_seg_a_exp.wav",
+      "id": "300499114",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_seg_a_rare.wav",
+      "id": "301336255",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_2_seg_d_exp.wav",
+      "id": "307239186",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_seg_e_rare.wav",
+      "id": "307554802",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_intro_com.wav",
+      "id": "307724408",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_combat_threat.wav",
+      "id": "313199941",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_exit_exp.wav",
+      "id": "317254446",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_3_exit_exp.wav",
+      "id": "319079308",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_exit_com.wav",
+      "id": "326442823",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_exit_exp.wav",
+      "id": "330646752",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_mission_failure.wav",
+      "id": "342985799",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_4_exit_exp.wav",
+      "id": "354879295",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_3_seg_d_exp.wav",
+      "id": "356958207",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_3_intro_exp.wav",
+      "id": "360699282",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_3_seg_a_exp.wav",
+      "id": "367878064",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_religious_pos.wav",
+      "id": "377298795",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_seg_a_ten.wav",
+      "id": "378629187",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_3_seg_c_exp.wav",
+      "id": "382291283",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_4_seg_d_exp.wav",
+      "id": "382641417",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_seg_a_rare.wav",
+      "id": "385080413",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_triumph_short_alt.wav",
+      "id": "388421953",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_6_seg_a_exp.wav",
+      "id": "389807664",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age3_to_4_ten.wav",
+      "id": "390317179",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_seg_a_exp.wav",
+      "id": "397860444",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_2_seg_a_exp.wav",
+      "id": "401028892",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_3_seg_b_exp.wav",
+      "id": "402666085",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_2_seg_a_exp.wav",
+      "id": "406353186",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_intro_com.wav",
+      "id": "410368918",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_2_exit_exp.wav",
+      "id": "412170614",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_3_seg_d_exp.wav",
+      "id": "416589424",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_seg_b_exp.wav",
+      "id": "420344098",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_seg_e_ten.wav",
+      "id": "422022521",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_3_seg_a_exp.wav",
+      "id": "427686762",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_4_seg_c_exp.wav",
+      "id": "428813836",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age3_to_4_rare.wav",
+      "id": "429103082",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_3_seg_c_exp.wav",
+      "id": "430977520",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age3_to_4_com.wav",
+      "id": "435131781",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_6_exit_exp.wav",
+      "id": "435903324",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_seg_d_ten.wav",
+      "id": "436481248",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age1_to_2_ten.wav",
+      "id": "438544079",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age2_to_3_ten.wav",
+      "id": "441826894",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age1_to_2_rare.wav",
+      "id": "443481109",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_triumph_medium_alt.wav",
+      "id": "448366054",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_intro_rare.wav",
+      "id": "448707517",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_intro_exp.wav",
+      "id": "451872750",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_seg_b_ten.wav",
+      "id": "452208990",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_exit_ten.wav",
+      "id": "457993387",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_2_intro_exp.wav",
+      "id": "468304501",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_3_seg_a_exp.wav",
+      "id": "475767038",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_2_seg_b_exp.wav",
+      "id": "476371111",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_combat_threat.wav",
+      "id": "479887479",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_exit_com.wav",
+      "id": "494133865",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_4_seg_c_exp.wav",
+      "id": "495344912",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_seg_d_rare.wav",
+      "id": "495478511",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_2_seg_c_exp.wav",
+      "id": "503679321",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_seg_a_com.wav",
+      "id": "510828057",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_seg_e_rare.wav",
+      "id": "511396915",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_seg_b_rare.wav",
+      "id": "514206513",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_religious_pos.wav",
+      "id": "524400719",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_triumph_short_alt.wav",
+      "id": "524787965",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_war.wav",
+      "id": "525896263",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_seg_e_exp.wav",
+      "id": "535179823",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_2_exit_exp.wav",
+      "id": "539686025",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_seg_e_ten.wav",
+      "id": "539770124",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_4_seg_a_exp.wav",
+      "id": "541182673",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\Griot_Bara_Stingers\\mus_stinger_griot_barra_activate_festival_siege_v2.wav",
+      "id": "544102867",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_seg_d_com.wav",
+      "id": "549167890",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_intro_exp.wav",
+      "id": "549228641",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_2_seg_d_exp.wav",
+      "id": "557755410",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_seg_d_ten.wav",
+      "id": "560216594",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_seg_d_exp.wav",
+      "id": "564126444",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_seg_c_ten.wav",
+      "id": "584554570",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_intro_exp.wav",
+      "id": "586179182",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_4_seg_b_exp.wav",
+      "id": "593150378",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_seg_b_com.wav",
+      "id": "593923348",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_3_intro_exp.wav",
+      "id": "597647779",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_2_seg_d_exp.wav",
+      "id": "602867273",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_triumph_long.wav",
+      "id": "603857810",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_3_seg_d_exp.wav",
+      "id": "604371538",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_war.wav",
+      "id": "608738424",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_seg_a_ten.wav",
+      "id": "612745533",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_6_seg_d_exp.wav",
+      "id": "624398336",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_seg_c_rare.wav",
+      "id": "630233913",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_seg_b_com.wav",
+      "id": "641875386",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_seg_a_exp.wav",
+      "id": "646106569",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_game_defeat.wav",
+      "id": "650995937",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_pos.wav",
+      "id": "654490595",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_seg_a_rare.wav",
+      "id": "657188004",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_exit_com.wav",
+      "id": "658875244",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_religious_neg.wav",
+      "id": "662266956",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_seg_c_exp.wav",
+      "id": "664407340",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_3_seg_b_exp.wav",
+      "id": "665939959",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_seg_a_ten.wav",
+      "id": "666349508",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_4_intro_exp.wav",
+      "id": "685260685",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_2_seg_b_exp.wav",
+      "id": "686401239",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_intro_com.wav",
+      "id": "687266411",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_mission_failure.wav",
+      "id": "698921038",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_mission_failure.wav",
+      "id": "705050128",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_seg_c_com.wav",
+      "id": "707598213",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_alert.wav",
+      "id": "716989300",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_neg_short_alt.wav",
+      "id": "720729128",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age3_to_4_exp.wav",
+      "id": "725429452",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_seg_b_exp.wav",
+      "id": "728508157",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_seg_d_ten.wav",
+      "id": "730099216",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_triumph_long.wav",
+      "id": "741072247",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_pos_short_alt.wav",
+      "id": "744003811",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age2_to_3_exp.wav",
+      "id": "752744428",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_mission_failure.wav",
+      "id": "759691379",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_neg.wav",
+      "id": "762027508",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_seg_c_com.wav",
+      "id": "770952916",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_neg_short_alt.wav",
+      "id": "772350292",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_seg_b_rare.wav",
+      "id": "773186850",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_5_seg_d_exp.wav",
+      "id": "773921510",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_2_intro_exp.wav",
+      "id": "777709325",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_4_seg_b_exp.wav",
+      "id": "777748209",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_5_seg_b_exp.wav",
+      "id": "782946493",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_intro_rare.wav",
+      "id": "788801736",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_6_seg_c_exp.wav",
+      "id": "795795730",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_war.wav",
+      "id": "798604215",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_religious_pos.wav",
+      "id": "812240018",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_2_exit_exp.wav",
+      "id": "813385856",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_religious_neg.wav",
+      "id": "817152072",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_seg_c_exp.wav",
+      "id": "818532022",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_religious_neg.wav",
+      "id": "821726939",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_2_seg_c_exp.wav",
+      "id": "827881496",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_intro_exp.wav",
+      "id": "829932675",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_3_seg_e_exp.wav",
+      "id": "832928861",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_5_seg_c_exp.wav",
+      "id": "834819843",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_triumph_medium_alt.wav",
+      "id": "841448074",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_neg_short_alt.wav",
+      "id": "841996471",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_seg_a_rare.wav",
+      "id": "842504601",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_seg_a_com.wav",
+      "id": "843344497",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_triumph_short_alt.wav",
+      "id": "845042182",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_3_seg_d_exp.wav",
+      "id": "847296288",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_intro_rare.wav",
+      "id": "849866148",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_2_intro_exp.wav",
+      "id": "850359222",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_religious_pos.wav",
+      "id": "851689968",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_seg_d_com.wav",
+      "id": "862928835",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_exit_ten.wav",
+      "id": "866490472",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_triumph_medium_alt.wav",
+      "id": "874614817",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_triumph_long.wav",
+      "id": "875431368",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_seg_c_rare.wav",
+      "id": "876104618",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_3_seg_b_exp.wav",
+      "id": "877932460",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_seg_c_com.wav",
+      "id": "878465564",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_alert.wav",
+      "id": "879874218",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_3_seg_e_exp.wav",
+      "id": "883953114",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_2_seg_c_exp.wav",
+      "id": "885218398",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_seg_d_ten.wav",
+      "id": "891154284",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_3_intro_exp.wav",
+      "id": "900453255",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_2_seg_c_exp.wav",
+      "id": "909530317",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_2_seg_a_exp.wav",
+      "id": "910275070",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_exit_rare.wav",
+      "id": "911000938",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_3_exit_exp.wav",
+      "id": "911606352",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_exit_ten.wav",
+      "id": "919055178",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_seg_d_exp.wav",
+      "id": "919811254",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_4_seg_d_exp.wav",
+      "id": "921539416",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_game_victory.wav",
+      "id": "927912316",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_triumph_medium_alt.wav",
+      "id": "937857947",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_2_intro_exp.wav",
+      "id": "944643912",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_pos.wav",
+      "id": "945623485",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_combat_threat.wav",
+      "id": "951199032",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_3_exit_exp.wav",
+      "id": "952648288",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_3_seg_b_exp.wav",
+      "id": "955469481",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_seg_b_com.wav",
+      "id": "964936066",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_seg_b_ten.wav",
+      "id": "972586932",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age2_to_3_rare.wav",
+      "id": "973838543",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_4_intro_exp.wav",
+      "id": "973908368",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_3_intro_exp.wav",
+      "id": "981129334",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_6_intro_exp.wav",
+      "id": "997805082",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_seg_b_exp.wav",
+      "id": "998192150",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_seg_a_com.wav",
+      "id": "998375005",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_intro_ten.wav",
+      "id": "1008396988",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_4_exit_exp.wav",
+      "id": "1035644456",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_3_exit_exp.wav",
+      "id": "1039827621",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_seg_d_com.wav",
+      "id": "1040813684",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_seg_c_ten.wav",
+      "id": "1042049363",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_alert.wav",
+      "id": "1049383571",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_seg_e_com.wav",
+      "id": "1050204934",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_triumph_short_alt.wav",
+      "id": "1057201195",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_5_intro_exp.wav",
+      "id": "1060984996",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_5_exit_exp.wav",
+      "id": "1068613219",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_seg_b_ten.wav",
+      "id": "3196767",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_seg_d_rare.wav",
+      "id": "6798048",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_seg_b_exp.wav",
+      "id": "7655118",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_2_seg_b_exp.wav",
+      "id": "10191760",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_seg_d_exp.wav",
+      "id": "11587984",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_seg_c_exp.wav",
+      "id": "18746464",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_seg_c_com.wav",
+      "id": "30206308",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\Griot_Bara_Stingers\\mus_stinger_griot_barra_activate_festival_food_v2.wav",
+      "id": "36163946",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_intro_ten.wav",
+      "id": "36419893",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_intro_com.wav",
+      "id": "37752562",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_exit_ten.wav",
+      "id": "38449378",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_seg_b_com.wav",
+      "id": "41483856",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_seg_d_rare.wav",
+      "id": "48071469",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_2_exit_exp.wav",
+      "id": "49459661",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_seg_b_rare.wav",
+      "id": "53948475",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_pos_short_alt.wav",
+      "id": "60010495",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_5_seg_a_exp.wav",
+      "id": "62258751",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_intro_ten.wav",
+      "id": "64935472",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age1_to_2_com.wav",
+      "id": "68910249",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_neg.wav",
+      "id": "72429390",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_pos_short_alt.wav",
+      "id": "73140274",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_seg_a_ten.wav",
+      "id": "76112449",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_alert.wav",
+      "id": "77336876",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_2_seg_d_exp.wav",
+      "id": "77369863",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_triumph_long.wav",
+      "id": "78775092",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_neg.wav",
+      "id": "79171129",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_seg_c_rare.wav",
+      "id": "101829276",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_seg_c_rare.wav",
+      "id": "108112294",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_seg_b_ten.wav",
+      "id": "116786586",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_seg_c_ten.wav",
+      "id": "129968961",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_seg_a_com.wav",
+      "id": "132624905",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_pos_short_alt.wav",
+      "id": "135376851",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_3_seg_c_exp.wav",
+      "id": "137857589",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_exit_rare.wav",
+      "id": "140415345",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_exit_exp.wav",
+      "id": "145439219",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_pos.wav",
+      "id": "150726361",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_seg_e_com.wav",
+      "id": "154705911",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_exit_rare.wav",
+      "id": "155584037",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_intro_ten.wav",
+      "id": "157155077",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_seg_d_rare.wav",
+      "id": "163153621",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_seg_c_ten.wav",
+      "id": "170751196",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_seg_c_exp.wav",
+      "id": "182628165",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_6_seg_b_exp.wav",
+      "id": "185332052",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age1_to_2_exp.wav",
+      "id": "189327115",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age2_to_3_com.wav",
+      "id": "193536484",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_2_seg_b_exp.wav",
+      "id": "195379472",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_neg_short_alt.wav",
+      "id": "198815628",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_intro_rare.wav",
+      "id": "204027375",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_2_seg_e_exp.wav",
+      "id": "207708716",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_seg_a_exp.wav",
+      "id": "208146516",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_religious_neg.wav",
+      "id": "212750041",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_4_seg_a_exp.wav",
+      "id": "214473207",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_pos.wav",
+      "id": "215876848",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\Griot_Bara_Stingers\\mus_stinger_griot_barra_activate_festival_military_v2.wav",
+      "id": "217958901",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_3_seg_c_exp.wav",
+      "id": "223343720",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_exit_com.wav",
+      "id": "238175542",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_2_seg_a_exp.wav",
+      "id": "243891546",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_seg_e_exp.wav",
+      "id": "250017018",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_seg_d_com.wav",
+      "id": "258034406",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_exit_rare.wav",
+      "id": "262929429",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_neg.wav",
+      "id": "263057674",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_3_seg_a_exp.wav",
+      "id": "265546411",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_combat_threat.wav",
+      "id": "266419582",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_2_seg_e_exp.wav",
+      "id": "279115834",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_seg_d_exp.wav",
+      "id": "282957782",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_war.wav",
+      "id": "288729262",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_exit_exp.wav",
+      "id": "295451321",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_seg_b_rare.wav",
+      "id": "297366630",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_seg_a_exp.wav",
+      "id": "300499114",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_seg_a_rare.wav",
+      "id": "301336255",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_2_seg_d_exp.wav",
+      "id": "307239186",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_seg_e_rare.wav",
+      "id": "307554802",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_intro_com.wav",
+      "id": "307724408",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_combat_threat.wav",
+      "id": "313199941",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_exit_exp.wav",
+      "id": "317254446",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_3_exit_exp.wav",
+      "id": "319079308",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_exit_com.wav",
+      "id": "326442823",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_exit_exp.wav",
+      "id": "330646752",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_mission_failure.wav",
+      "id": "342985799",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_4_exit_exp.wav",
+      "id": "354879295",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_3_seg_d_exp.wav",
+      "id": "356958207",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_3_intro_exp.wav",
+      "id": "360699282",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_3_seg_a_exp.wav",
+      "id": "367878064",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_religious_pos.wav",
+      "id": "377298795",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_seg_a_ten.wav",
+      "id": "378629187",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_3_seg_c_exp.wav",
+      "id": "382291283",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_4_seg_d_exp.wav",
+      "id": "382641417",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_seg_a_rare.wav",
+      "id": "385080413",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_triumph_short_alt.wav",
+      "id": "388421953",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_6_seg_a_exp.wav",
+      "id": "389807664",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age3_to_4_ten.wav",
+      "id": "390317179",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_seg_a_exp.wav",
+      "id": "397860444",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_2_seg_a_exp.wav",
+      "id": "401028892",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_3_seg_b_exp.wav",
+      "id": "402666085",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_2_seg_a_exp.wav",
+      "id": "406353186",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_intro_com.wav",
+      "id": "410368918",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_2_exit_exp.wav",
+      "id": "412170614",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_3_seg_d_exp.wav",
+      "id": "416589424",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_seg_b_exp.wav",
+      "id": "420344098",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_seg_e_ten.wav",
+      "id": "422022521",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_3_seg_a_exp.wav",
+      "id": "427686762",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_4_seg_c_exp.wav",
+      "id": "428813836",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age3_to_4_rare.wav",
+      "id": "429103082",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_3_seg_c_exp.wav",
+      "id": "430977520",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age3_to_4_com.wav",
+      "id": "435131781",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_6_exit_exp.wav",
+      "id": "435903324",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_seg_d_ten.wav",
+      "id": "436481248",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age1_to_2_ten.wav",
+      "id": "438544079",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age2_to_3_ten.wav",
+      "id": "441826894",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age1_to_2_rare.wav",
+      "id": "443481109",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_triumph_medium_alt.wav",
+      "id": "448366054",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_intro_rare.wav",
+      "id": "448707517",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_intro_exp.wav",
+      "id": "451872750",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_seg_b_ten.wav",
+      "id": "452208990",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_exit_ten.wav",
+      "id": "457993387",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_2_intro_exp.wav",
+      "id": "468304501",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_3_seg_a_exp.wav",
+      "id": "475767038",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_2_seg_b_exp.wav",
+      "id": "476371111",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_combat_threat.wav",
+      "id": "479887479",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_exit_com.wav",
+      "id": "494133865",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_4_seg_c_exp.wav",
+      "id": "495344912",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_seg_d_rare.wav",
+      "id": "495478511",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_2_seg_c_exp.wav",
+      "id": "503679321",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_seg_a_com.wav",
+      "id": "510828057",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_seg_e_rare.wav",
+      "id": "511396915",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_seg_b_rare.wav",
+      "id": "514206513",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_religious_pos.wav",
+      "id": "524400719",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_triumph_short_alt.wav",
+      "id": "524787965",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_war.wav",
+      "id": "525896263",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_seg_e_exp.wav",
+      "id": "535179823",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_2_exit_exp.wav",
+      "id": "539686025",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_seg_e_ten.wav",
+      "id": "539770124",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_4_seg_a_exp.wav",
+      "id": "541182673",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\Griot_Bara_Stingers\\mus_stinger_griot_barra_activate_festival_siege_v2.wav",
+      "id": "544102867",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_seg_d_com.wav",
+      "id": "549167890",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_intro_exp.wav",
+      "id": "549228641",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_2_seg_d_exp.wav",
+      "id": "557755410",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_seg_d_ten.wav",
+      "id": "560216594",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_seg_d_exp.wav",
+      "id": "564126444",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_seg_c_ten.wav",
+      "id": "584554570",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_intro_exp.wav",
+      "id": "586179182",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_4_seg_b_exp.wav",
+      "id": "593150378",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_seg_b_com.wav",
+      "id": "593923348",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_3_intro_exp.wav",
+      "id": "597647779",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_2_seg_d_exp.wav",
+      "id": "602867273",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_triumph_long.wav",
+      "id": "603857810",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_3_seg_d_exp.wav",
+      "id": "604371538",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_war.wav",
+      "id": "608738424",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_seg_a_ten.wav",
+      "id": "612745533",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_6_seg_d_exp.wav",
+      "id": "624398336",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_seg_c_rare.wav",
+      "id": "630233913",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_seg_b_com.wav",
+      "id": "641875386",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_seg_a_exp.wav",
+      "id": "646106569",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_game_defeat.wav",
+      "id": "650995937",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_pos.wav",
+      "id": "654490595",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_seg_a_rare.wav",
+      "id": "657188004",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_exit_com.wav",
+      "id": "658875244",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_religious_neg.wav",
+      "id": "662266956",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_seg_c_exp.wav",
+      "id": "664407340",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_3_seg_b_exp.wav",
+      "id": "665939959",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_seg_a_ten.wav",
+      "id": "666349508",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_4_intro_exp.wav",
+      "id": "685260685",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_2_seg_b_exp.wav",
+      "id": "686401239",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_intro_com.wav",
+      "id": "687266411",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_mission_failure.wav",
+      "id": "698921038",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_mission_failure.wav",
+      "id": "705050128",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_seg_c_com.wav",
+      "id": "707598213",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_alert.wav",
+      "id": "716989300",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_neg_short_alt.wav",
+      "id": "720729128",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age3_to_4_exp.wav",
+      "id": "725429452",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_seg_b_exp.wav",
+      "id": "728508157",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_seg_d_ten.wav",
+      "id": "730099216",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_triumph_long.wav",
+      "id": "741072247",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_pos_short_alt.wav",
+      "id": "744003811",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age2_to_3_exp.wav",
+      "id": "752744428",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_mission_failure.wav",
+      "id": "759691379",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_neg.wav",
+      "id": "762027508",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_seg_c_com.wav",
+      "id": "770952916",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_neg_short_alt.wav",
+      "id": "772350292",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_seg_b_rare.wav",
+      "id": "773186850",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_5_seg_d_exp.wav",
+      "id": "773921510",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_2_intro_exp.wav",
+      "id": "777709325",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_4_seg_b_exp.wav",
+      "id": "777748209",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_5_seg_b_exp.wav",
+      "id": "782946493",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_intro_rare.wav",
+      "id": "788801736",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_6_seg_c_exp.wav",
+      "id": "795795730",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_war.wav",
+      "id": "798604215",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_religious_pos.wav",
+      "id": "812240018",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_2_exit_exp.wav",
+      "id": "813385856",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_religious_neg.wav",
+      "id": "817152072",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_seg_c_exp.wav",
+      "id": "818532022",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_religious_neg.wav",
+      "id": "821726939",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_2_seg_c_exp.wav",
+      "id": "827881496",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_intro_exp.wav",
+      "id": "829932675",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_3_seg_e_exp.wav",
+      "id": "832928861",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_5_seg_c_exp.wav",
+      "id": "834819843",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_triumph_medium_alt.wav",
+      "id": "841448074",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_neg_short_alt.wav",
+      "id": "841996471",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_seg_a_rare.wav",
+      "id": "842504601",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_seg_a_com.wav",
+      "id": "843344497",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_triumph_short_alt.wav",
+      "id": "845042182",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_3_seg_d_exp.wav",
+      "id": "847296288",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_intro_rare.wav",
+      "id": "849866148",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_2_intro_exp.wav",
+      "id": "850359222",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_religious_pos.wav",
+      "id": "851689968",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_seg_d_com.wav",
+      "id": "862928835",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_exit_ten.wav",
+      "id": "866490472",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_triumph_medium_alt.wav",
+      "id": "874614817",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_triumph_long.wav",
+      "id": "875431368",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_seg_c_rare.wav",
+      "id": "876104618",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_3_seg_b_exp.wav",
+      "id": "877932460",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_seg_c_com.wav",
+      "id": "878465564",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_alert.wav",
+      "id": "879874218",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_3_seg_e_exp.wav",
+      "id": "883953114",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_2_seg_c_exp.wav",
+      "id": "885218398",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_seg_d_ten.wav",
+      "id": "891154284",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_3_intro_exp.wav",
+      "id": "900453255",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_2_seg_c_exp.wav",
+      "id": "909530317",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_2_seg_a_exp.wav",
+      "id": "910275070",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_exit_rare.wav",
+      "id": "911000938",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_3_exit_exp.wav",
+      "id": "911606352",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_exit_ten.wav",
+      "id": "919055178",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_1_seg_d_exp.wav",
+      "id": "919811254",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_4_seg_d_exp.wav",
+      "id": "921539416",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_game_victory.wav",
+      "id": "927912316",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age3_triumph_medium_alt.wav",
+      "id": "937857947",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_2_intro_exp.wav",
+      "id": "944643912",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age2_pos.wav",
+      "id": "945623485",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age1_combat_threat.wav",
+      "id": "951199032",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_3_exit_exp.wav",
+      "id": "952648288",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_3_seg_b_exp.wav",
+      "id": "955469481",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_seg_b_com.wav",
+      "id": "964936066",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_1_seg_b_ten.wav",
+      "id": "972586932",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_transitions\\mus_mal_age2_to_3_rare.wav",
+      "id": "973838543",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_4_intro_exp.wav",
+      "id": "973908368",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_3_intro_exp.wav",
+      "id": "981129334",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_6_intro_exp.wav",
+      "id": "997805082",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_1_seg_b_exp.wav",
+      "id": "998192150",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_seg_a_com.wav",
+      "id": "998375005",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_intro_ten.wav",
+      "id": "1008396988",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age2\\mus_mal_age2_4_exit_exp.wav",
+      "id": "1035644456",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_3_exit_exp.wav",
+      "id": "1039827621",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_seg_d_com.wav",
+      "id": "1040813684",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age4\\mus_mal_age4_1_seg_c_ten.wav",
+      "id": "1042049363",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_alert.wav",
+      "id": "1049383571",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age3\\mus_mal_age3_seg_e_com.wav",
+      "id": "1050204934",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Stingers\\Mal_Stingers\\mus_sting_mal_age4_triumph_short_alt.wav",
+      "id": "1057201195",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_5_intro_exp.wav",
+      "id": "1060984996",
+      "object_path": null
+    },
+    {
+      "kind": "File",
+      "name": "Music\\Music_Core\\Core_Music_Mal\\mus_mal_core_age1\\mus_mal_age1_5_exit_exp.wav",
+      "id": "1068613219",
+      "object_path": null
+    }
+  ],
+  "unique_malian_music_file_ids": 249,
+  "music_events_count": 189,
+  "music_event_examples": [
+    {
+      "name": "mus_fe_theme_count_set",
+      "id": "3560039721"
+    },
+    {
+      "name": "mus_camp_cust_mongol_drum_cavalry",
+      "id": "786302113"
+    },
+    {
+      "name": "mus_camp_cust_mongol_drum_cavalry_dry",
+      "id": "3275260463"
+    },
+    {
+      "name": "mus_camp_cust_mongol_drum_finalbattle",
+      "id": "1141565729"
+    },
+    {
+      "name": "mus_camp_cust_mongol_drum_finalbattle_dry",
+      "id": "2104438447"
+    },
+    {
+      "name": "mus_camp_cust_mongol_drum_infantry",
+      "id": "38512306"
+    },
+    {
+      "name": "mus_camp_cust_mongol_drum_infantry_dry",
+      "id": "4250109796"
+    },
+    {
+      "name": "mus_camp_cust_mongol_drum_retreat",
+      "id": "885223910"
+    },
+    {
+      "name": "mus_camp_cust_mongol_drum_retreat_dry",
+      "id": "3875221176"
+    },
+    {
+      "name": "mus_camp_cust_mongol_drum_short_cavalry",
+      "id": "356501666"
+    },
+    {
+      "name": "mus_camp_cust_mongol_drum_short_cavalry_dry",
+      "id": "657958964"
+    },
+    {
+      "name": "mus_camp_cust_mongol_drum_short_finalbattle",
+      "id": "345883290"
+    },
+    {
+      "name": "mus_camp_cust_mongol_drum_short_finalbattle_dry",
+      "id": "288766572"
+    },
+    {
+      "name": "mus_camp_cust_mongol_drum_short_infantry",
+      "id": "2125655079"
+    },
+    {
+      "name": "mus_camp_cust_mongol_drum_short_infantry_dry",
+      "id": "2644143741"
+    },
+    {
+      "name": "mus_camp_cust_mongol_drum_short_retreat",
+      "id": "3990994597"
+    },
+    {
+      "name": "mus_camp_cust_mongol_drum_short_retreat_dry",
+      "id": "2489010851"
+    },
+    {
+      "name": "mus_camp_kulikovo_mongol_drum_cavalry",
+      "id": "153037358"
+    },
+    {
+      "name": "mus_camp_kulikovo_mongol_drum_finalbattle",
+      "id": "3474162734"
+    },
+    {
+      "name": "mus_camp_kulikovo_mongol_drum_infantry",
+      "id": "3519368395"
+    }
+  ],
+  "source_hashes": {
+    "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\garrison_capabilities_20261009\\official\\ui\\lobby\\semimodalpages\\createcustommatchsemimodalpage.xaml": "01f255454bca12687d089f2ae1a1378648f008ad157f04ae4e5e40110f388439",
+    "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\garrison_capabilities_20261009\\official\\attrib\\racebps\\malian.rgd": "d2f7c91a0e19f2ce512dcc2c2101c7e812659485941e0ddcf927dcb6b12b21b8",
+    "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\audio\\SoundbanksInfo.xml": "df64c261322871f26f2486747d899e9fb92bc3743b732893a6036e15ab902fa9",
+    "C:\\Users\\RS\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\extensions\\raw_githubusercontent_com\\garrison\\guide\\garrison-audio.html": "931834eaee7c868720b05941f970ead8eeccdc3bfdbd9f3bf583f7f5fa52f00b"
+  }
+}

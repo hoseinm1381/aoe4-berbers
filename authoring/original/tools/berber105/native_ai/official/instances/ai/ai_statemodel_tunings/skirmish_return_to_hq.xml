@@ -1,0 +1,438 @@
+<instance version="6" description="Skirmish Return to HQ Encounter setup" template="ai\ai_statemodel_tunings">
+  <group name="ai_statemodel_tunings_bag">
+    <list name="bool_tunings">
+      <group name="value_tuning" List.ItemID="-811765993">
+        <enum name="key" value="ai_phase_encounter_convert_squad_target_to_position" comment="Don't convert if allow target following." />
+        <bool name="value" value="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="-1387851575">
+        <enum name="key" value="ai_phase_encounter_clear_enemy_squads" />
+        <bool name="value" value="False" />
+      </group>
+      <group name="value_tuning" List.ItemID="1904301839">
+        <enum name="key" value="ai_phase_encounter_clear_enemy_buildings" />
+        <bool name="value" value="False" />
+      </group>
+      <group name="value_tuning" List.ItemID="1610707132">
+        <enum name="key" value="ai_phase_encounter_exit_test_include_unreachable" />
+        <bool name="value" value="False" />
+      </group>
+      <group name="value_tuning" List.ItemID="-577497483">
+        <enum name="key" value="ai_phase_encounter_target_destroyed" comment="terminate if final target destroyed" />
+        <bool name="value" value="False" />
+      </group>
+      <group name="value_tuning" List.ItemID="-371807667">
+        <enum name="key" value="ai_phase_encounter_defend_destination" />
+        <bool name="value" value="False" />
+      </group>
+      <group name="value_tuning" List.ItemID="987867061">
+        <enum name="key" value="ai_phase_encounter_can_help_nearby" />
+        <bool name="value" value="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="277904135">
+        <enum name="key" value="ai_phase_encounter_check_for_open_path_to_enemy_structure" />
+        <bool name="value" value="False" />
+      </group>
+      <group name="value_tuning" List.ItemID="-119700261">
+        <enum name="key" value="teardowns_disabled" />
+        <bool name="value" value="True" />
+      </group>
+    </list>
+    <list name="float_tunings">
+      <group name="value_tuning" List.ItemID="590331929">
+        <enum name="key" value="ai_phase_encounter_combat_area" />
+        <float name="value" value="30" />
+      </group>
+      <group name="value_tuning" List.ItemID="1819862230">
+        <enum name="key" value="ai_phase_encounter_combat_leash" />
+        <float name="value" value="40" />
+      </group>
+      <group name="value_tuning" List.ItemID="423775016">
+        <enum name="key" value="ai_phase_encounter_formup_required_squads_percent" />
+        <float name="value" value="0.99" />
+      </group>
+      <group name="value_tuning" List.ItemID="-96757480">
+        <enum name="key" value="ai_phase_encounter_formup_timeout" />
+        <float name="value" value="10" />
+      </group>
+      <group name="value_tuning" List.ItemID="1488284679">
+        <enum name="key" value="ai_phase_encounter_combat_fitness_threshold" comment="Set to 0 for attack anyone we meet" />
+        <float name="value" value="-1" />
+      </group>
+      <group name="value_tuning" List.ItemID="1077841636">
+        <enum name="key" value="ai_phase_encounter_fallback_combat_rating" comment="fallback if we meet enemies that exceed this combat fitness against us" />
+        <float name="value" value="0" />
+      </group>
+      <group name="value_tuning" List.ItemID="619936777">
+        <enum name="key" value="ai_phase_encounter_fallback_squad_health_threshold" comment="health threshold for each individual squad to want to fall back" />
+        <float name="value" value="-1" />
+      </group>
+      <group name="value_tuning" List.ItemID="802214010">
+        <enum name="key" value="ai_phase_encounter_fallback_squad_health_percent" comment="how many individual squads in the group wanting to fallback will trigger fallback" />
+        <float name="value" value="1" />
+      </group>
+      <group name="value_tuning" List.ItemID="1105968309">
+        <enum name="key" value="ai_phase_encounter_destination_area" />
+        <float name="value" value="50" />
+      </group>
+      <group name="value_tuning" List.ItemID="2116965414">
+        <enum name="key" value="ai_phase_encounter_destination_required_squads_percent" comment="finish travel phase when this percent of squads are in the destination area" />
+        <float name="value" value="0.25" />
+      </group>
+      <group name="value_tuning" List.ItemID="1077286206">
+        <enum name="key" value="ai_phase_encounter_fallback_squads_remaining_percent" comment="if this many entities remain out of the starting count then fallback" />
+        <float name="value" value="0" />
+      </group>
+      <group name="value_tuning" List.ItemID="1233642951">
+        <enum name="key" value="ai_phase_encounter_idle_at_end_seconds" />
+        <float name="value" value="0" />
+      </group>
+      <group name="value_tuning" List.ItemID="-1354618308">
+        <enum name="key" value="ai_phase_encounter_enemy_scan_range" />
+        <float name="value" value="0" />
+      </group>
+    </list>
+    <list name="int_tunings">
+    </list>
+    <group name="special_enum_tunings">
+      <list name="unit_class_list">
+        <group name="key_values" List.ItemID="-2010309822">
+          <enum name="key" value="ai_phase_encounter_exclude_unit_types" comment="ignore these types of enemy building" />
+          <list name="values">
+            <enum name="value" value="farm" List.ItemID="-688011052" />
+            <enum name="value" value="animal_herdable" List.ItemID="-233301819" />
+            <enum name="value" value="animal_gatherable" List.ItemID="1548661839" />
+          </list>
+        </group>
+        <group name="key_values" List.ItemID="584498243">
+          <enum name="key" value="ai_phase_encounter_exclude_unit_types" comment="ignore these types of enemy building" />
+          <list name="values">
+            <enum name="value" value="stone_wall" List.ItemID="1030468775" />
+          </list>
+        </group>
+        <group name="key_values" List.ItemID="1465055932">
+          <enum name="key" value="ai_phase_encounter_exclude_unit_types" comment="ignore these types of enemy building" />
+          <list name="values">
+            <enum name="value" value="palisade_wall" List.ItemID="612487151" />
+          </list>
+        </group>
+      </list>
+      <list name="ai_military_engagement_type">
+        <group name="key_value" List.ItemID="-723185421">
+          <enum name="key" value="ai_phase_encounter_engagement_type" />
+          <enum name="value" value="defend_structure" />
+        </group>
+      </list>
+    </group>
+    <group name="special_pbg_tunings">
+      <list name="ai_phase_encounter_coordinator_bag">
+        <group name="key_value" List.ItemID="2062873976">
+          <enum name="key" value="ai_phase_encounter_coordinator_bag" />
+          <instance_reference name="value" value="ai\ai_formation_coordinator\ai_formation_coordinator_defend_wall" />
+        </group>
+      </list>
+      <list name="ai_phase_encounter_coordinator_bag_enroute">
+        <group name="key_value" List.ItemID="1458319680">
+          <enum name="key" value="ai_phase_encounter_coordinator_bag_enroute" />
+          <instance_reference name="value" value="ai\ai_formation_coordinator\ai_formation_coordinator_defend_wall" />
+        </group>
+      </list>
+      <list name="ai_phase_encounter_path_bag">
+      </list>
+    </group>
+  </group>
+  <uniqueid name="pbgid" value="201223" />
+  <instance_reference name="parent_pbg" value="" />
+  <variant name="xp3">
+    <group name="ai_statemodel_tunings_bag">
+      <list name="bool_tunings">
+        <group name="value_tuning" List.ItemID="-811765993">
+          <enum name="key" value="ai_phase_encounter_convert_squad_target_to_position" comment="Don't convert if allow target following." />
+          <bool name="value" value="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="-1387851575">
+          <enum name="key" value="ai_phase_encounter_clear_enemy_squads" />
+          <bool name="value" value="False" />
+        </group>
+        <group name="value_tuning" List.ItemID="1904301839">
+          <enum name="key" value="ai_phase_encounter_clear_enemy_buildings" />
+          <bool name="value" value="False" />
+        </group>
+        <group name="value_tuning" List.ItemID="1610707132">
+          <enum name="key" value="ai_phase_encounter_exit_test_include_unreachable" />
+          <bool name="value" value="False" />
+        </group>
+        <group name="value_tuning" List.ItemID="-577497483">
+          <enum name="key" value="ai_phase_encounter_target_destroyed" comment="terminate if final target destroyed" />
+          <bool name="value" value="False" />
+        </group>
+        <group name="value_tuning" List.ItemID="-371807667">
+          <enum name="key" value="ai_phase_encounter_defend_destination" />
+          <bool name="value" value="False" />
+        </group>
+        <group name="value_tuning" List.ItemID="987867061">
+          <enum name="key" value="ai_phase_encounter_can_help_nearby" />
+          <bool name="value" value="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="277904135">
+          <enum name="key" value="ai_phase_encounter_check_for_open_path_to_enemy_structure" />
+          <bool name="value" value="False" />
+        </group>
+        <group name="value_tuning" List.ItemID="-119700261">
+          <enum name="key" value="teardowns_disabled" />
+          <bool name="value" value="True" />
+        </group>
+      </list>
+      <list name="float_tunings">
+        <group name="value_tuning" List.ItemID="590331929">
+          <enum name="key" value="ai_phase_encounter_combat_area" />
+          <float name="value" value="30" />
+        </group>
+        <group name="value_tuning" List.ItemID="1819862230">
+          <enum name="key" value="ai_phase_encounter_combat_leash" />
+          <float name="value" value="40" />
+        </group>
+        <group name="value_tuning" List.ItemID="423775016">
+          <enum name="key" value="ai_phase_encounter_formup_required_squads_percent" />
+          <float name="value" value="0.99" />
+        </group>
+        <group name="value_tuning" List.ItemID="-96757480">
+          <enum name="key" value="ai_phase_encounter_formup_timeout" />
+          <float name="value" value="10" />
+        </group>
+        <group name="value_tuning" List.ItemID="1488284679">
+          <enum name="key" value="ai_phase_encounter_combat_fitness_threshold" comment="Set to 0 for attack anyone we meet" />
+          <float name="value" value="-1" />
+        </group>
+        <group name="value_tuning" List.ItemID="1077841636">
+          <enum name="key" value="ai_phase_encounter_fallback_combat_rating" comment="fallback if we meet enemies that exceed this combat fitness against us" />
+          <float name="value" value="0" />
+        </group>
+        <group name="value_tuning" List.ItemID="619936777">
+          <enum name="key" value="ai_phase_encounter_fallback_squad_health_threshold" comment="health threshold for each individual squad to want to fall back" />
+          <float name="value" value="-1" />
+        </group>
+        <group name="value_tuning" List.ItemID="802214010">
+          <enum name="key" value="ai_phase_encounter_fallback_squad_health_percent" comment="how many individual squads in the group wanting to fallback will trigger fallback" />
+          <float name="value" value="1" />
+        </group>
+        <group name="value_tuning" List.ItemID="1105968309">
+          <enum name="key" value="ai_phase_encounter_destination_area" />
+          <float name="value" value="50" />
+        </group>
+        <group name="value_tuning" List.ItemID="2116965414">
+          <enum name="key" value="ai_phase_encounter_destination_required_squads_percent" comment="finish travel phase when this percent of squads are in the destination area" />
+          <float name="value" value="0.25" />
+        </group>
+        <group name="value_tuning" List.ItemID="1077286206">
+          <enum name="key" value="ai_phase_encounter_fallback_squads_remaining_percent" comment="if this many entities remain out of the starting count then fallback" />
+          <float name="value" value="0" />
+        </group>
+        <group name="value_tuning" List.ItemID="1233642951">
+          <enum name="key" value="ai_phase_encounter_idle_at_end_seconds" />
+          <float name="value" value="0" />
+        </group>
+        <group name="value_tuning" List.ItemID="-1354618308">
+          <enum name="key" value="ai_phase_encounter_enemy_scan_range" />
+          <float name="value" value="0" />
+        </group>
+      </list>
+      <list name="int_tunings">
+      </list>
+      <group name="special_enum_tunings">
+        <list name="unit_class_list">
+          <group name="key_values" List.ItemID="-2010309822">
+            <enum name="key" value="ai_phase_encounter_exclude_unit_types" comment="ignore these types of enemy building" />
+            <list name="values">
+              <enum name="value" value="farm" List.ItemID="-688011052" />
+              <enum name="value" value="animal_herdable" List.ItemID="-233301819" />
+              <enum name="value" value="animal_gatherable" List.ItemID="1548661839" />
+            </list>
+          </group>
+          <group name="key_values" List.ItemID="584498243">
+            <enum name="key" value="ai_phase_encounter_exclude_unit_types" comment="ignore these types of enemy building" />
+            <list name="values">
+              <enum name="value" value="stone_wall" List.ItemID="1030468775" />
+            </list>
+          </group>
+          <group name="key_values" List.ItemID="1465055932">
+            <enum name="key" value="ai_phase_encounter_exclude_unit_types" comment="ignore these types of enemy building" />
+            <list name="values">
+              <enum name="value" value="palisade_wall" List.ItemID="612487151" />
+            </list>
+          </group>
+        </list>
+        <list name="ai_military_engagement_type">
+          <group name="key_value" List.ItemID="-723185421">
+            <enum name="key" value="ai_phase_encounter_engagement_type" />
+            <enum name="value" value="defend_structure" />
+          </group>
+        </list>
+      </group>
+      <group name="special_pbg_tunings">
+        <list name="ai_phase_encounter_coordinator_bag">
+          <group name="key_value" List.ItemID="2062873976">
+            <enum name="key" value="ai_phase_encounter_coordinator_bag" />
+            <instance_reference name="value" value="ai\ai_formation_coordinator\ai_formation_coordinator_defend_wall" />
+          </group>
+        </list>
+        <list name="ai_phase_encounter_coordinator_bag_enroute">
+          <group name="key_value" List.ItemID="1458319680">
+            <enum name="key" value="ai_phase_encounter_coordinator_bag_enroute" />
+            <instance_reference name="value" value="ai\ai_formation_coordinator\ai_formation_coordinator_defend_wall" />
+          </group>
+        </list>
+        <list name="ai_phase_encounter_path_bag">
+        </list>
+      </group>
+    </group>
+    <uniqueid name="pbgid" value="201223" />
+    <instance_reference name="parent_pbg" value="" />
+  </variant>
+  <variant name="cordoba">
+    <group name="ai_statemodel_tunings_bag">
+      <list name="bool_tunings">
+        <group name="value_tuning" List.ItemID="-811765993">
+          <enum name="key" value="ai_phase_encounter_convert_squad_target_to_position" comment="Don't convert if allow target following." />
+          <bool name="value" value="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="-1387851575">
+          <enum name="key" value="ai_phase_encounter_clear_enemy_squads" />
+          <bool name="value" value="False" />
+        </group>
+        <group name="value_tuning" List.ItemID="1904301839">
+          <enum name="key" value="ai_phase_encounter_clear_enemy_buildings" />
+          <bool name="value" value="False" />
+        </group>
+        <group name="value_tuning" List.ItemID="1610707132">
+          <enum name="key" value="ai_phase_encounter_exit_test_include_unreachable" />
+          <bool name="value" value="False" />
+        </group>
+        <group name="value_tuning" List.ItemID="-577497483">
+          <enum name="key" value="ai_phase_encounter_target_destroyed" comment="terminate if final target destroyed" />
+          <bool name="value" value="False" />
+        </group>
+        <group name="value_tuning" List.ItemID="-371807667">
+          <enum name="key" value="ai_phase_encounter_defend_destination" />
+          <bool name="value" value="False" />
+        </group>
+        <group name="value_tuning" List.ItemID="987867061">
+          <enum name="key" value="ai_phase_encounter_can_help_nearby" />
+          <bool name="value" value="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="277904135">
+          <enum name="key" value="ai_phase_encounter_check_for_open_path_to_enemy_structure" />
+          <bool name="value" value="False" />
+        </group>
+        <group name="value_tuning" List.ItemID="-119700261">
+          <enum name="key" value="teardowns_disabled" />
+          <bool name="value" value="True" />
+        </group>
+      </list>
+      <list name="float_tunings">
+        <group name="value_tuning" List.ItemID="590331929">
+          <enum name="key" value="ai_phase_encounter_combat_area" />
+          <float name="value" value="30" />
+        </group>
+        <group name="value_tuning" List.ItemID="1819862230">
+          <enum name="key" value="ai_phase_encounter_combat_leash" />
+          <float name="value" value="40" />
+        </group>
+        <group name="value_tuning" List.ItemID="423775016">
+          <enum name="key" value="ai_phase_encounter_formup_required_squads_percent" />
+          <float name="value" value="0.99" />
+        </group>
+        <group name="value_tuning" List.ItemID="-96757480">
+          <enum name="key" value="ai_phase_encounter_formup_timeout" />
+          <float name="value" value="10" />
+        </group>
+        <group name="value_tuning" List.ItemID="1488284679">
+          <enum name="key" value="ai_phase_encounter_combat_fitness_threshold" comment="Set to 0 for attack anyone we meet" />
+          <float name="value" value="-1" />
+        </group>
+        <group name="value_tuning" List.ItemID="1077841636">
+          <enum name="key" value="ai_phase_encounter_fallback_combat_rating" comment="fallback if we meet enemies that exceed this combat fitness against us" />
+          <float name="value" value="0" />
+        </group>
+        <group name="value_tuning" List.ItemID="619936777">
+          <enum name="key" value="ai_phase_encounter_fallback_squad_health_threshold" comment="health threshold for each individual squad to want to fall back" />
+          <float name="value" value="-1" />
+        </group>
+        <group name="value_tuning" List.ItemID="802214010">
+          <enum name="key" value="ai_phase_encounter_fallback_squad_health_percent" comment="how many individual squads in the group wanting to fallback will trigger fallback" />
+          <float name="value" value="1" />
+        </group>
+        <group name="value_tuning" List.ItemID="1105968309">
+          <enum name="key" value="ai_phase_encounter_destination_area" />
+          <float name="value" value="50" />
+        </group>
+        <group name="value_tuning" List.ItemID="2116965414">
+          <enum name="key" value="ai_phase_encounter_destination_required_squads_percent" comment="finish travel phase when this percent of squads are in the destination area" />
+          <float name="value" value="0.25" />
+        </group>
+        <group name="value_tuning" List.ItemID="1077286206">
+          <enum name="key" value="ai_phase_encounter_fallback_squads_remaining_percent" comment="if this many entities remain out of the starting count then fallback" />
+          <float name="value" value="0" />
+        </group>
+        <group name="value_tuning" List.ItemID="1233642951">
+          <enum name="key" value="ai_phase_encounter_idle_at_end_seconds" />
+          <float name="value" value="0" />
+        </group>
+        <group name="value_tuning" List.ItemID="-1354618308">
+          <enum name="key" value="ai_phase_encounter_enemy_scan_range" />
+          <float name="value" value="0" />
+        </group>
+      </list>
+      <list name="int_tunings">
+      </list>
+      <group name="special_enum_tunings">
+        <list name="unit_class_list">
+          <group name="key_values" List.ItemID="-2010309822">
+            <enum name="key" value="ai_phase_encounter_exclude_unit_types" comment="ignore these types of enemy building" />
+            <list name="values">
+              <enum name="value" value="farm" List.ItemID="-688011052" />
+              <enum name="value" value="animal_herdable" List.ItemID="-233301819" />
+              <enum name="value" value="animal_gatherable" List.ItemID="1548661839" />
+            </list>
+          </group>
+          <group name="key_values" List.ItemID="584498243">
+            <enum name="key" value="ai_phase_encounter_exclude_unit_types" comment="ignore these types of enemy building" />
+            <list name="values">
+              <enum name="value" value="stone_wall" List.ItemID="1030468775" />
+            </list>
+          </group>
+          <group name="key_values" List.ItemID="1465055932">
+            <enum name="key" value="ai_phase_encounter_exclude_unit_types" comment="ignore these types of enemy building" />
+            <list name="values">
+              <enum name="value" value="palisade_wall" List.ItemID="612487151" />
+            </list>
+          </group>
+        </list>
+        <list name="ai_military_engagement_type">
+          <group name="key_value" List.ItemID="-723185421">
+            <enum name="key" value="ai_phase_encounter_engagement_type" />
+            <enum name="value" value="defend_structure" />
+          </group>
+        </list>
+      </group>
+      <group name="special_pbg_tunings">
+        <list name="ai_phase_encounter_coordinator_bag">
+          <group name="key_value" List.ItemID="2062873976">
+            <enum name="key" value="ai_phase_encounter_coordinator_bag" />
+            <instance_reference name="value" value="ai\ai_formation_coordinator\ai_formation_coordinator_defend_wall" />
+          </group>
+        </list>
+        <list name="ai_phase_encounter_coordinator_bag_enroute">
+          <group name="key_value" List.ItemID="1458319680">
+            <enum name="key" value="ai_phase_encounter_coordinator_bag_enroute" />
+            <instance_reference name="value" value="ai\ai_formation_coordinator\ai_formation_coordinator_defend_wall" />
+          </group>
+        </list>
+        <list name="ai_phase_encounter_path_bag">
+        </list>
+      </group>
+    </group>
+    <uniqueid name="pbgid" value="201223" />
+    <instance_reference name="parent_pbg" value="" />
+  </variant>
+</instance>

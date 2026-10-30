@@ -1,0 +1,1432 @@
+{
+  "archive": {
+    "block_size": 262144,
+    "file_count": 15517,
+    "folder_count": 20,
+    "header_encryption": "None",
+    "name": "CardinalSoundSpeechMalian",
+    "path": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\SoundSpeechMalian.sga",
+    "product": 0,
+    "signature_present": true,
+    "toc_count": 1,
+    "tocs": [
+      {
+        "alias": "audio",
+        "name": "audio"
+      }
+    ],
+    "verification": null,
+    "version": 10
+  },
+  "speech_files": 1278,
+  "unparsed": [],
+  "deliveries": [
+    "high",
+    "none",
+    "norm",
+    "stealth"
+  ],
+  "eras": [
+    "high",
+    "low",
+    "lowest",
+    "med",
+    "none"
+  ],
+  "events": [
+    {
+      "event": "acknowledge",
+      "files": 120,
+      "base_takes": 60,
+      "alternate_takes": 60,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "high",
+          "files": 10
+        },
+        {
+          "delivery": "high",
+          "era": "low",
+          "files": 10
+        },
+        {
+          "delivery": "high",
+          "era": "lowest",
+          "files": 10
+        },
+        {
+          "delivery": "high",
+          "era": "med",
+          "files": 10
+        },
+        {
+          "delivery": "norm",
+          "era": "high",
+          "files": 10
+        },
+        {
+          "delivery": "norm",
+          "era": "low",
+          "files": 10
+        },
+        {
+          "delivery": "norm",
+          "era": "lowest",
+          "files": 10
+        },
+        {
+          "delivery": "norm",
+          "era": "med",
+          "files": 10
+        },
+        {
+          "delivery": "stealth",
+          "era": "high",
+          "files": 10
+        },
+        {
+          "delivery": "stealth",
+          "era": "low",
+          "files": 10
+        },
+        {
+          "delivery": "stealth",
+          "era": "lowest",
+          "files": 10
+        },
+        {
+          "delivery": "stealth",
+          "era": "med",
+          "files": 10
+        }
+      ]
+    },
+    {
+      "event": "acknowledgegmr",
+      "files": 48,
+      "base_takes": 48,
+      "alternate_takes": 0,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "high",
+          "files": 6
+        },
+        {
+          "delivery": "high",
+          "era": "low",
+          "files": 6
+        },
+        {
+          "delivery": "high",
+          "era": "lowest",
+          "files": 6
+        },
+        {
+          "delivery": "high",
+          "era": "med",
+          "files": 6
+        },
+        {
+          "delivery": "norm",
+          "era": "high",
+          "files": 6
+        },
+        {
+          "delivery": "norm",
+          "era": "low",
+          "files": 6
+        },
+        {
+          "delivery": "norm",
+          "era": "lowest",
+          "files": 6
+        },
+        {
+          "delivery": "norm",
+          "era": "med",
+          "files": 6
+        }
+      ]
+    },
+    {
+      "event": "ambientcombat",
+      "files": 36,
+      "base_takes": 36,
+      "alternate_takes": 0,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "high",
+          "files": 9
+        },
+        {
+          "delivery": "high",
+          "era": "low",
+          "files": 9
+        },
+        {
+          "delivery": "high",
+          "era": "lowest",
+          "files": 9
+        },
+        {
+          "delivery": "high",
+          "era": "med",
+          "files": 9
+        }
+      ]
+    },
+    {
+      "event": "attack",
+      "files": 80,
+      "base_takes": 40,
+      "alternate_takes": 40,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "high",
+          "files": 10
+        },
+        {
+          "delivery": "high",
+          "era": "low",
+          "files": 10
+        },
+        {
+          "delivery": "high",
+          "era": "lowest",
+          "files": 10
+        },
+        {
+          "delivery": "high",
+          "era": "med",
+          "files": 10
+        },
+        {
+          "delivery": "norm",
+          "era": "high",
+          "files": 10
+        },
+        {
+          "delivery": "norm",
+          "era": "low",
+          "files": 10
+        },
+        {
+          "delivery": "norm",
+          "era": "lowest",
+          "files": 10
+        },
+        {
+          "delivery": "norm",
+          "era": "med",
+          "files": 10
+        }
+      ]
+    },
+    {
+      "event": "attackmovegc",
+      "files": 28,
+      "base_takes": 28,
+      "alternate_takes": 0,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "high",
+          "files": 4
+        },
+        {
+          "delivery": "high",
+          "era": "low",
+          "files": 3
+        },
+        {
+          "delivery": "high",
+          "era": "lowest",
+          "files": 3
+        },
+        {
+          "delivery": "high",
+          "era": "med",
+          "files": 4
+        },
+        {
+          "delivery": "norm",
+          "era": "high",
+          "files": 4
+        },
+        {
+          "delivery": "norm",
+          "era": "low",
+          "files": 3
+        },
+        {
+          "delivery": "norm",
+          "era": "lowest",
+          "files": 3
+        },
+        {
+          "delivery": "norm",
+          "era": "med",
+          "files": 4
+        }
+      ]
+    },
+    {
+      "event": "attackmovesu",
+      "files": 28,
+      "base_takes": 28,
+      "alternate_takes": 0,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "high",
+          "files": 4
+        },
+        {
+          "delivery": "high",
+          "era": "low",
+          "files": 3
+        },
+        {
+          "delivery": "high",
+          "era": "lowest",
+          "files": 3
+        },
+        {
+          "delivery": "high",
+          "era": "med",
+          "files": 4
+        },
+        {
+          "delivery": "norm",
+          "era": "high",
+          "files": 4
+        },
+        {
+          "delivery": "norm",
+          "era": "low",
+          "files": 3
+        },
+        {
+          "delivery": "norm",
+          "era": "lowest",
+          "files": 3
+        },
+        {
+          "delivery": "norm",
+          "era": "med",
+          "files": 4
+        }
+      ]
+    },
+    {
+      "event": "attacksametypegc",
+      "files": 24,
+      "base_takes": 24,
+      "alternate_takes": 0,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "high",
+          "files": 3
+        },
+        {
+          "delivery": "high",
+          "era": "low",
+          "files": 3
+        },
+        {
+          "delivery": "high",
+          "era": "lowest",
+          "files": 3
+        },
+        {
+          "delivery": "high",
+          "era": "med",
+          "files": 3
+        },
+        {
+          "delivery": "norm",
+          "era": "high",
+          "files": 3
+        },
+        {
+          "delivery": "norm",
+          "era": "low",
+          "files": 3
+        },
+        {
+          "delivery": "norm",
+          "era": "lowest",
+          "files": 3
+        },
+        {
+          "delivery": "norm",
+          "era": "med",
+          "files": 3
+        }
+      ]
+    },
+    {
+      "event": "brace",
+      "files": 50,
+      "base_takes": 25,
+      "alternate_takes": 25,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "high",
+          "files": 10
+        },
+        {
+          "delivery": "high",
+          "era": "low",
+          "files": 10
+        },
+        {
+          "delivery": "high",
+          "era": "lowest",
+          "files": 20
+        },
+        {
+          "delivery": "high",
+          "era": "med",
+          "files": 10
+        }
+      ]
+    },
+    {
+      "event": "celebrate",
+      "files": 42,
+      "base_takes": 21,
+      "alternate_takes": 21,
+      "forms": [
+        {
+          "delivery": "none",
+          "era": "lowest",
+          "files": 10
+        },
+        {
+          "delivery": "norm",
+          "era": "high",
+          "files": 8
+        },
+        {
+          "delivery": "norm",
+          "era": "low",
+          "files": 8
+        },
+        {
+          "delivery": "norm",
+          "era": "lowest",
+          "files": 8
+        },
+        {
+          "delivery": "norm",
+          "era": "med",
+          "files": 8
+        }
+      ]
+    },
+    {
+      "event": "changeformation",
+      "files": 24,
+      "base_takes": 24,
+      "alternate_takes": 0,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "high",
+          "files": 3
+        },
+        {
+          "delivery": "high",
+          "era": "low",
+          "files": 3
+        },
+        {
+          "delivery": "high",
+          "era": "lowest",
+          "files": 3
+        },
+        {
+          "delivery": "high",
+          "era": "med",
+          "files": 3
+        },
+        {
+          "delivery": "norm",
+          "era": "high",
+          "files": 3
+        },
+        {
+          "delivery": "norm",
+          "era": "low",
+          "files": 3
+        },
+        {
+          "delivery": "norm",
+          "era": "lowest",
+          "files": 3
+        },
+        {
+          "delivery": "norm",
+          "era": "med",
+          "files": 3
+        }
+      ]
+    },
+    {
+      "event": "effortattack",
+      "files": 11,
+      "base_takes": 1,
+      "alternate_takes": 10,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "none",
+          "files": 11
+        }
+      ]
+    },
+    {
+      "event": "effortattackbig",
+      "files": 11,
+      "base_takes": 1,
+      "alternate_takes": 10,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "none",
+          "files": 11
+        }
+      ]
+    },
+    {
+      "event": "effortcough",
+      "files": 11,
+      "base_takes": 1,
+      "alternate_takes": 10,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "none",
+          "files": 11
+        }
+      ]
+    },
+    {
+      "event": "effortdeath",
+      "files": 11,
+      "base_takes": 1,
+      "alternate_takes": 10,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "none",
+          "files": 11
+        }
+      ]
+    },
+    {
+      "event": "effortexertion",
+      "files": 11,
+      "base_takes": 1,
+      "alternate_takes": 10,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "none",
+          "files": 11
+        }
+      ]
+    },
+    {
+      "event": "effortexertionbig",
+      "files": 11,
+      "base_takes": 1,
+      "alternate_takes": 10,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "none",
+          "files": 11
+        }
+      ]
+    },
+    {
+      "event": "effortfear",
+      "files": 11,
+      "base_takes": 1,
+      "alternate_takes": 10,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "none",
+          "files": 11
+        }
+      ]
+    },
+    {
+      "event": "efforthealed",
+      "files": 11,
+      "base_takes": 1,
+      "alternate_takes": 10,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "none",
+          "files": 11
+        }
+      ]
+    },
+    {
+      "event": "effortincomingprojectile",
+      "files": 11,
+      "base_takes": 1,
+      "alternate_takes": 10,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "none",
+          "files": 11
+        }
+      ]
+    },
+    {
+      "event": "effortinspired",
+      "files": 11,
+      "base_takes": 1,
+      "alternate_takes": 10,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "none",
+          "files": 11
+        }
+      ]
+    },
+    {
+      "event": "effortpain",
+      "files": 11,
+      "base_takes": 1,
+      "alternate_takes": 10,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "none",
+          "files": 11
+        }
+      ]
+    },
+    {
+      "event": "effortpainbig",
+      "files": 11,
+      "base_takes": 1,
+      "alternate_takes": 10,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "none",
+          "files": 11
+        }
+      ]
+    },
+    {
+      "event": "effortpanic",
+      "files": 11,
+      "base_takes": 1,
+      "alternate_takes": 10,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "none",
+          "files": 11
+        }
+      ]
+    },
+    {
+      "event": "effortstretch",
+      "files": 11,
+      "base_takes": 1,
+      "alternate_takes": 10,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "none",
+          "files": 11
+        }
+      ]
+    },
+    {
+      "event": "effortthroatclear",
+      "files": 11,
+      "base_takes": 1,
+      "alternate_takes": 10,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "none",
+          "files": 11
+        }
+      ]
+    },
+    {
+      "event": "effortwarcry",
+      "files": 11,
+      "base_takes": 1,
+      "alternate_takes": 10,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "none",
+          "files": 11
+        }
+      ]
+    },
+    {
+      "event": "enemyspotted",
+      "files": 24,
+      "base_takes": 12,
+      "alternate_takes": 12,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "high",
+          "files": 6
+        },
+        {
+          "delivery": "high",
+          "era": "low",
+          "files": 6
+        },
+        {
+          "delivery": "high",
+          "era": "lowest",
+          "files": 6
+        },
+        {
+          "delivery": "high",
+          "era": "med",
+          "files": 6
+        }
+      ]
+    },
+    {
+      "event": "engage",
+      "files": 50,
+      "base_takes": 25,
+      "alternate_takes": 25,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "high",
+          "files": 10
+        },
+        {
+          "delivery": "high",
+          "era": "low",
+          "files": 10
+        },
+        {
+          "delivery": "high",
+          "era": "lowest",
+          "files": 20
+        },
+        {
+          "delivery": "high",
+          "era": "med",
+          "files": 10
+        }
+      ]
+    },
+    {
+      "event": "garrison",
+      "files": 24,
+      "base_takes": 24,
+      "alternate_takes": 0,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "high",
+          "files": 3
+        },
+        {
+          "delivery": "high",
+          "era": "low",
+          "files": 3
+        },
+        {
+          "delivery": "high",
+          "era": "lowest",
+          "files": 3
+        },
+        {
+          "delivery": "high",
+          "era": "med",
+          "files": 3
+        },
+        {
+          "delivery": "norm",
+          "era": "high",
+          "files": 3
+        },
+        {
+          "delivery": "norm",
+          "era": "low",
+          "files": 3
+        },
+        {
+          "delivery": "norm",
+          "era": "lowest",
+          "files": 3
+        },
+        {
+          "delivery": "norm",
+          "era": "med",
+          "files": 3
+        }
+      ]
+    },
+    {
+      "event": "hold",
+      "files": 16,
+      "base_takes": 16,
+      "alternate_takes": 0,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "high",
+          "files": 2
+        },
+        {
+          "delivery": "high",
+          "era": "low",
+          "files": 2
+        },
+        {
+          "delivery": "high",
+          "era": "lowest",
+          "files": 2
+        },
+        {
+          "delivery": "high",
+          "era": "med",
+          "files": 2
+        },
+        {
+          "delivery": "norm",
+          "era": "high",
+          "files": 2
+        },
+        {
+          "delivery": "norm",
+          "era": "low",
+          "files": 2
+        },
+        {
+          "delivery": "norm",
+          "era": "lowest",
+          "files": 2
+        },
+        {
+          "delivery": "norm",
+          "era": "med",
+          "files": 2
+        }
+      ]
+    },
+    {
+      "event": "marchingidle",
+      "files": 20,
+      "base_takes": 20,
+      "alternate_takes": 0,
+      "forms": [
+        {
+          "delivery": "norm",
+          "era": "high",
+          "files": 5
+        },
+        {
+          "delivery": "norm",
+          "era": "low",
+          "files": 5
+        },
+        {
+          "delivery": "norm",
+          "era": "lowest",
+          "files": 5
+        },
+        {
+          "delivery": "norm",
+          "era": "med",
+          "files": 5
+        }
+      ]
+    },
+    {
+      "event": "movegc",
+      "files": 64,
+      "base_takes": 32,
+      "alternate_takes": 32,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "high",
+          "files": 8
+        },
+        {
+          "delivery": "high",
+          "era": "low",
+          "files": 8
+        },
+        {
+          "delivery": "high",
+          "era": "lowest",
+          "files": 8
+        },
+        {
+          "delivery": "high",
+          "era": "med",
+          "files": 8
+        },
+        {
+          "delivery": "norm",
+          "era": "high",
+          "files": 8
+        },
+        {
+          "delivery": "norm",
+          "era": "low",
+          "files": 8
+        },
+        {
+          "delivery": "norm",
+          "era": "lowest",
+          "files": 8
+        },
+        {
+          "delivery": "norm",
+          "era": "med",
+          "files": 8
+        }
+      ]
+    },
+    {
+      "event": "movesametypegc",
+      "files": 32,
+      "base_takes": 32,
+      "alternate_takes": 0,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "high",
+          "files": 4
+        },
+        {
+          "delivery": "high",
+          "era": "low",
+          "files": 4
+        },
+        {
+          "delivery": "high",
+          "era": "lowest",
+          "files": 4
+        },
+        {
+          "delivery": "high",
+          "era": "med",
+          "files": 4
+        },
+        {
+          "delivery": "norm",
+          "era": "high",
+          "files": 4
+        },
+        {
+          "delivery": "norm",
+          "era": "low",
+          "files": 4
+        },
+        {
+          "delivery": "norm",
+          "era": "lowest",
+          "files": 4
+        },
+        {
+          "delivery": "norm",
+          "era": "med",
+          "files": 4
+        }
+      ]
+    },
+    {
+      "event": "movesu",
+      "files": 64,
+      "base_takes": 32,
+      "alternate_takes": 32,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "high",
+          "files": 8
+        },
+        {
+          "delivery": "high",
+          "era": "low",
+          "files": 8
+        },
+        {
+          "delivery": "high",
+          "era": "lowest",
+          "files": 8
+        },
+        {
+          "delivery": "high",
+          "era": "med",
+          "files": 8
+        },
+        {
+          "delivery": "norm",
+          "era": "high",
+          "files": 8
+        },
+        {
+          "delivery": "norm",
+          "era": "low",
+          "files": 8
+        },
+        {
+          "delivery": "norm",
+          "era": "lowest",
+          "files": 8
+        },
+        {
+          "delivery": "norm",
+          "era": "med",
+          "files": 8
+        }
+      ]
+    },
+    {
+      "event": "reactproud",
+      "files": 16,
+      "base_takes": 16,
+      "alternate_takes": 0,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "high",
+          "files": 2
+        },
+        {
+          "delivery": "high",
+          "era": "low",
+          "files": 2
+        },
+        {
+          "delivery": "high",
+          "era": "lowest",
+          "files": 2
+        },
+        {
+          "delivery": "high",
+          "era": "med",
+          "files": 2
+        },
+        {
+          "delivery": "norm",
+          "era": "high",
+          "files": 2
+        },
+        {
+          "delivery": "norm",
+          "era": "low",
+          "files": 2
+        },
+        {
+          "delivery": "norm",
+          "era": "lowest",
+          "files": 2
+        },
+        {
+          "delivery": "norm",
+          "era": "med",
+          "files": 2
+        }
+      ]
+    },
+    {
+      "event": "resourcehunt",
+      "files": 32,
+      "base_takes": 16,
+      "alternate_takes": 16,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "high",
+          "files": 4
+        },
+        {
+          "delivery": "high",
+          "era": "low",
+          "files": 4
+        },
+        {
+          "delivery": "high",
+          "era": "lowest",
+          "files": 4
+        },
+        {
+          "delivery": "high",
+          "era": "med",
+          "files": 4
+        },
+        {
+          "delivery": "norm",
+          "era": "high",
+          "files": 4
+        },
+        {
+          "delivery": "norm",
+          "era": "low",
+          "files": 4
+        },
+        {
+          "delivery": "norm",
+          "era": "lowest",
+          "files": 4
+        },
+        {
+          "delivery": "norm",
+          "era": "med",
+          "files": 4
+        }
+      ]
+    },
+    {
+      "event": "select",
+      "files": 96,
+      "base_takes": 48,
+      "alternate_takes": 48,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "high",
+          "files": 8
+        },
+        {
+          "delivery": "high",
+          "era": "low",
+          "files": 8
+        },
+        {
+          "delivery": "high",
+          "era": "lowest",
+          "files": 8
+        },
+        {
+          "delivery": "high",
+          "era": "med",
+          "files": 8
+        },
+        {
+          "delivery": "norm",
+          "era": "high",
+          "files": 8
+        },
+        {
+          "delivery": "norm",
+          "era": "low",
+          "files": 8
+        },
+        {
+          "delivery": "norm",
+          "era": "lowest",
+          "files": 8
+        },
+        {
+          "delivery": "norm",
+          "era": "med",
+          "files": 8
+        },
+        {
+          "delivery": "stealth",
+          "era": "high",
+          "files": 8
+        },
+        {
+          "delivery": "stealth",
+          "era": "low",
+          "files": 8
+        },
+        {
+          "delivery": "stealth",
+          "era": "lowest",
+          "files": 8
+        },
+        {
+          "delivery": "stealth",
+          "era": "med",
+          "files": 8
+        }
+      ]
+    },
+    {
+      "event": "selectgc",
+      "files": 64,
+      "base_takes": 32,
+      "alternate_takes": 32,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "high",
+          "files": 8
+        },
+        {
+          "delivery": "high",
+          "era": "low",
+          "files": 8
+        },
+        {
+          "delivery": "high",
+          "era": "lowest",
+          "files": 8
+        },
+        {
+          "delivery": "high",
+          "era": "med",
+          "files": 8
+        },
+        {
+          "delivery": "norm",
+          "era": "high",
+          "files": 8
+        },
+        {
+          "delivery": "norm",
+          "era": "low",
+          "files": 8
+        },
+        {
+          "delivery": "norm",
+          "era": "lowest",
+          "files": 8
+        },
+        {
+          "delivery": "norm",
+          "era": "med",
+          "files": 8
+        }
+      ]
+    },
+    {
+      "event": "selectsametypegc",
+      "files": 32,
+      "base_takes": 32,
+      "alternate_takes": 0,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "high",
+          "files": 4
+        },
+        {
+          "delivery": "high",
+          "era": "low",
+          "files": 4
+        },
+        {
+          "delivery": "high",
+          "era": "lowest",
+          "files": 4
+        },
+        {
+          "delivery": "high",
+          "era": "med",
+          "files": 4
+        },
+        {
+          "delivery": "norm",
+          "era": "high",
+          "files": 4
+        },
+        {
+          "delivery": "norm",
+          "era": "low",
+          "files": 4
+        },
+        {
+          "delivery": "norm",
+          "era": "lowest",
+          "files": 4
+        },
+        {
+          "delivery": "norm",
+          "era": "med",
+          "files": 4
+        }
+      ]
+    },
+    {
+      "event": "stop",
+      "files": 16,
+      "base_takes": 16,
+      "alternate_takes": 0,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "high",
+          "files": 2
+        },
+        {
+          "delivery": "high",
+          "era": "low",
+          "files": 2
+        },
+        {
+          "delivery": "high",
+          "era": "lowest",
+          "files": 2
+        },
+        {
+          "delivery": "high",
+          "era": "med",
+          "files": 2
+        },
+        {
+          "delivery": "norm",
+          "era": "high",
+          "files": 2
+        },
+        {
+          "delivery": "norm",
+          "era": "low",
+          "files": 2
+        },
+        {
+          "delivery": "norm",
+          "era": "lowest",
+          "files": 2
+        },
+        {
+          "delivery": "norm",
+          "era": "med",
+          "files": 2
+        }
+      ]
+    },
+    {
+      "event": "structurebuild",
+      "files": 32,
+      "base_takes": 16,
+      "alternate_takes": 16,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "high",
+          "files": 4
+        },
+        {
+          "delivery": "high",
+          "era": "low",
+          "files": 4
+        },
+        {
+          "delivery": "high",
+          "era": "lowest",
+          "files": 4
+        },
+        {
+          "delivery": "high",
+          "era": "med",
+          "files": 4
+        },
+        {
+          "delivery": "norm",
+          "era": "high",
+          "files": 4
+        },
+        {
+          "delivery": "norm",
+          "era": "low",
+          "files": 4
+        },
+        {
+          "delivery": "norm",
+          "era": "lowest",
+          "files": 4
+        },
+        {
+          "delivery": "norm",
+          "era": "med",
+          "files": 4
+        }
+      ]
+    },
+    {
+      "event": "targetdestroyed",
+      "files": 16,
+      "base_takes": 16,
+      "alternate_takes": 0,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "high",
+          "files": 4
+        },
+        {
+          "delivery": "high",
+          "era": "low",
+          "files": 4
+        },
+        {
+          "delivery": "high",
+          "era": "lowest",
+          "files": 4
+        },
+        {
+          "delivery": "high",
+          "era": "med",
+          "files": 4
+        }
+      ]
+    },
+    {
+      "event": "underattack",
+      "files": 24,
+      "base_takes": 12,
+      "alternate_takes": 12,
+      "forms": [
+        {
+          "delivery": "high",
+          "era": "high",
+          "files": 6
+        },
+        {
+          "delivery": "high",
+          "era": "low",
+          "files": 6
+        },
+        {
+          "delivery": "high",
+          "era": "lowest",
+          "files": 6
+        },
+        {
+          "delivery": "high",
+          "era": "med",
+          "files": 6
+        }
+      ]
+    }
+  ],
+  "spd_crosscheck": {
+    "referenced_paths": 1278,
+    "archive_paths_absent_from_spd": [],
+    "spd_paths_absent_from_inventory": []
+  }
+}

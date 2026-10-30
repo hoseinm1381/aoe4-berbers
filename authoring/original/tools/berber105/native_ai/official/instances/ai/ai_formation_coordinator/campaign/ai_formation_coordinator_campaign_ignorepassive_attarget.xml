@@ -1,0 +1,45 @@
+<instance version="6" description="designed for small attack formations, prioritizes economy and production buildings that can be quickly set on fire" template="ai\ai_formation_coordinator">
+  <group name="ai_formation_coordinator">
+    <list name="combat_target_exclude_unit_types" overrideParent="True">
+      <enum name="unit_class" value="house" List.ItemID="1612859471" />
+      <enum name="unit_class" value="farm" List.ItemID="-1359844098" />
+      <enum name="unit_class" value="settlement" List.ItemID="1368475546" />
+      <enum name="unit_class" value="economy_building" List.ItemID="-1248794355" />
+      <enum name="unit_class" value="wall" List.ItemID="864175454" />
+      <enum name="unit_class" value="research_building" List.ItemID="-1645400830" />
+      <enum name="unit_class" value="gate" List.ItemID="1775225363" />
+    </list>
+  </group>
+  <uniqueid name="pbgid" value="2031914" />
+  <instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\campaign\ai_formation_coordinator_campaign_default_attarget" />
+  <variant name="xp3">
+    <group name="ai_formation_coordinator">
+      <list name="combat_target_exclude_unit_types" overrideParent="True">
+        <enum name="unit_class" value="house" List.ItemID="1612859471" />
+        <enum name="unit_class" value="farm" List.ItemID="-1359844098" />
+        <enum name="unit_class" value="settlement" List.ItemID="1368475546" />
+        <enum name="unit_class" value="economy_building" List.ItemID="-1248794355" />
+        <enum name="unit_class" value="wall" List.ItemID="864175454" />
+        <enum name="unit_class" value="research_building" List.ItemID="-1645400830" />
+        <enum name="unit_class" value="gate" List.ItemID="1775225363" />
+      </list>
+    </group>
+    <uniqueid name="pbgid" value="2031914" />
+    <instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\campaign\ai_formation_coordinator_campaign_default_attarget" />
+  </variant>
+  <variant name="cordoba">
+    <group name="ai_formation_coordinator">
+      <list name="combat_target_exclude_unit_types" overrideParent="True">
+        <enum name="unit_class" value="house" List.ItemID="1612859471" />
+        <enum name="unit_class" value="farm" List.ItemID="-1359844098" />
+        <enum name="unit_class" value="settlement" List.ItemID="1368475546" />
+        <enum name="unit_class" value="economy_building" List.ItemID="-1248794355" />
+        <enum name="unit_class" value="wall" List.ItemID="864175454" />
+        <enum name="unit_class" value="research_building" List.ItemID="-1645400830" />
+        <enum name="unit_class" value="gate" List.ItemID="1775225363" />
+      </list>
+    </group>
+    <uniqueid name="pbgid" value="2031914" />
+    <instance_reference name="parent_pbg" value="ai\ai_formation_coordinator\campaign\ai_formation_coordinator_campaign_default_attarget" />
+  </variant>
+</instance>

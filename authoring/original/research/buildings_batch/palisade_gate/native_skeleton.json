@@ -1,0 +1,181 @@
+{
+  "schema": "garrison.decoded-rgm-skeleton/v1",
+  "status": "hierarchy_decoded",
+  "source": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\palisade_gate\\stock\\83d8517be4ebce7e3953\\source\\art\\civilizations\\english\\structures\\palisade\\eng_palisade_gate_4m_age01\\eng_palisade_gate_4m_age01.rgm",
+  "source_size_bytes": 268104,
+  "source_sha256": "1d11ab6db7fcc38f19425c76ad158c409d060c4004b070debc04202a2c402348",
+  "chunk_version": 6,
+  "chunk_sha256": "db3839d973de48df10faafee7c675181bd67c1d6be664346f711a9e2ea118476",
+  "format_version": 0,
+  "bone_count": 3,
+  "root_indices": [
+    0
+  ],
+  "duplicate_names": [],
+  "bones": [
+    {
+      "index": 0,
+      "name": "bone_root",
+      "parent_index": -1,
+      "parent_name": null,
+      "local_reference_transform": {
+        "quaternion_xyzw": [
+          -0.7071067690849304,
+          -0.0,
+          0.0,
+          0.7071067690849304
+        ],
+        "translation_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale_xyz": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "global_reference_transform": {
+        "quaternion_xyzw": [
+          -0.7071067690849304,
+          -0.0,
+          0.0,
+          0.7071067690849304
+        ],
+        "translation_xyz": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale_xyz": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "name": "door_left",
+      "parent_index": 0,
+      "parent_name": "bone_root",
+      "local_reference_transform": {
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "translation_xyz": [
+          2.0565898418426514,
+          -0.15005001425743103,
+          -2.384185648907078e-08
+        ],
+        "scale_xyz": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "global_reference_transform": {
+        "quaternion_xyzw": [
+          -0.7071067690849304,
+          0.0,
+          0.0,
+          0.7071067690849304
+        ],
+        "translation_xyz": [
+          2.05658977144858,
+          -2.3841855684159086e-08,
+          0.15005000912143784
+        ],
+        "scale_xyz": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "name": "door_right",
+      "parent_index": 0,
+      "parent_name": "bone_root",
+      "local_reference_transform": {
+        "quaternion_xyzw": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "translation_xyz": [
+          -2.0571999549865723,
+          -0.15005001425743103,
+          -1.9721522189714914e-33
+        ],
+        "scale_xyz": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "global_reference_transform": {
+        "quaternion_xyzw": [
+          -0.7071067690849304,
+          0.0,
+          0.0,
+          0.7071067690849304
+        ],
+        "translation_xyz": [
+          -2.0571998845716175,
+          0.0,
+          0.15005000912143784
+        ],
+        "scale_xyz": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "hierarchy_bytes": 54,
+  "trailing_bytes": 178,
+  "trailing_sha256": "ff14ed320ec5736bd3fd5edc9595b7ca4cd175eaa7b7252b4691da32e8e25c4d",
+  "rest_pose": {
+    "status": "local_reference_transforms_decoded",
+    "transform_count": 3,
+    "space": "parent_local",
+    "semantic": "rest_or_bind_reference_unqualified",
+    "semantic_confidence": "inferred",
+    "record_layout": {
+      "encoding": "float32le",
+      "bytes": 40,
+      "components": [
+        "quaternion_xyzw",
+        "translation_xyz",
+        "scale_xyz"
+      ]
+    },
+    "block_offset_in_skln": 112,
+    "block_bytes": 120,
+    "block_sha256": "04741b96f1284c299653d5a0d5191087c6ff09813b9f59fac71bc46b2c459659",
+    "opaque_prefix_bytes": 58,
+    "opaque_prefix_sha256": "ecd31cee359258d58b3ace3a7c839f61f2e009cf8995bcd6c7adc68413f31e78",
+    "validation": {
+      "quaternion_norm_min": 0.999999982885729,
+      "quaternion_norm_max": 1.0,
+      "quaternion_norm_max_error": 1.711427100037355e-08,
+      "translation_min": -2.0571999549865723,
+      "translation_max": 2.0565898418426514,
+      "scale_min": 1.0,
+      "scale_max": 1.0
+    }
+  },
+  "skin_palettes": [],
+  "rigid_mesh_bindings": [],
+  "static_mesh_names": [],
+  "skin_palette_count": 0,
+  "qualified_skin_palette_count": 0
+}

@@ -1,0 +1,17 @@
+{
+  "promoted": [
+    {
+      "file": "assets\\scar\\ai\\berber_ai_navigation.scar",
+      "before": "8d326ebbc2222d613abbdbd603ea19f2c04ae024bf6d3b6139271e66055f9296",
+      "after": "826a810d13e8ef971451c5caf050e8ab23039c0f8da1135f7de37c827555306e",
+      "backup": "research\\berber102\\pre-promotion-source\\berber_ai_navigation.scar"
+    },
+    {
+      "file": "assets\\scar\\ai\\berber_ai_military.scar",
+      "before": "40a436af4bcba8a9f810963b5d450a035930d26886d2ce973b28a9f3ebc74410",
+      "after": "a4600324779e68191af35c8bc1c6fe40d38f2644a2d1f68c8ed361035d045064",
+      "backup": "research\\berber102\\pre-promotion-source\\berber_ai_military.scar"
+    }
+  ],
+  "authoritative": "Frozen1.0.1 + research/berber102/scar two patches; raw editor cook still not equivalent"
+}

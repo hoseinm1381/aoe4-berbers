@@ -1,0 +1,222 @@
+<instance version="6" description="Tunings for attacking gaia animal boars" template="ai\ai_statemodel_tunings">
+  <group name="ai_statemodel_tunings_bag">
+    <list name="bool_tunings">
+      <group name="value_tuning" List.ItemID="-1042869513" List.ParentItemID="-1042869513">
+        <bool name="value" value="False" overrideParent="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="1513477085" List.ParentItemID="1513477085">
+        <bool name="value" value="False" overrideParent="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="1952573486" List.ParentItemID="1952573486">
+        <bool name="value" value="False" overrideParent="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="357462454" List.ParentItemID="357462454">
+        <bool name="value" value="False" overrideParent="True" />
+      </group>
+    </list>
+    <list name="float_tunings">
+      <group name="value_tuning" List.ItemID="-150290806" List.ParentItemID="-150290806">
+        <float name="value" value="15" overrideParent="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="-336056717" List.ParentItemID="-336056717">
+        <float name="value" value="30" overrideParent="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="673414398" List.ParentItemID="673414398">
+        <float name="value" value="0.99" overrideParent="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="-1368997057" List.ParentItemID="-1368997057">
+        <float name="value" value="0" overrideParent="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="1335932643" List.ParentItemID="1335932643">
+        <float name="value" value="0.8" overrideParent="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="-1821254606" List.ParentItemID="-1821254606">
+        <float name="value" value="5" overrideParent="True" />
+      </group>
+      <group name="value_tuning" List.ItemID="784378127" List.ParentItemID="784378127">
+        <float name="value" value="0" overrideParent="True" />
+      </group>
+    </list>
+    <group name="special_enum_tunings">
+      <list name="unit_class_list">
+        <group name="key_values" List.ItemID="-1807857643" List.ParentItemID="-1807857643">
+          <list name="values" overrideParent="True">
+            <enum name="value" value="villager" List.ItemID="397030836" />
+            <enum name="value" value="scout" List.ItemID="-1980452867" />
+            <enum name="value" value="production_building" List.ItemID="937103458" />
+            <enum name="value" value="economy_building" List.ItemID="971615018" />
+            <enum name="value" value="animal_herdable" List.ItemID="1037548920" />
+            <enum name="value" value="animal_gatherable" List.ItemID="1755201870" />
+          </list>
+        </group>
+      </list>
+      <list name="ai_military_engagement_type">
+        <group name="key_value" List.ItemID="1971260856" List.ParentItemID="1971260856">
+          <enum name="value" value="enemy_clump" overrideParent="True" />
+        </group>
+      </list>
+    </group>
+    <group name="special_pbg_tunings">
+      <list name="ai_phase_encounter_coordinator_bag">
+        <group name="key_value" List.ItemID="-2068869878" List.ParentItemID="-2068869878">
+          <instance_reference name="value" value="ai\ai_formation_coordinator\ai_formation_coordinator_attack_boar" overrideParent="True" />
+        </group>
+      </list>
+      <list name="ai_phase_encounter_coordinator_bag_enroute">
+        <group name="key_value" List.ItemID="-1931180559" List.ParentItemID="-1931180559">
+          <instance_reference name="value" value="ai\ai_formation_coordinator\ai_formation_coordinator_no_buildings" overrideParent="True" />
+        </group>
+      </list>
+    </group>
+  </group>
+  <uniqueid name="pbgid" value="1273367" />
+  <instance_reference name="parent_pbg" value="ai\ai_statemodel_tunings\skirmish_attack\skirmish_attack_default" />
+  <variant name="xp3">
+    <group name="ai_statemodel_tunings_bag">
+      <list name="bool_tunings">
+        <group name="value_tuning" List.ItemID="-1042869513" List.ParentItemID="-1042869513">
+          <bool name="value" value="False" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="1513477085" List.ParentItemID="1513477085">
+          <bool name="value" value="False" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="1952573486" List.ParentItemID="1952573486">
+          <bool name="value" value="False" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="357462454" List.ParentItemID="357462454">
+          <bool name="value" value="False" overrideParent="True" />
+        </group>
+      </list>
+      <list name="float_tunings">
+        <group name="value_tuning" List.ItemID="-150290806" List.ParentItemID="-150290806">
+          <float name="value" value="15" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="-336056717" List.ParentItemID="-336056717">
+          <float name="value" value="30" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="673414398" List.ParentItemID="673414398">
+          <float name="value" value="0.99" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="-1368997057" List.ParentItemID="-1368997057">
+          <float name="value" value="0" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="1335932643" List.ParentItemID="1335932643">
+          <float name="value" value="0.8" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="-1821254606" List.ParentItemID="-1821254606">
+          <float name="value" value="5" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="784378127" List.ParentItemID="784378127">
+          <float name="value" value="0" overrideParent="True" />
+        </group>
+      </list>
+      <group name="special_enum_tunings">
+        <list name="unit_class_list">
+          <group name="key_values" List.ItemID="-1807857643" List.ParentItemID="-1807857643">
+            <list name="values" overrideParent="True">
+              <enum name="value" value="villager" List.ItemID="397030836" />
+              <enum name="value" value="scout" List.ItemID="-1980452867" />
+              <enum name="value" value="production_building" List.ItemID="937103458" />
+              <enum name="value" value="economy_building" List.ItemID="971615018" />
+              <enum name="value" value="animal_herdable" List.ItemID="1037548920" />
+              <enum name="value" value="animal_gatherable" List.ItemID="1755201870" />
+            </list>
+          </group>
+        </list>
+        <list name="ai_military_engagement_type">
+          <group name="key_value" List.ItemID="1971260856" List.ParentItemID="1971260856">
+            <enum name="value" value="enemy_clump" overrideParent="True" />
+          </group>
+        </list>
+      </group>
+      <group name="special_pbg_tunings">
+        <list name="ai_phase_encounter_coordinator_bag">
+          <group name="key_value" List.ItemID="-2068869878" List.ParentItemID="-2068869878">
+            <instance_reference name="value" value="ai\ai_formation_coordinator\ai_formation_coordinator_attack_boar" overrideParent="True" />
+          </group>
+        </list>
+        <list name="ai_phase_encounter_coordinator_bag_enroute">
+          <group name="key_value" List.ItemID="-1931180559" List.ParentItemID="-1931180559">
+            <instance_reference name="value" value="ai\ai_formation_coordinator\ai_formation_coordinator_no_buildings" overrideParent="True" />
+          </group>
+        </list>
+      </group>
+    </group>
+    <uniqueid name="pbgid" value="1273367" />
+    <instance_reference name="parent_pbg" value="ai\ai_statemodel_tunings\skirmish_attack\skirmish_attack_default" />
+  </variant>
+  <variant name="cordoba">
+    <group name="ai_statemodel_tunings_bag">
+      <list name="bool_tunings">
+        <group name="value_tuning" List.ItemID="-1042869513" List.ParentItemID="-1042869513">
+          <bool name="value" value="False" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="1513477085" List.ParentItemID="1513477085">
+          <bool name="value" value="False" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="1952573486" List.ParentItemID="1952573486">
+          <bool name="value" value="False" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="357462454" List.ParentItemID="357462454">
+          <bool name="value" value="False" overrideParent="True" />
+        </group>
+      </list>
+      <list name="float_tunings">
+        <group name="value_tuning" List.ItemID="-150290806" List.ParentItemID="-150290806">
+          <float name="value" value="15" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="-336056717" List.ParentItemID="-336056717">
+          <float name="value" value="30" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="673414398" List.ParentItemID="673414398">
+          <float name="value" value="0.99" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="-1368997057" List.ParentItemID="-1368997057">
+          <float name="value" value="0" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="1335932643" List.ParentItemID="1335932643">
+          <float name="value" value="0.8" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="-1821254606" List.ParentItemID="-1821254606">
+          <float name="value" value="5" overrideParent="True" />
+        </group>
+        <group name="value_tuning" List.ItemID="784378127" List.ParentItemID="784378127">
+          <float name="value" value="0" overrideParent="True" />
+        </group>
+      </list>
+      <group name="special_enum_tunings">
+        <list name="unit_class_list">
+          <group name="key_values" List.ItemID="-1807857643" List.ParentItemID="-1807857643">
+            <list name="values" overrideParent="True">
+              <enum name="value" value="villager" List.ItemID="397030836" />
+              <enum name="value" value="scout" List.ItemID="-1980452867" />
+              <enum name="value" value="production_building" List.ItemID="937103458" />
+              <enum name="value" value="economy_building" List.ItemID="971615018" />
+              <enum name="value" value="animal_herdable" List.ItemID="1037548920" />
+              <enum name="value" value="animal_gatherable" List.ItemID="1755201870" />
+            </list>
+          </group>
+        </list>
+        <list name="ai_military_engagement_type">
+          <group name="key_value" List.ItemID="1971260856" List.ParentItemID="1971260856">
+            <enum name="value" value="enemy_clump" overrideParent="True" />
+          </group>
+        </list>
+      </group>
+      <group name="special_pbg_tunings">
+        <list name="ai_phase_encounter_coordinator_bag">
+          <group name="key_value" List.ItemID="-2068869878" List.ParentItemID="-2068869878">
+            <instance_reference name="value" value="ai\ai_formation_coordinator\ai_formation_coordinator_attack_boar" overrideParent="True" />
+          </group>
+        </list>
+        <list name="ai_phase_encounter_coordinator_bag_enroute">
+          <group name="key_value" List.ItemID="-1931180559" List.ParentItemID="-1931180559">
+            <instance_reference name="value" value="ai\ai_formation_coordinator\ai_formation_coordinator_no_buildings" overrideParent="True" />
+          </group>
+        </list>
+      </group>
+    </group>
+    <uniqueid name="pbgid" value="1273367" />
+    <instance_reference name="parent_pbg" value="ai\ai_statemodel_tunings\skirmish_attack\skirmish_attack_default" />
+  </variant>
+</instance>

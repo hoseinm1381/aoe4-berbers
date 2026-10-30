@@ -1,0 +1,74 @@
+{
+  "installed_game": "E:/Games/steamapps/common/Age of Empires IV/cardinal/archives/Attrib.sga",
+  "archiver": "0.3.0",
+  "decoder": "installed Garrison0.1.4 convert decode-static",
+  "official_readbacks": [
+    {
+      "file": "research/buildings_batch/keep/AGE_AND_TARGET_EVIDENCE.json",
+      "sha256": "a37dbfbcd84d36e74e4ae64cbdf505719ec1f2ba1e4ce48ea244c6ca656c6e51"
+    },
+    {
+      "file": "research/buildings_batch/keep/cannon.rgd",
+      "sha256": "2f3a485dd272b070e7a9561b01d0ce4f907822ae46ff970de1c8ab97df1113fa"
+    },
+    {
+      "file": "research/buildings_batch/keep/cannon.xml",
+      "sha256": "dadf2f1718c77511babe9b1200f3961f116ccd5cdc8ce33ace9b6f976a70aa60"
+    },
+    {
+      "file": "research/buildings_batch/keep/catalog.json",
+      "sha256": "63e54c24f0f536cbc90f9cbc3490a67a816b70a52a328e84c6002bdf1ce01eeb"
+    },
+    {
+      "file": "research/buildings_batch/keep/core.rgd",
+      "sha256": "031b01e36430119105173276641a94303c0d53ffd45eaa1eae7a806e0fd4f749"
+    },
+    {
+      "file": "research/buildings_batch/keep/core.xml",
+      "sha256": "1cc94f84c2be072afcb0a36b6e1fff5e6c35285da3a15f6dfb916fabb7b47bfe"
+    },
+    {
+      "file": "research/buildings_batch/keep/donor_summary.json",
+      "sha256": "86b0a2fbd2f30de5e538f9aba68fe83ee4a7bd00cdbc9b9b38b8b545e6b5fba1"
+    },
+    {
+      "file": "research/buildings_batch/keep/inspect_stock.py",
+      "sha256": "ec1556118351fdfdb18bb9341906d2295ea2c85e448a463a7a3ea42de6866826"
+    },
+    {
+      "file": "research/buildings_batch/keep/mal.rgd",
+      "sha256": "fbf67f8869fb97b9623ee62829b6cf930381abb5f7dc44f436c4aeac2ad4e66f"
+    },
+    {
+      "file": "research/buildings_batch/keep/mal.xml",
+      "sha256": "96cc82dc754a68df9e65efe16e1c9b4fdd3582aaf78f70be86678e8c4c10c447"
+    },
+    {
+      "file": "research/buildings_batch/keep/oil.rgd",
+      "sha256": "37aeb7389c4c080d41581c5ca32dd40d23d45435d62cdc43625323c0fef51ca1"
+    },
+    {
+      "file": "research/buildings_batch/keep/oil.xml",
+      "sha256": "14663497ed51f3114a1d55b03ee21491043d08717b04d184643792f8f08485b4"
+    },
+    {
+      "file": "research/buildings_batch/keep/README.md",
+      "sha256": "e3dc8bf106f8d6fa9d8a41249fcd01dc292e3beff0d6a9aa6107c0bf84b3c217"
+    },
+    {
+      "file": "research/buildings_batch/keep/springald.rgd",
+      "sha256": "3477c3c0cbd00ef5ed81437d8ec5eb1fb9a43bc2c6d3444ce667fedf790435e8"
+    },
+    {
+      "file": "research/buildings_batch/keep/springald.xml",
+      "sha256": "6cf4d04a63e4205c19d3fc40631c6506f4f5f43982e279685d9ae16b315f60f5"
+    }
+  ],
+  "geometry_reused": false,
+  "untouched_donor_manifest": "stock/7f2cd0f1f63c20f3f617/decoded-static.json",
+  "external_design_sources": [
+    "https://whc.unesco.org/en/list/1401",
+    "https://whc.unesco.org/document/152576",
+    "https://islamicart.museumwnf.org/database_item.php?id=monuments%3BISL%3Bma%3BMon01%3B24%3Ben"
+  ]
+}

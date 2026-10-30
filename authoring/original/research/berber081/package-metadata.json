@@ -1,0 +1,89 @@
+{
+  "manifest": {
+    "schema": "garrison.mod/v1",
+    "bundle_key": "berber_future_kingdom",
+    "members": [
+      {
+        "mod_key": "berber_future_kingdom",
+        "role": "tuning",
+        "path": "Berber_future_kingdom.sga",
+        "sha256": "c58ef43ad4b0e664609161eb35178c97500837e9a844d7583fb014a50b7cc441"
+      }
+    ],
+    "details": {
+      "id": "berber_future_kingdom",
+      "name": "The Berber Dynasties",
+      "version": "0.8.1",
+      "summary": "Villager overlap fix candidate: clears native male/female attachment speaker overrides",
+      "author": "hossein81 and marcokistan",
+      "updated": "2026-10-17",
+      "min_garrison": "0.1.6",
+      "content_types": [
+        "game-mode",
+        "tuning-pack"
+      ],
+      "description": "Normal Garrison import/Play. Clears 208 stock Villager speaker overrides across four age attachment lists; custom scripted voices retained. Spearman, all audio, scripts, visuals and gameplay unchanged from 0.8.0. No extra runtime or voice installer. Villager listening acceptance pending.",
+      "changelog": "Clears only attachment_speaker_code fields in four custom Villager age-tier attachment lists. Their 104 villagerMale and 104 villagerFemale assignments were a native speech route left active after 0.8.0 removed main speech tables. Uses the empty-speaker layout of working Scout/Archer attachments. Four typed semantic-undo/readback checks passed; audible overlap check pending."
+    }
+  },
+  "coverage": {
+    "version": "0.8.1",
+    "route": "Garrison.audio scripted local-player playback",
+    "families_enabled": 26,
+    "added_unique_recordings": 101,
+    "added_source_pcm_bytes": 15710684,
+    "villager": {
+      "actions": 14,
+      "takes_per_action": 1,
+      "all_ages_shared": true
+    },
+    "tuareg": {
+      "actions_per_age": 11,
+      "ages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "frequent_takes_cap": 3,
+      "effort_takes_cap": 2
+    },
+    "existing_other_families_unchanged": true,
+    "paid_requests": 0,
+    "added_actions": {
+      "villager": [
+        "acknowledge",
+        "attack",
+        "attackmovesu",
+        "effortdeath",
+        "effortpain",
+        "garrison",
+        "hold",
+        "movesu",
+        "resourcegather",
+        "resourcemine",
+        "resourcewood",
+        "select",
+        "stop",
+        "structurebuild"
+      ],
+      "tuareg": [
+        "acknowledge",
+        "attack",
+        "attackmovesu",
+        "effortdeath",
+        "effortpain",
+        "garrison",
+        "hold",
+        "movesu",
+        "select",
+        "stop",
+        "structurebuild"
+      ]
+    },
+    "runtime_test": "0.8.1 Villager audible overlap pending; all other audio/scripts unchanged",
+    "cleared_villager_native_attachment_speaker_fields": 208,
+    "operator_feedback_080": "Spearman works great; Villager custom/original overlap"
+  },
+  "source": "Verified working 0.8.1 ZIP; independent editable metadata for reconstruction"
+}
