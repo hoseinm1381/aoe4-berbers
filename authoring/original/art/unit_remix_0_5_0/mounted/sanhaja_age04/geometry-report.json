@@ -1,0 +1,81 @@
+{
+  "status": "geometry_prepared_no_cook",
+  "name": "sanhaja_age04",
+  "recipe": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\sanhaja_age04\\recipe.json",
+  "recipe_sha256": "0e52f2518651001e140209cf117397098d4c93fb917d863b723cc0b4fb3a9a68",
+  "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\22e3196422cf6e366c527c0005d417858cd76d58b1b7f381c54c5a1e76835613\\decoded\\034d7b9d6f55415f9594\\source\\art\\civilizations\\abbasids\\animals\\abb_camel_combined_bow_age04\\abb_camel_combined_bow_age04.rrgeom",
+  "source_sha256": "c1b2e2f9749c27d35cf76a37c7d9933205b4714af275339dd5b1d6c414c71405",
+  "output": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\sanhaja_age04\\sanhaja_age04.rrgeom",
+  "output_sha256": "ec611c47812633151db4a19546a65669e104a56645afc9324aaae4c6c7bd9691",
+  "groups": [
+    {
+      "index": 0,
+      "name": "abb_camel_armor_age04",
+      "material": "camel_lod1",
+      "vertex_count": 1397,
+      "edited_vertices": 430,
+      "edited_fraction": 0.3078,
+      "max_displacement_metres": 0.018,
+      "clipped_to_native_bounds": 4,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 1,
+      "name": "abb_camel_armor_age04",
+      "material": "camel_lod2",
+      "vertex_count": 778,
+      "edited_vertices": 261,
+      "edited_fraction": 0.3355,
+      "max_displacement_metres": 0.018,
+      "clipped_to_native_bounds": 2,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 2,
+      "name": "abb_camel_armor_age04",
+      "material": "camel_lod3",
+      "vertex_count": 391,
+      "edited_vertices": 90,
+      "edited_fraction": 0.2302,
+      "max_displacement_metres": 0.018,
+      "clipped_to_native_bounds": 2,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 3,
+      "name": "abb_ranged_bow_age04",
+      "material": "rider_lod1",
+      "vertex_count": 1795,
+      "edited_vertices": 1275,
+      "edited_fraction": 0.7103,
+      "max_displacement_metres": 0.05205,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 4,
+      "name": "abb_ranged_bow_age04",
+      "material": "rider_lod2",
+      "vertex_count": 656,
+      "edited_vertices": 450,
+      "edited_fraction": 0.686,
+      "max_displacement_metres": 0.05118,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 5,
+      "name": "abb_ranged_bow_age04",
+      "material": "rider_lod3",
+      "vertex_count": 340,
+      "edited_vertices": 204,
+      "edited_fraction": 0.6,
+      "max_displacement_metres": 0.05116,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    }
+  ],
+  "preserved": "native skeleton, SKIN indices/weights, UVs, topology, LOD metadata, all non-position/normal/tangent bytes",
+  "native_cook": "pending serial token",
+  "runtime": "unverified"
+}

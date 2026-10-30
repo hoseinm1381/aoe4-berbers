@@ -1,0 +1,81 @@
+{
+  "status": "geometry_prepared_no_cook",
+  "name": "scout_age02",
+  "recipe": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\scout_age02\\recipe.json",
+  "recipe_sha256": "fd3510d9e85d6829993ec4236eda862e5021c5c08cf81c427d9eb9bd78bca637",
+  "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\6ca96ac8bb85b5c9959d481518109915e7a1ea5f38bc44de15fb3a6db0540264\\decoded\\92e6c9ddf6d64662872f\\source\\art\\civilizations\\malian\\animals\\mal_horse_combined_scout_age02\\mal_horse_combined_scout_age02.rrgeom",
+  "source_sha256": "5cfd394cfc3b4a2b90f766cc8c7135797f42df61bbade15932f7ccdb42dc0382",
+  "output": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\scout_age02\\scout_age02.rrgeom",
+  "output_sha256": "f7959e08f85088d52aca192bbb150d406ed35e59b4697ac42b52f0a6a7c9b827",
+  "groups": [
+    {
+      "index": 0,
+      "name": "mal_cavalry_scout_age02",
+      "material": "rider_lod1",
+      "vertex_count": 1138,
+      "edited_vertices": 649,
+      "edited_fraction": 0.5703,
+      "max_displacement_metres": 0.05073,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 1,
+      "name": "mal_cavalry_scout_age02",
+      "material": "rider_lod2",
+      "vertex_count": 473,
+      "edited_vertices": 266,
+      "edited_fraction": 0.5624,
+      "max_displacement_metres": 0.04795,
+      "clipped_to_native_bounds": 1,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 2,
+      "name": "mal_cavalry_scout_age02",
+      "material": "rider_lod3",
+      "vertex_count": 279,
+      "edited_vertices": 132,
+      "edited_fraction": 0.4731,
+      "max_displacement_metres": 0.05234,
+      "clipped_to_native_bounds": 1,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 3,
+      "name": "mal_horse_scout_age02",
+      "material": "horse_lod1",
+      "vertex_count": 1885,
+      "edited_vertices": 291,
+      "edited_fraction": 0.1544,
+      "max_displacement_metres": 0.018,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 4,
+      "name": "mal_horse_scout_age02",
+      "material": "horse_lod2",
+      "vertex_count": 1015,
+      "edited_vertices": 208,
+      "edited_fraction": 0.2049,
+      "max_displacement_metres": 0.018,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 5,
+      "name": "mal_horse_scout_age02",
+      "material": "horse_lod3",
+      "vertex_count": 376,
+      "edited_vertices": 81,
+      "edited_fraction": 0.2154,
+      "max_displacement_metres": 0.018,
+      "clipped_to_native_bounds": 5,
+      "within_original_native_bounds": true
+    }
+  ],
+  "preserved": "native skeleton, SKIN indices/weights, UVs, topology, LOD metadata, all non-position/normal/tangent bytes",
+  "native_cook": "pending serial token",
+  "runtime": "unverified"
+}

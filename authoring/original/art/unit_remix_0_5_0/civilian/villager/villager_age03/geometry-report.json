@@ -1,0 +1,48 @@
+{
+  "status": "geometry_prepared_no_cook",
+  "name": "villager_age03",
+  "recipe": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\civilian\\villager\\villager_age03\\recipe.json",
+  "recipe_sha256": "3c18d35e058dfeb62fb5d9a20f0075130257b15d9cd01ea8c8a10cf02fcc8c3e",
+  "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\580be26303506e224d4d3c26b1ce2c12df29261a8f4f1e847c72e8fc87282a8f\\decoded\\14441b4bf7d7a3c3e81e\\source\\art\\civilizations\\abbasids\\humans\\abb_villager_male_age03\\abb_villager_male_age03.rrgeom",
+  "source_sha256": "474896258ef1e2fbe505e75a9543c213f86ec8eedaf9b8cee7913c95dd5411e7",
+  "output": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\civilian\\villager\\villager_age03\\villager_age03.rrgeom",
+  "output_sha256": "828a9dcc8e65d541d9a617dd823e8d1a7e1e64fe886b3e8404b13f6f644701ef",
+  "groups": [
+    {
+      "index": 0,
+      "name": "abb_villager_male_age03",
+      "material": "lod_1",
+      "vertex_count": 941,
+      "edited_vertices": 353,
+      "edited_fraction": 0.3751,
+      "max_displacement_metres": 0.055,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 1,
+      "name": "abb_villager_male_age03",
+      "material": "lod_2",
+      "vertex_count": 458,
+      "edited_vertices": 165,
+      "edited_fraction": 0.3603,
+      "max_displacement_metres": 0.055,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 2,
+      "name": "abb_villager_male_age03",
+      "material": "lod_3",
+      "vertex_count": 209,
+      "edited_vertices": 68,
+      "edited_fraction": 0.3254,
+      "max_displacement_metres": 0.04947,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    }
+  ],
+  "preserved": "native skeleton, SKIN indices/weights, UVs, topology, LOD metadata, all non-position/normal/tangent bytes",
+  "native_cook": "pending serial token",
+  "runtime": "unverified"
+}

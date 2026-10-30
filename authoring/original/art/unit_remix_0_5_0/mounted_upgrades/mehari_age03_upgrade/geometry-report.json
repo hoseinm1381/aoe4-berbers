@@ -1,0 +1,81 @@
+{
+  "status": "geometry_prepared_no_cook",
+  "name": "mehari_age03_upgrade",
+  "recipe": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted_upgrades\\mehari_age03_upgrade\\recipe.json",
+  "recipe_sha256": "e3a6f9e2ac1c082c695020fe9eaf5c57b05184a8d2e96bac6bc8645fd0609069",
+  "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\ae091c981bc025075b8cf3855c3ccdf95bddcbeec573a5d8f739f3a29b2b832b\\decoded\\9c6fa643a2e46e7b86d3\\source\\art\\civilizations\\abbasids\\animals\\abb_camel_combined_armor_age03_upgrade\\abb_camel_combined_armor_age03_upgrade.rrgeom",
+  "source_sha256": "d787f17ae3243a35414ec1d46f0d503a3dc59e08b90e03e5d49ad1ab0343156b",
+  "output": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted_upgrades\\mehari_age03_upgrade\\mehari_age03_upgrade.rrgeom",
+  "output_sha256": "40a65add6118601dcc41271db403ba8df4438cfae2c3e26907a0e77272be661b",
+  "groups": [
+    {
+      "index": 0,
+      "name": "abb_camel_armor_age04_upgrade",
+      "material": "camel_lod1",
+      "vertex_count": 2042,
+      "edited_vertices": 455,
+      "edited_fraction": 0.2228,
+      "max_displacement_metres": 0.036,
+      "clipped_to_native_bounds": 1,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 1,
+      "name": "abb_camel_armor_age04_upgrade",
+      "material": "camel_lod2",
+      "vertex_count": 1224,
+      "edited_vertices": 315,
+      "edited_fraction": 0.2574,
+      "max_displacement_metres": 0.036,
+      "clipped_to_native_bounds": 6,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 2,
+      "name": "abb_camel_armor_age04_upgrade",
+      "material": "camel_lod1",
+      "vertex_count": 489,
+      "edited_vertices": 116,
+      "edited_fraction": 0.2372,
+      "max_displacement_metres": 0.036,
+      "clipped_to_native_bounds": 1,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 4,
+      "name": "abb_cavalry_rider_age3",
+      "material": "rider_lod1",
+      "vertex_count": 941,
+      "edited_vertices": 400,
+      "edited_fraction": 0.4251,
+      "max_displacement_metres": 0.037,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 5,
+      "name": "abb_cavalry_rider_age3",
+      "material": "rider_lod2",
+      "vertex_count": 440,
+      "edited_vertices": 197,
+      "edited_fraction": 0.4477,
+      "max_displacement_metres": 0.037,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 6,
+      "name": "abb_cavalry_rider_age3",
+      "material": "rider_lod3",
+      "vertex_count": 215,
+      "edited_vertices": 86,
+      "edited_fraction": 0.4,
+      "max_displacement_metres": 0.037,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    }
+  ],
+  "preserved": "native skeleton, SKIN indices/weights, UVs, topology, LOD metadata, all non-position/normal/tangent bytes",
+  "native_cook": "pending serial token",
+  "runtime": "unverified"
+}

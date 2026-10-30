@@ -1,0 +1,1954 @@
+{
+  "schema": "berber-050-mounted-art/v1",
+  "status": "source_geometry_and_palette_prepared_no_cook",
+  "excluded_probes": [
+    {
+      "private_variant_name": "lancer_age03_part02",
+      "reason": "Chinese conditional helmet/plumes rejected as Berber source art; regional canonical Lancer body used",
+      "marker": "art\\unit_remix_0_5_0\\mounted\\lancer_age03_part02\\REJECTED_SOURCE_ART.md"
+    },
+    {
+      "private_variant_name": "lancer_age04_part02",
+      "reason": "Chinese conditional helmet/plumes rejected as Berber source art; regional canonical Lancer body used",
+      "marker": "art\\unit_remix_0_5_0\\mounted\\lancer_age04_part02\\REJECTED_SOURCE_ART.md"
+    }
+  ],
+  "variants": [
+    {
+      "family": "lancer",
+      "age": 3,
+      "private_variant_name": "lancer_age03",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/lancer_age03/lancer_age03",
+      "official_donor_rgm": "art/civilizations/abbasids/animals/abb_horse_combined_armor_age03/abb_horse_combined_armor_age03.rgm",
+      "official_donor_rgm_sha256": "bcd486c6a5036dadd7f0b408f714b1061f328b903d4fa0f2ead6c0ea92f6e9f0",
+      "decoded_manifest": "output/shared_stock_cache/units_050/3428d3029e867d6458c710987aea5eab50b217c6f500ffff3760c467b21d3957/decoded/225f01facab8031a2624/decoded-static.json",
+      "decoded_manifest_sha256": "c9dbe1a4446675acff7d21064ee3b036d1d927ee6b409041ed51af50ed0a512b",
+      "native_source_rrgeom_sha256": "7a7d0e39739bcd974d7cf7d2b161a46bf0365a7bb5ee909f20d883697593cf9e",
+      "geometry_recipe": "art\\unit_remix_0_5_0\\mounted\\lancer_age03\\recipe.json",
+      "geometry_recipe_sha256": "3fae238b9dcb056cb86e732467d963a0082ae22318e716f61dc748cb9e2dff34",
+      "authored_rrgeom": "art\\unit_remix_0_5_0\\mounted\\lancer_age03\\lancer_age03.rrgeom",
+      "authored_rrgeom_sha256": "0cc7214ae351cc16e8f2fa91239f237a9fdb51a04422e5a26f8b2065a5860bd0",
+      "geometry_report": "art\\unit_remix_0_5_0\\mounted\\lancer_age03\\geometry-report.json",
+      "geometry_report_sha256": "2d9b8cb7edcffda86910b0656827ce14a1bf8d7808384feb860d93f6c618242e",
+      "albedos": [
+        {
+          "role": "tack",
+          "material": "horse_lod1",
+          "source_texture": "art/civilizations/sultanate/animals/sul_horse_armor_age03/3126341687254863951_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\lancer_age03\\tack-albedo.png",
+          "sha256": "b148d7446222933c166784ff39e19a166bd457dd5de75d49723b20ed480d2b87",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\3428d3029e867d6458c710987aea5eab50b217c6f500ffff3760c467b21d3957\\decoded\\225f01facab8031a2624\\textures\\b346fce76f71_3126341687254863951_packed.dds",
+          "donor_albedo_sha256": "cce7e5864e5c2a73448ec17d7c4e2b8369c1658806fb5cc7f79cb5379cd23d8d",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "eb4eee6de2fd1e6802518e63dfb979254099ef776c7a09bafeecac7608da5cee",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\lancer_age03\\tack-albedo.png",
+          "authored_albedo_sha256": "b148d7446222933c166784ff39e19a166bd457dd5de75d49723b20ed480d2b87",
+          "edited_pixels": 983,
+          "owner_mask_selected_pixels_preserved": 17691,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        },
+        {
+          "role": "rider",
+          "material": "rider_lod1",
+          "source_texture": "art/civilizations/abbasids/humans/abb_cavalry_armor_age03/6591856441465590516_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\lancer_age03\\rider-albedo.png",
+          "sha256": "fa843f6c4223818f69253fd8560f7cb94c50c7894fe274c12238b638b35d8c2c",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\3428d3029e867d6458c710987aea5eab50b217c6f500ffff3760c467b21d3957\\decoded\\225f01facab8031a2624\\textures\\e9382c66b935_6591856441465590516_packed.dds",
+          "donor_albedo_sha256": "440daa7af0e9cf75d4eb643de38076de242cf819c9515e178cccbf52a5d2a21b",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "69cd4eb36be55c40eff716b891321aa59febd7682ed4bb0dbcb075e6e6525adb",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\lancer_age03\\rider-albedo.png",
+          "authored_albedo_sha256": "fa843f6c4223818f69253fd8560f7cb94c50c7894fe274c12238b638b35d8c2c",
+          "edited_pixels": 128857,
+          "owner_mask_selected_pixels_preserved": 33691,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        }
+      ],
+      "albedo_variants": [
+        {
+          "source_texture": "art/civilizations/sultanate/animals/sul_horse_armor_age03/3126341687254863951_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\lancer_age03\\tack-albedo.png",
+          "sha256": "b148d7446222933c166784ff39e19a166bd457dd5de75d49723b20ed480d2b87",
+          "role": "tack"
+        },
+        {
+          "source_texture": "art/civilizations/abbasids/humans/abb_cavalry_armor_age03/6591856441465590516_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\lancer_age03\\rider-albedo.png",
+          "sha256": "fa843f6c4223818f69253fd8560f7cb94c50c7894fe274c12238b638b35d8c2c",
+          "role": "rider"
+        }
+      ],
+      "authored_albedo": "art\\unit_remix_0_5_0\\mounted\\lancer_age03\\tack-albedo.png",
+      "authored_albedo_sha256": "b148d7446222933c166784ff39e19a166bd457dd5de75d49723b20ed480d2b87",
+      "consumers": [
+        {
+          "attachment": "bind_lancer_a3_tier3_cavalry_knight_abb",
+          "field": "default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_lancer_a3_tier3_cavalry_knight_abb",
+          "field": "campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_lancer_a3_tier3_cavalry_knight_abb",
+          "field": "xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_lancer_a3_tier3_cavalry_knight_chi",
+          "field": "default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_lancer_a3_tier3_cavalry_knight_chi",
+          "field": "cordoba/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_lancer_a3_tier3_cavalry_knight_chi",
+          "field": "campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        }
+      ],
+      "native_cook": "pending root serial integration",
+      "native_animation": "unverified",
+      "editable_blend": "art\\unit_remix_0_5_0\\mounted\\lancer_age03\\lancer_age03.blend",
+      "editable_blend_sha256": "75ae1f76fd4bccebe1f02f7c840da5888af034f1e241cc396d0e7bfdba663aad",
+      "preview_donor_lod1": "art\\unit_remix_0_5_0\\mounted\\lancer_age03\\textured-donor.png",
+      "preview_donor_lod1_sha256": "44109885c070dbc101438e2b54bd809dd663e73152938267348e76d5bb874470",
+      "preview_candidate_lod1": "art\\unit_remix_0_5_0\\mounted\\lancer_age03\\textured-candidate.png",
+      "preview_candidate_lod1_sha256": "b53ee2733d042dedf90fe59fa89143847fc23cf89817c56aa434f65f94ccc532",
+      "preview_rider_close": "art\\unit_remix_0_5_0\\mounted\\lancer_age03\\textured-rider-close.png",
+      "preview_rider_close_sha256": "e89bb0932e947ce05d3bdff506129a18ed02123f9c12919085bdec26d632dc63",
+      "preview_team_red": "art\\unit_remix_0_5_0\\mounted\\lancer_age03\\textured-team-red.png",
+      "preview_team_red_sha256": "bb15e865720f9e4eaf67e51bb386ce5db7b4ebd63c801bbe6bf288aa82d6a512",
+      "preview_team_blue": "art\\unit_remix_0_5_0\\mounted\\lancer_age03\\textured-team-blue.png",
+      "preview_team_blue_sha256": "ab8ab57f88fe9adb0e3788554fe25ea23cf345948857ed67bcb576c49fa0919c",
+      "preview_donor_lod2": "art\\unit_remix_0_5_0\\mounted\\lancer_age03\\textured-donor-lod2.png",
+      "preview_donor_lod2_sha256": "fb25d053bcd9b94924a2c43ad6dbfb4ac83aeb69b6647ee3163dc24d3c971bd2",
+      "preview_candidate_lod2": "art\\unit_remix_0_5_0\\mounted\\lancer_age03\\textured-candidate-lod2.png",
+      "preview_candidate_lod2_sha256": "32728cb189846f398d78e84b37da8557e13fe1435338eb8d846551bba1146a5a",
+      "preview_donor_lod3": "art\\unit_remix_0_5_0\\mounted\\lancer_age03\\textured-donor-lod3.png",
+      "preview_donor_lod3_sha256": "02d688d29c48cada82f257a65a745c608bba5a0bb8d54664be82afcbab1e72f9",
+      "preview_candidate_lod3": "art\\unit_remix_0_5_0\\mounted\\lancer_age03\\textured-candidate-lod3.png",
+      "preview_candidate_lod3_sha256": "028fdf7d7da3e56960fe3e24270296499b2b8387434134c49beb87c5d4b3ef51"
+    },
+    {
+      "family": "lancer",
+      "age": 4,
+      "private_variant_name": "lancer_age04",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/lancer_age04/lancer_age04",
+      "official_donor_rgm": "art/civilizations/sultanate/animals/sul_horse_combined_armor_age04/sul_horse_combined_armor_age04.rgm",
+      "official_donor_rgm_sha256": "5df3b32854d72ebe3db5d12f2a8fbd0eff4d5411197941151322b60202c05913",
+      "decoded_manifest": "output/shared_stock_cache/units_050/f2c20966a3d4f8c25cea13d7ff883e2db59b8da6d73adae5b6db0590c6c5869e/decoded/a11de6d2fdebe18e1a41/decoded-static.json",
+      "decoded_manifest_sha256": "f528305e941e1f6943c319e2af1afa35c839cd3085514e315e7d6986001a066c",
+      "native_source_rrgeom_sha256": "a18e36706c93490b1cb9640627bd78c9ae6053684d29658a37c14cc4be88df75",
+      "geometry_recipe": "art\\unit_remix_0_5_0\\mounted\\lancer_age04\\recipe.json",
+      "geometry_recipe_sha256": "e0078f4d5eb100700eff37d7a1ad4c78ffd5d81953934661b16c9c99cfdb4f8f",
+      "authored_rrgeom": "art\\unit_remix_0_5_0\\mounted\\lancer_age04\\lancer_age04.rrgeom",
+      "authored_rrgeom_sha256": "819318b0ae4e2255294007477202a93132febe013391cd4932a732ef06d95fd3",
+      "geometry_report": "art\\unit_remix_0_5_0\\mounted\\lancer_age04\\geometry-report.json",
+      "geometry_report_sha256": "b74fbad8c84a4ccc80db66e4ae1a7eef5354c7d696c03a53e876ed621390eff6",
+      "albedos": [
+        {
+          "role": "tack",
+          "material": "horse_lod1",
+          "source_texture": "art/civilizations/sultanate/animals/sul_horse_armor_age04/7813347192256198568_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\lancer_age04\\tack-albedo.png",
+          "sha256": "a16dbc12f01fec48c8786a562b4230a812dd1595520741ff36fdbcd63c01f00e",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\f2c20966a3d4f8c25cea13d7ff883e2db59b8da6d73adae5b6db0590c6c5869e\\decoded\\a11de6d2fdebe18e1a41\\textures\\ea7c260bf707_7813347192256198568_packed.dds",
+          "donor_albedo_sha256": "2613b28d7765b35244b04ec1a928b09f7cea8dcc9875110efb97e63b866f4c33",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "345a25ce6d2e550e5414c872284359c15d6559c3f7131209a090e54b080f4026",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\lancer_age04\\tack-albedo.png",
+          "authored_albedo_sha256": "a16dbc12f01fec48c8786a562b4230a812dd1595520741ff36fdbcd63c01f00e",
+          "edited_pixels": 2450,
+          "owner_mask_selected_pixels_preserved": 16805,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        },
+        {
+          "role": "rider",
+          "material": "rider_lod1",
+          "source_texture": "art/civilizations/sultanate/humans/sul_cavalry_armor_age04/7305053171730808470_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\lancer_age04\\rider-albedo.png",
+          "sha256": "b5f21a8fab5c6f90e0a8012dd88588b157a84a53fdbfcb05bcf798007f5b3163",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\f2c20966a3d4f8c25cea13d7ff883e2db59b8da6d73adae5b6db0590c6c5869e\\decoded\\a11de6d2fdebe18e1a41\\textures\\fc848bd4887e_7305053171730808470_packed.dds",
+          "donor_albedo_sha256": "d2335f469ff224899c4f82df4972483c9c45eefd49215a99e2e0290cf8d669a8",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "6a75b8ca83a729815d6bd52d310accf85bfc06e8d869a31b13d48a6f5544f1b8",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\lancer_age04\\rider-albedo.png",
+          "authored_albedo_sha256": "b5f21a8fab5c6f90e0a8012dd88588b157a84a53fdbfcb05bcf798007f5b3163",
+          "edited_pixels": 97252,
+          "owner_mask_selected_pixels_preserved": 75626,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        }
+      ],
+      "albedo_variants": [
+        {
+          "source_texture": "art/civilizations/sultanate/animals/sul_horse_armor_age04/7813347192256198568_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\lancer_age04\\tack-albedo.png",
+          "sha256": "a16dbc12f01fec48c8786a562b4230a812dd1595520741ff36fdbcd63c01f00e",
+          "role": "tack"
+        },
+        {
+          "source_texture": "art/civilizations/sultanate/humans/sul_cavalry_armor_age04/7305053171730808470_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\lancer_age04\\rider-albedo.png",
+          "sha256": "b5f21a8fab5c6f90e0a8012dd88588b157a84a53fdbfcb05bcf798007f5b3163",
+          "role": "rider"
+        }
+      ],
+      "authored_albedo": "art\\unit_remix_0_5_0\\mounted\\lancer_age04\\tack-albedo.png",
+      "authored_albedo_sha256": "a16dbc12f01fec48c8786a562b4230a812dd1595520741ff36fdbcd63c01f00e",
+      "consumers": [
+        {
+          "attachment": "bind_lancer_a4_tier4_cavalry_knight_sul",
+          "field": "default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_lancer_a4_tier4_cavalry_knight_sul",
+          "field": "campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_lancer_a4_tier4_cavalry_knight_chi",
+          "field": "default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_lancer_a4_tier4_cavalry_knight_chi",
+          "field": "cordoba/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_lancer_a4_tier4_cavalry_knight_chi",
+          "field": "campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        }
+      ],
+      "native_cook": "pending root serial integration",
+      "native_animation": "unverified",
+      "editable_blend": "art\\unit_remix_0_5_0\\mounted\\lancer_age04\\lancer_age04.blend",
+      "editable_blend_sha256": "916c032197928b4d358f1a235619dc63136e20686d48f42b67f9d1b1852f28bf",
+      "preview_donor_lod1": "art\\unit_remix_0_5_0\\mounted\\lancer_age04\\textured-donor.png",
+      "preview_donor_lod1_sha256": "13492b03229f99fa14ee98e0b9d270b7c1e8361dee34b8a71a9f3730542dac19",
+      "preview_candidate_lod1": "art\\unit_remix_0_5_0\\mounted\\lancer_age04\\textured-candidate.png",
+      "preview_candidate_lod1_sha256": "9b6cc3144dab09f86af00fcb42ad8e26a09d0b37ddad2e2be08dc415a1cb7494",
+      "preview_rider_close": "art\\unit_remix_0_5_0\\mounted\\lancer_age04\\textured-rider-close.png",
+      "preview_rider_close_sha256": "021cfb0a23c9ceeb267ba1dc5cf7ce445403ca82490f469f27e5baea4b677f14",
+      "preview_team_red": "art\\unit_remix_0_5_0\\mounted\\lancer_age04\\textured-team-red.png",
+      "preview_team_red_sha256": "1ba75866a28f63c9272fde77b15c3b65fc19117a41281e78630e8b1441ae02d5",
+      "preview_team_blue": "art\\unit_remix_0_5_0\\mounted\\lancer_age04\\textured-team-blue.png",
+      "preview_team_blue_sha256": "c2fa4cbf3bef9beb3fef75a9adf4c9af688a6f0baa365e21dd1a120ef2da85ab",
+      "preview_donor_lod2": "art\\unit_remix_0_5_0\\mounted\\lancer_age04\\textured-donor-lod2.png",
+      "preview_donor_lod2_sha256": "bdac46de8f8cbb847b1f9bd3d1a8c3069eaf690f397729e7b67b76cd6e7af32a",
+      "preview_candidate_lod2": "art\\unit_remix_0_5_0\\mounted\\lancer_age04\\textured-candidate-lod2.png",
+      "preview_candidate_lod2_sha256": "e1e0e1256a66b778fdddebf4fff89cccc15a25262e4be770274d66733efaab00",
+      "preview_donor_lod3": "art\\unit_remix_0_5_0\\mounted\\lancer_age04\\textured-donor-lod3.png",
+      "preview_donor_lod3_sha256": "e23c3186b129023f7feb2996a6706d140e4b78755526d3e53676f396fab8e7ad",
+      "preview_candidate_lod3": "art\\unit_remix_0_5_0\\mounted\\lancer_age04\\textured-candidate-lod3.png",
+      "preview_candidate_lod3_sha256": "9ec8932ca58e8758152a52d25a877062720979b50e8c5b10b7e037c46d67eb99"
+    },
+    {
+      "family": "mehari",
+      "age": 2,
+      "private_variant_name": "mehari_age02",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/mehari_age02/mehari_age02",
+      "official_donor_rgm": "art/civilizations/abbasids/animals/abb_camel_combined_armor_age03/abb_camel_combined_armor_age03.rgm",
+      "official_donor_rgm_sha256": "1a43b4b7242118c7c9b7f133725c8561723b92711cc6b6b7cec8a3fee096487d",
+      "decoded_manifest": "output/shared_stock_cache/units_050/3060a55f9505f80e24200c5c678fae4a90a4282539228751c326a38e75ece7ce/decoded/ab4f31e7bab8f4289b97/decoded-static.json",
+      "decoded_manifest_sha256": "6df3dfe66ebbcee6f9073723372c131f03c41e61fc549047b9896e970f219eb1",
+      "native_source_rrgeom_sha256": "47a352b3bb7fcb9937a9b0f5b300340611e3e9be2d53e6728fcdbf5ccdd91717",
+      "geometry_recipe": "art\\unit_remix_0_5_0\\mounted\\mehari_age02\\recipe.json",
+      "geometry_recipe_sha256": "d9dea179fe1cb1fab9b54362b4e229fa406467b54874f74342ad5944d4685e4d",
+      "authored_rrgeom": "art\\unit_remix_0_5_0\\mounted\\mehari_age02\\mehari_age02.rrgeom",
+      "authored_rrgeom_sha256": "512f2fb89063904873be895b2202ebc06b25e078d52f7f575c332c8eb1d0bd36",
+      "geometry_report": "art\\unit_remix_0_5_0\\mounted\\mehari_age02\\geometry-report.json",
+      "geometry_report_sha256": "73c2177b94aa5f6983fbeb29e881f032478a810438590675b79113c9c8683f78",
+      "albedos": [
+        {
+          "role": "tack",
+          "material": "camel_lod1",
+          "source_texture": "art/civilizations/abbasids/animals/abb_camel_armor_age03/8839200787520796396_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\mehari_age02\\tack-albedo.png",
+          "sha256": "8d958c574c6e6fccabf0d8e07dc25bb5ccb98be9cdd5fa9e228052f54731ead8",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\3060a55f9505f80e24200c5c678fae4a90a4282539228751c326a38e75ece7ce\\decoded\\ab4f31e7bab8f4289b97\\textures\\76427e6e4a8d_8839200787520796396_packed.dds",
+          "donor_albedo_sha256": "805a119cc9bc66e0c86c71cce81e8bd38eb10e211d26c5b32025349fe512d9f3",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "765e774aad06f4affb8b077d808c00e42e8c8dcbe99417724fb4facd6cf73f76",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\mehari_age02\\tack-albedo.png",
+          "authored_albedo_sha256": "8d958c574c6e6fccabf0d8e07dc25bb5ccb98be9cdd5fa9e228052f54731ead8",
+          "edited_pixels": 3801,
+          "owner_mask_selected_pixels_preserved": 4728,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        },
+        {
+          "role": "rider",
+          "material": "rider_lod1",
+          "source_texture": "art/civilizations/abbasids/humans/abb_cavalry_rider_age03/3737955105979851120_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\mehari_age02\\rider-albedo.png",
+          "sha256": "5e37597c0fbf26046d784fcaa90697328363e6c3a865af777d9cff5901ac5507",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\3060a55f9505f80e24200c5c678fae4a90a4282539228751c326a38e75ece7ce\\decoded\\ab4f31e7bab8f4289b97\\textures\\d3de81b91f21_3737955105979851120_packed.dds",
+          "donor_albedo_sha256": "0c6b74480fd75b3e9ab1277919f4102f91e06671db9aa018e0dc483727b03a79",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "632259de9d7af7a18cdce30d661052449578c86e82c09d194c71159c1988107d",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\mehari_age02\\rider-albedo.png",
+          "authored_albedo_sha256": "5e37597c0fbf26046d784fcaa90697328363e6c3a865af777d9cff5901ac5507",
+          "edited_pixels": 49322,
+          "owner_mask_selected_pixels_preserved": 32427,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        }
+      ],
+      "albedo_variants": [
+        {
+          "source_texture": "art/civilizations/abbasids/animals/abb_camel_armor_age03/8839200787520796396_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\mehari_age02\\tack-albedo.png",
+          "sha256": "8d958c574c6e6fccabf0d8e07dc25bb5ccb98be9cdd5fa9e228052f54731ead8",
+          "role": "tack"
+        },
+        {
+          "source_texture": "art/civilizations/abbasids/humans/abb_cavalry_rider_age03/3737955105979851120_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\mehari_age02\\rider-albedo.png",
+          "sha256": "5e37597c0fbf26046d784fcaa90697328363e6c3a865af777d9cff5901ac5507",
+          "role": "rider"
+        }
+      ],
+      "authored_albedo": "art\\unit_remix_0_5_0\\mounted\\mehari_age02\\tack-albedo.png",
+      "authored_albedo_sha256": "8d958c574c6e6fccabf0d8e07dc25bb5ccb98be9cdd5fa9e228052f54731ead8",
+      "consumers": [
+        {
+          "attachment": "bind_mehari_a2_tier3_cavalry_camel_abb",
+          "field": "default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_mehari_a2_tier3_cavalry_camel_abb",
+          "field": "campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_mehari_a2_tier3_cavalry_camel_abb",
+          "field": "xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_mehari_a2_tier3_cavalry_camel_abb",
+          "field": "default/attachment_lists/attachment_lists/attachment_list[2]/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_mehari_a2_tier3_cavalry_camel_abb",
+          "field": "xp3/attachment_lists/attachment_lists/attachment_list[2]/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        }
+      ],
+      "native_cook": "pending root serial integration",
+      "native_animation": "unverified",
+      "editable_blend": "art\\unit_remix_0_5_0\\mounted\\mehari_age02\\mehari_age02.blend",
+      "editable_blend_sha256": "0db2fde65cfe3c0ed871c4161360659f53835c069da8dc1e3576b1cef945319e",
+      "preview_donor_lod1": "art\\unit_remix_0_5_0\\mounted\\mehari_age02\\textured-donor.png",
+      "preview_donor_lod1_sha256": "86ab3c2fd367f44de977c3d3f83f8d84b9ce2e158df443094c4e72147202ae5e",
+      "preview_candidate_lod1": "art\\unit_remix_0_5_0\\mounted\\mehari_age02\\textured-candidate.png",
+      "preview_candidate_lod1_sha256": "a5fe78eaeee5724ab28bddb44227cd6ae56eb7b736d3e993ea438a1d9ca06543",
+      "preview_rider_close": "art\\unit_remix_0_5_0\\mounted\\mehari_age02\\textured-rider-close.png",
+      "preview_rider_close_sha256": "2ff48be1b7790580baea9475947ff5db51bf5c7d3453629caabf2383f9b0cf50",
+      "preview_team_red": "art\\unit_remix_0_5_0\\mounted\\mehari_age02\\textured-team-red.png",
+      "preview_team_red_sha256": "188f64531b128becbfeabe4ff4f9967b1aa25b3518462f40e5d86095399b5b90",
+      "preview_team_blue": "art\\unit_remix_0_5_0\\mounted\\mehari_age02\\textured-team-blue.png",
+      "preview_team_blue_sha256": "ecf9b59c2124950747454a095ee1f4b0b189d658dfc6b597307836e0b645b3ec",
+      "preview_donor_lod2": "art\\unit_remix_0_5_0\\mounted\\mehari_age02\\textured-donor-lod2.png",
+      "preview_donor_lod2_sha256": "d7080c058cac24a3d9fbff8f8283879faadbf86dc9d77ce71914ebae5b307562",
+      "preview_candidate_lod2": "art\\unit_remix_0_5_0\\mounted\\mehari_age02\\textured-candidate-lod2.png",
+      "preview_candidate_lod2_sha256": "daec66f821cc2add07568e5c9c74c0ed031c8c16b582a1c009e78a31b2579ae6",
+      "preview_donor_lod3": "art\\unit_remix_0_5_0\\mounted\\mehari_age02\\textured-donor-lod3.png",
+      "preview_donor_lod3_sha256": "1efb69f4b111e68dec4dd383b12345268b2a835d68fba4b77596585287b01f9c",
+      "preview_candidate_lod3": "art\\unit_remix_0_5_0\\mounted\\mehari_age02\\textured-candidate-lod3.png",
+      "preview_candidate_lod3_sha256": "4d9b45b63a0b62e564d5ab52207d294c66860361c4c0965ffe1d583388aa0d42",
+      "preview_donor_rider_only": "art\\unit_remix_0_5_0\\mounted\\mehari_age02\\textured-donor-rider-only.png",
+      "preview_donor_rider_only_sha256": "6f9e67b42ef920f51b6fce56bb19b67212cb08389b8a9add72664b5d2abf3804",
+      "preview_candidate_rider_only": "art\\unit_remix_0_5_0\\mounted\\mehari_age02\\textured-candidate-rider-only.png",
+      "preview_candidate_rider_only_sha256": "25d49cdc5fa17ab14d074a5076376463d1ea4f274a75b967edfd25f1e99e4491"
+    },
+    {
+      "family": "mehari",
+      "age": 3,
+      "private_variant_name": "mehari_age03",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/mehari_age03/mehari_age03",
+      "official_donor_rgm": "art/civilizations/abbasids/animals/abb_camel_combined_armor_age03/abb_camel_combined_armor_age03.rgm",
+      "official_donor_rgm_sha256": "1a43b4b7242118c7c9b7f133725c8561723b92711cc6b6b7cec8a3fee096487d",
+      "decoded_manifest": "output/shared_stock_cache/units_050/3060a55f9505f80e24200c5c678fae4a90a4282539228751c326a38e75ece7ce/decoded/ab4f31e7bab8f4289b97/decoded-static.json",
+      "decoded_manifest_sha256": "6df3dfe66ebbcee6f9073723372c131f03c41e61fc549047b9896e970f219eb1",
+      "native_source_rrgeom_sha256": "47a352b3bb7fcb9937a9b0f5b300340611e3e9be2d53e6728fcdbf5ccdd91717",
+      "geometry_recipe": "art\\unit_remix_0_5_0\\mounted\\mehari_age03\\recipe.json",
+      "geometry_recipe_sha256": "e56a3d79abfb2951ad3b2774a7392980927ac5cc4b312c1fba215852b507606c",
+      "authored_rrgeom": "art\\unit_remix_0_5_0\\mounted\\mehari_age03\\mehari_age03.rrgeom",
+      "authored_rrgeom_sha256": "512f2fb89063904873be895b2202ebc06b25e078d52f7f575c332c8eb1d0bd36",
+      "geometry_report": "art\\unit_remix_0_5_0\\mounted\\mehari_age03\\geometry-report.json",
+      "geometry_report_sha256": "b8e512cd378fefc154f23b8dbde93b18d8fcc8f1feddfbf5a01940def19d29b2",
+      "albedos": [
+        {
+          "role": "tack",
+          "material": "camel_lod1",
+          "source_texture": "art/civilizations/abbasids/animals/abb_camel_armor_age03/8839200787520796396_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\mehari_age03\\tack-albedo.png",
+          "sha256": "6eff5c1aae658a1709ec179103853e7ec8ab360b24c700f061a164c7c32ae720",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\3060a55f9505f80e24200c5c678fae4a90a4282539228751c326a38e75ece7ce\\decoded\\ab4f31e7bab8f4289b97\\textures\\76427e6e4a8d_8839200787520796396_packed.dds",
+          "donor_albedo_sha256": "805a119cc9bc66e0c86c71cce81e8bd38eb10e211d26c5b32025349fe512d9f3",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "765e774aad06f4affb8b077d808c00e42e8c8dcbe99417724fb4facd6cf73f76",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\mehari_age03\\tack-albedo.png",
+          "authored_albedo_sha256": "6eff5c1aae658a1709ec179103853e7ec8ab360b24c700f061a164c7c32ae720",
+          "edited_pixels": 3801,
+          "owner_mask_selected_pixels_preserved": 4728,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        },
+        {
+          "role": "rider",
+          "material": "rider_lod1",
+          "source_texture": "art/civilizations/abbasids/humans/abb_cavalry_rider_age03/3737955105979851120_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\mehari_age03\\rider-albedo.png",
+          "sha256": "ae6451ad47d9b8db0056c4760dbbf2dce4a16b5816baa6df5f5a86dd50023d9b",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\3060a55f9505f80e24200c5c678fae4a90a4282539228751c326a38e75ece7ce\\decoded\\ab4f31e7bab8f4289b97\\textures\\d3de81b91f21_3737955105979851120_packed.dds",
+          "donor_albedo_sha256": "0c6b74480fd75b3e9ab1277919f4102f91e06671db9aa018e0dc483727b03a79",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "632259de9d7af7a18cdce30d661052449578c86e82c09d194c71159c1988107d",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\mehari_age03\\rider-albedo.png",
+          "authored_albedo_sha256": "ae6451ad47d9b8db0056c4760dbbf2dce4a16b5816baa6df5f5a86dd50023d9b",
+          "edited_pixels": 138409,
+          "owner_mask_selected_pixels_preserved": 32427,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        }
+      ],
+      "albedo_variants": [
+        {
+          "source_texture": "art/civilizations/abbasids/animals/abb_camel_armor_age03/8839200787520796396_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\mehari_age03\\tack-albedo.png",
+          "sha256": "6eff5c1aae658a1709ec179103853e7ec8ab360b24c700f061a164c7c32ae720",
+          "role": "tack"
+        },
+        {
+          "source_texture": "art/civilizations/abbasids/humans/abb_cavalry_rider_age03/3737955105979851120_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\mehari_age03\\rider-albedo.png",
+          "sha256": "ae6451ad47d9b8db0056c4760dbbf2dce4a16b5816baa6df5f5a86dd50023d9b",
+          "role": "rider"
+        }
+      ],
+      "authored_albedo": "art\\unit_remix_0_5_0\\mounted\\mehari_age03\\tack-albedo.png",
+      "authored_albedo_sha256": "6eff5c1aae658a1709ec179103853e7ec8ab360b24c700f061a164c7c32ae720",
+      "consumers": [
+        {
+          "attachment": "bind_mehari_a3_tier3_cavalry_camel_abb",
+          "field": "default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_mehari_a3_tier3_cavalry_camel_abb",
+          "field": "campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_mehari_a3_tier3_cavalry_camel_abb",
+          "field": "xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_mehari_a3_tier3_cavalry_camel_abb",
+          "field": "default/attachment_lists/attachment_lists/attachment_list[2]/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_mehari_a3_tier3_cavalry_camel_abb",
+          "field": "xp3/attachment_lists/attachment_lists/attachment_list[2]/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        }
+      ],
+      "native_cook": "pending root serial integration",
+      "native_animation": "unverified",
+      "editable_blend": "art\\unit_remix_0_5_0\\mounted\\mehari_age03\\mehari_age03.blend",
+      "editable_blend_sha256": "40815ce61d549787b7722327cc2f585cadcd9347a282b0b745b7237804415063",
+      "preview_donor_lod1": "art\\unit_remix_0_5_0\\mounted\\mehari_age03\\textured-donor.png",
+      "preview_donor_lod1_sha256": "b90ff75b609a8a5e8ac8be704a875f6939e990c8ddc2fdbe3d455094d903ee3d",
+      "preview_candidate_lod1": "art\\unit_remix_0_5_0\\mounted\\mehari_age03\\textured-candidate.png",
+      "preview_candidate_lod1_sha256": "d668fd17c59e33cc41e67cf2e9546c0dd9d816241a2b92ab8a65cfa727e362b2",
+      "preview_rider_close": "art\\unit_remix_0_5_0\\mounted\\mehari_age03\\textured-rider-close.png",
+      "preview_rider_close_sha256": "5abbb8841d1e9d648321ff2b4746265aec4c4f6c6f7487f31f7abb626608bcb4",
+      "preview_team_red": "art\\unit_remix_0_5_0\\mounted\\mehari_age03\\textured-team-red.png",
+      "preview_team_red_sha256": "fd8299d80021534dd62d254ebc0f93a492a8b23142d7ceb634f9bd8315e91010",
+      "preview_team_blue": "art\\unit_remix_0_5_0\\mounted\\mehari_age03\\textured-team-blue.png",
+      "preview_team_blue_sha256": "6f9771c8574b42c8d303ecf63d510419e1074452ffd7da67bc8d9cd9eaec7128",
+      "preview_donor_lod2": "art\\unit_remix_0_5_0\\mounted\\mehari_age03\\textured-donor-lod2.png",
+      "preview_donor_lod2_sha256": "9b3760577ea7bc95f9bc47d6b8c8c293bb5fdd819395406c7189ae029c5468b2",
+      "preview_candidate_lod2": "art\\unit_remix_0_5_0\\mounted\\mehari_age03\\textured-candidate-lod2.png",
+      "preview_candidate_lod2_sha256": "d6e99e244546cfdeccecff6b988fc8b4ad5501e7e07a0245a835be81e7c1663d",
+      "preview_donor_lod3": "art\\unit_remix_0_5_0\\mounted\\mehari_age03\\textured-donor-lod3.png",
+      "preview_donor_lod3_sha256": "6645b67e0f55c02c9b463394700ab7de33e1e3ed0327a5a0854b1b7592ae9b54",
+      "preview_candidate_lod3": "art\\unit_remix_0_5_0\\mounted\\mehari_age03\\textured-candidate-lod3.png",
+      "preview_candidate_lod3_sha256": "cdfb5e2436fe97cb8f50169c0abfbf91c1d55d70c44e6830636ba21a5c82981f",
+      "preview_donor_rider_only": "art\\unit_remix_0_5_0\\mounted\\mehari_age03\\textured-donor-rider-only.png",
+      "preview_donor_rider_only_sha256": "5dd7cf3c3a94ccd0ab8ffcd8eb5da9c564b231334580c5d0e5b07f74ebec4fb7",
+      "preview_candidate_rider_only": "art\\unit_remix_0_5_0\\mounted\\mehari_age03\\textured-candidate-rider-only.png",
+      "preview_candidate_rider_only_sha256": "faefd38c478772aa14deacf014f929f37c1d372632e861e8e29d43231f328844"
+    },
+    {
+      "family": "mehari",
+      "age": 4,
+      "private_variant_name": "mehari_age04",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/mehari_age04/mehari_age04",
+      "official_donor_rgm": "art/civilizations/abbasids/animals/abb_camel_combined_armor_age04/abb_camel_combined_armor_age04.rgm",
+      "official_donor_rgm_sha256": "0b99429c7de27623b2720d564aa07df87ea47636fda2b78572f0aff7fa52dd8d",
+      "decoded_manifest": "output/shared_stock_cache/units_050/38d832dc22a2707f722d44049f9526b442330b6ac21b56fc368204a50ad27b67/decoded/d9067e75c0b840a09bac/decoded-static.json",
+      "decoded_manifest_sha256": "30eeb5d0907e1d15c643a60d2aae5c2dc4d5ccecdf57cc79469f59c4835dd859",
+      "native_source_rrgeom_sha256": "2b8b8b3dc040398f85ee54ec82b08bd109dd3bf29da8cbab09c9e59c2014d499",
+      "geometry_recipe": "art\\unit_remix_0_5_0\\mounted\\mehari_age04\\recipe.json",
+      "geometry_recipe_sha256": "21093207bef112b3d63fdd225392cd5af93d94f9535bf42182d00134b7dfaae7",
+      "authored_rrgeom": "art\\unit_remix_0_5_0\\mounted\\mehari_age04\\mehari_age04.rrgeom",
+      "authored_rrgeom_sha256": "917f4c4bb016c8129332f997fa048fd64e8408c49ac80427411fc222b4551168",
+      "geometry_report": "art\\unit_remix_0_5_0\\mounted\\mehari_age04\\geometry-report.json",
+      "geometry_report_sha256": "0cf632a6043a51bbb038c58e2d27a290fe62f53f7a6edccb88ae2d2199626c17",
+      "albedos": [
+        {
+          "role": "rider",
+          "material": "rider_lod1",
+          "source_texture": "art/civilizations/abbasids/humans/abb_cavalry_rider_age04/15288882764618761293_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\mehari_age04\\rider-albedo.png",
+          "sha256": "2d08fa78abfdf7313b61ec75596508a6998f0ef407f78a35d9676e3bf1555a4c",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\38d832dc22a2707f722d44049f9526b442330b6ac21b56fc368204a50ad27b67\\decoded\\d9067e75c0b840a09bac\\textures\\31d4f6bf970a_15288882764618761293_packed.dds",
+          "donor_albedo_sha256": "996e64118f68dc7d051c0614e47e2fd762313cbf3f494965ec86649e265aa580",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "77740d1543036bce9829efcec29e722a8c38e2dbf568f38bdd83133e39595cb5",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\mehari_age04\\rider-albedo.png",
+          "authored_albedo_sha256": "2d08fa78abfdf7313b61ec75596508a6998f0ef407f78a35d9676e3bf1555a4c",
+          "edited_pixels": 99955,
+          "owner_mask_selected_pixels_preserved": 57111,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        },
+        {
+          "role": "tack",
+          "material": "lod1",
+          "source_texture": "art/civilizations/abbasids/animals/abb_camel_armor_age04/9729051142201574863_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\mehari_age04\\tack-albedo.png",
+          "sha256": "a108062d4d653033224784c82048fe340ed3d84a060236dcbbc708a50c277f0f",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\38d832dc22a2707f722d44049f9526b442330b6ac21b56fc368204a50ad27b67\\decoded\\d9067e75c0b840a09bac\\textures\\30ec06902de9_9729051142201574863_packed.dds",
+          "donor_albedo_sha256": "3abd9b271617f52a1ffea29efa70006080149dd657b1efe7f905e02435affa6a",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "65f4935d8117ff56772863234dae732cfc97fc5424a5916875ebe30169692f5f",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\mehari_age04\\tack-albedo.png",
+          "authored_albedo_sha256": "a108062d4d653033224784c82048fe340ed3d84a060236dcbbc708a50c277f0f",
+          "edited_pixels": 4873,
+          "owner_mask_selected_pixels_preserved": 4419,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        }
+      ],
+      "albedo_variants": [
+        {
+          "source_texture": "art/civilizations/abbasids/humans/abb_cavalry_rider_age04/15288882764618761293_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\mehari_age04\\rider-albedo.png",
+          "sha256": "2d08fa78abfdf7313b61ec75596508a6998f0ef407f78a35d9676e3bf1555a4c",
+          "role": "rider"
+        },
+        {
+          "source_texture": "art/civilizations/abbasids/animals/abb_camel_armor_age04/9729051142201574863_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\mehari_age04\\tack-albedo.png",
+          "sha256": "a108062d4d653033224784c82048fe340ed3d84a060236dcbbc708a50c277f0f",
+          "role": "tack"
+        }
+      ],
+      "authored_albedo": "art\\unit_remix_0_5_0\\mounted\\mehari_age04\\rider-albedo.png",
+      "authored_albedo_sha256": "2d08fa78abfdf7313b61ec75596508a6998f0ef407f78a35d9676e3bf1555a4c",
+      "consumers": [
+        {
+          "attachment": "bind_mehari_a4_tier4_cavalry_camel_abb",
+          "field": "default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_mehari_a4_tier4_cavalry_camel_abb",
+          "field": "campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_mehari_a4_tier4_cavalry_camel_abb",
+          "field": "xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_mehari_a4_tier4_cavalry_camel_abb",
+          "field": "default/attachment_lists/attachment_lists/attachment_list[2]/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_mehari_a4_tier4_cavalry_camel_abb",
+          "field": "xp3/attachment_lists/attachment_lists/attachment_list[2]/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        }
+      ],
+      "native_cook": "pending root serial integration",
+      "native_animation": "unverified",
+      "editable_blend": "art\\unit_remix_0_5_0\\mounted\\mehari_age04\\mehari_age04.blend",
+      "editable_blend_sha256": "4a6dd5a81eee2d94e9ac4444dc19698d3bdae898f6b33cdfc04e516f2762386c",
+      "preview_donor_lod1": "art\\unit_remix_0_5_0\\mounted\\mehari_age04\\textured-donor.png",
+      "preview_donor_lod1_sha256": "48d02f0868d7861ffd9be0c432780a5c072c3549f88d0f7cc1dd7dc4fe9777a3",
+      "preview_candidate_lod1": "art\\unit_remix_0_5_0\\mounted\\mehari_age04\\textured-candidate.png",
+      "preview_candidate_lod1_sha256": "ccd975f31400ccc77da08c6591e694d964d6a2671f8f6d8c386fafc6840d299a",
+      "preview_rider_close": "art\\unit_remix_0_5_0\\mounted\\mehari_age04\\textured-rider-close.png",
+      "preview_rider_close_sha256": "b72b89fc23fb8e1f75c55a11f384fc37d303312e4df2d9a3815f91fef1dcf24d",
+      "preview_team_red": "art\\unit_remix_0_5_0\\mounted\\mehari_age04\\textured-team-red.png",
+      "preview_team_red_sha256": "269ba1285014a54e66ae5ef0437388f04244176f1979b6c31ce9a156f987bd0e",
+      "preview_team_blue": "art\\unit_remix_0_5_0\\mounted\\mehari_age04\\textured-team-blue.png",
+      "preview_team_blue_sha256": "094e48fe252a9310d5efadcb2ca3cc70fda311f83326146a9f06539028068e90",
+      "preview_donor_lod2": "art\\unit_remix_0_5_0\\mounted\\mehari_age04\\textured-donor-lod2.png",
+      "preview_donor_lod2_sha256": "559eae53bb8ca64cbb0c0ec5871f42d2ccab60a15d0b8388ece580c4d4f8f83b",
+      "preview_candidate_lod2": "art\\unit_remix_0_5_0\\mounted\\mehari_age04\\textured-candidate-lod2.png",
+      "preview_candidate_lod2_sha256": "d39c77b752643fca693c2409da646d45b28a5154e0b8fb626aace0d52ad2f040",
+      "preview_donor_lod3": "art\\unit_remix_0_5_0\\mounted\\mehari_age04\\textured-donor-lod3.png",
+      "preview_donor_lod3_sha256": "3380013f5f21c00346109e38fe4601fe773efa0cac97e2e56eba4c258278f893",
+      "preview_candidate_lod3": "art\\unit_remix_0_5_0\\mounted\\mehari_age04\\textured-candidate-lod3.png",
+      "preview_candidate_lod3_sha256": "36f95882cd75f093f97afe9a8f75e66ed67ae0baedce2f4780c087e9c9526ce4",
+      "preview_donor_rider_only": "art\\unit_remix_0_5_0\\mounted\\mehari_age04\\textured-donor-rider-only.png",
+      "preview_donor_rider_only_sha256": "6f07a063a3e9e23c46d5cbff54302c30f619b61b55d148736e44a5ed089e4315",
+      "preview_candidate_rider_only": "art\\unit_remix_0_5_0\\mounted\\mehari_age04\\textured-candidate-rider-only.png",
+      "preview_candidate_rider_only_sha256": "e42139e23a9c1de19e10a2c44102b148c1216f55aca8a43f06cf1cec39fb4139"
+    },
+    {
+      "family": "sanhaja",
+      "age": 2,
+      "private_variant_name": "sanhaja_age02",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/sanhaja_age02/sanhaja_age02",
+      "official_donor_rgm": "art/civilizations/abbasids/animals/abb_camel_combined_bow_age02/abb_camel_combined_bow_age02.rgm",
+      "official_donor_rgm_sha256": "08420f7edfc378e8fff62a20e48f8f8543f5bf84fc91f3f0418beb53d69752ea",
+      "decoded_manifest": "output/shared_stock_cache/units_050/9b745a0533a512f9722b977ce45bc07101a894f7fe444caaf8a1bc5099adcc6e/decoded/4bdcc3389e672fc14699/decoded-static.json",
+      "decoded_manifest_sha256": "d4121bc75fd0569556b54ad04f511be5a680dc104fc32de6984a0675a3e6cb1c",
+      "native_source_rrgeom_sha256": "aa56432c3c7419ff6500553a1679c61ba4467a9ba6ed186c22f0c55b4e9507d2",
+      "geometry_recipe": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age02\\recipe.json",
+      "geometry_recipe_sha256": "6f69d1c7a9c03710d4c1224653e2df19b417a3fa437ad3dc3fae5c59c8a73358",
+      "authored_rrgeom": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age02\\sanhaja_age02.rrgeom",
+      "authored_rrgeom_sha256": "864cafbe4a231041d6456ef4811b9cb685f73f3f09a0e1d49edcbf6cb6329e69",
+      "geometry_report": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age02\\geometry-report.json",
+      "geometry_report_sha256": "7a482333f4b4f93262533051d25f53b05720b66768531b5dbd45be281404a2b1",
+      "albedos": [
+        {
+          "role": "tack",
+          "material": "camel_lod1",
+          "source_texture": "art/civilizations/abbasids/animals/abb_camel_armor_age02/1003349767024048680_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age02\\tack-albedo.png",
+          "sha256": "b412f2aa9ec7cd4cd5ecceed9ff30cdbac2270e5645f4b7b3a5fe51fe56573e5",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\9b745a0533a512f9722b977ce45bc07101a894f7fe444caaf8a1bc5099adcc6e\\decoded\\4bdcc3389e672fc14699\\textures\\76ea0359dfcc_1003349767024048680_packed.dds",
+          "donor_albedo_sha256": "ef7a8c76da254c2b2b951267ce518632d007814bdf1fb483bdc2e1b6ff5c666b",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "bd4ecc1df542ba2164a6ac1e8607622ad738ed99a8ba7b060e677226bc1bd594",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\sanhaja_age02\\tack-albedo.png",
+          "authored_albedo_sha256": "b412f2aa9ec7cd4cd5ecceed9ff30cdbac2270e5645f4b7b3a5fe51fe56573e5",
+          "edited_pixels": 6466,
+          "owner_mask_selected_pixels_preserved": 5352,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        },
+        {
+          "role": "rider",
+          "material": "rider_lod1",
+          "source_texture": "art/civilizations/abbasids/humans/abb_ranged_bow_age02/13758207313406755400_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age02\\rider-albedo.png",
+          "sha256": "307cf4247478dcf5891c6c630d527550f5ec9e943bbf9048155d9a8d3beda8f0",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\9b745a0533a512f9722b977ce45bc07101a894f7fe444caaf8a1bc5099adcc6e\\decoded\\4bdcc3389e672fc14699\\textures\\646d7feced1f_13758207313406755400_packed.dds",
+          "donor_albedo_sha256": "b6fd36f8bfd393578d128ed96038954bb3edcf5381974e93367312c5e19a74e6",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "b7b8f59bb5fbd6620c2eade19598b78e4952f662aa9839048ea09a352f34922d",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\sanhaja_age02\\rider-albedo.png",
+          "authored_albedo_sha256": "307cf4247478dcf5891c6c630d527550f5ec9e943bbf9048155d9a8d3beda8f0",
+          "edited_pixels": 64543,
+          "owner_mask_selected_pixels_preserved": 38819,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        }
+      ],
+      "albedo_variants": [
+        {
+          "source_texture": "art/civilizations/abbasids/animals/abb_camel_armor_age02/1003349767024048680_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age02\\tack-albedo.png",
+          "sha256": "b412f2aa9ec7cd4cd5ecceed9ff30cdbac2270e5645f4b7b3a5fe51fe56573e5",
+          "role": "tack"
+        },
+        {
+          "source_texture": "art/civilizations/abbasids/humans/abb_ranged_bow_age02/13758207313406755400_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age02\\rider-albedo.png",
+          "sha256": "307cf4247478dcf5891c6c630d527550f5ec9e943bbf9048155d9a8d3beda8f0",
+          "role": "rider"
+        }
+      ],
+      "authored_albedo": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age02\\tack-albedo.png",
+      "authored_albedo_sha256": "b412f2aa9ec7cd4cd5ecceed9ff30cdbac2270e5645f4b7b3a5fe51fe56573e5",
+      "consumers": [
+        {
+          "attachment": "bind_sanhaja_a2_tier2_cavalry_camel_archer_abb",
+          "field": "default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_sanhaja_a2_tier2_cavalry_camel_archer_abb",
+          "field": "campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_sanhaja_a2_tier2_cavalry_camel_archer_abb",
+          "field": "xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        }
+      ],
+      "native_cook": "pending root serial integration",
+      "native_animation": "unverified",
+      "editable_blend": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age02\\sanhaja_age02.blend",
+      "editable_blend_sha256": "4d7376d421713ef3ddfc6045431aebf1de263e06c2f3a301739e550b194adf06",
+      "preview_donor_lod1": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age02\\textured-donor.png",
+      "preview_donor_lod1_sha256": "16f424a8d42a57c714526e5abc8ab4dd17aa282bd1a62bc72c547edec862b6fd",
+      "preview_candidate_lod1": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age02\\textured-candidate.png",
+      "preview_candidate_lod1_sha256": "ed9632f94cb6eebc174a0a0e7aeea693b3cb4998987643c48fd75324e6df90e8",
+      "preview_rider_close": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age02\\textured-rider-close.png",
+      "preview_rider_close_sha256": "a3cefe34d84487eae2ccc3fbd5a9d34284aafaae7eaee7d8a82c2517701dcb40",
+      "preview_team_red": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age02\\textured-team-red.png",
+      "preview_team_red_sha256": "5ce242c2b65c51e12070d1d249a2a18e5f7e4dedc6f208d4612266fe6591d59a",
+      "preview_team_blue": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age02\\textured-team-blue.png",
+      "preview_team_blue_sha256": "e651bfe4aacaf7acc33eb581f53d39e462cf46bf1368c422cd625fb7303303be",
+      "preview_donor_lod2": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age02\\textured-donor-lod2.png",
+      "preview_donor_lod2_sha256": "f274c8a2acd4957aadc20d70ae085cef7acc1ccf920b06f31b9f91d88e9b13ed",
+      "preview_candidate_lod2": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age02\\textured-candidate-lod2.png",
+      "preview_candidate_lod2_sha256": "c6b0cccf9f96b7972116f5c683975eb04c622d6affb0b86da9642011a3263c89",
+      "preview_donor_lod3": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age02\\textured-donor-lod3.png",
+      "preview_donor_lod3_sha256": "3223cdd587df36b6eb73a671afa4781a412ec7f9ab38d34cbba0990173b639e3",
+      "preview_candidate_lod3": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age02\\textured-candidate-lod3.png",
+      "preview_candidate_lod3_sha256": "e98c37cfebb7e63ae23e104b5be220c30576977e33628b0ebf173b041b1c65db",
+      "preview_donor_rider_only": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age02\\textured-donor-rider-only.png",
+      "preview_donor_rider_only_sha256": "e5e253c72f57d449284b25934ea30c5810e9c4646bb6e0d16b0145a44ae4e391",
+      "preview_candidate_rider_only": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age02\\textured-candidate-rider-only.png",
+      "preview_candidate_rider_only_sha256": "58d4a386c436929aade943ed3995fedc1846dd644194929d4e794e46fd4f3565"
+    },
+    {
+      "family": "sanhaja",
+      "age": 3,
+      "private_variant_name": "sanhaja_age03",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/sanhaja_age03/sanhaja_age03",
+      "official_donor_rgm": "art/civilizations/abbasids/animals/abb_camel_combined_bow_age03/abb_camel_combined_bow_age03.rgm",
+      "official_donor_rgm_sha256": "23c5552c05da747cd065d8cd23d7111c582014a50bf10b8fb7902f2f78355c90",
+      "decoded_manifest": "output/shared_stock_cache/units_050/71c693e8626557dea3eb7f3df56774c84ed0b87eae865c270e004c2eeb1bb30f/decoded/a7101823ef3fc6ad55a8/decoded-static.json",
+      "decoded_manifest_sha256": "d7de30c02774dac7d0cdc7b3ff5268dc3aad52ab6c98862f0e575fcf50dabe7b",
+      "native_source_rrgeom_sha256": "82860eeb546d25f3efc0db829afca24d0833917b65fd2298ea6c74989a0a4321",
+      "geometry_recipe": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03\\recipe.json",
+      "geometry_recipe_sha256": "9a0fc5eb86e954d4e155e1b55c57698d58f17b7e152daf962f582308e3c549e3",
+      "authored_rrgeom": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03\\sanhaja_age03.rrgeom",
+      "authored_rrgeom_sha256": "986b10035ab27e2a7c70c5622d1634b737b7f469fa846787e57522d1db515027",
+      "geometry_report": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03\\geometry-report.json",
+      "geometry_report_sha256": "b3da644afbf31d3b63323a944e170ddd654366ba72ee6cfa7d2686be5f7b9332",
+      "albedos": [
+        {
+          "role": "tack",
+          "material": "camel_lod1",
+          "source_texture": "art/civilizations/abbasids/animals/abb_camel_armor_age03/8839200787520796396_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03\\tack-albedo.png",
+          "sha256": "9daabe71c3d8a59bb84f7343e53dc5f9bbe91b83d57a0b69c4390ce21d345aab",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\71c693e8626557dea3eb7f3df56774c84ed0b87eae865c270e004c2eeb1bb30f\\decoded\\a7101823ef3fc6ad55a8\\textures\\76427e6e4a8d_8839200787520796396_packed.dds",
+          "donor_albedo_sha256": "805a119cc9bc66e0c86c71cce81e8bd38eb10e211d26c5b32025349fe512d9f3",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "765e774aad06f4affb8b077d808c00e42e8c8dcbe99417724fb4facd6cf73f76",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\sanhaja_age03\\tack-albedo.png",
+          "authored_albedo_sha256": "9daabe71c3d8a59bb84f7343e53dc5f9bbe91b83d57a0b69c4390ce21d345aab",
+          "edited_pixels": 3801,
+          "owner_mask_selected_pixels_preserved": 4728,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        },
+        {
+          "role": "rider",
+          "material": "rider_lod1",
+          "source_texture": "art/civilizations/abbasids/humans/abb_ranged_bow_age03/6798023264428754717_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03\\rider-albedo.png",
+          "sha256": "e65044998efa2c0feb9e31300a4bf53fabbba9822e4ebb1b76f2deff3bdd04dc",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\71c693e8626557dea3eb7f3df56774c84ed0b87eae865c270e004c2eeb1bb30f\\decoded\\a7101823ef3fc6ad55a8\\textures\\0caa3ffbea16_6798023264428754717_packed.dds",
+          "donor_albedo_sha256": "4e729d8ceb889bb00a000e1bf2ca74fce3a1588b32f2f248b986d94c12a6cbb0",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "a290320f931b5f8e7448c388351f6c326daacc7e6d71f180b10a0dce0ff1d861",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\sanhaja_age03\\rider-albedo.png",
+          "authored_albedo_sha256": "e65044998efa2c0feb9e31300a4bf53fabbba9822e4ebb1b76f2deff3bdd04dc",
+          "edited_pixels": 53156,
+          "owner_mask_selected_pixels_preserved": 44525,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        }
+      ],
+      "albedo_variants": [
+        {
+          "source_texture": "art/civilizations/abbasids/animals/abb_camel_armor_age03/8839200787520796396_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03\\tack-albedo.png",
+          "sha256": "9daabe71c3d8a59bb84f7343e53dc5f9bbe91b83d57a0b69c4390ce21d345aab",
+          "role": "tack"
+        },
+        {
+          "source_texture": "art/civilizations/abbasids/humans/abb_ranged_bow_age03/6798023264428754717_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03\\rider-albedo.png",
+          "sha256": "e65044998efa2c0feb9e31300a4bf53fabbba9822e4ebb1b76f2deff3bdd04dc",
+          "role": "rider"
+        }
+      ],
+      "authored_albedo": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03\\tack-albedo.png",
+      "authored_albedo_sha256": "9daabe71c3d8a59bb84f7343e53dc5f9bbe91b83d57a0b69c4390ce21d345aab",
+      "consumers": [
+        {
+          "attachment": "bind_sanhaja_a3_tier3_cavalry_camel_archer_abb",
+          "field": "default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_sanhaja_a3_tier3_cavalry_camel_archer_abb",
+          "field": "campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_sanhaja_a3_tier3_cavalry_camel_archer_abb",
+          "field": "xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        }
+      ],
+      "native_cook": "pending root serial integration",
+      "native_animation": "unverified",
+      "editable_blend": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03\\sanhaja_age03.blend",
+      "editable_blend_sha256": "4a68765e615f5a95820be7c2f640ebc219a1b9e8b49c0902b79a9a4a746dee4c",
+      "preview_donor_lod1": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03\\textured-donor.png",
+      "preview_donor_lod1_sha256": "70ec29b8e11ec210cbf79d273579f815ceb00fd50684a943e94c9f03130bf5a6",
+      "preview_candidate_lod1": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03\\textured-candidate.png",
+      "preview_candidate_lod1_sha256": "5e902672456d5c8dd2d54ceb084ebdad125870c1d2f5682a7cc457653041f51b",
+      "preview_rider_close": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03\\textured-rider-close.png",
+      "preview_rider_close_sha256": "9971dada2b07bb2be86fd70df40431d36ee8fb41a03d11b5e73492b29d2b033c",
+      "preview_team_red": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03\\textured-team-red.png",
+      "preview_team_red_sha256": "850022d00c86f6657abe7489dc932427db89af8e7bee14c429567cdd66d6e6e9",
+      "preview_team_blue": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03\\textured-team-blue.png",
+      "preview_team_blue_sha256": "c105c41959226ef86daa75ab2f8df6f1f489e5a8466821aa0073326dd6b2a764",
+      "preview_donor_lod2": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03\\textured-donor-lod2.png",
+      "preview_donor_lod2_sha256": "23cd844956479604eb53b6c214a3ca6f99fa8f5772bc6369fce0757f342aa969",
+      "preview_candidate_lod2": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03\\textured-candidate-lod2.png",
+      "preview_candidate_lod2_sha256": "129b2bcafc57f1fb714b6e85b500739d2bc7fb0f41225ccdc5b3208503afbea9",
+      "preview_donor_lod3": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03\\textured-donor-lod3.png",
+      "preview_donor_lod3_sha256": "4b8ea4a4659084303b8124979a6205439c05190d08ebe864ffc0decb784b2a40",
+      "preview_candidate_lod3": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03\\textured-candidate-lod3.png",
+      "preview_candidate_lod3_sha256": "def8b5691178f1aadca65a0cdbef4d1baf15fe83a76ed803fa4550e92101eaf8",
+      "preview_donor_rider_only": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03\\textured-donor-rider-only.png",
+      "preview_donor_rider_only_sha256": "49a22b22721a96e0fc72d5eef645cc6d634c34d9a9646db12058c6f115e123d4",
+      "preview_candidate_rider_only": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03\\textured-candidate-rider-only.png",
+      "preview_candidate_rider_only_sha256": "47fa0a26c588edbe7e405fa148b803521ba41b6be32781e802a7a4a11bc67d2e"
+    },
+    {
+      "family": "sanhaja",
+      "age": 3,
+      "private_variant_name": "sanhaja_age03_part02",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/sanhaja_age03_part02/sanhaja_age03_part02",
+      "official_donor_rgm": "art/civilizations/abbasids/animals/abb_camel_combined_bow_age02/abb_camel_combined_bow_age02.rgm",
+      "official_donor_rgm_sha256": "08420f7edfc378e8fff62a20e48f8f8543f5bf84fc91f3f0418beb53d69752ea",
+      "decoded_manifest": "output/shared_stock_cache/units_050/9b745a0533a512f9722b977ce45bc07101a894f7fe444caaf8a1bc5099adcc6e/decoded/4bdcc3389e672fc14699/decoded-static.json",
+      "decoded_manifest_sha256": "d4121bc75fd0569556b54ad04f511be5a680dc104fc32de6984a0675a3e6cb1c",
+      "native_source_rrgeom_sha256": "aa56432c3c7419ff6500553a1679c61ba4467a9ba6ed186c22f0c55b4e9507d2",
+      "geometry_recipe": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03_part02\\recipe.json",
+      "geometry_recipe_sha256": "5d4e6cddc21528933291d8bcad57e116bf7b9475853a6e32592c066c3c3f71fd",
+      "authored_rrgeom": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03_part02\\sanhaja_age03_part02.rrgeom",
+      "authored_rrgeom_sha256": "864cafbe4a231041d6456ef4811b9cb685f73f3f09a0e1d49edcbf6cb6329e69",
+      "geometry_report": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03_part02\\geometry-report.json",
+      "geometry_report_sha256": "2965d7278697ed25abaa7efa1dd85bf51224d56f768e7476c0bb4f5148447239",
+      "albedos": [
+        {
+          "role": "tack",
+          "material": "camel_lod1",
+          "source_texture": "art/civilizations/abbasids/animals/abb_camel_armor_age02/1003349767024048680_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03_part02\\tack-albedo.png",
+          "sha256": "98631301bdf767e23c6492662bb1f30b60aac0a6385dcffe1266dc5c648f9c97",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\9b745a0533a512f9722b977ce45bc07101a894f7fe444caaf8a1bc5099adcc6e\\decoded\\4bdcc3389e672fc14699\\textures\\76ea0359dfcc_1003349767024048680_packed.dds",
+          "donor_albedo_sha256": "ef7a8c76da254c2b2b951267ce518632d007814bdf1fb483bdc2e1b6ff5c666b",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "bd4ecc1df542ba2164a6ac1e8607622ad738ed99a8ba7b060e677226bc1bd594",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\sanhaja_age03_part02\\tack-albedo.png",
+          "authored_albedo_sha256": "98631301bdf767e23c6492662bb1f30b60aac0a6385dcffe1266dc5c648f9c97",
+          "edited_pixels": 6466,
+          "owner_mask_selected_pixels_preserved": 5352,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        },
+        {
+          "role": "rider",
+          "material": "rider_lod1",
+          "source_texture": "art/civilizations/abbasids/humans/abb_ranged_bow_age02/13758207313406755400_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03_part02\\rider-albedo.png",
+          "sha256": "5adf0689a31c07e2d9e720d80653e0401a08cf195572242658278f4b0dff98e6",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\9b745a0533a512f9722b977ce45bc07101a894f7fe444caaf8a1bc5099adcc6e\\decoded\\4bdcc3389e672fc14699\\textures\\646d7feced1f_13758207313406755400_packed.dds",
+          "donor_albedo_sha256": "b6fd36f8bfd393578d128ed96038954bb3edcf5381974e93367312c5e19a74e6",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "b7b8f59bb5fbd6620c2eade19598b78e4952f662aa9839048ea09a352f34922d",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\sanhaja_age03_part02\\rider-albedo.png",
+          "authored_albedo_sha256": "5adf0689a31c07e2d9e720d80653e0401a08cf195572242658278f4b0dff98e6",
+          "edited_pixels": 64543,
+          "owner_mask_selected_pixels_preserved": 38819,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        }
+      ],
+      "albedo_variants": [
+        {
+          "source_texture": "art/civilizations/abbasids/animals/abb_camel_armor_age02/1003349767024048680_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03_part02\\tack-albedo.png",
+          "sha256": "98631301bdf767e23c6492662bb1f30b60aac0a6385dcffe1266dc5c648f9c97",
+          "role": "tack"
+        },
+        {
+          "source_texture": "art/civilizations/abbasids/humans/abb_ranged_bow_age02/13758207313406755400_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03_part02\\rider-albedo.png",
+          "sha256": "5adf0689a31c07e2d9e720d80653e0401a08cf195572242658278f4b0dff98e6",
+          "role": "rider"
+        }
+      ],
+      "authored_albedo": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03_part02\\tack-albedo.png",
+      "authored_albedo_sha256": "98631301bdf767e23c6492662bb1f30b60aac0a6385dcffe1266dc5c648f9c97",
+      "consumers": [
+        {
+          "attachment": "bind_sanhaja_a3_tier2_cavalry_camel_archer_abb",
+          "field": "default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_sanhaja_a3_tier2_cavalry_camel_archer_abb",
+          "field": "campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_sanhaja_a3_tier2_cavalry_camel_archer_abb",
+          "field": "xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        }
+      ],
+      "native_cook": "pending root serial integration",
+      "native_animation": "unverified",
+      "editable_blend": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03_part02\\sanhaja_age03_part02.blend",
+      "editable_blend_sha256": "9805ee8e66ac924c2b84098888b98683dd5a8f760366c6f3fcec4e6724960385",
+      "preview_donor_lod1": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03_part02\\textured-donor.png",
+      "preview_donor_lod1_sha256": "b3610701623a8619a33b1a3a7792a73b7832130bb2861d58d74356ec036f2d0e",
+      "preview_candidate_lod1": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03_part02\\textured-candidate.png",
+      "preview_candidate_lod1_sha256": "0f7e3d79e7bb1f58402d0eb7de84fe60f1883b953ed32d23c73be1f891c5a893",
+      "preview_rider_close": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03_part02\\textured-rider-close.png",
+      "preview_rider_close_sha256": "d92a66764099aa4e54b7117e90803c293ee0dd2be3df37a06fa1a212cd037178",
+      "preview_team_red": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03_part02\\textured-team-red.png",
+      "preview_team_red_sha256": "df358bf3a46530dd9565440cbe6fb00dc8251b4b4106a6ab69cb84ac041ac86c",
+      "preview_team_blue": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03_part02\\textured-team-blue.png",
+      "preview_team_blue_sha256": "3a835459e1116b2ccf315a414820702abe7c32ed1248dda318b0f09b3d828968",
+      "preview_donor_lod2": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03_part02\\textured-donor-lod2.png",
+      "preview_donor_lod2_sha256": "e4179e9efd58da7da809ec3b5d0a6a60f96f257dc2482abe398ce6ca354f4e49",
+      "preview_candidate_lod2": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03_part02\\textured-candidate-lod2.png",
+      "preview_candidate_lod2_sha256": "134873c733d91308b3d7e100346780c7913cc74e10fdd92b901b5b6d0646c8d4",
+      "preview_donor_lod3": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03_part02\\textured-donor-lod3.png",
+      "preview_donor_lod3_sha256": "4c5bce2ba2a8ca3318da0e7792ecb4a9b9f42b30d4481fc112d910643365cf96",
+      "preview_candidate_lod3": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03_part02\\textured-candidate-lod3.png",
+      "preview_candidate_lod3_sha256": "272f6bbbd50e77b7a9a1fc0346444f9c09b885381185feb6eb9aae88a7ef34fa",
+      "preview_donor_rider_only": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03_part02\\textured-donor-rider-only.png",
+      "preview_donor_rider_only_sha256": "d56d4b767fb52cd7b58cfaa6597aafcf340f10d46624799eab3eba5d2a5907a3",
+      "preview_candidate_rider_only": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age03_part02\\textured-candidate-rider-only.png",
+      "preview_candidate_rider_only_sha256": "2176de5fa287c7d490f7e6fdb3b4656c176d6b7068fafc288b56ff402a49bcaf"
+    },
+    {
+      "family": "sanhaja",
+      "age": 4,
+      "private_variant_name": "sanhaja_age04",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/sanhaja_age04/sanhaja_age04",
+      "official_donor_rgm": "art/civilizations/abbasids/animals/abb_camel_combined_bow_age04/abb_camel_combined_bow_age04.rgm",
+      "official_donor_rgm_sha256": "70b9bc2f39080480498af00b2b63e14568785f3ad68493642af0e5b6c5da03a5",
+      "decoded_manifest": "output/shared_stock_cache/units_050/22e3196422cf6e366c527c0005d417858cd76d58b1b7f381c54c5a1e76835613/decoded/034d7b9d6f55415f9594/decoded-static.json",
+      "decoded_manifest_sha256": "b5de469c5e463531fd9aa52530518d0acbf2737dccfa5987efd243d8386aa846",
+      "native_source_rrgeom_sha256": "c1b2e2f9749c27d35cf76a37c7d9933205b4714af275339dd5b1d6c414c71405",
+      "geometry_recipe": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04\\recipe.json",
+      "geometry_recipe_sha256": "0e52f2518651001e140209cf117397098d4c93fb917d863b723cc0b4fb3a9a68",
+      "authored_rrgeom": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04\\sanhaja_age04.rrgeom",
+      "authored_rrgeom_sha256": "ec611c47812633151db4a19546a65669e104a56645afc9324aaae4c6c7bd9691",
+      "geometry_report": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04\\geometry-report.json",
+      "geometry_report_sha256": "aa7a825874c260077506617c293101850e33f40c268668947d5e1b4c2c247677",
+      "albedos": [
+        {
+          "role": "tack",
+          "material": "camel_lod1",
+          "source_texture": "art/civilizations/abbasids/animals/abb_camel_armor_age04/9729051142201574863_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04\\tack-albedo.png",
+          "sha256": "0a26ba9992231d84d7eb5b2973a0c1e2a3e5688b8f3b2d464e405c817ddd2f9f",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\22e3196422cf6e366c527c0005d417858cd76d58b1b7f381c54c5a1e76835613\\decoded\\034d7b9d6f55415f9594\\textures\\30ec06902de9_9729051142201574863_packed.dds",
+          "donor_albedo_sha256": "3abd9b271617f52a1ffea29efa70006080149dd657b1efe7f905e02435affa6a",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "65f4935d8117ff56772863234dae732cfc97fc5424a5916875ebe30169692f5f",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\sanhaja_age04\\tack-albedo.png",
+          "authored_albedo_sha256": "0a26ba9992231d84d7eb5b2973a0c1e2a3e5688b8f3b2d464e405c817ddd2f9f",
+          "edited_pixels": 4873,
+          "owner_mask_selected_pixels_preserved": 4419,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        },
+        {
+          "role": "rider",
+          "material": "rider_lod1",
+          "source_texture": "art/civilizations/abbasids/humans/abb_ranged_bow_age04/14462100637664812810_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04\\rider-albedo.png",
+          "sha256": "eff42c520d4c897104c8d41446b7bf58fe56caa1b785594f1320e57207560822",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\22e3196422cf6e366c527c0005d417858cd76d58b1b7f381c54c5a1e76835613\\decoded\\034d7b9d6f55415f9594\\textures\\0e08d2813024_14462100637664812810_packed.dds",
+          "donor_albedo_sha256": "1dbec2f0644b3b131ea2261dd816c924eaf5ef190b1ca591cf7e22c53c7dfaf5",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "09c7695c4e8c0f758769db5efad8cc61a35d4d966443d2690698e0552f2e6c90",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\sanhaja_age04\\rider-albedo.png",
+          "authored_albedo_sha256": "eff42c520d4c897104c8d41446b7bf58fe56caa1b785594f1320e57207560822",
+          "edited_pixels": 45735,
+          "owner_mask_selected_pixels_preserved": 43573,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        }
+      ],
+      "albedo_variants": [
+        {
+          "source_texture": "art/civilizations/abbasids/animals/abb_camel_armor_age04/9729051142201574863_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04\\tack-albedo.png",
+          "sha256": "0a26ba9992231d84d7eb5b2973a0c1e2a3e5688b8f3b2d464e405c817ddd2f9f",
+          "role": "tack"
+        },
+        {
+          "source_texture": "art/civilizations/abbasids/humans/abb_ranged_bow_age04/14462100637664812810_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04\\rider-albedo.png",
+          "sha256": "eff42c520d4c897104c8d41446b7bf58fe56caa1b785594f1320e57207560822",
+          "role": "rider"
+        }
+      ],
+      "authored_albedo": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04\\tack-albedo.png",
+      "authored_albedo_sha256": "0a26ba9992231d84d7eb5b2973a0c1e2a3e5688b8f3b2d464e405c817ddd2f9f",
+      "consumers": [
+        {
+          "attachment": "bind_sanhaja_a4_tier4_cavalry_camel_archer_abb",
+          "field": "default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_sanhaja_a4_tier4_cavalry_camel_archer_abb",
+          "field": "campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_sanhaja_a4_tier4_cavalry_camel_archer_abb",
+          "field": "xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        }
+      ],
+      "native_cook": "pending root serial integration",
+      "native_animation": "unverified",
+      "editable_blend": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04\\sanhaja_age04.blend",
+      "editable_blend_sha256": "fa09c1e42b5f1bcdeea613156332cf61224b1d3853a65b59a547f0c3d3e06fef",
+      "preview_donor_lod1": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04\\textured-donor.png",
+      "preview_donor_lod1_sha256": "fa3ef53b0715f47e291f96027f33394c2475daca463703c58a8ee95fb74ef262",
+      "preview_candidate_lod1": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04\\textured-candidate.png",
+      "preview_candidate_lod1_sha256": "b416e5868fe77323bc914a1862d16b0f2ebabf11440c208eb8eacad615d3abee",
+      "preview_rider_close": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04\\textured-rider-close.png",
+      "preview_rider_close_sha256": "0419a8c27fcbb8f9e742e6a8eb3138c9f1f2e2274c43e95856ef45221e31594a",
+      "preview_team_red": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04\\textured-team-red.png",
+      "preview_team_red_sha256": "f5b811366ff98c962a172557686a990c7125b5623efba458fb1eec2e3a1afb10",
+      "preview_team_blue": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04\\textured-team-blue.png",
+      "preview_team_blue_sha256": "8a9fefcd95728c67baffbbd9188f5c937475507e7351a89525341c96e7396288",
+      "preview_donor_lod2": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04\\textured-donor-lod2.png",
+      "preview_donor_lod2_sha256": "93c2915057b20e63e5e6af00554ac814161888bd214bc7fe689195f2df36b5b8",
+      "preview_candidate_lod2": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04\\textured-candidate-lod2.png",
+      "preview_candidate_lod2_sha256": "9b15032c5e5d4bd31d5845cfad8872949da7bc7defe121c3fbb491b1e82e42d7",
+      "preview_donor_lod3": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04\\textured-donor-lod3.png",
+      "preview_donor_lod3_sha256": "ebb6408e3b2cd8b7f85af52261a4d4df2f089908a5ae83890b1a1cfd45705dd2",
+      "preview_candidate_lod3": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04\\textured-candidate-lod3.png",
+      "preview_candidate_lod3_sha256": "6820c1f6f733bea311553208551a2bae1c283d0e0832042d54ac9baa5cdf3d1e",
+      "preview_donor_rider_only": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04\\textured-donor-rider-only.png",
+      "preview_donor_rider_only_sha256": "8ddf4e9acd6470487a94fcc0b6f6df46822b6f2c8f2199df92d6bff374722133",
+      "preview_candidate_rider_only": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04\\textured-candidate-rider-only.png",
+      "preview_candidate_rider_only_sha256": "724221c0e4c8faac8c212ec3aaed68a12a3f2e36119f4c23cb66cd95e5b6bc99"
+    },
+    {
+      "family": "sanhaja",
+      "age": 4,
+      "private_variant_name": "sanhaja_age04_part02",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/sanhaja_age04_part02/sanhaja_age04_part02",
+      "official_donor_rgm": "art/civilizations/abbasids/animals/abb_camel_combined_bow_age02/abb_camel_combined_bow_age02.rgm",
+      "official_donor_rgm_sha256": "08420f7edfc378e8fff62a20e48f8f8543f5bf84fc91f3f0418beb53d69752ea",
+      "decoded_manifest": "output/shared_stock_cache/units_050/9b745a0533a512f9722b977ce45bc07101a894f7fe444caaf8a1bc5099adcc6e/decoded/4bdcc3389e672fc14699/decoded-static.json",
+      "decoded_manifest_sha256": "d4121bc75fd0569556b54ad04f511be5a680dc104fc32de6984a0675a3e6cb1c",
+      "native_source_rrgeom_sha256": "aa56432c3c7419ff6500553a1679c61ba4467a9ba6ed186c22f0c55b4e9507d2",
+      "geometry_recipe": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04_part02\\recipe.json",
+      "geometry_recipe_sha256": "e53b9eaeb1e0beb41671304a4aeaa6cae8900c413fdf3918cec5070394782eb3",
+      "authored_rrgeom": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04_part02\\sanhaja_age04_part02.rrgeom",
+      "authored_rrgeom_sha256": "864cafbe4a231041d6456ef4811b9cb685f73f3f09a0e1d49edcbf6cb6329e69",
+      "geometry_report": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04_part02\\geometry-report.json",
+      "geometry_report_sha256": "7c6c689c2d1825f34b64282c80d9bd6561fd05cdd8b8972ecf09a2f7e7ac0543",
+      "albedos": [
+        {
+          "role": "tack",
+          "material": "camel_lod1",
+          "source_texture": "art/civilizations/abbasids/animals/abb_camel_armor_age02/1003349767024048680_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04_part02\\tack-albedo.png",
+          "sha256": "17ede4b150549043b3b01052ca4e7a14996165f246e69b8eaee06b9c6606598f",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\9b745a0533a512f9722b977ce45bc07101a894f7fe444caaf8a1bc5099adcc6e\\decoded\\4bdcc3389e672fc14699\\textures\\76ea0359dfcc_1003349767024048680_packed.dds",
+          "donor_albedo_sha256": "ef7a8c76da254c2b2b951267ce518632d007814bdf1fb483bdc2e1b6ff5c666b",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "bd4ecc1df542ba2164a6ac1e8607622ad738ed99a8ba7b060e677226bc1bd594",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\sanhaja_age04_part02\\tack-albedo.png",
+          "authored_albedo_sha256": "17ede4b150549043b3b01052ca4e7a14996165f246e69b8eaee06b9c6606598f",
+          "edited_pixels": 6466,
+          "owner_mask_selected_pixels_preserved": 5352,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        },
+        {
+          "role": "rider",
+          "material": "rider_lod1",
+          "source_texture": "art/civilizations/abbasids/humans/abb_ranged_bow_age02/13758207313406755400_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04_part02\\rider-albedo.png",
+          "sha256": "d052b873b983fbedcde229cdfc906cc54a25e751f6a0866ac269ef681eeab4c4",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\9b745a0533a512f9722b977ce45bc07101a894f7fe444caaf8a1bc5099adcc6e\\decoded\\4bdcc3389e672fc14699\\textures\\646d7feced1f_13758207313406755400_packed.dds",
+          "donor_albedo_sha256": "b6fd36f8bfd393578d128ed96038954bb3edcf5381974e93367312c5e19a74e6",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "b7b8f59bb5fbd6620c2eade19598b78e4952f662aa9839048ea09a352f34922d",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\sanhaja_age04_part02\\rider-albedo.png",
+          "authored_albedo_sha256": "d052b873b983fbedcde229cdfc906cc54a25e751f6a0866ac269ef681eeab4c4",
+          "edited_pixels": 64543,
+          "owner_mask_selected_pixels_preserved": 38819,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        }
+      ],
+      "albedo_variants": [
+        {
+          "source_texture": "art/civilizations/abbasids/animals/abb_camel_armor_age02/1003349767024048680_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04_part02\\tack-albedo.png",
+          "sha256": "17ede4b150549043b3b01052ca4e7a14996165f246e69b8eaee06b9c6606598f",
+          "role": "tack"
+        },
+        {
+          "source_texture": "art/civilizations/abbasids/humans/abb_ranged_bow_age02/13758207313406755400_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04_part02\\rider-albedo.png",
+          "sha256": "d052b873b983fbedcde229cdfc906cc54a25e751f6a0866ac269ef681eeab4c4",
+          "role": "rider"
+        }
+      ],
+      "authored_albedo": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04_part02\\tack-albedo.png",
+      "authored_albedo_sha256": "17ede4b150549043b3b01052ca4e7a14996165f246e69b8eaee06b9c6606598f",
+      "consumers": [
+        {
+          "attachment": "bind_sanhaja_a4_tier2_cavalry_camel_archer_abb",
+          "field": "default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_sanhaja_a4_tier2_cavalry_camel_archer_abb",
+          "field": "campaign/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_sanhaja_a4_tier2_cavalry_camel_archer_abb",
+          "field": "xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        }
+      ],
+      "native_cook": "pending root serial integration",
+      "native_animation": "unverified",
+      "editable_blend": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04_part02\\sanhaja_age04_part02.blend",
+      "editable_blend_sha256": "dea7d20ebc00e5709235fc38db720d86fb090e11649d891c44bb085bba045383",
+      "preview_donor_lod1": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04_part02\\textured-donor.png",
+      "preview_donor_lod1_sha256": "dce7de58995c87b88477aef458453abce369a658374eabcde5d1716f5569af1e",
+      "preview_candidate_lod1": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04_part02\\textured-candidate.png",
+      "preview_candidate_lod1_sha256": "e6aecee78c38ddcfaf9d8f56ca3894f74aa50cf76c2e00c67ec187f104ee89c4",
+      "preview_rider_close": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04_part02\\textured-rider-close.png",
+      "preview_rider_close_sha256": "b7bc0725a4d6f3d7f873a8a9ce9b639b5233473d1079e49ceec91ad1cef08efb",
+      "preview_team_red": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04_part02\\textured-team-red.png",
+      "preview_team_red_sha256": "b691ad50d1c7c93b396169bc1acffc1dbf2c2d146d8aa6e7803a1d000f5e2f93",
+      "preview_team_blue": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04_part02\\textured-team-blue.png",
+      "preview_team_blue_sha256": "51557aa87283427b5acaa7858e5e8b183df9cd04a3c294af0ca7f402344adc1c",
+      "preview_donor_lod2": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04_part02\\textured-donor-lod2.png",
+      "preview_donor_lod2_sha256": "d55ca398b9668f987ed170bf6d2789663a120a70ab94d5500c8a50bc60aaee55",
+      "preview_candidate_lod2": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04_part02\\textured-candidate-lod2.png",
+      "preview_candidate_lod2_sha256": "90868d88a9f8f8c96d7c061d413c67fa72da90e0346eb6f299e5270660d1dcd8",
+      "preview_donor_lod3": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04_part02\\textured-donor-lod3.png",
+      "preview_donor_lod3_sha256": "daf233ca606032f936b78cfc2692d7a10bb4a24c4e4b6ceafada18d9076d2a83",
+      "preview_candidate_lod3": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04_part02\\textured-candidate-lod3.png",
+      "preview_candidate_lod3_sha256": "a24625c8278f4ae438409de1b941b36108e361e009609d47adfc9c9967ad5c4f",
+      "preview_donor_rider_only": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04_part02\\textured-donor-rider-only.png",
+      "preview_donor_rider_only_sha256": "3bf9424923529c7a709633fe936714770361662c31deecd80ff052cb6a93fee2",
+      "preview_candidate_rider_only": "art\\unit_remix_0_5_0\\mounted\\sanhaja_age04_part02\\textured-candidate-rider-only.png",
+      "preview_candidate_rider_only_sha256": "f208203e3b4cab357df5f04b0d1667991a153dd74fe5b5a6d085eb9f2a67048a"
+    },
+    {
+      "family": "scout",
+      "age": 1,
+      "private_variant_name": "scout_age01",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/scout_age01/scout_age01",
+      "official_donor_rgm": "art/civilizations/malian/animals/mal_horse_combined_scout_age01/mal_horse_combined_scout_age01.rgm",
+      "official_donor_rgm_sha256": "c1ef4234e6c2b31639358889e0799c178ef30e6c444bdcc6bf256905face75c3",
+      "decoded_manifest": "output/shared_stock_cache/units_050/6f43849b8bac3e293acef0ee73d1cb9ab603b2d78b9aaf5c221564e560e4c851/decoded/bfb48dda22de8dfcd05f/decoded-static.json",
+      "decoded_manifest_sha256": "992d548fcf353040524c22a4ceb56da52e557d957e3b57435a75e8cca6be5515",
+      "native_source_rrgeom_sha256": "c305eb3eb053592f6ad5f228d0bf4002547760f33f3acc9c579f5c71ae61191a",
+      "geometry_recipe": "art\\unit_remix_0_5_0\\mounted\\scout_age01\\recipe.json",
+      "geometry_recipe_sha256": "838ea04f96e98dacf72ea178372892be85039135d9bb9fb6f5a4c673fe26f924",
+      "authored_rrgeom": "art\\unit_remix_0_5_0\\mounted\\scout_age01\\scout_age01.rrgeom",
+      "authored_rrgeom_sha256": "842ea52a61ea2ae5fb3dd2aa2e109e9bca86910318d02042cb25b5b52d40edd9",
+      "geometry_report": "art\\unit_remix_0_5_0\\mounted\\scout_age01\\geometry-report.json",
+      "geometry_report_sha256": "83773f424fea171f5a2f82cd36be388dc023b4cc5e53a7fae51740d8c139e490",
+      "albedos": [
+        {
+          "role": "tack",
+          "material": "horse_lod1",
+          "source_texture": "art/civilizations/malian/animals/mal_horse_scout_age01/8052796279754761600_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\scout_age01\\tack-albedo.png",
+          "sha256": "df5b2c86523dbcb3e2c7310d6f689034724883bc4890b38d55ce290a57dc854e",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\6f43849b8bac3e293acef0ee73d1cb9ab603b2d78b9aaf5c221564e560e4c851\\decoded\\bfb48dda22de8dfcd05f\\textures\\5f8344454382_8052796279754761600_packed.dds",
+          "donor_albedo_sha256": "8b7d6b9823736942d9a5085cda1a422f7af6ce890699ae9fcc0b2e3231113430",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "ac11fbe311c9723b570e4bf658fbda824958971650bd11aa0ae5e91b7b3fac17",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\scout_age01\\tack-albedo.png",
+          "authored_albedo_sha256": "df5b2c86523dbcb3e2c7310d6f689034724883bc4890b38d55ce290a57dc854e",
+          "edited_pixels": 14949,
+          "owner_mask_selected_pixels_preserved": 18782,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        },
+        {
+          "role": "rider",
+          "material": "rider_lod1",
+          "source_texture": "art/civilizations/malian/humans/mal_cavalry_scout_age01/388164968415283767_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\scout_age01\\rider-albedo.png",
+          "sha256": "0334e37d43198c6bb363cc31484a753b7c142511f0cf4ec9788770c33afee210",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\6f43849b8bac3e293acef0ee73d1cb9ab603b2d78b9aaf5c221564e560e4c851\\decoded\\bfb48dda22de8dfcd05f\\textures\\6cc983138f38_388164968415283767_packed.dds",
+          "donor_albedo_sha256": "9e18fbfc85a7373991fdfe215b95516ffcfea620d4c95a0706d5436a3529aef8",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "5473f470cdb74bdddb3850fa586151b6072f4c84eed9778353dee642dde19bde",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\scout_age01\\rider-albedo.png",
+          "authored_albedo_sha256": "0334e37d43198c6bb363cc31484a753b7c142511f0cf4ec9788770c33afee210",
+          "edited_pixels": 87403,
+          "owner_mask_selected_pixels_preserved": 51390,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        }
+      ],
+      "albedo_variants": [
+        {
+          "source_texture": "art/civilizations/malian/animals/mal_horse_scout_age01/8052796279754761600_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\scout_age01\\tack-albedo.png",
+          "sha256": "df5b2c86523dbcb3e2c7310d6f689034724883bc4890b38d55ce290a57dc854e",
+          "role": "tack"
+        },
+        {
+          "source_texture": "art/civilizations/malian/humans/mal_cavalry_scout_age01/388164968415283767_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\scout_age01\\rider-albedo.png",
+          "sha256": "0334e37d43198c6bb363cc31484a753b7c142511f0cf4ec9788770c33afee210",
+          "role": "rider"
+        }
+      ],
+      "authored_albedo": "art\\unit_remix_0_5_0\\mounted\\scout_age01\\tack-albedo.png",
+      "authored_albedo_sha256": "df5b2c86523dbcb3e2c7310d6f689034724883bc4890b38d55ce290a57dc854e",
+      "consumers": [
+        {
+          "attachment": "bind_scout_a1_tier1_cavalry_scout_mal",
+          "field": "default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        }
+      ],
+      "native_cook": "pending root serial integration",
+      "native_animation": "unverified",
+      "editable_blend": "art\\unit_remix_0_5_0\\mounted\\scout_age01\\scout_age01.blend",
+      "editable_blend_sha256": "8c39af7165253f33e87fd0c99cb00a8c5275e38b8b514c7f10dbec1855283043",
+      "preview_donor_lod1": "art\\unit_remix_0_5_0\\mounted\\scout_age01\\textured-donor.png",
+      "preview_donor_lod1_sha256": "dcf665d7a0fe86c53dd954436fbd504981080c7f5fbeb70259bd6b8809306d58",
+      "preview_candidate_lod1": "art\\unit_remix_0_5_0\\mounted\\scout_age01\\textured-candidate.png",
+      "preview_candidate_lod1_sha256": "2f840378add5ff77012559866fce567cdddc45cdeb00266b8f5b6824994fdf89",
+      "preview_rider_close": "art\\unit_remix_0_5_0\\mounted\\scout_age01\\textured-rider-close.png",
+      "preview_rider_close_sha256": "cb742d9cc8330c02b434973cff3f429c73f6c7bbcaa5f7fcfc76d9ee495e372d",
+      "preview_team_red": "art\\unit_remix_0_5_0\\mounted\\scout_age01\\textured-team-red.png",
+      "preview_team_red_sha256": "6508e72f688dd0f985d057455b0c060782641b176bba86b2dd2ed3fc717cfb80",
+      "preview_team_blue": "art\\unit_remix_0_5_0\\mounted\\scout_age01\\textured-team-blue.png",
+      "preview_team_blue_sha256": "5f83f26f2f54f1093824a4f740a88b1905f5a6c204516a81b4bde164afe74acd",
+      "preview_donor_lod2": "art\\unit_remix_0_5_0\\mounted\\scout_age01\\textured-donor-lod2.png",
+      "preview_donor_lod2_sha256": "b9cecc87c995e9ff54b97c707a4a9480a0c9cd368ab54ae07680390db7ac0892",
+      "preview_candidate_lod2": "art\\unit_remix_0_5_0\\mounted\\scout_age01\\textured-candidate-lod2.png",
+      "preview_candidate_lod2_sha256": "7797c4c0a1a36d92ef7e9b7865553d0618ce976881d2f681dbfcb17c74d7bd3b",
+      "preview_donor_lod3": "art\\unit_remix_0_5_0\\mounted\\scout_age01\\textured-donor-lod3.png",
+      "preview_donor_lod3_sha256": "2d744c88ef0e181d1b7526d93e2b9bed0b0fb9de554e0bdcf8ceb3b7c47b9cbf",
+      "preview_candidate_lod3": "art\\unit_remix_0_5_0\\mounted\\scout_age01\\textured-candidate-lod3.png",
+      "preview_candidate_lod3_sha256": "e7e2427278cfd0b246df0ae352cdb2d51ae0f26083e5c82d382db1286b571e9b"
+    },
+    {
+      "family": "scout",
+      "age": 2,
+      "private_variant_name": "scout_age02",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/scout_age02/scout_age02",
+      "official_donor_rgm": "art/civilizations/malian/animals/mal_horse_combined_scout_age02/mal_horse_combined_scout_age02.rgm",
+      "official_donor_rgm_sha256": "7eb1360ab65d2599573c1d0e986fe5c49afb8735f7b6eecd0a6e7b9f2eda5a26",
+      "decoded_manifest": "output/shared_stock_cache/units_050/6ca96ac8bb85b5c9959d481518109915e7a1ea5f38bc44de15fb3a6db0540264/decoded/92e6c9ddf6d64662872f/decoded-static.json",
+      "decoded_manifest_sha256": "229e9f2df97f80a0b005b5bf2b1698066b9146a3d73839ad6081caecb9478ccb",
+      "native_source_rrgeom_sha256": "5cfd394cfc3b4a2b90f766cc8c7135797f42df61bbade15932f7ccdb42dc0382",
+      "geometry_recipe": "art\\unit_remix_0_5_0\\mounted\\scout_age02\\recipe.json",
+      "geometry_recipe_sha256": "fd3510d9e85d6829993ec4236eda862e5021c5c08cf81c427d9eb9bd78bca637",
+      "authored_rrgeom": "art\\unit_remix_0_5_0\\mounted\\scout_age02\\scout_age02.rrgeom",
+      "authored_rrgeom_sha256": "f7959e08f85088d52aca192bbb150d406ed35e59b4697ac42b52f0a6a7c9b827",
+      "geometry_report": "art\\unit_remix_0_5_0\\mounted\\scout_age02\\geometry-report.json",
+      "geometry_report_sha256": "e191a2c287352f284b9d67bc5843b7c2dde16f1b2d5d404a779da761a6c2a6ee",
+      "albedos": [
+        {
+          "role": "rider",
+          "material": "rider_lod1",
+          "source_texture": "art/civilizations/malian/humans/mal_cavalry_scout_age02/5854758308433090909_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\scout_age02\\rider-albedo.png",
+          "sha256": "d3ac65e07b14eab6ff884014fa022ee1b776ebc180666250bab514b2a8a93752",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\6ca96ac8bb85b5c9959d481518109915e7a1ea5f38bc44de15fb3a6db0540264\\decoded\\92e6c9ddf6d64662872f\\textures\\ad15bb5dc154_5854758308433090909_packed.dds",
+          "donor_albedo_sha256": "b9978cb6ff708374340b2baed8d2759e8484e7e6403fe73ec833af8508a87540",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "40b6725afcccf69abb70d0443f33cdd0a9c3f0296a014e7ee8a749f8ec694bcf",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\scout_age02\\rider-albedo.png",
+          "authored_albedo_sha256": "d3ac65e07b14eab6ff884014fa022ee1b776ebc180666250bab514b2a8a93752",
+          "edited_pixels": 79750,
+          "owner_mask_selected_pixels_preserved": 74356,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        },
+        {
+          "role": "tack",
+          "material": "horse_lod1",
+          "source_texture": "art/civilizations/malian/animals/mal_horse_scout_age02/18017312762448100187_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\scout_age02\\tack-albedo.png",
+          "sha256": "320a97547c409f0b6078c1b958fc98458b8dcdbb6bea14bf059910a98895267b",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\6ca96ac8bb85b5c9959d481518109915e7a1ea5f38bc44de15fb3a6db0540264\\decoded\\92e6c9ddf6d64662872f\\textures\\a91d58034f8b_18017312762448100187_packed.dds",
+          "donor_albedo_sha256": "beaba3d798626259f08fcb123720bbbc68eed0858df4144900411f1807bde33e",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "a64f973af6b5b285a642591731cfc6b89f879374de6a20457a9c96a6161263d2",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\scout_age02\\tack-albedo.png",
+          "authored_albedo_sha256": "320a97547c409f0b6078c1b958fc98458b8dcdbb6bea14bf059910a98895267b",
+          "edited_pixels": 17826,
+          "owner_mask_selected_pixels_preserved": 14147,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        }
+      ],
+      "albedo_variants": [
+        {
+          "source_texture": "art/civilizations/malian/humans/mal_cavalry_scout_age02/5854758308433090909_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\scout_age02\\rider-albedo.png",
+          "sha256": "d3ac65e07b14eab6ff884014fa022ee1b776ebc180666250bab514b2a8a93752",
+          "role": "rider"
+        },
+        {
+          "source_texture": "art/civilizations/malian/animals/mal_horse_scout_age02/18017312762448100187_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\scout_age02\\tack-albedo.png",
+          "sha256": "320a97547c409f0b6078c1b958fc98458b8dcdbb6bea14bf059910a98895267b",
+          "role": "tack"
+        }
+      ],
+      "authored_albedo": "art\\unit_remix_0_5_0\\mounted\\scout_age02\\rider-albedo.png",
+      "authored_albedo_sha256": "d3ac65e07b14eab6ff884014fa022ee1b776ebc180666250bab514b2a8a93752",
+      "consumers": [
+        {
+          "attachment": "bind_scout_a2_tier2_cavalry_scout_mal",
+          "field": "default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        }
+      ],
+      "native_cook": "pending root serial integration",
+      "native_animation": "unverified",
+      "editable_blend": "art\\unit_remix_0_5_0\\mounted\\scout_age02\\scout_age02.blend",
+      "editable_blend_sha256": "f3eea9e15e6f24b2417ff81fdebec65af28ea25c1cc89cff0c7cc4cb3f62d32d",
+      "preview_donor_lod1": "art\\unit_remix_0_5_0\\mounted\\scout_age02\\textured-donor.png",
+      "preview_donor_lod1_sha256": "4269e32e0eea3454a8f719682282eaa10bc4f02e8b5f86c519091b99d0d25fb5",
+      "preview_candidate_lod1": "art\\unit_remix_0_5_0\\mounted\\scout_age02\\textured-candidate.png",
+      "preview_candidate_lod1_sha256": "8fcbf8bf77bc2413b8431dee0336f2c0c0a1dc4dc8ed460d856b450c77f5d863",
+      "preview_rider_close": "art\\unit_remix_0_5_0\\mounted\\scout_age02\\textured-rider-close.png",
+      "preview_rider_close_sha256": "2da17b7c8879bfa1cd1c3353413ca089e7e76efd3ee7191aa91f96c00cebebd4",
+      "preview_team_red": "art\\unit_remix_0_5_0\\mounted\\scout_age02\\textured-team-red.png",
+      "preview_team_red_sha256": "9bdf9b8e269219b753af1be61fe2370c1e1fad798df98ecf1f846073eadf60fb",
+      "preview_team_blue": "art\\unit_remix_0_5_0\\mounted\\scout_age02\\textured-team-blue.png",
+      "preview_team_blue_sha256": "974fc2b1b3d9a37e2230a9e215db854d727bc5dd9b5d1cc944c930d15c84cd45",
+      "preview_donor_lod2": "art\\unit_remix_0_5_0\\mounted\\scout_age02\\textured-donor-lod2.png",
+      "preview_donor_lod2_sha256": "55871c11b57be51d7d5fe251760085ad831ce69ba78cc14fe9074b939fb2ce04",
+      "preview_candidate_lod2": "art\\unit_remix_0_5_0\\mounted\\scout_age02\\textured-candidate-lod2.png",
+      "preview_candidate_lod2_sha256": "0a0fe5b1f5836e2db64ca3d484b62fbaa36bb29a4bb78794ac8f2a9b88a878bc",
+      "preview_donor_lod3": "art\\unit_remix_0_5_0\\mounted\\scout_age02\\textured-donor-lod3.png",
+      "preview_donor_lod3_sha256": "6e821d193a3f3b4e31553056fabbd3dacf71d652120a9d4496753224097fd4db",
+      "preview_candidate_lod3": "art\\unit_remix_0_5_0\\mounted\\scout_age02\\textured-candidate-lod3.png",
+      "preview_candidate_lod3_sha256": "335d12ffe8febf2f4b84744f43c6babc1e5fb68380cf804dc249494391e4bc80"
+    },
+    {
+      "family": "scout",
+      "age": 2,
+      "private_variant_name": "scout_age02_part02",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/scout_age02_part02/scout_age02_part02",
+      "official_donor_rgm": "art/civilizations/malian/animals/mal_horse_combined_scout_age01/mal_horse_combined_scout_age01.rgm",
+      "official_donor_rgm_sha256": "c1ef4234e6c2b31639358889e0799c178ef30e6c444bdcc6bf256905face75c3",
+      "decoded_manifest": "output/shared_stock_cache/units_050/6f43849b8bac3e293acef0ee73d1cb9ab603b2d78b9aaf5c221564e560e4c851/decoded/bfb48dda22de8dfcd05f/decoded-static.json",
+      "decoded_manifest_sha256": "992d548fcf353040524c22a4ceb56da52e557d957e3b57435a75e8cca6be5515",
+      "native_source_rrgeom_sha256": "c305eb3eb053592f6ad5f228d0bf4002547760f33f3acc9c579f5c71ae61191a",
+      "geometry_recipe": "art\\unit_remix_0_5_0\\mounted\\scout_age02_part02\\recipe.json",
+      "geometry_recipe_sha256": "0110627ee741e37ae0aa3df5c7786ccc060b4b2f723ab9f6d4e497378a2f08f9",
+      "authored_rrgeom": "art\\unit_remix_0_5_0\\mounted\\scout_age02_part02\\scout_age02_part02.rrgeom",
+      "authored_rrgeom_sha256": "842ea52a61ea2ae5fb3dd2aa2e109e9bca86910318d02042cb25b5b52d40edd9",
+      "geometry_report": "art\\unit_remix_0_5_0\\mounted\\scout_age02_part02\\geometry-report.json",
+      "geometry_report_sha256": "c405fc1be5d9dbdd0ed0385d3e4022ff9cc743f0ccb7918d1a3441acbb1a4efc",
+      "albedos": [
+        {
+          "role": "tack",
+          "material": "horse_lod1",
+          "source_texture": "art/civilizations/malian/animals/mal_horse_scout_age01/8052796279754761600_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\scout_age02_part02\\tack-albedo.png",
+          "sha256": "34076171f704a7c4f2f24266280d697a556a4d8e310835cefe29a1b6b8425dc9",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\6f43849b8bac3e293acef0ee73d1cb9ab603b2d78b9aaf5c221564e560e4c851\\decoded\\bfb48dda22de8dfcd05f\\textures\\5f8344454382_8052796279754761600_packed.dds",
+          "donor_albedo_sha256": "8b7d6b9823736942d9a5085cda1a422f7af6ce890699ae9fcc0b2e3231113430",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "ac11fbe311c9723b570e4bf658fbda824958971650bd11aa0ae5e91b7b3fac17",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\scout_age02_part02\\tack-albedo.png",
+          "authored_albedo_sha256": "34076171f704a7c4f2f24266280d697a556a4d8e310835cefe29a1b6b8425dc9",
+          "edited_pixels": 17736,
+          "owner_mask_selected_pixels_preserved": 18944,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        },
+        {
+          "role": "rider",
+          "material": "rider_lod1",
+          "source_texture": "art/civilizations/malian/humans/mal_cavalry_scout_age01/388164968415283767_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\scout_age02_part02\\rider-albedo.png",
+          "sha256": "f3fd8aadcd4e67133c5ce143a5ce8f99da09334f3812cdd7bd58f5d986471e37",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\6f43849b8bac3e293acef0ee73d1cb9ab603b2d78b9aaf5c221564e560e4c851\\decoded\\bfb48dda22de8dfcd05f\\textures\\6cc983138f38_388164968415283767_packed.dds",
+          "donor_albedo_sha256": "9e18fbfc85a7373991fdfe215b95516ffcfea620d4c95a0706d5436a3529aef8",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "5473f470cdb74bdddb3850fa586151b6072f4c84eed9778353dee642dde19bde",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\scout_age02_part02\\rider-albedo.png",
+          "authored_albedo_sha256": "f3fd8aadcd4e67133c5ce143a5ce8f99da09334f3812cdd7bd58f5d986471e37",
+          "edited_pixels": 107944,
+          "owner_mask_selected_pixels_preserved": 60273,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        }
+      ],
+      "albedo_variants": [
+        {
+          "source_texture": "art/civilizations/malian/animals/mal_horse_scout_age01/8052796279754761600_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\scout_age02_part02\\tack-albedo.png",
+          "sha256": "34076171f704a7c4f2f24266280d697a556a4d8e310835cefe29a1b6b8425dc9",
+          "role": "tack"
+        },
+        {
+          "source_texture": "art/civilizations/malian/humans/mal_cavalry_scout_age01/388164968415283767_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\scout_age02_part02\\rider-albedo.png",
+          "sha256": "f3fd8aadcd4e67133c5ce143a5ce8f99da09334f3812cdd7bd58f5d986471e37",
+          "role": "rider"
+        }
+      ],
+      "authored_albedo": "art\\unit_remix_0_5_0\\mounted\\scout_age02_part02\\tack-albedo.png",
+      "authored_albedo_sha256": "34076171f704a7c4f2f24266280d697a556a4d8e310835cefe29a1b6b8425dc9",
+      "consumers": [
+        {
+          "attachment": "bind_scout_a2_tier1_cavalry_scout_mal",
+          "field": "default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        }
+      ],
+      "native_cook": "pending root serial integration",
+      "native_animation": "unverified",
+      "editable_blend": "art\\unit_remix_0_5_0\\mounted\\scout_age02_part02\\scout_age02_part02.blend",
+      "editable_blend_sha256": "faee4c223bb4832077ff63791a7cd8bcce8550bae0ebf61491ce0a7dbc51b8d0",
+      "preview_donor_lod1": "art\\unit_remix_0_5_0\\mounted\\scout_age02_part02\\textured-donor.png",
+      "preview_donor_lod1_sha256": "8c3a6c4119d3ab7dc391d323881567aea360d29b911d83068a2b1b407ccb46c3",
+      "preview_candidate_lod1": "art\\unit_remix_0_5_0\\mounted\\scout_age02_part02\\textured-candidate.png",
+      "preview_candidate_lod1_sha256": "9c800de5817394d5a9eb215bc412d950a890ce43de93482e01c334dfb41cfc57",
+      "preview_rider_close": "art\\unit_remix_0_5_0\\mounted\\scout_age02_part02\\textured-rider-close.png",
+      "preview_rider_close_sha256": "1c7f408dd8c58f27abb7128bafcc1308fe8054ed78d83bbd86f8fdddf9677be9",
+      "preview_team_red": "art\\unit_remix_0_5_0\\mounted\\scout_age02_part02\\textured-team-red.png",
+      "preview_team_red_sha256": "1da662eeab98ac28bb3e0ddf8082ba3a80d227fdc36234cc82d06bd627f0bd3d",
+      "preview_team_blue": "art\\unit_remix_0_5_0\\mounted\\scout_age02_part02\\textured-team-blue.png",
+      "preview_team_blue_sha256": "f76ee8088ffaf0651d7ef7d6feb12f157c33b37af9939682a5d27993467b73b7",
+      "preview_donor_lod2": "art\\unit_remix_0_5_0\\mounted\\scout_age02_part02\\textured-donor-lod2.png",
+      "preview_donor_lod2_sha256": "37aa8d118ec005a41c98969fa4add9b638267bd2776bb5d49240d53f4764033b",
+      "preview_candidate_lod2": "art\\unit_remix_0_5_0\\mounted\\scout_age02_part02\\textured-candidate-lod2.png",
+      "preview_candidate_lod2_sha256": "6034f408cba19e6191a432ed7b7684ad590f72f8c193e4f6cc0c4bff45dedb37",
+      "preview_donor_lod3": "art\\unit_remix_0_5_0\\mounted\\scout_age02_part02\\textured-donor-lod3.png",
+      "preview_donor_lod3_sha256": "4f2178581464d3a8a7188a7a8ba3dd717e3a22d0ebe165ab2c3a48088862283a",
+      "preview_candidate_lod3": "art\\unit_remix_0_5_0\\mounted\\scout_age02_part02\\textured-candidate-lod3.png",
+      "preview_candidate_lod3_sha256": "cddd02580d244dccc4ace9b4db5e2473576a7844e7b05a8bdcfe951e97662ab9"
+    },
+    {
+      "family": "scout",
+      "age": 3,
+      "private_variant_name": "scout_age03",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/scout_age03/scout_age03",
+      "official_donor_rgm": "art/civilizations/malian/animals/mal_horse_combined_scout_age03/mal_horse_combined_scout_age03.rgm",
+      "official_donor_rgm_sha256": "b25153c295f46cd8998db07684e137b1fa8f4aedf670bda2927a03fce81bfe10",
+      "decoded_manifest": "output/shared_stock_cache/units_050/ec3d73334ee6260c7fe819f5d7a57fe07b7a4ca338329b5a364bc966c9aee9fd/decoded/1a2d6dd969f4be7e969f/decoded-static.json",
+      "decoded_manifest_sha256": "a42b0822f942292783d2767588f6ae5113b8d186a91b68ecc2b6c87c4a4942fe",
+      "native_source_rrgeom_sha256": "6f25427e8d56b0cf798b0f6d2b3a2fae9bcfaa137375dfcea0fdfc407abab0ee",
+      "geometry_recipe": "art\\unit_remix_0_5_0\\mounted\\scout_age03\\recipe.json",
+      "geometry_recipe_sha256": "9167a4a0863147d43ad09c2044f65a7fafbaea3b9bc03c053867e544033f7160",
+      "authored_rrgeom": "art\\unit_remix_0_5_0\\mounted\\scout_age03\\scout_age03.rrgeom",
+      "authored_rrgeom_sha256": "36a7ff88793b24daa7461720298e9b3588b43dc024de1dbba30e228cdaa5e175",
+      "geometry_report": "art\\unit_remix_0_5_0\\mounted\\scout_age03\\geometry-report.json",
+      "geometry_report_sha256": "44b73a7007214a734757b4a9faba2afa5f790241097d6d1ff0b4299e8fcf476f",
+      "albedos": [
+        {
+          "role": "rider",
+          "material": "rider_lod1",
+          "source_texture": "art/civilizations/malian/humans/mal_cavalry_scout_age03/418154197773864110_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\scout_age03\\rider-albedo.png",
+          "sha256": "2a81b6677427bf6c3e0d510e3fd3b350d5846b630a45668c7f0ed2fc26f69d83",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\ec3d73334ee6260c7fe819f5d7a57fe07b7a4ca338329b5a364bc966c9aee9fd\\decoded\\1a2d6dd969f4be7e969f\\textures\\cfcd1354587d_418154197773864110_packed.dds",
+          "donor_albedo_sha256": "b2d7ee40be71a4bf8609a645ea64a29e49e0ba191fe38cab0a2ee3e6e2f0c262",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "ae990785d63e6b0a49c5b8fba67d07f780f057d22b15d79ecaf93ce53d947ed4",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\scout_age03\\rider-albedo.png",
+          "authored_albedo_sha256": "2a81b6677427bf6c3e0d510e3fd3b350d5846b630a45668c7f0ed2fc26f69d83",
+          "edited_pixels": 70539,
+          "owner_mask_selected_pixels_preserved": 62448,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        },
+        {
+          "role": "tack",
+          "material": "horse_lod1",
+          "source_texture": "art/civilizations/malian/animals/mal_horse_scout_age03/6149645939032109285_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\scout_age03\\tack-albedo.png",
+          "sha256": "466ecb6513a4fee39e9c8e68f5ef8751ab965c8ad338e209c435df7446a3d1f6",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\ec3d73334ee6260c7fe819f5d7a57fe07b7a4ca338329b5a364bc966c9aee9fd\\decoded\\1a2d6dd969f4be7e969f\\textures\\5182c000cdd1_6149645939032109285_packed.dds",
+          "donor_albedo_sha256": "065c37073c37619cd2d71582f9ab91dd6458f3e51dd321b2afa2c85c74dd2e07",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "ca35309ab64a5b5686fb705b010679dc3d5e28485f1480aea653370952764e70",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\scout_age03\\tack-albedo.png",
+          "authored_albedo_sha256": "466ecb6513a4fee39e9c8e68f5ef8751ab965c8ad338e209c435df7446a3d1f6",
+          "edited_pixels": 28173,
+          "owner_mask_selected_pixels_preserved": 12849,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        }
+      ],
+      "albedo_variants": [
+        {
+          "source_texture": "art/civilizations/malian/humans/mal_cavalry_scout_age03/418154197773864110_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\scout_age03\\rider-albedo.png",
+          "sha256": "2a81b6677427bf6c3e0d510e3fd3b350d5846b630a45668c7f0ed2fc26f69d83",
+          "role": "rider"
+        },
+        {
+          "source_texture": "art/civilizations/malian/animals/mal_horse_scout_age03/6149645939032109285_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\scout_age03\\tack-albedo.png",
+          "sha256": "466ecb6513a4fee39e9c8e68f5ef8751ab965c8ad338e209c435df7446a3d1f6",
+          "role": "tack"
+        }
+      ],
+      "authored_albedo": "art\\unit_remix_0_5_0\\mounted\\scout_age03\\rider-albedo.png",
+      "authored_albedo_sha256": "2a81b6677427bf6c3e0d510e3fd3b350d5846b630a45668c7f0ed2fc26f69d83",
+      "consumers": [
+        {
+          "attachment": "bind_scout_a3_tier3_cavalry_scout_mal",
+          "field": "default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        }
+      ],
+      "native_cook": "pending root serial integration",
+      "native_animation": "unverified",
+      "editable_blend": "art\\unit_remix_0_5_0\\mounted\\scout_age03\\scout_age03.blend",
+      "editable_blend_sha256": "288dd5d902f8cb9be1747b2ffdd8a1db659e1327e2e9025835cf0ec71f09b2ec",
+      "preview_donor_lod1": "art\\unit_remix_0_5_0\\mounted\\scout_age03\\textured-donor.png",
+      "preview_donor_lod1_sha256": "a0dd18d13eca1da5ff2055505303537df16e18a780a021474c8fb0a57426e4b3",
+      "preview_candidate_lod1": "art\\unit_remix_0_5_0\\mounted\\scout_age03\\textured-candidate.png",
+      "preview_candidate_lod1_sha256": "da9effeb20e8e183b7449699f2bf8eb2ffc61cbb2abf954d59cca8b7697113f4",
+      "preview_rider_close": "art\\unit_remix_0_5_0\\mounted\\scout_age03\\textured-rider-close.png",
+      "preview_rider_close_sha256": "8566ffdb0aac167cea98a9c277b73e730e9ccaf2659b3c9a71a101d94caa1aa1",
+      "preview_team_red": "art\\unit_remix_0_5_0\\mounted\\scout_age03\\textured-team-red.png",
+      "preview_team_red_sha256": "9517b74802e074bc134469f699258dca8dec8c2072d9b4f770d1bfb4eb6576bb",
+      "preview_team_blue": "art\\unit_remix_0_5_0\\mounted\\scout_age03\\textured-team-blue.png",
+      "preview_team_blue_sha256": "9c4084215211410e134b5d84d70fb4a982ed1e423b2dcf5ddd82cf81aa69d685",
+      "preview_donor_lod2": "art\\unit_remix_0_5_0\\mounted\\scout_age03\\textured-donor-lod2.png",
+      "preview_donor_lod2_sha256": "b5fd7c87e3ba7bcd6bf12b83375c8b4f6a93a60c2d499ec7e6d58eb7b4fbb81e",
+      "preview_candidate_lod2": "art\\unit_remix_0_5_0\\mounted\\scout_age03\\textured-candidate-lod2.png",
+      "preview_candidate_lod2_sha256": "80faca5a6594cfe4e7ae1416861579fca9f2d2ffc53bf07bd29bfcc60213cd8b",
+      "preview_donor_lod3": "art\\unit_remix_0_5_0\\mounted\\scout_age03\\textured-donor-lod3.png",
+      "preview_donor_lod3_sha256": "c2cb2ef586a55220ddcea40090095f68140854f6af3f5e611a721a1d2c095b38",
+      "preview_candidate_lod3": "art\\unit_remix_0_5_0\\mounted\\scout_age03\\textured-candidate-lod3.png",
+      "preview_candidate_lod3_sha256": "3dff3071ba56dfc722cf69198b02c67528a69a764ea6e36fadf4498202ec59b2"
+    },
+    {
+      "family": "scout",
+      "age": 4,
+      "private_variant_name": "scout_age04",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/scout_age04/scout_age04",
+      "official_donor_rgm": "art/civilizations/malian/animals/mal_horse_combined_scout_age04/mal_horse_combined_scout_age04.rgm",
+      "official_donor_rgm_sha256": "840045b542ec2bace50dcbaf7d77c814c04ba19f0d6149d5823c3118b73e0c0c",
+      "decoded_manifest": "output/shared_stock_cache/units_050/597fa13642002955bf7708be8638008bc91447634390224b10b5239f2a5907a5/decoded/3b23d98f812f586dec0e/decoded-static.json",
+      "decoded_manifest_sha256": "c196876392d13ff19ecabd7468fbf82721df1c6723be2dfd0b11dfbf8ee990b9",
+      "native_source_rrgeom_sha256": "3db2cb948026f290d8931f3fe4e82cba5180a551b6a2a4709bc8d0a6f2fb690a",
+      "geometry_recipe": "art\\unit_remix_0_5_0\\mounted\\scout_age04\\recipe.json",
+      "geometry_recipe_sha256": "792dc3f1f27f363ff6ff141b19c5e622f56d078011888bf317d08bc4ed4e46d1",
+      "authored_rrgeom": "art\\unit_remix_0_5_0\\mounted\\scout_age04\\scout_age04.rrgeom",
+      "authored_rrgeom_sha256": "5e605eb9d8b886bc7335c5b46d93afbb93560c2ed62872d60cad42cdfed55376",
+      "geometry_report": "art\\unit_remix_0_5_0\\mounted\\scout_age04\\geometry-report.json",
+      "geometry_report_sha256": "d15da065a39ad84c4fbc0a1dbb5d085d80194b4a6716491b5e9bd551e399f41e",
+      "albedos": [
+        {
+          "role": "tack",
+          "material": "horse_lod1",
+          "source_texture": "art/civilizations/malian/animals/mal_horse_scout_age04/6952717484292691588_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\scout_age04\\tack-albedo.png",
+          "sha256": "c791cf358f8e6d36027a1fc84e0d7ba620e8f51b6b7c4b4a5c72d2069b04f854",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\597fa13642002955bf7708be8638008bc91447634390224b10b5239f2a5907a5\\decoded\\3b23d98f812f586dec0e\\textures\\eb095be7710d_6952717484292691588_packed.dds",
+          "donor_albedo_sha256": "b7a8a7bbcd27ace098e6815c7c1150698bb1eb3d45099d978fe878f78a1cfc7c",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "a0f368831d1ac3c1499beacf7adb1f7d012bbad3b643d2c870fa0d103147884f",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\scout_age04\\tack-albedo.png",
+          "authored_albedo_sha256": "c791cf358f8e6d36027a1fc84e0d7ba620e8f51b6b7c4b4a5c72d2069b04f854",
+          "edited_pixels": 28697,
+          "owner_mask_selected_pixels_preserved": 10983,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        },
+        {
+          "role": "rider",
+          "material": "rider_lod1",
+          "source_texture": "art/civilizations/malian/humans/mal_cavalry_scout_age04/11552782511062803249_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\scout_age04\\rider-albedo.png",
+          "sha256": "7c0fce8ad68e561d519bf771bbd30748a47df52ddcd63a724466afa6e1b4e808",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\597fa13642002955bf7708be8638008bc91447634390224b10b5239f2a5907a5\\decoded\\3b23d98f812f586dec0e\\textures\\4a15837306e1_11552782511062803249_packed.dds",
+          "donor_albedo_sha256": "ac6719207be7805c1df7a3ec8480ff1f17bb06f16273d728c566ad7ea62db6b1",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "5001f9659f17689b9ae85b8e6d311cb8cf48defc089ae3eb164b3b36c60f3de1",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\scout_age04\\rider-albedo.png",
+          "authored_albedo_sha256": "7c0fce8ad68e561d519bf771bbd30748a47df52ddcd63a724466afa6e1b4e808",
+          "edited_pixels": 75656,
+          "owner_mask_selected_pixels_preserved": 62560,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        }
+      ],
+      "albedo_variants": [
+        {
+          "source_texture": "art/civilizations/malian/animals/mal_horse_scout_age04/6952717484292691588_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\scout_age04\\tack-albedo.png",
+          "sha256": "c791cf358f8e6d36027a1fc84e0d7ba620e8f51b6b7c4b4a5c72d2069b04f854",
+          "role": "tack"
+        },
+        {
+          "source_texture": "art/civilizations/malian/humans/mal_cavalry_scout_age04/11552782511062803249_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\scout_age04\\rider-albedo.png",
+          "sha256": "7c0fce8ad68e561d519bf771bbd30748a47df52ddcd63a724466afa6e1b4e808",
+          "role": "rider"
+        }
+      ],
+      "authored_albedo": "art\\unit_remix_0_5_0\\mounted\\scout_age04\\tack-albedo.png",
+      "authored_albedo_sha256": "c791cf358f8e6d36027a1fc84e0d7ba620e8f51b6b7c4b4a5c72d2069b04f854",
+      "consumers": [
+        {
+          "attachment": "bind_scout_a4_tier4_cavalry_scout_mal",
+          "field": "default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        }
+      ],
+      "native_cook": "pending root serial integration",
+      "native_animation": "unverified",
+      "editable_blend": "art\\unit_remix_0_5_0\\mounted\\scout_age04\\scout_age04.blend",
+      "editable_blend_sha256": "96448e8d43d0a00946843d3c16eabb5bb8d3e3f1159b1e51b86a40a31204738c",
+      "preview_donor_lod1": "art\\unit_remix_0_5_0\\mounted\\scout_age04\\textured-donor.png",
+      "preview_donor_lod1_sha256": "8f5c8e918bd08d0d19b189468e241fde02562980f6b25a5a213b6be0c1c6087d",
+      "preview_candidate_lod1": "art\\unit_remix_0_5_0\\mounted\\scout_age04\\textured-candidate.png",
+      "preview_candidate_lod1_sha256": "94d30c27858e2f4ca8146aed7bc1caa4b9845b7ac04e0a8428f8fe6e74860465",
+      "preview_rider_close": "art\\unit_remix_0_5_0\\mounted\\scout_age04\\textured-rider-close.png",
+      "preview_rider_close_sha256": "708a4ab52e6dbe033aae09b4780513429573363c56e7399993654939a888eb02",
+      "preview_team_red": "art\\unit_remix_0_5_0\\mounted\\scout_age04\\textured-team-red.png",
+      "preview_team_red_sha256": "b5b4d6facca4c825ca93ae9562ea84a617d9e04f2acd0aefc1267645ff5d9960",
+      "preview_team_blue": "art\\unit_remix_0_5_0\\mounted\\scout_age04\\textured-team-blue.png",
+      "preview_team_blue_sha256": "c58bd2386bcc9db0ffd94ed2706cccf868e877754a376d369708f21fc0c13eba",
+      "preview_donor_lod2": "art\\unit_remix_0_5_0\\mounted\\scout_age04\\textured-donor-lod2.png",
+      "preview_donor_lod2_sha256": "23c06ff07025286dd3109cb6caa0bdb8c47583b537d2a801d02cb457b2cc5b58",
+      "preview_candidate_lod2": "art\\unit_remix_0_5_0\\mounted\\scout_age04\\textured-candidate-lod2.png",
+      "preview_candidate_lod2_sha256": "ece0d10ba025a69ba3ee6d33bc1054b3f182f7afc1dc5d6888e3098d9721efbf",
+      "preview_donor_lod3": "art\\unit_remix_0_5_0\\mounted\\scout_age04\\textured-donor-lod3.png",
+      "preview_donor_lod3_sha256": "8b2834e07c37d2355db46148903dd5ad4b010152c91000f62f27217c59433f68",
+      "preview_candidate_lod3": "art\\unit_remix_0_5_0\\mounted\\scout_age04\\textured-candidate-lod3.png",
+      "preview_candidate_lod3_sha256": "f819ef3e0b25d20b3e0332690c3efafdda8521eb9992b2828c6a21546e8b38f3"
+    },
+    {
+      "family": "zenata",
+      "age": 2,
+      "private_variant_name": "zenata_age02",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/zenata_age02/zenata_age02",
+      "official_donor_rgm": "art/civilizations/campaign_abbasids/animals/abb_turkic_horse_combined_bow_age03/abb_turkic_horse_combined_bow_age03.rgm",
+      "official_donor_rgm_sha256": "deeccb30d99f91e3d0fefb974a54f3e7d540ddb6412afacc71d48addfb9753d4",
+      "decoded_manifest": "output/shared_stock_cache/units_050/b4ba361545fa3a099460c082e20e878499d576e9130d97b0b259bf2d8824e364/decoded/8982e14b31f20dfeafe7/decoded-static.json",
+      "decoded_manifest_sha256": "fdd6d9826c07d23d6aa9cc6cd2eafe42d489740c804aaf043e524090038251cf",
+      "native_source_rrgeom_sha256": "6a3edd2a5733cd85523cd8aeb7e49cff784cd225819bbe49a42c5bf2a7cae408",
+      "geometry_recipe": "art\\unit_remix_0_5_0\\mounted\\zenata_age02\\recipe.json",
+      "geometry_recipe_sha256": "e33ec69f7854b03d9a8730900cd02118a444c49cdd32e2d6971222a7251fe5dc",
+      "authored_rrgeom": "art\\unit_remix_0_5_0\\mounted\\zenata_age02\\zenata_age02.rrgeom",
+      "authored_rrgeom_sha256": "d005be22ed72b1668a33f333a5ee3ce7ba999da14c20f7bce3b914f2380f9724",
+      "geometry_report": "art\\unit_remix_0_5_0\\mounted\\zenata_age02\\geometry-report.json",
+      "geometry_report_sha256": "4a97ab267ddc567b90028c7b7b01f8c04bbbc4afbd6b1cd4d6286769f7b69b82",
+      "albedos": [
+        {
+          "role": "tack",
+          "material": "horse_lod1",
+          "source_texture": "art/civilizations/campaign_abbasids/animals/abb_horse_turkic_bow_age04/5351970232883849366_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\zenata_age02\\tack-albedo.png",
+          "sha256": "5a7acc6e064f534ab6e24c2d2a7106a86d9d5fa1da288c4ac4554da07b064e56",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\b4ba361545fa3a099460c082e20e878499d576e9130d97b0b259bf2d8824e364\\decoded\\8982e14b31f20dfeafe7\\textures\\44a318c704cd_5351970232883849366_packed.dds",
+          "donor_albedo_sha256": "5954f4aca11558b7e91f414b41078c64796fa903e87059e14c46ed885dff578f",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "6845e4f44275d31b9c7881a9126348099461081ee1ddce2b3a7ae8857323e743",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\zenata_age02\\tack-albedo.png",
+          "authored_albedo_sha256": "5a7acc6e064f534ab6e24c2d2a7106a86d9d5fa1da288c4ac4554da07b064e56",
+          "edited_pixels": 14767,
+          "owner_mask_selected_pixels_preserved": 0,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        },
+        {
+          "role": "rider",
+          "material": "lod1",
+          "source_texture": "art/civilizations/campaign_abbasids/humans/abb_turkic_horse_archer_age03/11408141778300299660_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\zenata_age02\\rider-albedo.png",
+          "sha256": "04b45bbb2378352b3d684fc070cf8cade315bb3a655723bf1994fc79b64a6a22",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\b4ba361545fa3a099460c082e20e878499d576e9130d97b0b259bf2d8824e364\\decoded\\8982e14b31f20dfeafe7\\textures\\90a757b7fe0f_11408141778300299660_packed.dds",
+          "donor_albedo_sha256": "ac1e96d701d44e22f991b672f2ccda8e6b6ef8ce954cb000634cd176c9837bae",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "40b1710a6dba68f9c4ab7a142da4ab6631fa731d8c6791c1e4d2f38dc00993f9",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\zenata_age02\\rider-albedo.png",
+          "authored_albedo_sha256": "04b45bbb2378352b3d684fc070cf8cade315bb3a655723bf1994fc79b64a6a22",
+          "edited_pixels": 64363,
+          "owner_mask_selected_pixels_preserved": 134483,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        }
+      ],
+      "albedo_variants": [
+        {
+          "source_texture": "art/civilizations/campaign_abbasids/animals/abb_horse_turkic_bow_age04/5351970232883849366_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\zenata_age02\\tack-albedo.png",
+          "sha256": "5a7acc6e064f534ab6e24c2d2a7106a86d9d5fa1da288c4ac4554da07b064e56",
+          "role": "tack"
+        },
+        {
+          "source_texture": "art/civilizations/campaign_abbasids/humans/abb_turkic_horse_archer_age03/11408141778300299660_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\zenata_age02\\rider-albedo.png",
+          "sha256": "04b45bbb2378352b3d684fc070cf8cade315bb3a655723bf1994fc79b64a6a22",
+          "role": "rider"
+        }
+      ],
+      "authored_albedo": "art\\unit_remix_0_5_0\\mounted\\zenata_age02\\tack-albedo.png",
+      "authored_albedo_sha256": "5a7acc6e064f534ab6e24c2d2a7106a86d9d5fa1da288c4ac4554da07b064e56",
+      "consumers": [
+        {
+          "attachment": "bind_zenata_a2_tier1_leader_tughtekin_ayy",
+          "field": "default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_zenata_a2_tier1_leader_tughtekin_ayy",
+          "field": "xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        }
+      ],
+      "native_cook": "pending root serial integration",
+      "native_animation": "unverified",
+      "editable_blend": "art\\unit_remix_0_5_0\\mounted\\zenata_age02\\zenata_age02.blend",
+      "editable_blend_sha256": "4ad27ab8be2b9c6553bb70a8b66a2279677a39ecbabf5d8a40ca879086298537",
+      "preview_donor_lod1": "art\\unit_remix_0_5_0\\mounted\\zenata_age02\\textured-donor.png",
+      "preview_donor_lod1_sha256": "819a5facb696fe7fa9a7c221c8f35dba51490be076477a7b6b50a944e57c250a",
+      "preview_candidate_lod1": "art\\unit_remix_0_5_0\\mounted\\zenata_age02\\textured-candidate.png",
+      "preview_candidate_lod1_sha256": "f2e3e8d2e2207525a485acdf0ce7aeb013cf3d8f337b45c99f302b0193b3f8f3",
+      "preview_rider_close": "art\\unit_remix_0_5_0\\mounted\\zenata_age02\\textured-rider-close.png",
+      "preview_rider_close_sha256": "1dae0d7240a549c2e962a97d44761bfef86793f28fb16ddedaf188fe4fcf2e94",
+      "preview_team_red": "art\\unit_remix_0_5_0\\mounted\\zenata_age02\\textured-team-red.png",
+      "preview_team_red_sha256": "8e9f36f358d7c9b7e9416ab6955fa925bf816017d3c4590ba4a346ab94b29839",
+      "preview_team_blue": "art\\unit_remix_0_5_0\\mounted\\zenata_age02\\textured-team-blue.png",
+      "preview_team_blue_sha256": "e8efac589d3c8cd1dd36e43b7c728fee482a3aae700fa51a7ca018337dfe93d1",
+      "preview_donor_lod2": "art\\unit_remix_0_5_0\\mounted\\zenata_age02\\textured-donor-lod2.png",
+      "preview_donor_lod2_sha256": "3f9a311ba4df3b2d4e60df06609a3e0355daeac38d6f2b92eff7d6eed336a59d",
+      "preview_candidate_lod2": "art\\unit_remix_0_5_0\\mounted\\zenata_age02\\textured-candidate-lod2.png",
+      "preview_candidate_lod2_sha256": "c678d89cfb2d2ef6e88de0bd76016cf44432772f268ae62a43662c2410f91f12",
+      "preview_donor_lod3": "art\\unit_remix_0_5_0\\mounted\\zenata_age02\\textured-donor-lod3.png",
+      "preview_donor_lod3_sha256": "f6b5fb492e41c007813f0892392b56de5a7736c71c9fe454d166638502146a86",
+      "preview_candidate_lod3": "art\\unit_remix_0_5_0\\mounted\\zenata_age02\\textured-candidate-lod3.png",
+      "preview_candidate_lod3_sha256": "83d76046fd1cc70e237eb65aaec5bbc328e6cba0a6e513e7919c0e0108a51c02"
+    },
+    {
+      "family": "zenata",
+      "age": 3,
+      "private_variant_name": "zenata_age03",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/zenata_age03/zenata_age03",
+      "official_donor_rgm": "art/civilizations/campaign_abbasids/animals/abb_horse_combined_baybars/abb_horse_combined_baybars.rgm",
+      "official_donor_rgm_sha256": "5c3b778c06ee16592a43771aaa5aea4eeb7804ddca1a804d189dd0db0bfa8aa1",
+      "decoded_manifest": "output/shared_stock_cache/units_050/10bbffb881a039841a26a9b527b7eeaf61ab881272fa5a6e2e63624bd61022f1/decoded/72d162d55084261ffaf3/decoded-static.json",
+      "decoded_manifest_sha256": "d87bdc888416955731b8de3c391790be3d0087673c2998e883f42049f7c7df75",
+      "native_source_rrgeom_sha256": "f0a605da21ad2eaab4de640450ee75777f40e90cbf1f6dcf1ed49dcca69f54a1",
+      "geometry_recipe": "art\\unit_remix_0_5_0\\mounted\\zenata_age03\\recipe.json",
+      "geometry_recipe_sha256": "cfd7c3d42435c91b3165edae33b2592de00672b77863729ef7a598087cb52812",
+      "authored_rrgeom": "art\\unit_remix_0_5_0\\mounted\\zenata_age03\\zenata_age03.rrgeom",
+      "authored_rrgeom_sha256": "c73c95ce6c6617d0b38104bb272daf2cf8307e8fbb532e9547384464d3b239e0",
+      "geometry_report": "art\\unit_remix_0_5_0\\mounted\\zenata_age03\\geometry-report.json",
+      "geometry_report_sha256": "7820d1a136d34883b5afd0b99d8dcfb7579ec8984c348078da9a5c54dd471bc8",
+      "albedos": [
+        {
+          "role": "tack",
+          "material": "lod1_horse",
+          "source_texture": "art/civilizations/campaign_abbasids/animals/abb_horse_baybars/4194706114447978036_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\zenata_age03\\tack-albedo.png",
+          "sha256": "5464dee3d621e94c9f9aa654002a6e114570c70ee2d69da2b5044c4b91b193d4",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\10bbffb881a039841a26a9b527b7eeaf61ab881272fa5a6e2e63624bd61022f1\\decoded\\72d162d55084261ffaf3\\textures\\f5c79dc28562_4194706114447978036_packed.dds",
+          "donor_albedo_sha256": "d4356bb35ab6ee85ec59ee419bb2b47e50489a2a11ae4b062ee7f40fa505a9be",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "8eb69eb877c94fae28c8efcd3d97af983e92641d7d086465f480c3b8b4eae18c",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\zenata_age03\\tack-albedo.png",
+          "authored_albedo_sha256": "5464dee3d621e94c9f9aa654002a6e114570c70ee2d69da2b5044c4b91b193d4",
+          "edited_pixels": 5695,
+          "owner_mask_selected_pixels_preserved": 13028,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        },
+        {
+          "role": "rider",
+          "material": "rider_lod1",
+          "source_texture": "art/civilizations/campaign_abbasids/humans/abb_baybars/3168731739856093841_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\zenata_age03\\rider-albedo.png",
+          "sha256": "da10c850e5af41bc5fa05ab3fc60da614588630831a9a953b83f12fe6b883a29",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\10bbffb881a039841a26a9b527b7eeaf61ab881272fa5a6e2e63624bd61022f1\\decoded\\72d162d55084261ffaf3\\textures\\e59e9cc0b528_3168731739856093841_packed.dds",
+          "donor_albedo_sha256": "6495eb4fab05eaab74ee9d9b2095a55370135ed74e08bdcfec0d583c92c3bc81",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "59599a92e1f30cfb093ae131ce49c3cab3d774efe489a0b233125bbd3eb2b6f7",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\zenata_age03\\rider-albedo.png",
+          "authored_albedo_sha256": "da10c850e5af41bc5fa05ab3fc60da614588630831a9a953b83f12fe6b883a29",
+          "edited_pixels": 99568,
+          "owner_mask_selected_pixels_preserved": 4,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        }
+      ],
+      "albedo_variants": [
+        {
+          "source_texture": "art/civilizations/campaign_abbasids/animals/abb_horse_baybars/4194706114447978036_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\zenata_age03\\tack-albedo.png",
+          "sha256": "5464dee3d621e94c9f9aa654002a6e114570c70ee2d69da2b5044c4b91b193d4",
+          "role": "tack"
+        },
+        {
+          "source_texture": "art/civilizations/campaign_abbasids/humans/abb_baybars/3168731739856093841_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\zenata_age03\\rider-albedo.png",
+          "sha256": "da10c850e5af41bc5fa05ab3fc60da614588630831a9a953b83f12fe6b883a29",
+          "role": "rider"
+        }
+      ],
+      "authored_albedo": "art\\unit_remix_0_5_0\\mounted\\zenata_age03\\tack-albedo.png",
+      "authored_albedo_sha256": "5464dee3d621e94c9f9aa654002a6e114570c70ee2d69da2b5044c4b91b193d4",
+      "consumers": [
+        {
+          "attachment": "bind_zenata_a3_tier1_leader_baibars_ayy",
+          "field": "default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_zenata_a3_tier1_leader_baibars_ayy",
+          "field": "xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        }
+      ],
+      "native_cook": "pending root serial integration",
+      "native_animation": "unverified",
+      "editable_blend": "art\\unit_remix_0_5_0\\mounted\\zenata_age03\\zenata_age03.blend",
+      "editable_blend_sha256": "7cf9747c078e849af5aedb87e6c892a3f5f14aa1f106770060f63f2b5932644f",
+      "preview_donor_lod1": "art\\unit_remix_0_5_0\\mounted\\zenata_age03\\textured-donor.png",
+      "preview_donor_lod1_sha256": "e4200dfaef23d5b3a1ff469ef99cd3107a74362232d08f3de5b7179a6ba56a75",
+      "preview_candidate_lod1": "art\\unit_remix_0_5_0\\mounted\\zenata_age03\\textured-candidate.png",
+      "preview_candidate_lod1_sha256": "c68c49614e5812606c8c1b1d167fa4e5ee6a5753f4db0bed541a532e20a0db23",
+      "preview_rider_close": "art\\unit_remix_0_5_0\\mounted\\zenata_age03\\textured-rider-close.png",
+      "preview_rider_close_sha256": "07b1b00a1d2eea17c211b1d3e93a5cde09263b77b18d7970afe950bc5955ae73",
+      "preview_team_red": "art\\unit_remix_0_5_0\\mounted\\zenata_age03\\textured-team-red.png",
+      "preview_team_red_sha256": "89e33ad46f69285d81ab9b761139ff869ad9ade0ff388231485d089294f53825",
+      "preview_team_blue": "art\\unit_remix_0_5_0\\mounted\\zenata_age03\\textured-team-blue.png",
+      "preview_team_blue_sha256": "5f412ca1c495a9ac5307f4c65cf8b164c94bd444832b58da5dc4a7e409e99cd0",
+      "preview_donor_lod2": "art\\unit_remix_0_5_0\\mounted\\zenata_age03\\textured-donor-lod2.png",
+      "preview_donor_lod2_sha256": "7fcb6e22b17a65cf72f43d9a1ca03c1881c73b93e1765af45bb1163a835e63ee",
+      "preview_candidate_lod2": "art\\unit_remix_0_5_0\\mounted\\zenata_age03\\textured-candidate-lod2.png",
+      "preview_candidate_lod2_sha256": "04df608f0e8d55ff6550cb41abaec0e0132f5c6acb4249ba6d137757afacc646",
+      "preview_donor_lod3": "art\\unit_remix_0_5_0\\mounted\\zenata_age03\\textured-donor-lod3.png",
+      "preview_donor_lod3_sha256": "8c637d01b34b1a41b58a072c218a5b3c6fe3c42582d34b998c6c0b2e7ae18785",
+      "preview_candidate_lod3": "art\\unit_remix_0_5_0\\mounted\\zenata_age03\\textured-candidate-lod3.png",
+      "preview_candidate_lod3_sha256": "f0a4afb6293d0588be10c8f3a563aca6c42e5153619c9538f9f028b2c910f211"
+    },
+    {
+      "family": "zenata",
+      "age": 4,
+      "private_variant_name": "zenata_age04",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/zenata_age04/zenata_age04",
+      "official_donor_rgm": "art/civilizations/campaign_abbasids/animals/abb_horse_combined_saladin/abb_horse_combined_saladin.rgm",
+      "official_donor_rgm_sha256": "6c85fa8a97b88e410c28c2539fa1be3812c6be48584b416edebf144d8766cfff",
+      "decoded_manifest": "output/shared_stock_cache/units_050/cdcf1a7b30c6174a7b60ac06e76e8f13353d997ce981122af47545c191791e52/decoded/d4dcb6e6172b4d43c16e/decoded-static.json",
+      "decoded_manifest_sha256": "b449bd290b12a253fb4b58ad6b995589674c5454ec1009b8712d78c61b5908af",
+      "native_source_rrgeom_sha256": "8ea01811b4801b3b2dd5c9b649db71f9628232b5124eef03745f048cbcb9bc8f",
+      "geometry_recipe": "art\\unit_remix_0_5_0\\mounted\\zenata_age04\\recipe.json",
+      "geometry_recipe_sha256": "29474d87b2ee083a0a793a954a0b94fd45eb191fd608289906cada94ed43a1d7",
+      "authored_rrgeom": "art\\unit_remix_0_5_0\\mounted\\zenata_age04\\zenata_age04.rrgeom",
+      "authored_rrgeom_sha256": "259cbe7a40da4ed9df7218fd348653e921e6d4e02b5b5487edd3ecc5cb8d35b3",
+      "geometry_report": "art\\unit_remix_0_5_0\\mounted\\zenata_age04\\geometry-report.json",
+      "geometry_report_sha256": "0ca383a26c909295b4ffb0bb227d42dd36db2b63a978f78b76a62b446da4062b",
+      "albedos": [
+        {
+          "role": "rider",
+          "material": "lod1_rider",
+          "source_texture": "art/civilizations/campaign_abbasids/humans/abb_saladin_sultan/11834382629454416709_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\zenata_age04\\rider-albedo.png",
+          "sha256": "747d8ba0fb02e1ecc69663003609eef20ef20970ea6808e29acd645ab6771285",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\cdcf1a7b30c6174a7b60ac06e76e8f13353d997ce981122af47545c191791e52\\decoded\\d4dcb6e6172b4d43c16e\\textures\\60bda1d58fe0_11834382629454416709_packed.dds",
+          "donor_albedo_sha256": "37dded361457d623d5f4920667442ff21d010ed6a66cf775ca0abd22cb72de0b",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "82e0344ff9aa9c147e5b1793aef6c332bc968527a55cd2c5441ea5e04ffa0fce",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\zenata_age04\\rider-albedo.png",
+          "authored_albedo_sha256": "747d8ba0fb02e1ecc69663003609eef20ef20970ea6808e29acd645ab6771285",
+          "edited_pixels": 104073,
+          "owner_mask_selected_pixels_preserved": 68695,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        },
+        {
+          "role": "tack",
+          "material": "horse_lod1",
+          "source_texture": "art/civilizations/campaign_abbasids/animals/abb_horse_saladin_sultan/3860577611209375225_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\zenata_age04\\tack-albedo.png",
+          "sha256": "a81b160f8bafa4d25a4947cbe3d27819de46f249de1db45c6e8ae1ffe00f953b",
+          "donor_albedo": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\cdcf1a7b30c6174a7b60ac06e76e8f13353d997ce981122af47545c191791e52\\decoded\\d4dcb6e6172b4d43c16e\\textures\\344a715374e6_3860577611209375225_packed.dds",
+          "donor_albedo_sha256": "96c434432674cd5beeacfb3a36d2b39cbd1960e14e371ce55086ee60464a6044",
+          "native_pattern": "untouched",
+          "native_pattern_sha256": "af322887381ee19964ad0c76147ab381ad2c24c034c864bbece22c62f99c5add",
+          "authored_albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\zenata_age04\\tack-albedo.png",
+          "authored_albedo_sha256": "a81b160f8bafa4d25a4947cbe3d27819de46f249de1db45c6e8ae1ffe00f953b",
+          "edited_pixels": 15692,
+          "owner_mask_selected_pixels_preserved": 8956,
+          "owner_mask_byte_equal": true,
+          "native_team_colour": "unverified"
+        }
+      ],
+      "albedo_variants": [
+        {
+          "source_texture": "art/civilizations/campaign_abbasids/humans/abb_saladin_sultan/11834382629454416709_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\zenata_age04\\rider-albedo.png",
+          "sha256": "747d8ba0fb02e1ecc69663003609eef20ef20970ea6808e29acd645ab6771285",
+          "role": "rider"
+        },
+        {
+          "source_texture": "art/civilizations/campaign_abbasids/animals/abb_horse_saladin_sultan/3860577611209375225_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\mounted\\zenata_age04\\tack-albedo.png",
+          "sha256": "a81b160f8bafa4d25a4947cbe3d27819de46f249de1db45c6e8ae1ffe00f953b",
+          "role": "tack"
+        }
+      ],
+      "authored_albedo": "art\\unit_remix_0_5_0\\mounted\\zenata_age04\\rider-albedo.png",
+      "authored_albedo_sha256": "747d8ba0fb02e1ecc69663003609eef20ef20970ea6808e29acd645ab6771285",
+      "consumers": [
+        {
+          "attachment": "bind_zenata_a4_tier1_leader_saladin_knight_ayy",
+          "field": "default/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        },
+        {
+          "attachment": "bind_zenata_a4_tier1_leader_saladin_knight_ayy",
+          "field": "xp3/attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0"
+        }
+      ],
+      "native_cook": "pending root serial integration",
+      "native_animation": "unverified",
+      "editable_blend": "art\\unit_remix_0_5_0\\mounted\\zenata_age04\\zenata_age04.blend",
+      "editable_blend_sha256": "bba6e08c87818b340d4ba3b9c93bd2de509cbe6ec94fa49788bf8a2b9cdc0230",
+      "preview_donor_lod1": "art\\unit_remix_0_5_0\\mounted\\zenata_age04\\textured-donor.png",
+      "preview_donor_lod1_sha256": "816c8cdd114cc647ea72cd72322d5983e5657f7162f5e58531a0b0cbd0a6a662",
+      "preview_candidate_lod1": "art\\unit_remix_0_5_0\\mounted\\zenata_age04\\textured-candidate.png",
+      "preview_candidate_lod1_sha256": "7914a9f85e6cbe1c18448dd9f6c33812148681e9b2c39dd976bee5d18370322c",
+      "preview_rider_close": "art\\unit_remix_0_5_0\\mounted\\zenata_age04\\textured-rider-close.png",
+      "preview_rider_close_sha256": "5bcd9da33dc590b922b5a5d7394ca494b75c0b58792090bc13814204dac1eda1",
+      "preview_team_red": "art\\unit_remix_0_5_0\\mounted\\zenata_age04\\textured-team-red.png",
+      "preview_team_red_sha256": "c4021f7eda9be8a095f3bf443915eb94da7906dc134b9da3ce01c334f4b2cb77",
+      "preview_team_blue": "art\\unit_remix_0_5_0\\mounted\\zenata_age04\\textured-team-blue.png",
+      "preview_team_blue_sha256": "dbcf91d14f1d187c476184377f71f0c184a880452aabb277b3bc1c828a2c5d91",
+      "preview_donor_lod2": "art\\unit_remix_0_5_0\\mounted\\zenata_age04\\textured-donor-lod2.png",
+      "preview_donor_lod2_sha256": "21e8bd27dd002dbb06bb85e3f4cbd1e12432d737642760179cf7826d35043268",
+      "preview_candidate_lod2": "art\\unit_remix_0_5_0\\mounted\\zenata_age04\\textured-candidate-lod2.png",
+      "preview_candidate_lod2_sha256": "9d0a75e30791b451297955bb326c03d2c3f705e57f7fe2d564d60c99ea8d9525",
+      "preview_donor_lod3": "art\\unit_remix_0_5_0\\mounted\\zenata_age04\\textured-donor-lod3.png",
+      "preview_donor_lod3_sha256": "c12e03e941ca2eda876702e37840c04c54aae4eece16c109edddfa17d5e19592",
+      "preview_candidate_lod3": "art\\unit_remix_0_5_0\\mounted\\zenata_age04\\textured-candidate-lod3.png",
+      "preview_candidate_lod3_sha256": "f469aea0cdfcd0eedf57f41bf469c947b549dd1ea2099b1876f1ca73dbb9d7ec",
+      "preview_donor_rider_only": "art\\unit_remix_0_5_0\\mounted\\zenata_age04\\textured-donor-rider-only.png",
+      "preview_donor_rider_only_sha256": "7ea01050005cc676eeb303fb507fe0e8b807960e19495460f2be19878f3aaa9e",
+      "preview_candidate_rider_only": "art\\unit_remix_0_5_0\\mounted\\zenata_age04\\textured-candidate-rider-only.png",
+      "preview_candidate_rider_only_sha256": "fb97ae1af2ba8b568f59230ec1f75c9a8707cb9df9e9c360bf4446dd8823e8ee"
+    }
+  ]
+}

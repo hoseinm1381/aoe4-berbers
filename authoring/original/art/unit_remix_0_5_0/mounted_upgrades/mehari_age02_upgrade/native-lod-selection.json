@@ -1,0 +1,54 @@
+{
+  "selection": "garrison_lod_level native import metadata; material names are not LOD identity",
+  "lods": {
+    "1": [
+      {
+        "mesh_index": 0,
+        "group_index": 0,
+        "material": "camel_lod1",
+        "vertices": 2042
+      },
+      {
+        "mesh_index": 1,
+        "group_index": 0,
+        "material": "rider_lod1",
+        "vertices": 941
+      }
+    ],
+    "2": [
+      {
+        "mesh_index": 0,
+        "group_index": 1,
+        "material": "camel_lod2",
+        "vertices": 1224
+      },
+      {
+        "mesh_index": 1,
+        "group_index": 1,
+        "material": "rider_lod2",
+        "vertices": 440
+      }
+    ],
+    "3": [
+      {
+        "mesh_index": 0,
+        "group_index": 2,
+        "material": "camel_lod1",
+        "vertices": 489
+      },
+      {
+        "mesh_index": 0,
+        "group_index": 3,
+        "material": "lod3",
+        "vertices": 48
+      },
+      {
+        "mesh_index": 1,
+        "group_index": 2,
+        "material": "rider_lod3",
+        "vertices": 215
+      }
+    ]
+  },
+  "source_art": "native geometry and albedo unchanged"
+}

@@ -1,0 +1,442 @@
+{
+  "schema": "berber-050-unit-geometry/v1",
+  "name": "lancer_age03",
+  "manifest": "output/shared_stock_cache/units_050/3428d3029e867d6458c710987aea5eab50b217c6f500ffff3760c467b21d3957/decoded/225f01facab8031a2624/decoded-static.json",
+  "manifest_sha256": "c9dbe1a4446675acff7d21064ee3b036d1d927ee6b409041ed51af50ed0a512b",
+  "logical_path": "art/civilizations/abbasids/animals/abb_horse_combined_armor_age03/abb_horse_combined_armor_age03.rgm",
+  "geometry_sha256": "7a7d0e39739bcd974d7cf7d2b161a46bf0365a7bb5ee909f20d883697593cf9e",
+  "output_dir": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\lancer_age03",
+  "design": "lancer age 3: regionally tailored rider garment and native combined-mount tack, donor rig and team masks retained",
+  "groups": [
+    {
+      "index": 0,
+      "max_displacement_metres": 0.075,
+      "features": [
+        {
+          "center_xy": [
+            0.141357421875,
+            0.04541015625
+          ],
+          "radius_xy": [
+            1.0,
+            1.0
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "lateral_expand",
+          "z_window": [
+            1.0,
+            1.24,
+            1.65,
+            1.85
+          ],
+          "metres": 0.018,
+          "abs_x_window": [
+            0.16,
+            0.23,
+            0.43,
+            0.58
+          ],
+          "y_window": [
+            -0.86,
+            -0.63,
+            0.45,
+            0.69
+          ]
+        }
+      ],
+      "contain_within_donor_bounds": true,
+      "max_clipped_fraction": 0.11
+    },
+    {
+      "index": 2,
+      "max_displacement_metres": 0.075,
+      "features": [
+        {
+          "center_xy": [
+            0.0,
+            0.0341796875
+          ],
+          "radius_xy": [
+            1.0,
+            1.0
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "lateral_expand",
+          "z_window": [
+            1.0,
+            1.24,
+            1.65,
+            1.85
+          ],
+          "metres": 0.018,
+          "abs_x_window": [
+            0.16,
+            0.23,
+            0.43,
+            0.58
+          ],
+          "y_window": [
+            -0.86,
+            -0.63,
+            0.45,
+            0.69
+          ]
+        }
+      ],
+      "contain_within_donor_bounds": true,
+      "max_clipped_fraction": 0.11
+    },
+    {
+      "index": 3,
+      "max_displacement_metres": 0.075,
+      "features": [
+        {
+          "center_xy": [
+            0.0006103515625,
+            0.0361328125
+          ],
+          "radius_xy": [
+            1.0,
+            1.0
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "lateral_expand",
+          "z_window": [
+            1.0,
+            1.24,
+            1.65,
+            1.85
+          ],
+          "metres": 0.018,
+          "abs_x_window": [
+            0.16,
+            0.23,
+            0.43,
+            0.58
+          ],
+          "y_window": [
+            -0.86,
+            -0.63,
+            0.45,
+            0.69
+          ]
+        }
+      ],
+      "contain_within_donor_bounds": true,
+      "max_clipped_fraction": 0.11
+    },
+    {
+      "index": 4,
+      "max_displacement_metres": 0.075,
+      "features": [
+        {
+          "center_xy": [
+            0.0,
+            -0.04541015625
+          ],
+          "radius_xy": [
+            1.0,
+            1.0
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "lateral_expand",
+          "z_window": [
+            0.53,
+            0.7,
+            1.18,
+            1.43
+          ],
+          "metres": 0.026,
+          "abs_x_window": [
+            0.1,
+            0.17,
+            0.37,
+            0.51
+          ]
+        },
+        {
+          "center_xy": [
+            0.0,
+            -0.04541015625
+          ],
+          "radius_xy": [
+            1.0,
+            1.0
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "lateral_expand",
+          "z_window": [
+            1.13,
+            1.25,
+            1.53,
+            1.75
+          ],
+          "metres": 0.02,
+          "abs_x_window": [
+            0.24,
+            0.32,
+            0.54,
+            0.62
+          ]
+        },
+        {
+          "center_xy": [
+            0.0,
+            -0.04541015625
+          ],
+          "radius_xy": [
+            1.0,
+            1.0
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "radial_expand",
+          "z_window": [
+            1.66515625,
+            1.77515625,
+            1.91515625,
+            2.01015625
+          ],
+          "metres": 0.012,
+          "abs_x_window": [
+            0,
+            0.01,
+            0.16,
+            0.23
+          ]
+        }
+      ],
+      "contain_within_donor_bounds": true,
+      "max_clipped_fraction": 0.11
+    },
+    {
+      "index": 5,
+      "max_displacement_metres": 0.075,
+      "features": [
+        {
+          "center_xy": [
+            0.0,
+            -0.0479736328125
+          ],
+          "radius_xy": [
+            1.0,
+            1.0
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "lateral_expand",
+          "z_window": [
+            0.53,
+            0.7,
+            1.18,
+            1.43
+          ],
+          "metres": 0.026,
+          "abs_x_window": [
+            0.1,
+            0.17,
+            0.37,
+            0.51
+          ]
+        },
+        {
+          "center_xy": [
+            0.0,
+            -0.0479736328125
+          ],
+          "radius_xy": [
+            1.0,
+            1.0
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "lateral_expand",
+          "z_window": [
+            1.13,
+            1.25,
+            1.53,
+            1.75
+          ],
+          "metres": 0.02,
+          "abs_x_window": [
+            0.24,
+            0.32,
+            0.54,
+            0.62
+          ]
+        },
+        {
+          "center_xy": [
+            0.0,
+            -0.0479736328125
+          ],
+          "radius_xy": [
+            1.0,
+            1.0
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "radial_expand",
+          "z_window": [
+            1.674921875,
+            1.784921875,
+            1.924921875,
+            2.019921875
+          ],
+          "metres": 0.012,
+          "abs_x_window": [
+            0,
+            0.01,
+            0.16,
+            0.23
+          ]
+        }
+      ],
+      "contain_within_donor_bounds": true,
+      "max_clipped_fraction": 0.11
+    },
+    {
+      "index": 6,
+      "max_displacement_metres": 0.075,
+      "features": [
+        {
+          "center_xy": [
+            0.00341796875,
+            -0.041748046875
+          ],
+          "radius_xy": [
+            1.0,
+            1.0
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "lateral_expand",
+          "z_window": [
+            0.53,
+            0.7,
+            1.18,
+            1.43
+          ],
+          "metres": 0.026,
+          "abs_x_window": [
+            0.1,
+            0.17,
+            0.37,
+            0.51
+          ]
+        },
+        {
+          "center_xy": [
+            0.00341796875,
+            -0.041748046875
+          ],
+          "radius_xy": [
+            1.0,
+            1.0
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "lateral_expand",
+          "z_window": [
+            1.13,
+            1.25,
+            1.53,
+            1.75
+          ],
+          "metres": 0.02,
+          "abs_x_window": [
+            0.24,
+            0.32,
+            0.54,
+            0.62
+          ]
+        },
+        {
+          "center_xy": [
+            0.00341796875,
+            -0.041748046875
+          ],
+          "radius_xy": [
+            1.0,
+            1.0
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "radial_expand",
+          "z_window": [
+            1.678828125,
+            1.788828125,
+            1.928828125,
+            2.023828125
+          ],
+          "metres": 0.012,
+          "abs_x_window": [
+            0,
+            0.01,
+            0.16,
+            0.23
+          ]
+        }
+      ],
+      "contain_within_donor_bounds": true,
+      "max_clipped_fraction": 0.11
+    }
+  ],
+  "preview_albedos": {
+    "3126341687254863951": "tack-albedo.png",
+    "6591856441465590516": "rider-albedo.png"
+  }
+}

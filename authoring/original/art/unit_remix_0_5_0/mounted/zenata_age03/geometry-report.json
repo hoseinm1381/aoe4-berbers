@@ -1,0 +1,81 @@
+{
+  "status": "geometry_prepared_no_cook",
+  "name": "zenata_age03",
+  "recipe": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\zenata_age03\\recipe.json",
+  "recipe_sha256": "cfd7c3d42435c91b3165edae33b2592de00672b77863729ef7a598087cb52812",
+  "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\10bbffb881a039841a26a9b527b7eeaf61ab881272fa5a6e2e63624bd61022f1\\decoded\\72d162d55084261ffaf3\\source\\art\\civilizations\\campaign_abbasids\\animals\\abb_horse_combined_baybars\\abb_horse_combined_baybars.rrgeom",
+  "source_sha256": "f0a605da21ad2eaab4de640450ee75777f40e90cbf1f6dcf1ed49dcca69f54a1",
+  "output": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\zenata_age03\\zenata_age03.rrgeom",
+  "output_sha256": "c73c95ce6c6617d0b38104bb272daf2cf8307e8fbb532e9547384464d3b239e0",
+  "groups": [
+    {
+      "index": 0,
+      "name": "abb_horse_baybars",
+      "material": "lod1_horse",
+      "vertex_count": 1602,
+      "edited_vertices": 344,
+      "edited_fraction": 0.2147,
+      "max_displacement_metres": 0.018,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 1,
+      "name": "abb_horse_baybars",
+      "material": "lod2_horse",
+      "vertex_count": 735,
+      "edited_vertices": 132,
+      "edited_fraction": 0.1796,
+      "max_displacement_metres": 0.018,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 2,
+      "name": "abb_horse_baybars",
+      "material": "lod3_horse",
+      "vertex_count": 296,
+      "edited_vertices": 55,
+      "edited_fraction": 0.1858,
+      "max_displacement_metres": 0.018,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 3,
+      "name": "abb_baybars",
+      "material": "rider_lod1",
+      "vertex_count": 1525,
+      "edited_vertices": 673,
+      "edited_fraction": 0.4413,
+      "max_displacement_metres": 0.04192,
+      "clipped_to_native_bounds": 1,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 4,
+      "name": "abb_baybars",
+      "material": "rider_lod2",
+      "vertex_count": 560,
+      "edited_vertices": 245,
+      "edited_fraction": 0.4375,
+      "max_displacement_metres": 0.04182,
+      "clipped_to_native_bounds": 1,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 5,
+      "name": "abb_baybars",
+      "material": "rider_lod3",
+      "vertex_count": 320,
+      "edited_vertices": 141,
+      "edited_fraction": 0.4406,
+      "max_displacement_metres": 0.03607,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    }
+  ],
+  "preserved": "native skeleton, SKIN indices/weights, UVs, topology, LOD metadata, all non-position/normal/tangent bytes",
+  "native_cook": "pending serial token",
+  "runtime": "unverified"
+}

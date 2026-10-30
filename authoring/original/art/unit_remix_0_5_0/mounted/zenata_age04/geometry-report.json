@@ -1,0 +1,81 @@
+{
+  "status": "geometry_prepared_no_cook",
+  "name": "zenata_age04",
+  "recipe": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\zenata_age04\\recipe.json",
+  "recipe_sha256": "29474d87b2ee083a0a793a954a0b94fd45eb191fd608289906cada94ed43a1d7",
+  "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\cdcf1a7b30c6174a7b60ac06e76e8f13353d997ce981122af47545c191791e52\\decoded\\d4dcb6e6172b4d43c16e\\source\\art\\civilizations\\campaign_abbasids\\animals\\abb_horse_combined_saladin\\abb_horse_combined_saladin.rrgeom",
+  "source_sha256": "8ea01811b4801b3b2dd5c9b649db71f9628232b5124eef03745f048cbcb9bc8f",
+  "output": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\zenata_age04\\zenata_age04.rrgeom",
+  "output_sha256": "259cbe7a40da4ed9df7218fd348653e921e6d4e02b5b5487edd3ecc5cb8d35b3",
+  "groups": [
+    {
+      "index": 0,
+      "name": "abb_saladin_sultan",
+      "material": "lod1_rider",
+      "vertex_count": 2214,
+      "edited_vertices": 929,
+      "edited_fraction": 0.4196,
+      "max_displacement_metres": 0.04192,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 1,
+      "name": "abb_saladin_sultan",
+      "material": "lod2_rider",
+      "vertex_count": 1153,
+      "edited_vertices": 537,
+      "edited_fraction": 0.4657,
+      "max_displacement_metres": 0.04192,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 2,
+      "name": "abb_saladin_sultan",
+      "material": "lod3_rider",
+      "vertex_count": 562,
+      "edited_vertices": 261,
+      "edited_fraction": 0.4644,
+      "max_displacement_metres": 0.03627,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 3,
+      "name": "abb_horse_saladin_sultan",
+      "material": "horse_lod1",
+      "vertex_count": 2305,
+      "edited_vertices": 557,
+      "edited_fraction": 0.2416,
+      "max_displacement_metres": 0.018,
+      "clipped_to_native_bounds": 8,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 4,
+      "name": "abb_horse_saladin_sultan",
+      "material": "horse_lod2",
+      "vertex_count": 1281,
+      "edited_vertices": 409,
+      "edited_fraction": 0.3193,
+      "max_displacement_metres": 0.018,
+      "clipped_to_native_bounds": 9,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 5,
+      "name": "abb_horse_saladin_sultan",
+      "material": "horse_lod3",
+      "vertex_count": 438,
+      "edited_vertices": 95,
+      "edited_fraction": 0.2169,
+      "max_displacement_metres": 0.018,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    }
+  ],
+  "preserved": "native skeleton, SKIN indices/weights, UVs, topology, LOD metadata, all non-position/normal/tangent bytes",
+  "native_cook": "pending serial token",
+  "runtime": "unverified"
+}

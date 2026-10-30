@@ -1,0 +1,81 @@
+{
+  "status": "geometry_prepared_no_cook",
+  "name": "lancer_age03",
+  "recipe": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\lancer_age03\\recipe.json",
+  "recipe_sha256": "3fae238b9dcb056cb86e732467d963a0082ae22318e716f61dc748cb9e2dff34",
+  "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\3428d3029e867d6458c710987aea5eab50b217c6f500ffff3760c467b21d3957\\decoded\\225f01facab8031a2624\\source\\art\\civilizations\\abbasids\\animals\\abb_horse_combined_armor_age03\\abb_horse_combined_armor_age03.rrgeom",
+  "source_sha256": "7a7d0e39739bcd974d7cf7d2b161a46bf0365a7bb5ee909f20d883697593cf9e",
+  "output": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\lancer_age03\\lancer_age03.rrgeom",
+  "output_sha256": "0cc7214ae351cc16e8f2fa91239f237a9fdb51a04422e5a26f8b2065a5860bd0",
+  "groups": [
+    {
+      "index": 0,
+      "name": "sul_horse_armor_age03",
+      "material": "horse_lod1",
+      "vertex_count": 1733,
+      "edited_vertices": 195,
+      "edited_fraction": 0.1125,
+      "max_displacement_metres": 0.018,
+      "clipped_to_native_bounds": 3,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 2,
+      "name": "sul_horse_armor_age03",
+      "material": "horse_lod2",
+      "vertex_count": 769,
+      "edited_vertices": 93,
+      "edited_fraction": 0.1209,
+      "max_displacement_metres": 0.018,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 3,
+      "name": "sul_horse_armor_age03",
+      "material": "horse_lod3",
+      "vertex_count": 261,
+      "edited_vertices": 14,
+      "edited_fraction": 0.0536,
+      "max_displacement_metres": 0.018,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 4,
+      "name": "abb_cavalry_armor_age03",
+      "material": "rider_lod1",
+      "vertex_count": 947,
+      "edited_vertices": 450,
+      "edited_fraction": 0.4752,
+      "max_displacement_metres": 0.04167,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 5,
+      "name": "abb_cavalry_armor_age03",
+      "material": "rider_lod2",
+      "vertex_count": 421,
+      "edited_vertices": 213,
+      "edited_fraction": 0.5059,
+      "max_displacement_metres": 0.04163,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 6,
+      "name": "abb_cavalry_armor_age03",
+      "material": "rider_lod3",
+      "vertex_count": 213,
+      "edited_vertices": 97,
+      "edited_fraction": 0.4554,
+      "max_displacement_metres": 0.04013,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    }
+  ],
+  "preserved": "native skeleton, SKIN indices/weights, UVs, topology, LOD metadata, all non-position/normal/tangent bytes",
+  "native_cook": "pending serial token",
+  "runtime": "unverified"
+}

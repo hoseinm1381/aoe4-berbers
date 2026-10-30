@@ -1,0 +1,81 @@
+{
+  "status": "geometry_prepared_no_cook",
+  "name": "zenata_age02",
+  "recipe": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\zenata_age02\\recipe.json",
+  "recipe_sha256": "e33ec69f7854b03d9a8730900cd02118a444c49cdd32e2d6971222a7251fe5dc",
+  "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\b4ba361545fa3a099460c082e20e878499d576e9130d97b0b259bf2d8824e364\\decoded\\8982e14b31f20dfeafe7\\source\\art\\civilizations\\campaign_abbasids\\animals\\abb_turkic_horse_combined_bow_age03\\abb_turkic_horse_combined_bow_age03.rrgeom",
+  "source_sha256": "6a3edd2a5733cd85523cd8aeb7e49cff784cd225819bbe49a42c5bf2a7cae408",
+  "output": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\mounted\\zenata_age02\\zenata_age02.rrgeom",
+  "output_sha256": "d005be22ed72b1668a33f333a5ee3ce7ba999da14c20f7bce3b914f2380f9724",
+  "groups": [
+    {
+      "index": 0,
+      "name": "abb_turkic_horse_bow_age04",
+      "material": "horse_lod1",
+      "vertex_count": 1860,
+      "edited_vertices": 269,
+      "edited_fraction": 0.1446,
+      "max_displacement_metres": 0.018,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 1,
+      "name": "abb_turkic_horse_bow_age04",
+      "material": "horse_lod2",
+      "vertex_count": 798,
+      "edited_vertices": 112,
+      "edited_fraction": 0.1404,
+      "max_displacement_metres": 0.018,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 2,
+      "name": "abb_turkic_horse_bow_age04",
+      "material": "horse_lod3",
+      "vertex_count": 405,
+      "edited_vertices": 69,
+      "edited_fraction": 0.1704,
+      "max_displacement_metres": 0.018,
+      "clipped_to_native_bounds": 2,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 3,
+      "name": "abb_turkic_horse_archer_age03",
+      "material": "lod1",
+      "vertex_count": 1053,
+      "edited_vertices": 594,
+      "edited_fraction": 0.5641,
+      "max_displacement_metres": 0.04026,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 4,
+      "name": "abb_turkic_horse_archer_age03",
+      "material": "lod2",
+      "vertex_count": 485,
+      "edited_vertices": 245,
+      "edited_fraction": 0.5052,
+      "max_displacement_metres": 0.04007,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 5,
+      "name": "abb_turkic_horse_archer_age03",
+      "material": "lod3",
+      "vertex_count": 255,
+      "edited_vertices": 140,
+      "edited_fraction": 0.549,
+      "max_displacement_metres": 0.04161,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    }
+  ],
+  "preserved": "native skeleton, SKIN indices/weights, UVs, topology, LOD metadata, all non-position/normal/tangent bytes",
+  "native_cook": "pending serial token",
+  "runtime": "unverified"
+}
