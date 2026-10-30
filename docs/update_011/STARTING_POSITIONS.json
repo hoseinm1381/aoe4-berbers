@@ -1,0 +1,139 @@
+{
+  "official_donor": "Malian",
+  "positions": [
+    {
+      "squad": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_scout_1_mal",
+      "before": [
+        -4.0,
+        10.0
+      ],
+      "after": [
+        -4.0,
+        10.0
+      ]
+    },
+    {
+      "squad": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal",
+      "before": [
+        -2.200000047683716,
+        0.0
+      ],
+      "after": [
+        -2.200000047683716,
+        0.0
+      ]
+    },
+    {
+      "squad": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal",
+      "before": [
+        -3.299999952316284,
+        -2.0
+      ],
+      "after": [
+        -3.299999952316284,
+        -2.0
+      ]
+    },
+    {
+      "squad": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal",
+      "before": [
+        -1.0,
+        -2.0
+      ],
+      "after": [
+        -1.0,
+        -2.0
+      ]
+    },
+    {
+      "squad": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal",
+      "before": [
+        -2.0,
+        -4.0
+      ],
+      "after": [
+        -2.0,
+        -4.0
+      ]
+    },
+    {
+      "squad": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal",
+      "before": [
+        0.0,
+        -4.0
+      ],
+      "after": [
+        0.0,
+        -4.0
+      ]
+    },
+    {
+      "squad": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal",
+      "before": [
+        -1.0,
+        -6.0
+      ],
+      "after": [
+        -1.0,
+        -6.0
+      ]
+    },
+    {
+      "squad": "gaia_herdable_sheep",
+      "before": [
+        0.0,
+        1.5
+      ],
+      "after": [
+        0.0,
+        1.5
+      ]
+    },
+    {
+      "squad": "gaia_herdable_sheep",
+      "before": [
+        0.4000000059604645,
+        1.7999999523162842
+      ],
+      "after": [
+        0.4000000059604645,
+        1.7999999523162842
+      ]
+    },
+    {
+      "squad": "gaia_herdable_sheep_black",
+      "before": [
+        0.800000011920929,
+        2.0999999046325684
+      ],
+      "after": [
+        0.800000011920929,
+        2.0999999046325684
+      ]
+    },
+    {
+      "squad": "gaia_herdable_sheep_brown",
+      "before": [
+        0.800000011920929,
+        2.4000000953674316
+      ],
+      "after": [
+        0.800000011920929,
+        2.4000000953674316
+      ]
+    },
+    {
+      "squad": "gaia_herdable_sheep",
+      "before": [
+        1.2000000476837158,
+        2.4000000953674316
+      ],
+      "after": [
+        1.2000000476837158,
+        2.4000000953674316
+      ]
+    }
+  ],
+  "scope": "Only scout and worker offsets. Counts, blueprints, resources, caps and optional extra Buffalo/sheep stay unchanged.",
+  "native_retest": "pending"
+}

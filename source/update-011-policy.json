@@ -1,0 +1,21 @@
+{
+  "allowed_changed": [
+    "attrib/army/garrison/berbers/berbers_standard.rgd",
+    "attrib/racebps/berbers.rgd",
+    "garrison/civilizations.json",
+    "attrib/codex/garrison/berbers/berbers_codex.rgd"
+  ],
+  "allowed_added": [
+    "ui/images/garrison/berbers/presentation_011/flag_fade.rrtex",
+    "ui/images/garrison/berbers/presentation_011/flag_list.rrtex",
+    "ui/images/garrison/berbers/presentation_011/flag_list_small.rrtex",
+    "ui/images/garrison/berbers/presentation_011/flag_loading.rrtex",
+    "ui/images/garrison/berbers/presentation_011/flag_mastery.rrtex",
+    "ui/images/garrison/berbers/presentation_011/flag_pattern.rrtex",
+    "ui/images/garrison/berbers/presentation_011/flag_secondary.rrtex",
+    "ui/images/garrison/berbers/presentation_011/flag_secondary_small.rrtex",
+    "ui/images/garrison/berbers/presentation_011/flag_tile.rrtex"
+  ],
+  "removed": [],
+  "scope": "Requested presentation, native start offsets and Codex repair only"
+}

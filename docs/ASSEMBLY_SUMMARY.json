@@ -1,0 +1,28 @@
+{
+  "owner": "5fe8767c-ca3a-4e64-9e20-c9527cf014ec",
+  "version": "0.1.2",
+  "archive_sha256": "fff9b4d3a8eb2f0e3de90cae6ab1d29556d1d186afc88483ba220654158521ad",
+  "tables": 294,
+  "members": 2858,
+  "header_and_declaration_owner_agree": true,
+  "declaration_digests_verified": true,
+  "all_member_readback_sha256": true,
+  "native_crc_sha1": true,
+  "source_tests": 8,
+  "static_validator": "Raw checker: two pre-existing lifecycle-name findings, both explicitly reviewed against unchanged passive modules and dispatcher manual startup. See update_012/SCAR_STATIC_REVIEW.json.",
+  "native_test": "pending",
+  "native_route": "Supported Garrison civilization validate/build; final ordinary-producer header correction via supported replace-member when needed, with complete final archive extraction/hash verification. No new world-art cook.",
+  "changed_members": [
+    "attrib/army/garrison/berbers/berbers_standard.rgd",
+    "attrib/codex/garrison/berbers/berbers_codex.rgd",
+    "attrib/racebps/berbers.rgd",
+    "en/en.ucs",
+    "garrison/civilizations.json",
+    "scar/berber_voice_bank.scar",
+    "scar/music/berber_music.scar"
+  ],
+  "added_members_count": 1239,
+  "removed_members_count": 1239,
+  "native_input_manifest_sha256": "364001342900f274389dd360917f146493e9f287da2765d03d5b05ee81b06fdb",
+  "editable_master_index_sha256": "2fa9d2da284fce2e1dd18af54619a29f044250bf2b541eb109058a996f090bf7"
+}

@@ -1,0 +1,327 @@
+{
+  "schema": "garrison.sampled-codec-quality/v1",
+  "scope": "24 duration-stratified voice clips and 8 music outputs, directly compared with original rotated source PCM. SNR is a waveform measurement, not a perceptual/listening acceptance score.",
+  "listening_test": "pending",
+  "samples": [
+    {
+      "member": "audio/voices/b869a9d011f363e77b1b42ff33084ac44c52b6538c57fdeb463c2f216cc9539b.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": -2.6666666666666665,
+      "snr_db": 27.610328117538078,
+      "correlation": 0.9991328303608057,
+      "source_peak": 9900,
+      "decoded_peak": 9757,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/voices/cd9682d72e2c82a19c8805294cf32805dd16a502608e2a0843ddf74b9fd2bdbb.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": -2.6666666666666665,
+      "snr_db": 26.838140948787853,
+      "correlation": 0.9989778002875911,
+      "source_peak": 13372,
+      "decoded_peak": 13600,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/voices/c11d73dbfbba5488bd9557f124bc0dbb819814be505518af66370aac2f63c3ff.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": -2.6666666666666665,
+      "snr_db": 26.399865366101327,
+      "correlation": 0.9988651677765533,
+      "source_peak": 15826,
+      "decoded_peak": 15355,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/voices/f7cdf1c632bb9a5f561bb9778578da500af9e43ee6729803e0e2e527d6e12bd6.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": -2.6666666666666665,
+      "snr_db": 26.26837354893832,
+      "correlation": 0.9988186570669079,
+      "source_peak": 17860,
+      "decoded_peak": 17675,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/voices/402c57fc23330b6edaff5a099fe2bb68c0e3e0f3983d06ee57856ce36421a37e.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": -2.6666666666666665,
+      "snr_db": 29.82077752197725,
+      "correlation": 0.9994793286877974,
+      "source_peak": 12599,
+      "decoded_peak": 12734,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/voices/0d18936d99a0486afb4fa7e64084f1d6bdac782e1f7714dce3bc882088c8d81e.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 27.58016827464234,
+      "correlation": 0.9991400127326316,
+      "source_peak": 12981,
+      "decoded_peak": 12795,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/voices/cd13c364ece34444173dca0e5d2eceec67ba89880cdd4bdf9d5fbdf1a4558b8a.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 23.630010868824876,
+      "correlation": 0.9978314691716701,
+      "source_peak": 12759,
+      "decoded_peak": 12939,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/voices/741b2ec9d601446713fb4ababc1403da5220fd2e654956c29b2fa323206f34ca.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 30.378142503889745,
+      "correlation": 0.9995527995067776,
+      "source_peak": 14672,
+      "decoded_peak": 14769,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/voices/c7c09d59c92195916e2ae1690ecf0115f4f59320caa1fcb8acce0a48c1bb81d3.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 31.33936450470437,
+      "correlation": 0.9996452961584915,
+      "source_peak": 10768,
+      "decoded_peak": 10829,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/voices/66ac1092406e5075228525c086303a19a08846201e2e000e9b6ea0fd679dbd0e.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 25.63804443303256,
+      "correlation": 0.9986342782416205,
+      "source_peak": 15540,
+      "decoded_peak": 15706,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/voices/fcdfa437d1e60ab93df995f46d4d0cc3e553c8e2e245060d44960e26450fbaff.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 27.737852810152184,
+      "correlation": 0.999158879960158,
+      "source_peak": 19379,
+      "decoded_peak": 19455,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/voices/e4aaf0f799063e141e3025241f4309aea5725537a19ab7cab456772c96ac490e.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 27.433420964106645,
+      "correlation": 0.9990967971084956,
+      "source_peak": 11471,
+      "decoded_peak": 11792,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/voices/7b82c88219bbf4a7a7769b4f0e2d9e9af6c5c6a70f1958f9721a1d588da37342.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 24.573580887546704,
+      "correlation": 0.9982544399980304,
+      "source_peak": 10920,
+      "decoded_peak": 11225,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/voices/e813939a0a5a5addb8b82c714e05c686191bdef4a35a1fb4930fcdd22245ce87.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 27.59363361896081,
+      "correlation": 0.9991335589079616,
+      "source_peak": 12664,
+      "decoded_peak": 13011,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/voices/48bef36d62705e77cf15be8925e314aca2ebd6e38904f94e17136ae541fa8f16.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 27.698189492769806,
+      "correlation": 0.9991538537507193,
+      "source_peak": 14301,
+      "decoded_peak": 14124,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/voices/24630f697e0002bcdee785d398453eb77b64e962ef9133d29ce5b486a7089c94.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 26.252307395192112,
+      "correlation": 0.9988142598201492,
+      "source_peak": 14854,
+      "decoded_peak": 15289,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/voices/4bd2756fcff76b982d2c44bebfa7bfd2d0d824ea9b188730046a12be556c60a7.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 29.37337491814325,
+      "correlation": 0.999427835874202,
+      "source_peak": 21313,
+      "decoded_peak": 21312,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/voices/f5753f28f0d06a52589256c1f8d956422808c0bbdea101e72e80eea7a612624b.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 26.517497334645014,
+      "correlation": 0.9988845895751244,
+      "source_peak": 17837,
+      "decoded_peak": 17810,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/voices/8ad59a39c7c930fb7a06ca31acb906a9c6fccfa3fa7d2c27ee9255a4f316f579.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 24.0132539855178,
+      "correlation": 0.998017611930951,
+      "source_peak": 14742,
+      "decoded_peak": 14688,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/voices/8b7f86299320f49916d2ede756b8f2204079807e369f34fc069a3278794af76a.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 24.763976031623404,
+      "correlation": 0.9983313021310667,
+      "source_peak": 14722,
+      "decoded_peak": 14888,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/voices/be6cd20c407ff1f7bf263dd190ed687b6a607af7dedc03799e11a4df8e7b2aaa.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 25.726558225816923,
+      "correlation": 0.998671559345747,
+      "source_peak": 19646,
+      "decoded_peak": 19488,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/voices/da4f40f62a30656702acb6fcc9bcdb2109d5809229ea7cd0fa6d13398307d309.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 29.161780747962748,
+      "correlation": 0.9993995121499435,
+      "source_peak": 11056,
+      "decoded_peak": 11064,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/voices/b149e7cb73bd214969e606b2689fcaddad95f49603e9a7697ff824d2d70e0c45.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 26.026073734728833,
+      "correlation": 0.9987510182636422,
+      "source_peak": 18498,
+      "decoded_peak": 18393,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/voices/769ca2c39ec9e70bc670cf66068a324fa50b6ee3c86bef3ed9facc39f6e43afd.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 24.20946985455916,
+      "correlation": 0.998102551820464,
+      "source_peak": 23772,
+      "decoded_peak": 23582,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/berber_music/ca_a1.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 26.097496189346128,
+      "correlation": 0.9987720374190717,
+      "source_peak": 32196,
+      "decoded_peak": 32456,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/berber_music/ca_c1.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 23.612264694529404,
+      "correlation": 0.9978235301667673,
+      "source_peak": 31297,
+      "decoded_peak": 29948,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/berber_music/da_a2_entry2.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 24.27262659218304,
+      "correlation": 0.9981292121092611,
+      "source_peak": 32767,
+      "decoded_peak": 32767,
+      "decoded_clipped_fraction": 9.54093595818475e-08
+    },
+    {
+      "member": "audio/berber_music/da_b2_entry2.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 24.69830220155208,
+      "correlation": 0.9983044335757532,
+      "source_peak": 32767,
+      "decoded_peak": 32767,
+      "decoded_clipped_fraction": 9.272776907373119e-08
+    },
+    {
+      "member": "audio/berber_music/da_c2_entry3.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 26.59233746777155,
+      "correlation": 0.9989049917997254,
+      "source_peak": 32767,
+      "decoded_peak": 32767,
+      "decoded_clipped_fraction": 8.401340629928787e-07
+    },
+    {
+      "member": "audio/berber_music/fa_a2_entry3.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 24.20679631650838,
+      "correlation": 0.9981017922098131,
+      "source_peak": 32768,
+      "decoded_peak": 32768,
+      "decoded_clipped_fraction": 9.618936222605269e-08
+    },
+    {
+      "member": "audio/berber_music/fa_c1.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 25.123834060256836,
+      "correlation": 0.9984625516719826,
+      "source_peak": 32076,
+      "decoded_peak": 31878,
+      "decoded_clipped_fraction": 0.0
+    },
+    {
+      "member": "audio/berber_music/intro_a1.ogg",
+      "source_pcm_sha256_verified": true,
+      "duration_delta_ms": 0.0,
+      "snr_db": 26.96813764775776,
+      "correlation": 0.9989961537043149,
+      "source_peak": 32768,
+      "decoded_peak": 32767,
+      "decoded_clipped_fraction": 1.7401327512473272e-07
+    }
+  ]
+}

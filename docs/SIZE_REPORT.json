@@ -1,0 +1,167 @@
+{
+  "version": "0.1.2",
+  "race": "berbers",
+  "zip_bytes": 461491632,
+  "archive_bytes": 580121417,
+  "baseline_011_zip_bytes": 617521029,
+  "incremental_compressed_zip_bytes": -156029397,
+  "zip_reduction_bytes": 156029397,
+  "zip_reduction_percent": 25.267058071313066,
+  "native_input_bytes": 570279782,
+  "native_audio_bytes": 273181832,
+  "native_texture_members": 564,
+  "texture_parse_failures": [
+    {
+      "member": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex",
+      "error": ""
+    }
+  ],
+  "native_texture_mip_payload_bytes_by_path": 283790432,
+  "decoded_rgba8_mips_bytes_by_path": 1235865008,
+  "decoded_rgba8_mips_bytes_unique_content": 1235865008,
+  "working_bytes_excluding_git_output_release_archives": 5217660972,
+  "working_categories": {
+    "root": {
+      "files": 7,
+      "bytes": 12790
+    },
+    "tools": {
+      "files": 11,
+      "bytes": 58641
+    },
+    "docs": {
+      "files": 80,
+      "bytes": 10933863
+    },
+    "source": {
+      "files": 404,
+      "bytes": 85841936
+    },
+    "inputs": {
+      "files": 2493,
+      "bytes": 570779922
+    },
+    ".github": {
+      "files": 1,
+      "bytes": 468
+    },
+    "authoring": {
+      "files": 9145,
+      "bytes": 4549550915
+    },
+    "tests": {
+      "files": 4,
+      "bytes": 482437
+    }
+  },
+  "retained_rollback_zip_bytes": 1232625234,
+  "verified_staging_removed_logical_bytes": 4988859428,
+  "budget": {
+    "complete_import_zip_below_600MB": true,
+    "preferred_zip_below_300MB": false,
+    "note": "Berbers remains above the preferred 300MB target; reducing it further substantially would require a separate broader art/audio tradeoff. All original masters and current HD/world art quality are retained."
+  },
+  "measurement": "Actual final archive/ZIP/member bytes. Decoded RGBA8 is the expansion estimate for all packaged mip levels, not measured runtime residency or VRAM. Native art/texture members are byte-identical to tested 0.1.1; no runtime FPS/VRAM improvement is claimed. Source working totals exclude retained history, Git and generated staging.",
+  "native_performance": "not measured",
+  "largest_texture_estimates": [
+    {
+      "member": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/12063012904349223718_packed.rrtex",
+      "sha256": "8e0b8e8f18253075e62d7fba17bcc91e03a7d16dc8f0a32484c2e25a33fa929c",
+      "archive_member_bytes": 281184,
+      "native_mip_payload_bytes": 5592432,
+      "decoded_rgba8_mips_bytes": 22369620,
+      "mips": 12
+    },
+    {
+      "member": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/12950629995060196214_packed.rrtex",
+      "sha256": "0354ee1c87d4b4f0ceb8d0c871074e9ce4d519cb23fd07c1b07e9eaa669897e9",
+      "archive_member_bytes": 1442256,
+      "native_mip_payload_bytes": 5592432,
+      "decoded_rgba8_mips_bytes": 22369620,
+      "mips": 12
+    },
+    {
+      "member": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/albedo.rrtex",
+      "sha256": "ad29701c98144a9d4b52f9d7e2fb8e065e7559322f61826f12d305743bbf7561",
+      "archive_member_bytes": 653387,
+      "native_mip_payload_bytes": 2796216,
+      "decoded_rgba8_mips_bytes": 22369620,
+      "mips": 12
+    },
+    {
+      "member": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/14894909416749486278_packed.rrtex",
+      "sha256": "b2f2d328766e4c403b54e9d53d0d7bb3d1202566b808c7fb34bb9d519cfc10e8",
+      "archive_member_bytes": 1368260,
+      "native_mip_payload_bytes": 5592432,
+      "decoded_rgba8_mips_bytes": 22369620,
+      "mips": 12
+    },
+    {
+      "member": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/17086922437288196335_packed.rrtex",
+      "sha256": "484dabbd4874d0dc12794ce64cf843f8aa0089b4de4a723885944399ee62e42c",
+      "archive_member_bytes": 312905,
+      "native_mip_payload_bytes": 5592432,
+      "decoded_rgba8_mips_bytes": 22369620,
+      "mips": 12
+    },
+    {
+      "member": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/albedo.rrtex",
+      "sha256": "9c93a18ff8ceb53fcd79fb98a3ceaad7fd09a0129201c036406a5a9cabd70b87",
+      "archive_member_bytes": 626095,
+      "native_mip_payload_bytes": 2796216,
+      "decoded_rgba8_mips_bytes": 22369620,
+      "mips": 12
+    },
+    {
+      "member": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/4594848740409482771_packed.rrtex",
+      "sha256": "ca07a9d3c5c91ea28a96a8d7397985de2d79b4adfb19b599e7052924e73a107f",
+      "archive_member_bytes": 336229,
+      "native_mip_payload_bytes": 5592432,
+      "decoded_rgba8_mips_bytes": 22369620,
+      "mips": 12
+    },
+    {
+      "member": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/5663807307944339850_packed.rrtex",
+      "sha256": "f73b4b64c40e3126a116a0148b928e93645672ada8c8fa1379b90b8031bb6011",
+      "archive_member_bytes": 1330717,
+      "native_mip_payload_bytes": 5592432,
+      "decoded_rgba8_mips_bytes": 22369620,
+      "mips": 12
+    },
+    {
+      "member": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/albedo.rrtex",
+      "sha256": "c8696ea8df5897acd9da6abd2370cb5b2fcef54ca8601a76b504a9c0b9e4c147",
+      "archive_member_bytes": 624405,
+      "native_mip_payload_bytes": 2796216,
+      "decoded_rgba8_mips_bytes": 22369620,
+      "mips": 12
+    },
+    {
+      "member": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/14817840359244977304_packed.rrtex",
+      "sha256": "55803bc6a92ca148415b9cdd2c4441a2ab2880253df093fa7cce5fb8df756ff3",
+      "archive_member_bytes": 364966,
+      "native_mip_payload_bytes": 5592432,
+      "decoded_rgba8_mips_bytes": 22369620,
+      "mips": 12
+    },
+    {
+      "member": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/9516058751600025616_packed.rrtex",
+      "sha256": "c8717533001166509111dca576c35f2477a17fa2903c8acec86b59604e0e8d28",
+      "archive_member_bytes": 1360287,
+      "native_mip_payload_bytes": 5592432,
+      "decoded_rgba8_mips_bytes": 22369620,
+      "mips": 12
+    },
+    {
+      "member": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/albedo.rrtex",
+      "sha256": "89f28c662c0edbb9cc0d6e5a8191685b77c1264a4198b5a0888c74e84de15e4d",
+      "archive_member_bytes": 617174,
+      "native_mip_payload_bytes": 2796216,
+      "decoded_rgba8_mips_bytes": 22369620,
+      "mips": 12
+    }
+  ],
+  "packaged_rrtex_member_count": 565,
+  "decoded_texture_estimate_complete": false,
+  "decoded_texture_estimate_note": "Estimate excludes the preserved 501-byte fair_skin_lut.rrtex, which has no ordinary TDAT mip stream in this decoder. Its packaged bytes/hash are unchanged and verified. This parser limitation is not a native resource failure."
+}

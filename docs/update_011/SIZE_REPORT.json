@@ -1,0 +1,16 @@
+{
+  "version": "0.1.1",
+  "zip_bytes": 617521029,
+  "archive_bytes": 774174861,
+  "previous_zip_bytes": 615104205,
+  "incremental_compressed_zip_bytes": 2416824,
+  "added_native_ui_bytes": 2656048,
+  "added_native_ui_mip_payload_bytes": 3889952,
+  "added_ui_decoded_rgba8_estimate_bytes": 15559808,
+  "runtime_vram_or_frametime": "not measured; these are file and decoded-image estimates",
+  "budget": {
+    "zip_below_300MB": false,
+    "zip_below_600MB": false,
+    "note": "Berbers already exceeded 600MB before this focused UI update; its existing art/audio is preserved."
+  }
+}

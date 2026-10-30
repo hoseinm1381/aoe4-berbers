@@ -1,0 +1,19 @@
+{
+  "description": "The Berbers build strength through tribal alliances, trade and adaptable armies. Tribal Tents anchor influence, while alliance choices unlock specialized troops. Combine Tuareg, camel warriors and Saharan traders, then develop landmark bonuses to support a flexible economy and army.",
+  "summary": "Tribal Alliances, Desert Warriors, Trade.",
+  "author": "hosein81 and marcokistan",
+  "civilization": {
+    "period": "Medieval Berber Dynasties",
+    "difficulty": 3,
+    "tagline": "Tribal Alliances, Desert Warriors, Trade",
+    "bonuses": [
+      "Tribal Alliances: Choose one active alliance at the Tribal Tent. The first choice is free; switching costs 100 Gold and cancels queued alliance troops at Markets. Sanhaja unlocks Camel Archers, Zenata unlocks Lancers, and Masmuda unlocks Crossbowmen.",
+      "Alliance Economies: The active alliance gives 20% bonus resources on matching drop-offs: Sanhaja grants Wood at Town Centers and Lumber Camps; Zenata grants Food at Town Centers and Mills; Masmuda grants Gold and Stone at Town Centers and Mining Camps.",
+      "Tent Influence: Train units at production buildings within 20 world units of a Tribal Tent to build influence equal to their total resource cost. Each threshold awards a free Villager: 500 influence initially, then 200 more for each reward already earned. Funduq reduces the threshold by 20%.",
+      "Nomadic Trade Network: Town Centers, Trading Posts, Docks, Mills, Lumber Camps and Mining Camps cost 10% less Wood. The discount applies to these buildings' Wood cost.",
+      "Enduring Generations: Land units gain 5% maximum health from the Feudal Age onward. The bonus stays at 5%; it does not stack again when advancing to Castle or Imperial Age.",
+      "Alliance Troop Upgrades: Research Tribal Reforms in Castle Age and Tribal Dynasties in Imperial Age at the Tribal Tent to upgrade Sanhaja Camel Archers, Zenata Lancers and Masmuda Crossbowmen. Tuareg Spearmen and Mehari Riders have their own tier research at their production buildings.",
+      "Distinctive Tactics: Tuareg Spearmen can Raise Shields for 50% ranged damage reduction for 15 seconds, with a 90-second cooldown. Zenata Lancers gain +1 attack per landed melee attack for 30 seconds, with stacking Blood Fury."
+    ]
+  }
+}

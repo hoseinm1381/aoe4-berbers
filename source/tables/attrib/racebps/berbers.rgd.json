@@ -1,5 +1,5 @@
 {
-  "schema": "berbers.native-table/v1",
+  "schema": "garrison.native-table/v1",
   "version": 4,
   "platform": 1,
   "chunks": [
@@ -626,7 +626,7 @@
               "key": "icon_secondary_small",
               "hash": 438729672307760449,
               "kind": "CString",
-              "value": "garrison\\berbers\\presentation\\flag_original"
+              "value": "garrison\\berbers\\presentation_011\\flag_secondary_small"
             },
             {
               "key": "faction_type",
@@ -650,7 +650,7 @@
               "key": "tile",
               "hash": 3822736437654506371,
               "kind": "CString",
-              "value": "garrison\\berbers\\presentation\\flag_original"
+              "value": "garrison\\berbers\\presentation_011\\flag_tile"
             },
             {
               "key": "icon_small",
@@ -694,7 +694,7 @@
               "key": "icon",
               "hash": 5608386435356037158,
               "kind": "CString",
-              "value": "garrison\\berbers\\presentation\\flag_original"
+              "value": "garrison\\berbers\\presentation_011\\flag_list"
             },
             {
               "key": "xbox_learn_image",
@@ -706,7 +706,7 @@
               "key": "icon_secondary",
               "hash": 6713150445155330638,
               "kind": "CString",
-              "value": "garrison\\berbers\\presentation\\flag_original"
+              "value": "garrison\\berbers\\presentation_011\\flag_secondary"
             },
             {
               "key": "asset_directory_sbps",
@@ -939,7 +939,7 @@
               "key": "image_small",
               "hash": 11258497043478678718,
               "kind": "CString",
-              "value": "garrison\\berbers\\presentation\\flag_original"
+              "value": "garrison\\berbers\\presentation_011\\flag_loading"
             },
             {
               "key": "blueprint_archetypes",
@@ -1971,7 +1971,7 @@
               "key": "pattern",
               "hash": 12550548482505490736,
               "kind": "CString",
-              "value": "garrison\\berbers\\presentation\\flag_original"
+              "value": "garrison\\berbers\\presentation_011\\flag_pattern"
             },
             {
               "key": "tile_height",
@@ -1995,7 +1995,7 @@
               "key": "mastery_flag",
               "hash": 13032413800126748971,
               "kind": "CString",
-              "value": "garrison\\berbers\\presentation\\flag_original"
+              "value": "garrison\\berbers\\presentation_011\\flag_mastery"
             },
             {
               "key": "path_name",
@@ -2013,7 +2013,7 @@
               "key": "flag_icon",
               "hash": 13989996463529014539,
               "kind": "CString",
-              "value": "garrison\\berbers\\presentation\\flag_original"
+              "value": "garrison\\berbers\\presentation_011\\flag_fade"
             },
             {
               "key": "army",
@@ -2210,7 +2210,7 @@
               "key": "image",
               "hash": 15971349184263663217,
               "kind": "CString",
-              "value": "garrison\\berbers\\presentation\\flag_original"
+              "value": "garrison\\berbers\\presentation_011\\flag_loading"
             },
             {
               "key": "description",
@@ -2429,7 +2429,7 @@
               "key": "icon_secondary_small",
               "hash": 438729672307760449,
               "kind": "CString",
-              "value": "garrison\\berbers\\presentation\\flag_original"
+              "value": "garrison\\berbers\\presentation_011\\flag_secondary_small"
             },
             {
               "key": "faction_type",
@@ -2453,7 +2453,7 @@
               "key": "tile",
               "hash": 3822736437654506371,
               "kind": "CString",
-              "value": "garrison\\berbers\\presentation\\flag_original"
+              "value": "garrison\\berbers\\presentation_011\\flag_tile"
             },
             {
               "key": "icon_small",
@@ -2497,7 +2497,7 @@
               "key": "icon",
               "hash": 5608386435356037158,
               "kind": "CString",
-              "value": "garrison\\berbers\\presentation\\flag_original"
+              "value": "garrison\\berbers\\presentation_011\\flag_list"
             },
             {
               "key": "xbox_learn_image",
@@ -2509,7 +2509,7 @@
               "key": "icon_secondary",
               "hash": 6713150445155330638,
               "kind": "CString",
-              "value": "garrison\\berbers\\presentation\\flag_original"
+              "value": "garrison\\berbers\\presentation_011\\flag_secondary"
             },
             {
               "key": "asset_directory_sbps",
@@ -2742,7 +2742,7 @@
               "key": "image_small",
               "hash": 11258497043478678718,
               "kind": "CString",
-              "value": "garrison\\berbers\\presentation\\flag_original"
+              "value": "garrison\\berbers\\presentation_011\\flag_loading"
             },
             {
               "key": "blueprint_archetypes",
@@ -3774,7 +3774,7 @@
               "key": "pattern",
               "hash": 12550548482505490736,
               "kind": "CString",
-              "value": "garrison\\berbers\\presentation\\flag_original"
+              "value": "garrison\\berbers\\presentation_011\\flag_pattern"
             },
             {
               "key": "tile_height",
@@ -3792,7 +3792,7 @@
               "key": "mastery_flag",
               "hash": 13032413800126748971,
               "kind": "CString",
-              "value": "garrison\\berbers\\presentation\\flag_original"
+              "value": "garrison\\berbers\\presentation_011\\flag_mastery"
             },
             {
               "key": "path_name",
@@ -3810,7 +3810,7 @@
               "key": "flag_icon",
               "hash": 13989996463529014539,
               "kind": "CString",
-              "value": "garrison\\berbers\\presentation\\flag_original"
+              "value": "garrison\\berbers\\presentation_011\\flag_fade"
             },
             {
               "key": "army",
@@ -4007,7 +4007,7 @@
               "key": "image",
               "hash": 15971349184263663217,
               "kind": "CString",
-              "value": "garrison\\berbers\\presentation\\flag_original"
+              "value": "garrison\\berbers\\presentation_011\\flag_loading"
             },
             {
               "key": "description",

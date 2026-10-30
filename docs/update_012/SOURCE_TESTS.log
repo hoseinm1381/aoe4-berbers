@@ -1,0 +1,13 @@
+test_client_card_and_full_hd_loading (test_update_011.Update011.test_client_card_and_full_hd_loading) ... ok
+test_old_actual_codex_and_new_layout (test_update_011.Update011.test_old_actual_codex_and_new_layout) ... ok
+test_only_worker_scout_positions_and_loading_reference_changed_in_army (test_update_011.Update011.test_only_worker_scout_positions_and_loading_reference_changed_in_army) ... ok
+test_actual_old_empty_or_donor_overview_replaced (test_update_012.Update012.test_actual_old_empty_or_donor_overview_replaced) ... ok
+test_blacksmith_three_real_research_ages_and_no_overlap (test_update_012.Update012.test_blacksmith_three_real_research_ages_and_no_overlap) ... ok
+test_both_native_views_agree_and_real_tier_links_exist (test_update_012.Update012.test_both_native_views_agree_and_real_tier_links_exist) ... ok
+test_native_world_media_unchanged_and_audio_paths_only (test_update_012.Update012.test_native_world_media_unchanged_and_audio_paths_only) ... ok
+test_only_requested_army_ui_and_race_small_icon_changed (test_update_012.Update012.test_only_requested_army_ui_and_race_small_icon_changed) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 4.170s
+
+OK

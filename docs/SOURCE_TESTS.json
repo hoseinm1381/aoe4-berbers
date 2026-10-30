@@ -1,0 +1,9 @@
+{
+  "version": "0.1.2",
+  "tests": 8,
+  "passed": true,
+  "scope": "Actual old Codex, native overview/age/header/spacing/flag regression, UI-only changes, preserved world media and exact audio-path-only SCAR substitutions.",
+  "static_validator": "Raw checker: two pre-existing lifecycle-name findings, both explicitly reviewed against unchanged passive modules and dispatcher manual startup. See update_012/SCAR_STATIC_REVIEW.json.",
+  "new_static_errors_introduced": 0,
+  "native_game_test": "pending"
+}

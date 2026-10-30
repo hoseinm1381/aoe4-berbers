@@ -1,0 +1,4159 @@
+{
+  "schema": "garrison.native-table/v1",
+  "version": 4,
+  "platform": 1,
+  "chunks": [
+    {
+      "kind": "44415441",
+      "id": "41454744",
+      "version": 3,
+      "name": "",
+      "body": ""
+    },
+    {
+      "kind": "44415441",
+      "id": "4b455953",
+      "version": 1,
+      "name": "",
+      "body": ""
+    }
+  ],
+  "keys": [
+    [
+      8529826256463028745,
+      "instance_version"
+    ],
+    [
+      4430693559278735917,
+      "default"
+    ],
+    [
+      17742899270815766468,
+      "race_bag"
+    ],
+    [
+      407209193152762291,
+      "name"
+    ],
+    [
+      16000878188207498339,
+      "description"
+    ],
+    [
+      17216969559225366552,
+      "ui_priority"
+    ],
+    [
+      10927937194649070515,
+      "store_item"
+    ],
+    [
+      5464984021694833596,
+      "$PBGNAME"
+    ],
+    [
+      1238668035833122403,
+      "$PBGMAP"
+    ],
+    [
+      16762412460254493655,
+      "inventory_item"
+    ],
+    [
+      15047289045282941900,
+      "server_id"
+    ],
+    [
+      1878212433285343959,
+      "search_tags"
+    ],
+    [
+      9457113125491289757,
+      "races"
+    ],
+    [
+      10992649956153883606,
+      "default_metadata"
+    ],
+    [
+      14608112296403903366,
+      "inventory_item_categories"
+    ],
+    [
+      13758108808786289668,
+      "inventory_item_category"
+    ],
+    [
+      15096128641582150198,
+      "inventory_item_slots"
+    ],
+    [
+      5998857030399822055,
+      "inventory_item_attributes"
+    ],
+    [
+      7917824378913597848,
+      "inventory_item_equip_modifiers"
+    ],
+    [
+      18433947741504748740,
+      "inventory_item_equip_requirement"
+    ],
+    [
+      6998867517914059163,
+      "$REF"
+    ],
+    [
+      16298039077679004786,
+      "level_table"
+    ],
+    [
+      4029297207447887390,
+      "required_level"
+    ],
+    [
+      5301666385515115586,
+      "droppable"
+    ],
+    [
+      5608386435356037158,
+      "icon"
+    ],
+    [
+      13538524835871202829,
+      "path_name"
+    ],
+    [
+      9085160013108660027,
+      "speech"
+    ],
+    [
+      1698290602857324146,
+      "intel_speaker_code"
+    ],
+    [
+      5148434235404744297,
+      "race_code"
+    ],
+    [
+      17517450045874098258,
+      "ally_intel_speaker_code"
+    ],
+    [
+      12395069706342599231,
+      "music_race_code"
+    ],
+    [
+      983410201262026977,
+      "faction_type"
+    ],
+    [
+      7873661295164758464,
+      "sound_banks"
+    ],
+    [
+      16118156416546554748,
+      "default_army_slot_layout"
+    ],
+    [
+      10390661812656628390,
+      "multiplayer"
+    ],
+    [
+      12237506826373861897,
+      "color"
+    ],
+    [
+      10085661483803089634,
+      "statemodel_schema"
+    ],
+    [
+      3149081791212081060,
+      "asset_directory_ebps"
+    ],
+    [
+      7012831929445188540,
+      "asset_directory_sbps"
+    ],
+    [
+      6713150445155330638,
+      "icon_secondary"
+    ],
+    [
+      7882376707573019940,
+      "front_end_music_layer_event"
+    ],
+    [
+      340361771039307154,
+      "codex"
+    ],
+    [
+      15971349184263663217,
+      "image"
+    ],
+    [
+      11258497043478678718,
+      "image_small"
+    ],
+    [
+      14841919462154022452,
+      "naval_gatherer_blueprint"
+    ],
+    [
+      7243925283509743549,
+      "ui_visibility"
+    ],
+    [
+      13989996463529014539,
+      "flag_icon"
+    ],
+    [
+      10165207896957052764,
+      "telemetry_prefix"
+    ],
+    [
+      12550548482505490736,
+      "pattern"
+    ],
+    [
+      3822736437654506371,
+      "tile"
+    ],
+    [
+      4544548370365717646,
+      "illustration"
+    ],
+    [
+      12955011384354134126,
+      "xbox_learn_description"
+    ],
+    [
+      6073199446589479599,
+      "xbox_learn_image"
+    ],
+    [
+      11675021394424011665,
+      "blueprint_archetypes"
+    ],
+    [
+      6923567332010508926,
+      "archer"
+    ],
+    [
+      6963793588412644495,
+      "spearman"
+    ],
+    [
+      12939912314792131083,
+      "manatarms"
+    ],
+    [
+      6704815860873605052,
+      "knight"
+    ],
+    [
+      8436344742318449095,
+      "horseman"
+    ],
+    [
+      17352020535455016706,
+      "crossbowman"
+    ],
+    [
+      12623671389574155703,
+      "ram"
+    ],
+    [
+      5344509404898484295,
+      "siege_tower"
+    ],
+    [
+      4201113918117864384,
+      "mangonel"
+    ],
+    [
+      2754295476181839963,
+      "springald"
+    ],
+    [
+      3226094046501498311,
+      "ribauldequin"
+    ],
+    [
+      8593768430689744406,
+      "handcannon"
+    ],
+    [
+      5687843241820630910,
+      "bombard"
+    ],
+    [
+      4163958946236729321,
+      "trader"
+    ],
+    [
+      7875863914795693403,
+      "culverin"
+    ],
+    [
+      16344874239817703271,
+      "ship_springald"
+    ],
+    [
+      1909307202166863731,
+      "ship_warship"
+    ],
+    [
+      3054935343978474599,
+      "ship_trade"
+    ],
+    [
+      7104588766347800104,
+      "ship_fishing"
+    ],
+    [
+      828382409929673702,
+      "ship_archer"
+    ],
+    [
+      8715752673328194167,
+      "ship_incendiary"
+    ],
+    [
+      3002972041996794053,
+      "ship_transport"
+    ],
+    [
+      1216513356518413208,
+      "ship_scout"
+    ],
+    [
+      7721861451691406805,
+      "trebuchet"
+    ],
+    [
+      5711780312670785067,
+      "scout"
+    ],
+    [
+      6379326656120924104,
+      "villager"
+    ],
+    [
+      14963910028726557590,
+      "monk"
+    ],
+    [
+      12604844538874832744,
+      "keep"
+    ],
+    [
+      16764020141636266636,
+      "outpost"
+    ],
+    [
+      7287438413729502302,
+      "barracks"
+    ],
+    [
+      1864060030050598856,
+      "stable"
+    ],
+    [
+      12482555785339672203,
+      "archery_range"
+    ],
+    [
+      5446382854073183230,
+      "blacksmith"
+    ],
+    [
+      7423949296741168035,
+      "siege_workshop"
+    ],
+    [
+      13475456141037418105,
+      "monastery"
+    ],
+    [
+      10373765794254591409,
+      "university"
+    ],
+    [
+      18232298059568030642,
+      "mill"
+    ],
+    [
+      15283420349048384689,
+      "lumber_camp"
+    ],
+    [
+      1713445915318762795,
+      "mining_camp"
+    ],
+    [
+      16975418193418657585,
+      "house"
+    ],
+    [
+      9610442147374991912,
+      "dock"
+    ],
+    [
+      7449837191176493628,
+      "market"
+    ],
+    [
+      1785444542901164677,
+      "farm"
+    ],
+    [
+      16204311934763182488,
+      "town_center"
+    ],
+    [
+      8121047756432671800,
+      "town_center_capital"
+    ],
+    [
+      11201265201418472477,
+      "arsenal"
+    ],
+    [
+      10224797281435887756,
+      "wonder"
+    ],
+    [
+      8976255681175771416,
+      "palisade_wall"
+    ],
+    [
+      7606549591313667156,
+      "palisade_gate"
+    ],
+    [
+      17198929067248377126,
+      "stone_wall"
+    ],
+    [
+      6527855699332590931,
+      "stone_gate"
+    ],
+    [
+      6346595923600152652,
+      "stone_tower"
+    ],
+    [
+      14747301718188551087,
+      "vps_farm"
+    ],
+    [
+      14182971207479873054,
+      "army"
+    ],
+    [
+      10115716751013084731,
+      "nomad"
+    ],
+    [
+      15958539097120149879,
+      "standard"
+    ],
+    [
+      519316137256763478,
+      "empire_wars"
+    ],
+    [
+      7875540315297270200,
+      "seasons_feast"
+    ],
+    [
+      1426266627826502264,
+      "king_of_the_hill"
+    ],
+    [
+      15292179286525504955,
+      "hallows_hearth"
+    ],
+    [
+      10927570803281762796,
+      "rogue_mode"
+    ],
+    [
+      4245872597939124986,
+      "icon_small"
+    ],
+    [
+      438729672307760449,
+      "icon_secondary_small"
+    ],
+    [
+      9843725486829139867,
+      "video"
+    ],
+    [
+      12116055159015566160,
+      "video_small"
+    ],
+    [
+      14857794166429338629,
+      "store_priority"
+    ],
+    [
+      13027623183470990153,
+      "xbox_landmark_icon"
+    ],
+    [
+      9884975684982644806,
+      "radial_pattern"
+    ],
+    [
+      8589279841817629997,
+      "blueprint_archetypes_groups"
+    ],
+    [
+      2455245781866552393,
+      "counter_ranged"
+    ],
+    [
+      15695812999050820959,
+      "archetype_list"
+    ],
+    [
+      10912800122936042267,
+      "archetype"
+    ],
+    [
+      15685796171509270142,
+      "counter_cavalry"
+    ],
+    [
+      4759651794829102589,
+      "counter_heavy"
+    ],
+    [
+      13821127502194274687,
+      "supports_aqueducts"
+    ],
+    [
+      7446127713458726744,
+      "is_historical"
+    ],
+    [
+      14389075694156526388,
+      "resource_gatherer_blueprints"
+    ],
+    [
+      13559333146616508623,
+      "resource_gatherer_blueprint"
+    ],
+    [
+      4727157966938250625,
+      "resource_gatherer_squad_blueprints"
+    ],
+    [
+      8526514052449189090,
+      "resource_gatherer_squad_blueprint"
+    ],
+    [
+      13032413800126748971,
+      "mastery_flag"
+    ],
+    [
+      8980337857508269693,
+      "access_control_inventory_item"
+    ],
+    [
+      3191024081278339769,
+      "tile_width"
+    ],
+    [
+      12653812828664160750,
+      "tile_height"
+    ],
+    [
+      13005689997087892415,
+      "pbgid"
+    ],
+    [
+      12536324260443616212,
+      "campaign"
+    ]
+  ],
+  "nodes": [
+    {
+      "key": "default",
+      "hash": 4430693559278735917,
+      "kind": "List",
+      "value": [
+        {
+          "key": "pbgid",
+          "hash": 13005689997087892415,
+          "kind": "Int",
+          "value": 37091944
+        },
+        {
+          "key": "race_bag",
+          "hash": 17742899270815766468,
+          "kind": "List",
+          "value": [
+            {
+              "key": "codex",
+              "hash": 340361771039307154,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": "5fe8767cca3a4e649e20c9527cf014ec:berbers_codex"
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": "codex"
+                }
+              ]
+            },
+            {
+              "key": "name",
+              "hash": 407209193152762291,
+              "kind": "LocString",
+              "value": "$5fe8767cca3a4e649e20c9527cf014ec:5000"
+            },
+            {
+              "key": "icon_secondary_small",
+              "hash": 438729672307760449,
+              "kind": "CString",
+              "value": "garrison\\berbers\\presentation_011\\flag_secondary_small"
+            },
+            {
+              "key": "faction_type",
+              "hash": 983410201262026977,
+              "kind": "Int",
+              "value": 0
+            },
+            {
+              "key": "asset_directory_ebps",
+              "hash": 3149081791212081060,
+              "kind": "CString",
+              "value": "attrib\\ebps\\races\\malian"
+            },
+            {
+              "key": "tile_width",
+              "hash": 3191024081278339769,
+              "kind": "Int",
+              "value": 147
+            },
+            {
+              "key": "tile",
+              "hash": 3822736437654506371,
+              "kind": "CString",
+              "value": "garrison\\berbers\\presentation_011\\flag_tile"
+            },
+            {
+              "key": "icon_small",
+              "hash": 4245872597939124986,
+              "kind": "CString",
+              "value": "garrison\\berbers\\presentation_011\\flag_list_small"
+            },
+            {
+              "key": "illustration",
+              "hash": 4544548370365717646,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "resource_gatherer_squad_blueprints",
+              "hash": 4727157966938250625,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "resource_gatherer_squad_blueprint",
+                  "hash": 8526514052449189090,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "icon",
+              "hash": 5608386435356037158,
+              "kind": "CString",
+              "value": "garrison\\berbers\\presentation_011\\flag_list"
+            },
+            {
+              "key": "xbox_learn_image",
+              "hash": 6073199446589479599,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "icon_secondary",
+              "hash": 6713150445155330638,
+              "kind": "CString",
+              "value": "garrison\\berbers\\presentation_011\\flag_secondary"
+            },
+            {
+              "key": "asset_directory_sbps",
+              "hash": 7012831929445188540,
+              "kind": "CString",
+              "value": "attrib\\sbps\\races\\malian"
+            },
+            {
+              "key": "ui_visibility",
+              "hash": 7243925283509743549,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "is_historical",
+              "hash": 7446127713458726744,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "sound_banks",
+              "hash": 7873661295164758464,
+              "kind": "List",
+              "value": []
+            },
+            {
+              "key": "front_end_music_layer_event",
+              "hash": 7882376707573019940,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "blueprint_archetypes_groups",
+              "hash": 8589279841817629997,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "counter_ranged",
+                  "hash": 2455245781866552393,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "waves\\blueprint_archetype_group"
+                    },
+                    {
+                      "key": "archetype_list",
+                      "hash": 15695812999050820959,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "archetype",
+                          "hash": 10912800122936042267,
+                          "kind": "CString",
+                          "value": "horseman"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "counter_heavy",
+                  "hash": 4759651794829102589,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "waves\\blueprint_archetype_group"
+                    },
+                    {
+                      "key": "archetype_list",
+                      "hash": 15695812999050820959,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "archetype",
+                          "hash": 10912800122936042267,
+                          "kind": "CString",
+                          "value": "manatarms"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "counter_cavalry",
+                  "hash": 15685796171509270142,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "waves\\blueprint_archetype_group"
+                    },
+                    {
+                      "key": "archetype_list",
+                      "hash": 15695812999050820959,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "archetype",
+                          "hash": 10912800122936042267,
+                          "kind": "CString",
+                          "value": "spearman"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "access_control_inventory_item",
+              "hash": 8980337857508269693,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": "generic_inventory_item_owned_by_base_game"
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": "generic_inventory_item"
+                }
+              ]
+            },
+            {
+              "key": "speech",
+              "hash": 9085160013108660027,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "intel_speaker_code",
+                  "hash": 1698290602857324146,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "race_code",
+                  "hash": 5148434235404744297,
+                  "kind": "CString",
+                  "value": "no_race"
+                },
+                {
+                  "key": "music_race_code",
+                  "hash": 12395069706342599231,
+                  "kind": "CString",
+                  "value": "no_race"
+                },
+                {
+                  "key": "ally_intel_speaker_code",
+                  "hash": 17517450045874098258,
+                  "kind": "CString",
+                  "value": "smally"
+                }
+              ]
+            },
+            {
+              "key": "video",
+              "hash": 9843725486829139867,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "radial_pattern",
+              "hash": 9884975684982644806,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "statemodel_schema",
+              "hash": 10085661483803089634,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": "5fe8767cca3a4e649e20c9527cf014ec:berbers_player"
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": "statemodel_schema"
+                }
+              ]
+            },
+            {
+              "key": "telemetry_prefix",
+              "hash": 10165207896957052764,
+              "kind": "CString",
+              "value": "Garrison_berbers"
+            },
+            {
+              "key": "multiplayer",
+              "hash": 10390661812656628390,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "store_item",
+              "hash": 10927937194649070515,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": "blank"
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": "thq_store"
+                }
+              ]
+            },
+            {
+              "key": "image_small",
+              "hash": 11258497043478678718,
+              "kind": "CString",
+              "value": "garrison\\berbers\\presentation_011\\flag_loading"
+            },
+            {
+              "key": "blueprint_archetypes",
+              "hash": 11675021394424011665,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "ship_archer",
+                  "hash": 828382409929673702,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_naval_light_combat_ship_2_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "ship_scout",
+                  "hash": 1216513356518413208,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_naval_scout_2_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "mining_camp",
+                  "hash": 1713445915318762795,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_econ_mining_camp_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "farm",
+                  "hash": 1785444542901164677,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "building_resource_farm_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "stable",
+                  "hash": 1864060030050598856,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_unit_cavalry_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "ship_warship",
+                  "hash": 1909307202166863731,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_naval_combat_warship_4_abb"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "springald",
+                  "hash": 2754295476181839963,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_springald_3_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "ship_transport",
+                  "hash": 3002972041996794053,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_naval_transport_ship_2_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "ship_trade",
+                  "hash": 3054935343978474599,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_naval_trade_ship_3_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "ribauldequin",
+                  "hash": 3226094046501498311,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_ribauldequin_4_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "trader",
+                  "hash": 4163958946236729321,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_trade_cart_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "mangonel",
+                  "hash": 4201113918117864384,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_mangonel_3_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "siege_tower",
+                  "hash": 5344509404898484295,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_siege_tower_3_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "blacksmith",
+                  "hash": 5446382854073183230,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_tech_unit_infantry_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "bombard",
+                  "hash": 5687843241820630910,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_bombard_4_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "scout",
+                  "hash": 5711780312670785067,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_scout_1_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "stone_tower",
+                  "hash": 6346595923600152652,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "building_defense_tower_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "villager",
+                  "hash": 6379326656120924104,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "stone_gate",
+                  "hash": 6527855699332590931,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "building_defense_wall_gate_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "knight",
+                  "hash": 6704815860873605052,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_knight_3_song_cmp"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "archer",
+                  "hash": 6923567332010508926,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_archer_2_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "spearman",
+                  "hash": 6963793588412644495,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:unit_spearman_tuareg_1_ber"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "ship_fishing",
+                  "hash": 7104588766347800104,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_naval_fishing_boat_2_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "barracks",
+                  "hash": 7287438413729502302,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_unit_infantry_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "siege_workshop",
+                  "hash": 7423949296741168035,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_unit_siege_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "market",
+                  "hash": 7449837191176493628,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_econ_market_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "palisade_gate",
+                  "hash": 7606549591313667156,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "building_defense_palisade_gate_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "trebuchet",
+                  "hash": 7721861451691406805,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_trebuchet_4_cw_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "culverin",
+                  "hash": 7875863914795693403,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_culverin_4_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "town_center_capital",
+                  "hash": 8121047756432671800,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_town_center_capital_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "horseman",
+                  "hash": 8436344742318449095,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_horseman_2_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "handcannon",
+                  "hash": 8593768430689744406,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_handcannon_4_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "ship_incendiary",
+                  "hash": 8715752673328194167,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_naval_fireship_3_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "palisade_wall",
+                  "hash": 8976255681175771416,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "building_defense_palisade_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "dock",
+                  "hash": 9610442147374991912,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_unit_naval_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "wonder",
+                  "hash": 10224797281435887756,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_wonder_age4_great_mosque_control_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "university",
+                  "hash": 10373765794254591409,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_tech_university_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "arsenal",
+                  "hash": 11201265201418472477,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": ""
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "archery_range",
+                  "hash": 12482555785339672203,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_unit_ranged_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "keep",
+                  "hash": 12604844538874832744,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_defense_keep_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "ram",
+                  "hash": 12623671389574155703,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_ram_3_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "manatarms",
+                  "hash": 12939912314792131083,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": ""
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "monastery",
+                  "hash": 13475456141037418105,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_unit_religious_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "vps_farm",
+                  "hash": 14747301718188551087,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "building_resource_farm_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "monk",
+                  "hash": 14963910028726557590,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_monk_3_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "lumber_camp",
+                  "hash": 15283420349048384689,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_econ_wood_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "town_center",
+                  "hash": 16204311934763182488,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_town_center_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "ship_springald",
+                  "hash": 16344874239817703271,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_naval_combat_ship_2_abb"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "outpost",
+                  "hash": 16764020141636266636,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_defense_outpost_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "house",
+                  "hash": 16975418193418657585,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_house_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "stone_wall",
+                  "hash": 17198929067248377126,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "building_defense_wall_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "crossbowman",
+                  "hash": 17352020535455016706,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:unit_masmuda_cb_2_ber"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "mill",
+                  "hash": 18232298059568030642,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_econ_food_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "video_small",
+              "hash": 12116055159015566160,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "color",
+              "hash": 12237506826373861897,
+              "kind": "Int",
+              "value": -2001357387
+            },
+            {
+              "key": "pattern",
+              "hash": 12550548482505490736,
+              "kind": "CString",
+              "value": "garrison\\berbers\\presentation_011\\flag_pattern"
+            },
+            {
+              "key": "tile_height",
+              "hash": 12653812828664160750,
+              "kind": "Int",
+              "value": 160
+            },
+            {
+              "key": "xbox_learn_description",
+              "hash": 12955011384354134126,
+              "kind": "Int",
+              "value": 0
+            },
+            {
+              "key": "xbox_landmark_icon",
+              "hash": 13027623183470990153,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "mastery_flag",
+              "hash": 13032413800126748971,
+              "kind": "CString",
+              "value": "garrison\\berbers\\presentation_011\\flag_mastery"
+            },
+            {
+              "key": "path_name",
+              "hash": 13538524835871202829,
+              "kind": "CString",
+              "value": "berbers"
+            },
+            {
+              "key": "supports_aqueducts",
+              "hash": 13821127502194274687,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "flag_icon",
+              "hash": 13989996463529014539,
+              "kind": "CString",
+              "value": "garrison\\berbers\\presentation_011\\flag_fade"
+            },
+            {
+              "key": "army",
+              "hash": 14182971207479873054,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "empire_wars",
+                  "hash": 519316137256763478,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": ""
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "army"
+                    }
+                  ]
+                },
+                {
+                  "key": "king_of_the_hill",
+                  "hash": 1426266627826502264,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": ""
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "army"
+                    }
+                  ]
+                },
+                {
+                  "key": "seasons_feast",
+                  "hash": 7875540315297270200,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": ""
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "army"
+                    }
+                  ]
+                },
+                {
+                  "key": "nomad",
+                  "hash": 10115716751013084731,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": ""
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "army"
+                    }
+                  ]
+                },
+                {
+                  "key": "rogue_mode",
+                  "hash": 10927570803281762796,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": ""
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "army"
+                    }
+                  ]
+                },
+                {
+                  "key": "hallows_hearth",
+                  "hash": 15292179286525504955,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": ""
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "army"
+                    }
+                  ]
+                },
+                {
+                  "key": "standard",
+                  "hash": 15958539097120149879,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:berbers_standard"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "army"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "resource_gatherer_blueprints",
+              "hash": 14389075694156526388,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "resource_gatherer_blueprint",
+                  "hash": 13559333146616508623,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "naval_gatherer_blueprint",
+              "hash": 14841919462154022452,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_naval_fishing_boat_2_mal"
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": "ebps"
+                }
+              ]
+            },
+            {
+              "key": "store_priority",
+              "hash": 14857794166429338629,
+              "kind": "Int",
+              "value": 0
+            },
+            {
+              "key": "image",
+              "hash": 15971349184263663217,
+              "kind": "CString",
+              "value": "garrison\\berbers\\presentation_011\\flag_loading"
+            },
+            {
+              "key": "description",
+              "hash": 16000878188207498339,
+              "kind": "LocString",
+              "value": "$5fe8767cca3a4e649e20c9527cf014ec:5001"
+            },
+            {
+              "key": "default_army_slot_layout",
+              "hash": 16118156416546554748,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": "5fe8767cca3a4e649e20c9527cf014ec:berbers_layout"
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": "army_slot_layout"
+                }
+              ]
+            },
+            {
+              "key": "inventory_item",
+              "hash": 16762412460254493655,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "search_tags",
+                  "hash": 1878212433285343959,
+                  "kind": "List",
+                  "value": []
+                },
+                {
+                  "key": "required_level",
+                  "hash": 4029297207447887390,
+                  "kind": "Int",
+                  "value": 1
+                },
+                {
+                  "key": "droppable",
+                  "hash": 5301666385515115586,
+                  "kind": "Boolean",
+                  "value": true
+                },
+                {
+                  "key": "inventory_item_attributes",
+                  "hash": 5998857030399822055,
+                  "kind": "List",
+                  "value": []
+                },
+                {
+                  "key": "$REF",
+                  "hash": 6998867517914059163,
+                  "kind": "CString",
+                  "value": "inventory_item"
+                },
+                {
+                  "key": "inventory_item_equip_modifiers",
+                  "hash": 7917824378913597848,
+                  "kind": "List",
+                  "value": []
+                },
+                {
+                  "key": "races",
+                  "hash": 9457113125491289757,
+                  "kind": "List",
+                  "value": []
+                },
+                {
+                  "key": "default_metadata",
+                  "hash": 10992649956153883606,
+                  "kind": "List2",
+                  "value": []
+                },
+                {
+                  "key": "inventory_item_categories",
+                  "hash": 14608112296403903366,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "inventory_item_category",
+                      "hash": 13758108808786289668,
+                      "kind": "List2",
+                      "value": [
+                        {
+                          "key": "$PBGNAME",
+                          "hash": 5464984021694833596,
+                          "kind": "CString",
+                          "value": "race"
+                        },
+                        {
+                          "key": "$PBGMAP",
+                          "hash": 1238668035833122403,
+                          "kind": "CString",
+                          "value": "inventory_item_category"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "server_id",
+                  "hash": 15047289045282941900,
+                  "kind": "Int",
+                  "value": 0
+                },
+                {
+                  "key": "inventory_item_slots",
+                  "hash": 15096128641582150198,
+                  "kind": "List2",
+                  "value": []
+                },
+                {
+                  "key": "level_table",
+                  "hash": 16298039077679004786,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": ""
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "ui_priority",
+                  "hash": 17216969559225366552,
+                  "kind": "Int",
+                  "value": 0
+                },
+                {
+                  "key": "inventory_item_equip_requirement",
+                  "hash": 18433947741504748740,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "inventory_item_requirements\\requirements\\requirement_none"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "ui_priority",
+              "hash": 17216969559225366552,
+              "kind": "Int",
+              "value": 1001
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "instance_version",
+      "hash": 8529826256463028745,
+      "kind": "Int",
+      "value": 2
+    },
+    {
+      "key": "campaign",
+      "hash": 12536324260443616212,
+      "kind": "List",
+      "value": [
+        {
+          "key": "pbgid",
+          "hash": 13005689997087892415,
+          "kind": "Int",
+          "value": 37091944
+        },
+        {
+          "key": "race_bag",
+          "hash": 17742899270815766468,
+          "kind": "List",
+          "value": [
+            {
+              "key": "codex",
+              "hash": 340361771039307154,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": "5fe8767cca3a4e649e20c9527cf014ec:berbers_codex"
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": "codex"
+                }
+              ]
+            },
+            {
+              "key": "name",
+              "hash": 407209193152762291,
+              "kind": "LocString",
+              "value": "$5fe8767cca3a4e649e20c9527cf014ec:5000"
+            },
+            {
+              "key": "icon_secondary_small",
+              "hash": 438729672307760449,
+              "kind": "CString",
+              "value": "garrison\\berbers\\presentation_011\\flag_secondary_small"
+            },
+            {
+              "key": "faction_type",
+              "hash": 983410201262026977,
+              "kind": "Int",
+              "value": 0
+            },
+            {
+              "key": "asset_directory_ebps",
+              "hash": 3149081791212081060,
+              "kind": "CString",
+              "value": "attrib\\ebps\\races\\malian"
+            },
+            {
+              "key": "tile_width",
+              "hash": 3191024081278339769,
+              "kind": "Int",
+              "value": 147
+            },
+            {
+              "key": "tile",
+              "hash": 3822736437654506371,
+              "kind": "CString",
+              "value": "garrison\\berbers\\presentation_011\\flag_tile"
+            },
+            {
+              "key": "icon_small",
+              "hash": 4245872597939124986,
+              "kind": "CString",
+              "value": "garrison\\berbers\\presentation_011\\flag_list_small"
+            },
+            {
+              "key": "illustration",
+              "hash": 4544548370365717646,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "resource_gatherer_squad_blueprints",
+              "hash": 4727157966938250625,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "resource_gatherer_squad_blueprint",
+                  "hash": 8526514052449189090,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "icon",
+              "hash": 5608386435356037158,
+              "kind": "CString",
+              "value": "garrison\\berbers\\presentation_011\\flag_list"
+            },
+            {
+              "key": "xbox_learn_image",
+              "hash": 6073199446589479599,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "icon_secondary",
+              "hash": 6713150445155330638,
+              "kind": "CString",
+              "value": "garrison\\berbers\\presentation_011\\flag_secondary"
+            },
+            {
+              "key": "asset_directory_sbps",
+              "hash": 7012831929445188540,
+              "kind": "CString",
+              "value": "attrib\\sbps\\races\\malian"
+            },
+            {
+              "key": "ui_visibility",
+              "hash": 7243925283509743549,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "is_historical",
+              "hash": 7446127713458726744,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "sound_banks",
+              "hash": 7873661295164758464,
+              "kind": "List",
+              "value": []
+            },
+            {
+              "key": "front_end_music_layer_event",
+              "hash": 7882376707573019940,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "blueprint_archetypes_groups",
+              "hash": 8589279841817629997,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "counter_ranged",
+                  "hash": 2455245781866552393,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "waves\\blueprint_archetype_group"
+                    },
+                    {
+                      "key": "archetype_list",
+                      "hash": 15695812999050820959,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "archetype",
+                          "hash": 10912800122936042267,
+                          "kind": "CString",
+                          "value": "horseman"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "counter_heavy",
+                  "hash": 4759651794829102589,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "waves\\blueprint_archetype_group"
+                    },
+                    {
+                      "key": "archetype_list",
+                      "hash": 15695812999050820959,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "archetype",
+                          "hash": 10912800122936042267,
+                          "kind": "CString",
+                          "value": "manatarms"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "counter_cavalry",
+                  "hash": 15685796171509270142,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "waves\\blueprint_archetype_group"
+                    },
+                    {
+                      "key": "archetype_list",
+                      "hash": 15695812999050820959,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "archetype",
+                          "hash": 10912800122936042267,
+                          "kind": "CString",
+                          "value": "spearman"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "access_control_inventory_item",
+              "hash": 8980337857508269693,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": "generic_inventory_item_owned_by_base_game"
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": "generic_inventory_item"
+                }
+              ]
+            },
+            {
+              "key": "speech",
+              "hash": 9085160013108660027,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "intel_speaker_code",
+                  "hash": 1698290602857324146,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "race_code",
+                  "hash": 5148434235404744297,
+                  "kind": "CString",
+                  "value": "no_race"
+                },
+                {
+                  "key": "music_race_code",
+                  "hash": 12395069706342599231,
+                  "kind": "CString",
+                  "value": "no_race"
+                },
+                {
+                  "key": "ally_intel_speaker_code",
+                  "hash": 17517450045874098258,
+                  "kind": "CString",
+                  "value": "smally"
+                }
+              ]
+            },
+            {
+              "key": "video",
+              "hash": 9843725486829139867,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "radial_pattern",
+              "hash": 9884975684982644806,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "statemodel_schema",
+              "hash": 10085661483803089634,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": "5fe8767cca3a4e649e20c9527cf014ec:berbers_player"
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": "statemodel_schema"
+                }
+              ]
+            },
+            {
+              "key": "telemetry_prefix",
+              "hash": 10165207896957052764,
+              "kind": "CString",
+              "value": "Garrison_berbers"
+            },
+            {
+              "key": "multiplayer",
+              "hash": 10390661812656628390,
+              "kind": "Boolean",
+              "value": true
+            },
+            {
+              "key": "store_item",
+              "hash": 10927937194649070515,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": "blank"
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": "thq_store"
+                }
+              ]
+            },
+            {
+              "key": "image_small",
+              "hash": 11258497043478678718,
+              "kind": "CString",
+              "value": "garrison\\berbers\\presentation_011\\flag_loading"
+            },
+            {
+              "key": "blueprint_archetypes",
+              "hash": 11675021394424011665,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "ship_archer",
+                  "hash": 828382409929673702,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_naval_light_combat_ship_2_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "ship_scout",
+                  "hash": 1216513356518413208,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_naval_scout_2_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "mining_camp",
+                  "hash": 1713445915318762795,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_econ_mining_camp_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "farm",
+                  "hash": 1785444542901164677,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "building_resource_farm_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "stable",
+                  "hash": 1864060030050598856,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_unit_cavalry_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "ship_warship",
+                  "hash": 1909307202166863731,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_naval_combat_warship_4_abb"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "springald",
+                  "hash": 2754295476181839963,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_springald_3_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "ship_transport",
+                  "hash": 3002972041996794053,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_naval_transport_ship_2_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "ship_trade",
+                  "hash": 3054935343978474599,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_naval_trade_ship_3_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "ribauldequin",
+                  "hash": 3226094046501498311,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_ribauldequin_4_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "trader",
+                  "hash": 4163958946236729321,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_trade_cart_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "mangonel",
+                  "hash": 4201113918117864384,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_mangonel_3_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "siege_tower",
+                  "hash": 5344509404898484295,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_siege_tower_3_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "blacksmith",
+                  "hash": 5446382854073183230,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_tech_unit_infantry_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "bombard",
+                  "hash": 5687843241820630910,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_bombard_4_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "scout",
+                  "hash": 5711780312670785067,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_scout_1_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "stone_tower",
+                  "hash": 6346595923600152652,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "building_defense_tower_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "villager",
+                  "hash": 6379326656120924104,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "stone_gate",
+                  "hash": 6527855699332590931,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "building_defense_wall_gate_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "knight",
+                  "hash": 6704815860873605052,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_knight_3_song_cmp"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "archer",
+                  "hash": 6923567332010508926,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_archer_2_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "spearman",
+                  "hash": 6963793588412644495,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:unit_spearman_tuareg_1_ber"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "ship_fishing",
+                  "hash": 7104588766347800104,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_naval_fishing_boat_2_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "barracks",
+                  "hash": 7287438413729502302,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_unit_infantry_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "siege_workshop",
+                  "hash": 7423949296741168035,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_unit_siege_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "market",
+                  "hash": 7449837191176493628,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_econ_market_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "palisade_gate",
+                  "hash": 7606549591313667156,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "building_defense_palisade_gate_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "trebuchet",
+                  "hash": 7721861451691406805,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_trebuchet_4_cw_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "culverin",
+                  "hash": 7875863914795693403,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_culverin_4_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "town_center_capital",
+                  "hash": 8121047756432671800,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_town_center_capital_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "horseman",
+                  "hash": 8436344742318449095,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_horseman_2_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "handcannon",
+                  "hash": 8593768430689744406,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_handcannon_4_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "ship_incendiary",
+                  "hash": 8715752673328194167,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_naval_fireship_3_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "palisade_wall",
+                  "hash": 8976255681175771416,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "building_defense_palisade_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "dock",
+                  "hash": 9610442147374991912,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_unit_naval_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "wonder",
+                  "hash": 10224797281435887756,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_wonder_age4_great_mosque_control_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "university",
+                  "hash": 10373765794254591409,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_tech_university_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "arsenal",
+                  "hash": 11201265201418472477,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": ""
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "archery_range",
+                  "hash": 12482555785339672203,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_unit_ranged_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "keep",
+                  "hash": 12604844538874832744,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_defense_keep_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "ram",
+                  "hash": 12623671389574155703,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_ram_3_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "manatarms",
+                  "hash": 12939912314792131083,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": ""
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "monastery",
+                  "hash": 13475456141037418105,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_unit_religious_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "vps_farm",
+                  "hash": 14747301718188551087,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "building_resource_farm_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "monk",
+                  "hash": 14963910028726557590,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_monk_3_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "lumber_camp",
+                  "hash": 15283420349048384689,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_econ_wood_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "town_center",
+                  "hash": 16204311934763182488,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_town_center_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "ship_springald",
+                  "hash": 16344874239817703271,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_naval_combat_ship_2_abb"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "outpost",
+                  "hash": 16764020141636266636,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_defense_outpost_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "house",
+                  "hash": 16975418193418657585,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_house_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "stone_wall",
+                  "hash": 17198929067248377126,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "building_defense_wall_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                },
+                {
+                  "key": "crossbowman",
+                  "hash": 17352020535455016706,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:unit_masmuda_cb_2_ber"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "mill",
+                  "hash": 18232298059568030642,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_econ_food_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "video_small",
+              "hash": 12116055159015566160,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "color",
+              "hash": 12237506826373861897,
+              "kind": "Int",
+              "value": -2001357387
+            },
+            {
+              "key": "pattern",
+              "hash": 12550548482505490736,
+              "kind": "CString",
+              "value": "garrison\\berbers\\presentation_011\\flag_pattern"
+            },
+            {
+              "key": "tile_height",
+              "hash": 12653812828664160750,
+              "kind": "Int",
+              "value": 160
+            },
+            {
+              "key": "xbox_landmark_icon",
+              "hash": 13027623183470990153,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "mastery_flag",
+              "hash": 13032413800126748971,
+              "kind": "CString",
+              "value": "garrison\\berbers\\presentation_011\\flag_mastery"
+            },
+            {
+              "key": "path_name",
+              "hash": 13538524835871202829,
+              "kind": "CString",
+              "value": "berbers"
+            },
+            {
+              "key": "supports_aqueducts",
+              "hash": 13821127502194274687,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "flag_icon",
+              "hash": 13989996463529014539,
+              "kind": "CString",
+              "value": "garrison\\berbers\\presentation_011\\flag_fade"
+            },
+            {
+              "key": "army",
+              "hash": 14182971207479873054,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "empire_wars",
+                  "hash": 519316137256763478,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": ""
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "army"
+                    }
+                  ]
+                },
+                {
+                  "key": "king_of_the_hill",
+                  "hash": 1426266627826502264,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": ""
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "army"
+                    }
+                  ]
+                },
+                {
+                  "key": "seasons_feast",
+                  "hash": 7875540315297270200,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": ""
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "army"
+                    }
+                  ]
+                },
+                {
+                  "key": "nomad",
+                  "hash": 10115716751013084731,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": ""
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "army"
+                    }
+                  ]
+                },
+                {
+                  "key": "rogue_mode",
+                  "hash": 10927570803281762796,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": ""
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "army"
+                    }
+                  ]
+                },
+                {
+                  "key": "hallows_hearth",
+                  "hash": 15292179286525504955,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": ""
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "army"
+                    }
+                  ]
+                },
+                {
+                  "key": "standard",
+                  "hash": 15958539097120149879,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:berbers_standard"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "army"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "resource_gatherer_blueprints",
+              "hash": 14389075694156526388,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "resource_gatherer_blueprint",
+                  "hash": 13559333146616508623,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "ebps"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "naval_gatherer_blueprint",
+              "hash": 14841919462154022452,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_naval_fishing_boat_2_mal"
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": "ebps"
+                }
+              ]
+            },
+            {
+              "key": "store_priority",
+              "hash": 14857794166429338629,
+              "kind": "Int",
+              "value": 0
+            },
+            {
+              "key": "image",
+              "hash": 15971349184263663217,
+              "kind": "CString",
+              "value": "garrison\\berbers\\presentation_011\\flag_loading"
+            },
+            {
+              "key": "description",
+              "hash": 16000878188207498339,
+              "kind": "LocString",
+              "value": "$5fe8767cca3a4e649e20c9527cf014ec:5001"
+            },
+            {
+              "key": "default_army_slot_layout",
+              "hash": 16118156416546554748,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": "5fe8767cca3a4e649e20c9527cf014ec:berbers_layout"
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": "army_slot_layout"
+                }
+              ]
+            },
+            {
+              "key": "inventory_item",
+              "hash": 16762412460254493655,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "search_tags",
+                  "hash": 1878212433285343959,
+                  "kind": "List",
+                  "value": []
+                },
+                {
+                  "key": "required_level",
+                  "hash": 4029297207447887390,
+                  "kind": "Int",
+                  "value": 1
+                },
+                {
+                  "key": "droppable",
+                  "hash": 5301666385515115586,
+                  "kind": "Boolean",
+                  "value": true
+                },
+                {
+                  "key": "inventory_item_attributes",
+                  "hash": 5998857030399822055,
+                  "kind": "List",
+                  "value": []
+                },
+                {
+                  "key": "$REF",
+                  "hash": 6998867517914059163,
+                  "kind": "CString",
+                  "value": "inventory_item"
+                },
+                {
+                  "key": "inventory_item_equip_modifiers",
+                  "hash": 7917824378913597848,
+                  "kind": "List",
+                  "value": []
+                },
+                {
+                  "key": "races",
+                  "hash": 9457113125491289757,
+                  "kind": "List",
+                  "value": []
+                },
+                {
+                  "key": "default_metadata",
+                  "hash": 10992649956153883606,
+                  "kind": "List2",
+                  "value": []
+                },
+                {
+                  "key": "inventory_item_categories",
+                  "hash": 14608112296403903366,
+                  "kind": "List",
+                  "value": []
+                },
+                {
+                  "key": "server_id",
+                  "hash": 15047289045282941900,
+                  "kind": "Int",
+                  "value": 0
+                },
+                {
+                  "key": "inventory_item_slots",
+                  "hash": 15096128641582150198,
+                  "kind": "List2",
+                  "value": []
+                },
+                {
+                  "key": "level_table",
+                  "hash": 16298039077679004786,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": ""
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": ""
+                    }
+                  ]
+                },
+                {
+                  "key": "ui_priority",
+                  "hash": 17216969559225366552,
+                  "kind": "Int",
+                  "value": 0
+                },
+                {
+                  "key": "inventory_item_equip_requirement",
+                  "hash": 18433947741504748740,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "$REF",
+                      "hash": 6998867517914059163,
+                      "kind": "CString",
+                      "value": "inventory_item_requirements\\requirements\\requirement_none"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "ui_priority",
+              "hash": 17216969559225366552,
+              "kind": "Int",
+              "value": 1001
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

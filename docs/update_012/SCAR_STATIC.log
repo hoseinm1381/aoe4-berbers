@@ -1,0 +1,66 @@
+F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\source\scar\berber_scripted_speech.scar
+  WARNING sgroup-lifetime:150: Temporary squad group `group` from `Player_GetSquads` is not visibly destroyed.
+  WARNING unknown-call:68: Call `Rule_RemoveSquadEvent` is absent from official API/source evidence and local definitions.
+  WARNING unknown-call:59: Call `audio.play` is absent from official API/source evidence and local definitions.
+  WARNING unknown-call:143: Call `audio.pulse` is absent from official API/source evidence and local definitions.
+  WARNING unknown-call:194: Call `audio.session` is absent from official API/source evidence and local definitions.
+  WARNING unknown-call:206: Call `audio.stop` is absent from official API/source evidence and local definitions.
+  Summary: 0 error(s), 6 warning(s)
+F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\source\scar\berber_voice_bank.scar
+  OK: no static diagnostics
+F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\source\scar\inflence_system.scar
+  OK: no static diagnostics
+F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\source\scar\buildings\alliance_economic_bonus.scar
+  OK: no static diagnostics
+F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\source\scar\buildings\almohad_grand_keep.scar
+  OK: no static diagnostics
+F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\source\scar\buildings\berber_landmark_visual_precache.scar
+  OK: no static diagnostics
+F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\source\scar\buildings\great_mosque_of_tlemcen.scar
+  OK: no static diagnostics
+F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\source\scar\buildings\madrasa_fez.scar
+  OK: no static diagnostics
+F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\source\scar\buildings\malian_house.scar
+  OK: no static diagnostics
+F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\source\scar\buildings\marrakech.scar
+  OK: no static diagnostics
+F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\source\scar\buildings\tent_ui.scar
+  OK: no static diagnostics
+F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\source\scar\buildings\tribal_tent.scar
+  OK: no static diagnostics
+F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\source\scar\garrison\garrison.scar
+  WARNING unknown-call:99: Call `blob:byte` is absent from official API/source evidence and local definitions.
+  WARNING unknown-call:83: Call `blob:sub` is absent from official API/source evidence and local definitions.
+  WARNING unknown-call:187: Call `key:match` is absent from official API/source evidence and local definitions.
+  WARNING unknown-call:47: Call `schar` is absent from official API/source evidence and local definitions.
+  WARNING unknown-call:82: Call `sunpack` is absent from official API/source evidence and local definitions.
+  Summary: 0 error(s), 5 warning(s)
+F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\source\scar\music\berber_music.scar
+  WARNING unknown-call:76: Call `BM_audio.stopBed` is absent from official API/source evidence and local definitions.
+  Summary: 0 error(s), 1 warning(s)
+F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\source\scar\music\berber_music_catalog.scar
+  OK: no static diagnostics
+F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\source\scar\music\berber_music_policy.scar
+  OK: no static diagnostics
+F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\source\scar\passive_bonus\enduring_generations.scar
+  ERROR lifecycle-missing: Registered module `BerbersEnduringGenerations` lacks callbacks: BerbersEnduringGenerations_OnInit, BerbersEnduringGenerations_Start.
+  Summary: 1 error(s), 0 warning(s)
+F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\source\scar\passive_bonus\nomadic_trade_network.scar
+  ERROR lifecycle-missing: Registered module `BerbersNomadicTrade` lacks callbacks: BerbersNomadicTrade_OnInit, BerbersNomadicTrade_Start.
+  Summary: 1 error(s), 0 warning(s)
+F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\source\scar\units\saharan_trader.scar
+  OK: no static diagnostics
+F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\source\scar\units\sanhaja_buff.scar
+  OK: no static diagnostics
+F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\source\scar\units\tribal_camel_archer.scar
+  OK: no static diagnostics
+F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\source\scar\units\tuareg_q_art_guard_trial.scar
+  OK: no static diagnostics
+F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\source\scar\units\tuareg_voice_profile.scar
+  OK: no static diagnostics
+F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\source\scar\units\zenata_lancer.scar
+  OK: no static diagnostics
+F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\source\scar\garrison\berbers\dispatcher.scar
+  WARNING sgroup-lifetime:35: Temporary squad group `squads` from `Player_GetSquads` is not visibly destroyed.
+  WARNING sgroup-count-despawned:36: `SGroup_Count(squads)` includes despawned squads; use `SGroup_CountSpawned` when only active units should count.
+  Summary: 0 error(s), 2 warning(s)

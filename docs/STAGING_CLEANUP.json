@@ -1,0 +1,42 @@
+{
+  "owner": "5fe8767c-ca3a-4e64-9e20-c9527cf014ec",
+  "version": "0.1.2",
+  "mode": "applied",
+  "targets": [
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\output\\current\\prepared",
+      "files": 294,
+      "logical_bytes": 5643248
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\output\\current\\delivery",
+      "files": 6,
+      "logical_bytes": 1505572456
+    },
+    {
+      "path": "C:\\Users\\RS\\AppData\\Local\\Temp\\garrison-independent-builds\\5fe8767c-ca3a-4e64-9e20-c9527cf014ec\\current",
+      "files": 5722,
+      "logical_bytes": 2894999693
+    },
+    {
+      "path": "C:\\Users\\RS\\AppData\\Local\\Temp\\garrison-independent-builds\\5fe8767c-ca3a-4e64-9e20-c9527cf014ec\\package-current",
+      "files": 4,
+      "logical_bytes": 582589089
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tools\\__pycache__",
+      "files": 3,
+      "logical_bytes": 42246
+    },
+    {
+      "path": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\tests\\__pycache__",
+      "files": 1,
+      "logical_bytes": 12696
+    }
+  ],
+  "logical_bytes": 4988859428,
+  "zip_sha256_before": "8989be629c15a281b0b2523f1195f6734ead3763d4f47502feb8371a0cd140a7",
+  "native_inputs_and_master_indexes_unchanged": true,
+  "release_and_source_inputs": "preserved",
+  "zip_sha256_after": "8989be629c15a281b0b2523f1195f6734ead3763d4f47502feb8371a0cd140a7"
+}

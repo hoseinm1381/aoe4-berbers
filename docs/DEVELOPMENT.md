@@ -1,3 +1,14 @@
+# Current 0.1.1 development update
+
+Read UPDATE_011.md first. Use `python -B tools/build.py --replace-current`
+for the one current build/ZIP. The guarded builder replaces only previously
+verified staging after preserving the tested player ZIP in archives/.
+The active update allowlist is source/update-011-policy.json, compared with
+docs/update_011/baseline-members.json.gz. Older allowlists below are history.
+New presentation sources and recook entrypoints are documented in UPDATE_011.md.
+No push, tag, installation or publication until acceptance and separate manual
+instruction. All four projects rebuild from their own repository files.
+
 # Current source and rebuild workflow
 
 ## Retained source
@@ -30,7 +41,7 @@ Python ABI. Set GARRISON_EXTENSION if its installation differs. Run:
 
 ```powershell
 python tools/inputs.py verify
-python tools/build.py --output output/current
+python -B tools/build.py --replace-current
 ```
 
 Choose a fresh output directory. The build encodes tables, collects current

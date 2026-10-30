@@ -1,5 +1,5 @@
 {
-  "schema": "berbers.native-table/v1",
+  "schema": "garrison.native-table/v1",
   "version": 4,
   "platform": 1,
   "chunks": [
@@ -1394,7 +1394,7 @@
                   "key": "background_image",
                   "hash": 9112145942756418360,
                   "kind": "CString",
-                  "value": "garrison\\berbers\\presentation\\flag_original"
+                  "value": "garrison\\berbers\\presentation_011\\flag_loading"
                 },
                 {
                   "key": "global_traits_summary",
@@ -1435,7 +1435,7 @@
                           "key": "icon",
                           "hash": 5608386435356037158,
                           "kind": "CString",
-                          "value": "berbers"
+                          "value": "tent"
                         },
                         {
                           "key": "exclude_from_pc",
@@ -1447,13 +1447,13 @@
                           "key": "description",
                           "hash": 16000878188207498339,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5005"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5022"
                         },
                         {
                           "key": "title",
                           "hash": 16054850510092171682,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5004"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5023"
                         }
                       ]
                     },
@@ -1491,7 +1491,7 @@
                           "key": "icon",
                           "hash": 5608386435356037158,
                           "kind": "CString",
-                          "value": "garrison\\berbers\\presentation\\flag_list_small_t3"
+                          "value": "tent"
                         },
                         {
                           "key": "exclude_from_pc",
@@ -1503,13 +1503,13 @@
                           "key": "description",
                           "hash": 16000878188207498339,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5011"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5025"
                         },
                         {
                           "key": "title",
                           "hash": 16054850510092171682,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5010"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5024"
                         }
                       ]
                     },
@@ -1547,7 +1547,7 @@
                           "key": "icon",
                           "hash": 5608386435356037158,
                           "kind": "CString",
-                          "value": "garrison\\berbers\\presentation\\flag_list_small_t3"
+                          "value": "saharan_trader"
                         },
                         {
                           "key": "exclude_from_pc",
@@ -1559,13 +1559,13 @@
                           "key": "description",
                           "hash": 16000878188207498339,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5013"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5027"
                         },
                         {
                           "key": "title",
                           "hash": 16054850510092171682,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5012"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5026"
                         }
                       ]
                     },
@@ -1603,7 +1603,7 @@
                           "key": "icon",
                           "hash": 5608386435356037158,
                           "kind": "CString",
-                          "value": "garrison\\berbers\\presentation\\flag_list_small_t3"
+                          "value": "tent"
                         },
                         {
                           "key": "exclude_from_pc",
@@ -1615,13 +1615,13 @@
                           "key": "description",
                           "hash": 16000878188207498339,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5015"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5029"
                         },
                         {
                           "key": "title",
                           "hash": 16054850510092171682,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5014"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5028"
                         }
                       ]
                     },
@@ -1659,7 +1659,7 @@
                           "key": "icon",
                           "hash": 5608386435356037158,
                           "kind": "CString",
-                          "value": "garrison\\berbers\\presentation\\flag_list_small_t3"
+                          "value": "saharan_trader"
                         },
                         {
                           "key": "exclude_from_pc",
@@ -1671,13 +1671,13 @@
                           "key": "description",
                           "hash": 16000878188207498339,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5017"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5031"
                         },
                         {
                           "key": "title",
                           "hash": 16054850510092171682,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5016"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5030"
                         }
                       ]
                     },
@@ -1715,7 +1715,7 @@
                           "key": "icon",
                           "hash": 5608386435356037158,
                           "kind": "CString",
-                          "value": "garrison\\berbers\\presentation\\flag_list_small_t3"
+                          "value": "tuareg1"
                         },
                         {
                           "key": "exclude_from_pc",
@@ -1727,13 +1727,13 @@
                           "key": "description",
                           "hash": 16000878188207498339,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5019"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5033"
                         },
                         {
                           "key": "title",
                           "hash": 16054850510092171682,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5018"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5032"
                         }
                       ]
                     },
@@ -1771,7 +1771,7 @@
                           "key": "icon",
                           "hash": 5608386435356037158,
                           "kind": "CString",
-                          "value": "garrison\\berbers\\presentation\\flag_list_small_t3"
+                          "value": "tribal_reforms"
                         },
                         {
                           "key": "exclude_from_pc",
@@ -1783,13 +1783,69 @@
                           "key": "description",
                           "hash": 16000878188207498339,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5021"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5035"
                         },
                         {
                           "key": "title",
                           "hash": 16054850510092171682,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5020"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5034"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "trait",
+                      "hash": 13916795834556133805,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "description_formatter",
+                          "hash": 3052811476727687764,
+                          "kind": "List",
+                          "value": [
+                            {
+                              "key": "$REF",
+                              "hash": 6998867517914059163,
+                              "kind": "CString",
+                              "value": ""
+                            },
+                            {
+                              "key": "formatter",
+                              "hash": 16764647726920512531,
+                              "kind": "Int",
+                              "value": 0
+                            },
+                            {
+                              "key": "formatter_arguments",
+                              "hash": 17754659973238456016,
+                              "kind": "List2",
+                              "value": []
+                            }
+                          ]
+                        },
+                        {
+                          "key": "icon",
+                          "hash": 5608386435356037158,
+                          "kind": "CString",
+                          "value": "tuareg1"
+                        },
+                        {
+                          "key": "exclude_from_pc",
+                          "hash": 7246380005931804245,
+                          "kind": "Boolean",
+                          "value": false
+                        },
+                        {
+                          "key": "description",
+                          "hash": 16000878188207498339,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5037"
+                        },
+                        {
+                          "key": "title",
+                          "hash": 16054850510092171682,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5036"
                         }
                       ]
                     }
@@ -2898,7 +2954,7 @@
                   "key": "background_image",
                   "hash": 9112145942756418360,
                   "kind": "CString",
-                  "value": "garrison\\berbers\\presentation\\flag_original"
+                  "value": "garrison\\berbers\\presentation_011\\flag_loading"
                 },
                 {
                   "key": "global_traits_summary",
@@ -2927,7 +2983,7 @@
                           "key": "icon",
                           "hash": 5608386435356037158,
                           "kind": "CString",
-                          "value": "berbers"
+                          "value": "tent"
                         },
                         {
                           "key": "exclude_from_pc",
@@ -2939,13 +2995,13 @@
                           "key": "description",
                           "hash": 16000878188207498339,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5005"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5038"
                         },
                         {
                           "key": "title",
                           "hash": 16054850510092171682,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5004"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5039"
                         }
                       ]
                     },
@@ -2971,7 +3027,7 @@
                           "key": "icon",
                           "hash": 5608386435356037158,
                           "kind": "CString",
-                          "value": "garrison\\berbers\\presentation\\flag_list_small_t3"
+                          "value": "tent"
                         },
                         {
                           "key": "exclude_from_pc",
@@ -2983,13 +3039,13 @@
                           "key": "description",
                           "hash": 16000878188207498339,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5011"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5041"
                         },
                         {
                           "key": "title",
                           "hash": 16054850510092171682,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5010"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5040"
                         }
                       ]
                     },
@@ -3015,7 +3071,7 @@
                           "key": "icon",
                           "hash": 5608386435356037158,
                           "kind": "CString",
-                          "value": "garrison\\berbers\\presentation\\flag_list_small_t3"
+                          "value": "saharan_trader"
                         },
                         {
                           "key": "exclude_from_pc",
@@ -3027,13 +3083,13 @@
                           "key": "description",
                           "hash": 16000878188207498339,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5013"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5043"
                         },
                         {
                           "key": "title",
                           "hash": 16054850510092171682,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5012"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5042"
                         }
                       ]
                     },
@@ -3059,7 +3115,7 @@
                           "key": "icon",
                           "hash": 5608386435356037158,
                           "kind": "CString",
-                          "value": "garrison\\berbers\\presentation\\flag_list_small_t3"
+                          "value": "tent"
                         },
                         {
                           "key": "exclude_from_pc",
@@ -3071,13 +3127,13 @@
                           "key": "description",
                           "hash": 16000878188207498339,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5015"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5045"
                         },
                         {
                           "key": "title",
                           "hash": 16054850510092171682,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5014"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5044"
                         }
                       ]
                     },
@@ -3103,7 +3159,7 @@
                           "key": "icon",
                           "hash": 5608386435356037158,
                           "kind": "CString",
-                          "value": "garrison\\berbers\\presentation\\flag_list_small_t3"
+                          "value": "saharan_trader"
                         },
                         {
                           "key": "exclude_from_pc",
@@ -3115,13 +3171,13 @@
                           "key": "description",
                           "hash": 16000878188207498339,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5017"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5047"
                         },
                         {
                           "key": "title",
                           "hash": 16054850510092171682,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5016"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5046"
                         }
                       ]
                     },
@@ -3147,7 +3203,7 @@
                           "key": "icon",
                           "hash": 5608386435356037158,
                           "kind": "CString",
-                          "value": "garrison\\berbers\\presentation\\flag_list_small_t3"
+                          "value": "tuareg1"
                         },
                         {
                           "key": "exclude_from_pc",
@@ -3159,13 +3215,13 @@
                           "key": "description",
                           "hash": 16000878188207498339,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5019"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5049"
                         },
                         {
                           "key": "title",
                           "hash": 16054850510092171682,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5018"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5048"
                         }
                       ]
                     },
@@ -3191,7 +3247,7 @@
                           "key": "icon",
                           "hash": 5608386435356037158,
                           "kind": "CString",
-                          "value": "garrison\\berbers\\presentation\\flag_list_small_t3"
+                          "value": "tribal_reforms"
                         },
                         {
                           "key": "exclude_from_pc",
@@ -3203,13 +3259,57 @@
                           "key": "description",
                           "hash": 16000878188207498339,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5021"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5051"
                         },
                         {
                           "key": "title",
                           "hash": 16054850510092171682,
                           "kind": "LocString",
-                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5020"
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5050"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "trait",
+                      "hash": 13916795834556133805,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "description_formatter",
+                          "hash": 3052811476727687764,
+                          "kind": "List",
+                          "value": [
+                            {
+                              "key": "$REF",
+                              "hash": 6998867517914059163,
+                              "kind": "CString",
+                              "value": ""
+                            }
+                          ]
+                        },
+                        {
+                          "key": "icon",
+                          "hash": 5608386435356037158,
+                          "kind": "CString",
+                          "value": "tuareg1"
+                        },
+                        {
+                          "key": "exclude_from_pc",
+                          "hash": 7246380005931804245,
+                          "kind": "Boolean",
+                          "value": false
+                        },
+                        {
+                          "key": "description",
+                          "hash": 16000878188207498339,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5053"
+                        },
+                        {
+                          "key": "title",
+                          "hash": 16054850510092171682,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5052"
                         }
                       ]
                     }

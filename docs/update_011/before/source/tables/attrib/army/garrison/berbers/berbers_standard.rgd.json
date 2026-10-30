@@ -1,0 +1,3323 @@
+{
+  "schema": "berbers.native-table/v1",
+  "version": 4,
+  "platform": 1,
+  "chunks": [
+    {
+      "kind": "44415441",
+      "id": "41454744",
+      "version": 3,
+      "name": "",
+      "body": ""
+    },
+    {
+      "kind": "44415441",
+      "id": "4b455953",
+      "version": 1,
+      "name": "",
+      "body": ""
+    }
+  ],
+  "keys": [
+    [
+      8529826256463028745,
+      "instance_version"
+    ],
+    [
+      4430693559278735917,
+      "default"
+    ],
+    [
+      12857430874487942492,
+      "army_bag"
+    ],
+    [
+      6850750339027267771,
+      "actions"
+    ],
+    [
+      9040175679803795685,
+      "ability_ally_reinforcement_action_name"
+    ],
+    [
+      17298705907744740460,
+      "ability_self_reinforcement_action_name"
+    ],
+    [
+      12663917209101577432,
+      "ally_attack_here_action_name"
+    ],
+    [
+      7742937584940462932,
+      "ally_capture_here_action_name"
+    ],
+    [
+      4388630951854668514,
+      "ally_defend_here_action_name"
+    ],
+    [
+      4533267440829134935,
+      "fx_rally_point_action_name"
+    ],
+    [
+      17944140506394263733,
+      "self_attack_here_action_name"
+    ],
+    [
+      12300266346757837988,
+      "self_capture_here_action_name"
+    ],
+    [
+      6533227281953429500,
+      "self_defend_here_action_name"
+    ],
+    [
+      14818610683203305702,
+      "self_question_here_action_name"
+    ],
+    [
+      10003774323033733793,
+      "ally_question_here_action_name"
+    ],
+    [
+      192763604375205003,
+      "fx_rally_point_line_color_move"
+    ],
+    [
+      11790049763725101252,
+      "fx_rally_point_line_color_special"
+    ],
+    [
+      15318048765700546503,
+      "fx_rally_point_action_name_special"
+    ],
+    [
+      11983003209494376969,
+      "fx_rally_point_action_name_attack"
+    ],
+    [
+      13460474367502566118,
+      "fx_rally_point_line_color_attack"
+    ],
+    [
+      5641016865639957240,
+      "casualties"
+    ],
+    [
+      12987036009784253918,
+      "guaranteed_casualty_per_number_of_deaths"
+    ],
+    [
+      11971863355469936312,
+      "max_rescued_casualty_count"
+    ],
+    [
+      17881745333792586627,
+      "resource_income_cap"
+    ],
+    [
+      5342812467725438597,
+      "action"
+    ],
+    [
+      10534165980232519832,
+      "popcap"
+    ],
+    [
+      15903017239201685541,
+      "command"
+    ],
+    [
+      1642648486008160419,
+      "food"
+    ],
+    [
+      16414556571852284563,
+      "wood"
+    ],
+    [
+      11136004903374842374,
+      "stone"
+    ],
+    [
+      7631488968183620829,
+      "gold"
+    ],
+    [
+      8115382159876774742,
+      "militia_hre"
+    ],
+    [
+      15228413151750088298,
+      "merc_byz"
+    ],
+    [
+      8097638336194032628,
+      "race_population_cap_table"
+    ],
+    [
+      15350012674818616237,
+      "base_medic_cap"
+    ],
+    [
+      5962064702370346370,
+      "base_personnel_cap"
+    ],
+    [
+      12068556363464972917,
+      "base_vehicle_cap"
+    ],
+    [
+      17545852957777273444,
+      "max_medic_cap"
+    ],
+    [
+      1058004569324643710,
+      "max_personnel_cap"
+    ],
+    [
+      9454132239697477300,
+      "max_vehicle_cap"
+    ],
+    [
+      3007493785523771989,
+      "abilities"
+    ],
+    [
+      7777703697499122582,
+      "resource_max_cap"
+    ],
+    [
+      6382170302430851331,
+      "badge_path"
+    ],
+    [
+      1504249059560524224,
+      "production_buildings"
+    ],
+    [
+      11247577602451073690,
+      "ai_production_info"
+    ],
+    [
+      15507605113054926962,
+      "unlocking_upgrade_list"
+    ],
+    [
+      18313902984438898865,
+      "unlocking_upgrade_info"
+    ],
+    [
+      17285589515027571339,
+      "upgrade_pbg"
+    ],
+    [
+      5464984021694833596,
+      "$PBGNAME"
+    ],
+    [
+      1238668035833122403,
+      "$PBGMAP"
+    ],
+    [
+      17986652780964113800,
+      "unlocked_ability"
+    ],
+    [
+      656814823841112363,
+      "unlocked_building"
+    ],
+    [
+      6840358157035518507,
+      "upgraded_squads"
+    ],
+    [
+      1777246223927820731,
+      "upgraded_squad"
+    ],
+    [
+      10377204725069695913,
+      "loadouts"
+    ],
+    [
+      10139036114517202503,
+      "team_size_point_resource_multiplier"
+    ],
+    [
+      6618598297376743662,
+      "starting_buildings"
+    ],
+    [
+      7574277026152915004,
+      "starting_building"
+    ],
+    [
+      844238073572502747,
+      "key"
+    ],
+    [
+      28317232665913232,
+      "building"
+    ],
+    [
+      16807551150121738591,
+      "player_upgrades"
+    ],
+    [
+      1912095146365119576,
+      "field_support_production_styles"
+    ],
+    [
+      12442523180987662008,
+      "resource_starting_amount"
+    ],
+    [
+      18290227144792845562,
+      "start_actions_statetree"
+    ],
+    [
+      6303958805802965870,
+      "upgrades"
+    ],
+    [
+      17418932639372614002,
+      "ui"
+    ],
+    [
+      12677296883170242410,
+      "global_traits_summary"
+    ],
+    [
+      13916795834556133805,
+      "trait"
+    ],
+    [
+      16054850510092171682,
+      "title"
+    ],
+    [
+      5608386435356037158,
+      "icon"
+    ],
+    [
+      3052811476727687764,
+      "description_formatter"
+    ],
+    [
+      17754659973238456016,
+      "formatter_arguments"
+    ],
+    [
+      13582802670765098745,
+      "int_value"
+    ],
+    [
+      16764647726920512531,
+      "formatter"
+    ],
+    [
+      6998867517914059163,
+      "$REF"
+    ],
+    [
+      7246380005931804245,
+      "exclude_from_pc"
+    ],
+    [
+      16000878188207498339,
+      "description"
+    ],
+    [
+      5766419656656821760,
+      "subheader"
+    ],
+    [
+      8966038374375327684,
+      "one_liner"
+    ],
+    [
+      9112145942756418360,
+      "background_image"
+    ],
+    [
+      14674881738934449885,
+      "difficulty"
+    ],
+    [
+      1403948969610875828,
+      "research_upgrade"
+    ],
+    [
+      92040228328029351,
+      "check_pop_cap_when_queuing_production_item"
+    ],
+    [
+      3461111721848345691,
+      "upkeep_per_pop_per_minute_override"
+    ],
+    [
+      3282543450421771665,
+      "starting_units"
+    ],
+    [
+      530463969022191344,
+      "squad"
+    ],
+    [
+      5397914236877036429,
+      "starting_units_spawner"
+    ],
+    [
+      16754085997871955485,
+      "spawn_positions"
+    ],
+    [
+      9998246259385464743,
+      "position_offset"
+    ],
+    [
+      13942860475667539970,
+      "x"
+    ],
+    [
+      10278709587161705105,
+      "y"
+    ],
+    [
+      4151179523438981444,
+      "starting_town"
+    ],
+    [
+      13005689997087892415,
+      "pbgid"
+    ],
+    [
+      14182368983149674761,
+      "parent_pbg"
+    ],
+    [
+      12536324260443616212,
+      "campaign"
+    ]
+  ],
+  "nodes": [
+    {
+      "key": "default",
+      "hash": 4430693559278735917,
+      "kind": "List",
+      "value": [
+        {
+          "key": "army_bag",
+          "hash": 12857430874487942492,
+          "kind": "List",
+          "value": [
+            {
+              "key": "check_pop_cap_when_queuing_production_item",
+              "hash": 92040228328029351,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "production_buildings",
+              "hash": 1504249059560524224,
+              "kind": "List2",
+              "value": []
+            },
+            {
+              "key": "field_support_production_styles",
+              "hash": 1912095146365119576,
+              "kind": "List2",
+              "value": []
+            },
+            {
+              "key": "abilities",
+              "hash": 3007493785523771989,
+              "kind": "List2",
+              "value": []
+            },
+            {
+              "key": "starting_units",
+              "hash": 3282543450421771665,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "squad",
+                  "hash": 530463969022191344,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_scout_1_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "squad",
+                  "hash": 530463969022191344,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "squad",
+                  "hash": 530463969022191344,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "squad",
+                  "hash": 530463969022191344,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "squad",
+                  "hash": 530463969022191344,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "squad",
+                  "hash": 530463969022191344,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "squad",
+                  "hash": 530463969022191344,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "squad",
+                  "hash": 530463969022191344,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "gaia_herdable_sheep"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "squad",
+                  "hash": 530463969022191344,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "gaia_herdable_sheep"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "squad",
+                  "hash": 530463969022191344,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "gaia_herdable_sheep_black"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "squad",
+                  "hash": 530463969022191344,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "gaia_herdable_sheep_brown"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "squad",
+                  "hash": 530463969022191344,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "gaia_herdable_sheep"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "upkeep_per_pop_per_minute_override",
+              "hash": 3461111721848345691,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "food",
+                  "hash": 1642648486008160419,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "action",
+                  "hash": 5342812467725438597,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "gold",
+                  "hash": 7631488968183620829,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "militia_hre",
+                  "hash": 8115382159876774742,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "popcap",
+                  "hash": 10534165980232519832,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "stone",
+                  "hash": 11136004903374842374,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "merc_byz",
+                  "hash": 15228413151750088298,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "command",
+                  "hash": 15903017239201685541,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "wood",
+                  "hash": 16414556571852284563,
+                  "kind": "Float",
+                  "value": 0.0
+                }
+              ]
+            },
+            {
+              "key": "starting_town",
+              "hash": 4151179523438981444,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "starting_units_spawner",
+              "hash": 5397914236877036429,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "$REF",
+                  "hash": 6998867517914059163,
+                  "kind": "CString",
+                  "value": "options\\spawn\\fixed_offset"
+                },
+                {
+                  "key": "spawn_positions",
+                  "hash": 16754085997871955485,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "position_offset",
+                      "hash": 9998246259385464743,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "y",
+                          "hash": 10278709587161705105,
+                          "kind": "Float",
+                          "value": 10.0
+                        },
+                        {
+                          "key": "x",
+                          "hash": 13942860475667539970,
+                          "kind": "Float",
+                          "value": -4.0
+                        }
+                      ]
+                    },
+                    {
+                      "key": "position_offset",
+                      "hash": 9998246259385464743,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "y",
+                          "hash": 10278709587161705105,
+                          "kind": "Float",
+                          "value": 0.0
+                        },
+                        {
+                          "key": "x",
+                          "hash": 13942860475667539970,
+                          "kind": "Float",
+                          "value": -2.200000047683716
+                        }
+                      ]
+                    },
+                    {
+                      "key": "position_offset",
+                      "hash": 9998246259385464743,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "y",
+                          "hash": 10278709587161705105,
+                          "kind": "Float",
+                          "value": -2.0
+                        },
+                        {
+                          "key": "x",
+                          "hash": 13942860475667539970,
+                          "kind": "Float",
+                          "value": -3.299999952316284
+                        }
+                      ]
+                    },
+                    {
+                      "key": "position_offset",
+                      "hash": 9998246259385464743,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "y",
+                          "hash": 10278709587161705105,
+                          "kind": "Float",
+                          "value": -2.0
+                        },
+                        {
+                          "key": "x",
+                          "hash": 13942860475667539970,
+                          "kind": "Float",
+                          "value": -1.0
+                        }
+                      ]
+                    },
+                    {
+                      "key": "position_offset",
+                      "hash": 9998246259385464743,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "y",
+                          "hash": 10278709587161705105,
+                          "kind": "Float",
+                          "value": -4.0
+                        },
+                        {
+                          "key": "x",
+                          "hash": 13942860475667539970,
+                          "kind": "Float",
+                          "value": -2.0
+                        }
+                      ]
+                    },
+                    {
+                      "key": "position_offset",
+                      "hash": 9998246259385464743,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "y",
+                          "hash": 10278709587161705105,
+                          "kind": "Float",
+                          "value": -4.0
+                        },
+                        {
+                          "key": "x",
+                          "hash": 13942860475667539970,
+                          "kind": "Float",
+                          "value": 0.0
+                        }
+                      ]
+                    },
+                    {
+                      "key": "position_offset",
+                      "hash": 9998246259385464743,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "y",
+                          "hash": 10278709587161705105,
+                          "kind": "Float",
+                          "value": -6.0
+                        },
+                        {
+                          "key": "x",
+                          "hash": 13942860475667539970,
+                          "kind": "Float",
+                          "value": -1.0
+                        }
+                      ]
+                    },
+                    {
+                      "key": "position_offset",
+                      "hash": 9998246259385464743,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "y",
+                          "hash": 10278709587161705105,
+                          "kind": "Float",
+                          "value": 1.5
+                        },
+                        {
+                          "key": "x",
+                          "hash": 13942860475667539970,
+                          "kind": "Float",
+                          "value": 0.0
+                        }
+                      ]
+                    },
+                    {
+                      "key": "position_offset",
+                      "hash": 9998246259385464743,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "y",
+                          "hash": 10278709587161705105,
+                          "kind": "Float",
+                          "value": 1.7999999523162842
+                        },
+                        {
+                          "key": "x",
+                          "hash": 13942860475667539970,
+                          "kind": "Float",
+                          "value": 0.4000000059604645
+                        }
+                      ]
+                    },
+                    {
+                      "key": "position_offset",
+                      "hash": 9998246259385464743,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "y",
+                          "hash": 10278709587161705105,
+                          "kind": "Float",
+                          "value": 2.0999999046325684
+                        },
+                        {
+                          "key": "x",
+                          "hash": 13942860475667539970,
+                          "kind": "Float",
+                          "value": 0.800000011920929
+                        }
+                      ]
+                    },
+                    {
+                      "key": "position_offset",
+                      "hash": 9998246259385464743,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "y",
+                          "hash": 10278709587161705105,
+                          "kind": "Float",
+                          "value": 2.4000000953674316
+                        },
+                        {
+                          "key": "x",
+                          "hash": 13942860475667539970,
+                          "kind": "Float",
+                          "value": 0.800000011920929
+                        }
+                      ]
+                    },
+                    {
+                      "key": "position_offset",
+                      "hash": 9998246259385464743,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "y",
+                          "hash": 10278709587161705105,
+                          "kind": "Float",
+                          "value": 2.4000000953674316
+                        },
+                        {
+                          "key": "x",
+                          "hash": 13942860475667539970,
+                          "kind": "Float",
+                          "value": 1.2000000476837158
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "casualties",
+              "hash": 5641016865639957240,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "max_rescued_casualty_count",
+                  "hash": 11971863355469936312,
+                  "kind": "Int",
+                  "value": 100
+                },
+                {
+                  "key": "guaranteed_casualty_per_number_of_deaths",
+                  "hash": 12987036009784253918,
+                  "kind": "Float",
+                  "value": 5.0
+                }
+              ]
+            },
+            {
+              "key": "upgrades",
+              "hash": 6303958805802965870,
+              "kind": "List2",
+              "value": []
+            },
+            {
+              "key": "badge_path",
+              "hash": 6382170302430851331,
+              "kind": "CString",
+              "value": "DATA:\\art\\armies\\west_german\\badges\\default_dif"
+            },
+            {
+              "key": "starting_buildings",
+              "hash": 6618598297376743662,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "starting_building",
+                  "hash": 7574277026152915004,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "building",
+                      "hash": 28317232665913232,
+                      "kind": "List2",
+                      "value": [
+                        {
+                          "key": "$PBGNAME",
+                          "hash": 5464984021694833596,
+                          "kind": "CString",
+                          "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_town_center_capital_mal"
+                        },
+                        {
+                          "key": "$PBGMAP",
+                          "hash": 1238668035833122403,
+                          "kind": "CString",
+                          "value": "ebps"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "key",
+                      "hash": 844238073572502747,
+                      "kind": "CString",
+                      "value": "default_mp"
+                    },
+                    {
+                      "key": "player_upgrades",
+                      "hash": 16807551150121738591,
+                      "kind": "List",
+                      "value": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "actions",
+              "hash": 6850750339027267771,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "fx_rally_point_line_color_move",
+                  "hash": 192763604375205003,
+                  "kind": "Int",
+                  "value": -1199616
+                },
+                {
+                  "key": "ally_defend_here_action_name",
+                  "hash": 4388630951854668514,
+                  "kind": "CString",
+                  "value": "UI/coh2_team_defend_here"
+                },
+                {
+                  "key": "fx_rally_point_action_name",
+                  "hash": 4533267440829134935,
+                  "kind": "CString",
+                  "value": "ui/command/rally_point_order_loop"
+                },
+                {
+                  "key": "self_defend_here_action_name",
+                  "hash": 6533227281953429500,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "ally_capture_here_action_name",
+                  "hash": 7742937584940462932,
+                  "kind": "CString",
+                  "value": "UI/coh2_team_capture_here"
+                },
+                {
+                  "key": "ability_ally_reinforcement_action_name",
+                  "hash": 9040175679803795685,
+                  "kind": "CString",
+                  "value": "UI/command/coh2_troop_deployment_flag"
+                },
+                {
+                  "key": "ally_question_here_action_name",
+                  "hash": 10003774323033733793,
+                  "kind": "CString",
+                  "value": "UI/coh2_team_question_here"
+                },
+                {
+                  "key": "fx_rally_point_line_color_special",
+                  "hash": 11790049763725101252,
+                  "kind": "Int",
+                  "value": -9653526
+                },
+                {
+                  "key": "fx_rally_point_action_name_attack",
+                  "hash": 11983003209494376969,
+                  "kind": "CString",
+                  "value": "ui/command/rally_point_order_loop_red"
+                },
+                {
+                  "key": "self_capture_here_action_name",
+                  "hash": 12300266346757837988,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "ally_attack_here_action_name",
+                  "hash": 12663917209101577432,
+                  "kind": "CString",
+                  "value": "UI/coh2_team_attack_here"
+                },
+                {
+                  "key": "fx_rally_point_line_color_attack",
+                  "hash": 13460474367502566118,
+                  "kind": "Int",
+                  "value": -48841
+                },
+                {
+                  "key": "self_question_here_action_name",
+                  "hash": 14818610683203305702,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "fx_rally_point_action_name_special",
+                  "hash": 15318048765700546503,
+                  "kind": "CString",
+                  "value": "ui/command/rally_point_order_loop_square"
+                },
+                {
+                  "key": "ability_self_reinforcement_action_name",
+                  "hash": 17298705907744740460,
+                  "kind": "CString",
+                  "value": "UI/command/coh2_troop_deployment_flag"
+                },
+                {
+                  "key": "self_attack_here_action_name",
+                  "hash": 17944140506394263733,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "resource_max_cap",
+              "hash": 7777703697499122582,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "food",
+                  "hash": 1642648486008160419,
+                  "kind": "Float",
+                  "value": 100000.0
+                },
+                {
+                  "key": "action",
+                  "hash": 5342812467725438597,
+                  "kind": "Float",
+                  "value": -1.0
+                },
+                {
+                  "key": "gold",
+                  "hash": 7631488968183620829,
+                  "kind": "Float",
+                  "value": 100000.0
+                },
+                {
+                  "key": "militia_hre",
+                  "hash": 8115382159876774742,
+                  "kind": "Float",
+                  "value": 100000.0
+                },
+                {
+                  "key": "popcap",
+                  "hash": 10534165980232519832,
+                  "kind": "Float",
+                  "value": 200.0
+                },
+                {
+                  "key": "stone",
+                  "hash": 11136004903374842374,
+                  "kind": "Float",
+                  "value": 100000.0
+                },
+                {
+                  "key": "merc_byz",
+                  "hash": 15228413151750088298,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "command",
+                  "hash": 15903017239201685541,
+                  "kind": "Float",
+                  "value": 10.0
+                },
+                {
+                  "key": "wood",
+                  "hash": 16414556571852284563,
+                  "kind": "Float",
+                  "value": 100000.0
+                }
+              ]
+            },
+            {
+              "key": "race_population_cap_table",
+              "hash": 8097638336194032628,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "max_personnel_cap",
+                  "hash": 1058004569324643710,
+                  "kind": "Float",
+                  "value": 200.0
+                },
+                {
+                  "key": "base_personnel_cap",
+                  "hash": 5962064702370346370,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "max_vehicle_cap",
+                  "hash": 9454132239697477300,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "base_vehicle_cap",
+                  "hash": 12068556363464972917,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "base_medic_cap",
+                  "hash": 15350012674818616237,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "max_medic_cap",
+                  "hash": 17545852957777273444,
+                  "kind": "Float",
+                  "value": 0.0
+                }
+              ]
+            },
+            {
+              "key": "team_size_point_resource_multiplier",
+              "hash": 10139036114517202503,
+              "kind": "List2",
+              "value": []
+            },
+            {
+              "key": "ai_production_info",
+              "hash": 11247577602451073690,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "loadouts",
+                  "hash": 10377204725069695913,
+                  "kind": "List",
+                  "value": []
+                },
+                {
+                  "key": "unlocking_upgrade_list",
+                  "hash": 15507605113054926962,
+                  "kind": "List2",
+                  "value": []
+                }
+              ]
+            },
+            {
+              "key": "resource_starting_amount",
+              "hash": 12442523180987662008,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "food",
+                  "hash": 1642648486008160419,
+                  "kind": "Float",
+                  "value": 200.0
+                },
+                {
+                  "key": "action",
+                  "hash": 5342812467725438597,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "gold",
+                  "hash": 7631488968183620829,
+                  "kind": "Float",
+                  "value": 100.0
+                },
+                {
+                  "key": "militia_hre",
+                  "hash": 8115382159876774742,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "popcap",
+                  "hash": 10534165980232519832,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "stone",
+                  "hash": 11136004903374842374,
+                  "kind": "Float",
+                  "value": 50.0
+                },
+                {
+                  "key": "merc_byz",
+                  "hash": 15228413151750088298,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "command",
+                  "hash": 15903017239201685541,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "wood",
+                  "hash": 16414556571852284563,
+                  "kind": "Float",
+                  "value": 200.0
+                }
+              ]
+            },
+            {
+              "key": "ui",
+              "hash": 17418932639372614002,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "research_upgrade",
+                  "hash": 1403948969610875828,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "subheader",
+                  "hash": 5766419656656821760,
+                  "kind": "LocString",
+                  "value": "$5fe8767cca3a4e649e20c9527cf014ec:5002"
+                },
+                {
+                  "key": "one_liner",
+                  "hash": 8966038374375327684,
+                  "kind": "LocString",
+                  "value": "$5fe8767cca3a4e649e20c9527cf014ec:5003"
+                },
+                {
+                  "key": "background_image",
+                  "hash": 9112145942756418360,
+                  "kind": "CString",
+                  "value": "garrison\\berbers\\presentation\\flag_original"
+                },
+                {
+                  "key": "global_traits_summary",
+                  "hash": 12677296883170242410,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "trait",
+                      "hash": 13916795834556133805,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "description_formatter",
+                          "hash": 3052811476727687764,
+                          "kind": "List",
+                          "value": [
+                            {
+                              "key": "$REF",
+                              "hash": 6998867517914059163,
+                              "kind": "CString",
+                              "value": ""
+                            },
+                            {
+                              "key": "formatter",
+                              "hash": 16764647726920512531,
+                              "kind": "Int",
+                              "value": 0
+                            },
+                            {
+                              "key": "formatter_arguments",
+                              "hash": 17754659973238456016,
+                              "kind": "List2",
+                              "value": []
+                            }
+                          ]
+                        },
+                        {
+                          "key": "icon",
+                          "hash": 5608386435356037158,
+                          "kind": "CString",
+                          "value": "berbers"
+                        },
+                        {
+                          "key": "exclude_from_pc",
+                          "hash": 7246380005931804245,
+                          "kind": "Boolean",
+                          "value": false
+                        },
+                        {
+                          "key": "description",
+                          "hash": 16000878188207498339,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5005"
+                        },
+                        {
+                          "key": "title",
+                          "hash": 16054850510092171682,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5004"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "trait",
+                      "hash": 13916795834556133805,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "description_formatter",
+                          "hash": 3052811476727687764,
+                          "kind": "List",
+                          "value": [
+                            {
+                              "key": "$REF",
+                              "hash": 6998867517914059163,
+                              "kind": "CString",
+                              "value": ""
+                            },
+                            {
+                              "key": "formatter",
+                              "hash": 16764647726920512531,
+                              "kind": "Int",
+                              "value": 0
+                            },
+                            {
+                              "key": "formatter_arguments",
+                              "hash": 17754659973238456016,
+                              "kind": "List2",
+                              "value": []
+                            }
+                          ]
+                        },
+                        {
+                          "key": "icon",
+                          "hash": 5608386435356037158,
+                          "kind": "CString",
+                          "value": "garrison\\berbers\\presentation\\flag_list_small_t3"
+                        },
+                        {
+                          "key": "exclude_from_pc",
+                          "hash": 7246380005931804245,
+                          "kind": "Boolean",
+                          "value": false
+                        },
+                        {
+                          "key": "description",
+                          "hash": 16000878188207498339,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5011"
+                        },
+                        {
+                          "key": "title",
+                          "hash": 16054850510092171682,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5010"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "trait",
+                      "hash": 13916795834556133805,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "description_formatter",
+                          "hash": 3052811476727687764,
+                          "kind": "List",
+                          "value": [
+                            {
+                              "key": "$REF",
+                              "hash": 6998867517914059163,
+                              "kind": "CString",
+                              "value": ""
+                            },
+                            {
+                              "key": "formatter",
+                              "hash": 16764647726920512531,
+                              "kind": "Int",
+                              "value": 0
+                            },
+                            {
+                              "key": "formatter_arguments",
+                              "hash": 17754659973238456016,
+                              "kind": "List2",
+                              "value": []
+                            }
+                          ]
+                        },
+                        {
+                          "key": "icon",
+                          "hash": 5608386435356037158,
+                          "kind": "CString",
+                          "value": "garrison\\berbers\\presentation\\flag_list_small_t3"
+                        },
+                        {
+                          "key": "exclude_from_pc",
+                          "hash": 7246380005931804245,
+                          "kind": "Boolean",
+                          "value": false
+                        },
+                        {
+                          "key": "description",
+                          "hash": 16000878188207498339,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5013"
+                        },
+                        {
+                          "key": "title",
+                          "hash": 16054850510092171682,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5012"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "trait",
+                      "hash": 13916795834556133805,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "description_formatter",
+                          "hash": 3052811476727687764,
+                          "kind": "List",
+                          "value": [
+                            {
+                              "key": "$REF",
+                              "hash": 6998867517914059163,
+                              "kind": "CString",
+                              "value": ""
+                            },
+                            {
+                              "key": "formatter",
+                              "hash": 16764647726920512531,
+                              "kind": "Int",
+                              "value": 0
+                            },
+                            {
+                              "key": "formatter_arguments",
+                              "hash": 17754659973238456016,
+                              "kind": "List2",
+                              "value": []
+                            }
+                          ]
+                        },
+                        {
+                          "key": "icon",
+                          "hash": 5608386435356037158,
+                          "kind": "CString",
+                          "value": "garrison\\berbers\\presentation\\flag_list_small_t3"
+                        },
+                        {
+                          "key": "exclude_from_pc",
+                          "hash": 7246380005931804245,
+                          "kind": "Boolean",
+                          "value": false
+                        },
+                        {
+                          "key": "description",
+                          "hash": 16000878188207498339,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5015"
+                        },
+                        {
+                          "key": "title",
+                          "hash": 16054850510092171682,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5014"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "trait",
+                      "hash": 13916795834556133805,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "description_formatter",
+                          "hash": 3052811476727687764,
+                          "kind": "List",
+                          "value": [
+                            {
+                              "key": "$REF",
+                              "hash": 6998867517914059163,
+                              "kind": "CString",
+                              "value": ""
+                            },
+                            {
+                              "key": "formatter",
+                              "hash": 16764647726920512531,
+                              "kind": "Int",
+                              "value": 0
+                            },
+                            {
+                              "key": "formatter_arguments",
+                              "hash": 17754659973238456016,
+                              "kind": "List2",
+                              "value": []
+                            }
+                          ]
+                        },
+                        {
+                          "key": "icon",
+                          "hash": 5608386435356037158,
+                          "kind": "CString",
+                          "value": "garrison\\berbers\\presentation\\flag_list_small_t3"
+                        },
+                        {
+                          "key": "exclude_from_pc",
+                          "hash": 7246380005931804245,
+                          "kind": "Boolean",
+                          "value": false
+                        },
+                        {
+                          "key": "description",
+                          "hash": 16000878188207498339,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5017"
+                        },
+                        {
+                          "key": "title",
+                          "hash": 16054850510092171682,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5016"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "trait",
+                      "hash": 13916795834556133805,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "description_formatter",
+                          "hash": 3052811476727687764,
+                          "kind": "List",
+                          "value": [
+                            {
+                              "key": "$REF",
+                              "hash": 6998867517914059163,
+                              "kind": "CString",
+                              "value": ""
+                            },
+                            {
+                              "key": "formatter",
+                              "hash": 16764647726920512531,
+                              "kind": "Int",
+                              "value": 0
+                            },
+                            {
+                              "key": "formatter_arguments",
+                              "hash": 17754659973238456016,
+                              "kind": "List2",
+                              "value": []
+                            }
+                          ]
+                        },
+                        {
+                          "key": "icon",
+                          "hash": 5608386435356037158,
+                          "kind": "CString",
+                          "value": "garrison\\berbers\\presentation\\flag_list_small_t3"
+                        },
+                        {
+                          "key": "exclude_from_pc",
+                          "hash": 7246380005931804245,
+                          "kind": "Boolean",
+                          "value": false
+                        },
+                        {
+                          "key": "description",
+                          "hash": 16000878188207498339,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5019"
+                        },
+                        {
+                          "key": "title",
+                          "hash": 16054850510092171682,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5018"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "trait",
+                      "hash": 13916795834556133805,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "description_formatter",
+                          "hash": 3052811476727687764,
+                          "kind": "List",
+                          "value": [
+                            {
+                              "key": "$REF",
+                              "hash": 6998867517914059163,
+                              "kind": "CString",
+                              "value": ""
+                            },
+                            {
+                              "key": "formatter",
+                              "hash": 16764647726920512531,
+                              "kind": "Int",
+                              "value": 0
+                            },
+                            {
+                              "key": "formatter_arguments",
+                              "hash": 17754659973238456016,
+                              "kind": "List2",
+                              "value": []
+                            }
+                          ]
+                        },
+                        {
+                          "key": "icon",
+                          "hash": 5608386435356037158,
+                          "kind": "CString",
+                          "value": "garrison\\berbers\\presentation\\flag_list_small_t3"
+                        },
+                        {
+                          "key": "exclude_from_pc",
+                          "hash": 7246380005931804245,
+                          "kind": "Boolean",
+                          "value": false
+                        },
+                        {
+                          "key": "description",
+                          "hash": 16000878188207498339,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5021"
+                        },
+                        {
+                          "key": "title",
+                          "hash": 16054850510092171682,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5020"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "difficulty",
+                  "hash": 14674881738934449885,
+                  "kind": "Int",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "key": "resource_income_cap",
+              "hash": 17881745333792586627,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "food",
+                  "hash": 1642648486008160419,
+                  "kind": "Float",
+                  "value": 3.4028230607370965e+38
+                },
+                {
+                  "key": "action",
+                  "hash": 5342812467725438597,
+                  "kind": "Float",
+                  "value": 20.0
+                },
+                {
+                  "key": "gold",
+                  "hash": 7631488968183620829,
+                  "kind": "Float",
+                  "value": 3.4028230607370965e+38
+                },
+                {
+                  "key": "militia_hre",
+                  "hash": 8115382159876774742,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "popcap",
+                  "hash": 10534165980232519832,
+                  "kind": "Float",
+                  "value": 3.4028230607370965e+38
+                },
+                {
+                  "key": "stone",
+                  "hash": 11136004903374842374,
+                  "kind": "Float",
+                  "value": 3.4028230607370965e+38
+                },
+                {
+                  "key": "merc_byz",
+                  "hash": 15228413151750088298,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "command",
+                  "hash": 15903017239201685541,
+                  "kind": "Float",
+                  "value": 3.4028230607370965e+38
+                },
+                {
+                  "key": "wood",
+                  "hash": 16414556571852284563,
+                  "kind": "Float",
+                  "value": 3.4028230607370965e+38
+                }
+              ]
+            },
+            {
+              "key": "start_actions_statetree",
+              "hash": 18290227144792845562,
+              "kind": "CString",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "key": "pbgid",
+          "hash": 13005689997087892415,
+          "kind": "Int",
+          "value": 36785387
+        },
+        {
+          "key": "parent_pbg",
+          "hash": 14182368983149674761,
+          "kind": "List2",
+          "value": [
+            {
+              "key": "$PBGNAME",
+              "hash": 5464984021694833596,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "$PBGMAP",
+              "hash": 1238668035833122403,
+              "kind": "CString",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "instance_version",
+      "hash": 8529826256463028745,
+      "kind": "Int",
+      "value": 2
+    },
+    {
+      "key": "campaign",
+      "hash": 12536324260443616212,
+      "kind": "List",
+      "value": [
+        {
+          "key": "army_bag",
+          "hash": 12857430874487942492,
+          "kind": "List",
+          "value": [
+            {
+              "key": "check_pop_cap_when_queuing_production_item",
+              "hash": 92040228328029351,
+              "kind": "Boolean",
+              "value": false
+            },
+            {
+              "key": "production_buildings",
+              "hash": 1504249059560524224,
+              "kind": "List2",
+              "value": []
+            },
+            {
+              "key": "field_support_production_styles",
+              "hash": 1912095146365119576,
+              "kind": "List2",
+              "value": []
+            },
+            {
+              "key": "abilities",
+              "hash": 3007493785523771989,
+              "kind": "List2",
+              "value": []
+            },
+            {
+              "key": "starting_units",
+              "hash": 3282543450421771665,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "squad",
+                  "hash": 530463969022191344,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_scout_1_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "squad",
+                  "hash": 530463969022191344,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "squad",
+                  "hash": 530463969022191344,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "squad",
+                  "hash": 530463969022191344,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "squad",
+                  "hash": 530463969022191344,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "squad",
+                  "hash": 530463969022191344,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "squad",
+                  "hash": 530463969022191344,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "squad",
+                  "hash": 530463969022191344,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "gaia_herdable_sheep"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "squad",
+                  "hash": 530463969022191344,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "gaia_herdable_sheep"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "squad",
+                  "hash": 530463969022191344,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "gaia_herdable_sheep_black"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "squad",
+                  "hash": 530463969022191344,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "gaia_herdable_sheep_brown"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                },
+                {
+                  "key": "squad",
+                  "hash": 530463969022191344,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "$PBGNAME",
+                      "hash": 5464984021694833596,
+                      "kind": "CString",
+                      "value": "gaia_herdable_sheep"
+                    },
+                    {
+                      "key": "$PBGMAP",
+                      "hash": 1238668035833122403,
+                      "kind": "CString",
+                      "value": "sbps"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "upkeep_per_pop_per_minute_override",
+              "hash": 3461111721848345691,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "food",
+                  "hash": 1642648486008160419,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "action",
+                  "hash": 5342812467725438597,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "gold",
+                  "hash": 7631488968183620829,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "militia_hre",
+                  "hash": 8115382159876774742,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "popcap",
+                  "hash": 10534165980232519832,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "stone",
+                  "hash": 11136004903374842374,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "merc_byz",
+                  "hash": 15228413151750088298,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "command",
+                  "hash": 15903017239201685541,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "wood",
+                  "hash": 16414556571852284563,
+                  "kind": "Float",
+                  "value": 0.0
+                }
+              ]
+            },
+            {
+              "key": "starting_town",
+              "hash": 4151179523438981444,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "$PBGNAME",
+                  "hash": 5464984021694833596,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "$PBGMAP",
+                  "hash": 1238668035833122403,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "starting_units_spawner",
+              "hash": 5397914236877036429,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "$REF",
+                  "hash": 6998867517914059163,
+                  "kind": "CString",
+                  "value": "options\\spawn\\fixed_offset"
+                },
+                {
+                  "key": "spawn_positions",
+                  "hash": 16754085997871955485,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "position_offset",
+                      "hash": 9998246259385464743,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "y",
+                          "hash": 10278709587161705105,
+                          "kind": "Float",
+                          "value": 10.0
+                        },
+                        {
+                          "key": "x",
+                          "hash": 13942860475667539970,
+                          "kind": "Float",
+                          "value": -4.0
+                        }
+                      ]
+                    },
+                    {
+                      "key": "position_offset",
+                      "hash": 9998246259385464743,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "y",
+                          "hash": 10278709587161705105,
+                          "kind": "Float",
+                          "value": 0.0
+                        },
+                        {
+                          "key": "x",
+                          "hash": 13942860475667539970,
+                          "kind": "Float",
+                          "value": -2.200000047683716
+                        }
+                      ]
+                    },
+                    {
+                      "key": "position_offset",
+                      "hash": 9998246259385464743,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "y",
+                          "hash": 10278709587161705105,
+                          "kind": "Float",
+                          "value": -2.0
+                        },
+                        {
+                          "key": "x",
+                          "hash": 13942860475667539970,
+                          "kind": "Float",
+                          "value": -3.299999952316284
+                        }
+                      ]
+                    },
+                    {
+                      "key": "position_offset",
+                      "hash": 9998246259385464743,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "y",
+                          "hash": 10278709587161705105,
+                          "kind": "Float",
+                          "value": -2.0
+                        },
+                        {
+                          "key": "x",
+                          "hash": 13942860475667539970,
+                          "kind": "Float",
+                          "value": -1.0
+                        }
+                      ]
+                    },
+                    {
+                      "key": "position_offset",
+                      "hash": 9998246259385464743,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "y",
+                          "hash": 10278709587161705105,
+                          "kind": "Float",
+                          "value": -4.0
+                        },
+                        {
+                          "key": "x",
+                          "hash": 13942860475667539970,
+                          "kind": "Float",
+                          "value": -2.0
+                        }
+                      ]
+                    },
+                    {
+                      "key": "position_offset",
+                      "hash": 9998246259385464743,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "y",
+                          "hash": 10278709587161705105,
+                          "kind": "Float",
+                          "value": -4.0
+                        },
+                        {
+                          "key": "x",
+                          "hash": 13942860475667539970,
+                          "kind": "Float",
+                          "value": 0.0
+                        }
+                      ]
+                    },
+                    {
+                      "key": "position_offset",
+                      "hash": 9998246259385464743,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "y",
+                          "hash": 10278709587161705105,
+                          "kind": "Float",
+                          "value": -6.0
+                        },
+                        {
+                          "key": "x",
+                          "hash": 13942860475667539970,
+                          "kind": "Float",
+                          "value": -1.0
+                        }
+                      ]
+                    },
+                    {
+                      "key": "position_offset",
+                      "hash": 9998246259385464743,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "y",
+                          "hash": 10278709587161705105,
+                          "kind": "Float",
+                          "value": 1.5
+                        },
+                        {
+                          "key": "x",
+                          "hash": 13942860475667539970,
+                          "kind": "Float",
+                          "value": 0.0
+                        }
+                      ]
+                    },
+                    {
+                      "key": "position_offset",
+                      "hash": 9998246259385464743,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "y",
+                          "hash": 10278709587161705105,
+                          "kind": "Float",
+                          "value": 1.7999999523162842
+                        },
+                        {
+                          "key": "x",
+                          "hash": 13942860475667539970,
+                          "kind": "Float",
+                          "value": 0.4000000059604645
+                        }
+                      ]
+                    },
+                    {
+                      "key": "position_offset",
+                      "hash": 9998246259385464743,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "y",
+                          "hash": 10278709587161705105,
+                          "kind": "Float",
+                          "value": 2.0999999046325684
+                        },
+                        {
+                          "key": "x",
+                          "hash": 13942860475667539970,
+                          "kind": "Float",
+                          "value": 0.800000011920929
+                        }
+                      ]
+                    },
+                    {
+                      "key": "position_offset",
+                      "hash": 9998246259385464743,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "y",
+                          "hash": 10278709587161705105,
+                          "kind": "Float",
+                          "value": 2.4000000953674316
+                        },
+                        {
+                          "key": "x",
+                          "hash": 13942860475667539970,
+                          "kind": "Float",
+                          "value": 0.800000011920929
+                        }
+                      ]
+                    },
+                    {
+                      "key": "position_offset",
+                      "hash": 9998246259385464743,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "y",
+                          "hash": 10278709587161705105,
+                          "kind": "Float",
+                          "value": 2.4000000953674316
+                        },
+                        {
+                          "key": "x",
+                          "hash": 13942860475667539970,
+                          "kind": "Float",
+                          "value": 1.2000000476837158
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "casualties",
+              "hash": 5641016865639957240,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "max_rescued_casualty_count",
+                  "hash": 11971863355469936312,
+                  "kind": "Int",
+                  "value": 100
+                },
+                {
+                  "key": "guaranteed_casualty_per_number_of_deaths",
+                  "hash": 12987036009784253918,
+                  "kind": "Float",
+                  "value": 5.0
+                }
+              ]
+            },
+            {
+              "key": "upgrades",
+              "hash": 6303958805802965870,
+              "kind": "List2",
+              "value": []
+            },
+            {
+              "key": "badge_path",
+              "hash": 6382170302430851331,
+              "kind": "CString",
+              "value": "DATA:\\art\\armies\\west_german\\badges\\default_dif"
+            },
+            {
+              "key": "starting_buildings",
+              "hash": 6618598297376743662,
+              "kind": "List2",
+              "value": [
+                {
+                  "key": "starting_building",
+                  "hash": 7574277026152915004,
+                  "kind": "List",
+                  "value": [
+                    {
+                      "key": "building",
+                      "hash": 28317232665913232,
+                      "kind": "List2",
+                      "value": [
+                        {
+                          "key": "$PBGNAME",
+                          "hash": 5464984021694833596,
+                          "kind": "CString",
+                          "value": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_town_center_capital_mal"
+                        },
+                        {
+                          "key": "$PBGMAP",
+                          "hash": 1238668035833122403,
+                          "kind": "CString",
+                          "value": "ebps"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "key",
+                      "hash": 844238073572502747,
+                      "kind": "CString",
+                      "value": "default_mp"
+                    },
+                    {
+                      "key": "player_upgrades",
+                      "hash": 16807551150121738591,
+                      "kind": "List",
+                      "value": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "actions",
+              "hash": 6850750339027267771,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "fx_rally_point_line_color_move",
+                  "hash": 192763604375205003,
+                  "kind": "Int",
+                  "value": -1199616
+                },
+                {
+                  "key": "ally_defend_here_action_name",
+                  "hash": 4388630951854668514,
+                  "kind": "CString",
+                  "value": "UI/coh2_team_defend_here"
+                },
+                {
+                  "key": "fx_rally_point_action_name",
+                  "hash": 4533267440829134935,
+                  "kind": "CString",
+                  "value": "ui/command/rally_point_order_loop"
+                },
+                {
+                  "key": "self_defend_here_action_name",
+                  "hash": 6533227281953429500,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "ally_capture_here_action_name",
+                  "hash": 7742937584940462932,
+                  "kind": "CString",
+                  "value": "UI/coh2_team_capture_here"
+                },
+                {
+                  "key": "ability_ally_reinforcement_action_name",
+                  "hash": 9040175679803795685,
+                  "kind": "CString",
+                  "value": "UI/command/coh2_troop_deployment_flag"
+                },
+                {
+                  "key": "ally_question_here_action_name",
+                  "hash": 10003774323033733793,
+                  "kind": "CString",
+                  "value": "UI/coh2_team_question_here"
+                },
+                {
+                  "key": "fx_rally_point_line_color_special",
+                  "hash": 11790049763725101252,
+                  "kind": "Int",
+                  "value": -9653526
+                },
+                {
+                  "key": "fx_rally_point_action_name_attack",
+                  "hash": 11983003209494376969,
+                  "kind": "CString",
+                  "value": "ui/command/rally_point_order_loop_red"
+                },
+                {
+                  "key": "self_capture_here_action_name",
+                  "hash": 12300266346757837988,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "ally_attack_here_action_name",
+                  "hash": 12663917209101577432,
+                  "kind": "CString",
+                  "value": "UI/coh2_team_attack_here"
+                },
+                {
+                  "key": "fx_rally_point_line_color_attack",
+                  "hash": 13460474367502566118,
+                  "kind": "Int",
+                  "value": -48841
+                },
+                {
+                  "key": "self_question_here_action_name",
+                  "hash": 14818610683203305702,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "fx_rally_point_action_name_special",
+                  "hash": 15318048765700546503,
+                  "kind": "CString",
+                  "value": "ui/command/rally_point_order_loop_square"
+                },
+                {
+                  "key": "ability_self_reinforcement_action_name",
+                  "hash": 17298705907744740460,
+                  "kind": "CString",
+                  "value": "UI/command/coh2_troop_deployment_flag"
+                },
+                {
+                  "key": "self_attack_here_action_name",
+                  "hash": 17944140506394263733,
+                  "kind": "CString",
+                  "value": ""
+                }
+              ]
+            },
+            {
+              "key": "resource_max_cap",
+              "hash": 7777703697499122582,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "food",
+                  "hash": 1642648486008160419,
+                  "kind": "Float",
+                  "value": 100000.0
+                },
+                {
+                  "key": "action",
+                  "hash": 5342812467725438597,
+                  "kind": "Float",
+                  "value": -1.0
+                },
+                {
+                  "key": "gold",
+                  "hash": 7631488968183620829,
+                  "kind": "Float",
+                  "value": 100000.0
+                },
+                {
+                  "key": "militia_hre",
+                  "hash": 8115382159876774742,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "popcap",
+                  "hash": 10534165980232519832,
+                  "kind": "Float",
+                  "value": 200.0
+                },
+                {
+                  "key": "stone",
+                  "hash": 11136004903374842374,
+                  "kind": "Float",
+                  "value": 100000.0
+                },
+                {
+                  "key": "merc_byz",
+                  "hash": 15228413151750088298,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "command",
+                  "hash": 15903017239201685541,
+                  "kind": "Float",
+                  "value": 10.0
+                },
+                {
+                  "key": "wood",
+                  "hash": 16414556571852284563,
+                  "kind": "Float",
+                  "value": 100000.0
+                }
+              ]
+            },
+            {
+              "key": "race_population_cap_table",
+              "hash": 8097638336194032628,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "max_personnel_cap",
+                  "hash": 1058004569324643710,
+                  "kind": "Float",
+                  "value": 200.0
+                },
+                {
+                  "key": "base_personnel_cap",
+                  "hash": 5962064702370346370,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "max_vehicle_cap",
+                  "hash": 9454132239697477300,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "base_vehicle_cap",
+                  "hash": 12068556363464972917,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "base_medic_cap",
+                  "hash": 15350012674818616237,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "max_medic_cap",
+                  "hash": 17545852957777273444,
+                  "kind": "Float",
+                  "value": 0.0
+                }
+              ]
+            },
+            {
+              "key": "team_size_point_resource_multiplier",
+              "hash": 10139036114517202503,
+              "kind": "List2",
+              "value": []
+            },
+            {
+              "key": "ai_production_info",
+              "hash": 11247577602451073690,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "loadouts",
+                  "hash": 10377204725069695913,
+                  "kind": "List",
+                  "value": []
+                },
+                {
+                  "key": "unlocking_upgrade_list",
+                  "hash": 15507605113054926962,
+                  "kind": "List2",
+                  "value": []
+                }
+              ]
+            },
+            {
+              "key": "resource_starting_amount",
+              "hash": 12442523180987662008,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "food",
+                  "hash": 1642648486008160419,
+                  "kind": "Float",
+                  "value": 200.0
+                },
+                {
+                  "key": "action",
+                  "hash": 5342812467725438597,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "gold",
+                  "hash": 7631488968183620829,
+                  "kind": "Float",
+                  "value": 100.0
+                },
+                {
+                  "key": "militia_hre",
+                  "hash": 8115382159876774742,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "popcap",
+                  "hash": 10534165980232519832,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "stone",
+                  "hash": 11136004903374842374,
+                  "kind": "Float",
+                  "value": 50.0
+                },
+                {
+                  "key": "merc_byz",
+                  "hash": 15228413151750088298,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "command",
+                  "hash": 15903017239201685541,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "wood",
+                  "hash": 16414556571852284563,
+                  "kind": "Float",
+                  "value": 200.0
+                }
+              ]
+            },
+            {
+              "key": "ui",
+              "hash": 17418932639372614002,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "research_upgrade",
+                  "hash": 1403948969610875828,
+                  "kind": "CString",
+                  "value": ""
+                },
+                {
+                  "key": "subheader",
+                  "hash": 5766419656656821760,
+                  "kind": "LocString",
+                  "value": "$5fe8767cca3a4e649e20c9527cf014ec:5002"
+                },
+                {
+                  "key": "one_liner",
+                  "hash": 8966038374375327684,
+                  "kind": "LocString",
+                  "value": "$5fe8767cca3a4e649e20c9527cf014ec:5003"
+                },
+                {
+                  "key": "background_image",
+                  "hash": 9112145942756418360,
+                  "kind": "CString",
+                  "value": "garrison\\berbers\\presentation\\flag_original"
+                },
+                {
+                  "key": "global_traits_summary",
+                  "hash": 12677296883170242410,
+                  "kind": "List2",
+                  "value": [
+                    {
+                      "key": "trait",
+                      "hash": 13916795834556133805,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "description_formatter",
+                          "hash": 3052811476727687764,
+                          "kind": "List",
+                          "value": [
+                            {
+                              "key": "$REF",
+                              "hash": 6998867517914059163,
+                              "kind": "CString",
+                              "value": ""
+                            }
+                          ]
+                        },
+                        {
+                          "key": "icon",
+                          "hash": 5608386435356037158,
+                          "kind": "CString",
+                          "value": "berbers"
+                        },
+                        {
+                          "key": "exclude_from_pc",
+                          "hash": 7246380005931804245,
+                          "kind": "Boolean",
+                          "value": false
+                        },
+                        {
+                          "key": "description",
+                          "hash": 16000878188207498339,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5005"
+                        },
+                        {
+                          "key": "title",
+                          "hash": 16054850510092171682,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5004"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "trait",
+                      "hash": 13916795834556133805,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "description_formatter",
+                          "hash": 3052811476727687764,
+                          "kind": "List",
+                          "value": [
+                            {
+                              "key": "$REF",
+                              "hash": 6998867517914059163,
+                              "kind": "CString",
+                              "value": ""
+                            }
+                          ]
+                        },
+                        {
+                          "key": "icon",
+                          "hash": 5608386435356037158,
+                          "kind": "CString",
+                          "value": "garrison\\berbers\\presentation\\flag_list_small_t3"
+                        },
+                        {
+                          "key": "exclude_from_pc",
+                          "hash": 7246380005931804245,
+                          "kind": "Boolean",
+                          "value": false
+                        },
+                        {
+                          "key": "description",
+                          "hash": 16000878188207498339,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5011"
+                        },
+                        {
+                          "key": "title",
+                          "hash": 16054850510092171682,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5010"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "trait",
+                      "hash": 13916795834556133805,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "description_formatter",
+                          "hash": 3052811476727687764,
+                          "kind": "List",
+                          "value": [
+                            {
+                              "key": "$REF",
+                              "hash": 6998867517914059163,
+                              "kind": "CString",
+                              "value": ""
+                            }
+                          ]
+                        },
+                        {
+                          "key": "icon",
+                          "hash": 5608386435356037158,
+                          "kind": "CString",
+                          "value": "garrison\\berbers\\presentation\\flag_list_small_t3"
+                        },
+                        {
+                          "key": "exclude_from_pc",
+                          "hash": 7246380005931804245,
+                          "kind": "Boolean",
+                          "value": false
+                        },
+                        {
+                          "key": "description",
+                          "hash": 16000878188207498339,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5013"
+                        },
+                        {
+                          "key": "title",
+                          "hash": 16054850510092171682,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5012"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "trait",
+                      "hash": 13916795834556133805,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "description_formatter",
+                          "hash": 3052811476727687764,
+                          "kind": "List",
+                          "value": [
+                            {
+                              "key": "$REF",
+                              "hash": 6998867517914059163,
+                              "kind": "CString",
+                              "value": ""
+                            }
+                          ]
+                        },
+                        {
+                          "key": "icon",
+                          "hash": 5608386435356037158,
+                          "kind": "CString",
+                          "value": "garrison\\berbers\\presentation\\flag_list_small_t3"
+                        },
+                        {
+                          "key": "exclude_from_pc",
+                          "hash": 7246380005931804245,
+                          "kind": "Boolean",
+                          "value": false
+                        },
+                        {
+                          "key": "description",
+                          "hash": 16000878188207498339,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5015"
+                        },
+                        {
+                          "key": "title",
+                          "hash": 16054850510092171682,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5014"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "trait",
+                      "hash": 13916795834556133805,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "description_formatter",
+                          "hash": 3052811476727687764,
+                          "kind": "List",
+                          "value": [
+                            {
+                              "key": "$REF",
+                              "hash": 6998867517914059163,
+                              "kind": "CString",
+                              "value": ""
+                            }
+                          ]
+                        },
+                        {
+                          "key": "icon",
+                          "hash": 5608386435356037158,
+                          "kind": "CString",
+                          "value": "garrison\\berbers\\presentation\\flag_list_small_t3"
+                        },
+                        {
+                          "key": "exclude_from_pc",
+                          "hash": 7246380005931804245,
+                          "kind": "Boolean",
+                          "value": false
+                        },
+                        {
+                          "key": "description",
+                          "hash": 16000878188207498339,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5017"
+                        },
+                        {
+                          "key": "title",
+                          "hash": 16054850510092171682,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5016"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "trait",
+                      "hash": 13916795834556133805,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "description_formatter",
+                          "hash": 3052811476727687764,
+                          "kind": "List",
+                          "value": [
+                            {
+                              "key": "$REF",
+                              "hash": 6998867517914059163,
+                              "kind": "CString",
+                              "value": ""
+                            }
+                          ]
+                        },
+                        {
+                          "key": "icon",
+                          "hash": 5608386435356037158,
+                          "kind": "CString",
+                          "value": "garrison\\berbers\\presentation\\flag_list_small_t3"
+                        },
+                        {
+                          "key": "exclude_from_pc",
+                          "hash": 7246380005931804245,
+                          "kind": "Boolean",
+                          "value": false
+                        },
+                        {
+                          "key": "description",
+                          "hash": 16000878188207498339,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5019"
+                        },
+                        {
+                          "key": "title",
+                          "hash": 16054850510092171682,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5018"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "trait",
+                      "hash": 13916795834556133805,
+                      "kind": "List",
+                      "value": [
+                        {
+                          "key": "description_formatter",
+                          "hash": 3052811476727687764,
+                          "kind": "List",
+                          "value": [
+                            {
+                              "key": "$REF",
+                              "hash": 6998867517914059163,
+                              "kind": "CString",
+                              "value": ""
+                            }
+                          ]
+                        },
+                        {
+                          "key": "icon",
+                          "hash": 5608386435356037158,
+                          "kind": "CString",
+                          "value": "garrison\\berbers\\presentation\\flag_list_small_t3"
+                        },
+                        {
+                          "key": "exclude_from_pc",
+                          "hash": 7246380005931804245,
+                          "kind": "Boolean",
+                          "value": false
+                        },
+                        {
+                          "key": "description",
+                          "hash": 16000878188207498339,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5021"
+                        },
+                        {
+                          "key": "title",
+                          "hash": 16054850510092171682,
+                          "kind": "LocString",
+                          "value": "$5fe8767cca3a4e649e20c9527cf014ec:5020"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "difficulty",
+                  "hash": 14674881738934449885,
+                  "kind": "Int",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "key": "resource_income_cap",
+              "hash": 17881745333792586627,
+              "kind": "List",
+              "value": [
+                {
+                  "key": "food",
+                  "hash": 1642648486008160419,
+                  "kind": "Float",
+                  "value": 3.4028230607370965e+38
+                },
+                {
+                  "key": "action",
+                  "hash": 5342812467725438597,
+                  "kind": "Float",
+                  "value": 20.0
+                },
+                {
+                  "key": "gold",
+                  "hash": 7631488968183620829,
+                  "kind": "Float",
+                  "value": 3.4028230607370965e+38
+                },
+                {
+                  "key": "militia_hre",
+                  "hash": 8115382159876774742,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "popcap",
+                  "hash": 10534165980232519832,
+                  "kind": "Float",
+                  "value": 3.4028230607370965e+38
+                },
+                {
+                  "key": "stone",
+                  "hash": 11136004903374842374,
+                  "kind": "Float",
+                  "value": 3.4028230607370965e+38
+                },
+                {
+                  "key": "merc_byz",
+                  "hash": 15228413151750088298,
+                  "kind": "Float",
+                  "value": 0.0
+                },
+                {
+                  "key": "command",
+                  "hash": 15903017239201685541,
+                  "kind": "Float",
+                  "value": 3.4028230607370965e+38
+                },
+                {
+                  "key": "wood",
+                  "hash": 16414556571852284563,
+                  "kind": "Float",
+                  "value": 3.4028230607370965e+38
+                }
+              ]
+            },
+            {
+              "key": "start_actions_statetree",
+              "hash": 18290227144792845562,
+              "kind": "CString",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "key": "pbgid",
+          "hash": 13005689997087892415,
+          "kind": "Int",
+          "value": 36785387
+        },
+        {
+          "key": "parent_pbg",
+          "hash": 14182368983149674761,
+          "kind": "List2",
+          "value": [
+            {
+              "key": "$PBGNAME",
+              "hash": 5464984021694833596,
+              "kind": "CString",
+              "value": ""
+            },
+            {
+              "key": "$PBGMAP",
+              "hash": 1238668035833122403,
+              "kind": "CString",
+              "value": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "command": [
+    "C:\\Users\\RS\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\extensions\\raw_githubusercontent_com\\garrison\\bin\\core\\garrison-core.exe",
+    "mod-project",
+    "cook",
+    "--project",
+    "F:\\aoe_4_temp\\Community_civilization_pack_garrison_temp\\independent_split_20261030\\persia-library\\Mods\\persia",
+    "--editor",
+    "E:/Games/steamapps/common/Age of Empires IV/EssenceEditor.exe",
+    "--timeout",
+    "900"
+  ],
+  "native_cook_returncode": 0,
+  "fresh_archive": "F:\\aoe_4_temp\\Community_civilization_pack_garrison_temp\\independent_split_20261030\\persia-library\\Mods\\persia\\dist\\persia.sga",
+  "archive_crc_sha1": true,
+  "selected_resources": [
+    {
+      "member": "ui/images/garrison/berbers/presentation_011/flag_list.rrtex",
+      "sha256": "663f7c9e0b1c46988df07842dee927bfc1596e13b8204e363cfbd7569f6e13ba",
+      "bytes": 5803,
+      "dimensions": [
+        104,
+        56
+      ]
+    },
+    {
+      "member": "ui/images/garrison/berbers/presentation_011/flag_list_small.rrtex",
+      "sha256": "628f63cef0314ca377cd6d9517c244d9c9ae60e02456df79cc3f859487cac092",
+      "bytes": 1733,
+      "dimensions": [
+        52,
+        28
+      ]
+    },
+    {
+      "member": "ui/images/garrison/berbers/presentation_011/flag_secondary.rrtex",
+      "sha256": "bb00b265e130da9a3f27b85604f70aefddebbccc9e5c2922e70f043ff777c4c3",
+      "bytes": 90116,
+      "dimensions": [
+        440,
+        248
+      ]
+    },
+    {
+      "member": "ui/images/garrison/berbers/presentation_011/flag_secondary_small.rrtex",
+      "sha256": "8377b04faa9463a5de767b448ae4266aa2487a306a0506cb6a2c65eac5a90ba0",
+      "bytes": 24688,
+      "dimensions": [
+        220,
+        124
+      ]
+    },
+    {
+      "member": "ui/images/garrison/berbers/presentation_011/flag_fade.rrtex",
+      "sha256": "571d649ccd84a8d6d6b0d39f9003143a0e3c0e1437831bc28b74db89dff182a5",
+      "bytes": 23391,
+      "dimensions": [
+        344,
+        104
+      ]
+    },
+    {
+      "member": "ui/images/garrison/berbers/presentation_011/flag_loading.rrtex",
+      "sha256": "58d264c75f17a2c9be6395720d46cd9bc31a75f945066d2756a451c4734a10ea",
+      "bytes": 1519612,
+      "dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "member": "ui/images/garrison/berbers/presentation_011/flag_pattern.rrtex",
+      "sha256": "6649401fa20c0702055a4feb8c41c04e92f3258229c5add96197860a0a514f63",
+      "bytes": 251181,
+      "dimensions": [
+        1120,
+        352
+      ]
+    },
+    {
+      "member": "ui/images/garrison/berbers/presentation_011/flag_tile.rrtex",
+      "sha256": "5adf7fe1a986879a19024e1452a01465d12ee92d04dd046d5cc2430c3f91187d",
+      "bytes": 245232,
+      "dimensions": [
+        736,
+        800
+      ]
+    },
+    {
+      "member": "ui/images/garrison/berbers/presentation_011/flag_mastery.rrtex",
+      "sha256": "1d93880b4e04de65f5fb6a625cbea944b3ade2c6ce30d18e59ab91d522503c0f",
+      "bytes": 494292,
+      "dimensions": [
+        1112,
+        588
+      ]
+    }
+  ],
+  "promotion": "Only the nine explicit UI members; no native carrier attributes/info were promoted",
+  "native_visual_retest": "pending"
+}

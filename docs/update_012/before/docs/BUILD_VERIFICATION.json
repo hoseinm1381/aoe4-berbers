@@ -1,0 +1,39 @@
+{
+  "race": "berbers",
+  "version": "0.1.1",
+  "owner": "5fe8767c-ca3a-4e64-9e20-c9527cf014ec",
+  "source_fingerprint": "4ece6a646ec3e8a50e54343d4c94475a5cf79a28a846c9cdce905438b4c83d26",
+  "tables": 294,
+  "members": 2858,
+  "archive_bytes": 774174861,
+  "archive_sha256": "e548278042b77cf98edca1e8ce10bcf516e3c72f57118488ce6f65c94147cae6",
+  "zip_name": "Berbers-Garrison-0.1.1.zip",
+  "zip_bytes": 617521029,
+  "zip_sha256": "c72c83f714f39075ccf7a36a6e448ee4093d701338ff223a93944a3905a73076",
+  "all_member_readback_sha256": true,
+  "native_crc_sha1": true,
+  "zip_crc": true,
+  "preserved_native_media_members": 2478,
+  "native_game_test": "pending",
+  "multiplayer_save_ai_performance": "not qualified",
+  "publication": "not performed",
+  "changed_members": [
+    "attrib/army/garrison/berbers/berbers_standard.rgd",
+    "attrib/codex/garrison/berbers/berbers_codex.rgd",
+    "attrib/racebps/berbers.rgd",
+    "garrison/civilizations.json"
+  ],
+  "added_members": [
+    "ui/images/garrison/berbers/presentation_011/flag_fade.rrtex",
+    "ui/images/garrison/berbers/presentation_011/flag_list.rrtex",
+    "ui/images/garrison/berbers/presentation_011/flag_list_small.rrtex",
+    "ui/images/garrison/berbers/presentation_011/flag_loading.rrtex",
+    "ui/images/garrison/berbers/presentation_011/flag_mastery.rrtex",
+    "ui/images/garrison/berbers/presentation_011/flag_pattern.rrtex",
+    "ui/images/garrison/berbers/presentation_011/flag_secondary.rrtex",
+    "ui/images/garrison/berbers/presentation_011/flag_secondary_small.rrtex",
+    "ui/images/garrison/berbers/presentation_011/flag_tile.rrtex"
+  ],
+  "preserved_baseline_members": 2845,
+  "native_codex_retest": "pending"
+}

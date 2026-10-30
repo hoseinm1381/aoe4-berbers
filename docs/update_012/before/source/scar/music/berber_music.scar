@@ -1,0 +1,191 @@
+-- Berber1.0.1 local presentation only. Speech owns the shared audio session.
+import("cardinal.scar")
+import("ui.scar")
+import("garrison/garrison.scar")
+import("music/berber_music_catalog.scar")
+import("music/berber_music_policy.scar")
+Core_RegisterModule("BM")
+local BM_audio=Garrison.audio.forMod("berbers")
+
+function BM_Log(message) print("BERBER_MUSIC "..message) end
+function BM_OnGameSetup()
+    if BM_State and BM_State.running then BM_OnGameOver() end
+    BM_State={age=1,theme=1,level=1,mode="auto",gain=25,current=nil,native_requested=false,
+        entry=0,entry_key="1:1:1",entry_rng=1,retries=0,
+        policy=BMPolicy.new(0),running=false,ui=false,event=false,submitted_at=0}
+end
+function BM_OnInit()
+    if not BM_State then BM_OnGameSetup() end
+end
+function BM_Path()
+    local s=BM_State
+    if s.entry==0 then return "audio/berber_music/intro_a1.mp3" end
+    return "audio/berber_music/"..BM_Catalog.codes[s.age].."_"..string.char(96+s.theme)
+        ..tostring(s.level)..(s.entry>1 and "_entry"..tostring(s.entry) or "")..".mp3"
+end
+function BM_CreateUI()
+    local s=BM_State
+    if s.ui then return end
+    s.context={volume="Music "..tostring(s.gain).."%",source="Original",custom=true,command={
+        down=UI_CreateCommand("BM_VolumeDown"),up=UI_CreateCommand("BM_VolumeUp"),source=UI_CreateCommand("BM_ToggleMusic")}}
+    local xaml=[[<Grid xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,85,13,0">
+      <Border Background="#D91B2028" BorderBrush="#FFB39461" BorderThickness="1" Padding="5">
+       <StackPanel Orientation="Horizontal">
+        <Button Content="-" Command="{Binding [command][down]}" IsEnabled="{Binding [custom]}" Padding="8,2"/>
+        <TextBlock Text="{Binding [volume]}" Foreground="#FFE8C88A" VerticalAlignment="Center" Margin="8,0,8,0"/>
+        <Button Content="+" Command="{Binding [command][up]}" IsEnabled="{Binding [custom]}" Padding="8,2"/>
+        <Button Content="{Binding [source]}" Command="{Binding [command][source]}" Margin="5,0,0,0" Padding="7,2"/>
+       </StackPanel>
+      </Border>
+    </Grid>]]
+    local ok,err=pcall(UI_AddChild,"ScarNotReplay","XamlPresenter","BerberMusicVolume",
+        {IsHitTestVisible=true,Xaml=xaml,DataContext=UI_CreateDataContext(s.context)})
+    s.ui=ok
+    if not ok then BM_Log("HUD failed: "..tostring(err)) end
+end
+function BM_UpdateUI()
+    local s=BM_State
+    if s.ui then
+        s.context.volume=s.mode=="native" and "Original music" or "Music "..tostring(s.gain).."%"
+        s.context.source=s.mode=="native" and "Berber" or "Original"
+        s.context.custom=s.mode~="native"
+        UI_SetDataContext("BerberMusicVolume",s.context)
+    end
+end
+function BM_Start()
+    local player=Game_GetLocalPlayer()
+    if player==nil or Player_GetRaceName(player)~="5fe8767cca3a4e649e20c9527cf014ec:berbers" then return end
+    if not BM_State then BM_OnGameSetup() end
+    local s=BM_State
+    if s.running then return end
+    s.running=true;s.policy=BMPolicy.new(World_GetGameTime())
+    BM_CreateUI()
+    if not s.event then Rule_AddGlobalEvent(BM_Damage,GE_DamageReceived);s.event=true end
+    if not Rule_Exists(BM_Tick) then Rule_AddInterval(BM_Tick,.25) end
+    BM_UpdateUI()
+    BM_Log("start version=1.0.1 tracks=48 gain="..tostring(s.gain))
+end
+function BM_ReleaseNativeForce() Sound_SetForceMusic(false) end
+function BM_ClearNativeForce()
+    if Rule_Exists(BM_ReleaseNativeForce) then Rule_Remove(BM_ReleaseNativeForce) end
+    Sound_SetForceMusic(false)
+end
+function BM_Native(reason)
+    local s=BM_State
+    BM_audio.stopBed();s.current=nil;s.mode="native";s.entry_key=nil;s.retries=0
+    Sound_SetForceSilence(false)
+    -- Official music.scar also kicks music for one second when leaving silence.
+    BM_ClearNativeForce();Sound_SetForceMusic(true)
+    Rule_AddOneShot(BM_ReleaseNativeForce,1)
+    BM_UpdateUI();BM_Log((reason or "transport unavailable").."; native music restored")
+end
+function BM_ToggleMusic()
+    local s=BM_State
+    if not s or not s.running then return end
+    if s.mode=="native" then
+        s.native_requested=false;s.mode="auto";s.current=nil;s.entry_key=nil;s.retries=0
+        BM_ClearNativeForce();Sound_SetForceSilence(true);Sound_MusicStop()
+        BM_UpdateUI()
+    else
+        s.native_requested=true;BM_Native("user selected original music")
+    end
+end
+function BM_Tick()
+    local s=BM_State
+    if not s or not s.running then return end
+    local now=World_GetGameTime()
+    if now<s.policy.last then
+        s.current=nil;s.submitted_at=now
+        if s.entry==0 then s.entry_key=nil end
+    end
+    s.level=BMPolicy.tick(s.policy,now)
+    local player=Game_GetLocalPlayer()
+    if player~=nil then
+        s.age=math.max(1,math.min(4,Player_GetCurrentAge(player)))
+    end
+    if s.mode=="native" then return end
+    Sound_SetForceSilence(true)
+    -- Keep each theme through combat. In peace rotate after two complete loops.
+    if s.level==1 and s.current and s.entry>0 then
+        local duration=BM_Catalog.durations[s.age][s.theme][1]
+        if now-s.submitted_at>=duration*2 then s.theme=s.theme%3+1 end
+    end
+    if s.entry==0 and s.current and now-s.submitted_at>=BM_Catalog.intro_seconds-.5 then
+        s.entry_key=nil -- opening may never loop its original first ten seconds
+    end
+    local key=tostring(s.age)..":"..tostring(s.theme)..":"..tostring(s.level)
+    if key~=s.entry_key then
+        -- Private presentation PRNG: no shared simulation RNG is consumed.
+        s.entry_rng=(s.entry_rng*48271+math.floor(now*1000))%2147483647
+        local selected=s.entry_rng%3+1
+        if selected==s.entry then selected=selected%3+1 end
+        s.entry=selected;s.entry_key=key
+    end
+    local path=BM_Path()
+    if BMPolicy.needs_track(s.current,path,s.gain==0) then
+        local ok,accepted=pcall(BM_audio.bed,path,s.gain/100)
+        if ok and accepted then
+            Sound_MusicStop();s.current=path;s.submitted_at=now;s.retries=0
+            BM_Log("track="..path.." gain="..tostring(s.gain).." t="..tostring(now))
+        else
+            s.retries=s.retries+1
+            if s.retries>=20 then BM_Native() end
+        end
+    end
+end
+function BM_Damage(context)
+    local s=BM_State
+    if not s or not s.running or context.isRepairing then return end
+    local a,v=context.attacker,context.victim
+    if a==nil or v==nil then return end
+    if not Entity_IsValid(Entity_GetID(a)) or not Entity_IsValid(Entity_GetID(v)) then return end
+    if World_OwnsEntity(a) or World_OwnsEntity(v) or Entity_IsOfType(a,"scout") then return end
+    local owner,target=Entity_GetPlayerOwner(a),Entity_GetPlayerOwner(v)
+    local player=Game_GetLocalPlayer()
+    if player==nil or (owner~=player and target~=player) then return end
+    if Player_ObserveRelationship(owner,target)~=R_ENEMY then return end
+    BMPolicy.record(s.policy,Entity_GetID(a),World_GetGameTime())
+end
+function BM_Volume(delta)
+    local s=BM_State
+    if not s or not s.running then return end
+    local previous=s.gain;s.gain=math.max(0,math.min(100,s.gain+delta))
+    if s.mode=="native" and s.native_requested then BM_UpdateUI();return end
+    if s.gain==0 then
+        BM_ClearNativeForce()
+        BM_audio.stopBed();s.current=nil
+        s.mode="auto";s.retries=0
+        Sound_SetForceSilence(true);Sound_MusicStop()
+        if s.entry==0 then s.entry_key=nil end
+    elseif s.mode=="native" then BM_ClearNativeForce();s.mode="auto";s.retries=0
+    elseif s.current and s.gain~=previous then
+        local ok,sent=pcall(BM_audio.setBedGain,s.gain/100)
+        if not ok or not sent then BM_Log("volume submission failed") end
+    end
+    BM_UpdateUI()
+end
+function BM_VolumeDown() BM_Volume(-1) end
+function BM_VolumeUp() BM_Volume(1) end
+function BM_OnGameRestore()
+    local s=BM_State
+    if not s or not s.running then return end
+    if s.ui then UI_Remove("BerberMusicVolume");s.ui=false end
+    if s.event then Rule_RemoveGlobalEvent(BM_Damage);s.event=false end
+    if Rule_Exists(BM_Tick) then Rule_Remove(BM_Tick) end
+    s.current=nil;s.retries=0
+    if s.entry==0 then s.entry_key=nil end
+    BM_CreateUI();Rule_AddGlobalEvent(BM_Damage,GE_DamageReceived);s.event=true
+    Rule_AddInterval(BM_Tick,.25)
+    if s.mode=="native" then BM_Native("restored original music selection") else BM_UpdateUI() end
+end
+function BM_OnGameOver()
+    local s=BM_State
+    if not s or not s.running then return end
+    s.running=false
+    if Rule_Exists(BM_Tick) then Rule_Remove(BM_Tick) end
+    if s.event then Rule_RemoveGlobalEvent(BM_Damage);s.event=false end
+    if s.ui then UI_Remove("BerberMusicVolume");s.ui=false end
+    BM_ClearNativeForce()
+    BM_audio.stopBed();Sound_SetForceSilence(false);s.current=nil;s.policy.seen={}
+end

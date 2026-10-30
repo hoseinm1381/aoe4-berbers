@@ -1,0 +1,302 @@
+[
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\scar\\berber_scripted_speech.scar",
+    "diagnostics": [
+      {
+        "severity": "warning",
+        "code": "sgroup-lifetime",
+        "message": "Temporary squad group `group` from `Player_GetSquads` is not visibly destroyed.",
+        "line": 150
+      },
+      {
+        "severity": "warning",
+        "code": "unknown-call",
+        "message": "Call `Rule_RemoveSquadEvent` is absent from official API/source evidence and local definitions.",
+        "line": 68
+      },
+      {
+        "severity": "warning",
+        "code": "unknown-call",
+        "message": "Call `audio.play` is absent from official API/source evidence and local definitions.",
+        "line": 59
+      },
+      {
+        "severity": "warning",
+        "code": "unknown-call",
+        "message": "Call `audio.pulse` is absent from official API/source evidence and local definitions.",
+        "line": 143
+      },
+      {
+        "severity": "warning",
+        "code": "unknown-call",
+        "message": "Call `audio.session` is absent from official API/source evidence and local definitions.",
+        "line": 194
+      },
+      {
+        "severity": "warning",
+        "code": "unknown-call",
+        "message": "Call `audio.stop` is absent from official API/source evidence and local definitions.",
+        "line": 206
+      }
+    ],
+    "summary": {
+      "errors": 0,
+      "warnings": 6
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\scar\\berber_voice_bank.scar",
+    "diagnostics": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\scar\\inflence_system.scar",
+    "diagnostics": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\scar\\buildings\\alliance_economic_bonus.scar",
+    "diagnostics": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\scar\\buildings\\almohad_grand_keep.scar",
+    "diagnostics": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\scar\\buildings\\berber_landmark_visual_precache.scar",
+    "diagnostics": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\scar\\buildings\\great_mosque_of_tlemcen.scar",
+    "diagnostics": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\scar\\buildings\\madrasa_fez.scar",
+    "diagnostics": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\scar\\buildings\\malian_house.scar",
+    "diagnostics": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\scar\\buildings\\marrakech.scar",
+    "diagnostics": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\scar\\buildings\\tent_ui.scar",
+    "diagnostics": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\scar\\buildings\\tribal_tent.scar",
+    "diagnostics": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\scar\\garrison\\garrison.scar",
+    "diagnostics": [
+      {
+        "severity": "warning",
+        "code": "unknown-call",
+        "message": "Call `blob:byte` is absent from official API/source evidence and local definitions.",
+        "line": 99
+      },
+      {
+        "severity": "warning",
+        "code": "unknown-call",
+        "message": "Call `blob:sub` is absent from official API/source evidence and local definitions.",
+        "line": 83
+      },
+      {
+        "severity": "warning",
+        "code": "unknown-call",
+        "message": "Call `key:match` is absent from official API/source evidence and local definitions.",
+        "line": 187
+      },
+      {
+        "severity": "warning",
+        "code": "unknown-call",
+        "message": "Call `schar` is absent from official API/source evidence and local definitions.",
+        "line": 47
+      },
+      {
+        "severity": "warning",
+        "code": "unknown-call",
+        "message": "Call `sunpack` is absent from official API/source evidence and local definitions.",
+        "line": 82
+      }
+    ],
+    "summary": {
+      "errors": 0,
+      "warnings": 5
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\scar\\music\\berber_music.scar",
+    "diagnostics": [
+      {
+        "severity": "warning",
+        "code": "unknown-call",
+        "message": "Call `BM_audio.stopBed` is absent from official API/source evidence and local definitions.",
+        "line": 76
+      }
+    ],
+    "summary": {
+      "errors": 0,
+      "warnings": 1
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\scar\\music\\berber_music_catalog.scar",
+    "diagnostics": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\scar\\music\\berber_music_policy.scar",
+    "diagnostics": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\scar\\passive_bonus\\enduring_generations.scar",
+    "diagnostics": [
+      {
+        "severity": "error",
+        "code": "lifecycle-missing",
+        "message": "Registered module `BerbersEnduringGenerations` lacks callbacks: BerbersEnduringGenerations_OnInit, BerbersEnduringGenerations_Start."
+      }
+    ],
+    "summary": {
+      "errors": 1,
+      "warnings": 0
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\scar\\passive_bonus\\nomadic_trade_network.scar",
+    "diagnostics": [
+      {
+        "severity": "error",
+        "code": "lifecycle-missing",
+        "message": "Registered module `BerbersNomadicTrade` lacks callbacks: BerbersNomadicTrade_OnInit, BerbersNomadicTrade_Start."
+      }
+    ],
+    "summary": {
+      "errors": 1,
+      "warnings": 0
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\scar\\units\\saharan_trader.scar",
+    "diagnostics": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\scar\\units\\sanhaja_buff.scar",
+    "diagnostics": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\scar\\units\\tribal_camel_archer.scar",
+    "diagnostics": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\scar\\units\\tuareg_q_art_guard_trial.scar",
+    "diagnostics": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\scar\\units\\tuareg_voice_profile.scar",
+    "diagnostics": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\scar\\units\\zenata_lancer.scar",
+    "diagnostics": [],
+    "summary": {
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "file": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\source\\scar\\garrison\\berbers\\dispatcher.scar",
+    "diagnostics": [
+      {
+        "severity": "warning",
+        "code": "sgroup-lifetime",
+        "message": "Temporary squad group `squads` from `Player_GetSquads` is not visibly destroyed.",
+        "line": 35
+      },
+      {
+        "severity": "warning",
+        "code": "sgroup-count-despawned",
+        "message": "`SGroup_Count(squads)` includes despawned squads; use `SGroup_CountSpawned` when only active units should count.",
+        "line": 36
+      }
+    ],
+    "summary": {
+      "errors": 0,
+      "warnings": 2
+    }
+  }
+]

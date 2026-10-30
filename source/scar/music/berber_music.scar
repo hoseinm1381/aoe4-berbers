@@ -19,7 +19,7 @@ function BM_OnInit()
 end
 function BM_Path()
     local s=BM_State
-    if s.entry==0 then return "audio/berber_music/intro_a1.mp3" end
+    if s.entry==0 then return "audio/berber_music/intro_a1.ogg" end
     return "audio/berber_music/"..BM_Catalog.codes[s.age].."_"..string.char(96+s.theme)
         ..tostring(s.level)..(s.entry>1 and "_entry"..tostring(s.entry) or "")..".mp3"
 end

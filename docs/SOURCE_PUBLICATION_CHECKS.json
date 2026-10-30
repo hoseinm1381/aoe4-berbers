@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-31",
+  "version": "0.1.2",
+  "authorization": "Owner scheduled source-only upload at 02:15 AM system time",
+  "repository": "https://github.com/hoseinm1381/aoe4-berbers",
+  "branch": "main",
+  "staged_files": 14870,
+  "native_files_verified": 2491,
+  "editable_masters_verified": 11864,
+  "required_tools_included": true,
+  "required_input_paths_all_in_git_index": true,
+  "oversized_whole_files_in_lfs": [
+    {
+      "path": "authoring/external/output/berber_update_0_2_6/authors/barracks/stock/dfcfdbdd7194bafe69b8/decoded-static.json",
+      "bytes": 131753084,
+      "lfs_sha256": "b8d1b02bdb1cb893bee8ec682fb18c8e00fd5adac2ce30f7d26aa000f910fbca"
+    },
+    {
+      "path": "authoring/external/output/berber_update_0_2_6/authors/towncenter/stock/d3a1fa73bdda9ca96018/decoded-static.json",
+      "bytes": 109228828,
+      "lfs_sha256": "5ca947c3aa80e63280a74a06ce2da26dc3ace25ea57084675c572cc28aacd704"
+    },
+    {
+      "path": "authoring/external/output/shared_stock_cache/buildings_031/4776ae8c311fd4453442/decoded-static.json",
+      "bytes": 170627656,
+      "lfs_sha256": "3661b7044355db21b0fba4e486d9a1ce25c01e5d1c742aff67fe84e82d00f3d3"
+    },
+    {
+      "path": "authoring/external/output/shared_stock_cache/buildings_031/7f2cd0f1f63c20f3f617/decoded-static.json",
+      "bytes": 163633606,
+      "lfs_sha256": "10097341e5552999107e26b7f0542ee94b652e30ef7647b90952bdbad58ab1f5"
+    },
+    {
+      "path": "authoring/external/output/shared_stock_cache/buildings_031/fc9f4455684be7b00d96/decoded-static.json",
+      "bytes": 135287917,
+      "lfs_sha256": "c5b4ffefaf297632d3ba55d263d57efaac0f16a6d5ecc26a634ec5aea691f7eb"
+    },
+    {
+      "path": "authoring/external/research/buildings_batch/grand_keep/stock/7f2cd0f1f63c20f3f617/decoded-static.json",
+      "bytes": 163653786,
+      "lfs_sha256": "6ffee67a8da89d7f37e1498e85ca8ab086540478723761d501503640d15edf68"
+    },
+    {
+      "path": "authoring/external/research/buildings_batch/keep/stock/7f2cd0f1f63c20f3f617/decoded-static.json",
+      "bytes": 163653786,
+      "lfs_sha256": "6ffee67a8da89d7f37e1498e85ca8ab086540478723761d501503640d15edf68"
+    },
+    {
+      "path": "authoring/external/research/buildings_batch/mosque/stock/fc9f4455684be7b00d96/decoded-static.json",
+      "bytes": 135302569,
+      "lfs_sha256": "9977545c415946d3f88a541f6e55cd455a7f5e842da4b14952345253b415b599"
+    }
+  ],
+  "player_releases_archives_caches_excluded": true,
+  "current_source_matches_verified_local_package": true,
+  "source_tests_passed": 8,
+  "native_game_acceptance": "pending",
+  "release_publication": "not authorized",
+  "secret_pattern_scan": "no detected token or private-key patterns in candidate text files",
+  "source_byte_policy": "No newline conversion; whole-file LFS only for listed oversized masters"
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "garrison.codex-reviewed/v1",
+  "unique_units": [
+    "unit_spearman_tuareg_1_ber",
+    "ber_unit_horseman_2_mal",
+    "mehari_2_ber",
+    "unit_masmuda_cb_2_ber",
+    "unit_sanhaja_ca_2_ber",
+    "ber_unit_handcannon_4_mal",
+    "ber_unit_trade_cart_mal"
+  ],
+  "unique_techs": [
+    "ber_upgrade_scout_los_increase_mal",
+    "ber_upgrade_night_buff_song_cmp",
+    "ber_upgrade_unit_horseman_3_mal",
+    "ber_upgrade_unit_horseman_4_mal"
+  ],
+  "script_builders": [],
+  "bonus_evidence": "Current private EBPS/UPBs and source/scar mechanics, reviewed for 0.1.2. Stable gameplay tables are unchanged."
+}

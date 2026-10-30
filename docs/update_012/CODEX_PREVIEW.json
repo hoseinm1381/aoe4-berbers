@@ -1,0 +1,1972 @@
+{
+  "source": "Native construction tabs/spawner/standard-upgrade menus and positive private/current official prerequisites. No product filename-derived ages.",
+  "producer_count": 32,
+  "groups": [
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_town_center_capital_mal",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_building_town_center_capital_mal",
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_building_town_center_mal"
+      ],
+      "header_age": 1,
+      "available_age": 1,
+      "items": [
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_scout_1_mal",
+          1
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_scout_2_mal",
+          2
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal",
+          1
+        ],
+        [
+          "sbps",
+          "gaia_herdable_sheep",
+          1
+        ],
+        [
+          "sbps",
+          "gaia_herdable_sheep_black",
+          1
+        ],
+        [
+          "sbps",
+          "gaia_herdable_sheep_brown",
+          1
+        ],
+        [
+          "sbps",
+          "unit_scout_3_mal",
+          3
+        ],
+        [
+          "sbps",
+          "unit_scout_4_mal",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_villager_health",
+          2
+        ]
+      ],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          2
+        ],
+        [
+          -6,
+          0
+        ],
+        [
+          -6,
+          3
+        ],
+        [
+          -4,
+          0
+        ],
+        [
+          -2,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          6,
+          4
+        ]
+      ]
+    },
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_defense_outpost_mal",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_building_defense_outpost_mal"
+      ],
+      "header_age": 1,
+      "available_age": 1,
+      "items": [
+        [
+          "upgrade",
+          "upgrade_outpost_arrowslits",
+          2
+        ],
+        [
+          "upgrade",
+          "upgrade_outpost_cannon",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_outpost_springald",
+          3
+        ],
+        [
+          "upgrade",
+          "upgrade_outpost_stone",
+          2
+        ]
+      ],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          2
+        ],
+        [
+          -3,
+          4
+        ],
+        [
+          -1,
+          10
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_econ_food_mal",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_building_econ_food_mal"
+      ],
+      "header_age": 1,
+      "available_age": 1,
+      "items": [
+        [
+          "upgrade",
+          "upgrade_econ_resource_food_harvest_rate_2",
+          2
+        ],
+        [
+          "upgrade",
+          "upgrade_econ_resource_food_harvest_rate_3",
+          3
+        ],
+        [
+          "upgrade",
+          "upgrade_econ_resource_food_harvest_rate_4",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_econ_villager_hunting_gear_1",
+          1
+        ],
+        [
+          "upgrade",
+          "upgrade_scout_forester",
+          2
+        ],
+        [
+          "upgrade",
+          "upgrade_unit_town_center_wheelbarrow_1",
+          1
+        ]
+      ],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          2
+        ],
+        [
+          -3,
+          4
+        ],
+        [
+          -3,
+          7
+        ],
+        [
+          -3,
+          10
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_econ_mining_camp_mal",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_building_econ_mining_camp_mal"
+      ],
+      "header_age": 1,
+      "available_age": 1,
+      "items": [
+        [
+          "upgrade",
+          "upgrade_econ_resource_gold_harvest_rate_2",
+          2
+        ],
+        [
+          "upgrade",
+          "upgrade_econ_resource_gold_harvest_rate_3",
+          3
+        ],
+        [
+          "upgrade",
+          "upgrade_econ_resource_gold_harvest_rate_4",
+          4
+        ]
+      ],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          10
+        ]
+      ]
+    },
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_econ_wood_mal",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_building_econ_wood_mal"
+      ],
+      "header_age": 1,
+      "available_age": 1,
+      "items": [
+        [
+          "upgrade",
+          "upgrade_econ_resource_wood_fell_rate_1",
+          1
+        ],
+        [
+          "upgrade",
+          "upgrade_econ_resource_wood_harvest_rate_2",
+          2
+        ],
+        [
+          "upgrade",
+          "upgrade_econ_resource_wood_harvest_rate_3",
+          3
+        ],
+        [
+          "upgrade",
+          "upgrade_econ_resource_wood_harvest_rate_4",
+          4
+        ]
+      ],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          2
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          10
+        ]
+      ]
+    },
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_house_mal",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_building_house_mal"
+      ],
+      "header_age": 1,
+      "available_age": 1,
+      "items": [],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_hut_ayy",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_building_hut_ayy"
+      ],
+      "header_age": 1,
+      "available_age": 1,
+      "items": [
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal",
+          1
+        ],
+        [
+          "upgrade",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_upgrade_unit_horseman_3_mal",
+          3
+        ],
+        [
+          "upgrade",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_upgrade_unit_horseman_4_mal",
+          4
+        ]
+      ],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          2
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          10
+        ]
+      ]
+    },
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_unit_infantry_mal",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_building_unit_infantry_mal"
+      ],
+      "header_age": 1,
+      "available_age": 1,
+      "items": [
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:unit_spearman_tuareg_1_ber",
+          1
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:unit_spearman_tuareg_2_ber",
+          2
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:unit_spearman_tuareg_3_ber",
+          3
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:unit_spearman_tuareg_4_ber",
+          4
+        ],
+        [
+          "upgrade",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_upgrade_unit_spearman_2_mal",
+          2
+        ],
+        [
+          "upgrade",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_upgrade_unit_spearman_3_mal",
+          3
+        ],
+        [
+          "upgrade",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_upgrade_unit_spearman_4_mal",
+          4
+        ]
+      ],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          2
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          -1,
+          6
+        ],
+        [
+          -1,
+          9
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          10
+        ]
+      ]
+    },
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_unit_naval_mal",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_building_unit_naval_mal"
+      ],
+      "header_age": 1,
+      "available_age": 1,
+      "items": [
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_naval_combat_ship_2_abb",
+          2
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_naval_combat_warship_4_abb",
+          4
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_naval_fireship_3_mal",
+          2
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_naval_fishing_boat_2_mal",
+          1
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_naval_light_combat_ship_2_mal",
+          2
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_naval_trade_ship_3_mal",
+          2
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_naval_transport_ship_2_mal",
+          1
+        ],
+        [
+          "upgrade",
+          "upgrade_econ_drift_nets",
+          3
+        ],
+        [
+          "upgrade",
+          "upgrade_econ_extended_lines",
+          2
+        ],
+        [
+          "upgrade",
+          "upgrade_naval_armored_hull",
+          3
+        ],
+        [
+          "upgrade",
+          "upgrade_naval_arrowslits",
+          2
+        ],
+        [
+          "upgrade",
+          "upgrade_naval_explosives",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_naval_extra_hammocks",
+          3
+        ],
+        [
+          "upgrade",
+          "upgrade_naval_heated_shot",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_naval_incendiaries",
+          3
+        ],
+        [
+          "upgrade",
+          "upgrade_naval_javelin_ships_mal",
+          2
+        ],
+        [
+          "upgrade",
+          "upgrade_naval_mounted_guns",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_naval_shipwrights",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_naval_springald_ship_upgrade_1",
+          3
+        ],
+        [
+          "upgrade",
+          "upgrade_naval_swivel_cannon",
+          4
+        ]
+      ],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          2
+        ],
+        [
+          -19,
+          3
+        ],
+        [
+          -17,
+          9
+        ],
+        [
+          -15,
+          3
+        ],
+        [
+          -13,
+          0
+        ],
+        [
+          -11,
+          3
+        ],
+        [
+          -9,
+          3
+        ],
+        [
+          -7,
+          0
+        ],
+        [
+          -5,
+          7
+        ],
+        [
+          -3,
+          4
+        ],
+        [
+          -1,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          9,
+          7
+        ],
+        [
+          11,
+          4
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          15,
+          10
+        ],
+        [
+          17,
+          7
+        ],
+        [
+          19,
+          10
+        ]
+      ]
+    },
+    {
+      "producer": "building_defense_palisade_bastion_mal",
+      "variants": [
+        "building_defense_palisade_bastion_mal",
+        "building_defense_palisade_mal"
+      ],
+      "header_age": 1,
+      "available_age": 1,
+      "items": [],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "producer": "building_defense_palisade_gate_mal",
+      "variants": [
+        "building_defense_palisade_gate_mal"
+      ],
+      "header_age": 1,
+      "available_age": 1,
+      "items": [],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "producer": "building_resource_farm_mal",
+      "variants": [
+        "building_resource_farm_mal"
+      ],
+      "header_age": 1,
+      "available_age": 1,
+      "items": [],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_landmark_age1_landmarka_mal",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_building_landmark_age1_landmarka_mal"
+      ],
+      "header_age": 1,
+      "available_age": 2,
+      "items": [
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_knight_3_song_cmp",
+          3
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_knight_4_song_cmp",
+          4
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_scout_1_mal",
+          2
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:mehari_2_ber",
+          2
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:mehari_3_ber",
+          3
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:mehari_4_ber",
+          4
+        ],
+        [
+          "upgrade",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_upgrade_scout_los_increase_mal",
+          2
+        ],
+        [
+          "upgrade",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_upgrade_unit_gbeto_3_mal",
+          3
+        ],
+        [
+          "upgrade",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_upgrade_unit_gbeto_4_mal",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_unit_knight_4",
+          4
+        ]
+      ],
+      "aliases": [],
+      "landmark": true,
+      "positions": [
+        [
+          0,
+          2
+        ],
+        [
+          -5,
+          6
+        ],
+        [
+          -5,
+          9
+        ],
+        [
+          -3,
+          3
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          -1,
+          6
+        ],
+        [
+          -1,
+          9
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_landmark_age1_landmarkb_mal",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_building_landmark_age1_landmarkb_mal"
+      ],
+      "header_age": 1,
+      "available_age": 2,
+      "items": [
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_villager_1_mal",
+          2
+        ],
+        [
+          "upgrade",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_upgrade_unit_horseman_3_mal",
+          3
+        ],
+        [
+          "upgrade",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_upgrade_unit_horseman_4_mal",
+          4
+        ]
+      ],
+      "aliases": [],
+      "landmark": true,
+      "positions": [
+        [
+          0,
+          2
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          10
+        ]
+      ]
+    },
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_econ_market_mal",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_building_econ_market_mal"
+      ],
+      "header_age": 2,
+      "available_age": 2,
+      "items": [
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_horseman_2_mal",
+          2
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_horseman_3_mal",
+          3
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_horseman_4_mal",
+          4
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_trade_cart_mal",
+          2
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:unit_masmuda_cb_2_ber",
+          2
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:unit_masmuda_cb_3_ber",
+          3
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:unit_masmuda_cb_4_ber",
+          4
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:unit_sanhaja_ca_2_ber",
+          2
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:unit_sanhaja_ca_3_ber",
+          3
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:unit_sanhaja_ca_4_ber",
+          4
+        ]
+      ],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          5
+        ],
+        [
+          -3,
+          3
+        ],
+        [
+          -3,
+          6
+        ],
+        [
+          -3,
+          9
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          9
+        ]
+      ]
+    },
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_tech_unit_infantry_mal",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_building_tech_unit_infantry_mal"
+      ],
+      "header_age": 2,
+      "available_age": 2,
+      "items": [
+        [
+          "upgrade",
+          "upgrade_melee_armor_i",
+          2
+        ],
+        [
+          "upgrade",
+          "upgrade_melee_armor_ii",
+          3
+        ],
+        [
+          "upgrade",
+          "upgrade_melee_armor_iii",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_melee_damage_i",
+          2
+        ],
+        [
+          "upgrade",
+          "upgrade_melee_damage_ii",
+          3
+        ],
+        [
+          "upgrade",
+          "upgrade_melee_damage_iii",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_ranged_armor_i",
+          2
+        ],
+        [
+          "upgrade",
+          "upgrade_ranged_armor_ii",
+          3
+        ],
+        [
+          "upgrade",
+          "upgrade_ranged_armor_iii",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_ranged_damage_i",
+          2
+        ],
+        [
+          "upgrade",
+          "upgrade_ranged_damage_ii",
+          3
+        ],
+        [
+          "upgrade",
+          "upgrade_ranged_damage_iii",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_siege_engineers",
+          2
+        ],
+        [
+          "upgrade",
+          "upgrade_tech_military_academy",
+          3
+        ]
+      ],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          5
+        ],
+        [
+          -5,
+          4
+        ],
+        [
+          -5,
+          7
+        ],
+        [
+          -5,
+          10
+        ],
+        [
+          -3,
+          4
+        ],
+        [
+          -3,
+          7
+        ],
+        [
+          -3,
+          10
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          -1,
+          7
+        ],
+        [
+          -1,
+          10
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          7
+        ]
+      ]
+    },
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_unit_cavalry_mal",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_building_unit_cavalry_mal"
+      ],
+      "header_age": 2,
+      "available_age": 2,
+      "items": [
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_knight_3_song_cmp",
+          3
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_knight_4_song_cmp",
+          4
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_scout_1_mal",
+          2
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:mehari_2_ber",
+          2
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:mehari_3_ber",
+          3
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:mehari_4_ber",
+          4
+        ],
+        [
+          "upgrade",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_upgrade_scout_los_increase_mal",
+          2
+        ],
+        [
+          "upgrade",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_upgrade_unit_gbeto_3_mal",
+          3
+        ],
+        [
+          "upgrade",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_upgrade_unit_gbeto_4_mal",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_unit_knight_4",
+          4
+        ]
+      ],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          5
+        ],
+        [
+          -5,
+          6
+        ],
+        [
+          -5,
+          9
+        ],
+        [
+          -3,
+          3
+        ],
+        [
+          -1,
+          3
+        ],
+        [
+          -1,
+          6
+        ],
+        [
+          -1,
+          9
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_unit_ranged_mal",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_building_unit_ranged_mal"
+      ],
+      "header_age": 2,
+      "available_age": 2,
+      "items": [
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_archer_2_mal",
+          2
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_archer_3_mal",
+          3
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_archer_4_mal",
+          4
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_handcannon_4_mal",
+          4
+        ],
+        [
+          "upgrade",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_upgrade_unit_archer_3_mal",
+          3
+        ],
+        [
+          "upgrade",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_upgrade_unit_archer_4_mal",
+          4
+        ]
+      ],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          5
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          -2,
+          6
+        ],
+        [
+          -2,
+          9
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          10
+        ]
+      ]
+    },
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_ram_3_mal",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_ram_3_mal"
+      ],
+      "header_age": 2,
+      "available_age": 2,
+      "items": [],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_siege_tower_3_mal",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_siege_tower_3_mal"
+      ],
+      "header_age": 2,
+      "available_age": 2,
+      "items": [],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "producer": "building_defense_tower_mal",
+      "variants": [
+        "building_defense_tower_mal"
+      ],
+      "header_age": 2,
+      "available_age": 2,
+      "items": [],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "producer": "building_defense_wall_bastion_mal",
+      "variants": [
+        "building_defense_wall_bastion_mal",
+        "building_defense_wall_mal"
+      ],
+      "header_age": 2,
+      "available_age": 2,
+      "items": [],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "producer": "building_defense_wall_gate_mal",
+      "variants": [
+        "building_defense_wall_gate_mal"
+      ],
+      "header_age": 2,
+      "available_age": 2,
+      "items": [],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          5
+        ]
+      ]
+    },
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_landmark_age2_landmarkc_control_mal",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_building_landmark_age2_landmarkc_control_mal"
+      ],
+      "header_age": 2,
+      "available_age": 3,
+      "items": [
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_monk_3_mal",
+          3
+        ]
+      ],
+      "aliases": [],
+      "landmark": true,
+      "positions": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_landmark_age2_landmarkd_control_mal",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_building_landmark_age2_landmarkd_control_mal"
+      ],
+      "header_age": 2,
+      "available_age": 3,
+      "items": [
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_horseman_2_mal",
+          3
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_horseman_4_mal",
+          4
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:unit_masmuda_cb_2_ber",
+          3
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:unit_masmuda_cb_4_ber",
+          4
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:unit_sanhaja_ca_2_ber",
+          3
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:unit_sanhaja_ca_4_ber",
+          4
+        ]
+      ],
+      "aliases": [
+        {
+          "shown": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_horseman_2_mal",
+          "alias": "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_horseman_3_mal",
+          "age": 3
+        },
+        {
+          "shown": "5fe8767cca3a4e649e20c9527cf014ec:unit_masmuda_cb_2_ber",
+          "alias": "5fe8767cca3a4e649e20c9527cf014ec:unit_masmuda_cb_3_ber",
+          "age": 3
+        },
+        {
+          "shown": "5fe8767cca3a4e649e20c9527cf014ec:unit_sanhaja_ca_2_ber",
+          "alias": "5fe8767cca3a4e649e20c9527cf014ec:unit_sanhaja_ca_3_ber",
+          "age": 3
+        }
+      ],
+      "landmark": true,
+      "positions": [
+        [
+          0,
+          5
+        ],
+        [
+          -2,
+          6
+        ],
+        [
+          -2,
+          9
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          9
+        ]
+      ]
+    },
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_defense_keep_mal",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_building_defense_keep_mal"
+      ],
+      "header_age": 3,
+      "available_age": 3,
+      "items": [
+        [
+          "upgrade",
+          "upgrade_keep_cannon",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_keep_springald",
+          3
+        ],
+        [
+          "upgrade",
+          "upgrade_tech_university_murder_holes_4",
+          3
+        ]
+      ],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          8
+        ],
+        [
+          -2,
+          10
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          7
+        ]
+      ]
+    },
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_unit_religious_mal",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_building_unit_religious_mal"
+      ],
+      "header_age": 3,
+      "available_age": 3,
+      "items": [
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_monk_3_mal",
+          3
+        ],
+        [
+          "upgrade",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_upgrade_night_buff_song_cmp",
+          3
+        ],
+        [
+          "upgrade",
+          "upgrade_unit_religious_herbal_medicine_4",
+          3
+        ],
+        [
+          "upgrade",
+          "upgrade_unit_religious_piety_4",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_unit_religious_tithe_barn_4_mal",
+          4
+        ]
+      ],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          8
+        ],
+        [
+          -4,
+          6
+        ],
+        [
+          -2,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          4,
+          10
+        ]
+      ]
+    },
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_unit_siege_mal",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_building_unit_siege_mal"
+      ],
+      "header_age": 3,
+      "available_age": 3,
+      "items": [
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_bombard_4_mal",
+          4
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_mangonel_3_mal",
+          3
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_springald_3_mal",
+          3
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_trebuchet_4_cw_mal",
+          3
+        ],
+        [
+          "sbps",
+          "5fe8767cca3a4e649e20c9527cf014ec:ber_unit_workshop_ram_3_mal",
+          3
+        ],
+        [
+          "upgrade",
+          "upgrade_ram_scaling",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_siege_adjustable_crossbar",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_siege_mathematics",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_siege_roller_trigger",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_siege_weapon_speed",
+          3
+        ]
+      ],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          8
+        ],
+        [
+          -9,
+          9
+        ],
+        [
+          -7,
+          6
+        ],
+        [
+          -5,
+          6
+        ],
+        [
+          -3,
+          6
+        ],
+        [
+          -1,
+          6
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          9,
+          7
+        ]
+      ]
+    },
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_landmark_age3_landmarke_mal",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_building_landmark_age3_landmarke_mal"
+      ],
+      "header_age": 3,
+      "available_age": 4,
+      "items": [
+        [
+          "upgrade",
+          "upgrade_manatarms_elite_army_tactics",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_ranged_archer_silkstring",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_ranged_incendiary",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_ranged_leadshot",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_siege_chemistry",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_siege_works",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_tech_university_architecture_4",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_tech_university_biology",
+          4
+        ]
+      ],
+      "aliases": [],
+      "landmark": true,
+      "positions": [
+        [
+          0,
+          8
+        ],
+        [
+          -7,
+          10
+        ],
+        [
+          -5,
+          10
+        ],
+        [
+          -3,
+          10
+        ],
+        [
+          -1,
+          10
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          7,
+          10
+        ]
+      ]
+    },
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_landmark_age3_landmarkf_mal",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_building_landmark_age3_landmarkf_mal"
+      ],
+      "header_age": 3,
+      "available_age": 4,
+      "items": [
+        [
+          "upgrade",
+          "upgrade_keep_cannon",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_keep_springald",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_tech_university_murder_holes_4",
+          4
+        ]
+      ],
+      "aliases": [],
+      "landmark": true,
+      "positions": [
+        [
+          0,
+          8
+        ],
+        [
+          -2,
+          10
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          2,
+          10
+        ]
+      ]
+    },
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_tech_university_mal",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_building_tech_university_mal"
+      ],
+      "header_age": 4,
+      "available_age": 4,
+      "items": [
+        [
+          "upgrade",
+          "upgrade_manatarms_elite_army_tactics",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_ranged_archer_silkstring",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_ranged_incendiary",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_ranged_leadshot",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_siege_chemistry",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_siege_works",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_tech_university_architecture_4",
+          4
+        ],
+        [
+          "upgrade",
+          "upgrade_tech_university_biology",
+          4
+        ]
+      ],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          11
+        ],
+        [
+          -7,
+          10
+        ],
+        [
+          -5,
+          10
+        ],
+        [
+          -3,
+          10
+        ],
+        [
+          -1,
+          10
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          7,
+          10
+        ]
+      ]
+    },
+    {
+      "producer": "5fe8767cca3a4e649e20c9527cf014ec:ber_building_wonder_age4_great_mosque_control_mal",
+      "variants": [
+        "5fe8767cca3a4e649e20c9527cf014ec:ber_building_wonder_age4_great_mosque_control_mal"
+      ],
+      "header_age": 4,
+      "available_age": 4,
+      "items": [],
+      "aliases": [],
+      "landmark": false,
+      "positions": [
+        [
+          0,
+          11
+        ]
+      ]
+    }
+  ],
+  "native_codex_visual_test": "pending",
+  "missing_stock_evidence": [],
+  "foreign_builder_menus_not_imported": [],
+  "native_bounds_verified": true
+}

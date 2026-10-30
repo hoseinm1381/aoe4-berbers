@@ -1,0 +1,35 @@
+{
+  "raw_checker_exit": 1,
+  "raw_errors": 2,
+  "reviewed_exceptions": [
+    {
+      "file": "scar/passive_bonus/enduring_generations.scar",
+      "sha256": "e2f9415c176ef1fab44e28459c75402a24f387639d012a82d0d5415b5db94f5d",
+      "byte_identical_to_tested_011": true,
+      "raw_checker_finding": {
+        "severity": "error",
+        "code": "lifecycle-missing",
+        "message": "Registered module `BerbersEnduringGenerations` lacks callbacks: BerbersEnduringGenerations_OnInit, BerbersEnduringGenerations_Start."
+      },
+      "manual_start_function": "Enduring_Generations_start",
+      "called_by": "scar/garrison/berbers/dispatcher.scar: BerbersPilot_Start",
+      "classification": "Pre-existing lifecycle-name heuristic: Core module supplies setup/gameover callbacks; dispatcher explicitly starts the passive using its existing function name. No gameplay change made to silence the checker."
+    },
+    {
+      "file": "scar/passive_bonus/nomadic_trade_network.scar",
+      "sha256": "6c9827afc8fbfd86aeccb04048432b3ffbbd129f48b2ee0c1773c91656fefd96",
+      "byte_identical_to_tested_011": true,
+      "raw_checker_finding": {
+        "severity": "error",
+        "code": "lifecycle-missing",
+        "message": "Registered module `BerbersNomadicTrade` lacks callbacks: BerbersNomadicTrade_OnInit, BerbersNomadicTrade_Start."
+      },
+      "manual_start_function": "Nomadic_Trade_Network_start",
+      "called_by": "scar/garrison/berbers/dispatcher.scar: BerbersPilot_Start",
+      "classification": "Pre-existing lifecycle-name heuristic: Core module supplies setup/gameover callbacks; dispatcher explicitly starts the passive using its existing function name. No gameplay change made to silence the checker."
+    }
+  ],
+  "new_errors_introduced_by_012": 0,
+  "raw_warnings": 14,
+  "native_lifecycle_test": "pending"
+}

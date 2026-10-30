@@ -1,36 +1,50 @@
-# Berbers for Age of Empires IV
+# Berbers — independent Garrison civilization
 
-Independent Garrison civilization by **hosein81 and marcokistan**.
+Current local candidate: **0.1.2**, in `release/Berbers-Garrison-0.1.2.zip`.
+Native in-game acceptance is pending. The owner authorized the 2026-10-31
+02:15 AM source-only GitHub upload. This repository contains complete developer
+inputs; the current player ZIP remains local while acceptance is pending.
+No new GitHub Release, tag or installation is included. See
+[source publication scope](docs/SOURCE_PUBLICATION.md).
 
-**Players:** [download Berbers-Garrison-0.1.0.zip](https://github.com/hoseinm1381/aoe4-berbers/releases/download/v0.1.0/Berbers-Garrison-0.1.0.zip).
-Import it in Garrison client 0.1.9 or newer. Choose **Berbers**, **Standard**,
-**Tuning Pack: None**. See [player instructions](START-HERE.md) and [credits](CREDITS.md).
+0.1.2 populates native Unique Units/Technologies, explains the actual civilization
+mechanics, corrects research ages and spaces tech-tree icons at the native pitch.
+Civilization labels are plural and the selector uses the existing flag fallback.
+World gameplay, stable IDs and HD loading/art resources are preserved. Berber
+audio is smaller; existing compact Vietnamese voices retain their current codec.
 
-**Developers:** clone this repository with GitHub Desktop, or Git with Git LFS
-installed. Gameplay, models, textures, sound, music, recipes and native build
-inputs are all in this repository. There are no separate sound packs, release
-input downloads, submodules or additional source repositories.
+Players need the single ZIP. Follow [the test instructions](START-HERE.md).
+Developers use this complete repository: editable art/rigs/textures, original
+audio, native inputs, typed whole-file attribute source and recipes live here.
+There are no separate required source/art/sound downloads.
 
-```powershell
-git clone https://github.com/hoseinm1381/aoe4-berbers.git
-cd aoe4-berbers
-python tools/inputs.py verify
-python tools/build.py --output output/current
+- [0.1.2 changes and evidence](docs/UPDATE_012.md)
+- [Native package verification](docs/BUILD_VERIFICATION.json)
+- [Source regressions](docs/SOURCE_TESTS.json)
+- [Size measurements](docs/SIZE_REPORT.json)
+- [Developer workflow](docs/DEVELOPMENT.md)
+- [Design boundaries](docs/DESIGN.md)
+- [Release policy](RELEASES.md)
+
+Rebuild locally with Python 3.13 and the
+installed Garrison 0.1.8 authoring/core plus Content Editor:
+
+```text
+python -B tools/inputs.py verify
+python -B tools/build.py --replace-current
 ```
 
-Use Python 3.13 and Garrison authoring extension/core 0.1.8 for the build.
-Set `GARRISON_EXTENSION` if the extension is installed elsewhere.
-Large donor files use Git LFS and arrive with a normal LFS-enabled clone.
+Native staging uses one temporary `garrison-independent-builds/<owner>/current`
+directory per civilization to avoid copying thousands of tiny files twice on
+F: exFAT. Failed diagnostics are protected. Verified staging may be cleaned only
+after checking the final ZIP and retained inputs. The current source workspace
+does not change. Current stock prerequisite evidence is retained under `source/`.
 
-Edit current gameplay in `source/scar` and `source/tables`, UI/localization in
-`source/resources`, and art/audio in `authoring/original` and `authoring/external`.
-`inputs/native` preserves the composed runtime resources required to rebuild.
-[Development details](docs/DEVELOPMENT.md) explain formats and art integration.
-This repository's `main` branch belongs only to Berbers.
+The tested 0.1.1 ZIP remains under `archives/tested_0.1.1/`; its exact native Codex
+is a hashed regression fixture. Source/UI snapshots are in `docs/update_012/before/`.
+The earlier standalone split came from accepted combined Garrison 1.1.0 commit
+`d58326f447b6444332e9a15c42c7496d57fb26be`. Normal/combined sources are preserved.
 
-The owner confirmed trial.3 loaded and worked on 2026-10-30. Version 0.1.0 retains
-that gameplay and uses the original Villager banner for civilization presentation.
-The new flag layout needs an in-game visual retest. Broader mechanics, AI,
-repeated matches, save/load, multiplayer and performance remain separate tests.
+Credits: **hosein81, marcokistan, Karyu, lammet and ForsakenCryz**.
 
-Stable owner: `5fe8767c-ca3a-4e64-9e20-c9527cf014ec`; bundle/audio key: `berbers`.
+After verifying a build, preview staging retirement with `python tools/cleanup_staging.py`; apply it with `--apply`. The tool preserves player ZIPs, source, masters, native inputs and receipts.
