@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<instance version="6" description="Berber production near Tribal Tent or Funduq influence" template="ai\ai_entity">
+  <uniqueid name="pbgid" value="1073741918" />
+  <group name="ai_entity_bag">
+    <list name="applicable_blueprints">
+      <instance_reference name="applicable_blueprint" value="ebps\races\malian\buildings\building_unit_infantry_mal" List.ItemID="-429544809" mod="1d3145e8f1b2427f8bb0067851fcf0f1" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\malian\buildings\building_unit_ranged_mal" List.ItemID="1173275276" mod="1d3145e8f1b2427f8bb0067851fcf0f1" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\malian\buildings\building_unit_cavalry_mal" List.ItemID="-419169022" mod="1d3145e8f1b2427f8bb0067851fcf0f1" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\malian\buildings\building_unit_siege_mal" List.ItemID="-2082824428" mod="1d3145e8f1b2427f8bb0067851fcf0f1" />
+      <instance_reference name="applicable_blueprint" value="ebps\races\malian\buildings\building_econ_market_mal" List.ItemID="-713467287" mod="1d3145e8f1b2427f8bb0067851fcf0f1" />
+    </list>
+    <group name="construction">
+      <string name="placement_function" value="" />
+      <bool name="can_build_multiple_in_parallel" value="False" />
+      <int name="max_num_additional_builders" value="4" />
+      <int name="max_num_incomplete_structures_builders" value="-1" />
+      <list name="near_to_structures">
+        <instance_reference name="structure" value="ebps\races\malian\buildings\tent\building_hut_ayy" List.ItemID="-660756696" mod="1d3145e8f1b2427f8bb0067851fcf0f1" />
+        <instance_reference name="structure" value="ebps\races\malian\buildings\landmarks\funduq\building_landmark_age1_landmarkb_mal" List.ItemID="-509777395" mod="1d3145e8f1b2427f8bb0067851fcf0f1" />
+      </list>
+      <list name="requires_structures">
+      </list>
+      <list name="near_structures_with_capability">
+      </list>
+    </group>
+  </group>
+</instance>

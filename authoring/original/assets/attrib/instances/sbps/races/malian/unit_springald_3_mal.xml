@@ -1,0 +1,38 @@
+<instance version="4" description="" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-2056667985" List.ParentItemID="-2056667985">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="-34640674" List.ParentItemID="-34640674">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="-1006526320" List.ParentItemID="-1006526320">
+					<group name="info">
+						<file name="flag_icon_override" value="berbers" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="1145231595" List.ParentItemID="1145231595">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="1590101638">
+					<float name="num" value="1" />
+					<instance_reference name="type" value="ebps\races\malian\units\unit_springald_3_mal" overrideParent="True" />
+					<list name="unit_attachments">
+					</list>
+					<bool name="is_default_unit" value="True" />
+				</group>
+			</list>
+			<float name="squad_female_chance" value="0" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="204584753" List.ParentItemID="204584753">
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\malian" overrideParent="True" List.ItemID="-1878968348" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="-1623605007" List.ParentItemID="-1623605007">
+			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="2618732" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_springald_3" />
+</instance>

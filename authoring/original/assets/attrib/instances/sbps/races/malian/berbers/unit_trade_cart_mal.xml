@@ -1,0 +1,47 @@
+<instance version="4" description="Feudal Age Saharan Trader" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="792309686" List.ParentItemID="792309686">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="911229892" List.ParentItemID="911229892">
+					<group name="info">
+						<locstring name="help_text" value="57" mod="1d3145e8f1b2427f8bb0067851fcf0f1" overrideParent="True" />
+						<locstring name="screen_name" value="56" mod="1d3145e8f1b2427f8bb0067851fcf0f1" overrideParent="True" />
+						<bool name="is_unique_to_race" value="True" overrideParent="True" />
+						<file name="icon_name" value="saharan_trader" overrideParent="True" />
+						<file name="flag_icon_override" value="berbers" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="-1530163112" List.ParentItemID="-1530163112">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="-1944837798">
+					<float name="num" value="1" />
+					<instance_reference name="type" value="ebps\races\malian\units\unit_trade_cart_mal" overrideParent="True" />
+					<list name="unit_attachments" overrideParent="True">
+					</list>
+					<bool name="is_default_unit" value="True" />
+				</group>
+			</list>
+			<float name="squad_female_chance" value="0" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext" List.ItemID="-1075203367" List.ParentItemID="-1075203367">
+			<list name="abilities">
+				<instance_reference name="ability" value="abilities\always_on_abilities\ui_abilities\desert_pace" mod="1d3145e8f1b2427f8bb0067851fcf0f1" List.ItemID="71669524" List.ListAction="Append" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="683879184" List.ParentItemID="683879184">
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\malian" overrideParent="True" List.ItemID="-1907844964" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="368437707" List.ParentItemID="368437707">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="464355600" List.ParentItemID="464355600">
+			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\non_formation_land_box_fill_spot_generator" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="2201796" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_trade_cart" />
+</instance>

@@ -1,0 +1,90 @@
+------------------------------------------------------------------------
+-- Berber Future Kingdom - Great Mosque of Tlemcen Landmark System
+--
+-- When Great Mosque of Tlemcen ("building_landmark_age2_landmarkc_control_mal") is constructed:
+--   1. Set state model float property "Relic_Count" on the landmark entity to 1.0.
+--   2. Grant "upgrade_night_buff_song_cmp" upgrade to the player.
+------------------------------------------------------------------------
+
+Core_RegisterModule("GreatMosqueOfTlemcen")
+
+local _tlemcen_mosque = {
+	started = false,
+	landmark_bp = nil,
+	night_buff_upg = nil,
+	castle_age_upg = nil,
+}
+
+local function SafeGetUpgradeBP(name)
+	local status, bp = pcall(BP_GetUpgradeBlueprint, name)
+	if status and bp ~= nil then
+		return bp
+	end
+	print("[GreatMosqueTlemcen] WARNING: Invalid upgrade BP: " .. tostring(name))
+	return nil
+end
+
+function GreatMosque_OnConstructionComplete(context)
+	if context == nil or context.entity == nil then return end
+	
+	local entity = context.entity
+	if not Entity_IsValid(Entity_GetID(entity)) or World_OwnsEntity(entity) then return end
+	
+	local ebp = Entity_GetBlueprint(entity)
+	if ebp == _tlemcen_mosque.landmark_bp then
+		local player_obj = Entity_GetPlayerOwner(entity)
+		if player_obj == nil or not Player_IsAlive(player_obj) then return end
+		
+		print("[GreatMosqueTlemcen] Great Mosque of Tlemcen constructed!")
+		
+		-- 1. Set statemodel float property Relic_Count to 1
+		Entity_SetStateModelFloat(entity, "Relic_Count", 1.0)
+		print("[GreatMosqueTlemcen] Set Relic_Count statemodel float to 1.0 on landmark.")
+		
+		-- 2. Grant upgrade_night_buff_song_cmp to player
+		if _tlemcen_mosque.night_buff_upg ~= nil then
+			if not Player_HasUpgrade(player_obj, _tlemcen_mosque.night_buff_upg) then
+				Player_CompleteUpgrade(player_obj, _tlemcen_mosque.night_buff_upg)
+				print("[GreatMosqueTlemcen] Granted upgrade_night_buff_song_cmp to player.")
+			end
+		end
+
+		-- 3. Grant castle_age upgrade to player
+		if _tlemcen_mosque.castle_age_upg ~= nil then
+			if not Player_HasUpgrade(player_obj, _tlemcen_mosque.castle_age_upg) then
+				Player_CompleteUpgrade(player_obj, _tlemcen_mosque.castle_age_upg)
+				print("[GreatMosqueTlemcen] Granted castle_age upgrade to player.")
+			end
+		end
+	end
+end
+
+function Great_Mosque_of_Tlemcen_start()
+	if _tlemcen_mosque.started then return end
+
+	_tlemcen_mosque.landmark_bp = BP_GetEntityBlueprint("building_landmark_age2_landmarkc_control_mal")
+	_tlemcen_mosque.night_buff_upg = SafeGetUpgradeBP("upgrade_night_buff_song_cmp")
+	_tlemcen_mosque.castle_age_upg = SafeGetUpgradeBP("castle_age")
+
+	Rule_AddGlobalEvent(GreatMosque_OnConstructionComplete, GE_ConstructionComplete)
+	_tlemcen_mosque.started = true
+	print("[GreatMosqueTlemcen] Module started, listening to GE_ConstructionComplete.")
+end
+
+function Great_Mosque_of_Tlemcen_stop()
+	if not _tlemcen_mosque.started then return end
+	Rule_RemoveGlobalEvent(GreatMosque_OnConstructionComplete)
+	_tlemcen_mosque.started = false
+	print("[GreatMosqueTlemcen] Module stopped.")
+end
+
+function GreatMosqueOfTlemcen_OnInit()
+end
+
+function GreatMosqueOfTlemcen_Start()
+	Great_Mosque_of_Tlemcen_start()
+end
+
+function GreatMosqueOfTlemcen_OnGameOver()
+	Great_Mosque_of_Tlemcen_stop()
+end

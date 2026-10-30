@@ -1,0 +1,57 @@
+------------------------------------------------------------------------
+-- Berber Future Kingdoms - Ribat Of The Sanhaja +2 melee armor buff
+------------------------------------------------------------------------
+
+-- Ok, so the code it self doesnt grant any bonus, what it does is to listen to the
+-- construction list, and when the right building (in this case the landmark), gets built,
+-- then a certain upgrade will be automatically researched for the player who built the
+-- landmark. 
+
+-- This technology is: upgrade_sanhaja_armor_buff
+
+-- Its an empty technology, with no UI, no cost... Its only job is to trigger a tier
+-- upgrade set manually in the ebps of the mehari and zenata lancer's units.
+
+-- NOTE: The script was 80% written by gemini, i will leave the comments gemini gave.
+
+
+-- 1. Initialize the script and start listening for completed buildings
+function MehariBuff_Init()
+    Rule_AddGlobalEvent(OnLandmarkConstructed, GE_ConstructionComplete)
+end
+
+-- 2. The event callback that checks WHICH building was constructed
+function OnLandmarkConstructed(context)
+    local built_entity = context.entity
+    local builder_player = context.player
+    
+    local entity_bp = Entity_GetBlueprint(built_entity)
+    local built_bp_name = BP_GetName(entity_bp)
+    
+    -- Use string.find to see if the name contains your landmark
+    if string.find(built_bp_name, "building_landmark_age1_landmarka_mal") then
+        
+        -- DYNAMIC MOD ID EXTRACTION:
+        -- This grabs the Mod ID from the front of the building string (e.g., "1d3145...:")
+        -- If it doesn't find a colon (like in base-game assets), it defaults to an empty string.
+		
+		-- MARCO NOTE: We need the modID because otherwise we cant get the path, what gemini did here
+		-- was to extract it from the information given by the last element of the construction list.
+		-- Since custom elements inside the construction list, begin with the modID as its prefix.
+		
+        local mod_prefix = string.match(built_bp_name, "^(.-:)") or ""
+        
+        -- Dynamically build the upgrade path using the extracted prefix
+        local full_upgrade_path = mod_prefix .. "races/malian/landmark/upgrade_sanhaja_armor_buff"
+        
+        -- Get the upgrade using the dynamic path
+        local armor_upgrade_bp = BP_GetUpgradeBlueprint(full_upgrade_path)
+        
+        -- Check if the player already has the upgrade
+        if not Player_HasUpgrade(builder_player, armor_upgrade_bp) then
+            -- Grant the upgrade instantly
+            Player_CompleteUpgrade(builder_player, armor_upgrade_bp)
+        end
+        
+    end
+end

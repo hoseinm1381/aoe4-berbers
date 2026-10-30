@@ -1,0 +1,72 @@
+_enduring_generations = {
+	started = false,
+	modifiers = {},
+}
+
+local function Enduring_Generations_GetAge(player_id)
+	if Player_HasUpgrade(player_id, BP_GetUpgradeBlueprint("imperial_age")) then
+		return 4
+	elseif Player_HasUpgrade(player_id, BP_GetUpgradeBlueprint("castle_age")) then
+		return 3
+	elseif Player_HasUpgrade(player_id, BP_GetUpgradeBlueprint("feudal_age")) then
+		return 2
+	end
+
+	return 1
+end
+
+function Enduring_Generations_Reconcile()
+	local seen_entities = {}
+
+	for player_index = 1, World_GetPlayerCount() do
+		local player_id = World_GetPlayerAt(player_index)
+		if Player_IsAlive(player_id) and Player_GetRaceName(player_id) == "malian" then
+			local age = Enduring_Generations_GetAge(player_id)
+			local health_bonus = ({ [2] = 0.05, [3] = 0.10, [4] = 0.15 })[age]
+			local entities = Player_GetAllEntities(player_id)
+			EGroup_Filter(entities, "annihilation_condition", FILTER_KEEP)
+
+			for entity_index = 1, EGroup_Count(entities) do
+				local entity = EGroup_GetEntityAt(entities, entity_index)
+				if entity ~= nil and not Entity_IsBuilding(entity) then
+					local entity_id = Entity_GetID(entity)
+					local previous = _enduring_generations.modifiers[entity_id]
+					seen_entities[entity_id] = true
+
+					-- Replace the old total bonus instead of stacking age bonuses.
+					if previous ~= nil and previous.age ~= age then
+						Modifier_RemoveInternal(previous.modifier.ModifierID)
+						_enduring_generations.modifiers[entity_id] = nil
+						previous = nil
+					end
+
+					if health_bonus ~= nil and previous == nil then
+						local modifier = Modifier_Create(MAT_Entity, "health_maximum_modifier", MUT_MultiplicationAddition, false, health_bonus, "")
+						Modifier_ApplyToEntity(modifier, entity, 0.0)
+						_enduring_generations.modifiers[entity_id] = {
+							age = age,
+							modifier = modifier,
+						}
+					end
+				end
+			end
+		end
+	end
+
+	for entity_id, previous in pairs(_enduring_generations.modifiers) do
+		if not seen_entities[entity_id] then
+			Modifier_RemoveInternal(previous.modifier.ModifierID)
+			_enduring_generations.modifiers[entity_id] = nil
+		end
+	end
+end
+
+function Enduring_Generations_start()
+	if _enduring_generations.started then
+		return
+	end
+
+	_enduring_generations.started = true
+	Enduring_Generations_Reconcile()
+	Rule_AddInterval(Enduring_Generations_Reconcile, 1)
+end

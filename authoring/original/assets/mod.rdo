@@ -1,0 +1,28 @@
+<DataWarehouse>
+	<!--Mod/-->
+	<DataObject Name="Berber_future_kingdom" Type="Mod" Id="5759052099740399965" Version="1">
+		<DataProperty Name="m_description" Type="Object">
+			<DataValue Name="util::ReflectLocString">5759052104376401777</DataValue>
+			<!--Mod/util::ReflectLocString/-->
+			<DataObject Name="" Type="util::ReflectLocString" Id="5759052104376401777" OwnerId="5759052099740399965">
+				<DataProperty Name="m_modPart2" Type="UInt32" Value="2013704331"/>
+				<DataProperty Name="m_modPart3" Type="UInt32" Value="4059102289"/>
+				<DataProperty Name="m_modPart0" Type="UInt32" Value="489768424"/>
+				<DataProperty Name="m_modPart1" Type="UInt32" Value="1115681202"/>
+				<DataProperty Name="m_locStringKey" Type="Int32" Value="2"/>
+			</DataObject>
+		</DataProperty>
+		<DataProperty Name="m_name" Type="Object">
+			<DataValue Name="util::ReflectLocString">5759052103094571885</DataValue>
+			<!--Mod/util::ReflectLocString/-->
+			<DataObject Name="" Type="util::ReflectLocString" Id="5759052103094571885" OwnerId="5759052099740399965">
+				<DataProperty Name="m_modPart2" Type="UInt32" Value="2013704331"/>
+				<DataProperty Name="m_modPart3" Type="UInt32" Value="4059102289"/>
+				<DataProperty Name="m_modPart0" Type="UInt32" Value="489768424"/>
+				<DataProperty Name="m_modPart1" Type="UInt32" Value="1115681202"/>
+				<DataProperty Name="m_locStringKey" Type="Int32" Value="1"/>
+			</DataObject>
+		</DataProperty>
+	</DataObject>
+</DataWarehouse>
+

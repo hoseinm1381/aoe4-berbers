@@ -1,0 +1,44 @@
+<instance version="4" description="" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-2056667985" List.ParentItemID="-2056667985">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="333513392" List.ParentItemID="333513392">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="-753404179" List.ParentItemID="-753404179">
+					<group name="info">
+						<file name="flag_icon_override" value="berbers" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" List.ItemID="-550574692" List.ParentItemID="-550574692">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="1351935825" List.ParentItemID="1351935825">
+					<instance_reference name="type" value="ebps\races\malian\units\unit_culverin_4_mal" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="9901245" List.ParentItemID="9901245">
+			<list name="requirement_table" comment="Requires Imperial age, Tech army, chemistry upgrade&#xD;&#xA;">
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-2100060737" List.ParentItemID="-2100060737">
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\malian" List.ItemID="1801051806" />
+			</list>
+			<list name="squad_type_list" removedIds="131471288">
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="-38175651" List.ParentItemID="-38175651">
+			<group name="squad_speech_parameters">
+				<string name="squad_name_code" value="cannon" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="-1921307612" List.ParentItemID="-1921307612">
+			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="2278976" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_culverin_4" />
+</instance>

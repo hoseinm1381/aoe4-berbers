@@ -1,0 +1,33 @@
+<instance version="4" description="" template="army">
+	<group name="army_bag">
+		<list name="starting_buildings">
+			<group name="starting_building" List.ItemID="598265657" List.ParentItemID="598265657">
+				<instance_reference name="building" value="ebps\races\mongol\buildings\building_town_center_dummy_start" overrideParent="True" />
+			</group>
+		</list>
+		<list name="starting_units" overrideParent="True">
+			<instance_reference name="squad" value="sbps\races\malian\unit_villager_1_mal" overrideParent="True" List.ItemID="-874758220" />
+			<instance_reference name="squad" value="sbps\races\malian\unit_villager_1_mal" overrideParent="True" List.ItemID="-1731311977" />
+			<instance_reference name="squad" value="sbps\races\malian\unit_villager_1_mal" overrideParent="True" List.ItemID="-547988141" />
+			<instance_reference name="squad" value="sbps\races\malian\unit_villager_1_mal" overrideParent="True" List.ItemID="-598314370" />
+			<instance_reference name="squad" value="sbps\races\malian\unit_villager_1_mal" overrideParent="True" List.ItemID="-1492210559" />
+			<instance_reference name="squad" value="sbps\races\malian\animals\herdable_cattle_mal" mod="1d3145e8f1b2427f8bb0067851fcf0f1" List.ItemID="-1002009517" />
+		</list>
+		<template_reference name="starting_units_spawner" value="options\spawn\scatter" overrideParent="True">
+			<float name="separation" value="250" overrideParent="True" />
+			<int name="spawn_position_number" value="6" overrideParent="True" />
+			<int name="min_clearance" value="11" comment="Note: Require 11 clearance so we ensure that we have room for a TC at least at the starting position. Need at minimum a 9 clearance" overrideParent="True" />
+			<float name="map_border" value="0" overrideParent="True" />
+			<int name="node_limit" value="10000" overrideParent="True" />
+			<bool name="use_random_rotation" value="True" overrideParent="True" />
+			<int name="random_start_attempts" value="50" overrideParent="True" />
+			<bool name="use_early_out_optimization" value="False" overrideParent="True" />
+		</template_reference>
+		<enum_table name="resource_starting_amount">
+			<float name="wood" value="200" overrideParent="True" />
+			<float name="stone" value="50" overrideParent="True" />
+		</enum_table>
+	</group>
+	<uniqueid name="pbgid" value="2121063" />
+	<instance_reference name="parent_pbg" value="army\standard_mode\normal_malian" />
+</instance>

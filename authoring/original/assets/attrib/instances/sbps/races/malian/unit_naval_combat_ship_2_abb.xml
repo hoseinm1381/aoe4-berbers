@@ -1,0 +1,76 @@
+<instance version="6" description="" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="1225479661" List.ParentItemID="1225479661">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="-1089950708" List.ParentItemID="-1089950708">
+					<group name="info">
+						<file name="flag_icon_override" value="berbers" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" List.ItemID="1459794609" List.ParentItemID="1459794609">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="1428777897" List.ParentItemID="1428777897">
+					<instance_reference name="type" value="ebps\races\malian\units\unit_naval_combat_ship_3_abb" mod="1d3145e8f1b2427f8bb0067851fcf0f1" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-447726778" List.ParentItemID="-447726778">
+			<list name="requirement_table" comment="Requires castle age&#xD;&#xA;">
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="2056395460" List.ParentItemID="2056395460">
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\abbasid" List.ItemID="-1215581154" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-1626464918" List.ParentItemID="-1626464918">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073741913" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_naval_combat_ship_2" />
+	<variant name="campaign">
+		<list name="extensions">
+			<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" List.ItemID="1857512793" List.ParentItemID="1857512793">
+				<list name="unit_list">
+					<group name="loadout_data" List.ItemID="-954191471" List.ParentItemID="-954191471">
+						<instance_reference name="type" value="ebps\races\abbasid\units\unit_naval_combat_ship_3_abb" overrideParent="True" />
+					</group>
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="717118312" List.ParentItemID="717118312">
+				<list name="requirement_table" comment="Requires castle age&#xD;&#xA;">
+				</list>
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="1073741913" />
+		<instance_reference name="parent_pbg" value="sbps\races\core\unit_naval_combat_ship_2" />
+	</variant>
+	<variant name="xp3">
+		<list name="extensions">
+			<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" List.ItemID="1459794609" List.ParentItemID="1459794609">
+				<list name="unit_list">
+					<group name="loadout_data" List.ItemID="1428777897" List.ParentItemID="1428777897">
+						<instance_reference name="type" value="ebps\races\abbasid\units\unit_naval_combat_ship_3_abb" overrideParent="True" />
+					</group>
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-447726778" List.ParentItemID="-447726778">
+				<list name="requirement_table" comment="Requires castle age&#xD;&#xA;">
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="2056395460" List.ParentItemID="2056395460">
+				<list name="squad_race_type_list" overrideParent="True">
+					<instance_reference name="squad_race_type" value="racebps\abbasid" List.ItemID="923028015" />
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-1626464918" List.ParentItemID="-1626464918">
+				<bool name="browsable_in_editor" value="True" overrideParent="True" />
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="1073741913" />
+		<instance_reference name="parent_pbg" value="sbps\races\core\unit_naval_combat_ship_2" />
+	</variant>
+</instance>

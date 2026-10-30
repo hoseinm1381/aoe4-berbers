@@ -1,0 +1,88 @@
+<instance version="4" description="Imperial Age Masmuda Crossbowman" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-1979743353" List.ParentItemID="-1979743353">
+			<bool name="browsable_in_editor" value="False" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="1385082189" List.ParentItemID="1385082189">
+			<list name="abilities" overrideParent="True">
+				<instance_reference name="ability" value="abilities\always_on_abilities\abbasid_ha_01\infantry_support_aura_abb_ha_01" List.ItemID="1757181843" />
+				<instance_reference name="ability" value="abilities\always_on_abilities\abbasid_ha_01\passives\golden_age_bonus_1_abb_ha_01" overrideParent="True" List.ItemID="-524939974" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="1380317016" List.ParentItemID="1380317016">
+			<list name="action_state_trees">
+				<group name="container" List.ItemID="32706407" List.ParentItemID="32706407">
+					<string name="state_tree" value="unit_action_apply\units\crossbowman\audio\abb\3" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="289202148" List.ParentItemID="289202148">
+			<group name="time_cost">
+				<enum_table name="cost">
+					<float name="food" value="60" overrideParent="True" />
+				</enum_table>
+				<float name="time_seconds" value="21" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="2097449255" List.ParentItemID="2097449255">
+			<float name="hitpoints" value="90" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="231008259" List.ParentItemID="231008259">
+			<list name="race_type_list" overrideParent="True">
+				<instance_reference name="race_type" value="racebps\abbasid_ha_01" overrideParent="True" List.ItemID="-939227376" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="-1381607687" List.ParentItemID="-1381607687">
+			<list name="hardpoints">
+				<group name="hardpoint" List.ItemID="751434855" List.ParentItemID="751434855">
+					<list name="weapon_table" removedIds="1734876876">
+						<group name="weapon" List.ItemID="-1071856729" List.ParentItemID="-1071856729">
+							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\malian\ranged\weapon_crossbow_4_ber" mod="1d3145e8f1b2427f8bb0067851fcf0f1" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\abbasid\weapons\wpn_range_crossbow_3_abb" overrideParent="True" />
+								<string name="marker_name_parent" value="MetaRig_RArmPalmSocket" overrideParent="True" />
+							</template_reference>
+						</group>
+						<group name="weapon" List.ItemID="-485040964" List.ParentItemID="-485040964">
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\malian\ranged\weapon_crossbow_incendiary_ber_4" mod="1d3145e8f1b2427f8bb0067851fcf0f1" overrideParent="True" />
+							</template_reference>
+						</group>
+					</list>
+				</group>
+			</list>
+			<template_reference name="kill_action_tree" value="state_tree_reference_info">
+				<state_tree_node name="ActionTree_OpeningBranch" value="Infantry_kill_action_abb_01\activate" overrideParent="True" />
+			</template_reference>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="-1178936770" List.ParentItemID="-1178936770">
+			<list name="tier_group_list">
+				<list name="tier_group" overrideParent="True" List.ItemID="1778589756">
+					<group name="tier" List.ItemID="-692405554">
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\abbasid\units\tier4_crossbowman_abb" overrideParent="True" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+						<string name="tier_attachment_action" value="" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="True" overrideParent="True" />
+							<bool name="remove_from_pending_deaths" value="False" />
+							<bool name="enable_all_extensions" value="True" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
+					</group>
+				</list>
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073741875" />
+	<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_crossbowman_3" />
+</instance>

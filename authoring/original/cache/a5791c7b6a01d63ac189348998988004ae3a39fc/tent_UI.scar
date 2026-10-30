@@ -1,0 +1,146 @@
+------------------------------------------------------------------------
+-- Berber Future Kingdom - Tent Influence UI Panel
+--
+-- Displays a UI indicator panel at the mid-left of the screen showing:
+--   1. Global required influence value for the next villager.
+--   2. Local accumulated progress for each active Tent & Landmark.
+--   3. Clicking an entry moves the camera directly to that tent's spot!
+--
+-- Purely local UI logic — zero impact on simulation or desync.
+------------------------------------------------------------------------
+
+Core_RegisterModule("TentUI")
+
+local _TentUI = {
+    started     = false,
+    main_obj_id = nil,
+    tent_objs   = {}, -- pos_key -> obj_id
+}
+
+local function TentUI_ClearObjectives()
+    if _TentUI.main_obj_id ~= nil then
+        if Obj_Delete ~= nil then Obj_Delete(_TentUI.main_obj_id) end
+        _TentUI.main_obj_id = nil
+    end
+    for key, obj_id in pairs(_TentUI.tent_objs) do
+        if Obj_Delete ~= nil then Obj_Delete(obj_id) end
+    end
+    _TentUI.tent_objs = {}
+end
+
+local function TentUI_Update()
+    local local_player = Player_GetLocalPlayer()
+    if local_player == nil then return end
+
+    -- Fetch influence state for local player
+    local data = InfluenceSystem_GetPlayerData(local_player)
+    if data == nil then return end
+
+    -- Create or Update Main Header Objective
+    local header_title = string.format("Tent Influence (Req: %d)", data.required)
+    local header_desc  = string.format("Next Villager Threshold: %d Influence | Villagers Earned: %d", data.required, data.reward_count)
+
+    if _TentUI.main_obj_id == nil then
+        _TentUI.main_obj_id = Obj_Create(
+            local_player,
+            header_title,
+            header_desc,
+            "", -- icon
+            "", -- dataTemplate
+            "", -- faction
+            1,  -- OT_Primary
+            0,  -- parentID
+            ""  -- telemetry
+        )
+        if Obj_SetState ~= nil then Obj_SetState(_TentUI.main_obj_id, OS_Incomplete) end
+        if Obj_SetVisible ~= nil then Obj_SetVisible(_TentUI.main_obj_id, true) end
+    else
+        if Obj_SetTitle ~= nil then Obj_SetTitle(_TentUI.main_obj_id, header_title) end
+        if Obj_SetDescription ~= nil then Obj_SetDescription(_TentUI.main_obj_id, header_desc) end
+    end
+
+    -- Update sub-items for each registered Tent / Funduq
+    local active_keys = {}
+    for idx, tinfo in ipairs(data.tents) do
+        local key = tinfo.pos_key
+        active_keys[key] = true
+
+        local is_landmark = (tinfo.name == "building_landmark_age1_landmarkb_mal")
+        local label = is_landmark and "Funduq" or string.format("Tent #%d", idx)
+        local sub_title = string.format("%s: %d / %d", label, tinfo.pool, data.required)
+        local sub_desc  = string.format("Click to focus camera on %s", label)
+
+        local obj_id = _TentUI.tent_objs[key]
+        if obj_id == nil then
+            obj_id = Obj_Create(
+                local_player,
+                sub_title,
+                sub_desc,
+                "",
+                "",
+                "",
+                2,                  -- OT_Secondary
+                _TentUI.main_obj_id, -- parent ID is main objective
+                ""
+            )
+            if Obj_SetState ~= nil then Obj_SetState(obj_id, OS_Incomplete) end
+            if Obj_SetVisible ~= nil then Obj_SetVisible(obj_id, true) end
+
+            -- Bind click handler to pan camera to tent position
+            local target_pos = tinfo.pos
+            if Obj_SetObjectiveFunction ~= nil then
+                Obj_SetObjectiveFunction(obj_id, 1, function()
+                    Camera_FocusOnPosition(target_pos)
+                end)
+            end
+
+            _TentUI.tent_objs[key] = obj_id
+        else
+            if Obj_SetTitle ~= nil then Obj_SetTitle(obj_id, sub_title) end
+            if Obj_SetDescription ~= nil then Obj_SetDescription(obj_id, sub_desc) end
+        end
+    end
+
+    -- Remove entries for destroyed/deleted tents
+    for key, obj_id in pairs(_TentUI.tent_objs) do
+        if not active_keys[key] then
+            if Obj_Delete ~= nil then Obj_Delete(obj_id) end
+            _TentUI.tent_objs[key] = nil
+        end
+    end
+end
+
+function tent_UI_start()
+    if _TentUI.started then return end
+    
+    local local_player = Player_GetLocalPlayer()
+    if local_player ~= nil then
+        Rule_AddInterval(TentUI_Update, 1.0)
+    end
+    
+    _TentUI.started = true
+    print("[TentUI] Started UI panel.")
+end
+
+function tent_UI_stop()
+    if not _TentUI.started then return end
+    Rule_Remove(TentUI_Update)
+    TentUI_ClearObjectives()
+    _TentUI.started = false
+    print("[TentUI] Stopped.")
+end
+
+------------------------------------------------------------------------
+-- Core framework hooks
+------------------------------------------------------------------------
+
+function TentUI_OnInit()
+end
+
+function TentUI_Start()
+    tent_UI_start()
+end
+
+function TentUI_OnGameOver()
+    tent_UI_stop()
+end

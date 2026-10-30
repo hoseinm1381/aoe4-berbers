@@ -1,0 +1,104 @@
+<instance version="6" description="Castle Age Lancer" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-2056667985" List.ParentItemID="-2056667985">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="-458796721" List.ParentItemID="-458796721">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="1896534723" List.ParentItemID="1896534723">
+					<group name="info">
+						<file name="icon_name" value="races\common\units\knight_3" overrideParent="True" />
+						<locstring name="screen_name" value="191" mod="1d3145e8f1b2427f8bb0067851fcf0f1" overrideParent="True" />
+						<file name="flag_icon_override" value="berbers" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="116620937" List.ParentItemID="116620937">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="-1515076528">
+					<float name="num" value="1" />
+					<instance_reference name="type" value="ebps\races\malian\units\unit_knight_3_song_cmp" mod="1d3145e8f1b2427f8bb0067851fcf0f1" overrideParent="True" />
+					<list name="unit_attachments" overrideParent="True">
+					</list>
+					<bool name="is_default_unit" value="True" />
+				</group>
+			</list>
+			<float name="squad_female_chance" value="0" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-528484734" List.ParentItemID="-528484734">
+			<list name="squad_type_list" overrideParent="True">
+				<enum name="squad_type" value="military" List.ItemID="-260329801" />
+				<enum name="squad_type" value="cavalry" List.ItemID="-1235538660" />
+				<enum name="squad_type" value="armored" List.ItemID="1547480141" />
+				<enum name="squad_type" value="scar_age3" List.ItemID="924778029" />
+				<enum name="squad_type" value="scar_knight" List.ItemID="839319364" />
+				<enum name="squad_type" value="scar_military" List.ItemID="1531413926" />
+				<enum name="squad_type" value="" List.ItemID="1545360151" />
+				<enum name="squad_type" value="can_be_converted" List.ItemID="-1489472117" />
+			</list>
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\campaign_cordoba\song_dynasty_cmp" overrideParent="True" List.ItemID="565660106" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="1990237064" List.ParentItemID="1990237064">
+			<list name="age_mapping">
+				<int name="age_number" value="3" overrideParent="True" List.ItemID="-1314067329" List.ParentItemID="-1314067329" />
+				<int name="age_number" value="3" overrideParent="True" List.ItemID="-945922741" List.ParentItemID="-945922741" />
+			</list>
+			<group name="squad_speech_parameters">
+				<enum name="squad_race_code" value="abbasid" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="-993571294" List.ParentItemID="-993571294">
+			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="9004932" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_knight_3" />
+	<variant name="cordoba">
+		<list name="extensions">
+			<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-2056667985" List.ParentItemID="-2056667985">
+				<bool name="browsable_in_editor" value="True" overrideParent="True" />
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="116620937" List.ParentItemID="116620937">
+				<list name="unit_list">
+					<group name="loadout_data" List.ItemID="2133317601">
+						<float name="num" value="1" />
+						<instance_reference name="type" value="ebps\races\malian\units\unit_knight_3_song_cmp" mod="1d3145e8f1b2427f8bb0067851fcf0f1" overrideParent="True" />
+						<list name="unit_attachments" overrideParent="True">
+						</list>
+						<bool name="is_default_unit" value="True" />
+					</group>
+				</list>
+				<float name="squad_female_chance" value="0" />
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-528484734" List.ParentItemID="-528484734">
+				<list name="squad_type_list" overrideParent="True">
+					<enum name="squad_type" value="military" List.ItemID="-1751681827" />
+					<enum name="squad_type" value="cavalry" List.ItemID="-1800483910" />
+					<enum name="squad_type" value="armored" List.ItemID="1567814943" />
+					<enum name="squad_type" value="scar_age3" List.ItemID="2070352922" />
+					<enum name="squad_type" value="scar_knight" List.ItemID="232886930" />
+					<enum name="squad_type" value="scar_military" List.ItemID="1281876038" />
+					<enum name="squad_type" value="" List.ItemID="454772787" />
+					<enum name="squad_type" value="can_be_converted" List.ItemID="-935095049" />
+				</list>
+				<list name="squad_race_type_list" overrideParent="True">
+					<instance_reference name="squad_race_type" value="racebps\campaign_cordoba\song_dynasty_cmp" overrideParent="True" List.ItemID="-47947513" />
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="1990237064" List.ParentItemID="1990237064">
+				<list name="age_mapping">
+					<int name="age_number" value="3" overrideParent="True" List.ItemID="-1314067329" List.ParentItemID="-1314067329" />
+					<int name="age_number" value="3" overrideParent="True" List.ItemID="-945922741" List.ParentItemID="-945922741" />
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="-993571294" List.ParentItemID="-993571294">
+				<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="9004932" />
+		<instance_reference name="parent_pbg" value="sbps\races\core\unit_knight_3" />
+	</variant>
+</instance>

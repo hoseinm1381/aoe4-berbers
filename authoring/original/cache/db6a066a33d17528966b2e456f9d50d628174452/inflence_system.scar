@@ -1,0 +1,282 @@
+------------------------------------------------------------------------
+-- Berber Future Kingdom - Influence System
+--
+-- A spawned unit gives its total resource cost to the nearest owned
+-- building_hut_ayy within INFLUENCE_SYSTEM_RANGE.
+--
+-- Each hut stores its own progress.  The required value is shared by all
+-- huts owned by the same player.  It starts at 500 and rises by 200 after
+-- every villager successfully queued for that player.
+------------------------------------------------------------------------
+
+Core_RegisterModule("InfluenceSystem")
+
+local _influence_system = {
+	started = false,
+	hut_bp = nil,
+	player_state = {}, -- [player_id] = { reward_count = number, huts = { [entity_id] = value } }
+
+	------------------------------------------------------------------------
+	-- EDITABLE UNIT COST TABLES
+	-- Cost means food + wood + gold + stone.
+	--
+	-- The name table is checked first.  The PBGID table is the fallback for
+	-- custom squads that cannot be resolved reliably by blueprint name.
+	------------------------------------------------------------------------
+	cost_by_blueprint_name = {
+		-- Official/local Malian squad blueprints used by this project.
+		["unit_villager_1_mal"] = 50,
+		["unit_trade_cart_mal"] = 120,
+		["unit_horseman_2_mal"] = 120,
+		["unit_horseman_3_mal"] = 120,
+		["unit_horseman_4_mal"] = 120,
+		["unit_handcannon_4_mal"] = 240,
+
+		-- Add other official unit squad blueprints here:
+		-- ["unit_blueprint_name"] = total_cost,
+	},
+
+	cost_by_pbgid = {
+		-- Mehari (inherits the Horseman cost).
+		[1073741824] = 120, -- mehari_2_ber
+		[1073741831] = 120, -- mehari_3_ber
+		[1073741832] = 120, -- mehari_4_ber
+
+		-- Tuareg Spearman (inherits the Spearman cost).
+		[1073741842] = 80, -- unit_spearman_tuareg_1_ber
+		[1073741850] = 80, -- unit_spearman_tuareg_2_ber
+		[1073741852] = 80, -- unit_spearman_tuareg_3_ber
+		[1073741854] = 80, -- unit_spearman_tuareg_4_ber
+
+		-- Masmuda Crossbowman (inherits the Crossbowman cost).
+		[1073741870] = 120, -- unit_masmuda_cb_2_ber
+		[1073741876] = 120, -- unit_masmuda_cb_3_ber
+		[1073741877] = 120, -- unit_masmuda_cb_4_ber
+
+		-- Sanhaja Camel Archer (inherits the Camel Archer cost).
+		[1073741888] = 230, -- unit_sanhaja_ca_2_ber
+		[1073741893] = 230, -- unit_sanhaja_ca_3_ber
+		[1073741894] = 230, -- unit_sanhaja_ca_4_ber
+
+		-- Add inaccessible custom squad PBGIDs here:
+		-- [1234567890] = total_cost,
+	},
+}
+
+local INFLUENCE_SYSTEM_RANGE = 8
+local INFLUENCE_SYSTEM_BASE_REQUIRED = 500
+local INFLUENCE_SYSTEM_BASE_INCREASE = 200
+local INFLUENCE_SYSTEM_SPIRIT_WAY_TYPE = "spirit_way"
+
+------------------------------------------------------------------------
+-- Spirit Way scaffold
+--
+-- Keep enabled = false until the landmark is ready.  Later, set it to true
+-- and set the two reductions.  The resulting values are clamped to the
+-- minimums below.
+------------------------------------------------------------------------
+local INFLUENCE_SYSTEM_SPIRIT_WAY = {
+	enabled = false,
+	required_reduction = 0,
+	increase_reduction = 0,
+	minimum_required = 1,
+	minimum_increase = 0,
+}
+
+local function InfluenceSystem_GetPlayerState(player)
+	local state = _influence_system.player_state[player]
+	if state == nil then
+		state = {
+			reward_count = 0,
+			huts = {},
+		}
+		_influence_system.player_state[player] = state
+	end
+	return state
+end
+
+local function InfluenceSystem_PlayerHasSpiritWay(player)
+	if not INFLUENCE_SYSTEM_SPIRIT_WAY.enabled then
+		return false
+	end
+
+	local entities = EGroup_CreateUniqueWithPrefix("InfluenceSystem_SpiritWay")
+	Player_GetEntitiesEGroup(player, entities)
+
+	local found = false
+	for index = 1, EGroup_Count(entities) do
+		local entity = EGroup_GetEntityAt(entities, index)
+		if entity ~= nil
+			and Entity_IsValid(Entity_GetID(entity))
+			and Entity_IsOfType(entity, INFLUENCE_SYSTEM_SPIRIT_WAY_TYPE) then
+			found = true
+			break
+		end
+	end
+
+	EGroup_Destroy(entities)
+	return found
+end
+
+local function InfluenceSystem_GetRequiredValue(player, reward_count)
+	local required_value = INFLUENCE_SYSTEM_BASE_REQUIRED
+	local increase_value = INFLUENCE_SYSTEM_BASE_INCREASE
+
+	if InfluenceSystem_PlayerHasSpiritWay(player) then
+		required_value = required_value - INFLUENCE_SYSTEM_SPIRIT_WAY.required_reduction
+		increase_value = increase_value - INFLUENCE_SYSTEM_SPIRIT_WAY.increase_reduction
+
+		if required_value < INFLUENCE_SYSTEM_SPIRIT_WAY.minimum_required then
+			required_value = INFLUENCE_SYSTEM_SPIRIT_WAY.minimum_required
+		end
+		if increase_value < INFLUENCE_SYSTEM_SPIRIT_WAY.minimum_increase then
+			increase_value = INFLUENCE_SYSTEM_SPIRIT_WAY.minimum_increase
+		end
+	end
+
+	return required_value + (reward_count * increase_value)
+end
+
+local function InfluenceSystem_GetSquadCost(squad)
+	local squad_bp = Squad_GetBlueprint(squad)
+	if squad_bp == nil then
+		return nil
+	end
+
+	local blueprint_name = BP_GetName(squad_bp)
+	if blueprint_name ~= nil then
+		local name_cost = _influence_system.cost_by_blueprint_name[blueprint_name]
+		if name_cost ~= nil then
+			return name_cost
+		end
+	end
+
+	return _influence_system.cost_by_pbgid[squad_bp.PropertyBagGroupID]
+end
+
+local function InfluenceSystem_FindNearestOwnedHut(player, position)
+	local nearby_huts = EGroup_CreateUniqueWithPrefix("InfluenceSystem_NearbyHuts")
+	World_GetEntitiesNearPoint(player, nearby_huts, position, INFLUENCE_SYSTEM_RANGE, OT_PLAYER)
+	EGroup_Filter(nearby_huts, _influence_system.hut_bp, FILTER_KEEP)
+
+	local nearest_hut = nil
+	local nearest_distance_squared = nil
+
+	for index = 1, EGroup_Count(nearby_huts) do
+		local hut = EGroup_GetEntityAt(nearby_huts, index)
+		if hut ~= nil and Entity_IsValid(Entity_GetID(hut)) then
+			local distance_squared = World_DistanceSquaredPointToPoint(
+				position,
+				Entity_GetPosition(hut)
+			)
+
+			if nearest_distance_squared == nil or distance_squared < nearest_distance_squared then
+				nearest_hut = hut
+				nearest_distance_squared = distance_squared
+			end
+		end
+	end
+
+	EGroup_Destroy(nearby_huts)
+	return nearest_hut
+end
+
+local function InfluenceSystem_TryQueueVillager(hut, player)
+	if not Entity_HasProductionQueue(hut) then
+		return false
+	end
+
+	local villager_squad_bp = Cardinal_ConvertTypeToSquadBlueprint("villager", player)
+	if villager_squad_bp == nil then
+		return false
+	end
+
+	return Entity_QueueProductionItemByPBG(hut, PITEM_Spawn, villager_squad_bp)
+end
+
+local function InfluenceSystem_AddValueToHut(hut, player, value)
+	local state = InfluenceSystem_GetPlayerState(player)
+	local hut_id = Entity_GetID(hut)
+	local hut_value = (state.huts[hut_id] or 0) + value
+	local required_value = InfluenceSystem_GetRequiredValue(player, state.reward_count)
+
+	-- Keep overflow.  One large contribution may therefore queue more than
+	-- one villager, provided every queue operation succeeds.
+	while hut_value >= required_value do
+		if not InfluenceSystem_TryQueueVillager(hut, player) then
+			break
+		end
+
+		hut_value = hut_value - required_value
+		state.reward_count = state.reward_count + 1
+		required_value = InfluenceSystem_GetRequiredValue(player, state.reward_count)
+	end
+
+	state.huts[hut_id] = hut_value
+end
+
+-- Global event callback for GE_SquadSpawn.
+function InfluenceSystem_OnSquadSpawn(context)
+	if not _influence_system.started or context == nil or context.squad == nil then
+		return
+	end
+
+	local squad = context.squad
+	if not Squad_IsValid(Squad_GetID(squad)) then
+		return
+	end
+
+	local cost = InfluenceSystem_GetSquadCost(squad)
+	if cost == nil or cost <= 0 then
+		return
+	end
+
+	local player = Squad_GetPlayerOwner(squad)
+	if player == nil then
+		return
+	end
+
+	local nearest_hut = InfluenceSystem_FindNearestOwnedHut(
+		player,
+		Squad_GetPosition(squad)
+	)
+
+	if nearest_hut ~= nil then
+		InfluenceSystem_AddValueToHut(nearest_hut, player, cost)
+	end
+end
+
+-- Call once from StandardMode_Start().
+function inflence_system_start()
+	if _influence_system.started then
+		return
+	end
+
+	_influence_system.hut_bp = BP_GetEntityBlueprint("building_hut_ayy")
+	_influence_system.player_state = {}
+	Rule_AddGlobalEvent(InfluenceSystem_OnSquadSpawn, GE_SquadSpawn)
+	_influence_system.started = true
+end
+
+-- Called automatically by InfluenceSystem_OnGameOver().
+function inflence_system_stop()
+	if not _influence_system.started then
+		return
+	end
+
+	Rule_RemoveGlobalEvent(InfluenceSystem_OnSquadSpawn)
+	_influence_system.started = false
+	_influence_system.player_state = {}
+end
+
+-- Framework callbacks.  Start remains explicit in StandardMode_Start(), while
+-- Core automatically calls OnGameOver so the global event is cleaned up.
+function InfluenceSystem_OnInit()
+end
+
+function InfluenceSystem_Start()
+end
+
+function InfluenceSystem_OnGameOver()
+	inflence_system_stop()
+end

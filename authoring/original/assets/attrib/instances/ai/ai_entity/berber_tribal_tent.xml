@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<instance version="6" description="Berber Tribal Tents near town centers" template="ai\ai_entity">
+  <uniqueid name="pbgid" value="1073741917" />
+  <group name="ai_entity_bag">
+    <list name="applicable_blueprints">
+      <instance_reference name="applicable_blueprint" value="ebps\races\malian\buildings\tent\building_hut_ayy" List.ItemID="1590980251" mod="1d3145e8f1b2427f8bb0067851fcf0f1" />
+    </list>
+    <group name="construction">
+      <string name="placement_function" value="" />
+      <bool name="can_build_multiple_in_parallel" value="False" />
+      <int name="max_num_additional_builders" value="4" />
+      <int name="max_num_incomplete_structures_builders" value="-1" />
+      <list name="near_to_structures">
+        <instance_reference name="structure" value="ebps\races\malian\buildings\building_town_center_capital_mal" List.ItemID="1097966363" mod="1d3145e8f1b2427f8bb0067851fcf0f1" />
+        <instance_reference name="structure" value="ebps\races\malian\buildings\building_town_center_mal" List.ItemID="1146879901" mod="1d3145e8f1b2427f8bb0067851fcf0f1" />
+      </list>
+      <list name="requires_structures">
+      </list>
+      <list name="near_structures_with_capability">
+      </list>
+    </group>
+  </group>
+</instance>

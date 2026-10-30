@@ -1,0 +1,44 @@
+<instance version="4" description="" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-2056667985" List.ParentItemID="-2056667985">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="-1963442601" List.ParentItemID="-1963442601">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="-222079756" List.ParentItemID="-222079756">
+					<group name="info">
+						<file name="flag_icon_override" value="berbers" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" List.ItemID="-1218214089" List.ParentItemID="-1218214089">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="-633928310" List.ParentItemID="-633928310">
+					<instance_reference name="type" value="ebps\races\malian\units\unit_ribauldequin_4_mal" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-1322311642" List.ParentItemID="-1322311642">
+			<list name="requirement_table" comment="Requires Imperial age, Tech army, chemistry upgrade&#xD;&#xA;">
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-316649756" List.ParentItemID="-316649756">
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\malian" overrideParent="True" List.ItemID="645842786" />
+			</list>
+			<list name="squad_type_list" removedIds="1922767004">
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="317912221" List.ParentItemID="317912221">
+			<group name="squad_speech_parameters">
+				<string name="squad_name_code" value="cannon" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="-645029135" List.ParentItemID="-645029135">
+			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="2294481" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_ribauldequin_4" />
+</instance>

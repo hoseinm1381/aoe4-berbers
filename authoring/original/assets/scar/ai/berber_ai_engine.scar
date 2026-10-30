@@ -1,0 +1,514 @@
+-- Engine boundary: normal commands, temporary groups and per-tick reservations.
+import("modifiers.scar")
+BerberAI = {}
+BerberAI_State = BerberAI_State or {players={}, started=false, stopped=false}
+BerberAI.Profiles = {
+    {name="Easy", workers=60, traders=10, bonus=.1, interval=1, alliance="zenata", scouts=1},
+    {name="Intermediate", workers=75, traders=20, bonus=.2, interval=1, alliance="zenata", scouts=1},
+    {name="Hard", workers=90, traders=30, bonus=.3, interval=1, alliance="zenata", scouts=1},
+    {name="Hardest", workers=105, traders=40, bonus=.5, interval=1, alliance="zenata", scouts=1},
+}
+BerberAI.Building = {
+    tc="building_town_center_capital_mal", expansion="building_town_center_mal",
+    house="building_house_mal", tent="building_hut_ayy", market="building_econ_market_mal",
+    barracks="building_unit_infantry_mal", range="building_unit_ranged_mal",
+    stable="building_unit_cavalry_mal", mill="building_econ_food_mal",
+    lumber="building_econ_wood_mal", mine="building_econ_mining_camp_mal",
+    farm="building_resource_farm_mal", smith="building_tech_unit_infantry_mal",
+    siege="building_unit_siege_mal", mosque="building_unit_religious_mal",
+    outpost="building_defense_outpost_mal", keep="building_defense_keep_mal",
+    university="building_tech_university_mal",
+}
+BerberAI.Alliances = {
+    sanhaja={ability="grenade_throw_song_cmp", upgrade="upgrade_cul_ancient_relics_ayy"},
+    zenata={ability="increase_armor_song_cmp", upgrade="upgrade_cul_medical_centers_ayy"},
+    masmuda={ability="increase_damage_song_cmp", upgrade="upgrade_econ_agriculture_ayy"},
+}
+BerberAI.Resources = {"food", "wood", "gold", "stone"}
+
+function BerberAI.Log(st, text)
+    print("[BerberAI0110 p=" .. tostring(st.pid) .. "] " .. text)
+end
+function BerberAI.Name(bp) return string.lower(BP_GetName(bp)) end
+function BerberAI.Distance(a, b)
+    return (a.x-b.x)*(a.x-b.x)+(a.z-b.z)*(a.z-b.z)
+end
+function BerberAI.Pos(p, x, z) return World_Pos(p.x+x, p.y or 0, p.z+z) end
+function BerberAI.EntityValid(e)
+    return e ~= nil and Entity_IsValid(Entity_GetID(e)) and Entity_IsAlive(e)
+end
+function BerberAI.DepositValid(e)
+    -- Resource-bearing corpses are valid gathering targets after death.
+    return e ~= nil and Entity_IsValid(Entity_GetID(e))
+end
+function BerberAI.SquadValid(s)
+    return s ~= nil and Squad_IsValid(Squad_GetID(s)) and Squad_Count(s) > 0
+end
+function BerberAI.Role(name)
+    local row=BerberAI_Catalog.squads[name]
+    if row ~= nil then return row.role end
+    return "other"
+end
+function BerberAI.WithSquads(items, fn)
+    if #items == 0 then return end
+    local sg=SGroup_CreateUnique()
+    for _, s in ipairs(items) do if BerberAI.SquadValid(s) then SGroup_Add(sg,s) end end
+    if SGroup_CountSpawned(sg)>0 then fn(sg) end
+    SGroup_Destroy(sg)
+end
+function BerberAI.WithEntity(e, fn, deposit)
+    if not (deposit and BerberAI.DepositValid(e) or BerberAI.EntityValid(e)) then return end
+    local eg=EGroup_CreateUnique()
+    if deposit and not Entity_IsAlive(e) then
+        -- Official gathering_utility uses native enumeration/copy to include
+        -- squad-owned animal corpses that direct EGroup_Add may reject.
+        if World_OwnsEntity(e) then World_GetAllNeutralEntities(eg)
+        else EGroup_AddEGroup(eg,Player_GetAllEntities(Entity_GetPlayerOwner(e))) end
+        local id=Entity_GetID(e)
+        for i=EGroup_Count(eg),1,-1 do
+            local other=EGroup_GetEntityAt(eg,i)
+            if Entity_GetID(other)~=id then EGroup_Remove(eg,other) end
+        end
+    else EGroup_Add(eg,e) end
+    if EGroup_Count(eg)>0 then fn(eg) end
+    EGroup_Destroy(eg)
+end
+function BerberAI.Target(st, squads, command, entity, queued)
+    local gathering=command==SCMD_Gather
+    if not (gathering and BerberAI.DepositValid(entity) or BerberAI.EntityValid(entity)) then return false end
+    BerberAI_State.orders=BerberAI_State.orders or {}
+    local changed={};local now=World_GetGameTime();local target_id=Entity_GetID(entity)
+    for _,s in ipairs(squads) do
+        if BerberAI.SquadValid(s) then
+            local id=Squad_GetID(s);local p=BerberAI_State.orders[id]
+            if queued or not p or p.kind~="target" or p.command~=command or p.entity_id~=target_id
+                or (now>p.time and Squad_IsIdle(s)) or now-p.time>=15 then
+                table.insert(changed,s)
+                BerberAI_State.orders[id]={kind="target",command=command,entity_id=target_id,time=now}
+            end
+        end
+    end
+    BerberAI.WithSquads(changed,function(sg)
+        local deposit_squad=gathering and Entity_GetSquad(entity) or nil
+        if BerberAI.SquadValid(deposit_squad) then
+            -- Official gathering_utility.scar uses squad targets for live animals.
+            BerberAI.WithSquads({deposit_squad},function(target)
+                LocalCommand_SquadSquad(st.player,sg,command,target,queued or false)
+            end)
+        else
+            BerberAI.WithEntity(entity,function(eg)
+                LocalCommand_SquadEntity(st.player,sg,command,eg,queued or false)
+            end,gathering)
+        end
+    end)
+    return #changed>0
+end
+function BerberAI.Move(squads, pos, attack)
+    BerberAI_State.orders=BerberAI_State.orders or {}
+    local changed={};local now=World_GetGameTime()
+    for _,s in ipairs(squads) do
+        if BerberAI.SquadValid(s) then
+        local id=Squad_GetID(s);local previous=BerberAI_State.orders[id]
+        if previous==nil or previous.kind~="move" or Squad_IsIdle(s) or previous.attack~=attack or now-previous.time>=15
+            or BerberAI.Distance(previous.pos,pos)>64 then
+            table.insert(changed,s)
+            BerberAI_State.orders[id]={kind="move",pos=pos,attack=attack,time=now}
+        end
+        end
+    end
+    BerberAI.WithSquads(changed,function(sg)
+        if attack then Cmd_AttackMove(sg,pos,false) else Cmd_Move(sg,pos,false) end
+    end)
+end
+function BerberAI.RequireValue(st, req)
+    if req == nil or req == true then return true end
+    if req == false then return false end
+    if req.op=="engine" then return nil end
+    if req.op == "upgrade" then
+        return Player_HasUpgrade(st.player,BP_GetUpgradeBlueprint(req.name)) == req.present
+    end
+    if req.op == "building" then
+        local n=0
+        for _, e in ipairs(st.buildings) do
+            if e.name==req.name and (not req.complete or e.complete) then n=n+1 end
+        end
+        return n>=req.count
+    end
+    if req.op=="not" then
+        local unknown=false
+        for _, child in ipairs(req.items) do
+            local value=BerberAI.RequireValue(st,child)
+            if value==false then return true end
+            if value==nil then unknown=true end
+        end
+        if unknown then return nil end
+        return false
+    end
+    if req.op=="any" then
+        local unknown=false
+        for _, child in ipairs(req.items) do
+            local value=BerberAI.RequireValue(st,child)
+            if value==true then return true end
+            if value==nil then unknown=true end
+        end
+        if unknown then return nil end
+        return false
+    end
+    local unknown=false
+    for _, child in ipairs(req.items or {}) do
+        local value=BerberAI.RequireValue(st,child)
+        if value==false then return false end
+        if value==nil then unknown=true end
+    end
+    if unknown then return nil end
+    return true
+end
+function BerberAI.Require(st,req)
+    -- Unknown engine-only conditions must be validated by the normal command,
+    -- never fabricated as positive/negative inherited prerequisites.
+    return BerberAI.RequireValue(st,req)~=false
+end
+function BerberAI.CountBuilding(st, name, complete)
+    local n=0
+    for _, e in ipairs(st.buildings) do if e.name==name and (not complete or e.complete) then n=n+1 end end
+    if not complete then
+        for _,job in ipairs(st.build_pending) do if job.name==name and job.until_time>st.now then n=n+1 end end
+    end
+    return n
+end
+function BerberAI.FirstBuilding(st,name)
+    for _, e in ipairs(st.buildings) do if e.name==name and e.complete then return e.entity end end
+end
+function BerberAI.InitState(st)
+    for _,k in ipairs({"production_pending","build_pending","construction_jobs","worker_role","worker_jobs",
+        "research_retry","archers_seen","reserved","producer_used","budget"}) do st[k]=st[k] or {} end
+    st.site_cursor=st.site_cursor or 0;st.command_count=st.command_count or 0
+end
+local function sorted_keys(t)
+    local keys={};for k in pairs(t) do table.insert(keys,k) end;table.sort(keys);return keys
+end
+local function restore_job(st,job)
+    for _,id in ipairs(job.workers or {}) do
+        if st.worker_jobs[id]==(job.entity_id or job.id) then
+            st.worker_jobs[id]=nil
+            st.worker_role[id]=(job.previous_roles or {})[id]
+            -- Invalidate gather identity so the restored role issues a fresh order.
+            if st.gather_targets then st.gather_targets[id]=nil end
+        end
+    end
+    job.finished=true
+end
+function BerberAI.ReconcileConstruction(st)
+    local entities=st.construction_entities or st.buildings
+    local byid={};for _,b in ipairs(entities) do byid[b.id]=b end
+    local pending={}
+    for _,job in ipairs(st.build_pending) do
+        local found=nil
+        for _,b in ipairs(entities) do
+            if b.name==job.name and not (job.existing_ids and job.existing_ids[b.id])
+                and not st.construction_jobs[b.id] and BerberAI.Distance(b.pos,job.pos)<=100 then found=b;break end
+        end
+        if found then
+            job.entity_id=found.id;st.construction_jobs[found.id]=job
+            for _,id in ipairs(job.workers) do st.worker_jobs[id]=found.id end
+            if job.options and job.options.trade then st.trade_market_id=found.id end
+        elseif job.until_time>st.now then
+            table.insert(pending,job)
+            for _,id in ipairs(job.workers) do st.reserved[id]=true end
+        else restore_job(st,job) end
+    end
+    st.build_pending=pending
+    for _,id in ipairs(sorted_keys(st.construction_jobs)) do
+        local job=st.construction_jobs[id];local b=byid[id]
+        -- Economy can adopt an existing/restore foundation by map key.
+        job.entity_id=job.entity_id or id
+        if not b or b.complete then restore_job(st,job);st.construction_jobs[id]=nil
+        else for _,worker in ipairs(job.workers or {}) do st.reserved[worker]=true end end
+    end
+end
+function BerberAI.PopulationCost(st,name)
+    return EBP_PopulationCost(SBP_GetFirstEBP(BP_GetSquadBlueprint(name)),st.player,CT_Personnel)
+end
+function BerberAI.Snapshot(st)
+    BerberAI.InitState(st)
+    st.now=World_GetGameTime();st.buildings={};st.construction_entities={};st.squads={};st.counts={};st.live={}
+    st.reserved={};st.producer_used={};st.budget={};st.blocked=nil;st.command_count=0;st.site_attempts=0
+    st.queued_population=0
+    for _,k in ipairs(BerberAI.Resources) do st.budget[k]=Player_GetResource(st.player,st.rt[k]) end
+    local eg=Player_GetEntities(st.player)
+    for i=1,EGroup_CountSpawned(eg) do
+        local e=EGroup_GetSpawnedEntityAt(eg,i)
+        if BerberAI.EntityValid(e) then
+            local record={entity=e,id=Entity_GetID(e),name=BerberAI.Name(Entity_GetBlueprint(e)),
+                complete=not Entity_IsUnderConstruction(e),pos=Entity_GetPosition(e)}
+            table.insert(st.construction_entities,record)
+            if Entity_IsBuilding(e) then table.insert(st.buildings,record) end
+        end
+    end
+    table.sort(st.buildings,function(a,b) return a.id<b.id end)
+    table.sort(st.construction_entities,function(a,b) return a.id<b.id end)
+    local sg=Player_GetSquads(st.player)
+    for i=1,SGroup_CountSpawned(sg) do
+        local s=SGroup_GetSpawnedSquadAt(sg,i)
+        if BerberAI.SquadValid(s) then
+            local name=BerberAI.Name(Squad_GetBlueprint(s));local role=BerberAI.Role(name);local id=Squad_GetID(s)
+            -- Player_GetEntities explicitly excludes entities in squads. Native
+            -- archer-constructed siege can have its foundation in a squad.
+            local member=Squad_GetFirstEntity(s)
+            if BerberAI.EntityValid(member) then
+                table.insert(st.construction_entities,{entity=member,id=Entity_GetID(member),
+                    name=BerberAI.Name(Entity_GetBlueprint(member)),complete=not Entity_IsUnderConstruction(member),
+                    pos=Entity_GetPosition(member)})
+            end
+            table.insert(st.squads,{squad=s,id=id,role=role,name=name,pos=Squad_GetPosition(s)})
+            st.counts[role]=(st.counts[role] or 0)+1;st.live[role]=(st.live[role] or 0)+1
+            if role=="archer" and not st.archers_seen[id] then
+                st.archers_seen[id]=true;st.archers_trained=(st.archers_trained or 0)+1
+            end
+        end
+    end
+    table.sort(st.squads,function(a,b) return a.id<b.id end)
+    table.sort(st.construction_entities,function(a,b) return a.id<b.id end)
+    st.queued_upgrades={};local queue_counts={};local buildings_byid={}
+    for _,b in ipairs(st.buildings) do
+        buildings_byid[b.id]=b;queue_counts[b.id]={}
+        if Entity_HasProductionQueue(b.entity) then
+            for i=0,Entity_GetProductionQueueSize(b.entity)-1 do
+                local bp=Entity_GetProductionQueueItem(b.entity,i)
+                if bp then
+                    local name=BerberAI.Name(bp)
+                    queue_counts[b.id][name]=(queue_counts[b.id][name] or 0)+1
+                    if Entity_GetProductionQueueItemType(b.entity,i)==PITEM_Spawn then
+                        local role=BerberAI.Role(name);st.counts[role]=(st.counts[role] or 0)+1
+                        st.queued_population=st.queued_population+BerberAI.PopulationCost(st,name)
+                    else st.queued_upgrades[name]=true end
+                end
+            end
+        end
+    end
+    for _,id in ipairs(sorted_keys(st.production_pending)) do
+        local p=st.production_pending[id]
+        local observed=((queue_counts[id] or {})[p.name] or 0)>(p.queue_before or 0)
+        if not buildings_byid[id] or p.until_time<=st.now or observed then st.production_pending[id]=nil
+        else
+            st.producer_used[id]=true
+            if p.upgrade then st.queued_upgrades[p.name]=true
+            else
+                local role=BerberAI.Role(p.name);st.counts[role]=(st.counts[role] or 0)+1
+                st.queued_population=st.queued_population+(p.population or 0)
+            end
+        end
+    end
+    BerberAI.ReconcileConstruction(st)
+    st.age=1
+    for a,up in ipairs({"feudal_age","castle_age","imperial_age"}) do
+        if Player_HasUpgrade(st.player,BP_GetUpgradeBlueprint(up)) then st.age=a+1 end
+    end
+    st.home=Player_GetStartingPosition(st.player)
+    for _,b in ipairs(st.buildings) do
+        if b.name==BerberAI.Building.tc or b.name==BerberAI.Building.expansion then st.home=b.pos;break end
+    end
+    st.alliance=nil
+    for _,name in ipairs({"sanhaja","zenata","masmuda"}) do
+        if Player_HasUpgrade(st.player,BP_GetUpgradeBlueprint(BerberAI.Alliances[name].upgrade)) then st.alliance=name end
+    end
+end
+function BerberAI.Cost(st,kind,bp)
+    if kind=="squad" then return Player_GetSquadBPCost(st.player,bp) end
+    if kind=="upgrade" then return Player_GetUpgradeBPCost(st.player,bp) end
+    return Player_GetEntityBPCost(st.player,bp)
+end
+function BerberAI.Spend(st,cost)
+    if (st.command_count or 0)>=12 or not BerberAI_Policy.Reserve(st.budget,cost) then return false end
+    st.command_count=(st.command_count or 0)+1;return true
+end
+local function id_allowed(ids,id)
+    if not ids then return true end
+    if ids[id]==true then return true end
+    for _,v in ipairs(ids) do if v==id then return true end end
+    return false
+end
+function BerberAI.Workers(st,pos,count,options)
+    BerberAI.InitState(st);options=options or {};local choices={}
+    for _,s in ipairs(st.squads) do
+        if s.role==(options.role or "villager") and BerberAI.SquadValid(s.squad)
+            and not st.reserved[s.id] and not st.worker_jobs[s.id] and not Squad_IsInHoldEntity(s.squad)
+            and (not options.resource or st.worker_role[s.id]==options.resource) and id_allowed(options.ids,s.id) then
+            table.insert(choices,s)
+        end
+    end
+    table.sort(choices,function(a,b)
+        local da,db=BerberAI.Distance(a.pos,pos),BerberAI.Distance(b.pos,pos)
+        if da==db then return a.id<b.id end;return da<db
+    end)
+    local chosen,ids={},{}
+    for i=1,math.min(count,#choices) do table.insert(chosen,choices[i].squad);table.insert(ids,choices[i].id) end
+    return chosen,ids
+end
+local function in_influence(st,pos)
+    for _,b in ipairs(st.buildings) do
+        if b.complete and (b.name==BerberAI.Building.tent or b.name=="building_landmark_age1_landmarkb_mal")
+            and BerberAI.Distance(b.pos,pos)<=400 then return true end
+    end
+    return false
+end
+function BerberAI.Construct(st,name,anchor,num_workers,economic,max_radius,options)
+    BerberAI.InitState(st);options=options or {};st.last_construct_failure=nil
+    local function fail(why) st.last_construct_failure=why;return false end
+    if st.command_count>=12 then return fail("command_limit") end
+    if st.saving_age and name~=BerberAI.Building.house and not string.find(name,"building_landmark_",1,true) then return fail("saving") end
+    for _,j in ipairs(st.build_pending) do
+        if j.name==name and BerberAI.Distance(j.anchor or j.pos,anchor)<=16 then return fail("pending") end
+    end
+    local bp=BP_GetEntityBlueprint(name);local row=BerberAI_Catalog.buildings[name]
+    if row and not BerberAI.Require(st,row.requirement) then return fail("requirements") end
+    local cost=BerberAI.Cost(st,"entity",bp);local test={}
+    for _,k in ipairs(BerberAI.Resources) do test[k]=st.budget[k] end
+    if not BerberAI_Policy.Reserve(test,cost) then
+        if economic and not st.blocked then st.blocked=cost end;return fail("cost")
+    end
+    if not Player_CanConstruct(st.player,bp) then return fail("requirements") end
+    local workers,ids=BerberAI.Workers(st,anchor,num_workers or 2,options)
+    if #workers<(num_workers or 2) then return fail("workers") end
+    local placed=nil;local radius_limit=math.min(max_radius or 64,options.max_distance or max_radius or 64)
+    BerberAI.WithSquads(workers,function(sg)
+        for attempt=1,49 do
+            if (st.site_attempts or 0)>=96 then break end
+            st.site_attempts=(st.site_attempts or 0)+1
+            local step=st.site_cursor+attempt-1;local wanted
+            if options.exact_anchor and attempt==1 then wanted=anchor
+            else
+                local ring=math.floor((step%48)/12)+1;local radius=radius_limit*ring/4
+                local angle=(step%12)*math.pi/6
+                wanted=BerberAI.Pos(anchor,math.cos(angle)*radius,math.sin(angle)*radius)
+            end
+            if World_PosInBounds(wanted) then
+                local result=Entity_CalcConstructionPlacement(bp,st.player,wanted)
+                if result.success and result.position and result.heading then
+                    local p=result.position;local facing=BerberAI.Pos(p,result.heading.x,result.heading.z)
+                    if BerberAI.Distance(p,anchor)<=radius_limit*radius_limit
+                        and (not options.influence or in_influence(st,p))
+                        and (not options.target_pos or BerberAI.Distance(p,options.target_pos)>=(options.min_target_distance or 0)^2)
+                        and Player_CanPlaceStructureOnPosition(st.player,sg,bp,p,facing) then
+                        if BerberAI.Spend(st,cost) then
+                            LocalCommand_PlayerSquadConstructBuilding(st.player,sg,bp,p,facing,false)
+                            placed=p;st.site_cursor=step+1
+                        end
+                        break
+                    end
+                end
+            end
+        end
+    end)
+    if not placed then st.site_cursor=st.site_cursor+7;return fail("placement") end
+    st.job_sequence=(st.job_sequence or 0)+1
+    local job={id=-st.job_sequence,name=name,pos=placed,anchor=anchor,workers=ids,until_time=st.now+12,
+        previous_roles={},options=options,existing_ids={}}
+    for _,b in ipairs(st.construction_entities or st.buildings) do if b.name==name then job.existing_ids[b.id]=true end end
+    for _,id in ipairs(ids) do
+        st.reserved[id]=true;job.previous_roles[id]=st.worker_role[id];st.worker_jobs[id]=job.id
+        if BerberAI_State.orders then BerberAI_State.orders[id]=nil end
+    end
+    table.insert(st.build_pending,job);return true,job
+end
+function BerberAI.Train(st,role,options)
+    BerberAI.InitState(st);options=options or {}
+    if st.saving_age and role~="villager" then return false end
+    local chosen=nil
+    for _,b in ipairs(st.buildings) do
+        local row=BerberAI_Catalog.buildings[b.name]
+        local excluded=options.exclude_ids and id_allowed(options.exclude_ids,b.id)
+        if b.complete and BerberAI.EntityValid(b.entity) and row and not excluded and not st.producer_used[b.id]
+            and (not options.building_id or options.building_id==b.id)
+            and (role~="villager" or b.name==BerberAI.Building.tc or b.name==BerberAI.Building.expansion)
+            and Entity_HasProductionQueue(b.entity) and Entity_IsProductionQueueAvailable(b.entity)
+            and Entity_GetProductionQueueSize(b.entity)<2 then
+            for _,name in ipairs(row.squads or {}) do
+                local unit=BerberAI_Catalog.squads[name]
+                if unit and unit.role==role and unit.age<=st.age and BerberAI.Require(st,unit.requirement)
+                    and (not chosen or unit.age>chosen.age) then chosen={building=b,name=name,age=unit.age} end
+            end
+        end
+    end
+    if not chosen then return false end
+    local sbp=BP_GetSquadBlueprint(chosen.name);local cost=BerberAI.Cost(st,"squad",sbp)
+    local pop=BerberAI.PopulationCost(st,chosen.name)
+    local remaining=Player_GetCurrentPopulationCap(st.player,CT_Personnel)-Player_GetCurrentPopulation(st.player,CT_Personnel)-(st.queued_population or 0)
+    if remaining<pop or not BerberAI.Spend(st,cost) then
+        if role=="villager" and not st.blocked then st.blocked=cost end;return false
+    end
+    local before=0;local b=chosen.building
+    for i=0,Entity_GetProductionQueueSize(b.entity)-1 do
+        if BerberAI.Name(Entity_GetProductionQueueItem(b.entity,i))==chosen.name then before=before+1 end
+    end
+    BerberAI.WithEntity(b.entity,function(eg) LocalCommand_EntityBuildSquad(st.player,eg,sbp) end)
+    st.producer_used[b.id]=true
+    st.production_pending[b.id]={until_time=st.now+5,name=chosen.name,queue_before=before,population=pop}
+    st.queued_population=(st.queued_population or 0)+pop;st.counts[role]=(st.counts[role] or 0)+1
+    return true
+end
+-- true means one native request is pending, or its stone increase was observed;
+-- it does not promise an exchange amount or a quoted/confirmed transaction.
+function BerberAI.BuyStone(st,amount)
+    local pending=st.stone_purchase_pending
+    if pending then
+        if Player_GetResource(st.player,st.rt.stone)>pending.before_stone then
+            st.stone_purchase_pending=nil;st.stone_purchase_observed=st.now;return true
+        end
+        if st.now<pending.until_time then st.budget.gold=0;return true end
+        st.stone_purchase_pending=nil;st.stone_purchase_retry=st.now+30;return false
+    end
+    if amount<=0 then return true end
+    if st.saving_age or st.now<(st.stone_purchase_retry or 0) or (st.budget.gold or 0)<=0
+        or (st.command_count or 0)>=12 then return false end
+    local market=BerberAI.FirstBuilding(st,BerberAI.Building.market)
+    if not BerberAI.EntityValid(market) then return false end
+    -- Native market price lives in the compiled ability state tree, not the
+    -- ability cost bag (which is zero). Reserve all spare gold instead of
+    -- inventing a price; normal native cost/prerequisite checks remain enabled.
+    st.stone_purchase_pending={before_stone=Player_GetResource(st.player,st.rt.stone),
+        before_gold=Player_GetResource(st.player,st.rt.gold),until_time=st.now+3,
+        market_id=Entity_GetID(market),requested=amount}
+    st.budget.gold=0;st.command_count=(st.command_count or 0)+1
+    BerberAI.WithEntity(market,function(eg)
+        LocalCommand_EntityAbility(st.player,eg,BP_GetAbilityBlueprint("core_market_buy_stone"),false,false)
+    end)
+    return true
+end
+function BerberAI.RemoveIncomeBonus(st)
+    for _,modifier in ipairs(st.income_modifiers or {}) do Modifier_Remove(modifier) end
+    st.income_modifiers={};st.income_bonus_active=false
+end
+function BerberAI.IncomePerMinute(player,rt)
+    local total=0
+    for _,k in ipairs(BerberAI.Resources) do total=total+Player_GetResourceRate(player,rt[k])*60 end
+    return total
+end
+function BerberAI.IncomeAssistance(st)
+    st.next_income_check=st.next_income_check or 60
+    if st.now<st.next_income_check then return end
+    st.next_income_check=st.now+60
+    local own=BerberAI.IncomePerMinute(st.player,st.rt);local highest=nil
+    for i=1,World_GetPlayerCount() do
+        local enemy=World_GetPlayerAt(i)
+        if Player_IsAlive(enemy) and Player_ObserveRelationship(st.player,enemy)==R_ENEMY then
+            local income=BerberAI.IncomePerMinute(enemy,st.rt)
+            if highest==nil or income>highest then highest=income end
+        end
+    end
+    st.income_own_per_minute=own;st.income_enemy_per_minute=highest or 0
+    -- Official per-second rate adapter; native trade/relic/passive source
+    -- coverage is pending and must not be represented as verified total income.
+    st.income_native_all_sources_verified=false
+    local enable=highest~=nil and highest>own
+    if enable and not st.income_bonus_active then
+        st.income_modifiers={}
+        local ebp=SBP_GetFirstEBP(BP_GetSquadBlueprint("unit_villager_1_mal"))
+        for _,k in ipairs(BerberAI.Resources) do
+            local modifier=Modifier_Create(MAT_EntityType,"resource_entity_harvest_rate_"..k,
+                MUT_Multiplication,false,1+st.config.bonus,ebp)
+            table.insert(st.income_modifiers,Modifier_ApplyToPlayer(modifier,st.player,0))
+        end
+        st.income_bonus_active=true
+    elseif not enable and st.income_bonus_active then BerberAI.RemoveIncomeBonus(st) end
+end

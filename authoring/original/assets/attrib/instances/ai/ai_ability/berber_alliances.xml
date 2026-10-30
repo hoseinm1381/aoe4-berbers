@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<instance version="6" description="Berber alliances - native economic ability production" template="ai\ai_ability">
+  <group name="ai_ability_bag">
+    <list name="abilities">
+      <instance_reference name="ability" value="abilities\timed_abilities\tent_abilities\grenade_throw_song_cmp" List.ItemID="2130634836" mod="1d3145e8f1b2427f8bb0067851fcf0f1" />
+      <instance_reference name="ability" value="abilities\timed_abilities\tent_abilities\increase_armor_song_cmp" List.ItemID="453334707" mod="1d3145e8f1b2427f8bb0067851fcf0f1" />
+      <instance_reference name="ability" value="abilities\timed_abilities\tent_abilities\increase_damage_song_cmp" List.ItemID="-1197397568" mod="1d3145e8f1b2427f8bb0067851fcf0f1" />
+    </list>
+    <template_reference name="tactic_info_default" value="ai\tactic_info\tactic_info_ability">
+      <group name="tactic_info">
+        <enum_table name="class">
+          <bool name="tactic_Combat" value="False" />
+          <bool name="tactic_OnTask" value="False" />
+          <bool name="tactic_Moving" value="False" />
+        </enum_table>
+        <float name="priority" value="500" />
+        <string name="tactic_filter_abort" value="" />
+        <string name="tactic_filter_start" value="" />
+        <float name="tactic_max_range_override" value="-1" />
+        <string name="tactic_filter_position" value="" />
+        <float name="tactic_min_range_override" value="-1" />
+        <float name="max_timeout" value="-1" />
+        <float name="retry_timeout" value="-1" />
+        <float name="wait_timeout" value="-1" />
+        <float name="wait_timeout_encounter" value="-1" />
+        <float name="can_do_chance" value="1" />
+        <string name="tactic_on_start" value="" />
+        <string name="tactic_on_exit" value="" />
+        <template_reference name="tactic_custom_data_table" value="ai\ai_tactic_info_custom_data_table">
+          <list name="table">
+          </list>
+        </template_reference>
+        <list name="tactic_filter_start_requirements">
+          <template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="-1384675290">
+            <enum name="reason" value="usage" />
+            <locstring name="ui_name" value="0" />
+            <bool name="is_present" value="False" />
+            <int name="max_completed" value="100" />
+            <int name="min_completed" value="1" />
+            <instance_reference name="upgrade_name" value="upgrade\races\malian\alliances\upgrade_cul_ancient_relics_ayy" mod="1d3145e8f1b2427f8bb0067851fcf0f1" />
+            <bool name="include_completed" value="True" />
+            <bool name="include_queued" value="False" />
+            <group name="include_pbg_parenting">
+              <bool name="include_child_pbgs" value="False" />
+              <bool name="include_parent_pbgs" value="False" />
+            </group>
+          </template_reference>
+          <template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-1858468486">
+            <enum name="reason" value="usage_and_display" />
+            <locstring name="ui_name" value="0" />
+            <bool name="is_present" value="False" />
+            <int name="max_completed" value="100" />
+            <int name="min_completed" value="1" />
+            <instance_reference name="upgrade_name" value="upgrade\races\malian\alliances\upgrade_cul_medical_centers_ayy" mod="1d3145e8f1b2427f8bb0067851fcf0f1" />
+            <bool name="include_completed" value="True" />
+            <bool name="include_queued" value="False" />
+            <group name="include_pbg_parenting">
+              <bool name="include_child_pbgs" value="False" />
+              <bool name="include_parent_pbgs" value="False" />
+            </group>
+          </template_reference>
+          <template_reference name="requirement" value="requirements\required_player_upgrade" List.ItemID="1126512288">
+            <enum name="reason" value="usage" />
+            <locstring name="ui_name" value="0" />
+            <bool name="is_present" value="False" />
+            <int name="max_completed" value="100" />
+            <int name="min_completed" value="1" />
+            <instance_reference name="upgrade_name" value="upgrade\races\malian\alliances\upgrade_econ_agriculture_ayy" mod="1d3145e8f1b2427f8bb0067851fcf0f1" />
+            <bool name="include_completed" value="True" />
+            <bool name="include_queued" value="False" />
+            <group name="include_pbg_parenting">
+              <bool name="include_child_pbgs" value="False" />
+              <bool name="include_parent_pbgs" value="False" />
+            </group>
+          </template_reference>
+        </list>
+        <template_reference name="target_filter_option" value="options\none">
+        </template_reference>
+        <string name="tactic_on_update" value="" />
+        <bool name="can_target_allies" value="True" />
+        <bool name="can_target_enemies" value="True" />
+      </group>
+      <group name="tactic_info_toggle_off">
+        <enum_table name="class">
+          <bool name="tactic_Combat" value="False" />
+          <bool name="tactic_OnTask" value="False" />
+          <bool name="tactic_Moving" value="False" />
+        </enum_table>
+        <float name="priority" value="-1" />
+        <string name="tactic_filter_abort" value="" />
+        <string name="tactic_filter_start" value="" />
+        <float name="max_timeout" value="-1" />
+        <float name="retry_timeout" value="-1" />
+        <float name="wait_timeout" value="-1" />
+      </group>
+    </template_reference>
+    <bool name="wait_other_abilities_end" value="False" />
+    <list name="tactic_info_overrides">
+    </list>
+    <group name="buff_info">
+      <bool name="buff_allies" value="False" />
+      <float name="buff_duration" value="0" />
+      <list name="buff_target_requirements">
+      </list>
+      <list name="buff_end_target_requirements">
+      </list>
+      <string name="buff_target_filter" value="" />
+      <string name="buff_end_target_filter" value="" />
+    </group>
+    <string name="abilities_substring" value="" />
+    <enum name="ability_type" value="player_production" />
+    <list name="exclude_abilities">
+    </list>
+  </group>
+  <uniqueid name="pbgid" value="1073741919" />
+</instance>

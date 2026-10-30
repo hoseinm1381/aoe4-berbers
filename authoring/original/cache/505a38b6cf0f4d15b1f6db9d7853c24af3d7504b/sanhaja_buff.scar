@@ -1,0 +1,33 @@
+-- test
+
+-- 1. Initialize the script and start listening for completed buildings
+function MehariBuff_Init()
+    Rule_AddGlobalEvent(OnLandmarkConstructed, GE_ConstructionComplete)
+	print("called")
+end
+
+-- 2. The event callback that checks WHICH building was constructed
+function OnLandmarkConstructed(context)
+    local built_entity = context.entity
+    local builder_player = context.player
+    
+    local entity_bp = Entity_GetBlueprint(built_entity)
+    local target_landmark_bp = BP_GetEntityBlueprint("races/malian/buildings/landmarks/building_landmark_age1_landmarka_mal")
+	print("called but not building")
+    
+    -- Check if the built entity is your specific landmark
+    if entity_bp == target_landmark_bp then
+        
+        -- Get the custom upgrade you made in the Attribute Editor
+        local armor_upgrade_bp = BP_GetUpgradeBlueprint("races/malian/units/mehari/upgrade_mehari_armor_buff")
+        
+        -- Check if the player already has the upgrade (prevents double-buffing 
+        -- if they somehow build the landmark twice or trigger the event again)
+        if not Player_HasUpgrade(builder_player, armor_upgrade_bp) then
+            -- Grant the upgrade instantly
+            Player_CompleteUpgrade(builder_player, armor_upgrade_bp)
+			print("EXECUTED THIS BITCH")
+        end
+        
+    end
+end

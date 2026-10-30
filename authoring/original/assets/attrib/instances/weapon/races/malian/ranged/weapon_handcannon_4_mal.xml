@@ -1,0 +1,37 @@
+<instance version="4" description="" template="weapon">
+	<group name="weapon_bag">
+		<group name="aim">
+			<group name="aim_time_multiplier">
+				<float name="far" value="1" overrideParent="True" />
+			</group>
+		</group>
+		<group name="burst">
+			<bool name="can_burst" value="False" overrideParent="True" />
+		</group>
+		<group name="damage">
+			<float name="max" value="35" overrideParent="True" />
+			<float name="min" value="35" overrideParent="True" />
+			<list name="on_penetrated_state_trees">
+				<group name="container" overrideParent="True" List.ItemID="445238822" List.ListAction="Append">
+					<string name="state_tree" value="shinobi_on_hit_jpn_ha_sen" overrideParent="True" />
+				</group>
+			</list>
+		</group>
+		<group name="range">
+			<group name="distance">
+				<float name="near" value="-1" overrideParent="True" />
+				<float name="far" value="-1" overrideParent="True" />
+				<float name="mid" value="-1" overrideParent="True" />
+			</group>
+			<float name="max" value="18" overrideParent="True" />
+		</group>
+		<group name="reload">
+			<group name="duration">
+				<float name="max" value="0.875" overrideParent="True" />
+				<float name="min" value="0.875" overrideParent="True" />
+			</group>
+		</group>
+	</group>
+	<uniqueid name="pbgid" value="2102847" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\ranged\weapon_handcannon_3" />
+</instance>

@@ -1,0 +1,132 @@
+<instance version="6" description="" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="-997669771" List.ParentItemID="-997669771">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="1252863003" List.ParentItemID="1252863003">
+					<group name="info">
+						<locstring name="screen_name" value="211" mod="1d3145e8f1b2427f8bb0067851fcf0f1" overrideParent="True" />
+						<file name="flag_icon_override" value="berbers" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" List.ItemID="-1619717583" List.ParentItemID="-1619717583">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="-1865197929" List.ParentItemID="-1865197929">
+					<instance_reference name="type" value="ebps\races\malian\units\unit_naval_combat_warship_4_abb" mod="1d3145e8f1b2427f8bb0067851fcf0f1" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="1018966982" List.ParentItemID="1018966982">
+			<list name="requirement_table" comment="Requires castle age&#xD;&#xA;">
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-1823009140" List.ParentItemID="-1823009140">
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\abbasid" List.ItemID="269041211" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="1964213970" List.ParentItemID="1964213970">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_upgrade_ext" List.ItemID="-154030875" List.ListAction="Append">
+			<float name="number_of_slots" value="-1" />
+			<list name="upgrades">
+			</list>
+			<int name="max_queue_size_override" value="-1" />
+			<list name="tech_trees">
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_action_apply_ext" List.ItemID="-412573057" List.ListAction="Append">
+			<list name="action_state_trees">
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_targeting_system_ext" List.ItemID="1701194421" List.ListAction="Append">
+			<bool name="allow_squad_scan_close_enemies" value="True" />
+			<int name="history_size" value="2" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073741915" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_naval_combat_warship_4" />
+	<variant name="campaign">
+		<list name="extensions">
+			<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" List.ItemID="15296247" List.ParentItemID="15296247">
+				<list name="unit_list">
+					<group name="loadout_data" List.ItemID="715974274" List.ParentItemID="715974274">
+						<instance_reference name="type" value="ebps\races\abbasid\units\unit_naval_combat_warship_4_abb" overrideParent="True" />
+					</group>
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="-1273358272" List.ParentItemID="-1273358272">
+				<list name="requirement_table" comment="Requires castle age&#xD;&#xA;">
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_speech_ext" List.ItemID="1742977257" List.ParentItemID="1742977257">
+				<list name="age_mapping">
+					<int name="age_number" value="4" overrideParent="True" List.ItemID="240606659" List.ParentItemID="240606659" />
+					<int name="age_number" value="4" overrideParent="True" List.ItemID="-1144022161" List.ParentItemID="-1144022161" />
+					<int name="age_number" value="4" overrideParent="True" List.ItemID="-1959950443" List.ParentItemID="-1959950443" />
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_upgrade_ext" List.ItemID="-675682417" List.ListAction="Append">
+				<float name="number_of_slots" value="-1" />
+				<list name="upgrades">
+				</list>
+				<int name="max_queue_size_override" value="-1" />
+				<list name="tech_trees">
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_action_apply_ext" List.ItemID="306941876" List.ListAction="Append">
+				<list name="action_state_trees">
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_targeting_system_ext" List.ItemID="-1856485998" List.ListAction="Append">
+				<bool name="allow_squad_scan_close_enemies" value="True" />
+				<int name="history_size" value="2" />
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="1073741915" />
+		<instance_reference name="parent_pbg" value="sbps\races\core\unit_naval_combat_warship_4" />
+	</variant>
+	<variant name="xp3">
+		<list name="extensions">
+			<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" List.ItemID="-1619717583" List.ParentItemID="-1619717583">
+				<list name="unit_list">
+					<group name="loadout_data" List.ItemID="-1865197929" List.ParentItemID="-1865197929">
+						<instance_reference name="type" value="ebps\races\abbasid\units\unit_naval_combat_warship_4_abb" overrideParent="True" />
+					</group>
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext" List.ItemID="1018966982" List.ParentItemID="1018966982">
+				<list name="requirement_table" comment="Requires castle age&#xD;&#xA;">
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-1823009140" List.ParentItemID="-1823009140">
+				<list name="squad_race_type_list" overrideParent="True">
+					<instance_reference name="squad_race_type" value="racebps\abbasid" List.ItemID="-1951682546" />
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="1964213970" List.ParentItemID="1964213970">
+				<bool name="browsable_in_editor" value="True" overrideParent="True" />
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_upgrade_ext" List.ItemID="359134912" List.ListAction="Append">
+				<float name="number_of_slots" value="-1" />
+				<list name="upgrades">
+				</list>
+				<int name="max_queue_size_override" value="-1" />
+				<list name="tech_trees">
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_action_apply_ext" List.ItemID="53551054" List.ListAction="Append">
+				<list name="action_state_trees">
+				</list>
+			</template_reference>
+			<template_reference name="squadexts" value="sbpextensions\squad_targeting_system_ext" List.ItemID="620994206" List.ListAction="Append">
+				<bool name="allow_squad_scan_close_enemies" value="True" />
+				<int name="history_size" value="2" />
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="1073741915" />
+		<instance_reference name="parent_pbg" value="sbps\races\core\unit_naval_combat_warship_4" />
+	</variant>
+</instance>

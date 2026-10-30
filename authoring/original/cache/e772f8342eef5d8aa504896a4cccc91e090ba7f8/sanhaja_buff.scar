@@ -1,0 +1,37 @@
+-- 1. Initialize the script and start listening for completed buildings
+function MehariBuff_Init()
+    Rule_AddGlobalEvent(OnLandmarkConstructed, GE_ConstructionComplete)
+    print("Init called successfully")
+end
+
+-- 2. The event callback that checks WHICH building was constructed
+function OnLandmarkConstructed(context)
+    local built_entity = context.entity
+    local builder_player = context.player
+    
+    local entity_bp = Entity_GetBlueprint(built_entity)
+    local built_bp_name = BP_GetName(entity_bp)
+    
+    -- Use string.find to see if the name contains your landmark
+    if string.find(built_bp_name, "building_landmark_age1_landmarka_mal") then
+        
+        -- DYNAMIC MOD ID EXTRACTION:
+        -- This grabs the Mod ID from the front of the building string (e.g., "1d3145...:")
+        -- If it doesn't find a colon (like in base-game assets), it defaults to an empty string.
+        local mod_prefix = string.match(built_bp_name, "^(.-:)") or ""
+        
+        -- Dynamically build the upgrade path using the extracted prefix
+        local full_upgrade_path = mod_prefix .. "races/malian/landmark/upgrade_sanhaja_armor_buff"
+        
+        -- Get the upgrade using the dynamic path
+        local armor_upgrade_bp = BP_GetUpgradeBlueprint(full_upgrade_path)
+        
+        -- Check if the player already has the upgrade
+        if not Player_HasUpgrade(builder_player, armor_upgrade_bp) then
+            -- Grant the upgrade instantly
+            Player_CompleteUpgrade(builder_player, armor_upgrade_bp)
+            print("SUCCESS - Upgrade Applied to Mehari units dynamically!")
+        end
+        
+    end
+end

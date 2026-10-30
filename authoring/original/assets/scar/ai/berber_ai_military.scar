@@ -1,0 +1,415 @@
+-- Full-map decisions are simulation information, with no human fog reveal.
+local function has(name,part) return string.find(name,part,1,true)~=nil end
+local function military(role) return role~='villager' and role~='trader' and role~='monk' and role~='scout' and role~='other' end
+local function value(entity,rt,owner,seen)
+ -- Owned scenery/attachments/markers may have no entity cost_ext.
+ -- Official score.scar values real squads with Player_GetSquadBPCost.
+ local squad=Entity_GetSquad(entity)
+ if not BerberAI.SquadValid(squad) then return 0 end
+ local id=Squad_GetID(squad)
+ if seen[id] then return 0 end
+ seen[id]=true
+ local cost=Player_GetSquadBPCost(owner,Squad_GetBlueprint(squad)) or {};local total=0
+ for _,r in ipairs({'food','wood','gold','stone'}) do total=total+(cost[r] or cost[rt[r]] or 0) end
+ return total
+end
+local function classify(e,name)
+ local building=Entity_IsBuilding(e);local scout=Entity_IsOfType(e,'scout') or has(name,'scout')
+ local economic=has(name,'villager') or has(name,'trade') or has(name,'sheep') or has(name,'cattle')
+  or has(name,'monk') or has(name,'imam') or has(name,'priest') or has(name,'fishing')
+ local ranged=Entity_IsOfType(e,'ranged') or has(name,'archer') or has(name,'crossbow') or has(name,'handcannon')
+ local spear=Entity_IsOfType(e,'spearman') or has(name,'spearman')
+ local cavalry=Entity_IsOfType(e,'cavalry') or has(name,'knight') or has(name,'lancer') or has(name,'horseman')
+ return {entity=e,id=Entity_GetID(e),name=name,pos=Entity_GetPosition(e),building=building,
+  scout=scout,economic=economic,villager=has(name,'villager'),ranged=ranged,spearman=spear,cavalry=cavalry,
+  heavy=Entity_IsOfType(e,'heavy') or Entity_IsOfType(e,'heavy_armor'),
+  melee_infantry=not building and not economic and not ranged and not cavalry and not scout
+   and (Entity_IsOfType(e,'infantry') or Entity_IsOfType(e,'melee_infantry') or spear or has(name,'swordsman') or has(name,'manatarms')),
+  knight=cavalry and (has(name,'knight') or has(name,'lancer') or Entity_IsOfType(e,'heavy') or Entity_IsOfType(e,'heavy_armor')),
+  tc=building and has(name,'town_center'),keep=building and (has(name,'keep') or has(name,'landmark_age3_landmarkf')),
+  outpost=building and (has(name,'outpost') or has(name,'defense_tower'))}
+end
+local function byDistance(list,origin)
+ table.sort(list,function(a,b)
+  local da,db=BerberAI.Distance(a.pos,origin),BerberAI.Distance(b.pos,origin)
+  if da==db then return a.id<b.id end;return da<db
+ end)
+end
+function BerberAI.Observe(st)
+ st.contacts={};st.objectives={};st.relics={};st.sites={};st.sheep={};st.trade_candidates={}
+ st.enemy_player=nil;st.enemy_home=nil;st.enemy_stats=nil;st.enemy_knights=0
+ st.threat_count=0;st.threat_buildings=0;st.observed_cavalry=0;st.observed_heavy=0
+ st.army_value=0;st.squad_values={};st.attacker_value=0;st.local_defender_value=0
+ st.needs_healer=false;st.memory={}
+ local enemies={};local valued_squads={}
+ for _,e in ipairs(BerberAI_State.world_entities or {}) do
+  if BerberAI.EntityValid(e) then
+   -- Owner lookup on trees, relics and other world objects is a native fatal.
+   local world_owned=World_OwnsEntity(e);local owner=nil
+   if not world_owned then owner=Entity_GetPlayerOwner(e) end
+   local name=BerberAI.Name(Entity_GetBlueprint(e));local c=classify(e,name)
+   local hostile=owner~=nil and Player_IsAlive(owner) and Player_ObserveRelationship(st.player,owner)==R_ENEMY
+   if hostile then
+    c.owner=owner;c.value=not c.building and not c.economic and not c.scout and value(e,st.rt,owner,valued_squads) or 0
+    table.insert(st.contacts,c)
+    local pid=Player_GetID(owner);local stats=enemies[pid]
+    if not stats then stats={owner=owner,id=pid,army=0,value=0,melee_infantry=0,ranged=0};enemies[pid]=stats end
+    local d=BerberAI.Distance(c.pos,st.home)
+    if (c.tc or has(c.name,'landmark')) and (stats.home==nil or (c.tc and not stats.tc) or (d<stats.distance and c.tc==stats.tc)) then
+     stats.home=c.pos;stats.distance=d;stats.tc=c.tc
+    end
+    if c.building then st.threat_buildings=st.threat_buildings+1
+    elseif not c.economic and not c.scout then
+     st.threat_count=st.threat_count+1;stats.army=stats.army+1;stats.value=stats.value+c.value
+     if c.melee_infantry then stats.melee_infantry=stats.melee_infantry+1 end
+     if c.ranged then stats.ranged=stats.ranged+1 end
+     if c.cavalry then st.observed_cavalry=st.observed_cavalry+1 end
+     if c.heavy then st.observed_heavy=st.observed_heavy+1 end
+     if c.knight then st.enemy_knights=st.enemy_knights+1 end
+     if d<=60^2 then st.attacker_value=st.attacker_value+c.value end
+    end
+    if stats.fallback==nil or d<stats.fallback_distance then stats.fallback=c.pos;stats.fallback_distance=d end
+   end
+   if Entity_IsOfType(e,'special_beacon') and (world_owned or hostile) then c.kind='site';table.insert(st.sites,c);table.insert(st.objectives,c)
+   elseif world_owned and (Entity_IsOfType(e,'relic') or has(name,'relic')) then c.kind='relic';table.insert(st.relics,c);table.insert(st.objectives,c) end
+   if world_owned and has(name,'sheep') then table.insert(st.sheep,c) end
+   if (world_owned and (Entity_IsOfType(e,'trade_post') or has(name,'trading_post')))
+    or (owner~=nil and owner~=st.player and Player_ObserveRelationship(st.player,owner)==R_ALLY
+     and c.building and not Entity_IsUnderConstruction(e) and has(name,'market')) then table.insert(st.trade_candidates,c) end
+   if owner==st.player and not c.building and not c.economic and not c.scout then
+    local s=Entity_GetSquad(e)
+    if BerberAI.SquadValid(s) then
+     local v=value(e,st.rt,owner,valued_squads);local id=Squad_GetID(s)
+     st.army_value=st.army_value+v;st.squad_values[id]=(st.squad_values[id] or 0)+v
+     if BerberAI.Distance(c.pos,st.home)<=60^2 then st.local_defender_value=st.local_defender_value+v end
+    end
+   end
+  end
+ end
+ table.sort(st.contacts,function(a,b) return a.id<b.id end)
+ local nearest=nil
+ for _,stats in pairs(enemies) do
+  stats.home=stats.home or stats.fallback;stats.distance=stats.distance or stats.fallback_distance
+  if nearest==nil or stats.distance<nearest.distance or (stats.distance==nearest.distance and stats.id<nearest.id) then nearest=stats end
+ end
+ if nearest then st.enemy_player=nearest.owner;st.enemy_home=nearest.home;st.enemy_stats=nearest end
+ for _,list in ipairs({st.sheep,st.relics,st.sites,st.objectives,st.trade_candidates}) do byDistance(list,st.home) end
+ st.trade_target=nil
+ st.defense=st.attacker_value-700>st.local_defender_value
+ st.trade_blocked=false;st.trade_threat_value=0;st.trade_threat_pos=nil;st.trade_route=nil
+ if #st.trade_candidates>0 then
+  local home=st.home
+  for _,b in ipairs(st.buildings or {}) do if b.id==st.trade_market_id and BerberAI.EntityValid(b.entity) then home=b.pos;break end end
+  local trader=nil
+  for _,s in ipairs(st.squads or {}) do if s.role=='trader' and BerberAI.SquadValid(s.squad) then trader=s.squad;break end end
+  for _,candidate in ipairs(st.trade_candidates) do
+   local route=BerberAI.FindSafeRoute(st,home,candidate.pos,4,trader)
+   if route then st.trade_target=candidate.entity;st.trade_route=route;break end
+  end
+  if not st.trade_target then st.trade_target=st.trade_candidates[1].entity end
+  st.trade_blocked=st.trade_route==nil
+  if st.trade_blocked then st.trade_threat_value,st.trade_threat_pos=BerberAI.RouteThreat(st,home,Entity_GetPosition(st.trade_target),4) end
+ end
+ for _,s in ipairs(st.squads or {}) do
+  if military(s.role) and BerberAI.SquadValid(s.squad) and Squad_GetHealthPercentage(s.squad,false)<.8 and st.age>=3 then st.needs_healer=true end
+ end
+ BerberAI.SiegeNeeds(st)
+end
+function BerberAI.SiegeNeeds(st)
+ local t={springald=0,mangonel=0,ram=0,treb=0,cannon=0};local e=st.enemy_stats
+ if e then
+  if e.army>0 and e.melee_infantry/e.army>.2 then t.springald=math.floor(e.melee_infantry/6) end
+  t.mangonel=math.floor(e.ranged/10)
+  if (st.army_value or 0)>0 and st.army_value>=3*e.value then
+   if st.age==2 then t.ram=3 elseif st.age==3 then t.treb=3 elseif st.age>=4 then t.cannon=3 end
+  end
+ end
+ st.siege_targets=t
+end
+function BerberAI.RaidFavorable(n,spears,knights,archers)
+ return n>0 and (spears==0 or spears<1.75*n) and spears/1.75+knights+archers/4<=n
+end
+local function nearThreat(st,s)
+ local close=false;local resume=true
+ for _,c in ipairs(st.contacts or {}) do
+  if not c.building and not c.economic and not c.scout and BerberAI.EntityValid(c.entity) then
+   local d=BerberAI.Distance(s.pos,c.pos)
+   if d<=22^2 then resume=false end
+   if d<=(c.knight and 20^2 or 12^2) then close=true end
+  end
+ end
+ return close,resume
+end
+local function attackedByNonScout(s)
+ if not Squad_IsUnderAttack(s,2) then return false end
+ if Squad_GetHealthPercentage(s,false)<.1 then return true end
+ local found,other=false,false;local sg=SGroup_CreateUnique();Squad_GetLastAttackers(s,sg,2)
+ SGroup_ForEachEx(sg,function(_,_,attacker)
+  if BerberAI.SquadValid(attacker) then
+   local e=Squad_GetFirstEntity(attacker)
+   if BerberAI.EntityValid(e) then found=true;if not Entity_IsOfType(e,'scout') and not has(BerberAI.Name(Entity_GetBlueprint(e)),'scout') then other=true end end
+  end
+  return false
+ end,true,false)
+ SGroup_Destroy(sg)
+ local eg=EGroup_CreateUnique();Squad_GetLastEntityAttacker(s,eg)
+ EGroup_ForEachEx(eg,function(_,_,e)
+  if BerberAI.EntityValid(e) then found=true;if not Entity_IsOfType(e,'scout') and not has(BerberAI.Name(Entity_GetBlueprint(e)),'scout') then other=true end end
+  return false
+ end,true,false)
+ EGroup_Destroy(eg)
+ return other or not found
+end
+function BerberAI.VillagerSafety(st)
+ st.sheltered=st.sheltered or {};st.reserved=st.reserved or {};local slots={}
+ for _,s in ipairs(st.squads or {}) do
+  if s.role=='villager' and BerberAI.SquadValid(s.squad) then
+   local close,resume=nearThreat(st,s);local hit=attackedByNonScout(s.squad)
+   if close or hit then st.sheltered[s.id]=true end
+   if st.sheltered[s.id] then
+    if resume and not hit and not close then
+     if Squad_IsInHoldEntity(s.squad) then BerberAI.WithSquads({s.squad},function(sg) Cmd_UngarrisonSquad(sg,st.home,false) end) end
+     st.sheltered[s.id]=nil
+    else
+     st.reserved[s.id]=true
+     if not Squad_IsInHoldEntity(s.squad) then
+      local shelters={}
+      for _,b in ipairs(st.buildings or {}) do
+       if b.complete and BerberAI.EntityValid(b.entity) then
+        local capacity=Entity_GetMaxHoldSquadSlots(b.entity)-Entity_GetFilledHoldSquadSlots(b.entity)-(slots[b.id] or 0)
+        if capacity>0 and BerberAI.PathReachable(st,s.squad,b.pos,s.pos) then table.insert(shelters,b) end
+       end
+      end
+      byDistance(shelters,s.pos);local shelter=shelters[1]
+      if shelter then
+       slots[shelter.id]=(slots[shelter.id] or 0)+1
+       BerberAI.WithSquads({s.squad},function(sg) BerberAI.WithEntity(shelter.entity,function(eg) Cmd_Garrison(sg,eg,false,false,false) end) end)
+      else
+       local angle=((math.floor(st.now/3)+s.id)%12)*math.pi/6
+       BerberAI.Move({s.squad},BerberAI.Pos(st.home,math.cos(angle)*7,math.sin(angle)*7),false)
+      end
+     end
+    end
+   end
+  end
+ end
+end
+local function target(st,origin,kind,limit)
+ local list={}
+ for _,c in ipairs(st.contacts or {}) do
+  if BerberAI.EntityValid(c.entity) and (limit==nil or BerberAI.Distance(c.pos,origin)<=limit^2) then
+   local p=nil
+   if kind=='archer' and not c.building and BerberAI.SegmentSafe(st,c.pos,c.pos,0,false) then p=c.spearman and 1 or c.ranged and 2 or c.villager and 3 or 4
+   elseif kind=='siege' and c.building then p=c.keep and 1 or c.outpost and 2 or c.tc and 3 or has(c.name,'landmark') and 4 or has(c.name,'house') and 5 or (has(c.name,'unit_') or has(c.name,'market')) and 6 or 7
+   elseif kind=='defense' and not c.building and not c.economic and not c.scout then p=1 end
+   if p then table.insert(list,{c=c,p=p,d=BerberAI.Distance(c.pos,origin)}) end
+  end
+ end
+ table.sort(list,function(a,b) if a.p~=b.p then return a.p<b.p end;if a.d~=b.d then return a.d<b.d end;return a.c.id<b.c.id end)
+ return list[1] and list[1].c or nil
+end
+local function attack(st,units,c)
+ if #units>0 and c and BerberAI.EntityValid(c.entity) then BerberAI.Target(st,units,SCMD_Attack,c.entity,false) end
+end
+local function raidTarget(st,origin,n)
+ local list={}
+ for _,c in ipairs(st.contacts or {}) do if c.villager and not c.building and BerberAI.EntityValid(c.entity) then table.insert(list,c) end end
+ byDistance(list,origin);local guarded=nil
+ for _,c in ipairs(list) do
+  local safe=true;local spears,knights,archers=0,0,0
+  for _,e in ipairs(st.contacts or {}) do
+   if BerberAI.EntityValid(e.entity) then
+    if e.tc and BerberAI.Distance(e.pos,c.pos)<=24^2 then safe=false end
+    if not e.building and not e.economic and BerberAI.Distance(e.pos,c.pos)<12^2 then
+     if e.spearman then spears=spears+1 elseif e.knight then knights=knights+1 elseif e.ranged then archers=archers+1 end
+    end
+   end
+  end
+  if safe then
+   if BerberAI.RaidFavorable(n,spears,knights,archers) then return c,true end
+   guarded=guarded or c
+  end
+ end
+ return guarded,false
+end
+function BerberAI.Army(st)
+ st.wounded_lancers=st.wounded_lancers or {};st.archer_deployed=st.archer_deployed or {};st.escort_ids={};st.escort_value=0
+ local cav,archers,siege,front={},{},{},{}
+ for _,s in ipairs(st.squads or {}) do
+  if military(s.role) and not (st.reserved or {})[s.id] and BerberAI.SquadValid(s.squad) then
+   local hp=Squad_GetHealthPercentage(s.squad,false)
+   if s.role=='zenata' and hp<.15 then st.wounded_lancers[s.id]=true end
+   if st.wounded_lancers[s.id] and hp>=.8 then st.wounded_lancers[s.id]=nil end
+   if st.wounded_lancers[s.id] then BerberAI.Move({s.squad},BerberAI.Pos(st.home,3,0),false);if st.age>=3 then st.needs_healer=true end
+   elseif s.role=='zenata' then table.insert(cav,s)
+   elseif s.role=='archer' then table.insert(archers,s)
+   elseif s.role=='ram' or s.role=='treb' or s.role=='cannon' or s.role=='springald' or s.role=='mangonel' then table.insert(siege,s)
+   else table.insert(front,s) end
+  end
+ end
+ local assigned={}
+ if not st.defense and st.trade_blocked and (st.trade_threat_value or 0)>0 then
+  for _,list in ipairs({cav,archers,front,siege}) do
+   local undeployed=0;local departing=0
+   if list==archers then for _,s in ipairs(list) do if not st.archer_deployed[s.id] then undeployed=undeployed+1 end end end
+   for _,s in ipairs(list) do
+    local new_archer=list==archers and not st.archer_deployed[s.id]
+    if (not new_archer or undeployed>=6) and (st.escort_value<st.trade_threat_value*1.3 or (departing>0 and departing<6)) then
+     assigned[s.id]=true;table.insert(st.escort_ids,s.id);st.escort_value=st.escort_value+((st.squad_values or {})[s.id] or 0)
+     if new_archer then departing=departing+1;st.archer_deployed[s.id]=true end
+     BerberAI.Move({s.squad},st.trade_threat_pos or st.home,true)
+    end
+   end
+  end
+ end
+ local raiders={};local keep=st.defense and math.floor(#cav*.3+.5) or #cav
+ for _,s in ipairs(cav) do
+  if not assigned[s.id] then
+   if #raiders<keep then table.insert(raiders,s.squad)
+   else local d=target(st,st.home,'defense',60);if d then attack(st,{s.squad},d) else BerberAI.Move({s.squad},st.home,true) end end
+  end
+ end
+ local origin=#raiders>0 and Squad_GetPosition(raiders[1]) or st.home
+ local raid,favorable=raidTarget(st,origin,#raiders)
+ if #raiders>0 then
+  if st.regroup and BerberAI.Distance(origin,st.regroup.pos)>8^2 then BerberAI.Move(raiders,st.regroup.pos,false)
+  elseif raid and favorable then
+   st.regroup=nil;local route=BerberAI.FindSafeRoute(st,origin,raid.pos,0,raiders[1],false)
+   if route then if #route==1 then attack(st,raiders,raid) else BerberAI.Move(raiders,route[1],true) end end
+  elseif raid then
+   local p=BerberAI.Pos(origin,(st.home.x-origin.x)/2,(st.home.z-origin.z)/2);st.regroup={pos=p};BerberAI.Move(raiders,p,false)
+  else BerberAI.Move(raiders,BerberAI.Pos(st.home,12,0),false) end
+ end
+ local arch,waiting={},{}
+ for _,s in ipairs(archers) do
+  if not assigned[s.id] then
+   if st.archer_deployed[s.id] then table.insert(arch,s.squad) else table.insert(waiting,s) end
+  end
+ end
+ if #waiting>=6 then
+  for _,s in ipairs(waiting) do st.archer_deployed[s.id]=true;table.insert(arch,s.squad) end
+ elseif st.defense then
+  for _,s in ipairs(waiting) do table.insert(arch,s.squad) end
+ else
+  local pending={};for _,s in ipairs(waiting) do table.insert(pending,s.squad) end
+  BerberAI.Move(pending,BerberAI.Pos(st.home,10,10),false)
+ end
+ if st.defense then
+  local d=target(st,st.home,'archer',60)
+  for _,s in ipairs(arch) do
+   if d and BerberAI.SegmentSafe(st,Squad_GetPosition(s),d.pos,0,false) then attack(st,{s},d)
+   else BerberAI.Move({s},st.home,false) end
+  end
+ elseif st.regroup then BerberAI.Move(arch,st.regroup.pos,false)
+ elseif #arch>0 then
+  local anchor=(#raiders>0 and raid and favorable) and Squad_GetPosition(raiders[1]) or st.home
+  local rally=BerberAI.Pos(anchor,-6,0)
+  if not BerberAI.SegmentSafe(st,rally,rally,0,false) then rally=st.home end
+  local ready={}
+  for _,s in ipairs(arch) do
+   if #raiders>0 and raid and favorable and BerberAI.Distance(Squad_GetPosition(s),anchor)<=16^2 then table.insert(ready,s)
+   else
+    local route=BerberAI.FindSafeRoute(st,Squad_GetPosition(s),rally,0,s,false)
+    if route then BerberAI.Move({s},route[1],false) end
+   end
+  end
+  local a=target(st,anchor,'archer',24)
+  if a and BerberAI.SegmentSafe(st,anchor,a.pos,0,false) then attack(st,ready,a)
+  else BerberAI.Move(ready,rally,false) end
+ else BerberAI.Move(arch,BerberAI.Pos(st.home,10,10),false) end
+ for _,s in ipairs(front) do if not assigned[s.id] then local d=target(st,st.home,'defense',st.defense and 60 or 120);if d then attack(st,{s.squad},d) end end end
+ for _,s in ipairs(siege) do
+  if not assigned[s.id] then
+   if st.defense then BerberAI.Move({s.squad},st.home,true)
+   else
+    local c=target(st,s.pos,'siege',36) or target(st,s.pos,'siege',60)
+    if c then attack(st,{s.squad},c) elseif st.enemy_home then BerberAI.Move({s.squad},st.enemy_home,true) end
+   end
+  end
+ end
+end
+local function monastery(st)
+ return BerberAI.FirstBuilding(st,BerberAI.Building.mosque) or BerberAI.FirstBuilding(st,'building_landmark_age2_landmarkc_control_mal')
+end
+local function carryingRelic(s)
+ -- Official pickup_relic / monk_statetree_deposit_relic requirements use
+ -- this entity-datasource boolean; Squad_IsHoldingAny is a vehicle hold API.
+ local e=Squad_GetFirstEntity(s)
+ return BerberAI.EntityValid(e) and Entity_GetStateModelBool(e,'is_carrying_entity')
+end
+local function approach(st,s,obj,command)
+ if not BerberAI.EntityValid(obj.entity) then return false end
+ local route=BerberAI.FindSafeRoute(st,s.pos,obj.pos,4,s.squad)
+ if not route then return false end
+ if #route==1 then BerberAI.Target(st,{s.squad},command,obj.entity,false) else BerberAI.Move({s.squad},route[1],false) end
+ return true
+end
+function BerberAI.SpecialUnits(st)
+ st.imam_roles=st.imam_roles or {};st.scout_progress=st.scout_progress or {};st.trader_home=st.trader_home or {}
+ local monks={};local living={}
+ for _,s in ipairs(st.squads or {}) do if BerberAI.SquadValid(s.squad) then living[s.id]=true;if s.role=='monk' then table.insert(monks,s) end end end
+ for _,role in ipairs({'relic','site','healer'}) do if not living[st.imam_roles[role]] then st.imam_roles[role]=nil end end
+ local claimed={};for _,role in ipairs({'relic','site','healer'}) do if st.imam_roles[role] then claimed[st.imam_roles[role]]=true end end
+ for _,role in ipairs({'relic','site','healer'}) do
+  if not st.imam_roles[role] and (role~='healer' or st.needs_healer) then
+   for _,s in ipairs(monks) do if not claimed[s.id] then st.imam_roles[role]=s.id;claimed[s.id]=true;break end end
+  end
+ end
+ local scout_done=false
+ for _,s in ipairs(st.squads or {}) do
+  if BerberAI.SquadValid(s.squad) then
+   if s.role=='scout' and not scout_done then
+    scout_done=true;local p=st.scout_progress[s.id] or {last_return=st.now,returning=false,step=0};st.scout_progress[s.id]=p
+    if st.now-p.last_return>=180 then p.returning=true end
+    if p.returning then
+     BerberAI.SafeMove(st,{s.squad},st.home,false,4)
+     if BerberAI.Distance(s.pos,st.home)<=8^2 then p.last_return=st.now;p.returning=false end
+    else
+     local sheep={};for _,c in ipairs(st.sheep or {}) do if BerberAI.EntityValid(c.entity) then table.insert(sheep,c) end end
+     byDistance(sheep,s.pos);local moved=false
+     for _,c in ipairs(sheep) do if BerberAI.SafeMove(st,{s.squad},c.pos,false,4) then moved=true;break end end
+     if not moved then
+      for attempt=1,12 do
+       p.step=p.step+1;local angle=p.step*2.399963229728653+st.pid;local extent=math.sqrt(World_GetWidth()^2+World_GetLength()^2)
+       local r=35+(p.step%24)*extent/25
+       if BerberAI.SafeMove(st,{s.squad},BerberAI.Pos(st.home,math.cos(angle)*r,math.sin(angle)*r),false,4) then break end
+      end
+     end
+    end
+   elseif s.role=='trader' then
+    local home=nil;for _,b in ipairs(st.buildings or {}) do if b.id==st.trade_market_id and b.complete and BerberAI.EntityValid(b.entity) then home=b;break end end
+    if home and st.trade_target and BerberAI.EntityValid(st.trade_target) then
+     if st.trade_blocked then
+      if not BerberAI.SafeMove(st,{s.squad},home.pos,false,4) then BerberAI.WithSquads({s.squad},function(sg) Cmd_Stop(sg) end) end
+     else
+      -- Normal production from the dedicated Market sets the native creator /
+      -- home market (official scarutil.scar documents the creator contract).
+      st.trader_home[s.id]=home.id
+      local dest={entity=st.trade_target,pos=Entity_GetPosition(st.trade_target)}
+      if not BerberAI.SegmentSafe(st,s.pos,dest.pos,4) or Squad_IsIdle(s.squad) then
+       if not approach(st,s,dest,SCMD_Trade) then BerberAI.WithSquads({s.squad},function(sg) Cmd_Stop(sg) end) end
+      end
+     end
+    else BerberAI.WithSquads({s.squad},function(sg) Cmd_Stop(sg) end)
+    end
+   elseif s.role=='monk' and st.age>=3 then
+    if st.imam_roles.relic==s.id then
+     local church=monastery(st)
+     if carryingRelic(s.squad) then
+      if church and BerberAI.EntityValid(church) then approach(st,s,{entity=church,pos=Entity_GetPosition(church)},SCMD_DefaultAction) end
+     elseif church then for _,obj in ipairs(st.relics or {}) do if approach(st,s,obj,SCMD_DefaultAction) then break end end end
+    elseif st.imam_roles.site==s.id then
+     for _,obj in ipairs(st.sites or {}) do if approach(st,s,obj,SCMD_Capture) then break end end
+    elseif st.imam_roles.healer==s.id then
+     local wounded={}
+     for _,a in ipairs(st.squads or {}) do
+      if a.id~=s.id and military(a.role) and BerberAI.SquadValid(a.squad) and Squad_GetHealthPercentage(a.squad,false)<.8 then table.insert(wounded,a) end
+     end
+     byDistance(wounded,st.home);local healed=false
+     for _,a in ipairs(wounded) do local e=Squad_GetFirstEntity(a.squad);if BerberAI.EntityValid(e) and approach(st,s,{entity=e,pos=a.pos},SCMD_DefaultAction) then healed=true;break end end
+     if not healed then BerberAI.SafeMove(st,{s.squad},BerberAI.Pos(st.home,4,0),false,4) end
+    end
+   end
+  end
+ end
+end

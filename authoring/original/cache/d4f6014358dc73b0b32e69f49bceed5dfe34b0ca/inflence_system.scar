@@ -1,0 +1,281 @@
+------------------------------------------------------------------------
+-- Berber Future Kingdom - Influence System
+------------------------------------------------------------------------
+
+Core_RegisterModule("InfluenceSystem")
+
+local _influence_system = {
+	started = false,
+	player_state = {}, -- [player_id] = { reward_count = number, huts = { [entity_id] = value } }
+}
+
+local INFLUENCE_SYSTEM_RANGE = 20 -- 5 tiles center-to-center for adjacency
+local INFLUENCE_SYSTEM_BASE_REQUIRED = 500
+local INFLUENCE_SYSTEM_BASE_INCREASE = 200
+
+local function InfluenceSystem_GetPlayerState(player)
+	local state = _influence_system.player_state[player]
+	if state == nil then
+		state = {
+			reward_count = 0,
+			huts = {},
+		}
+		_influence_system.player_state[player] = state
+	end
+	return state
+end
+
+-- Checks if player has the Funduq landmark (any spirit_way type except standard tent)
+local function InfluenceSystem_PlayerHasFunduq(player)
+	local tents = EGroup_CreateUniqueWithPrefix("InfluenceSystem_CheckFunduq")
+	Player_GetEntitiesEGroup(player, tents)
+	
+	local has_funduq = false
+	for index = 1, EGroup_Count(tents) do
+		local entity = EGroup_GetEntityAt(tents, index)
+		if entity ~= nil 
+			and Entity_IsValid(Entity_GetID(entity))
+			and Entity_IsOfType(entity, "spirit_way") then
+			local bp_name = BP_GetName(Entity_GetBlueprint(entity))
+			if bp_name ~= "building_hut_ayy" then
+				print("[InfluenceSystem] Funduq landmark detected: " .. bp_name)
+				has_funduq = true
+				break
+			end
+		end
+	end
+	
+	EGroup_Destroy(tents)
+	return has_funduq
+end
+
+local function InfluenceSystem_GetRequiredValue(player, reward_count)
+	local required_value = INFLUENCE_SYSTEM_BASE_REQUIRED + (reward_count * INFLUENCE_SYSTEM_BASE_INCREASE)
+	if InfluenceSystem_PlayerHasFunduq(player) then
+		required_value = required_value * 0.8 -- 20% discount
+		print("[InfluenceSystem] Required value (with Funduq 20% discount): " .. tostring(required_value))
+	else
+		print("[InfluenceSystem] Required value (standard): " .. tostring(required_value))
+	end
+	return math.floor(required_value)
+end
+
+-- Get cost from squad blueprint or first entity blueprint
+local function InfluenceSystem_GetSquadCost(player, squad)
+	local squad_bp = Squad_GetBlueprint(squad)
+	local cost = nil
+	local bp_name = "unknown"
+	
+	if squad_bp ~= nil then
+		bp_name = BP_GetName(squad_bp)
+		cost = Player_GetSquadBPCost(player, squad_bp)
+	end
+	
+	-- Fallback to first entity blueprint if squad cost returns nil
+	if cost == nil then
+		local first_entity = Squad_GetFirstEntity(squad)
+		if first_entity ~= nil then
+			local ebp = Entity_GetBlueprint(first_entity)
+			if ebp ~= nil then
+				bp_name = BP_GetName(ebp)
+				cost = Player_GetEntityBPCost(player, ebp)
+			end
+		end
+	end
+	
+	if cost == nil then
+		print("[InfluenceSystem] Fail: Could not query cost table for squad/entity " .. tostring(bp_name))
+		return 0
+	end
+	
+	local total = (cost.food or 0) + (cost.wood or 0) + (cost.gold or 0) + (cost.stone or 0)
+	print("[InfluenceSystem] Cost breakdown for " .. tostring(bp_name) .. " - Food: " .. tostring(cost.food) .. ", Wood: " .. tostring(cost.wood) .. ", Gold: " .. tostring(cost.gold) .. ", Stone: " .. tostring(cost.stone) .. " | Total: " .. tostring(total))
+	return total
+end
+
+local function InfluenceSystem_IsTent(entity)
+	return entity ~= nil 
+		and Entity_IsValid(Entity_GetID(entity))
+		and Entity_IsOfType(entity, "spirit_way")
+end
+
+-- Finds the nearest tent/landmark of the player to the production building
+local function InfluenceSystem_FindNearestTent(player, building)
+	if building == nil then
+		return nil
+	end
+	
+	local building_pos = Entity_GetPosition(building)
+	local nearby_tents = EGroup_CreateUniqueWithPrefix("InfluenceSystem_NearbyTents")
+	World_GetEntitiesNearPoint(player, nearby_tents, building_pos, INFLUENCE_SYSTEM_RANGE, OT_PLAYER)
+	
+	local nearest_tent = nil
+	local nearest_distance_squared = nil
+	
+	for index = 1, EGroup_Count(nearby_tents) do
+		local tent = EGroup_GetEntityAt(nearby_tents, index)
+		if InfluenceSystem_IsTent(tent) then
+			local distance_squared = World_DistanceSquaredPointToPoint(building_pos, Entity_GetPosition(tent))
+			if nearest_distance_squared == nil or distance_squared < nearest_distance_squared then
+				nearest_tent = tent
+				nearest_distance_squared = distance_squared
+			end
+		end
+	end
+	
+	EGroup_Destroy(nearby_tents)
+	return nearest_tent
+end
+
+-- Finds the production building that trained the unit
+local function InfluenceSystem_FindTrainingBuilding(player, position)
+	local nearby_entities = EGroup_CreateUniqueWithPrefix("InfluenceSystem_NearbyEntities")
+	World_GetEntitiesNearPoint(player, nearby_entities, position, 10, OT_PLAYER)
+	
+	local nearest_building = nil
+	local nearest_distance_squared = nil
+	
+	for index = 1, EGroup_Count(nearby_entities) do
+		local entity = EGroup_GetEntityAt(nearby_entities, index)
+		if entity ~= nil 
+			and Entity_IsValid(Entity_GetID(entity)) 
+			and Entity_IsBuilding(entity) 
+			and Entity_HasProductionQueue(entity) then
+			local distance_squared = World_DistanceSquaredPointToPoint(position, Entity_GetPosition(entity))
+			if nearest_distance_squared == nil or distance_squared < nearest_distance_squared then
+				nearest_building = entity
+				nearest_distance_squared = distance_squared
+			end
+		end
+	end
+	
+	EGroup_Destroy(nearby_entities)
+	return nearest_building
+end
+
+local function InfluenceSystem_TryQueueVillager(hut, player)
+	if not Entity_HasProductionQueue(hut) then
+		print("[InfluenceSystem] Fail: Tent has no production queue")
+		return false
+	end
+	
+	local villager_squad_bp = Cardinal_ConvertTypeToSquadBlueprint("villager", player)
+	if villager_squad_bp == nil then
+		print("[InfluenceSystem] Fail: Could not resolve villager squad blueprint")
+		return false
+	end
+	
+	local success = Entity_QueueProductionItemByPBG(hut, PITEM_Spawn, villager_squad_bp)
+	return success
+end
+
+local function InfluenceSystem_AddValueToHut(hut, player, value)
+	local state = InfluenceSystem_GetPlayerState(player)
+	local hut_id = Entity_GetID(hut)
+	local hut_value = (state.huts[hut_id] or 0) + value
+	local required_value = InfluenceSystem_GetRequiredValue(player, state.reward_count)
+
+	print("[InfluenceSystem] Add value: " .. tostring(value) .. " | Current stored: " .. tostring(hut_value) .. "/" .. tostring(required_value))
+
+	while hut_value >= required_value do
+		print("[InfluenceSystem] Threshold reached! Attempting to queue free Villager...")
+		if not InfluenceSystem_TryQueueVillager(hut, player) then
+			print("[InfluenceSystem] Fail: Could not queue villager (production queue blocked or failed)")
+			break
+		end
+
+		print("[InfluenceSystem] Success: Free villager queued!")
+		hut_value = hut_value - required_value
+		state.reward_count = state.reward_count + 1
+		required_value = InfluenceSystem_GetRequiredValue(player, state.reward_count)
+	end
+
+	state.huts[hut_id] = hut_value
+end
+
+-- Callback for GE_SquadSpawn
+function InfluenceSystem_OnSquadSpawn(context)
+	if not _influence_system.started or context == nil or context.squad == nil then
+		return
+	end
+
+	local squad = context.squad
+	if not Squad_IsValid(Squad_GetID(squad)) then
+		return
+	end
+
+	local squad_bp = Squad_GetBlueprint(squad)
+	local bp_name = squad_bp and BP_GetName(squad_bp) or "unknown"
+
+	-- Check if squad has the "annihilation_condition" tag
+	local is_annihilation = Squad_IsOfType(squad, "annihilation_condition") 
+		or (squad_bp ~= nil and Squad_IsSBPOfType(squad_bp, "annihilation_condition"))
+
+	if not is_annihilation then
+		return
+	end
+
+	print("[InfluenceSystem] Intercepted squad spawn: " .. bp_name)
+
+	local player = Squad_GetPlayerOwner(squad)
+	if player == nil then
+		print("[InfluenceSystem] Fail: Player owner is nil")
+		return
+	end
+
+	local cost = InfluenceSystem_GetSquadCost(player, squad)
+	if cost == nil or cost <= 0 then
+		print("[InfluenceSystem] Fail: Cost is 0 or nil, ignoring spawn")
+		return
+	end
+
+	local training_building = InfluenceSystem_FindTrainingBuilding(player, Squad_GetPosition(squad))
+	if training_building == nil then
+		print("[InfluenceSystem] Fail: No parent training building found near spawn point")
+		return
+	end
+	print("[InfluenceSystem] Training building identified: " .. BP_GetName(Entity_GetBlueprint(training_building)))
+
+	local nearest_tent = InfluenceSystem_FindNearestTent(player, training_building)
+	if nearest_tent == nil then
+		print("[InfluenceSystem] Fail: Training building is not adjacent to any Tent/Landmark (spirit_way)")
+		return
+	end
+	print("[InfluenceSystem] Adjacent Tent/Landmark identified: " .. BP_GetName(Entity_GetBlueprint(nearest_tent)))
+
+	InfluenceSystem_AddValueToHut(nearest_tent, player, cost)
+end
+
+-- Call once from StandardMode_Start()
+function inflence_system_start()
+	if _influence_system.started then
+		return
+	end
+
+	_influence_system.player_state = {}
+	Rule_AddGlobalEvent(InfluenceSystem_OnSquadSpawn, GE_SquadSpawn)
+	_influence_system.started = true
+	print("[InfluenceSystem] Started successfully and listening to GE_SquadSpawn")
+end
+
+-- Cleanup
+function inflence_system_stop()
+	if not _influence_system.started then
+		return
+	end
+
+	Rule_RemoveGlobalEvent(InfluenceSystem_OnSquadSpawn)
+	_influence_system.started = false
+	_influence_system.player_state = {}
+	print("[InfluenceSystem] Stopped successfully")
+end
+
+function InfluenceSystem_OnInit()
+end
+
+function InfluenceSystem_Start()
+end
+
+function InfluenceSystem_OnGameOver()
+	inflence_system_stop()
+end

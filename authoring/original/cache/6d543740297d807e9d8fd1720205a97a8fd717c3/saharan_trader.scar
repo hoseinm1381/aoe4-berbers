@@ -1,0 +1,65 @@
+function saharan_trader_start() -- start saharan trader logic
+	Rule_AddInterval(saharan_trader_count_check,30) -- check the players unit count for every 30 second 
+end
+
+
+function saharan_trader_count_check() -- check the saharan trader count and call next function that gives resource to a player
+	local flag = false
+	for i = 1 , World_GetPlayerCount() do
+		local player_id = World_GetPlayerAt(i)
+		if Player_IsAlive(player_id) then
+			local player_civ = Player_GetRaceName(player_id)
+			if player_civ == "malian" then
+				
+				flag = true
+				local player_trader_count = Player_GetAllEntities(player_id)
+				EGroup_Filter(player_trader_count,"unit_trade_cart_mal",FILTER_KEEP )
+				for c = 1 , EGroup_Count(player_trader_count) do
+					local trader_entity = EGroup_GetEntityAt(player_trader_count,c)
+					
+					ModifyUnitSpeed(trader_entity,0.08)
+				end
+			end
+		end
+		
+	end
+	if flag == false then
+		Rule_Remove(saharan_trader_count_check) -- for efficiency
+	end
+	
+end
+
+
+
+
+function ModifyUnitSpeed(entity_id, speed_modifier_value)
+    
+	
+    local entity_bp = Entity_GetBlueprint(entity_id)
+
+	local speed_mod = Modifier_Create(
+		MAT_Entity,
+		"speed_maximum_modifier",
+		MUT_Addition,
+		false,
+		speed_modifier_value,
+		""
+		)
+		
+
+		-- Create a modifier for acceleration (often linked to max speed for natural movement).
+		-- Using the same factor for acceleration for smoother movement.
+	local acceleration_mod = Modifier_Create(
+		MAT_Entity,
+		"acceleration_modifier",
+		MUT_Addition,
+		false,
+		speed_modifier_value,
+		""
+		)
+	Modifier_ApplyToEntity(speed_mod, entity_id,0)
+	Modifier_ApplyToEntity(acceleration_mod, entity_id,0)
+
+	
+end
+

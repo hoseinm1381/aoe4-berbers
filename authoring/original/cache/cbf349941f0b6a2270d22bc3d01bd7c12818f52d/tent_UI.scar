@@ -1,0 +1,430 @@
+------------------------------------------------------------------------
+-- Berber Future Kingdom - Tent Influence Custom XAML UI
+--
+-- Pure WPF/XAML custom UI component for Age of Empires IV.
+-- Renders a sleek Malian-themed panel on the mid-left of the screen.
+--
+-- Features:
+--   - Global required influence threshold display.
+--   - Proactive scanning of all Tents & Landmark Tents (`building_landmark_age1_landmarkb_mal`).
+--   - Local pool accumulation for each Tent / Funduq.
+--   - Interactive Focus camera buttons to jump to tent/landmark locations.
+--   - Expand / Minimize toggle button.
+------------------------------------------------------------------------
+
+Core_RegisterModule("TentUI")
+
+g_tent_ui = {
+    is_created = false,
+    tents_data = {}, -- stored tent camera positions
+    data_context = {
+        global_required       = "500",
+        villager_count        = "0",
+        is_expanded_visible   = true,
+        is_minimized_visible  = false,
+        command_toggle        = nil,
+        
+        -- Slot 1 (Landmark or Tent 1)
+        t1_visible            = false,
+        t1_label              = "Funduq Landmark",
+        t1_progress           = "0 / 500",
+        command_focus_t1      = nil,
+
+        -- Slot 2
+        t2_visible            = false,
+        t2_label              = "Tent #1",
+        t2_progress           = "0 / 500",
+        command_focus_t2      = nil,
+
+        -- Slot 3
+        t3_visible            = false,
+        t3_label              = "Tent #2",
+        t3_progress           = "0 / 500",
+        command_focus_t3      = nil,
+
+        -- Slot 4
+        t4_visible            = false,
+        t4_label              = "Tent #3",
+        t4_progress           = "0 / 500",
+        command_focus_t4      = nil,
+
+        -- Slot 5
+        t5_visible            = false,
+        t5_label              = "Tent #4",
+        t5_progress           = "0 / 500",
+        command_focus_t5      = nil,
+
+        -- Slot 6
+        t6_visible            = false,
+        t6_label              = "Tent #5",
+        t6_progress           = "0 / 500",
+        command_focus_t6      = nil,
+    }
+}
+
+------------------------------------------------------------------------
+-- Focus Camera Callbacks for XAML Buttons
+------------------------------------------------------------------------
+
+function TentUI_FocusTent1()
+    if g_tent_ui.tents_data[1] ~= nil then
+        Camera_FocusOnPosition(g_tent_ui.tents_data[1])
+    end
+end
+
+function TentUI_FocusTent2()
+    if g_tent_ui.tents_data[2] ~= nil then
+        Camera_FocusOnPosition(g_tent_ui.tents_data[2])
+    end
+end
+
+function TentUI_FocusTent3()
+    if g_tent_ui.tents_data[3] ~= nil then
+        Camera_FocusOnPosition(g_tent_ui.tents_data[3])
+    end
+end
+
+function TentUI_FocusTent4()
+    if g_tent_ui.tents_data[4] ~= nil then
+        Camera_FocusOnPosition(g_tent_ui.tents_data[4])
+    end
+end
+
+function TentUI_FocusTent5()
+    if g_tent_ui.tents_data[5] ~= nil then
+        Camera_FocusOnPosition(g_tent_ui.tents_data[5])
+    end
+end
+
+function TentUI_FocusTent6()
+    if g_tent_ui.tents_data[6] ~= nil then
+        Camera_FocusOnPosition(g_tent_ui.tents_data[6])
+    end
+end
+
+function TentUI_ToggleMinimize()
+    if g_tent_ui.is_created then
+        g_tent_ui.data_context.is_expanded_visible  = not g_tent_ui.data_context.is_expanded_visible
+        g_tent_ui.data_context.is_minimized_visible = not g_tent_ui.data_context.is_minimized_visible
+        TentUI_Refresh()
+    end
+end
+
+------------------------------------------------------------------------
+-- XAML Creation
+------------------------------------------------------------------------
+
+function TentUI_CreateForPlayer()
+    local local_player = Game_GetLocalPlayer()
+    if local_player == nil or g_tent_ui.is_created then return end
+    if Player_GetRaceName(local_player) ~= "malian" then return end
+
+    -- Bind Lua functions to XAML Commands
+    g_tent_ui.data_context.command_toggle   = UI_CreateCommand("TentUI_ToggleMinimize")
+    g_tent_ui.data_context.command_focus_t1 = UI_CreateCommand("TentUI_FocusTent1")
+    g_tent_ui.data_context.command_focus_t2 = UI_CreateCommand("TentUI_FocusTent2")
+    g_tent_ui.data_context.command_focus_t3 = UI_CreateCommand("TentUI_FocusTent3")
+    g_tent_ui.data_context.command_focus_t4 = UI_CreateCommand("TentUI_FocusTent4")
+    g_tent_ui.data_context.command_focus_t5 = UI_CreateCommand("TentUI_FocusTent5")
+    g_tent_ui.data_context.command_focus_t6 = UI_CreateCommand("TentUI_FocusTent6")
+
+    local xaml = [[
+<Grid xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      HorizontalAlignment="Left"
+      VerticalAlignment="Top"
+      Margin="20,420,0,0">
+
+    <Grid.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,ui/Resources/HUDResources.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Grid.Resources>
+
+    <!-- Expanded View -->
+    <Grid Visibility="{Binding [is_expanded_visible], Converter={StaticResource BoolToVis}}">
+        <Border Background="#E011151A" CornerRadius="8" BorderBrush="#CCDAA520" BorderThickness="1.5" Padding="14,10,14,10" Width="235">
+            <StackPanel>
+                <!-- Title Bar -->
+                <Grid>
+                    <TextBlock Text="TENT INFLUENCE"
+                               Style="{StaticResource HUDPrimaryColorGradientVerticalSubtitleTextBlock14ptStyle}"
+                               FontSize="15"
+                               FontWeight="Bold"
+                               HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+                    <Button Command="{Binding [command_toggle]}" HorizontalAlignment="Right" VerticalAlignment="Center"
+                            Background="#FF8B0000" Width="20" Height="20"
+                            Style="{StaticResource HUDBaseButtonStyle}">
+                        <TextBlock Text="-" FontSize="12" FontWeight="Bold" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    </Button>
+                </Grid>
+
+                <Rectangle Fill="#50DAA520" Height="1" Margin="0,6,0,6"/>
+
+                <!-- Global Status -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,2,0,4">
+                    <TextBlock Text="NEXT VILLAGER:" FontSize="11" Foreground="#FFA0A0A0" VerticalAlignment="Center"/>
+                    <TextBlock Text="{Binding [global_required]}" FontSize="14" FontWeight="Bold" Foreground="#FFFFD700" Margin="6,0,0,0" VerticalAlignment="Center"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,6">
+                    <TextBlock Text="VILLAGERS EARNED: " FontSize="10" Foreground="#FF808080"/>
+                    <TextBlock Text="{Binding [villager_count]}" FontSize="11" FontWeight="Bold" Foreground="#FFFFFFFF"/>
+                </StackPanel>
+
+                <Rectangle Fill="#30FFFFFF" Height="1" Margin="0,2,0,6"/>
+
+                <!-- Slot 1 -->
+                <Grid Visibility="{Binding [t1_visible], Converter={StaticResource BoolToVis}}" Margin="0,3,0,3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                        <TextBlock Text="{Binding [t1_label]}" FontSize="11" FontWeight="SemiBold" Foreground="#FFF0F0F0"/>
+                        <TextBlock Text="{Binding [t1_progress]}" FontSize="10" Foreground="#FFDAA520"/>
+                    </StackPanel>
+                    <Button Grid.Column="1" Command="{Binding [command_focus_t1]}" Style="{StaticResource HUDBaseButtonStyle}" Padding="6,2,6,2" Background="#FF2A4058">
+                        <TextBlock Text="GO" FontSize="9" FontWeight="Bold" Foreground="White"/>
+                    </Button>
+                </Grid>
+
+                <!-- Slot 2 -->
+                <Grid Visibility="{Binding [t2_visible], Converter={StaticResource BoolToVis}}" Margin="0,3,0,3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                        <TextBlock Text="{Binding [t2_label]}" FontSize="11" FontWeight="SemiBold" Foreground="#FFF0F0F0"/>
+                        <TextBlock Text="{Binding [t2_progress]}" FontSize="10" Foreground="#FFDAA520"/>
+                    </StackPanel>
+                    <Button Grid.Column="1" Command="{Binding [command_focus_t2]}" Style="{StaticResource HUDBaseButtonStyle}" Padding="6,2,6,2" Background="#FF2A4058">
+                        <TextBlock Text="GO" FontSize="9" FontWeight="Bold" Foreground="White"/>
+                    </Button>
+                </Grid>
+
+                <!-- Slot 3 -->
+                <Grid Visibility="{Binding [t3_visible], Converter={StaticResource BoolToVis}}" Margin="0,3,0,3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                        <TextBlock Text="{Binding [t3_label]}" FontSize="11" FontWeight="SemiBold" Foreground="#FFF0F0F0"/>
+                        <TextBlock Text="{Binding [t3_progress]}" FontSize="10" Foreground="#FFDAA520"/>
+                    </StackPanel>
+                    <Button Grid.Column="1" Command="{Binding [command_focus_t3]}" Style="{StaticResource HUDBaseButtonStyle}" Padding="6,2,6,2" Background="#FF2A4058">
+                        <TextBlock Text="GO" FontSize="9" FontWeight="Bold" Foreground="White"/>
+                    </Button>
+                </Grid>
+
+                <!-- Slot 4 -->
+                <Grid Visibility="{Binding [t4_visible], Converter={StaticResource BoolToVis}}" Margin="0,3,0,3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                        <TextBlock Text="{Binding [t4_label]}" FontSize="11" FontWeight="SemiBold" Foreground="#FFF0F0F0"/>
+                        <TextBlock Text="{Binding [t4_progress]}" FontSize="10" Foreground="#FFDAA520"/>
+                    </StackPanel>
+                    <Button Grid.Column="1" Command="{Binding [command_focus_t4]}" Style="{StaticResource HUDBaseButtonStyle}" Padding="6,2,6,2" Background="#FF2A4058">
+                        <TextBlock Text="GO" FontSize="9" FontWeight="Bold" Foreground="White"/>
+                    </Button>
+                </Grid>
+
+                <!-- Slot 5 -->
+                <Grid Visibility="{Binding [t5_visible], Converter={StaticResource BoolToVis}}" Margin="0,3,0,3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                        <TextBlock Text="{Binding [t5_label]}" FontSize="11" FontWeight="SemiBold" Foreground="#FFF0F0F0"/>
+                        <TextBlock Text="{Binding [t5_progress]}" FontSize="10" Foreground="#FFDAA520"/>
+                    </StackPanel>
+                    <Button Grid.Column="1" Command="{Binding [command_focus_t5]}" Style="{StaticResource HUDBaseButtonStyle}" Padding="6,2,6,2" Background="#FF2A4058">
+                        <TextBlock Text="GO" FontSize="9" FontWeight="Bold" Foreground="White"/>
+                    </Button>
+                </Grid>
+
+                <!-- Slot 6 -->
+                <Grid Visibility="{Binding [t6_visible], Converter={StaticResource BoolToVis}}" Margin="0,3,0,3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                        <TextBlock Text="{Binding [t6_label]}" FontSize="11" FontWeight="SemiBold" Foreground="#FFF0F0F0"/>
+                        <TextBlock Text="{Binding [t6_progress]}" FontSize="10" Foreground="#FFDAA520"/>
+                    </StackPanel>
+                    <Button Grid.Column="1" Command="{Binding [command_focus_t6]}" Style="{StaticResource HUDBaseButtonStyle}" Padding="6,2,6,2" Background="#FF2A4058">
+                        <TextBlock Text="GO" FontSize="9" FontWeight="Bold" Foreground="White"/>
+                    </Button>
+                </Grid>
+
+            </StackPanel>
+        </Border>
+    </Grid>
+
+    <!-- Minimized View -->
+    <Grid Visibility="{Binding [is_minimized_visible], Converter={StaticResource BoolToVis}}">
+        <Button Command="{Binding [command_toggle]}" Style="{StaticResource HUDBaseButtonStyle}">
+            <Border Background="#E011151A" CornerRadius="6" BorderBrush="#CCDAA520" BorderThickness="1.5" Padding="8,4,8,4">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="INFLUENCE:" FontSize="10" FontWeight="Bold" Foreground="#FFDAA520" VerticalAlignment="Center"/>
+                    <TextBlock Text="{Binding [global_required]}" FontSize="11" FontWeight="Bold" Foreground="White" Margin="4,0,0,0" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Border>
+        </Button>
+    </Grid>
+
+</Grid>
+]]
+
+    UI_AddChild("ScarNotReplay", "XamlPresenter", "TentInfluenceUI", {
+        IsHitTestVisible = true,
+        Xaml             = xaml,
+        DataContext      = UI_CreateDataContext(g_tent_ui.data_context)
+    })
+
+    g_tent_ui.is_created = true
+    print("[TentUI] Created XAML UI for player.")
+end
+
+------------------------------------------------------------------------
+-- UI Refresh & Update Loop
+------------------------------------------------------------------------
+
+function TentUI_Refresh()
+    if g_tent_ui.is_created then
+        UI_SetDataContext("TentInfluenceUI", g_tent_ui.data_context)
+    end
+end
+
+function TentUI_UpdateLoop()
+    local local_player = Game_GetLocalPlayer()
+    if local_player == nil then return end
+
+    if Player_GetRaceName(local_player) ~= "malian" then
+        if g_tent_ui.is_created then
+            UI_Remove("TentInfluenceUI")
+            g_tent_ui.is_created = false
+        end
+        return
+    end
+
+    if not g_tent_ui.is_created then
+        TentUI_CreateForPlayer()
+    end
+
+    if not g_tent_ui.is_created then return end
+
+    local data = InfluenceSystem_GetPlayerData(local_player)
+    if data == nil then return end
+
+    -- Update global stats
+    g_tent_ui.data_context.global_required = tostring(data.required)
+    g_tent_ui.data_context.villager_count  = tostring(data.reward_count)
+
+    -- Reset tent visual slots
+    g_tent_ui.tents_data = {}
+    g_tent_ui.data_context.t1_visible = false
+    g_tent_ui.data_context.t2_visible = false
+    g_tent_ui.data_context.t3_visible = false
+    g_tent_ui.data_context.t4_visible = false
+    g_tent_ui.data_context.t5_visible = false
+    g_tent_ui.data_context.t6_visible = false
+
+    -- Sort tents so Landmark Tent ("building_landmark_age1_landmarkb_mal") always appears first!
+    table.sort(data.tents, function(a, b)
+        local a_is_lm = (a.name == "building_landmark_age1_landmarkb_mal")
+        local b_is_lm = (b.name == "building_landmark_age1_landmarkb_mal")
+        if a_is_lm and not b_is_lm then return true end
+        if not a_is_lm and b_is_lm then return false end
+        return a.pos_key < b.pos_key
+    end)
+
+    -- Populate up to 6 slots (Landmark Tent + regular Tents)
+    local tent_counter = 1
+    for idx, tinfo in ipairs(data.tents) do
+        if idx <= 6 then
+            g_tent_ui.tents_data[idx] = tinfo.pos
+
+            local is_landmark = (tinfo.name == "building_landmark_age1_landmarkb_mal")
+            local label = ""
+            if is_landmark then
+                label = "Funduq Landmark"
+            else
+                label = string.format("Tent #%d", tent_counter)
+                tent_counter = tent_counter + 1
+            end
+
+            local prog = string.format("%d / %d", tinfo.pool, data.required)
+
+            if idx == 1 then
+                g_tent_ui.data_context.t1_label    = label
+                g_tent_ui.data_context.t1_progress = prog
+                g_tent_ui.data_context.t1_visible  = true
+            elseif idx == 2 then
+                g_tent_ui.data_context.t2_label    = label
+                g_tent_ui.data_context.t2_progress = prog
+                g_tent_ui.data_context.t2_visible  = true
+            elseif idx == 3 then
+                g_tent_ui.data_context.t3_label    = label
+                g_tent_ui.data_context.t3_progress = prog
+                g_tent_ui.data_context.t3_visible  = true
+            elseif idx == 4 then
+                g_tent_ui.data_context.t4_label    = label
+                g_tent_ui.data_context.t4_progress = prog
+                g_tent_ui.data_context.t4_visible  = true
+            elseif idx == 5 then
+                g_tent_ui.data_context.t5_label    = label
+                g_tent_ui.data_context.t5_progress = prog
+                g_tent_ui.data_context.t5_visible  = true
+            elseif idx == 6 then
+                g_tent_ui.data_context.t6_label    = label
+                g_tent_ui.data_context.t6_progress = prog
+                g_tent_ui.data_context.t6_visible  = true
+            end
+        end
+    end
+
+    TentUI_Refresh()
+end
+
+------------------------------------------------------------------------
+-- Lifecycle Control
+------------------------------------------------------------------------
+
+function tent_UI_start()
+    local local_player = Game_GetLocalPlayer()
+    if local_player ~= nil then
+        Rule_AddInterval(TentUI_UpdateLoop, 1.0)
+    end
+    print("[TentUI] Module started.")
+end
+
+function tent_UI_stop()
+    Rule_Remove(TentUI_UpdateLoop)
+    if g_tent_ui.is_created then
+        UI_Remove("TentInfluenceUI")
+        g_tent_ui.is_created = false
+    end
+    print("[TentUI] Module stopped.")
+end
+
+function TentUI_OnInit()
+end
+
+function TentUI_Start()
+    tent_UI_start()
+end
+
+function TentUI_OnGameOver()
+    tent_UI_stop()
+end

@@ -1,0 +1,152 @@
+------------------------------------------------------------------------
+-- Berber Future Kingdom - Madrasa of Fez Landmark
+--
+-- Triggers a one-time bonus upon completion: instantly grants Castle Age
+-- upgrades, then after 1 second grants Imperial Age upgrades.
+------------------------------------------------------------------------
+
+Core_RegisterModule("MadrasaFez")
+
+local _madrasa = {
+	started = false,
+	landmark_bp = nil,
+	castle_upgrades = {},
+	imperial_upgrades = {},
+	player_states = {},
+	pending_imperial = {}, -- Used by OneShot rule
+}
+
+local function MadrasaFez_HasLandmark(player_obj)
+	if _madrasa.landmark_bp == nil then
+		print("[MadrasaFez] ERROR: landmark_bp is nil!")
+		return false
+	end
+	
+	local player_entities = EGroup_CreateUniqueWithPrefix("MF_Entities")
+	Player_GetEntitiesEGroup(player_obj, player_entities)
+	local count = EGroup_Count(player_entities)
+	
+	for i = 1, count do
+		local entity = EGroup_GetEntityAt(player_entities, i)
+		local ebp = Entity_GetBlueprint(entity)
+		local bp_name = BP_GetName(ebp)
+		-- Log any landmark we find
+		if bp_name ~= nil and string.find(bp_name, "landmark") then
+			local progress = Entity_GetBuildingProgress(entity)
+			print(string.format("[MadrasaFez] Landmark scan: '%s' progress=%.2f", bp_name, progress))
+		end
+		if ebp == _madrasa.landmark_bp then
+			local progress = Entity_GetBuildingProgress(entity)
+			local is_active = Entity_GetStateModelBool(entity, "landmark_active")
+			print(string.format("[MadrasaFez] MATCHED landmark! progress=%.2f active=%s", progress, tostring(is_active)))
+			EGroup_Destroy(player_entities)
+			if progress >= 1.0 and is_active then
+				return true
+			end
+			return false
+		end
+	end
+	EGroup_Destroy(player_entities)
+	return false
+end
+
+local function MadrasaFez_ApplyImperialUpgrades()
+	for player_index, _ in pairs(_madrasa.pending_imperial) do
+		local player_obj = World_GetPlayerAt(player_index)
+		if player_obj ~= nil and Player_IsAlive(player_obj) then
+			for _, upg in ipairs(_madrasa.imperial_upgrades) do
+				if upg ~= nil and not Player_HasUpgrade(player_obj, upg) then
+					Player_CompleteUpgrade(player_obj, upg)
+				end
+			end
+			print("[MadrasaFez] Applied Imperial Age upgrades for player " .. tostring(player_index))
+		end
+		_madrasa.pending_imperial[player_index] = nil
+	end
+end
+
+function MadrasaFez_Reconcile()
+	for player_index = 1, World_GetPlayerCount() do
+		local player_obj = World_GetPlayerAt(player_index)
+		if Player_IsAlive(player_obj) then
+			local player_state = _madrasa.player_states[player_index]
+			if player_state == nil then
+				player_state = { applied = false }
+				_madrasa.player_states[player_index] = player_state
+			end
+
+			if not player_state.applied then
+				local has = MadrasaFez_HasLandmark(player_obj)
+				if has then
+					player_state.applied = true
+					
+					-- Apply Castle Age upgrades instantly
+					for _, upg in ipairs(_madrasa.castle_upgrades) do
+						if upg ~= nil and not Player_HasUpgrade(player_obj, upg) then
+							Player_CompleteUpgrade(player_obj, upg)
+							print("[MadrasaFez] Granted castle upgrade: " .. tostring(BP_GetName(upg)))
+						end
+					end
+					print("[MadrasaFez] Applied Castle Age upgrades for player " .. tostring(player_index))
+					
+					-- Delay Imperial Age upgrades by 1 second
+					_madrasa.pending_imperial[player_index] = true
+					Rule_AddOneShot(MadrasaFez_ApplyImperialUpgrades, 1.0)
+				end
+			end
+		end
+	end
+end
+
+function madrasa_fez_start()
+	if _madrasa.started then return end
+
+	_madrasa.landmark_bp = BP_GetEntityBlueprint("building_landmark_age3_landmarke_mal")
+	print("[MadrasaFez] landmark_bp = " .. tostring(_madrasa.landmark_bp))
+
+	_madrasa.castle_upgrades = {
+		BP_GetUpgradeBlueprint("upgrade_unit_archer_3_mal"),
+		BP_GetUpgradeBlueprint("upgrade_unit_horseman_3_mal"),
+		BP_GetUpgradeBlueprint("upgrade_unit_spearman_2_mal"),
+		BP_GetUpgradeBlueprint("upgrade_unit_spearman_3_mal"),
+		BP_GetUpgradeBlueprint("upgrade_unit_gbeto_3_mal"),
+	}
+
+	_madrasa.imperial_upgrades = {
+		BP_GetUpgradeBlueprint("upgrade_unit_archer_4_mal"),
+		BP_GetUpgradeBlueprint("upgrade_unit_horseman_4_mal"),
+		BP_GetUpgradeBlueprint("upgrade_unit_spearman_4_mal"),
+		BP_GetUpgradeBlueprint("upgrade_unit_knight_4"),
+		BP_GetUpgradeBlueprint("upgrade_unit_gbeto_4_mal"),
+	}
+
+	-- Print upgrade resolution
+	for i, upg in ipairs(_madrasa.castle_upgrades) do
+		print("[MadrasaFez] castle_upgrade[" .. i .. "] = " .. tostring(upg))
+	end
+	for i, upg in ipairs(_madrasa.imperial_upgrades) do
+		print("[MadrasaFez] imperial_upgrade[" .. i .. "] = " .. tostring(upg))
+	end
+
+	Rule_AddInterval(MadrasaFez_Reconcile, 1)
+	_madrasa.started = true
+	print("[MadrasaFez] Module started.")
+end
+
+function madrasa_fez_stop()
+	if not _madrasa.started then return end
+	Rule_Remove(MadrasaFez_Reconcile)
+	_madrasa.started = false
+	print("[MadrasaFez] Module stopped.")
+end
+
+function MadrasaFez_OnInit()
+end
+
+function MadrasaFez_Start()
+	madrasa_fez_start()
+end
+
+function MadrasaFez_OnGameOver()
+	madrasa_fez_stop()
+end

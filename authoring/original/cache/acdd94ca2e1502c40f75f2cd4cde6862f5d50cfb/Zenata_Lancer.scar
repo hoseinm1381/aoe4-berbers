@@ -1,0 +1,142 @@
+-----------------------------------------------------------------------
+-- Zenata Lancer - Blood Fury
+-----------------------------------------------------------------------
+
+Core_RegisterModule("ZenataLancer")
+
+local _zenata_lancer = {
+	started = false,
+	next_token = 0,
+	max_stacks = 5,
+	stack_duration = 30.0,
+	stacks_by_entity = {},
+	blueprints = {
+		unit_horseman_2_mal = true,
+		unit_horseman_3_mal = true,
+		unit_horseman_4_mal = true,
+	},
+}
+
+local function ZenataLancer_IsZenata(entity)
+	if entity == nil then
+		return false
+	end
+
+	local entity_id = Entity_GetID(entity)
+	if entity_id == nil or not Entity_IsValid(entity_id) then
+		return false
+	end
+
+	local blueprint_name = BP_GetName(Entity_GetBlueprint(entity))
+	return _zenata_lancer.blueprints[blueprint_name] == true
+end
+
+local function ZenataLancer_ApplyDamage(entity, amount)
+	local modifier = Modifier_Create(
+		MAT_Weapon,
+		"damage_weapon_modifier",
+		MUT_Addition,
+		false,
+		amount,
+		entity
+	)
+	Modifier_ApplyToEntity(modifier, entity, 0.0)
+end
+
+function ZenataLancer_ExpireStack(rule_id, data)
+	if data == nil or data.entity_id == nil or data.token == nil then
+		return
+	end
+
+	local entity_state = _zenata_lancer.stacks_by_entity[data.entity_id]
+	if entity_state == nil or entity_state.tokens[data.token] ~= true then
+		return
+	end
+
+	entity_state.tokens[data.token] = nil
+	entity_state.count = math.max(0, entity_state.count - 1)
+
+	if Entity_IsValid(data.entity_id) then
+		local entity = Entity_FromID(data.entity_id)
+		if entity == entity_state.entity
+			and Entity_IsAlive(entity)
+			and ZenataLancer_IsZenata(entity) then
+			ZenataLancer_ApplyDamage(entity, -1)
+		end
+	end
+
+	if entity_state.count == 0 then
+		_zenata_lancer.stacks_by_entity[data.entity_id] = nil
+	end
+end
+
+function ZenataLancer_OnDamageReceived(context)
+	if context == nil
+		or context.attacker == nil
+		or context.victim == nil
+		or context.attacker == context.victim
+		or context.isRepairing == true
+		or Entity_IsBuilding(context.victim)
+		or not ZenataLancer_IsZenata(context.attacker) then
+		return
+	end
+
+	local entity_id = Entity_GetID(context.attacker)
+	local entity_state = _zenata_lancer.stacks_by_entity[entity_id]
+
+	if entity_state == nil or entity_state.entity ~= context.attacker then
+		entity_state = {
+			entity = context.attacker,
+			count = 0,
+			tokens = {},
+		}
+		_zenata_lancer.stacks_by_entity[entity_id] = entity_state
+	end
+
+	if entity_state.count >= _zenata_lancer.max_stacks then
+		return
+	end
+
+	_zenata_lancer.next_token = _zenata_lancer.next_token + 1
+	local token = _zenata_lancer.next_token
+
+	entity_state.count = entity_state.count + 1
+	entity_state.tokens[token] = true
+
+	ZenataLancer_ApplyDamage(context.attacker, 1)
+	Rule_AddOneShot(
+		ZenataLancer_ExpireStack,
+		_zenata_lancer.stack_duration,
+		{ entity_id = entity_id, token = token }
+	)
+end
+
+function Zenata_Lancer_start()
+	if _zenata_lancer.started then
+		return
+	end
+
+	_zenata_lancer.started = true
+	Rule_AddGlobalEvent(ZenataLancer_OnDamageReceived, GE_DamageReceived)
+end
+
+-- Required Core module lifecycle callbacks. Startup remains controlled by
+-- Zenata_Lancer_start(), which is called from StandardMode_Start().
+function ZenataLancer_OnInit()
+end
+
+function ZenataLancer_Start()
+end
+
+function ZenataLancer_OnGameOver()
+	if not _zenata_lancer.started then
+		return
+	end
+
+	Rule_RemoveGlobalEvent(ZenataLancer_OnDamageReceived)
+	Rule_Remove(ZenataLancer_ExpireStack)
+
+	_zenata_lancer.started = false
+	_zenata_lancer.next_token = 0
+	_zenata_lancer.stacks_by_entity = {}
+end

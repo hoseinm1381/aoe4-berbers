@@ -1,0 +1,214 @@
+﻿ID,Pipeline,PipelineStage,Notes,TranslationNotes,Tags,Text
+1,,,Mod name.,,,The Berber Dynasties
+2,,,Mod description.,,,"FUTURE KINGDOMS STUDIO PROUDLY PRESENTS: THE BERBER DYNASTIES.\r\nA mod By hossein81 and marcokistan.\r\n\r\nIMPORTANT NOTE: In order to play this mod, in the lobby you need to make sure to apply both the gamemode and the tuning-pack, otherwise it will not work.\r\n\r\nAlso, to play you need to select the Malians in the lobby, due to modding limitations we need to replace one old civ with this new one.\r\n\r\n------------------------------------------\r\n\r\n- THE BERBER DYNASTIES (980-1549 C.E) - (Three Star Difficulty)\r\n\r\nAlliance, Nomadic Attraction, Trade\n\nThe Berber Dynasties develop from mobile tribal raiders into a trade- and faith-centered Maghrebi state, then finish with resilient infrastructure and specialized gunpowder. Their strength is flexible cavalry and carefully chosen tribal support; their lasting weakness is the absence of standard Men-at-Arms and Crossbowmen.\r\n\r\n------------------------------------------\r\n\r\n- Nomadic Attraction Gameplay Mechanic\r\n\nTribal Tent \n\nCosts 100 Wood, 100 Stone (Limit: 4, 1 per Age). Projects a 1-tile non-overlapping influence zone. Military resource spending inside influence adds to a counter, when the counter reaches a threshold, you recieve a free villager. \n\nTribal Tent Upgrades\r\n\nTribal Reforms (Age III): Research at Tribal Tent. Upgrades all tribal units to Age III profile.\nTribal Dynasties (Age IV): Research at Tribal Tent. Upgrades all tribal units to Age IV profile.\r\n\n- Tribal Alliance Selection (Tribal Tent / Market)\n\nChoose one alliance:\n\nSanhaja Alliance\n\n+20% Wood drop-off yield.\nUnlocks Sanhaja Camel Archer.\n\nZenata Alliance\n\n+20% Food drop-off yield.\nUnlocks Zenata Lancer.\n\nMasmuda Alliance\n\n+20% Gold & Stone drop-off yield.\nUnlocks Masmuda Crossbowman.\r\n\r\n- A Call from the Minbar\r\n\r\nReligious buildings can activate an AOE conversion, when the call from minbar technology is researched.\r\n\r\n- A civilization of trade\r\n\r\nBerbers get the Tribal Market, a cheaper market that produces the saharan trader and that hosts the alliance units.\r\n\r\nCIVILIZATION PASSIVE BONUSES:\r\n\r\nNomadic Trade Network\n\nTown Centers, Markets, drop-off buildings, and Docks cost 10% less Wood.\n\nEnduring Generations\n\nAll military and economic units gain:\n\n+5% Max HP in Age II\n+10% in Age III\n+15% in Age IV (does not affect buildings).\r\n\r\nCIVILIZATION UNIQUE UNITS:\r\n\nTuareg Spearman, Mehari Rider, Sanhaja Camel Archer, Zenata Lancer, Masmuda Crossbowman, Almohad Handgunner\r\n\r\nCIVILIZATION UNIQUE BUILDINGS:\n\nTribal Tent, Tribal Market\n\r\nCIVILIZATION UNIQUE ABILITIES:\n\nRaise Shields, Desert Pathfinding, Concussive Shot, Desert Pace, Desert Hunt, Blood Fury, Deploy Shield\n\r\nCIVILIZATION UNIQUE LANDMARKS:\r\n\r\nRibat of the Sanhaja, Funduq of Sijilmasa, Mosque of Tlemcen, Dar al-Jihad of Marrakech, Madrasa of Fez, Almohad Grand Keep\r\n\r\nCIVILIZATION UNIQUE TECHNOLOGIES: \r\n\r\nDesert Pathfinding, call from the minbar, Tribal Reforms, Tribal Dynasties\r\n\r\n------------------------------------------\r\n\r\nFrom Future Kingdoms, both Hossein and marcokistan hope you will enjoy our mod.\r\n\r\nFUTURE KINGDOMS CREDITS:\r\n\r\nhossein81 (lead developer)\r\nmarcokistan (lead developer)\r\nKaryu (media)\r\nlammet (media)\r\nForsakenCryz (honorable mention for giving the idea of making the berber civilization to the studio and leading the start of its development, after the rework, he became the civilization QA tester)\r\n\r\nFuture Kingdoms 2026"
+3,,,,,,Berber Civilization
+4,,,,,,Win Conditions
+5,,,,,,Landmark Victory
+6,,,,,,Landmark Victory Enabled
+7,,,,,,"If enabled, destroy all enemy Landmarks to win."
+8,,,,,,Sacred Victory
+9,,,,,,Sacred Victory Enabled
+10,,,,,,"If enabled, control all Sacred Sites for 10 minutes to win."
+11,,,,,,Wonder Victory
+12,,,,,,Wonder Victory Enabled
+13,,,,,,"If enabled, construct and defend a Wonder for 15 minutes to win."
+14,,,,,,Dominion
+15,,,,,,Dominion Enabled
+16,,,,,,"If enabled, each player starts with a King. Losing your King eliminates you; killing an enemy King grants 50 Population capacity."
+17,,,,,,Starting Conditions
+18,,,,,,Score
+19,,,,,,Score Visible
+20,,,,,,Show player scores in game
+21,,,,,,Starting Age
+22,,,,,,Player Starting Age
+23,,,,,,Select each player's starting Age
+24,,,,,,Age I
+25,,,,,,Dark Age
+26,,,,,,Age II
+27,,,,,,Feudal Age
+28,,,,,,Age III
+29,,,,,,Castle Age
+30,,,,,,Age IV
+31,,,,,,Imperial Age
+32,,,,,,Starting Resources
+33,,,,,,Starting Resources
+34,,,,,,Select starting resources
+35,,,,,,Standard
+36,,,,,,Standard
+37,,,,,,High
+38,,,,,,High
+39,,,,,,Very High
+40,,,,,,Very High
+41,,,,,,Max
+42,,,,,,Max
+43,,,,,,Vision
+44,,,,,,Player Vision
+45,,,,,,Select each player's starting vision
+46,,,,,,Concealed
+47,,,,,,Concealed
+48,,,,,,Explored
+49,,,,,,Explored
+50,,,,,,Revealed
+51,,,,,,Revealed
+52,,,,,,Extra Settings
+53,,,,,,Free Camera
+54,,,,,,Free Camera
+55,,,,,,Free Camera Enabled
+56,,,screen_name,,,Saharan Traders
+57,,,help_text,,,Traders generate Gold by travelling between their Home Market and a Trade Post or another player's Market. Greater distances generate more Gold.\r\n\r\nAll Saharan Traders gain +0.08 movement speed every 30 seconds. This growth has no cap.\r\n\r\nThe Home Market or trade destination may be changed at any time.
+58,,,screen_name,,,Tribal Market
+59,,,help_text,,,A really cheap center of trade. Allows resources to be bought and sold. Trains Saharan Traders and the unique unit of the active Tribal Alliance.\r\n\r\nBuild a Tribal Tent to select an alliance.
+60,,,screen_name,,,Almohad Handgunner
+61,,,help_text,,,Powerful all-purpose ranged infantry.\r\n+ Slows enemies on hit\r\n+ High damage\r\n- High cost\r\n- Slow movement speed\r\n- Countered by Horsemen
+62,,,screen_name,,,Mehari Rider
+63,,,help_text,,,"Fast camel raider that replaces the Horseman. Deals bonus damage against Ranged units, Armored Cavalry, and Siege.\r\n+ Fast movement speed\r\n+ Effective against Ranged units, Armored Cavalry, and Siege\r\n~ Costs more than a Horseman\r\n- Countered by Spearmen"
+64,,,help_text,,,Upgrade Mehari Riders to Veteran Mehari Riders.
+65,,,screen_name,,,Upgrade to Elite
+66,,,help_text,,,Upgrade Veteran Mehari Riders to Elite Mehari Riders.
+67,,,screen_name,,,Veteran Mehari Rider
+68,,,help_text,,,"Fast camel raider that replaces the Horseman. Deals bonus damage against Ranged units, Armored Cavalry, and Siege.\r\n+ Fast movement speed\r\n+ Effective against Ranged units, Armored Cavalry, and Siege\r\n~ Costs more than a Horseman\r\n- Countered by Spearmen"
+69,,,screen_name,,,Elite Mehari Rider
+70,,,help_text,,,"Fast camel raider that replaces the Horseman. Deals bonus damage against Ranged units, Armored Cavalry, and Siege.\r\n+ Fast movement speed\r\n+ Effective against Ranged units, Armored Cavalry, and Siege\r\n~ Costs more than a Horseman\r\n- Countered by Spearmen"
+71,,,screen_name,,,Tuareg Spearman
+72,,,help_text,,,Upgrade Tuareg Spearmen to Hardened Tuareg Spearmen.
+73,,,screen_name,,,Upgrade to Veteran
+74,,,help_text,,,Upgrade Hardened Tuareg Spearmen to Veteran Tuareg Spearmen.
+75,,,extra_text,,,Unit Technology 2/3
+76,,,extra_text,,,Unit Technology 1/2
+77,,,extra_text,,,Unit Technology 2/2
+78,,,screen_name,,,Upgrade to Veteran
+79,,,help_text,,,Upgrade Hardened Tuareg Spearmen to Veteran Tuareg Spearmen.
+80,,,extra_text,,,Unit Technology 2/3
+81,,,screen_name,,,Hardened Tuareg Spearman
+82,,,screen_name,,,Veteran Tuareg Spearman
+83,,,screen_name,,,Elite Tuareg Spearman
+84,,,screen_name,,,Elite Tuareg Spearman
+85,,,screen_name,,,Masmuda Crossbowman
+86,,,help_text,,,High-damage ranged unit effective against Heavy targets. Available only through the Masmuda Alliance.\r\n+ Anti-Heavy specialist\r\n- Low health\r\n- Countered by Horsemen
+87,,,screen_name,,,Deploy Shields
+88,,,formatter,,,"Plants a shield and roots the unit. After remaining stationary for 10 seconds, it gains 30% attack speed, +1 range, and +5 ranged armor. Moving cancels the bonuses."
+89,,,help_text,,,Upgrade Masmuda Crossbowman to Veteran Masmuda Crossbowman.
+90,,,screen_name,,,Upgrade to Elite
+91,,,help_text,,,Upgrade Veteran Masmuda Crossbowman to Elite Masmuda Crossbowman.
+92,,,extra_text,,,Unit Technology 2/2
+93,,,screen_name,,,
+94,,,screen_name,,,Veteran Masmuda Crossbowman
+95,,,help_text,,,High-damage ranged unit effective against Heavy targets. Available only through the Masmuda Alliance.\r\n+ Anti-Heavy specialist\r\n- Low health\r\n- Countered by Horsemen
+96,,,screen_name,,,Elite Masmuda Crossbowman
+97,,,help_text,,,High-damage ranged unit effective against Heavy targets. Available only through the Masmuda Alliance.\r\n+ Anti-Heavy specialist\r\n- Low health\r\n- Countered by Horsemen
+98,,,screen_name,,,Sanhaja Camel Archer
+99,,,help_text,,,"Mobile camel archer available only through the Sanhaja Alliance. Applies Camel Unease to nearby enemy cavalry and can activate Desert Hunt, gaining bonus damage against Light units for 10 seconds: +8 in Age II, +12 in Age III, and +16 in Age IV.\r\n+ Bonus damage against Spearmen\r\n+ Camel Unease\r\n- Low base damage"
+100,,,help_text,,,Upgrade Sanhaja Camel Archers to Veteran Sanhaja Camel Archers.
+101,,,help_text,,,Upgrade Veteran Sanhaja Camel Archers to Elite Sanhaja Camel Archers.
+102,,,screen_name,,,Veteran Sanhaja Camel Archer
+103,,,screen_name,,,Elite Sanhaja Camel Archer
+104,,,help_text,,,"Mobile camel archer available only through the Sanhaja Alliance. Applies Camel Unease to nearby enemy cavalry and can activate Desert Hunt, gaining bonus damage against Light units for 10 seconds: +8 in Age II, +12 in Age III, and +16 in Age IV.\r\n+ Bonus damage against Spearmen\r\n+ Camel Unease\r\n- Low base damage"
+105,,,help_text,,,"Mobile camel archer available only through the Sanhaja Alliance. Applies Camel Unease to nearby enemy cavalry and can activate Desert Hunt, gaining bonus damage against Light units for 10 seconds: +8 in Age II, +12 in Age III, and +16 in Age IV.\r\n+ Bonus damage against Spearmen\r\n+ Camel Unease\r\n- Low base damage"
+106,,,screen_name,,,Zenata Lancer
+107,,,help_text,,,Heavy melee cavalry that grows stronger with every landed attack. Blood Fury grants +1 damage for 30 seconds per landed melee attack and stacks without limit.\r\n+ Strong charge attack\r\n- Countered by Spearmen and Crossbowmen
+108,,,screen_name,,,Veteran Zenata Lancer
+109,,,help_text,,,Heavy melee cavalry that grows stronger with every landed attack. Blood Fury grants +1 damage for 30 seconds per landed melee attack and stacks without limit.\r\n+ Strong charge attack\r\n- Countered by Spearmen and Crossbowmen
+110,,,screen_name,,,Elite Zenata Lancer
+111,,,help_text,,,Heavy melee cavalry that grows stronger with every landed attack. Blood Fury grants +1 damage for 30 seconds per landed melee attack and stacks without limit.\r\n+ Strong charge attack\r\n- Countered by Spearmen and Crossbowmen
+112,,,screen_name,,,Upgrade to Veteran
+113,,,help_text,,,Upgrade Zenata Lancers to Veteran Zenata Lancers.
+114,,,extra_text,,,Unit Technology 1/2
+115,,,screen_name,,,Upgrade to Elite
+116,,,help_text,,,Upgrade Veteran Zenata Lancers to Elite Zenata Lancers.
+117,,,extra_text,,,Unit Technology 2/2
+118,,,screen_name,,,Desert Hunt
+119,,,help_text,,,Gain bonus damage against Light units for 10 seconds.
+120,,,screen_name,,,Tribal Reforms
+121,,,help_text,,,"Upgrade Sanhaja Camel Archers, Zenata Lancers, and Masmuda Crossbowmen to their Veteran tiers."
+122,,,extra_text,,,Tribal Technology 1/2
+123,,,screen_name,,,Tribal Dynasties
+124,,,help_text,,,"Upgrade Veteran Sanhaja Camel Archers, Zenata Lancers, and Masmuda Crossbowmen to their Elite tiers."
+125,,,extra_text,,,Tribal Technology 2/2
+126,,,screen_name,,,Tribal Tent
+127,,,help_text,,,"The Tribal Tent represents a tribal council. Choose one player-wide alliance at any Tribal Tent. The first choice is free; each later change costs 100 Gold and may be performed once every 150 seconds.\r\n\r\nIf a Tent is destroyed and rebuilt in the same location, it restores its stored Nomadic Attraction progress."
+128,,,screen_name,,,Sanhaja Alliance
+129,,,help_text,,,"Form an alliance with the Sanhaja, unlocking Sanhaja Camel Archers at every Tribal Market. The first alliance choice is free; later changes cost 100 Gold. Shared cooldown: 150 seconds.\r\n\r\nWood drop-offs yield 20% additional Wood."
+130,,,screen_name,,,Zenata Alliance
+131,,,help_text,,,"Form an alliance with the Zenata, unlocking Zenata Lancers at every Tribal Market. The first alliance choice is free; later changes cost 100 Gold. Shared cooldown: 150 seconds.\r\n\r\nFood drop-offs yield 20% additional Food."
+132,,,screen_name,,,Masmuda Alliance
+133,,,help_text,,,"Form an alliance with the Masmuda, unlocking Masmuda Crossbowmen at every Tribal Market. The first alliance choice is free; later changes cost 100 Gold. Shared cooldown: 150 seconds.\r\n\r\nGold and Stone drop-offs yield 20% additional resources."
+134,,,help_text,,,Requires 100 Gold to change alliances.
+135,,,help_text,,,The Sanhaja Alliance is active.
+136,,,help_text,,,The Zenata Alliance is active.
+137,,,help_text,,,The Masmuda Alliance is active.
+138,,,screen_name,,,Raise Shields
+139,,,formatter,,,The Tuareg Spearman raises its shield to reduce incoming ranged damage by 50% for 15 seconds. Cooldown: 90 seconds.
+140,,,screen_name,,,Masmuda Crossbowman
+141,,,screen_name,,,Lancer
+142,,,screen_name,,,Elite Lancer
+143,,,screen_name,,,Ribat of the Sanhaja
+144,,,help_text,,,"Acts as a Stable. Scouts, Mehari Riders, and standard Lancers trained at this landmark cost 25 less Food. All existing and future Mehari Riders, Zenata Lancers, and standard Lancers gain +2 melee armor."
+145,,,extra_text,,,Age II - Military Landmark
+146,,,screen_name,,,Madrasa of Fez
+147,,,help_text,,,"Acts as a University. On completion, it instantly completes its configured Archer, Horseman, Spearman, Lancer, and Mehari Veteran and Elite upgrades at no cost."
+148,,,extra_text,,,Age IV - Technological Landmark
+149,,,screen_name,,,Almohad Grand Keep
+150,,,formatter,,,"A massive Keep with Springald, Cannon, and Boiling Oil already researched. Your buildings and stone walls gain 30% maximum health. The free defensive upgrades apply only to Keeps, including existing and newly completed Keeps; they do not upgrade Outposts or Towers."
+151,,,extra_text,,,Age IV - Military Landmark
+152,,,screen_name,,,Funduq of Sijilmasa
+153,,,help_text,,,Universal resource drop-off building. Projects a 1-tile Tent-style production zone and reduces all Nomadic Attraction thresholds by 20% globally.
+154,,,screen_name,,,Almohad Grand Keep
+155,,,help_text,,,"A massive Keep with Springald, Cannon, and Boiling Oil already researched. Buildings and stone walls gain 30% maximum health. The free defensive upgrades apply only to Keeps, including existing and newly completed Keeps; they do not upgrade Outposts or Tower emplacements."
+156,,,extra_text,,,Age IV - Military Landmark
+157,,,extra_text,,,Age II - Economic Landmark
+158,,,extra_text,,,Tribal Council
+159,,,screen_name,,,Desert Pathfinding
+160,,,screen_name,,,Desert Pathfinding
+161,,,help_text,,,Improves Scout sight range. Mehari Riders and Sanhaja Camel Archers within 6 tiles of a Scout gain +3 melee and +3 ranged armor.
+162,,,help_text,,,Mehari Riders and Sanhaja Camel Archers gain +3 melee and +3 ranged armor while within 6 tiles of a Scout.
+163,,,screen_name,,,Desert Pathfinding
+164,,,screen_name,,,Great Mosque of Tlemcen
+165,,,help_text,,,"On completion, deposits one locked relic that cannot be removed. It generates 180 Gold, 62 Food, 62 Wood, and 25 Stone every 60 seconds. The landmark also grants the ""Call from the Minbar"" technology at no cost."
+166,,,help_text,,,"On completion, deposits one locked relic that cannot be removed. It generates 180 Gold, 62 Food, 62 Wood, and 25 Stone every 60 seconds. The landmark also grants the ""Call from the Minbar"" technology at no cost."
+167,,,screen_name,,,Great Mosque of Tlemcen
+168,,,screen_name,,,Call from the Minbar
+169,,,help_text,,,"Unlocks ""Call from the Minbar"" at all Mosques. The ability channels an 8-second area conversion within 6 tiles and cannot affect Siege, Heroes, or Religious units."
+170,,,screen_name,,,Call from the Minbar
+171,,,formatter,,,"Channels for 8 seconds and attempts to convert eligible enemy units within 6 tiles of this Mosque. Siege, Heroes, and Religious units are immune.\r\n\r\nCooldown: %1% seconds."
+172,,,screen_name,,,Dar al-Jihad of Marrakech
+173,,,help_text,,,"Produces tribal units 20% faster and at half cost: Masmuda 30 Food/20 Gold, Sanhaja 30 Food/15 Gold, and Zenata 40 Food/60 Gold. All Tribal Markets produce units 20% faster."
+174,,,help_text,,,"The Tribal Tent represents a tribal council. Choose one player-wide alliance at any Tent. The first choice is free; each later change costs 100 Gold. Shared cooldown: 150 seconds.\r\n\r\nBuild limit: one Tribal Tent per Age.\r\n\r\nIf a Tent is destroyed and rebuilt in the same location, it restores its stored Nomadic Attraction progress."
+175,,,formatter,,,Gain bonus damage against Light units for 10 seconds.
+176,,,help_text,,,"Long-spear infantry effective against mounted units. Can activate ""Raise Shields"" to reduce incoming ranged damage by 50% for 15 seconds. Cooldown: 90 seconds.\r\n+ Additional range\r\n+ Additional damage against Elephants\r\n- Weak against Heavy infantry\r\n- Countered by Archers\r\n- Lower attack damage than a standard Spearman"
+177,,,help_text,,,"Long-spear infantry effective against mounted units. Can activate ""Raise Shields"" to reduce incoming ranged damage by 50% for 15 seconds. Cooldown: 90 seconds.\r\n+ Additional range\r\n+ Additional damage against Elephants\r\n- Weak against Heavy infantry\r\n- Countered by Archers\r\n- Lower attack damage than a standard Spearman"
+178,,,help_text,,,"Long-spear infantry effective against mounted units. Can activate ""Raise Shields"" to reduce incoming ranged damage by 50% for 15 seconds. Cooldown: 90 seconds.\r\n+ Additional range\r\n+ Additional damage against Elephants\r\n- Weak against Heavy infantry\r\n- Countered by Archers\r\n- Lower attack damage than a standard Spearman"
+179,,,help_text,,,"Long-spear infantry effective against mounted units. Can activate ""Raise Shields"" to reduce incoming ranged damage by 50% for 15 seconds. Cooldown: 90 seconds.\r\n+ Additional range\r\n+ Additional damage against Elephants\r\n- Weak against Heavy infantry\r\n- Countered by Archers\r\n- Lower attack damage than a standard Spearman"
+180,,,screen_name,,,Koutoubia Mosque
+181,,,screen_name,,,Elite Mehari Rider
+182,,,screen_name,,,Mehari Rider
+183,,,ui_name,,,Sword
+184,,,ui_name,,,Sword
+185,,,ui_name,,,Sword
+186,,,,,,"Play using the Berber custom civilization with its unique units, buildings, technologies, and mechanics. Standard match settings and selected victory conditions remain available.\r\n\r\nRemember, you need to link it to the tuning pack in order for the mod to work."
+187,,,screen_name,,,Veteran Mehari Rider
+188,,,formatter,,,"Training units in buildings within a Tent's 1-tile influence adds their actual paid resource cost to that Tent's counter. Thresholds are 500, 700, 900, and so on. When a Tent reaches the threshold, only that Tent resets, the next threshold increases by 200 globally, and it queues a free Villager. The Funduq reduces all thresholds by 20%: 400, 560, 720, and so on."
+189,,,ui_name,,,Requires Imperial Age.
+190,,,ui_name,,,Requires Castle Age.
+191,,,screen_name,,,Lancer
+192,,,screen_name,,,Elite Lancer
+193,,,extra_text,,,Heavy Melee Cavalry
+194,,,extra_text,,,Heavy Melee Cavalry
+195,,,extra_text,,,Heavy Melee Cavalry
+196,,,help_text,,,"Plants a shield and roots the unit.  +1 range, and +5 ranged armor. Moving cancels the bonuses."
+197,,,help_text,,,The Tuareg Spearman raises its shield to reduce incoming ranged damage by 50% for 15 seconds. Cooldown: 90 seconds.
+198,,,description,,,"Training units in buildings within a Tent's 1-tile influence adds their actual paid resource cost to that Tent's counter. Thresholds are 500, 700, 900, and so on. When a Tent reaches the threshold, only that Tent resets, the next threshold increases by 200 globally, and it queues a free Villager. The Funduq reduces all thresholds by 20%: 400, 560, 720, and so on."
+199,,,description,,,"Training units in buildings within a Tent's 1-tile influence adds their actual paid resource cost to that Tent's counter. Thresholds are 500, 700, 900, and so on. When a Tent reaches the threshold, only that Tent resets, the next threshold increases by 200 globally, and it queues a free Villager. The Funduq reduces all thresholds by 20%: 400, 560, 720, and so on."
+200,,,screen_name,,,Berber Civilization Bonuses
+201,,,help_text,,,"- Nomadic Trade Network\r\n\r\nTown Centers, Markets, drop-off buildings, \r\nand Docks cost 10% less Wood.\r\n\r\n- Enduring Generations\r\n\r\nAll military and economic units gain +5% \r\nmaximum health from Age II onward. The \r\ntotal bonus does not increase or stack\r\nin later Ages.\r\n"
+202,,,screen_name,,,Madrasa Of Fez
+203,,,screen_name,,,Desert Pathfinding
+204,,,help_text,,,"Each landed attack grants +1 melee damage up to 30 seconds. Can be stacked up to 5 stacks, and each one expires independently. "
+205,,,screen_name,,,Desert Pace
+206,,,help_text,,,"Gains 0,08 movement speed every 30 seconds, stacks without limit."
+207,,,screen_name,,,Concusive Shot
+208,,,help_text,,,Landing an attack on enemy units debuffs their movement speed by 20% for 3 seconds
+209,,,help_text,,,Mehari and Sanhaja Camel archers near scouts gain +3 melee/ +3 ranged armor
+210,,,screen_name,,,Blood Fury
+211,,,screen_name,,,Xebec
+212,,,screen_name,,,You must use the game mode alongside the tuning pack
+213,,,screen_name,,,Arrow ship

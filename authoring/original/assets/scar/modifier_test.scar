@@ -1,0 +1,4 @@
+function ModifierTest()
+    print("Modifier_ApplyToPlayer return type is usually an integer ModifierID")
+end
+ModifierTest()

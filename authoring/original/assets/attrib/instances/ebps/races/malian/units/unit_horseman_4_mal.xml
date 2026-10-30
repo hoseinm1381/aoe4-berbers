@@ -1,0 +1,151 @@
+<instance version="4" description="Imperial Age Zenata Lancer" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="1117396992" List.ParentItemID="1117396992">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="43246497" List.ParentItemID="43246497">
+			<list name="action_state_trees">
+				<group name="container" List.ItemID="16843610" List.ParentItemID="16843610">
+					<string name="state_tree" value="unit_action_apply\units\horseman\audio\sul\4" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\cost_ext" List.ItemID="1168881951" List.ParentItemID="1168881951">
+			<group name="time_cost">
+				<enum_table name="cost">
+					<float name="food" value="80" overrideParent="True" />
+					<float name="wood" value="0" overrideParent="True" />
+					<float name="gold" value="120" overrideParent="True" />
+				</enum_table>
+				<float name="time_seconds" value="40" overrideParent="True" />
+				<int name="time_turns" value="0" overrideParent="True" />
+			</group>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\health_ext" List.ItemID="-975825396" List.ParentItemID="-975825396">
+			<float name="hitpoints" value="310" overrideParent="True" />
+			<enum_table name="armor_scaler_by_damage_type">
+				<float name="Melee" value="2" overrideParent="True" />
+				<float name="Ranged" value="5" overrideParent="True" />
+			</enum_table>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-809868374" List.ParentItemID="-809868374">
+			<list name="unit_type_list" overrideParent="True">
+				<enum name="unit_type" value="military" List.ItemID="-1824191885" List.ParentItemID="-1824191885" />
+				<enum name="unit_type" value="cavalry" List.ItemID="-18476062" List.ParentItemID="-18476062" />
+				<enum name="unit_type" value="armored" List.ItemID="-33973428" List.ParentItemID="-33973428" />
+				<enum name="unit_type" value="knight" List.ItemID="-90441891" List.ParentItemID="-90441891" />
+				<enum name="unit_type" value="cavalry_armored" List.ItemID="1350676038" List.ParentItemID="1350676038" />
+				<enum name="unit_type" value="human" List.ItemID="913122645" List.ParentItemID="913122645" />
+				<enum name="unit_type" value="horse" List.ItemID="862828411" List.ParentItemID="862828411" />
+				<enum name="unit_type" value="melee" List.ItemID="-448056678" List.ParentItemID="-448056678" />
+				<enum name="unit_type" value="formational" List.ItemID="-537964329" List.ParentItemID="-537964329" />
+				<enum name="unit_type" value="torch_thrower" List.ItemID="-284996519" List.ParentItemID="-284996519" />
+				<enum name="unit_type" value="heavy" List.ItemID="-1522941700" List.ParentItemID="-1522941700" />
+				<enum name="unit_type" value="annihilation_condition" List.ItemID="-624376203" List.ParentItemID="-624376203" />
+				<enum name="unit_type" value="included_by_military_hotkeys" List.ItemID="-499681488" List.ParentItemID="-499681488" />
+				<enum name="unit_type" value="military_cavalry" List.ItemID="1817716707" List.ParentItemID="1817716707" />
+				<enum name="unit_type" value="land_military" List.ItemID="311375191" List.ParentItemID="311375191" />
+				<enum name="unit_type" value="find_non_siege_land_military" List.ItemID="142118563" List.ParentItemID="142118563" />
+				<enum name="unit_type" value="air_control" List.ItemID="1557047704" />
+			</list>
+			<list name="race_type_list" overrideParent="True">
+				<instance_reference name="race_type" value="racebps\malian" overrideParent="True" List.ItemID="1397013438" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="1065738823" List.ParentItemID="1065738823">
+			<list name="hardpoints">
+				<group name="hardpoint" List.ItemID="-1753816310" List.ParentItemID="-1753816310">
+					<list name="weapon_table">
+						<group name="weapon" List.ItemID="-606427801" List.ParentItemID="-606427801">
+							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\malian\melee\weapon_horseman_4_mal" mod="1d3145e8f1b2427f8bb0067851fcf0f1" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\malian\weapons\wpn_melee_horseman_4_mal" overrideParent="True" />
+								<string name="marker_name_parent" value="metarig_rarmpalmsocket" overrideParent="True" />
+							</template_reference>
+						</group>
+						<group name="weapon" List.ItemID="-224998054" List.ParentItemID="-224998054">
+							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\common\ranged\weapon_torch_horseman" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\weapons\wpn_siege_torch_horseman" overrideParent="True" />
+								<string name="marker_name_parent" value="metarig_rarmpalmsocket" overrideParent="True" />
+							</template_reference>
+						</group>
+						<group name="weapon" List.ItemID="1813525305" List.ParentItemID="1813525305">
+							<template_reference name="weapon_entity_attachment" value="" overrideParent="True">
+							</template_reference>
+							<template_reference name="non_entity_weapon_wrapper" value="non_entity_weapon_wrapper" overrideParent="True">
+								<instance_reference name="non_entity_weapon_wrapper_pbg" value="weapon\races\malian\melee\weapon_horseman_4_charge_mal" mod="1d3145e8f1b2427f8bb0067851fcf0f1" overrideParent="True" />
+								<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\malian\weapons\wpn_melee_horseman_4_charge_mal" overrideParent="True" />
+								<string name="marker_name_parent" value="metarig_rarmpalmsocket" overrideParent="True" />
+							</template_reference>
+						</group>
+					</list>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\moving_ext" List.ItemID="1031827966" List.ParentItemID="1031827966">
+			<enum_table name="speed_scaling_table">
+				<float name="default_speed" value="6.5" overrideParent="True" />
+			</enum_table>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\speech_ext" List.ItemID="-2123647376" List.ParentItemID="-2123647376">
+			<string name="speaker_code" value="sofa" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="-14762799" List.ParentItemID="-14762799">
+			<list name="tier_group_list" overrideParent="True">
+				<list name="tier_group" overrideParent="True" List.ItemID="1890780138">
+					<group name="tier" List.ItemID="1094540928">
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\ayyubid_cmp\units\tier1_leader_saladin_knight_ayy" overrideParent="True" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="tier_unit_exposure_dca" overrideParent="True" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+						<string name="tier_attachment_action" value="" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="True" />
+							<bool name="remove_from_pending_deaths" value="False" />
+							<bool name="enable_all_extensions" value="True" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
+					</group>
+				</list>
+				<list name="tier_group" List.ItemID="-1538538041">
+					<group name="tier" overrideParent="True" List.ItemID="1211925156">
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\ayyubid_cmp\units\tier1_leader_saladin_knight_ayy" overrideParent="True" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="upgrade\races\malian\landmark\upgrade_sanhaja_armor_buff" mod="1d3145e8f1b2427f8bb0067851fcf0f1" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" overrideParent="True" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" overrideParent="True" />
+						<string name="tier_attachment_action" value="" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="False" />
+							<bool name="remove_from_pending_deaths" value="False" />
+							<bool name="enable_all_extensions" value="True" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
+					</group>
+				</list>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\modifier_apply_ext" List.ItemID="-1421355245" List.ListAction="Append">
+			<list name="modifiers">
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="2154487" />
+	<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_horseman_4" />
+</instance>

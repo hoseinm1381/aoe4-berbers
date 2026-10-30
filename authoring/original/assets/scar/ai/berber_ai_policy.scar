@@ -1,0 +1,20 @@
+-- Pure deterministic policy. No engine commands or local-player state here.
+BerberAI_Policy = {}
+
+function BerberAI_Policy.ProfileIndex(difficulty)
+    if difficulty == AID_EASY then return 1 end
+    if difficulty == AID_NORMAL then return 2 end
+    if difficulty == AID_HARD then return 3 end
+    return 4
+end
+
+function BerberAI_Policy.Reserve(balance, cost)
+    for _, k in ipairs({"food", "wood", "gold", "stone"}) do
+        if (balance[k] or 0) + 0.001 < (cost[k] or 0) then return false end
+    end
+    for _, k in ipairs({"food", "wood", "gold", "stone"}) do
+        balance[k] = (balance[k] or 0) - (cost[k] or 0)
+    end
+    return true
+end
+

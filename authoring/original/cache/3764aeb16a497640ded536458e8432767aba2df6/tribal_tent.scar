@@ -1,0 +1,94 @@
+-----------------------------------------------------------------------
+-- Tribal Tent Alliance System
+-----------------------------------------------------------------------
+
+Core_RegisterModule("TribalTent")
+
+local _tribal_tent = {
+	started = false,
+}
+
+-- Mapping of alliance abilities to their corresponding upgrades
+local ALLIANCES = {
+	{
+		ability = "grenade_throw_song_cmp",
+		upgrade = "upgrade_cul_ancient_relics_ayy"
+	},
+	{
+		ability = "increase_armor_song_cmp",
+		upgrade = "upgrade_cul_medical_centers_ayy"
+	},
+	{
+		ability = "increase_damage_song_cmp",
+		upgrade = "upgrade_econ_agriculture_ayy"
+	}
+}
+
+-- Callback invoked when any player executes an ability
+function TribalTent_OnAbilityExecuted(context)
+	if context == nil or context.executer == nil or context.ability == nil then
+		return
+	end
+	
+	local ability_name = BP_GetName(context.ability)
+	
+	-- Check if the executed ability is one of the tribal alliance abilities
+	local target_alliance = nil
+	for _, alliance in ipairs(ALLIANCES) do
+		if alliance.ability == ability_name then
+			target_alliance = alliance
+			break
+		end
+	end
+	
+	if target_alliance == nil then
+		return
+	end
+	
+	local player = Entity_GetPlayerOwner(context.executer)
+	if player == nil then
+		return
+	end
+	
+	-- Remove the other two alliance upgrades from the player
+	for _, alliance in ipairs(ALLIANCES) do
+		if alliance.ability ~= ability_name then
+			local upgrade_bp = BP_GetUpgradeBlueprint(alliance.upgrade)
+			if Player_HasUpgrade(player, upgrade_bp) then
+				Player_RemoveUpgrade(player, upgrade_bp)
+			end
+		end
+	end
+	
+	-- Complete the target alliance upgrade
+	local target_upgrade_bp = BP_GetUpgradeBlueprint(target_alliance.upgrade)
+	if not Player_HasUpgrade(player, target_upgrade_bp) then
+		Player_CompleteUpgrade(player, target_upgrade_bp)
+	end
+end
+
+-- Startup initialization function
+function tribal_tent_start()
+	if _tribal_tent.started then
+		return
+	end
+	_tribal_tent.started = true
+	
+	Rule_AddGlobalEvent(TribalTent_OnAbilityExecuted, GE_AbilityExecuted)
+end
+
+-- Framework callbacks
+function TribalTent_OnInit()
+end
+
+function TribalTent_Start()
+end
+
+function TribalTent_OnGameOver()
+	if not _tribal_tent.started then
+		return
+	end
+	
+	Rule_RemoveGlobalEvent(TribalTent_OnAbilityExecuted)
+	_tribal_tent.started = false
+end

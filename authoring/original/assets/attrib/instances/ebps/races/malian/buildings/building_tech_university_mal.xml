@@ -1,0 +1,116 @@
+<instance version="4" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="15803673" List.ParentItemID="15803673">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1152855297" List.ParentItemID="-1152855297">
+			<list name="race_type_list" overrideParent="True">
+				<instance_reference name="race_type" value="racebps\malian" overrideParent="True" List.ItemID="-774505633" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ui_ext" List.ItemID="-1002958582" List.ParentItemID="-1002958582">
+			<string name="decorator_data_template" value="" overrideParent="True" />
+			<string name="telemetry_name" value="Madrasa" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\upgrade_ext" List.ItemID="-1815435484" List.ParentItemID="-1815435484">
+			<list name="standard_upgrades" overrideParent="True">
+				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_siege_chemistry" List.ItemID="1387651751" List.ParentItemID="1387651751" />
+				<instance_reference name="upgrade" value="upgrade\races\common\research\economy\upgrade_tech_university_biology" List.ItemID="589739761" List.ParentItemID="589739761" />
+				<instance_reference name="upgrade" value="upgrade\races\common\research\economy\upgrade_tech_university_architecture_4" List.ItemID="1162326986" List.ParentItemID="1162326986" />
+				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_manatarms_elite_army_tactics" List.ItemID="-296762964" List.ParentItemID="-296762964" />
+				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_ranged_incendiary" List.ItemID="1685414215" List.ParentItemID="1685414215" />
+				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_siege_works" List.ItemID="368186580" List.ParentItemID="368186580" />
+				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_ranged_archer_silkstring" List.ItemID="1790563311" List.ParentItemID="1790563311" />
+				<instance_reference name="upgrade" value="upgrade\races\common\research\upgrade_ranged_leadshot" List.ItemID="74096807" List.ParentItemID="74096807" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\action_apply_ext" List.ItemID="1005235181" List.ParentItemID="1005235181">
+			<list name="action_state_trees" overrideParent="True">
+				<group name="container" overrideParent="True" List.ItemID="-1239614247">
+					<string name="state_tree" value="building_action_apply\buildings\university_action_apply" />
+				</group>
+				<group name="container" List.ItemID="-1104129945">
+					<string name="state_tree" value="book_trade_mal" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\ability_ext" List.ItemID="675383724" List.ParentItemID="675383724">
+			<list name="abilities" overrideParent="True">
+				<instance_reference name="ability" value="abilities\timed_abilities\civ_core\core_building_scuttle" List.ItemID="-1260623952" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\road_ext" List.ItemID="4435770" List.ParentItemID="4435770">
+			<list name="roads">
+				<template_reference name="road" value="roads\road_properties" List.ItemID="-2101982451" List.ParentItemID="-2101982451">
+					<list name="road_splines">
+						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="1218494947" List.ParentItemID="1218494947">
+							<file name="texture_filename" value="civilizations\dirt\road_4m_dirt_trail_a" overrideParent="True" />
+						</template_reference>
+					</list>
+				</template_reference>
+				<template_reference name="road" value="roads\road_properties" List.ItemID="1484766233" List.ParentItemID="1484766233">
+					<list name="road_splines">
+						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="-631362559" List.ParentItemID="-631362559">
+							<file name="texture_filename" value="civilizations\dirt\road_4m_dirt_trail_a" overrideParent="True" />
+						</template_reference>
+					</list>
+				</template_reference>
+				<template_reference name="road" value="roads\road_properties" List.ItemID="953088849" List.ParentItemID="953088849">
+					<list name="road_splines">
+						<template_reference name="road_spline" value="options\placement\spline\placement_spline_strip_option" List.ItemID="1895738383" List.ParentItemID="1895738383">
+							<file name="texture_filename" value="civilizations\dirt\road_4m_dirt_trail_a" overrideParent="True" />
+						</template_reference>
+					</list>
+				</template_reference>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" overrideParent="True" List.ItemID="-1313425746" List.ListAction="Append">
+			<list name="tier_group_list" overrideParent="True">
+				<list name="tier_group" List.ItemID="296978518">
+					<group name="tier" List.ItemID="1753263315">
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\malian\buildings\tech_university_mal\tier4_tech_university_control_mal" overrideParent="True" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+						<string name="tier_attachment_action" value="" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="False" />
+							<bool name="remove_from_pending_deaths" value="False" />
+							<bool name="enable_all_extensions" value="True" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
+					</group>
+				</list>
+				<list name="tier_group" overrideParent="True" List.ItemID="-945508739">
+					<group name="tier" List.ItemID="1788164936">
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\malian\outskirts\general\mal_university" overrideParent="True" />
+						<template_reference name="statetree_tier_reached_actions" value="state_tree_reference_info">
+							<state_tree_node name="ActionTree_OpeningBranch" value="" />
+							<bool name="start_suspended" value="False" />
+						</template_reference>
+						<instance_reference name="statetree_tier_requirements_pbg" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_entity" value="" />
+						<instance_reference name="statetree_tier_pgb_upgrade_target_squad" value="" />
+						<string name="tier_attachment_action" value="" />
+						<template_reference name="blueprint_conversion_parameters" value="blueprint_conversion_parameters">
+							<bool name="reissue_commands" value="False" />
+							<bool name="continue_state_trees" value="False" />
+							<bool name="remove_from_pending_deaths" value="False" />
+							<bool name="enable_all_extensions" value="True" />
+						</template_reference>
+						<string name="inventory_category_to_refresh_on_tier_up" value="" />
+						<enum name="statetree_tier_requirements_pbg_owner" value="player" />
+					</group>
+				</list>
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="2666464" />
+	<instance_reference name="parent_pbg" value="ebps\races\core\buildings\building_tech_university" />
+</instance>

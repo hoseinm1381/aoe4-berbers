@@ -1,0 +1,35 @@
+<instance version="4" description="" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_blueprint_ext" List.ItemID="-2056667985" List.ParentItemID="-2056667985">
+			<bool name="browsable_in_editor" value="True" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="-549554534" List.ParentItemID="-549554534">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="1313233418" List.ParentItemID="1313233418">
+					<group name="info">
+						<file name="flag_icon_override" value="berbers" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" overrideParent="True" List.ItemID="441410628" List.ParentItemID="441410628">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="-154582216">
+					<float name="num" value="1" />
+					<instance_reference name="type" value="ebps\races\malian\units\unit_siege_tower_3_mal" overrideParent="True" />
+					<list name="unit_attachments">
+					</list>
+					<bool name="is_default_unit" value="True" />
+				</group>
+			</list>
+			<float name="squad_female_chance" value="0" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-1817122395" List.ParentItemID="-1817122395">
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\malian" overrideParent="True" List.ItemID="-517207806" />
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="2952887" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_siege_tower_3" />
+</instance>

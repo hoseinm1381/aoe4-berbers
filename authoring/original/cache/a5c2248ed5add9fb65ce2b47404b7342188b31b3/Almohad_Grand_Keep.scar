@@ -1,0 +1,151 @@
+------------------------------------------------------------------------
+-- Berber Future Kingdom - Almohad Grand Keep System
+--
+-- When Almohad Grand Keep ("building_landmark_age3_landmarkf_mal") is constructed:
+--   1. Instantly upgrades "upgrade_tech_university_murder_holes_4" for the player.
+--   2. Grants +30% additive health ("health_maximum_modifier", MUT_Addition, 0.3)
+--      to all entities with the "building" type via a single MAT_EntityType player modifier.
+--   3. Retroactively grants "upgrade_keep_springald" & "upgrade_keep_cannon" upgrades
+--      to the landmark keep itself and all existing keeps owned by the player.
+--   4. From then on, automatically grants "upgrade_keep_springald" & "upgrade_keep_cannon"
+--      to any new keep fully constructed by the player.
+------------------------------------------------------------------------
+
+Core_RegisterModule("AlmohadGrandKeep")
+
+local _almohad_keep = {
+	started = false,
+	landmark_bp = nil,
+	murder_holes_upgrade_bp = nil,
+	springald_upgrade_bp = nil,
+	cannon_upgrade_bp = nil,
+	has_bonus = {}, -- pid -> boolean
+}
+
+local function AlmohadKeep_IsKeep(entity)
+	if entity == nil or not Entity_IsValid(Entity_GetID(entity)) then
+		return false
+	end
+
+	local ebp = Entity_GetBlueprint(entity)
+	if ebp == _almohad_keep.landmark_bp then
+		return true
+	end
+
+	if Entity_IsOfType(entity, "keep") or Entity_IsOfType(entity, "defense_keep") or Entity_IsOfType(entity, "castle") then
+		return true
+	end
+
+	return false
+end
+
+local function AlmohadKeep_ApplyKeepUpgrades(entity)
+	if entity == nil or not Entity_IsValid(Entity_GetID(entity)) then
+		return
+	end
+
+	local eid = Entity_GetID(entity)
+	if _almohad_keep.springald_upgrade_bp ~= nil then
+		Entity_CompleteUpgrade(eid, _almohad_keep.springald_upgrade_bp)
+	end
+	if _almohad_keep.cannon_upgrade_bp ~= nil then
+		Entity_CompleteUpgrade(eid, _almohad_keep.cannon_upgrade_bp)
+	end
+end
+
+local function AlmohadKeep_ApplyUpgradesToAllExistingKeeps(player)
+	local player_entities = Player_GetEntities(player)
+	local count = EGroup_Count(player_entities)
+	for i = 1, count do
+		local entity = EGroup_GetEntityAt(player_entities, i)
+		if AlmohadKeep_IsKeep(entity) then
+			AlmohadKeep_ApplyKeepUpgrades(entity)
+		end
+	end
+end
+
+function AlmohadKeep_OnConstructionComplete(context)
+	if context == nil then
+		return
+	end
+
+	local entity = context.construction_entity or context.entity
+	if entity == nil or not Entity_IsValid(Entity_GetID(entity)) then
+		return
+	end
+
+	local player = Entity_GetPlayerOwner(entity)
+	if player == nil then
+		return
+	end
+
+	local pid = Player_GetID(player)
+	local ebp = Entity_GetBlueprint(entity)
+
+	-- Case 1: Almohad Grand Keep Landmark completed construction
+	if ebp == _almohad_keep.landmark_bp then
+		if not _almohad_keep.has_bonus[pid] then
+			_almohad_keep.has_bonus[pid] = true
+
+			-- 1. Upgrade Murder Holes
+			if _almohad_keep.murder_holes_upgrade_bp ~= nil then
+				Player_CompleteUpgrade(player, _almohad_keep.murder_holes_upgrade_bp)
+			end
+
+			-- 2. Apply +30% additive building health modifier in one player-level call
+			local health_mod = Modifier_Create(MAT_EntityType, "health_maximum_modifier", MUT_MultiplicationAddition, false, 0.3, "building")
+			Modifier_ApplyToPlayer(health_mod, player, 0.0)
+
+			-- 3. Upgrade all existing keeps (including this Landmark keep)
+			AlmohadKeep_ApplyUpgradesToAllExistingKeeps(player)
+
+			print(string.format("[AlmohadGrandKeep] Activated bonus for player %d!", pid))
+		end
+
+	-- Case 2: New Keep constructed after Almohad Grand Keep is active
+	elseif _almohad_keep.has_bonus[pid] then
+		if AlmohadKeep_IsKeep(entity) then
+			AlmohadKeep_ApplyKeepUpgrades(entity)
+			print(string.format("[AlmohadGrandKeep] Upgraded new keep for player %d", pid))
+		end
+	end
+end
+
+local function AlmohadKeep_ResolveBlueprints()
+	_almohad_keep.landmark_bp = BP_GetEntityBlueprint("building_landmark_age3_landmarkf_mal")
+	_almohad_keep.murder_holes_upgrade_bp = BP_GetUpgradeBlueprint("upgrade_tech_university_murder_holes_4")
+	_almohad_keep.springald_upgrade_bp = BP_GetUpgradeBlueprint("upgrade_keep_springald")
+	_almohad_keep.cannon_upgrade_bp = BP_GetUpgradeBlueprint("upgrade_keep_cannon")
+end
+
+function Almohad_Grand_Keep_start()
+	if _almohad_keep.started then
+		return
+	end
+
+	AlmohadKeep_ResolveBlueprints()
+	Rule_AddGlobalEvent(AlmohadKeep_OnConstructionComplete, GE_ConstructionComplete)
+	_almohad_keep.started = true
+	print("[AlmohadGrandKeep] Started module.")
+end
+
+function Almohad_Grand_Keep_stop()
+	if not _almohad_keep.started then
+		return
+	end
+
+	Rule_RemoveGlobalEvent(AlmohadKeep_OnConstructionComplete)
+	_almohad_keep.started = false
+	print("[AlmohadGrandKeep] Stopped module.")
+end
+
+function AlmohadGrandKeep_OnInit()
+end
+
+function AlmohadGrandKeep_Start()
+	Almohad_Grand_Keep_start()
+end
+
+function AlmohadGrandKeep_OnGameOver()
+	Almohad_Grand_Keep_stop()
+end

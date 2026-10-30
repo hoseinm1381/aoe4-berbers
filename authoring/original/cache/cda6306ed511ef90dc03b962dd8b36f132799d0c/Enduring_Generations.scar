@@ -1,0 +1,101 @@
+_enduring_generations = {
+	started = false,
+	blueprints_initialized = false,
+	unit_blueprints = {},
+	player_states = {},
+}
+
+local ENDURING_GENERATIONS_HEALTH_BONUS = {
+	[2] = 0.05,
+	[3] = 0.10,
+	[4] = 0.15,
+}
+
+local function Enduring_Generations_GetAge(player_id)
+	if Player_HasUpgrade(player_id, BP_GetUpgradeBlueprint("imperial_age")) then
+		return 4
+	elseif Player_HasUpgrade(player_id, BP_GetUpgradeBlueprint("castle_age")) then
+		return 3
+	elseif Player_HasUpgrade(player_id, BP_GetUpgradeBlueprint("feudal_age")) then
+		return 2
+	end
+
+	return 1
+end
+
+local function Enduring_Generations_GetUnitBlueprints()
+	if not _enduring_generations.blueprints_initialized then
+		-- Cache only Malian military and economic unit blueprints for the whole match.
+		_enduring_generations.unit_blueprints = BP_GetEntityBlueprintsWithType({ { "annihilation_condition", "race_malian" } }) or {}
+		_enduring_generations.blueprints_initialized = true
+	end
+
+	return _enduring_generations.unit_blueprints
+end
+
+local function Enduring_Generations_RemovePlayerModifiers(player_state)
+	for _, modifier in pairs(player_state.modifiers) do
+		Modifier_RemoveInternal(modifier.ModifierID)
+	end
+
+	player_state.modifiers = {}
+end
+
+local function Enduring_Generations_ApplyAgeBonus(player_id, player_state, current_age)
+	if player_state.applied_age == current_age then
+		return
+	end
+
+	Enduring_Generations_RemovePlayerModifiers(player_state)
+	player_state.applied_age = current_age
+
+	local health_bonus = ENDURING_GENERATIONS_HEALTH_BONUS[current_age]
+	if health_bonus == nil then
+		return
+	end
+
+	for _, unit_blueprint in pairs(Enduring_Generations_GetUnitBlueprints()) do
+		local modifier = Modifier_Create(MAT_EntityType, "health_maximum_modifier", MUT_MultiplicationAddition, false, health_bonus, unit_blueprint)
+		Modifier_ApplyToPlayer(modifier, player_id, 0.0)
+		table.insert(player_state.modifiers, modifier)
+	end
+end
+
+function Enduring_Generations_Reconcile()
+	local active_player_slots = {}
+
+	for player_index = 1, World_GetPlayerCount() do
+		local player_id = World_GetPlayerAt(player_index)
+		if Player_IsAlive(player_id) and Player_GetRaceName(player_id) == "malian" then
+			active_player_slots[player_index] = true
+
+			local player_state = _enduring_generations.player_states[player_index]
+			if player_state == nil then
+				player_state = {
+					applied_age = nil,
+					modifiers = {},
+				}
+				_enduring_generations.player_states[player_index] = player_state
+			end
+
+			Enduring_Generations_ApplyAgeBonus(player_id, player_state, Enduring_Generations_GetAge(player_id))
+		end
+	end
+
+	for player_index, player_state in pairs(_enduring_generations.player_states) do
+		if not active_player_slots[player_index] then
+			Enduring_Generations_RemovePlayerModifiers(player_state)
+			_enduring_generations.player_states[player_index] = nil
+		end
+	end
+end
+
+function Enduring_Generations_start()
+	if _enduring_generations.started then
+		return
+	end
+
+	_enduring_generations.started = true
+	Enduring_Generations_Reconcile()
+	Rule_AddInterval(Enduring_Generations_Reconcile, 1)
+end

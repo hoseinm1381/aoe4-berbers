@@ -1,0 +1,149 @@
+-- Berber 0.11.0 approved normal-land controller; shared simulation authority.
+import("ai/berber_ai_policy.scar")
+import("ai/berber_ai_catalog.scar")
+import("ai/berber_ai_engine.scar")
+import("ai/berber_ai_navigation.scar")
+import("ai/berber_ai_economy.scar")
+import("ai/berber_ai_production.scar")
+import("ai/berber_ai_military.scar")
+Core_RegisterModule("BerberAI")
+
+function BerberAI_OnGameSetup()
+    if BerberAI_State.stopped then BerberAI_State={players={},started=false,stopped=false} end
+    BerberAI_State.options={}
+    Setup_GetWinConditionOptions(BerberAI_State.options)
+end
+function BerberAI_OnInit()
+    if BerberAI_State.initialized then return end
+    BerberAI_State.initialized=true
+    local opts=(BerberAI_State.options and BerberAI_State.options.section_inner_win_conditions) or {}
+    for index=1,World_GetPlayerCount() do
+        local player=World_GetPlayerAt(index)
+        if AI_IsAIPlayer(player) and not Player_IsHuman(player) and Player_IsAlive(player)
+            and Player_GetRaceName(player)=="malian" then
+            local pid=Player_GetID(player);local raw=AI_GetDifficulty(player)
+            local profile=BerberAI_Policy.ProfileIndex(raw)
+            local state={player=player,pid=pid,index=index,profile=profile,config=BerberAI.Profiles[profile],
+                original_difficulty=raw,next_tick=0,next_income_check=60,castle_time=World_GetRand(720,840),
+                production_pending={},build_pending={},research_retry={},worker_jobs={},
+                memory={},scout_progress={},special_until={},site_cursor=0,
+                religious_enabled=opts.option_win_condition_religious~=false,
+                rt={food=RT_Food,wood=RT_Wood,gold=RT_Gold,stone=RT_Stone}}
+            BerberAI.InitState(state)
+            BerberAI_State.players[pid]=state
+            AI_Enable(player,false)
+            BerberAI.Log(state,"profile="..state.config.name.." originalDifficulty="..tostring(raw).." nativeAI=disabled")
+        end
+    end
+end
+function BerberAI_SetDifficulty()
+    for index=1,World_GetPlayerCount() do
+        local player=World_GetPlayerAt(index)
+        local st=BerberAI_State.players[Player_GetID(player)]
+        if st~=nil then
+            -- Expert is the normal non-cheating Hardest setting; retain the lobby
+            -- profile separately so Outrageous/Absurd/Ridiculous add no extra aid.
+            if st.profile==4 and AI_GetDifficulty(player)~=AID_EXPERT then AI_SetDifficulty(player,AID_EXPERT) end
+            AI_Enable(player,st.native_fallback==true)
+        end
+    end
+end
+function BerberAI.RefreshWorld(now)
+    if BerberAI_State.world_time~=nil and now-BerberAI_State.world_time<1 then return end
+    local eg=EGroup_CreateUnique();World_GetAllEntities(eg)
+    local entities={}
+    -- Mixed iteration retains edible corpses. Check existence before any reads;
+    -- observation still filters dead combatants with EntityValid.
+    for i=1,EGroup_Count(eg) do
+        local e=EGroup_GetEntityAt(eg,i)
+        if BerberAI.DepositValid(e) then table.insert(entities,{entity=e,id=Entity_GetID(e)}) end
+    end
+    EGroup_Destroy(eg)
+    table.sort(entities,function(a,b) return a.id<b.id end)
+    local handles={};for _,r in ipairs(entities) do table.insert(handles,r.entity) end
+    BerberAI_State.world_entities=handles;BerberAI_State.world_time=now
+end
+function BerberAI.EconomyWatchdog(st,now)
+    if st.native_fallback then return true end
+    local gatherers=0
+    for _,key in ipairs(BerberAI.Resources) do
+        gatherers=gatherers+Player_GetNumGatheringSquads(st.player,st.rt[key])
+    end
+    if gatherers>0 then st.economy_idle_since=now;return false end
+    st.economy_idle_since=st.economy_idle_since or now
+    if now-st.economy_idle_since<=15 then return false end
+    -- Permanent ownership transfer. Never allow scripted orders or harvest
+    -- modifiers to compete with the normal AI after this point, including restore.
+    BerberAI.RemoveIncomeBonus(st)
+    st.native_fallback=true;st.native_fallback_time=now
+    st.build_pending={};st.production_pending={};st.construction_jobs={}
+    st.worker_jobs={};st.reserved={}
+    for _,s in ipairs(st.squads or {}) do
+        if BerberAI_State.orders then BerberAI_State.orders[s.id]=nil end
+    end
+    if st.profile==4 and AI_GetDifficulty(st.player)~=AID_EXPERT then AI_SetDifficulty(st.player,AID_EXPERT) end
+    AI_Enable(st.player,true)
+    BerberAI.Log(st,"native_fallback=enabled reason=no_active_gatherers idle_seconds="..tostring(now-st.economy_idle_since))
+    return true
+end
+function BerberAI_Tick()
+    if BerberAI_State.stopped then return end
+    local now=World_GetGameTime()
+    BerberAI.RefreshWorld(now)
+    for index=1,World_GetPlayerCount() do
+        local player=World_GetPlayerAt(index)
+        local st=BerberAI_State.players[Player_GetID(player)]
+        if st~=nil and not st.finished then
+            if not Player_IsAlive(player) or Player_IsHuman(player) then
+                BerberAI.FinishPlayer(st)
+            elseif st.native_fallback then
+                if not AI_IsEnabled(player) then AI_Enable(player,true) end
+            elseif not BerberAI.EconomyWatchdog(st,now) and now>=st.next_tick then
+                st.next_tick=now+st.config.interval
+                -- Core migration/cinematic callbacks can re-enable AI. Never allow
+                -- a competing native controller to keep issuing orders.
+                if AI_IsEnabled(player) then AI_Enable(player,false) end
+                BerberAI.Snapshot(st)
+                BerberAI.Observe(st)
+                BerberAI.MaintainConstruction(st)
+                BerberAI.VillagerSafety(st)
+                BerberAI.Economy(st)
+                BerberAI.Produce(st)
+                BerberAI.Army(st)
+                BerberAI.SpecialUnits(st)
+                BerberAI.IncomeAssistance(st)
+            end
+        end
+    end
+end
+function BerberAI_Start()
+    if BerberAI_State.started or BerberAI_State.stopped then return end
+    BerberAI_State.started=true
+    Rule_AddInterval(BerberAI_Tick,1)
+end
+function BerberAI_OnGameRestore()
+    if BerberAI_State.stopped then return end
+    -- Interval rules are serialized by the SCAR rule manager. Remove/re-add the
+    -- named callback exactly once, preserving random clocks, modifier IDs and strategy state.
+    Rule_Remove(BerberAI_Tick)
+    BerberAI_State.world_entities={};BerberAI_State.world_time=nil;BerberAI_State.orders={}
+    BerberAI_State.started=false
+    for _,st in pairs(BerberAI_State.players) do BerberAI.InitState(st) end
+    BerberAI_SetDifficulty()
+    BerberAI_Start()
+end
+function BerberAI_OnGameOver()
+    if BerberAI_State.stopped then return end
+    Rule_Remove(BerberAI_Tick)
+    BerberAI_State.started=false;BerberAI_State.stopped=true
+    BerberAI_State.world_entities={};BerberAI_State.world_time=nil;BerberAI_State.orders={}
+    for _,st in pairs(BerberAI_State.players) do
+        BerberAI.FinishPlayer(st)
+    end
+end
+
+function BerberAI.FinishPlayer(st)
+    BerberAI.RemoveIncomeBonus(st)
+    st.memory={};st.build_pending={};st.production_pending={};st.construction_jobs={};st.worker_jobs={}
+    st.stone_purchase_pending=nil;st.finished=true
+end

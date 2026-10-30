@@ -1,0 +1,165 @@
+-----------------------------------------------------------------------
+-- Zenata Lancer - Blood Fury
+--
+-- Each attack grants +1 weapon damage for 30 seconds (max 5 stacks).
+-- Every stack expires independently. Stacks keep their real modifier
+-- handles and are removed with Modifier_RemoveInternal on expiry, so
+-- no counter-modifiers accumulate on the entity.
+-----------------------------------------------------------------------
+
+Core_RegisterModule("ZenataLancer")
+
+local _zenata_lancer = {
+	started = false,
+	tick_active = false,
+	tick_interval = 1.0,
+	stack_duration = 30.0,
+	max_stacks = 5,
+	blueprint_names = {
+		"unit_horseman_2_mal",
+		"unit_horseman_3_mal",
+		"unit_horseman_4_mal",
+	},
+	lancer_pbgids = {},		-- [PropertyBagGroupID] = true, resolved once at start
+	stacks_by_entity = {},	-- [entity_id] = { entity = <entity>, stacks = { { expires, modifier }, ... } }
+}
+
+-- Fast blueprint check: one Entity_GetBlueprint call and a table lookup.
+-- No string round-trips (BP_GetName) on the damage hot path.
+local function ZenataLancer_IsZenata(entity)
+	if entity == nil or scartype(entity) ~= ST_ENTITY then
+		return false
+	end
+
+	local entity_id = Entity_GetID(entity)
+	if entity_id == nil or not Entity_IsValid(entity_id) then
+		return false
+	end
+
+	local blueprint = Entity_GetBlueprint(entity)
+	return blueprint ~= nil and _zenata_lancer.lancer_pbgids[blueprint.PropertyBagGroupID] == true
+end
+
+local function ZenataLancer_ApplyStackModifier(entity)
+	local modifier = Modifier_Create(
+		MAT_Weapon,
+		"damage_weapon_modifier",
+		MUT_Addition,
+		false,
+		1,
+		entity
+	)
+	Modifier_ApplyToEntity(modifier, entity, 0.0)
+	return modifier
+end
+
+-- Single shared tick for ALL lancers. It is registered only while at
+-- least one stack exists anywhere, and removes itself as soon as the
+-- tracking table is empty. Replaces one Rule_AddOneShot per stack.
+function ZenataLancer_Tick()
+	local now = World_GetGameTime()
+
+	for entity_id, state in pairs(_zenata_lancer.stacks_by_entity) do
+		if not Entity_IsValid(entity_id) then
+			-- Entity left the world; its modifiers died with it.
+			_zenata_lancer.stacks_by_entity[entity_id] = nil
+		else
+			-- All stacks share one duration, so they expire in FIFO order
+			-- while each stack still keeps its own independent timestamp.
+			local stacks = state.stacks
+			while stacks[1] ~= nil and stacks[1].expires <= now do
+				local stack = table.remove(stacks, 1)
+				Modifier_RemoveInternal(stack.modifier.ModifierID)
+			end
+
+			if stacks[1] == nil then
+				_zenata_lancer.stacks_by_entity[entity_id] = nil
+			end
+		end
+	end
+
+	if next(_zenata_lancer.stacks_by_entity) == nil then
+		_zenata_lancer.tick_active = false
+		Rule_Remove(ZenataLancer_Tick)
+	end
+end
+
+function ZenataLancer_OnDamageReceived(context)
+	-- Cheapest / most selective guards first: most damage events in a
+	-- match are not caused by a Zenata Lancer.
+	if context == nil
+		or context.attacker == nil
+		or context.victim == nil
+		or context.attacker == context.victim
+		or context.isRepairing == true
+		or not ZenataLancer_IsZenata(context.attacker)
+		or Entity_IsBuilding(context.victim) then
+		return
+	end
+
+	local entity_id = Entity_GetID(context.attacker)
+	local state = _zenata_lancer.stacks_by_entity[entity_id]
+
+	-- New record, or the engine recycled this entity id for a new unit.
+	if state == nil or state.entity ~= context.attacker then
+		state = { entity = context.attacker, stacks = {} }
+		_zenata_lancer.stacks_by_entity[entity_id] = state
+	end
+
+	if #state.stacks >= _zenata_lancer.max_stacks then
+		return
+	end
+
+	table.insert(state.stacks, {
+		expires = World_GetGameTime() + _zenata_lancer.stack_duration,
+		modifier = ZenataLancer_ApplyStackModifier(context.attacker),
+	})
+
+	if not _zenata_lancer.tick_active then
+		_zenata_lancer.tick_active = true
+		Rule_AddInterval(ZenataLancer_Tick, _zenata_lancer.tick_interval)
+	end
+end
+
+-- Entry point invoked from StandardMode_Start().
+function Zenata_Lancer_start()
+	if _zenata_lancer.started then
+		return
+	end
+
+	-- Resolve custom blueprint names once; the runtime check then uses
+	-- plain PBGID table lookups (no hard-coded ids, no name strings).
+	for _, blueprint_name in ipairs(_zenata_lancer.blueprint_names) do
+		local blueprint = BP_GetEntityBlueprint(blueprint_name)
+		if blueprint ~= nil then
+			_zenata_lancer.lancer_pbgids[blueprint.PropertyBagGroupID] = true
+		end
+	end
+
+	_zenata_lancer.started = true
+	Rule_AddGlobalEvent(ZenataLancer_OnDamageReceived, GE_DamageReceived)
+end
+
+-- Required Core module lifecycle callbacks. Startup remains controlled by
+-- Zenata_Lancer_start(), which is called from StandardMode_Start().
+function ZenataLancer_OnInit()
+end
+
+function ZenataLancer_Start()
+end
+
+function ZenataLancer_OnGameOver()
+	if not _zenata_lancer.started then
+		return
+	end
+
+	Rule_RemoveGlobalEvent(ZenataLancer_OnDamageReceived)
+
+	if _zenata_lancer.tick_active then
+		Rule_Remove(ZenataLancer_Tick)
+		_zenata_lancer.tick_active = false
+	end
+
+	_zenata_lancer.started = false
+	_zenata_lancer.stacks_by_entity = {}
+end

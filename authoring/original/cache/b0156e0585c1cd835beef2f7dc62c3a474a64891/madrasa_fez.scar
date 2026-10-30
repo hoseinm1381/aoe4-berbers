@@ -1,0 +1,98 @@
+------------------------------------------------------------------------
+-- Berber Future Kingdom - Madrasa of Fez Landmark
+--
+-- Triggers a one-time bonus upon completion: instantly grants Castle Age
+-- and Imperial Age elite upgrades for the player.
+------------------------------------------------------------------------
+
+Core_RegisterModule("MadrasaFez")
+
+local _madrasa = {
+	started = false,
+	landmark_bp = nil,
+	castle_upgrades = {},
+	imperial_upgrades = {},
+}
+
+local function SafeGetUpgradeBP(name)
+	local status, bp = pcall(BP_GetUpgradeBlueprint, name)
+	if status and bp ~= nil then
+		return bp
+	end
+	print("[MadrasaFez] WARNING: Invalid upgrade BP: " .. tostring(name))
+	return nil
+end
+
+local function MadrasaFez_OnConstructionComplete(context)
+	if context == nil or context.entity == nil then return end
+	
+	local entity = context.entity
+	local ebp = Entity_GetBlueprint(entity)
+	
+	if ebp == _madrasa.landmark_bp then
+		local player_obj = Entity_GetPlayerOwner(entity)
+		if player_obj == nil or not Player_IsAlive(player_obj) then return end
+		
+		print("[MadrasaFez] Madrasa of Fez constructed! Applying elite upgrades...")
+		
+		-- Apply Castle Age upgrades
+		for _, upg in ipairs(_madrasa.castle_upgrades) do
+			if upg ~= nil and not Player_HasUpgrade(player_obj, upg) then
+				Player_CompleteUpgrade(player_obj, upg)
+			end
+		end
+		
+		-- Apply Imperial Age upgrades
+		for _, upg in ipairs(_madrasa.imperial_upgrades) do
+			if upg ~= nil and not Player_HasUpgrade(player_obj, upg) then
+				Player_CompleteUpgrade(player_obj, upg)
+			end
+		end
+		
+		print("[MadrasaFez] Upgrades successfully applied for player.")
+	end
+end
+
+function madrasa_fez_start()
+	if _madrasa.started then return end
+
+	_madrasa.landmark_bp = BP_GetEntityBlueprint("building_landmark_age3_landmarke_mal")
+
+	_madrasa.castle_upgrades = {
+		SafeGetUpgradeBP("upgrade_unit_archer_3_mal"),
+		SafeGetUpgradeBP("upgrade_unit_horseman_3_mal"),
+		SafeGetUpgradeBP("upgrade_unit_spearman_2_mal"),
+		SafeGetUpgradeBP("upgrade_unit_spearman_3_mal"),
+		SafeGetUpgradeBP("upgrade_unit_gbeto_3_mal"),
+	}
+
+	_madrasa.imperial_upgrades = {
+		SafeGetUpgradeBP("upgrade_unit_archer_4_mal"),
+		SafeGetUpgradeBP("upgrade_unit_horseman_4_mal"),
+		SafeGetUpgradeBP("upgrade_unit_spearman_4_mal"),
+		SafeGetUpgradeBP("upgrade_unit_knight_4"),
+		SafeGetUpgradeBP("upgrade_unit_gbeto_4_mal"),
+	}
+
+	Rule_AddGlobalEvent(MadrasaFez_OnConstructionComplete, GE_ConstructionComplete)
+	_madrasa.started = true
+	print("[MadrasaFez] Module started, listening to GE_ConstructionComplete.")
+end
+
+function madrasa_fez_stop()
+	if not _madrasa.started then return end
+	Rule_RemoveGlobalEvent(MadrasaFez_OnConstructionComplete)
+	_madrasa.started = false
+	print("[MadrasaFez] Module stopped.")
+end
+
+function MadrasaFez_OnInit()
+end
+
+function MadrasaFez_Start()
+	madrasa_fez_start()
+end
+
+function MadrasaFez_OnGameOver()
+	madrasa_fez_stop()
+end

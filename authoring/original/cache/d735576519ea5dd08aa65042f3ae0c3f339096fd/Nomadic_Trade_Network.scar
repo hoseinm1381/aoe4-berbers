@@ -1,0 +1,31 @@
+_nomadic_trade_network = {
+	started = false,
+}
+
+local NOMADIC_TRADE_BUILDING_TYPES = {
+	"town_center",
+	"market",
+	"dock",
+	"mill",
+	"lumber_camp",
+	"mining_camp",
+}
+
+function Nomadic_Trade_Network_start()
+	if _nomadic_trade_network.started then
+		return
+	end
+
+	_nomadic_trade_network.started = true
+
+	for player_index = 1, World_GetPlayerCount() do
+		local player_id = World_GetPlayerAt(player_index)
+		if Player_IsAlive(player_id) and Player_GetRaceName(player_id) == "malian" then
+			for _, building_type in pairs(NOMADIC_TRADE_BUILDING_TYPES) do
+				local building_ebp = Cardinal_ConvertTypeToEntityBlueprint(building_type, player_id)
+				local modifier = Modifier_Create(MAT_EntityType, "resource_entity_cost_wood", MUT_Multiplication, false, 0.90, building_ebp)
+				Modifier_ApplyToPlayer(modifier, player_id, 0.0)
+			end
+		end
+	end
+end

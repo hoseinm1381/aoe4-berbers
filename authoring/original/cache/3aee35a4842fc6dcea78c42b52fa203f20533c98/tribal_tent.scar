@@ -1,0 +1,187 @@
+------------------------------------------------------------------------
+-- Tribal Tent Alliance System
+--
+-- Switching alliances cancels every queued unit in the player's markets
+-- EXCEPT traders (unit_trade_cart_mal). This replaces the old per-alliance
+-- unit lists, which crashed when an alliance had no unit_squad_bps table.
+------------------------------------------------------------------------
+
+Core_RegisterModule("TribalTent")
+
+local _tribal_tent = {
+	started = false,
+	tent_bp = nil,
+	market_bp = nil,
+	trader_squad_bp = nil,
+	alliances = nil,
+	-- Tracks which player IDs have had the switch cost applied
+	switch_cost_applied = {},
+}
+
+local TRIBAL_TENT_SWITCH_COST_GOLD = 100
+
+local function TribalTent_IsValidExecuter(entity)
+	return entity ~= nil
+		and scartype(entity) == ST_ENTITY
+		and Entity_IsValid(Entity_GetID(entity))
+		and not World_OwnsEntity(entity)
+		and Entity_GetBlueprint(entity) == _tribal_tent.tent_bp
+end
+
+local function TribalTent_FindAllianceByAbility(ability_bp)
+	for _, alliance in ipairs(_tribal_tent.alliances) do
+		if ability_bp == alliance.ability_bp then
+			return alliance
+		end
+	end
+
+	return nil
+end
+
+local function TribalTent_PlayerHasAnyAlliance(player)
+	for _, alliance in ipairs(_tribal_tent.alliances) do
+		if Player_HasUpgrade(player, alliance.upgrade_bp) then
+			return true
+		end
+	end
+
+	return false
+end
+
+-- Cancels every queued spawn item in the player's markets except traders.
+-- Alliance-independent, so it never touches per-alliance unit lists.
+local function TribalTent_CancelQueuedNonTraderUnits(player)
+	local markets = EGroup_CreateUnique()
+	EGroup_AddEGroup(markets, Player_GetEntities(player))
+	EGroup_Filter(markets, _tribal_tent.market_bp, FILTER_KEEP)
+
+	for i = 1, EGroup_Count(markets) do
+		local entity = EGroup_GetEntityAt(markets, i)
+		if Entity_HasProductionQueue(entity) then
+			local queue_size = Entity_GetProductionQueueSize(entity)
+			for queue_index = queue_size - 1, 0, -1 do
+				if Entity_GetProductionQueueItemType(entity, queue_index) == PITEM_Spawn then
+					local queued_bp = Entity_GetProductionQueueItem(entity, queue_index)
+					if queued_bp ~= _tribal_tent.trader_squad_bp then
+						Entity_CancelProductionQueueItem(entity, queue_index)
+					end
+				end
+			end
+		end
+	end
+
+	EGroup_Destroy(markets)
+end
+
+local function TribalTent_RemoveOtherAlliances(player, target_alliance, cancel_queues)
+	local removed_any = false
+
+	for _, alliance in ipairs(_tribal_tent.alliances) do
+		if alliance ~= target_alliance and Player_HasUpgrade(player, alliance.upgrade_bp) then
+			Player_RemoveUpgrade(player, alliance.upgrade_bp)
+			removed_any = true
+		end
+	end
+
+	-- Cancel once per switch, not once per removed alliance.
+	if removed_any and cancel_queues then
+		TribalTent_CancelQueuedNonTraderUnits(player)
+	end
+end
+
+function TribalTent_OnAbilityExecuted(context)
+	if context == nil or context.ability == nil or not TribalTent_IsValidExecuter(context.executer) then
+		return
+	end
+
+	local target_alliance = TribalTent_FindAllianceByAbility(context.ability)
+	if target_alliance == nil then
+		return
+	end
+
+	local player = Entity_GetPlayerOwner(context.executer)
+	if player == nil then
+		return
+	end
+
+	-- The active alliance ability is hidden by tuning. If a malformed state
+	-- still executes it, reconcile duplicate markers without charging Gold.
+	if Player_HasUpgrade(player, target_alliance.upgrade_bp) then
+		TribalTent_RemoveOtherAlliances(player, target_alliance, true)
+		return
+	end
+
+	local is_switch = TribalTent_PlayerHasAnyAlliance(player)
+	if is_switch then
+		local current_gold = Player_GetResource(player, RT_Gold)
+		if current_gold < TRIBAL_TENT_SWITCH_COST_GOLD then
+			return
+		end
+
+		Player_SetResource(player, RT_Gold, current_gold - TRIBAL_TENT_SWITCH_COST_GOLD)
+	end
+
+	TribalTent_RemoveOtherAlliances(player, target_alliance, true)
+	Player_CompleteUpgrade(player, target_alliance.upgrade_bp)
+
+	-- One-time: after the first ever alliance pick, stamp 100 gold cost onto all three abilities.
+	local pid = Player_GetID(player)
+	if not _tribal_tent.switch_cost_applied[pid] then
+		_tribal_tent.switch_cost_applied[pid] = true
+		for _, alliance in ipairs(_tribal_tent.alliances) do
+			if alliance.ability_bp ~= nil then
+				local mod = Modifier_Create(MAT_Ability, "ability_cost_gold_modifier", MUT_Addition, false, 100, alliance.ability_bp)
+				Modifier_ApplyToPlayer(mod, player, 0)
+			end
+		end
+		print("[TribalTent] Switch cost (100 gold) applied for player " .. tostring(pid))
+	end
+end
+
+local function TribalTent_ResolveBlueprints()
+	_tribal_tent.tent_bp = BP_GetEntityBlueprint("building_hut_ayy")
+	_tribal_tent.market_bp = BP_GetEntityBlueprint("building_econ_market_mal")
+	_tribal_tent.trader_squad_bp = BP_GetSquadBlueprint("unit_trade_cart_mal")
+	_tribal_tent.alliances = {
+		{
+			name = "sanhaja",
+			ability_bp = BP_GetAbilityBlueprint("grenade_throw_song_cmp"),
+			upgrade_bp = BP_GetUpgradeBlueprint("upgrade_cul_ancient_relics_ayy"),
+		},
+		{
+			name = "zenata",
+			ability_bp = BP_GetAbilityBlueprint("increase_armor_song_cmp"),
+			upgrade_bp = BP_GetUpgradeBlueprint("upgrade_cul_medical_centers_ayy"),
+		},
+		{
+			name = "masmuda",
+			ability_bp = BP_GetAbilityBlueprint("increase_damage_song_cmp"),
+			upgrade_bp = BP_GetUpgradeBlueprint("upgrade_econ_agriculture_ayy"),
+		},
+	}
+end
+
+function tribal_tent_start()
+	if _tribal_tent.started then
+		return
+	end
+
+	TribalTent_ResolveBlueprints()
+	Rule_AddGlobalEvent(TribalTent_OnAbilityExecuted, GE_AbilityExecuted)
+	_tribal_tent.started = true
+end
+
+function TribalTent_OnInit()
+end
+
+function TribalTent_Start()
+end
+
+function TribalTent_OnGameOver()
+	if not _tribal_tent.started then
+		return
+	end
+
+	Rule_RemoveGlobalEvent(TribalTent_OnAbilityExecuted)
+	_tribal_tent.started = false
+end

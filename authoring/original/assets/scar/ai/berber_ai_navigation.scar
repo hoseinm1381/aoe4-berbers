@@ -1,0 +1,86 @@
+-- Deterministic bounded threat routing; native reachability checks qualify legs.
+local function distanceSegment(p,a,b)
+ local dx,dz=b.x-a.x,b.z-a.z;local n=dx*dx+dz*dz
+ local t=n>0 and ((p.x-a.x)*dx+(p.z-a.z)*dz)/n or 0;t=math.max(0,math.min(1,t))
+ return (p.x-a.x-t*dx)^2+(p.z-a.z-t*dz)^2
+end
+local function radius(c,buffer,combat)
+ local extra=math.max(0,buffer or 0)
+ if c.tc then return 24+extra end
+ if combat then
+  if c.keep then return 28+extra elseif c.outpost then return 16+extra
+  elseif not c.building and not c.economic and not c.scout then return 12+extra end
+ end
+end
+function BerberAI.SegmentSafe(st,a,b,buffer,combat,escaping)
+ if not World_PosInBounds(b) then return false end
+ for _,c in ipairs(st.contacts or {}) do
+  if c.entity==nil or BerberAI.EntityValid(c.entity) then
+   local r=radius(c,buffer,combat~=false)
+   if r and distanceSegment(c.pos,a,b)<=r*r then
+    local start=BerberAI.Distance(c.pos,a)
+    local outward=(a.x-c.pos.x)*(b.x-a.x)+(a.z-c.pos.z)*(b.z-a.z)
+    if not (escaping and start<=r*r and outward>=0 and BerberAI.Distance(c.pos,b)>start) then return false end
+   end
+  end
+ end
+ return true
+end
+function BerberAI.SafePoint(st,p,buffer)
+ return p~=nil and BerberAI.SegmentSafe(st,p,p,buffer,true)
+end
+function BerberAI.PathReachable(st,s,p,start)
+ if s==nil then return true end
+ if not BerberAI.SquadValid(s) or not World_PosInBounds(p) then return false end
+ -- SquadID is a SCAR table; AISquad_* requires the distinct native AISquad*.
+ -- The old API document misleadingly labels both argument domains SquadID.
+ local ai=AI_FindAISquadByID(st.player,Squad_GetID(s))
+ if ai==nil then
+  -- Native AI is disabled. If it has no AISquad record, normal Cmd_Move /
+  -- garrison commands own terrain pathfinding; this is not a reachability proof.
+  return true
+ end
+ if scartype(ai)~=ST_AISQUAD then return false end
+ if not AI_IsSquadValid(ai) then return true end
+ return AISquad_HasPathWithinDistance(ai,p,math.sqrt(BerberAI.Distance(start,p))*3+48)
+end
+function BerberAI.FindSafeRoute(st,start,destination,buffer,squad,combat)
+ if start==nil or destination==nil then return nil end
+ if BerberAI.SegmentSafe(st,start,destination,buffer,combat,true) and BerberAI.PathReachable(st,squad,destination,start) then return {destination} end
+ local dx,dz=destination.x-start.x,destination.z-start.z;local length=math.sqrt(dx*dx+dz*dz)
+ if length<1 then return nil end
+ for _,offset in ipairs({32,48,72,104,152,216}) do
+  for _,sign in ipairs({1,-1}) do
+   local ox,oz=-dz/length*offset*sign,dx/length*offset*sign
+   local mid=BerberAI.Pos(start,dx/2+ox,dz/2+oz)
+   if BerberAI.SegmentSafe(st,start,mid,buffer,combat,true) and BerberAI.SegmentSafe(st,mid,destination,buffer,combat)
+    and BerberAI.PathReachable(st,squad,mid,start) and BerberAI.PathReachable(st,squad,destination,start) then return {mid,destination} end
+   local a=BerberAI.Pos(start,dx*.2+ox,dz*.2+oz);local b=BerberAI.Pos(start,dx*.8+ox,dz*.8+oz)
+   if BerberAI.SegmentSafe(st,start,a,buffer,combat,true) and BerberAI.SegmentSafe(st,a,b,buffer,combat)
+    and BerberAI.SegmentSafe(st,b,destination,buffer,combat) and BerberAI.PathReachable(st,squad,a,start)
+    and BerberAI.PathReachable(st,squad,b,start) and BerberAI.PathReachable(st,squad,destination,start) then return {a,b,destination} end
+  end
+ end
+ return nil
+end
+function BerberAI.SafeMove(st,squads,p,attack,buffer)
+ local moved=false
+ for _,s in ipairs(squads) do
+  if BerberAI.SquadValid(s) then
+   local route=BerberAI.FindSafeRoute(st,Squad_GetPosition(s),p,buffer,s)
+   if route then BerberAI.Move({s},route[1],attack);moved=true end
+  end
+ end
+ return moved
+end
+function BerberAI.RouteThreat(st,start,destination,buffer)
+ local value,nearest,distance=0,nil,nil
+ for _,c in ipairs(st.contacts or {}) do
+  if not c.building and not c.economic and not c.scout and BerberAI.EntityValid(c.entity)
+   and distanceSegment(c.pos,start,destination)<=(12+(buffer or 0))^2 then
+   value=value+(c.value or 0);local d=BerberAI.Distance(c.pos,start)
+   if distance==nil or d<distance then nearest=c.pos;distance=d end
+  end
+ end
+ return value,nearest
+end

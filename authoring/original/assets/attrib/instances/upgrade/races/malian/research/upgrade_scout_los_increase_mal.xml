@@ -1,0 +1,37 @@
+<instance version="4" description="Improves Scout LOS" template="upgrade">
+	<group name="upgrade_bag">
+		<group name="ui_position">
+			<int name="ui_position_row" value="3" overrideParent="True" />
+			<int name="ui_position_column" value="3" overrideParent="True" />
+		</group>
+		<instance_reference name="hotkey_binding" value="hotkeys\hotkey_binding\building_stable\tech_upgrade_scout_los_increase_mal" overrideParent="True" />
+		<list name="upgrade_type" overrideParent="True">
+			<enum name="upgrade_type" value="military_upgrade" List.ItemID="1421053812" />
+			<enum name="upgrade_type" value="malian_upgrade" List.ItemID="-274261474" />
+			<enum name="upgrade_type" value="scar_military_upgrade" List.ItemID="871482816" />
+			<enum name="upgrade_type" value="scar_nontiered_upgrade" List.ItemID="-174921029" />
+			<enum name="upgrade_type" value="scar_imperial_age_upgrade" List.ItemID="1648022683" />
+		</list>
+		<group name="ui_info">
+			<string name="hotkey_name" value="C" overrideParent="True" />
+			<locstring name="help_text" value="161" mod="1d3145e8f1b2427f8bb0067851fcf0f1" overrideParent="True" />
+			<locstring name="screen_name" value="160" mod="1d3145e8f1b2427f8bb0067851fcf0f1" overrideParent="True" />
+			<template_reference name="help_text_formatter" value="" overrideParent="True">
+			</template_reference>
+			<file name="icon_name" value="desert_pathfinder" overrideParent="True" />
+		</group>
+		<group name="time_cost">
+			<enum_table name="cost">
+				<float name="food" value="75" overrideParent="True" />
+				<float name="wood" value="0" overrideParent="True" />
+			</enum_table>
+		</group>
+		<list name="requirements">
+			<template_reference name="required" value="requirements\required_player_upgrade" List.ItemID="-200285626" List.ParentItemID="-200285626">
+				<instance_reference name="upgrade_name" value="upgrade\dev\ages\feudal_age" overrideParent="True" />
+			</template_reference>
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="2126348" />
+	<instance_reference name="parent_pbg" value="upgrade\races\common\research\upgrade_scout_los_increase" />
+</instance>

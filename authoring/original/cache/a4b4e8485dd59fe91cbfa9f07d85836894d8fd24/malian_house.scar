@@ -1,0 +1,116 @@
+------------------------------------------------------------------------
+-- Berber Future Kingdom - Malian House Population Capacity System
+--
+-- A completed Malian House already grants 5 population through tuning.
+-- This module grants another +5 while that completed house is alive, for
+-- a total of 10 population per house.
+------------------------------------------------------------------------
+
+import("game_modifiers.scar")
+
+Core_RegisterModule("MalianHouse")
+
+local MALIAN_HOUSE_EXTRA_POPULATION = 5
+
+local _malian_house = {
+	started = false,
+	house_bp = nil,
+	-- entity ID -> owning player for houses that received the extra +5
+	tracked_houses = {},
+}
+
+local function MalianHouse_TrackCompletedHouse(entity)
+	if entity == nil
+		or scartype(entity) ~= ST_ENTITY
+		or not Entity_IsValid(Entity_GetID(entity))
+		or World_OwnsEntity(entity)
+		or Entity_GetBlueprint(entity) ~= _malian_house.house_bp
+		or Entity_GetBuildingProgress(Entity_GetID(entity)) < 1.0 then
+		return
+	end
+
+	local entity_id = Entity_GetID(entity)
+	if _malian_house.tracked_houses[entity_id] ~= nil then
+		return
+	end
+
+	local player = Entity_GetPlayerOwner(entity)
+	if player == nil then return end
+
+	Modify_PlayerPopCap(player, MALIAN_HOUSE_EXTRA_POPULATION, MUT_Addition)
+	_malian_house.tracked_houses[entity_id] = player
+	print(string.format("[MalianHouse] House %d completed: added %d population.", entity_id, MALIAN_HOUSE_EXTRA_POPULATION))
+end
+
+function MalianHouse_OnConstructionComplete(context)
+	if context == nil or context.entity == nil then return end
+	MalianHouse_TrackCompletedHouse(context.entity)
+end
+
+function MalianHouse_OnEntityKilled(context)
+	if context == nil
+		or context.victim == nil
+		or scartype(context.victim) ~= ST_ENTITY then
+		return
+	end
+
+	local entity_id = Entity_GetID(context.victim)
+	local player = _malian_house.tracked_houses[entity_id]
+	if player == nil then
+		return
+	end
+
+	Modify_PlayerPopCap(player, -MALIAN_HOUSE_EXTRA_POPULATION, MUT_Addition)
+	_malian_house.tracked_houses[entity_id] = nil
+	print(string.format("[MalianHouse] House %d destroyed: removed %d population.", entity_id, MALIAN_HOUSE_EXTRA_POPULATION))
+end
+
+function malian_house_start()
+	if _malian_house.started then return end
+
+	_malian_house.house_bp = BP_GetEntityBlueprint("building_house_mal")
+	_malian_house.tracked_houses = {}
+
+	-- Account for completed houses that already exist when the module starts.
+	for player_index = 1, World_GetPlayerCount() do
+		local player = World_GetPlayerAt(player_index)
+		if Player_IsAlive(player) then
+			local entities = Player_GetEntities(player)
+			for entity_index = 1, EGroup_Count(entities) do
+				MalianHouse_TrackCompletedHouse(EGroup_GetEntityAt(entities, entity_index))
+			end
+			EGroup_Destroy(entities)
+		end
+	end
+
+	Rule_AddGlobalEvent(MalianHouse_OnConstructionComplete, GE_ConstructionComplete)
+	Rule_AddGlobalEvent(MalianHouse_OnEntityKilled, GE_EntityKilled)
+	_malian_house.started = true
+	print("[MalianHouse] Started: completed Malian Houses grant +5 extra population.")
+end
+
+function malian_house_stop()
+	if not _malian_house.started then return end
+
+	Rule_RemoveGlobalEvent(MalianHouse_OnConstructionComplete)
+	Rule_RemoveGlobalEvent(MalianHouse_OnEntityKilled)
+
+	-- Reverse any bonuses if the module is stopped while the match is active.
+	for _, player in pairs(_malian_house.tracked_houses) do
+		Modify_PlayerPopCap(player, -MALIAN_HOUSE_EXTRA_POPULATION, MUT_Addition)
+	end
+	_malian_house.tracked_houses = {}
+	_malian_house.started = false
+	print("[MalianHouse] Stopped and removed all extra house population.")
+end
+
+function MalianHouse_OnInit()
+end
+
+function MalianHouse_Start()
+	malian_house_start()
+end
+
+function MalianHouse_OnGameOver()
+	malian_house_stop()
+end

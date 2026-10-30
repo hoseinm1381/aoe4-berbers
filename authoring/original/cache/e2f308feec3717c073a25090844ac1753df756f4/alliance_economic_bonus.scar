@@ -1,0 +1,136 @@
+------------------------------------------------------------------------
+-- Berber Future Kingdom - Alliance Economic Bonus System
+--
+-- Applies +20% resource drop-off modifiers depending on active alliance:
+--   1. Sanhaja ("grenade_throw_song_cmp"):
+--      +20% Wood dropped off at TCs & Lumber Camps ("building_econ_wood_mal").
+--   2. Zenata ("increase_armor_song_cmp"):
+--      +20% Food dropped off at TCs & Mills ("building_econ_food_mal").
+--   3. Masmuda ("increase_damage_song_cmp"):
+--      +20% Gold & Stone dropped off at TCs & Mining Camps ("building_econ_mining_camp_mal").
+--
+-- Modifiers are tracked per player and safely removed via Modifier_Remove when swapping.
+------------------------------------------------------------------------
+
+Core_RegisterModule("AllianceEconomicBonus")
+
+local _alliance_econ = {
+    started = false,
+    player_modifiers = {}, -- pid -> list of active modifier objects
+    
+    abilities = {
+        sanhaja = nil,
+        zenata  = nil,
+        masmuda = nil,
+    },
+    
+    buildings = {
+        tc_capital  = nil,
+        tc_standard = nil,
+        econ_wood   = nil,
+        econ_food   = nil,
+        econ_mining = nil,
+    }
+}
+
+local function AllianceEcon_ClearPlayerModifiers(player)
+    local pid = Player_GetID(player)
+    local mods = _alliance_econ.player_modifiers[pid]
+    if mods ~= nil then
+        for _, mod in ipairs(mods) do
+            if mod ~= nil then
+                Modifier_Remove(mod)
+            end
+        end
+    end
+    _alliance_econ.player_modifiers[pid] = {}
+end
+
+local function AllianceEcon_ApplyModifier(player, modifier_type, value, ebp)
+    if ebp == nil then return end
+    local pid = Player_GetID(player)
+    local mod = Modifier_Create(MAT_EntityType, modifier_type, MUT_Multiplication, false, value, ebp)
+    Modifier_ApplyToPlayer(mod, player, 0.0)
+    
+    if _alliance_econ.player_modifiers[pid] == nil then
+        _alliance_econ.player_modifiers[pid] = {}
+    end
+    table.insert(_alliance_econ.player_modifiers[pid], mod)
+end
+
+function AllianceEcon_OnAbilityExecuted(context)
+    if context == nil or context.ability == nil or context.executer == nil then
+        return
+    end
+
+    local ability_bp = context.ability
+    local player = Entity_GetPlayerOwner(context.executer)
+    if player == nil then return end
+
+    -- Sanhaja Alliance (+20% Wood)
+    if ability_bp == _alliance_econ.abilities.sanhaja then
+        AllianceEcon_ClearPlayerModifiers(player)
+        AllianceEcon_ApplyModifier(player, "resource_drop_off_amount_wood", 1.2, _alliance_econ.buildings.tc_capital)
+        AllianceEcon_ApplyModifier(player, "resource_drop_off_amount_wood", 1.2, _alliance_econ.buildings.tc_standard)
+        AllianceEcon_ApplyModifier(player, "resource_drop_off_amount_wood", 1.2, _alliance_econ.buildings.econ_wood)
+        print("[AllianceEcon] Applied Sanhaja +20% Wood drop-off bonus.")
+
+    -- Zenata Alliance (+20% Food)
+    elseif ability_bp == _alliance_econ.abilities.zenata then
+        AllianceEcon_ClearPlayerModifiers(player)
+        AllianceEcon_ApplyModifier(player, "resource_drop_off_amount_food", 1.2, _alliance_econ.buildings.tc_capital)
+        AllianceEcon_ApplyModifier(player, "resource_drop_off_amount_food", 1.2, _alliance_econ.buildings.tc_standard)
+        AllianceEcon_ApplyModifier(player, "resource_drop_off_amount_food", 1.2, _alliance_econ.buildings.econ_food)
+        print("[AllianceEcon] Applied Zenata +20% Food drop-off bonus.")
+
+    -- Masmuda Alliance (+20% Gold & Stone)
+    elseif ability_bp == _alliance_econ.abilities.masmuda then
+        AllianceEcon_ClearPlayerModifiers(player)
+        AllianceEcon_ApplyModifier(player, "resource_drop_off_amount_gold", 1.2, _alliance_econ.buildings.tc_capital)
+        AllianceEcon_ApplyModifier(player, "resource_drop_off_amount_gold", 1.2, _alliance_econ.buildings.tc_standard)
+        AllianceEcon_ApplyModifier(player, "resource_drop_off_amount_gold", 1.2, _alliance_econ.buildings.econ_mining)
+        
+        AllianceEcon_ApplyModifier(player, "resource_drop_off_amount_stone", 1.2, _alliance_econ.buildings.tc_capital)
+        AllianceEcon_ApplyModifier(player, "resource_drop_off_amount_stone", 1.2, _alliance_econ.buildings.tc_standard)
+        AllianceEcon_ApplyModifier(player, "resource_drop_off_amount_stone", 1.2, _alliance_econ.buildings.econ_mining)
+        print("[AllianceEcon] Applied Masmuda +20% Gold & Stone drop-off bonus.")
+    end
+end
+
+local function AllianceEcon_ResolveBlueprints()
+    _alliance_econ.abilities.sanhaja = BP_GetAbilityBlueprint("grenade_throw_song_cmp")
+    _alliance_econ.abilities.zenata  = BP_GetAbilityBlueprint("increase_armor_song_cmp")
+    _alliance_econ.abilities.masmuda = BP_GetAbilityBlueprint("increase_damage_song_cmp")
+
+    _alliance_econ.buildings.tc_capital  = BP_GetEntityBlueprint("building_town_center_capital_mal")
+    _alliance_econ.buildings.tc_standard = BP_GetEntityBlueprint("building_town_center_mal")
+    _alliance_econ.buildings.econ_wood   = BP_GetEntityBlueprint("building_econ_wood_mal")
+    _alliance_econ.buildings.econ_food   = BP_GetEntityBlueprint("building_econ_food_mal")
+    _alliance_econ.buildings.econ_mining = BP_GetEntityBlueprint("building_econ_mining_camp_mal")
+end
+
+function alliance_economic_bonus_start()
+    if _alliance_econ.started then return end
+    AllianceEcon_ResolveBlueprints()
+    Rule_AddGlobalEvent(AllianceEcon_OnAbilityExecuted, GE_AbilityExecuted)
+    _alliance_econ.started = true
+    print("[AllianceEcon] Started module.")
+end
+
+function alliance_economic_bonus_stop()
+    if not _alliance_econ.started then return end
+    Rule_RemoveGlobalEvent(AllianceEcon_OnAbilityExecuted)
+    _alliance_econ.started = false
+    print("[AllianceEcon] Stopped module.")
+end
+
+function AllianceEconomicBonus_OnInit()
+end
+
+function AllianceEconomicBonus_Start()
+    alliance_economic_bonus_start()
+end
+
+function AllianceEconomicBonus_OnGameOver()
+    alliance_economic_bonus_stop()
+end

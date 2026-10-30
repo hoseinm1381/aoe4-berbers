@@ -1,0 +1,181 @@
+------------------------------------------------------------------------
+-- Berber Future Kingdom - Almohad Grand Keep System
+--
+-- Follows the exact structure of Enduring_Generations.scar:
+-- When Almohad Grand Keep ("building_landmark_age3_landmarkf_mal") is constructed:
+--   1. Instantly upgrades "upgrade_tech_university_murder_holes_4" for the player.
+--   2. Grants +30% additive health ("health_maximum_modifier", MUT_Addition, 0.30)
+--      to all building blueprints via MAT_EntityType player modifiers.
+--   3. Retroactively grants "upgrade_keep_springald" & "upgrade_keep_cannon" upgrades
+--      to the landmark keep itself and all existing keeps owned by the player.
+--   4. From then on, automatically grants "upgrade_keep_springald" & "upgrade_keep_cannon"
+--      to any new keep fully constructed by the player.
+------------------------------------------------------------------------
+
+_almohad_grand_keep = {
+	started = false,
+	blueprints_initialized = false,
+	building_blueprints = {},
+	player_states = {},
+}
+
+local function Almohad_Grand_Keep_GetBuildingBlueprints()
+	if not _almohad_grand_keep.blueprints_initialized then
+		_almohad_grand_keep.building_blueprints = BP_GetEntityBlueprintsWithType({ { "building" } }) or {}
+		_almohad_grand_keep.blueprints_initialized = true
+	end
+
+	return _almohad_grand_keep.building_blueprints
+end
+
+local function Almohad_Grand_Keep_IsKeep(entity)
+	if entity == nil or not Entity_IsValid(Entity_GetID(entity)) then
+		return false
+	end
+
+	local landmark_bp = BP_GetEntityBlueprint("building_landmark_age3_landmarkf_mal")
+	local ebp = Entity_GetBlueprint(entity)
+	if ebp == landmark_bp then
+		return true
+	end
+
+	if Entity_IsOfType(entity, "keep") or Entity_IsOfType(entity, "defense_keep") or Entity_IsOfType(entity, "castle") then
+		return true
+	end
+
+	return false
+end
+
+local function Almohad_Grand_Keep_HasLandmark(player_id)
+	local landmark_bp = BP_GetEntityBlueprint("building_landmark_age3_landmarkf_mal")
+	if landmark_bp == nil then
+		return false
+	end
+
+	local player_entities = Player_GetEntities(player_id)
+	local count = EGroup_Count(player_entities)
+	for i = 1, count do
+		local entity = EGroup_GetEntityAt(player_entities, i)
+		if Entity_GetBlueprint(entity) == landmark_bp and Entity_GetBuildingProgress(entity) >= 1.0 then
+			return true
+		end
+	end
+
+	return false
+end
+
+local function Almohad_Grand_Keep_RemovePlayerModifiers(player_state)
+	for _, modifier in pairs(player_state.modifiers) do
+		Modifier_RemoveInternal(modifier.ModifierID)
+	end
+
+	player_state.modifiers = {}
+end
+
+local function Almohad_Grand_Keep_ApplyLandmarkBonus(player_id, player_state)
+	-- 1. Instantly upgrade Murder Holes if not already done
+	if not player_state.murder_holes_completed then
+		local murder_holes_bp = BP_GetUpgradeBlueprint("upgrade_tech_university_murder_holes_4")
+		if murder_holes_bp ~= nil then
+			Player_CompleteUpgrade(player_id, murder_holes_bp)
+		end
+		player_state.murder_holes_completed = true
+	end
+
+	-- 2. Apply +30% additive building health modifier across building blueprints if not already done
+	if not player_state.health_bonus_applied then
+		for _, building_bp in pairs(Almohad_Grand_Keep_GetBuildingBlueprints()) do
+			local modifier = Modifier_Create(MAT_EntityType, "health_maximum_modifier", MUT_MultiplicationAddition, false, 0.30, building_bp)
+			Modifier_ApplyToPlayer(modifier, player_id, 0.0)
+			table.insert(player_state.modifiers, modifier)
+		end
+		player_state.health_bonus_applied = true
+	end
+
+	-- 3. Upgrade all completed keeps (Springald & Cannon) owned by the player
+	local springald_bp = BP_GetUpgradeBlueprint("upgrade_keep_springald")
+	local cannon_bp = BP_GetUpgradeBlueprint("upgrade_keep_cannon")
+
+	local player_entities = Player_GetEntities(player_id)
+	local count = EGroup_Count(player_entities)
+	for i = 1, count do
+		local entity = EGroup_GetEntityAt(player_entities, i)
+
+		if Almohad_Grand_Keep_IsKeep(entity) and Entity_GetBuildingProgress(entity) >= 1.0 then
+			if springald_bp ~= nil and not Entity_HasUpgrade(entity, springald_bp) then
+				Entity_CompleteUpgrade(entity, springald_bp)
+			end
+			if cannon_bp ~= nil and not Entity_HasUpgrade(entity, cannon_bp) then
+				Entity_CompleteUpgrade(entity, cannon_bp)
+			end
+		end
+	end
+end
+
+function Almohad_Grand_Keep_Reconcile()
+	local active_player_slots = {}
+
+	for player_index = 1, World_GetPlayerCount() do
+		local player_id = World_GetPlayerAt(player_index)
+		if Player_IsAlive(player_id) then
+			active_player_slots[player_index] = true
+
+			local player_state = _almohad_grand_keep.player_states[player_index]
+			if player_state == nil then
+				player_state = {
+					landmark_active = false,
+					murder_holes_completed = false,
+					health_bonus_applied = false,
+					modifiers = {},
+				}
+				_almohad_grand_keep.player_states[player_index] = player_state
+			end
+
+			if Almohad_Grand_Keep_HasLandmark(player_id) then
+				player_state.landmark_active = true
+				Almohad_Grand_Keep_ApplyLandmarkBonus(player_id, player_state)
+			end
+		end
+	end
+
+	for player_index, player_state in pairs(_almohad_grand_keep.player_states) do
+		if not active_player_slots[player_index] then
+			Almohad_Grand_Keep_RemovePlayerModifiers(player_state)
+			_almohad_grand_keep.player_states[player_index] = nil
+		end
+	end
+end
+
+function Almohad_Grand_Keep_start()
+	if _almohad_grand_keep.started then
+		return
+	end
+
+	_almohad_grand_keep.started = true
+	Almohad_Grand_Keep_Reconcile()
+	Rule_AddInterval(Almohad_Grand_Keep_Reconcile, 1)
+end
+
+function Almohad_Grand_Keep_stop()
+	if not _almohad_grand_keep.started then
+		return
+	end
+
+	Rule_Remove(Almohad_Grand_Keep_Reconcile)
+	for _, player_state in pairs(_almohad_grand_keep.player_states) do
+		Almohad_Grand_Keep_RemovePlayerModifiers(player_state)
+	end
+	_almohad_grand_keep.player_states = {}
+	_almohad_grand_keep.started = false
+end
+
+function AlmohadGrandKeep_OnInit()
+end
+
+function AlmohadGrandKeep_Start()
+	Almohad_Grand_Keep_start()
+end
+
+function AlmohadGrandKeep_OnGameOver()
+	Almohad_Grand_Keep_stop()
+end

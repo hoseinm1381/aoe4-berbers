@@ -1,0 +1,285 @@
+------------------------------------------------------------------------
+-- Berber Future Kingdom - Tent Influence System
+--
+-- Mechanic: When a unit finishes production (GE_BuildItemComplete), the
+-- system checks for a Tent (building_hut_ayy OR any other spirit_way
+-- entity except the Funduq) within INFLUENCE_SYSTEM_RANGE world units
+-- of the newly spawned squad.  The unit's total resource cost is added
+-- to that tent's influence pool.  Once the pool crosses the threshold,
+-- a free villager (unit_villager_1_mal) is queued into the tent.
+-- The threshold escalates globally per player with each reward.
+--
+-- GE_BuildItemComplete context fields (confirmed in-engine):
+--   context.player        = PLAYER reference
+--   context.pbg           = PBG (squad blueprint of produced unit)
+--   context.spawnedSquad  = SQUAD (live squad handle with position)
+--
+-- Funduq discount: owning building_landmark_age1_landmarkb_mal reduces
+-- the required threshold by 20 %.  The Funduq itself never accumulates.
+--
+-- Villager SBP: unit_villager_1_mal (cost zeroed via tuning modifier).
+--
+-- Integration: inflence_system_start() called from StandardMode_Start()
+--              inflence_system_stop()  called from InfluenceSystem_OnGameOver()
+------------------------------------------------------------------------
+
+Core_RegisterModule("InfluenceSystem")
+
+------------------------------------------------------------------------
+-- Constants
+------------------------------------------------------------------------
+
+local INFLUENCE_SYSTEM_RANGE         = 35   -- world units, squad-to-tent proximity
+local INFLUENCE_BASE_REQUIRED        = 500
+local INFLUENCE_BASE_INCREASE        = 200
+local INFLUENCE_FUNDUQ_BP_NAME       = "building_landmark_age1_landmarkb_mal"
+local INFLUENCE_TENT_BP_NAME         = "building_hut_ayy"
+local INFLUENCE_VILLAGER_BP_NAME     = "unit_villager_1_mal"
+
+------------------------------------------------------------------------
+-- Module state
+------------------------------------------------------------------------
+
+local _IS = {
+    started      = false,
+    player_state = {}, -- [player_id] = { reward_count, huts = { [entity_id] = pool } }
+    villager_sbp = nil,
+}
+
+------------------------------------------------------------------------
+-- Private helpers
+------------------------------------------------------------------------
+
+local function IS_GetPlayerState(player_id)
+    local s = _IS.player_state[player_id]
+    if s == nil then
+        s = { reward_count = 0, huts = {} }
+        _IS.player_state[player_id] = s
+    end
+    return s
+end
+
+local function IS_IsFunduq(entity)
+    if entity == nil or not Entity_IsValid(Entity_GetID(entity)) then return false end
+    local ebp = Entity_GetBlueprint(entity)
+    return ebp ~= nil and BP_GetName(ebp) == INFLUENCE_FUNDUQ_BP_NAME
+end
+
+-- A "tent" accumulates influence.  The Funduq carries spirit_way but is excluded.
+local function IS_IsTent(entity)
+    if entity == nil or not Entity_IsValid(Entity_GetID(entity)) then return false end
+    local ebp = Entity_GetBlueprint(entity)
+    if ebp == nil then return false end
+    local name = BP_GetName(ebp)
+    if name == INFLUENCE_TENT_BP_NAME then return true end
+    if Entity_IsOfType(entity, "spirit_way") and name ~= INFLUENCE_FUNDUQ_BP_NAME then return true end
+    return false
+end
+
+local function IS_PlayerHasFunduq(player_id)
+    local eg = EGroup_CreateUniqueWithPrefix("IS_Funduq")
+    Player_GetEntitiesEGroup(player_id, eg)
+    local found = false
+    for i = 1, EGroup_Count(eg) do
+        if IS_IsFunduq(EGroup_GetEntityAt(eg, i)) then found = true break end
+    end
+    EGroup_Destroy(eg)
+    return found
+end
+
+local function IS_GetRequiredValue(player_id, reward_count)
+    local v = INFLUENCE_BASE_REQUIRED + reward_count * INFLUENCE_BASE_INCREASE
+    if IS_PlayerHasFunduq(player_id) then
+        v = v * 0.8
+        print("[InfluenceSystem] Required (Funduq -20%): " .. tostring(math.floor(v)))
+    else
+        print("[InfluenceSystem] Required (standard): " .. tostring(math.floor(v)))
+    end
+    return math.floor(v)
+end
+
+local function IS_SumCost(t)
+    if t == nil then return 0 end
+    return (t.food or 0) + (t.wood or 0) + (t.gold or 0) + (t.stone or 0)
+end
+
+local function IS_GetVillagerSBP()
+    if _IS.villager_sbp == nil then
+        _IS.villager_sbp = BP_GetSquadBlueprint(INFLUENCE_VILLAGER_BP_NAME)
+        if _IS.villager_sbp == nil then
+            print("[InfluenceSystem] ERROR: Cannot resolve SBP '" .. INFLUENCE_VILLAGER_BP_NAME .. "'")
+        end
+    end
+    return _IS.villager_sbp
+end
+
+local function IS_TryQueueVillager(tent_entity)
+    if not Entity_HasProductionQueue(tent_entity) then
+        print("[InfluenceSystem] Tent has no production queue.")
+        return false
+    end
+    local sbp = IS_GetVillagerSBP()
+    if sbp == nil then return false end
+    local ok = Entity_QueueProductionItemByPBG(tent_entity, PITEM_Spawn, sbp)
+    if ok then
+        print("[InfluenceSystem] Free villager queued.")
+    else
+        print("[InfluenceSystem] Entity_QueueProductionItemByPBG returned false.")
+    end
+    return ok
+end
+
+-- Find the nearest tent to a world position within INFLUENCE_SYSTEM_RANGE.
+local function IS_FindNearestTent(player_id, position)
+    local eg = EGroup_CreateUniqueWithPrefix("IS_Tents")
+    Player_GetEntitiesEGroup(player_id, eg)
+
+    local best_tent    = nil
+    local best_dist_sq = nil
+    local range_sq     = INFLUENCE_SYSTEM_RANGE * INFLUENCE_SYSTEM_RANGE
+
+    for i = 1, EGroup_Count(eg) do
+        local ent = EGroup_GetEntityAt(eg, i)
+        if IS_IsTent(ent) then
+            local dist_sq = World_DistanceSquaredPointToPoint(position, Entity_GetPosition(ent))
+            if dist_sq <= range_sq then
+                if best_dist_sq == nil or dist_sq < best_dist_sq then
+                    best_tent    = ent
+                    best_dist_sq = dist_sq
+                end
+            end
+        end
+    end
+
+    EGroup_Destroy(eg)
+
+    if best_tent ~= nil then
+        local bp = Entity_GetBlueprint(best_tent)
+        print("[InfluenceSystem] Nearest tent: " .. (bp and BP_GetName(bp) or "unknown"))
+    else
+        print("[InfluenceSystem] No tent within " .. INFLUENCE_SYSTEM_RANGE .. " units of spawn.")
+    end
+
+    return best_tent
+end
+
+local function IS_AddValueToTent(tent_entity, player_id, value)
+    local state    = IS_GetPlayerState(player_id)
+    local tent_id  = Entity_GetID(tent_entity)
+    local pool     = (state.huts[tent_id] or 0) + value
+    local required = IS_GetRequiredValue(player_id, state.reward_count)
+
+    print(string.format("[InfluenceSystem] Tent %d | +%d | pool=%d / required=%d",
+        tent_id, value, pool, required))
+
+    while pool >= required do
+        print("[InfluenceSystem] Threshold reached — queuing free villager...")
+        if not IS_TryQueueVillager(tent_entity) then
+            print("[InfluenceSystem] Queue failed — aborting reward loop.")
+            break
+        end
+        pool = pool - required
+        state.reward_count = state.reward_count + 1
+        required = IS_GetRequiredValue(player_id, state.reward_count)
+        print(string.format("[InfluenceSystem] reward_count=%d | next required=%d",
+            state.reward_count, required))
+    end
+
+    state.huts[tent_id] = pool
+end
+
+------------------------------------------------------------------------
+-- GE_BuildItemComplete callback
+-- context.player       = PLAYER
+-- context.pbg          = PBG (squad blueprint)
+-- context.spawnedSquad = SQUAD (live, has position)
+------------------------------------------------------------------------
+function InfluenceSystem_OnBuildItemComplete(context)
+    if not _IS.started then return end
+
+    -- Guard all required context fields.
+    if context == nil
+        or context.player == nil
+        or context.pbg == nil
+        or context.spawnedSquad == nil then
+        return
+    end
+
+    local squad = context.spawnedSquad
+    if not Squad_IsValid(Squad_GetID(squad)) then
+        print("[InfluenceSystem] spawnedSquad is not valid — skipped.")
+        return
+    end
+
+    local player_id = context.player
+    local sbp       = context.pbg
+    local bp_name   = BP_GetName(sbp) or "unknown"
+
+    print("[InfluenceSystem] GE_BuildItemComplete: " .. bp_name)
+
+    -- Only process units with a real resource cost.
+    local cost_table = Player_GetSquadBPCost(player_id, sbp)
+    local total_cost = IS_SumCost(cost_table)
+
+    if total_cost <= 0 then
+        print("[InfluenceSystem] Ignored '" .. bp_name .. "': zero cost.")
+        return
+    end
+
+    print(string.format("[InfluenceSystem] '%s' cost: F=%s W=%s G=%s S=%s | total=%d",
+        bp_name,
+        tostring(cost_table and cost_table.food),
+        tostring(cost_table and cost_table.wood),
+        tostring(cost_table and cost_table.gold),
+        tostring(cost_table and cost_table.stone),
+        total_cost))
+
+    -- Use the squad's world position to find the nearest tent.
+    local spawn_pos = Squad_GetPosition(squad)
+    local tent = IS_FindNearestTent(player_id, spawn_pos)
+    if tent == nil then
+        print("[InfluenceSystem] No tent near spawn — influence not recorded.")
+        return
+    end
+
+    IS_AddValueToTent(tent, player_id, total_cost)
+end
+
+------------------------------------------------------------------------
+-- Public lifecycle (called from berber_future_kingdom_GM.scar)
+------------------------------------------------------------------------
+
+function inflence_system_start()
+    if _IS.started then return end
+
+    _IS.player_state = {}
+    _IS.villager_sbp = nil
+
+    Rule_AddGlobalEvent(InfluenceSystem_OnBuildItemComplete, GE_BuildItemComplete)
+    _IS.started = true
+    print("[InfluenceSystem] Started — listening to GE_BuildItemComplete.")
+end
+
+function inflence_system_stop()
+    if not _IS.started then return end
+
+    Rule_RemoveGlobalEvent(InfluenceSystem_OnBuildItemComplete)
+    _IS.started      = false
+    _IS.player_state = {}
+    _IS.villager_sbp = nil
+    print("[InfluenceSystem] Stopped.")
+end
+
+------------------------------------------------------------------------
+-- Core module framework callbacks
+------------------------------------------------------------------------
+
+function InfluenceSystem_OnInit()
+end
+
+function InfluenceSystem_Start()
+end
+
+function InfluenceSystem_OnGameOver()
+    inflence_system_stop()
+end

@@ -1,0 +1,185 @@
+------------------------------------------------------------------------
+-- Tribal Tent Alliance System
+------------------------------------------------------------------------
+
+Core_RegisterModule("TribalTent")
+
+local _tribal_tent = {
+	started = false,
+	tent_bp = nil,
+	market_bp = nil,
+	alliances = nil,
+}
+
+local TRIBAL_TENT_SWITCH_COST_GOLD = 100
+
+local function TribalTent_IsValidExecuter(entity)
+	return entity ~= nil
+		and scartype(entity) == ST_ENTITY
+		and Entity_IsValid(entity)
+		and not World_OwnsEntity(entity)
+		and Entity_GetBlueprint(entity) == _tribal_tent.tent_bp
+end
+
+local function TribalTent_FindAllianceByAbility(ability_bp)
+	for _, alliance in ipairs(_tribal_tent.alliances) do
+		if ability_bp == alliance.ability_bp then
+			return alliance
+		end
+	end
+
+	return nil
+end
+
+local function TribalTent_PlayerHasAnyAlliance(player)
+	for _, alliance in ipairs(_tribal_tent.alliances) do
+		if Player_HasUpgrade(player, alliance.upgrade_bp) then
+			return true
+		end
+	end
+
+	return false
+end
+
+local function TribalTent_IsQueuedAllianceUnit(alliance, queued_bp)
+	for _, unit_bp in ipairs(alliance.unit_squad_bps) do
+		if queued_bp == unit_bp then
+			return true
+		end
+	end
+
+	return false
+end
+
+local function TribalTent_CancelQueuedAllianceUnits(player, alliance)
+	local player_entities = EGroup_CreateUnique()
+	EGroup_AddEGroup(player_entities, Player_GetEntities(player))
+
+	for i = 1, EGroup_Count(player_entities) do
+		local entity = EGroup_GetEntityAt(player_entities, i)
+		if Entity_IsValid(entity)
+			and Entity_GetBlueprint(entity) == _tribal_tent.market_bp
+			and Entity_HasProductionQueue(entity) then
+			local queue_size = Entity_GetProductionQueueSize(entity)
+			for queue_index = queue_size - 1, 0, -1 do
+				if Entity_GetProductionQueueItemType(entity, queue_index) == PITEM_Spawn then
+					local queued_bp = Entity_GetProductionQueueItem(entity, queue_index)
+					if TribalTent_IsQueuedAllianceUnit(alliance, queued_bp) then
+						Entity_CancelProductionQueueItem(entity, queue_index)
+					end
+				end
+			end
+		end
+	end
+
+	EGroup_Destroy(player_entities)
+end
+
+local function TribalTent_RemoveOtherAlliances(player, target_alliance, cancel_queues)
+	for _, alliance in ipairs(_tribal_tent.alliances) do
+		if alliance ~= target_alliance and Player_HasUpgrade(player, alliance.upgrade_bp) then
+			if cancel_queues then
+				TribalTent_CancelQueuedAllianceUnits(player, alliance)
+			end
+			Player_RemoveUpgrade(player, alliance.upgrade_bp)
+		end
+	end
+end
+
+function TribalTent_OnAbilityExecuted(context)
+	if context == nil or context.ability == nil or not TribalTent_IsValidExecuter(context.executer) then
+		return
+	end
+
+	local target_alliance = TribalTent_FindAllianceByAbility(context.ability)
+	if target_alliance == nil then
+		return
+	end
+
+	local player = Entity_GetPlayerOwner(context.executer)
+	if player == nil then
+		return
+	end
+
+	-- The active alliance ability is hidden by tuning. If a malformed state
+	-- still executes it, reconcile duplicate markers without charging Gold.
+	if Player_HasUpgrade(player, target_alliance.upgrade_bp) then
+		TribalTent_RemoveOtherAlliances(player, target_alliance, true)
+		return
+	end
+
+	local is_switch = TribalTent_PlayerHasAnyAlliance(player)
+	if is_switch then
+		local current_gold = Player_GetResource(player, RT_Gold)
+		if current_gold < TRIBAL_TENT_SWITCH_COST_GOLD then
+			return
+		end
+
+		Player_SetResource(player, RT_Gold, current_gold - TRIBAL_TENT_SWITCH_COST_GOLD)
+	end
+
+	TribalTent_RemoveOtherAlliances(player, target_alliance, true)
+	Player_CompleteUpgrade(player, target_alliance.upgrade_bp)
+end
+
+local function TribalTent_ResolveBlueprints()
+	_tribal_tent.tent_bp = BP_GetEntityBlueprint("building_hut_ayy")
+	_tribal_tent.market_bp = BP_GetEntityBlueprint("building_econ_market_mal")
+	_tribal_tent.alliances = {
+		{
+			name = "sanhaja",
+			ability_bp = BP_GetAbilityBlueprint("grenade_throw_song_cmp"),
+			upgrade_bp = BP_GetUpgradeBlueprint("upgrade_cul_ancient_relics_ayy"),
+			unit_squad_bps = {
+				BP_GetSquadBlueprint("unit_sanhaja_ca_2_ber"),
+				BP_GetSquadBlueprint("unit_sanhaja_ca_3_ber"),
+				BP_GetSquadBlueprint("unit_sanhaja_ca_4_ber"),
+			},
+		},
+		{
+			name = "zenata",
+			ability_bp = BP_GetAbilityBlueprint("increase_armor_song_cmp"),
+			upgrade_bp = BP_GetUpgradeBlueprint("upgrade_cul_medical_centers_ayy"),
+			unit_squad_bps = {
+				BP_GetSquadBlueprint("unit_horseman_2_mal"),
+				BP_GetSquadBlueprint("unit_horseman_3_mal"),
+				BP_GetSquadBlueprint("unit_horseman_4_mal"),
+			},
+		},
+		{
+			name = "masmuda",
+			ability_bp = BP_GetAbilityBlueprint("increase_damage_song_cmp"),
+			upgrade_bp = BP_GetUpgradeBlueprint("upgrade_econ_agriculture_ayy"),
+			unit_squad_bps = {
+				BP_GetSquadBlueprint("unit_masmuda_cb_2_ber"),
+				BP_GetSquadBlueprint("unit_masmuda_cb_3_ber"),
+				BP_GetSquadBlueprint("unit_masmuda_cb_4_ber"),
+			},
+		},
+	}
+end
+
+function tribal_tent_start()
+	if _tribal_tent.started then
+		return
+	end
+
+	--TribalTent_ResolveBlueprints()
+	Rule_AddGlobalEvent(TribalTent_OnAbilityExecuted, GE_AbilityExecuted)
+	_tribal_tent.started = true
+end
+
+function TribalTent_OnInit()
+end
+
+function TribalTent_Start()
+end
+
+function TribalTent_OnGameOver()
+	if not _tribal_tent.started then
+		return
+	end
+
+	Rule_RemoveGlobalEvent(TribalTent_OnAbilityExecuted)
+	_tribal_tent.started = false
+end

@@ -1,0 +1,17 @@
+<instance version="4" description="Zenata Lancer Age II charge weapon" template="weapon">
+	<group name="weapon_bag">
+		<group name="behaviour">
+			<bool name="enable_auto_target_search" value="False" overrideParent="True" />
+		</group>
+		<group name="damage">
+			<float name="max" value="20" overrideParent="True" />
+			<float name="min" value="20" overrideParent="True" />
+		</group>
+		<string name="fx_munition_name" value="common_spear_tamba_charge" overrideParent="True" />
+		<list name="target_type_table" overrideParent="True">
+		</list>
+		<bool name="ui_show_on_tooltip" value="True" overrideParent="True" />
+	</group>
+	<uniqueid name="pbgid" value="2072972" />
+	<instance_reference name="parent_pbg" value="weapon\races\common\melee\weapon_horseman_1_charge" />
+</instance>

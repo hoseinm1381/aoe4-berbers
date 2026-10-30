@@ -1,0 +1,69 @@
+------------------------------------------------------------------------
+-- Berber Future Kingdom - Malian House Population Capacity System
+--
+-- Whenever a player builds a Malian House ("building_house_mal"):
+--   Sets the statemodel int property "population_cap_increase" to 10.
+------------------------------------------------------------------------
+
+Core_RegisterModule("MalianHouse")
+
+local _malian_house = {
+	started = false,
+	house_bp = nil,
+}
+
+local function MalianHouse_ApplyToEntity(entity)
+	if entity == nil or not Entity_IsValid(Entity_GetID(entity)) or World_OwnsEntity(entity) then
+		return
+	end
+	
+	local ebp = Entity_GetBlueprint(entity)
+	if ebp == _malian_house.house_bp then
+		Entity_SetStateModelInt(entity, "population_cap_increase", 10)
+		print("[MalianHouse] Updated house population_cap_increase statemodel int to 10.")
+	end
+end
+
+function MalianHouse_OnConstructionComplete(context)
+	if context == nil or context.entity == nil then return end
+	MalianHouse_ApplyToEntity(context.entity)
+end
+
+function malian_house_start()
+	if _malian_house.started then return end
+
+	_malian_house.house_bp = BP_GetEntityBlueprint("building_house_mal")
+
+	-- Retroactively update any pre-existing Malian houses for alive players
+	for player_index = 1, World_GetPlayerCount() do
+		local player_id = World_GetPlayerAt(player_index)
+		if Player_IsAlive(player_id) then
+			local eg = Player_GetEntities(player_id)
+			for i = 1, EGroup_Count(eg) do
+				MalianHouse_ApplyToEntity(EGroup_GetEntityAt(eg, i))
+			end
+		end
+	end
+
+	Rule_AddGlobalEvent(MalianHouse_OnConstructionComplete, GE_ConstructionComplete)
+	_malian_house.started = true
+	print("[MalianHouse] Module started, listening to GE_ConstructionComplete.")
+end
+
+function malian_house_stop()
+	if not _malian_house.started then return end
+	Rule_RemoveGlobalEvent(MalianHouse_OnConstructionComplete)
+	_malian_house.started = false
+	print("[MalianHouse] Module stopped.")
+end
+
+function MalianHouse_OnInit()
+end
+
+function MalianHouse_Start()
+	malian_house_start()
+end
+
+function MalianHouse_OnGameOver()
+	malian_house_stop()
+end

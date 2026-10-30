@@ -1,0 +1,38 @@
+<instance version="4" description="" template="sbps">
+	<list name="extensions">
+		<template_reference name="squadexts" value="sbpextensions\squad_ui_ext" List.ItemID="-860567808" List.ParentItemID="-860567808">
+			<list name="race_list">
+				<group name="race_data" List.ItemID="688466212" List.ParentItemID="688466212">
+					<group name="info">
+						<string name="selection_group" value="king_mal" overrideParent="True" />
+						<file name="flag_icon_override" value="berbers" overrideParent="True" />
+					</group>
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext" List.ItemID="2081176993" List.ParentItemID="2081176993">
+			<list name="unit_list">
+				<group name="loadout_data" List.ItemID="-452136274" List.ParentItemID="-452136274">
+					<instance_reference name="type" value="ebps\races\malian\units\unit_king_1_mal" overrideParent="True" />
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext" List.ItemID="-2048487164" List.ParentItemID="-2048487164">
+			<list name="squad_type_list" overrideParent="True">
+				<enum name="squad_type" value="king" List.ItemID="-1792239349" />
+				<enum name="squad_type" value="scar_age1" List.ItemID="999986660" />
+			</list>
+			<list name="squad_race_type_list" overrideParent="True">
+				<instance_reference name="squad_race_type" value="racebps\malian" overrideParent="True" List.ItemID="-2047160214" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_audio_ext" List.ItemID="-1564177448" List.ParentItemID="-1564177448">
+			<enum name="unit_type" value="maa_axe" overrideParent="True" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_group_ext" List.ItemID="-1120146292" List.ParentItemID="-1120146292">
+			<instance_reference name="default_formation_group_spot_generator" value="formation_group_spot_generator\land\land_box_fill_spot_generator" overrideParent="True" />
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="2993354" />
+	<instance_reference name="parent_pbg" value="sbps\races\core\unit_king_1" />
+</instance>

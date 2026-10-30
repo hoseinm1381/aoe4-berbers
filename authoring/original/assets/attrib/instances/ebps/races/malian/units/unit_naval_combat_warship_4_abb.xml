@@ -1,0 +1,111 @@
+<instance version="6" description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-638368952" List.ParentItemID="-638368952">
+			<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_naval_large_lateen" overrideParent="True" />
+			<bool name="browsable_in_editor" value="False" overrideParent="True" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1481453663" List.ParentItemID="-1481453663">
+			<list name="unit_type_list" overrideParent="True">
+				<enum name="unit_type" value="military" List.ItemID="1595981054" />
+				<enum name="unit_type" value="ship" List.ItemID="103824268" />
+				<enum name="unit_type" value="naval_broadside" List.ItemID="-733003926" />
+				<enum name="unit_type" value="naval_warship" List.ItemID="103932772" />
+				<enum name="unit_type" value="naval_unit" List.ItemID="-139949206" />
+				<enum name="unit_type" value="ranged" List.ItemID="-759793179" />
+				<enum name="unit_type" value="siegeable" List.ItemID="1144076811" />
+				<enum name="unit_type" value="annihilation_condition" List.ItemID="841118842" />
+				<enum name="unit_type" value="gunpowder" List.ItemID="-2035005199" />
+				<enum name="unit_type" value="naval_eastern" List.ItemID="1216231930" />
+				<enum name="unit_type" value="naval_military" overrideParent="True" List.ItemID="613461615" List.ParentItemID="-2059902898" />
+				<enum name="unit_type" value="massive" List.ItemID="812784254" />
+			</list>
+			<list name="race_type_list" overrideParent="True">
+				<instance_reference name="race_type" value="racebps\abbasid" List.ItemID="1471883610" />
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="1092792524" List.ParentItemID="1092792524">
+			<list name="hardpoints">
+				<group name="hardpoint" comment="AI Left 1" List.ItemID="1847161327" List.ParentItemID="1847161327">
+				</group>
+			</list>
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="-1265230428" List.ParentItemID="-1265230428">
+			<list name="tier_group_list">
+				<list name="tier_group" List.ItemID="86044439" List.ParentItemID="86044439">
+					<group name="tier" List.ItemID="1888019086" List.ParentItemID="1888019086">
+						<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\abbasid\units\tier4_naval_combat_warship_abb" overrideParent="True" />
+					</group>
+				</list>
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073741916" />
+	<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_naval_combat_warship_4" />
+	<variant name="campaign">
+		<list name="extensions">
+			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-718687731" List.ParentItemID="-718687731">
+				<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_naval_large_lateen" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-437980955" List.ParentItemID="-437980955">
+				<list name="race_type_list" overrideParent="True">
+					<instance_reference name="race_type" value="racebps\abbasid" List.ItemID="1281705526" />
+				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="1562115440" List.ParentItemID="1562115440">
+				<list name="tier_group_list">
+					<list name="tier_group" List.ItemID="1473829252" List.ParentItemID="1473829252">
+						<group name="tier" List.ItemID="1040271146" List.ParentItemID="1040271146">
+							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\abbasid\units\tier4_naval_combat_warship_abb" overrideParent="True" />
+						</group>
+					</list>
+				</list>
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="1073741916" />
+		<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_naval_combat_warship_4" />
+	</variant>
+	<variant name="xp3">
+		<list name="extensions">
+			<template_reference name="exts" value="ebpextensions\entity_blueprint_ext" List.ItemID="-638368952" List.ParentItemID="-638368952">
+				<instance_reference name="animator_attachments" value="attachments\attachment_lists\races\core\units\unit_naval_large_lateen" overrideParent="True" />
+				<bool name="browsable_in_editor" value="False" overrideParent="True" />
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\type_ext" List.ItemID="-1481453663" List.ParentItemID="-1481453663">
+				<list name="unit_type_list" overrideParent="True">
+					<enum name="unit_type" value="military" List.ItemID="766212468" />
+					<enum name="unit_type" value="ship" List.ItemID="1163740082" />
+					<enum name="unit_type" value="naval_broadside" List.ItemID="-962438404" />
+					<enum name="unit_type" value="naval_warship" List.ItemID="1185193407" />
+					<enum name="unit_type" value="naval_unit" List.ItemID="-423265281" />
+					<enum name="unit_type" value="ranged" List.ItemID="-2147086768" />
+					<enum name="unit_type" value="siegeable" List.ItemID="-1491362689" />
+					<enum name="unit_type" value="annihilation_condition" List.ItemID="-1062575196" />
+					<enum name="unit_type" value="gunpowder" List.ItemID="-2067491079" />
+					<enum name="unit_type" value="naval_eastern" List.ItemID="-1112469734" />
+					<enum name="unit_type" value="naval_military" overrideParent="True" List.ItemID="-478940426" List.ParentItemID="-2059902898" />
+					<enum name="unit_type" value="massive" List.ItemID="355738443" />
+				</list>
+				<list name="race_type_list" overrideParent="True">
+					<instance_reference name="race_type" value="racebps\abbasid" List.ItemID="597948627" />
+				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\combat_ext" List.ItemID="1092792524" List.ParentItemID="1092792524">
+				<list name="hardpoints">
+					<group name="hardpoint" comment="AI Left 1" List.ItemID="1847161327" List.ParentItemID="1847161327">
+					</group>
+				</list>
+			</template_reference>
+			<template_reference name="exts" value="ebpextensions\tier_ext" List.ItemID="-1265230428" List.ParentItemID="-1265230428">
+				<list name="tier_group_list">
+					<list name="tier_group" List.ItemID="86044439" List.ParentItemID="86044439">
+						<group name="tier" List.ItemID="1888019086" List.ParentItemID="1888019086">
+							<instance_reference name="attachments" value="attachments\attachment_lists\civilizations\abbasid\units\tier4_naval_combat_warship_abb" overrideParent="True" />
+						</group>
+					</list>
+				</list>
+			</template_reference>
+		</list>
+		<uniqueid name="pbgid" value="1073741916" />
+		<instance_reference name="parent_pbg" value="ebps\races\core\units\unit_naval_combat_warship_4" />
+	</variant>
+</instance>

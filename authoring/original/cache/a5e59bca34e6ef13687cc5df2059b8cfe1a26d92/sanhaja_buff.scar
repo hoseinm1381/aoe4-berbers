@@ -1,0 +1,29 @@
+-- 1. Initialize the script and start listening for completed buildings
+function MehariBuff_Init()
+    Rule_AddGlobalEvent(OnLandmarkConstructed, GE_ConstructionComplete)
+    print("Init called successfully")
+end
+
+-- 2. The event callback that checks WHICH building was constructed
+function OnLandmarkConstructed(context)
+    local built_entity = context.entity
+    local builder_player = context.player
+    
+    local entity_bp = Entity_GetBlueprint(built_entity)
+    local built_bp_name = BP_GetName(entity_bp)
+    
+    -- Use string.find to see if the name contains your landmark, ignoring the Mod ID prefix
+    if string.find(built_bp_name, "building_landmark_age1_landmarka_mal") then
+        
+        -- The path for your custom upgrade
+        local armor_upgrade_bp = BP_GetUpgradeBlueprint("races/malian/units/mehari/upgrade_mehari_armor_buff")
+        
+        -- Check if the player already has the upgrade
+        if not Player_HasUpgrade(builder_player, armor_upgrade_bp) then
+            -- Grant the upgrade instantly
+            Player_CompleteUpgrade(builder_player, armor_upgrade_bp)
+            print("SUCCESS - Upgrade Applied to Mehari units!")
+        end
+        
+    end
+end
