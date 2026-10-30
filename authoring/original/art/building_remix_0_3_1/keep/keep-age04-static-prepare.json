@@ -1,0 +1,115 @@
+{
+  "schema": "garrison.custom-static-authoring/v1",
+  "request": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\keep\\keep-age04-static-request.json",
+  "request_sha256": "ae6ab8d12d8659dd8040fffff8ba675dcca386124bcecef7b074f10e9f143213",
+  "manifest": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\keep-static-library\\age04\\Assets\\Custom\\b031\\kp4\\workspace.json",
+  "manifest_sha256": "2de07889ff63905f0a261075ee7adcd5f6f90cdb07b2fb7eea01ba5a42a22be5",
+  "asset_root": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\keep-static-library\\age04\\Assets\\Custom\\b031\\kp4",
+  "source_root": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\keep-static-library\\age04\\Assets\\Custom\\b031\\kp4\\source",
+  "generated_root": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\keep-static-library\\age04\\Assets\\Custom\\b031\\kp4\\generated",
+  "build_id": "20261015T041004Z-b31kp4",
+  "mesh_policy": "all recursive mesh objects in one Blender collection",
+  "material_policy": "non-destructive adopted Principled materials; multiple materials build as aligned one-material static parts using the confirmed RTC pattern",
+  "material_count": 1,
+  "runtime_build_supported": true,
+  "runtime_build_method": "single_static_asset",
+  "validation": {
+    "schema": "garrison.workspace-operation/v1",
+    "operation": "validate",
+    "workspace_manifest": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\keep-static-library\\age04\\Assets\\Custom\\b031\\kp4\\workspace.json",
+    "workspace_manifest_sha256": "2de07889ff63905f0a261075ee7adcd5f6f90cdb07b2fb7eea01ba5a42a22be5",
+    "workspace_id": "b031-kp4",
+    "asset": {
+      "id": "kp4",
+      "archetype": "static_visual_prop",
+      "logical_base": "art\\scenario\\b031\\kp4\\kp4",
+      "catalog_folder": "Custom/Berber/Buildings",
+      "material_count": 1
+    },
+    "inputs": {
+      "manifest": {
+        "exists": true,
+        "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\keep-static-library\\age04\\Assets\\Custom\\b031\\kp4\\workspace.json",
+        "size": 2078,
+        "sha256": "2de07889ff63905f0a261075ee7adcd5f6f90cdb07b2fb7eea01ba5a42a22be5"
+      },
+      "fbx": {
+        "exists": true,
+        "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\keep-static-library\\age04\\Assets\\Custom\\b031\\kp4\\source\\model.fbx",
+        "size": 41260,
+        "sha256": "b13467c99b61024862957d197da514b46a255fefdd91b1c79f23f7d516669bc1"
+      },
+      "blender_executable": {
+        "exists": true,
+        "path": "E:\\Blender5.2\\blender.exe",
+        "size": 113022936,
+        "sha256": "f141a3c5754500e6f84361099a4cd53f0bb7662b6a0d2cfaaa8fbb63e92234a0"
+      },
+      "material.keep_age04_earth.albedo": {
+        "exists": true,
+        "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\keep-static-library\\age04\\Assets\\Custom\\b031\\kp4\\source\\materials\\keep_age04_earth\\albedo.png",
+        "size": 4552,
+        "sha256": "43b06dc7074188aff3facfce70a7514fb245484b63c2911ac33359c1275c6295"
+      },
+      "material.keep_age04_earth.normal": {
+        "exists": true,
+        "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\keep-static-library\\age04\\Assets\\Custom\\b031\\kp4\\source\\materials\\keep_age04_earth\\normal.png",
+        "size": 1852,
+        "sha256": "4404e0b1772ae7b79c2de72b7b5295980a32531099f7ab41c887b8c20533eb2e"
+      },
+      "material.keep_age04_earth.roughness": {
+        "exists": true,
+        "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\keep-static-library\\age04\\Assets\\Custom\\b031\\kp4\\source\\materials\\keep_age04_earth\\roughness.png",
+        "size": 1853,
+        "sha256": "a1c3bbeba2cda1e9aac9c45d0df1f287a6a7fd197d855aab380f218ad76327cf"
+      },
+      "material.keep_age04_earth.metalness": {
+        "exists": true,
+        "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\keep-static-library\\age04\\Assets\\Custom\\b031\\kp4\\source\\materials\\keep_age04_earth\\metalness.png",
+        "size": 1854,
+        "sha256": "f3e97b56fcdc4167501af51cb2ecd1afaf7e6f94c0a767fb6d0af9c75b4a6390"
+      },
+      "cook_editor": {
+        "exists": true,
+        "path": "C:\\Users\\RS\\AppData\\Local\\Garrison\\Kit\\tools\\essence-object-editor\\EssenceEditor.exe",
+        "size": 10231608,
+        "sha256": "2ff1278eed5b1a6e163e6d78e04ad768dc38e4c198f6354069c99bed9e8f84e8"
+      }
+    },
+    "gates": [
+      {
+        "id": "manifest_valid",
+        "status": "passed",
+        "detail": "schema garrison.blender-workspace/v2"
+      },
+      {
+        "id": "archetype_supported",
+        "status": "passed",
+        "detail": "static_visual_prop"
+      },
+      {
+        "id": "source_files_present",
+        "status": "passed",
+        "detail": "required source files and Blender executable exist"
+      },
+      {
+        "id": "template_project_present",
+        "status": "passed",
+        "detail": "template project directory: C:\\Users\\RS\\AppData\\Local\\Garrison\\Kit\\template-project"
+      },
+      {
+        "id": "output_project_is_new",
+        "status": "passed",
+        "detail": "output must not already exist: C:\\Users\\RS\\AppData\\Local\\Temp\\garrison-builds\\20261015T041004Z-b31kp4\\project"
+      },
+      {
+        "id": "cook_ready",
+        "status": "passed",
+        "detail": "cook editor exists and run root is new"
+      }
+    ],
+    "first_failed_gate": null,
+    "success": true
+  },
+  "success": true
+}

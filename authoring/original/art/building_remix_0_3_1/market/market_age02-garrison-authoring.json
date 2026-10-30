@@ -1,0 +1,155 @@
+{
+  "request": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\market-static-prep\\Assets\\Custom\\b031\\m2\\.garrison\\requests\\berber-031-market-age02.json",
+  "asset_root": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\market-static-prep\\Assets\\Custom\\b031\\m2",
+  "source_fbx": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\market-static-prep\\Assets\\Custom\\b031\\m2\\source\\model.fbx",
+  "materials": [
+    {
+      "id": "market_age02_cedar",
+      "source_name": "031 Market cedar timber",
+      "mesh_name": "geo_mat_market_age02_cedar",
+      "textures": {
+        "albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\market-static-prep\\Assets\\Custom\\b031\\m2\\source\\materials\\market_age02_cedar\\albedo.png",
+        "normal": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\market-static-prep\\Assets\\Custom\\b031\\m2\\source\\materials\\market_age02_cedar\\normal.png",
+        "roughness": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\market-static-prep\\Assets\\Custom\\b031\\m2\\source\\materials\\market_age02_cedar\\roughness.png",
+        "metalness": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\market-static-prep\\Assets\\Custom\\b031\\m2\\source\\materials\\market_age02_cedar\\metalness.png"
+      },
+      "bindings": {
+        "albedo": {
+          "kind": "image",
+          "image_name": "031 Market cedar timber source albedo",
+          "node_name": "Image Texture",
+          "output": "Color",
+          "colorspace": "sRGB",
+          "size": [
+            64,
+            64
+          ],
+          "packed": true,
+          "filepath": "e:\\age of empires 4 mods\\ai_assisted_modding\\berber_future_kingdom_ai\\art\\building_remix_0_3_1\\market\\textures\\031_market_cedar_timber_age02.png"
+        },
+        "normal": {
+          "kind": "constant",
+          "value": [
+            0.5,
+            0.5,
+            1.0,
+            1.0
+          ]
+        },
+        "roughness": {
+          "kind": "constant",
+          "value": 0.5
+        },
+        "metalness": {
+          "kind": "constant",
+          "value": 0.0
+        }
+      },
+      "usage": {
+        "objects": [
+          "geo_mat_market_age02_cedar"
+        ],
+        "faces": 48
+      }
+    },
+    {
+      "id": "market_age02_earth",
+      "source_name": "031 Market earthen plaster",
+      "mesh_name": "geo_mat_market_age02_earth",
+      "textures": {
+        "albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\market-static-prep\\Assets\\Custom\\b031\\m2\\source\\materials\\market_age02_earth\\albedo.png",
+        "normal": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\market-static-prep\\Assets\\Custom\\b031\\m2\\source\\materials\\market_age02_earth\\normal.png",
+        "roughness": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\market-static-prep\\Assets\\Custom\\b031\\m2\\source\\materials\\market_age02_earth\\roughness.png",
+        "metalness": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\market-static-prep\\Assets\\Custom\\b031\\m2\\source\\materials\\market_age02_earth\\metalness.png"
+      },
+      "bindings": {
+        "albedo": {
+          "kind": "image",
+          "image_name": "031 Market earthen plaster source albedo",
+          "node_name": "Image Texture",
+          "output": "Color",
+          "colorspace": "sRGB",
+          "size": [
+            64,
+            64
+          ],
+          "packed": true,
+          "filepath": "e:\\age of empires 4 mods\\ai_assisted_modding\\berber_future_kingdom_ai\\art\\building_remix_0_3_1\\market\\textures\\031_market_earthen_plaster_age02.png"
+        },
+        "normal": {
+          "kind": "constant",
+          "value": [
+            0.5,
+            0.5,
+            1.0,
+            1.0
+          ]
+        },
+        "roughness": {
+          "kind": "constant",
+          "value": 0.5
+        },
+        "metalness": {
+          "kind": "constant",
+          "value": 0.0
+        }
+      },
+      "usage": {
+        "objects": [
+          "geo_mat_market_age02_earth"
+        ],
+        "faces": 482
+      }
+    },
+    {
+      "id": "market_age02_stone",
+      "source_name": "031 Market stone trim",
+      "mesh_name": "geo_mat_market_age02_stone",
+      "textures": {
+        "albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\market-static-prep\\Assets\\Custom\\b031\\m2\\source\\materials\\market_age02_stone\\albedo.png",
+        "normal": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\market-static-prep\\Assets\\Custom\\b031\\m2\\source\\materials\\market_age02_stone\\normal.png",
+        "roughness": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\market-static-prep\\Assets\\Custom\\b031\\m2\\source\\materials\\market_age02_stone\\roughness.png",
+        "metalness": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\market-static-prep\\Assets\\Custom\\b031\\m2\\source\\materials\\market_age02_stone\\metalness.png"
+      },
+      "bindings": {
+        "albedo": {
+          "kind": "image",
+          "image_name": "031 Market stone trim source albedo",
+          "node_name": "Image Texture",
+          "output": "Color",
+          "colorspace": "sRGB",
+          "size": [
+            64,
+            64
+          ],
+          "packed": true,
+          "filepath": "e:\\age of empires 4 mods\\ai_assisted_modding\\berber_future_kingdom_ai\\art\\building_remix_0_3_1\\market\\textures\\031_market_stone_trim_age02.png"
+        },
+        "normal": {
+          "kind": "constant",
+          "value": [
+            0.5,
+            0.5,
+            1.0,
+            1.0
+          ]
+        },
+        "roughness": {
+          "kind": "constant",
+          "value": 0.5
+        },
+        "metalness": {
+          "kind": "constant",
+          "value": 0.0
+        }
+      },
+      "usage": {
+        "objects": [
+          "geo_mat_market_age02_stone"
+        ],
+        "faces": 146
+      }
+    }
+  ],
+  "status": "source prepared; run garrison-core static prepare then coordinator cook"
+}

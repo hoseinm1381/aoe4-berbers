@@ -1,0 +1,29 @@
+{
+  "source_model": "art/civilizations/byzantine/structures/mercenary_barracks/byz_mercenary_barracks_control_age02/byz_mercenary_barracks_control_age02.rgm",
+  "materials": [
+    {
+      "material": "extra",
+      "stock_texture": "art/material_library/substances/structures/brick/str_brick_wall_40_alb",
+      "stock_image": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_030\\4550424ff074a6ab50fd\\textures\\60e61b7f6958_11368840126660400323_packed.dds",
+      "stock_sha256": "525ddea3c91cbb21a4f470a9fcb3367a93282a3de4f573b48f47b4cc7dea22d5",
+      "source_toned": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_0\\market\\annex_source\\extra_byzantine_toned.png",
+      "toned_sha256": "e5eac64b06afe83cba37fd0707a21283d3e995e0895033ed31dffb8d6533733f"
+    },
+    {
+      "material": "main",
+      "stock_texture": "art/material_library/substances/structures/brick/str_brick_wall_40_alb",
+      "stock_image": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_030\\4550424ff074a6ab50fd\\textures\\60e61b7f6958_11368840126660400323_packed.dds",
+      "stock_sha256": "525ddea3c91cbb21a4f470a9fcb3367a93282a3de4f573b48f47b4cc7dea22d5",
+      "source_toned": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_0\\market\\annex_source\\main_byzantine_toned.png",
+      "toned_sha256": "e5eac64b06afe83cba37fd0707a21283d3e995e0895033ed31dffb8d6533733f"
+    },
+    {
+      "material": "roof",
+      "stock_texture": "art/material_library/substances/structures/stone/str_stone_floor_09_alb",
+      "stock_image": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_030\\4550424ff074a6ab50fd\\textures\\0c1afa87ad36_7083286764534073547_packed.dds",
+      "stock_sha256": "b4952cc7926774e5236ad3610feef5c66ed9646e441fc7fcb5329fc27b0ef216",
+      "source_toned": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_0\\market\\annex_source\\roof_byzantine_toned.png",
+      "toned_sha256": "fd17aeb08b0903ed3cd47deedb1619e87c594efc11dd7d76b7fc28289daadde8"
+    }
+  ]
+}

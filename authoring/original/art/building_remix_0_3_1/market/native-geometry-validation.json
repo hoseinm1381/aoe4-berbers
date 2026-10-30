@@ -1,0 +1,112 @@
+{
+  "status": "passed",
+  "models": [
+    {
+      "name": "market_age02",
+      "stock_model": "art/civilizations/abbasids/structures/market/abb_market_control_age02/abb_market_control_age02.rgm",
+      "stock_geometry": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_030\\1ab6b9d2f7f10490f630\\source\\art\\civilizations\\abbasids\\structures\\market\\abb_market_control_age02\\abb_market_control_age02.rrgeom",
+      "stock_sha256": "cb7b22dbb2170d3ec3ad1f5ac54bce56c87c294e487162bd21573cba296c847e",
+      "native_geometry": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\market\\Berber_market_age02_0_3_1.rrgeom",
+      "native_sha256": "410c52379beaeba218f3211fd02580bc8398f27a0bb28d296110ab0183cb7310",
+      "projection": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\market\\Berber_market_age02_0_3_1-projection.json",
+      "groups": [
+        {
+          "group": 0,
+          "vertices": 27385,
+          "changed_vertices": 23785,
+          "max_displacement_m": 2.7324
+        },
+        {
+          "group": 1,
+          "vertices": 5897,
+          "changed_vertices": 5397,
+          "max_displacement_m": 2.5059
+        },
+        {
+          "group": 2,
+          "vertices": 24188,
+          "changed_vertices": 21206,
+          "max_displacement_m": 2.6191
+        }
+      ],
+      "contact_vertices_unchanged_below_z": 0.45,
+      "uv_indices_opaque_chunks_unchanged": true
+    },
+    {
+      "name": "market_age03",
+      "stock_model": "art/civilizations/abbasids/structures/market/abb_market_control_age03/abb_market_control_age03.rgm",
+      "stock_geometry": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_030\\443d0fc1dd5ea4fd7ec1\\source\\art\\civilizations\\abbasids\\structures\\market\\abb_market_control_age03\\abb_market_control_age03.rrgeom",
+      "stock_sha256": "98e9d20ca985b91de90e633eae3f4dfbcaadab5fdfddbb67eb398529d485c42a",
+      "native_geometry": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\market\\Berber_market_age03_0_3_1.rrgeom",
+      "native_sha256": "fb5cd4a6e1d4f35461fbe199769f3dee9dd12b63f8b72083ad190107dcaeea38",
+      "projection": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\market\\Berber_market_age03_0_3_1-projection.json",
+      "groups": [
+        {
+          "group": 0,
+          "vertices": 27469,
+          "changed_vertices": 23521,
+          "max_displacement_m": 2.4219
+        },
+        {
+          "group": 1,
+          "vertices": 6292,
+          "changed_vertices": 5923,
+          "max_displacement_m": 2.4062
+        },
+        {
+          "group": 2,
+          "vertices": 23725,
+          "changed_vertices": 20785,
+          "max_displacement_m": 2.3184
+        }
+      ],
+      "contact_vertices_unchanged_below_z": 0.45,
+      "uv_indices_opaque_chunks_unchanged": true
+    },
+    {
+      "name": "market_age04",
+      "stock_model": "art/civilizations/abbasids/structures/market/abb_market_control_age04/abb_market_control_age04.rgm",
+      "stock_geometry": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_030\\aafbb12f25726ee3a0fb\\source\\art\\civilizations\\abbasids\\structures\\market\\abb_market_control_age04\\abb_market_control_age04.rrgeom",
+      "stock_sha256": "81c7a94d222e1a1ee464623b86be2edd646f97670fd127e750848a14884a8a3b",
+      "native_geometry": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\market\\Berber_market_age04_0_3_1.rrgeom",
+      "native_sha256": "9967cfbef5565b55913e89a96b84a363d4e8ab221ccc94cb648a2292b4ebc47e",
+      "projection": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\market\\Berber_market_age04_0_3_1-projection.json",
+      "groups": [
+        {
+          "group": 0,
+          "vertices": 16373,
+          "changed_vertices": 13169,
+          "max_displacement_m": 2.2676
+        },
+        {
+          "group": 1,
+          "vertices": 20659,
+          "changed_vertices": 19445,
+          "max_displacement_m": 2.5684
+        },
+        {
+          "group": 2,
+          "vertices": 14160,
+          "changed_vertices": 11185,
+          "max_displacement_m": 2.0039
+        },
+        {
+          "group": 3,
+          "vertices": 4419,
+          "changed_vertices": 3684,
+          "max_displacement_m": 2.0039
+        },
+        {
+          "group": 4,
+          "vertices": 27844,
+          "changed_vertices": 27844,
+          "max_displacement_m": 2.2715
+        }
+      ],
+      "contact_vertices_unchanged_below_z": 0.45,
+      "uv_indices_opaque_chunks_unchanged": true
+    }
+  ],
+  "cook": "pending",
+  "native_runtime": "pending"
+}

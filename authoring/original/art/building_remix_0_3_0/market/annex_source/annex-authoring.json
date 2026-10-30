@@ -1,0 +1,157 @@
+{
+  "status": "prepared source and request; native static cook pending",
+  "request": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_0\\annex-library\\Assets\\Custom\\b030\\aa\\.garrison\\requests\\berber-030-market-annex-001.json",
+  "report": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_0\\annex-library\\Assets\\Custom\\b030\\aa\\.garrison\\reports\\berber-030-market-annex-001.prepare.json",
+  "blend": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_0\\market\\annex_source\\Berber_Market_Byzantine_Annex_Age2_0_3_0.blend",
+  "faces": 12049,
+  "preflight_ok": true,
+  "materials": [
+    {
+      "id": "annex_extra",
+      "source_name": "annex_extra",
+      "mesh_name": "geo_mat_annex_extra",
+      "textures": {
+        "albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_0\\annex-library\\Assets\\Custom\\b030\\aa\\source\\materials\\annex_extra\\albedo.png",
+        "normal": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_0\\annex-library\\Assets\\Custom\\b030\\aa\\source\\materials\\annex_extra\\normal.png",
+        "roughness": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_0\\annex-library\\Assets\\Custom\\b030\\aa\\source\\materials\\annex_extra\\roughness.png",
+        "metalness": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_0\\annex-library\\Assets\\Custom\\b030\\aa\\source\\materials\\annex_extra\\metalness.png"
+      },
+      "bindings": {
+        "albedo": {
+          "kind": "image",
+          "image_name": "extra_byzantine_toned.png",
+          "node_name": "Official donor albedo, Berber earthen tone",
+          "output": "Color",
+          "colorspace": "sRGB",
+          "size": [
+            512,
+            512
+          ],
+          "packed": false,
+          "filepath": "e:\\age of empires 4 mods\\ai_assisted_modding\\berber_future_kingdom_ai\\art\\building_remix_0_3_0\\market\\annex_source\\extra_byzantine_toned.png"
+        },
+        "normal": {
+          "kind": "constant",
+          "value": [
+            0.5,
+            0.5,
+            1.0,
+            1.0
+          ]
+        },
+        "roughness": {
+          "kind": "constant",
+          "value": 0.8399999737739563
+        },
+        "metalness": {
+          "kind": "constant",
+          "value": 0.0
+        }
+      },
+      "usage": {
+        "objects": [
+          "geo_mat_annex_extra"
+        ],
+        "faces": 3390
+      }
+    },
+    {
+      "id": "annex_main",
+      "source_name": "annex_main",
+      "mesh_name": "geo_mat_annex_main",
+      "textures": {
+        "albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_0\\annex-library\\Assets\\Custom\\b030\\aa\\source\\materials\\annex_main\\albedo.png",
+        "normal": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_0\\annex-library\\Assets\\Custom\\b030\\aa\\source\\materials\\annex_main\\normal.png",
+        "roughness": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_0\\annex-library\\Assets\\Custom\\b030\\aa\\source\\materials\\annex_main\\roughness.png",
+        "metalness": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_0\\annex-library\\Assets\\Custom\\b030\\aa\\source\\materials\\annex_main\\metalness.png"
+      },
+      "bindings": {
+        "albedo": {
+          "kind": "image",
+          "image_name": "main_byzantine_toned.png",
+          "node_name": "Official donor albedo, Berber earthen tone",
+          "output": "Color",
+          "colorspace": "sRGB",
+          "size": [
+            512,
+            512
+          ],
+          "packed": false,
+          "filepath": "e:\\age of empires 4 mods\\ai_assisted_modding\\berber_future_kingdom_ai\\art\\building_remix_0_3_0\\market\\annex_source\\main_byzantine_toned.png"
+        },
+        "normal": {
+          "kind": "constant",
+          "value": [
+            0.5,
+            0.5,
+            1.0,
+            1.0
+          ]
+        },
+        "roughness": {
+          "kind": "constant",
+          "value": 0.8399999737739563
+        },
+        "metalness": {
+          "kind": "constant",
+          "value": 0.0
+        }
+      },
+      "usage": {
+        "objects": [
+          "geo_mat_annex_main"
+        ],
+        "faces": 6324
+      }
+    },
+    {
+      "id": "annex_roof",
+      "source_name": "annex_roof",
+      "mesh_name": "geo_mat_annex_roof",
+      "textures": {
+        "albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_0\\annex-library\\Assets\\Custom\\b030\\aa\\source\\materials\\annex_roof\\albedo.png",
+        "normal": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_0\\annex-library\\Assets\\Custom\\b030\\aa\\source\\materials\\annex_roof\\normal.png",
+        "roughness": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_0\\annex-library\\Assets\\Custom\\b030\\aa\\source\\materials\\annex_roof\\roughness.png",
+        "metalness": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_0\\annex-library\\Assets\\Custom\\b030\\aa\\source\\materials\\annex_roof\\metalness.png"
+      },
+      "bindings": {
+        "albedo": {
+          "kind": "image",
+          "image_name": "roof_byzantine_toned.png",
+          "node_name": "Official donor albedo, Berber earthen tone",
+          "output": "Color",
+          "colorspace": "sRGB",
+          "size": [
+            512,
+            512
+          ],
+          "packed": false,
+          "filepath": "e:\\age of empires 4 mods\\ai_assisted_modding\\berber_future_kingdom_ai\\art\\building_remix_0_3_0\\market\\annex_source\\roof_byzantine_toned.png"
+        },
+        "normal": {
+          "kind": "constant",
+          "value": [
+            0.5,
+            0.5,
+            1.0,
+            1.0
+          ]
+        },
+        "roughness": {
+          "kind": "constant",
+          "value": 0.8399999737739563
+        },
+        "metalness": {
+          "kind": "constant",
+          "value": 0.0
+        }
+      },
+      "usage": {
+        "objects": [
+          "geo_mat_annex_roof"
+        ],
+        "faces": 2335
+      }
+    }
+  ]
+}

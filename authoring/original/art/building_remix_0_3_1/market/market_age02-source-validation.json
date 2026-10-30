@@ -1,0 +1,83 @@
+{
+  "model": "market_age02",
+  "stock_donor": "art/civilizations/abbasids/structures/market/abb_market_control_age02/abb_market_control_age02.rgm",
+  "stock_geometry": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_030\\1ab6b9d2f7f10490f630\\source\\art\\civilizations\\abbasids\\structures\\market\\abb_market_control_age02\\abb_market_control_age02.rrgeom",
+  "native_projection": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\market\\Berber_market_age02_0_3_1-projection.json",
+  "changed_donor_vertices": 50388,
+  "donor_bounds": [
+    [
+      -4.421875,
+      -2.908203125,
+      -1.599609375
+    ],
+    [
+      3.0,
+      2.92578125,
+      5.0546875
+    ]
+  ],
+  "core_bounds": [
+    [
+      -4.421875,
+      -2.908203125,
+      -1.599609375
+    ],
+    [
+      3.0,
+      2.92578125,
+      2.55859375
+    ]
+  ],
+  "combined_bounds": [
+    [
+      -4.421875,
+      -2.908203125,
+      -1.599609375
+    ],
+    [
+      3.0,
+      2.92578125,
+      4.019999980926514
+    ]
+  ],
+  "architecture_objects": 26,
+  "contacts": [
+    {
+      "child": "Portal upper mass",
+      "parent": "Gate carved lintel",
+      "signed_gap_m": -0.05
+    },
+    {
+      "child": "Gate carved lintel",
+      "parent": "Portal arch crown",
+      "signed_gap_m": -0.01
+    },
+    {
+      "child": "left continuous arcade parapet",
+      "parent": "left courtyard arcade bays",
+      "signed_gap_m": -0.05
+    },
+    {
+      "child": "left pitched timber awning",
+      "parent": "left cedar shade beam",
+      "signed_gap_m": -0.08
+    },
+    {
+      "child": "right continuous arcade parapet",
+      "parent": "right courtyard arcade bays",
+      "signed_gap_m": -0.05
+    },
+    {
+      "child": "right pitched timber awning",
+      "parent": "right cedar shade beam",
+      "signed_gap_m": -0.08
+    }
+  ],
+  "blend": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\market\\Berber_market_age02_0_3_1.blend",
+  "fbx": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\market\\Berber_market_age02_0_3_1_courtyard_kit.fbx",
+  "source_texture_directory": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\market\\textures",
+  "native_owner_colour_materials_retained_on_core": true,
+  "source_validation": "passed",
+  "native_cook": "pending",
+  "game_test": "pending"
+}

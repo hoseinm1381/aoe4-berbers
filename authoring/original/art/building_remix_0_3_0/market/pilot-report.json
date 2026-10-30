@@ -1,0 +1,44 @@
+{
+  "status": "source-only pilot",
+  "blend": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_0\\market\\Berber_Tribal_Market_Age2_PILOT.blend",
+  "market_logical_path": "art/civilizations/abbasids/structures/market/abb_market_control_age02/abb_market_control_age02.rgm",
+  "byzantine_logical_path": "art/civilizations/byzantine/structures/mercenary_barracks/byz_mercenary_barracks_control_age02/byz_mercenary_barracks_control_age02.rgm",
+  "market_bounds": [
+    [
+      -4.421875,
+      -2.908203125,
+      -1.599609375
+    ],
+    [
+      3.0,
+      2.92578125,
+      5.0546875
+    ]
+  ],
+  "graft_bounds": [
+    [
+      0.7834999561309814,
+      1.0016796588897705,
+      -1.6000195741653442
+    ],
+    [
+      2.9718751907348633,
+      2.8338987827301025,
+      2.7450389862060547
+    ]
+  ],
+  "composite_bounds": {
+    "min": [
+      -4.421875,
+      -2.908203125,
+      -1.6000195741653442
+    ],
+    "max": [
+      3.0,
+      2.92578125,
+      5.0546875
+    ]
+  },
+  "byzantine_retained_faces": 12049,
+  "runtime_acceptance": "not yet tested"
+}
