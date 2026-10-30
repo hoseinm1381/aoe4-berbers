@@ -1,40 +1,74 @@
-"""Run in BACKGROUND Blender on restored copies, never on the old project.
+"""Make checked-out Blender image paths relative; geometry stays unchanged.
 
-blender --background --factory-startup --python tools/relocate_blends.py -- AUTHORING
+blender --background --factory-startup --python tools/relocate_blends.py -- [--check]
+Only indexed repository masters are opened, with embedded Python disabled.
 """
-import bpy
+import argparse
+import hashlib
 import json
+import ntpath
 import sys
 from pathlib import Path
+import bpy
 
-root=Path(sys.argv[sys.argv.index('--')+1]).resolve()
-assert (root/'RESTORE_RECEIPT.json').is_file(),'Not a verified editable-master restoration'
-index=json.loads((Path(__file__).resolve().parents[1]/'source/master-index.json').read_text())
-by_original={x['original'].replace('\\','/').lower():x for x in index['files']}
-prefixes=[('E:/age of empires 4 mods/AI_Assisted_modding/Berber_future_kingdom_ai',root/'original'),
-          ('F:/aoe_4_temp/Berber_future_kingdom_ai_20261014',root/'external')]
-count=0
-for path in sorted(root.rglob('*.blend')):
-    assert path.resolve().is_relative_to(root)
-    bpy.ops.wm.open_mainfile(filepath=str(path),load_ui=False,use_scripts=False)
-    changed=False
-    for item in [*bpy.data.images,*bpy.data.libraries]:
-        if isinstance(item,bpy.types.Image) and item.packed_file:
+ROOT = Path(__file__).resolve().parents[1]
+AUTHORING = ROOT/'authoring'
+parser = argparse.ArgumentParser()
+parser.add_argument('--check', action='store_true')
+args = parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
+index = json.loads((ROOT/'source/master-index.json').read_text())['files']
+by_original = {ntpath.normcase(ntpath.normpath(x['original'])): x for x in index}
+receipt_path = ROOT/'source/portable-masters.json'
+receipt = json.loads(receipt_path.read_text()) if receipt_path.exists() else {'schema':'berbers.portable-masters/v1','files':{}}
+relocated, checked, dependencies = 0, 0, 0
+
+
+def sha(path):
+    with path.open('rb') as stream:
+        return hashlib.file_digest(stream,'sha256').hexdigest()
+
+
+for row in index:
+    if not row['path'].lower().endswith('.blend'):
+        continue
+    path = (AUTHORING/row['path']).resolve()
+    assert path.is_relative_to(AUTHORING.resolve()) and path.is_file(), path
+    expected = receipt['files'].get(row['path'], row)
+    assert sha(path) == expected['sha256'], f'Existing user edits protected: {path}'
+    bpy.ops.wm.open_mainfile(filepath=str(path), load_ui=False, use_scripts=False)
+    changed = False
+    for item in [*bpy.data.images, *bpy.data.libraries]:
+        if isinstance(item,bpy.types.Image) and (item.packed_file or item.source in ('GENERATED','VIEWER')):
             continue
-        if not item.filepath:continue
-        current=item.filepath.replace('\\','/')
-        for old,new in prefixes:
-            if current.lower().startswith(old.lower()+'/'):
-                target=new/current[len(old)+1:]
-                if isinstance(item,bpy.types.Image) and len(str(target))>230:
-                    row=by_original[current.lower()]
-                    target=root/'_images'/(row['sha256']+target.suffix.lower())
-                assert target.exists(),target
-                item.filepath=str(target)
-                changed=True
-                break
+        if not item.filepath:
+            continue
+        current = item.filepath
+        if current.startswith('//'):
+            target = Path(bpy.path.abspath(current)).resolve()
+            original = ntpath.join(ntpath.dirname(row['original']), current[2:])
+        else:
+            target = Path(current)
+            original = current
+        if not target.is_file():
+            match = by_original.get(ntpath.normcase(ntpath.normpath(original)))
+            assert match, f'Unmapped dependency in {path}: {current}'
+            target = AUTHORING/match['path']
+        target = target.resolve()
+        assert target.is_relative_to(AUTHORING.resolve()) and target.is_file(), target
+        portable = bpy.path.relpath(str(target), start=str(path.parent))
+        assert portable.startswith('//')
+        dependencies += 1
+        if item.filepath != portable:
+            assert not args.check, f'Nonportable dependency in {path}: {current}'
+            item.filepath = portable
+            changed = True
     if changed:
-        bpy.context.preferences.filepaths.save_version=0
-        bpy.ops.wm.save_as_mainfile(filepath=str(path))
-        count+=1
-print('RELOCATED_RESTORED_BLENDS',count,flush=True)
+        bpy.context.preferences.filepaths.save_version = 0
+        bpy.ops.wm.save_as_mainfile(filepath=str(path), relative_remap=False)
+        receipt['files'][row['path']] = {'bytes':path.stat().st_size,'sha256':sha(path),'original_sha256':row['sha256'],'change':'external image/library paths made repository-relative'}
+        relocated += 1
+    checked += 1
+if not args.check:
+    receipt.update(checked_blends=checked, external_dependencies=dependencies, geometry_edits=False)
+    receipt_path.write_text(json.dumps(receipt,indent=2)+'\n',encoding='utf-8')
+print('BLENDER_MASTERS_VERIFIED',checked,'EXTERNAL_DEPENDENCIES',dependencies,'RELOCATED',relocated,flush=True)

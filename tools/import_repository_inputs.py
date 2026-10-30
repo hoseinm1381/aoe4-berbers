@@ -97,7 +97,7 @@ def main():
         number += 1
         pathspec = Path(tempfile.gettempdir())/'berbers-git-paths'
         pathspec.write_bytes(b'\0'.join(p.encode() for p in batch)+b'\0')
-        git('add', '--pathspec-from-file='+str(pathspec), '--pathspec-file-nul')
+        git('add', '--force', '--pathspec-from-file='+str(pathspec), '--pathspec-file-nul')
         result = subprocess.run(['git', 'diff', '--cached', '--quiet'], cwd=ROOT)
         if result.returncode == 1:
             git('commit', '-m', f'Preserve editable masters and native inputs in repository ({number})')

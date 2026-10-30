@@ -1,7 +1,7 @@
-output/
-release/
-rollback/
-authoring-library/
+/output/
+/release/
+/rollback/
+/authoring-library/
 inputs/*.zip
 inputs/*.download
 __pycache__/
