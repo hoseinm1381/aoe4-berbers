@@ -1,0 +1,21 @@
+{
+  "schema": "berbers.repository-import/v1",
+  "editable_files": 10726,
+  "editable_bytes": 6788827653,
+  "native_files": 2482,
+  "native_bytes": 761746445,
+  "lfs_paths": [
+    "authoring/external/research/buildings_batch/mosque/stock/fc9f4455684be7b00d96/decoded-static.json",
+    "authoring/external/research/buildings_batch/keep/stock/7f2cd0f1f63c20f3f617/decoded-static.json",
+    "authoring/external/research/buildings_batch/grand_keep/stock/7f2cd0f1f63c20f3f617/decoded-static.json",
+    "authoring/external/output/shared_stock_cache/buildings_031/7f2cd0f1f63c20f3f617/decoded-static.json",
+    "authoring/external/output/shared_stock_cache/buildings_031/fc9f4455684be7b00d96/decoded-static.json",
+    "authoring/external/output/shared_stock_cache/buildings_031/4776ae8c311fd4453442/decoded-static.json",
+    "authoring/external/output/berber_update_0_2_6/authors/towncenter/stock/d3a1fa73bdda9ca96018/decoded-static.json",
+    "authoring/external/output/berber_update_0_2_6/authors/barracks/stock/dfcfdbdd7194bafe69b8/decoded-static.json"
+  ],
+  "whole_files": true,
+  "separate_downloads_required": false,
+  "all_source_hashes_verified": true,
+  "playable_zip_sha256": "b8c016ecfba0c4fab3a210bd4b4a58eed6a088fbbe8dac759f65a35c19e9f7dd"
+}
