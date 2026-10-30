@@ -5,16 +5,16 @@ then publishes the release. Source push is a separate reviewed Git command.
 """
 import argparse
 import hashlib
-import http.client
 import json
 import os
-import socket
 import subprocess
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
+import requests
+from urllib3.util.retry import Retry
 
 ROOT=Path(__file__).resolve().parents[1]
 REPO='hoseinm1381/aoe4-berbers'
@@ -49,23 +49,24 @@ def upload(headers,release,path):
         print('REMOTE VERIFIED',path.name,flush=True);return asset
     parsed=urllib.parse.urlsplit(release['upload_url'].split('{',1)[0])
     assert parsed.scheme=='https' and parsed.hostname=='uploads.github.com'
-    connection=http.client.HTTPSConnection(parsed.hostname,timeout=300)
-    connection.connect()
-    connection.sock.setsockopt(socket.SOL_SOCKET,socket.SO_SNDBUF,8*1024*1024)
-    connection.putrequest('POST',parsed.path+'?name='+urllib.parse.quote(path.name))
-    for key,value in {**headers,'Content-Type':'application/zip' if path.suffix=='.zip' else 'application/octet-stream',
-                      'Content-Length':str(path.stat().st_size)}.items():
-        connection.putheader(key,value)
-    connection.endheaders()
-    sent=0;last=0
+    class ProgressReader:
+        def __init__(self,source):self.source=source;self.sent=0;self.last=0
+        def __len__(self):return path.stat().st_size
+        def read(self,size=-1):
+            chunk=self.source.read(size);self.sent+=len(chunk)
+            if time.monotonic()-self.last>25:
+                print('UPLOAD',path.name,self.sent,'/',len(self),flush=True);self.last=time.monotonic()
+            return chunk
+    session=requests.Session()
+    # Only connection setup is retried. A failed transfer is inspected before retry.
+    session.mount('https://',requests.adapters.HTTPAdapter(max_retries=Retry(total=2,connect=2,read=0,status=0,backoff_factor=1)))
     with path.open('rb') as source:
-        while chunk:=source.read(4*1024*1024):
-            connection.send(chunk);sent+=len(chunk)
-            if time.monotonic()-last>25:
-                print('UPLOAD',path.name,sent,'/',path.stat().st_size,flush=True);last=time.monotonic()
-    response=connection.getresponse();raw=response.read();connection.close()
-    assert response.status==201,f'Upload failed HTTP {response.status}; inspect draft assets before retry'
-    asset=json.loads(raw)
+        response=session.post(release['upload_url'].split('{',1)[0],params={'name':path.name},
+            data=ProgressReader(source),headers={**headers,'Content-Type':'application/zip' if path.suffix=='.zip' else 'application/octet-stream'},
+            timeout=(30,900),allow_redirects=False)
+    session.close()
+    assert response.status_code==201,f'Upload failed HTTP {response.status_code}; inspect draft assets before retry'
+    asset=response.json()
     assert asset['size']==path.stat().st_size
     # GitHub computes a digest after storage; poll boundedly if still pending.
     for attempt in range(12):
