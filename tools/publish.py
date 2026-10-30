@@ -95,7 +95,10 @@ if __name__=='__main__':
                 'body':(ROOT/'docs/RELEASE_NOTES.md').read_text(),'draft':True,'prerelease':False})
         assets=[]
         pack_manifest=json.loads((ROOT/'inputs/manifest.json').read_text())
-        paths=[p for p in a.directory.iterdir() if p.is_file() and p.suffix.lower() in ('.zip','.txt','.json')]
+        paths=[a.directory/('Berbers-Garrison-'+config['version']+'.zip'),
+               a.directory/('Berbers-editable-source-'+config['version']+'.zip'),
+               a.directory/'SHA256SUMS.txt']
+        assert all(p.is_file() for p in paths),'Missing declared release deliverable'
         for pack in pack_manifest['packs']:
             path=ROOT/'inputs'/pack['name']
             assert path.stat().st_size==pack['bytes']
