@@ -1,0 +1,13 @@
+# Koutoubia original Wonder040 anatomy and proportions
+
+Original geometry authored from clean scene; no old procedural blend or stock donor geometry. Actual live consuming contract: output/berber_update_0_4_0/koutoubia-target-contract.json. Animator150 is retained. Footprintfields12x12 unchanged; comparison native local envelope15x15x12.07m. Model planned local campus14.2x14.0m, tower14.4m high; game scales1.5. Groundz0. Native target's60 root-frame markers and lifecycle retained by integrator; root mesh identity placement.
+
+Primary historical sources: Moroccan Ministry Habous https://habous.gov.ma/fr/atlas-des-mosquees/107-la-mosquee-al-koutoubia-a-marrakech.html (77m height,12.8m square base, northeast mosque corner); official Marrakech tourism https://visitmarrakech.com/en/listing/koutoubia-mosque/ (stone minaret, restrained carved relief and white/green ceramic upper bands); UNESCO https://whc.unesco.org/document/153207. Supplementary visual reference search focused on Koutoubia minaret rather than wide medina. Authoring is an AoE4-scale interpretation, not archaeological reconstruction.
+
+Anatomy: broad low hypostyle sanctuary with5 parallel shallow green hipped roof bays; open paved forecourt; lower repeated masonry arch galleries; square offset stone minaret with real recessed blind-arch panels, restrained interlaced sebka pattern, upper green/white tile frieze, narrow lantern, small copper-orb finial; cedar entrances; dedicated native ownerflag pole.
+
+Ratios: actual tower height/base77/12.8≈6.0; authored total tower14.4/base2.4=6.0. Sanctuary roofheight~3.2/sitewidth14.2≈.23. Tower shaft12.0/mainhall2.7≈4.4. Courtwidth11.6/courtdepth5.8≈2.0. Five bays each2.2m wide with eave.10m and ridge rise.45m; roof soffit seats exact halltop2.7m. Groundplinth top.12m supports walls. Shaftbasez.12, crownz11.5, lanternz12.0..13.6, cap/finial to14.4. Tower x=-5.6,y4.6; hall westface x=-4.4 meets tower eastface x=-4.4. No detached components.
+
+Construction:0plinth/paving;20lower walls/column bases;40hallwalls/tower shaft;60arches/cornices/pattern;80roof/tilework/lantern;100finial/ownerflagpole. All caps/rails seat into parents with exact signed contact checks. Native-compatible-singleLOD0 export uses installed027 building_panel.export_building, one textured atlas with genuine source PNG/UV mapping, flat normals on planar stone/roof faces. Native ownerflag remains independent dynamic stockcloth resource.
+
+Stages: blockout inspect solid silhouette first; then recess/archmodule validate; repeat only approved module; final sixviews plus gamecamera and contact report. Required native cook/readback/runtime proof handled separately.

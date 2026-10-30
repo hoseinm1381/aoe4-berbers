@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "preflight": {
+    "ok": true,
+    "findings": [],
+    "objects": 461
+  },
+  "parts": 6,
+  "editable_parts": 461,
+  "stage_groups": [
+    {
+      "stage": 0,
+      "source_parts": 2
+    },
+    {
+      "stage": 20,
+      "source_parts": 22
+    },
+    {
+      "stage": 40,
+      "source_parts": 4
+    },
+    {
+      "stage": 60,
+      "source_parts": 108
+    },
+    {
+      "stage": 80,
+      "source_parts": 320
+    },
+    {
+      "stage": 100,
+      "source_parts": 5
+    }
+  ],
+  "export_triangles": 11594,
+  "stage_group_triangle_preservation": true,
+  "stages": [
+    0,
+    20,
+    40,
+    60,
+    80,
+    100
+  ],
+  "source": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_9_0\\wonder\\Berber_Koutoubia_Wonder_090.blend",
+  "source_sha256": "cefb5865fded9a667649e7b3833926bec58cd70f18a17864dfec999dca4c2412",
+  "export_contract": "installed building-source/v1, exact Garrison material snapshot functions and FBX conventions",
+  "installed_material_helper_sha256": "7289dfe0edd799db12f5580be0f1c004671906ccd21b88cc90e1d5028b272d38"
+}

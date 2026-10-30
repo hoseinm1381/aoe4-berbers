@@ -1,0 +1,23 @@
+{
+  "anatomy": {
+    "footprint": 14,
+    "storeys": 2,
+    "body_height": 6.65,
+    "minaret_height": 14.6,
+    "court_width": 8.3,
+    "portal_width": 3
+  },
+  "historical_interpretation": "Bou Inania Fez; two storey court, cedar/stucco/zellij, basin, square minaret",
+  "references": [
+    "https://www.visitmorocco.com/sites/default/files/atoms/files/Fes%20ENG.pdf"
+  ],
+  "construction_stages": [
+    0,
+    20,
+    40,
+    60,
+    80,
+    100
+  ],
+  "source": "fresh deterministic topology, no donor overlay"
+}

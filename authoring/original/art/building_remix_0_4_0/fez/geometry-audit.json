@@ -1,0 +1,8651 @@
+{
+  "normal_topology_checks": [
+    {
+      "name": "foundation",
+      "signed_volume": 50.95999813079833,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "court_zellij_pavement",
+      "signed_volume": 9.64460048432947,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "two_storey_cell_wing",
+      "signed_volume": 235.63439700747747,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "cedar_shutter_in_recess",
+      "signed_volume": 0.025843998381018658,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "cedar_shutter_in_recess.001",
+      "signed_volume": 0.025843998381018658,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "cedar_shutter_in_recess.002",
+      "signed_volume": 0.025843998381018658,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "cedar_shutter_in_recess.003",
+      "signed_volume": 0.025843998381018658,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "cedar_shutter_in_recess.004",
+      "signed_volume": 0.025843998381018658,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "cedar_shutter_in_recess.005",
+      "signed_volume": 0.025843998381018658,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "cedar_shutter_in_recess.006",
+      "signed_volume": 0.025843998381018658,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "cedar_shutter_in_recess.007",
+      "signed_volume": 0.025843998381018658,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "cedar_shutter_in_recess.008",
+      "signed_volume": 0.025843998381018658,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "cedar_shutter_in_recess.009",
+      "signed_volume": 0.025843998381018658,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "outer_zellij_stringcourse",
+      "signed_volume": 0.13068000259637824,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "outer_zellij_stringcourse.001",
+      "signed_volume": 0.13068000259637824,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "cedar_eave",
+      "signed_volume": 10.85399944840372,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "green_glazed_flat_roof",
+      "signed_volume": 8.37900049869717,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "recessed_cell_window",
+      "signed_volume": 0.03867499983087178,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "recessed_cell_window.001",
+      "signed_volume": 0.038674999830871776,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "recessed_cell_window.002",
+      "signed_volume": 0.03867499983087178,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "recessed_cell_window.003",
+      "signed_volume": 0.038674999830871776,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "recessed_cell_window.004",
+      "signed_volume": 0.03867499983087178,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "recessed_cell_window.005",
+      "signed_volume": 0.03867499983087179,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "recessed_cell_window.006",
+      "signed_volume": 0.03867499983087178,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "recessed_cell_window.007",
+      "signed_volume": 0.038674999830871776,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "recessed_cell_window.008",
+      "signed_volume": 0.03867499983087178,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "recessed_cell_window.009",
+      "signed_volume": 0.038674999830871776,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "two_storey_cell_wing.001",
+      "signed_volume": 235.63439700747753,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "cedar_shutter_in_recess.010",
+      "signed_volume": 0.025843998381018658,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "cedar_shutter_in_recess.011",
+      "signed_volume": 0.025843998381018658,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "cedar_shutter_in_recess.012",
+      "signed_volume": 0.025843998381018658,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "cedar_shutter_in_recess.013",
+      "signed_volume": 0.025843998381018658,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "cedar_shutter_in_recess.014",
+      "signed_volume": 0.025843998381018658,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "cedar_shutter_in_recess.015",
+      "signed_volume": 0.025843998381018658,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "cedar_shutter_in_recess.016",
+      "signed_volume": 0.025843998381018658,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "cedar_shutter_in_recess.017",
+      "signed_volume": 0.025843998381018658,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "cedar_shutter_in_recess.018",
+      "signed_volume": 0.025843998381018658,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "cedar_shutter_in_recess.019",
+      "signed_volume": 0.025843998381018658,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "outer_zellij_stringcourse.002",
+      "signed_volume": 0.13068000259637824,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "outer_zellij_stringcourse.003",
+      "signed_volume": 0.13068000259637824,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "cedar_eave.001",
+      "signed_volume": 10.85399944840372,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "green_glazed_flat_roof.001",
+      "signed_volume": 8.37900049869717,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "recessed_cell_window.010",
+      "signed_volume": 0.038674999830871776,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "recessed_cell_window.011",
+      "signed_volume": 0.03867499983087177,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "recessed_cell_window.012",
+      "signed_volume": 0.038674999830871776,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "recessed_cell_window.013",
+      "signed_volume": 0.03867499983087177,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "recessed_cell_window.014",
+      "signed_volume": 0.038674999830871776,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "recessed_cell_window.015",
+      "signed_volume": 0.03867499983087179,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "recessed_cell_window.016",
+      "signed_volume": 0.038674999830871776,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "recessed_cell_window.017",
+      "signed_volume": 0.03867499983087177,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "recessed_cell_window.018",
+      "signed_volume": 0.038674999830871776,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "recessed_cell_window.019",
+      "signed_volume": 0.03867499983087177,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_gallery_floor",
+      "signed_volume": 4.415999809741976,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "gallery_cedar_eave",
+      "signed_volume": 5.2415994525432765,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "gallery_glazed_roof",
+      "signed_volume": 3.542400199127196,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_left_pier",
+      "signed_volume": 0.23082171125182221,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_right_pier",
+      "signed_volume": 0.23082171125182221,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_00",
+      "signed_volume": 0.06796859889829565,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_01",
+      "signed_volume": 0.019036313636983215,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_02",
+      "signed_volume": 0.01947050791976601,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_03",
+      "signed_volume": 0.04571922426725239,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_04",
+      "signed_volume": 0.060121367130298364,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_05",
+      "signed_volume": 0.06497860773032221,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_06",
+      "signed_volume": 0.06377847087861899,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_07",
+      "signed_volume": 0.06029194545521277,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_08",
+      "signed_volume": 0.057660755655063095,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_09",
+      "signed_volume": 0.05766075565506276,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_10",
+      "signed_volume": 0.06029194545521324,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_11",
+      "signed_volume": 0.06377847087861857,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_12",
+      "signed_volume": 0.06497865014206591,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_13",
+      "signed_volume": 0.06012136713029795,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_14",
+      "signed_volume": 0.045719224267252334,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_15",
+      "signed_volume": 0.019470507919766178,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_16",
+      "signed_volume": 0.019036400500500872,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_17",
+      "signed_volume": 0.0679684013616712,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_left_pier",
+      "signed_volume": 0.12010900684849334,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_right_pier",
+      "signed_volume": 0.1201090068484933,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_00",
+      "signed_volume": 0.047083195191203187,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_01",
+      "signed_volume": 0.013077453046684173,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_02",
+      "signed_volume": 0.013224198066648651,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_03",
+      "signed_volume": 0.03057303449567106,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_04",
+      "signed_volume": 0.039367862100739615,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_05",
+      "signed_volume": 0.04138805670955181,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_06",
+      "signed_volume": 0.03927236832038278,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_07",
+      "signed_volume": 0.03585258522224463,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_08",
+      "signed_volume": 0.0334795174419491,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_09",
+      "signed_volume": 0.03347951744194905,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_10",
+      "signed_volume": 0.035852626295626244,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_11",
+      "signed_volume": 0.03927236832038289,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_12",
+      "signed_volume": 0.04138802519313006,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_13",
+      "signed_volume": 0.03936786210074064,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_14",
+      "signed_volume": 0.030573034495669532,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_15",
+      "signed_volume": 0.013224138888975112,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_16",
+      "signed_volume": 0.013077453046685394,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_17",
+      "signed_volume": 0.04708311536915338,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_left_pier.001",
+      "signed_volume": 0.23082171125182221,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_right_pier.001",
+      "signed_volume": 0.23082171125182221,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_00.001",
+      "signed_volume": 0.06796850012998379,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_01.001",
+      "signed_volume": 0.019036400500501705,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_02.001",
+      "signed_volume": 0.01947058260296719,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_03.001",
+      "signed_volume": 0.045719161436603845,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_04.001",
+      "signed_volume": 0.060121367130297504,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_05.001",
+      "signed_volume": 0.06497865014206619,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_06.001",
+      "signed_volume": 0.06377848830698307,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_07.001",
+      "signed_volume": 0.06029193805469675,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_08.001",
+      "signed_volume": 0.05766074892805917,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_09.001",
+      "signed_volume": 0.05766074892805922,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_10.001",
+      "signed_volume": 0.06029193805469675,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_11.001",
+      "signed_volume": 0.06377848830698307,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_12.001",
+      "signed_volume": 0.06497865014206619,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_13.001",
+      "signed_volume": 0.060121367130297504,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_14.001",
+      "signed_volume": 0.045719161436603845,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_15.001",
+      "signed_volume": 0.019470582602967218,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_16.001",
+      "signed_volume": 0.019036400500501732,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_17.001",
+      "signed_volume": 0.06796850012998387,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_left_pier.001",
+      "signed_volume": 0.1201090068484933,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_right_pier.001",
+      "signed_volume": 0.1201090068484933,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_00.001",
+      "signed_volume": 0.04708319519120249,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_01.001",
+      "signed_volume": 0.013077418237711302,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_02.001",
+      "signed_volume": 0.013224109300137898,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_03.001",
+      "signed_volume": 0.030573059004841183,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_04.001",
+      "signed_volume": 0.03936788192231258,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_05.001",
+      "signed_volume": 0.04138800943491974,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_06.001",
+      "signed_volume": 0.03927237458055619,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_07.001",
+      "signed_volume": 0.03585261859436709,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_08.001",
+      "signed_volume": 0.03347951060663444,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_09.001",
+      "signed_volume": 0.033479510606634455,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_10.001",
+      "signed_volume": 0.0358526185943671,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_11.001",
+      "signed_volume": 0.03927237458055618,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_12.001",
+      "signed_volume": 0.041388009434919736,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_13.001",
+      "signed_volume": 0.03936788192231258,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_14.001",
+      "signed_volume": 0.030573059004841183,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_15.001",
+      "signed_volume": 0.013224109300137898,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_16.001",
+      "signed_volume": 0.013077418237711302,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_17.001",
+      "signed_volume": 0.04708319519120255,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_left_pier.002",
+      "signed_volume": 0.23082171125182221,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_right_pier.002",
+      "signed_volume": 0.23082171125182221,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_00.002",
+      "signed_volume": 0.06796840136167115,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_01.002",
+      "signed_volume": 0.01903640050050104,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_02.002",
+      "signed_volume": 0.019470507919766178,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_03.002",
+      "signed_volume": 0.045719224267252334,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_04.002",
+      "signed_volume": 0.06012136713029792,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_05.002",
+      "signed_volume": 0.06497865014206589,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_06.002",
+      "signed_volume": 0.06377847087861854,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_07.002",
+      "signed_volume": 0.06029194545521324,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_08.002",
+      "signed_volume": 0.05766075565506276,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_09.002",
+      "signed_volume": 0.05766075565506307,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_10.002",
+      "signed_volume": 0.06029194545521277,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_11.002",
+      "signed_volume": 0.06377847087861899,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_12.002",
+      "signed_volume": 0.06497860773032221,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_13.002",
+      "signed_volume": 0.060121367130298364,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_14.002",
+      "signed_volume": 0.04571922426725239,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_15.002",
+      "signed_volume": 0.01947050791976601,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_16.002",
+      "signed_volume": 0.019036313636983326,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_17.002",
+      "signed_volume": 0.06796859889829554,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_left_pier.002",
+      "signed_volume": 0.1201090068484933,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_right_pier.002",
+      "signed_volume": 0.12010900684849332,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_00.002",
+      "signed_volume": 0.04708311536915338,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_01.002",
+      "signed_volume": 0.013077453046685394,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_02.002",
+      "signed_volume": 0.013224138888975112,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_03.002",
+      "signed_volume": 0.03057303449566956,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_04.002",
+      "signed_volume": 0.03936786210074067,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_05.002",
+      "signed_volume": 0.04138802519313006,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_06.002",
+      "signed_volume": 0.03927236832038289,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_07.002",
+      "signed_volume": 0.035852626295626244,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_08.002",
+      "signed_volume": 0.033479517441949075,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_09.002",
+      "signed_volume": 0.0334795174419491,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_10.002",
+      "signed_volume": 0.03585258522224466,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_11.002",
+      "signed_volume": 0.03927236832038278,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_12.002",
+      "signed_volume": 0.04138805670955181,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_13.002",
+      "signed_volume": 0.039367862100739615,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_14.002",
+      "signed_volume": 0.030573034495670948,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_15.002",
+      "signed_volume": 0.01322419806664854,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_16.002",
+      "signed_volume": 0.013077453046684173,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_17.002",
+      "signed_volume": 0.04708319519120341,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_gallery_floor.001",
+      "signed_volume": 4.415999809741976,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "gallery_cedar_eave.001",
+      "signed_volume": 5.2415994525432765,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "gallery_glazed_roof.001",
+      "signed_volume": 3.5424001991271963,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_left_pier.003",
+      "signed_volume": 0.23082171125182221,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_right_pier.003",
+      "signed_volume": 0.23082171125182221,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_00.003",
+      "signed_volume": 0.06796859889829565,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_01.003",
+      "signed_volume": 0.019036313636983437,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_02.003",
+      "signed_volume": 0.01947050791976601,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_03.003",
+      "signed_volume": 0.04571922426725239,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_04.003",
+      "signed_volume": 0.060121367130298364,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_05.003",
+      "signed_volume": 0.06497860773032221,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_06.003",
+      "signed_volume": 0.06377847087861899,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_07.003",
+      "signed_volume": 0.06029194545521277,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_08.003",
+      "signed_volume": 0.057660755655063095,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_09.003",
+      "signed_volume": 0.05766075565506276,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_10.003",
+      "signed_volume": 0.06029194545521324,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_11.003",
+      "signed_volume": 0.06377847087861857,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_12.003",
+      "signed_volume": 0.06497865014206591,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_13.003",
+      "signed_volume": 0.06012136713029795,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_14.003",
+      "signed_volume": 0.045719224267252334,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_15.003",
+      "signed_volume": 0.019470507919766178,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_16.003",
+      "signed_volume": 0.01903640050050104,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_17.003",
+      "signed_volume": 0.06796840136167115,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_left_pier.003",
+      "signed_volume": 0.12010900684849334,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_right_pier.003",
+      "signed_volume": 0.1201090068484933,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_00.003",
+      "signed_volume": 0.04708319519120341,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_01.003",
+      "signed_volume": 0.013077453046684173,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_02.003",
+      "signed_volume": 0.013224198066648651,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_03.003",
+      "signed_volume": 0.03057303449567106,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_04.003",
+      "signed_volume": 0.039367862100739615,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_05.003",
+      "signed_volume": 0.04138805670955181,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_06.003",
+      "signed_volume": 0.03927236832038278,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_07.003",
+      "signed_volume": 0.03585258522224463,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_08.003",
+      "signed_volume": 0.0334795174419491,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_09.003",
+      "signed_volume": 0.03347951744194905,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_10.003",
+      "signed_volume": 0.035852626295626244,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_11.003",
+      "signed_volume": 0.03927236832038289,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_12.003",
+      "signed_volume": 0.04138802519313006,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_13.003",
+      "signed_volume": 0.03936786210074064,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_14.003",
+      "signed_volume": 0.030573034495669532,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_15.003",
+      "signed_volume": 0.013224138888975112,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_16.003",
+      "signed_volume": 0.013077453046685394,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_17.003",
+      "signed_volume": 0.04708311536915338,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_left_pier.004",
+      "signed_volume": 0.23082171125182221,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_right_pier.004",
+      "signed_volume": 0.23082171125182221,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_00.004",
+      "signed_volume": 0.0679685001299839,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_01.004",
+      "signed_volume": 0.019036400500501705,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_02.004",
+      "signed_volume": 0.01947058260296719,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_03.004",
+      "signed_volume": 0.045719161436603845,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_04.004",
+      "signed_volume": 0.060121367130297504,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_05.004",
+      "signed_volume": 0.06497865014206619,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_06.004",
+      "signed_volume": 0.06377848830698307,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_07.004",
+      "signed_volume": 0.06029193805469675,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_08.004",
+      "signed_volume": 0.05766074892805917,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_09.004",
+      "signed_volume": 0.05766074892805922,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_10.004",
+      "signed_volume": 0.06029193805469675,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_11.004",
+      "signed_volume": 0.06377848830698307,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_12.004",
+      "signed_volume": 0.06497865014206619,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_13.004",
+      "signed_volume": 0.060121367130297504,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_14.004",
+      "signed_volume": 0.045719161436603845,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_15.004",
+      "signed_volume": 0.019470582602967218,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_16.004",
+      "signed_volume": 0.019036400500501732,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_17.004",
+      "signed_volume": 0.06796850012998376,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_left_pier.004",
+      "signed_volume": 0.1201090068484933,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_right_pier.004",
+      "signed_volume": 0.1201090068484933,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_00.004",
+      "signed_volume": 0.04708319519120255,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_01.004",
+      "signed_volume": 0.013077418237711302,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_02.004",
+      "signed_volume": 0.013224109300137898,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_03.004",
+      "signed_volume": 0.030573059004841183,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_04.004",
+      "signed_volume": 0.03936788192231258,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_05.004",
+      "signed_volume": 0.04138800943491974,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_06.004",
+      "signed_volume": 0.03927237458055619,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_07.004",
+      "signed_volume": 0.03585261859436709,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_08.004",
+      "signed_volume": 0.03347951060663444,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_09.004",
+      "signed_volume": 0.033479510606634455,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_10.004",
+      "signed_volume": 0.0358526185943671,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_11.004",
+      "signed_volume": 0.03927237458055618,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_12.004",
+      "signed_volume": 0.041388009434919736,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_13.004",
+      "signed_volume": 0.03936788192231258,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_14.004",
+      "signed_volume": 0.030573059004841183,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_15.004",
+      "signed_volume": 0.013224109300137898,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_16.004",
+      "signed_volume": 0.013077418237711302,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_17.004",
+      "signed_volume": 0.04708319519120249,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_left_pier.005",
+      "signed_volume": 0.23082171125182221,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_right_pier.005",
+      "signed_volume": 0.23082171125182221,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_00.005",
+      "signed_volume": 0.0679684013616712,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_01.005",
+      "signed_volume": 0.019036400500500872,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_02.005",
+      "signed_volume": 0.019470507919766178,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_03.005",
+      "signed_volume": 0.045719224267252334,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_04.005",
+      "signed_volume": 0.06012136713029792,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_05.005",
+      "signed_volume": 0.06497865014206589,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_06.005",
+      "signed_volume": 0.06377847087861854,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_07.005",
+      "signed_volume": 0.06029194545521324,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_08.005",
+      "signed_volume": 0.05766075565506276,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_09.005",
+      "signed_volume": 0.05766075565506307,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_10.005",
+      "signed_volume": 0.06029194545521277,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_11.005",
+      "signed_volume": 0.06377847087861899,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_12.005",
+      "signed_volume": 0.06497860773032221,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_13.005",
+      "signed_volume": 0.060121367130298364,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_14.005",
+      "signed_volume": 0.04571922426725239,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_15.005",
+      "signed_volume": 0.01947050791976601,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_16.005",
+      "signed_volume": 0.019036313636983326,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "ground_court_arcade_voussoir_17.005",
+      "signed_volume": 0.06796859889829554,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_left_pier.005",
+      "signed_volume": 0.1201090068484933,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_right_pier.005",
+      "signed_volume": 0.12010900684849332,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_00.005",
+      "signed_volume": 0.04708311536915338,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_01.005",
+      "signed_volume": 0.013077453046685394,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_02.005",
+      "signed_volume": 0.013224138888975112,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_03.005",
+      "signed_volume": 0.03057303449566956,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_04.005",
+      "signed_volume": 0.03936786210074067,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_05.005",
+      "signed_volume": 0.04138802519313006,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_06.005",
+      "signed_volume": 0.03927236832038289,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_07.005",
+      "signed_volume": 0.035852626295626244,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_08.005",
+      "signed_volume": 0.033479517441949075,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_09.005",
+      "signed_volume": 0.0334795174419491,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_10.005",
+      "signed_volume": 0.03585258522224466,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_11.005",
+      "signed_volume": 0.03927236832038278,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_12.005",
+      "signed_volume": 0.04138805670955181,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_13.005",
+      "signed_volume": 0.039367862100739615,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_14.005",
+      "signed_volume": 0.030573034495670948,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_15.005",
+      "signed_volume": 0.01322419806664854,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_16.005",
+      "signed_volume": 0.013077453046684173,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "upper_court_arcade_voussoir_17.005",
+      "signed_volume": 0.047083195191203187,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "front_flank",
+      "signed_volume": 8.64499957442284,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "front_flank.001",
+      "signed_volume": 8.64499957442284,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "monumental_horseshoe_portal_left_pier",
+      "signed_volume": 0.558341402419574,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "monumental_horseshoe_portal_right_pier",
+      "signed_volume": 0.558341402419574,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_00",
+      "signed_volume": 0.37003182922260325,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_01",
+      "signed_volume": 0.10878959575386449,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_02",
+      "signed_volume": 0.11840103020794834,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_03",
+      "signed_volume": 0.30054416525039174,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_04",
+      "signed_volume": 0.43455761354059175,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_05",
+      "signed_volume": 0.5242640963792828,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_06",
+      "signed_volume": 0.5781537335764733,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_07",
+      "signed_volume": 0.6064350388846612,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_08",
+      "signed_volume": 0.6180079127385846,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_09",
+      "signed_volume": 0.6180079127385845,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_10",
+      "signed_volume": 0.6064350388846611,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_11",
+      "signed_volume": 0.5781537335764736,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_12",
+      "signed_volume": 0.5242640963792828,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_13",
+      "signed_volume": 0.43455761354059175,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_14",
+      "signed_volume": 0.30054416525039174,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_15",
+      "signed_volume": 0.11840103020794823,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_16",
+      "signed_volume": 0.1087895957538646,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_17",
+      "signed_volume": 0.37003182922260336,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "portal_cedar_entablature",
+      "signed_volume": 0.5279999853372574,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "portal_zellij_jamb",
+      "signed_volume": 0.11760000317096703,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "portal_zellij_jamb.001",
+      "signed_volume": 0.11760000317096703,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "portal_stucco_frieze",
+      "signed_volume": 0.3197999736830599,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "octagonal_basin_rim",
+      "signed_volume": 0.304112400995212,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "basin_water",
+      "signed_volume": 0.07057399603468184,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "basin_square_plinth",
+      "signed_volume": 1.3004999707415699,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "square_minaret",
+      "signed_volume": 86.0866796628436,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "blind_arch_tile_dado",
+      "signed_volume": 0.005800000005960461,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "blind_arch_tile_dado.001",
+      "signed_volume": 0.005800000005960461,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "blind_arch_tile_dado.002",
+      "signed_volume": 0.005800000005960461,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "blind_arch_tile_dado.003",
+      "signed_volume": 0.005800000005960461,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "minaret_seated_mosaic",
+      "signed_volume": 0.045900003795325856,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "minaret_seated_mosaic.001",
+      "signed_volume": 0.045900003795325856,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "minaret_glazed_band",
+      "signed_volume": 2.0124299465858906,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "minaret_glazed_band.001",
+      "signed_volume": 2.0124299465858906,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "minaret_crown",
+      "signed_volume": 3.5279997863769568,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "minaret_lantern",
+      "signed_volume": 1.0139999659061416,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "minaret_crown_merlon",
+      "signed_volume": 0.018391999569892886,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "minaret_crown_merlon.001",
+      "signed_volume": 0.018391999569892886,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "minaret_crown_merlon.002",
+      "signed_volume": 0.018391999569892886,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "minaret_crown_merlon.003",
+      "signed_volume": 0.018391999569892886,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "minaret_crown_merlon.004",
+      "signed_volume": 0.018391999569892886,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "minaret_crown_merlon.005",
+      "signed_volume": 0.018391999569892886,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "minaret_crown_merlon.006",
+      "signed_volume": 0.018391999569892886,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "minaret_crown_merlon.007",
+      "signed_volume": 0.018391999569892886,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "minaret_crown_merlon.008",
+      "signed_volume": 0.018391999569892886,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "minaret_crown_merlon.009",
+      "signed_volume": 0.018391999569892886,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "minaret_crown_merlon.010",
+      "signed_volume": 0.018391999569892886,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "minaret_crown_merlon.011",
+      "signed_volume": 0.018391999569892886,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "minaret_crown_merlon.012",
+      "signed_volume": 0.018391999569892886,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "minaret_crown_merlon.013",
+      "signed_volume": 0.018391999569892886,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "minaret_crown_merlon.014",
+      "signed_volume": 0.018391999569892886,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "minaret_crown_merlon.015",
+      "signed_volume": 0.018391999569892886,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "minaret_lantern_glazed_cap",
+      "signed_volume": 0.925649198484342,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "court_carved_stucco_frieze",
+      "signed_volume": 0.2722500167191031,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "court_zellij_dado",
+      "signed_volume": 0.5445000334382062,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "court_carved_stucco_frieze.001",
+      "signed_volume": 0.2722500167191031,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "court_zellij_dado.001",
+      "signed_volume": 0.5445000334382062,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "native_owner_flag_pole",
+      "signed_volume": 0.043199998068809524,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  ],
+  "source_portal_masonry_segment_hits": [],
+  "portal_opening_pass": true,
+  "parts": [
+    {
+      "name": "foundation",
+      "bounds": [
+        [
+          -7.0,
+          -7.0,
+          0.0
+        ],
+        [
+          7.0,
+          7.0,
+          0.25999999046325684
+        ]
+      ],
+      "stage": 0,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_zellij_pavement",
+      "bounds": [
+        [
+          -4.150000095367432,
+          -4.150000095367432,
+          0.23000001907348633
+        ],
+        [
+          4.150000095367432,
+          4.150000095367432,
+          0.3700000047683716
+        ]
+      ],
+      "stage": 20,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "two_storey_cell_wing",
+      "bounds": [
+        [
+          -7.0,
+          -6.599999904632568,
+          0.25
+        ],
+        [
+          -4.0,
+          6.599999904632568,
+          6.25
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "cedar_shutter_in_recess",
+      "bounds": [
+        [
+          -6.827499866485596,
+          -5.15500020980835,
+          1.2300000190734863
+        ],
+        [
+          -6.792500019073486,
+          -4.445000171661377,
+          2.2699999809265137
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "cedar_shutter_in_recess.001",
+      "bounds": [
+        [
+          -6.827499866485596,
+          -5.15500020980835,
+          4.03000020980835
+        ],
+        [
+          -6.792500019073486,
+          -4.445000171661377,
+          5.070000171661377
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "cedar_shutter_in_recess.002",
+      "bounds": [
+        [
+          -6.827499866485596,
+          -2.755000114440918,
+          1.2300000190734863
+        ],
+        [
+          -6.792500019073486,
+          -2.0450000762939453,
+          2.2699999809265137
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "cedar_shutter_in_recess.003",
+      "bounds": [
+        [
+          -6.827499866485596,
+          -2.755000114440918,
+          4.03000020980835
+        ],
+        [
+          -6.792500019073486,
+          -2.0450000762939453,
+          5.070000171661377
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "cedar_shutter_in_recess.004",
+      "bounds": [
+        [
+          -6.827499866485596,
+          -0.35499998927116394,
+          1.2300000190734863
+        ],
+        [
+          -6.792500019073486,
+          0.35499998927116394,
+          2.2699999809265137
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "cedar_shutter_in_recess.005",
+      "bounds": [
+        [
+          -6.827499866485596,
+          -0.35499998927116394,
+          4.03000020980835
+        ],
+        [
+          -6.792500019073486,
+          0.35499998927116394,
+          5.070000171661377
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "cedar_shutter_in_recess.006",
+      "bounds": [
+        [
+          -6.827499866485596,
+          2.0450000762939453,
+          1.2300000190734863
+        ],
+        [
+          -6.792500019073486,
+          2.755000114440918,
+          2.2699999809265137
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "cedar_shutter_in_recess.007",
+      "bounds": [
+        [
+          -6.827499866485596,
+          2.0450000762939453,
+          4.03000020980835
+        ],
+        [
+          -6.792500019073486,
+          2.755000114440918,
+          5.070000171661377
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "cedar_shutter_in_recess.008",
+      "bounds": [
+        [
+          -6.827499866485596,
+          4.445000171661377,
+          1.2300000190734863
+        ],
+        [
+          -6.792500019073486,
+          5.15500020980835,
+          2.2699999809265137
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "cedar_shutter_in_recess.009",
+      "bounds": [
+        [
+          -6.827499866485596,
+          4.445000171661377,
+          4.03000020980835
+        ],
+        [
+          -6.792500019073486,
+          5.15500020980835,
+          5.070000171661377
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "outer_zellij_stringcourse",
+      "bounds": [
+        [
+          -7.032500267028809,
+          -6.599999904632568,
+          0.5899999737739563
+        ],
+        [
+          -6.987500190734863,
+          6.599999904632568,
+          0.8100000023841858
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "outer_zellij_stringcourse.001",
+      "bounds": [
+        [
+          -7.032500267028809,
+          -6.599999904632568,
+          3.3400001525878906
+        ],
+        [
+          -6.987500190734863,
+          6.599999904632568,
+          3.559999942779541
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "cedar_eave",
+      "bounds": [
+        [
+          -7.175000190734863,
+          -6.75,
+          6.230000019073486
+        ],
+        [
+          -3.825000047683716,
+          6.75,
+          6.46999979019165
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "green_glazed_flat_roof",
+      "bounds": [
+        [
+          -7.074999809265137,
+          -6.650000095367432,
+          6.470000267028809
+        ],
+        [
+          -3.924999952316284,
+          6.650000095367432,
+          6.670000076293945
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "recessed_cell_window",
+      "bounds": [
+        [
+          -4.012499809265137,
+          -5.425000190734863,
+          1.0
+        ],
+        [
+          -3.9774999618530273,
+          -4.574999809265137,
+          2.299999952316284
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "recessed_cell_window.001",
+      "bounds": [
+        [
+          -4.012499809265137,
+          -5.425000190734863,
+          3.8499999046325684
+        ],
+        [
+          -3.9774999618530273,
+          -4.574999809265137,
+          5.150000095367432
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "recessed_cell_window.002",
+      "bounds": [
+        [
+          -4.012499809265137,
+          -2.924999952316284,
+          1.0
+        ],
+        [
+          -3.9774999618530273,
+          -2.075000047683716,
+          2.299999952316284
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "recessed_cell_window.003",
+      "bounds": [
+        [
+          -4.012499809265137,
+          -2.924999952316284,
+          3.8499999046325684
+        ],
+        [
+          -3.9774999618530273,
+          -2.075000047683716,
+          5.150000095367432
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "recessed_cell_window.004",
+      "bounds": [
+        [
+          -4.012499809265137,
+          -0.42500001192092896,
+          1.0
+        ],
+        [
+          -3.9774999618530273,
+          0.42500001192092896,
+          2.299999952316284
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "recessed_cell_window.005",
+      "bounds": [
+        [
+          -4.012499809265137,
+          -0.42500001192092896,
+          3.8499999046325684
+        ],
+        [
+          -3.9774999618530273,
+          0.42500001192092896,
+          5.150000095367432
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "recessed_cell_window.006",
+      "bounds": [
+        [
+          -4.012499809265137,
+          2.075000047683716,
+          1.0
+        ],
+        [
+          -3.9774999618530273,
+          2.924999952316284,
+          2.299999952316284
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "recessed_cell_window.007",
+      "bounds": [
+        [
+          -4.012499809265137,
+          2.075000047683716,
+          3.8499999046325684
+        ],
+        [
+          -3.9774999618530273,
+          2.924999952316284,
+          5.150000095367432
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "recessed_cell_window.008",
+      "bounds": [
+        [
+          -4.012499809265137,
+          4.574999809265137,
+          1.0
+        ],
+        [
+          -3.9774999618530273,
+          5.425000190734863,
+          2.299999952316284
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "recessed_cell_window.009",
+      "bounds": [
+        [
+          -4.012499809265137,
+          4.574999809265137,
+          3.8499999046325684
+        ],
+        [
+          -3.9774999618530273,
+          5.425000190734863,
+          5.150000095367432
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "two_storey_cell_wing.001",
+      "bounds": [
+        [
+          4.0,
+          -6.599999904632568,
+          0.25
+        ],
+        [
+          7.0,
+          6.599999904632568,
+          6.25
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "cedar_shutter_in_recess.010",
+      "bounds": [
+        [
+          6.792500019073486,
+          -5.15500020980835,
+          1.2300000190734863
+        ],
+        [
+          6.827499866485596,
+          -4.445000171661377,
+          2.2699999809265137
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "cedar_shutter_in_recess.011",
+      "bounds": [
+        [
+          6.792500019073486,
+          -5.15500020980835,
+          4.03000020980835
+        ],
+        [
+          6.827499866485596,
+          -4.445000171661377,
+          5.070000171661377
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "cedar_shutter_in_recess.012",
+      "bounds": [
+        [
+          6.792500019073486,
+          -2.755000114440918,
+          1.2300000190734863
+        ],
+        [
+          6.827499866485596,
+          -2.0450000762939453,
+          2.2699999809265137
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "cedar_shutter_in_recess.013",
+      "bounds": [
+        [
+          6.792500019073486,
+          -2.755000114440918,
+          4.03000020980835
+        ],
+        [
+          6.827499866485596,
+          -2.0450000762939453,
+          5.070000171661377
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "cedar_shutter_in_recess.014",
+      "bounds": [
+        [
+          6.792500019073486,
+          -0.35499998927116394,
+          1.2300000190734863
+        ],
+        [
+          6.827499866485596,
+          0.35499998927116394,
+          2.2699999809265137
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "cedar_shutter_in_recess.015",
+      "bounds": [
+        [
+          6.792500019073486,
+          -0.35499998927116394,
+          4.03000020980835
+        ],
+        [
+          6.827499866485596,
+          0.35499998927116394,
+          5.070000171661377
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "cedar_shutter_in_recess.016",
+      "bounds": [
+        [
+          6.792500019073486,
+          2.0450000762939453,
+          1.2300000190734863
+        ],
+        [
+          6.827499866485596,
+          2.755000114440918,
+          2.2699999809265137
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "cedar_shutter_in_recess.017",
+      "bounds": [
+        [
+          6.792500019073486,
+          2.0450000762939453,
+          4.03000020980835
+        ],
+        [
+          6.827499866485596,
+          2.755000114440918,
+          5.070000171661377
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "cedar_shutter_in_recess.018",
+      "bounds": [
+        [
+          6.792500019073486,
+          4.445000171661377,
+          1.2300000190734863
+        ],
+        [
+          6.827499866485596,
+          5.15500020980835,
+          2.2699999809265137
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "cedar_shutter_in_recess.019",
+      "bounds": [
+        [
+          6.792500019073486,
+          4.445000171661377,
+          4.03000020980835
+        ],
+        [
+          6.827499866485596,
+          5.15500020980835,
+          5.070000171661377
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "outer_zellij_stringcourse.002",
+      "bounds": [
+        [
+          6.987500190734863,
+          -6.599999904632568,
+          0.5899999737739563
+        ],
+        [
+          7.032500267028809,
+          6.599999904632568,
+          0.8100000023841858
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "outer_zellij_stringcourse.003",
+      "bounds": [
+        [
+          6.987500190734863,
+          -6.599999904632568,
+          3.3400001525878906
+        ],
+        [
+          7.032500267028809,
+          6.599999904632568,
+          3.559999942779541
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "cedar_eave.001",
+      "bounds": [
+        [
+          3.825000047683716,
+          -6.75,
+          6.230000019073486
+        ],
+        [
+          7.175000190734863,
+          6.75,
+          6.46999979019165
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "green_glazed_flat_roof.001",
+      "bounds": [
+        [
+          3.924999952316284,
+          -6.650000095367432,
+          6.470000267028809
+        ],
+        [
+          7.074999809265137,
+          6.650000095367432,
+          6.670000076293945
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "recessed_cell_window.010",
+      "bounds": [
+        [
+          3.9774999618530273,
+          -5.425000190734863,
+          1.0
+        ],
+        [
+          4.012499809265137,
+          -4.574999809265137,
+          2.299999952316284
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "recessed_cell_window.011",
+      "bounds": [
+        [
+          3.9774999618530273,
+          -5.425000190734863,
+          3.8499999046325684
+        ],
+        [
+          4.012499809265137,
+          -4.574999809265137,
+          5.150000095367432
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "recessed_cell_window.012",
+      "bounds": [
+        [
+          3.9774999618530273,
+          -2.924999952316284,
+          1.0
+        ],
+        [
+          4.012499809265137,
+          -2.075000047683716,
+          2.299999952316284
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "recessed_cell_window.013",
+      "bounds": [
+        [
+          3.9774999618530273,
+          -2.924999952316284,
+          3.8499999046325684
+        ],
+        [
+          4.012499809265137,
+          -2.075000047683716,
+          5.150000095367432
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "recessed_cell_window.014",
+      "bounds": [
+        [
+          3.9774999618530273,
+          -0.42500001192092896,
+          1.0
+        ],
+        [
+          4.012499809265137,
+          0.42500001192092896,
+          2.299999952316284
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "recessed_cell_window.015",
+      "bounds": [
+        [
+          3.9774999618530273,
+          -0.42500001192092896,
+          3.8499999046325684
+        ],
+        [
+          4.012499809265137,
+          0.42500001192092896,
+          5.150000095367432
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "recessed_cell_window.016",
+      "bounds": [
+        [
+          3.9774999618530273,
+          2.075000047683716,
+          1.0
+        ],
+        [
+          4.012499809265137,
+          2.924999952316284,
+          2.299999952316284
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "recessed_cell_window.017",
+      "bounds": [
+        [
+          3.9774999618530273,
+          2.075000047683716,
+          3.8499999046325684
+        ],
+        [
+          4.012499809265137,
+          2.924999952316284,
+          5.150000095367432
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "recessed_cell_window.018",
+      "bounds": [
+        [
+          3.9774999618530273,
+          4.574999809265137,
+          1.0
+        ],
+        [
+          4.012499809265137,
+          5.425000190734863,
+          2.299999952316284
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "recessed_cell_window.019",
+      "bounds": [
+        [
+          3.9774999618530273,
+          4.574999809265137,
+          3.8499999046325684
+        ],
+        [
+          4.012499809265137,
+          5.425000190734863,
+          5.150000095367432
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_gallery_floor",
+      "bounds": [
+        [
+          -4.0,
+          -6.75,
+          3.4600000381469727
+        ],
+        [
+          4.0,
+          -4.449999809265137,
+          3.6999998092651367
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "gallery_cedar_eave",
+      "bounds": [
+        [
+          -4.199999809265137,
+          -6.899999618530273,
+          6.230000019073486
+        ],
+        [
+          4.199999809265137,
+          -4.300000190734863,
+          6.46999979019165
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "gallery_glazed_roof",
+      "bounds": [
+        [
+          -4.099999904632568,
+          -6.800000190734863,
+          6.46999979019165
+        ],
+        [
+          4.099999904632568,
+          -4.399999618530273,
+          6.650000095367432
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_left_pier",
+      "bounds": [
+        [
+          -4.295999526977539,
+          -5.799999713897705,
+          0.3999999761581421
+        ],
+        [
+          -3.749999761581421,
+          -5.400000095367432,
+          1.4568759202957153
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_right_pier",
+      "bounds": [
+        [
+          -1.649999976158142,
+          -5.799999713897705,
+          0.3999999761581421
+        ],
+        [
+          -1.1039999723434448,
+          -5.400000095367432,
+          1.4568759202957153
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_00",
+      "bounds": [
+        [
+          -3.8288207054138184,
+          -5.800000190734863,
+          1.4568759202957153
+        ],
+        [
+          -3.7467854022979736,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_01",
+      "bounds": [
+        [
+          -3.854945659637451,
+          -5.800000190734863,
+          1.7004820108413696
+        ],
+        [
+          -3.8288207054138184,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_02",
+      "bounds": [
+        [
+          -3.854945659637451,
+          -5.800000190734863,
+          1.956199049949646
+        ],
+        [
+          -3.823866844177246,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_03",
+      "bounds": [
+        [
+          -3.823866844177246,
+          -5.800000190734863,
+          2.2113614082336426
+        ],
+        [
+          -3.7371232509613037,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_04",
+      "bounds": [
+        [
+          -3.7371232509613037,
+          -5.800000190734863,
+          2.4533309936523438
+        ],
+        [
+          -3.5990114212036133,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_05",
+      "bounds": [
+        [
+          -3.5990114212036133,
+          -5.800000190734863,
+          2.6701231002807617
+        ],
+        [
+          -3.416372060775757,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_06",
+      "bounds": [
+        [
+          -3.416372060775757,
+          -5.800000190734863,
+          2.8510000705718994
+        ],
+        [
+          -3.1982510089874268,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_07",
+      "bounds": [
+        [
+          -3.1982510089874268,
+          -5.800000190734863,
+          2.9870033264160156
+        ],
+        [
+          -2.955451726913452,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_08",
+      "bounds": [
+        [
+          -2.955451726913452,
+          -5.800000190734863,
+          3.071396589279175
+        ],
+        [
+          -2.700000047683716,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_09",
+      "bounds": [
+        [
+          -2.700000047683716,
+          -5.800000190734863,
+          3.071396589279175
+        ],
+        [
+          -2.4445483684539795,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_10",
+      "bounds": [
+        [
+          -2.4445483684539795,
+          -5.800000190734863,
+          2.9870033264160156
+        ],
+        [
+          -2.201749086380005,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_11",
+      "bounds": [
+        [
+          -2.201749086380005,
+          -5.800000190734863,
+          2.8510000705718994
+        ],
+        [
+          -1.9836280345916748,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_12",
+      "bounds": [
+        [
+          -1.9836280345916748,
+          -5.800000190734863,
+          2.6701231002807617
+        ],
+        [
+          -1.8009885549545288,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_13",
+      "bounds": [
+        [
+          -1.8009885549545288,
+          -5.800000190734863,
+          2.4533309936523438
+        ],
+        [
+          -1.6628767251968384,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_14",
+      "bounds": [
+        [
+          -1.6628767251968384,
+          -5.800000190734863,
+          2.2113614082336426
+        ],
+        [
+          -1.576133131980896,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_15",
+      "bounds": [
+        [
+          -1.576133131980896,
+          -5.800000190734863,
+          1.956199049949646
+        ],
+        [
+          -1.545054316520691,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_16",
+      "bounds": [
+        [
+          -1.5711793899536133,
+          -5.800000190734863,
+          1.7004820108413696
+        ],
+        [
+          -1.545054316520691,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_17",
+      "bounds": [
+        [
+          -1.653214454650879,
+          -5.800000190734863,
+          1.4568759202957153
+        ],
+        [
+          -1.5711793899536133,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_left_pier",
+      "bounds": [
+        [
+          -4.068000316619873,
+          -4.649999618530273,
+          3.700000047683716
+        ],
+        [
+          -3.6000001430511475,
+          -4.25,
+          4.341608047485352
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_right_pier",
+      "bounds": [
+        [
+          -1.7999999523162842,
+          -4.649999618530273,
+          3.700000047683716
+        ],
+        [
+          -1.3320000171661377,
+          -4.25,
+          4.341608047485352
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_00",
+      "bounds": [
+        [
+          -3.667560577392578,
+          -4.650000095367432,
+          4.341608047485352
+        ],
+        [
+          -3.5972447395324707,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_01",
+      "bounds": [
+        [
+          -3.689953565597534,
+          -4.650000095367432,
+          4.550413131713867
+        ],
+        [
+          -3.667560577392578,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_02",
+      "bounds": [
+        [
+          -3.689953565597534,
+          -4.650000095367432,
+          4.769598960876465
+        ],
+        [
+          -3.6633143424987793,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_03",
+      "bounds": [
+        [
+          -3.6633143424987793,
+          -4.650000095367432,
+          4.988309860229492
+        ],
+        [
+          -3.5889627933502197,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_04",
+      "bounds": [
+        [
+          -3.5889627933502197,
+          -4.650000095367432,
+          5.195712089538574
+        ],
+        [
+          -3.470581293106079,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_05",
+      "bounds": [
+        [
+          -3.470581293106079,
+          -4.650000095367432,
+          5.381534099578857
+        ],
+        [
+          -3.314033031463623,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_06",
+      "bounds": [
+        [
+          -3.314033031463623,
+          -4.650000095367432,
+          5.536571502685547
+        ],
+        [
+          -3.1270720958709717,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_07",
+      "bounds": [
+        [
+          -3.1270720958709717,
+          -4.650000095367432,
+          5.653145790100098
+        ],
+        [
+          -2.9189586639404297,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_08",
+      "bounds": [
+        [
+          -2.9189586639404297,
+          -4.650000095367432,
+          5.725482940673828
+        ],
+        [
+          -2.700000047683716,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_09",
+      "bounds": [
+        [
+          -2.700000047683716,
+          -4.650000095367432,
+          5.725482940673828
+        ],
+        [
+          -2.481041431427002,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_10",
+      "bounds": [
+        [
+          -2.481041431427002,
+          -4.650000095367432,
+          5.653145790100098
+        ],
+        [
+          -2.272927761077881,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_11",
+      "bounds": [
+        [
+          -2.272927761077881,
+          -4.650000095367432,
+          5.536571502685547
+        ],
+        [
+          -2.0859668254852295,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_12",
+      "bounds": [
+        [
+          -2.0859668254852295,
+          -4.650000095367432,
+          5.381534099578857
+        ],
+        [
+          -1.929418683052063,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_13",
+      "bounds": [
+        [
+          -1.929418683052063,
+          -4.650000095367432,
+          5.195712089538574
+        ],
+        [
+          -1.8110371828079224,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_14",
+      "bounds": [
+        [
+          -1.8110371828079224,
+          -4.650000095367432,
+          4.988309860229492
+        ],
+        [
+          -1.7366856336593628,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_15",
+      "bounds": [
+        [
+          -1.7366856336593628,
+          -4.650000095367432,
+          4.769598960876465
+        ],
+        [
+          -1.7100465297698975,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_16",
+      "bounds": [
+        [
+          -1.7324395179748535,
+          -4.650000095367432,
+          4.550413131713867
+        ],
+        [
+          -1.7100465297698975,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_17",
+      "bounds": [
+        [
+          -1.8027552366256714,
+          -4.650000095367432,
+          4.341608047485352
+        ],
+        [
+          -1.7324395179748535,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_left_pier.001",
+      "bounds": [
+        [
+          -1.5959999561309814,
+          -5.799999713897705,
+          0.3999999761581421
+        ],
+        [
+          -1.0499999523162842,
+          -5.400000095367432,
+          1.4568759202957153
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_right_pier.001",
+      "bounds": [
+        [
+          1.0499999523162842,
+          -5.799999713897705,
+          0.3999999761581421
+        ],
+        [
+          1.5959999561309814,
+          -5.400000095367432,
+          1.4568759202957153
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_00.001",
+      "bounds": [
+        [
+          -1.1288206577301025,
+          -5.800000190734863,
+          1.4568759202957153
+        ],
+        [
+          -1.0467854738235474,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_01.001",
+      "bounds": [
+        [
+          -1.154945731163025,
+          -5.800000190734863,
+          1.7004820108413696
+        ],
+        [
+          -1.1288206577301025,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_02.001",
+      "bounds": [
+        [
+          -1.154945731163025,
+          -5.800000190734863,
+          1.956199049949646
+        ],
+        [
+          -1.1238667964935303,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_03.001",
+      "bounds": [
+        [
+          -1.1238667964935303,
+          -5.800000190734863,
+          2.2113614082336426
+        ],
+        [
+          -1.0371233224868774,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_04.001",
+      "bounds": [
+        [
+          -1.0371233224868774,
+          -5.800000190734863,
+          2.4533309936523438
+        ],
+        [
+          -0.899011492729187,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_05.001",
+      "bounds": [
+        [
+          -0.899011492729187,
+          -5.800000190734863,
+          2.6701231002807617
+        ],
+        [
+          -0.716372013092041,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_06.001",
+      "bounds": [
+        [
+          -0.716372013092041,
+          -5.800000190734863,
+          2.8510000705718994
+        ],
+        [
+          -0.49825090169906616,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_07.001",
+      "bounds": [
+        [
+          -0.49825090169906616,
+          -5.800000190734863,
+          2.9870033264160156
+        ],
+        [
+          -0.25545164942741394,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_08.001",
+      "bounds": [
+        [
+          -0.25545164942741394,
+          -5.800000190734863,
+          3.071396589279175
+        ],
+        [
+          7.072335342068773e-17,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_09.001",
+      "bounds": [
+        [
+          7.072335342068773e-17,
+          -5.800000190734863,
+          3.071396589279175
+        ],
+        [
+          0.25545164942741394,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_10.001",
+      "bounds": [
+        [
+          0.25545164942741394,
+          -5.800000190734863,
+          2.9870033264160156
+        ],
+        [
+          0.49825090169906616,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_11.001",
+      "bounds": [
+        [
+          0.49825090169906616,
+          -5.800000190734863,
+          2.8510000705718994
+        ],
+        [
+          0.716372013092041,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_12.001",
+      "bounds": [
+        [
+          0.716372013092041,
+          -5.800000190734863,
+          2.6701231002807617
+        ],
+        [
+          0.899011492729187,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_13.001",
+      "bounds": [
+        [
+          0.899011492729187,
+          -5.800000190734863,
+          2.4533309936523438
+        ],
+        [
+          1.0371233224868774,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_14.001",
+      "bounds": [
+        [
+          1.0371233224868774,
+          -5.800000190734863,
+          2.2113614082336426
+        ],
+        [
+          1.1238667964935303,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_15.001",
+      "bounds": [
+        [
+          1.1238667964935303,
+          -5.800000190734863,
+          1.956199049949646
+        ],
+        [
+          1.154945731163025,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_16.001",
+      "bounds": [
+        [
+          1.1288206577301025,
+          -5.800000190734863,
+          1.7004820108413696
+        ],
+        [
+          1.154945731163025,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_17.001",
+      "bounds": [
+        [
+          1.0467854738235474,
+          -5.800000190734863,
+          1.4568759202957153
+        ],
+        [
+          1.1288206577301025,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_left_pier.001",
+      "bounds": [
+        [
+          -1.3679999113082886,
+          -4.649999618530273,
+          3.700000047683716
+        ],
+        [
+          -0.8999999761581421,
+          -4.25,
+          4.341608047485352
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_right_pier.001",
+      "bounds": [
+        [
+          0.8999999761581421,
+          -4.649999618530273,
+          3.700000047683716
+        ],
+        [
+          1.3679999113082886,
+          -4.25,
+          4.341608047485352
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_00.001",
+      "bounds": [
+        [
+          -0.9675605297088623,
+          -4.650000095367432,
+          4.341608047485352
+        ],
+        [
+          -0.8972446918487549,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_01.001",
+      "bounds": [
+        [
+          -0.9899534583091736,
+          -4.650000095367432,
+          4.550413131713867
+        ],
+        [
+          -0.9675605297088623,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_02.001",
+      "bounds": [
+        [
+          -0.9899534583091736,
+          -4.650000095367432,
+          4.769598960876465
+        ],
+        [
+          -0.963314414024353,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_03.001",
+      "bounds": [
+        [
+          -0.963314414024353,
+          -4.650000095367432,
+          4.988309860229492
+        ],
+        [
+          -0.8889628052711487,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_04.001",
+      "bounds": [
+        [
+          -0.8889628052711487,
+          -4.650000095367432,
+          5.195712089538574
+        ],
+        [
+          -0.7705812454223633,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_05.001",
+      "bounds": [
+        [
+          -0.7705812454223633,
+          -4.650000095367432,
+          5.381534099578857
+        ],
+        [
+          -0.6140331625938416,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_06.001",
+      "bounds": [
+        [
+          -0.6140331625938416,
+          -4.650000095367432,
+          5.536571502685547
+        ],
+        [
+          -0.4270721971988678,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_07.001",
+      "bounds": [
+        [
+          -0.4270721971988678,
+          -4.650000095367432,
+          5.653145790100098
+        ],
+        [
+          -0.21895857155323029,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_08.001",
+      "bounds": [
+        [
+          -0.21895857155323029,
+          -4.650000095367432,
+          5.725482940673828
+        ],
+        [
+          6.062001721773234e-17,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_09.001",
+      "bounds": [
+        [
+          6.062001721773234e-17,
+          -4.650000095367432,
+          5.725482940673828
+        ],
+        [
+          0.21895857155323029,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_10.001",
+      "bounds": [
+        [
+          0.21895857155323029,
+          -4.650000095367432,
+          5.653145790100098
+        ],
+        [
+          0.4270721971988678,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_11.001",
+      "bounds": [
+        [
+          0.4270721971988678,
+          -4.650000095367432,
+          5.536571502685547
+        ],
+        [
+          0.6140331625938416,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_12.001",
+      "bounds": [
+        [
+          0.6140331625938416,
+          -4.650000095367432,
+          5.381534099578857
+        ],
+        [
+          0.7705812454223633,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_13.001",
+      "bounds": [
+        [
+          0.7705812454223633,
+          -4.650000095367432,
+          5.195712089538574
+        ],
+        [
+          0.8889628052711487,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_14.001",
+      "bounds": [
+        [
+          0.8889628052711487,
+          -4.650000095367432,
+          4.988309860229492
+        ],
+        [
+          0.963314414024353,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_15.001",
+      "bounds": [
+        [
+          0.963314414024353,
+          -4.650000095367432,
+          4.769598960876465
+        ],
+        [
+          0.9899534583091736,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_16.001",
+      "bounds": [
+        [
+          0.9675605297088623,
+          -4.650000095367432,
+          4.550413131713867
+        ],
+        [
+          0.9899534583091736,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_17.001",
+      "bounds": [
+        [
+          0.8972446918487549,
+          -4.650000095367432,
+          4.341608047485352
+        ],
+        [
+          0.9675605297088623,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_left_pier.002",
+      "bounds": [
+        [
+          1.1039999723434448,
+          -5.799999713897705,
+          0.3999999761581421
+        ],
+        [
+          1.649999976158142,
+          -5.400000095367432,
+          1.4568759202957153
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_right_pier.002",
+      "bounds": [
+        [
+          3.749999761581421,
+          -5.799999713897705,
+          0.3999999761581421
+        ],
+        [
+          4.295999526977539,
+          -5.400000095367432,
+          1.4568759202957153
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_00.002",
+      "bounds": [
+        [
+          1.5711793899536133,
+          -5.800000190734863,
+          1.4568759202957153
+        ],
+        [
+          1.653214454650879,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_01.002",
+      "bounds": [
+        [
+          1.545054316520691,
+          -5.800000190734863,
+          1.7004820108413696
+        ],
+        [
+          1.5711793899536133,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_02.002",
+      "bounds": [
+        [
+          1.545054316520691,
+          -5.800000190734863,
+          1.956199049949646
+        ],
+        [
+          1.576133131980896,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_03.002",
+      "bounds": [
+        [
+          1.576133131980896,
+          -5.800000190734863,
+          2.2113614082336426
+        ],
+        [
+          1.6628767251968384,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_04.002",
+      "bounds": [
+        [
+          1.6628767251968384,
+          -5.800000190734863,
+          2.4533309936523438
+        ],
+        [
+          1.8009885549545288,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_05.002",
+      "bounds": [
+        [
+          1.8009885549545288,
+          -5.800000190734863,
+          2.6701231002807617
+        ],
+        [
+          1.9836280345916748,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_06.002",
+      "bounds": [
+        [
+          1.9836280345916748,
+          -5.800000190734863,
+          2.8510000705718994
+        ],
+        [
+          2.201749086380005,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_07.002",
+      "bounds": [
+        [
+          2.201749086380005,
+          -5.800000190734863,
+          2.9870033264160156
+        ],
+        [
+          2.4445483684539795,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_08.002",
+      "bounds": [
+        [
+          2.4445483684539795,
+          -5.800000190734863,
+          3.071396589279175
+        ],
+        [
+          2.700000047683716,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_09.002",
+      "bounds": [
+        [
+          2.700000047683716,
+          -5.800000190734863,
+          3.071396589279175
+        ],
+        [
+          2.955451726913452,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_10.002",
+      "bounds": [
+        [
+          2.955451726913452,
+          -5.800000190734863,
+          2.9870033264160156
+        ],
+        [
+          3.1982510089874268,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_11.002",
+      "bounds": [
+        [
+          3.1982510089874268,
+          -5.800000190734863,
+          2.8510000705718994
+        ],
+        [
+          3.416372060775757,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_12.002",
+      "bounds": [
+        [
+          3.416372060775757,
+          -5.800000190734863,
+          2.6701231002807617
+        ],
+        [
+          3.5990114212036133,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_13.002",
+      "bounds": [
+        [
+          3.5990114212036133,
+          -5.800000190734863,
+          2.4533309936523438
+        ],
+        [
+          3.7371232509613037,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_14.002",
+      "bounds": [
+        [
+          3.7371232509613037,
+          -5.800000190734863,
+          2.2113614082336426
+        ],
+        [
+          3.823866844177246,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_15.002",
+      "bounds": [
+        [
+          3.823866844177246,
+          -5.800000190734863,
+          1.956199049949646
+        ],
+        [
+          3.854945659637451,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_16.002",
+      "bounds": [
+        [
+          3.8288207054138184,
+          -5.800000190734863,
+          1.7004820108413696
+        ],
+        [
+          3.854945659637451,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_17.002",
+      "bounds": [
+        [
+          3.7467854022979736,
+          -5.800000190734863,
+          1.4568759202957153
+        ],
+        [
+          3.8288207054138184,
+          -5.400000095367432,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_left_pier.002",
+      "bounds": [
+        [
+          1.3320000171661377,
+          -4.649999618530273,
+          3.700000047683716
+        ],
+        [
+          1.7999999523162842,
+          -4.25,
+          4.341608047485352
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_right_pier.002",
+      "bounds": [
+        [
+          3.6000001430511475,
+          -4.649999618530273,
+          3.700000047683716
+        ],
+        [
+          4.068000316619873,
+          -4.25,
+          4.341608047485352
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_00.002",
+      "bounds": [
+        [
+          1.7324395179748535,
+          -4.650000095367432,
+          4.341608047485352
+        ],
+        [
+          1.8027552366256714,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_01.002",
+      "bounds": [
+        [
+          1.7100465297698975,
+          -4.650000095367432,
+          4.550413131713867
+        ],
+        [
+          1.7324395179748535,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_02.002",
+      "bounds": [
+        [
+          1.7100465297698975,
+          -4.650000095367432,
+          4.769598960876465
+        ],
+        [
+          1.7366856336593628,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_03.002",
+      "bounds": [
+        [
+          1.7366856336593628,
+          -4.650000095367432,
+          4.988309860229492
+        ],
+        [
+          1.8110371828079224,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_04.002",
+      "bounds": [
+        [
+          1.8110371828079224,
+          -4.650000095367432,
+          5.195712089538574
+        ],
+        [
+          1.929418683052063,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_05.002",
+      "bounds": [
+        [
+          1.929418683052063,
+          -4.650000095367432,
+          5.381534099578857
+        ],
+        [
+          2.0859668254852295,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_06.002",
+      "bounds": [
+        [
+          2.0859668254852295,
+          -4.650000095367432,
+          5.536571502685547
+        ],
+        [
+          2.272927761077881,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_07.002",
+      "bounds": [
+        [
+          2.272927761077881,
+          -4.650000095367432,
+          5.653145790100098
+        ],
+        [
+          2.481041431427002,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_08.002",
+      "bounds": [
+        [
+          2.481041431427002,
+          -4.650000095367432,
+          5.725482940673828
+        ],
+        [
+          2.700000047683716,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_09.002",
+      "bounds": [
+        [
+          2.700000047683716,
+          -4.650000095367432,
+          5.725482940673828
+        ],
+        [
+          2.9189586639404297,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_10.002",
+      "bounds": [
+        [
+          2.9189586639404297,
+          -4.650000095367432,
+          5.653145790100098
+        ],
+        [
+          3.1270720958709717,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_11.002",
+      "bounds": [
+        [
+          3.1270720958709717,
+          -4.650000095367432,
+          5.536571502685547
+        ],
+        [
+          3.314033031463623,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_12.002",
+      "bounds": [
+        [
+          3.314033031463623,
+          -4.650000095367432,
+          5.381534099578857
+        ],
+        [
+          3.470581293106079,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_13.002",
+      "bounds": [
+        [
+          3.470581293106079,
+          -4.650000095367432,
+          5.195712089538574
+        ],
+        [
+          3.5889627933502197,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_14.002",
+      "bounds": [
+        [
+          3.5889627933502197,
+          -4.650000095367432,
+          4.988309860229492
+        ],
+        [
+          3.6633143424987793,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_15.002",
+      "bounds": [
+        [
+          3.6633143424987793,
+          -4.650000095367432,
+          4.769598960876465
+        ],
+        [
+          3.689953565597534,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_16.002",
+      "bounds": [
+        [
+          3.667560577392578,
+          -4.650000095367432,
+          4.550413131713867
+        ],
+        [
+          3.689953565597534,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_17.002",
+      "bounds": [
+        [
+          3.5972447395324707,
+          -4.650000095367432,
+          4.341608047485352
+        ],
+        [
+          3.667560577392578,
+          -4.25,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_gallery_floor.001",
+      "bounds": [
+        [
+          -4.0,
+          4.449999809265137,
+          3.4600000381469727
+        ],
+        [
+          4.0,
+          6.75,
+          3.6999998092651367
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "gallery_cedar_eave.001",
+      "bounds": [
+        [
+          -4.199999809265137,
+          4.300000190734863,
+          6.230000019073486
+        ],
+        [
+          4.199999809265137,
+          6.899999618530273,
+          6.46999979019165
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "gallery_glazed_roof.001",
+      "bounds": [
+        [
+          -4.099999904632568,
+          4.399999618530273,
+          6.46999979019165
+        ],
+        [
+          4.099999904632568,
+          6.800000190734863,
+          6.650000095367432
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_left_pier.003",
+      "bounds": [
+        [
+          -4.295999526977539,
+          5.400000095367432,
+          0.3999999761581421
+        ],
+        [
+          -3.749999761581421,
+          5.799999713897705,
+          1.4568759202957153
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_right_pier.003",
+      "bounds": [
+        [
+          -1.649999976158142,
+          5.400000095367432,
+          0.3999999761581421
+        ],
+        [
+          -1.1039999723434448,
+          5.799999713897705,
+          1.4568759202957153
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_00.003",
+      "bounds": [
+        [
+          -3.8288207054138184,
+          5.400000095367432,
+          1.4568759202957153
+        ],
+        [
+          -3.7467854022979736,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_01.003",
+      "bounds": [
+        [
+          -3.854945659637451,
+          5.400000095367432,
+          1.7004820108413696
+        ],
+        [
+          -3.8288207054138184,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_02.003",
+      "bounds": [
+        [
+          -3.854945659637451,
+          5.400000095367432,
+          1.956199049949646
+        ],
+        [
+          -3.823866844177246,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_03.003",
+      "bounds": [
+        [
+          -3.823866844177246,
+          5.400000095367432,
+          2.2113614082336426
+        ],
+        [
+          -3.7371232509613037,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_04.003",
+      "bounds": [
+        [
+          -3.7371232509613037,
+          5.400000095367432,
+          2.4533309936523438
+        ],
+        [
+          -3.5990114212036133,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_05.003",
+      "bounds": [
+        [
+          -3.5990114212036133,
+          5.400000095367432,
+          2.6701231002807617
+        ],
+        [
+          -3.416372060775757,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_06.003",
+      "bounds": [
+        [
+          -3.416372060775757,
+          5.400000095367432,
+          2.8510000705718994
+        ],
+        [
+          -3.1982510089874268,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_07.003",
+      "bounds": [
+        [
+          -3.1982510089874268,
+          5.400000095367432,
+          2.9870033264160156
+        ],
+        [
+          -2.955451726913452,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_08.003",
+      "bounds": [
+        [
+          -2.955451726913452,
+          5.400000095367432,
+          3.071396589279175
+        ],
+        [
+          -2.700000047683716,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_09.003",
+      "bounds": [
+        [
+          -2.700000047683716,
+          5.400000095367432,
+          3.071396589279175
+        ],
+        [
+          -2.4445483684539795,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_10.003",
+      "bounds": [
+        [
+          -2.4445483684539795,
+          5.400000095367432,
+          2.9870033264160156
+        ],
+        [
+          -2.201749086380005,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_11.003",
+      "bounds": [
+        [
+          -2.201749086380005,
+          5.400000095367432,
+          2.8510000705718994
+        ],
+        [
+          -1.9836280345916748,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_12.003",
+      "bounds": [
+        [
+          -1.9836280345916748,
+          5.400000095367432,
+          2.6701231002807617
+        ],
+        [
+          -1.8009885549545288,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_13.003",
+      "bounds": [
+        [
+          -1.8009885549545288,
+          5.400000095367432,
+          2.4533309936523438
+        ],
+        [
+          -1.6628767251968384,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_14.003",
+      "bounds": [
+        [
+          -1.6628767251968384,
+          5.400000095367432,
+          2.2113614082336426
+        ],
+        [
+          -1.576133131980896,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_15.003",
+      "bounds": [
+        [
+          -1.576133131980896,
+          5.400000095367432,
+          1.956199049949646
+        ],
+        [
+          -1.545054316520691,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_16.003",
+      "bounds": [
+        [
+          -1.5711793899536133,
+          5.400000095367432,
+          1.7004820108413696
+        ],
+        [
+          -1.545054316520691,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_17.003",
+      "bounds": [
+        [
+          -1.653214454650879,
+          5.400000095367432,
+          1.4568759202957153
+        ],
+        [
+          -1.5711793899536133,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_left_pier.003",
+      "bounds": [
+        [
+          -4.068000316619873,
+          4.25,
+          3.700000047683716
+        ],
+        [
+          -3.6000001430511475,
+          4.649999618530273,
+          4.341608047485352
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_right_pier.003",
+      "bounds": [
+        [
+          -1.7999999523162842,
+          4.25,
+          3.700000047683716
+        ],
+        [
+          -1.3320000171661377,
+          4.649999618530273,
+          4.341608047485352
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_00.003",
+      "bounds": [
+        [
+          -3.667560577392578,
+          4.25,
+          4.341608047485352
+        ],
+        [
+          -3.5972447395324707,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_01.003",
+      "bounds": [
+        [
+          -3.689953565597534,
+          4.25,
+          4.550413131713867
+        ],
+        [
+          -3.667560577392578,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_02.003",
+      "bounds": [
+        [
+          -3.689953565597534,
+          4.25,
+          4.769598960876465
+        ],
+        [
+          -3.6633143424987793,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_03.003",
+      "bounds": [
+        [
+          -3.6633143424987793,
+          4.25,
+          4.988309860229492
+        ],
+        [
+          -3.5889627933502197,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_04.003",
+      "bounds": [
+        [
+          -3.5889627933502197,
+          4.25,
+          5.195712089538574
+        ],
+        [
+          -3.470581293106079,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_05.003",
+      "bounds": [
+        [
+          -3.470581293106079,
+          4.25,
+          5.381534099578857
+        ],
+        [
+          -3.314033031463623,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_06.003",
+      "bounds": [
+        [
+          -3.314033031463623,
+          4.25,
+          5.536571502685547
+        ],
+        [
+          -3.1270720958709717,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_07.003",
+      "bounds": [
+        [
+          -3.1270720958709717,
+          4.25,
+          5.653145790100098
+        ],
+        [
+          -2.9189586639404297,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_08.003",
+      "bounds": [
+        [
+          -2.9189586639404297,
+          4.25,
+          5.725482940673828
+        ],
+        [
+          -2.700000047683716,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_09.003",
+      "bounds": [
+        [
+          -2.700000047683716,
+          4.25,
+          5.725482940673828
+        ],
+        [
+          -2.481041431427002,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_10.003",
+      "bounds": [
+        [
+          -2.481041431427002,
+          4.25,
+          5.653145790100098
+        ],
+        [
+          -2.272927761077881,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_11.003",
+      "bounds": [
+        [
+          -2.272927761077881,
+          4.25,
+          5.536571502685547
+        ],
+        [
+          -2.0859668254852295,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_12.003",
+      "bounds": [
+        [
+          -2.0859668254852295,
+          4.25,
+          5.381534099578857
+        ],
+        [
+          -1.929418683052063,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_13.003",
+      "bounds": [
+        [
+          -1.929418683052063,
+          4.25,
+          5.195712089538574
+        ],
+        [
+          -1.8110371828079224,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_14.003",
+      "bounds": [
+        [
+          -1.8110371828079224,
+          4.25,
+          4.988309860229492
+        ],
+        [
+          -1.7366856336593628,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_15.003",
+      "bounds": [
+        [
+          -1.7366856336593628,
+          4.25,
+          4.769598960876465
+        ],
+        [
+          -1.7100465297698975,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_16.003",
+      "bounds": [
+        [
+          -1.7324395179748535,
+          4.25,
+          4.550413131713867
+        ],
+        [
+          -1.7100465297698975,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_17.003",
+      "bounds": [
+        [
+          -1.8027552366256714,
+          4.25,
+          4.341608047485352
+        ],
+        [
+          -1.7324395179748535,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_left_pier.004",
+      "bounds": [
+        [
+          -1.5959999561309814,
+          5.400000095367432,
+          0.3999999761581421
+        ],
+        [
+          -1.0499999523162842,
+          5.799999713897705,
+          1.4568759202957153
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_right_pier.004",
+      "bounds": [
+        [
+          1.0499999523162842,
+          5.400000095367432,
+          0.3999999761581421
+        ],
+        [
+          1.5959999561309814,
+          5.799999713897705,
+          1.4568759202957153
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_00.004",
+      "bounds": [
+        [
+          -1.1288206577301025,
+          5.400000095367432,
+          1.4568759202957153
+        ],
+        [
+          -1.0467854738235474,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_01.004",
+      "bounds": [
+        [
+          -1.154945731163025,
+          5.400000095367432,
+          1.7004820108413696
+        ],
+        [
+          -1.1288206577301025,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_02.004",
+      "bounds": [
+        [
+          -1.154945731163025,
+          5.400000095367432,
+          1.956199049949646
+        ],
+        [
+          -1.1238667964935303,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_03.004",
+      "bounds": [
+        [
+          -1.1238667964935303,
+          5.400000095367432,
+          2.2113614082336426
+        ],
+        [
+          -1.0371233224868774,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_04.004",
+      "bounds": [
+        [
+          -1.0371233224868774,
+          5.400000095367432,
+          2.4533309936523438
+        ],
+        [
+          -0.899011492729187,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_05.004",
+      "bounds": [
+        [
+          -0.899011492729187,
+          5.400000095367432,
+          2.6701231002807617
+        ],
+        [
+          -0.716372013092041,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_06.004",
+      "bounds": [
+        [
+          -0.716372013092041,
+          5.400000095367432,
+          2.8510000705718994
+        ],
+        [
+          -0.49825090169906616,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_07.004",
+      "bounds": [
+        [
+          -0.49825090169906616,
+          5.400000095367432,
+          2.9870033264160156
+        ],
+        [
+          -0.25545164942741394,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_08.004",
+      "bounds": [
+        [
+          -0.25545164942741394,
+          5.400000095367432,
+          3.071396589279175
+        ],
+        [
+          7.072335342068773e-17,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_09.004",
+      "bounds": [
+        [
+          7.072335342068773e-17,
+          5.400000095367432,
+          3.071396589279175
+        ],
+        [
+          0.25545164942741394,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_10.004",
+      "bounds": [
+        [
+          0.25545164942741394,
+          5.400000095367432,
+          2.9870033264160156
+        ],
+        [
+          0.49825090169906616,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_11.004",
+      "bounds": [
+        [
+          0.49825090169906616,
+          5.400000095367432,
+          2.8510000705718994
+        ],
+        [
+          0.716372013092041,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_12.004",
+      "bounds": [
+        [
+          0.716372013092041,
+          5.400000095367432,
+          2.6701231002807617
+        ],
+        [
+          0.899011492729187,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_13.004",
+      "bounds": [
+        [
+          0.899011492729187,
+          5.400000095367432,
+          2.4533309936523438
+        ],
+        [
+          1.0371233224868774,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_14.004",
+      "bounds": [
+        [
+          1.0371233224868774,
+          5.400000095367432,
+          2.2113614082336426
+        ],
+        [
+          1.1238667964935303,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_15.004",
+      "bounds": [
+        [
+          1.1238667964935303,
+          5.400000095367432,
+          1.956199049949646
+        ],
+        [
+          1.154945731163025,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_16.004",
+      "bounds": [
+        [
+          1.1288206577301025,
+          5.400000095367432,
+          1.7004820108413696
+        ],
+        [
+          1.154945731163025,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_17.004",
+      "bounds": [
+        [
+          1.0467854738235474,
+          5.400000095367432,
+          1.4568759202957153
+        ],
+        [
+          1.1288206577301025,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_left_pier.004",
+      "bounds": [
+        [
+          -1.3679999113082886,
+          4.25,
+          3.700000047683716
+        ],
+        [
+          -0.8999999761581421,
+          4.649999618530273,
+          4.341608047485352
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_right_pier.004",
+      "bounds": [
+        [
+          0.8999999761581421,
+          4.25,
+          3.700000047683716
+        ],
+        [
+          1.3679999113082886,
+          4.649999618530273,
+          4.341608047485352
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_00.004",
+      "bounds": [
+        [
+          -0.9675605297088623,
+          4.25,
+          4.341608047485352
+        ],
+        [
+          -0.8972446918487549,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_01.004",
+      "bounds": [
+        [
+          -0.9899534583091736,
+          4.25,
+          4.550413131713867
+        ],
+        [
+          -0.9675605297088623,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_02.004",
+      "bounds": [
+        [
+          -0.9899534583091736,
+          4.25,
+          4.769598960876465
+        ],
+        [
+          -0.963314414024353,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_03.004",
+      "bounds": [
+        [
+          -0.963314414024353,
+          4.25,
+          4.988309860229492
+        ],
+        [
+          -0.8889628052711487,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_04.004",
+      "bounds": [
+        [
+          -0.8889628052711487,
+          4.25,
+          5.195712089538574
+        ],
+        [
+          -0.7705812454223633,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_05.004",
+      "bounds": [
+        [
+          -0.7705812454223633,
+          4.25,
+          5.381534099578857
+        ],
+        [
+          -0.6140331625938416,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_06.004",
+      "bounds": [
+        [
+          -0.6140331625938416,
+          4.25,
+          5.536571502685547
+        ],
+        [
+          -0.4270721971988678,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_07.004",
+      "bounds": [
+        [
+          -0.4270721971988678,
+          4.25,
+          5.653145790100098
+        ],
+        [
+          -0.21895857155323029,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_08.004",
+      "bounds": [
+        [
+          -0.21895857155323029,
+          4.25,
+          5.725482940673828
+        ],
+        [
+          6.062001721773234e-17,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_09.004",
+      "bounds": [
+        [
+          6.062001721773234e-17,
+          4.25,
+          5.725482940673828
+        ],
+        [
+          0.21895857155323029,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_10.004",
+      "bounds": [
+        [
+          0.21895857155323029,
+          4.25,
+          5.653145790100098
+        ],
+        [
+          0.4270721971988678,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_11.004",
+      "bounds": [
+        [
+          0.4270721971988678,
+          4.25,
+          5.536571502685547
+        ],
+        [
+          0.6140331625938416,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_12.004",
+      "bounds": [
+        [
+          0.6140331625938416,
+          4.25,
+          5.381534099578857
+        ],
+        [
+          0.7705812454223633,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_13.004",
+      "bounds": [
+        [
+          0.7705812454223633,
+          4.25,
+          5.195712089538574
+        ],
+        [
+          0.8889628052711487,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_14.004",
+      "bounds": [
+        [
+          0.8889628052711487,
+          4.25,
+          4.988309860229492
+        ],
+        [
+          0.963314414024353,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_15.004",
+      "bounds": [
+        [
+          0.963314414024353,
+          4.25,
+          4.769598960876465
+        ],
+        [
+          0.9899534583091736,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_16.004",
+      "bounds": [
+        [
+          0.9675605297088623,
+          4.25,
+          4.550413131713867
+        ],
+        [
+          0.9899534583091736,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_17.004",
+      "bounds": [
+        [
+          0.8972446918487549,
+          4.25,
+          4.341608047485352
+        ],
+        [
+          0.9675605297088623,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_left_pier.005",
+      "bounds": [
+        [
+          1.1039999723434448,
+          5.400000095367432,
+          0.3999999761581421
+        ],
+        [
+          1.649999976158142,
+          5.799999713897705,
+          1.4568759202957153
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_right_pier.005",
+      "bounds": [
+        [
+          3.749999761581421,
+          5.400000095367432,
+          0.3999999761581421
+        ],
+        [
+          4.295999526977539,
+          5.799999713897705,
+          1.4568759202957153
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_00.005",
+      "bounds": [
+        [
+          1.5711793899536133,
+          5.400000095367432,
+          1.4568759202957153
+        ],
+        [
+          1.653214454650879,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_01.005",
+      "bounds": [
+        [
+          1.545054316520691,
+          5.400000095367432,
+          1.7004820108413696
+        ],
+        [
+          1.5711793899536133,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_02.005",
+      "bounds": [
+        [
+          1.545054316520691,
+          5.400000095367432,
+          1.956199049949646
+        ],
+        [
+          1.576133131980896,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_03.005",
+      "bounds": [
+        [
+          1.576133131980896,
+          5.400000095367432,
+          2.2113614082336426
+        ],
+        [
+          1.6628767251968384,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_04.005",
+      "bounds": [
+        [
+          1.6628767251968384,
+          5.400000095367432,
+          2.4533309936523438
+        ],
+        [
+          1.8009885549545288,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_05.005",
+      "bounds": [
+        [
+          1.8009885549545288,
+          5.400000095367432,
+          2.6701231002807617
+        ],
+        [
+          1.9836280345916748,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_06.005",
+      "bounds": [
+        [
+          1.9836280345916748,
+          5.400000095367432,
+          2.8510000705718994
+        ],
+        [
+          2.201749086380005,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_07.005",
+      "bounds": [
+        [
+          2.201749086380005,
+          5.400000095367432,
+          2.9870033264160156
+        ],
+        [
+          2.4445483684539795,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_08.005",
+      "bounds": [
+        [
+          2.4445483684539795,
+          5.400000095367432,
+          3.071396589279175
+        ],
+        [
+          2.700000047683716,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_09.005",
+      "bounds": [
+        [
+          2.700000047683716,
+          5.400000095367432,
+          3.071396589279175
+        ],
+        [
+          2.955451726913452,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_10.005",
+      "bounds": [
+        [
+          2.955451726913452,
+          5.400000095367432,
+          2.9870033264160156
+        ],
+        [
+          3.1982510089874268,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_11.005",
+      "bounds": [
+        [
+          3.1982510089874268,
+          5.400000095367432,
+          2.8510000705718994
+        ],
+        [
+          3.416372060775757,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_12.005",
+      "bounds": [
+        [
+          3.416372060775757,
+          5.400000095367432,
+          2.6701231002807617
+        ],
+        [
+          3.5990114212036133,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_13.005",
+      "bounds": [
+        [
+          3.5990114212036133,
+          5.400000095367432,
+          2.4533309936523438
+        ],
+        [
+          3.7371232509613037,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_14.005",
+      "bounds": [
+        [
+          3.7371232509613037,
+          5.400000095367432,
+          2.2113614082336426
+        ],
+        [
+          3.823866844177246,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_15.005",
+      "bounds": [
+        [
+          3.823866844177246,
+          5.400000095367432,
+          1.956199049949646
+        ],
+        [
+          3.854945659637451,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_16.005",
+      "bounds": [
+        [
+          3.8288207054138184,
+          5.400000095367432,
+          1.7004820108413696
+        ],
+        [
+          3.854945659637451,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "ground_court_arcade_voussoir_17.005",
+      "bounds": [
+        [
+          3.7467854022979736,
+          5.400000095367432,
+          1.4568759202957153
+        ],
+        [
+          3.8288207054138184,
+          5.800000190734863,
+          3.6500000953674316
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_left_pier.005",
+      "bounds": [
+        [
+          1.3320000171661377,
+          4.25,
+          3.700000047683716
+        ],
+        [
+          1.7999999523162842,
+          4.649999618530273,
+          4.341608047485352
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_right_pier.005",
+      "bounds": [
+        [
+          3.6000001430511475,
+          4.25,
+          3.700000047683716
+        ],
+        [
+          4.068000316619873,
+          4.649999618530273,
+          4.341608047485352
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_00.005",
+      "bounds": [
+        [
+          1.7324395179748535,
+          4.25,
+          4.341608047485352
+        ],
+        [
+          1.8027552366256714,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_01.005",
+      "bounds": [
+        [
+          1.7100465297698975,
+          4.25,
+          4.550413131713867
+        ],
+        [
+          1.7324395179748535,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_02.005",
+      "bounds": [
+        [
+          1.7100465297698975,
+          4.25,
+          4.769598960876465
+        ],
+        [
+          1.7366856336593628,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_03.005",
+      "bounds": [
+        [
+          1.7366856336593628,
+          4.25,
+          4.988309860229492
+        ],
+        [
+          1.8110371828079224,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_04.005",
+      "bounds": [
+        [
+          1.8110371828079224,
+          4.25,
+          5.195712089538574
+        ],
+        [
+          1.929418683052063,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_05.005",
+      "bounds": [
+        [
+          1.929418683052063,
+          4.25,
+          5.381534099578857
+        ],
+        [
+          2.0859668254852295,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_06.005",
+      "bounds": [
+        [
+          2.0859668254852295,
+          4.25,
+          5.536571502685547
+        ],
+        [
+          2.272927761077881,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_07.005",
+      "bounds": [
+        [
+          2.272927761077881,
+          4.25,
+          5.653145790100098
+        ],
+        [
+          2.481041431427002,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_08.005",
+      "bounds": [
+        [
+          2.481041431427002,
+          4.25,
+          5.725482940673828
+        ],
+        [
+          2.700000047683716,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_09.005",
+      "bounds": [
+        [
+          2.700000047683716,
+          4.25,
+          5.725482940673828
+        ],
+        [
+          2.9189586639404297,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_10.005",
+      "bounds": [
+        [
+          2.9189586639404297,
+          4.25,
+          5.653145790100098
+        ],
+        [
+          3.1270720958709717,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_11.005",
+      "bounds": [
+        [
+          3.1270720958709717,
+          4.25,
+          5.536571502685547
+        ],
+        [
+          3.314033031463623,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_12.005",
+      "bounds": [
+        [
+          3.314033031463623,
+          4.25,
+          5.381534099578857
+        ],
+        [
+          3.470581293106079,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_13.005",
+      "bounds": [
+        [
+          3.470581293106079,
+          4.25,
+          5.195712089538574
+        ],
+        [
+          3.5889627933502197,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_14.005",
+      "bounds": [
+        [
+          3.5889627933502197,
+          4.25,
+          4.988309860229492
+        ],
+        [
+          3.6633143424987793,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_15.005",
+      "bounds": [
+        [
+          3.6633143424987793,
+          4.25,
+          4.769598960876465
+        ],
+        [
+          3.689953565597534,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_16.005",
+      "bounds": [
+        [
+          3.667560577392578,
+          4.25,
+          4.550413131713867
+        ],
+        [
+          3.689953565597534,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "upper_court_arcade_voussoir_17.005",
+      "bounds": [
+        [
+          3.5972447395324707,
+          4.25,
+          4.341608047485352
+        ],
+        [
+          3.667560577392578,
+          4.650000095367432,
+          6.119999885559082
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "front_flank",
+      "bounds": [
+        [
+          -6.700000286102295,
+          -6.924999713897705,
+          0.25
+        ],
+        [
+          -2.9000000953674316,
+          -6.275000095367432,
+          3.75
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "front_flank.001",
+      "bounds": [
+        [
+          2.9000000953674316,
+          -6.924999713897705,
+          0.25
+        ],
+        [
+          6.700000286102295,
+          -6.275000095367432,
+          3.75
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "monumental_horseshoe_portal_left_pier",
+      "bounds": [
+        [
+          -2.2799999713897705,
+          -6.940000057220459,
+          0.2799999713897705
+        ],
+        [
+          -1.5,
+          -6.259999752044678,
+          1.3326798677444458
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "monumental_horseshoe_portal_right_pier",
+      "bounds": [
+        [
+          1.5,
+          -6.940000057220459,
+          0.2799999713897705
+        ],
+        [
+          2.2799999713897705,
+          -6.259999752044678,
+          1.3326798677444458
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_00",
+      "bounds": [
+        [
+          -1.6126009225845337,
+          -6.940000057220459,
+          1.3326798677444458
+        ],
+        [
+          -1.4954078197479248,
+          -6.260000228881836,
+          6.150000095367432
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_01",
+      "bounds": [
+        [
+          -1.649922490119934,
+          -6.940000057220459,
+          1.6806886196136475
+        ],
+        [
+          -1.6126009225845337,
+          -6.260000228881836,
+          6.150000095367432
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_02",
+      "bounds": [
+        [
+          -1.649922490119934,
+          -6.940000057220459,
+          2.0459985733032227
+        ],
+        [
+          -1.6055240631103516,
+          -6.260000228881836,
+          6.150000095367432
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_03",
+      "bounds": [
+        [
+          -1.6055240631103516,
+          -6.940000057220459,
+          2.4105162620544434
+        ],
+        [
+          -1.4816046953201294,
+          -6.260000228881836,
+          6.150000095367432
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_04",
+      "bounds": [
+        [
+          -1.4816046953201294,
+          -6.940000057220459,
+          2.7561869621276855
+        ],
+        [
+          -1.2843021154403687,
+          -6.260000228881836,
+          6.150000095367432
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_05",
+      "bounds": [
+        [
+          -1.2843021154403687,
+          -6.940000057220459,
+          3.065890073776245
+        ],
+        [
+          -1.0233885049819946,
+          -6.260000228881836,
+          6.150000095367432
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_06",
+      "bounds": [
+        [
+          -1.0233885049819946,
+          -6.940000057220459,
+          3.3242857456207275
+        ],
+        [
+          -0.7117869853973389,
+          -6.260000228881836,
+          6.150000095367432
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_07",
+      "bounds": [
+        [
+          -0.7117869853973389,
+          -6.940000057220459,
+          3.518576145172119
+        ],
+        [
+          -0.3649309575557709,
+          -6.260000228881836,
+          6.150000095367432
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_08",
+      "bounds": [
+        [
+          -0.3649309575557709,
+          -6.940000057220459,
+          3.6391379833221436
+        ],
+        [
+          1.010333620295539e-16,
+          -6.260000228881836,
+          6.150000095367432
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_09",
+      "bounds": [
+        [
+          1.010333620295539e-16,
+          -6.940000057220459,
+          3.6391379833221436
+        ],
+        [
+          0.3649309575557709,
+          -6.260000228881836,
+          6.150000095367432
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_10",
+      "bounds": [
+        [
+          0.3649309575557709,
+          -6.940000057220459,
+          3.518576145172119
+        ],
+        [
+          0.7117869853973389,
+          -6.260000228881836,
+          6.150000095367432
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_11",
+      "bounds": [
+        [
+          0.7117869853973389,
+          -6.940000057220459,
+          3.3242857456207275
+        ],
+        [
+          1.0233885049819946,
+          -6.260000228881836,
+          6.150000095367432
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_12",
+      "bounds": [
+        [
+          1.0233885049819946,
+          -6.940000057220459,
+          3.065890073776245
+        ],
+        [
+          1.2843021154403687,
+          -6.260000228881836,
+          6.150000095367432
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_13",
+      "bounds": [
+        [
+          1.2843021154403687,
+          -6.940000057220459,
+          2.7561869621276855
+        ],
+        [
+          1.4816046953201294,
+          -6.260000228881836,
+          6.150000095367432
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_14",
+      "bounds": [
+        [
+          1.4816046953201294,
+          -6.940000057220459,
+          2.4105162620544434
+        ],
+        [
+          1.6055240631103516,
+          -6.260000228881836,
+          6.150000095367432
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_15",
+      "bounds": [
+        [
+          1.6055240631103516,
+          -6.940000057220459,
+          2.0459985733032227
+        ],
+        [
+          1.649922490119934,
+          -6.260000228881836,
+          6.150000095367432
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_16",
+      "bounds": [
+        [
+          1.6126009225845337,
+          -6.940000057220459,
+          1.6806886196136475
+        ],
+        [
+          1.649922490119934,
+          -6.260000228881836,
+          6.150000095367432
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "monumental_horseshoe_portal_voussoir_17",
+      "bounds": [
+        [
+          1.4954078197479248,
+          -6.940000057220459,
+          1.3326798677444458
+        ],
+        [
+          1.6126009225845337,
+          -6.260000228881836,
+          6.150000095367432
+        ]
+      ],
+      "stage": 40,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "portal_cedar_entablature",
+      "bounds": [
+        [
+          -2.5,
+          -7.090000152587891,
+          5.110000133514404
+        ],
+        [
+          2.5,
+          -6.869999885559082,
+          5.589999675750732
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "portal_zellij_jamb",
+      "bounds": [
+        [
+          -2.174999952316284,
+          -7.039999961853027,
+          0.2999999523162842
+        ],
+        [
+          -1.8250000476837158,
+          -6.899999618530273,
+          2.700000047683716
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "portal_zellij_jamb.001",
+      "bounds": [
+        [
+          1.8250000476837158,
+          -7.039999961853027,
+          0.2999999523162842
+        ],
+        [
+          2.174999952316284,
+          -6.899999618530273,
+          2.700000047683716
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "portal_stucco_frieze",
+      "bounds": [
+        [
+          -2.049999952316284,
+          -7.039999961853027,
+          4.325000286102295
+        ],
+        [
+          2.049999952316284,
+          -6.920000076293945,
+          4.974999904632568
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "octagonal_basin_rim",
+      "bounds": [
+        [
+          -1.209999918937683,
+          -1.209999918937683,
+          0.46000000834465027
+        ],
+        [
+          1.209999918937683,
+          1.209999918937683,
+          0.7799999713897705
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "basin_water",
+      "bounds": [
+        [
+          -0.7099999785423279,
+          -0.7099999785423279,
+          0.4724999964237213
+        ],
+        [
+          0.7099999785423279,
+          0.7099999785423279,
+          0.5074999928474426
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "basin_square_plinth",
+      "bounds": [
+        [
+          -1.274999976158142,
+          -1.274999976158142,
+          0.2600000202655792
+        ],
+        [
+          1.274999976158142,
+          1.274999976158142,
+          0.46000000834465027
+        ]
+      ],
+      "stage": 20,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "square_minaret",
+      "bounds": [
+        [
+          -6.675000190734863,
+          3.5250000953674316,
+          0.27500009536743164
+        ],
+        [
+          -4.125,
+          6.075000286102295,
+          13.725000381469727
+        ]
+      ],
+      "stage": 40,
+      "uv": 2,
+      "mesh_users": 1
+    },
+    {
+      "name": "blind_arch_tile_dado",
+      "bounds": [
+        [
+          -6.210000038146973,
+          3.6524999141693115,
+          9.039999961853027
+        ],
+        [
+          -5.630000114440918,
+          3.677500009536743,
+          9.4399995803833
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "blind_arch_tile_dado.001",
+      "bounds": [
+        [
+          -5.170000076293945,
+          3.6524999141693115,
+          9.039999961853027
+        ],
+        [
+          -4.590000152587891,
+          3.677500009536743,
+          9.4399995803833
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "blind_arch_tile_dado.002",
+      "bounds": [
+        [
+          -6.210000038146973,
+          5.922500133514404,
+          9.039999961853027
+        ],
+        [
+          -5.630000114440918,
+          5.947499752044678,
+          9.4399995803833
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "blind_arch_tile_dado.003",
+      "bounds": [
+        [
+          -5.170000076293945,
+          5.922500133514404,
+          9.039999961853027
+        ],
+        [
+          -4.590000152587891,
+          5.947499752044678,
+          9.4399995803833
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_seated_mosaic",
+      "bounds": [
+        [
+          -6.547499656677246,
+          3.950000286102295,
+          11.109999656677246
+        ],
+        [
+          -6.522500038146973,
+          5.650000095367432,
+          12.1899995803833
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_seated_mosaic.001",
+      "bounds": [
+        [
+          -4.277499675750732,
+          3.950000286102295,
+          11.109999656677246
+        ],
+        [
+          -4.252500057220459,
+          5.650000095367432,
+          12.1899995803833
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_glazed_band",
+      "bounds": [
+        [
+          -6.695000171661377,
+          3.505000114440918,
+          7.349999904632568
+        ],
+        [
+          -4.105000019073486,
+          6.095000267028809,
+          7.650000095367432
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_glazed_band.001",
+      "bounds": [
+        [
+          -6.695000171661377,
+          3.505000114440918,
+          12.75
+        ],
+        [
+          -4.105000019073486,
+          6.095000267028809,
+          13.049999237060547
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_crown",
+      "bounds": [
+        [
+          -6.800000190734863,
+          3.4000000953674316,
+          13.574999809265137
+        ],
+        [
+          -4.0,
+          6.200000286102295,
+          14.02500057220459
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_lantern",
+      "bounds": [
+        [
+          -6.050000190734863,
+          4.150000095367432,
+          14.0
+        ],
+        [
+          -4.75,
+          5.450000286102295,
+          14.600000381469727
+        ]
+      ],
+      "stage": 100,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_crown_merlon",
+      "bounds": [
+        [
+          -6.410000324249268,
+          3.450000047683716,
+          13.930000305175781
+        ],
+        [
+          -6.190000057220459,
+          3.669999837875366,
+          14.309999465942383
+        ]
+      ],
+      "stage": 100,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_crown_merlon.001",
+      "bounds": [
+        [
+          -6.75,
+          3.7900002002716064,
+          13.930000305175781
+        ],
+        [
+          -6.529999732971191,
+          4.010000228881836,
+          14.309999465942383
+        ]
+      ],
+      "stage": 100,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_crown_merlon.002",
+      "bounds": [
+        [
+          -5.809999942779541,
+          3.450000047683716,
+          13.930000305175781
+        ],
+        [
+          -5.589999675750732,
+          3.669999837875366,
+          14.309999465942383
+        ]
+      ],
+      "stage": 100,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_crown_merlon.003",
+      "bounds": [
+        [
+          -6.75,
+          4.389999866485596,
+          13.930000305175781
+        ],
+        [
+          -6.529999732971191,
+          4.610000133514404,
+          14.309999465942383
+        ]
+      ],
+      "stage": 100,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_crown_merlon.004",
+      "bounds": [
+        [
+          -5.210000038146973,
+          3.450000047683716,
+          13.930000305175781
+        ],
+        [
+          -4.989999771118164,
+          3.669999837875366,
+          14.309999465942383
+        ]
+      ],
+      "stage": 100,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_crown_merlon.005",
+      "bounds": [
+        [
+          -6.75,
+          4.989999771118164,
+          13.930000305175781
+        ],
+        [
+          -6.529999732971191,
+          5.210000038146973,
+          14.309999465942383
+        ]
+      ],
+      "stage": 100,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_crown_merlon.006",
+      "bounds": [
+        [
+          -4.610000133514404,
+          3.450000047683716,
+          13.930000305175781
+        ],
+        [
+          -4.389999866485596,
+          3.669999837875366,
+          14.309999465942383
+        ]
+      ],
+      "stage": 100,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_crown_merlon.007",
+      "bounds": [
+        [
+          -6.75,
+          5.589999675750732,
+          13.930000305175781
+        ],
+        [
+          -6.529999732971191,
+          5.809999942779541,
+          14.309999465942383
+        ]
+      ],
+      "stage": 100,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_crown_merlon.008",
+      "bounds": [
+        [
+          -6.410000324249268,
+          5.929999828338623,
+          13.930000305175781
+        ],
+        [
+          -6.190000057220459,
+          6.150000095367432,
+          14.309999465942383
+        ]
+      ],
+      "stage": 100,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_crown_merlon.009",
+      "bounds": [
+        [
+          -4.269999980926514,
+          3.7900002002716064,
+          13.930000305175781
+        ],
+        [
+          -4.049999713897705,
+          4.010000228881836,
+          14.309999465942383
+        ]
+      ],
+      "stage": 100,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_crown_merlon.010",
+      "bounds": [
+        [
+          -5.809999942779541,
+          5.929999828338623,
+          13.930000305175781
+        ],
+        [
+          -5.589999675750732,
+          6.150000095367432,
+          14.309999465942383
+        ]
+      ],
+      "stage": 100,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_crown_merlon.011",
+      "bounds": [
+        [
+          -4.269999980926514,
+          4.389999866485596,
+          13.930000305175781
+        ],
+        [
+          -4.049999713897705,
+          4.610000133514404,
+          14.309999465942383
+        ]
+      ],
+      "stage": 100,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_crown_merlon.012",
+      "bounds": [
+        [
+          -5.210000038146973,
+          5.929999828338623,
+          13.930000305175781
+        ],
+        [
+          -4.989999771118164,
+          6.150000095367432,
+          14.309999465942383
+        ]
+      ],
+      "stage": 100,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_crown_merlon.013",
+      "bounds": [
+        [
+          -4.269999980926514,
+          4.989999771118164,
+          13.930000305175781
+        ],
+        [
+          -4.049999713897705,
+          5.210000038146973,
+          14.309999465942383
+        ]
+      ],
+      "stage": 100,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_crown_merlon.014",
+      "bounds": [
+        [
+          -4.610000133514404,
+          5.929999828338623,
+          13.930000305175781
+        ],
+        [
+          -4.389999866485596,
+          6.150000095367432,
+          14.309999465942383
+        ]
+      ],
+      "stage": 100,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_crown_merlon.015",
+      "bounds": [
+        [
+          -4.269999980926514,
+          5.589999675750732,
+          13.930000305175781
+        ],
+        [
+          -4.049999713897705,
+          5.809999942779541,
+          14.309999465942383
+        ]
+      ],
+      "stage": 100,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_lantern_glazed_cap",
+      "bounds": [
+        [
+          -6.224999904632568,
+          3.9749999046325684,
+          14.520000457763672
+        ],
+        [
+          -4.574999809265137,
+          5.625,
+          15.039999961853027
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_carved_stucco_frieze",
+      "bounds": [
+        [
+          -4.012499809265137,
+          -5.5,
+          5.424999713897705
+        ],
+        [
+          -3.9674999713897705,
+          5.5,
+          5.974999904632568
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_zellij_dado",
+      "bounds": [
+        [
+          -4.012499809265137,
+          -5.5,
+          0.44999998807907104
+        ],
+        [
+          -3.9674999713897705,
+          5.5,
+          1.5499999523162842
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_carved_stucco_frieze.001",
+      "bounds": [
+        [
+          3.9674999713897705,
+          -5.5,
+          5.424999713897705
+        ],
+        [
+          4.012499809265137,
+          5.5,
+          5.974999904632568
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_zellij_dado.001",
+      "bounds": [
+        [
+          3.9674999713897705,
+          -5.5,
+          0.44999998807907104
+        ],
+        [
+          4.012499809265137,
+          5.5,
+          1.5499999523162842
+        ]
+      ],
+      "stage": 60,
+      "uv": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "native_owner_flag_pole",
+      "bounds": [
+        [
+          5.539999961853027,
+          5.039999961853027,
+          6.600000381469727
+        ],
+        [
+          5.659999847412109,
+          5.159999847412109,
+          9.600000381469727
+        ]
+      ],
+      "stage": 80,
+      "uv": 1,
+      "mesh_users": 1
+    }
+  ],
+  "triangles": 7328,
+  "native_game": "unverified",
+  "texture_sha256": "deacc021c83edffaee99e7993192b8552d7af255a7147a6b47095aa1d520745e"
+}

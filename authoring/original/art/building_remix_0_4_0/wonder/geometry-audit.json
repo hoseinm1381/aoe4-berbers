@@ -1,0 +1,810 @@
+{
+  "bounds_local_evaluated": [
+    [
+      -7.099999904632568,
+      -7.0,
+      0.0
+    ],
+    [
+      7.099999904632568,
+      7.0,
+      14.600000381469727
+    ]
+  ],
+  "triangles": 3176,
+  "mesh_audit": [
+    {
+      "name": "site_plinth",
+      "signed_volume": 23.855999146342285,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "sanctuary_hypostyle_mass",
+      "signed_volume": 195.04801223480723,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_paving",
+      "signed_volume": 2.551999839007858,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_square_shaft",
+      "signed_volume": 64.83679618539429,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_crown",
+      "signed_volume": 2.600997665405128,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "minaret_lantern",
+      "signed_volume": 2.856579848022483,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "lantern_green_cap",
+      "signed_volume": 0.6246498438040131,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "hypostyle_green_roof_bay_0",
+      "signed_volume": 5.300577690917878,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "hypostyle_green_roof_bay_1",
+      "signed_volume": 5.300578218913911,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "hypostyle_green_roof_bay_2",
+      "signed_volume": 5.3005785837892105,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "hypostyle_green_roof_bay_3",
+      "signed_volume": 5.30057824037716,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "hypostyle_green_roof_bay_4",
+      "signed_volume": 5.300577690917875,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "recessed_cedar_door_0",
+      "signed_volume": 0.10356874138743666,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "recessed_cedar_door_1",
+      "signed_volume": 0.10356874533180076,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "recessed_cedar_door_2",
+      "signed_volume": 0.10356875878597374,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_front0-10",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_front0-11",
+      "signed_volume": 0.0010519804709741706,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_front0-12",
+      "signed_volume": 0.0010519804709741706,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_front0-13",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_front010",
+      "signed_volume": 0.0010519808062503155,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_front011",
+      "signed_volume": 0.00105198120858169,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_front012",
+      "signed_volume": 0.0010519804709741706,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_front013",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_front1-10",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_front1-11",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_front1-12",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_front1-13",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_front110",
+      "signed_volume": 0.0010519808062503155,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_front111",
+      "signed_volume": 0.0010519808062503155,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_front112",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_front113",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_front2-10",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_front2-11",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_front2-12",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_front2-13",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_front210",
+      "signed_volume": 0.0010519808062503155,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_front211",
+      "signed_volume": 0.0010519808062503155,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_front212",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_front213",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_east0-10",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_east0-11",
+      "signed_volume": 0.0010519804709741706,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_east0-12",
+      "signed_volume": 0.0010519808733055447,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_east0-13",
+      "signed_volume": 0.0010519804709741706,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_east010",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_east011",
+      "signed_volume": 0.0010519804709741706,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_east012",
+      "signed_volume": 0.0010519804709741706,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_east013",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_east1-10",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_east1-11",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_east1-12",
+      "signed_volume": 0.0010519804709741706,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_east1-13",
+      "signed_volume": 0.0010519804709741706,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_east110",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_east111",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_east112",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_east113",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_east2-10",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_east2-11",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_east2-12",
+      "signed_volume": 0.0010519804709741706,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_east2-13",
+      "signed_volume": 0.0010519804709741706,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_east210",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_east211",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_east212",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "seated_sebka_east213",
+      "signed_volume": 0.0010519800686427962,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "square_crown_band_9.9",
+      "signed_volume": 0.7995527930222153,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "square_crown_band_10.65",
+      "signed_volume": 2.5831687573090143,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "square_crown_band_11.22",
+      "signed_volume": 0.9225577566907255,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "crown_merlon_front-10",
+      "signed_volume": 0.010439992542264853,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "crown_merlon_front-11",
+      "signed_volume": 0.010440017433168691,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "crown_merlon_side-11",
+      "signed_volume": 0.010440006370529276,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "crown_merlon_front-12",
+      "signed_volume": 0.010439992542264825,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "crown_merlon_side-12",
+      "signed_volume": 0.010440006370528138,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "crown_merlon_front-13",
+      "signed_volume": 0.010439992542264825,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "crown_merlon_side-13",
+      "signed_volume": 0.010440031261463034,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "crown_merlon_front-14",
+      "signed_volume": 0.010439992542263632,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "crown_merlon_front10",
+      "signed_volume": 0.010440006370526889,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "crown_merlon_front11",
+      "signed_volume": 0.01044003126146359,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "crown_merlon_side11",
+      "signed_volume": 0.010439978714001569,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "crown_merlon_front12",
+      "signed_volume": 0.010440006370526334,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "crown_merlon_side12",
+      "signed_volume": 0.010439978714000347,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "crown_merlon_front13",
+      "signed_volume": 0.010440006370526944,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "crown_merlon_side13",
+      "signed_volume": 0.010440003604873155,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "crown_merlon_front14",
+      "signed_volume": 0.010440006370526334,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_west_module0_spandrel",
+      "signed_volume": 0.13954850093419052,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_west_module0_pier-1",
+      "signed_volume": 0.07551996561046666,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_west_module0_pier1",
+      "signed_volume": 0.07552005563736702,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_west_module0_gallery_cap",
+      "signed_volume": 0.2527197876549221,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_west_module1_spandrel",
+      "signed_volume": 0.13954852877339102,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_west_module1_pier-1",
+      "signed_volume": 0.07551996561046671,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_west_module1_pier1",
+      "signed_volume": 0.07551996561046666,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_west_module1_gallery_cap",
+      "signed_volume": 0.25271977220540864,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_west_module2_spandrel",
+      "signed_volume": 0.13954852678639318,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_west_module2_pier-1",
+      "signed_volume": 0.07551996561046709,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_west_module2_pier1",
+      "signed_volume": 0.07551996561046671,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_west_module2_gallery_cap",
+      "signed_volume": 0.2527197722054093,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_east_module0_spandrel",
+      "signed_volume": 0.13954850093419105,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_east_module0_pier-1",
+      "signed_volume": 0.07551996561046677,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_east_module0_pier1",
+      "signed_volume": 0.07552005563736713,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_east_module0_gallery_cap",
+      "signed_volume": 0.2527199550246726,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_east_module1_spandrel",
+      "signed_volume": 0.1395485287733919,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_east_module1_pier-1",
+      "signed_volume": 0.07551996561046677,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_east_module1_pier1",
+      "signed_volume": 0.07551996561046677,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_east_module1_gallery_cap",
+      "signed_volume": 0.25271993957515004,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_east_module2_spandrel",
+      "signed_volume": 0.13954852678639068,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_east_module2_pier-1",
+      "signed_volume": 0.07551996561046714,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_east_module2_pier1",
+      "signed_volume": 0.07551996561046677,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_east_module2_gallery_cap",
+      "signed_volume": 0.25271993957515004,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "court_basin",
+      "signed_volume": 0.1979446269742132,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "basin_inset_water",
+      "signed_volume": 0.00897743926932345,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "copper_finial_orb0",
+      "signed_volume": 0.009777365042847137,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "copper_finial_orb1",
+      "signed_volume": 0.004753766324926649,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "copper_finial_orb2",
+      "signed_volume": 0.0018365980752984765,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "finial_spindle",
+      "signed_volume": 0.001237440379668683,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    },
+    {
+      "name": "native_owner_flag_pole",
+      "signed_volume": 0.039186525747900186,
+      "nonmanifold_edges": 0,
+      "uv_layers": 1,
+      "mesh_users": 1
+    }
+  ],
+  "nonmanifold_total": 0,
+  "native_runtime": "unverified"
+}

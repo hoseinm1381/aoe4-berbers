@@ -1,0 +1,60 @@
+{
+  "schema": "berber.native-stock-graft/v1",
+  "family": "marrakech",
+  "historical_interpretation": "Almohad Marrakech kasbah gatehouse, not a documented reconstruction of a building named Dar al-Jihad",
+  "references": [
+    "https://whc.unesco.org/document/153207"
+  ],
+  "active_stamp": "art/stamps/civ_mal/mal_landmark_b_age_03.bin",
+  "active_main_visual_instance_id": "5362244697167843257",
+  "active_main_replaced": "art/civilizations/malian/structures/landmark_3b/mal_landmark_b_age03/mal_landmark_b_age03",
+  "active_main_sha256": "0af66a89bb38db3c35748c2379de5a3bf6fe3d09a6f2e3b3a01485ac27af036f",
+  "new_main_donor": "art/civilizations/malian/structures/landmark_2b/mal_landmark_b_age02/mal_landmark_b_age02",
+  "new_main_donor_sha256": "e38595a3d70f4c70ab249b892caeea1b1670f9c48f570636ad73be047de37b91",
+  "new_main_geometry_sha256": "f1e356005e862acb40f77f0263c3677f2d2a30e021c3c388820548e897e6c21a",
+  "shared_decode": "output/shared_stock_cache/buildings_031/aa9a46fa271304378d30/decoded-static.json",
+  "geometry_recipe": "research/berber_031_marrakech_geometry.py",
+  "blender_recipe": "research/berber_031_marrakech_blender.py",
+  "native_model_build": "Derive two private model variants from the new_main_donor. Keep native RGM/RGO/material, selectors and owner-colour slots. Replace only native rrgeom GEOB position/normal/tangent streams with the corresponding files, then rebind one main visual instance in private healthy stamps. Do not graft the stock age02 landmark blueprint or gameplay.",
+  "horizontal_control": [8, 8],
+  "local_origin": [0, 0, 0],
+  "active_main_stamp_transform": {
+    "raw_10_floats": [0, 1, 0, 0, 0.23, 0, 0, 1, 1, 1],
+    "interpretation": "Quaternion x/y/z/w = 180 degrees around native vertical Y; game translation X = +0.23; unit scale. With Garrison game-to-Blender projection, effective horizontal mapping is Blender X = -source X - 0.23, Blender Y = -source Y.",
+    "age3_world_horizontal_bounds_m": [[-3.9664, -3.6680], [3.5064, 3.7774]],
+    "age4_world_horizontal_bounds_m": [[-3.9664, -3.6680], [3.5064, 3.7774]],
+    "8x8_envelope": "passed numerically; actual stock prop overlap and unit clearance require integrated stamp/game inspection"
+  },
+  "local_fit": {
+    "x": "x * (0.565 - 0.026 * smooth_front)",
+    "y": "y * 0.495 + 1.08",
+    "z": "z * 0.68 + gatehouse_rise - flank_crown_reduction",
+    "regional_shaping": "Age III and IV use different continuous central and flank height fields. The stock connected courtyard, ramparts, wall walk, stair and gate topology remain connected."
+  },
+  "variants": [
+    {
+      "age": 3,
+      "name": "marrakech_age03",
+      "logical_model": "art/scenario/garrison/berber_buildings_031/marrakech_age03/marrakech_age03",
+      "native_geometry": "art/building_remix_0_3_1/marrakech/marrakech_age03_kasbah.rrgeom",
+      "projection": "art/building_remix_0_3_1/marrakech/marrakech_age03_projection.json",
+      "blend": "art/building_remix_0_3_1/marrakech/Dar_al_Jihad_Marrakech_Age3_0_3_1.blend",
+      "expected_bounds_m": [[-3.7364, -3.7774, -1.1436], [3.7364, 3.6680, 5.5235]],
+      "style": "warm rammed earth, rugged timber gates and plain parapet"
+    },
+    {
+      "age": 4,
+      "name": "marrakech_age04",
+      "logical_model": "art/scenario/garrison/berber_buildings_031/marrakech_age04/marrakech_age04",
+      "native_geometry": "art/building_remix_0_3_1/marrakech/marrakech_age04_kasbah.rrgeom",
+      "projection": "art/building_remix_0_3_1/marrakech/marrakech_age04_projection.json",
+      "blend": "art/building_remix_0_3_1/marrakech/Dar_al_Jihad_Marrakech_Age4_0_3_1.blend",
+      "expected_bounds_m": [[-3.7364, -3.7774, -1.1436], [3.7364, 3.6680, 6.4258]],
+      "style": "raised central gatehouse, richer plaster and stone trim without changing gameplay"
+    }
+  ],
+  "preserve_stamp_instances": "All other 81 visual instances in the healthy stamp, including the active fl3b gate, stalls, tents, cargo and debris, unless measured overlap requires an explicit art-only relocation. Construction and ruin stamp references must remain stock.",
+  "native_owner_colour": "Preserve the Malian stock model's native owner/debug team-colour material slots and all non-GEOB chunks. Two native player-colour tests remain required.",
+  "age4_binding": "Existing actor has no Age IV visual tier. Derive a visual-only copy of mal_landmark_b_03 and add a new age4 actor tier_group referencing it, without changing stats or landmark functions. Verify actual tier selector semantics before integration.",
+  "status": "editable source complete; private model cook, stamp integration and native acceptance pending"
+}

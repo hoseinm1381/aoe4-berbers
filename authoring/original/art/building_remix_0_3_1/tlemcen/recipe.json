@@ -1,0 +1,420 @@
+{
+  "schema": "berber.native-building-remix/v3",
+  "baseline_version": "0.3.0",
+  "name": "Great Mosque of Tlemcen",
+  "models": [
+    {
+      "name": "tlemcen_age03",
+      "family": "tlemcen",
+      "age": 3,
+      "source": "art/civilizations/sultanate/structures/monastery/sul_monastery_control_age03/sul_monastery_control_age03.rgm",
+      "decoded": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\shared_stock_cache\\buildings_031\\844bd13bfc9f420723c2\\decoded-static.json",
+      "decoded_sha256": "ac37728ab09dc44243e082f36b3e8163eb29f6706d8b7cd74e2f34ebc8b74717",
+      "stock_geometry": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\844bd13bfc9f420723c2\\source\\art\\civilizations\\sultanate\\structures\\monastery\\sul_monastery_control_age03\\sul_monastery_control_age03.rrgeom",
+      "stock_geometry_sha256": "39c5a4b1157afe11750c27cb7139684850ff35e4f21264025051ea6685f22463",
+      "stock_material": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\844bd13bfc9f420723c2\\source\\art\\civilizations\\sultanate\\structures\\monastery\\sul_monastery_control_age03\\sul_monastery_control_age03.rrmaterial",
+      "native_geometry": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\tlemcen\\tlemcen_age03.rrgeom",
+      "native_geometry_sha256": "e26cf320f5996658156564d6e2cc856b9b864184b8466cc892a2c3b8e8f6c086",
+      "remix_projection": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\tlemcen\\tlemcen_age03-projection.json",
+      "blend": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\tlemcen\\Berber_Tlemcen_age03_0_3_1.blend",
+      "fbx_supplement": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\tlemcen\\tlemcen_age03_aisles.fbx",
+      "fbx_supplement_sha256": "21f8eb2063da1116c7037ded97add6ee456a305ac473682b83438a880879e05e",
+      "garrison_static_request": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\tlemcen\\tlemcen-age03-static-request.json",
+      "garrison_static_request_sha256": "b89e2619e20d089f354fc50c530fb860b0dbd9ca623855f059ad3f1bcbe3e3f7",
+      "garrison_static_prepare": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\tlemcen\\tlemcen-age03-static-prepare.json",
+      "garrison_static_workspace_manifest": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\tlemcen-static-library\\age03\\Assets\\Custom\\b031\\tl3\\workspace.json",
+      "static_model_logical_base": "art\\scenario\\b031\\tl3\\tl3",
+      "stock_stamp": "art/stamps/civ_sul/sul_monastery_age_03.bin",
+      "principal_visual_object_id": 14594624532634336431,
+      "actor": "attrib/ebps/races/malian/buildings/landmarks/great_mosque_of_tlemcen/building_landmark_age2_landmarkc_control_mal.rgd",
+      "private_tier": "attrib/attachments/attachment_lists/garrison/berber_buildings_031/v031_tlemcen_age03_tier.rgd",
+      "private_stamp": "art/stamps/garrison/berber_buildings_031/tlemcen_age03",
+      "animator_scale": 150,
+      "world_bounds_at_animator_150": [
+        [
+          -4.556,
+          -4.365,
+          -1.2
+        ],
+        [
+          4.556,
+          4.503,
+          10.26
+        ]
+      ],
+      "native_owner_colour_materials": [
+        "main",
+        "main_collection"
+      ],
+      "native_contact": "source z=0 stays z=0; actor scale unchanged; lower embedded donor z remains below ground",
+      "static_supplement": "One piece placed at healthy main visual's origin with identity transform; must Garrison-cook then wire ALL resulting model parts into the private stamp",
+      "validation": {
+        "age": 3,
+        "blend": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\tlemcen\\Berber_Tlemcen_age03_0_3_1.blend",
+        "fbx": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\tlemcen\\tlemcen_age03_aisles.fbx",
+        "static_request": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\tlemcen\\tlemcen-age03-static-request.json",
+        "albedo": "//tlemcen_age03_albedo.png",
+        "donor_model": "art/civilizations/sultanate/structures/monastery/sul_monastery_control_age03/sul_monastery_control_age03.rgm",
+        "donor_geometry_sha256": "39c5a4b1157afe11750c27cb7139684850ff35e4f21264025051ea6685f22463",
+        "native_rrgeom": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\tlemcen\\tlemcen_age03.rrgeom",
+        "native_changed_vertices": 51348,
+        "added_meshes": 39,
+        "added_uv_all": true,
+        "geometry_and_contact": [
+          {
+            "interface": "side aisle lean-to to donor outer wall and inner arcade",
+            "side": -1,
+            "donor_wall_x": -2.58,
+            "roof_outer_x": -2.63,
+            "wall_embed_xy": 0.05,
+            "arcade_top": 1.61,
+            "inner_roof_eave": 1.58,
+            "arcade_overlap": 0.03
+          },
+          {
+            "interface": "side pier ground",
+            "side": -1,
+            "module": 0,
+            "gap": 0.0
+          },
+          {
+            "interface": "side pier ground",
+            "side": -1,
+            "module": 1,
+            "gap": 0.0
+          },
+          {
+            "interface": "side pier ground",
+            "side": -1,
+            "module": 2,
+            "gap": 0.0
+          },
+          {
+            "interface": "side pier ground",
+            "side": -1,
+            "module": 3,
+            "gap": 0.0
+          },
+          {
+            "interface": "arch spring to adjacent pier tops",
+            "side": -1,
+            "module": 0,
+            "vertical_overlap": 0.03
+          },
+          {
+            "interface": "arch spring to adjacent pier tops",
+            "side": -1,
+            "module": 1,
+            "vertical_overlap": 0.03
+          },
+          {
+            "interface": "arch spring to adjacent pier tops",
+            "side": -1,
+            "module": 2,
+            "vertical_overlap": 0.03
+          },
+          {
+            "interface": "side aisle lean-to to donor outer wall and inner arcade",
+            "side": 1,
+            "donor_wall_x": 2.58,
+            "roof_outer_x": 2.63,
+            "wall_embed_xy": 0.05,
+            "arcade_top": 1.61,
+            "inner_roof_eave": 1.58,
+            "arcade_overlap": 0.03
+          },
+          {
+            "interface": "side pier ground",
+            "side": 1,
+            "module": 0,
+            "gap": 0.0
+          },
+          {
+            "interface": "side pier ground",
+            "side": 1,
+            "module": 1,
+            "gap": 0.0
+          },
+          {
+            "interface": "side pier ground",
+            "side": 1,
+            "module": 2,
+            "gap": 0.0
+          },
+          {
+            "interface": "side pier ground",
+            "side": 1,
+            "module": 3,
+            "gap": 0.0
+          },
+          {
+            "interface": "arch spring to adjacent pier tops",
+            "side": 1,
+            "module": 0,
+            "vertical_overlap": 0.03
+          },
+          {
+            "interface": "arch spring to adjacent pier tops",
+            "side": 1,
+            "module": 1,
+            "vertical_overlap": 0.03
+          },
+          {
+            "interface": "arch spring to adjacent pier tops",
+            "side": 1,
+            "module": 2,
+            "vertical_overlap": 0.03
+          },
+          {
+            "interface": "prayer-front eave over arch crowns",
+            "arch_top": 1.78,
+            "roof_bottom": 1.77,
+            "overlap": 0.01
+          },
+          {
+            "interface": "thick gabled prayer aisle roof to donor wing",
+            "side": -1,
+            "donor_side_domes_lowered_below_roof": true,
+            "embedded_bottom": 1.58,
+            "eave": 2.11,
+            "ridge": 2.75
+          },
+          {
+            "interface": "thick gabled prayer aisle roof to donor wing",
+            "side": 1,
+            "donor_side_domes_lowered_below_roof": true,
+            "embedded_bottom": 1.58,
+            "eave": 2.11,
+            "ridge": 2.75
+          },
+          {
+            "interface": "square minaret casing to stock tower",
+            "center": [
+              -2.675,
+              -2.575
+            ],
+            "foundation_z": 1.43,
+            "core_radius_approx": 0.31
+          }
+        ],
+        "six_side_solid_previews": [
+          "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\tlemcen-inspection\\tlemcen_age03_front.png",
+          "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\tlemcen-inspection\\tlemcen_age03_top.png",
+          "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\tlemcen-inspection\\tlemcen_age03_rear.png",
+          "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\tlemcen-inspection\\tlemcen_age03_west.png",
+          "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\tlemcen-inspection\\tlemcen_age03_east.png",
+          "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\tlemcen-inspection\\tlemcen_age03_bottom.png"
+        ],
+        "native_runtime": "pending"
+      }
+    },
+    {
+      "name": "tlemcen_age04",
+      "family": "tlemcen",
+      "age": 4,
+      "source": "art/civilizations/sultanate/structures/monastery/sul_monastery_control_age04/sul_monastery_control_age04.rgm",
+      "decoded": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\shared_stock_cache\\buildings_031\\fbd5f443c9f5ff24f84c\\decoded-static.json",
+      "decoded_sha256": "489d744918f4d842603839bff4e6e279eda977e965980bff3363ffafad227a39",
+      "stock_geometry": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\fbd5f443c9f5ff24f84c\\source\\art\\civilizations\\sultanate\\structures\\monastery\\sul_monastery_control_age04\\sul_monastery_control_age04.rrgeom",
+      "stock_geometry_sha256": "4c65255f34c141d52f438e225145ee831f7e8f831ac2ce3566c796c302ed6a53",
+      "stock_material": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\fbd5f443c9f5ff24f84c\\source\\art\\civilizations\\sultanate\\structures\\monastery\\sul_monastery_control_age04\\sul_monastery_control_age04.rrmaterial",
+      "native_geometry": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\tlemcen\\tlemcen_age04.rrgeom",
+      "native_geometry_sha256": "c1da5879498988e670554e50c9fef1047163a2a88e03f0d2448a097b71d87f5f",
+      "remix_projection": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\tlemcen\\tlemcen_age04-projection.json",
+      "blend": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\tlemcen\\Berber_Tlemcen_age04_0_3_1.blend",
+      "fbx_supplement": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\tlemcen\\tlemcen_age04_aisles.fbx",
+      "fbx_supplement_sha256": "bd9dde95508d01965777e507538ae25adaf4cb0d425cd130a45cc521be290940",
+      "garrison_static_request": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\tlemcen\\tlemcen-age04-static-request.json",
+      "garrison_static_request_sha256": "d99905e6dd3b61060990b81869efb3b5ef01804e7ddabc541164fdf77c7efbfc",
+      "garrison_static_prepare": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\tlemcen\\tlemcen-age04-static-prepare.json",
+      "garrison_static_workspace_manifest": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\tlemcen-static-library\\age04\\Assets\\Custom\\b031\\tl4\\workspace.json",
+      "static_model_logical_base": "art\\scenario\\b031\\tl4\\tl4",
+      "stock_stamp": "art/stamps/civ_sul/sul_monastery_age_04.bin",
+      "principal_visual_object_id": 10806217749916645128,
+      "actor": "attrib/ebps/races/malian/buildings/landmarks/great_mosque_of_tlemcen/building_landmark_age2_landmarkc_control_mal.rgd",
+      "private_tier": "attrib/attachments/attachment_lists/garrison/berber_buildings_031/v031_tlemcen_age04_tier.rgd",
+      "private_stamp": "art/stamps/garrison/berber_buildings_031/tlemcen_age04",
+      "animator_scale": 150,
+      "world_bounds_at_animator_150": [
+        [
+          -4.655,
+          -4.512,
+          -1.2
+        ],
+        [
+          4.62,
+          4.523,
+          11.654
+        ]
+      ],
+      "native_owner_colour_materials": [
+        "main",
+        "main_collection"
+      ],
+      "native_contact": "source z=0 stays z=0; actor scale unchanged; lower embedded donor z remains below ground",
+      "static_supplement": "One piece placed at healthy main visual's origin with identity transform; must Garrison-cook then wire ALL resulting model parts into the private stamp",
+      "validation": {
+        "age": 4,
+        "blend": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\tlemcen\\Berber_Tlemcen_age04_0_3_1.blend",
+        "fbx": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\tlemcen\\tlemcen_age04_aisles.fbx",
+        "static_request": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\tlemcen\\tlemcen-age04-static-request.json",
+        "albedo": "//tlemcen_age04_albedo.png",
+        "donor_model": "art/civilizations/sultanate/structures/monastery/sul_monastery_control_age04/sul_monastery_control_age04.rgm",
+        "donor_geometry_sha256": "4c65255f34c141d52f438e225145ee831f7e8f831ac2ce3566c796c302ed6a53",
+        "native_rrgeom": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\tlemcen\\tlemcen_age04.rrgeom",
+        "native_changed_vertices": 86333,
+        "added_meshes": 46,
+        "added_uv_all": true,
+        "geometry_and_contact": [
+          {
+            "interface": "side aisle lean-to to donor outer wall and inner arcade",
+            "side": -1,
+            "donor_wall_x": -2.58,
+            "roof_outer_x": -2.63,
+            "wall_embed_xy": 0.05,
+            "arcade_top": 1.61,
+            "inner_roof_eave": 1.58,
+            "arcade_overlap": 0.03
+          },
+          {
+            "interface": "side pier ground",
+            "side": -1,
+            "module": 0,
+            "gap": 0.0
+          },
+          {
+            "interface": "side pier ground",
+            "side": -1,
+            "module": 1,
+            "gap": 0.0
+          },
+          {
+            "interface": "side pier ground",
+            "side": -1,
+            "module": 2,
+            "gap": 0.0
+          },
+          {
+            "interface": "side pier ground",
+            "side": -1,
+            "module": 3,
+            "gap": 0.0
+          },
+          {
+            "interface": "arch spring to adjacent pier tops",
+            "side": -1,
+            "module": 0,
+            "vertical_overlap": 0.03
+          },
+          {
+            "interface": "arch spring to adjacent pier tops",
+            "side": -1,
+            "module": 1,
+            "vertical_overlap": 0.03
+          },
+          {
+            "interface": "arch spring to adjacent pier tops",
+            "side": -1,
+            "module": 2,
+            "vertical_overlap": 0.03
+          },
+          {
+            "interface": "side aisle lean-to to donor outer wall and inner arcade",
+            "side": 1,
+            "donor_wall_x": 2.58,
+            "roof_outer_x": 2.63,
+            "wall_embed_xy": 0.05,
+            "arcade_top": 1.61,
+            "inner_roof_eave": 1.58,
+            "arcade_overlap": 0.03
+          },
+          {
+            "interface": "side pier ground",
+            "side": 1,
+            "module": 0,
+            "gap": 0.0
+          },
+          {
+            "interface": "side pier ground",
+            "side": 1,
+            "module": 1,
+            "gap": 0.0
+          },
+          {
+            "interface": "side pier ground",
+            "side": 1,
+            "module": 2,
+            "gap": 0.0
+          },
+          {
+            "interface": "side pier ground",
+            "side": 1,
+            "module": 3,
+            "gap": 0.0
+          },
+          {
+            "interface": "arch spring to adjacent pier tops",
+            "side": 1,
+            "module": 0,
+            "vertical_overlap": 0.03
+          },
+          {
+            "interface": "arch spring to adjacent pier tops",
+            "side": 1,
+            "module": 1,
+            "vertical_overlap": 0.03
+          },
+          {
+            "interface": "arch spring to adjacent pier tops",
+            "side": 1,
+            "module": 2,
+            "vertical_overlap": 0.03
+          },
+          {
+            "interface": "prayer-front eave over arch crowns",
+            "arch_top": 1.78,
+            "roof_bottom": 1.77,
+            "overlap": 0.01
+          },
+          {
+            "interface": "thick gabled prayer aisle roof to donor wing",
+            "side": -1,
+            "donor_side_domes_lowered_below_roof": true,
+            "embedded_bottom": 1.58,
+            "eave": 2.16,
+            "ridge": 2.88
+          },
+          {
+            "interface": "thick gabled prayer aisle roof to donor wing",
+            "side": 1,
+            "donor_side_domes_lowered_below_roof": true,
+            "embedded_bottom": 1.58,
+            "eave": 2.16,
+            "ridge": 2.88
+          },
+          {
+            "interface": "square minaret casing to stock tower",
+            "center": [
+              -2.675,
+              -2.575
+            ],
+            "foundation_z": 1.43,
+            "core_radius_approx": 0.31
+          }
+        ],
+        "six_side_solid_previews": [
+          "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\tlemcen-inspection\\tlemcen_age04_front.png",
+          "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\tlemcen-inspection\\tlemcen_age04_top.png",
+          "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\tlemcen-inspection\\tlemcen_age04_rear.png",
+          "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\tlemcen-inspection\\tlemcen_age04_west.png",
+          "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\tlemcen-inspection\\tlemcen_age04_east.png",
+          "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\tlemcen-inspection\\tlemcen_age04_bottom.png"
+        ],
+        "native_runtime": "pending"
+      }
+    }
+  ],
+  "isolated_garrison_mod_project_add_check": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_3_1\\tlemcen-static-compat\\Mods\\tlemcen_static_compat_031\\mod-project.json",
+  "integration": "Use only verified native GEOB surgery and separately Garrison-cooked static supplement; do not bind raw FBX. Clone source tier/stamp privately; replace only healthy principal visual model, append cooked supplement part(s) at identical origin. Leave construction/damage/ruin/selector auxiliary refs and gameplay actor fields unchanged.",
+  "status": "Blender/native source and static prepare/add validated; Garrison cook, tier binding, native game acceptance pending"
+}

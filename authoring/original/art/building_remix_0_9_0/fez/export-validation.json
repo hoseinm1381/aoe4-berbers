@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "preflight": {
+    "ok": true,
+    "findings": [],
+    "objects": 1032
+  },
+  "parts": 6,
+  "editable_parts": 1032,
+  "stage_groups": [
+    {
+      "stage": 0,
+      "source_parts": 1
+    },
+    {
+      "stage": 20,
+      "source_parts": 1
+    },
+    {
+      "stage": 40,
+      "source_parts": 313
+    },
+    {
+      "stage": 60,
+      "source_parts": 472
+    },
+    {
+      "stage": 80,
+      "source_parts": 227
+    },
+    {
+      "stage": 100,
+      "source_parts": 18
+    }
+  ],
+  "export_triangles": 30194,
+  "stage_group_triangle_preservation": true,
+  "stages": [
+    0,
+    20,
+    40,
+    60,
+    80,
+    100
+  ],
+  "source": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_9_0\\fez\\Madrasa_of_Fez_090.blend",
+  "source_sha256": "702ce1ca45fa8141a28b7a37573cb93a66bfb4c3706420872f35fd2dfd1ea372",
+  "export_contract": "installed building-source/v1, exact Garrison material snapshot functions and FBX conventions",
+  "installed_material_helper_sha256": "7289dfe0edd799db12f5580be0f1c004671906ccd21b88cc90e1d5028b272d38"
+}

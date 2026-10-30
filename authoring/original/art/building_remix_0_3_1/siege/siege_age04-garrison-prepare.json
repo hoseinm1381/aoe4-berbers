@@ -1,0 +1,115 @@
+{
+  "schema": "garrison.custom-static-authoring/v1",
+  "request": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\siege\\siege_age04-garrison-static-request.json",
+  "request_sha256": "7c7fabcc52edf959c41a66c812fea47fd2347d1e0a346cb06e7f20be936f10a0",
+  "manifest": "F:\\aoe_4_temp\\b031siege\\sg4\\Assets\\Custom\\b031\\sg4\\workspace.json",
+  "manifest_sha256": "294349052bb9ab601b2ed9a134194222ac77735bad75e61bba77c567f0c9e116",
+  "asset_root": "F:\\aoe_4_temp\\b031siege\\sg4\\Assets\\Custom\\b031\\sg4",
+  "source_root": "F:\\aoe_4_temp\\b031siege\\sg4\\Assets\\Custom\\b031\\sg4\\source",
+  "generated_root": "F:\\aoe_4_temp\\b031siege\\sg4\\Assets\\Custom\\b031\\sg4\\generated",
+  "build_id": "20261015T000000Z-sg4",
+  "mesh_policy": "all recursive mesh objects in one Blender collection",
+  "material_policy": "non-destructive adopted Principled materials; multiple materials build as aligned one-material static parts using the confirmed RTC pattern",
+  "material_count": 1,
+  "runtime_build_supported": true,
+  "runtime_build_method": "single_static_asset",
+  "validation": {
+    "schema": "garrison.workspace-operation/v1",
+    "operation": "validate",
+    "workspace_manifest": "F:\\aoe_4_temp\\b031siege\\sg4\\Assets\\Custom\\b031\\sg4\\workspace.json",
+    "workspace_manifest_sha256": "294349052bb9ab601b2ed9a134194222ac77735bad75e61bba77c567f0c9e116",
+    "workspace_id": "b031-sg4",
+    "asset": {
+      "id": "sg4",
+      "archetype": "static_visual_prop",
+      "logical_base": "art\\scenario\\b031\\sg4\\sg4",
+      "catalog_folder": "Berber/Siege Workshop",
+      "material_count": 1
+    },
+    "inputs": {
+      "manifest": {
+        "exists": true,
+        "path": "F:\\aoe_4_temp\\b031siege\\sg4\\Assets\\Custom\\b031\\sg4\\workspace.json",
+        "size": 1690,
+        "sha256": "294349052bb9ab601b2ed9a134194222ac77735bad75e61bba77c567f0c9e116"
+      },
+      "fbx": {
+        "exists": true,
+        "path": "F:\\aoe_4_temp\\b031siege\\sg4\\Assets\\Custom\\b031\\sg4\\source\\model.fbx",
+        "size": 25932,
+        "sha256": "d7688b7708de5d049c25db5aff0e9332e4ab934195ed7694905cd41590012a37"
+      },
+      "blender_executable": {
+        "exists": true,
+        "path": "E:\\Blender5.2\\blender.exe",
+        "size": 113022936,
+        "sha256": "f141a3c5754500e6f84361099a4cd53f0bb7662b6a0d2cfaaa8fbb63e92234a0"
+      },
+      "material.siege_age04_yard_atlas.albedo": {
+        "exists": true,
+        "path": "F:\\aoe_4_temp\\b031siege\\sg4\\Assets\\Custom\\b031\\sg4\\source\\materials\\siege_age04_yard_atlas\\albedo.png",
+        "size": 18464,
+        "sha256": "9fb7174da9cc05baeb7569a582dad961b8fbc0596954e533ef70a27d79a03ddc"
+      },
+      "material.siege_age04_yard_atlas.normal": {
+        "exists": true,
+        "path": "F:\\aoe_4_temp\\b031siege\\sg4\\Assets\\Custom\\b031\\sg4\\source\\materials\\siege_age04_yard_atlas\\normal.png",
+        "size": 5805,
+        "sha256": "02b88dbad749a9824293f6a05b6d46724b04db2c9614838405da13a7fdb41587"
+      },
+      "material.siege_age04_yard_atlas.roughness": {
+        "exists": true,
+        "path": "F:\\aoe_4_temp\\b031siege\\sg4\\Assets\\Custom\\b031\\sg4\\source\\materials\\siege_age04_yard_atlas\\roughness.png",
+        "size": 5806,
+        "sha256": "bb31779781d4d4e22eee6b06b5a80d5bbeb9a1987ba47a92f58073d2d9b9d3e6"
+      },
+      "material.siege_age04_yard_atlas.metalness": {
+        "exists": true,
+        "path": "F:\\aoe_4_temp\\b031siege\\sg4\\Assets\\Custom\\b031\\sg4\\source\\materials\\siege_age04_yard_atlas\\metalness.png",
+        "size": 5807,
+        "sha256": "55aea7bfe6f9c90c71df2379611c12eada3014444ccbce4f3352d3303077a44f"
+      },
+      "cook_editor": {
+        "exists": true,
+        "path": "C:\\Users\\RS\\AppData\\Local\\Garrison\\Kit\\tools\\essence-object-editor\\EssenceEditor.exe",
+        "size": 10231608,
+        "sha256": "2ff1278eed5b1a6e163e6d78e04ad768dc38e4c198f6354069c99bed9e8f84e8"
+      }
+    },
+    "gates": [
+      {
+        "id": "manifest_valid",
+        "status": "passed",
+        "detail": "schema garrison.blender-workspace/v2"
+      },
+      {
+        "id": "archetype_supported",
+        "status": "passed",
+        "detail": "static_visual_prop"
+      },
+      {
+        "id": "source_files_present",
+        "status": "passed",
+        "detail": "required source files and Blender executable exist"
+      },
+      {
+        "id": "template_project_present",
+        "status": "passed",
+        "detail": "template project directory: C:\\Users\\RS\\AppData\\Local\\Garrison\\Kit\\template-project"
+      },
+      {
+        "id": "output_project_is_new",
+        "status": "passed",
+        "detail": "output must not already exist: C:\\Users\\RS\\AppData\\Local\\Temp\\garrison-builds\\20261015T000000Z-sg4\\project"
+      },
+      {
+        "id": "cook_ready",
+        "status": "passed",
+        "detail": "cook editor exists and run root is new"
+      }
+    ],
+    "first_failed_gate": null,
+    "success": true
+  },
+  "success": true
+}

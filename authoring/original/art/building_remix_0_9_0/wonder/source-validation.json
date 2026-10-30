@@ -1,0 +1,5671 @@
+{
+  "schema": "berber.wonder-source/v090",
+  "status": "source-validated",
+  "bounds": [
+    [
+      -7.099999904632568,
+      -7.0,
+      0.0
+    ],
+    [
+      7.099999904632568,
+      7.0,
+      21.899999618530273
+    ]
+  ],
+  "parts": [
+    {
+      "name": "090_site_plinth",
+      "stage": 0,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_court_paving",
+      "stage": 0,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_hypostyle_sanctuary",
+      "stage": 40,
+      "vertices": 504,
+      "faces": 279
+    },
+    {
+      "name": "090_minaret_square_shaft",
+      "stage": 40,
+      "vertices": 626,
+      "faces": 342
+    },
+    {
+      "name": "090_parallel_prayer_roof_0",
+      "stage": 80,
+      "vertices": 10,
+      "faces": 9
+    },
+    {
+      "name": "090_eave_stone_0-1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_eave_stone_01",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_roof_ridge_0",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_parallel_prayer_roof_1",
+      "stage": 80,
+      "vertices": 10,
+      "faces": 9
+    },
+    {
+      "name": "090_eave_stone_1-1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_eave_stone_11",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_roof_ridge_1",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_parallel_prayer_roof_2",
+      "stage": 80,
+      "vertices": 10,
+      "faces": 9
+    },
+    {
+      "name": "090_eave_stone_2-1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_eave_stone_21",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_roof_ridge_2",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_parallel_prayer_roof_3",
+      "stage": 80,
+      "vertices": 10,
+      "faces": 9
+    },
+    {
+      "name": "090_eave_stone_3-1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_eave_stone_31",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_roof_ridge_3",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_parallel_prayer_roof_4",
+      "stage": 80,
+      "vertices": 10,
+      "faces": 9
+    },
+    {
+      "name": "090_eave_stone_4-1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_eave_stone_41",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_roof_ridge_4",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_parallel_prayer_roof_5",
+      "stage": 80,
+      "vertices": 10,
+      "faces": 9
+    },
+    {
+      "name": "090_eave_stone_5-1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_eave_stone_51",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_roof_ridge_5",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_-1_0_connected_arch",
+      "stage": 60,
+      "vertices": 84,
+      "faces": 82
+    },
+    {
+      "name": "090_side_arcade_-1_0_pier_-1",
+      "stage": 20,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_-1_0_capital_-1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_-1_0_pier_1",
+      "stage": 20,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_-1_0_capital_1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_-1_0_canopy",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_-1_0_flat_green_gallery_cap",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_-1_1_connected_arch",
+      "stage": 60,
+      "vertices": 84,
+      "faces": 82
+    },
+    {
+      "name": "090_side_arcade_-1_1_pier_-1",
+      "stage": 20,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_-1_1_capital_-1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_-1_1_pier_1",
+      "stage": 20,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_-1_1_capital_1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_-1_1_canopy",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_-1_1_flat_green_gallery_cap",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_-1_2_connected_arch",
+      "stage": 60,
+      "vertices": 84,
+      "faces": 82
+    },
+    {
+      "name": "090_side_arcade_-1_2_pier_-1",
+      "stage": 20,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_-1_2_capital_-1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_-1_2_pier_1",
+      "stage": 20,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_-1_2_capital_1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_-1_2_canopy",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_-1_2_flat_green_gallery_cap",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_1_0_connected_arch",
+      "stage": 60,
+      "vertices": 84,
+      "faces": 82
+    },
+    {
+      "name": "090_side_arcade_1_0_pier_-1",
+      "stage": 20,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_1_0_capital_-1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_1_0_pier_1",
+      "stage": 20,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_1_0_capital_1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_1_0_canopy",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_1_0_flat_green_gallery_cap",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_1_1_connected_arch",
+      "stage": 60,
+      "vertices": 84,
+      "faces": 82
+    },
+    {
+      "name": "090_side_arcade_1_1_pier_-1",
+      "stage": 20,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_1_1_capital_-1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_1_1_pier_1",
+      "stage": 20,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_1_1_capital_1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_1_1_canopy",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_1_1_flat_green_gallery_cap",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_1_2_connected_arch",
+      "stage": 60,
+      "vertices": 84,
+      "faces": 82
+    },
+    {
+      "name": "090_side_arcade_1_2_pier_-1",
+      "stage": 20,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_1_2_capital_-1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_1_2_pier_1",
+      "stage": 20,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_1_2_capital_1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_1_2_canopy",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_side_arcade_1_2_flat_green_gallery_cap",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_entrance_arcade_0_connected_arch",
+      "stage": 60,
+      "vertices": 84,
+      "faces": 82
+    },
+    {
+      "name": "090_entrance_arcade_0_pier_-1",
+      "stage": 20,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_entrance_arcade_0_capital_-1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_entrance_arcade_0_pier_1",
+      "stage": 20,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_entrance_arcade_0_capital_1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_entrance_arcade_0_canopy",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_entrance_arcade_0_flat_green_gallery_cap",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_entrance_arcade_1_connected_arch",
+      "stage": 60,
+      "vertices": 84,
+      "faces": 82
+    },
+    {
+      "name": "090_entrance_arcade_1_pier_-1",
+      "stage": 20,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_entrance_arcade_1_capital_-1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_entrance_arcade_1_pier_1",
+      "stage": 20,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_entrance_arcade_1_capital_1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_entrance_arcade_1_canopy",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_entrance_arcade_1_flat_green_gallery_cap",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_entrance_arcade_2_connected_arch",
+      "stage": 60,
+      "vertices": 84,
+      "faces": 82
+    },
+    {
+      "name": "090_entrance_arcade_2_pier_-1",
+      "stage": 20,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_entrance_arcade_2_capital_-1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_entrance_arcade_2_pier_1",
+      "stage": 20,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_entrance_arcade_2_capital_1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_entrance_arcade_2_canopy",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_entrance_arcade_2_flat_green_gallery_cap",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_entrance_arcade_3_connected_arch",
+      "stage": 60,
+      "vertices": 84,
+      "faces": 82
+    },
+    {
+      "name": "090_entrance_arcade_3_pier_-1",
+      "stage": 20,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_entrance_arcade_3_capital_-1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_entrance_arcade_3_pier_1",
+      "stage": 20,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_entrance_arcade_3_capital_1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_entrance_arcade_3_canopy",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_entrance_arcade_3_flat_green_gallery_cap",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_main_gateway_connected_arch",
+      "stage": 60,
+      "vertices": 84,
+      "faces": 82
+    },
+    {
+      "name": "090_main_gateway_pier_-1",
+      "stage": 20,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_main_gateway_capital_-1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_main_gateway_pier_1",
+      "stage": 20,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_main_gateway_capital_1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_main_gateway_canopy",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_main_gateway_flat_green_gallery_cap",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_gateway_buttress_-1",
+      "stage": 40,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_gateway_buttress_1",
+      "stage": 40,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_gateway_frieze",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_portal_merlon_0",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_portal_merlon_1",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_portal_merlon_2",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_portal_merlon_3",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_portal_merlon_4",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_portal_merlon_5",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_portal_merlon_6",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_ablution_fountain_basin",
+      "stage": 60,
+      "vertices": 60,
+      "faces": 50
+    },
+    {
+      "name": "090_ablution_water",
+      "stage": 80,
+      "vertices": 24,
+      "faces": 14
+    },
+    {
+      "name": "090_fountain_center",
+      "stage": 80,
+      "vertices": 84,
+      "faces": 74
+    },
+    {
+      "name": "090_cedar_door_0",
+      "stage": 60,
+      "vertices": 38,
+      "faces": 21
+    },
+    {
+      "name": "090_door_stone_jamb0-1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_door_stone_jamb01",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_cedar_door_1",
+      "stage": 60,
+      "vertices": 38,
+      "faces": 21
+    },
+    {
+      "name": "090_door_stone_jamb1-1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_door_stone_jamb11",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_cedar_door_2",
+      "stage": 60,
+      "vertices": 38,
+      "faces": 21
+    },
+    {
+      "name": "090_door_stone_jamb2-1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_door_stone_jamb21",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_cedar_door_3",
+      "stage": 60,
+      "vertices": 38,
+      "faces": 21
+    },
+    {
+      "name": "090_door_stone_jamb3-1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_door_stone_jamb31",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_continuous_sebka_Y-10-1",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_Y-101",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_Y-11-1",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_Y-111",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_Y-12-1",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_Y-121",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_Y-13-1",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_Y-131",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_Y-14-1",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_Y-141",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_Y-15-1",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_Y-151",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_Y10-1",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_Y101",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_Y11-1",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_Y111",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_Y12-1",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_Y121",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_Y13-1",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_Y131",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_Y14-1",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_Y141",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_Y15-1",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_Y151",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_X-10-1",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_X-101",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_X-11-1",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_X-111",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_X-12-1",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_X-121",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_X-13-1",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_X-131",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_X-14-1",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_X-141",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_X-15-1",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_X-151",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_X10-1",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_X101",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_X11-1",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_X111",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_X12-1",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_X121",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_X13-1",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_X131",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_X14-1",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_X141",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_X15-1",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_continuous_sebka_X151",
+      "stage": 80,
+      "vertices": 16,
+      "faces": 16
+    },
+    {
+      "name": "090_tower_lower_belt",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_tower_middle_belt",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_tower_upper_tile_frieze",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_tower_cornice1",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_tower_cornice2",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_tower_crown",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_crown_merlon_Y-10",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_crown_merlon_Y-11",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_crown_merlon_X-11",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_crown_merlon_Y-12",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_crown_merlon_X-12",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_crown_merlon_Y-13",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_crown_merlon_X-13",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_crown_merlon_Y-14",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_crown_merlon_X-14",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_crown_merlon_Y-15",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_crown_merlon_X-15",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_crown_merlon_Y-16",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_crown_merlon_Y10",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_crown_merlon_Y11",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_crown_merlon_X11",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_crown_merlon_Y12",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_crown_merlon_X12",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_crown_merlon_Y13",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_crown_merlon_X13",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_crown_merlon_Y14",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_crown_merlon_X14",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_crown_merlon_Y15",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_crown_merlon_X15",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_crown_merlon_Y16",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_minaret_lantern",
+      "stage": 80,
+      "vertices": 160,
+      "faces": 90
+    },
+    {
+      "name": "090_lantern_cornice",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_lantern_green_cap",
+      "stage": 80,
+      "vertices": 9,
+      "faces": 9
+    },
+    {
+      "name": "090_finial_spindle",
+      "stage": 100,
+      "vertices": 16,
+      "faces": 10
+    },
+    {
+      "name": "090_metal_finial_orb0",
+      "stage": 100,
+      "vertices": 60,
+      "faces": 50
+    },
+    {
+      "name": "090_metal_finial_orb1",
+      "stage": 100,
+      "vertices": 60,
+      "faces": 50
+    },
+    {
+      "name": "090_metal_finial_orb2",
+      "stage": 100,
+      "vertices": 60,
+      "faces": 50
+    },
+    {
+      "name": "090_stepped_archivolt_Y-100",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-101",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-102",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-103",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-104",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-105",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-106",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-107",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-108",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-109",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1010",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1011",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1012",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1013",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1014",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1015",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1016",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1017",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1018",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1019",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1020",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1021",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1022",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1023",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1024",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1025",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-110",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-111",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-112",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-113",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-114",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-115",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-116",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-117",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-118",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-119",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1110",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1111",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1112",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1113",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1114",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1115",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1116",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1117",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1118",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1119",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1120",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1121",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1122",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1123",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1124",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1125",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y100",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y101",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y102",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y103",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y104",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y105",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y106",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y107",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y108",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y109",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1010",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1011",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1012",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1013",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1014",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1015",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1016",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1017",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1018",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1019",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1020",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1021",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1022",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1023",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1024",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1025",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y110",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y111",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y112",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y113",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y114",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y115",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y116",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y117",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y118",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y119",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1110",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1111",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1112",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1113",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1114",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1115",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1116",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1117",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1118",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1119",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1120",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1121",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1122",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1123",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1124",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_Y1125",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-100",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-101",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-102",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-103",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-104",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-105",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-106",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-107",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-108",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-109",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1010",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1011",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1012",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1013",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1014",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1015",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1016",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1017",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1018",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1019",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1020",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1021",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1022",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1023",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1024",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1025",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-110",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-111",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-112",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-113",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-114",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-115",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-116",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-117",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-118",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-119",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1110",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1111",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1112",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1113",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1114",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1115",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1116",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1117",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1118",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1119",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1120",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1121",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1122",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1123",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1124",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X-1125",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X100",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X101",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X102",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X103",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X104",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X105",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X106",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X107",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X108",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X109",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1010",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1011",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1012",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1013",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1014",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1015",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1016",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1017",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1018",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1019",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1020",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1021",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1022",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1023",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1024",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1025",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X110",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X111",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X112",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X113",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X114",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X115",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X116",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X117",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X118",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X119",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1110",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1111",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1112",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1113",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1114",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1115",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1116",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1117",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1118",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1119",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1120",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1121",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1122",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1123",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1124",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_stepped_archivolt_X1125",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_0",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_1",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_2",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_3",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_4",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_5",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_6",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_7",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_8",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_9",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_10",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_11",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_12",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_13",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_14",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_15",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_16",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_17",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_18",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_19",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_20",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_21",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_22",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_23",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_24",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_25",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_26",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_27",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_28",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_29",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_30",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_31",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_32",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_33",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_34",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_dentil_35",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_sanctuary_lintel_frieze",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "090_native_owner_flag_pole",
+      "stage": 100,
+      "vertices": 16,
+      "faces": 10
+    }
+  ],
+  "checks": [
+    {
+      "interface": "site to hall",
+      "parent_top": 0.12,
+      "child_bottom": 0.12,
+      "gap": 0
+    },
+    {
+      "interface": "site to tower",
+      "parent_top": 0.12,
+      "child_bottom": 0.12,
+      "gap": 0
+    },
+    {
+      "interface": "hall top to roof soffit",
+      "parent_top": 3.25,
+      "child_bottom": 3.25,
+      "gap": 0
+    },
+    {
+      "interface": "arcade pier capital arch",
+      "pier_top": 1.77,
+      "arch_spring": 1.77,
+      "gap": 0
+    },
+    {
+      "interface": "arch canopy",
+      "arch_top": 2.69,
+      "canopy_bottom": 2.69,
+      "gap": 0
+    },
+    {
+      "interface": "court fountain",
+      "paving_top": 0.16,
+      "basin_bottom": 0.16,
+      "gap": 0
+    },
+    {
+      "interface": "shaft crown",
+      "shaft_top": 17.15,
+      "crown_bottom": 17.15,
+      "gap": 0
+    },
+    {
+      "interface": "crown lantern",
+      "crown_top": 17.55,
+      "lantern_bottom": 17.55,
+      "gap": 0
+    },
+    {
+      "interface": "finial roof",
+      "roof_peak": 20.49,
+      "spindle_bottom": 20.49,
+      "gap": 0
+    },
+    {
+      "interface": "sebka recess seat",
+      "recess_depth": 0.15,
+      "decoration_inner_depth": 0.1415,
+      "overlap": 0.0085
+    }
+  ],
+  "steps": [
+    {
+      "name": "foundation_and_proportion",
+      "parts": 4
+    },
+    {
+      "name": "parallel_sanctuary_roofs",
+      "parts": 28
+    },
+    {
+      "name": "open_arcaded_court",
+      "parts": 118
+    },
+    {
+      "name": "recessed_sanctuary_openings",
+      "parts": 130
+    },
+    {
+      "name": "reproportioned_deep_carved_minaret",
+      "parts": 215
+    }
+  ],
+  "site_unchanged": [
+    14.2,
+    14.0
+  ],
+  "old_height": 14.6,
+  "new_height": 21.9,
+  "minaret_height_multiplier": 1.5,
+  "flag_transform": {
+    "location": [
+      6.6,
+      -5.77,
+      3.35
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "export": {
+    "status": "ready_for_scoped_export",
+    "collection": "090_Koutoubia_monumental_mosque"
+  },
+  "topology": [
+    {
+      "name": "090_site_plinth",
+      "nonmanifold_edges": 0,
+      "signed_volume": 23.855999146342285,
+      "triangles": 12
+    },
+    {
+      "name": "090_court_paving",
+      "nonmanifold_edges": 0,
+      "signed_volume": 3.1248000487923604,
+      "triangles": 12
+    },
+    {
+      "name": "090_hypostyle_sanctuary",
+      "nonmanifold_edges": 0,
+      "signed_volume": 237.77644184236868,
+      "triangles": 1004
+    },
+    {
+      "name": "090_minaret_square_shaft",
+      "nonmanifold_edges": 0,
+      "signed_volume": 157.9437175459703,
+      "triangles": 1248
+    },
+    {
+      "name": "090_parallel_prayer_roof_0",
+      "nonmanifold_edges": 0,
+      "signed_volume": 5.265496768686274,
+      "triangles": 16
+    },
+    {
+      "name": "090_eave_stone_0-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.051911943746573486,
+      "triangles": 12
+    },
+    {
+      "name": "090_eave_stone_01",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.051912076354859005,
+      "triangles": 12
+    },
+    {
+      "name": "090_roof_ridge_0",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.06710387238699367,
+      "triangles": 12
+    },
+    {
+      "name": "090_parallel_prayer_roof_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 5.265497073393142,
+      "triangles": 16
+    },
+    {
+      "name": "090_eave_stone_1-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.051911946750644256,
+      "triangles": 12
+    },
+    {
+      "name": "090_eave_stone_11",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.05191207935893799,
+      "triangles": 12
+    },
+    {
+      "name": "090_roof_ridge_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.06710400571053854,
+      "triangles": 12
+    },
+    {
+      "name": "090_parallel_prayer_roof_2",
+      "nonmanifold_edges": 0,
+      "signed_volume": 5.265496768686274,
+      "triangles": 16
+    },
+    {
+      "name": "090_eave_stone_2-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.051911943746573375,
+      "triangles": 12
+    },
+    {
+      "name": "090_eave_stone_21",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.05191207635485906,
+      "triangles": 12
+    },
+    {
+      "name": "090_roof_ridge_2",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.06710393488240352,
+      "triangles": 12
+    },
+    {
+      "name": "090_parallel_prayer_roof_3",
+      "nonmanifold_edges": 0,
+      "signed_volume": 5.26549661633284,
+      "triangles": 16
+    },
+    {
+      "name": "090_eave_stone_3-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.05191194224453771,
+      "triangles": 12
+    },
+    {
+      "name": "090_eave_stone_31",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0519120748528174,
+      "triangles": 12
+    },
+    {
+      "name": "090_roof_ridge_3",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.06710393904876844,
+      "triangles": 12
+    },
+    {
+      "name": "090_parallel_prayer_roof_4",
+      "nonmanifold_edges": 0,
+      "signed_volume": 5.265497378100015,
+      "triangles": 16
+    },
+    {
+      "name": "090_eave_stone_4-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.05191194975471508,
+      "triangles": 12
+    },
+    {
+      "name": "090_eave_stone_41",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.051912082363019085,
+      "triangles": 12
+    },
+    {
+      "name": "090_roof_ridge_4",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.06710387238699367,
+      "triangles": 12
+    },
+    {
+      "name": "090_parallel_prayer_roof_5",
+      "nonmanifold_edges": 0,
+      "signed_volume": 5.2654967686862815,
+      "triangles": 16
+    },
+    {
+      "name": "090_eave_stone_5-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.051911943746573375,
+      "triangles": 12
+    },
+    {
+      "name": "090_eave_stone_51",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.05191207635485917,
+      "triangles": 12
+    },
+    {
+      "name": "090_roof_ridge_5",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.06710413903407408,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_-1_0_connected_arch",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.22188041193438435,
+      "triangles": 164
+    },
+    {
+      "name": "090_side_arcade_-1_0_pier_-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.2009281982841397,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_-1_0_capital_-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.020399982166288105,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_-1_0_pier_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.20092779907608949,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_-1_0_capital_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.020400010776519803,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_-1_0_canopy",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.32472014852525577,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_-1_0_flat_green_gallery_cap",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.1759997596741414,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_-1_1_connected_arch",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.2218805093959011,
+      "triangles": 164
+    },
+    {
+      "name": "090_side_arcade_-1_1_pier_-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.2009277990760891,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_-1_1_capital_-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.02040001077651951,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_-1_1_pier_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.2009279986801143,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_-1_1_capital_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.02040001077651965,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_-1_1_canopy",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.3247201485252549,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_-1_1_flat_green_gallery_cap",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.17599978065494648,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_-1_2_connected_arch",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.22188038621169862,
+      "triangles": 164
+    },
+    {
+      "name": "090_side_arcade_-1_2_pier_-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.2009279986801144,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_-1_2_capital_-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.02039999647140389,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_-1_2_pier_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.2009279986801143,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_-1_2_capital_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.020400000047682762,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_-1_2_canopy",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.3247201387500902,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_-1_2_flat_green_gallery_cap",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.17599975442894067,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_1_0_connected_arch",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.22188041193438546,
+      "triangles": 164
+    },
+    {
+      "name": "090_side_arcade_1_0_pier_-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.2009281982841397,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_1_0_capital_-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.02039998216628812,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_1_0_pier_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.20092779907608949,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_1_0_capital_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.02040001077651979,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_1_0_canopy",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.32472014852525577,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_1_0_flat_green_gallery_cap",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.1759997596741414,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_1_1_connected_arch",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.22188050939590231,
+      "triangles": 164
+    },
+    {
+      "name": "090_side_arcade_1_1_pier_-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.2009277990760891,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_1_1_capital_-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.020400010776519498,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_1_1_pier_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.20092799868011418,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_1_1_capital_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.02040001077651965,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_1_1_canopy",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.3247201485252549,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_1_1_flat_green_gallery_cap",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.1759997806549467,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_1_2_connected_arch",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.2218803862116989,
+      "triangles": 164
+    },
+    {
+      "name": "090_side_arcade_1_2_pier_-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.2009279986801143,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_1_2_capital_-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.020399996471403878,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_1_2_pier_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.2009279986801144,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_1_2_capital_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.020400000047682776,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_1_2_canopy",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.3247201387500904,
+      "triangles": 12
+    },
+    {
+      "name": "090_side_arcade_1_2_flat_green_gallery_cap",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.1759997544289409,
+      "triangles": 12
+    },
+    {
+      "name": "090_entrance_arcade_0_connected_arch",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.22188035149908686,
+      "triangles": 164
+    },
+    {
+      "name": "090_entrance_arcade_0_pier_-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.20092819828413983,
+      "triangles": 12
+    },
+    {
+      "name": "090_entrance_arcade_0_capital_-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.020399982166287814,
+      "triangles": 12
+    },
+    {
+      "name": "090_entrance_arcade_0_pier_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.20092799868011418,
+      "triangles": 12
+    },
+    {
+      "name": "090_entrance_arcade_0_capital_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.02039999647140389,
+      "triangles": 12
+    },
+    {
+      "name": "090_entrance_arcade_0_canopy",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.32472014852525644,
+      "triangles": 12
+    },
+    {
+      "name": "090_entrance_arcade_0_flat_green_gallery_cap",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.17599983406066566,
+      "triangles": 12
+    },
+    {
+      "name": "090_entrance_arcade_1_connected_arch",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.22188046926449778,
+      "triangles": 164
+    },
+    {
+      "name": "090_entrance_arcade_1_pier_-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.2009277990760892,
+      "triangles": 12
+    },
+    {
+      "name": "090_entrance_arcade_1_capital_-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.020400010776520122,
+      "triangles": 12
+    },
+    {
+      "name": "090_entrance_arcade_1_pier_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.20092799868011435,
+      "triangles": 12
+    },
+    {
+      "name": "090_entrance_arcade_1_capital_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.020400003623961938,
+      "triangles": 12
+    },
+    {
+      "name": "090_entrance_arcade_1_canopy",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.3247201680755878,
+      "triangles": 12
+    },
+    {
+      "name": "090_entrance_arcade_1_flat_green_gallery_cap",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.1759998655318895,
+      "triangles": 12
+    },
+    {
+      "name": "090_entrance_arcade_2_connected_arch",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.22188046926449798,
+      "triangles": 164
+    },
+    {
+      "name": "090_entrance_arcade_2_pier_-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.20092799868011424,
+      "triangles": 12
+    },
+    {
+      "name": "090_entrance_arcade_2_capital_-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.020400003623961938,
+      "triangles": 12
+    },
+    {
+      "name": "090_entrance_arcade_2_pier_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.2009277990760892,
+      "triangles": 12
+    },
+    {
+      "name": "090_entrance_arcade_2_capital_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.02040001077652011,
+      "triangles": 12
+    },
+    {
+      "name": "090_entrance_arcade_2_canopy",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.324720168075588,
+      "triangles": 12
+    },
+    {
+      "name": "090_entrance_arcade_2_flat_green_gallery_cap",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.1759998655318895,
+      "triangles": 12
+    },
+    {
+      "name": "090_entrance_arcade_3_connected_arch",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.22188035149908703,
+      "triangles": 164
+    },
+    {
+      "name": "090_entrance_arcade_3_pier_-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.20092799868011418,
+      "triangles": 12
+    },
+    {
+      "name": "090_entrance_arcade_3_capital_-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.02039999647140389,
+      "triangles": 12
+    },
+    {
+      "name": "090_entrance_arcade_3_pier_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.20092819828413983,
+      "triangles": 12
+    },
+    {
+      "name": "090_entrance_arcade_3_capital_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.020399982166287828,
+      "triangles": 12
+    },
+    {
+      "name": "090_entrance_arcade_3_canopy",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.32472014852525644,
+      "triangles": 12
+    },
+    {
+      "name": "090_entrance_arcade_3_flat_green_gallery_cap",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.17599983406066544,
+      "triangles": 12
+    },
+    {
+      "name": "090_main_gateway_connected_arch",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.22188042595505084,
+      "triangles": 164
+    },
+    {
+      "name": "090_main_gateway_pier_-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.20092799868011435,
+      "triangles": 12
+    },
+    {
+      "name": "090_main_gateway_capital_-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.020400000047682776,
+      "triangles": 12
+    },
+    {
+      "name": "090_main_gateway_pier_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.2009279986801144,
+      "triangles": 12
+    },
+    {
+      "name": "090_main_gateway_capital_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.020400000047682776,
+      "triangles": 12
+    },
+    {
+      "name": "090_main_gateway_canopy",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.324720148525256,
+      "triangles": 12
+    },
+    {
+      "name": "090_main_gateway_flat_green_gallery_cap",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.17599985504148208,
+      "triangles": 12
+    },
+    {
+      "name": "090_gateway_buttress_-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.73684820371057,
+      "triangles": 12
+    },
+    {
+      "name": "090_gateway_buttress_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.7368482037105697,
+      "triangles": 12
+    },
+    {
+      "name": "090_gateway_frieze",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.41279968681327994,
+      "triangles": 12
+    },
+    {
+      "name": "090_portal_merlon_0",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.030976001594542335,
+      "triangles": 12
+    },
+    {
+      "name": "090_portal_merlon_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.030975993202209035,
+      "triangles": 12
+    },
+    {
+      "name": "090_portal_merlon_2",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.030975997398375865,
+      "triangles": 12
+    },
+    {
+      "name": "090_portal_merlon_3",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.030975997398375865,
+      "triangles": 12
+    },
+    {
+      "name": "090_portal_merlon_4",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.030975997398375893,
+      "triangles": 12
+    },
+    {
+      "name": "090_portal_merlon_5",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.030975993202209035,
+      "triangles": 12
+    },
+    {
+      "name": "090_portal_merlon_6",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.030976001594542307,
+      "triangles": 12
+    },
+    {
+      "name": "090_ablution_fountain_basin",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.3695159952592473,
+      "triangles": 116
+    },
+    {
+      "name": "090_ablution_water",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.025349975130910113,
+      "triangles": 44
+    },
+    {
+      "name": "090_fountain_center",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.058412992242590736,
+      "triangles": 164
+    },
+    {
+      "name": "090_cedar_door_0",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.07166177241901203,
+      "triangles": 72
+    },
+    {
+      "name": "090_door_stone_jamb0-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.06297602953719873,
+      "triangles": 12
+    },
+    {
+      "name": "090_door_stone_jamb01",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.06297602953719868,
+      "triangles": 12
+    },
+    {
+      "name": "090_cedar_door_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.07166177544705878,
+      "triangles": 72
+    },
+    {
+      "name": "090_door_stone_jamb1-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0629760295371987,
+      "triangles": 12
+    },
+    {
+      "name": "090_door_stone_jamb11",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.06297599654603006,
+      "triangles": 12
+    },
+    {
+      "name": "090_cedar_door_2",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0716617780699914,
+      "triangles": 72
+    },
+    {
+      "name": "090_door_stone_jamb2-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.06297600607681211,
+      "triangles": 12
+    },
+    {
+      "name": "090_door_stone_jamb21",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.06297602953719873,
+      "triangles": 12
+    },
+    {
+      "name": "090_cedar_door_3",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.07166177129177655,
+      "triangles": 72
+    },
+    {
+      "name": "090_door_stone_jamb3-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.06297593569565219,
+      "triangles": 12
+    },
+    {
+      "name": "090_door_stone_jamb31",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.06297593569565219,
+      "triangles": 12
+    },
+    {
+      "name": "090_continuous_sebka_Y-10-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.00677092304712526,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_Y-101",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770923047125538,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_Y-11-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770920805024991,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_Y-111",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770920805024838,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_Y-12-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.00677092304712662,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_Y-121",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0067709230471252185,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_Y-13-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770923047124941,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_Y-131",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770923047126481,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_Y-14-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770918562924527,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_Y-141",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770918562924305,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_Y-15-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770923047125538,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_Y-151",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770923047124053,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_Y10-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770954436570623,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_Y101",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770954436570026,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_Y11-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770952194458502,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_Y111",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.00677095219446236,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_Y12-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770954436569304,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_Y121",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0067709544365743,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_Y13-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770954436572524,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_Y131",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770954436567805,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_Y14-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770949952350475,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_Y141",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770949952349323,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_Y15-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0067709544365701785,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_Y151",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770954436569526,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_X-10-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770960322128337,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_X-101",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770956398420397,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_X-11-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770958080015942,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_X-111",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770954156312651,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_X-12-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770960322129243,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_X-121",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0067709563984211275,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_X-13-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770960322127845,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_X-131",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.00677095639842018,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_X-14-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770955837900015,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_X-141",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770951914199873,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_X-15-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770960322129031,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_X-151",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.00677095639842145,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_X10-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770897543184148,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_X101",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770893619513092,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_X11-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770895301091581,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_X111",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0067708913774227955,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_X12-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770897543184752,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_X121",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770893619512254,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_X13-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770897543183274,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_X131",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770893619512622,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_X14-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770893058999285,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_X141",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770889135334995,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_X15-1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006770897543182747,
+      "triangles": 32
+    },
+    {
+      "name": "090_continuous_sebka_X151",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.00677089361951299,
+      "triangles": 32
+    },
+    {
+      "name": "090_tower_lower_belt",
+      "nonmanifold_edges": 0,
+      "signed_volume": 2.257917865905739,
+      "triangles": 12
+    },
+    {
+      "name": "090_tower_middle_belt",
+      "nonmanifold_edges": 0,
+      "signed_volume": 2.5966136207428363,
+      "triangles": 12
+    },
+    {
+      "name": "090_tower_upper_tile_frieze",
+      "nonmanifold_edges": 0,
+      "signed_volume": 5.917111258660121,
+      "triangles": 12
+    },
+    {
+      "name": "090_tower_cornice1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 2.382458479668742,
+      "triangles": 12
+    },
+    {
+      "name": "090_tower_cornice2",
+      "nonmanifold_edges": 0,
+      "signed_volume": 4.604417935150025,
+      "triangles": 12
+    },
+    {
+      "name": "090_tower_crown",
+      "nonmanifold_edges": 0,
+      "signed_volume": 5.283207600907716,
+      "triangles": 12
+    },
+    {
+      "name": "090_crown_merlon_Y-10",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.028734841483128493,
+      "triangles": 12
+    },
+    {
+      "name": "090_crown_merlon_Y-11",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.028734793526750124,
+      "triangles": 12
+    },
+    {
+      "name": "090_crown_merlon_X-11",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.028734817504938392,
+      "triangles": 12
+    },
+    {
+      "name": "090_crown_merlon_Y-12",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.02873479352674657,
+      "triangles": 12
+    },
+    {
+      "name": "090_crown_merlon_X-12",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.028734817504940113,
+      "triangles": 12
+    },
+    {
+      "name": "090_crown_merlon_Y-13",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.028734793526750124,
+      "triangles": 12
+    },
+    {
+      "name": "090_crown_merlon_X-13",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.02873479352674474,
+      "triangles": 12
+    },
+    {
+      "name": "090_crown_merlon_Y-14",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.028734793526746516,
+      "triangles": 12
+    },
+    {
+      "name": "090_crown_merlon_X-14",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.028734793526741242,
+      "triangles": 12
+    },
+    {
+      "name": "090_crown_merlon_Y-15",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.02873479352675007,
+      "triangles": 12
+    },
+    {
+      "name": "090_crown_merlon_X-15",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.028734841483128493,
+      "triangles": 12
+    },
+    {
+      "name": "090_crown_merlon_Y-16",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.028734793526744795,
+      "triangles": 12
+    },
+    {
+      "name": "090_crown_merlon_Y10",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.02873478698718185,
+      "triangles": 12
+    },
+    {
+      "name": "090_crown_merlon_Y11",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.028734739030885637,
+      "triangles": 12
+    },
+    {
+      "name": "090_crown_merlon_X11",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.028734817504938392,
+      "triangles": 12
+    },
+    {
+      "name": "090_crown_merlon_Y12",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.028734739030885637,
+      "triangles": 12
+    },
+    {
+      "name": "090_crown_merlon_X12",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.028734817504940113,
+      "triangles": 12
+    },
+    {
+      "name": "090_crown_merlon_Y13",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.028734739030889245,
+      "triangles": 12
+    },
+    {
+      "name": "090_crown_merlon_X13",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.028734793526748348,
+      "triangles": 12
+    },
+    {
+      "name": "090_crown_merlon_Y14",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.028734739030885637,
+      "triangles": 12
+    },
+    {
+      "name": "090_crown_merlon_X14",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.02873479352674485,
+      "triangles": 12
+    },
+    {
+      "name": "090_crown_merlon_Y15",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.028734739030885692,
+      "triangles": 12
+    },
+    {
+      "name": "090_crown_merlon_X15",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.028734841483128493,
+      "triangles": 12
+    },
+    {
+      "name": "090_crown_merlon_Y16",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.028734739030887524,
+      "triangles": 12
+    },
+    {
+      "name": "090_minaret_lantern",
+      "nonmanifold_edges": 0,
+      "signed_volume": 6.413040803246606,
+      "triangles": 316
+    },
+    {
+      "name": "090_lantern_cornice",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.6670780239435317,
+      "triangles": 12
+    },
+    {
+      "name": "090_lantern_green_cap",
+      "nonmanifold_edges": 0,
+      "signed_volume": 1.7765042972283567,
+      "triangles": 14
+    },
+    {
+      "name": "090_finial_spindle",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.008334330696122876,
+      "triangles": 28
+    },
+    {
+      "name": "090_metal_finial_orb0",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0627393607672633,
+      "triangles": 116
+    },
+    {
+      "name": "090_metal_finial_orb1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.026579145112311707,
+      "triangles": 116
+    },
+    {
+      "name": "090_metal_finial_orb2",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.006137523198375797,
+      "triangles": 116
+    },
+    {
+      "name": "090_stepped_archivolt_Y-100",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.02325862176263347,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-101",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493742429179024,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-102",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493683878795698,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-103",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649373739258691,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-104",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649370780260824,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-105",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649370780260824,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-106",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493701506868097,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-107",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649372857855071,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-108",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493702136442113,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-109",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649371661664444,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1010",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493711580052325,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1011",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493711580052325,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1012",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649371976451451,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1013",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649371976451451,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1014",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493711580052325,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1015",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493711580052325,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1016",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649371661664444,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1017",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493702136442113,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1018",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649372857855071,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1019",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493701506868097,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1020",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649370780260824,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1021",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649370780260824,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1022",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649373739258691,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1023",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493683878795698,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1024",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493742429179024,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1025",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.02325862176263347,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-110",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.023617746897459158,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-111",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963473267380647,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-112",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963457528030292,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-113",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963498450341219,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-114",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963455009734235,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-115",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963468860362548,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-116",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963489006731004,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-117",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963460046326349,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-118",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963468860362548,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-119",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963473267380647,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1110",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000696347956312079,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1111",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963461305474377,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1112",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963472008232619,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1113",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963472008232619,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1114",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963461305474377,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1115",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000696347956312079,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1116",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963473267380647,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1117",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963468860362548,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1118",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963460046326349,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1119",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963489006731004,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1120",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963468860362548,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1121",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963455009734235,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1122",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963498450341219,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1123",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963457528030292,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1124",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963472637806634,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y-1125",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.023617746897459158,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y100",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.02325862176263347,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y101",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493742429179024,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y102",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493683878795698,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y103",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649373739258691,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y104",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649370780260824,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y105",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649370780260824,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y106",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493701506868097,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y107",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649372857855071,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y108",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493702136442113,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y109",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649371661664444,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1010",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493711580052325,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1011",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493711580052325,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1012",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649371976451451,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1013",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649371976451451,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1014",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493711580052325,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1015",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493711580052325,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1016",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649371661664444,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1017",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493702136442113,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1018",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649372857855071,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1019",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493701506868097,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1020",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649370780260824,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1021",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649370780260824,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1022",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649373739258691,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1023",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493683878795698,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1024",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493742429179024,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1025",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.02325862176263347,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y110",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.023617746897459158,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y111",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963473267380647,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y112",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963457528030292,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y113",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963498450341219,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y114",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963455009734235,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y115",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963468860362548,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y116",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963489006731004,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y117",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963460046326349,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y118",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963468860362548,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y119",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963473267380647,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1110",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000696347956312079,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1111",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963461305474377,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1112",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963472008232619,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1113",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963472008232619,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1114",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963461305474377,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1115",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000696347956312079,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1116",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963473267380647,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1117",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963468860362548,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1118",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963460046326349,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1119",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963489006731004,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1120",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963468860362548,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1121",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963455009734235,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1122",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963498450341219,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1123",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963457528030292,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1124",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963472637806634,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_Y1125",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.023617746897459158,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-100",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.02325862176263347,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-101",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649374054045698,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-102",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493687656239784,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-103",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493734244716839,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-104",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649371220962634,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-105",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493697099849996,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-106",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493714727922396,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-107",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649372857855071,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-108",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493702136442113,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-109",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649371661664444,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1010",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493711580052325,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1011",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493711580052325,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1012",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649371976451451,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1013",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493699618146054,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1014",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493711580052325,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1015",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493711580052325,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1016",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649371661664444,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1017",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493702136442113,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1018",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649372857855071,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1019",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493714727922396,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1020",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493697099849996,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1021",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649371661664444,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1022",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493731096846768,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1023",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493687656239784,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1024",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649374054045698,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1025",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.02325862176263347,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-110",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.023617746897459158,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-111",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963472637806634,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-112",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963459416752334,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-113",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963494672897133,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-114",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963460046326349,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-115",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963463194196419,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-116",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963489006731004,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-117",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963460046326349,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-118",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963477044824733,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-119",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963455009734235,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1110",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000696347956312079,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1111",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963481451842834,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1112",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963472008232619,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1113",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963472008232619,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1114",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963461305474377,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1115",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000696347956312079,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1116",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963455009734235,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1117",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000696348522928692,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1118",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963460046326349,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1119",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963489006731004,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1120",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963457528030292,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1121",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963464453344449,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1122",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963491525027062,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1123",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963461305474377,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1124",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963472008232619,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X-1125",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.023617746897459158,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X100",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.02325862176263347,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X101",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649374054045698,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X102",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493687656239784,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X103",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493734244716839,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X104",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649371220962634,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X105",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493697099849996,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X106",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493714727922396,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X107",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649372857855071,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X108",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493702136442113,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X109",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649371661664444,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1010",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493711580052325,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1011",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493711580052325,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1012",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649371976451451,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1013",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493699618146054,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1014",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493711580052325,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1015",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493711580052325,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1016",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649371661664444,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1017",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493702136442113,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1018",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649372857855071,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1019",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493714727922396,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1020",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493697099849996,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1021",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649371661664444,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1022",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493731096846768,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1023",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006493687656239784,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1024",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000649374054045698,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1025",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.02325862176263347,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X110",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.023617746897459158,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X111",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963472637806634,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X112",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963459416752334,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X113",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963494672897133,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X114",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963460046326349,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X115",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963463194196419,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X116",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963489006731004,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X117",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963460046326349,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X118",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963477044824733,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X119",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963455009734235,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1110",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000696347956312079,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1111",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963481451842834,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1112",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963472008232619,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1113",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963472008232619,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1114",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963461305474377,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1115",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000696347956312079,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1116",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963455009734235,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1117",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.000696348522928692,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1118",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963460046326349,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1119",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963489006731004,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1120",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963457528030292,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1121",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963464453344449,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1122",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963491525027062,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1123",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963461305474377,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1124",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0006963472008232619,
+      "triangles": 12
+    },
+    {
+      "name": "090_stepped_archivolt_X1125",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.023617746897459158,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_0",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004895990170713231,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_1",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004895990170713231,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_2",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004896003903628158,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_3",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004896003903628158,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_4",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004895997037170544,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_5",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004895997037170696,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_6",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004895997037170766,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_7",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004896003903628078,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_8",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004896003903628078,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_9",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004896003903628151,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_10",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004896003903628116,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_11",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004896000470399387,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_12",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004896002187013762,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_13",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004896001328706566,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_14",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004896001757860188,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_15",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0048960016237496705,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_16",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004896002187013766,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_17",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004896002187013755,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_18",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004896002187013776,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_19",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004896003903628116,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_20",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004896000470399391,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_21",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004896003903628078,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_22",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0048959970371707,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_23",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0048959970371707,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_24",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004895997037170696,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_25",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004896003903628078,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_26",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004896003903628078,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_27",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004896003903628227,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_28",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004896003903627856,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_29",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004896003903628151,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_30",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004896003903628151,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_31",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004896003903628151,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_32",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004896003903628304,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_33",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.0048960039036278526,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_34",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004896003903628158,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_dentil_35",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.004895990170713238,
+      "triangles": 12
+    },
+    {
+      "name": "090_sanctuary_lintel_frieze",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.2265597825336474,
+      "triangles": 12
+    },
+    {
+      "name": "090_native_owner_flag_pole",
+      "nonmanifold_edges": 0,
+      "signed_volume": 0.039186525747900186,
+      "triangles": 28
+    }
+  ],
+  "triangles": 11594,
+  "central_entrance_ray_hits": [],
+  "normal_recalculation": true,
+  "single_user_meshes": true,
+  "reference": "https://whc.unesco.org/en/list/331/",
+  "interpretation": "Game-scale mosque, not a literal reconstruction",
+  "native_runtime": "pending"
+}

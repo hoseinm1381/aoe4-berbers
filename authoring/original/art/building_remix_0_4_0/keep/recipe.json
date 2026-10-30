@@ -1,0 +1,838 @@
+{
+  "schema": "berber.coherent-native-repair/v040",
+  "family": "keep",
+  "models": [
+    {
+      "name": "keep_age03",
+      "family": "keep",
+      "age": 3,
+      "source": "art/civilizations/abbasids/structures/keep/abb_keep_control_age03/abb_keep_control_age03",
+      "decoded": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\7f2cd0f1f63c20f3f617\\decoded-static.json",
+      "decoded_sha256": "10097341e5552999107e26b7f0542ee94b652e30ef7647b90952bdbad58ab1f5",
+      "stock_geometry": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\7f2cd0f1f63c20f3f617\\source\\art\\civilizations\\abbasids\\structures\\keep\\abb_keep_control_age03\\abb_keep_control_age03.rrgeom",
+      "stock_geometry_sha256": "164761abe7043f187e9824e64ec5796ea461cd8ea0c6bb95c32c4de244c5309b",
+      "stock_material": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\7f2cd0f1f63c20f3f617\\source\\art\\civilizations\\abbasids\\structures\\keep\\abb_keep_control_age03\\abb_keep_control_age03.rrmaterial",
+      "stock_material_sha256": "49b328866e6a3cec160ec1a88406e21999d741d4dec7cc5f0c48be07c3d62acc",
+      "native_geometry": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_4_0\\keep\\keep_age03.rrgeom",
+      "native_geometry_sha256": "f898009c23b6523136885dd373da212bd65165ae1fb82ccb22e6a344cb8ce090",
+      "remix_projection": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_4_0\\keep\\keep_age03-remix-projection.json",
+      "blend": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_4_0\\keep\\Berber_keep_Age3_040.blend",
+      "stock_stamp": "art/stamps/civ_mal/mal_keep.bin",
+      "principal_visual_object_id": 16989456819180626925,
+      "actor": "attrib/ebps/races/malian/buildings/building_defense_keep_mal.rgd",
+      "private_tier": "attrib/attachments/attachment_lists/garrison/berber_buildings_031/v031_keep_age03_tier.rgd",
+      "private_stamp": "art/stamps/garrison/berber_buildings_031/keep_age03",
+      "native_owner_colour": "donor rrmaterial slot and stock player colour components retained; two-colour game test pending",
+      "origin_contact": "donor origin fixed; all donor vertices below local z=2.2 unchanged; kit buried base seats at donor z=-2.65; game footprint remains actor 8x8",
+      "damage_construction": "all donor GEOB state groups edited and retained, no state list changes; kit must follow healthy stamp lifecycle",
+      "weapon_garrison": "native markers unchanged; static kit uses open parapet rings; native firing/garrison check pending",
+      "materials": [
+        {
+          "name": "extra",
+          "repaint": [
+            {
+              "slot": "albedoTex",
+              "carrier": "tone_e114368c73ba0c8a",
+              "role": "brick",
+              "source": "art/material_library/substances/structures/brick/str_brick_wall_22_alb"
+            },
+            {
+              "slot": "albedoTex2",
+              "carrier": "tone_0fd22d250f378261",
+              "role": "brick",
+              "source": "art/material_library/substances/structures/brick/str_brick_wall_24_alb"
+            },
+            {
+              "slot": "albedoTex3",
+              "carrier": "tone_2195c592831f9c04",
+              "role": "trim",
+              "source": "art/material_library/substances/structures/trim/str_trim_stone_abbasid_01_alb"
+            },
+            {
+              "slot": "albedoTex4",
+              "carrier": "tone_1875b317718696e9",
+              "role": "brick",
+              "source": "art/material_library/substances/structures/brick/str_brick_wall_21_alb"
+            },
+            {
+              "slot": "albedoTex5",
+              "carrier": "tone_8fe9d5e2843d335e",
+              "role": "plaster",
+              "source": "art/material_library/substances/structures/plaster/str_plaster_daub_04_alb"
+            },
+            {
+              "slot": "albedoTex6",
+              "carrier": "tone_b2b225e5de31a3f8",
+              "role": "plaster",
+              "source": "art/material_library/substances/structures/plaster/str_plaster_daub_08_alb"
+            }
+          ],
+          "owner_colour_slots_preserved": [
+            {
+              "slot": "albedoTex7",
+              "stock_texture": "art/material_library/substances/structures/debug/str_debug_team_color_alb"
+            }
+          ]
+        },
+        {
+          "name": "main",
+          "repaint": [
+            {
+              "slot": "albedoTex",
+              "carrier": "tone_e114368c73ba0c8a",
+              "role": "brick",
+              "source": "art/material_library/substances/structures/brick/str_brick_wall_22_alb"
+            },
+            {
+              "slot": "albedoTex2",
+              "carrier": "tone_0fd22d250f378261",
+              "role": "brick",
+              "source": "art/material_library/substances/structures/brick/str_brick_wall_24_alb"
+            },
+            {
+              "slot": "albedoTex3",
+              "carrier": "tone_2195c592831f9c04",
+              "role": "trim",
+              "source": "art/material_library/substances/structures/trim/str_trim_stone_abbasid_01_alb"
+            },
+            {
+              "slot": "albedoTex4",
+              "carrier": "tone_1875b317718696e9",
+              "role": "brick",
+              "source": "art/material_library/substances/structures/brick/str_brick_wall_21_alb"
+            },
+            {
+              "slot": "albedoTex5",
+              "carrier": "tone_8fe9d5e2843d335e",
+              "role": "plaster",
+              "source": "art/material_library/substances/structures/plaster/str_plaster_daub_04_alb"
+            },
+            {
+              "slot": "albedoTex6",
+              "carrier": "tone_b2b225e5de31a3f8",
+              "role": "plaster",
+              "source": "art/material_library/substances/structures/plaster/str_plaster_daub_08_alb"
+            }
+          ],
+          "owner_colour_slots_preserved": [
+            {
+              "slot": "albedoTex7",
+              "stock_texture": "art/material_library/substances/structures/debug/str_debug_team_color_alb"
+            }
+          ]
+        },
+        {
+          "name": "misc",
+          "repaint": [
+            {
+              "slot": "albedoTex",
+              "carrier": "tone_a1be93a266f3f757",
+              "role": "wood",
+              "source": "art/material_library/substances/structures/wood/str_wood_generic_01_alb"
+            },
+            {
+              "slot": "albedoTex2",
+              "carrier": "tone_0fd22d250f378261",
+              "role": "brick",
+              "source": "art/material_library/substances/structures/brick/str_brick_wall_24_alb"
+            },
+            {
+              "slot": "albedoTex3",
+              "carrier": "tone_d9115a1961397cf8",
+              "role": "fabric",
+              "source": "art/material_library/substances/structures/fabric/str_fabric_rope_01_alb"
+            },
+            {
+              "slot": "albedoTex4",
+              "carrier": "tone_e114368c73ba0c8a",
+              "role": "brick",
+              "source": "art/material_library/substances/structures/brick/str_brick_wall_22_alb"
+            },
+            {
+              "slot": "albedoTex6",
+              "carrier": "tone_94aba2089480744f",
+              "role": "building_kits",
+              "source": "art/material_library/substances/structures/building_kits/str_kit_building_abb_01_alb"
+            }
+          ],
+          "owner_colour_slots_preserved": []
+        },
+        {
+          "name": "roof",
+          "repaint": [
+            {
+              "slot": "albedoTex",
+              "carrier": "tone_dbd4dce3874173bd",
+              "role": "stone",
+              "source": "art/material_library/substances/structures/stone/str_stone_floor_08_alb"
+            },
+            {
+              "slot": "albedoTex2",
+              "carrier": "tone_cfb249697b9482eb",
+              "role": "plaster",
+              "source": "art/material_library/substances/structures/plaster/str_plaster_daub_01_alb"
+            },
+            {
+              "slot": "albedoTex3",
+              "carrier": "tone_a13b70b602d543c8",
+              "role": "plaster",
+              "source": "art/material_library/substances/structures/plaster/str_plaster_cob_01_alb"
+            },
+            {
+              "slot": "albedoTex4",
+              "carrier": "tone_8f08c38ceb8b8129",
+              "role": "fabric",
+              "source": "art/material_library/substances/structures/fabric/str_fabric_abb_02_alb"
+            }
+          ],
+          "owner_colour_slots_preserved": []
+        },
+        {
+          "name": "upgrade",
+          "repaint": [
+            {
+              "slot": "albedoTex",
+              "carrier": "tone_a1be93a266f3f757",
+              "role": "wood",
+              "source": "art/material_library/substances/structures/wood/str_wood_generic_01_alb"
+            },
+            {
+              "slot": "albedoTex2",
+              "carrier": "tone_4e5d296ceb551bdd",
+              "role": "wood",
+              "source": "art/material_library/substances/structures/wood/str_wood_planks_02_alb"
+            },
+            {
+              "slot": "albedoTex3",
+              "carrier": "tone_6399b7a8669b1b27",
+              "role": "wood",
+              "source": "art/material_library/substances/structures/wood/str_wood_generic_03_alb"
+            },
+            {
+              "slot": "albedoTex4",
+              "carrier": "tone_54f6ff74bf59e787",
+              "role": "building_kits",
+              "source": "art/material_library/substances/structures/building_kits/str_building_kits_eng_military_01_alb"
+            },
+            {
+              "slot": "albedoTex5",
+              "carrier": "tone_73006bda1a9feaee",
+              "role": "stone",
+              "source": "art/material_library/substances/structures/stone/str_stone_trim_01_alb"
+            },
+            {
+              "slot": "albedoTex6",
+              "carrier": "tone_a13b70b602d543c8",
+              "role": "plaster",
+              "source": "art/material_library/substances/structures/plaster/str_plaster_cob_01_alb"
+            },
+            {
+              "slot": "albedoTex7",
+              "carrier": "tone_8f08c38ceb8b8129",
+              "role": "fabric",
+              "source": "art/material_library/substances/structures/fabric/str_fabric_abb_02_alb"
+            }
+          ],
+          "owner_colour_slots_preserved": []
+        }
+      ],
+      "remix_projection_sha256": "e561632acd8791d46fbbc377794e7ffce54ca98467252e5f2cd4b31dae1322b8",
+      "texture_inputs": [
+        {
+          "name": "tone_0fd22d250f378261",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_030\\443d0fc1dd5ea4fd7ec1\\textures\\cd4b45d43ac4_5715969846289965448_packed.dds",
+          "source_sha256": "90a96c24b72caa7351fbe50ba96048bd984a0b638978cf8cd6061113757b264c",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_0\\textures\\tone_0fd22d250f378261_brick.png",
+          "image_sha256": "5f95d29325915626a516f95900e21ac462c8d6d925f35931ba5632d4f9043dcb",
+          "role": "brick",
+          "age": 3
+        },
+        {
+          "name": "tone_1875b317718696e9",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\7f2cd0f1f63c20f3f617\\textures\\ede54fa302a2_12359412418403034446_packed.dds",
+          "source_sha256": "397e1979f575420749475b460df063354e560670d4732707c57438c11b4c7c38",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\textures\\tone_1875b317718696e9_brick.png",
+          "image_sha256": "b429b054f1cb1375f7ec903f592469ab8a0f473def41a51dcbe8bc4bc93ba15e",
+          "role": "brick",
+          "age": 3
+        },
+        {
+          "name": "tone_2195c592831f9c04",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_030\\443d0fc1dd5ea4fd7ec1\\textures\\adbd09853037_10522298849178031665_packed.dds",
+          "source_sha256": "65a6c591f91cc953e7c4eeede03ca4c37f991c2bf65071ef9ae5889e1e8960a4",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_0\\textures\\tone_2195c592831f9c04_trim.png",
+          "image_sha256": "061204fd854d158f4bf600078b4e6a71e348afa6fb6f2e218d58df3c39291fb0",
+          "role": "trim",
+          "age": 3
+        },
+        {
+          "name": "tone_4e5d296ceb551bdd",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\7f2cd0f1f63c20f3f617\\textures\\2219aa975f24_13477809885520635358_packed.dds",
+          "source_sha256": "eda04b9b5e90470cf48a8082da121be0e3307f131b849c9f4aac2069f135fa31",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\textures\\tone_4e5d296ceb551bdd_wood.png",
+          "image_sha256": "e2e42a4aacd20133c81d74bfda4c97a49c4655b1f61004a440b203c72a97a673",
+          "role": "wood",
+          "age": 3
+        },
+        {
+          "name": "tone_54f6ff74bf59e787",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\7f2cd0f1f63c20f3f617\\textures\\57f11cf6fcca_9779992567948095736_packed.dds",
+          "source_sha256": "4f998b2405b8aabc26e175c20c06788d5f7dd30199837e42c83fda9c720a99ca",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\textures\\tone_54f6ff74bf59e787_building_kits.png",
+          "image_sha256": "b0b955f27fea8f2cf549f3532cd1595a5742749c1f8d2ae218a3e44ed04277d7",
+          "role": "building_kits",
+          "age": 3
+        },
+        {
+          "name": "tone_6399b7a8669b1b27",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\7f2cd0f1f63c20f3f617\\textures\\917a195fa6d8_14420659823134052771_packed.dds",
+          "source_sha256": "f2e0f76025d93bbd5f381e64e80376f5c68b787d078a55892af601d63a34b367",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\textures\\tone_6399b7a8669b1b27_wood.png",
+          "image_sha256": "b5fa137c2248a54082c1ee0d3a235d0c57ebc5aa231ebfbad45e0c887f87bcaf",
+          "role": "wood",
+          "age": 3
+        },
+        {
+          "name": "tone_73006bda1a9feaee",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\7f2cd0f1f63c20f3f617\\textures\\1c44da98324c_5341702984984261894_packed.dds",
+          "source_sha256": "d74a244d0fb9381fd0cba780c8085282b9f047f8dce0ae611f0dbbed13e4273e",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\textures\\tone_73006bda1a9feaee_stone.png",
+          "image_sha256": "2c839cd187b569cc8cb29cb8c9f237bf0acd9d430452d52493a5122fba81db3a",
+          "role": "stone",
+          "age": 3
+        },
+        {
+          "name": "tone_8f08c38ceb8b8129",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_030\\443d0fc1dd5ea4fd7ec1\\textures\\3d4867e3eea1_13365787479939437711_packed.dds",
+          "source_sha256": "836243202398259a721f43b23fc4029e01363fdf729c40585ea15ce63460318c",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_0\\textures\\tone_8f08c38ceb8b8129_fabric.png",
+          "image_sha256": "d8f167f3c97248e21b7caacca5f268ba16c127284a1762f45b8c495e947638b5",
+          "role": "fabric",
+          "age": 3
+        },
+        {
+          "name": "tone_8fe9d5e2843d335e",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\844bd13bfc9f420723c2\\textures\\96d2a29ae81a_4611286749468971337_packed.dds",
+          "source_sha256": "0530e3754e99a46c10ac6677e3389c19d4cca577c87498eb373a74bc668ccf17",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\textures\\tone_8fe9d5e2843d335e_plaster.png",
+          "image_sha256": "09b42d6c7fdebc281bcaf988d42a4a4097849557cd462492d75f3e82d6f3bad5",
+          "role": "plaster",
+          "age": 3
+        },
+        {
+          "name": "tone_94aba2089480744f",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_030\\443d0fc1dd5ea4fd7ec1\\textures\\6baf1e779562_5031798109853983860_packed.dds",
+          "source_sha256": "84d6715bab8777a316afeac9a5132f23f1be5f620c894d35242f8406eb2b2765",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_0\\textures\\tone_94aba2089480744f_building_kits.png",
+          "image_sha256": "5a26289148288b8b0c3a87c9606a4f2d670f2db1236a21274e3ae7aa64a94c77",
+          "role": "building_kits",
+          "age": 3
+        },
+        {
+          "name": "tone_a13b70b602d543c8",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\aa9a46fa271304378d30\\textures\\5db26348116b_12041615973339707457_packed.dds",
+          "source_sha256": "b521fb8fb1b507df9550325ea794848d62ec0b945fb4b92a830ac6597c205d3f",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\textures\\tone_a13b70b602d543c8_plaster.png",
+          "image_sha256": "bc2b1ec97e135e9725414ff6189da7f3edfab0c4683f217123ce2f545d9dcbbc",
+          "role": "plaster",
+          "age": 3
+        },
+        {
+          "name": "tone_a1be93a266f3f757",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_030\\443d0fc1dd5ea4fd7ec1\\textures\\c6ae5f70c76b_14259662789339030955_packed.dds",
+          "source_sha256": "6be1dac639f6b816267fa2985ae32b138109129a900bc2473594de8f1bbde507",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_0\\textures\\tone_a1be93a266f3f757_wood.png",
+          "image_sha256": "6b2f96913c54fb7afbe144d70e3aeb79330b26778a7d7aa313f6c8a0fdb82db7",
+          "role": "wood",
+          "age": 3
+        },
+        {
+          "name": "tone_b2b225e5de31a3f8",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\028f0735c6a97dbf180a\\textures\\285c1348f631_7036283253164216073_packed.dds",
+          "source_sha256": "81dec4e1da1a1f548ffcd981b797478ac5de0721e1ac3d1e38d5b019c6dc7b9f",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\textures\\tone_b2b225e5de31a3f8_plaster.png",
+          "image_sha256": "9d3d3e5742bd775ddf00739c1e5780c1ef06a1d60b1b4db29f3143f9e84fdde6",
+          "role": "plaster",
+          "age": 3
+        },
+        {
+          "name": "tone_cfb249697b9482eb",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_030\\443d0fc1dd5ea4fd7ec1\\textures\\4bc850359290_1010901216075870242_packed.dds",
+          "source_sha256": "11d9f1e0274af6161af7e7863d629bf7cc3335dbbc23550735fbd13aa16b8654",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_0\\textures\\tone_cfb249697b9482eb_plaster.png",
+          "image_sha256": "d451d0145e260d104d07dd3970004d5cdcaee71c2e3aaa1782d1324c1b0450ae",
+          "role": "plaster",
+          "age": 3
+        },
+        {
+          "name": "tone_d9115a1961397cf8",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\7f2cd0f1f63c20f3f617\\textures\\e56d8f3decf5_7597519659832404014_packed.dds",
+          "source_sha256": "2f1a5a751c1a8cb6fe77e89daff5978e4ed9f1a67dad15233eb0d80062fc780b",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\textures\\tone_d9115a1961397cf8_fabric.png",
+          "image_sha256": "be9f9cf356c9a393449521bd02a741066d291a58e47fbc4e3fc2c7a0c42294b0",
+          "role": "fabric",
+          "age": 3
+        },
+        {
+          "name": "tone_dbd4dce3874173bd",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\028f0735c6a97dbf180a\\textures\\7ce8f2b6785d_4752704269963480260_packed.dds",
+          "source_sha256": "f70a3a534a90270139d65a14e051dd83ad4953f4ad877902a8f55036b2239d91",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\textures\\tone_dbd4dce3874173bd_stone.png",
+          "image_sha256": "46e98ced25f2cac8bdbc82a7c5cd69763e0d5cccdab7f75b7602fec831dbd449",
+          "role": "stone",
+          "age": 3
+        },
+        {
+          "name": "tone_e114368c73ba0c8a",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\7f2cd0f1f63c20f3f617\\textures\\6d3e181aeb7b_18397289079622544828_packed.dds",
+          "source_sha256": "9239ff2711b311631684ee236f2c9d4eff1e261ee249a0cd4c42fc63e45a5521",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\textures\\tone_e114368c73ba0c8a_brick.png",
+          "image_sha256": "2822d0e27012dc08c1887d1ca9325d232741f78bc738cdba712e7f1d0de38027",
+          "role": "brick",
+          "age": 3
+        }
+      ],
+      "composition": "one complete native donor; no supplementary shell or yard kit",
+      "inherited_visual_allowlist": "principal only plus native player flag if required; no other visible architecture or props",
+      "preserve": "all031 native regional vertex edits, native UV/material/owner mask, construction selectors and opaque chunks",
+      "bounds_m": [
+        [
+          -7.44140625,
+          -7.80859375,
+          -2.654296875
+        ],
+        [
+          7.75,
+          7.66796875,
+          9.7109375
+        ]
+      ],
+      "source_checks": {
+        "uv_topology_exact": true,
+        "retained031_moved_vertices": 215312,
+        "fixed_lower_vertices": 47599,
+        "fixed_lower_max_displacement_m": 0,
+        "lower_plane_m": 2.2,
+        "040_geometry_equal031": true
+      }
+    },
+    {
+      "name": "keep_age04",
+      "family": "keep",
+      "age": 4,
+      "source": "art/civilizations/abbasids/structures/keep/abb_keep_control_age03/abb_keep_control_age03",
+      "decoded": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\7f2cd0f1f63c20f3f617\\decoded-static.json",
+      "decoded_sha256": "10097341e5552999107e26b7f0542ee94b652e30ef7647b90952bdbad58ab1f5",
+      "stock_geometry": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\7f2cd0f1f63c20f3f617\\source\\art\\civilizations\\abbasids\\structures\\keep\\abb_keep_control_age03\\abb_keep_control_age03.rrgeom",
+      "stock_geometry_sha256": "164761abe7043f187e9824e64ec5796ea461cd8ea0c6bb95c32c4de244c5309b",
+      "stock_material": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\7f2cd0f1f63c20f3f617\\source\\art\\civilizations\\abbasids\\structures\\keep\\abb_keep_control_age03\\abb_keep_control_age03.rrmaterial",
+      "stock_material_sha256": "49b328866e6a3cec160ec1a88406e21999d741d4dec7cc5f0c48be07c3d62acc",
+      "native_geometry": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_4_0\\keep\\keep_age04.rrgeom",
+      "native_geometry_sha256": "6bea3e9ddbb244b220bf99bd075cbca9940b5d7f6ccfb1a27d1eae3996bddefc",
+      "remix_projection": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_4_0\\keep\\keep_age04-remix-projection.json",
+      "blend": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_4_0\\keep\\Berber_keep_Age4_040.blend",
+      "stock_stamp": "art/stamps/civ_mal/mal_keep.bin",
+      "principal_visual_object_id": 16989456819180626925,
+      "actor": "attrib/ebps/races/malian/buildings/building_defense_keep_mal.rgd",
+      "private_tier": "attrib/attachments/attachment_lists/garrison/berber_buildings_031/v031_keep_age04_tier.rgd",
+      "private_stamp": "art/stamps/garrison/berber_buildings_031/keep_age04",
+      "native_owner_colour": "donor rrmaterial slot and stock player colour components retained; two-colour game test pending",
+      "origin_contact": "donor origin fixed; all donor vertices below local z=2.2 unchanged; kit buried base seats at donor z=-2.65; game footprint remains actor 8x8",
+      "damage_construction": "all donor GEOB state groups edited and retained, no state list changes; kit must follow healthy stamp lifecycle",
+      "weapon_garrison": "native markers unchanged; static kit uses open parapet rings; native firing/garrison check pending",
+      "materials": [
+        {
+          "name": "extra",
+          "repaint": [
+            {
+              "slot": "albedoTex",
+              "carrier": "tone_d5208f3ef6782d08",
+              "role": "brick",
+              "source": "art/material_library/substances/structures/brick/str_brick_wall_22_alb"
+            },
+            {
+              "slot": "albedoTex2",
+              "carrier": "tone_2723caa51d27f5c0",
+              "role": "brick",
+              "source": "art/material_library/substances/structures/brick/str_brick_wall_24_alb"
+            },
+            {
+              "slot": "albedoTex3",
+              "carrier": "tone_d323ec6fe0e8cced",
+              "role": "trim",
+              "source": "art/material_library/substances/structures/trim/str_trim_stone_abbasid_01_alb"
+            },
+            {
+              "slot": "albedoTex4",
+              "carrier": "tone_43a2f4e9d45f2d6e",
+              "role": "brick",
+              "source": "art/material_library/substances/structures/brick/str_brick_wall_21_alb"
+            },
+            {
+              "slot": "albedoTex5",
+              "carrier": "tone_cbf4fccee7e7d0b8",
+              "role": "plaster",
+              "source": "art/material_library/substances/structures/plaster/str_plaster_daub_04_alb"
+            },
+            {
+              "slot": "albedoTex6",
+              "carrier": "tone_7312228e0a9b3416",
+              "role": "plaster",
+              "source": "art/material_library/substances/structures/plaster/str_plaster_daub_08_alb"
+            }
+          ],
+          "owner_colour_slots_preserved": [
+            {
+              "slot": "albedoTex7",
+              "stock_texture": "art/material_library/substances/structures/debug/str_debug_team_color_alb"
+            }
+          ]
+        },
+        {
+          "name": "main",
+          "repaint": [
+            {
+              "slot": "albedoTex",
+              "carrier": "tone_d5208f3ef6782d08",
+              "role": "brick",
+              "source": "art/material_library/substances/structures/brick/str_brick_wall_22_alb"
+            },
+            {
+              "slot": "albedoTex2",
+              "carrier": "tone_2723caa51d27f5c0",
+              "role": "brick",
+              "source": "art/material_library/substances/structures/brick/str_brick_wall_24_alb"
+            },
+            {
+              "slot": "albedoTex3",
+              "carrier": "tone_d323ec6fe0e8cced",
+              "role": "trim",
+              "source": "art/material_library/substances/structures/trim/str_trim_stone_abbasid_01_alb"
+            },
+            {
+              "slot": "albedoTex4",
+              "carrier": "tone_43a2f4e9d45f2d6e",
+              "role": "brick",
+              "source": "art/material_library/substances/structures/brick/str_brick_wall_21_alb"
+            },
+            {
+              "slot": "albedoTex5",
+              "carrier": "tone_cbf4fccee7e7d0b8",
+              "role": "plaster",
+              "source": "art/material_library/substances/structures/plaster/str_plaster_daub_04_alb"
+            },
+            {
+              "slot": "albedoTex6",
+              "carrier": "tone_7312228e0a9b3416",
+              "role": "plaster",
+              "source": "art/material_library/substances/structures/plaster/str_plaster_daub_08_alb"
+            }
+          ],
+          "owner_colour_slots_preserved": [
+            {
+              "slot": "albedoTex7",
+              "stock_texture": "art/material_library/substances/structures/debug/str_debug_team_color_alb"
+            }
+          ]
+        },
+        {
+          "name": "misc",
+          "repaint": [
+            {
+              "slot": "albedoTex",
+              "carrier": "tone_9ee19c31e8873aaa",
+              "role": "wood",
+              "source": "art/material_library/substances/structures/wood/str_wood_generic_01_alb"
+            },
+            {
+              "slot": "albedoTex2",
+              "carrier": "tone_2723caa51d27f5c0",
+              "role": "brick",
+              "source": "art/material_library/substances/structures/brick/str_brick_wall_24_alb"
+            },
+            {
+              "slot": "albedoTex3",
+              "carrier": "tone_7883a97a1c4e093e",
+              "role": "fabric",
+              "source": "art/material_library/substances/structures/fabric/str_fabric_rope_01_alb"
+            },
+            {
+              "slot": "albedoTex4",
+              "carrier": "tone_d5208f3ef6782d08",
+              "role": "brick",
+              "source": "art/material_library/substances/structures/brick/str_brick_wall_22_alb"
+            },
+            {
+              "slot": "albedoTex6",
+              "carrier": "tone_042f45a8fe215336",
+              "role": "building_kits",
+              "source": "art/material_library/substances/structures/building_kits/str_kit_building_abb_01_alb"
+            }
+          ],
+          "owner_colour_slots_preserved": []
+        },
+        {
+          "name": "roof",
+          "repaint": [
+            {
+              "slot": "albedoTex",
+              "carrier": "tone_c11b17e815d689b8",
+              "role": "stone",
+              "source": "art/material_library/substances/structures/stone/str_stone_floor_08_alb"
+            },
+            {
+              "slot": "albedoTex2",
+              "carrier": "tone_a85a35b0b3cb9375",
+              "role": "plaster",
+              "source": "art/material_library/substances/structures/plaster/str_plaster_daub_01_alb"
+            },
+            {
+              "slot": "albedoTex3",
+              "carrier": "tone_a2a6930955ec8b12",
+              "role": "plaster",
+              "source": "art/material_library/substances/structures/plaster/str_plaster_cob_01_alb"
+            },
+            {
+              "slot": "albedoTex4",
+              "carrier": "tone_06357ec8da139ce1",
+              "role": "fabric",
+              "source": "art/material_library/substances/structures/fabric/str_fabric_abb_02_alb"
+            }
+          ],
+          "owner_colour_slots_preserved": []
+        },
+        {
+          "name": "upgrade",
+          "repaint": [
+            {
+              "slot": "albedoTex",
+              "carrier": "tone_9ee19c31e8873aaa",
+              "role": "wood",
+              "source": "art/material_library/substances/structures/wood/str_wood_generic_01_alb"
+            },
+            {
+              "slot": "albedoTex2",
+              "carrier": "tone_25481ae3982bc36c",
+              "role": "wood",
+              "source": "art/material_library/substances/structures/wood/str_wood_planks_02_alb"
+            },
+            {
+              "slot": "albedoTex3",
+              "carrier": "tone_77d2c6e6fdf9642d",
+              "role": "wood",
+              "source": "art/material_library/substances/structures/wood/str_wood_generic_03_alb"
+            },
+            {
+              "slot": "albedoTex4",
+              "carrier": "tone_148d05d31b4d168d",
+              "role": "building_kits",
+              "source": "art/material_library/substances/structures/building_kits/str_building_kits_eng_military_01_alb"
+            },
+            {
+              "slot": "albedoTex5",
+              "carrier": "tone_9fe329e4650f2894",
+              "role": "stone",
+              "source": "art/material_library/substances/structures/stone/str_stone_trim_01_alb"
+            },
+            {
+              "slot": "albedoTex6",
+              "carrier": "tone_a2a6930955ec8b12",
+              "role": "plaster",
+              "source": "art/material_library/substances/structures/plaster/str_plaster_cob_01_alb"
+            },
+            {
+              "slot": "albedoTex7",
+              "carrier": "tone_06357ec8da139ce1",
+              "role": "fabric",
+              "source": "art/material_library/substances/structures/fabric/str_fabric_abb_02_alb"
+            }
+          ],
+          "owner_colour_slots_preserved": []
+        }
+      ],
+      "remix_projection_sha256": "ed38ba5661b8d2c8caaebc175e1c4d1b7a203e387c518b0af34810e6bcb9f6ad",
+      "texture_inputs": [
+        {
+          "name": "tone_042f45a8fe215336",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_030\\aafbb12f25726ee3a0fb\\textures\\6baf1e779562_5031798109853983860_packed.dds",
+          "source_sha256": "84d6715bab8777a316afeac9a5132f23f1be5f620c894d35242f8406eb2b2765",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_0\\textures\\tone_042f45a8fe215336_building_kits.png",
+          "image_sha256": "caa0093aabcb9c0164593e9ce20af275b4650926677cb658139c054dde9be3a0",
+          "role": "building_kits",
+          "age": 4
+        },
+        {
+          "name": "tone_06357ec8da139ce1",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_030\\aafbb12f25726ee3a0fb\\textures\\3d4867e3eea1_13365787479939437711_packed.dds",
+          "source_sha256": "836243202398259a721f43b23fc4029e01363fdf729c40585ea15ce63460318c",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_0\\textures\\tone_06357ec8da139ce1_fabric.png",
+          "image_sha256": "2a5d2d2503371708b8a335ae081f8d49ce695cbe857ad2b8411fddb677fcb3a0",
+          "role": "fabric",
+          "age": 4
+        },
+        {
+          "name": "tone_148d05d31b4d168d",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\7f2cd0f1f63c20f3f617\\textures\\57f11cf6fcca_9779992567948095736_packed.dds",
+          "source_sha256": "4f998b2405b8aabc26e175c20c06788d5f7dd30199837e42c83fda9c720a99ca",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\textures\\tone_148d05d31b4d168d_building_kits.png",
+          "image_sha256": "14f71cd8e586651edc86bbfaba3bbf6f95a70b68ac4b3e9e6266fe3e8eb716c2",
+          "role": "building_kits",
+          "age": 4
+        },
+        {
+          "name": "tone_25481ae3982bc36c",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\7f2cd0f1f63c20f3f617\\textures\\2219aa975f24_13477809885520635358_packed.dds",
+          "source_sha256": "eda04b9b5e90470cf48a8082da121be0e3307f131b849c9f4aac2069f135fa31",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\textures\\tone_25481ae3982bc36c_wood.png",
+          "image_sha256": "44a06a9461246d981da2deafac0f2bcd698bf82e0aeee74f8b76f8f840467895",
+          "role": "wood",
+          "age": 4
+        },
+        {
+          "name": "tone_2723caa51d27f5c0",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_030\\aafbb12f25726ee3a0fb\\textures\\cd4b45d43ac4_5715969846289965448_packed.dds",
+          "source_sha256": "90a96c24b72caa7351fbe50ba96048bd984a0b638978cf8cd6061113757b264c",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_0\\textures\\tone_2723caa51d27f5c0_brick.png",
+          "image_sha256": "d9370031411844aa9ec3697e7736270c1c0231d156c7df9d1f943650feddfacd",
+          "role": "brick",
+          "age": 4
+        },
+        {
+          "name": "tone_43a2f4e9d45f2d6e",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\7f2cd0f1f63c20f3f617\\textures\\ede54fa302a2_12359412418403034446_packed.dds",
+          "source_sha256": "397e1979f575420749475b460df063354e560670d4732707c57438c11b4c7c38",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\textures\\tone_43a2f4e9d45f2d6e_brick.png",
+          "image_sha256": "8473e7b02b52655e2ad7dd2c7a312927f7e5f183091a22e161319d10de314d9f",
+          "role": "brick",
+          "age": 4
+        },
+        {
+          "name": "tone_7312228e0a9b3416",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\7f2cd0f1f63c20f3f617\\textures\\285c1348f631_7036283253164216073_packed.dds",
+          "source_sha256": "81dec4e1da1a1f548ffcd981b797478ac5de0721e1ac3d1e38d5b019c6dc7b9f",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\textures\\tone_7312228e0a9b3416_plaster.png",
+          "image_sha256": "daff3a5ce9a95a656cea129c7eea4665e440a5766e3373c651f9054ee8902031",
+          "role": "plaster",
+          "age": 4
+        },
+        {
+          "name": "tone_77d2c6e6fdf9642d",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\7f2cd0f1f63c20f3f617\\textures\\917a195fa6d8_14420659823134052771_packed.dds",
+          "source_sha256": "f2e0f76025d93bbd5f381e64e80376f5c68b787d078a55892af601d63a34b367",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\textures\\tone_77d2c6e6fdf9642d_wood.png",
+          "image_sha256": "ff31dca0b9e6bd94a44ae892a4b31103cf9827cbba3711092039f5dafcdb4c06",
+          "role": "wood",
+          "age": 4
+        },
+        {
+          "name": "tone_7883a97a1c4e093e",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\2aab62547dae0b6332ab\\textures\\e56d8f3decf5_7597519659832404014_packed.dds",
+          "source_sha256": "2f1a5a751c1a8cb6fe77e89daff5978e4ed9f1a67dad15233eb0d80062fc780b",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\textures\\tone_7883a97a1c4e093e_fabric.png",
+          "image_sha256": "08c23d5bae53e8ee5983f0a6104f9fa2c8976fc84b64bb760b3b9d882d5dfaf8",
+          "role": "fabric",
+          "age": 4
+        },
+        {
+          "name": "tone_9ee19c31e8873aaa",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_030\\aafbb12f25726ee3a0fb\\textures\\c6ae5f70c76b_14259662789339030955_packed.dds",
+          "source_sha256": "6be1dac639f6b816267fa2985ae32b138109129a900bc2473594de8f1bbde507",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_0\\textures\\tone_9ee19c31e8873aaa_wood.png",
+          "image_sha256": "c2d23d6323b595b6865ae928469f2e8c40ce24525caf85388a1cc513b884883b",
+          "role": "wood",
+          "age": 4
+        },
+        {
+          "name": "tone_9fe329e4650f2894",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\7f2cd0f1f63c20f3f617\\textures\\1c44da98324c_5341702984984261894_packed.dds",
+          "source_sha256": "d74a244d0fb9381fd0cba780c8085282b9f047f8dce0ae611f0dbbed13e4273e",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\textures\\tone_9fe329e4650f2894_stone.png",
+          "image_sha256": "e02d75f1c4533485413be67af9e5c76d2649b4a03c8b11b3147e3e5aa6d30742",
+          "role": "stone",
+          "age": 4
+        },
+        {
+          "name": "tone_a2a6930955ec8b12",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\aa9a46fa271304378d30\\textures\\5db26348116b_12041615973339707457_packed.dds",
+          "source_sha256": "b521fb8fb1b507df9550325ea794848d62ec0b945fb4b92a830ac6597c205d3f",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\textures\\tone_a2a6930955ec8b12_plaster.png",
+          "image_sha256": "a6f4771b74f8ea42778cb1f5d456ca8292fb519e52fcb1bc21bf66e91465df2a",
+          "role": "plaster",
+          "age": 4
+        },
+        {
+          "name": "tone_a85a35b0b3cb9375",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_030\\aafbb12f25726ee3a0fb\\textures\\4bc850359290_1010901216075870242_packed.dds",
+          "source_sha256": "11d9f1e0274af6161af7e7863d629bf7cc3335dbbc23550735fbd13aa16b8654",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_0\\textures\\tone_a85a35b0b3cb9375_plaster.png",
+          "image_sha256": "1bb60b6eaabd14ddaf4618fb41cd569f291366853770e1414cb66b54c1312da8",
+          "role": "plaster",
+          "age": 4
+        },
+        {
+          "name": "tone_c11b17e815d689b8",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\2aab62547dae0b6332ab\\textures\\7ce8f2b6785d_4752704269963480260_packed.dds",
+          "source_sha256": "f70a3a534a90270139d65a14e051dd83ad4953f4ad877902a8f55036b2239d91",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\textures\\tone_c11b17e815d689b8_stone.png",
+          "image_sha256": "5f743b85e263aef9df983b788b3a2aa8e678dbaa918d25d50fdfd731f66d4032",
+          "role": "stone",
+          "age": 4
+        },
+        {
+          "name": "tone_cbf4fccee7e7d0b8",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\fbd5f443c9f5ff24f84c\\textures\\dfe4e241aa2d_2978845978246383850_packed.dds",
+          "source_sha256": "0530e3754e99a46c10ac6677e3389c19d4cca577c87498eb373a74bc668ccf17",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\textures\\tone_cbf4fccee7e7d0b8_plaster.png",
+          "image_sha256": "44f60253c65bfc126187a1069d25f320b78cd12632f310b0cc7031cefd14f66d",
+          "role": "plaster",
+          "age": 4
+        },
+        {
+          "name": "tone_d323ec6fe0e8cced",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\4776ae8c311fd4453442\\textures\\adbd09853037_10522298849178031665_packed.dds",
+          "source_sha256": "65a6c591f91cc953e7c4eeede03ca4c37f991c2bf65071ef9ae5889e1e8960a4",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\textures\\tone_d323ec6fe0e8cced_trim.png",
+          "image_sha256": "e5bbd0492e944186024b10713fd9425f6a8b1cb049954bb40823b4153fcbc8c2",
+          "role": "trim",
+          "age": 4
+        },
+        {
+          "name": "tone_d5208f3ef6782d08",
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\buildings_031\\2aab62547dae0b6332ab\\textures\\6d3e181aeb7b_18397289079622544828_packed.dds",
+          "source_sha256": "9239ff2711b311631684ee236f2c9d4eff1e261ee249a0cd4c42fc63e45a5521",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\textures\\tone_d5208f3ef6782d08_brick.png",
+          "image_sha256": "0cbc5938f4d841835f8975fe59c03ebaa666a4747d5b669d29c605e4e04b8edb",
+          "role": "brick",
+          "age": 4
+        }
+      ],
+      "composition": "one complete native donor; no supplementary shell or yard kit",
+      "inherited_visual_allowlist": "principal only plus native player flag if required; no other visible architecture or props",
+      "preserve": "all031 native regional vertex edits, native UV/material/owner mask, construction selectors and opaque chunks",
+      "bounds_m": [
+        [
+          -7.5,
+          -7.828125,
+          -2.654296875
+        ],
+        [
+          7.75,
+          7.703125,
+          10.8984375
+        ]
+      ],
+      "source_checks": {
+        "uv_topology_exact": true,
+        "retained031_moved_vertices": 219978,
+        "fixed_lower_vertices": 47599,
+        "fixed_lower_max_displacement_m": 0,
+        "lower_plane_m": 2.2,
+        "040_geometry_equal031": true
+      }
+    }
+  ],
+  "repair": "Remove plain three-tower square bastion and inner parapet shell; retain detailed reshaped native round/battered core.",
+  "source_recipe": "research/berber_040_keep_repair_sources.py",
+  "blender_recipe": "research/berber_040_keep_repair_blender.py",
+  "native_runtime": "unverified"
+}

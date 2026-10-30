@@ -1,0 +1,38 @@
+{
+  "schema": "berber.siege-garrison-static-validation/v1",
+  "status": "passed_prepare_and_isolated_add",
+  "scratch_project": "F:/aoe_4_temp/b031siege/scratch_library/Mods/berber_siege_031_scratch",
+  "scratch_project_mod_id": "b6d389ad-5897-4768-9708-57e0e803d610",
+  "scratch_project_asset_count": 2,
+  "scratch_project_cook_count": 0,
+  "models": [
+    {
+      "age": 3,
+      "namespace": "b031",
+      "asset_id": "sg3",
+      "logical_base": "art/scenario/b031/sg3/sg3",
+      "workspace_manifest": "F:/aoe_4_temp/b031siege/sg3/Assets/Custom/b031/sg3/workspace.json",
+      "workspace_manifest_sha256": "e38b1b681d8db391fc08b603921bc52b9df8a3837daf62e7239e66f35196010b",
+      "prepare_report": "art/building_remix_0_3_1/siege/siege_age03-garrison-prepare.json",
+      "prepare_validated": true,
+      "isolated_add": "passed",
+      "isolated_model_count": 1
+    },
+    {
+      "age": 4,
+      "namespace": "b031",
+      "asset_id": "sg4",
+      "logical_base": "art/scenario/b031/sg4/sg4",
+      "workspace_manifest": "F:/aoe_4_temp/b031siege/sg4/Assets/Custom/b031/sg4/workspace.json",
+      "workspace_manifest_sha256": "294349052bb9ab601b2ed9a134194222ac77735bad75e61bba77c567f0c9e116",
+      "prepare_report": "art/building_remix_0_3_1/siege/siege_age04-garrison-prepare.json",
+      "prepare_validated": true,
+      "isolated_add": "passed",
+      "isolated_model_count": 1
+    }
+  ],
+  "shared_031_project_edited": false,
+  "native_cook": "pending coordinator",
+  "archive_readback": "pending coordinator",
+  "runtime_acceptance": "pending user test"
+}

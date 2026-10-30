@@ -1,0 +1,115 @@
+{
+  "schema": "garrison.custom-static-authoring/v1",
+  "request": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\building_remix_0_3_1\\tlemcen\\tlemcen-age04-static-request.json",
+  "request_sha256": "d99905e6dd3b61060990b81869efb3b5ef01804e7ddabc541164fdf77c7efbfc",
+  "manifest": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\tlemcen-static-library\\age04\\Assets\\Custom\\b031\\tl4\\workspace.json",
+  "manifest_sha256": "bf23396e107ca5a54f4d30cb6a24f910eb0794d821a773a80bb89a33f981132a",
+  "asset_root": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\tlemcen-static-library\\age04\\Assets\\Custom\\b031\\tl4",
+  "source_root": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\tlemcen-static-library\\age04\\Assets\\Custom\\b031\\tl4\\source",
+  "generated_root": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\tlemcen-static-library\\age04\\Assets\\Custom\\b031\\tl4\\generated",
+  "build_id": "20261015T034000Z-b31t4",
+  "mesh_policy": "all recursive mesh objects in one Blender collection",
+  "material_policy": "non-destructive adopted Principled materials; multiple materials build as aligned one-material static parts using the confirmed RTC pattern",
+  "material_count": 1,
+  "runtime_build_supported": true,
+  "runtime_build_method": "single_static_asset",
+  "validation": {
+    "schema": "garrison.workspace-operation/v1",
+    "operation": "validate",
+    "workspace_manifest": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\tlemcen-static-library\\age04\\Assets\\Custom\\b031\\tl4\\workspace.json",
+    "workspace_manifest_sha256": "bf23396e107ca5a54f4d30cb6a24f910eb0794d821a773a80bb89a33f981132a",
+    "workspace_id": "b031-tl4",
+    "asset": {
+      "id": "tl4",
+      "archetype": "static_visual_prop",
+      "logical_base": "art\\scenario\\b031\\tl4\\tl4",
+      "catalog_folder": "Custom/Berber/Buildings",
+      "material_count": 1
+    },
+    "inputs": {
+      "manifest": {
+        "exists": true,
+        "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\tlemcen-static-library\\age04\\Assets\\Custom\\b031\\tl4\\workspace.json",
+        "size": 2161,
+        "sha256": "bf23396e107ca5a54f4d30cb6a24f910eb0794d821a773a80bb89a33f981132a"
+      },
+      "fbx": {
+        "exists": true,
+        "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\tlemcen-static-library\\age04\\Assets\\Custom\\b031\\tl4\\source\\model.fbx",
+        "size": 35132,
+        "sha256": "bd9dde95508d01965777e507538ae25adaf4cb0d425cd130a45cc521be290940"
+      },
+      "blender_executable": {
+        "exists": true,
+        "path": "E:\\Blender5.2\\blender.exe",
+        "size": 113022936,
+        "sha256": "f141a3c5754500e6f84361099a4cd53f0bb7662b6a0d2cfaaa8fbb63e92234a0"
+      },
+      "material.tlemcen_age04_supplement_atlas.albedo": {
+        "exists": true,
+        "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\tlemcen-static-library\\age04\\Assets\\Custom\\b031\\tl4\\source\\materials\\tlemcen_age04_supplement_atlas\\albedo.png",
+        "size": 2060,
+        "sha256": "40d69dcb3b4662e4dfd976c5c3fa313773ac5ef9e65354cd67a34b1df987744a"
+      },
+      "material.tlemcen_age04_supplement_atlas.normal": {
+        "exists": true,
+        "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\tlemcen-static-library\\age04\\Assets\\Custom\\b031\\tl4\\source\\materials\\tlemcen_age04_supplement_atlas\\normal.png",
+        "size": 1852,
+        "sha256": "4404e0b1772ae7b79c2de72b7b5295980a32531099f7ab41c887b8c20533eb2e"
+      },
+      "material.tlemcen_age04_supplement_atlas.roughness": {
+        "exists": true,
+        "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\tlemcen-static-library\\age04\\Assets\\Custom\\b031\\tl4\\source\\materials\\tlemcen_age04_supplement_atlas\\roughness.png",
+        "size": 1853,
+        "sha256": "b7438e325dc06fb64bb992f16bf36b07d54c3c20bc722262bc1e8556e74bb7ac"
+      },
+      "material.tlemcen_age04_supplement_atlas.metalness": {
+        "exists": true,
+        "path": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\berber_update_0_3_1\\tlemcen-static-library\\age04\\Assets\\Custom\\b031\\tl4\\source\\materials\\tlemcen_age04_supplement_atlas\\metalness.png",
+        "size": 1854,
+        "sha256": "f3e97b56fcdc4167501af51cb2ecd1afaf7e6f94c0a767fb6d0af9c75b4a6390"
+      },
+      "cook_editor": {
+        "exists": true,
+        "path": "C:\\Users\\RS\\AppData\\Local\\Garrison\\Kit\\tools\\essence-object-editor\\EssenceEditor.exe",
+        "size": 10231608,
+        "sha256": "2ff1278eed5b1a6e163e6d78e04ad768dc38e4c198f6354069c99bed9e8f84e8"
+      }
+    },
+    "gates": [
+      {
+        "id": "manifest_valid",
+        "status": "passed",
+        "detail": "schema garrison.blender-workspace/v2"
+      },
+      {
+        "id": "archetype_supported",
+        "status": "passed",
+        "detail": "static_visual_prop"
+      },
+      {
+        "id": "source_files_present",
+        "status": "passed",
+        "detail": "required source files and Blender executable exist"
+      },
+      {
+        "id": "template_project_present",
+        "status": "passed",
+        "detail": "template project directory: C:\\Users\\RS\\AppData\\Local\\Garrison\\Kit\\template-project"
+      },
+      {
+        "id": "output_project_is_new",
+        "status": "passed",
+        "detail": "output must not already exist: C:\\Users\\RS\\AppData\\Local\\Temp\\garrison-builds\\20261015T034000Z-b31t4\\project"
+      },
+      {
+        "id": "cook_ready",
+        "status": "passed",
+        "detail": "cook editor exists and run root is new"
+      }
+    ],
+    "first_failed_gate": null,
+    "success": true
+  },
+  "success": true
+}

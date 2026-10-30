@@ -1,0 +1,1453 @@
+{
+  "schema": "garrison.building-source/v1",
+  "profile": "english-house",
+  "parts": [
+    {
+      "name": "garrison_part_0000",
+      "first_stage": 20
+    },
+    {
+      "name": "garrison_part_0001",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0002",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0003",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0004",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0005",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0006",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0007",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0008",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0009",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0010",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0011",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0012",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0013",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0014",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0015",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0016",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0017",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0018",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0019",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0020",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0021",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0022",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0023",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0024",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0025",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0026",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0027",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0028",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0029",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0030",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0031",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0032",
+      "first_stage": 20
+    },
+    {
+      "name": "garrison_part_0033",
+      "first_stage": 0
+    },
+    {
+      "name": "garrison_part_0034",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0035",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0036",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0037",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0038",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0039",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0040",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0041",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0042",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0043",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0044",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0045",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0046",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0047",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0048",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0049",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0050",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0051",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0052",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0053",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0054",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0055",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0056",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0057",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0058",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0059",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0060",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0061",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0062",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0063",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0064",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0065",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0066",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0067",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0068",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0069",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0070",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0071",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0072",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0073",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0074",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0075",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0076",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0077",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0078",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0079",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0080",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0081",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0082",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0083",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0084",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0085",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0086",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0087",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0088",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0089",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0090",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0091",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0092",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0093",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0094",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0095",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0096",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0097",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0098",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0099",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0100",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0101",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0102",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0103",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0104",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0105",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0106",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0107",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0108",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0109",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0110",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0111",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0112",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0113",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0114",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0115",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0116",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0117",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0118",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0119",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0120",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0121",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0122",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0123",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0124",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0125",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0126",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0127",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0128",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0129",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0130",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0131",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0132",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0133",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0134",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0135",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0136",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0137",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0138",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0139",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0140",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0141",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0142",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0143",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0144",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0145",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0146",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0147",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0148",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0149",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0150",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0151",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0152",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0153",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0154",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0155",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0156",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0157",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0158",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0159",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0160",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0161",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0162",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0163",
+      "first_stage": 100
+    },
+    {
+      "name": "garrison_part_0164",
+      "first_stage": 100
+    },
+    {
+      "name": "garrison_part_0165",
+      "first_stage": 100
+    },
+    {
+      "name": "garrison_part_0166",
+      "first_stage": 100
+    },
+    {
+      "name": "garrison_part_0167",
+      "first_stage": 100
+    },
+    {
+      "name": "garrison_part_0168",
+      "first_stage": 100
+    },
+    {
+      "name": "garrison_part_0169",
+      "first_stage": 100
+    },
+    {
+      "name": "garrison_part_0170",
+      "first_stage": 100
+    },
+    {
+      "name": "garrison_part_0171",
+      "first_stage": 100
+    },
+    {
+      "name": "garrison_part_0172",
+      "first_stage": 100
+    },
+    {
+      "name": "garrison_part_0173",
+      "first_stage": 100
+    },
+    {
+      "name": "garrison_part_0174",
+      "first_stage": 100
+    },
+    {
+      "name": "garrison_part_0175",
+      "first_stage": 100
+    },
+    {
+      "name": "garrison_part_0176",
+      "first_stage": 100
+    },
+    {
+      "name": "garrison_part_0177",
+      "first_stage": 100
+    },
+    {
+      "name": "garrison_part_0178",
+      "first_stage": 100
+    },
+    {
+      "name": "garrison_part_0179",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0180",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0181",
+      "first_stage": 100
+    },
+    {
+      "name": "garrison_part_0182",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0183",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0184",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0185",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0186",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0187",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0188",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0189",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0190",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0191",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0192",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0193",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0194",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0195",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0196",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0197",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0198",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0199",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0200",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0201",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0202",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0203",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0204",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0205",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0206",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0207",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0208",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0209",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0210",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0211",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0212",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0213",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0214",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0215",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0216",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0217",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0218",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0219",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0220",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0221",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0222",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0223",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0224",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0225",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0226",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0227",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0228",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0229",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0230",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0231",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0232",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0233",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0234",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0235",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0236",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0237",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0238",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0239",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0240",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0241",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0242",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0243",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0244",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0245",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0246",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0247",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0248",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0249",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0250",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0251",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0252",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0253",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0254",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0255",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0256",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0257",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0258",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0259",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0260",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0261",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0262",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0263",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0264",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0265",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0266",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0267",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0268",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0269",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0270",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0271",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0272",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0273",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0274",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0275",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0276",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0277",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0278",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0279",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0280",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0281",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0282",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0283",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0284",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0285",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0286",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0287",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0288",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0289",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0290",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0291",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0292",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0293",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0294",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0295",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0296",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0297",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0298",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0299",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0300",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0301",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0302",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0303",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0304",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0305",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0306",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0307",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0308",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0309",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0310",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0311",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0312",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0313",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0314",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0315",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0316",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0317",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0318",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0319",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0320",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0321",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0322",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0323",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0324",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0325",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0326",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0327",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0328",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0329",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0330",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0331",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0332",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0333",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0334",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0335",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0336",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0337",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0338",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0339",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0340",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0341",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0342",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0343",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0344",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0345",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0346",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0347",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0348",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0349",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0350",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0351",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0352",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0353",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0354",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0355",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0356",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0357",
+      "first_stage": 40
+    },
+    {
+      "name": "garrison_part_0358",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0359",
+      "first_stage": 60
+    }
+  ],
+  "material_name": "040_fez_native_textured_atlas",
+  "textures": {
+    "albedo": "materials/material_040_fez_native_textured_atlas/albedo.png",
+    "normal": "materials/material_040_fez_native_textured_atlas/normal.png",
+    "roughness": "materials/material_040_fez_native_textured_atlas/roughness.png",
+    "metalness": "materials/material_040_fez_native_textured_atlas/metalness.png"
+  }
+}

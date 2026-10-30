@@ -1,0 +1,57 @@
+{
+  "authoritative_export": "export_lod0_v2",
+  "root_visual_review": "cleared revised source by root",
+  "single_lod0": true,
+  "fresh_original_geometry": true,
+  "mesh_parts": 360,
+  "triangles": 7328,
+  "uv_all": true,
+  "single_user_all": true,
+  "closed_manifold_all": true,
+  "outward_volume_all": true,
+  "real_portal_masonry_opening_pass": true,
+  "export_stages": [
+    0,
+    20,
+    40,
+    60,
+    80,
+    100
+  ],
+  "source_stages": [
+    0,
+    20,
+    40,
+    60,
+    80,
+    100
+  ],
+  "measured_contacts": [
+    {
+      "interface": "foundation to wing",
+      "signed_gap": -0.009999990463256836
+    },
+    {
+      "interface": "wall to eave",
+      "signed_gap": -0.019999980926513672
+    },
+    {
+      "interface": "fountain rim to plinth",
+      "signed_gap": 0.0
+    }
+  ],
+  "native_owner_flag": "native integration consumes flag-transform.json; source pole only",
+  "native_game": "unverified",
+  "retained_texture_inputs": "../fez/native_texture_inputs/*.png; provenance.json records native names hashes original cache. Atlas generator reads retained PNG inputs; no external cache needed.",
+  "files": {
+    "atlas_albedo_v2.png": "deacc021c83edffaee99e7993192b8552d7af255a7147a6b47095aa1d520745e",
+    "atlas_normal_v2.png": "17a7cbf2f8befb6abefa1ea33b9d4a088c3a68262849b0959a208904fae49ed9",
+    "fez_040_original.blend": "1cebb177112d478b5459b6947f287dc47c78fcb0d3489073ce6d185ff32b50b0",
+    "export_lod0_v2\\building.json": "093b62996ae4f3c98cd229faf72ae4dc4b93214baba54118c5212ac671e203a3",
+    "export_lod0_v2\\model.fbx": "f4b2b10389b941c280b6557c5510c178b4e629250cc1a82f510463dd68f4efe7",
+    "export_lod0_v2\\materials\\material_040_fez_native_textured_atlas\\albedo.png": "145648470c7f474579e1b0d7b64b235f80cd2f46c9d460ad982b98360589e55b",
+    "export_lod0_v2\\materials\\material_040_fez_native_textured_atlas\\metalness.png": "2fb9ddb7eb34bda00d3487a9509bd306dc84fa0cddcc672e3bb98c89467439ee",
+    "export_lod0_v2\\materials\\material_040_fez_native_textured_atlas\\normal.png": "b88a8a3fe9a2a3745c83f344e13d55fb46cd007610334524ea6cf19ef1b25d47",
+    "export_lod0_v2\\materials\\material_040_fez_native_textured_atlas\\roughness.png": "7fefc852bd6c92100420bb0803b225d67c48be7be8fde984f3e47e9b424aca19"
+  }
+}

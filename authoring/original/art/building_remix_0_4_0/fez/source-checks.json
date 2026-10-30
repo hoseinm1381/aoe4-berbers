@@ -1,0 +1,142 @@
+{
+  "fresh_geometry": true,
+  "bounds": [
+    [
+      -7.175000190734863,
+      -7.090000152587891,
+      0.0
+    ],
+    [
+      7.175000190734863,
+      7.0,
+      15.039999961853027
+    ]
+  ],
+  "parts": 360,
+  "triangles": 7328,
+  "contacts": [
+    {
+      "module": "ground_court_arcade",
+      "opening_clear": true,
+      "spring_z": 1.9449999999999998,
+      "top": 3.65,
+      "crown_contact_gap": 0,
+      "depth": 0.4
+    },
+    {
+      "module": "upper_court_arcade",
+      "opening_clear": true,
+      "spring_z": 4.76,
+      "top": 6.12,
+      "crown_contact_gap": 0,
+      "depth": 0.4
+    },
+    {
+      "module": "ground_court_arcade",
+      "opening_clear": true,
+      "spring_z": 1.9449999999999998,
+      "top": 3.65,
+      "crown_contact_gap": 0,
+      "depth": 0.4
+    },
+    {
+      "module": "upper_court_arcade",
+      "opening_clear": true,
+      "spring_z": 4.76,
+      "top": 6.12,
+      "crown_contact_gap": 0,
+      "depth": 0.4
+    },
+    {
+      "module": "ground_court_arcade",
+      "opening_clear": true,
+      "spring_z": 1.9449999999999998,
+      "top": 3.65,
+      "crown_contact_gap": 0,
+      "depth": 0.4
+    },
+    {
+      "module": "upper_court_arcade",
+      "opening_clear": true,
+      "spring_z": 4.76,
+      "top": 6.12,
+      "crown_contact_gap": 0,
+      "depth": 0.4
+    },
+    {
+      "module": "ground_court_arcade",
+      "opening_clear": true,
+      "spring_z": 1.9449999999999998,
+      "top": 3.65,
+      "crown_contact_gap": 0,
+      "depth": 0.4
+    },
+    {
+      "module": "upper_court_arcade",
+      "opening_clear": true,
+      "spring_z": 4.76,
+      "top": 6.12,
+      "crown_contact_gap": 0,
+      "depth": 0.4
+    },
+    {
+      "module": "ground_court_arcade",
+      "opening_clear": true,
+      "spring_z": 1.9449999999999998,
+      "top": 3.65,
+      "crown_contact_gap": 0,
+      "depth": 0.4
+    },
+    {
+      "module": "upper_court_arcade",
+      "opening_clear": true,
+      "spring_z": 4.76,
+      "top": 6.12,
+      "crown_contact_gap": 0,
+      "depth": 0.4
+    },
+    {
+      "module": "ground_court_arcade",
+      "opening_clear": true,
+      "spring_z": 1.9449999999999998,
+      "top": 3.65,
+      "crown_contact_gap": 0,
+      "depth": 0.4
+    },
+    {
+      "module": "upper_court_arcade",
+      "opening_clear": true,
+      "spring_z": 4.76,
+      "top": 6.12,
+      "crown_contact_gap": 0,
+      "depth": 0.4
+    },
+    {
+      "module": "monumental_horseshoe_portal",
+      "opening_clear": true,
+      "spring_z": 2.0299999999999994,
+      "top": 6.15,
+      "crown_contact_gap": 0,
+      "depth": 0.68
+    },
+    {
+      "interface": "foundation/wings",
+      "signed_gap": 0,
+      "pass": true
+    },
+    {
+      "interface": "cedar eaves/wall top",
+      "signed_gap": -0.02,
+      "pass": true
+    },
+    {
+      "interface": "basin/plinth",
+      "signed_gap": 0,
+      "pass": true
+    }
+  ],
+  "native_game": "unverified",
+  "uv_layers_all": true,
+  "texture_sha256": "6fbbadb18df11054063d20ceca4d7d55ce8d64a87aeae2242e1feb54cf41bf06",
+  "shared_mesh_users": 0
+}

@@ -1,0 +1,90 @@
+{
+  "bounds": [
+    [
+      -7.099999904632568,
+      -7.0,
+      0.0
+    ],
+    [
+      7.099999904632568,
+      7.0,
+      13.920000076293945
+    ]
+  ],
+  "parts": [
+    {
+      "name": "site_plinth",
+      "stage": 0,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "sanctuary_hypostyle_mass",
+      "stage": 40,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "court_paving",
+      "stage": 0,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "minaret_square_shaft",
+      "stage": 40,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "minaret_crown",
+      "stage": 60,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "minaret_lantern",
+      "stage": 80,
+      "vertices": 8,
+      "faces": 6
+    },
+    {
+      "name": "lantern_green_cap",
+      "stage": 80,
+      "vertices": 9,
+      "faces": 9
+    },
+    {
+      "name": "hypostyle_green_roof_bay_0",
+      "stage": 80,
+      "vertices": 10,
+      "faces": 9
+    },
+    {
+      "name": "hypostyle_green_roof_bay_1",
+      "stage": 80,
+      "vertices": 10,
+      "faces": 9
+    },
+    {
+      "name": "hypostyle_green_roof_bay_2",
+      "stage": 80,
+      "vertices": 10,
+      "faces": 9
+    },
+    {
+      "name": "hypostyle_green_roof_bay_3",
+      "stage": 80,
+      "vertices": 10,
+      "faces": 9
+    },
+    {
+      "name": "hypostyle_green_roof_bay_4",
+      "stage": 80,
+      "vertices": 10,
+      "faces": 9
+    }
+  ],
+  "source": "new original geometry",
+  "native_runtime": "unverified"
+}
