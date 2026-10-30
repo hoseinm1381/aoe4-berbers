@@ -1,0 +1,136 @@
+{
+  "key": "wonder",
+  "ages": [
+    4
+  ],
+  "minimum_age": 4,
+  "completed_age": 4,
+  "construction_age": 4,
+  "role": "Wonder; not age-up landmark",
+  "target": "ebps/races/malian/buildings/building_wonder_age4_great_mosque_control_mal",
+  "footprint": [
+    12,
+    12
+  ],
+  "source_origin": [
+    0,
+    0,
+    0
+  ],
+  "source_mesh_bounds": [
+    [
+      -5.800000190734863,
+      -5.800000190734863,
+      0.0
+    ],
+    [
+      5.800000190734863,
+      5.800000190734863,
+      8.130000114440918
+    ]
+  ],
+  "design": "Original imagined completed Almohad hypostyle sanctuary, Hassan/Tinmal references; historical Hassan Mosque remained incomplete",
+  "donor": "Installed Sultanate Khilji mosque control; Garrison decoded geometry and companions preserved untouched separately",
+  "native_scale_warning": "Live animator_scale 150; installed donor 100. Audit scaling before binding; authored world site fits 12x12.",
+  "files": [
+    {
+      "path": "art/buildings/wonder/age4_construction.json",
+      "bytes": 15242,
+      "sha256": "e8a4e61742c61b4c0974a408029e27e7df5fd32700364fe2ce36c62d31fb4978"
+    },
+    {
+      "path": "art/buildings/wonder/albedo.png",
+      "bytes": 63091,
+      "sha256": "11deb6b895b2b7109bf33ce2f71a52dc440e2ddf594c62d2ab050461d8479f13"
+    },
+    {
+      "path": "art/buildings/wonder/audit_saved.py",
+      "bytes": 2537,
+      "sha256": "d9324b4927f6eb210317d51fd086d6fc531daf78455ef9680b297313258a59a7"
+    },
+    {
+      "path": "art/buildings/wonder/Berber_Wonder_Age4.blend",
+      "bytes": 247832,
+      "sha256": "818e866e7edd54db3e8529b9cfc6330369ccbe65779ecb821d113dfef39173f0"
+    },
+    {
+      "path": "art/buildings/wonder/Berber_Wonder_Age4.fbx",
+      "bytes": 420220,
+      "sha256": "7a608ddc1df9b36abb1cbc1a6c74958cb1112d00107e538b3b6d96cd25516612"
+    },
+    {
+      "path": "art/buildings/wonder/build_wonder.py",
+      "bytes": 14781,
+      "sha256": "775bcb01e2019359ae932693d7c021cc8c0a6e0226c337b22d1fd3e12da85e6a"
+    },
+    {
+      "path": "art/buildings/wonder/geometry_helpers.py",
+      "bytes": 5218,
+      "sha256": "7c76fdd30705e4420c4c3b7d2ebf14286d0b25fdf1ba8f494ec1193d897f9162"
+    },
+    {
+      "path": "art/buildings/wonder/metal.png",
+      "bytes": 1120,
+      "sha256": "ab5140637b7f6192e92fac400e32e957c8a7b1682cddd128e96e0bfbaef50639"
+    },
+    {
+      "path": "art/buildings/wonder/normal.png",
+      "bytes": 1500,
+      "sha256": "44da437029c7d4f5d146ca74521d3494a7244d9031b18a7d0205f846f7fcdf7e"
+    },
+    {
+      "path": "art/buildings/wonder/pattern.png",
+      "bytes": 2046,
+      "sha256": "9fc76d33896cc7762a43c47cef9d9b79bf81e1f59e236336dd48e7d73f59c475"
+    },
+    {
+      "path": "art/buildings/wonder/roughness.png",
+      "bytes": 1500,
+      "sha256": "bd002e772f9ef61c1e1f767347d3de158a640f2158550fc94ce3e8ee951a8713"
+    },
+    {
+      "path": "art/buildings/wonder/UNTouched_Khilji_Mosque_Reference.blend",
+      "bytes": 1906180,
+      "sha256": "eb52e369453f09f1fe43f884017c9e08491cac176101f12e7adc67ce07c89f47"
+    }
+  ],
+  "preview": "output/buildings_batch/wonder/age4_preview.png",
+  "contact_sheet": "output/buildings_batch/wonder/contact_sheet.png",
+  "construction_manifest": "art/buildings/wonder/age4_construction.json",
+  "owner_colour": {
+    "source": "neutral tower banners and gallery cloth friezes, ber_owner_mask annotations plus matching red-only pattern atlas",
+    "native": "blocked integration pending; not native-ready"
+  },
+  "checks": {
+    "mesh_objects": 111,
+    "triangles": 2686,
+    "measured_contacts": 85,
+    "through_opening_ray_guards": 17,
+    "zero_bad_normals_manifold_degenerates_uv": true,
+    "packed_images": {
+      "Wonder_albedo": true,
+      "Wonder_metal": true,
+      "Wonder_normal": true,
+      "Wonder_pattern": true,
+      "Wonder_roughness": true
+    },
+    "pattern_uv_samples": 8058,
+    "incorrect_pattern_uv_samples": 0,
+    "footprint_pass": true
+  },
+  "qualification": {
+    "source": true,
+    "garrison_building_export": false,
+    "cook": false,
+    "native": false
+  },
+  "remaining": [
+    "native structure owner colour",
+    "construction selector activation",
+    "attachment/orientation/150 percent scale audit",
+    "LOD and damage/destruction",
+    "solo two-owner appearance and gameplay"
+  ],
+  "production_changed": false,
+  "distributable_built": false
+}

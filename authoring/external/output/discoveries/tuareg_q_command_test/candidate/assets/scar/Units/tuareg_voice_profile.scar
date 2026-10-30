@@ -1,0 +1,30 @@
+-- Private native speech metadata. The engine owns speech selection and timing.
+-- Install the matching native audio sidecar before starting the game process.
+BerberTuaregVoice_Profile = {
+    revision = "full49-v1",
+    speaker = "tuarg",
+    native_profile = "audio:malian_tuarg.spd",
+    source_recordings = 49,
+    media_slots = 1278,
+    temporary_effort_slots = 176,
+    age_reuse = { [1] = 1, [2] = 1, [3] = 1, [4] = 1 },
+    entity_blueprints = {
+        "unit_spearman_tuareg_1_ber",
+        "unit_spearman_tuareg_2_ber",
+        "unit_spearman_tuareg_3_ber",
+        "unit_spearman_tuareg_4_ber",
+    },
+}
+
+local BerberTuaregVoice_logged = false
+
+function BerberTuaregVoice_LogSetup()
+    if BerberTuaregVoice_logged then
+        return
+    end
+    BerberTuaregVoice_logged = true
+    print("BERBER_TUAREG_VOICE_PROFILE revision=" .. BerberTuaregVoice_Profile.revision
+        .. " speaker=" .. BerberTuaregVoice_Profile.speaker
+        .. " expected_profile=" .. BerberTuaregVoice_Profile.native_profile
+        .. " recordings=49 media_slots=1278 ages=1,2,3,4 routing=native sidecar_required=true")
+end

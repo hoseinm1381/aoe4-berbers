@@ -1,0 +1,27 @@
+{
+  "schema": "garrison.mod/v1",
+  "bundle_key": "berber_future_kingdom",
+  "members": [
+    {
+      "mod_key": "berber_future_kingdom",
+      "role": "tuning",
+      "path": "Berber_future_kingdom.sga",
+      "sha256": "e08e61bd1636c3521a7a509106d2cab27e0c1e8a5ef6a678bc33d66a2dbdfa6c"
+    }
+  ],
+  "details": {
+    "id": "berber_future_kingdom",
+    "name": "The Berber Dynasties",
+    "version": "0.1.3-tuareg-shields.2",
+    "summary": "Tuareg shields, Ages I-IV; native voices preserved",
+    "author": "hossein81 and marcokistan",
+    "updated": "2026-10-10",
+    "min_garrison": "0.1.3",
+    "content_types": [
+      "game-mode",
+      "tuning-pack"
+    ],
+    "description": "Solo shield trial for the existing Berber civilization. Choose The Berber Dynasties tuning pack, Berber Civilization game mode, Malians civilization. Four Abbasid age appearances use the stock Donso shield. The ability and native tuarg voice routing are preserved. Shield lift is omitted pending qualification. Native gameplay acceptance remains pending.",
+    "changelog": "Replace the attribute-only failed trial with five real Garrison model/object/geometry/material resource sets and canonical art references. Preserve original GUID, gameplay, upgrades, SCAR and voices."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "garrison.mod/v1",
+  "bundle_key": "berber_future_kingdom",
+  "members": [
+    {
+      "mod_key": "berber_future_kingdom",
+      "role": "tuning",
+      "path": "Berber_future_kingdom.sga",
+      "sha256": "6e4a4f3fcb00627df40f5a50fbf128c949cc281f54b4cf1a424f6bdfc9370f51"
+    }
+  ],
+  "details": {
+    "id": "berber_future_kingdom",
+    "name": "The Berber Dynasties",
+    "version": "0.6.0",
+    "summary": "26 private unit voice characters; native companion required",
+    "author": "hossein81 and marcokistan",
+    "updated": "2026-10-16",
+    "min_garrison": "0.1.4",
+    "content_types": [
+      "game-mode",
+      "tuning-pack"
+    ],
+    "description": "Native unit speech expansion built on verified 0.5.1. Authored Arabic fallback; see VOICE_GAPS.md. Native gameplay acceptance pending.",
+    "changelog": "Speech profiles, paired native bindings, supported chronology and variations. 0.5.1 art and gameplay preserved."
+  }
+}

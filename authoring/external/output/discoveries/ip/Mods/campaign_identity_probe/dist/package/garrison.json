@@ -1,0 +1,27 @@
+{
+  "schema": "garrison.mod/v1",
+  "bundle_key": "campaign_identity_probe",
+  "members": [
+    {
+      "mod_key": "campaign_identity_probe",
+      "role": "tuning",
+      "path": "campaign_identity_probe.sga",
+      "sha256": "f8bc512c0180f460492cc6c7e1ed55e7824bf1856e2bacfacfd54fd0615770b8"
+    }
+  ],
+  "details": {
+    "id": "campaign_identity_probe",
+    "name": "Campaign Identity Probe",
+    "version": "0.1.0-probe.1",
+    "summary": "Bohemia name and flags on the Malian slot; three UI surfaces; no music changes",
+    "author": "",
+    "updated": "2026-10-09",
+    "min_garrison": "0.1.0",
+    "content_types": [
+      "game-mode",
+      "tuning-pack"
+    ],
+    "description": "How to play\n1. Install and enable the mod in Garrison.\n2. Press Play.\n3. In a custom lobby, choose:\n   Tuning Pack: \"Campaign Identity Probe\".\n   Game Mode: \"Campaign Identity Probe\".\n",
+    "changelog": ""
+  }
+}

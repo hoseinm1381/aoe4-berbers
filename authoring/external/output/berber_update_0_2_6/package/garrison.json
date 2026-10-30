@@ -1,0 +1,27 @@
+{
+  "schema": "garrison.mod/v1",
+  "bundle_key": "berber_future_kingdom",
+  "members": [
+    {
+      "mod_key": "berber_future_kingdom",
+      "role": "tuning",
+      "path": "Berber_future_kingdom.sga",
+      "sha256": "cf9c73bdc0a64c655525f943f7e7b4ddfd1338124216ec7bf75eb331614f8123"
+    }
+  ],
+  "details": {
+    "id": "berber_future_kingdom",
+    "name": "The Berber Dynasties",
+    "version": "0.2.6",
+    "summary": "Berber barracks, outpost, Town Center, dock and redesigned windmill; house size reduced20%",
+    "author": "hossein81 and marcokistan",
+    "updated": "2026-10-14",
+    "min_garrison": "0.1.4",
+    "content_types": [
+      "game-mode",
+      "tuning-pack"
+    ],
+    "description": "Stock-derived native building remixes retaining state machinery and dynamic owner colour. Existing lumber/mining camps and gameplay preserved.",
+    "changelog": "Moderate stock building geometry and material remixes; mill replaced by moving-sail Berber windmill; house stamp scale1.38 to1.104."
+  }
+}

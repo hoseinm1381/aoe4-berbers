@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <RGDNode Key="default" Type="List">
+    <RGDNode Key="schema_bag" Type="List">
+      <RGDNode Key="pbgid_properties" Type="List">
+      </RGDNode>
+      <RGDNode Key="int_properties" Type="List">
+      </RGDNode>
+      <RGDNode Key="sub_schemas" Type="List">
+        <RGDNode Key="schema" Type="List">
+          <RGDNode Key="default" Type="List">
+            <RGDNode Key="schema_bag" Type="List">
+              <RGDNode Key="pbgid_properties" Type="List">
+              </RGDNode>
+              <RGDNode Key="int_properties" Type="List">
+                <RGDNode Key="statemodel_int_property" Type="List">
+                  <RGDNode Key="default" Type="Int" Value="0"/>
+                  <RGDNode Key="int_property_id" Type="CString" Value="time_of_next_available_charge"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_int_property"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_int_property" Type="List">
+                  <RGDNode Key="default" Type="Int" Value="0"/>
+                  <RGDNode Key="int_property_id" Type="CString" Value="time_of_last_charge"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_int_property"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_int_property" Type="List">
+                  <RGDNode Key="default" Type="Int" Value="0"/>
+                  <RGDNode Key="int_property_id" Type="CString" Value="ortoo_aura_timer"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_int_property"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_int_property" Type="List">
+                  <RGDNode Key="default" Type="Int" Value="240"/>
+                  <RGDNode Key="int_property_id" Type="CString" Value="network_of_castles_timer"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_int_property"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_int_property" Type="List">
+                  <RGDNode Key="default" Type="Int" Value="0"/>
+                  <RGDNode Key="int_property_id" Type="CString" Value="holy_inspiration_time_remaining_hre"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_int_property"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_int_property" Type="List">
+                  <RGDNode Key="default" Type="Int" Value="0"/>
+                  <RGDNode Key="int_property_id" Type="CString" Value="current_charge_duration"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_int_property"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_int_property" Type="List">
+                  <RGDNode Key="default" Type="Int" Value="0"/>
+                  <RGDNode Key="int_property_id" Type="CString" Value="time_of_next_available_javelin"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_int_property"/>
+                </RGDNode>
+              </RGDNode>
+              <RGDNode Key="sub_schemas" Type="List">
+              </RGDNode>
+              <RGDNode Key="target_properties" Type="List">
+                <RGDNode Key="statemodel_target_property" Type="List">
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_target_property"/>
+                  <RGDNode Key="target_property_id" Type="CString" Value="rider_of_this_horse"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_target_property" Type="List">
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_target_property"/>
+                  <RGDNode Key="target_property_id" Type="CString" Value="last_construction_target"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_target_property" Type="List">
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_target_property"/>
+                  <RGDNode Key="target_property_id" Type="CString" Value="return_to_work_location"/>
+                </RGDNode>
+              </RGDNode>
+              <RGDNode Key="list_properties" Type="List">
+                <RGDNode Key="statemodel_list_property" Type="List">
+                  <RGDNode Key="data_type" Type="Int" Value="5"/>
+                  <RGDNode Key="max_list_size" Type="Int" Value="8"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_list_property"/>
+                  <RGDNode Key="list_property_id" Type="CString" Value="buffs"/>
+                </RGDNode>
+              </RGDNode>
+              <RGDNode Key="float_properties" Type="List">
+                <RGDNode Key="statemodel_float_property" Type="List">
+                  <RGDNode Key="default" Type="Float" Value="0"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_float_property"/>
+                  <RGDNode Key="float_property_id" Type="CString" Value="bounty_count_mon"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_float_property" Type="List">
+                  <RGDNode Key="default" Type="Float" Value="0"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_float_property"/>
+                  <RGDNode Key="float_property_id" Type="CString" Value="BraceCooldown"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_float_property" Type="List">
+                  <RGDNode Key="default" Type="Float" Value="0"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_float_property"/>
+                  <RGDNode Key="float_property_id" Type="CString" Value="InDeathThroes"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_float_property" Type="List">
+                  <RGDNode Key="default" Type="Float" Value="0"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_float_property"/>
+                  <RGDNode Key="float_property_id" Type="CString" Value="universal_buff_count"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_float_property" Type="List">
+                  <RGDNode Key="default" Type="Float" Value="0"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_float_property"/>
+                  <RGDNode Key="float_property_id" Type="CString" Value="universal_heal_count"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_float_property" Type="List">
+                  <RGDNode Key="default" Type="Float" Value="0"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_float_property"/>
+                  <RGDNode Key="float_property_id" Type="CString" Value="melee_attack_count_hre"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_float_property" Type="List">
+                  <RGDNode Key="default" Type="Float" Value="0"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_float_property"/>
+                  <RGDNode Key="float_property_id" Type="CString" Value="holy_inspiration_current_timer"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_float_property" Type="List">
+                  <RGDNode Key="default" Type="Float" Value="0"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_float_property"/>
+                  <RGDNode Key="float_property_id" Type="CString" Value="bleed_duration_timer"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_float_property" Type="List">
+                  <RGDNode Key="default" Type="Float" Value="0"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_float_property"/>
+                  <RGDNode Key="float_property_id" Type="CString" Value="time_float_next_brace"/>
+                </RGDNode>
+              </RGDNode>
+              <RGDNode Key="vector3f_properties" Type="List">
+              </RGDNode>
+              <RGDNode Key="generic_handle_properties" Type="List">
+              </RGDNode>
+              <RGDNode Key="attribute_enum_properties" Type="List">
+              </RGDNode>
+              <RGDNode Key="enum_table_properties" Type="List">
+              </RGDNode>
+              <RGDNode Key="bool_properties" Type="List">
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="UninterruptibleAttack"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="is_bleeding_tertiary"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="is_in_stealth_aura_mal"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="ruinous_blinding_byz_ha_mac"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="is_blinded_jpn_ha_sen"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="relentless_attack_active"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="is_in_greek_fire"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="debuff_cast_jpn"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="is_debuffed_jpn"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="is_bleeding"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="is_camel_support_active_abb"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="non_aggressive"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="force_march_active_sul"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="saints_armour_buff_rus"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="saints_damage_buff_rus"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="is_tower_of_victory_active"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="has_khan_arrow_buff_speed_mon"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="has_khan_arrow_buff_defense_mon"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="has_khan_arrow_buff_attack_mon"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="within_gulyay_gorod_radius"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="true"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="allow_evacuation"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="network_of_castles_buff"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="within_ortoo_aura"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="is_charging"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="is_bracing"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="is_carrying_entity"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="is_bleeding_secondary"/>
+                </RGDNode>
+                <RGDNode Key="statemodel_bool_property" Type="List">
+                  <RGDNode Key="default" Type="Boolean" Value="false"/>
+                  <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+                  <RGDNode Key="bool_property_id" Type="CString" Value="ryokan_healing_buff_jpn_ha_sen"/>
+                </RGDNode>
+              </RGDNode>
+            </RGDNode>
+            <RGDNode Key="pbgid" Type="Int" Value="2073144"/>
+            <RGDNode Key="parent_pbg" Type="List">
+              <RGDNode Key="$PBGNAME" Type="CString" Value="spearman"/>
+              <RGDNode Key="$PBGMAP" Type="CString" Value="statemodel_schema"/>
+            </RGDNode>
+          </RGDNode>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="target_properties" Type="List">
+      </RGDNode>
+      <RGDNode Key="list_properties" Type="List">
+      </RGDNode>
+      <RGDNode Key="float_properties" Type="List">
+      </RGDNode>
+      <RGDNode Key="vector3f_properties" Type="List">
+      </RGDNode>
+      <RGDNode Key="generic_handle_properties" Type="List">
+      </RGDNode>
+      <RGDNode Key="attribute_enum_properties" Type="List">
+      </RGDNode>
+      <RGDNode Key="enum_table_properties" Type="List">
+      </RGDNode>
+      <RGDNode Key="bool_properties" Type="List">
+        <RGDNode Key="statemodel_bool_property" Type="List">
+          <RGDNode Key="default" Type="Boolean" Value="false"/>
+          <RGDNode Key="$REF" Type="CString" Value="statemodel_bool_property"/>
+          <RGDNode Key="bool_property_id" Type="CString" Value="spearman_shield_wall_byz"/>
+        </RGDNode>
+      </RGDNode>
+    </RGDNode>
+    <RGDNode Key="pbgid" Type="Int" Value="35458058"/>
+    <RGDNode Key="parent_pbg" Type="List">
+      <RGDNode Key="$PBGNAME" Type="CString" Value="spearman_byz"/>
+      <RGDNode Key="$PBGMAP" Type="CString" Value="statemodel_schema"/>
+    </RGDNode>
+  </RGDNode>
+  <RGDNode Key="instance_version" Type="Int" Value="2"/>
+</Root>

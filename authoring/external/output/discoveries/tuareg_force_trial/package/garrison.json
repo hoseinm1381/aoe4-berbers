@@ -1,0 +1,27 @@
+{
+  "schema": "garrison.mod/v1",
+  "bundle_key": "berber_future_kingdom",
+  "members": [
+    {
+      "mod_key": "berber_future_kingdom",
+      "role": "tuning",
+      "path": "Berber_future_kingdom.sga",
+      "sha256": "2b13f7df8d639c1e08cab443140def1402437b96f245eb131447f16f9945f633"
+    }
+  ],
+  "details": {
+    "id": "berber_future_kingdom",
+    "name": "The Berber Dynasties",
+    "version": "0.1.3-tuareg-q-force.1",
+    "summary": "Experimental forced Tuareg shield entry while walking",
+    "author": "hossein81 and marcokistan",
+    "updated": "2026-10-11",
+    "min_garrison": "0.1.3",
+    "content_types": [
+      "game-mode",
+      "tuning-pack"
+    ],
+    "description": "User-authorized forced-animation trial. Existing Tuareg Q selector plus documented native Entity-tree queue, using exact stock guard/normal leaf paths for walking. No Move/Stop orders or cheer grants. Attacks, charge and brace are excluded from forced restart. Native phase/lifetime and full custom art/motion remain pending.",
+    "changelog": "Experimental direct native leaf queue to investigate delayed moving shield posture."
+  }
+}

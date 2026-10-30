@@ -1,0 +1,27 @@
+{
+  "schema": "garrison.mod/v1",
+  "bundle_key": "berber_future_kingdom",
+  "members": [
+    {
+      "mod_key": "berber_future_kingdom",
+      "role": "tuning",
+      "path": "Berber_future_kingdom.sga",
+      "sha256": "012317bfefa767a3df23558693320e773f258ac28ef628c6b86a9f0c6a94c20d"
+    }
+  ],
+  "details": {
+    "id": "berber_future_kingdom",
+    "name": "The Berber Dynasties",
+    "version": "0.1.3-tuareg-q-trigger.1",
+    "summary": "Q native gesture trigger probe; custom shield hold pending",
+    "author": "hossein81 and marcokistan",
+    "updated": "2026-10-11",
+    "min_garrison": "0.1.3",
+    "content_types": [
+      "game-mode",
+      "tuning-pack"
+    ],
+    "description": "Isolated solo qualification of Shrek native cheer_toggle hook on the existing Tuareg Q ability. Current body/shield models, ability effects, speakers, production and upgrade data are retained. Uses stock spearman cheer clips. Custom 15-second shield pose and native movement/combat/restoration acceptance remain pending.",
+    "changelog": "Add only ability_activate_entity_tree=cheer_toggle to the existing ability variants in an isolated candidate. No Shrek model or animation library dependency."
+  }
+}

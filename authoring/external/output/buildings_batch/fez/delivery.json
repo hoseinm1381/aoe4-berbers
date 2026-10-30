@@ -1,0 +1,1067 @@
+{
+  "key": "fez",
+  "name": "Madrasa of Fez",
+  "ages": [
+    4
+  ],
+  "construction_age": 3,
+  "completed_age": 4,
+  "status": "source_verified_native_integration_pending",
+  "footprint_m": [
+    6,
+    6
+  ],
+  "animator_scale_percent": 130,
+  "source_envelope_m": [
+    4.4,
+    4.4
+  ],
+  "scaled_source_envelope_m": [
+    5.72,
+    5.72
+  ],
+  "age_evidence": "research/buildings_batch/fez/AGE_AND_TARGET_EVIDENCE.json",
+  "donor": "installed Abbasid AgeIV university, preserved separately untouched decoded topology",
+  "donor_reference": "art/buildings/fez/UNTouched_Abbasid_University_Age4_Reference.blend",
+  "source": "art/buildings/fez/Berber_Fez_Age4.blend",
+  "fbx": "art/buildings/fez/Berber_Fez_Age4.fbx",
+  "recipe": "art/buildings/fez/build_fez.py",
+  "preview": "output/buildings_batch/fez/age4_preview.png",
+  "interior": "output/buildings_batch/fez/age4_interior.png",
+  "six_views": "output/buildings_batch/fez/age4_six_views.png",
+  "construction_manifest": "art/buildings/fez/age4_construction.json",
+  "source_meshes": 178,
+  "fbx_meshes": 178,
+  "packed_images": true,
+  "owner_zone_objects": [
+    "west_neutral_cell_owner_band",
+    "west_neutral_cell_owner_band.001",
+    "west_neutral_cell_owner_band.002",
+    "east_neutral_cell_owner_band",
+    "east_neutral_cell_owner_band.001",
+    "east_neutral_cell_owner_band.002",
+    "front_neutral_owner_band",
+    "front_neutral_owner_band.001",
+    "neutral_owner_banner"
+  ],
+  "owner_colour": "Neutral banner/cell/frontal bands and red-only pattern authored; native shader integration blocked per shared contract",
+  "opening_ray_checks": 16,
+  "numeric_checks": [
+    "finite geometry",
+    "closed manifold positive signed volume",
+    "no geometric or UV area degenerates",
+    "positive scales",
+    "ground z0",
+    "actual6m footprint with130percent margin",
+    "measured roof/wall/floor/fountain/book contacts",
+    "16 through-opening ray probes",
+    "packed saved-source and FBX reimport mesh/UV parity"
+  ],
+  "visual_inspection": "Final preview, interior and six views directly inspected. Gallery voids are real; fountain visible in revised overhead interior. Added exterior ceramic/plaster geometric courses after first inspection showed overly blank side walls. Upper cell shutters and adjoining parapets are intentional. No detached ground volumes or backside holes observed.",
+  "cook": false,
+  "native_test": false,
+  "remaining_gates": [
+    "flat villager build command versus nested Fez binding",
+    "native owner palette structure shader",
+    "native stages/anchors/LOD/destruction",
+    "native130percent scale/orientation",
+    "native age-up action and landmark functions"
+  ],
+  "files": [
+    {
+      "path": "art/buildings/fez/age4_construction.json",
+      "bytes": 25439,
+      "sha256": "0165fd8021f0ef5353e74f84962ee6053b581e921c6b9b274145724e21e31171"
+    },
+    {
+      "path": "art/buildings/fez/albedo.png",
+      "bytes": 64572,
+      "sha256": "51374ed52c444481648ba2b21af69438143f526c82505a43b9a0b2b6b9e67654"
+    },
+    {
+      "path": "art/buildings/fez/Berber_Fez_Age4.blend",
+      "bytes": 254376,
+      "sha256": "d8113a1106ecd0710d73e390dfe7807e5a27a6f99d08f05a62e5fd44755f85a0"
+    },
+    {
+      "path": "art/buildings/fez/Berber_Fez_Age4.fbx",
+      "bytes": 581388,
+      "sha256": "ca0170ea37a01034de981192121843e382e5ee41fb3e42ff1c68af1165dbca97"
+    },
+    {
+      "path": "art/buildings/fez/build_fez.py",
+      "bytes": 19590,
+      "sha256": "ef7bb87fc4f1019696e3e1367fbf84d563e69ed8488e7707be7186c907f9c115"
+    },
+    {
+      "path": "art/buildings/fez/metal.png",
+      "bytes": 1854,
+      "sha256": "f3e97b56fcdc4167501af51cb2ecd1afaf7e6f94c0a767fb6d0af9c75b4a6390"
+    },
+    {
+      "path": "art/buildings/fez/normal.png",
+      "bytes": 1852,
+      "sha256": "4404e0b1772ae7b79c2de72b7b5295980a32531099f7ab41c887b8c20533eb2e"
+    },
+    {
+      "path": "art/buildings/fez/pattern.png",
+      "bytes": 2046,
+      "sha256": "9fc76d33896cc7762a43c47cef9d9b79bf81e1f59e236336dd48e7d73f59c475"
+    },
+    {
+      "path": "art/buildings/fez/roughness.png",
+      "bytes": 2055,
+      "sha256": "be60113532dc45eb299dbd2d3817d9966f2e9b9b0a4fb6f908dbbac1d8698179"
+    },
+    {
+      "path": "art/buildings/fez/UNTouched_Abbasid_University_Age4_Reference.blend",
+      "bytes": 2861447,
+      "sha256": "ef0116599d9f40a08a4138c790885036f94e829d25802bc1b68aaa9f8f65960e"
+    },
+    {
+      "path": "output/buildings_batch/fez/age4_back.png",
+      "bytes": 74362,
+      "sha256": "3105b605972acd337395454d52866959f41f3bf6657a7ed9d844747097b548a6"
+    },
+    {
+      "path": "output/buildings_batch/fez/age4_bottom.png",
+      "bytes": 68765,
+      "sha256": "1b71babb78f3bf51cb02d3f1b2ece18061fdff8590b1cafae4bfe9e95618b683"
+    },
+    {
+      "path": "output/buildings_batch/fez/age4_front.png",
+      "bytes": 78886,
+      "sha256": "b76ad24f039234ed595308ea1dd3208c0c35747aea4149e33b7cb298036f1cdb"
+    },
+    {
+      "path": "output/buildings_batch/fez/age4_interior.png",
+      "bytes": 657398,
+      "sha256": "09b9a944989a98d3805e3b9fc9ad30178e699d71707ec92347bfa01e69f982b5"
+    },
+    {
+      "path": "output/buildings_batch/fez/age4_left.png",
+      "bytes": 73899,
+      "sha256": "7aeb961fa41d1e85bc3b53aad23451969397d48f0f8660dd47b9e38c85c45ad4"
+    },
+    {
+      "path": "output/buildings_batch/fez/age4_preview.png",
+      "bytes": 780637,
+      "sha256": "4cd9fe0bf654244d8be1c6e09de9be603e60e46adf74c600bb11f75b3413e439"
+    },
+    {
+      "path": "output/buildings_batch/fez/age4_right.png",
+      "bytes": 73371,
+      "sha256": "f1a2f74bde91bdf471f2995449a917a5cae0f3a392f57aa5bff4a567e515f68d"
+    },
+    {
+      "path": "output/buildings_batch/fez/age4_six_views.png",
+      "bytes": 254671,
+      "sha256": "c1627ae6a0736cb399b71d260bc320aaa62e9ec876c3aa71dc6a00d47704c0f5"
+    },
+    {
+      "path": "output/buildings_batch/fez/age4_top.png",
+      "bytes": 78828,
+      "sha256": "9e0f3b709851c33b6e3f799cbb37ba304fdee0235aa65c2dcaafaa73d682b748"
+    },
+    {
+      "path": "output/buildings_batch/fez/age4_validation.json",
+      "bytes": 102227,
+      "sha256": "fba723cdbf518905c871fc3d81bc89eea1a11160d44f729e89d5047c423c3e34"
+    },
+    {
+      "path": "output/buildings_batch/fez/audit.log",
+      "bytes": 154,
+      "sha256": "29f338f98089e1f7d6d2a205672fbb8517daa60ab959e6f460f7a0b68f2b30be"
+    },
+    {
+      "path": "output/buildings_batch/fez/audit_process.json",
+      "bytes": 148,
+      "sha256": "68f3a79c47fbc79588218085e92320192896d07a2af605241e4f6f03ef53ccf6"
+    },
+    {
+      "path": "output/buildings_batch/fez/blender.log",
+      "bytes": 2625,
+      "sha256": "4043d0b11aa38a6a92f1135d0100b8f45ca0887f88ddeb33c4eec1fcf661672d"
+    },
+    {
+      "path": "output/buildings_batch/fez/BUILD_COMPLETE.json",
+      "bytes": 84,
+      "sha256": "c42bfc965a1c56f5300b5c3d5bce505b0445e5693b3428edfe6c7151b5c04914"
+    },
+    {
+      "path": "output/buildings_batch/fez/process.json",
+      "bytes": 135,
+      "sha256": "84ac39767c5ee05e35f8c8bd5d4a8dd77c65c646c7a399377b72644a10f28204"
+    },
+    {
+      "path": "output/buildings_batch/fez/saved_source_fbx_audit.json",
+      "bytes": 626,
+      "sha256": "7ed81728d5470596f5099a135ea16472499da7b75a9bb4c96dae25e220bcbd79"
+    },
+    {
+      "path": "output/buildings_batch/fez/void_checks.json",
+      "bytes": 1513,
+      "sha256": "80705eccf123638feb4b99d6f27755dd5714012fbcb84a6ba0aa182027f7e1c2"
+    },
+    {
+      "path": "research/buildings_batch/fez/AGE_AND_TARGET_EVIDENCE.json",
+      "bytes": 1662,
+      "sha256": "db0273700be0712ec3d483bdddb7076fc1dd01d7fa60b2ff975eafd3d651c831"
+    },
+    {
+      "path": "research/buildings_batch/fez/audit_saved.py",
+      "bytes": 2621,
+      "sha256": "7a34f31a1a92f248d846b054555783110053fb9fcb35464c8e9c02a505519d28"
+    },
+    {
+      "path": "research/buildings_batch/fez/catalog.json",
+      "bytes": 1427,
+      "sha256": "c46fb7c2c94187126dd20e44ab28be26735cbd52307dcc95587865435eedab24"
+    },
+    {
+      "path": "research/buildings_batch/fez/create_recipe.py",
+      "bytes": 7830,
+      "sha256": "a0a52da02adf322ebceaf035b568f865245a9ab8231dae105eac1864a6da40a8"
+    },
+    {
+      "path": "research/buildings_batch/fez/donor_summary.json",
+      "bytes": 2157,
+      "sha256": "ee53fc139551d4831aff642645f682aa9ecde51145c0a0a77579c3731f873fa3"
+    },
+    {
+      "path": "research/buildings_batch/fez/finalize.py",
+      "bytes": 3693,
+      "sha256": "bde8689af670fb483d53ef105b867abebec1e640a0b3333b1ee827e8d02b973f"
+    },
+    {
+      "path": "research/buildings_batch/fez/inspect_stock.py",
+      "bytes": 963,
+      "sha256": "cc4823d6445ba8eb306a5c7383890555cce513bfb18c5c4e15b9d4d42c014bf5"
+    },
+    {
+      "path": "research/buildings_batch/fez/make_contact_sheet.py",
+      "bytes": 410,
+      "sha256": "946325c1d98edac57fec213cb0465a7b17dd1031acf49edde367ec5bf844c1a2"
+    },
+    {
+      "path": "research/buildings_batch/fez/official_parent.rgd",
+      "bytes": 67460,
+      "sha256": "40aad82df346ab5e4d1c8e49e517bcf1ad5f84227ff2de9e5e7eea7e68592182"
+    },
+    {
+      "path": "research/buildings_batch/fez/official_parent.xml",
+      "bytes": 166656,
+      "sha256": "f80d2277b7422e3c1371a6fbc90c2ce66b05a61020ea0a094ca70aa2fdb24a5c"
+    },
+    {
+      "path": "research/buildings_batch/fez/prepare_audit.py",
+      "bytes": 493,
+      "sha256": "024660f35a6875575261f15fbaa4cc8421766fd8ccea09866dbd50a894e8d277"
+    },
+    {
+      "path": "research/buildings_batch/fez/README.md",
+      "bytes": 3752,
+      "sha256": "03cc885ad35dffaf277fc5f20232f5467c80b3cde9a95c5d089f9c14d2668c3c"
+    },
+    {
+      "path": "research/buildings_batch/fez/repair_visibility.py",
+      "bytes": 1093,
+      "sha256": "903b7f84489242f1248782c0ab7334712f0851586decea90edbbdde894dae7f4"
+    },
+    {
+      "path": "research/buildings_batch/fez/run_audit.py",
+      "bytes": 826,
+      "sha256": "d1c30bc76782d30f48ed544032b112b5f514b7669228ae9667c284c232b8376a"
+    },
+    {
+      "path": "research/buildings_batch/fez/run_hidden.py",
+      "bytes": 809,
+      "sha256": "d1becb0dcd1947cbbf2771b7a544e5977d71cfe7f14c975fe9c997ed47aa3be9"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/decoded-static.json",
+      "bytes": 81350308,
+      "sha256": "91b42f59fb36c340e2ecd20432ff74687ad23b0e31fc59b8d3f5b6a1c3f6e68a"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/civilizations/abbasids/structures/university/abb_university_control_age04/11303661011929645363_packed.rrtex",
+      "bytes": 28603,
+      "sha256": "39298f8c85ea35fbc08f09291581c346d6199339872a327203b53e263778e97f"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/civilizations/abbasids/structures/university/abb_university_control_age04/12380111570458985398_packed.rrtex",
+      "bytes": 23401,
+      "sha256": "24622c7ee6e16e9fc5b57885f03f621f29b8276e12e444350496de62fbeaf84d"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/civilizations/abbasids/structures/university/abb_university_control_age04/13218027310215786193_packed.rrtex",
+      "bytes": 457,
+      "sha256": "e93c7b754f5c0b0d57ea4513a6d9ec72649ae81ce632384f4cd86af9d6bda503"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/civilizations/abbasids/structures/university/abb_university_control_age04/13371602249412347052_packed.rrtex",
+      "bytes": 457,
+      "sha256": "674b7c305a0a48f15a23320459bf44ee466222b660ebbf8be366639119fd54f5"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/civilizations/abbasids/structures/university/abb_university_control_age04/13760129052363506221_packed.rrtex",
+      "bytes": 3881,
+      "sha256": "626e07a094046f78311d9607b395ee99dc5cf17c782768bd8034b33290da079b"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/civilizations/abbasids/structures/university/abb_university_control_age04/13781500154847557897_packed.rrtex",
+      "bytes": 36276,
+      "sha256": "1df8204c4110940ab0ad8dbaddc101bb5f07e024c94fc9169f6e52173930da07"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/civilizations/abbasids/structures/university/abb_university_control_age04/16759930563691089734_packed.rrtex",
+      "bytes": 30464,
+      "sha256": "258a12edcb5a3e1badaa0bcc47e6eeba86f74a9cba2e33edf236e15b8d5dcf7b"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/civilizations/abbasids/structures/university/abb_university_control_age04/16762095151613715224_packed.rrtex",
+      "bytes": 5090,
+      "sha256": "beebb4c586a1260700144e9770478875abf7faf8fe57311bfe3f642e9b573c86"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/civilizations/abbasids/structures/university/abb_university_control_age04/3178152407241849234_packed.rrtex",
+      "bytes": 458,
+      "sha256": "c2ff435151f8b9338371c10a893cf239548220b817fea2c3bd5eff8a08587b1a"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/civilizations/abbasids/structures/university/abb_university_control_age04/3232373750083986245_packed.rrtex",
+      "bytes": 457,
+      "sha256": "2449ae6404094cc74f1dc1633938f3206fa67105eb03f1c5bfce2ad49442c974"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/civilizations/abbasids/structures/university/abb_university_control_age04/3416997981681591005_packed.rrtex",
+      "bytes": 10755,
+      "sha256": "d69b72f881538acd598027dea74313b79f2bec2b12412bd03bb4daf9072adb09"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/civilizations/abbasids/structures/university/abb_university_control_age04/4204760848223680990_packed.rrtex",
+      "bytes": 423,
+      "sha256": "5250f849c02b1b11776676471b1aa487b719a75f1540bc2bfbecdd97a682ddf5"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/civilizations/abbasids/structures/university/abb_university_control_age04/5148526225701383708_packed.rrtex",
+      "bytes": 32991,
+      "sha256": "b7c69bcf6fb0a5a0549abbbced4caee65ecd8087ea3211497940a96bda57878d"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/civilizations/abbasids/structures/university/abb_university_control_age04/5819161795994068614_packed.rrtex",
+      "bytes": 32830,
+      "sha256": "c55a3a2682f8a9d113a4c6e6a8d5357a45e17aed07eb329058fd8cc2c331d99d"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/civilizations/abbasids/structures/university/abb_university_control_age04/68574386165812998_packed.rrtex",
+      "bytes": 18297,
+      "sha256": "fbcfc283ad7026034d4178ddba2a55950557ed3121a39f147422f9bba0816e6f"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/civilizations/abbasids/structures/university/abb_university_control_age04/708266960800343524_packed.rrtex",
+      "bytes": 4884,
+      "sha256": "4c4e9881ba142012f0fc353e6916f911ba18eb0310171e9620c6d774674c1e6e"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/civilizations/abbasids/structures/university/abb_university_control_age04/709260236509012637_packed.rrtex",
+      "bytes": 25185,
+      "sha256": "6276793cc8d8ae707e426daa7d1c6175781d6cccb49b21029e8237d4e5ca54a3"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/civilizations/abbasids/structures/university/abb_university_control_age04/8001059870316887013_packed.rrtex",
+      "bytes": 5372,
+      "sha256": "e077bb7d18fd845e7defd68b7c66dd3ed522929a77f317b6cfb2a5d80e1b446a"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/civilizations/abbasids/structures/university/abb_university_control_age04/82882370785811416_packed.rrtex",
+      "bytes": 9307,
+      "sha256": "c6fa522841e0e8c1cd44f2265136edf3379858cd260f3e25cfa6f40f8f397730"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/civilizations/abbasids/structures/university/abb_university_control_age04/9234913708567882905_packed.rrtex",
+      "bytes": 7690,
+      "sha256": "6043cf216c88e0a44b192d71826fcda6e20baaf443240cce4608d357903b54fd"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/civilizations/abbasids/structures/university/abb_university_control_age04/abb_university_control_age04.rgm",
+      "bytes": 840796,
+      "sha256": "d99a1de7cf8a50a28b4998cf40aa769d586b6f6fd2f90c5ad524cd0fdf738011"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/civilizations/abbasids/structures/university/abb_university_control_age04/abb_university_control_age04.rrgeom",
+      "bytes": 4800776,
+      "sha256": "f07d2394143ab4699ff48070851ba015ded913ee572cfb8b8d064ebdd29ed54b"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/civilizations/abbasids/structures/university/abb_university_control_age04/abb_university_control_age04.rrmaterial",
+      "bytes": 68266,
+      "sha256": "65930c99ceb5396c3454d6fe948e8872b2c6fd660b8c7ea49e7508ef457f44ad"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/default/default_texture/11870108732234244334_packed.rrtex",
+      "bytes": 377,
+      "sha256": "5d63226666f63d1b4f2920c680ef65c63d44c89629e53748bc774ae4c50aa9b7"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/painter_materials/textures/black_msk.rrtex",
+      "bytes": 363,
+      "sha256": "096c5e587a416ebc8c2512f6d7c14fcdc87edc3defebd821e914c116b382091a"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/painter_materials/textures/leaks_01_msk.rrtex",
+      "bytes": 502997,
+      "sha256": "5d72f82b03be8afdfa2e4b95bdfdee52b259878779cc5c70a659c0069dc84398"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/painter_materials/textures/leaks_02_msk.rrtex",
+      "bytes": 505280,
+      "sha256": "dbade4e0e455566d5d3aed33c5721cbe8e0dda4681a198e7d26c23006124077c"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+      "bytes": 378,
+      "sha256": "2db38510c905e5272bf218e30b15ec3dff62989af93ea4755c63f139db5961b2"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/painter_materials/textures/noise_01_msk.rrtex",
+      "bytes": 493336,
+      "sha256": "d1700afc73d3ceff2a807446f36ae09b8658849f850236b736a592c8dd3af510"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/painter_materials/textures/noise_03_msk.rrtex",
+      "bytes": 537639,
+      "sha256": "6f47966797bec8594695c9c5d75b63715ba06e6fc93caf7044f6734d173d83c4"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/painter_materials/textures/patches_01_msk.rrtex",
+      "bytes": 215132,
+      "sha256": "7182053237b5d78839c2e65abd68781d078ce3f45ae153a111b297d4002c158a"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/brick/3965078891354372190_packed.rrtex",
+      "bytes": 268868,
+      "sha256": "063a48ce214346590db0b5b8e610c89f231c0aea62aff2b6850f311c228db07f"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/brick/4597622857439163640_packed.rrtex",
+      "bytes": 117251,
+      "sha256": "1f0f35429aaf4c91d4dbda4b9e45b8f5bd9e23fc132605f065fa390c408da0d2"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/brick/4675809767577831731_packed.rrtex",
+      "bytes": 234489,
+      "sha256": "8cb169881540eb0cca8209b6355f9585e85ccc8a753dad16d78489dedf4f86f1"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/building_kits/14121004553045933872_packed.rrtex",
+      "bytes": 158405,
+      "sha256": "522433609e6874d36dfcab4e96ea9989430ea12f7181306c3bf3be89de1dfffb"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/building_kits/16768598355755336025_packed.rrtex",
+      "bytes": 126083,
+      "sha256": "941a9bf38727d1b32b46addbfd1b23c0ce0d886542d08a1671e9c08c10a1779f"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/building_kits/5031798109853983860_packed.rrtex",
+      "bytes": 86141,
+      "sha256": "d493c0c29475346d2d5035f82d996561b4c483b85f3d2255546322c8ff79c5d2"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/damage/11755559493558267954_packed.rrtex",
+      "bytes": 177698,
+      "sha256": "29740abd0c1e91e722723dcc0e0358d20e04be8fdf324b0eafc588770dc275ab"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/damage/11844705194956636559_packed.rrtex",
+      "bytes": 331405,
+      "sha256": "9b79685fd68ed737d7f43193e84316833734fabd29a215a64b7970b47d8b5f62"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/damage/str_damage_charred_01_alb.rrtex",
+      "bytes": 136774,
+      "sha256": "efc5cc7e033216668405710abfcaacb0575632d6aab125b7b4ae2c9ff9da2104"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/debug/17716732775687444425_packed.rrtex",
+      "bytes": 403,
+      "sha256": "7dca7531756bfd4eea31aba9fa9d3784d1a9424e2df120079884d3e61a2c7918"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/debug/6708399669590286008_packed.rrtex",
+      "bytes": 385,
+      "sha256": "e633a284a51782f2a71664f6a63268ad964481a77d3f5d25c00bbfd9934ea539"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/debug/940685202008631679_packed.rrtex",
+      "bytes": 403,
+      "sha256": "693426c2fb4e86611a41f8ce0d6e16f824b1e467aea13b4f4a2926ce019d61df"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/plaster/1010901216075870242_packed.rrtex",
+      "bytes": 117521,
+      "sha256": "de7a3ead994053d7b2036103d07ef548443b5907432bd1a594468781199358b0"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/plaster/10481810468234262313_packed.rrtex",
+      "bytes": 286928,
+      "sha256": "e9e2729ca0d6cf87d5851509a7e899737599acce0ea1ab3e2a71dc541f80f4e3"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/plaster/12041615973339707457_packed.rrtex",
+      "bytes": 123361,
+      "sha256": "26077b02a89b21b1cabc0be6d7cfa0e93ea6e927e88e4ff81b3edb00d88c74f3"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/plaster/17199498810477758055_packed.rrtex",
+      "bytes": 126967,
+      "sha256": "143a7ba5354a447ec9637aa8b5d38098e9528691b26a5e4db1e0fa39aae4ebe7"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/plaster/18231663582228185424_packed.rrtex",
+      "bytes": 317230,
+      "sha256": "6d32f841400427a53d8b67a6a806aacdca750220b5f90e82b4abf6ae1fd0cc95"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/plaster/4611286749468971337_packed.rrtex",
+      "bytes": 104483,
+      "sha256": "65474eb049dbefc9bd22a2d912cbde1e6dba9af82df417f04d9268119b5161d8"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/plaster/4659622844865272861_packed.rrtex",
+      "bytes": 290735,
+      "sha256": "fe7d96ceccf406b9f6c5f6c4c0bde25c5dba856c648f29f84d9cc8d852379ee4"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/plaster/6514526388042114822_packed.rrtex",
+      "bytes": 319694,
+      "sha256": "7cc61c99ff96813cd4942d8fd751c3d352fa2fd19308febae7c42ec04540d024"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/plaster/6696842199604069968_packed.rrtex",
+      "bytes": 262024,
+      "sha256": "9688865be0369010d711d55f28b3e21bcdf822ca8ede0cf4e68afe2bb8424737"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/plaster/7679578444145441453_packed.rrtex",
+      "bytes": 296851,
+      "sha256": "00620749c48fc7a8a2b5d5708e3e3f51678f32a9200692654413015c0a319021"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/plaster/835411899618610844_packed.rrtex",
+      "bytes": 288911,
+      "sha256": "ed099c8ea716c4993ed9d6fd126e46db59f936ca1ac5e59ae92118eae99c82c7"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/plaster/9004928141568086830_packed.rrtex",
+      "bytes": 298721,
+      "sha256": "d272dc0e999fac36a2cfe5459e79ce71b817a967589c67dc0bf448251f39c2c6"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/stone/10969857256550625356_packed.rrtex",
+      "bytes": 234452,
+      "sha256": "8e8704ad0df236305d2b3bb5e79878a4e56d29e0f3343939c125e1b0fe008fa6"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/stone/12951455813456007168_packed.rrtex",
+      "bytes": 117344,
+      "sha256": "39cb965bafd8248221184a0652be1dd779f0e9b7bdf1c85e40f044a21e77b9ac"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/stone/14178410758489216611_packed.rrtex",
+      "bytes": 297487,
+      "sha256": "0d0529ba233191f0788f12f2f441cffa751428c781e361a5f9bd974c051d086e"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/stone/14851541952944996782_packed.rrtex",
+      "bytes": 183273,
+      "sha256": "8d3cc0e927f30272a159d6505354d5607b395da27ff1f47933ede1bcfe8a922e"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/stone/15414006217477907782_packed.rrtex",
+      "bytes": 145980,
+      "sha256": "5a06c11a157e2a7f5368bcefecafd203ededa63de9415b9a18e903675afebf6e"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/stone/15797030231536611541_packed.rrtex",
+      "bytes": 101299,
+      "sha256": "867ca9087d63dcd2225cf2d71c212c1538d507e8619153c4dae3160c2588a9e1"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/stone/16981821344411323562_packed.rrtex",
+      "bytes": 91325,
+      "sha256": "89d757c0f4296192aeff75ca37d0460a62184a5c5d6566e99897a6188f9e8e3f"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/stone/17806327285596061758_packed.rrtex",
+      "bytes": 136538,
+      "sha256": "efdc1ea74b77e3ccd0842060456497082990153fa9950dea51d9ce724ab2d2c0"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/stone/611641862549595310_packed.rrtex",
+      "bytes": 250641,
+      "sha256": "1f0a78b371e6d598efaa5b5c55ea7c88792555c27c500190996b66376a319555"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/trim/10522298849178031665_packed.rrtex",
+      "bytes": 132041,
+      "sha256": "cd897950535f554ed0ef3c8cab11764e831012d03ac05ce905565841ec062158"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/trim/1763035514089694703_packed.rrtex",
+      "bytes": 264399,
+      "sha256": "02833cc41e2dd5617064eddbabc4e7412e9f8fdc179a87bbb190baf62b3916f4"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/trim/1860314099147344652_packed.rrtex",
+      "bytes": 270677,
+      "sha256": "d634ede7a97bd15108fd071d697ac18bda651615e9117bce55a22314fc597025"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/trim/5463550293096209613_packed.rrtex",
+      "bytes": 231992,
+      "sha256": "2eb127b28d6a19c8ae44eacf8d7f97e7dfe2abe07034d5e45498e334962a5dc9"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/trim/5707793634508689560_packed.rrtex",
+      "bytes": 146039,
+      "sha256": "af530a38ac73ea6f9186cc2912c0ee5bf6ed41d59b21962f27dfb4503ba189c9"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/trim/6830851398023831500_packed.rrtex",
+      "bytes": 244945,
+      "sha256": "bdb0dba89e4a51084d8d0e41f520fcbc00894ffde900a88a8cd77c890c62b7b2"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/windows/12163187583895202739_packed.rrtex",
+      "bytes": 98474,
+      "sha256": "cfab3dad2d9b931ea237abdac4d5e0379dafcb8bbe1398474c52534850a2092c"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/windows/16002248183622504817_packed.rrtex",
+      "bytes": 130186,
+      "sha256": "a20bde3dd5ff8d84a4b1495a6af94a23dbae57039cccd2e3e66d940a450133c7"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/windows/6746390618070738530_packed.rrtex",
+      "bytes": 275321,
+      "sha256": "e93b0acb529940ff1f1faa8ef2c9c85fc9f8366653c249b468a01c3d45ede583"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/wood/13631000062908908676_packed.rrtex",
+      "bytes": 135217,
+      "sha256": "3cf147f3fa8503d75111f3a2cd46b58a894a7013e5d1d95c01f06e2bfed5cbf4"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/wood/13644703210369924864_packed.rrtex",
+      "bytes": 316044,
+      "sha256": "80fc438bfbbd03571407395f844ad8a5f3e8f20c22f2d0eec35026483d8899dd"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/wood/14259662789339030955_packed.rrtex",
+      "bytes": 130949,
+      "sha256": "0c3cf99e85e6f0632de074bee638bcbdf3619c58e8effca5a71a29e9605c3c68"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/wood/18345724522684246396_packed.rrtex",
+      "bytes": 231942,
+      "sha256": "cff3ad91619c5963fefa43174de1af561039f8d56787379d220e8e145375a7d5"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/wood/2430408601683036952_packed.rrtex",
+      "bytes": 239961,
+      "sha256": "3692c1d50c5ed13035fd51875585528de7e158e9b0a890b97bb41a695ece2f5f"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/source/art/material_library/substances/structures/wood/7266204044315863081_packed.rrtex",
+      "bytes": 299910,
+      "sha256": "1ee9ea87076a737ab54153e12c4cced8e5971367c91c866ac4e009f30e0da232"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/00a2880bf731_6708399669590286008_packed.dds",
+      "bytes": 152,
+      "sha256": "f172e130e5a861fa1e5d2f7b01576b9e5530d22f87673de1bbac0bee37927d39"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/07a896942cfa_11303661011929645363_packed.dds",
+      "bytes": 43832,
+      "sha256": "7d05507720a61aabddc4e7edfb83ccf74b4ed8ed7412e02ae15551560d1f0392"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/0eb8439c962e_black_msk.dds",
+      "bytes": 152,
+      "sha256": "2de449c853b4e538a88d2788f105a9b0d2c8c4e5db1a86eaee32355fdbf4d7cf"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/10128d11185d_3232373750083986245_packed.dds",
+      "bytes": 196,
+      "sha256": "62462a845c64fd1ec467d7f8bbf795b83a160ee0505caff76c86189016253e7f"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/13a6e70697d4_5148526225701383708_packed.dds",
+      "bytes": 87556,
+      "sha256": "05c98a023a1f18c26c4b6a8597cfda911b52a5bf43b3cf4b477e1a140906b63b"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/20541db25e50_7266204044315863081_packed.dds",
+      "bytes": 349680,
+      "sha256": "dc4c9b9751073798515ba2a6d23117a02464eaabffa9790f42b37ad36234e67f"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/242fc65c91d9_10969857256550625356_packed.dds",
+      "bytes": 349680,
+      "sha256": "09b547575de98318b5a1c1d9a008676b0be9bbee1e430a654c053460fe1d00ab"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/28823c18169e_12163187583895202739_packed.dds",
+      "bytes": 174904,
+      "sha256": "dba95c0a94750ada6161a91e965f08cead396f56854cfa034c9603fe766671a9"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/2a3dbc1e032f_13218027310215786193_packed.dds",
+      "bytes": 196,
+      "sha256": "62462a845c64fd1ec467d7f8bbf795b83a160ee0505caff76c86189016253e7f"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/2b5e473bc500_11844705194956636559_packed.dds",
+      "bytes": 349680,
+      "sha256": "3b4813c14d8152d8545c7d7353e0e77a60d4b5a3b4969009ed31719a7e5f0765"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/2ce28d127a74_15797030231536611541_packed.dds",
+      "bytes": 174904,
+      "sha256": "fb7c173d9fa63a301f4d70648123327292c20586f85fadfc97bc4c7c17fd1396"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/3229b57d6309_13760129052363506221_packed.dds",
+      "bytes": 43832,
+      "sha256": "9df130115ebdc1a0f08d0a96b810eefbef65f104195996b647b774eaaa4c14d1"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/378d26459566_4659622844865272861_packed.dds",
+      "bytes": 349680,
+      "sha256": "9c743d1d915d3bd5ade6bf0665e71ed6797e03efd0f985c40893f522b0492280"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/41a36f108805_708266960800343524_packed.dds",
+      "bytes": 43832,
+      "sha256": "b3943be2fa7c698e98cfefa96ee5b193b6a6d5a936265b5341803b042b272368"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/41cf0d2a5647_5819161795994068614_packed.dds",
+      "bytes": 87556,
+      "sha256": "7ccb49e68cafe86947860d368ee44a06c84248ac627750eeb1d4f5545f3bf43a"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/4bc850359290_1010901216075870242_packed.dds",
+      "bytes": 174904,
+      "sha256": "11d9f1e0274af6161af7e7863d629bf7cc3335dbbc23550735fbd13aa16b8654"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/4d6257180253_6514526388042114822_packed.dds",
+      "bytes": 349680,
+      "sha256": "d9ada5ec3d64c1b0043ecad30511ada15afe70fe069b0cc0b6982a4f102c7bfb"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/4df4db18a052_4675809767577831731_packed.dds",
+      "bytes": 349680,
+      "sha256": "e76bcbdadee8af1708b40889603e6b59509c55aaee269ecb79207055c05cab2d"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/5381da0089b5_940685202008631679_packed.dds",
+      "bytes": 176,
+      "sha256": "de7a0c4d0867b196ebb8a87ee44f7eed23d4895d8cd3ccc4303b77e0330cf82d"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/570e02d83fae_patches_01_msk.dds",
+      "bytes": 699192,
+      "sha256": "903d8aac0f3a290e1f0957fe9a90cb843eb542fe8b720e48cd6b8006f9ce5b33"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/577d5f058eb2_13371602249412347052_packed.dds",
+      "bytes": 196,
+      "sha256": "a23d277f21adb58908cf71dd8cbb555f6cb6691a5a40db3d5995b33cb7be1f36"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/5b1e5d9678d4_14851541952944996782_packed.dds",
+      "bytes": 349680,
+      "sha256": "3525a8e6f9b02f55f561144fa97a40ba0243e1feca975153b7b79689ca4f140c"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/5db26348116b_12041615973339707457_packed.dds",
+      "bytes": 174904,
+      "sha256": "b521fb8fb1b507df9550325ea794848d62ec0b945fb4b92a830ac6597c205d3f"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/5ee03d59bcd9_3178152407241849234_packed.dds",
+      "bytes": 196,
+      "sha256": "e4703120b6ab7ad8256021ae586914277140c563f55571c6d455d00ad43334ba"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/6375bfc52b59_15414006217477907782_packed.dds",
+      "bytes": 349680,
+      "sha256": "25594683a8a2ddeb352af6f479691c4f346e8ce54fd11d0ff0ace174c09cdf20"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/671b885fc48d_68574386165812998_packed.dds",
+      "bytes": 43832,
+      "sha256": "940546b4d58ada9a1e762ca35197ad77a21712c5b5f6bfea61ddcd9ab401b7a3"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/6baf1e779562_5031798109853983860_packed.dds",
+      "bytes": 174904,
+      "sha256": "84d6715bab8777a316afeac9a5132f23f1be5f620c894d35242f8406eb2b2765"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/6e199ca316f7_9234913708567882905_packed.dds",
+      "bytes": 43832,
+      "sha256": "319b7180ddf1e3ae9faa6f66bba3c3197643e82469f7f912743eeb0e82de8035"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/6f3011ce41e3_str_damage_charred_01_alb.dds",
+      "bytes": 174904,
+      "sha256": "c4250b78de37fe140ba3d62d38967f59bbb22c444d872c660f772f906556ac0d"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/7076d5e5b5b1_13631000062908908676_packed.dds",
+      "bytes": 174904,
+      "sha256": "3323b25a260779038594f2a0c4d54429f4875025db554f50e087596dcecbc8bf"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/7422a3e094fe_6696842199604069968_packed.dds",
+      "bytes": 349680,
+      "sha256": "d8b9a2a89ca957c8d4a9c5c4700782b18fd7c8675a4c08fcf2c9f9ea14b6275d"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/75951a2b7598_16981821344411323562_packed.dds",
+      "bytes": 349680,
+      "sha256": "f8c68ee3ecbb04c65e62715cc24cafa21e8cec7ef8dbe7d0a7f5c52b207f7a7b"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/794382be660a_10481810468234262313_packed.dds",
+      "bytes": 349680,
+      "sha256": "87b1ac976668ace7502a8ae10a21b46b6a4466439e579815384ca8db4a30d54a"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/79d116ead710_noise_03_msk.dds",
+      "bytes": 699192,
+      "sha256": "170f9ef9198d369b73f4ee1d216db44902f204ab39b5a5c235a5e87e8031a68a"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/7b494a2f28b9_18231663582228185424_packed.dds",
+      "bytes": 349680,
+      "sha256": "e0944c2bd22660a1bd64694e472a5e6c34590fa13a3747bccc944ef5ebb2b7e9"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/7e3f1c2c22e6_17806327285596061758_packed.dds",
+      "bytes": 174904,
+      "sha256": "ee0eca83c7e250bda3bd7cea6c872ba7a2bcc52585f416af2834124170f23bb8"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/7f3795db04d2_8001059870316887013_packed.dds",
+      "bytes": 43832,
+      "sha256": "366c569ab32e36639db8b59783d8679bd28b822ae7bf892c156be6fd13b1fc4c"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/826753442dc8_5463550293096209613_packed.dds",
+      "bytes": 349680,
+      "sha256": "abfc3a113f8ff4f102a63651f49d7a076485e733d0e756fd505bfe04f6f2bae4"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/85c59cbb9679_11755559493558267954_packed.dds",
+      "bytes": 349680,
+      "sha256": "db13cd404d960308375d8c50bbd34faf49eaec874c3b74789c26f89111c5c0c3"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/87cdb46e3c45_611641862549595310_packed.dds",
+      "bytes": 349680,
+      "sha256": "cc06fa5bd36673ce680777d8a3f7f6486939717a4f6864a6cdd7261cb1d47598"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/8b82eb508a79_5707793634508689560_packed.dds",
+      "bytes": 174904,
+      "sha256": "9aa320f2e5a9f6688f924be1ac2d886e5e9c7ad22c7c653086660abc1de51bc9"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/8f4573c8864b_16759930563691089734_packed.dds",
+      "bytes": 87556,
+      "sha256": "51f23c3ff56da4494a9e5114982496218f3cd2bf23b99a78d8cd6008427d40f4"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/96d2a29ae81a_4611286749468971337_packed.dds",
+      "bytes": 174904,
+      "sha256": "0530e3754e99a46c10ac6677e3389c19d4cca577c87498eb373a74bc668ccf17"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/97d4a8e64b1b_1860314099147344652_packed.dds",
+      "bytes": 349680,
+      "sha256": "cb78f9ac69c6cb39bf26930f41c414763b7308b7dfb4605c6410d2c69d783b38"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/98733da70119_14121004553045933872_packed.dds",
+      "bytes": 349680,
+      "sha256": "1d3233ecdb7a26626d388c7c445bb8f83e98745301f3934227fe298dac7384e3"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/9aa33e850573_16002248183622504817_packed.dds",
+      "bytes": 349680,
+      "sha256": "9ba7976d0aed8d8ca8e40b9c6285cb97c1e3eb4d8d8490e6468c59458dae0525"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/9d121af4223f_11870108732234244334_packed.dds",
+      "bytes": 176,
+      "sha256": "8a179f20558d1a5de1873f20e5c202d09fe9212561d853e8b15b306adbf2b6ce"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/9eb6a930cc1e_82882370785811416_packed.dds",
+      "bytes": 43832,
+      "sha256": "bf19e14c8e7f65777d52ede2800250cf45084d7e68b154c57e47e3f20f8ab294"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/a3599f835308_14178410758489216611_packed.dds",
+      "bytes": 349680,
+      "sha256": "111c04b32143d0d8d64a04c1359e39a88c403506cd5242280ce76baeb00dbc35"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/a7aa038b46f7_835411899618610844_packed.dds",
+      "bytes": 349680,
+      "sha256": "89f25e92f97d797313609409406d91d69738755a8dfac0f2ed5b93a8288dc220"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/aca4f35081a0_9004928141568086830_packed.dds",
+      "bytes": 349680,
+      "sha256": "65623da8fd58115cd80a399c8980d960fcfcff6db15b942fc7e543ae45b95f3f"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/adbd09853037_10522298849178031665_packed.dds",
+      "bytes": 174904,
+      "sha256": "65a6c591f91cc953e7c4eeede03ca4c37f991c2bf65071ef9ae5889e1e8960a4"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/b0ecf9d926c9_7679578444145441453_packed.dds",
+      "bytes": 349680,
+      "sha256": "eef3e95fe2b8a79308708703d942e3eb9c1ba787f64c32c086dd4b8ac6aa0ee2"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/b50ca681ac72_16768598355755336025_packed.dds",
+      "bytes": 349680,
+      "sha256": "299c7bc3fae0ad7406424d4cdc854a909169e9d0286a23f4d8f463852e266a1a"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/b78461476e50_17199498810477758055_packed.dds",
+      "bytes": 174904,
+      "sha256": "aa8206607f87e0317471d9d3fae1304d2a0fc6235dc906bca45f3fb870d90bdd"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/bad47b5edfd6_12380111570458985398_packed.dds",
+      "bytes": 43832,
+      "sha256": "aaf7ceb11e527276c281384d310c43d0658f463d6388ad6a4050ad943c4a40b0"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/bc6a19307bd0_13644703210369924864_packed.dds",
+      "bytes": 349680,
+      "sha256": "0b7410d99480d13382ff61d265d4c9d3ae62950fab78970093df5878aab88943"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/beb2bb054848_3965078891354372190_packed.dds",
+      "bytes": 349680,
+      "sha256": "662d14bf2337733a50eab3b261ee3878b3d5fb2315cd86c2353decbcb8f66003"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/c0bf4c589bc7_709260236509012637_packed.dds",
+      "bytes": 43832,
+      "sha256": "413e08061b52464faeb8955c625c017f03ca562ac0d50fe10136a3ec3b847560"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/c1eb0b07e1df_leaks_01_msk.dds",
+      "bytes": 699192,
+      "sha256": "19358e3276cb85e7170d5055722ccf19eec3cf6d02db20a37526977630f8affb"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/c6ae5f70c76b_14259662789339030955_packed.dds",
+      "bytes": 174904,
+      "sha256": "6be1dac639f6b816267fa2985ae32b138109129a900bc2473594de8f1bbde507"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/c6b039c9ce7e_3416997981681591005_packed.dds",
+      "bytes": 43832,
+      "sha256": "96ee0ef3d703dc746a74ebff291fe3f01743733ee9d4dd6e2814c51df4ad3d93"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/cf1f2abdaf8f_12951455813456007168_packed.dds",
+      "bytes": 174904,
+      "sha256": "4ff823a8495c433cf5dadcb097539eebe2d5520bb708d366d4ab120ff2ad48b1"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/d14bb157fa15_1763035514089694703_packed.dds",
+      "bytes": 349680,
+      "sha256": "e02c9bad97162fac944e3018a4a56fd9f3212abccdd563602a4ce7009173c344"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/d314636c3541_2430408601683036952_packed.dds",
+      "bytes": 349680,
+      "sha256": "8e6ff39821b415fdde670c0682ebaf0b1084510e1eaa707088180fea933bb336"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/d5ba288445e3_middle_gray_msk.dds",
+      "bytes": 152,
+      "sha256": "70c3a38f82ec5141b6ed18d999b91fb62837048cef37b96ebac696ddf5ef6cb3"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/d67869371175_6830851398023831500_packed.dds",
+      "bytes": 349680,
+      "sha256": "ebe4b1533c4ad0427f4668f48dcee0f01b3ce4497a380afbcabccca62c18452a"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/d72300bbeeac_4204760848223680990_packed.dds",
+      "bytes": 152,
+      "sha256": "2de449c853b4e538a88d2788f105a9b0d2c8c4e5db1a86eaee32355fdbf4d7cf"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/dfed50002bbc_noise_01_msk.dds",
+      "bytes": 699192,
+      "sha256": "7ac52fc1eb13a613edbc8a2bd3a8e8ba9c5340dcfccc1de362f43cf906a27561"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/e36bbc557c28_4597622857439163640_packed.dds",
+      "bytes": 174904,
+      "sha256": "078608b409a5c734f851a30b459db47653649c60b9ae47df5c826d85f5a734d2"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/e76747582b56_18345724522684246396_packed.dds",
+      "bytes": 349680,
+      "sha256": "803a62d2855840ab3e321511c5a8b3bd098ad62a08d2804baae857f43d0a02b5"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/ea274e824c0a_6746390618070738530_packed.dds",
+      "bytes": 349680,
+      "sha256": "290983a196f0785270070c6d0ee69ccfef5e255df356cb47ce5ecb4bd15d8d11"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/eeb0b01356e5_13781500154847557897_packed.dds",
+      "bytes": 87556,
+      "sha256": "8bc8cf139187ddbae0fd0747321663aa431647358b0485960b97b06ecc963819"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/ef0164b43256_17716732775687444425_packed.dds",
+      "bytes": 176,
+      "sha256": "d3765056a38c03a20de2c005165843957d1573155a2176ed7cba56e9dd068b77"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/f8955641b63c_16762095151613715224_packed.dds",
+      "bytes": 43832,
+      "sha256": "482c6e90453778ee46c7e3f2baea767ee60a32c917e3311612ebd61c80543b51"
+    },
+    {
+      "path": "research/buildings_batch/fez/stock/c6fd053d393b6861f2d8/textures/f9d5a0009c67_leaks_02_msk.dds",
+      "bytes": 699192,
+      "sha256": "b0dc8879e4c860029e5722ff72f2f52d04b925d317f1fd03d68543a9788929b1"
+    },
+    {
+      "path": "research/buildings_batch/fez/write_evidence.py",
+      "bytes": 5515,
+      "sha256": "baf7a19dd89684cef6ea2760858c97d892b0e81988195a76159808736261428d"
+    }
+  ]
+}

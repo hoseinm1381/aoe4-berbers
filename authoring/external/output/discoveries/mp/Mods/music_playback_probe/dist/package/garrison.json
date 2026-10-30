@@ -1,0 +1,27 @@
+{
+  "schema": "garrison.mod/v1",
+  "bundle_key": "music_playback_probe",
+  "members": [
+    {
+      "mod_key": "music_playback_probe",
+      "role": "tuning",
+      "path": "music_playback_probe.sga",
+      "sha256": "30f78e42e4f4437096b0f5ef85719ecf2f51a11672fe65b050a0f7c02c8f2b18"
+    }
+  ],
+  "details": {
+    "id": "music_playback_probe",
+    "name": "Music Playback Probe",
+    "version": "0.1.0-probe.2",
+    "summary": "Continuous music with track, loop and volume controls; quieter 3 percent default",
+    "author": "",
+    "updated": "2026-10-09",
+    "min_garrison": "0.1.0",
+    "content_types": [
+      "game-mode",
+      "tuning-pack"
+    ],
+    "description": "How to play\n1. Install and enable the mod in Garrison.\n2. Press Play.\n3. In a custom lobby, choose:\n   Tuning Pack: \"Music Playback Probe\".\n   Game Mode: \"Music Playback Probe\".\n",
+    "changelog": "Remove timed auditions; add independent custom music controls."
+  }
+}

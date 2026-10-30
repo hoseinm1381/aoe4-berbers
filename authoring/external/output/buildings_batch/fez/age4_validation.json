@@ -1,0 +1,4172 @@
+{
+  "age": 4,
+  "objects": [
+    {
+      "object": "scholar_court_foundation",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 3.0976000650405866,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.200000047683716,
+          -2.200000047683716,
+          0.0
+        ],
+        [
+          2.200000047683716,
+          2.200000047683716,
+          0.1599999964237213
+        ]
+      ]
+    },
+    {
+      "object": "west_outer_wall",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 1.8399999892711634,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.1399998664855957,
+          -2.0,
+          0.15999996662139893
+        ],
+        [
+          -1.9399999380111694,
+          2.0,
+          2.4600000381469727
+        ]
+      ]
+    },
+    {
+      "object": "west_hollow_arcade",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.19412037830721834,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.2599999904632568,
+          -1.7999999523162842,
+          0.15999996662139893
+        ],
+        [
+          -1.0999999046325684,
+          -0.64000004529953,
+          2.4600000381469727
+        ]
+      ]
+    },
+    {
+      "object": "west_hollow_arcade.001",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.19412037830721834,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.2599999904632568,
+          -0.5799999833106995,
+          0.15999996662139893
+        ],
+        [
+          -1.0999999046325684,
+          0.5799999833106995,
+          2.4600000381469727
+        ]
+      ]
+    },
+    {
+      "object": "west_hollow_arcade.002",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.19412037830721834,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.2599999904632568,
+          0.64000004529953,
+          0.15999996662139893
+        ],
+        [
+          -1.0999999046325684,
+          1.7999999523162842,
+          2.4600000381469727
+        ]
+      ]
+    },
+    {
+      "object": "west_gallery_roof",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.4159999909400937,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.1399998664855957,
+          -2.0,
+          2.4600000381469727
+        ],
+        [
+          -1.100000023841858,
+          2.0,
+          2.559999942779541
+        ]
+      ]
+    },
+    {
+      "object": "west_student_rear_wall",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.6400000190734864,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.1399998664855957,
+          -2.0,
+          2.559999942779541
+        ],
+        [
+          -1.9399999380111694,
+          2.0,
+          3.3600001335144043
+        ]
+      ]
+    },
+    {
+      "object": "west_cell_divider",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.06719999990463252,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.0399999618530273,
+          -2.049999952316284,
+          2.559999942779541
+        ],
+        [
+          -1.2000000476837158,
+          -1.9500000476837158,
+          3.3600001335144043
+        ]
+      ]
+    },
+    {
+      "object": "west_cell_divider.001",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.06719999990463252,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.0399999618530273,
+          -0.6899999976158142,
+          2.559999942779541
+        ],
+        [
+          -1.2000000476837158,
+          -0.5899999737739563,
+          3.3600001335144043
+        ]
+      ]
+    },
+    {
+      "object": "west_cell_divider.002",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.06719999990463252,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.0399999618530273,
+          0.5899999737739563,
+          2.559999942779541
+        ],
+        [
+          -1.2000000476837158,
+          0.6899999976158142,
+          3.3600001335144043
+        ]
+      ]
+    },
+    {
+      "object": "west_cell_divider.003",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.06719999990463252,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.0399999618530273,
+          1.9500000476837158,
+          2.559999942779541
+        ],
+        [
+          -1.2000000476837158,
+          2.049999952316284,
+          3.3600001335144043
+        ]
+      ]
+    },
+    {
+      "object": "west_cell_cedar_shutter",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.07113599490809451,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.2699999809265137,
+          -1.6399999856948853,
+          2.5999999046325684
+        ],
+        [
+          -1.1500000953674316,
+          -0.8600000143051147,
+          3.3600001335144043
+        ]
+      ]
+    },
+    {
+      "object": "west_student_sleeping_platform",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.0392000000834465,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.9200000762939453,
+          -1.600000023841858,
+          2.56000018119812
+        ],
+        [
+          -1.5199999809265137,
+          -0.8999999761581421,
+          2.700000047683716
+        ]
+      ]
+    },
+    {
+      "object": "west_neutral_cell_owner_band",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.0023711999661684023,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.149999976158142,
+          -1.6299999952316284,
+          3.180000066757202
+        ],
+        [
+          -1.1239999532699585,
+          -0.8700000047683716,
+          3.299999952316284
+        ]
+      ]
+    },
+    {
+      "object": "west_cell_cedar_shutter.001",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.07113599490809451,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.2699999809265137,
+          -0.38999998569488525,
+          2.5999999046325684
+        ],
+        [
+          -1.1500000953674316,
+          0.38999998569488525,
+          3.3600001335144043
+        ]
+      ]
+    },
+    {
+      "object": "west_student_sleeping_platform.001",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.0392000000834465,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.9200000762939453,
+          -0.3499999940395355,
+          2.56000018119812
+        ],
+        [
+          -1.5199999809265137,
+          0.3499999940395355,
+          2.700000047683716
+        ]
+      ]
+    },
+    {
+      "object": "west_neutral_cell_owner_band.001",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.0023711999661684023,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.149999976158142,
+          -0.3799999952316284,
+          3.180000066757202
+        ],
+        [
+          -1.1239999532699585,
+          0.3799999952316284,
+          3.299999952316284
+        ]
+      ]
+    },
+    {
+      "object": "west_cell_cedar_shutter.002",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.07113599490809451,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.2699999809265137,
+          0.8600000143051147,
+          2.5999999046325684
+        ],
+        [
+          -1.1500000953674316,
+          1.6399999856948853,
+          3.3600001335144043
+        ]
+      ]
+    },
+    {
+      "object": "west_student_sleeping_platform.002",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.0392000000834465,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.9200000762939453,
+          0.8999999761581421,
+          2.56000018119812
+        ],
+        [
+          -1.5199999809265137,
+          1.600000023841858,
+          2.700000047683716
+        ]
+      ]
+    },
+    {
+      "object": "west_neutral_cell_owner_band.002",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.0023711999661684023,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.149999976158142,
+          0.8700000047683716,
+          3.180000066757202
+        ],
+        [
+          -1.1239999532699585,
+          1.6299999952316284,
+          3.299999952316284
+        ]
+      ]
+    },
+    {
+      "object": "west_cell_roof",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.42639998079538344,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.1399998664855957,
+          -2.049999952316284,
+          3.3600001335144043
+        ],
+        [
+          -1.100000023841858,
+          2.049999952316284,
+          3.4600000381469727
+        ]
+      ]
+    },
+    {
+      "object": "west_lime_parapet",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.12791998947322394,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.2399998903274536,
+          -2.049999952316284,
+          3.4600000381469727
+        ],
+        [
+          -1.1200000047683716,
+          2.049999952316284,
+          3.7199997901916504
+        ]
+      ]
+    },
+    {
+      "object": "west_lime_parapet.001",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.12791998947322394,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.0999999046325684,
+          -2.049999952316284,
+          3.4600000381469727
+        ],
+        [
+          -1.9800000190734863,
+          2.049999952316284,
+          3.7199997901916504
+        ]
+      ]
+    },
+    {
+      "object": "west_cedar_carved_frieze",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.05180000165998937,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.1299999952316284,
+          -1.850000023841858,
+          2.2899999618530273
+        ],
+        [
+          -1.03000009059906,
+          1.850000023841858,
+          2.429999828338623
+        ]
+      ]
+    },
+    {
+      "object": "west_plaster_geometric_carving",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00035000001192092903,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.0975000858306885,
+          -1.8307106494903564,
+          1.8792893886566162
+        ],
+        [
+          -1.0625,
+          -1.6892893314361572,
+          2.0207107067108154
+        ]
+      ]
+    },
+    {
+      "object": "west_plaster_geometric_carving.001",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00035000001192092903,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.0975000858306885,
+          -1.8307106494903564,
+          2.0592894554138184
+        ],
+        [
+          -1.0625,
+          -1.6892893314361572,
+          2.2007107734680176
+        ]
+      ]
+    },
+    {
+      "object": "west_plaster_geometric_carving.002",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00035000001192092903,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.0975000858306885,
+          -0.6807106733322144,
+          1.8792893886566162
+        ],
+        [
+          -1.0625,
+          -0.5392893552780151,
+          2.0207107067108154
+        ]
+      ]
+    },
+    {
+      "object": "west_plaster_geometric_carving.003",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00035000001192092903,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.0975000858306885,
+          -0.6807106733322144,
+          2.0592894554138184
+        ],
+        [
+          -1.0625,
+          -0.5392893552780151,
+          2.2007107734680176
+        ]
+      ]
+    },
+    {
+      "object": "west_plaster_geometric_carving.004",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00035000001192092903,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.0975000858306885,
+          0.5392893552780151,
+          1.8792893886566162
+        ],
+        [
+          -1.0625,
+          0.6807106733322144,
+          2.0207107067108154
+        ]
+      ]
+    },
+    {
+      "object": "west_plaster_geometric_carving.005",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00035000001192092903,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.0975000858306885,
+          0.5392893552780151,
+          2.0592894554138184
+        ],
+        [
+          -1.0625,
+          0.6807106733322144,
+          2.2007107734680176
+        ]
+      ]
+    },
+    {
+      "object": "west_plaster_geometric_carving.006",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00035000001192092903,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.0975000858306885,
+          1.6892893314361572,
+          1.8792893886566162
+        ],
+        [
+          -1.0625,
+          1.8307106494903564,
+          2.0207107067108154
+        ]
+      ]
+    },
+    {
+      "object": "west_plaster_geometric_carving.007",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00035000001192092903,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.0975000858306885,
+          1.6892893314361572,
+          2.0592894554138184
+        ],
+        [
+          -1.0625,
+          1.8307106494903564,
+          2.2007107734680176
+        ]
+      ]
+    },
+    {
+      "object": "east_outer_wall",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 1.8399999892711634,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.9399999380111694,
+          -2.0,
+          0.15999996662139893
+        ],
+        [
+          2.1399998664855957,
+          2.0,
+          2.4600000381469727
+        ]
+      ]
+    },
+    {
+      "object": "east_hollow_arcade",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.19412037830721834,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.0999999046325684,
+          -1.7999999523162842,
+          0.15999996662139893
+        ],
+        [
+          1.2599999904632568,
+          -0.64000004529953,
+          2.4600000381469727
+        ]
+      ]
+    },
+    {
+      "object": "east_hollow_arcade.001",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.19412037830721834,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.0999999046325684,
+          -0.5799999833106995,
+          0.15999996662139893
+        ],
+        [
+          1.2599999904632568,
+          0.5799999833106995,
+          2.4600000381469727
+        ]
+      ]
+    },
+    {
+      "object": "east_hollow_arcade.002",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.19412037830721834,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.0999999046325684,
+          0.64000004529953,
+          0.15999996662139893
+        ],
+        [
+          1.2599999904632568,
+          1.7999999523162842,
+          2.4600000381469727
+        ]
+      ]
+    },
+    {
+      "object": "east_gallery_roof",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.4159999909400937,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.100000023841858,
+          -2.0,
+          2.4600000381469727
+        ],
+        [
+          2.1399998664855957,
+          2.0,
+          2.559999942779541
+        ]
+      ]
+    },
+    {
+      "object": "east_student_rear_wall",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.6400000190734864,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.9399999380111694,
+          -2.0,
+          2.559999942779541
+        ],
+        [
+          2.1399998664855957,
+          2.0,
+          3.3600001335144043
+        ]
+      ]
+    },
+    {
+      "object": "east_cell_divider",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.06719999990463252,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.2000000476837158,
+          -2.049999952316284,
+          2.559999942779541
+        ],
+        [
+          2.0399999618530273,
+          -1.9500000476837158,
+          3.3600001335144043
+        ]
+      ]
+    },
+    {
+      "object": "east_cell_divider.001",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.06719999990463252,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.2000000476837158,
+          -0.6899999976158142,
+          2.559999942779541
+        ],
+        [
+          2.0399999618530273,
+          -0.5899999737739563,
+          3.3600001335144043
+        ]
+      ]
+    },
+    {
+      "object": "east_cell_divider.002",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.06719999990463252,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.2000000476837158,
+          0.5899999737739563,
+          2.559999942779541
+        ],
+        [
+          2.0399999618530273,
+          0.6899999976158142,
+          3.3600001335144043
+        ]
+      ]
+    },
+    {
+      "object": "east_cell_divider.003",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.06719999990463252,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.2000000476837158,
+          1.9500000476837158,
+          2.559999942779541
+        ],
+        [
+          2.0399999618530273,
+          2.049999952316284,
+          3.3600001335144043
+        ]
+      ]
+    },
+    {
+      "object": "east_cell_cedar_shutter",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.07113599490809451,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.1500000953674316,
+          -1.6399999856948853,
+          2.5999999046325684
+        ],
+        [
+          1.2699999809265137,
+          -0.8600000143051147,
+          3.3600001335144043
+        ]
+      ]
+    },
+    {
+      "object": "east_student_sleeping_platform",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.0392000000834465,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.5199999809265137,
+          -1.600000023841858,
+          2.56000018119812
+        ],
+        [
+          1.9200000762939453,
+          -0.8999999761581421,
+          2.700000047683716
+        ]
+      ]
+    },
+    {
+      "object": "east_neutral_cell_owner_band",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.0023711999661684023,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.1239999532699585,
+          -1.6299999952316284,
+          3.180000066757202
+        ],
+        [
+          1.149999976158142,
+          -0.8700000047683716,
+          3.299999952316284
+        ]
+      ]
+    },
+    {
+      "object": "east_cell_cedar_shutter.001",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.07113599490809451,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.1500000953674316,
+          -0.38999998569488525,
+          2.5999999046325684
+        ],
+        [
+          1.2699999809265137,
+          0.38999998569488525,
+          3.3600001335144043
+        ]
+      ]
+    },
+    {
+      "object": "east_student_sleeping_platform.001",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.0392000000834465,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.5199999809265137,
+          -0.3499999940395355,
+          2.56000018119812
+        ],
+        [
+          1.9200000762939453,
+          0.3499999940395355,
+          2.700000047683716
+        ]
+      ]
+    },
+    {
+      "object": "east_neutral_cell_owner_band.001",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.0023711999661684023,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.1239999532699585,
+          -0.3799999952316284,
+          3.180000066757202
+        ],
+        [
+          1.149999976158142,
+          0.3799999952316284,
+          3.299999952316284
+        ]
+      ]
+    },
+    {
+      "object": "east_cell_cedar_shutter.002",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.07113599490809451,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.1500000953674316,
+          0.8600000143051147,
+          2.5999999046325684
+        ],
+        [
+          1.2699999809265137,
+          1.6399999856948853,
+          3.3600001335144043
+        ]
+      ]
+    },
+    {
+      "object": "east_student_sleeping_platform.002",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.0392000000834465,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.5199999809265137,
+          0.8999999761581421,
+          2.56000018119812
+        ],
+        [
+          1.9200000762939453,
+          1.600000023841858,
+          2.700000047683716
+        ]
+      ]
+    },
+    {
+      "object": "east_neutral_cell_owner_band.002",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.0023711999661684023,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.1239999532699585,
+          0.8700000047683716,
+          3.180000066757202
+        ],
+        [
+          1.149999976158142,
+          1.6299999952316284,
+          3.299999952316284
+        ]
+      ]
+    },
+    {
+      "object": "east_cell_roof",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.42639998079538344,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.100000023841858,
+          -2.049999952316284,
+          3.3600001335144043
+        ],
+        [
+          2.1399998664855957,
+          2.049999952316284,
+          3.4600000381469727
+        ]
+      ]
+    },
+    {
+      "object": "east_lime_parapet",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.12791998947322394,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.1200000047683716,
+          -2.049999952316284,
+          3.4600000381469727
+        ],
+        [
+          1.2399998903274536,
+          2.049999952316284,
+          3.7199997901916504
+        ]
+      ]
+    },
+    {
+      "object": "east_lime_parapet.001",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.12791998947322394,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.9800000190734863,
+          -2.049999952316284,
+          3.4600000381469727
+        ],
+        [
+          2.0999999046325684,
+          2.049999952316284,
+          3.7199997901916504
+        ]
+      ]
+    },
+    {
+      "object": "east_cedar_carved_frieze",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.05180000165998937,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.03000009059906,
+          -1.850000023841858,
+          2.2899999618530273
+        ],
+        [
+          1.1299999952316284,
+          1.850000023841858,
+          2.429999828338623
+        ]
+      ]
+    },
+    {
+      "object": "east_plaster_geometric_carving",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00035000001192092903,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.0625,
+          -1.8307106494903564,
+          1.8792893886566162
+        ],
+        [
+          1.0975000858306885,
+          -1.6892893314361572,
+          2.0207107067108154
+        ]
+      ]
+    },
+    {
+      "object": "east_plaster_geometric_carving.001",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00035000001192092903,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.0625,
+          -1.8307106494903564,
+          2.0592894554138184
+        ],
+        [
+          1.0975000858306885,
+          -1.6892893314361572,
+          2.2007107734680176
+        ]
+      ]
+    },
+    {
+      "object": "east_plaster_geometric_carving.002",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00035000001192092903,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.0625,
+          -0.6807106733322144,
+          1.8792893886566162
+        ],
+        [
+          1.0975000858306885,
+          -0.5392893552780151,
+          2.0207107067108154
+        ]
+      ]
+    },
+    {
+      "object": "east_plaster_geometric_carving.003",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00035000001192092903,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.0625,
+          -0.6807106733322144,
+          2.0592894554138184
+        ],
+        [
+          1.0975000858306885,
+          -0.5392893552780151,
+          2.2007107734680176
+        ]
+      ]
+    },
+    {
+      "object": "east_plaster_geometric_carving.004",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00035000001192092903,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.0625,
+          0.5392893552780151,
+          1.8792893886566162
+        ],
+        [
+          1.0975000858306885,
+          0.6807106733322144,
+          2.0207107067108154
+        ]
+      ]
+    },
+    {
+      "object": "east_plaster_geometric_carving.005",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00035000001192092903,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.0625,
+          0.5392893552780151,
+          2.0592894554138184
+        ],
+        [
+          1.0975000858306885,
+          0.6807106733322144,
+          2.2007107734680176
+        ]
+      ]
+    },
+    {
+      "object": "east_plaster_geometric_carving.006",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00035000001192092903,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.0625,
+          1.6892893314361572,
+          1.8792893886566162
+        ],
+        [
+          1.0975000858306885,
+          1.8307106494903564,
+          2.0207107067108154
+        ]
+      ]
+    },
+    {
+      "object": "east_plaster_geometric_carving.007",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00035000001192092903,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          1.0625,
+          1.6892893314361572,
+          2.0592894554138184
+        ],
+        [
+          1.0975000858306885,
+          1.8307106494903564,
+          2.2007107734680176
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_geometric_dado",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.03376880046179293,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.1630001068115234,
+          -1.909999966621399,
+          0.49000000953674316
+        ],
+        [
+          -2.13700008392334,
+          1.909999966621399,
+          0.8300000429153442
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_ceramic_diamond",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.177000045776367,
+          -1.7671751976013184,
+          0.5428248643875122
+        ],
+        [
+          -2.1589999198913574,
+          -1.6328248977661133,
+          0.6771751642227173
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.001",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.177000045776367,
+          -1.7671751976013184,
+          0.6728248596191406
+        ],
+        [
+          -2.1589999198913574,
+          -1.6328248977661133,
+          0.8071751594543457
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.002",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.177000045776367,
+          -1.4271751642227173,
+          0.5428248643875122
+        ],
+        [
+          -2.1589999198913574,
+          -1.2928248643875122,
+          0.6771751642227173
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.003",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.177000045776367,
+          -1.4271751642227173,
+          0.6728248596191406
+        ],
+        [
+          -2.1589999198913574,
+          -1.2928248643875122,
+          0.8071751594543457
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.004",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.177000045776367,
+          -1.0871751308441162,
+          0.5428248643875122
+        ],
+        [
+          -2.1589999198913574,
+          -0.9528248310089111,
+          0.6771751642227173
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.005",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.177000045776367,
+          -1.0871751308441162,
+          0.6728248596191406
+        ],
+        [
+          -2.1589999198913574,
+          -0.9528248310089111,
+          0.8071751594543457
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.006",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.177000045776367,
+          -0.7471751570701599,
+          0.5428248643875122
+        ],
+        [
+          -2.1589999198913574,
+          -0.6128248572349548,
+          0.6771751642227173
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.007",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.177000045776367,
+          -0.7471751570701599,
+          0.6728248596191406
+        ],
+        [
+          -2.1589999198913574,
+          -0.6128248572349548,
+          0.8071751594543457
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.008",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.177000045776367,
+          -0.4071751534938812,
+          0.5428248643875122
+        ],
+        [
+          -2.1589999198913574,
+          -0.27282485365867615,
+          0.6771751642227173
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.009",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.177000045776367,
+          -0.4071751534938812,
+          0.6728248596191406
+        ],
+        [
+          -2.1589999198913574,
+          -0.27282485365867615,
+          0.8071751594543457
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.010",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.177000045776367,
+          -0.06717514246702194,
+          0.5428248643875122
+        ],
+        [
+          -2.1589999198913574,
+          0.06717514246702194,
+          0.6771751642227173
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.011",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.177000045776367,
+          -0.06717514246702194,
+          0.6728248596191406
+        ],
+        [
+          -2.1589999198913574,
+          0.06717514246702194,
+          0.8071751594543457
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.012",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.177000045776367,
+          0.27282485365867615,
+          0.5428248643875122
+        ],
+        [
+          -2.1589999198913574,
+          0.4071751534938812,
+          0.6771751642227173
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.013",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.177000045776367,
+          0.27282485365867615,
+          0.6728248596191406
+        ],
+        [
+          -2.1589999198913574,
+          0.4071751534938812,
+          0.8071751594543457
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.014",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.177000045776367,
+          0.6128248572349548,
+          0.5428248643875122
+        ],
+        [
+          -2.1589999198913574,
+          0.7471751570701599,
+          0.6771751642227173
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.015",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.177000045776367,
+          0.6128248572349548,
+          0.6728248596191406
+        ],
+        [
+          -2.1589999198913574,
+          0.7471751570701599,
+          0.8071751594543457
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.016",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.177000045776367,
+          0.9528248310089111,
+          0.5428248643875122
+        ],
+        [
+          -2.1589999198913574,
+          1.0871751308441162,
+          0.6771751642227173
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.017",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.177000045776367,
+          0.9528248310089111,
+          0.6728248596191406
+        ],
+        [
+          -2.1589999198913574,
+          1.0871751308441162,
+          0.8071751594543457
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.018",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.177000045776367,
+          1.2928248643875122,
+          0.5428248643875122
+        ],
+        [
+          -2.1589999198913574,
+          1.4271751642227173,
+          0.6771751642227173
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.019",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.177000045776367,
+          1.2928248643875122,
+          0.6728248596191406
+        ],
+        [
+          -2.1589999198913574,
+          1.4271751642227173,
+          0.8071751594543457
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.020",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.177000045776367,
+          1.6328248977661133,
+          0.5428248643875122
+        ],
+        [
+          -2.1589999198913574,
+          1.7671751976013184,
+          0.6771751642227173
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_ceramic_diamond.021",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.177000045776367,
+          1.6328248977661133,
+          0.6728248596191406
+        ],
+        [
+          -2.1589999198913574,
+          1.7671751976013184,
+          0.8071751594543457
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_carved_plaster_course",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.020627999998122433,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.1650002002716064,
+          -1.909999966621399,
+          1.7999999523162842
+        ],
+        [
+          -2.134999990463257,
+          1.909999966621399,
+          1.9800000190734863
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_plaster_relief",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00014062501327134706,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.184499979019165,
+          -1.7530330419540405,
+          1.8369669914245605
+        ],
+        [
+          -2.1594998836517334,
+          -1.6469670534133911,
+          1.94303297996521
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_plaster_relief.001",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00014062501327134706,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.184499979019165,
+          -1.4130330085754395,
+          1.8369669914245605
+        ],
+        [
+          -2.1594998836517334,
+          -1.30696702003479,
+          1.94303297996521
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_plaster_relief.002",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00014062501327134706,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.184499979019165,
+          -1.0730329751968384,
+          1.8369669914245605
+        ],
+        [
+          -2.1594998836517334,
+          -0.966966986656189,
+          1.94303297996521
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_plaster_relief.003",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00014062501327134706,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.184499979019165,
+          -0.7330330014228821,
+          1.8369669914245605
+        ],
+        [
+          -2.1594998836517334,
+          -0.6269670128822327,
+          1.94303297996521
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_plaster_relief.004",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00014062501327134706,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.184499979019165,
+          -0.3930330276489258,
+          1.8369669914245605
+        ],
+        [
+          -2.1594998836517334,
+          -0.2869669795036316,
+          1.94303297996521
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_plaster_relief.005",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00014062501327134706,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.184499979019165,
+          -0.0530330091714859,
+          1.8369669914245605
+        ],
+        [
+          -2.1594998836517334,
+          0.0530330091714859,
+          1.94303297996521
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_plaster_relief.006",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00014062501327134706,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.184499979019165,
+          0.2869669795036316,
+          1.8369669914245605
+        ],
+        [
+          -2.1594998836517334,
+          0.3930330276489258,
+          1.94303297996521
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_plaster_relief.007",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00014062501327134706,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.184499979019165,
+          0.6269670128822327,
+          1.8369669914245605
+        ],
+        [
+          -2.1594998836517334,
+          0.7330330014228821,
+          1.94303297996521
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_plaster_relief.008",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00014062501327134706,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.184499979019165,
+          0.966966986656189,
+          1.8369669914245605
+        ],
+        [
+          -2.1594998836517334,
+          1.0730329751968384,
+          1.94303297996521
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_plaster_relief.009",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00014062501327134706,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.184499979019165,
+          1.30696702003479,
+          1.8369669914245605
+        ],
+        [
+          -2.1594998836517334,
+          1.4130330085754395,
+          1.94303297996521
+        ]
+      ]
+    },
+    {
+      "object": "west_exterior_plaster_relief.010",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00014062501327134706,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -2.184499979019165,
+          1.6469670534133911,
+          1.8369669914245605
+        ],
+        [
+          -2.1594998836517334,
+          1.7530330419540405,
+          1.94303297996521
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_geometric_dado",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.03376880046179293,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.13700008392334,
+          -1.909999966621399,
+          0.49000000953674316
+        ],
+        [
+          2.1630001068115234,
+          1.909999966621399,
+          0.8300000429153442
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_ceramic_diamond",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1589999198913574,
+          -1.7671751976013184,
+          0.5428248643875122
+        ],
+        [
+          2.177000045776367,
+          -1.6328248977661133,
+          0.6771751642227173
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.001",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1589999198913574,
+          -1.7671751976013184,
+          0.6728248596191406
+        ],
+        [
+          2.177000045776367,
+          -1.6328248977661133,
+          0.8071751594543457
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.002",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1589999198913574,
+          -1.4271751642227173,
+          0.5428248643875122
+        ],
+        [
+          2.177000045776367,
+          -1.2928248643875122,
+          0.6771751642227173
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.003",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1589999198913574,
+          -1.4271751642227173,
+          0.6728248596191406
+        ],
+        [
+          2.177000045776367,
+          -1.2928248643875122,
+          0.8071751594543457
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.004",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1589999198913574,
+          -1.0871751308441162,
+          0.5428248643875122
+        ],
+        [
+          2.177000045776367,
+          -0.9528248310089111,
+          0.6771751642227173
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.005",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1589999198913574,
+          -1.0871751308441162,
+          0.6728248596191406
+        ],
+        [
+          2.177000045776367,
+          -0.9528248310089111,
+          0.8071751594543457
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.006",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1589999198913574,
+          -0.7471751570701599,
+          0.5428248643875122
+        ],
+        [
+          2.177000045776367,
+          -0.6128248572349548,
+          0.6771751642227173
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.007",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1589999198913574,
+          -0.7471751570701599,
+          0.6728248596191406
+        ],
+        [
+          2.177000045776367,
+          -0.6128248572349548,
+          0.8071751594543457
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.008",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1589999198913574,
+          -0.4071751534938812,
+          0.5428248643875122
+        ],
+        [
+          2.177000045776367,
+          -0.27282485365867615,
+          0.6771751642227173
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.009",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1589999198913574,
+          -0.4071751534938812,
+          0.6728248596191406
+        ],
+        [
+          2.177000045776367,
+          -0.27282485365867615,
+          0.8071751594543457
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.010",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1589999198913574,
+          -0.06717514246702194,
+          0.5428248643875122
+        ],
+        [
+          2.177000045776367,
+          0.06717514246702194,
+          0.6771751642227173
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.011",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1589999198913574,
+          -0.06717514246702194,
+          0.6728248596191406
+        ],
+        [
+          2.177000045776367,
+          0.06717514246702194,
+          0.8071751594543457
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.012",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1589999198913574,
+          0.27282485365867615,
+          0.5428248643875122
+        ],
+        [
+          2.177000045776367,
+          0.4071751534938812,
+          0.6771751642227173
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.013",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1589999198913574,
+          0.27282485365867615,
+          0.6728248596191406
+        ],
+        [
+          2.177000045776367,
+          0.4071751534938812,
+          0.8071751594543457
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.014",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1589999198913574,
+          0.6128248572349548,
+          0.5428248643875122
+        ],
+        [
+          2.177000045776367,
+          0.7471751570701599,
+          0.6771751642227173
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.015",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1589999198913574,
+          0.6128248572349548,
+          0.6728248596191406
+        ],
+        [
+          2.177000045776367,
+          0.7471751570701599,
+          0.8071751594543457
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.016",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1589999198913574,
+          0.9528248310089111,
+          0.5428248643875122
+        ],
+        [
+          2.177000045776367,
+          1.0871751308441162,
+          0.6771751642227173
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.017",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1589999198913574,
+          0.9528248310089111,
+          0.6728248596191406
+        ],
+        [
+          2.177000045776367,
+          1.0871751308441162,
+          0.8071751594543457
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.018",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1589999198913574,
+          1.2928248643875122,
+          0.5428248643875122
+        ],
+        [
+          2.177000045776367,
+          1.4271751642227173,
+          0.6771751642227173
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.019",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1589999198913574,
+          1.2928248643875122,
+          0.6728248596191406
+        ],
+        [
+          2.177000045776367,
+          1.4271751642227173,
+          0.8071751594543457
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.020",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1589999198913574,
+          1.6328248977661133,
+          0.5428248643875122
+        ],
+        [
+          2.177000045776367,
+          1.7671751976013184,
+          0.6771751642227173
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_ceramic_diamond.021",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00016244998892992756,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1589999198913574,
+          1.6328248977661133,
+          0.6728248596191406
+        ],
+        [
+          2.177000045776367,
+          1.7671751976013184,
+          0.8071751594543457
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_carved_plaster_course",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.020627999998122433,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.134999990463257,
+          -1.909999966621399,
+          1.7999999523162842
+        ],
+        [
+          2.1650002002716064,
+          1.909999966621399,
+          1.9800000190734863
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_plaster_relief",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00014062501327134706,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1594998836517334,
+          -1.7530330419540405,
+          1.8369669914245605
+        ],
+        [
+          2.184499979019165,
+          -1.6469670534133911,
+          1.94303297996521
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_plaster_relief.001",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00014062501327134706,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1594998836517334,
+          -1.4130330085754395,
+          1.8369669914245605
+        ],
+        [
+          2.184499979019165,
+          -1.30696702003479,
+          1.94303297996521
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_plaster_relief.002",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00014062501327134706,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1594998836517334,
+          -1.0730329751968384,
+          1.8369669914245605
+        ],
+        [
+          2.184499979019165,
+          -0.966966986656189,
+          1.94303297996521
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_plaster_relief.003",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00014062501327134706,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1594998836517334,
+          -0.7330330014228821,
+          1.8369669914245605
+        ],
+        [
+          2.184499979019165,
+          -0.6269670128822327,
+          1.94303297996521
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_plaster_relief.004",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00014062501327134706,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1594998836517334,
+          -0.3930330276489258,
+          1.8369669914245605
+        ],
+        [
+          2.184499979019165,
+          -0.2869669795036316,
+          1.94303297996521
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_plaster_relief.005",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00014062501327134706,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1594998836517334,
+          -0.0530330091714859,
+          1.8369669914245605
+        ],
+        [
+          2.184499979019165,
+          0.0530330091714859,
+          1.94303297996521
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_plaster_relief.006",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00014062501327134706,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1594998836517334,
+          0.2869669795036316,
+          1.8369669914245605
+        ],
+        [
+          2.184499979019165,
+          0.3930330276489258,
+          1.94303297996521
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_plaster_relief.007",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00014062501327134706,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1594998836517334,
+          0.6269670128822327,
+          1.8369669914245605
+        ],
+        [
+          2.184499979019165,
+          0.7330330014228821,
+          1.94303297996521
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_plaster_relief.008",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00014062501327134706,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1594998836517334,
+          0.966966986656189,
+          1.8369669914245605
+        ],
+        [
+          2.184499979019165,
+          1.0730329751968384,
+          1.94303297996521
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_plaster_relief.009",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00014062501327134706,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1594998836517334,
+          1.30696702003479,
+          1.8369669914245605
+        ],
+        [
+          2.184499979019165,
+          1.4130330085754395,
+          1.94303297996521
+        ]
+      ]
+    },
+    {
+      "object": "east_exterior_plaster_relief.010",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00014062501327134706,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          2.1594998836517334,
+          1.6469670534133911,
+          1.8369669914245605
+        ],
+        [
+          2.184499979019165,
+          1.7530330419540405,
+          1.94303297996521
+        ]
+      ]
+    },
+    {
+      "object": "teaching_hall_rear",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 1.139040021057128,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.1299999952316284,
+          1.9399999380111694,
+          0.15999996662139893
+        ],
+        [
+          1.1299999952316284,
+          2.119999885559082,
+          2.9600000381469727
+        ]
+      ]
+    },
+    {
+      "object": "teaching_open_reading_bay",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.36397007412265336,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -0.9800000190734863,
+          1.1699999570846558,
+          0.15999996662139893
+        ],
+        [
+          0.9800000190734863,
+          1.350000023841858,
+          2.9600000381469727
+        ]
+      ]
+    },
+    {
+      "object": "teaching_hall_roof",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.2214800066763163,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.1299999952316284,
+          1.149999976158142,
+          2.9600000381469727
+        ],
+        [
+          1.1299999952316284,
+          2.130000114440918,
+          3.059999942779541
+        ]
+      ]
+    },
+    {
+      "object": "teaching_hall_parapet",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.07051199554002292,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.1299999952316284,
+          2.0199999809265137,
+          3.059999942779541
+        ],
+        [
+          1.1299999952316284,
+          2.1399998664855957,
+          3.320000171661377
+        ]
+      ]
+    },
+    {
+      "object": "carved_main_portal",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.31326802755663896,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -0.8299999833106995,
+          -2.129999876022339,
+          0.15999996662139893
+        ],
+        [
+          0.8299999833106995,
+          -1.9299999475479126,
+          2.8600001335144043
+        ]
+      ]
+    },
+    {
+      "object": "portal_cedar_carved_lintel",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.08400000146031371,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -0.875,
+          -2.180000066757202,
+          2.8600001335144043
+        ],
+        [
+          0.875,
+          -1.8799999952316284,
+          3.0199999809265137
+        ]
+      ]
+    },
+    {
+      "object": "front_guest_cell_wall",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.4323999963819979,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.8100000619888306,
+          -2.129999876022339,
+          0.15999996662139893
+        ],
+        [
+          -0.8700000047683716,
+          -1.9299999475479126,
+          2.4600000381469727
+        ]
+      ]
+    },
+    {
+      "object": "guest_cell_roof",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.0752000020503998,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.8100000619888306,
+          -2.130000114440918,
+          2.4600000381469727
+        ],
+        [
+          -0.8700000047683716,
+          -1.3300000429153442,
+          2.559999942779541
+        ]
+      ]
+    },
+    {
+      "object": "front_neutral_owner_band",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.0029600000160932526,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -1.7100000381469727,
+          -2.1575000286102295,
+          2.0900001525878906
+        ],
+        [
+          -0.9700000286102295,
+          -2.132499933242798,
+          2.25
+        ]
+      ]
+    },
+    {
+      "object": "front_guest_cell_wall.001",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.4323999963819979,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          0.8700000047683716,
+          -2.129999876022339,
+          0.15999996662139893
+        ],
+        [
+          1.8100000619888306,
+          -1.9299999475479126,
+          2.4600000381469727
+        ]
+      ]
+    },
+    {
+      "object": "guest_cell_roof.001",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.0752000020503998,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          0.8700000047683716,
+          -2.130000114440918,
+          2.4600000381469727
+        ],
+        [
+          1.8100000619888306,
+          -1.3300000429153442,
+          2.559999942779541
+        ]
+      ]
+    },
+    {
+      "object": "front_neutral_owner_band.001",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.0029600000160932526,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          0.9700000286102295,
+          -2.1575000286102295,
+          2.0900001525878906
+        ],
+        [
+          1.7100000381469727,
+          -2.132499933242798,
+          2.25
+        ]
+      ]
+    },
+    {
+      "object": "portal_carved_cedar_diamond",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00018062500649131843,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -0.6601040959358215,
+          -2.2044999599456787,
+          2.8798959255218506
+        ],
+        [
+          -0.5398959517478943,
+          -2.179499864578247,
+          3.0001041889190674
+        ]
+      ]
+    },
+    {
+      "object": "portal_carved_cedar_diamond.001",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00018062500649131843,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -0.4601040780544281,
+          -2.2044999599456787,
+          2.8798959255218506
+        ],
+        [
+          -0.33989593386650085,
+          -2.179499864578247,
+          3.0001041889190674
+        ]
+      ]
+    },
+    {
+      "object": "portal_carved_cedar_diamond.002",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00018062500649131843,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -0.26010408997535706,
+          -2.2044999599456787,
+          2.8798959255218506
+        ],
+        [
+          -0.13989593088626862,
+          -2.179499864578247,
+          3.0001041889190674
+        ]
+      ]
+    },
+    {
+      "object": "portal_carved_cedar_diamond.003",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00018062500649131843,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -0.06010407581925392,
+          -2.2044999599456787,
+          2.8798959255218506
+        ],
+        [
+          0.06010407581925392,
+          -2.179499864578247,
+          3.0001041889190674
+        ]
+      ]
+    },
+    {
+      "object": "portal_carved_cedar_diamond.004",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00018062500649131843,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          0.13989593088626862,
+          -2.2044999599456787,
+          2.8798959255218506
+        ],
+        [
+          0.26010408997535706,
+          -2.179499864578247,
+          3.0001041889190674
+        ]
+      ]
+    },
+    {
+      "object": "portal_carved_cedar_diamond.005",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00018062500649131843,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          0.33989593386650085,
+          -2.2044999599456787,
+          2.8798959255218506
+        ],
+        [
+          0.4601040780544281,
+          -2.179499864578247,
+          3.0001041889190674
+        ]
+      ]
+    },
+    {
+      "object": "portal_carved_cedar_diamond.006",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00018062500649131843,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          0.5398959517478943,
+          -2.2044999599456787,
+          2.8798959255218506
+        ],
+        [
+          0.6601040959358215,
+          -2.179499864578247,
+          3.0001041889190674
+        ]
+      ]
+    },
+    {
+      "object": "fountain_plinth",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.09719999267756955,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -0.44999998807907104,
+          -0.44999998807907104,
+          0.1599999964237213
+        ],
+        [
+          0.44999998807907104,
+          0.44999998807907104,
+          0.2800000011920929
+        ]
+      ]
+    },
+    {
+      "object": "fountain_basin_bottom",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.03110400177669525,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -0.36000001430511475,
+          -0.36000001430511475,
+          0.2800000011920929
+        ],
+        [
+          0.36000001430511475,
+          0.36000001430511475,
+          0.3400000035762787
+        ]
+      ]
+    },
+    {
+      "object": "fountain_basin_rim",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.018303998820304892,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -0.4399999976158142,
+          -0.4399999976158142,
+          0.2800000011920929
+        ],
+        [
+          -0.36000001430511475,
+          0.4399999976158142,
+          0.5399999618530273
+        ]
+      ]
+    },
+    {
+      "object": "fountain_basin_rim.001",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.018303998820304892,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          0.36000001430511475,
+          -0.4399999976158142,
+          0.2800000011920929
+        ],
+        [
+          0.4399999976158142,
+          0.4399999976158142,
+          0.5399999618530273
+        ]
+      ]
+    },
+    {
+      "object": "fountain_basin_rim.002",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.014975999711036657,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -0.36000001430511475,
+          -0.4399999976158142,
+          0.2800000011920929
+        ],
+        [
+          0.36000001430511475,
+          -0.36000001430511475,
+          0.5399999618530273
+        ]
+      ]
+    },
+    {
+      "object": "fountain_basin_rim.003",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.014975999711036657,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -0.36000001430511475,
+          0.36000001430511475,
+          0.2800000011920929
+        ],
+        [
+          0.36000001430511475,
+          0.4399999976158142,
+          0.5399999618530273
+        ]
+      ]
+    },
+    {
+      "object": "fountain_water",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.004899999723583465,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -0.3499999940395355,
+          -0.3499999940395355,
+          0.3400000035762787
+        ],
+        [
+          0.3499999940395355,
+          0.3499999940395355,
+          0.3499999940395355
+        ]
+      ]
+    },
+    {
+      "object": "fountain_faceted_spout",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.0026670757389084497,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -0.052308108657598495,
+          -0.054999999701976776,
+          0.3499999940395355
+        ],
+        [
+          0.052308108657598495,
+          0.054999999701976776,
+          0.6499999761581421
+        ]
+      ]
+    },
+    {
+      "object": "courtyard_geometric_inlay",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00022500001285225146,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -0.8860659599304199,
+          -1.6060659885406494,
+          0.1600000113248825
+        ],
+        [
+          -0.6739339828491211,
+          -1.3939340114593506,
+          0.17000000178813934
+        ]
+      ]
+    },
+    {
+      "object": "courtyard_geometric_inlay.001",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00022500001285225146,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -0.8860659599304199,
+          -1.1060659885406494,
+          0.1600000113248825
+        ],
+        [
+          -0.6739339828491211,
+          -0.8939340114593506,
+          0.17000000178813934
+        ]
+      ]
+    },
+    {
+      "object": "courtyard_geometric_inlay.002",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00022500001285225146,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -0.8860659599304199,
+          -0.6060659885406494,
+          0.1600000113248825
+        ],
+        [
+          -0.6739339828491211,
+          -0.3939339816570282,
+          0.17000000178813934
+        ]
+      ]
+    },
+    {
+      "object": "courtyard_geometric_inlay.003",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00022500001285225146,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -0.8860659599304199,
+          -0.1060660183429718,
+          0.1600000113248825
+        ],
+        [
+          -0.6739339828491211,
+          0.1060660183429718,
+          0.17000000178813934
+        ]
+      ]
+    },
+    {
+      "object": "courtyard_geometric_inlay.004",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00022500001285225146,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -0.8860659599304199,
+          0.3939339816570282,
+          0.1600000113248825
+        ],
+        [
+          -0.6739339828491211,
+          0.6060659885406494,
+          0.17000000178813934
+        ]
+      ]
+    },
+    {
+      "object": "courtyard_geometric_inlay.005",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00022500001285225146,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -0.8860659599304199,
+          0.8939340114593506,
+          0.1600000113248825
+        ],
+        [
+          -0.6739339828491211,
+          1.1060659885406494,
+          0.17000000178813934
+        ]
+      ]
+    },
+    {
+      "object": "courtyard_geometric_inlay.006",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00022500001285225146,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          0.6739339828491211,
+          -1.6060659885406494,
+          0.1600000113248825
+        ],
+        [
+          0.8860659599304199,
+          -1.3939340114593506,
+          0.17000000178813934
+        ]
+      ]
+    },
+    {
+      "object": "courtyard_geometric_inlay.007",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00022500001285225146,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          0.6739339828491211,
+          -1.1060659885406494,
+          0.1600000113248825
+        ],
+        [
+          0.8860659599304199,
+          -0.8939340114593506,
+          0.17000000178813934
+        ]
+      ]
+    },
+    {
+      "object": "courtyard_geometric_inlay.008",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00022500001285225146,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          0.6739339828491211,
+          -0.6060659885406494,
+          0.1600000113248825
+        ],
+        [
+          0.8860659599304199,
+          -0.3939339816570282,
+          0.17000000178813934
+        ]
+      ]
+    },
+    {
+      "object": "courtyard_geometric_inlay.009",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00022500001285225146,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          0.6739339828491211,
+          -0.1060660183429718,
+          0.1600000113248825
+        ],
+        [
+          0.8860659599304199,
+          0.1060660183429718,
+          0.17000000178813934
+        ]
+      ]
+    },
+    {
+      "object": "courtyard_geometric_inlay.010",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00022500001285225146,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          0.6739339828491211,
+          0.3939339816570282,
+          0.1600000113248825
+        ],
+        [
+          0.8860659599304199,
+          0.6060659885406494,
+          0.17000000178813934
+        ]
+      ]
+    },
+    {
+      "object": "courtyard_geometric_inlay.011",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.00022500001285225146,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          0.6739339828491211,
+          0.8939340114593506,
+          0.1600000113248825
+        ],
+        [
+          0.8860659599304199,
+          1.1060659885406494,
+          0.17000000178813934
+        ]
+      ]
+    },
+    {
+      "object": "teaching_desk_pedestal",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.07776000733852409,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -0.20000000298023224,
+          1.5,
+          0.1599999964237213
+        ],
+        [
+          0.20000000298023224,
+          1.8599998950958252,
+          0.7000000476837158
+        ]
+      ]
+    },
+    {
+      "object": "teaching_desk_top",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.02959999971985816,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -0.3700000047683716,
+          1.4299999475479126,
+          0.699999988079071
+        ],
+        [
+          0.3700000047683716,
+          1.9299999475479126,
+          0.7800000309944153
+        ]
+      ]
+    },
+    {
+      "object": "scholarly_open_book",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.0047119998717904095,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          -0.1899999976158142,
+          1.524999976158142,
+          0.7800000309944153
+        ],
+        [
+          0.1899999976158142,
+          1.834999918937683,
+          0.8199999928474426
+        ]
+      ]
+    },
+    {
+      "object": "banner_wall_bracket",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.0043519998512268065,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          0.8999999761581421,
+          -2.0799999237060547,
+          2.2699999809265137
+        ],
+        [
+          0.9800000190734863,
+          -2.0,
+          2.9499998092651367
+        ]
+      ]
+    },
+    {
+      "object": "banner_crossbar",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.002303999845504764,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          0.49000000953674316,
+          -2.0799999237060547,
+          2.9000000953674316
+        ],
+        [
+          0.9700000286102295,
+          -2.0,
+          2.9600000381469727
+        ]
+      ]
+    },
+    {
+      "object": "neutral_owner_banner",
+      "non_manifold": 0,
+      "degenerate_faces": 0,
+      "uv_zero_area_faces": 0,
+      "outward_signed_volume": 0.009044000020146369,
+      "finite": true,
+      "positive_scale": true,
+      "bounds": [
+        [
+          0.5400000214576721,
+          -2.0824999809265137,
+          2.2200000286102295
+        ],
+        [
+          0.9200000166893005,
+          -2.0475001335144043,
+          2.8999998569488525
+        ]
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "child": "west_outer_wall",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": -2.9802322387695312e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "west_hollow_arcade",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": -2.9802322387695312e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "west_hollow_arcade.001",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": -2.9802322387695312e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "west_hollow_arcade.002",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": -2.9802322387695312e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "west_gallery_roof",
+      "parent": "west_outer_wall",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "west_student_rear_wall",
+      "parent": "west_gallery_roof",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "west_cell_divider",
+      "parent": "west_gallery_roof",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "west_cell_divider.001",
+      "parent": "west_gallery_roof",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "west_cell_divider.002",
+      "parent": "west_gallery_roof",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "west_cell_divider.003",
+      "parent": "west_gallery_roof",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "west_cell_roof",
+      "parent": "west_student_rear_wall",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "west_lime_parapet",
+      "parent": "west_cell_roof",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "west_lime_parapet.001",
+      "parent": "west_cell_roof",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "east_outer_wall",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": -2.9802322387695312e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "east_hollow_arcade",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": -2.9802322387695312e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "east_hollow_arcade.001",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": -2.9802322387695312e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "east_hollow_arcade.002",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": -2.9802322387695312e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "east_gallery_roof",
+      "parent": "east_outer_wall",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "east_student_rear_wall",
+      "parent": "east_gallery_roof",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "east_cell_divider",
+      "parent": "east_gallery_roof",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "east_cell_divider.001",
+      "parent": "east_gallery_roof",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "east_cell_divider.002",
+      "parent": "east_gallery_roof",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "east_cell_divider.003",
+      "parent": "east_gallery_roof",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "east_cell_roof",
+      "parent": "east_student_rear_wall",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "east_lime_parapet",
+      "parent": "east_cell_roof",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "east_lime_parapet.001",
+      "parent": "east_cell_roof",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "teaching_hall_rear",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": -2.9802322387695312e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "teaching_open_reading_bay",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": -2.9802322387695312e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "teaching_hall_roof",
+      "parent": "teaching_hall_rear",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "teaching_hall_parapet",
+      "parent": "teaching_hall_roof",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "carved_main_portal",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": -2.9802322387695312e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "portal_cedar_carved_lintel",
+      "parent": "carved_main_portal",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "front_guest_cell_wall",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": -2.9802322387695312e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "front_guest_cell_wall.001",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": -2.9802322387695312e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "fountain_plinth",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "fountain_basin_bottom",
+      "parent": "fountain_plinth",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "fountain_water",
+      "parent": "fountain_basin_bottom",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "courtyard_geometric_inlay",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": 1.4901161193847656e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "courtyard_geometric_inlay.001",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": 1.4901161193847656e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "courtyard_geometric_inlay.002",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": 1.4901161193847656e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "courtyard_geometric_inlay.003",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": 1.4901161193847656e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "courtyard_geometric_inlay.004",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": 1.4901161193847656e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "courtyard_geometric_inlay.005",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": 1.4901161193847656e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "courtyard_geometric_inlay.006",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": 1.4901161193847656e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "courtyard_geometric_inlay.007",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": 1.4901161193847656e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "courtyard_geometric_inlay.008",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": 1.4901161193847656e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "courtyard_geometric_inlay.009",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": 1.4901161193847656e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "courtyard_geometric_inlay.010",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": 1.4901161193847656e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "courtyard_geometric_inlay.011",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": 1.4901161193847656e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "teaching_desk_pedestal",
+      "parent": "scholar_court_foundation",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "teaching_desk_top",
+      "parent": "teaching_desk_pedestal",
+      "axis": 2,
+      "signed_gap": -5.960464477539063e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "scholarly_open_book",
+      "parent": "teaching_desk_top",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    }
+  ],
+  "footprint_m": [
+    6,
+    6
+  ],
+  "animator_scale_percent": 130,
+  "scaled_source_envelope_m": [
+    5.72,
+    5.72
+  ],
+  "clear_gateway_source_m": 1.204,
+  "native_anchor_binding": "pending"
+}

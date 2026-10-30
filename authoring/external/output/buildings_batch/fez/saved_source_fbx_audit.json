@@ -1,0 +1,23 @@
+[
+  {
+    "age": 4,
+    "saved_meshes": 178,
+    "fbx_meshes": 178,
+    "packed_images": true,
+    "stage_manifest_matches": true,
+    "owner_zone_objects": [
+      "west_neutral_cell_owner_band",
+      "west_neutral_cell_owner_band.001",
+      "west_neutral_cell_owner_band.002",
+      "east_neutral_cell_owner_band",
+      "east_neutral_cell_owner_band.001",
+      "east_neutral_cell_owner_band.002",
+      "front_neutral_owner_band",
+      "front_neutral_owner_band.001",
+      "neutral_owner_banner"
+    ],
+    "extra_measured_contacts": [],
+    "fbx_uv_present": true,
+    "ground_origin_z": 0
+  }
+]

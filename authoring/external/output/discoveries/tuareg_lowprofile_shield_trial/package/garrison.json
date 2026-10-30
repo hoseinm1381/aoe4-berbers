@@ -1,0 +1,27 @@
+{
+  "schema": "garrison.mod/v1",
+  "bundle_key": "berber_future_kingdom",
+  "members": [
+    {
+      "mod_key": "berber_future_kingdom",
+      "role": "tuning",
+      "path": "Berber_future_kingdom.sga",
+      "sha256": "1e18879866ce5e4a5097a858d0d6cb7a7eb59ffdca6201945e303454c5feb907"
+    }
+  ],
+  "details": {
+    "id": "berber_future_kingdom",
+    "name": "The Berber Dynasties",
+    "version": "0.1.7-tuareg-lowprofile-shield.1",
+    "summary": "New low-profile shield with more coverage below the grip",
+    "author": "hossein81 and marcokistan",
+    "updated": "2026-10-12",
+    "min_garrison": "0.1.3",
+    "content_types": [
+      "game-mode",
+      "tuning-pack"
+    ],
+    "description": "Shield-only fitting trial. Preserve refined bodies, long spear, Q controller and gameplay.",
+    "changelog": "New shield shape/path and four private attachment references; native fitting trial."
+  }
+}

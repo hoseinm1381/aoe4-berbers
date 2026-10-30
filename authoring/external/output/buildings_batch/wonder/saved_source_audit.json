@@ -1,0 +1,34 @@
+{
+  "age": 4,
+  "mesh_objects": 111,
+  "packed_images": {
+    "Wonder_albedo": true,
+    "Wonder_metal": true,
+    "Wonder_normal": true,
+    "Wonder_pattern": true,
+    "Wonder_roughness": true
+  },
+  "owner_materials": {
+    "BerberWonder_cedar": 0,
+    "BerberWonder_clay": 0,
+    "BerberWonder_earth": 0,
+    "BerberWonder_lime": 0,
+    "BerberWonder_owner_cloth": 1,
+    "BerberWonder_shadow": 0,
+    "BerberWonder_stone": 0
+  },
+  "all_mesh_uv": true,
+  "all_stage_properties": true,
+  "owner_pattern_uv_samples": 144,
+  "neutral_pattern_uv_samples": 7914,
+  "incorrect_pattern_samples": 0,
+  "additional_signed_contact_gaps": {
+    "axial_nave_clerestory to main_hypostyle_roof": 0.0,
+    "axial_nave_clerestory.001 to main_hypostyle_roof": 0.0,
+    "raised_axial_nave_roof to axial_nave_clerestory": 0.0,
+    "banner_anchored_rod to owner_tower_banner": 0.0,
+    "banner_anchored_rod.001 to owner_tower_banner.001": 0.0
+  },
+  "fbx_bytes": 420220,
+  "native_owner_colour": "pending blocked integration"
+}

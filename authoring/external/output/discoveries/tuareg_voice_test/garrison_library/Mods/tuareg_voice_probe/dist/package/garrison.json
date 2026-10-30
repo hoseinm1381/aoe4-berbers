@@ -1,0 +1,27 @@
+{
+  "schema": "garrison.mod/v1",
+  "bundle_key": "tuareg_voice_probe",
+  "members": [
+    {
+      "mod_key": "tuareg_voice_probe",
+      "role": "tuning",
+      "path": "tuareg_voice_probe.sga",
+      "sha256": "691f31154a98959540b2f058c916e6ae201f63feaf3a9840ba6abffba158ff28"
+    }
+  ],
+  "details": {
+    "id": "tuareg_voice_probe",
+    "name": "Tuareg Voice Probe",
+    "version": "0.1.0-probe.1",
+    "summary": "Selection and attack native speech routing test",
+    "author": "",
+    "updated": "2026-10-09",
+    "min_garrison": "0.1.0",
+    "content_types": [
+      "game-mode",
+      "tuning-pack"
+    ],
+    "description": "How to play\n1. Install and enable the mod in Garrison.\n2. Press Play.\n3. In a custom lobby, choose:\n   Tuning Pack: \"Tuareg Voice Probe\".\n   Game Mode: \"Tuareg Voice Probe\".\n",
+    "changelog": ""
+  }
+}

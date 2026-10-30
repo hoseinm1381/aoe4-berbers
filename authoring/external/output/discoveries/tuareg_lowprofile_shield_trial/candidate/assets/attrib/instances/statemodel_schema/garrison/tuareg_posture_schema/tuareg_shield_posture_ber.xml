@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<instance version="4" template="statemodel_schema" description="Private Tuareg native posture flag and unchanged Donso schema">
+	<uniqueid name="pbgid" value="35458058" />
+	<group name="schema_bag">
+		<list name="sub_schemas">
+			<instance_reference name="schema" value="statemodel_schema\units\civilizations\malian\donso_mal" List.ItemID="1263362337" List.ParentItemID="1263362337" overrideParent="True" />
+		</list>
+	</group>
+	<instance_reference name="parent_pbg" value="statemodel_schema\units\civilizations\byzantine\spearman_byz" />
+</instance>

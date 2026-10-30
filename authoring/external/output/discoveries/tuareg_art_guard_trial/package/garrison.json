@@ -1,0 +1,27 @@
+{
+  "schema": "garrison.mod/v1",
+  "bundle_key": "berber_future_kingdom",
+  "members": [
+    {
+      "mod_key": "berber_future_kingdom",
+      "role": "tuning",
+      "path": "Berber_future_kingdom.sga",
+      "sha256": "c77b7b0e04243f1905c741e0f08e0f911c9063b06dd9fab2885a1ac00aaee906"
+    }
+  ],
+  "details": {
+    "id": "berber_future_kingdom",
+    "name": "The Berber Dynasties",
+    "version": "0.1.4-tuareg-original-art.1",
+    "summary": "Original Tuareg age skins, hide shield and spear; guard stability trial",
+    "author": "hossein81 and marcokistan",
+    "updated": "2026-10-11",
+    "min_garrison": "0.1.3",
+    "content_types": [
+      "game-mode",
+      "tuning-pack"
+    ],
+    "description": "Original Tuareg art Ages I-IV with existing Q gameplay. Removed ineffective forced clip queue; owned posture selector persists during the effect. Instant moving animation switching remains unresolved. Solo native visual testing required.",
+    "changelog": "Six new model resources and five private spear attachment lists; new guard stability diagnostics."
+  }
+}

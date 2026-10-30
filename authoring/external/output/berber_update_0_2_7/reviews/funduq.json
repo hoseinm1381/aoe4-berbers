@@ -1,0 +1,278 @@
+{
+  "status": "approved",
+  "scope": "Source plus fresh native cooked media/readback; native game acceptance pending",
+  "source_approval": "funduq-source.json",
+  "checks": {
+    "actual_payload_hashes": true,
+    "source_blend_unchanged": true,
+    "fresh_cook_0": true,
+    "unchanged_export_0": true,
+    "fresh_cook_1": true,
+    "unchanged_export_1": true,
+    "fresh_cook_2": true,
+    "unchanged_export_2": true,
+    "geometry_byte_identical_to_fresh_compiler_LOD0": true,
+    "collection_byte_identical_to_fresh_compiler_LOD0": true,
+    "construction_damage_and_ruins_selectors": true,
+    "lifecycle_nonaction_chunks_exact_native": true,
+    "four_forge_FX_removed": true,
+    "native_markers_byte_identical": true,
+    "native_flag_geometry_shader_graph_exact": true,
+    "flag_build_equals_1_and_alive_health_threshold": true,
+    "source_stamp_private_model_refs": true,
+    "native_flag_translation_matches_authored": true,
+    "native_flag_scale_point7": true,
+    "native_flag_rotation_matches_authored": true,
+    "all_actual_material_dependencies_resolved": true,
+    "fresh_native_stamp_cook_succeeded": true,
+    "compiled_stamp_hash_and_payload_match": true,
+    "compiled_stamp_exact_private_refs": true,
+    "compiled_flag_transform_matches_author_source": true,
+    "compiled_flag_nonselectable_and_no_pathfinding": true
+  },
+  "geometry_counts": [
+    {
+      "lod": 0,
+      "triangles": 35012,
+      "vertices": 70821,
+      "sha256": "d7cdda12b712295798d99ec8be4bac66b3f994d8f5c0a193d76cdaac0b4d910d"
+    },
+    {
+      "lod": 1,
+      "triangles": 16696,
+      "vertices": 34670,
+      "sha256": "29dc55084f98325bcb9b77f70b89cc2c692f57a36791d19731c6d79841c6e6f9"
+    },
+    {
+      "lod": 2,
+      "triangles": 8920,
+      "vertices": 18640,
+      "sha256": "7698b70fbbda7179fe4437f7e89514f03b7609c1e55883946c07f8ac376e8fe9"
+    }
+  ],
+  "native_runtime_LODs": 1,
+  "lower_LOD_limitation": "Three authored and freshly cooked LODs retained; actual production uses exact native LOD0 only. Camera-driven lower LOD activation unsupported.",
+  "archives": [
+    {
+      "lod": 0,
+      "sha256": "1a899b0ad89e916638a0ef149785c79519d933bfeeada0bb2cef6fca09fb021a",
+      "cooked_at": "2026-10-14T13:50:39Z"
+    },
+    {
+      "lod": 1,
+      "sha256": "1a899b0ad89e916638a0ef149785c79519d933bfeeada0bb2cef6fca09fb021a",
+      "cooked_at": "2026-10-14T13:50:39Z"
+    },
+    {
+      "lod": 2,
+      "sha256": "1a899b0ad89e916638a0ef149785c79519d933bfeeada0bb2cef6fca09fb021a",
+      "cooked_at": "2026-10-14T13:50:39Z"
+    }
+  ],
+  "payload_hashes": [
+    {
+      "member": "art/scenario/garrison/bf027_funduq/buildings/funduq_lod0/model.rgm",
+      "sha256": "4b646e56247ea65b47f24b8bbf73ad90ffbd822704de8b812bacc75ac03edb80"
+    },
+    {
+      "member": "art/scenario/garrison/bf027_funduq/buildings/funduq_lod0/model.rgo",
+      "sha256": "fba151e0f4749a1be33854c450ffc5a7bc3c88c3197f8ad6e55a6ebb5a49a065"
+    },
+    {
+      "member": "art/scenario/garrison/bf027_funduq/buildings/funduq_lod0/model.rrgeom",
+      "sha256": "d7cdda12b712295798d99ec8be4bac66b3f994d8f5c0a193d76cdaac0b4d910d"
+    },
+    {
+      "member": "art/scenario/garrison/bf027_funduq/buildings/funduq_lod0/12309089536170464411_packed.rrtex",
+      "sha256": "22d9682a3120cd8bc003b905307bb7c958f79f28d20edfd2d5d93bdd39c55161"
+    },
+    {
+      "member": "art/scenario/garrison/bf027_funduq/buildings/funduq_lod0/14477914237703871257_packed.rrtex",
+      "sha256": "d42785733ff28a4a20475a15b3bd563ff381522ead8926e22b6b8c1fc1cc466c"
+    },
+    {
+      "member": "art/scenario/garrison/bf027_funduq/buildings/funduq_lod0/albedo.rrtex",
+      "sha256": "ea73f8a736387c6e695ca37c4c8f556632d6c29c79963b86d6ab14eddca884ba"
+    },
+    {
+      "member": "art/scenario/garrison/bf027_funduq/buildings/funduq_lod0/model.rrmaterial",
+      "sha256": "5c10e95be2c057a50068454ab06776eabdc2c925f29505a7d2de1c195cbd4592"
+    },
+    {
+      "member": "art/scenario/garrison/bf027_funduq/owner_flag/model.rgm",
+      "sha256": "9f74f9e1cc1b5e228d9d69d13fa3ae6558b0b3f47d1be4ee82f405480fc8ad54"
+    },
+    {
+      "member": "art/scenario/garrison/bf027_funduq/owner_flag/model.rgo",
+      "sha256": "8957f9f7aefe7e21b99f7950f15ff536fb0d93d3b523699c15ad4e2c408b4ae7"
+    },
+    {
+      "member": "art/scenario/garrison/bf027_funduq/owner_flag/model.rrgeom",
+      "sha256": "404b62d128b8ea29e7ae0c203e7a1d876561bd05d2c41f643636aec0f5a5825b"
+    },
+    {
+      "member": "art/scenario/garrison/bf027_funduq/owner_flag/model.rrmaterial",
+      "sha256": "463b707ce361e4cce057436ab74d1759ed824395fe4af3435bc4a0f9232f2230"
+    },
+    {
+      "member": "art/stamps/garrison/bf027_funduq/funduq.bin",
+      "sha256": "00738a9fdcfd4725d1bb3ef20a02cd6dff5d92a668a375e1ebfe9a770b65363c"
+    }
+  ],
+  "flag_predicates": [
+    [
+      "build",
+      1.0,
+      0
+    ],
+    [
+      "health",
+      9.999999747378752e-05,
+      5
+    ]
+  ],
+  "flag_native_transform": {
+    "m_translation": {
+      "x": 2.7,
+      "y": 4.7127,
+      "z": 4.4
+    },
+    "m_scale": {
+      "x": 0.7,
+      "y": 0.7,
+      "z": 0.7
+    },
+    "m_rotation": {
+      "s": 0.7071067811865476,
+      "x": 0.0,
+      "y": -0.7071067811865476,
+      "z": 0.0
+    }
+  },
+  "dependencies": [
+    {
+      "resource": "art/scenario/garrison/bf027_funduq/buildings/funduq_lod0/12309089536170464411_packed.rrtex",
+      "resolution": "private payload"
+    },
+    {
+      "resource": "art/scenario/garrison/bf027_funduq/buildings/funduq_lod0/14477914237703871257_packed.rrtex",
+      "resolution": "private payload"
+    },
+    {
+      "resource": "art/scenario/garrison/bf027_funduq/buildings/funduq_lod0/albedo.rrtex",
+      "resolution": "private payload"
+    },
+    {
+      "resource": "art/civilizations/common/flags/flag_rectangle/15209536274410856311_packed.rrtex",
+      "resolution": "official game archive"
+    },
+    {
+      "resource": "art/civilizations/common/flags/flag_rectangle/17579391832366201546_packed.rrtex",
+      "resolution": "official game archive"
+    },
+    {
+      "resource": "art/civilizations/common/flags/flag_rectangle/2172314966070591847_packed.rrtex",
+      "resolution": "official game archive"
+    },
+    {
+      "resource": "art/civilizations/common/flags/flag_rectangle/4358679107330301867_packed.rrtex",
+      "resolution": "official game archive"
+    },
+    {
+      "resource": "art/civilizations/common/flags/flag_rectangle/9863581687025467950_packed.rrtex",
+      "resolution": "official game archive"
+    },
+    {
+      "resource": "art/default/default_texture/11870108732234244334_packed.rrtex",
+      "resolution": "official game archive"
+    },
+    {
+      "resource": "art/material_library/painter_materials/textures/black_msk.rrtex",
+      "resolution": "official game archive"
+    },
+    {
+      "resource": "art/material_library/painter_materials/textures/middle_gray_msk.rrtex",
+      "resolution": "official game archive"
+    },
+    {
+      "resource": "art/material_library/painter_materials/textures/patches_01_msk.rrtex",
+      "resolution": "official game archive"
+    },
+    {
+      "resource": "art/material_library/painter_materials/textures/sails_charred_gradient_alb.rrtex",
+      "resolution": "official game archive"
+    },
+    {
+      "resource": "art/material_library/substances/naval/damage/13024304107896006868_packed.rrtex",
+      "resolution": "official game archive"
+    },
+    {
+      "resource": "art/material_library/substances/naval/damage/9559702145952711598_packed.rrtex",
+      "resolution": "official game archive"
+    },
+    {
+      "resource": "art/material_library/substances/naval/damage/nav_damage_sails_charred_01_alb.rrtex",
+      "resolution": "official game archive"
+    },
+    {
+      "resource": "art/material_library/substances/structures/debug/17716732775687444425_packed.rrtex",
+      "resolution": "official game archive"
+    },
+    {
+      "resource": "art/material_library/substances/structures/debug/6708399669590286008_packed.rrtex",
+      "resolution": "official game archive"
+    },
+    {
+      "resource": "art/material_library/substances/structures/debug/940685202008631679_packed.rrtex",
+      "resolution": "official game archive"
+    },
+    {
+      "resource": "art/material_library/substances/structures/wood/14259662789339030955_packed.rrtex",
+      "resolution": "official game archive"
+    },
+    {
+      "resource": "art/material_library/substances/structures/wood/18345724522684246396_packed.rrtex",
+      "resolution": "official game archive"
+    },
+    {
+      "resource": "art/material_library/substances/structures/wood/2430408601683036952_packed.rrtex",
+      "resolution": "official game archive"
+    }
+  ],
+  "source_stamp_sha256": "ba6dd386aa6a7e4e492834ec32444ae78cbb98ee5c4ee06e2b4f8bd21eb63e32",
+  "manifest_status": "passed",
+  "native_game": "pending: visual appearance, owner/team colours, construction/damage/destruction and gameplay require fresh solo match",
+  "findings": [],
+  "manifest_sha256": "b4a9aee2e5c7c7c5dd63e1faae99908820bc03f90a9948cf5a3d96cf7a0ff9ad",
+  "stamp_compiled_sha256": "00738a9fdcfd4725d1bb3ef20a02cd6dff5d92a668a375e1ebfe9a770b65363c",
+  "compiled_stamp_model_references": [
+    "art/scenario/garrison/bf027_funduq/buildings/funduq_lod0/model",
+    "art/scenario/garrison/bf027_funduq/owner_flag/model"
+  ],
+  "compiled_flag_transform": {
+    "m_translation": [
+      2.700000047683716,
+      4.712699890136719,
+      4.400000095367432
+    ],
+    "m_scale": [
+      0.699999988079071,
+      0.699999988079071,
+      0.699999988079071
+    ],
+    "m_rotation": [
+      0.0,
+      -0.7071067690849304,
+      0.0,
+      0.7071067690849304
+    ]
+  },
+  "fresh_stamp_run": {
+    "status": "succeeded",
+    "exit_code": 0,
+    "started_at_utc": "2026-10-14T15:09:20.866623Z",
+    "duration_seconds": 12.579
+  },
+  "stamp_archive_sha256": "05acec0e119d749c25a65a023dd9dcb7c6832fc40fd7cc3a2729c8c5001df8aa",
+  "reviewer": "independent funduq_review_027 agent"
+}

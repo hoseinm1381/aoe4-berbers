@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<instance version="4" description="Tuareg Age 3: Abbasid body, inherited Donso shield" template="attachments\attachment_lists">
+	<group name="attachment_lists">
+		<list name="attachment_lists">
+			<template_reference name="attachment_lists" value="attachments\attachment_list" List.ItemID="774657495" List.ParentItemID="774657495">
+				<list name="attachment_list">
+					<template_reference name="attachments" value="options\attachment_types\animator_merge_mesh_attachment" List.ItemID="1553053924" List.ParentItemID="1553053924">
+						<list name="meshes">
+							<file name="animator0" value="art\scenario\garrison\tuareg_art_v2\units\tuareg_age3\body\model" overrideParent="True" List.ItemID="2093258306" List.ParentItemID="2093258306" />
+						</list>
+					</template_reference>
+					<template_reference name="attachments" value="options\attachment_types\animator_sim_attachment" List.ItemID="879894728" List.ParentItemID="879894728">
+						<file name="animator" value="art\scenario\tuareg\tuareg_agher_shield\tuareg_agher_shield" overrideParent="True" />
+					</template_reference>
+				</list>
+			</template_reference>
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="34998923" />
+	<instance_reference name="parent_pbg" value="attachments\attachment_lists\civilizations\malian\units\tier3_spearman_mal" />
+</instance>

@@ -1,0 +1,27 @@
+{
+  "schema": "garrison.mod/v1",
+  "bundle_key": "berber_future_kingdom",
+  "members": [
+    {
+      "mod_key": "berber_future_kingdom",
+      "role": "tuning",
+      "path": "Berber_future_kingdom.sga",
+      "sha256": "a23d308c4dda1af40fc6138e40b97904afd73c0a0a0816d0f3e4b1130d8718ec"
+    }
+  ],
+  "details": {
+    "id": "berber_future_kingdom",
+    "name": "The Berber Dynasties",
+    "version": "0.4.0",
+    "summary": "Berber coherent architecture repairs and four distinct new buildings",
+    "author": "hossein81 and marcokistan",
+    "updated": "2026-10-15",
+    "min_garrison": "0.1.4",
+    "content_types": [
+      "game-mode",
+      "tuning-pack"
+    ],
+    "description": "Keep, Marrakech and Siege composition repairs; Tlemcen construction/completion consistency; University, Koutoubia, Fez and Grand Keep visual update. Gameplay preserved.",
+    "changelog": "New art and scoped native visual bindings. Native match acceptance remains pending."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "garrison.mod/v1",
+  "bundle_key": "berber_future_kingdom",
+  "members": [
+    {
+      "mod_key": "berber_future_kingdom",
+      "role": "tuning",
+      "path": "Berber_future_kingdom.sga",
+      "sha256": "bbc965d9797c37e79aa95626bca1a83eb17874945671d9bd0b8ca463076c3b91"
+    }
+  ],
+  "details": {
+    "id": "berber_future_kingdom",
+    "name": "The Berber Dynasties",
+    "version": "0.2.7",
+    "summary": "New historical Berber Feudal landmarks: Ribat of the Sanhaja and Funduq of Sijilmasa.",
+    "author": "hossein81 and marcokistan",
+    "updated": "2026-10-14",
+    "min_garrison": "0.1.4",
+    "content_types": [
+      "game-mode",
+      "tuning-pack"
+    ],
+    "description": "Original fortified ribat and caravanserai models, native owner-colour flags, explicit construction stages and native-compatible full-detail geometry. Three editable source LODs are included separately; native lower-LOD switching is unsupported. Existing gameplay and accepted assets preserved.",
+    "changelog": "Replace two Feudal landmark visuals with original historical reconstructions."
+  }
+}

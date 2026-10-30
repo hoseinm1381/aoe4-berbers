@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <RGDNode Key="default" Type="List">
+    <RGDNode Key="attachment_lists" Type="List">
+      <RGDNode Key="parent_animator" Type="CString" Value="art\scenario\tuareg\tuareg_long_spear_refined\tuareg_long_spear_refined"/>
+      <RGDNode Key="attachment_lists" Type="List">
+      </RGDNode>
+      <RGDNode Key="thumbnail" Type="CString" Value=""/>
+    </RGDNode>
+    <RGDNode Key="pbgid" Type="Int" Value="35402096"/>
+    <RGDNode Key="parent_pbg" Type="List">
+      <RGDNode Key="$PBGNAME" Type="CString" Value="wpn_melee_spearwall_1_mal"/>
+      <RGDNode Key="$PBGMAP" Type="CString" Value="attachments\attachment_lists"/>
+    </RGDNode>
+  </RGDNode>
+  <RGDNode Key="instance_version" Type="Int" Value="2"/>
+  <RGDNode Key="xp3" Type="List">
+    <RGDNode Key="attachment_lists" Type="List">
+      <RGDNode Key="parent_animator" Type="CString" Value="art\scenario\tuareg\tuareg_long_spear_refined\tuareg_long_spear_refined"/>
+      <RGDNode Key="attachment_lists" Type="List">
+      </RGDNode>
+      <RGDNode Key="thumbnail" Type="CString" Value=""/>
+    </RGDNode>
+    <RGDNode Key="pbgid" Type="Int" Value="35402096"/>
+    <RGDNode Key="parent_pbg" Type="List">
+      <RGDNode Key="$PBGNAME" Type="CString" Value="wpn_melee_spearwall_1_mal"/>
+      <RGDNode Key="$PBGMAP" Type="CString" Value="attachments\attachment_lists"/>
+    </RGDNode>
+  </RGDNode>
+</Root>

@@ -1,0 +1,64 @@
+{
+  "asset": "Ribat of the Sanhaja",
+  "scope": "Independent fresh cooked media and private stamp review; native runtime acceptance separate",
+  "status": "approved",
+  "source_approval": "approved",
+  "source_sha256": "fead0b076b023117844819a8ac28eb6a9de300631c52b650c93a4a67aa1641ff",
+  "findings": [],
+  "preliminary_checks": {
+    "compiled_triangles": [
+      42256,
+      24464,
+      8312
+    ],
+    "runtime_geometry_exact_fresh_lod0": true,
+    "native_MSCL_collection_data_exact_fresh_lod0": true,
+    "all62markers_exact_native_payload": true,
+    "lifecycle_RGO_exact_native": true,
+    "construction5percent_healthy_damage1to5_ruins_memberships_verified": true,
+    "native_owner_flag_shader_geometry_RGO_preserved": true,
+    "owner_flag_predicates": "build==1 and health>=0.0001",
+    "private_BANA_paths_verified": true,
+    "all22material_texture_dependencies_resolve": true,
+    "source_exports_match_fresh_cook_record_hashes": true,
+    "source_cook_archive_sha256": "05ff220cb602bf07d9f2c6d3c25a59b68be8953a8351a6ab28ea00a919ab6744",
+    "live_reload": false
+  },
+  "remaining_gate": "Native in-game acceptance remains pending; source/cooked-media/private binding review complete.",
+  "geometry_mode": "native-compatible-single",
+  "known_limits": [
+    "Runtime installs exact fresh full-detail LOD0 geometry/MSCL; native lower-LOD switching unsupported. Repaired authored and separately cooked3LODs retained.",
+    "Intact custom principal persists under damage; original native lifecycle effects and auxiliary wreck/scaffold visuals retained.",
+    "Native in-game player-colour, motion, construction, pathfinding and visual acceptance pending."
+  ],
+  "evidence": [
+    "ribat-source.json",
+    "ribat-native-independent-evidence.json",
+    "ribat-native-cook-lineage.json",
+    "ribat-native-final-binding-evidence.json"
+  ],
+  "review_operations": "Read-only inspection of source, freshly cooked readbacks and payload bytes. No source changes, cooks, deletion or user Blender operations.",
+  "final_checks": {
+    "fresh_private_stamp_cook_status": "succeeded",
+    "fresh_private_stamp_exit_code": 0,
+    "media_manifest_status": "passed",
+    "actual_stamp_archive_sha256": "06c69e6ebea9af20e207b457aaf2df67a26b487184e9608203c228bef856d315",
+    "compiled_stamp_sha256": "45f081baf2bf327355290c712e6675c782863672b6a0ccf7d7e06bb7bcc638bb",
+    "independently_extracted_archive_member_matches_payload": true,
+    "principal_identity_transform_verified": true,
+    "compiled_flag_native_translation": [
+      0,
+      7.137700080871582,
+      4.420000076293945
+    ],
+    "compiled_flag_scale": [
+      0.699999988079071,
+      0.699999988079071,
+      0.699999988079071
+    ],
+    "flag_selection_and_pathfinding_disabled": true,
+    "candidate_actor_only_attachment_reference_changed": true,
+    "private_tier_only_principal_stamp_and_identity_changed": true,
+    "all_other_actor_tier_fields_preserved": true
+  }
+}

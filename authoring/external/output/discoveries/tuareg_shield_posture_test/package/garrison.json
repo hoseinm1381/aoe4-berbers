@@ -1,0 +1,27 @@
+{
+  "schema": "garrison.mod/v1",
+  "bundle_key": "berber_future_kingdom",
+  "members": [
+    {
+      "mod_key": "berber_future_kingdom",
+      "role": "tuning",
+      "path": "Berber_future_kingdom.sga",
+      "sha256": "528d7179971d82005a358c69ff5a0d35447a51e640631f1a56722c7f59f36d7c"
+    }
+  ],
+  "details": {
+    "id": "berber_future_kingdom",
+    "name": "The Berber Dynasties",
+    "version": "0.1.3-tuareg-q-posture.1",
+    "summary": "Tuareg Q shield posture trial with native movement and attacks",
+    "author": "hossein81 and marcokistan",
+    "updated": "2026-10-11",
+    "min_garrison": "0.1.3",
+    "content_types": [
+      "game-mode",
+      "tuning-pack"
+    ],
+    "description": "Private Tuareg schema adds the native shield posture selector while retaining the Donso schema. Existing Q controls its lifetime without issuing orders. No Byzantine Mode_Chooser, modifier or cheer command is added. Native appearance, speed, attacks and damage acceptance pending.",
+    "changelog": "Replace movement-locking native cheer commands with the source-proven shield posture selector."
+  }
+}

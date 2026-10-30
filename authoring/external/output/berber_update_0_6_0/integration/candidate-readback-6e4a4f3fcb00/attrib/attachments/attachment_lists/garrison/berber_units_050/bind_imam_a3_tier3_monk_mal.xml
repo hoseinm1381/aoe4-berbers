@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <RGDNode Key="default" Type="List">
+    <RGDNode Key="attachment_lists" Type="List">
+      <RGDNode Key="parent_animator" Type="CString" Value=""/>
+      <RGDNode Key="attachment_lists" Type="List">
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="monk"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="default"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_merge_mesh_attachment" Type="List">
+              <RGDNode Key="meshes" Type="List">
+                <RGDNode Key="animator0" Type="CString" Value="art/scenario/garrison/berber_units_050/imam_age03/imam_age03"/>
+              </RGDNode>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_merge_mesh_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+            </RGDNode>
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\melee\staff_wood\staff_wood"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_civilian\base_civilian"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value=""/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="thumbnail" Type="CString" Value=""/>
+    </RGDNode>
+    <RGDNode Key="pbgid" Type="Int" Value="35706521"/>
+    <RGDNode Key="parent_pbg" Type="List">
+      <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+      <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+    </RGDNode>
+  </RGDNode>
+  <RGDNode Key="instance_version" Type="Int" Value="2"/>
+</Root>

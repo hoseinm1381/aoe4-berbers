@@ -1,0 +1,2312 @@
+{
+  "age": 4,
+  "objects": [
+    {
+      "object": "foundation",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 20.184002129554827,
+      "minimum_uv_triangle_area": 0.04410000898093003,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "paved_sanctuary",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 6.384500310666862,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "qibla_wall",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 8.665500352919091,
+      "minimum_uv_triangle_area": 0.04410000194013121,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "hall_outer_wall_-5.3",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 3.339000101208681,
+      "minimum_uv_triangle_area": 0.04410000194013121,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "hall_outer_wall_5.3",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 3.339000101208681,
+      "minimum_uv_triangle_area": 0.04410000194013121,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "grand_hypostyle_front_arcade",
+      "vertices": 198,
+      "triangles": 412,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 3.642730386878973,
+      "minimum_uv_triangle_area": 0.0031474784003096,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_base_-4.05_2.25",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.04500000178813934,
+      "minimum_uv_triangle_area": 0.04410000898093003,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_shaft_-4.05_2.25",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.2143030051293374,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_capital_-4.05_2.25",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.03239999755918987,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_base_-2.025_2.25",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.04500000178813934,
+      "minimum_uv_triangle_area": 0.04410000898093003,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_shaft_-2.025_2.25",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.2143030051293374,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_capital_-2.025_2.25",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.03239999755918987,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_base_0_2.25",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.04500000178813934,
+      "minimum_uv_triangle_area": 0.04410000898093003,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_shaft_0_2.25",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.2143030051293374,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_capital_0_2.25",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.03239999755918987,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_base_2.025_2.25",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.04500000178813934,
+      "minimum_uv_triangle_area": 0.04410000898093003,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_shaft_2.025_2.25",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.2143030051293374,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_capital_2.025_2.25",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.03239999755918987,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_base_4.05_2.25",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.04500000178813934,
+      "minimum_uv_triangle_area": 0.04410000898093003,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_shaft_4.05_2.25",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.2143030051293374,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_capital_4.05_2.25",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.03239999755918987,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "cedar_hall_beam_2.25",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.23407999149203307,
+      "minimum_uv_triangle_area": 0.04410000898093003,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_base_-4.05_3.9",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.04500000178813934,
+      "minimum_uv_triangle_area": 0.04410000898093003,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_shaft_-4.05_3.9",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.2143030051293374,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_capital_-4.05_3.9",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.03239999755918987,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_base_-2.025_3.9",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.04500000178813934,
+      "minimum_uv_triangle_area": 0.04410000898093003,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_shaft_-2.025_3.9",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.2143030051293374,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_capital_-2.025_3.9",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.03239999755918987,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_base_0_3.9",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.04500000178813934,
+      "minimum_uv_triangle_area": 0.04410000898093003,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_shaft_0_3.9",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.2143030051293374,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_capital_0_3.9",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.03239999755918987,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_base_2.025_3.9",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.04500000178813934,
+      "minimum_uv_triangle_area": 0.04410000898093003,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_shaft_2.025_3.9",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.2143030051293374,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_capital_2.025_3.9",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.03239999755918987,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_base_4.05_3.9",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.04500000178813934,
+      "minimum_uv_triangle_area": 0.04410000898093003,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_shaft_4.05_3.9",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.2143030051293374,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "column_capital_4.05_3.9",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.03239999755918987,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "cedar_hall_beam_3.9",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.23407999149203307,
+      "minimum_uv_triangle_area": 0.04410000898093003,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "main_hypostyle_roof",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 8.37119985256194,
+      "minimum_uv_triangle_area": 0.04410000194013121,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "main_hypostyle_roof_parapet",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.19200001335144076,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "main_hypostyle_roof_parapet.001",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.19200001335144076,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "main_hypostyle_roof_parapet.002",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.4200000125169756,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "main_hypostyle_roof_parapet.003",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.4200000125169756,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "axial_nave_clerestory",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.28223997206211177,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "axial_nave_clerestory.001",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.28223997206211177,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "raised_axial_nave_roof",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 1.0679999303519736,
+      "minimum_uv_triangle_area": 0.04410000194013121,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "raised_axial_nave_roof_parapet",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.17799999767541863,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "raised_axial_nave_roof_parapet.001",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.17799999767541863,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "raised_axial_nave_roof_parapet.002",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.04400000226497653,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "raised_axial_nave_roof_parapet.003",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.04400000226497653,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "rear_mihrab_buttress",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.600000032782555,
+      "minimum_uv_triangle_area": 0.04410000194013121,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_outer_wall_-5.3",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 3.539700146234033,
+      "minimum_uv_triangle_area": 0.04410000194013121,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_arcade_-5.3",
+      "vertices": 122,
+      "triangles": 240,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 1.5332361491968514,
+      "minimum_uv_triangle_area": 0.003730256227982398,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_roof_-5.3",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 1.6818192202788937,
+      "minimum_uv_triangle_area": 0.04410000194013121,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_roof_-5.3_parapet",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.20520001069307345,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_roof_-5.3_parapet.001",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.20520001069307345,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_roof_-5.3_parapet.002",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.06596000391125686,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_roof_-5.3_parapet.003",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.06596000391125686,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "owner_gallery_frieze_-5.3",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.20314800806352484,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 1
+    },
+    {
+      "object": "gallery_outer_wall_5.3",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 3.539700146234033,
+      "minimum_uv_triangle_area": 0.04410000194013121,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_arcade_5.3",
+      "vertices": 122,
+      "triangles": 240,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 1.5332361491968514,
+      "minimum_uv_triangle_area": 0.003730256227982398,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_roof_5.3",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 1.6818192202788937,
+      "minimum_uv_triangle_area": 0.04410000194013121,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_roof_5.3_parapet",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.20520001069307345,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_roof_5.3_parapet.001",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.20520001069307345,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_roof_5.3_parapet.002",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.06596000391125686,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "gallery_roof_5.3_parapet.003",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.06596000391125686,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "owner_gallery_frieze_5.3",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.20314800806352484,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 1
+    },
+    {
+      "object": "entrance_facade_-3.28",
+      "vertices": 46,
+      "triangles": 88,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 2.2739388981058553,
+      "minimum_uv_triangle_area": 0.006565471183645116,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "entrance_cornice_-3.28",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.23013600065249198,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "entrance_facade_3.28",
+      "vertices": 46,
+      "triangles": 88,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 2.2739388981058553,
+      "minimum_uv_triangle_area": 0.006565471183645116,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "entrance_cornice_3.28",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.23013600065249198,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_footing",
+      "vertices": 16,
+      "triangles": 24,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.588138288207456,
+      "minimum_uv_triangle_area": 0.04410000898093003,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "great_square_tower",
+      "vertices": 169,
+      "triangles": 346,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 23.400135717092876,
+      "minimum_uv_triangle_area": 0.0004920104561532204,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_stone_coursed_band",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.6347999594897041,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_stone_coursed_band.001",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.6347999594897041,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_stone_coursed_band.002",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.6347999594897041,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_cornice",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 1.040399937835337,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_terrace_parapet",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.11263999740600582,
+      "minimum_uv_triangle_area": 0.04410000194013121,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_terrace_parapet.001",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.11263999740600582,
+      "minimum_uv_triangle_area": 0.04410000194013121,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_terrace_parapet.002",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.08806399752807614,
+      "minimum_uv_triangle_area": 0.04410000194013121,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_terrace_parapet.003",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.08806399752807614,
+      "minimum_uv_triangle_area": 0.04410000194013121,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "lantern_corner_pier",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.02150399836730961,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "lantern_corner_pier.001",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.02150399836730961,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "lantern_corner_pier.002",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.02150399836730961,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "lantern_corner_pier.003",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.02150399836730961,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "lantern_flat_cap",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.187200008010864,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "lantern_upper_finial_base",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.023039999313354487,
+      "minimum_uv_triangle_area": 0.04410000898093003,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_sebka_relief",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0021160000294744965,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_sebka_relief.001",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0021160000294744965,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_sebka_relief.002",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0021160000294744965,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_sebka_relief.003",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0021160000294744965,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_sebka_relief.004",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0021160000294744965,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_sebka_relief.005",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0021160000294744965,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_sebka_relief.006",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0021160000294744965,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_sebka_relief.007",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0021160000294744965,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_sebka_relief.008",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0021160000294744965,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_sebka_relief.009",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0021160000294744965,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_sebka_relief.010",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0021160000294744965,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "tower_sebka_relief.011",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.0021160000294744965,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "banner_anchored_rod",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.005823999680995946,
+      "minimum_uv_triangle_area": 0.04410000898093003,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "owner_tower_banner",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.015729000346928812,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 1
+    },
+    {
+      "object": "banner_anchored_rod.001",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.005823999680995946,
+      "minimum_uv_triangle_area": 0.04410000898093003,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "owner_tower_banner.001",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.015729000346928812,
+      "minimum_uv_triangle_area": 0.04409999646395435,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 1
+    },
+    {
+      "object": "basin_footing",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.22500000335276127,
+      "minimum_uv_triangle_area": 0.04410000898093003,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "ablution_basin_side",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.05039999908804893,
+      "minimum_uv_triangle_area": 0.04410000898093003,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "ablution_basin_side.001",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.05039999908804893,
+      "minimum_uv_triangle_area": 0.04410000898093003,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "ablution_basin_end",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.04099200021958349,
+      "minimum_uv_triangle_area": 0.04410000898093003,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "ablution_basin_end.001",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.04099200021958349,
+      "minimum_uv_triangle_area": 0.04410000898093003,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "basin_inset_floor",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.029768000730812528,
+      "minimum_uv_triangle_area": 0.044100003504752294,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "hall_timber_drain",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.005279999932050702,
+      "minimum_uv_triangle_area": 0.04410000898093003,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    },
+    {
+      "object": "hall_timber_drain.001",
+      "vertices": 8,
+      "triangles": 12,
+      "non_manifold_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.005279999932050702,
+      "minimum_uv_triangle_area": 0.04410000898093003,
+      "positive_transform": true,
+      "finite_geometry": true,
+      "owner_mask": 0
+    }
+  ],
+  "contacts": [
+    {
+      "child": "paved_sanctuary",
+      "parent": "foundation",
+      "axis": 2,
+      "signed_gap": -1.4901161193847656e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "qibla_wall",
+      "parent": "paved_sanctuary",
+      "axis": 2,
+      "signed_gap": -7.450580596923828e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "hall_outer_wall_-5.3",
+      "parent": "paved_sanctuary",
+      "axis": 2,
+      "signed_gap": -7.450580596923828e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "hall_outer_wall_5.3",
+      "parent": "paved_sanctuary",
+      "axis": 2,
+      "signed_gap": -7.450580596923828e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "grand_hypostyle_front_arcade",
+      "parent": "paved_sanctuary",
+      "axis": 2,
+      "signed_gap": -7.450580596923828e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_base_-4.05_2.25",
+      "parent": "paved_sanctuary",
+      "axis": 2,
+      "signed_gap": -1.4901161193847656e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_shaft_-4.05_2.25",
+      "parent": "column_base_-4.05_2.25",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_capital_-4.05_2.25",
+      "parent": "column_shaft_-4.05_2.25",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_base_-2.025_2.25",
+      "parent": "paved_sanctuary",
+      "axis": 2,
+      "signed_gap": -1.4901161193847656e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_shaft_-2.025_2.25",
+      "parent": "column_base_-2.025_2.25",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_capital_-2.025_2.25",
+      "parent": "column_shaft_-2.025_2.25",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_base_0_2.25",
+      "parent": "paved_sanctuary",
+      "axis": 2,
+      "signed_gap": -1.4901161193847656e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_shaft_0_2.25",
+      "parent": "column_base_0_2.25",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_capital_0_2.25",
+      "parent": "column_shaft_0_2.25",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_base_2.025_2.25",
+      "parent": "paved_sanctuary",
+      "axis": 2,
+      "signed_gap": -1.4901161193847656e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_shaft_2.025_2.25",
+      "parent": "column_base_2.025_2.25",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_capital_2.025_2.25",
+      "parent": "column_shaft_2.025_2.25",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_base_4.05_2.25",
+      "parent": "paved_sanctuary",
+      "axis": 2,
+      "signed_gap": -1.4901161193847656e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_shaft_4.05_2.25",
+      "parent": "column_base_4.05_2.25",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_capital_4.05_2.25",
+      "parent": "column_shaft_4.05_2.25",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "cedar_hall_beam_2.25",
+      "parent": "column_capital_-4.05_2.25",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "cedar_hall_beam_2.25",
+      "parent": "column_capital_-2.025_2.25",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "cedar_hall_beam_2.25",
+      "parent": "column_capital_0_2.25",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "cedar_hall_beam_2.25",
+      "parent": "column_capital_2.025_2.25",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "cedar_hall_beam_2.25",
+      "parent": "column_capital_4.05_2.25",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_base_-4.05_3.9",
+      "parent": "paved_sanctuary",
+      "axis": 2,
+      "signed_gap": -1.4901161193847656e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_shaft_-4.05_3.9",
+      "parent": "column_base_-4.05_3.9",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_capital_-4.05_3.9",
+      "parent": "column_shaft_-4.05_3.9",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_base_-2.025_3.9",
+      "parent": "paved_sanctuary",
+      "axis": 2,
+      "signed_gap": -1.4901161193847656e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_shaft_-2.025_3.9",
+      "parent": "column_base_-2.025_3.9",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_capital_-2.025_3.9",
+      "parent": "column_shaft_-2.025_3.9",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_base_0_3.9",
+      "parent": "paved_sanctuary",
+      "axis": 2,
+      "signed_gap": -1.4901161193847656e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_shaft_0_3.9",
+      "parent": "column_base_0_3.9",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_capital_0_3.9",
+      "parent": "column_shaft_0_3.9",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_base_2.025_3.9",
+      "parent": "paved_sanctuary",
+      "axis": 2,
+      "signed_gap": -1.4901161193847656e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_shaft_2.025_3.9",
+      "parent": "column_base_2.025_3.9",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_capital_2.025_3.9",
+      "parent": "column_shaft_2.025_3.9",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_base_4.05_3.9",
+      "parent": "paved_sanctuary",
+      "axis": 2,
+      "signed_gap": -1.4901161193847656e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_shaft_4.05_3.9",
+      "parent": "column_base_4.05_3.9",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "column_capital_4.05_3.9",
+      "parent": "column_shaft_4.05_3.9",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "cedar_hall_beam_3.9",
+      "parent": "column_capital_-4.05_3.9",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "cedar_hall_beam_3.9",
+      "parent": "column_capital_-2.025_3.9",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "cedar_hall_beam_3.9",
+      "parent": "column_capital_0_3.9",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "cedar_hall_beam_3.9",
+      "parent": "column_capital_2.025_3.9",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "cedar_hall_beam_3.9",
+      "parent": "column_capital_4.05_3.9",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "main_hypostyle_roof",
+      "parent": "qibla_wall",
+      "axis": 2,
+      "signed_gap": 2.384185791015625e-07,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "main_hypostyle_roof",
+      "parent": "cedar_hall_beam_2.25",
+      "axis": 2,
+      "signed_gap": 2.384185791015625e-07,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "main_hypostyle_roof",
+      "parent": "cedar_hall_beam_3.9",
+      "axis": 2,
+      "signed_gap": 2.384185791015625e-07,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "rear_mihrab_buttress",
+      "parent": "paved_sanctuary",
+      "axis": 2,
+      "signed_gap": -1.4901161193847656e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "gallery_outer_wall_-5.3",
+      "parent": "paved_sanctuary",
+      "axis": 2,
+      "signed_gap": 4.470348358154297e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "gallery_arcade_-5.3",
+      "parent": "paved_sanctuary",
+      "axis": 2,
+      "signed_gap": 4.470348358154297e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "gallery_roof_-5.3",
+      "parent": "gallery_arcade_-5.3",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "gallery_roof_-5.3",
+      "parent": "gallery_outer_wall_-5.3",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "grand_hypostyle_front_arcade",
+      "parent": "gallery_outer_wall_-5.3",
+      "axis": 1,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "grand_hypostyle_front_arcade",
+      "parent": "gallery_arcade_-5.3",
+      "axis": 1,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "gallery_outer_wall_5.3",
+      "parent": "paved_sanctuary",
+      "axis": 2,
+      "signed_gap": 4.470348358154297e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "gallery_arcade_5.3",
+      "parent": "paved_sanctuary",
+      "axis": 2,
+      "signed_gap": 4.470348358154297e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "gallery_roof_5.3",
+      "parent": "gallery_arcade_5.3",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "gallery_roof_5.3",
+      "parent": "gallery_outer_wall_5.3",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "grand_hypostyle_front_arcade",
+      "parent": "gallery_outer_wall_5.3",
+      "axis": 1,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "grand_hypostyle_front_arcade",
+      "parent": "gallery_arcade_5.3",
+      "axis": 1,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "entrance_facade_-3.28",
+      "parent": "paved_sanctuary",
+      "axis": 2,
+      "signed_gap": 4.470348358154297e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "entrance_cornice_-3.28",
+      "parent": "entrance_facade_-3.28",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "gallery_outer_wall_-5.3",
+      "parent": "entrance_facade_-3.28",
+      "axis": 1,
+      "signed_gap": -4.76837158203125e-07,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "entrance_facade_3.28",
+      "parent": "paved_sanctuary",
+      "axis": 2,
+      "signed_gap": 4.470348358154297e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "entrance_cornice_3.28",
+      "parent": "entrance_facade_3.28",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "gallery_outer_wall_5.3",
+      "parent": "entrance_facade_3.28",
+      "axis": 1,
+      "signed_gap": -4.76837158203125e-07,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "tower_footing",
+      "parent": "paved_sanctuary",
+      "axis": 2,
+      "signed_gap": 1.4901161193847656e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "great_square_tower",
+      "parent": "tower_footing",
+      "axis": 2,
+      "signed_gap": 8.940696716308594e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "tower_cornice",
+      "parent": "great_square_tower",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "lantern_corner_pier",
+      "parent": "tower_cornice",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "lantern_corner_pier.001",
+      "parent": "tower_cornice",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "lantern_corner_pier.002",
+      "parent": "tower_cornice",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "lantern_corner_pier.003",
+      "parent": "tower_cornice",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "lantern_flat_cap",
+      "parent": "lantern_corner_pier",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "lantern_flat_cap",
+      "parent": "lantern_corner_pier.001",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "lantern_flat_cap",
+      "parent": "lantern_corner_pier.002",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "lantern_flat_cap",
+      "parent": "lantern_corner_pier.003",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "lantern_upper_finial_base",
+      "parent": "lantern_flat_cap",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "basin_footing",
+      "parent": "paved_sanctuary",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "ablution_basin_side",
+      "parent": "basin_footing",
+      "axis": 2,
+      "signed_gap": -2.9802322387695312e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "ablution_basin_side.001",
+      "parent": "basin_footing",
+      "axis": 2,
+      "signed_gap": -2.9802322387695312e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "ablution_basin_end",
+      "parent": "basin_footing",
+      "axis": 2,
+      "signed_gap": -2.9802322387695312e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "ablution_basin_end.001",
+      "parent": "basin_footing",
+      "axis": 2,
+      "signed_gap": -2.9802322387695312e-08,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "child": "basin_inset_floor",
+      "parent": "basin_footing",
+      "axis": 2,
+      "signed_gap": 0.0,
+      "expected": 0,
+      "pass": true
+    }
+  ],
+  "void_guards": [
+    {
+      "object": "grand_hypostyle_front_arcade",
+      "origin": [
+        -4.050000190734863,
+        -0.8500000238418579,
+        0.550000011920929
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "hit": false,
+      "pass": true,
+      "clear_base_width": 1.376
+    },
+    {
+      "object": "grand_hypostyle_front_arcade",
+      "origin": [
+        -2.0250000953674316,
+        -0.8500000238418579,
+        0.550000011920929
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "hit": false,
+      "pass": true,
+      "clear_base_width": 1.376
+    },
+    {
+      "object": "grand_hypostyle_front_arcade",
+      "origin": [
+        0.0,
+        -0.8500000238418579,
+        0.550000011920929
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "hit": false,
+      "pass": true,
+      "clear_base_width": 1.376
+    },
+    {
+      "object": "grand_hypostyle_front_arcade",
+      "origin": [
+        2.0250000953674316,
+        -0.8500000238418579,
+        0.550000011920929
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "hit": false,
+      "pass": true,
+      "clear_base_width": 1.376
+    },
+    {
+      "object": "grand_hypostyle_front_arcade",
+      "origin": [
+        4.050000190734863,
+        -0.8500000238418579,
+        0.550000011920929
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "hit": false,
+      "pass": true,
+      "clear_base_width": 1.376
+    },
+    {
+      "object": "gallery_arcade_-5.3",
+      "origin": [
+        -5.151000022888184,
+        -3.6500000953674316,
+        0.550000011920929
+      ],
+      "direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "hit": false,
+      "pass": true,
+      "clear_base_width": 1.0578
+    },
+    {
+      "object": "gallery_arcade_-5.3",
+      "origin": [
+        -5.151000022888184,
+        -2.0399999618530273,
+        0.550000011920929
+      ],
+      "direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "hit": false,
+      "pass": true,
+      "clear_base_width": 1.0578
+    },
+    {
+      "object": "gallery_arcade_-5.3",
+      "origin": [
+        -5.151000022888184,
+        -0.4300000071525574,
+        0.550000011920929
+      ],
+      "direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "hit": false,
+      "pass": true,
+      "clear_base_width": 1.0578
+    },
+    {
+      "object": "gallery_arcade_5.3",
+      "origin": [
+        1.9509999752044678,
+        -3.6500000953674316,
+        0.550000011920929
+      ],
+      "direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "hit": false,
+      "pass": true,
+      "clear_base_width": 1.0578
+    },
+    {
+      "object": "gallery_arcade_5.3",
+      "origin": [
+        1.9509999752044678,
+        -2.0399999618530273,
+        0.550000011920929
+      ],
+      "direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "hit": false,
+      "pass": true,
+      "clear_base_width": 1.0578
+    },
+    {
+      "object": "gallery_arcade_5.3",
+      "origin": [
+        1.9509999752044678,
+        -0.4300000071525574,
+        0.550000011920929
+      ],
+      "direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "hit": false,
+      "pass": true,
+      "clear_base_width": 1.0578
+    },
+    {
+      "object": "entrance_facade_-3.28",
+      "origin": [
+        -3.2799999713897705,
+        -6.28000020980835,
+        0.550000011920929
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "hit": false,
+      "pass": true,
+      "clear_base_width": 1.161
+    },
+    {
+      "object": "entrance_facade_3.28",
+      "origin": [
+        3.2799999713897705,
+        -6.28000020980835,
+        0.550000011920929
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "hit": false,
+      "pass": true,
+      "clear_base_width": 1.161
+    },
+    {
+      "object": "great_square_tower",
+      "origin": [
+        0.0,
+        -6.0,
+        0.75
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "hit": false,
+      "pass": true,
+      "clear_base_width": 1.161
+    },
+    {
+      "object": "tower_footing",
+      "origin": [
+        0.0,
+        -6.0,
+        0.30000001192092896
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "hit": false,
+      "pass": true,
+      "clear_base_width": 1.161
+    },
+    {
+      "object": "great_square_tower",
+      "origin": [
+        0.0,
+        -6.0,
+        5.130000114440918
+      ],
+      "direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "hit": false,
+      "pass": true,
+      "clear_base_width": 0.387
+    },
+    {
+      "object": "great_square_tower",
+      "origin": [
+        -1.600000023841858,
+        -4.400000095367432,
+        5.130000114440918
+      ],
+      "direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "hit": false,
+      "pass": true,
+      "clear_base_width": 0.387
+    }
+  ],
+  "site_footprint": [
+    12,
+    12
+  ],
+  "mesh_bounds": [
+    [
+      -5.800000190734863,
+      -5.800000190734863,
+      0.0
+    ],
+    [
+      5.800000190734863,
+      5.800000190734863,
+      8.130000114440918
+    ]
+  ],
+  "footprint_pass": true,
+  "ground_z": 0.0,
+  "native_owner_colour": "blocked integration; authored masks only"
+}

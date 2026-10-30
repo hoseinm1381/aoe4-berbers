@@ -1,0 +1,27 @@
+{
+  "schema": "garrison.mod/v1",
+  "bundle_key": "berber_future_kingdom",
+  "members": [
+    {
+      "mod_key": "berber_future_kingdom",
+      "role": "tuning",
+      "path": "Berber_future_kingdom.sga",
+      "sha256": "d58f131f4c36ec0cdfa962db04565e7caf8a7ad256f765b75d4ece56c12588dc"
+    }
+  ],
+  "details": {
+    "id": "berber_future_kingdom",
+    "name": "The Berber Dynasties",
+    "version": "0.1.3-tuareg-q-command.1",
+    "summary": "Q native animation command trial: temporary 15-second stop",
+    "author": "hossein81 and marcokistan",
+    "updated": "2026-10-11",
+    "min_garrison": "0.1.3",
+    "content_types": [
+      "game-mode",
+      "tuning-pack"
+    ],
+    "description": "User-authorized temporary-stop animation trial. Detect existing Tuareg Q activation, grant/command native cheer_toggle, then explicitly stop/remove after 15 seconds. Original ability fields, visuals, voices, upgrades retained. Stock gestures are used; custom shield pose and native acceptance remain pending.",
+    "changelog": "Replace failed attribute-hook experiment with official native cheering command lifecycle in isolated SCAR, with cast/state/start/stop diagnostics."
+  }
+}

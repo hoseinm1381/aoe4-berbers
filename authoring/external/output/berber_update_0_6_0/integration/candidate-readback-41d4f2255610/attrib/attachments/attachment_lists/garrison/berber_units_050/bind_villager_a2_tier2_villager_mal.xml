@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <RGDNode Key="default" Type="List">
+    <RGDNode Key="attachment_lists" Type="List">
+      <RGDNode Key="parent_animator" Type="CString" Value=""/>
+      <RGDNode Key="attachment_lists" Type="List">
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="default"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_merge_mesh_attachment" Type="List">
+              <RGDNode Key="meshes" Type="List">
+                <RGDNode Key="animator0" Type="CString" Value="art/scenario/garrison/berber_units_050/villager_age02/villager_age02"/>
+              </RGDNode>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_merge_mesh_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="default"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_merge_mesh_attachment" Type="List">
+              <RGDNode Key="meshes" Type="List">
+                <RGDNode Key="animator0" Type="CString" Value="art\civilizations\malian\humans\mal_villager_female_age02\mal_villager_female_age02"/>
+              </RGDNode>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_merge_mesh_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="res_wheat_carry"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="metarig_larmpalmsocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\res_wheat_carry\res_wheat_carry"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_farmer\base_farmer"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="res_wheat_carry"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="metarig_larmpalmsocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\res_wheat_carry\res_wheat_carry"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_farmer\base_farmer"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="res_berries_carry"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="metarig_larmpalmsocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\res_berry_carry\res_berry_carry"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_forager\base_forager"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="res_berries_carry"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="metarig_larmpalmsocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\res_berry_carry\res_berry_carry"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_forager\base_forager"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="res_meat_carry"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="metarig_larmpalmsocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\res_meat_carry\res_meat_carry"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_butcher\base_butcher"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="res_meat_carry"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="metarig_larmpalmsocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\res_meat_carry\res_meat_carry"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_butcher\base_butcher"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="res_wood_carry"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="metarig_larmpalmsocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\res_wood_carry\res_wood_carry"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_logger\base_logger"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="res_wood_carry"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_logger\base_logger"/>
+            </RGDNode>
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="metarig_larmpalmsocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\res_wood_carry\res_wood_carry"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="res_stone_carry"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RibCageSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\res_stone_backpack\res_stone_backpack"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_miner\base_miner"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="res_stone_carry"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RibCageSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\res_stone_backpack\res_stone_backpack"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_miner\base_miner"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="res_gold_carry"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RibCageSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\res_gold_backpack\res_gold_backpack"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_miner\base_miner"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="res_gold_carry"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RibCageSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\res_gold_backpack\res_gold_backpack"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_miner\base_miner"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="build_hammer"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\hammer_construction\hammer_construction"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="build_hammer"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\hammer_construction\hammer_construction"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="basket_seed"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_LArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\basket_seed\basket_seed"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_farmer\base_farmer"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="basket_seed"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_LArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\basket_seed\basket_seed"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_farmer\base_farmer"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="sickle_farming"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\sickle_farming\sickle_farming"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_farmer\base_farmer"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="sickle_farming"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\sickle_farming\sickle_farming"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_farmer\base_farmer"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="scythe_farming"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\scythe_farming\scythe_farming"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_farmer\base_farmer"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="scythe_farming"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\scythe_farming\scythe_farming"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_farmer\base_farmer"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="axe_2hand_single"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="metarig_rarmpalmsocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\axe_2hand\axe_2hand"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_logger\base_logger"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="axe_2hand_single"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="metarig_rarmpalmsocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\axe_2hand\axe_2hand"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_logger\base_logger"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="axe_2hand_doublebit"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="metarig_rarmpalmsocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\axe_doublebit\axe_doublebit"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_logger\base_logger"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="axe_2hand_doublebit"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="metarig_rarmpalmsocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\axe_doublebit\axe_doublebit"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_logger\base_logger"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="forage_basket_empty"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="metarig_larmpalmsocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\res_berry_empty\res_berry_empty"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_forager\base_forager"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="forage_basket_empty"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="metarig_larmpalmsocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\res_berry_empty\res_berry_empty"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_forager\base_forager"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="knife"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_butcher\base_butcher"/>
+            </RGDNode>
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\knife_skinning\knife_skinning"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="knife"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_butcher\base_butcher"/>
+            </RGDNode>
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\knife_skinning\knife_skinning"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="hunt_spear"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\melee\spear_villager\spear_villager"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="hunt_spear"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\melee\spear_villager\spear_villager"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="mining_stone_hammer"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\hammer_mining\hammer_mining"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_miner\base_miner"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="mining_stone_hammer"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\hammer_mining\hammer_mining"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_miner\base_miner"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="mining_stone_sledge"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\hammer_sledge\hammer_sledge"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_miner\base_miner"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="mining_stone_sledge"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\hammer_sledge\hammer_sledge"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_miner\base_miner"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="mining_gold_hammer_pick"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\hammer_pick\hammer_pick"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_miner\base_miner"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="mining_gold_hammer_pick"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\hammer_pick\hammer_pick"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_miner\base_miner"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="mining_gold_axe_pick"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\axe_pick\axe_pick"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_miner\base_miner"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="mining_gold_axe_pick"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\axe_pick\axe_pick"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_miner\base_miner"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="herd_crook"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\crook_shepherd\crook_shepherd"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_butcher\base_butcher"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_monk\base_monk"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="herd_crook"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\crook_shepherd\crook_shepherd"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_butcher\base_butcher"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_monk\base_monk"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="hunt_bow"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_LArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\ranged\bow_short\bow_short"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="hunt_bow"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_LArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\ranged\bow_short\bow_short"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="torch"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\torch\torch"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="torch"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\torch\torch"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="res_fish_carry"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="metarig_rarmpalmsocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\res_fish_carry\res_fish_carry"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_fisherman\base_fisherman"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="res_fish_carry"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="metarig_rarmpalmsocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\res_fish_carry\res_fish_carry"/>
+            </RGDNode>
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_fisherman\base_fisherman"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="fishing_net"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_fisherman\base_fisherman"/>
+            </RGDNode>
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="metarig_rarmpalmsocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\net_fishing\net_fishing"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="fishing_net"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animation_attachment" Type="List">
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animation_attachment"/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\humans\archetypes\base_fisherman\base_fisherman"/>
+            </RGDNode>
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="metarig_rarmpalmsocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\net_fishing\net_fishing"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="male"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="combat_knife"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\knife_skinning\knife_skinning"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerMale"/>
+        </RGDNode>
+        <RGDNode Key="attachment_list" Type="List">
+          <RGDNode Key="$REF" Type="CString" Value="attachments\attachment_list"/>
+          <RGDNode Key="attachment_category" Type="CString" Value="female"/>
+          <RGDNode Key="inventory_category" Type="CString" Value="combat_knife"/>
+          <RGDNode Key="attachment_list" Type="List">
+            <RGDNode Key="animator_sim_attachment" Type="List">
+              <RGDNode Key="attach_data" Type="List">
+                <RGDNode Key="parent_rigidbody_target_name" Type="CString" Value=""/>
+                <RGDNode Key="game_object_attachment_type" Type="Int" Value="0"/>
+                <RGDNode Key="$REF" Type="CString" Value="attachments\attach_data"/>
+                <RGDNode Key="marker_name_parent" Type="CString" Value="MetaRig_RArmPalmSocket"/>
+              </RGDNode>
+              <RGDNode Key="add_to_pathfinding" Type="Boolean" Value="false"/>
+              <RGDNode Key="$REF" Type="CString" Value="options\attachment_types\animator_sim_attachment"/>
+              <RGDNode Key="is_selectable" Type="Boolean" Value="true"/>
+              <RGDNode Key="inventory_item_category" Type="CString" Value=""/>
+              <RGDNode Key="animator" Type="CString" Value="art\civilizations\common\weapons\tools\knife_skinning\knife_skinning"/>
+            </RGDNode>
+          </RGDNode>
+          <RGDNode Key="attachment_speaker_code" Type="CString" Value="villagerFemale"/>
+        </RGDNode>
+      </RGDNode>
+      <RGDNode Key="thumbnail" Type="CString" Value=""/>
+    </RGDNode>
+    <RGDNode Key="pbgid" Type="Int" Value="37641645"/>
+    <RGDNode Key="parent_pbg" Type="List">
+      <RGDNode Key="$PBGNAME" Type="CString" Value=""/>
+      <RGDNode Key="$PBGMAP" Type="CString" Value=""/>
+    </RGDNode>
+  </RGDNode>
+  <RGDNode Key="instance_version" Type="Int" Value="2"/>
+</Root>

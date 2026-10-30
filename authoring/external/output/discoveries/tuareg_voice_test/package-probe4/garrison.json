@@ -1,0 +1,27 @@
+{
+  "schema": "garrison.mod/v1",
+  "bundle_key": "tuareg_voice_probe",
+  "members": [
+    {
+      "mod_key": "tuareg_voice_probe",
+      "role": "tuning",
+      "path": "tuareg_voice_probe.sga",
+      "sha256": "819b848e1dba062c4fae466501a2f80aa8b461e48bddf320994dd0b89a506a6d"
+    }
+  ],
+  "details": {
+    "id": "tuareg_voice_probe",
+    "name": "Tuareg Voice Probe",
+    "version": "0.1.0-probe.4",
+    "summary": "Selection and attack native speech routing test",
+    "author": "",
+    "updated": "2026-10-09",
+    "min_garrison": "0.1.0",
+    "content_types": [
+      "game-mode",
+      "tuning-pack"
+    ],
+    "description": "Solo native Tuareg speech routing experiment requiring the separate private native audio sidecar.\nMap: Dry Arabia; player 1 Malian human, player 2 Malian AI.\nTuning Pack and Game Mode: Tuareg Voice Probe.\nTwo private squads and a stock control spawn nearby. Imperial speech phase begins at 90 seconds.\nThis uses two clips; audible acceptance is pending.",
+    "changelog": "Correct native speech deployment: private audio: loose files supplied separately; remove ineffective data:audio copies."
+  }
+}

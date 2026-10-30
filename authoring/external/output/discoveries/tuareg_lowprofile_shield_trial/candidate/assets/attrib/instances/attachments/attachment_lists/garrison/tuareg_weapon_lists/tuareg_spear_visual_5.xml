@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<instance version="6" description="Private Tuareg spear visual; all stock attachment rules inherited" template="attachments\attachment_lists">
+	<group name="attachment_lists">
+		<file name="parent_animator" value="art\scenario\tuareg\tuareg_long_spear_refined\tuareg_long_spear_refined" overrideParent="True" />
+	</group>
+	<uniqueid name="pbgid" value="35402096" />
+	<instance_reference name="parent_pbg" value="attachments\attachment_lists\races\malian\weapons\wpn_melee_spearwall_1_mal" />
+	<variant name="xp3">
+		<group name="attachment_lists">
+			<file name="parent_animator" value="art\scenario\tuareg\tuareg_long_spear_refined\tuareg_long_spear_refined" overrideParent="True" />
+		</group>
+		<uniqueid name="pbgid" value="35402096" />
+		<instance_reference name="parent_pbg" value="attachments\attachment_lists\races\malian\weapons\wpn_melee_spearwall_1_mal" />
+	</variant>
+</instance>

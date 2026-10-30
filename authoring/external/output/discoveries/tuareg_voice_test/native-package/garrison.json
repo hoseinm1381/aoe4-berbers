@@ -1,0 +1,27 @@
+{
+  "schema": "garrison.mod/v1",
+  "bundle_key": "tuareg_voice_probe",
+  "members": [
+    {
+      "mod_key": "tuareg_voice_probe",
+      "role": "tuning",
+      "path": "tuareg_voice_probe.sga",
+      "sha256": "eb8d3d72ef68936fa65c2605d327439a7a268c26954d3bb7b9865c55c591edc7"
+    }
+  ],
+  "details": {
+    "id": "tuareg_voice_probe",
+    "name": "Tuareg Voice Probe",
+    "version": "0.1.0-probe.3",
+    "summary": "Selection and attack native speech routing test",
+    "author": "",
+    "updated": "2026-10-09",
+    "min_garrison": "0.1.0",
+    "content_types": [
+      "game-mode",
+      "tuning-pack"
+    ],
+    "description": "Solo native speech routing experiment.\nMap: Dry Arabia; player 1 Malian human, player 2 Malian AI.\nTuning Pack and Game Mode: Tuareg Voice Probe.\nThe two private squads appear near player 1. At 90 seconds, player 1 advances to Imperial Age.\nThis fixture uses only the new selection and attack clips; native acceptance is unverified.",
+    "changelog": "Use World_Pos for typed spawn/facing positions; preserve permitted TOCs. Native voice resolution remains experimental."
+  }
+}

@@ -1,0 +1,146 @@
+-----------------------------------------------------------------------
+-- Sanhaja Camel Archer - Desert Hunt
+-----------------------------------------------------------------------
+
+Core_RegisterModule("TribalCamelArcher")
+
+local _tribal_camel_archer = {
+	started = false,
+	next_token = 0,
+	duration = 10.0,
+	ability = nil,
+	bonus_by_pbgid = {
+		[1073741887] = 8,
+		[1073741891] = 12,
+		[1073741892] = 16,
+	},
+	active_by_entity = {},
+}
+
+local function TribalCamelArcher_GetDesertHuntBonus(entity)
+
+	if entity == nil then
+		return nil
+	end
+
+
+	local entity_id = Entity_GetID(entity)
+	if entity_id == nil or not Entity_IsValid(entity_id) then
+		return nil
+	end
+
+
+	local entity_blueprint = Entity_GetBlueprint(entity)
+	local bonus = _tribal_camel_archer.bonus_by_pbgid[entity_blueprint.PropertyBagGroupID]
+	print(bonus)
+
+	return bonus
+end
+
+local function TribalCamelArcher_ApplyDesertHuntBonus(entity, amount)
+	local modifier = Modifier_Create(
+		MAT_Weapon,
+		"weapon_damage_per_unit_type_modifier",
+		MUT_Addition,
+		false,
+		amount,
+		entity
+	)
+	Modifier_ApplyToEntity(modifier, entity, 0.0)
+	print("I applied camel buff")
+end
+
+function TribalCamelArcher_ExpireDesertHunt(rule_id, data)
+	print(11)
+	if data == nil or data.entity_id == nil or data.token == nil then
+		return
+	end
+	print(12)
+	local active_state = _tribal_camel_archer.active_by_entity[data.entity_id]
+	if active_state == nil or active_state.token ~= data.token then
+		return
+	end
+	print(13)
+
+	_tribal_camel_archer.active_by_entity[data.entity_id] = nil
+
+	if Entity_IsValid(data.entity_id) then
+		print(13)
+		local entity = Entity_FromID(data.entity_id)
+		if entity == active_state.entity
+			and Entity_IsAlive(entity)
+			and TribalCamelArcher_GetDesertHuntBonus(entity) ~= nil then
+			print(14)
+			TribalCamelArcher_ApplyDesertHuntBonus(entity, -active_state.bonus)
+		end
+	end
+end
+
+function TribalCamelArcher_OnAbilityExecuted(context)
+
+	if context == nil
+		or context.executer == nil
+		or context.ability ~= _tribal_camel_archer.ability then
+		return
+	end
+	print(2)
+
+	local entity = context.executer
+	local bonus = TribalCamelArcher_GetDesertHuntBonus(entity)
+	if bonus == nil then
+		return
+	end
+	print(3)
+
+	local entity_id = Entity_GetID(entity)
+	if _tribal_camel_archer.active_by_entity[entity_id] ~= nil then
+		return
+	end
+	print(4)
+
+	_tribal_camel_archer.next_token = _tribal_camel_archer.next_token + 1
+	local token = _tribal_camel_archer.next_token
+
+	_tribal_camel_archer.active_by_entity[entity_id] = {
+		entity = entity,
+		bonus = bonus,
+		token = token,
+	}
+
+	TribalCamelArcher_ApplyDesertHuntBonus(entity, bonus)
+	Rule_AddOneShot(
+		TribalCamelArcher_ExpireDesertHunt,
+		_tribal_camel_archer.duration,
+		{ entity_id = entity_id, token = token }
+	)
+end
+
+function tribal_camel_archer_start()
+	if _tribal_camel_archer.started then
+		return
+	end
+
+	_tribal_camel_archer.ability = BP_GetAbilityBlueprint("shirkuh_speed_activate_ayy")
+	_tribal_camel_archer.started = true
+	Rule_AddGlobalEvent(TribalCamelArcher_OnAbilityExecuted, GE_AbilityExecuted)
+end
+
+function TribalCamelArcher_OnInit()
+end
+
+function TribalCamelArcher_Start()
+end
+
+function TribalCamelArcher_OnGameOver()
+	if not _tribal_camel_archer.started then
+		return
+	end
+
+	Rule_RemoveGlobalEvent(TribalCamelArcher_OnAbilityExecuted)
+	Rule_Remove(TribalCamelArcher_ExpireDesertHunt)
+
+	_tribal_camel_archer.started = false
+	_tribal_camel_archer.next_token = 0
+	_tribal_camel_archer.ability = nil
+	_tribal_camel_archer.active_by_entity = {}
+end
