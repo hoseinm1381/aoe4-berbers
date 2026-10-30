@@ -8,6 +8,7 @@ import hashlib
 import http.client
 import json
 import os
+import socket
 import subprocess
 import time
 import urllib.error
@@ -49,6 +50,8 @@ def upload(headers,release,path):
     parsed=urllib.parse.urlsplit(release['upload_url'].split('{',1)[0])
     assert parsed.scheme=='https' and parsed.hostname=='uploads.github.com'
     connection=http.client.HTTPSConnection(parsed.hostname,timeout=300)
+    connection.connect()
+    connection.sock.setsockopt(socket.SOL_SOCKET,socket.SO_SNDBUF,8*1024*1024)
     connection.putrequest('POST',parsed.path+'?name='+urllib.parse.quote(path.name))
     for key,value in {**headers,'Content-Type':'application/zip' if path.suffix=='.zip' else 'application/octet-stream',
                       'Content-Length':str(path.stat().st_size)}.items():
@@ -105,7 +108,7 @@ if __name__=='__main__':
             assert hashlib.file_digest(path.open('rb'),'sha256').hexdigest()==pack['sha256']
             paths.append(path)
         assert len({p.name for p in paths})==len(paths)
-        for path in sorted(paths):
+        for path in sorted(paths,key=lambda p:(p.parent!=a.directory,p.stat().st_size)):
             if path.is_file():assets.append(upload(headers,release,path))
         assert assets
         published=api(headers,f'/repos/{REPO}/releases/{release["id"]}','PATCH',{'draft':False})
