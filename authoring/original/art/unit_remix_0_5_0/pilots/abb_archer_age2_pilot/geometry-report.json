@@ -1,0 +1,48 @@
+{
+  "status": "geometry_prepared_no_cook",
+  "name": "abb_archer_age2_pilot",
+  "recipe": "art\\unit_remix_0_5_0\\pilots\\abb_archer_age2_pilot\\recipe.json",
+  "recipe_sha256": "2da48632352d5d872d378e9dcbafd126d2a555e781c028a39eae8818f80611eb",
+  "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\46f0c2bba7f6f0abb21eca232d024f466ae94bc028aa8d803732c54c2b003781\\decoded\\8a58c40f9bdeafad90e1\\source\\art\\civilizations\\abbasids\\humans\\abb_ranged_bow_age02\\abb_ranged_bow_age02.rrgeom",
+  "source_sha256": "9a69258ff7133c7743eb4d64ad06a72ae3b610fc23d805d1d1aa1ec6948421cc",
+  "output": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\pilots\\abb_archer_age2_pilot\\abb_archer_age2_pilot.rrgeom",
+  "output_sha256": "90560cf2f4f2fb16a24a01b39eb548a74668a16780be065ecfa6a0893029046e",
+  "groups": [
+    {
+      "index": 0,
+      "name": "abb_ranged_bow_age02",
+      "material": "lod1",
+      "vertex_count": 1078,
+      "edited_vertices": 684,
+      "edited_fraction": 0.6345,
+      "max_displacement_metres": 0.05573,
+      "clipped_to_native_bounds": 2,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 1,
+      "name": "abb_ranged_bow_age02",
+      "material": "lod2",
+      "vertex_count": 398,
+      "edited_vertices": 233,
+      "edited_fraction": 0.5854,
+      "max_displacement_metres": 0.05014,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 2,
+      "name": "abb_ranged_bow_age02",
+      "material": "lod3",
+      "vertex_count": 180,
+      "edited_vertices": 94,
+      "edited_fraction": 0.5222,
+      "max_displacement_metres": 0.04448,
+      "clipped_to_native_bounds": 2,
+      "within_original_native_bounds": true
+    }
+  ],
+  "preserved": "native skeleton, SKIN indices/weights, UVs, topology, LOD metadata, all non-position/normal/tangent bytes",
+  "native_cook": "pending serial token",
+  "runtime": "unverified"
+}

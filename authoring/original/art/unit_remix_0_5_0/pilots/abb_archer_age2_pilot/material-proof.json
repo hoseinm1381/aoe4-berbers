@@ -1,0 +1,15 @@
+{
+  "status": "private_native_material_pilot_passed",
+  "cook_archive_sha256": "98bdf7434dd5ece584f262d552e180d85c0c0f171a80fb3bf76351158639f9c5",
+  "authored_albedo_sha256": "f524c83f4f4d758a575708cb725f61d6fb07b5047ddc9185b0a28e1b7febb05c",
+  "cooked_albedo_rrtex_sha256": "df3766904f844b9ce2d0f45feaf7a0fec9d036bcb930365b64cd26f08c3af1cf",
+  "albedo_lods_replaced": 3,
+  "pattern_lods_unchanged": 3,
+  "skin_lut_lods_unchanged": 3,
+  "rgm_rgo_rrgeom_unchanged_by_material_cook": true,
+  "authored_albedo_changed_pixels": 68869,
+  "changed_owner_mask_pixels": 0,
+  "changed_head_uv_pixels": 0,
+  "native_animation": "unverified",
+  "runtime_player_colour": "unverified"
+}

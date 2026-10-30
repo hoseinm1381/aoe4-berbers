@@ -1,0 +1,48 @@
+{
+  "status": "geometry_prepared_no_cook",
+  "name": "abb_archer_age4_candidate",
+  "recipe": "art\\unit_remix_0_5_0\\pilots\\abb_archer_age4_candidate\\recipe.json",
+  "recipe_sha256": "4108d027e691422d3b1b96a5db22e78822e3e9104a22ca661931260647514b1a",
+  "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\6e89ca87bd45a21121d1ef552da1bfe3f5ed1e034dbf709616fb6f37807609b3\\decoded\\a17cd117e667d6f16f94\\source\\art\\civilizations\\abbasids\\humans\\abb_ranged_bow_age04\\abb_ranged_bow_age04.rrgeom",
+  "source_sha256": "c3ff341628b3fb81ec8ea36b647c6115bb5bcf0ce515b6b5739de2be02201ab8",
+  "output": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\pilots\\abb_archer_age4_candidate\\abb_archer_age4_candidate.rrgeom",
+  "output_sha256": "805ee66f003375b0ca0a0b83023579418281b3651553fee29469ea3b582b09b0",
+  "groups": [
+    {
+      "index": 0,
+      "name": "abb_ranged_bow_age04",
+      "material": "lod1",
+      "vertex_count": 1795,
+      "edited_vertices": 708,
+      "edited_fraction": 0.3944,
+      "max_displacement_metres": 0.06,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 1,
+      "name": "abb_ranged_bow_age04",
+      "material": "lod2",
+      "vertex_count": 656,
+      "edited_vertices": 291,
+      "edited_fraction": 0.4436,
+      "max_displacement_metres": 0.06,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 2,
+      "name": "abb_ranged_bow_age04",
+      "material": "lod3",
+      "vertex_count": 340,
+      "edited_vertices": 168,
+      "edited_fraction": 0.4941,
+      "max_displacement_metres": 0.06,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    }
+  ],
+  "preserved": "native skeleton, SKIN indices/weights, UVs, topology, LOD metadata, all non-position/normal/tangent bytes",
+  "native_cook": "pending serial token",
+  "runtime": "unverified"
+}

@@ -1,0 +1,48 @@
+{
+  "status": "geometry_prepared_no_cook",
+  "name": "handgunner_age4_candidate",
+  "recipe": "art\\unit_remix_0_5_0\\pilots\\handgunner_age4_candidate\\recipe.json",
+  "recipe_sha256": "b9da3212f81c79c02a5d32cd535170bef5b92144c81d07619c12e77cf082d87f",
+  "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\54c7cdb1005317f16ad70629a80db8c7a4d0c9d96cffccb7273bc63eb1ff4688\\decoded\\33b0602c7780b32bb377\\source\\art\\civilizations\\abbasids\\humans\\abb_ranged_cannoneer_age04\\abb_ranged_cannoneer_age04.rrgeom",
+  "source_sha256": "5ddc07f5cac3781a0ba07d9a3e1d4b44b32421025bf75e497ff5ea8d74954f01",
+  "output": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\pilots\\handgunner_age4_candidate\\handgunner_age4_candidate.rrgeom",
+  "output_sha256": "aa174c7d21779f2cf70d6a6ccd7822340fbe44a1cd826f9654731d75b17c0abb",
+  "groups": [
+    {
+      "index": 0,
+      "name": "abb_ranged_cannoneer_age04",
+      "material": "lod1",
+      "vertex_count": 1443,
+      "edited_vertices": 386,
+      "edited_fraction": 0.2675,
+      "max_displacement_metres": 0.046,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 1,
+      "name": "abb_ranged_cannoneer_age04",
+      "material": "lod2",
+      "vertex_count": 524,
+      "edited_vertices": 119,
+      "edited_fraction": 0.2271,
+      "max_displacement_metres": 0.046,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 2,
+      "name": "abb_ranged_cannoneer_age04",
+      "material": "lod3",
+      "vertex_count": 223,
+      "edited_vertices": 37,
+      "edited_fraction": 0.1659,
+      "max_displacement_metres": 0.046,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    }
+  ],
+  "preserved": "native skeleton, SKIN indices/weights, UVs, topology, LOD metadata, all non-position/normal/tangent bytes",
+  "native_cook": "pending serial token",
+  "runtime": "unverified"
+}

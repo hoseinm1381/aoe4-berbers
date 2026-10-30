@@ -1,0 +1,48 @@
+{
+  "status": "geometry_prepared_no_cook",
+  "name": "masmuda_age4_candidate",
+  "recipe": "art\\unit_remix_0_5_0\\pilots\\masmuda_age4_candidate\\recipe.json",
+  "recipe_sha256": "39d4c749671d9172aba6630268598eeff3054b0dacbec7c995496fc2002f117f",
+  "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\4491db95c9348e17c7160affbb022da4d8db200218faadda415235184e5cd798\\decoded\\f92bb339e77661c8b0ad\\source\\art\\civilizations\\abbasids\\humans\\abb_ranged_crossbow_age04\\abb_ranged_crossbow_age04.rrgeom",
+  "source_sha256": "6d3bc10bc44fdb25e65baba20e8811d9586b63398155d25b16d5777479ced2d2",
+  "output": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\pilots\\masmuda_age4_candidate\\masmuda_age4_candidate.rrgeom",
+  "output_sha256": "cfd6eb92c82946b388daccc909bbc0a821b88c4f6a3d7985c95f21dabb6613cd",
+  "groups": [
+    {
+      "index": 0,
+      "name": "abb_ranged_crossbow_age04",
+      "material": "lod 1",
+      "vertex_count": 1097,
+      "edited_vertices": 507,
+      "edited_fraction": 0.4622,
+      "max_displacement_metres": 0.045,
+      "clipped_to_native_bounds": 2,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 1,
+      "name": "abb_ranged_crossbow_age04",
+      "material": "lod 2",
+      "vertex_count": 386,
+      "edited_vertices": 188,
+      "edited_fraction": 0.487,
+      "max_displacement_metres": 0.045,
+      "clipped_to_native_bounds": 2,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 2,
+      "name": "abb_ranged_crossbow_age04",
+      "material": "lod 3",
+      "vertex_count": 235,
+      "edited_vertices": 106,
+      "edited_fraction": 0.4511,
+      "max_displacement_metres": 0.045,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    }
+  ],
+  "preserved": "native skeleton, SKIN indices/weights, UVs, topology, LOD metadata, all non-position/normal/tangent bytes",
+  "native_cook": "pending serial token",
+  "runtime": "unverified"
+}

@@ -1,0 +1,48 @@
+{
+  "status": "geometry_prepared_no_cook",
+  "name": "masmuda_age3_candidate",
+  "recipe": "art\\unit_remix_0_5_0\\pilots\\masmuda_age3_candidate\\recipe.json",
+  "recipe_sha256": "aaf32d29983a214eab26bea9d8ee358cbf5e00af8e8955e12ac09e90eaaed038",
+  "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\beb1aef9e3508d8546e336b072aaccc6eb2ed107ef58171402c2b614048d16b7\\decoded\\d667b53cd9796660bfdd\\source\\art\\civilizations\\abbasids\\humans\\abb_ranged_crossbow_age03\\abb_ranged_crossbow_age03.rrgeom",
+  "source_sha256": "15636673059d089324c987ce5d737565127bfcbaf613816234b52468940e757e",
+  "output": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\pilots\\masmuda_age3_candidate\\masmuda_age3_candidate.rrgeom",
+  "output_sha256": "f790f001d55d0129d49f611ce2cf8aefb013397ab858e766c6ee62ef73deec64",
+  "groups": [
+    {
+      "index": 0,
+      "name": "abb_ranged_crossbow_age03",
+      "material": "lod1",
+      "vertex_count": 1167,
+      "edited_vertices": 471,
+      "edited_fraction": 0.4036,
+      "max_displacement_metres": 0.055,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 1,
+      "name": "abb_ranged_crossbow_age03",
+      "material": "lod2",
+      "vertex_count": 416,
+      "edited_vertices": 165,
+      "edited_fraction": 0.3966,
+      "max_displacement_metres": 0.055,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 2,
+      "name": "abb_ranged_crossbow_age03",
+      "material": "lod3",
+      "vertex_count": 223,
+      "edited_vertices": 88,
+      "edited_fraction": 0.3946,
+      "max_displacement_metres": 0.055,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    }
+  ],
+  "preserved": "native skeleton, SKIN indices/weights, UVs, topology, LOD metadata, all non-position/normal/tangent bytes",
+  "native_cook": "pending serial token",
+  "runtime": "unverified"
+}

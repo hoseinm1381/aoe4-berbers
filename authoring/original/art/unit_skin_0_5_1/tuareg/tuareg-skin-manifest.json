@@ -1,0 +1,194 @@
+{
+  "schema": "berber-051-tuareg-skin/v1",
+  "status": "private_source_pngs_prepared_no_cook",
+  "textures": [
+    {
+      "family": "tuareg",
+      "age": 1,
+      "target_texture": "art/scenario/garrison/tuareg_refined_art/units/tuareg_age1/body/albedo.rrtex",
+      "source_png": "art\\tuareg_refined\\exports\\tuareg_age1\\albedo.png",
+      "source_png_sha256": "3da18c7327638ebdf8f94696e98dcd34667b6137b2098a072d1ed2d3ab1a20dc",
+      "authored_png": "art\\unit_skin_0_5_1\\tuareg\\age1\\albedo.png",
+      "sha256": "94a5103e6e00b97444c353edce6933a175a7b152c23cbcffb7ad8ec1b96c9d4f",
+      "mask_png": "art\\unit_skin_0_5_1\\tuareg\\age1\\skin-mask.png",
+      "mask_sha256": "ce8ca52e6bd54690ea775435add4d05b89a92d88f14f745f400caa61b6d662e8",
+      "source_owner_pattern": "art\\tuareg_refined\\exports\\tuareg_age1\\pattern.png",
+      "source_owner_pattern_sha256": "1ffa4ada4b3c8a8113c371fe790e5406086de48ffb72a81a42a40c800457610b",
+      "source_native_pattern": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_skin_0_5_1\\tuareg\\native-pattern-age1.dds",
+      "source_native_pattern_sha256": "2d61404ba246ccfe9f81b4cc0bd7fffea84d6a038e530ca427168bcf207326dc",
+      "source_blend": "art\\tuareg_refined\\Tuareg_Refined_Ages_I_IV.blend",
+      "source_blend_sha256": "2e994506db15492315bc228f6453eaa86a950857f333a4fcfd2d79b09b82dd1f",
+      "rgba_size": [
+        1024,
+        1024
+      ],
+      "changed_pixels": 12249,
+      "changes_outside_skin_mask": 0,
+      "changed_owner_pixels": 0,
+      "changed_alpha_pixels": 0,
+      "selection": "native pattern G skin, excludes R owner and B hair, then exact original-to-baked UV triangles on retained native face/hands; neutral eyes and dark brows/pupils excluded by baked skin-pigment gate",
+      "palette": {
+        "shadow": [
+          113,
+          76,
+          63
+        ],
+        "mid": [
+          205,
+          161,
+          132
+        ],
+        "light": [
+          239,
+          201,
+          171
+        ]
+      },
+      "geometry": "unchanged accepted Tuareg",
+      "material": "unchanged; no skinTintLUT in accepted baked shader",
+      "native_cook": "pending root texture cook",
+      "native_appearance": "unverified"
+    },
+    {
+      "family": "tuareg",
+      "age": 2,
+      "target_texture": "art/scenario/garrison/tuareg_refined_art/units/tuareg_age2/body/albedo.rrtex",
+      "source_png": "art\\tuareg_refined\\exports\\tuareg_age2\\albedo.png",
+      "source_png_sha256": "60be50d5e85b238c420b87b1c3d140b162832d8880bb82e35a1a574449a92dc3",
+      "authored_png": "art\\unit_skin_0_5_1\\tuareg\\age2\\albedo.png",
+      "sha256": "50ab2841d1704d9297b5fcf063c5ef595acd28205e5b734647185b9f9078cb02",
+      "mask_png": "art\\unit_skin_0_5_1\\tuareg\\age2\\skin-mask.png",
+      "mask_sha256": "096ff28808bdc54c553a60ea0eaae359f2c6b9612aa708cd1445f600ffa55db1",
+      "source_owner_pattern": "art\\tuareg_refined\\exports\\tuareg_age2\\pattern.png",
+      "source_owner_pattern_sha256": "c34c1324e2956c64630dea1bbb9c1ba51fa870dbee1e0a8d54f52a1ba632c647",
+      "source_native_pattern": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_skin_0_5_1\\tuareg\\native-pattern-age2.dds",
+      "source_native_pattern_sha256": "1eaddb7e4d2a4e4ddadd66964a01e7380f563876b59a30b28a1b71066afb74de",
+      "source_blend": "art\\tuareg_refined\\Tuareg_Refined_Ages_I_IV.blend",
+      "source_blend_sha256": "2e994506db15492315bc228f6453eaa86a950857f333a4fcfd2d79b09b82dd1f",
+      "rgba_size": [
+        1024,
+        1024
+      ],
+      "changed_pixels": 11510,
+      "changes_outside_skin_mask": 0,
+      "changed_owner_pixels": 0,
+      "changed_alpha_pixels": 0,
+      "selection": "native pattern G skin, excludes R owner and B hair, then exact original-to-baked UV triangles on retained native face/hands; neutral eyes and dark brows/pupils excluded by baked skin-pigment gate",
+      "palette": {
+        "shadow": [
+          113,
+          76,
+          63
+        ],
+        "mid": [
+          205,
+          161,
+          132
+        ],
+        "light": [
+          239,
+          201,
+          171
+        ]
+      },
+      "geometry": "unchanged accepted Tuareg",
+      "material": "unchanged; no skinTintLUT in accepted baked shader",
+      "native_cook": "pending root texture cook",
+      "native_appearance": "unverified"
+    },
+    {
+      "family": "tuareg",
+      "age": 3,
+      "target_texture": "art/scenario/garrison/tuareg_refined_art/units/tuareg_age3/body/albedo.rrtex",
+      "source_png": "art\\tuareg_refined\\exports\\tuareg_age3\\albedo.png",
+      "source_png_sha256": "f4b960a1dbd7b9f649a36bb8b72a03c6778831289520e710855719749895d2f0",
+      "authored_png": "art\\unit_skin_0_5_1\\tuareg\\age3\\albedo.png",
+      "sha256": "348375e4c2c3cca0bd32dfdaf96deb4b9e89d91ab30e379bccd1a8bd688f2ba2",
+      "mask_png": "art\\unit_skin_0_5_1\\tuareg\\age3\\skin-mask.png",
+      "mask_sha256": "603d44eed57224b8e87a5c99df35f3b6995e2f46d67cf4bdfabc7a8047b90870",
+      "source_owner_pattern": "art\\tuareg_refined\\exports\\tuareg_age3\\pattern.png",
+      "source_owner_pattern_sha256": "97530879ff6ae4dd56c5d14f73ce8d4b48ca81b6d9bc4f2f3b8f5d79cd419e4c",
+      "source_native_pattern": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_skin_0_5_1\\tuareg\\native-pattern-age3.dds",
+      "source_native_pattern_sha256": "de02e5a96476b66e313464959c945382159b1fa7bf0292e6303281b1ea6dc5ff",
+      "source_blend": "art\\tuareg_refined\\Tuareg_Refined_Ages_I_IV.blend",
+      "source_blend_sha256": "2e994506db15492315bc228f6453eaa86a950857f333a4fcfd2d79b09b82dd1f",
+      "rgba_size": [
+        1024,
+        1024
+      ],
+      "changed_pixels": 8920,
+      "changes_outside_skin_mask": 0,
+      "changed_owner_pixels": 0,
+      "changed_alpha_pixels": 0,
+      "selection": "native pattern G skin, excludes R owner and B hair, then exact original-to-baked UV triangles on retained native face/hands; neutral eyes and dark brows/pupils excluded by baked skin-pigment gate",
+      "palette": {
+        "shadow": [
+          113,
+          76,
+          63
+        ],
+        "mid": [
+          205,
+          161,
+          132
+        ],
+        "light": [
+          239,
+          201,
+          171
+        ]
+      },
+      "geometry": "unchanged accepted Tuareg",
+      "material": "unchanged; no skinTintLUT in accepted baked shader",
+      "native_cook": "pending root texture cook",
+      "native_appearance": "unverified"
+    },
+    {
+      "family": "tuareg",
+      "age": 4,
+      "target_texture": "art/scenario/garrison/tuareg_refined_art/units/tuareg_age4/body/albedo.rrtex",
+      "source_png": "art\\tuareg_refined\\exports\\tuareg_age4\\albedo.png",
+      "source_png_sha256": "77f8a1f1d39466bd6396f7737ccec9b4e84afdf975354497ab581f6920bea239",
+      "authored_png": "art\\unit_skin_0_5_1\\tuareg\\age4\\albedo.png",
+      "sha256": "b5be3d2a18c900b0cc480753f0eca4696f07ddffe3fb4f4388f4247cd295bc07",
+      "mask_png": "art\\unit_skin_0_5_1\\tuareg\\age4\\skin-mask.png",
+      "mask_sha256": "a1a172c4467bec5182fb3a1276699444c017052ef25cb82dad026e7ebdae2dfc",
+      "source_owner_pattern": "art\\tuareg_refined\\exports\\tuareg_age4\\pattern.png",
+      "source_owner_pattern_sha256": "9c0d8c1eec2dbb87079b33ae8e180817bc7dd97e6e081ae312ee580931f4559e",
+      "source_native_pattern": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_skin_0_5_1\\tuareg\\native-pattern-age4.dds",
+      "source_native_pattern_sha256": "8d5de5bc19137466e7caf8f072370d8e292b79917ef8f808c56cbb894f32a8d4",
+      "source_blend": "art\\tuareg_refined\\Tuareg_Refined_Ages_I_IV.blend",
+      "source_blend_sha256": "2e994506db15492315bc228f6453eaa86a950857f333a4fcfd2d79b09b82dd1f",
+      "rgba_size": [
+        1024,
+        1024
+      ],
+      "changed_pixels": 5075,
+      "changes_outside_skin_mask": 0,
+      "changed_owner_pixels": 0,
+      "changed_alpha_pixels": 0,
+      "selection": "native pattern G skin, excludes R owner and B hair, then exact original-to-baked UV triangles on retained native face/hands; neutral eyes and dark brows/pupils excluded by baked skin-pigment gate",
+      "palette": {
+        "shadow": [
+          113,
+          76,
+          63
+        ],
+        "mid": [
+          205,
+          161,
+          132
+        ],
+        "light": [
+          239,
+          201,
+          171
+        ]
+      },
+      "geometry": "unchanged accepted Tuareg",
+      "material": "unchanged; no skinTintLUT in accepted baked shader",
+      "native_cook": "pending root texture cook",
+      "native_appearance": "unverified"
+    }
+  ]
+}

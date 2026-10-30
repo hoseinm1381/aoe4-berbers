@@ -1,0 +1,536 @@
+{
+  "schema": "berber-050-unit-geometry/v1",
+  "name": "abb_archer_age2_pilot",
+  "manifest": "output\\shared_stock_cache\\units_050\\46f0c2bba7f6f0abb21eca232d024f466ae94bc028aa8d803732c54c2b003781\\decoded\\8a58c40f9bdeafad90e1\\decoded-static.json",
+  "manifest_sha256": "d06bc3ef44201de96c0dfe026a4b2f1023ed28517def44e578ceb5f2b01f7907",
+  "logical_path": "art/civilizations/abbasids/humans/abb_ranged_bow_age02/abb_ranged_bow_age02.rgm",
+  "geometry_sha256": "9a69258ff7133c7743eb4d64ad06a72ae3b610fc23d805d1d1aa1ec6948421cc",
+  "design": "Abbasid native archer tailored for early Berber service: wider layered turban wrap, flared split robe hem, shaped sleeves and raised front collar; preserve bow/quiver, native rig/skin/LOD/UV and owner colour mask",
+  "groups": [
+    {
+      "index": 0,
+      "max_displacement_metres": 0.09,
+      "features": [
+        {
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            1,
+            1
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "radial_expand",
+          "z_window": [
+            1.56,
+            1.65,
+            1.79,
+            1.88
+          ],
+          "metres": 0.035,
+          "abs_x_window": [
+            0,
+            0.01,
+            0.14,
+            0.19
+          ]
+        },
+        {
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            1,
+            1
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "lateral_expand",
+          "z_window": [
+            0.24,
+            0.34,
+            0.57,
+            0.7
+          ],
+          "metres": 0.05,
+          "abs_x_window": [
+            0.05,
+            0.1,
+            0.3,
+            0.39
+          ]
+        },
+        {
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            1,
+            1
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "front_drape",
+          "z_window": [
+            0.45,
+            0.58,
+            0.88,
+            1.02
+          ],
+          "metres": 0.025,
+          "abs_x_window": [
+            0,
+            0.02,
+            0.25,
+            0.34
+          ],
+          "y_window": [
+            -0.32,
+            -0.25,
+            -0.06,
+            0.03
+          ]
+        },
+        {
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            1,
+            1
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "lateral_expand",
+          "z_window": [
+            1.06,
+            1.12,
+            1.32,
+            1.5
+          ],
+          "metres": 0.021,
+          "abs_x_window": [
+            0.19,
+            0.25,
+            0.51,
+            0.57
+          ]
+        },
+        {
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            1,
+            1
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "axis_shift",
+          "z_window": [
+            1.37,
+            1.43,
+            1.54,
+            1.63
+          ],
+          "metres": 0.024,
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "abs_x_window": [
+            0,
+            0.02,
+            0.2,
+            0.28
+          ],
+          "y_window": [
+            -0.32,
+            -0.25,
+            -0.04,
+            0.04
+          ]
+        }
+      ],
+      "contain_within_donor_bounds": true,
+      "max_clipped_fraction": 0.15
+    },
+    {
+      "index": 1,
+      "max_displacement_metres": 0.09,
+      "features": [
+        {
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            1,
+            1
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "radial_expand",
+          "z_window": [
+            1.56,
+            1.65,
+            1.79,
+            1.88
+          ],
+          "metres": 0.035,
+          "abs_x_window": [
+            0,
+            0.01,
+            0.14,
+            0.19
+          ]
+        },
+        {
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            1,
+            1
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "lateral_expand",
+          "z_window": [
+            0.24,
+            0.34,
+            0.57,
+            0.7
+          ],
+          "metres": 0.05,
+          "abs_x_window": [
+            0.05,
+            0.1,
+            0.3,
+            0.39
+          ]
+        },
+        {
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            1,
+            1
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "front_drape",
+          "z_window": [
+            0.45,
+            0.58,
+            0.88,
+            1.02
+          ],
+          "metres": 0.025,
+          "abs_x_window": [
+            0,
+            0.02,
+            0.25,
+            0.34
+          ],
+          "y_window": [
+            -0.32,
+            -0.25,
+            -0.06,
+            0.03
+          ]
+        },
+        {
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            1,
+            1
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "lateral_expand",
+          "z_window": [
+            1.06,
+            1.12,
+            1.32,
+            1.5
+          ],
+          "metres": 0.021,
+          "abs_x_window": [
+            0.19,
+            0.25,
+            0.51,
+            0.57
+          ]
+        },
+        {
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            1,
+            1
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "axis_shift",
+          "z_window": [
+            1.37,
+            1.43,
+            1.54,
+            1.63
+          ],
+          "metres": 0.024,
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "abs_x_window": [
+            0,
+            0.02,
+            0.2,
+            0.28
+          ],
+          "y_window": [
+            -0.32,
+            -0.25,
+            -0.04,
+            0.04
+          ]
+        }
+      ],
+      "contain_within_donor_bounds": true,
+      "max_clipped_fraction": 0.15
+    },
+    {
+      "index": 2,
+      "max_displacement_metres": 0.09,
+      "features": [
+        {
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            1,
+            1
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "radial_expand",
+          "z_window": [
+            1.56,
+            1.65,
+            1.79,
+            1.88
+          ],
+          "metres": 0.035,
+          "abs_x_window": [
+            0,
+            0.01,
+            0.14,
+            0.19
+          ]
+        },
+        {
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            1,
+            1
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "lateral_expand",
+          "z_window": [
+            0.24,
+            0.34,
+            0.57,
+            0.7
+          ],
+          "metres": 0.05,
+          "abs_x_window": [
+            0.05,
+            0.1,
+            0.3,
+            0.39
+          ]
+        },
+        {
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            1,
+            1
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "front_drape",
+          "z_window": [
+            0.45,
+            0.58,
+            0.88,
+            1.02
+          ],
+          "metres": 0.025,
+          "abs_x_window": [
+            0,
+            0.02,
+            0.25,
+            0.34
+          ],
+          "y_window": [
+            -0.32,
+            -0.25,
+            -0.06,
+            0.03
+          ]
+        },
+        {
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            1,
+            1
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "lateral_expand",
+          "z_window": [
+            1.06,
+            1.12,
+            1.32,
+            1.5
+          ],
+          "metres": 0.021,
+          "abs_x_window": [
+            0.19,
+            0.25,
+            0.51,
+            0.57
+          ]
+        },
+        {
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            1,
+            1
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "kind": "axis_shift",
+          "z_window": [
+            1.37,
+            1.43,
+            1.54,
+            1.63
+          ],
+          "metres": 0.024,
+          "direction": [
+            0,
+            -1,
+            0
+          ],
+          "abs_x_window": [
+            0,
+            0.02,
+            0.2,
+            0.28
+          ],
+          "y_window": [
+            -0.32,
+            -0.25,
+            -0.04,
+            0.04
+          ]
+        }
+      ],
+      "contain_within_donor_bounds": true,
+      "max_clipped_fraction": 0.15
+    }
+  ]
+}

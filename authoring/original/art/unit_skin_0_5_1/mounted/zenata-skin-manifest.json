@@ -1,0 +1,27 @@
+{
+  "textures": [
+    {
+      "family": "zenata",
+      "age": 4,
+      "target_texture": "art/scenario/garrison/berber_units_050/zenata_age04/albedotexture.rrtex",
+      "source_png": "art\\unit_remix_0_5_0\\mounted\\zenata_age04\\rider-albedo.png",
+      "source_png_sha256": "747d8ba0fb02e1ecc69663003609eef20ef20970ea6808e29acd645ab6771285",
+      "authored_png": "art\\unit_skin_0_5_1\\mounted\\zenata_age04\\rider-albedo.png",
+      "sha256": "cb7312651a3f6f7034dd52ab47b15c87fe4676463ec7ac059eee2f7a10abb7b5",
+      "mask_png": "art\\unit_skin_0_5_1\\mounted\\zenata_age04\\skin-mask.png",
+      "mask_sha256": "07df4c5553b38feae9fc90d209e581a2f3e4116a6ab88c68b7dec8b3d103506d",
+      "source_owner_pattern": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\cdcf1a7b30c6174a7b60ac06e76e8f13353d997ce981122af47545c191791e52\\decoded\\d4dcb6e6172b4d43c16e\\textures\\c617c28eb118_3884620340264395773_packed.dds",
+      "source_owner_pattern_sha256": "82e0344ff9aa9c147e5b1793aef6c332bc968527a55cd2c5441ea5e04ffa0fce",
+      "changed_pixels": 12332,
+      "changes_outside_skin_mask": 0,
+      "changed_owner_pixels": 0,
+      "changed_alpha_pixels": 0,
+      "target_base_rgb": [
+        225,
+        188,
+        163
+      ],
+      "shade_rule": "native luminance / 125 clamped .42..1.18; UV-bounded warm skin pixels only; native owner red and hair blue excluded"
+    }
+  ]
+}

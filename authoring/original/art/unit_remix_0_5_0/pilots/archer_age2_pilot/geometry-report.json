@@ -1,0 +1,48 @@
+{
+  "status": "geometry_prepared_no_cook",
+  "name": "archer_age2_pilot",
+  "recipe": "art\\unit_remix_0_5_0\\pilots\\archer_age2_pilot\\recipe.json",
+  "recipe_sha256": "3238f26dedf196a29d3620538a1808617f41952f48ae2e9cf073025aabccbdd3",
+  "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\5f6aec8fc25c98989d9d4ceb72b67c788c5c8e4f9536eaebed4e3f1e6e52a40b\\decoded\\b91451cefa2b7d9202b4\\source\\art\\civilizations\\malian\\humans\\mal_ranged_bow_age02\\mal_ranged_bow_age02.rrgeom",
+  "source_sha256": "8b64afb22d6384938a23811db746c6941f726ff30383da15c4f05bc7d28cfaaa",
+  "output": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\pilots\\archer_age2_pilot\\archer_age2_pilot.rrgeom",
+  "output_sha256": "a12c274e1de7a5705a58b5e98b8364d602ca98441bc4d34ca54c7201fa76a0dd",
+  "groups": [
+    {
+      "index": 0,
+      "name": "mal_ranged_bow_age02",
+      "material": "lod1",
+      "vertex_count": 1263,
+      "edited_vertices": 686,
+      "edited_fraction": 0.5432,
+      "max_displacement_metres": 0.055,
+      "clipped_to_native_bounds": 15,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 1,
+      "name": "mal_ranged_bow_age02",
+      "material": "lod2",
+      "vertex_count": 609,
+      "edited_vertices": 301,
+      "edited_fraction": 0.4943,
+      "max_displacement_metres": 0.055,
+      "clipped_to_native_bounds": 4,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 2,
+      "name": "mal_ranged_bow_age02",
+      "material": "lod3",
+      "vertex_count": 347,
+      "edited_vertices": 195,
+      "edited_fraction": 0.562,
+      "max_displacement_metres": 0.055,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    }
+  ],
+  "preserved": "native skeleton, SKIN indices/weights, UVs, topology, LOD metadata, all non-position/normal/tangent bytes",
+  "native_cook": "pending serial token",
+  "runtime": "unverified"
+}

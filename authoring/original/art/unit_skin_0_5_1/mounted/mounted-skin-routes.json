@@ -1,0 +1,768 @@
+{
+  "resources": [
+    {
+      "name": "lancer_age03",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/lancer_age03/lancer_age03",
+      "route": "native_skinTintLUT_reference_only",
+      "skin_slots": [
+        {
+          "material": "rider_lod2",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod3",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod1",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        }
+      ],
+      "skin_only_png": null,
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": true,
+      "reason": "Native shader selects skin through pattern G; owner R and hair B preserved."
+    },
+    {
+      "name": "lancer_age04",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/lancer_age04/lancer_age04",
+      "route": "native_skinTintLUT_reference_only",
+      "skin_slots": [
+        {
+          "material": "rider_lod1",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/sultanate/humans/tints/sul_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod3",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/sultanate/humans/tints/sul_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod2",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/sultanate/humans/tints/sul_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        }
+      ],
+      "skin_only_png": null,
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": true,
+      "reason": "Native shader selects skin through pattern G; owner R and hair B preserved."
+    },
+    {
+      "name": "mehari_age02",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/mehari_age02/mehari_age02",
+      "route": "native_skinTintLUT_reference_only",
+      "skin_slots": [
+        {
+          "material": "rider_lod1",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod2",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod3",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        }
+      ],
+      "skin_only_png": null,
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": true,
+      "reason": "Native shader selects skin through pattern G; owner R and hair B preserved."
+    },
+    {
+      "name": "mehari_age03",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/mehari_age03/mehari_age03",
+      "route": "native_skinTintLUT_reference_only",
+      "skin_slots": [
+        {
+          "material": "rider_lod1",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod2",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod3",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        }
+      ],
+      "skin_only_png": null,
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": true,
+      "reason": "Native shader selects skin through pattern G; owner R and hair B preserved."
+    },
+    {
+      "name": "mehari_age04",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/mehari_age04/mehari_age04",
+      "route": "native_skinTintLUT_reference_only",
+      "skin_slots": [
+        {
+          "material": "rider_lod1",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod2",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod3",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        }
+      ],
+      "skin_only_png": null,
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": true,
+      "reason": "Native shader selects skin through pattern G; owner R and hair B preserved."
+    },
+    {
+      "name": "sanhaja_age02",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/sanhaja_age02/sanhaja_age02",
+      "route": "native_skinTintLUT_reference_only",
+      "skin_slots": [
+        {
+          "material": "rider_lod1",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod2",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod3",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        }
+      ],
+      "skin_only_png": null,
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": true,
+      "reason": "Native shader selects skin through pattern G; owner R and hair B preserved."
+    },
+    {
+      "name": "sanhaja_age03",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/sanhaja_age03/sanhaja_age03",
+      "route": "native_skinTintLUT_reference_only",
+      "skin_slots": [
+        {
+          "material": "rider_lod1",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod2",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod3",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        }
+      ],
+      "skin_only_png": null,
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": true,
+      "reason": "Native shader selects skin through pattern G; owner R and hair B preserved."
+    },
+    {
+      "name": "sanhaja_age03_part02",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/sanhaja_age03_part02/sanhaja_age03_part02",
+      "route": "native_skinTintLUT_reference_only",
+      "skin_slots": [
+        {
+          "material": "rider_lod1",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod2",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod3",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        }
+      ],
+      "skin_only_png": null,
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": true,
+      "reason": "Native shader selects skin through pattern G; owner R and hair B preserved."
+    },
+    {
+      "name": "sanhaja_age04",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/sanhaja_age04/sanhaja_age04",
+      "route": "native_skinTintLUT_reference_only",
+      "skin_slots": [
+        {
+          "material": "rider_lod1",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod3",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod2",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        }
+      ],
+      "skin_only_png": null,
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": true,
+      "reason": "Native shader selects skin through pattern G; owner R and hair B preserved."
+    },
+    {
+      "name": "sanhaja_age04_part02",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/sanhaja_age04_part02/sanhaja_age04_part02",
+      "route": "native_skinTintLUT_reference_only",
+      "skin_slots": [
+        {
+          "material": "rider_lod1",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod2",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod3",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        }
+      ],
+      "skin_only_png": null,
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": true,
+      "reason": "Native shader selects skin through pattern G; owner R and hair B preserved."
+    },
+    {
+      "name": "scout_age01",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/scout_age01/scout_age01",
+      "route": "native_skinTintLUT_reference_only",
+      "skin_slots": [
+        {
+          "material": "rider_lod1",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/malian/humans/tints/mal_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod2",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/malian/humans/tints/mal_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod3",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/malian/humans/tints/mal_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        }
+      ],
+      "skin_only_png": null,
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": true,
+      "reason": "Native shader selects skin through pattern G; owner R and hair B preserved."
+    },
+    {
+      "name": "scout_age02",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/scout_age02/scout_age02",
+      "route": "native_skinTintLUT_reference_only",
+      "skin_slots": [
+        {
+          "material": "rider_lod1",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/malian/humans/tints/mal_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod2",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/malian/humans/tints/mal_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod3",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/malian/humans/tints/mal_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        }
+      ],
+      "skin_only_png": null,
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": true,
+      "reason": "Native shader selects skin through pattern G; owner R and hair B preserved."
+    },
+    {
+      "name": "scout_age02_part02",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/scout_age02_part02/scout_age02_part02",
+      "route": "native_skinTintLUT_reference_only",
+      "skin_slots": [
+        {
+          "material": "rider_lod1",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/malian/humans/tints/mal_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod2",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/malian/humans/tints/mal_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod3",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/malian/humans/tints/mal_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        }
+      ],
+      "skin_only_png": null,
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": true,
+      "reason": "Native shader selects skin through pattern G; owner R and hair B preserved."
+    },
+    {
+      "name": "scout_age03",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/scout_age03/scout_age03",
+      "route": "native_skinTintLUT_reference_only",
+      "skin_slots": [
+        {
+          "material": "rider_lod1",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/malian/humans/tints/mal_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod2",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/malian/humans/tints/mal_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod3",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/malian/humans/tints/mal_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        }
+      ],
+      "skin_only_png": null,
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": true,
+      "reason": "Native shader selects skin through pattern G; owner R and hair B preserved."
+    },
+    {
+      "name": "scout_age04",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/scout_age04/scout_age04",
+      "route": "native_skinTintLUT_reference_only",
+      "skin_slots": [
+        {
+          "material": "rider_lod1",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/malian/humans/tints/mal_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod2",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/malian/humans/tints/mal_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod3",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/malian/humans/tints/mal_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        }
+      ],
+      "skin_only_png": null,
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": true,
+      "reason": "Native shader selects skin through pattern G; owner R and hair B preserved."
+    },
+    {
+      "name": "zenata_age02",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/zenata_age02/zenata_age02",
+      "route": "native_skinTintLUT_reference_only",
+      "skin_slots": [
+        {
+          "material": "lod1",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/ottoman/humans/tints/ott_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "lod2",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/ottoman/humans/tints/ott_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "lod3",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/ottoman/humans/tints/ott_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        }
+      ],
+      "skin_only_png": null,
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": true,
+      "reason": "Native shader selects skin through pattern G; owner R and hair B preserved."
+    },
+    {
+      "name": "zenata_age03",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/zenata_age03/zenata_age03",
+      "route": "native_skinTintLUT_reference_only",
+      "skin_slots": [
+        {
+          "material": "rider_lod1",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod2",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod3",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        }
+      ],
+      "skin_only_png": null,
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": true,
+      "reason": "Native shader selects skin through pattern G; owner R and hair B preserved."
+    },
+    {
+      "name": "zenata_age04",
+      "state": "body",
+      "private_stem": "art/scenario/garrison/berber_units_050/zenata_age04/zenata_age04",
+      "route": "baked_albedo_skin_mask",
+      "skin_slots": [],
+      "skin_only_png": "art/unit_skin_0_5_1/mounted/zenata_age04/rider-albedo.png",
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": false,
+      "reason": "Saladin donor has baked face/hands and no native skinTintLUT slot; bounded fair-skin PNG only."
+    },
+    {
+      "name": "mehari_age02_upgrade",
+      "state": "upgrade",
+      "private_stem": "art/scenario/garrison/berber_units_050/mehari_age02_upgrade/mehari_age02_upgrade",
+      "route": "native_skinTintLUT_reference_only",
+      "skin_slots": [
+        {
+          "material": "rider_lod3",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod2",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod1",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        }
+      ],
+      "skin_only_png": null,
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": true,
+      "reason": "Native shader selects skin through pattern G; owner R and hair B preserved."
+    },
+    {
+      "name": "mehari_age03_upgrade",
+      "state": "upgrade",
+      "private_stem": "art/scenario/garrison/berber_units_050/mehari_age03_upgrade/mehari_age03_upgrade",
+      "route": "native_skinTintLUT_reference_only",
+      "skin_slots": [
+        {
+          "material": "rider_lod3",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod2",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod1",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        }
+      ],
+      "skin_only_png": null,
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": true,
+      "reason": "Native shader selects skin through pattern G; owner R and hair B preserved."
+    },
+    {
+      "name": "mehari_age04_upgrade",
+      "state": "upgrade",
+      "private_stem": "art/scenario/garrison/berber_units_050/mehari_age04_upgrade/mehari_age04_upgrade",
+      "route": "native_skinTintLUT_reference_only",
+      "skin_slots": [
+        {
+          "material": "rider_lod1",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod2",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod3",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        }
+      ],
+      "skin_only_png": null,
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": true,
+      "reason": "Native shader selects skin through pattern G; owner R and hair B preserved."
+    },
+    {
+      "name": "sanhaja_age02_upgrade",
+      "state": "upgrade",
+      "private_stem": "art/scenario/garrison/berber_units_050/sanhaja_age02_upgrade/sanhaja_age02_upgrade",
+      "route": "native_skinTintLUT_reference_only",
+      "skin_slots": [
+        {
+          "material": "rider_lod1",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod2",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod3",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        }
+      ],
+      "skin_only_png": null,
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": true,
+      "reason": "Native shader selects skin through pattern G; owner R and hair B preserved."
+    },
+    {
+      "name": "sanhaja_age03_upgrade",
+      "state": "upgrade",
+      "private_stem": "art/scenario/garrison/berber_units_050/sanhaja_age03_upgrade/sanhaja_age03_upgrade",
+      "route": "native_skinTintLUT_reference_only",
+      "skin_slots": [
+        {
+          "material": "rider_lod3",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod2",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod1",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        }
+      ],
+      "skin_only_png": null,
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": true,
+      "reason": "Native shader selects skin through pattern G; owner R and hair B preserved."
+    },
+    {
+      "name": "sanhaja_age04_upgrade",
+      "state": "upgrade",
+      "private_stem": "art/scenario/garrison/berber_units_050/sanhaja_age04_upgrade/sanhaja_age04_upgrade",
+      "route": "native_skinTintLUT_reference_only",
+      "skin_slots": [
+        {
+          "material": "rider_lod1",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod2",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod3",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        }
+      ],
+      "skin_only_png": null,
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": true,
+      "reason": "Native shader selects skin through pattern G; owner R and hair B preserved."
+    },
+    {
+      "name": "sanhaja_age03_upgrade_part02",
+      "state": "upgrade",
+      "private_stem": "art/scenario/garrison/berber_units_050/sanhaja_age03_upgrade_part02/sanhaja_age03_upgrade_part02",
+      "route": "native_skinTintLUT_reference_only",
+      "skin_slots": [
+        {
+          "material": "rider_lod1",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod2",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod3",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        }
+      ],
+      "skin_only_png": null,
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": true,
+      "reason": "Native shader selects skin through pattern G; owner R and hair B preserved."
+    },
+    {
+      "name": "sanhaja_age04_upgrade_part02",
+      "state": "upgrade",
+      "private_stem": "art/scenario/garrison/berber_units_050/sanhaja_age04_upgrade_part02/sanhaja_age04_upgrade_part02",
+      "route": "native_skinTintLUT_reference_only",
+      "skin_slots": [
+        {
+          "material": "rider_lod1",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod2",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        },
+        {
+          "material": "rider_lod3",
+          "slot": "skinTintLUT",
+          "source": "art/civilizations/abbasids/humans/tints/abb_skin_tinting_lut.rrtex",
+          "target": "art/scenario/garrison/berber_skin_051/fair_skin_lut.rrtex"
+        }
+      ],
+      "skin_only_png": null,
+      "geometry_unchanged": true,
+      "albedo_png_unchanged": true,
+      "reason": "Native shader selects skin through pattern G; owner R and hair B preserved."
+    }
+  ],
+  "resource_count": 26,
+  "lut_resource_count": 25,
+  "baked_resource_count": 1
+}

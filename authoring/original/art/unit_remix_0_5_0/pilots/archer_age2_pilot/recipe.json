@@ -1,0 +1,251 @@
+{
+  "schema": "berber-050-unit-geometry/v1",
+  "name": "archer_age2_pilot",
+  "manifest": "output\\shared_stock_cache\\units_050\\5f6aec8fc25c98989d9d4ceb72b67c788c5c8e4f9536eaebed4e3f1e6e52a40b\\decoded\\b91451cefa2b7d9202b4\\decoded-static.json",
+  "manifest_sha256": "ca5af8861dab36e48be3b66f4e425944b2131769381406203eecea7155a0403d",
+  "logical_path": "art/civilizations/malian/humans/mal_ranged_bow_age02/mal_ranged_bow_age02.rgm",
+  "geometry_sha256": "8b64afb22d6384938a23811db746c6941f726ff30383da15c4f05bc7d28cfaaa",
+  "design": "Malian native bowman, reshaped Maghrebi split robe, front drape and head cloth; retains native body/rig/UV/skin/equipment",
+  "groups": [
+    {
+      "index": 0,
+      "max_displacement_metres": 0.085,
+      "features": [
+        {
+          "kind": "radial_expand",
+          "z_window": [
+            0.58,
+            0.68,
+            0.86,
+            0.98
+          ],
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            0.37,
+            0.22
+          ],
+          "radial_window": [
+            0.12,
+            0.24,
+            0.92,
+            1.35
+          ],
+          "metres": 0.055
+        },
+        {
+          "kind": "front_drape",
+          "z_window": [
+            0.91,
+            1.05,
+            1.38,
+            1.52
+          ],
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            0.34,
+            0.23
+          ],
+          "radial_window": [
+            0.15,
+            0.25,
+            0.85,
+            1.25
+          ],
+          "metres": 0.025
+        },
+        {
+          "kind": "radial_expand",
+          "z_window": [
+            1.61,
+            1.69,
+            1.88,
+            1.96
+          ],
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            0.2,
+            0.18
+          ],
+          "radial_window": [
+            0.18,
+            0.32,
+            0.74,
+            1.1
+          ],
+          "metres": 0.035
+        }
+      ],
+      "contain_within_donor_bounds": true,
+      "max_clipped_fraction": 0.03
+    },
+    {
+      "index": 1,
+      "max_displacement_metres": 0.085,
+      "features": [
+        {
+          "kind": "radial_expand",
+          "z_window": [
+            0.58,
+            0.68,
+            0.86,
+            0.98
+          ],
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            0.37,
+            0.22
+          ],
+          "radial_window": [
+            0.12,
+            0.24,
+            0.92,
+            1.35
+          ],
+          "metres": 0.055
+        },
+        {
+          "kind": "front_drape",
+          "z_window": [
+            0.91,
+            1.05,
+            1.38,
+            1.52
+          ],
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            0.34,
+            0.23
+          ],
+          "radial_window": [
+            0.15,
+            0.25,
+            0.85,
+            1.25
+          ],
+          "metres": 0.025
+        },
+        {
+          "kind": "radial_expand",
+          "z_window": [
+            1.61,
+            1.69,
+            1.88,
+            1.96
+          ],
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            0.2,
+            0.18
+          ],
+          "radial_window": [
+            0.18,
+            0.32,
+            0.74,
+            1.1
+          ],
+          "metres": 0.035
+        }
+      ],
+      "contain_within_donor_bounds": true,
+      "max_clipped_fraction": 0.03
+    },
+    {
+      "index": 2,
+      "max_displacement_metres": 0.085,
+      "features": [
+        {
+          "kind": "radial_expand",
+          "z_window": [
+            0.58,
+            0.68,
+            0.86,
+            0.98
+          ],
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            0.37,
+            0.22
+          ],
+          "radial_window": [
+            0.12,
+            0.24,
+            0.92,
+            1.35
+          ],
+          "metres": 0.055
+        },
+        {
+          "kind": "front_drape",
+          "z_window": [
+            0.91,
+            1.05,
+            1.38,
+            1.52
+          ],
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            0.34,
+            0.23
+          ],
+          "radial_window": [
+            0.15,
+            0.25,
+            0.85,
+            1.25
+          ],
+          "metres": 0.025
+        },
+        {
+          "kind": "radial_expand",
+          "z_window": [
+            1.61,
+            1.69,
+            1.88,
+            1.96
+          ],
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            0.2,
+            0.18
+          ],
+          "radial_window": [
+            0.18,
+            0.32,
+            0.74,
+            1.1
+          ],
+          "metres": 0.035
+        }
+      ],
+      "contain_within_donor_bounds": true,
+      "max_clipped_fraction": 0.03
+    }
+  ]
+}
