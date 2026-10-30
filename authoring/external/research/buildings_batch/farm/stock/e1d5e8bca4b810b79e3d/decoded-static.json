@@ -1,0 +1,1019 @@
+{
+  "schema": "garrison.decoded-stock-static/v1",
+  "status": "decoded",
+  "mode": "read_only_stock",
+  "request": {
+    "logical_path": "art/environment/nat_economy/farm/farm_wheat/field_crop_depleted.rgm"
+  },
+  "companion_policy": "same_stem",
+  "cache_root": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d",
+  "decoder_fingerprint": {
+    "sha256": "15120772b5bd1232ed437736135322b7814f82a07b0843c3e00b8b9defe01b7a",
+    "sources": {
+      "compiled_core": "15120772b5bd1232ed437736135322b7814f82a07b0843c3e00b8b9defe01b7a"
+    }
+  },
+  "provider_contract": {
+    "geometry": {
+      "logical_path": "art/environment/nat_economy/farm/farm_wheat/field_crop_depleted.rrgeom",
+      "provider_archive_id": "GameDX12Assets",
+      "archive_version": "10",
+      "size": 4761
+    },
+    "material": {
+      "logical_path": "art/environment/nat_economy/farm/farm_wheat/field_crop_depleted.rrmaterial",
+      "provider_archive_id": "GameDX12Assets",
+      "archive_version": "10",
+      "size": 695
+    },
+    "model": {
+      "logical_path": "art/environment/nat_economy/farm/farm_wheat/field_crop_depleted.rgm",
+      "provider_archive_id": "CardinalArtHigh",
+      "archive_version": "10",
+      "size": 846
+    }
+  },
+  "geometry": {
+    "schema": "garrison.decoded-rrgeometry/v1",
+    "source": {
+      "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\source\\art\\environment\\nat_economy\\farm\\farm_wheat\\field_crop_depleted.rrgeom",
+      "size": 4761,
+      "sha256": "7ad9db6149820a541f7841baaea0ddf4b32eda1b7fbc93248b87564f056f532e"
+    },
+    "coordinate_projection": {
+      "position": "blender=(-cooked.x,-cooked.z,cooked.y)",
+      "uv": "blender=(cooked.u,1-cooked.v)",
+      "triangle_winding": "reversed"
+    },
+    "groups": [
+      {
+        "name": "field_crop_depleted",
+        "mesh_index": 0,
+        "group_index": 0,
+        "material": "wheat_crop_grow",
+        "effect": "vegetation",
+        "stream": "VegetationDataStream",
+        "positions": [
+          [
+            -0.01538848876953125,
+            0.02166748046875,
+            -0.007167816162109375
+          ],
+          [
+            -0.01247406005859375,
+            -0.01776123046875,
+            0.043487548828125
+          ],
+          [
+            -0.038970947265625,
+            0.00679779052734375,
+            0.032958984375
+          ],
+          [
+            0.0110931396484375,
+            -0.0029010772705078125,
+            0.00336456298828125
+          ]
+        ],
+        "normals": [
+          [
+            0.4540543458909868,
+            0.7202241348615653,
+            0.5245110547361399
+          ],
+          [
+            0.4540543458909868,
+            0.7202241348615653,
+            0.5245110547361399
+          ],
+          [
+            0.4540543458909868,
+            0.7202241348615653,
+            0.5245110547361399
+          ],
+          [
+            0.4540543458909868,
+            0.7202241348615653,
+            0.5245110547361399
+          ]
+        ],
+        "uv_layers": {
+          "UVMap": [
+            [
+              0.49169921875,
+              0.54541015625
+            ],
+            [
+              0.002056121826171875,
+              0.9938278198242188
+            ],
+            [
+              0.49169921875,
+              0.9938278198242188
+            ],
+            [
+              0.002056121826171875,
+              0.54541015625
+            ]
+          ]
+        },
+        "collection_bone_indices": [],
+        "collection_bone_index_count": 0,
+        "skin_indices": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "skin_weights": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "skin_projection": {
+          "status": "palette_indices_and_weights_decoded",
+          "index_encoding": "uint8x4",
+          "weight_encoding": "unorm8x4",
+          "weight_byte_sum": 255,
+          "maximum_palette_index": 0,
+          "maximum_influences": 4
+        },
+        "projection_kind": "vegetation_surface",
+        "rig_projection": {
+          "status": "weights_decoded_palette_unbound",
+          "reason": "no exact SKMS palette named 'field_crop_depleted'",
+          "editable_surface_available": true,
+          "skin_weights_decoded": true
+        },
+        "triangles": [
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            2,
+            1,
+            3
+          ]
+        ],
+        "vertex_count": 4,
+        "triangle_count": 2,
+        "vertex_stride": 32,
+        "index_stride": 2,
+        "bounds": {
+          "minimum": [
+            -0.038970947265625,
+            -0.01776123046875,
+            -0.007167816162109375
+          ],
+          "maximum": [
+            0.0110931396484375,
+            0.02166748046875,
+            0.043487548828125
+          ],
+          "extent": [
+            0.0500640869140625,
+            0.0394287109375,
+            0.050655364990234375
+          ]
+        },
+        "source_contract": {
+          "vertex_geob_reserved": [
+            0,
+            0
+          ],
+          "index_geob_reserved": [
+            0,
+            0
+          ],
+          "gohd_trailing_hex": "01",
+          "geoc_sha256": [
+            "5ea16f541f0a49c520a0001cb09b2c39f73c2c7d4503910ff3507ab96e683c4c",
+            "50e86cb5192a56f94ebd8ada9eb9f7c986cec1952538f2687c11861416f29e2c"
+          ]
+        },
+        "preview_material": "wheat_crop_grow",
+        "preview_material_confidence": "confirmed_gohd"
+      }
+    ],
+    "group_count": 1
+  },
+  "material": {
+    "schema": "garrison.decoded-rrmaterial/v1",
+    "source": {
+      "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\source\\art\\environment\\nat_economy\\farm\\farm_wheat\\field_crop_depleted.rrmaterial",
+      "size": 695,
+      "sha256": "00d5248395e04dec9f5f5e4193b9742176f2369935d9c3542db63b8aa48d0eb6"
+    },
+    "materials": [
+      {
+        "name": "wheat_crop_grow",
+        "class": "vegetation",
+        "blocks": [
+          {
+            "name": "VegetationPB",
+            "parameters": [
+              {
+                "name": "g_emissiveFactor",
+                "type": "Float",
+                "values": [
+                  0.0
+                ],
+                "raw_values": [
+                  "0"
+                ]
+              }
+            ],
+            "textures": [
+              {
+                "name": "albedoTex",
+                "logical_path": "art/material_library/substances/nature/vegetation/wheat/nat_wheat_crop_grow_alb.rrtex",
+                "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\textures\\cb1da72d97f5_nat_wheat_crop_grow_alb.dds",
+                "texture_name": "art/material_library/substances/nature/vegetation/wheat/nat_wheat_crop_grow_alb",
+                "projection_format": "BC3_UNORM_SRGB",
+                "internal_format": 23
+              },
+              {
+                "name": "transmissiveTex",
+                "logical_path": "art/material_library/substances/nature/vegetation/wheat/4589680283107522389_packed.rrtex",
+                "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\textures\\4500f01ee9c4_4589680283107522389_packed.dds",
+                "texture_name": "art/material_library/substances/nature/vegetation/wheat/nat_wheat_crop_grow_tms",
+                "projection_format": "BC3_UNORM",
+                "internal_format": 22
+              },
+              {
+                "name": "normalMap",
+                "logical_path": "art/material_library/substances/nature/vegetation/wheat/17450358865493033068_packed.rrtex",
+                "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\textures\\e766316c29fe_17450358865493033068_packed.dds",
+                "texture_name": "art/material_library/substances/nature/vegetation/wheat/nat_wheat_crop_grow_nrm",
+                "projection_format": "BC3_UNORM",
+                "internal_format": 22
+              },
+              {
+                "name": "tintColourLUT",
+                "logical_path": "art/default/default_texture/default_texture_lut.rrtex",
+                "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\textures\\aecea600238f_default_texture_lut.dds",
+                "texture_name": "art/default/default_texture/default_texture_lut",
+                "projection_format": "RGBA8_UNORM",
+                "internal_format": 2
+              }
+            ]
+          }
+        ],
+        "parameters": [
+          {
+            "name": "g_emissiveFactor",
+            "type": "Float",
+            "values": [
+              0.0
+            ],
+            "raw_values": [
+              "0"
+            ]
+          }
+        ],
+        "textures": [
+          {
+            "name": "albedoTex",
+            "logical_path": "art/material_library/substances/nature/vegetation/wheat/nat_wheat_crop_grow_alb.rrtex",
+            "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\textures\\cb1da72d97f5_nat_wheat_crop_grow_alb.dds",
+            "texture_name": "art/material_library/substances/nature/vegetation/wheat/nat_wheat_crop_grow_alb",
+            "projection_format": "BC3_UNORM_SRGB",
+            "internal_format": 23
+          },
+          {
+            "name": "transmissiveTex",
+            "logical_path": "art/material_library/substances/nature/vegetation/wheat/4589680283107522389_packed.rrtex",
+            "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\textures\\4500f01ee9c4_4589680283107522389_packed.dds",
+            "texture_name": "art/material_library/substances/nature/vegetation/wheat/nat_wheat_crop_grow_tms",
+            "projection_format": "BC3_UNORM",
+            "internal_format": 22
+          },
+          {
+            "name": "normalMap",
+            "logical_path": "art/material_library/substances/nature/vegetation/wheat/17450358865493033068_packed.rrtex",
+            "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\textures\\e766316c29fe_17450358865493033068_packed.dds",
+            "texture_name": "art/material_library/substances/nature/vegetation/wheat/nat_wheat_crop_grow_nrm",
+            "projection_format": "BC3_UNORM",
+            "internal_format": 22
+          },
+          {
+            "name": "tintColourLUT",
+            "logical_path": "art/default/default_texture/default_texture_lut.rrtex",
+            "projection_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\textures\\aecea600238f_default_texture_lut.dds",
+            "texture_name": "art/default/default_texture/default_texture_lut",
+            "projection_format": "RGBA8_UNORM",
+            "internal_format": 2
+          }
+        ]
+      }
+    ],
+    "material_count": 1,
+    "editable_slots": [
+      "wheat_crop_grow"
+    ],
+    "texture_dependencies": [
+      "art/default/default_texture/default_texture_lut.rrtex",
+      "art/material_library/substances/nature/vegetation/wheat/17450358865493033068_packed.rrtex",
+      "art/material_library/substances/nature/vegetation/wheat/4589680283107522389_packed.rrtex",
+      "art/material_library/substances/nature/vegetation/wheat/nat_wheat_crop_grow_alb.rrtex"
+    ]
+  },
+  "textures": [
+    {
+      "schema": "garrison.decoded-rrtex/v1",
+      "source": {
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\source\\art\\default\\default_texture\\default_texture_lut.rrtex",
+        "size": 274,
+        "sha256": "8ab6bf55fa19cab59892a6e11ce4506aaedb59bc5b15b4e5dab4b48f22327383"
+      },
+      "texture_name": "art/default/default_texture/default_texture_lut",
+      "width": 4,
+      "height": 1,
+      "depth": 1,
+      "texture_type": 0,
+      "internal_format": 2,
+      "manifest_version": 6,
+      "stream_version": 6,
+      "container": "DXTC/TMAN/TDAT",
+      "stream_validation": "not_checked",
+      "colour_space_confidence": "unqualified_linear_projection",
+      "mip_count": 1,
+      "mips": [
+        {
+          "level": 0,
+          "width": 4,
+          "height": 1,
+          "size": 16,
+          "source_encoding": "zlib",
+          "sha256": "bfbc8ac2e80852185f0c4cfa5045e1b8311c2ac3f0bd5ea29d9e380d4fd9d3fa"
+        }
+      ],
+      "projection": {
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\textures\\aecea600238f_default_texture_lut.dds",
+        "format": "RGBA8_UNORM",
+        "dxgi_format": 28,
+        "size": 164,
+        "sha256": "777df62268128887037c322d017f6cc2042e07c5fdaab4ab8710131a8d8edb7b"
+      },
+      "logical_path": "art/default/default_texture/default_texture_lut.rrtex",
+      "status": "decoded",
+      "resource": {
+        "logical_path": "art/default/default_texture/default_texture_lut.rrtex",
+        "archive": "DX12Assets.sga",
+        "archive_path": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\DX12Assets.sga",
+        "archive_id": "GameDX12Assets",
+        "archive_version": "10",
+        "product_version": "0",
+        "verified_archive": false,
+        "size": 274,
+        "sha256": "8ab6bf55fa19cab59892a6e11ce4506aaedb59bc5b15b4e5dab4b48f22327383",
+        "cache_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\source\\art\\default\\default_texture\\default_texture_lut.rrtex"
+      }
+    },
+    {
+      "schema": "garrison.decoded-rrtex/v1",
+      "source": {
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\source\\art\\material_library\\substances\\nature\\vegetation\\wheat\\17450358865493033068_packed.rrtex",
+        "size": 12689,
+        "sha256": "c7fcf8ad85e1b05841683aab71c265d4e0201765bc18d775e4719f01a8dbcc94"
+      },
+      "texture_name": "art/material_library/substances/nature/vegetation/wheat/nat_wheat_crop_grow_nrm",
+      "width": 128,
+      "height": 128,
+      "depth": 1,
+      "texture_type": 2,
+      "internal_format": 22,
+      "manifest_version": 6,
+      "stream_version": 6,
+      "container": "DXTC/TMAN/TDAT",
+      "stream_validation": "not_checked",
+      "colour_space_confidence": "edf_and_format_qualified",
+      "mip_count": 8,
+      "mips": [
+        {
+          "level": 0,
+          "width": 128,
+          "height": 128,
+          "size": 16384,
+          "source_encoding": "zlib",
+          "sha256": "0181e025b6ed77b63c13cd25d2a03c466dbdfff3e3197d9205f2c36982841677"
+        },
+        {
+          "level": 1,
+          "width": 64,
+          "height": 64,
+          "size": 4096,
+          "source_encoding": "zlib",
+          "sha256": "5651e7963e2237221af501631dad6df3e4513b7f9df8de9198ad45ba7ea7d988"
+        },
+        {
+          "level": 2,
+          "width": 32,
+          "height": 32,
+          "size": 1024,
+          "source_encoding": "zlib",
+          "sha256": "81f9c9758231740947a5cdc25922c7b2ef1f5761548931aab719ba5ad2d159b3"
+        },
+        {
+          "level": 3,
+          "width": 16,
+          "height": 16,
+          "size": 256,
+          "source_encoding": "zlib",
+          "sha256": "5db689c661f8851f7925fed1f7d6cc841958770feae8de55f4df01deeaaf055c"
+        },
+        {
+          "level": 4,
+          "width": 8,
+          "height": 8,
+          "size": 64,
+          "source_encoding": "zlib",
+          "sha256": "140cee81cc0b86010142c43ef23f0877273b11928fbfaeb749849c312f1693a2"
+        },
+        {
+          "level": 5,
+          "width": 4,
+          "height": 4,
+          "size": 16,
+          "source_encoding": "raw",
+          "sha256": "27b16cee38b614addbda643c1929a4ebceb0bd978c8200b55120e0b9de5a1fd6"
+        },
+        {
+          "level": 6,
+          "width": 2,
+          "height": 2,
+          "size": 16,
+          "source_encoding": "zlib",
+          "sha256": "84ac3c5610eeb0ab6857167578d4cb5d044e686c120f86fa85a0294a7f222bdb"
+        },
+        {
+          "level": 7,
+          "width": 1,
+          "height": 1,
+          "size": 16,
+          "source_encoding": "zlib",
+          "sha256": "93bac7e098ab0db885ea33bbe5a08247e6f510f4dfc7f2ad108b6b489428f33b"
+        }
+      ],
+      "projection": {
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\textures\\e766316c29fe_17450358865493033068_packed.dds",
+        "format": "BC3_UNORM",
+        "dxgi_format": 77,
+        "size": 22000,
+        "sha256": "cc39ee9aee85d19780537bf1d752ed03caf68ad037ed96337da9ef3ab06b885a"
+      },
+      "logical_path": "art/material_library/substances/nature/vegetation/wheat/17450358865493033068_packed.rrtex",
+      "status": "decoded",
+      "resource": {
+        "logical_path": "art/material_library/substances/nature/vegetation/wheat/17450358865493033068_packed.rrtex",
+        "archive": "DX12Assets.sga",
+        "archive_path": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\DX12Assets.sga",
+        "archive_id": "GameDX12Assets",
+        "archive_version": "10",
+        "product_version": "0",
+        "verified_archive": false,
+        "size": 12689,
+        "sha256": "c7fcf8ad85e1b05841683aab71c265d4e0201765bc18d775e4719f01a8dbcc94",
+        "cache_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\source\\art\\material_library\\substances\\nature\\vegetation\\wheat\\17450358865493033068_packed.rrtex"
+      }
+    },
+    {
+      "schema": "garrison.decoded-rrtex/v1",
+      "source": {
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\source\\art\\material_library\\substances\\nature\\vegetation\\wheat\\4589680283107522389_packed.rrtex",
+        "size": 409,
+        "sha256": "255ce0b55b7f3e83e22ec2a9fabfd91c98dd3895b731d8f0877ad0a43373e9fe"
+      },
+      "texture_name": "art/material_library/substances/nature/vegetation/wheat/nat_wheat_crop_grow_tms",
+      "width": 4,
+      "height": 4,
+      "depth": 1,
+      "texture_type": 2,
+      "internal_format": 22,
+      "manifest_version": 6,
+      "stream_version": 6,
+      "container": "DXTC/TMAN/TDAT",
+      "stream_validation": "not_checked",
+      "colour_space_confidence": "edf_and_format_qualified",
+      "mip_count": 3,
+      "mips": [
+        {
+          "level": 0,
+          "width": 4,
+          "height": 4,
+          "size": 16,
+          "source_encoding": "zlib",
+          "sha256": "7d41f58711db81197af1d030177056f94b63aa4397bd805ccf63282315824cb1"
+        },
+        {
+          "level": 1,
+          "width": 2,
+          "height": 2,
+          "size": 16,
+          "source_encoding": "zlib",
+          "sha256": "7d41f58711db81197af1d030177056f94b63aa4397bd805ccf63282315824cb1"
+        },
+        {
+          "level": 2,
+          "width": 1,
+          "height": 1,
+          "size": 16,
+          "source_encoding": "zlib",
+          "sha256": "7d41f58711db81197af1d030177056f94b63aa4397bd805ccf63282315824cb1"
+        }
+      ],
+      "projection": {
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\textures\\4500f01ee9c4_4589680283107522389_packed.dds",
+        "format": "BC3_UNORM",
+        "dxgi_format": 77,
+        "size": 176,
+        "sha256": "52a9f02a6a3dce2b8c6a65485f1c2b2135b12b8782cd12b22479a9a8ae2d3ed0"
+      },
+      "logical_path": "art/material_library/substances/nature/vegetation/wheat/4589680283107522389_packed.rrtex",
+      "status": "decoded",
+      "resource": {
+        "logical_path": "art/material_library/substances/nature/vegetation/wheat/4589680283107522389_packed.rrtex",
+        "archive": "DX12Assets.sga",
+        "archive_path": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\DX12Assets.sga",
+        "archive_id": "GameDX12Assets",
+        "archive_version": "10",
+        "product_version": "0",
+        "verified_archive": false,
+        "size": 409,
+        "sha256": "255ce0b55b7f3e83e22ec2a9fabfd91c98dd3895b731d8f0877ad0a43373e9fe",
+        "cache_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\source\\art\\material_library\\substances\\nature\\vegetation\\wheat\\4589680283107522389_packed.rrtex"
+      }
+    },
+    {
+      "schema": "garrison.decoded-rrtex/v1",
+      "source": {
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\source\\art\\material_library\\substances\\nature\\vegetation\\wheat\\nat_wheat_crop_grow_alb.rrtex",
+        "size": 8856,
+        "sha256": "0541ed23fbe292584a2b709a6953bd70a2223cb10991d347d99902d42a8a2d51"
+      },
+      "texture_name": "art/material_library/substances/nature/vegetation/wheat/nat_wheat_crop_grow_alb",
+      "width": 128,
+      "height": 128,
+      "depth": 1,
+      "texture_type": 2,
+      "internal_format": 23,
+      "manifest_version": 6,
+      "stream_version": 6,
+      "container": "DXTC/TMAN/TDAT",
+      "stream_validation": "not_checked",
+      "colour_space_confidence": "edf_and_format_qualified",
+      "mip_count": 8,
+      "mips": [
+        {
+          "level": 0,
+          "width": 128,
+          "height": 128,
+          "size": 16384,
+          "source_encoding": "zlib",
+          "sha256": "fa9b135359c25e787f766d83ad1472cbf6eb10ce4b928627b939f49eb3136378"
+        },
+        {
+          "level": 1,
+          "width": 64,
+          "height": 64,
+          "size": 4096,
+          "source_encoding": "zlib",
+          "sha256": "6d55110330f72491e2dd9f912018c8f575fa44a656ed29e7659c15607a33ec7b"
+        },
+        {
+          "level": 2,
+          "width": 32,
+          "height": 32,
+          "size": 1024,
+          "source_encoding": "zlib",
+          "sha256": "d0ada17fc2f02211cf89b3e6a27abfbeae7f01abf207c5bde1bff8c50dcaa780"
+        },
+        {
+          "level": 3,
+          "width": 16,
+          "height": 16,
+          "size": 256,
+          "source_encoding": "zlib",
+          "sha256": "e334238d963160934013f830b7499b0a4fef47363e1d3fc39a5d07e5d113b680"
+        },
+        {
+          "level": 4,
+          "width": 8,
+          "height": 8,
+          "size": 64,
+          "source_encoding": "raw",
+          "sha256": "91a5330cd7ff3b8dcac310cfbb33786b8500a6e39a4c3d61a0820895ef9fafa1"
+        },
+        {
+          "level": 5,
+          "width": 4,
+          "height": 4,
+          "size": 16,
+          "source_encoding": "raw",
+          "sha256": "7617cd3c6cfe73b4fe53628a71493247e2f86d1962c0a1d193caab0cd8f8b199"
+        },
+        {
+          "level": 6,
+          "width": 2,
+          "height": 2,
+          "size": 16,
+          "source_encoding": "raw",
+          "sha256": "c627f3ddfe2e47cf886c11fd01cca24d69c31103613848a2cd7505b2af981c15"
+        },
+        {
+          "level": 7,
+          "width": 1,
+          "height": 1,
+          "size": 16,
+          "source_encoding": "zlib",
+          "sha256": "ae6969e5544024b1b1d0aadc1982f4a5ab33fb47e8e493542291ef77e1438078"
+        }
+      ],
+      "projection": {
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\textures\\cb1da72d97f5_nat_wheat_crop_grow_alb.dds",
+        "format": "BC3_UNORM_SRGB",
+        "dxgi_format": 78,
+        "size": 22020,
+        "sha256": "17f7a6c6294f1db5a13a845ff05d03d835f41d158445eac769393e1a3cf5d605"
+      },
+      "logical_path": "art/material_library/substances/nature/vegetation/wheat/nat_wheat_crop_grow_alb.rrtex",
+      "status": "decoded",
+      "resource": {
+        "logical_path": "art/material_library/substances/nature/vegetation/wheat/nat_wheat_crop_grow_alb.rrtex",
+        "archive": "DX12Assets.sga",
+        "archive_path": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\DX12Assets.sga",
+        "archive_id": "GameDX12Assets",
+        "archive_version": "10",
+        "product_version": "0",
+        "verified_archive": false,
+        "size": 8856,
+        "sha256": "0541ed23fbe292584a2b709a6953bd70a2223cb10991d347d99902d42a8a2d51",
+        "cache_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\source\\art\\material_library\\substances\\nature\\vegetation\\wheat\\nat_wheat_crop_grow_alb.rrtex"
+      }
+    }
+  ],
+  "missing_textures": [],
+  "non_file_texture_sentinels": [],
+  "resources": {
+    "reference": {
+      "id": 8854,
+      "logical_path": "art/environment/nat_economy/farm/farm_wheat/field_crop_depleted.rgm",
+      "folder": "art/environment/nat_economy/farm/farm_wheat",
+      "name": "field_crop_depleted.rgm",
+      "extension": ".rgm",
+      "asset_kind": "model",
+      "curated_category": "Nature & Terrain",
+      "civilization": "Shared / Neutral",
+      "object_class": "Nature",
+      "object_type": "Resource Node",
+      "size": 846,
+      "raw_name": "data:art\\environment\\nat_economy\\farm\\farm_wheat\\field_crop_depleted.rgm",
+      "preview_status": "not_generated",
+      "preview_path": null,
+      "product": "cardinal",
+      "archive": "ArtHigh.sga",
+      "archive_path": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\ArtHigh.sga",
+      "provider_archive_id": "CardinalArtHigh",
+      "archive_version": "10",
+      "product_version": "0",
+      "verified": 0,
+      "provider_count": 1
+    },
+    "geometry": {
+      "logical_path": "art/environment/nat_economy/farm/farm_wheat/field_crop_depleted.rrgeom",
+      "archive": "DX12Assets.sga",
+      "archive_path": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\DX12Assets.sga",
+      "archive_id": "GameDX12Assets",
+      "archive_version": "10",
+      "product_version": "0",
+      "verified_archive": false,
+      "size": 4761,
+      "sha256": "7ad9db6149820a541f7841baaea0ddf4b32eda1b7fbc93248b87564f056f532e",
+      "cache_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\source\\art\\environment\\nat_economy\\farm\\farm_wheat\\field_crop_depleted.rrgeom"
+    },
+    "material": {
+      "logical_path": "art/environment/nat_economy/farm/farm_wheat/field_crop_depleted.rrmaterial",
+      "archive": "DX12Assets.sga",
+      "archive_path": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\DX12Assets.sga",
+      "archive_id": "GameDX12Assets",
+      "archive_version": "10",
+      "product_version": "0",
+      "verified_archive": false,
+      "size": 695,
+      "sha256": "00d5248395e04dec9f5f5e4193b9742176f2369935d9c3542db63b8aa48d0eb6",
+      "cache_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\source\\art\\environment\\nat_economy\\farm\\farm_wheat\\field_crop_depleted.rrmaterial"
+    },
+    "model": {
+      "logical_path": "art/environment/nat_economy/farm/farm_wheat/field_crop_depleted.rgm",
+      "archive": "ArtHigh.sga",
+      "archive_path": "E:\\Games\\steamapps\\common\\Age of Empires IV\\cardinal\\archives\\ArtHigh.sga",
+      "archive_id": "CardinalArtHigh",
+      "archive_version": "10",
+      "product_version": "0",
+      "verified_archive": false,
+      "size": 846,
+      "sha256": "5fdee5c8e4478d8b6c49cdd450e8b5f7e62e4ebbbfc1932adcc5407ae512ef16",
+      "cache_path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\source\\art\\environment\\nat_economy\\farm\\farm_wheat\\field_crop_depleted.rgm"
+    }
+  },
+  "structure_collection_contract": null,
+  "structure_collection_contract_status": "not_applicable",
+  "structure_collection_contract_error": null,
+  "structure_collection_partition_bound": false,
+  "skeleton": {
+    "schema": "garrison.decoded-rgm-skeleton/v1",
+    "status": "not_present",
+    "source": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\research\\buildings_batch\\farm\\stock\\e1d5e8bca4b810b79e3d\\source\\art\\environment\\nat_economy\\farm\\farm_wheat\\field_crop_depleted.rgm",
+    "source_size_bytes": 846,
+    "source_sha256": "5fdee5c8e4478d8b6c49cdd450e8b5f7e62e4ebbbfc1932adcc5407ae512ef16",
+    "bone_count": 0,
+    "bones": [],
+    "rest_pose": {
+      "status": "not_present"
+    }
+  },
+  "skeleton_error": null,
+  "rig_palette_binding": {
+    "status": "not_decoded",
+    "bound_group_count": 0,
+    "unbound_group_count": 1,
+    "groups": [
+      {
+        "name": "field_crop_depleted",
+        "status": "weights_decoded_palette_unbound",
+        "reason": "no exact SKMS palette named 'field_crop_depleted'"
+      }
+    ]
+  },
+  "rig_projection": {
+    "status": "not_decoded",
+    "required_group_count": 1,
+    "decoded_group_count": 0,
+    "unresolved_group_count": 1,
+    "groups": [
+      {
+        "name": "field_crop_depleted",
+        "mesh_index": 0,
+        "group_index": 0,
+        "status": "weights_decoded_palette_unbound",
+        "reason": "no exact SKMS palette named 'field_crop_depleted'"
+      }
+    ],
+    "skeleton_hierarchy_status": "not_present",
+    "skeleton_bone_count": 0,
+    "skeleton_rest_pose_status": "not_present",
+    "qualified_skin_palette_count": 0
+  },
+  "animation_projection": {
+    "status": "not_applicable",
+    "resolution": {
+      "status": "not_applicable"
+    },
+    "template": {
+      "status": "not_applicable",
+      "template_id": null,
+      "role": "unresolved",
+      "source_logical_path": null,
+      "clip_inventory_status": "unavailable",
+      "gameplay_action_mapping_status": "not_applicable",
+      "family_count": 0,
+      "families": []
+    },
+    "clip_count": 0,
+    "clips": [],
+    "action_import_status": "not_applicable",
+    "blockers": []
+  },
+  "completeness": {
+    "status": "partial",
+    "decoded_textures": 4,
+    "unsupported_textures": 0,
+    "missing_texture_references": 0,
+    "non_file_texture_sentinels": 0,
+    "rig_projection_status": "not_decoded",
+    "unresolved_rig_groups": 1,
+    "animation_projection_status": "not_applicable"
+  },
+  "warnings": [
+    "1 UnitDataStream group(s) remain rest-pose-only because complete exact SKMS palette binding is unresolved; animation is a separate gate"
+  ],
+  "encoder_contract": {
+    "status": "source-preserving-projection",
+    "lossless_chunk_sources_retained": true,
+    "editable_fields": [
+      "positions",
+      "normals",
+      "UVMap",
+      "UV2",
+      "material parameters",
+      "texture images"
+    ],
+    "unknown_fields": "retained in hash-bound source files; encoder must patch known spans or recook",
+    "direct_binary_reencode_enabled": false,
+    "official_recook_path": "FBX/material/texture source projection -> existing core burner pipeline",
+    "confirmed_stock_channel_layouts": {
+      "albedoTex": "BC1/BC3 sRGB RGB; optional alpha supplied by the semantic slot",
+      "normalMap": "BC3 R=emissive, G=normal_y, B=ambient_occlusion, A=normal_x",
+      "metalTex": "BC3 R=metalness, G=dielectric, B=height, A=roughness",
+      "maskTex2": "BC1 linear R=layer2, G=layer3, B=layer4",
+      "maskTex5": "BC1 linear R=layer5, G=layer6, B=layer7"
+    }
+  },
+  "entity_binding": {
+    "status": "unresolved",
+    "reason": "An art RGO/RGM path is not itself a qualified gameplay EBP identity.",
+    "stats": null
+  },
+  "building_boundary_binding": {
+    "status": "not_available_from_render_model",
+    "reason": "Placement footprint, simboxes and boundary-cell policy belong to the gameplay EBP/attachment graph, not to RGO/RGM/RRGeometry.",
+    "required_source": "qualified gameplay EBP plus inheritance, attachment, stamp and simbox references",
+    "render_mesh_bounds_are_authoritative": false
+  },
+  "blockers": [
+    {
+      "id": "rig_projection",
+      "status": "not_decoded",
+      "affected_group_count": 1,
+      "reason": "1 UnitDataStream group(s) remain rest-pose-only because complete exact SKMS palette binding is unresolved; animation is a separate gate"
+    }
+  ],
+  "animated_asset_import_plan": {
+    "schema": "garrison.animated-asset-import-plan/v1",
+    "status": "static_asset_ready",
+    "source": {
+      "logical_path": "art/environment/nat_economy/farm/farm_wheat/field_crop_depleted.rgm",
+      "model": {
+        "logical_path": "art/environment/nat_economy/farm/farm_wheat/field_crop_depleted.rgm",
+        "sha256": "5fdee5c8e4478d8b6c49cdd450e8b5f7e62e4ebbbfc1932adcc5407ae512ef16"
+      }
+    },
+    "layers": {
+      "geometry": {
+        "status": "ready",
+        "group_count": 1,
+        "vertex_count": 4,
+        "triangle_count": 2
+      },
+      "materials": {
+        "status": "ready",
+        "material_count": 1,
+        "decoded_texture_count": 4
+      },
+      "deform": {
+        "status": "not_applicable",
+        "authoritative_source": "RGM_SKLN_SKMS_SKIN",
+        "bone_count": 0,
+        "qualified_palette_count": 0,
+        "skinned_group_count": 0,
+        "weighted_vertex_count": 0,
+        "weights_status": "partial_or_unavailable",
+        "weight_diagnostics": {
+          "status": "observed_decoded_skin_streams",
+          "group_count": 0,
+          "vertex_count": 0,
+          "weighted_vertex_count": 0,
+          "zero_weight_vertex_count": 0,
+          "non_unit_weight_sum_vertex_count": 0,
+          "min_weight_sum": 0.0,
+          "max_weight_sum": 0.0,
+          "max_influences_per_vertex": 0,
+          "groups": []
+        },
+        "display_bones": "non_authoritative_guides_only"
+      },
+      "animation": {
+        "status": "not_applicable",
+        "resolution": {
+          "status": "not_applicable"
+        },
+        "template": {
+          "status": "not_applicable",
+          "template_id": null,
+          "role": "unresolved",
+          "source_logical_path": null,
+          "clip_inventory_status": "unavailable",
+          "gameplay_action_mapping_status": "not_applicable",
+          "family_count": 0,
+          "families": []
+        },
+        "clip_count": 0,
+        "clips": [],
+        "action_import_status": "not_applicable",
+        "blockers": []
+      }
+    },
+    "blender_projection": {
+      "mesh_materials": "create_now",
+      "deform_armature_weights": "partial_or_not_applicable",
+      "actions": "blocked",
+      "root_motion": "blocked_separate_projection_required",
+      "control_rig": "deferred_non_authoritative_layer",
+      "native_animation_editing": {
+        "status": "not_applicable",
+        "pose_and_weight_editing": "not_applicable",
+        "user_authored_actions": "not_applicable",
+        "stock_clip_actions": "not_applicable",
+        "editors": [],
+        "action_data_model": "blender_5_2_layered_actions_and_armature_slots",
+        "nla_policy": "not_applicable",
+        "pose_library": "not_applicable",
+        "source_boundary": "native editing never promotes RHKA metadata or candidate samples into a decoded stock Action"
+      }
+    },
+    "retargeting": {
+      "status": "future_optional_capability",
+      "core_dependency": false,
+      "policy": "capability_probes_for_user_installed_services_and_addons",
+      "fallback": "native_raw_deform_actions_and_nla"
+    },
+    "claims": [
+      {
+        "status": "confirmed",
+        "claim": "decoded geometry and materials share one stock-static import",
+        "evidence": [
+          "layers.geometry",
+          "layers.materials"
+        ]
+      },
+      {
+        "status": "inferred",
+        "claim": "qualified RGM palettes bind mesh weights to the authoritative deform armature",
+        "evidence": [
+          "layers.deform"
+        ]
+      },
+      {
+        "status": "confirmed",
+        "claim": "no RHKA binding plan is attached and no animation source is selected",
+        "evidence": [
+          "layers.animation.status"
+        ]
+      },
+      {
+        "status": "hypothesis",
+        "claim": "optional retarget services can improve authoring UX without becoming decoder authorities",
+        "evidence": [
+          "retargeting"
+        ]
+      },
+      {
+        "status": "confirmed",
+        "claim": "native Blender editing is reserved for explicit user-authored or independently qualified Actions",
+        "evidence": [
+          "blender_projection.native_animation_editing"
+        ]
+      }
+    ],
+    "boundaries": [
+      "no Blender Action is created from hierarchy or clip metadata alone",
+      "semantic transform samples and a full RHKA-to-RGM basis remain mandatory",
+      "root motion is not inferred from hips",
+      "retargeting services and add-ons are optional executors"
+    ],
+    "plan_id": "fe262d0937d5617d94974bf68140dc7742a355a82edc269bbaddb17770808edd"
+  }
+}
