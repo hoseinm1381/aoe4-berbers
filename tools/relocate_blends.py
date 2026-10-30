@@ -16,10 +16,10 @@ AUTHORING = ROOT/'authoring'
 parser = argparse.ArgumentParser()
 parser.add_argument('--check', action='store_true')
 args = parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
-index = json.loads((ROOT/'source/master-index.json').read_text())['files']
+index = json.loads((ROOT/'source/master-index.json').read_text(encoding='utf-8'))['files']
 by_original = {ntpath.normcase(ntpath.normpath(x['original'])): x for x in index}
 receipt_path = ROOT/'source/portable-masters.json'
-receipt = json.loads(receipt_path.read_text()) if receipt_path.exists() else {'schema':'berbers.portable-masters/v1','files':{}}
+receipt = json.loads(receipt_path.read_text(encoding="utf-8")) if receipt_path.exists() else {'schema':'berbers.portable-masters/v1','files':{}}
 relocated, checked, dependencies = 0, 0, 0
 
 
@@ -49,10 +49,11 @@ for row in index:
         else:
             target = Path(current)
             original = current
-        if not target.is_file():
-            match = by_original.get(ntpath.normcase(ntpath.normpath(original)))
-            assert match, f'Unmapped dependency in {path}: {current}'
+        match = by_original.get(ntpath.normcase(ntpath.normpath(original)))
+        if match:
             target = AUTHORING/match['path']
+        else:
+            assert target.is_file(), f'Unmapped dependency in {path}: {current}'
         target = target.resolve()
         assert target.is_relative_to(AUTHORING.resolve()) and target.is_file(), target
         portable = bpy.path.relpath(str(target), start=str(path.parent))

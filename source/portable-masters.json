@@ -1,0 +1,14 @@
+{
+  "schema": "berbers.portable-masters/v1",
+  "files": {
+    "original/art/unit_remix_0_5_0/pilots/archer_age2_pilot/archer_age2_pilot.blend": {
+      "bytes": 331301,
+      "sha256": "9728eeb8580f81a168131ae720e51e1c216a5162dc535e154c4468bd20be1274",
+      "original_sha256": "cae30d77842600bad32f732bb51814e086a86631e4dffc5e6d2d11a5d8a664e4",
+      "change": "external image/library paths made repository-relative"
+    }
+  },
+  "checked_blends": 84,
+  "external_dependencies": 7,
+  "geometry_edits": false
+}

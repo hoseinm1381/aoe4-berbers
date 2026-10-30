@@ -6,29 +6,27 @@
       "name": "Berbers-editable-art.zip",
       "bytes": 764349201,
       "sha256": "00ad2bfa87046962657fbdf9c6938f5f2d5a77d510da52f283ed307c4c9f2c92",
-      "kind": "editable-masters",
-      "url": "https://github.com/hoseinm1381/aoe4-berbers/releases/download/v0.1.0/Berbers-editable-art.zip"
+      "kind": "editable-masters"
     },
     {
       "name": "Berbers-editable-audio.zip",
       "bytes": 821908026,
       "sha256": "b139a22cb61389d94170aa88e40c71ff376a694a0fad7ffca7c1c26012391924",
-      "kind": "editable-masters",
-      "url": "https://github.com/hoseinm1381/aoe4-berbers/releases/download/v0.1.0/Berbers-editable-audio.zip"
+      "kind": "editable-masters"
     },
     {
       "name": "Berbers-editable-recipes.zip",
       "bytes": 398798579,
       "sha256": "37d63f762a3dc6fe1ce966a65540eaa98b327c751d1b91140ab0663dd410544d",
-      "kind": "editable-masters",
-      "url": "https://github.com/hoseinm1381/aoe4-berbers/releases/download/v0.1.0/Berbers-editable-recipes.zip"
+      "kind": "editable-masters"
     },
     {
       "name": "Berbers-native-inputs.zip",
       "bytes": 608351829,
       "sha256": "a557ca9f52d1c4c22166fac777ad51c7724faefb710ea7065b5bd304350789ee",
-      "kind": "native-rebuild",
-      "url": "https://github.com/hoseinm1381/aoe4-berbers/releases/download/v0.1.0/Berbers-native-inputs.zip"
+      "kind": "native-rebuild"
     }
-  ]
+  ],
+  "historical_import_only": true,
+  "note": "Original import provenance only. All contents are now normal repository files; no separate download is required."
 }

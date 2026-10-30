@@ -58,9 +58,11 @@ if your Git reports long filenames. No extraction or per-part fetching is requir
 
 The original recipes retain historical drive paths as provenance. They are not
 the current build entrypoint. Adapt a historical recipe to the current checkout
-when reusing it; never run it against the old project. Blender texture relocation
-is handled by `tools/relocate_blends.py` on the checked-out masters, in background
-Blender. This does not change the unrelated live Blender scene.
+when reusing it; never run it against the old project. External Blender image paths are stored relative to each checked-out master.
+To audit them, run background Blender with
+`--background --factory-startup --python tools/relocate_blends.py -- --check`.
+The tool opens only the indexed masters with embedded Python disabled; it does
+not access the unrelated live Blender scene.
 
 Original editor XML and project files are retained as authoring provenance, with
 the original replacement-mod identity. They are not the independent build entry.
