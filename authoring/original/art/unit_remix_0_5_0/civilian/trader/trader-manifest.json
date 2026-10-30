@@ -1,0 +1,379 @@
+{
+  "schema": "berber-050-civilian-art/v1",
+  "status": "trader_exact_horse_sources_ready_native_cook_pending",
+  "trader": [
+    {
+      "family": "trader",
+      "age": 2,
+      "sex": "male",
+      "private_variant_name": "trader_age02",
+      "private_resource_stem": "art/scenario/garrison/berber_units_050/trader_age02/trader_age02",
+      "official_donor_rgm": "art/civilizations/malian/animals/mal_horse_combined_trade_age02/mal_horse_combined_trade_age02.rgm",
+      "official_donor_rgm_sha256": "71db917e464d3e2e29358b4dd2c9be73d629d015a9a23ee494005ecaba6bafe9",
+      "decoded_manifest": "output/shared_stock_cache/units_050/569fa34973bba6426b4d535975e0030990e7291a432d40d046ab6f1a417c3256/decoded/b969b156fc0f71f915fe/decoded-static.json",
+      "decoded_manifest_sha256": "ef3a7b4e43b93a4c59ac392d02845eaa419e2e5300b6e585a80b9f654df0999e",
+      "native_source_rrgeom_sha256": "7304123e0c7190b108bbb5d04d7d4d68cac8c76a04e97a3f0b904b97bd5723e5",
+      "albedo_variants": [
+        {
+          "source_texture": "art/civilizations/malian/humans/mal_villager_male_age02/16769566124239634768_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02\\candidate-albedo.png",
+          "sha256": "6923cda9c3cc4df874ec4bb33c9780ab52a003f16b32b89ea21ea8402356e4d1"
+        }
+      ],
+      "design": "Bounded native cargo-cover and rider garment tailoring; age II indigo, III sage, IV patterned blue lower clothing; native sex, cargo, tack, coat, skin and owner-mask sources retained",
+      "cargo_albedo": "unchanged native pixels; retained comparison PNG is not a cooked replacement",
+      "owner_pattern_sources": [
+        {
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\569fa34973bba6426b4d535975e0030990e7291a432d40d046ab6f1a417c3256\\decoded\\b969b156fc0f71f915fe\\textures\\1aa26d43870f_4549877224460104636_packed.dds",
+          "sha256": "bd5c5bf7a0d26436289c953ecc20825b35478e8a8a1e81799bce405724c1186d"
+        },
+        {
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\569fa34973bba6426b4d535975e0030990e7291a432d40d046ab6f1a417c3256\\decoded\\b969b156fc0f71f915fe\\textures\\5a2d9f27e127_5353059560332297741_packed.dds",
+          "sha256": "6597bda08feadee26e4cc6780793faa1cc9ea7123fb9c52632ec0f68e7da3ae2"
+        }
+      ],
+      "native_material_cook": "pending root serial per-albedo material compose",
+      "native_animation": "unverified",
+      "native_team_colour": "unverified; red and blue shader previews only",
+      "geometry_recipe": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02\\recipe.json",
+      "geometry_recipe_sha256": "d2e6204e30e1bf49a26daf6154bc71dade05912d5562ea212870235d68c53ebe",
+      "authored_rrgeom": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02\\trader_age02.rrgeom",
+      "authored_rrgeom_sha256": "40f3564cc30e267240691836e5fb87e7c81a28ad78d54bae209623eafca87449",
+      "geometry_report": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02\\geometry-report.json",
+      "geometry_report_sha256": "38fc96455b79465bf123d36554c808567433acd7d84927d535cfb8311da6b670",
+      "editable_blend": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02\\trader_age02.blend",
+      "editable_blend_sha256": "d818a4bc6d445e171129456445da2563295e663fb4c4e2980115e0446f51dc49",
+      "authored_albedo": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02\\candidate-albedo.png",
+      "authored_albedo_sha256": "6923cda9c3cc4df874ec4bb33c9780ab52a003f16b32b89ea21ea8402356e4d1",
+      "authored_cargo_albedo": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02\\candidate-cargo-albedo.png",
+      "authored_cargo_albedo_sha256": "d6208322f0ac4d577a7cd341a58dcb4719b42cb7556a3498ef29bbd23b48587c",
+      "material_source": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02\\material-source.json",
+      "material_source_sha256": "558924204e2229d57499386d7b65ee35648c588242be491bc38d75098d593e03",
+      "cargo_material_source": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02\\material-source-cargo.json",
+      "cargo_material_source_sha256": "3bc0713cee8761abc50eac9bf5365f224c44371bdeccdf382a8c0458d2aa851b",
+      "preview_donor_rider_only": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02\\textured-donor-rider.png",
+      "preview_donor_rider_only_sha256": "5d29f37659b9e75b04d45cefd5bdfe822c7db0ea1e4d2bae14639ec538685b74",
+      "preview_candidate_rider_only": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02\\textured-candidate-rider.png",
+      "preview_candidate_rider_only_sha256": "ce26e9e715080cdc8ac21d24a87e3a8a7ca6fe891ce776b402c1c951d3cc6414",
+      "preview_donor_lod1": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02\\textured-donor.png",
+      "preview_donor_lod1_sha256": "bcc899442f3db9c7ebec8ccb496fda02ce54e736aaa9837988c286d1cb1cf6e0",
+      "preview_candidate_lod1": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02\\textured-candidate.png",
+      "preview_candidate_lod1_sha256": "2c6931a99766a93bd236aafbd87c7e98c76b2bf421e97d9df9ee75359eddea36",
+      "preview_team_red": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02\\textured-team-red.png",
+      "preview_team_red_sha256": "bc16182902c8d6d1dd096617aae325157e6e04217dbcf68bb9d3c5fc61556e40",
+      "preview_team_blue": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02\\textured-team-blue.png",
+      "preview_team_blue_sha256": "28818aa34d76cd0f95a99c4fa7245b2e07b4b497d5af1bbda909403f037f7ba1"
+    },
+    {
+      "family": "trader",
+      "age": 2,
+      "sex": "female",
+      "private_variant_name": "trader_age02_female",
+      "private_resource_stem": "art/scenario/garrison/berber_units_050/trader_age02_female/trader_age02_female",
+      "official_donor_rgm": "art/civilizations/malian/animals/mal_horse_combined_trade_female_age02/mal_horse_combined_trade_female_age02.rgm",
+      "official_donor_rgm_sha256": "53a22150dc2260c37dde9acf721e3b3744ab9c2345f911d54b389a7e3f419c6d",
+      "decoded_manifest": "output/shared_stock_cache/units_050/0c43f516a3b602d58c6da356ca32ad425c58d432ae2a735cae4c4eb3d45dc836/decoded/771cce212e61b09adb8e/decoded-static.json",
+      "decoded_manifest_sha256": "11860d87676e0e210c1a2846af19be7ae4d7f0362ba26ca9e1a4de269c9a82dc",
+      "native_source_rrgeom_sha256": "5a2970848ab94159991e26848d149127dfe5dd5a0a6c9f7aa72754551a755016",
+      "albedo_variants": [
+        {
+          "source_texture": "art/civilizations/malian/humans/mal_villager_female_age02/4163320857245605315_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02_female\\candidate-albedo.png",
+          "sha256": "9f5347f71882a193782db5763e7a06a40c3ecf03780e43b1993c4efa94641a13"
+        }
+      ],
+      "design": "Bounded native cargo-cover and rider garment tailoring; age II indigo, III sage, IV patterned blue lower clothing; native sex, cargo, tack, coat, skin and owner-mask sources retained",
+      "cargo_albedo": "unchanged native pixels; retained comparison PNG is not a cooked replacement",
+      "owner_pattern_sources": [
+        {
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\0c43f516a3b602d58c6da356ca32ad425c58d432ae2a735cae4c4eb3d45dc836\\decoded\\771cce212e61b09adb8e\\textures\\1e5300884b69_1919185011013704221_packed.dds",
+          "sha256": "5e5d2308d59fdb86f32cfdd6073a9fea369b70de2c9a7d4847fe3c1a9f1ba5de"
+        },
+        {
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\0c43f516a3b602d58c6da356ca32ad425c58d432ae2a735cae4c4eb3d45dc836\\decoded\\771cce212e61b09adb8e\\textures\\5a2d9f27e127_5353059560332297741_packed.dds",
+          "sha256": "6597bda08feadee26e4cc6780793faa1cc9ea7123fb9c52632ec0f68e7da3ae2"
+        }
+      ],
+      "native_material_cook": "pending root serial per-albedo material compose",
+      "native_animation": "unverified",
+      "native_team_colour": "unverified; red and blue shader previews only",
+      "geometry_recipe": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02_female\\recipe.json",
+      "geometry_recipe_sha256": "d54017d3b0ee8198b7e7a00968dc6f58273d2bdbb6b9ffd05d8137ea028d50e5",
+      "authored_rrgeom": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02_female\\trader_age02_female.rrgeom",
+      "authored_rrgeom_sha256": "b11abdda462aa3c81a4c3f894254026705179582bd608511f50b34dc378c1c19",
+      "geometry_report": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02_female\\geometry-report.json",
+      "geometry_report_sha256": "5786cb4f03c2a14971edcddb3c0ed41ce0742fcfcbc8c59b89f19c244faf5721",
+      "editable_blend": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02_female\\trader_age02_female.blend",
+      "editable_blend_sha256": "5170fd71e059d32abad20b393e2141c881e699b303bc3221694168f278535e3d",
+      "authored_albedo": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02_female\\candidate-albedo.png",
+      "authored_albedo_sha256": "9f5347f71882a193782db5763e7a06a40c3ecf03780e43b1993c4efa94641a13",
+      "authored_cargo_albedo": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02_female\\candidate-cargo-albedo.png",
+      "authored_cargo_albedo_sha256": "d6208322f0ac4d577a7cd341a58dcb4719b42cb7556a3498ef29bbd23b48587c",
+      "material_source": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02_female\\material-source.json",
+      "material_source_sha256": "69c3a1f49964bcd88bc16c46b0144992a35ffd811ae282da52d520659405dacb",
+      "cargo_material_source": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02_female\\material-source-cargo.json",
+      "cargo_material_source_sha256": "3a3fd45a5218f932fdee70145e6f66eced399c9ba699248f1922fdb4617f15d4",
+      "preview_donor_rider_only": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02_female\\textured-donor-rider.png",
+      "preview_donor_rider_only_sha256": "4524e5a754c22a270fb0af624376f349922b0230870666347214a5d2e5411b10",
+      "preview_candidate_rider_only": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02_female\\textured-candidate-rider.png",
+      "preview_candidate_rider_only_sha256": "a70b9ea7c4f9c8885db41246b739abc9b89148c8555ccf63dcd66ad5a890c32f",
+      "preview_donor_lod1": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02_female\\textured-donor.png",
+      "preview_donor_lod1_sha256": "1bab93468d92e5c95c68ca5d660465d48036d55aa6288f668704b80d7aa1a8d2",
+      "preview_candidate_lod1": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02_female\\textured-candidate.png",
+      "preview_candidate_lod1_sha256": "dd3bd7c38c07f5562381537b25badc73e3af71e8a6d8b798706c2efaa641bf16",
+      "preview_team_red": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02_female\\textured-team-red.png",
+      "preview_team_red_sha256": "ffea65108363ef76d3b16c547d3d6e2ae745b42347179d0a649d6d359479aa4d",
+      "preview_team_blue": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02_female\\textured-team-blue.png",
+      "preview_team_blue_sha256": "1969def49ff97ffcf25b033f46d196cfe81f17d532bb4b48c1bd2e294f7261f5"
+    },
+    {
+      "family": "trader",
+      "age": 3,
+      "sex": "male",
+      "private_variant_name": "trader_age03",
+      "private_resource_stem": "art/scenario/garrison/berber_units_050/trader_age03/trader_age03",
+      "official_donor_rgm": "art/civilizations/malian/animals/mal_horse_combined_trade_age03/mal_horse_combined_trade_age03.rgm",
+      "official_donor_rgm_sha256": "f38f61fc58eb9f90fafa96905ea17c23abeefa84e865c7c35b6de9132a8eadd2",
+      "decoded_manifest": "output/shared_stock_cache/units_050/aeb7f11ff4a423d9fd12b2f86df8520761a062fd78bb2eb0bd15e94deafb0990/decoded/a68c0cf7baf9e7d21814/decoded-static.json",
+      "decoded_manifest_sha256": "d40a797c0a11451b5d1f2d93f8d967ec247230156d4ba01a0b6c024d92ccb165",
+      "native_source_rrgeom_sha256": "528b02176063a136a0f24bffc287941463396e81f4dea0ea6b0f84138e43bc67",
+      "albedo_variants": [
+        {
+          "source_texture": "art/civilizations/malian/humans/mal_villager_male_age03/1242621228192304987_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03\\candidate-albedo.png",
+          "sha256": "25c3aedbfb40c244f4cdc16b6c90593d27d1567e8a5ccb3feaea635e5a42769e"
+        }
+      ],
+      "design": "Bounded native cargo-cover and rider garment tailoring; age II indigo, III sage, IV patterned blue lower clothing; native sex, cargo, tack, coat, skin and owner-mask sources retained",
+      "cargo_albedo": "unchanged native pixels; retained comparison PNG is not a cooked replacement",
+      "owner_pattern_sources": [
+        {
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\aeb7f11ff4a423d9fd12b2f86df8520761a062fd78bb2eb0bd15e94deafb0990\\decoded\\a68c0cf7baf9e7d21814\\textures\\67c5951b8f9f_4146129309542722942_packed.dds",
+          "sha256": "914d4e2139f41608a650c1e3b4e62618c99e9d7e0d61c72b5b6dabcf46ed59e3"
+        },
+        {
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\aeb7f11ff4a423d9fd12b2f86df8520761a062fd78bb2eb0bd15e94deafb0990\\decoded\\a68c0cf7baf9e7d21814\\textures\\b426a555a28b_8576762728591858009_packed.dds",
+          "sha256": "72dbc9db56624ce637b0111975ae201723fe04f1c000b3d6599a6016408815ca"
+        }
+      ],
+      "native_material_cook": "pending root serial per-albedo material compose",
+      "native_animation": "unverified",
+      "native_team_colour": "unverified; red and blue shader previews only",
+      "geometry_recipe": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03\\recipe.json",
+      "geometry_recipe_sha256": "6bff94ba67a22d04f9a3e1bdb196850d2aaa44476c23acb4a6fcfe779169a1ba",
+      "authored_rrgeom": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03\\trader_age03.rrgeom",
+      "authored_rrgeom_sha256": "825d3618c3574ec188c26b0ed6c317c65e1526e4384bab14e7d714c25a777243",
+      "geometry_report": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03\\geometry-report.json",
+      "geometry_report_sha256": "5ca4072bf97eda4f0bb29b33ab768cca9b6afc306430da6151067cf88de9e1d7",
+      "editable_blend": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03\\trader_age03.blend",
+      "editable_blend_sha256": "91a4936385ce94cfd104b6672e7bc82f7da855ef3b990bbf037bf355efe49a1e",
+      "authored_albedo": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03\\candidate-albedo.png",
+      "authored_albedo_sha256": "25c3aedbfb40c244f4cdc16b6c90593d27d1567e8a5ccb3feaea635e5a42769e",
+      "authored_cargo_albedo": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03\\candidate-cargo-albedo.png",
+      "authored_cargo_albedo_sha256": "8349a6bddc075157a7fdfbc5551600f890ffec08d99f99b6387278adb1b677c0",
+      "material_source": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03\\material-source.json",
+      "material_source_sha256": "ce60f10e2041284088203f9fe1ff784b85ac3da94470202b7bb9da12ac7704f0",
+      "cargo_material_source": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03\\material-source-cargo.json",
+      "cargo_material_source_sha256": "69a79d93e8a2439b684778b5ec9e4c8a4193ea396db723ddc00b7be28bd0e44a",
+      "preview_donor_rider_only": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03\\textured-donor-rider.png",
+      "preview_donor_rider_only_sha256": "e518fae20f2f5fa650eb2481ecf9294a368c8c38e8b42d01a7498619b7a981b2",
+      "preview_candidate_rider_only": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03\\textured-candidate-rider.png",
+      "preview_candidate_rider_only_sha256": "7b00051f1c8b263409e7ff0ebc78ab05051b47a6f0dff11cd06c4bf69ff3abf1",
+      "preview_donor_lod1": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03\\textured-donor.png",
+      "preview_donor_lod1_sha256": "4488a32945fc49a10ff78a9a47332302ef627b39acc2c8a662d25014b872e6da",
+      "preview_candidate_lod1": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03\\textured-candidate.png",
+      "preview_candidate_lod1_sha256": "0e3930c461eb58dfd6a08c638ba626ee3935a3384e570ee68d1268d300a05938",
+      "preview_team_red": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03\\textured-team-red.png",
+      "preview_team_red_sha256": "f2f77be07bd2162f689faf37598b2652f9a2a1930844bd9976d1355a75dba043",
+      "preview_team_blue": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03\\textured-team-blue.png",
+      "preview_team_blue_sha256": "d9d106236c193a464b1e53fdff15ca170020bfa8974c5b56e0b77c6a9187cc49"
+    },
+    {
+      "family": "trader",
+      "age": 3,
+      "sex": "female",
+      "private_variant_name": "trader_age03_female",
+      "private_resource_stem": "art/scenario/garrison/berber_units_050/trader_age03_female/trader_age03_female",
+      "official_donor_rgm": "art/civilizations/malian/animals/mal_horse_combined_trade_female_age03/mal_horse_combined_trade_female_age03.rgm",
+      "official_donor_rgm_sha256": "ec48bd3749b0bd026e8eba589fca47ecc31cb74b5c481a0d985b64ab30775b49",
+      "decoded_manifest": "output/shared_stock_cache/units_050/4bbca6bf185e360567b9ee27d2dfba99cb3d3036a5dc61d4228367c62a1faeac/decoded/24563122e5907b9d0170/decoded-static.json",
+      "decoded_manifest_sha256": "befeeffb4f54aa429c4cc279eba8da283aec8754d0f8580f4ed703c9430a0ac7",
+      "native_source_rrgeom_sha256": "9a3a70e79ef1a904ee2dda17a7621d38c7d261aaa6da1e5de5f189145558628f",
+      "albedo_variants": [
+        {
+          "source_texture": "art/civilizations/malian/humans/mal_villager_female_age03/2920096166322113586_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03_female\\candidate-albedo.png",
+          "sha256": "ce7b755832b7ae1407b13407ef080c800a66e6e4cae0c4d06a679ef9cc2fad7c"
+        }
+      ],
+      "design": "Bounded native cargo-cover and rider garment tailoring; age II indigo, III sage, IV patterned blue lower clothing; native sex, cargo, tack, coat, skin and owner-mask sources retained",
+      "cargo_albedo": "unchanged native pixels; retained comparison PNG is not a cooked replacement",
+      "owner_pattern_sources": [
+        {
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\4bbca6bf185e360567b9ee27d2dfba99cb3d3036a5dc61d4228367c62a1faeac\\decoded\\24563122e5907b9d0170\\textures\\75aab224212c_12659533726735440003_packed.dds",
+          "sha256": "54fde96661549cdfca9cd94cba906426b4ba4d972ac0146853b5218e34221a07"
+        },
+        {
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\4bbca6bf185e360567b9ee27d2dfba99cb3d3036a5dc61d4228367c62a1faeac\\decoded\\24563122e5907b9d0170\\textures\\b426a555a28b_8576762728591858009_packed.dds",
+          "sha256": "72dbc9db56624ce637b0111975ae201723fe04f1c000b3d6599a6016408815ca"
+        }
+      ],
+      "native_material_cook": "pending root serial per-albedo material compose",
+      "native_animation": "unverified",
+      "native_team_colour": "unverified; red and blue shader previews only",
+      "geometry_recipe": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03_female\\recipe.json",
+      "geometry_recipe_sha256": "f1548888775573757f363e2af02df4cae2cf5b7966c18ceccd304cc3ba0fc607",
+      "authored_rrgeom": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03_female\\trader_age03_female.rrgeom",
+      "authored_rrgeom_sha256": "a76b16459d16e38d2ec1c123016a1bd5aad7ae5f5a4a4f36581192205ff9e6d3",
+      "geometry_report": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03_female\\geometry-report.json",
+      "geometry_report_sha256": "a80be0c3a6987b613680cdd56df9e04193639f6b85fbe256de235ad5db68ff5a",
+      "editable_blend": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03_female\\trader_age03_female.blend",
+      "editable_blend_sha256": "552c5c2af086918233d70fc583e899797145752e2a96d4a805890e8e2c82afbd",
+      "authored_albedo": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03_female\\candidate-albedo.png",
+      "authored_albedo_sha256": "ce7b755832b7ae1407b13407ef080c800a66e6e4cae0c4d06a679ef9cc2fad7c",
+      "authored_cargo_albedo": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03_female\\candidate-cargo-albedo.png",
+      "authored_cargo_albedo_sha256": "8349a6bddc075157a7fdfbc5551600f890ffec08d99f99b6387278adb1b677c0",
+      "material_source": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03_female\\material-source.json",
+      "material_source_sha256": "60de64d204a60cb134f95398b10ff2b5370e334935d45195fac25b5b455ffe08",
+      "cargo_material_source": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03_female\\material-source-cargo.json",
+      "cargo_material_source_sha256": "d16fb19d09bb4be2d332718f362082bc2f2f7761de3a9b3d001e5b332914882f",
+      "preview_donor_rider_only": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03_female\\textured-donor-rider.png",
+      "preview_donor_rider_only_sha256": "ea7d101041448577b0e00846be1d905fe4f7383a0bf27851bffa4da813a0908b",
+      "preview_candidate_rider_only": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03_female\\textured-candidate-rider.png",
+      "preview_candidate_rider_only_sha256": "bca8efe05c4cd06f2147b066ff74239d716877e6903a9a8c42b3e5c5d2a1cb8f",
+      "preview_donor_lod1": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03_female\\textured-donor.png",
+      "preview_donor_lod1_sha256": "377d049c41f5efb493740aea79ebce5b4fa5a32806497641213b24f5a8372a0f",
+      "preview_candidate_lod1": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03_female\\textured-candidate.png",
+      "preview_candidate_lod1_sha256": "c516ed879fde03549acc3712298d8cec7ffffbc06426d448d4a619212b286258",
+      "preview_team_red": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03_female\\textured-team-red.png",
+      "preview_team_red_sha256": "84bc9126a910b0100dbd0ffe52cffaf670ae511908bbb608f1b2d8f5a2bc23c6",
+      "preview_team_blue": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03_female\\textured-team-blue.png",
+      "preview_team_blue_sha256": "1b78ceaeab65d728fd736a773f4a052fe9cc515830ee3cbe151109d6895a4de0"
+    },
+    {
+      "family": "trader",
+      "age": 4,
+      "sex": "male",
+      "private_variant_name": "trader_age04",
+      "private_resource_stem": "art/scenario/garrison/berber_units_050/trader_age04/trader_age04",
+      "official_donor_rgm": "art/civilizations/malian/animals/mal_horse_combined_trade_age04/mal_horse_combined_trade_age04.rgm",
+      "official_donor_rgm_sha256": "450a0900a2d5ed0384f2563eaf1b2f34c3bbd44a67891c3cf28bc6496c5d6a72",
+      "decoded_manifest": "output/shared_stock_cache/units_050/6d15d643d3e0ae184e2fc7b5c0d1d07954581006447c3ad695e11929913f19d1/decoded/867c53d4493a68f65881/decoded-static.json",
+      "decoded_manifest_sha256": "cfc7cf13e8271bf16fe707344a2be0b79259e64f9f8c0691e826e814a9e54584",
+      "native_source_rrgeom_sha256": "df25834f75fe60dd4e0ddfee53f5666ff92c2c75d55d8255b6a692b868f982d7",
+      "albedo_variants": [
+        {
+          "source_texture": "art/civilizations/malian/humans/mal_villager_male_age04/10053719655422673400_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04\\candidate-albedo.png",
+          "sha256": "6ff57d08efd756bd732f38a1b292b6ceeb054c222cc9056ac34cc09053d85a16"
+        }
+      ],
+      "design": "Bounded native cargo-cover and rider garment tailoring; age II indigo, III sage, IV patterned blue lower clothing; native sex, cargo, tack, coat, skin and owner-mask sources retained",
+      "cargo_albedo": "unchanged native pixels; retained comparison PNG is not a cooked replacement",
+      "owner_pattern_sources": [
+        {
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\6d15d643d3e0ae184e2fc7b5c0d1d07954581006447c3ad695e11929913f19d1\\decoded\\867c53d4493a68f65881\\textures\\9da2d8105cde_10914739372537000535_packed.dds",
+          "sha256": "28361a4c74176f6492609d2158397eea052d58e93d0e8c8a5320b3bd80143b0e"
+        },
+        {
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\6d15d643d3e0ae184e2fc7b5c0d1d07954581006447c3ad695e11929913f19d1\\decoded\\867c53d4493a68f65881\\textures\\3e13b5dead40_4339581956459208953_packed.dds",
+          "sha256": "2befa39dd4101439daee39424268bc71b828d83be9cbbd446d998653487a0cce"
+        }
+      ],
+      "native_material_cook": "pending root serial per-albedo material compose",
+      "native_animation": "unverified",
+      "native_team_colour": "unverified; red and blue shader previews only",
+      "geometry_recipe": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04\\recipe.json",
+      "geometry_recipe_sha256": "7d349ac8a2a36b4dc5d73c72bc7229cd9c69998cdfe91f53b6acdf8c9827917c",
+      "authored_rrgeom": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04\\trader_age04.rrgeom",
+      "authored_rrgeom_sha256": "11d830550c9702efb934a215ee431781f2c128b8a9de7b8c8ade817241458b9c",
+      "geometry_report": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04\\geometry-report.json",
+      "geometry_report_sha256": "965e79b0592a4633c3fa7f67e20d73524822786370e94913ad8edee57c9dbf3d",
+      "editable_blend": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04\\trader_age04.blend",
+      "editable_blend_sha256": "a47f5c1bf06ad4981bf737829eafbe9f4c3b817070932ce408373fde05caf2cf",
+      "authored_albedo": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04\\candidate-albedo.png",
+      "authored_albedo_sha256": "6ff57d08efd756bd732f38a1b292b6ceeb054c222cc9056ac34cc09053d85a16",
+      "authored_cargo_albedo": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04\\candidate-cargo-albedo.png",
+      "authored_cargo_albedo_sha256": "5000deafd8d39605d60772d2372375380da99a8e315b63b450c2b2f52f0f4e09",
+      "material_source": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04\\material-source.json",
+      "material_source_sha256": "d66c6501a2734bece3509d1a057d698335228d082754ee16c5fe73d8f355f675",
+      "cargo_material_source": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04\\material-source-cargo.json",
+      "cargo_material_source_sha256": "7f28d1bb118b16fa311cb5bbb44caf9fce30e9f0a3dd1c0bb90180cdebbe47ce",
+      "preview_donor_rider_only": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04\\textured-donor-rider.png",
+      "preview_donor_rider_only_sha256": "ec6cd8fb90bda0880e1e6c9918168677bdd49619a3df6bbe230c0fbb22f5258d",
+      "preview_candidate_rider_only": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04\\textured-candidate-rider.png",
+      "preview_candidate_rider_only_sha256": "8c211bc727737e71fb72a7ed60b947cfcc0b001efc1406dc977b6695568ab907",
+      "preview_donor_lod1": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04\\textured-donor.png",
+      "preview_donor_lod1_sha256": "f22e47a2c5a78ec6aaaaf691d30c5b822914c767f2730c3416d3790a01c9a812",
+      "preview_candidate_lod1": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04\\textured-candidate.png",
+      "preview_candidate_lod1_sha256": "7961e160ee003bd637e7c563e86e91ba4b08b0accc986b6aaf3ac3a67be517f9",
+      "preview_team_red": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04\\textured-team-red.png",
+      "preview_team_red_sha256": "d63b01051dfdae12a52ba525f5d4e81737d73ad22ddcf346cb02c94367e9c096",
+      "preview_team_blue": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04\\textured-team-blue.png",
+      "preview_team_blue_sha256": "a45b8038529978bf8fb7e9ed7f8d6f577d9d28b96e15dc658d490ae99d7828db"
+    },
+    {
+      "family": "trader",
+      "age": 4,
+      "sex": "female",
+      "private_variant_name": "trader_age04_female",
+      "private_resource_stem": "art/scenario/garrison/berber_units_050/trader_age04_female/trader_age04_female",
+      "official_donor_rgm": "art/civilizations/malian/animals/mal_horse_combined_trade_female_age04/mal_horse_combined_trade_female_age04.rgm",
+      "official_donor_rgm_sha256": "33c8a330a072eacdc1ad90cefeed95a1fe47fbe09108cc5d1409e648ab855fe2",
+      "decoded_manifest": "output/shared_stock_cache/units_050/30c63e518262503531e123a6a28b26a6e52349ef7a690fcd0e8a39e8bf6079dd/decoded/0bc664d702ed9a100f03/decoded-static.json",
+      "decoded_manifest_sha256": "9b6c3237311d69a169745a702f125a82324b14184b01f1d5a36e13bbca7e7f93",
+      "native_source_rrgeom_sha256": "c4a00dfab35d9219d8161ff57284b7ad18951c2b2dfb685f8920994c62159498",
+      "albedo_variants": [
+        {
+          "source_texture": "art/civilizations/malian/humans/mal_villager_female_age04/6463345036652456228_packed.rrtex",
+          "authored_png": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04_female\\candidate-albedo.png",
+          "sha256": "cab6ac7e886cc0b9bc7c472e75789f058ce8d55c192519323d9f640b47135186"
+        }
+      ],
+      "design": "Bounded native cargo-cover and rider garment tailoring; age II indigo, III sage, IV patterned blue lower clothing; native sex, cargo, tack, coat, skin and owner-mask sources retained",
+      "cargo_albedo": "unchanged native pixels; retained comparison PNG is not a cooked replacement",
+      "owner_pattern_sources": [
+        {
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\30c63e518262503531e123a6a28b26a6e52349ef7a690fcd0e8a39e8bf6079dd\\decoded\\0bc664d702ed9a100f03\\textures\\7ea4d1466047_3174330461970162972_packed.dds",
+          "sha256": "9b31260f0cd80ed0573cda88ca80530fe74e8a3e2a7b53b1849644714a50b56f"
+        },
+        {
+          "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\30c63e518262503531e123a6a28b26a6e52349ef7a690fcd0e8a39e8bf6079dd\\decoded\\0bc664d702ed9a100f03\\textures\\3e13b5dead40_4339581956459208953_packed.dds",
+          "sha256": "2befa39dd4101439daee39424268bc71b828d83be9cbbd446d998653487a0cce"
+        }
+      ],
+      "native_material_cook": "pending root serial per-albedo material compose",
+      "native_animation": "unverified",
+      "native_team_colour": "unverified; red and blue shader previews only",
+      "geometry_recipe": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04_female\\recipe.json",
+      "geometry_recipe_sha256": "89fd66900402b1c7aab06011ed2b5524abe44913acc62c9f14322ad21bbbfdaa",
+      "authored_rrgeom": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04_female\\trader_age04_female.rrgeom",
+      "authored_rrgeom_sha256": "5e91520237c0f7b51e6a7c25c317a5a271da68c74c20e7b21b46b8c1c7ae959d",
+      "geometry_report": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04_female\\geometry-report.json",
+      "geometry_report_sha256": "728d77e0295467927d40fff7244a6244d3f9e33e48e3dc4254810313b69549d4",
+      "editable_blend": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04_female\\trader_age04_female.blend",
+      "editable_blend_sha256": "3f6b7e8592378aebdd8ed16a1d92a3772bca913dfecc4b12bf6aa3c0739f6b85",
+      "authored_albedo": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04_female\\candidate-albedo.png",
+      "authored_albedo_sha256": "cab6ac7e886cc0b9bc7c472e75789f058ce8d55c192519323d9f640b47135186",
+      "authored_cargo_albedo": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04_female\\candidate-cargo-albedo.png",
+      "authored_cargo_albedo_sha256": "5000deafd8d39605d60772d2372375380da99a8e315b63b450c2b2f52f0f4e09",
+      "material_source": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04_female\\material-source.json",
+      "material_source_sha256": "57b8146070b10e92a5e7de6be6a163fdf94039a80413713feb4387b55a491472",
+      "cargo_material_source": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04_female\\material-source-cargo.json",
+      "cargo_material_source_sha256": "e2578dfc85dbfc54c9a47c0381ae62d305d8616bd8a5b1c6ee5cf55156041c3e",
+      "preview_donor_rider_only": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04_female\\textured-donor-rider.png",
+      "preview_donor_rider_only_sha256": "bfc97a6e8eecf262820a3b0bb0f397695c4012525d68b8525f2b63ede42769a0",
+      "preview_candidate_rider_only": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04_female\\textured-candidate-rider.png",
+      "preview_candidate_rider_only_sha256": "456ecd551c8f8d3ab7fe0f6a2734ebb7572258bff5b9601b3738dca12302dabd",
+      "preview_donor_lod1": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04_female\\textured-donor.png",
+      "preview_donor_lod1_sha256": "23908749cbd0052e370fcfc678ff5bd4dea37c505d16ca780d859aa4632dab7e",
+      "preview_candidate_lod1": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04_female\\textured-candidate.png",
+      "preview_candidate_lod1_sha256": "c0d7408f87227f9e7a96e91047c891e4cd5d99076a40c15fcf9f978db6c2aa76",
+      "preview_team_red": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04_female\\textured-team-red.png",
+      "preview_team_red_sha256": "d2057b3c8ba47c5316474c6fa9a5ba256175e7d9283e99d560a6c0d739f9341d",
+      "preview_team_blue": "art\\unit_remix_0_5_0\\civilian\\trader\\trader_age04_female\\textured-team-blue.png",
+      "preview_team_blue_sha256": "ce42283e540c23c52369703750026f18257f08a8c053e1d04b6e0c68ae3dfae8"
+    }
+  ],
+  "rejected_camel_probes": "art\\unit_remix_0_5_0\\civilian\\trader\\probes"
+}

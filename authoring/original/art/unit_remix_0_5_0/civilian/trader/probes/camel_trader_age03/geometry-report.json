@@ -1,0 +1,81 @@
+{
+  "status": "geometry_prepared_no_cook",
+  "name": "trader_age03",
+  "recipe": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03\\recipe.json",
+  "recipe_sha256": "923223f175b8ebb8cc3724da99ebd57ae484c12aab739b654b63b0084898b23a",
+  "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\11ffb52179cc2ed0e704a3cb25c37a22f3fde9a097fe34b908ec3c880e88c809\\decoded\\ab8fcf9b449fa8a53af7\\source\\art\\civilizations\\malian\\animals\\mal_camel_combined_trade_age03\\mal_camel_combined_trade_age03.rrgeom",
+  "source_sha256": "20696928ad898bde8fd39de5f48ca0633d0e20a0c8848a9e55f74aad73889087",
+  "output": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\civilian\\trader\\trader_age03\\trader_age03.rrgeom",
+  "output_sha256": "0fa927947775111bc3db841bdf6e2def875c33ae7f5da5d117303be87f87ce7a",
+  "groups": [
+    {
+      "index": 0,
+      "name": "mal_villager_male_age03",
+      "material": "rider_lod1",
+      "vertex_count": 966,
+      "edited_vertices": 207,
+      "edited_fraction": 0.2143,
+      "max_displacement_metres": 0.05,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 1,
+      "name": "mal_villager_male_age03",
+      "material": "rider_lod2",
+      "vertex_count": 522,
+      "edited_vertices": 91,
+      "edited_fraction": 0.1743,
+      "max_displacement_metres": 0.05,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 2,
+      "name": "mal_villager_male_age03",
+      "material": "rider_lod3",
+      "vertex_count": 231,
+      "edited_vertices": 37,
+      "edited_fraction": 0.1602,
+      "max_displacement_metres": 0.03684,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 3,
+      "name": "mal_trade_camel_age03",
+      "material": "cart_lod1",
+      "vertex_count": 703,
+      "edited_vertices": 392,
+      "edited_fraction": 0.5576,
+      "max_displacement_metres": 0.06,
+      "clipped_to_native_bounds": 4,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 4,
+      "name": "mal_trade_camel_age03",
+      "material": "cart_lod2",
+      "vertex_count": 302,
+      "edited_vertices": 160,
+      "edited_fraction": 0.5298,
+      "max_displacement_metres": 0.06,
+      "clipped_to_native_bounds": 2,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 5,
+      "name": "mal_trade_camel_age03",
+      "material": "cart_lod3",
+      "vertex_count": 214,
+      "edited_vertices": 112,
+      "edited_fraction": 0.5234,
+      "max_displacement_metres": 0.06,
+      "clipped_to_native_bounds": 2,
+      "within_original_native_bounds": true
+    }
+  ],
+  "preserved": "native skeleton, SKIN indices/weights, UVs, topology, LOD metadata, all non-position/normal/tangent bytes",
+  "native_cook": "pending serial token",
+  "runtime": "unverified"
+}

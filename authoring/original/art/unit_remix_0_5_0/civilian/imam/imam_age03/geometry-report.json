@@ -1,0 +1,48 @@
+{
+  "status": "geometry_prepared_no_cook",
+  "name": "imam_age03",
+  "recipe": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\civilian\\imam\\imam_age03\\recipe.json",
+  "recipe_sha256": "afe267ad502ed671059b80102a5896dfa103f312c927811cd6d359b8247e3f50",
+  "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\a47f282836974a5aba782d12c1be9a2dff396e3b0f041befc352426404e56d72\\decoded\\aa9ac3111ec8924bc63e\\source\\art\\civilizations\\sultanate\\humans\\sul_infantry_monk_age03\\sul_infantry_monk_age03.rrgeom",
+  "source_sha256": "a8c5b5b957fb8d3b33c17e719e719a14ccefdea1ffaf0de15e1ac5f277ec1634",
+  "output": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\civilian\\imam\\imam_age03\\imam_age03.rrgeom",
+  "output_sha256": "6ac03ba463874eb264a1aa0c0b15ff8ea7c1095cbcd9c5ed88e454e6c36e2f7c",
+  "groups": [
+    {
+      "index": 0,
+      "name": "sul_infantry_monk_age03",
+      "material": "lod1",
+      "vertex_count": 721,
+      "edited_vertices": 209,
+      "edited_fraction": 0.2899,
+      "max_displacement_metres": 0.055,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 1,
+      "name": "sul_infantry_monk_age03",
+      "material": "lod2",
+      "vertex_count": 383,
+      "edited_vertices": 109,
+      "edited_fraction": 0.2846,
+      "max_displacement_metres": 0.055,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 2,
+      "name": "sul_infantry_monk_age03",
+      "material": "lod3",
+      "vertex_count": 150,
+      "edited_vertices": 46,
+      "edited_fraction": 0.3067,
+      "max_displacement_metres": 0.05477,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    }
+  ],
+  "preserved": "native skeleton, SKIN indices/weights, UVs, topology, LOD metadata, all non-position/normal/tangent bytes",
+  "native_cook": "pending serial token",
+  "runtime": "unverified"
+}

@@ -1,0 +1,48 @@
+{
+  "status": "geometry_prepared_no_cook",
+  "name": "king_age02",
+  "recipe": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\civilian\\king\\king_age02\\recipe.json",
+  "recipe_sha256": "65cdc673a93bd54a4e0367a9509920c015a7a7049346e650802753b452d7584e",
+  "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\af196aa3fd4add788e4ebba1b6783374f95b85281288ff7940f635018c839199\\decoded\\208f62b0a069349845fc\\source\\art\\civilizations\\malian\\humans\\mal_infantry_light_age04\\mal_infantry_light_age04.rrgeom",
+  "source_sha256": "77831f246098c47109cb5ef7dccc713ef4676b771031002badd66a897d1dec4f",
+  "output": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\civilian\\king\\king_age02\\king_age02.rrgeom",
+  "output_sha256": "e5f5f643da45d56304df4956077fefba9a370b4f1555368173a43befcb22a080",
+  "groups": [
+    {
+      "index": 0,
+      "name": "mal_infantry_light_age04",
+      "material": "lod1",
+      "vertex_count": 1273,
+      "edited_vertices": 382,
+      "edited_fraction": 0.3001,
+      "max_displacement_metres": 0.045,
+      "clipped_to_native_bounds": 2,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 1,
+      "name": "mal_infantry_light_age04",
+      "material": "lod2",
+      "vertex_count": 593,
+      "edited_vertices": 200,
+      "edited_fraction": 0.3373,
+      "max_displacement_metres": 0.045,
+      "clipped_to_native_bounds": 2,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 2,
+      "name": "mal_infantry_light_age04",
+      "material": "lod3",
+      "vertex_count": 329,
+      "edited_vertices": 104,
+      "edited_fraction": 0.3161,
+      "max_displacement_metres": 0.045,
+      "clipped_to_native_bounds": 4,
+      "within_original_native_bounds": true
+    }
+  ],
+  "preserved": "native skeleton, SKIN indices/weights, UVs, topology, LOD metadata, all non-position/normal/tangent bytes",
+  "native_cook": "pending serial token",
+  "runtime": "unverified"
+}

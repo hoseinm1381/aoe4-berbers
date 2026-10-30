@@ -1,0 +1,48 @@
+{
+  "status": "geometry_prepared_no_cook",
+  "name": "imam_age04",
+  "recipe": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\civilian\\imam\\imam_age04\\recipe.json",
+  "recipe_sha256": "80aa127058386825f8fd68f0a693480c2ae06ed3affef1827c134660f73b5c84",
+  "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\a7395efc11c1a21c898b8d4770b5eb4be35cc48d8b8897aeb43fed3c2cfe183b\\decoded\\4ef48b79e93e8f7b5bc3\\source\\art\\civilizations\\malian\\humans\\mal_infantry_monk_age04\\mal_infantry_monk_age04.rrgeom",
+  "source_sha256": "5a15bbbbbae899eb787b7f39c568b685414638b2db02ebf7ee961d8a0498eefc",
+  "output": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\civilian\\imam\\imam_age04\\imam_age04.rrgeom",
+  "output_sha256": "41af32cbcfe1f0c1664ad77406ddf382b3546e1e2ffcf48ed42523d53642be8b",
+  "groups": [
+    {
+      "index": 0,
+      "name": "mal_infantry_monk_age04",
+      "material": "lod1",
+      "vertex_count": 1748,
+      "edited_vertices": 718,
+      "edited_fraction": 0.4108,
+      "max_displacement_metres": 0.06,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 1,
+      "name": "mal_infantry_monk_age04",
+      "material": "lod2",
+      "vertex_count": 647,
+      "edited_vertices": 219,
+      "edited_fraction": 0.3385,
+      "max_displacement_metres": 0.06,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 2,
+      "name": "mal_infantry_monk_age04",
+      "material": "lod3",
+      "vertex_count": 345,
+      "edited_vertices": 81,
+      "edited_fraction": 0.2348,
+      "max_displacement_metres": 0.06,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    }
+  ],
+  "preserved": "native skeleton, SKIN indices/weights, UVs, topology, LOD metadata, all non-position/normal/tangent bytes",
+  "native_cook": "pending serial token",
+  "runtime": "unverified"
+}

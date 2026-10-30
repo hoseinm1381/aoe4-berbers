@@ -1,0 +1,218 @@
+{
+  "schema": "berber-050-unit-geometry/v1",
+  "name": "imam_age03",
+  "output_dir": "art\\unit_remix_0_5_0\\civilian\\imam\\imam_age03",
+  "manifest": "output\\shared_stock_cache\\units_050\\a47f282836974a5aba782d12c1be9a2dff396e3b0f041befc352426404e56d72\\decoded\\aa9ac3111ec8924bc63e\\decoded-static.json",
+  "manifest_sha256": "a2a669b79ed9ac0c059b70f7b0aeab8fc1250e1435600ca33bc1c0ba67d09dda",
+  "logical_path": "art/civilizations/sultanate/humans/sul_infantry_monk_age03/sul_infantry_monk_age03.rgm",
+  "geometry_sha256": "a8c5b5b957fb8d3b33c17e719e719a14ccefdea1ffaf0de15e1ac5f277ec1634",
+  "design": "imam age 3: regional layered cloth/headwear and restrained progression; native rig, tools and states retained",
+  "groups": [
+    {
+      "index": 0,
+      "features": [
+        {
+          "kind": "lateral_expand",
+          "z_window": [
+            0.25,
+            0.38,
+            0.7,
+            0.93
+          ],
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            1,
+            1
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "metres": 0.055,
+          "abs_x_window": [
+            0.05,
+            0.11,
+            0.36,
+            0.46
+          ]
+        },
+        {
+          "kind": "radial_expand",
+          "z_window": [
+            1.55,
+            1.64,
+            1.81,
+            1.95
+          ],
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            1,
+            1
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "metres": 0.033,
+          "abs_x_window": [
+            0,
+            0.01,
+            0.19,
+            0.25
+          ]
+        }
+      ],
+      "max_displacement_metres": 0.09,
+      "contain_within_donor_bounds": true,
+      "max_clipped_fraction": 0.28
+    },
+    {
+      "index": 1,
+      "features": [
+        {
+          "kind": "lateral_expand",
+          "z_window": [
+            0.25,
+            0.38,
+            0.7,
+            0.93
+          ],
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            1,
+            1
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "metres": 0.055,
+          "abs_x_window": [
+            0.05,
+            0.11,
+            0.36,
+            0.46
+          ]
+        },
+        {
+          "kind": "radial_expand",
+          "z_window": [
+            1.55,
+            1.64,
+            1.81,
+            1.95
+          ],
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            1,
+            1
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "metres": 0.033,
+          "abs_x_window": [
+            0,
+            0.01,
+            0.19,
+            0.25
+          ]
+        }
+      ],
+      "max_displacement_metres": 0.09,
+      "contain_within_donor_bounds": true,
+      "max_clipped_fraction": 0.28
+    },
+    {
+      "index": 2,
+      "features": [
+        {
+          "kind": "lateral_expand",
+          "z_window": [
+            0.25,
+            0.38,
+            0.7,
+            0.93
+          ],
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            1,
+            1
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "metres": 0.055,
+          "abs_x_window": [
+            0.05,
+            0.11,
+            0.36,
+            0.46
+          ]
+        },
+        {
+          "kind": "radial_expand",
+          "z_window": [
+            1.55,
+            1.64,
+            1.81,
+            1.95
+          ],
+          "center_xy": [
+            0,
+            0
+          ],
+          "radius_xy": [
+            1,
+            1
+          ],
+          "radial_window": [
+            0,
+            0.01,
+            0.9,
+            2
+          ],
+          "metres": 0.033,
+          "abs_x_window": [
+            0,
+            0.01,
+            0.19,
+            0.25
+          ]
+        }
+      ],
+      "max_displacement_metres": 0.09,
+      "contain_within_donor_bounds": true,
+      "max_clipped_fraction": 0.28
+    }
+  ],
+  "preview_albedo": "candidate-albedo.png",
+  "donor_albedo_texture_id": "13980010256160221086"
+}

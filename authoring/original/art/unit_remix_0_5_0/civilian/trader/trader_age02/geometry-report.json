@@ -1,0 +1,81 @@
+{
+  "status": "geometry_prepared_no_cook",
+  "name": "trader_age02",
+  "recipe": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02\\recipe.json",
+  "recipe_sha256": "d2e6204e30e1bf49a26daf6154bc71dade05912d5562ea212870235d68c53ebe",
+  "source": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014\\output\\shared_stock_cache\\units_050\\569fa34973bba6426b4d535975e0030990e7291a432d40d046ab6f1a417c3256\\decoded\\b969b156fc0f71f915fe\\source\\art\\civilizations\\malian\\animals\\mal_horse_combined_trade_age02\\mal_horse_combined_trade_age02.rrgeom",
+  "source_sha256": "7304123e0c7190b108bbb5d04d7d4d68cac8c76a04e97a3f0b904b97bd5723e5",
+  "output": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\unit_remix_0_5_0\\civilian\\trader\\trader_age02\\trader_age02.rrgeom",
+  "output_sha256": "40f3564cc30e267240691836e5fb87e7c81a28ad78d54bae209623eafca87449",
+  "groups": [
+    {
+      "index": 3,
+      "name": "mal_trade_horse_age02",
+      "material": "cart_lod1",
+      "vertex_count": 1820,
+      "edited_vertices": 1778,
+      "edited_fraction": 0.9769,
+      "max_displacement_metres": 0.055,
+      "clipped_to_native_bounds": 64,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 4,
+      "name": "mal_trade_horse_age02",
+      "material": "cart_lod2",
+      "vertex_count": 750,
+      "edited_vertices": 726,
+      "edited_fraction": 0.968,
+      "max_displacement_metres": 0.055,
+      "clipped_to_native_bounds": 18,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 5,
+      "name": "mal_trade_horse_age02",
+      "material": "cart_lod3",
+      "vertex_count": 396,
+      "edited_vertices": 382,
+      "edited_fraction": 0.9646,
+      "max_displacement_metres": 0.055,
+      "clipped_to_native_bounds": 8,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 9,
+      "name": "mal_cavalry_trade_age02",
+      "material": "rider_lod1",
+      "vertex_count": 1002,
+      "edited_vertices": 238,
+      "edited_fraction": 0.2375,
+      "max_displacement_metres": 0.045,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 10,
+      "name": "mal_cavalry_trade_age02",
+      "material": "rider_lod2",
+      "vertex_count": 429,
+      "edited_vertices": 87,
+      "edited_fraction": 0.2028,
+      "max_displacement_metres": 0.045,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    },
+    {
+      "index": 11,
+      "name": "mal_cavalry_trade_age02",
+      "material": "rider_lod3",
+      "vertex_count": 232,
+      "edited_vertices": 42,
+      "edited_fraction": 0.181,
+      "max_displacement_metres": 0.0385,
+      "clipped_to_native_bounds": 0,
+      "within_original_native_bounds": true
+    }
+  ],
+  "preserved": "native skeleton, SKIN indices/weights, UVs, topology, LOD metadata, all non-position/normal/tangent bytes",
+  "native_cook": "pending serial token",
+  "runtime": "unverified"
+}
