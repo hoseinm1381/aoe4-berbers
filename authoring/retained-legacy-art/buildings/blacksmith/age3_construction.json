@@ -1,0 +1,622 @@
+{
+  "schema": "berber-building-source-stage/v1",
+  "age": 3,
+  "stages": [
+    0,
+    20,
+    40,
+    60,
+    80,
+    100
+  ],
+  "assignment": "first visible percentage, cumulative",
+  "parts": [
+    {
+      "object": "foundation",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "court_floor",
+      "first_stage": 0,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "store_back",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "store_side",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "store_side.001",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "store_front_jamb",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "store_front_jamb.001",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "store_open_lintel",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "store_roof",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "store_parapet",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "store_parapet.001",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "store_end_parapet",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "store_end_parapet.001",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "hearth_base",
+      "first_stage": 40,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "forge_side",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "forge_side.001",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "forge_back",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "hood_side",
+      "first_stage": 60,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "hood_side.001",
+      "first_stage": 60,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "hood_front_back",
+      "first_stage": 60,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "hood_front_back.001",
+      "first_stage": 60,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "chimney_side",
+      "first_stage": 60,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "chimney_side.001",
+      "first_stage": 60,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "chimney_front_back",
+      "first_stage": 60,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "chimney_front_back.001",
+      "first_stage": 60,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "chimney_coping",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "chimney_coping.001",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "chimney_coping_cross",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "chimney_coping_cross.001",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cold_charcoal",
+      "first_stage": 100,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "cold_charcoal.001",
+      "first_stage": 100,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "cold_charcoal.002",
+      "first_stage": 100,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "cold_charcoal.003",
+      "first_stage": 100,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "cold_charcoal.004",
+      "first_stage": 100,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "cold_charcoal.005",
+      "first_stage": 100,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "cold_charcoal.006",
+      "first_stage": 100,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "bellows_stand",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "bellows_leather",
+      "first_stage": 80,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "bellows_handle",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "bellows_nozzle",
+      "first_stage": 80,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "shelter_post",
+      "first_stage": 20,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "shelter_post.001",
+      "first_stage": 20,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "shelter_post.002",
+      "first_stage": 20,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "shelter_post.003",
+      "first_stage": 20,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "shelter_crossbeam",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "shelter_crossbeam.001",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "roof_rafter",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "roof_rafter.001",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "roof_rafter.002",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "roof_rafter.003",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "pitched_roof",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "pitched_roof.001",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "owner_roof_stripe",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "owner_roof_stripe.001",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "owner_roof_stripe.002",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "anvil_stump",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "anvil",
+      "first_stage": 80,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "trough_bottom",
+      "first_stage": 40,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "trough_side",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "trough_side.001",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "trough_end",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "trough_end.001",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "quench_water",
+      "first_stage": 100,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "bench_leg",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "bench_leg.001",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "bench_top",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "tool_rack",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "hammer_handle",
+      "first_stage": 100,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "hammer_head",
+      "first_stage": 100,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "hammer_handle.001",
+      "first_stage": 100,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "hammer_head.001",
+      "first_stage": 100,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "hammer_handle.002",
+      "first_stage": 100,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "hammer_head.002",
+      "first_stage": 100,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "hammer_handle.003",
+      "first_stage": 100,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "hammer_head.003",
+      "first_stage": 100,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "hammer_handle.004",
+      "first_stage": 100,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "hammer_head.004",
+      "first_stage": 100,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "steel_billet",
+      "first_stage": 100,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "steel_billet.001",
+      "first_stage": 100,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "steel_billet.002",
+      "first_stage": 100,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "steel_billet.003",
+      "first_stage": 100,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "steel_billet.004",
+      "first_stage": 100,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "owner_workshop_band",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "workshop_quoin",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "workshop_quoin.001",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "workshop_quoin.002",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "workshop_quoin.003",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "workshop_quoin.004",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "workshop_quoin.005",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "workshop_quoin.006",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "workshop_quoin.007",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "workshop_quoin.008",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "workshop_quoin.009",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "roof_drain",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "roof_drain.001",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "charcoal_sack",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "charcoal_sack.001",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "charcoal_sack.002",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "charcoal_sack.003",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "anvil_hammer_handle",
+      "first_stage": 100,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "anvil_hammer_head",
+      "first_stage": 100,
+      "material": "shadow",
+      "owner_mask": 0
+    }
+  ],
+  "game_binding": "pending"
+}

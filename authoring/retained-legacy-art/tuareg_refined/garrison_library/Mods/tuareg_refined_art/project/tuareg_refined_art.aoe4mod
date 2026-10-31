@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod xmlns="http://schemas.datacontract.org/2004/07/Essence.Editor.Modding" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+	<DataGenericPath>source\</DataGenericPath>
+	<DataIntermediatePath>cache</DataIntermediatePath>
+	<ID>31ae6f72-f8b6-4742-8f42-e8eabeb082ef</ID>
+	<LocDBPath>locdb\tuareg_refined_art.locdb</LocDBPath>
+	<Type>Extension</Type>
+</Mod>

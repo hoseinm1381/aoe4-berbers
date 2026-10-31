@@ -1,0 +1,25 @@
+<DataWarehouse>
+	<!--Mod/-->
+	<DataObject Name="berber_tent_art_020" Type="Mod" Id="8631553544411986071" Version="1">
+		<DataProperty Name="m_description" Type="Object">
+			<DataValue Name="util::ReflectLocString">8427136541300205327</DataValue>
+			<DataObject Name="" Type="util::ReflectLocString" Id="8427136541300205327" OwnerId="8631553544411986071">
+				<DataProperty Name="m_modPart2" Type="UInt32" Value="2013704331"/>
+				<DataProperty Name="m_modPart3" Type="UInt32" Value="4059102289"/>
+				<DataProperty Name="m_modPart0" Type="UInt32" Value="489768424"/>
+				<DataProperty Name="m_modPart1" Type="UInt32" Value="1115681202"/>
+				<DataProperty Name="m_locStringKey" Type="Int32" Value="2"/>
+			</DataObject>
+		</DataProperty>
+		<DataProperty Name="m_name" Type="Object">
+			<DataValue Name="util::ReflectLocString">4378413681120221388</DataValue>
+			<DataObject Name="" Type="util::ReflectLocString" Id="4378413681120221388" OwnerId="8631553544411986071">
+				<DataProperty Name="m_modPart2" Type="UInt32" Value="2013704331"/>
+				<DataProperty Name="m_modPart3" Type="UInt32" Value="4059102289"/>
+				<DataProperty Name="m_modPart0" Type="UInt32" Value="489768424"/>
+				<DataProperty Name="m_modPart1" Type="UInt32" Value="1115681202"/>
+				<DataProperty Name="m_locStringKey" Type="Int32" Value="1"/>
+			</DataObject>
+		</DataProperty>
+	</DataObject>
+</DataWarehouse>

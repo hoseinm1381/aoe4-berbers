@@ -1,0 +1,83 @@
+{
+  "schema": "garrison.custom-static-authoring-request/v2",
+  "namespace": "tuareg",
+  "asset_id": "tuareg_leaf_spear",
+  "catalog_folder": "Tuareg original equipment",
+  "build_id": "20261011T131256Z-08e90c",
+  "source": {
+    "fbx": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_leaf_spear\\source\\model.fbx"
+  },
+  "materials": [
+    {
+      "id": "tuareg_age2_atlas_002",
+      "source_name": "Tuareg age2 atlas.002",
+      "mesh_name": "geo_mat_main",
+      "textures": {
+        "albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_leaf_spear\\source\\materials\\tuareg_age2_atlas_002\\albedo.png",
+        "normal": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_leaf_spear\\source\\materials\\tuareg_age2_atlas_002\\normal.png",
+        "roughness": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_leaf_spear\\source\\materials\\tuareg_age2_atlas_002\\roughness.png",
+        "metalness": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_leaf_spear\\source\\materials\\tuareg_age2_atlas_002\\metalness.png"
+      },
+      "bindings": {
+        "albedo": {
+          "kind": "image",
+          "image_name": "Tuareg age2 albedo",
+          "node_name": "Image Texture",
+          "output": "Color",
+          "colorspace": "sRGB",
+          "size": [
+            512,
+            512
+          ],
+          "packed": false,
+          "filepath": "e:\\age of empires 4 mods\\ai_assisted_modding\\berber_future_kingdom_ai\\art\\tuareg_overhaul\\textures\\age2_albedo.png"
+        },
+        "normal": {
+          "kind": "constant",
+          "value": [
+            0.5,
+            0.5,
+            1.0,
+            1.0
+          ]
+        },
+        "roughness": {
+          "kind": "image",
+          "image_name": "Tuareg age2 roughness",
+          "node_name": "Image Texture.001",
+          "output": "Color",
+          "colorspace": "Non-Color",
+          "size": [
+            512,
+            512
+          ],
+          "packed": false,
+          "filepath": "e:\\age of empires 4 mods\\ai_assisted_modding\\berber_future_kingdom_ai\\art\\tuareg_overhaul\\textures\\age2_roughness.png"
+        },
+        "metalness": {
+          "kind": "image",
+          "image_name": "Tuareg age2 metalness",
+          "node_name": "Image Texture.002",
+          "output": "Color",
+          "colorspace": "Non-Color",
+          "size": [
+            512,
+            512
+          ],
+          "packed": false,
+          "filepath": "e:\\age of empires 4 mods\\ai_assisted_modding\\berber_future_kingdom_ai\\art\\tuareg_overhaul\\textures\\age2_metalness.png"
+        }
+      },
+      "usage": {
+        "objects": [
+          "tuareg_leaf_spear"
+        ],
+        "faces": 66
+      }
+    }
+  ],
+  "blender_executable": "E:\\Blender5.2\\blender.exe",
+  "template_project": "C:\\Users\\RS\\AppData\\Local\\Garrison\\Kit\\template-project",
+  "asset_root": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_leaf_spear",
+  "cook_editor": "C:\\Users\\RS\\AppData\\Local\\Garrison\\Kit\\tools\\essence-object-editor\\EssenceEditor.exe"
+}

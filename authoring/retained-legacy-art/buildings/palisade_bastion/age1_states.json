@@ -1,0 +1,661 @@
+{
+  "age": 1,
+  "states": {
+    "terminal": {
+      "objects": [
+        "compacted_earth_footing",
+        "split_timber_upright",
+        "split_timber_upright.001",
+        "split_timber_upright.002",
+        "split_timber_upright.003",
+        "bundle_cross_tie_x",
+        "bundle_cross_tie_x.001",
+        "bundle_cross_tie_y",
+        "bundle_cross_tie_y.001",
+        "lashing_front_back",
+        "lashing_front_back.001",
+        "lashing_sides",
+        "lashing_sides.001",
+        "lashing_front_back.002",
+        "lashing_front_back.003",
+        "lashing_sides.002",
+        "lashing_sides.003",
+        "lashing_front_back.004",
+        "lashing_front_back.005",
+        "lashing_sides.004",
+        "lashing_sides.005",
+        "lashing_front_back.006",
+        "lashing_front_back.007",
+        "lashing_sides.006",
+        "lashing_sides.007",
+        "bundle_cross_tie_x.002",
+        "bundle_cross_tie_x.003",
+        "bundle_cross_tie_y.002",
+        "bundle_cross_tie_y.003",
+        "lashing_front_back.008",
+        "lashing_front_back.009",
+        "lashing_sides.008",
+        "lashing_sides.009",
+        "lashing_front_back.010",
+        "lashing_front_back.011",
+        "lashing_sides.010",
+        "lashing_sides.011",
+        "lashing_front_back.012",
+        "lashing_front_back.013",
+        "lashing_sides.012",
+        "lashing_sides.013",
+        "lashing_front_back.014",
+        "lashing_front_back.015",
+        "lashing_sides.014",
+        "lashing_sides.015",
+        "native_owner_stripe_source",
+        "native_owner_stripe_source.001",
+        "native_owner_stripe_source.002",
+        "native_owner_stripe_source.003",
+        "exposed_wall_socket_collar",
+        "exposed_wall_socket_collar.001",
+        "terminal_diagonal_stay",
+        "terminal_diagonal_stay.002",
+        "terminal_diagonal_stay.004"
+      ],
+      "directions_degrees": [
+        0
+      ],
+      "endpoints": [
+        [
+          0.3414306640625,
+          0.0,
+          0
+        ]
+      ]
+    },
+    "straight": {
+      "objects": [
+        "compacted_earth_footing.001",
+        "split_timber_upright.004",
+        "split_timber_upright.005",
+        "split_timber_upright.006",
+        "split_timber_upright.007",
+        "bundle_cross_tie_x.004",
+        "bundle_cross_tie_x.005",
+        "bundle_cross_tie_y.004",
+        "bundle_cross_tie_y.005",
+        "lashing_front_back.016",
+        "lashing_front_back.017",
+        "lashing_sides.016",
+        "lashing_sides.017",
+        "lashing_front_back.018",
+        "lashing_front_back.019",
+        "lashing_sides.018",
+        "lashing_sides.019",
+        "lashing_front_back.020",
+        "lashing_front_back.021",
+        "lashing_sides.020",
+        "lashing_sides.021",
+        "lashing_front_back.022",
+        "lashing_front_back.023",
+        "lashing_sides.022",
+        "lashing_sides.023",
+        "bundle_cross_tie_x.006",
+        "bundle_cross_tie_x.007",
+        "bundle_cross_tie_y.006",
+        "bundle_cross_tie_y.007",
+        "lashing_front_back.024",
+        "lashing_front_back.025",
+        "lashing_sides.024",
+        "lashing_sides.025",
+        "lashing_front_back.026",
+        "lashing_front_back.027",
+        "lashing_sides.026",
+        "lashing_sides.027",
+        "lashing_front_back.028",
+        "lashing_front_back.029",
+        "lashing_sides.028",
+        "lashing_sides.029",
+        "lashing_front_back.030",
+        "lashing_front_back.031",
+        "lashing_sides.030",
+        "lashing_sides.031",
+        "native_owner_stripe_source.004",
+        "native_owner_stripe_source.005",
+        "native_owner_stripe_source.006",
+        "native_owner_stripe_source.007",
+        "exposed_wall_socket_collar.002",
+        "exposed_wall_socket_collar.003",
+        "terminal_diagonal_stay.006",
+        "exposed_wall_socket_collar.004",
+        "exposed_wall_socket_collar.005",
+        "terminal_diagonal_stay.008"
+      ],
+      "directions_degrees": [
+        0,
+        180
+      ],
+      "endpoints": [
+        [
+          0.3414306640625,
+          0.0,
+          0
+        ],
+        [
+          -0.3414306640625,
+          4.1813196987489586e-17,
+          0
+        ]
+      ]
+    },
+    "corner_90": {
+      "objects": [
+        "compacted_earth_footing.002",
+        "split_timber_upright.008",
+        "split_timber_upright.009",
+        "split_timber_upright.010",
+        "split_timber_upright.011",
+        "bundle_cross_tie_x.008",
+        "bundle_cross_tie_x.009",
+        "bundle_cross_tie_y.008",
+        "bundle_cross_tie_y.009",
+        "lashing_front_back.032",
+        "lashing_front_back.033",
+        "lashing_sides.032",
+        "lashing_sides.033",
+        "lashing_front_back.034",
+        "lashing_front_back.035",
+        "lashing_sides.034",
+        "lashing_sides.035",
+        "lashing_front_back.036",
+        "lashing_front_back.037",
+        "lashing_sides.036",
+        "lashing_sides.037",
+        "lashing_front_back.038",
+        "lashing_front_back.039",
+        "lashing_sides.038",
+        "lashing_sides.039",
+        "bundle_cross_tie_x.010",
+        "bundle_cross_tie_x.011",
+        "bundle_cross_tie_y.010",
+        "bundle_cross_tie_y.011",
+        "lashing_front_back.040",
+        "lashing_front_back.041",
+        "lashing_sides.040",
+        "lashing_sides.041",
+        "lashing_front_back.042",
+        "lashing_front_back.043",
+        "lashing_sides.042",
+        "lashing_sides.043",
+        "lashing_front_back.044",
+        "lashing_front_back.045",
+        "lashing_sides.044",
+        "lashing_sides.045",
+        "lashing_front_back.046",
+        "lashing_front_back.047",
+        "lashing_sides.046",
+        "lashing_sides.047",
+        "native_owner_stripe_source.008",
+        "native_owner_stripe_source.009",
+        "native_owner_stripe_source.010",
+        "native_owner_stripe_source.011",
+        "exposed_wall_socket_collar.006",
+        "exposed_wall_socket_collar.007",
+        "exposed_wall_socket_collar.008",
+        "exposed_wall_socket_collar.009",
+        "terminal_diagonal_stay.010",
+        "terminal_diagonal_stay.012"
+      ],
+      "directions_degrees": [
+        0,
+        90
+      ],
+      "endpoints": [
+        [
+          0.3414306640625,
+          0.0,
+          0
+        ],
+        [
+          2.0906598493744793e-17,
+          0.3414306640625,
+          0
+        ]
+      ]
+    },
+    "junction_T": {
+      "objects": [
+        "compacted_earth_footing.003",
+        "split_timber_upright.012",
+        "split_timber_upright.013",
+        "split_timber_upright.014",
+        "split_timber_upright.015",
+        "bundle_cross_tie_x.012",
+        "bundle_cross_tie_x.013",
+        "bundle_cross_tie_y.012",
+        "bundle_cross_tie_y.013",
+        "lashing_front_back.048",
+        "lashing_front_back.049",
+        "lashing_sides.048",
+        "lashing_sides.049",
+        "lashing_front_back.050",
+        "lashing_front_back.051",
+        "lashing_sides.050",
+        "lashing_sides.051",
+        "lashing_front_back.052",
+        "lashing_front_back.053",
+        "lashing_sides.052",
+        "lashing_sides.053",
+        "lashing_front_back.054",
+        "lashing_front_back.055",
+        "lashing_sides.054",
+        "lashing_sides.055",
+        "bundle_cross_tie_x.014",
+        "bundle_cross_tie_x.015",
+        "bundle_cross_tie_y.014",
+        "bundle_cross_tie_y.015",
+        "lashing_front_back.056",
+        "lashing_front_back.057",
+        "lashing_sides.056",
+        "lashing_sides.057",
+        "lashing_front_back.058",
+        "lashing_front_back.059",
+        "lashing_sides.058",
+        "lashing_sides.059",
+        "lashing_front_back.060",
+        "lashing_front_back.061",
+        "lashing_sides.060",
+        "lashing_sides.061",
+        "lashing_front_back.062",
+        "lashing_front_back.063",
+        "lashing_sides.062",
+        "lashing_sides.063",
+        "native_owner_stripe_source.012",
+        "native_owner_stripe_source.013",
+        "native_owner_stripe_source.014",
+        "native_owner_stripe_source.015",
+        "exposed_wall_socket_collar.010",
+        "exposed_wall_socket_collar.011",
+        "exposed_wall_socket_collar.012",
+        "exposed_wall_socket_collar.013",
+        "exposed_wall_socket_collar.014",
+        "exposed_wall_socket_collar.015",
+        "terminal_diagonal_stay.014"
+      ],
+      "directions_degrees": [
+        0,
+        90,
+        180
+      ],
+      "endpoints": [
+        [
+          0.3414306640625,
+          0.0,
+          0
+        ],
+        [
+          2.0906598493744793e-17,
+          0.3414306640625,
+          0
+        ],
+        [
+          -0.3414306640625,
+          4.1813196987489586e-17,
+          0
+        ]
+      ]
+    },
+    "junction_cross": {
+      "objects": [
+        "compacted_earth_footing.004",
+        "split_timber_upright.016",
+        "split_timber_upright.017",
+        "split_timber_upright.018",
+        "split_timber_upright.019",
+        "bundle_cross_tie_x.016",
+        "bundle_cross_tie_x.017",
+        "bundle_cross_tie_y.016",
+        "bundle_cross_tie_y.017",
+        "lashing_front_back.064",
+        "lashing_front_back.065",
+        "lashing_sides.064",
+        "lashing_sides.065",
+        "lashing_front_back.066",
+        "lashing_front_back.067",
+        "lashing_sides.066",
+        "lashing_sides.067",
+        "lashing_front_back.068",
+        "lashing_front_back.069",
+        "lashing_sides.068",
+        "lashing_sides.069",
+        "lashing_front_back.070",
+        "lashing_front_back.071",
+        "lashing_sides.070",
+        "lashing_sides.071",
+        "bundle_cross_tie_x.018",
+        "bundle_cross_tie_x.019",
+        "bundle_cross_tie_y.018",
+        "bundle_cross_tie_y.019",
+        "lashing_front_back.072",
+        "lashing_front_back.073",
+        "lashing_sides.072",
+        "lashing_sides.073",
+        "lashing_front_back.074",
+        "lashing_front_back.075",
+        "lashing_sides.074",
+        "lashing_sides.075",
+        "lashing_front_back.076",
+        "lashing_front_back.077",
+        "lashing_sides.076",
+        "lashing_sides.077",
+        "lashing_front_back.078",
+        "lashing_front_back.079",
+        "lashing_sides.078",
+        "lashing_sides.079",
+        "native_owner_stripe_source.016",
+        "native_owner_stripe_source.017",
+        "native_owner_stripe_source.018",
+        "native_owner_stripe_source.019",
+        "exposed_wall_socket_collar.016",
+        "exposed_wall_socket_collar.017",
+        "exposed_wall_socket_collar.018",
+        "exposed_wall_socket_collar.019",
+        "exposed_wall_socket_collar.020",
+        "exposed_wall_socket_collar.021",
+        "exposed_wall_socket_collar.022",
+        "exposed_wall_socket_collar.023"
+      ],
+      "directions_degrees": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "endpoints": [
+        [
+          0.3414306640625,
+          0.0,
+          0
+        ],
+        [
+          2.0906598493744793e-17,
+          0.3414306640625,
+          0
+        ],
+        [
+          -0.3414306640625,
+          4.1813196987489586e-17,
+          0
+        ],
+        [
+          -6.271979548123438e-17,
+          -0.3414306640625,
+          0
+        ]
+      ]
+    }
+  },
+  "joins": [
+    {
+      "state": "terminal",
+      "degrees": 0,
+      "socket_ground": [
+        0.3414306640625,
+        0.0,
+        0
+      ],
+      "socket_top": 4.578125,
+      "wall_width": 0.682861328125,
+      "wall_rail_z": [
+        1.05,
+        2.85
+      ],
+      "plane_gap_m": 0,
+      "peer_6m_center": [
+        3.3414306640625,
+        0.0,
+        0
+      ],
+      "native_stamp_binding": "pending"
+    },
+    {
+      "state": "straight",
+      "degrees": 0,
+      "socket_ground": [
+        0.3414306640625,
+        0.0,
+        0
+      ],
+      "socket_top": 4.578125,
+      "wall_width": 0.682861328125,
+      "wall_rail_z": [
+        1.05,
+        2.85
+      ],
+      "plane_gap_m": 0,
+      "peer_6m_center": [
+        3.3414306640625,
+        0.0,
+        0
+      ],
+      "native_stamp_binding": "pending"
+    },
+    {
+      "state": "straight",
+      "degrees": 180,
+      "socket_ground": [
+        -0.3414306640625,
+        4.1813196987489586e-17,
+        0
+      ],
+      "socket_top": 4.578125,
+      "wall_width": 0.682861328125,
+      "wall_rail_z": [
+        1.05,
+        2.85
+      ],
+      "plane_gap_m": 0,
+      "peer_6m_center": [
+        -3.3414306640625,
+        4.0920723673169553e-16,
+        0
+      ],
+      "native_stamp_binding": "pending"
+    },
+    {
+      "state": "corner_90",
+      "degrees": 0,
+      "socket_ground": [
+        0.3414306640625,
+        0.0,
+        0
+      ],
+      "socket_top": 4.578125,
+      "wall_width": 0.682861328125,
+      "wall_rail_z": [
+        1.05,
+        2.85
+      ],
+      "plane_gap_m": 0,
+      "peer_6m_center": [
+        3.3414306640625,
+        0.0,
+        0
+      ],
+      "native_stamp_binding": "pending"
+    },
+    {
+      "state": "corner_90",
+      "degrees": 90,
+      "socket_ground": [
+        2.0906598493744793e-17,
+        0.3414306640625,
+        0
+      ],
+      "socket_top": 4.578125,
+      "wall_width": 0.682861328125,
+      "wall_rail_z": [
+        1.05,
+        2.85
+      ],
+      "plane_gap_m": 0,
+      "peer_6m_center": [
+        2.0460361836584776e-16,
+        3.3414306640625,
+        0
+      ],
+      "native_stamp_binding": "pending"
+    },
+    {
+      "state": "junction_T",
+      "degrees": 0,
+      "socket_ground": [
+        0.3414306640625,
+        0.0,
+        0
+      ],
+      "socket_top": 4.578125,
+      "wall_width": 0.682861328125,
+      "wall_rail_z": [
+        1.05,
+        2.85
+      ],
+      "plane_gap_m": 0,
+      "peer_6m_center": [
+        3.3414306640625,
+        0.0,
+        0
+      ],
+      "native_stamp_binding": "pending"
+    },
+    {
+      "state": "junction_T",
+      "degrees": 90,
+      "socket_ground": [
+        2.0906598493744793e-17,
+        0.3414306640625,
+        0
+      ],
+      "socket_top": 4.578125,
+      "wall_width": 0.682861328125,
+      "wall_rail_z": [
+        1.05,
+        2.85
+      ],
+      "plane_gap_m": 0,
+      "peer_6m_center": [
+        2.0460361836584776e-16,
+        3.3414306640625,
+        0
+      ],
+      "native_stamp_binding": "pending"
+    },
+    {
+      "state": "junction_T",
+      "degrees": 180,
+      "socket_ground": [
+        -0.3414306640625,
+        4.1813196987489586e-17,
+        0
+      ],
+      "socket_top": 4.578125,
+      "wall_width": 0.682861328125,
+      "wall_rail_z": [
+        1.05,
+        2.85
+      ],
+      "plane_gap_m": 0,
+      "peer_6m_center": [
+        -3.3414306640625,
+        4.0920723673169553e-16,
+        0
+      ],
+      "native_stamp_binding": "pending"
+    },
+    {
+      "state": "junction_cross",
+      "degrees": 0,
+      "socket_ground": [
+        0.3414306640625,
+        0.0,
+        0
+      ],
+      "socket_top": 4.578125,
+      "wall_width": 0.682861328125,
+      "wall_rail_z": [
+        1.05,
+        2.85
+      ],
+      "plane_gap_m": 0,
+      "peer_6m_center": [
+        3.3414306640625,
+        0.0,
+        0
+      ],
+      "native_stamp_binding": "pending"
+    },
+    {
+      "state": "junction_cross",
+      "degrees": 90,
+      "socket_ground": [
+        2.0906598493744793e-17,
+        0.3414306640625,
+        0
+      ],
+      "socket_top": 4.578125,
+      "wall_width": 0.682861328125,
+      "wall_rail_z": [
+        1.05,
+        2.85
+      ],
+      "plane_gap_m": 0,
+      "peer_6m_center": [
+        2.0460361836584776e-16,
+        3.3414306640625,
+        0
+      ],
+      "native_stamp_binding": "pending"
+    },
+    {
+      "state": "junction_cross",
+      "degrees": 180,
+      "socket_ground": [
+        -0.3414306640625,
+        4.1813196987489586e-17,
+        0
+      ],
+      "socket_top": 4.578125,
+      "wall_width": 0.682861328125,
+      "wall_rail_z": [
+        1.05,
+        2.85
+      ],
+      "plane_gap_m": 0,
+      "peer_6m_center": [
+        -3.3414306640625,
+        4.0920723673169553e-16,
+        0
+      ],
+      "native_stamp_binding": "pending"
+    },
+    {
+      "state": "junction_cross",
+      "degrees": 270,
+      "socket_ground": [
+        -6.271979548123438e-17,
+        -0.3414306640625,
+        0
+      ],
+      "socket_top": 4.578125,
+      "wall_width": 0.682861328125,
+      "wall_rail_z": [
+        1.05,
+        2.85
+      ],
+      "plane_gap_m": 0,
+      "peer_6m_center": [
+        -6.138108550975433e-16,
+        -3.3414306640625,
+        0
+      ],
+      "native_stamp_binding": "pending"
+    }
+  ],
+  "native_selector_binding": "empty official cap_connection_variants; authored alternatives require downstream selector qualification"
+}

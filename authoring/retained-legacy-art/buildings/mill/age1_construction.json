@@ -1,0 +1,261 @@
+{
+  "age": 1,
+  "stages": [
+    0,
+    20,
+    40,
+    60,
+    80,
+    100
+  ],
+  "cumulative": true,
+  "parts": [
+    {
+      "object": "courtyard_foundation",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "courtyard_floor",
+      "first_stage": 0,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "store_backwall",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "store_westwall",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "store_eastwall",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "store_divider",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "store_front",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "horseshoe_door",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "door_joinery",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "door_joinery.001",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "door_joinery.002",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "store_roof",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "roof_back_parapet",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "roof_front_parapet",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "grain_sill",
+      "first_stage": 60,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "store_front.001",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "horseshoe_door.001",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "door_joinery.003",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "door_joinery.004",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "door_joinery.005",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "store_roof.001",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "roof_back_parapet.001",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "roof_front_parapet.001",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "grain_sill.001",
+      "first_stage": 60,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "owner_granary_strip",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "millstone_bed",
+      "first_stage": 40,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "rotary_runner",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "mill_handle",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "meal_trough",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "shade_post",
+      "first_stage": 20,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "shade_post.001",
+      "first_stage": 20,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "shade_post.002",
+      "first_stage": 20,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "shade_post.003",
+      "first_stage": 20,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "shade_crossbeam",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "shade_crossbeam.001",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "woven_shade",
+      "first_stage": 80,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "owner_shade_valance",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "grain_sack",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "sack_tied_neck",
+      "first_stage": 100,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "grain_sack.001",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "sack_tied_neck.001",
+      "first_stage": 100,
+      "material": "cedar",
+      "owner_mask": 0
+    }
+  ],
+  "native_binding": "pending"
+}

@@ -1,0 +1,1753 @@
+{
+  "preserved": 1372,
+  "preserved_bytes": 724680810,
+  "all_165_original_art_blends_preserved_byte_exactly": true,
+  "removed_regenerable_files": [
+    {
+      "file": "economy_remix_0_2_5\\reflect.db",
+      "bytes": 19028931
+    },
+    {
+      "file": "house_remix_0_2_2\\Berber_House_Age1_0_2_2.blend1",
+      "bytes": 11508222
+    },
+    {
+      "file": "house_remix_0_2_2\\Berber_House_Age2_0_2_2.blend1",
+      "bytes": 9724710
+    },
+    {
+      "file": "house_remix_0_2_2\\Berber_House_Age3_0_2_2.blend1",
+      "bytes": 9893312
+    },
+    {
+      "file": "house_remix_0_2_2\\Berber_House_Age4_0_2_2.blend1",
+      "bytes": 10557986
+    },
+    {
+      "file": "house_remix_0_2_2\\UNTOUCHED_Abbasid_House_Age1.blend1",
+      "bytes": 11499572
+    },
+    {
+      "file": "house_remix_0_2_2\\UNTOUCHED_Abbasid_House_Age2.blend1",
+      "bytes": 9760745
+    },
+    {
+      "file": "house_remix_0_2_2\\UNTOUCHED_Abbasid_House_Age3.blend1",
+      "bytes": 10025770
+    },
+    {
+      "file": "house_remix_0_2_2\\UNTOUCHED_Abbasid_House_Age4.blend1",
+      "bytes": 10362994
+    },
+    {
+      "file": "tuareg_lower_shield\\Tuareg_Lower_Shield_Ages_I_IV.blend1",
+      "bytes": 14878469
+    },
+    {
+      "file": "tuareg_overhaul\\Tuareg_Original_Ages_I_IV.blend1",
+      "bytes": 1362379
+    },
+    {
+      "file": "tuareg_refined\\Tuareg_Refined_Ages_I_IV.blend1",
+      "bytes": 14954012
+    },
+    {
+      "file": "tuareg_shield\\Tuareg_Shield_Ages_I_IV.blend1",
+      "bytes": 6491386
+    },
+    {
+      "file": "tuareg_shield\\garrison_library\\Mods\\tuareg_shield_assets\\.garrison.lock",
+      "bytes": 1
+    },
+    {
+      "file": "tuareg_shield\\garrison_library\\Mods\\tuareg_shield_assets\\dist\\cook\\20261010T184346Z-c7b0dd03\\run.json",
+      "bytes": 3453
+    },
+    {
+      "file": "tuareg_shield\\garrison_library\\Mods\\tuareg_shield_assets\\dist\\cook\\20261010T184346Z-c7b0dd03\\logs\\EssenceEditorLog.txt",
+      "bytes": 262144
+    },
+    {
+      "file": "tuareg_refined\\garrison_library\\Mods\\tuareg_refined_art\\.garrison.lock",
+      "bytes": 1
+    },
+    {
+      "file": "tuareg_refined\\garrison_library\\Mods\\tuareg_refined_art\\dist\\cook\\20261011T161405Z-74696cf8\\run.json",
+      "bytes": 4912
+    },
+    {
+      "file": "tuareg_refined\\garrison_library\\Mods\\tuareg_refined_art\\dist\\cook\\20261011T170127Z-c3780264\\run.json",
+      "bytes": 3518
+    },
+    {
+      "file": "tuareg_refined\\garrison_library\\Mods\\tuareg_refined_art\\dist\\cook\\20261011T180300Z-f4a21b60\\run.json",
+      "bytes": 3518
+    },
+    {
+      "file": "tuareg_refined\\garrison_library\\Mods\\tuareg_refined_art\\dist\\cook\\20261011T180300Z-f4a21b60\\logs\\burn.log",
+      "bytes": 4096
+    },
+    {
+      "file": "tuareg_refined\\garrison_library\\Mods\\tuareg_refined_art\\dist\\cook\\20261011T180300Z-f4a21b60\\logs\\EssenceEditorLog.txt",
+      "bytes": 45186
+    },
+    {
+      "file": "tuareg_refined\\garrison_library\\Mods\\tuareg_refined_art\\dist\\cook\\20261011T180300Z-f4a21b60\\intermediate\\cache\\5e83619c1f0b92b6cc71b3f173856bd698ef1797\\model.rgm",
+      "bytes": 97019
+    },
+    {
+      "file": "tuareg_refined\\garrison_library\\Mods\\tuareg_refined_art\\dist\\cook\\20261011T180300Z-f4a21b60\\intermediate\\cache\\a588eb2ec8b5f7789f8615a2c33109cfd79d2118\\albedo.rrtex",
+      "bytes": 273262
+    },
+    {
+      "file": "tuareg_refined\\garrison_library\\Mods\\tuareg_refined_art\\dist\\cook\\20261011T170127Z-c3780264\\logs\\burn.log",
+      "bytes": 4096
+    },
+    {
+      "file": "tuareg_refined\\garrison_library\\Mods\\tuareg_refined_art\\dist\\cook\\20261011T170127Z-c3780264\\logs\\EssenceEditorLog.txt",
+      "bytes": 45186
+    },
+    {
+      "file": "tuareg_refined\\garrison_library\\Mods\\tuareg_refined_art\\dist\\cook\\20261011T170127Z-c3780264\\intermediate\\cache\\5e83619c1f0b92b6cc71b3f173856bd698ef1797\\model.rgm",
+      "bytes": 97019
+    },
+    {
+      "file": "tuareg_refined\\garrison_library\\Mods\\tuareg_refined_art\\dist\\cook\\20261011T170127Z-c3780264\\intermediate\\cache\\a588eb2ec8b5f7789f8615a2c33109cfd79d2118\\albedo.rrtex",
+      "bytes": 273262
+    },
+    {
+      "file": "tuareg_refined\\garrison_library\\Mods\\tuareg_refined_art\\dist\\cook\\20261011T161405Z-74696cf8\\logs\\EssenceEditorLog.txt",
+      "bytes": 5677
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\.garrison.lock",
+      "bytes": 1
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_weapon_lists\\.garrison.lock",
+      "bytes": 1
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_weapon_lists\\dist\\cook\\20261011T133804Z-662b5b25\\run.json",
+      "bytes": 4511
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_weapon_lists\\dist\\cook\\20261011T133804Z-662b5b25\\logs\\burn.log",
+      "bytes": 2048
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_weapon_lists\\dist\\cook\\20261011T133804Z-662b5b25\\logs\\EssenceEditorLog.txt",
+      "bytes": 268881
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_weapon_lists\\dist\\cook\\20261011T133804Z-662b5b25\\logs\\stdout.log",
+      "bytes": 224723
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_weapon_lists\\dist\\cook\\20261011T133804Z-662b5b25\\intermediate\\cache\\4ef81a21adb7b21d58a0b53bc50586a166b2efb8\\mod.bin",
+      "bytes": 1761
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_weapon_lists\\dist\\cook\\20261011T133804Z-662b5b25\\intermediate\\cache\\b43af4c906d1e6169d52218ec480fbbf9d9f48ff\\blueprints.scar",
+      "bytes": 1563
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_weapon_lists\\dist\\cook\\20261011T133804Z-662b5b25\\intermediate\\cache\\1449155affce2c80353204a0b991ee22d83aa0d3\\en\\en.ucs",
+      "bytes": 134
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_weapon_lists\\dist\\cook\\20261011T133804Z-662b5b25\\assembly\\00-derived_blueprints\\attrib\\members.txt",
+      "bytes": 530
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_weapon_lists\\dist\\cook\\20261011T133804Z-662b5b25\\assembly\\00-derived_blueprints\\attrib\\members\\0.rgd",
+      "bytes": 766
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_weapon_lists\\dist\\cook\\20261011T133804Z-662b5b25\\assembly\\00-derived_blueprints\\attrib\\members\\1.rgd",
+      "bytes": 766
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_weapon_lists\\dist\\cook\\20261011T133804Z-662b5b25\\assembly\\00-derived_blueprints\\attrib\\members\\2.rgd",
+      "bytes": 766
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_weapon_lists\\dist\\cook\\20261011T133804Z-662b5b25\\assembly\\00-derived_blueprints\\attrib\\members\\3.rgd",
+      "bytes": 766
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_weapon_lists\\dist\\cook\\20261011T133804Z-662b5b25\\assembly\\00-derived_blueprints\\attrib\\members\\4.rgd",
+      "bytes": 766
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\run.json",
+      "bytes": 4408
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\run.json",
+      "bytes": 3463
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\run.json",
+      "bytes": 4489
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\run.json",
+      "bytes": 4488
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\run.json",
+      "bytes": 4489
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\logs\\burn.log",
+      "bytes": 28672
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\logs\\EssenceEditorLog.txt",
+      "bytes": 271548
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\logs\\stdout.log",
+      "bytes": 225643
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\units\\tuareg_age1.rgm",
+      "bytes": 56095
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\units\\tuareg_age1.rrgeom",
+      "bytes": 307873
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\units\\tuareg_age2.rgm",
+      "bytes": 57631
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\units\\tuareg_age2.rrgeom",
+      "bytes": 315313
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\units\\tuareg_age3.rgm",
+      "bytes": 57751
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\units\\tuareg_age3.rrgeom",
+      "bytes": 315685
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\units\\tuareg_age4.rgm",
+      "bytes": 57991
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\units\\tuareg_age4.rrgeom",
+      "bytes": 316429
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\units\\prototypes\\2bd91fe1b0f69a897d468faecbeaeeb0fb624cc8a59069f5b29bf1cda3115770\\bind.rgm",
+      "bytes": 37808
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\units\\prototypes\\2bd91fe1b0f69a897d468faecbeaeeb0fb624cc8a59069f5b29bf1cda3115770\\owner.rhka",
+      "bytes": 3844556
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\units\\prototypes\\2bd91fe1b0f69a897d468faecbeaeeb0fb624cc8a59069f5b29bf1cda3115770\\prototype.json",
+      "bytes": 190239
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\units\\prototypes\\attachment-index\\stock-blueprints.json",
+      "bytes": 1053350
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\129101103df0416c7543de65e811c9000dc9c598\\model.rrmaterial",
+      "bytes": 792
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\12b514c4445021c7a0e0d5112469e99cc63988aa\\15964114263552809917_packed.rrtex",
+      "bytes": 1913
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\1a3e9fe8fb530b889699c55f0f4947d85192a73e\\2601301142745585130_packed.rrtex",
+      "bytes": 375
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\1a89b8a5743fd94592dca71c54f844dcacaf5055\\tuareg_agher_shield.rrmaterial",
+      "bytes": 585
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\1ea5aa1a8802443f4f4af81e15e3afe6f34495e5\\model.rgm",
+      "bytes": 57991
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\23d57228aa63dd59aaeaac347ba4a8171f547944\\albedo.rrtex",
+      "bytes": 59615
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\2dfb7dad4eb2e81e2e40ad8f5ac86813444d3005\\model.rgm",
+      "bytes": 57751
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\2fd173adaa74cf716c6f9e6fe9c7148d68debc01\\18334109180691692301_packed.rrtex",
+      "bytes": 375
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\306ee162ea08e22b4ef8c1951487fa38a6c7e1e9\\tuareg_agher_shield.rgm",
+      "bytes": 3311
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\3481f71c2378f0e985357c08eab5aa662730d240\\model.rrgeom",
+      "bytes": 307873
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\359825609b224d70af04af2b97cc8a1d27ef502c\\tuareg_leaf_spear.rgm",
+      "bytes": 1959
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\3c61d5e018985abdab0608b24e99dafac0627fec\\model.rgm",
+      "bytes": 56095
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\3c7c6988136945d4cd9f668f8174aa0e4cb6e6cc\\model.rrmaterial",
+      "bytes": 791
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\4480ae0e1323dabb9dfcfd0d3285a8422696c7a5\\5398135001705324230_packed.rrtex",
+      "bytes": 1913
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\5489d53bb972627bebd88beb83341914e10c010c\\6274827722070495410_packed.rrtex",
+      "bytes": 3527
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\55ef71d2e60a857e9a5dee6fddd062eb952e06dc\\16244996387607631616_packed.rrtex",
+      "bytes": 1913
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\6050c9d3aceca88582e907b491a7f8e8dc49289d\\12110578511837085467_packed.rrtex",
+      "bytes": 3530
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\67e0667f2022683594d3a5a2aaec6154d957c564\\12357935873157795185_packed.rrtex",
+      "bytes": 376
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\73272c78253d1c289bfe842ba0b7cd7602d2c05c\\blueprints.scar",
+      "bytes": 2838
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\735b99c708460f46d998618ae5fa0bb923ae83a6\\13290420378109403310_packed.rrtex",
+      "bytes": 375
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\82069d9d8e51b5696d969ccf92e2ba1203da7cce\\17222571595047587830_packed.rrtex",
+      "bytes": 3530
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\8283e5f11e80b6a484f8f9346ecccd42a88fced3\\albedo.rrtex",
+      "bytes": 60116
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\8395f74fdbcce5c506d9a7ffea254deb32ef8e4e\\model.rrgeom",
+      "bytes": 315313
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\8552abbb0196bbd0ee83d200eadd5b6fb73086e2\\18145827352010179229_packed.rrtex",
+      "bytes": 372
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\8d39f6f7dab8c29c07d00bf765fd9c99cce89df4\\albedo.rrtex",
+      "bytes": 59968
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\8da37b1585dc413c6b22c3f784dc49f04c18fb57\\model.rgm",
+      "bytes": 57631
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\94e38e6e07223e73765fb8f9125a102cb77af629\\tuareg_agher_shield.rrgeom",
+      "bytes": 25667
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\970679973732823c0509d8361e0cf9e7a7fa66c0\\model.rrgeom",
+      "bytes": 316429
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\992de87230c35772371cc23379b7e48ce4298a2b\\model.rrmaterial",
+      "bytes": 793
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\ad28e69f2340933a88cdc40d1d9803bb11a6165d\\model.rrmaterial",
+      "bytes": 791
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\b09ffafe07941f4e93e4261b3234901e5f60e885\\models.scar",
+      "bytes": 1910
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\b7df89e633e4d471abf85b9894cfdf3357e3ce89\\tuareg_leaf_spear.rrmaterial",
+      "bytes": 576
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\b9a47430eb4025d2dd4ffc7b93027302e2829c13\\tuareg_leaf_spear.rrgeom",
+      "bytes": 14139
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\c35af3b1b5b06dcfc3a3d56171e8d9a585557781\\6597003795941812773_packed.rrtex",
+      "bytes": 1913
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\c768a3b09f18a3904acd00f62aa98978f666e51d\\10467554779441698523_packed.rrtex",
+      "bytes": 375
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\c9a657bc76d21235bd065fabbede934b49b20906\\mod.bin",
+      "bytes": 1761
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\cf11fcfebff1c0f4fd190a62d76512080aceba2a\\model.rrgeom",
+      "bytes": 315685
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\e4962193f5c21de3b97f92e2d6aefd8d8ee9bbd5\\8281114123470325713_packed.rrtex",
+      "bytes": 3530
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\e6538a87cb44e069b9699255acb997df2aa41c10\\13503106598673779129_packed.rrtex",
+      "bytes": 3531
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\f1a46cb5cd8c037674dded25a6d215072f6e704b\\8822366789475540680_packed.rrtex",
+      "bytes": 3530
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\f3d6b32a40ce4fdefc82cb908f000437e82b8b56\\tuareg_agher_shield_albedo.rrtex",
+      "bytes": 59969
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\fb70e9e5bad2a5a87e5cf1b14542d7eedf477fc1\\albedo.rrtex",
+      "bytes": 59968
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\fe3542d5a8869f5574320d868680a5083e9d0b9c\\tuareg_leaf_spear_albedo.rrtex",
+      "bytes": 59965
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\intermediate\\cache\\830dd6aac7b683cf80df370dc8fe03e11e3a8569\\en\\en.ucs",
+      "bytes": 110
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\assembly\\00-animated_units\\attrib\\members.txt",
+      "bytes": 1310
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\assembly\\00-animated_units\\attrib\\members\\0.rgd",
+      "bytes": 1325
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\assembly\\00-animated_units\\attrib\\members\\1.rgd",
+      "bytes": 2171
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\assembly\\00-animated_units\\attrib\\members\\10.rgd",
+      "bytes": 63556
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\assembly\\00-animated_units\\attrib\\members\\11.rgd",
+      "bytes": 48383
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\assembly\\00-animated_units\\attrib\\members\\12.rgd",
+      "bytes": 1325
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\assembly\\00-animated_units\\attrib\\members\\13.rgd",
+      "bytes": 2171
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\assembly\\00-animated_units\\attrib\\members\\14.rgd",
+      "bytes": 63556
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\assembly\\00-animated_units\\attrib\\members\\15.rgd",
+      "bytes": 48383
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\assembly\\00-animated_units\\attrib\\members\\2.rgd",
+      "bytes": 63556
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\assembly\\00-animated_units\\attrib\\members\\3.rgd",
+      "bytes": 48383
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\assembly\\00-animated_units\\attrib\\members\\4.rgd",
+      "bytes": 1325
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\assembly\\00-animated_units\\attrib\\members\\5.rgd",
+      "bytes": 2171
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\assembly\\00-animated_units\\attrib\\members\\6.rgd",
+      "bytes": 63556
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\assembly\\00-animated_units\\attrib\\members\\7.rgd",
+      "bytes": 48383
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\assembly\\00-animated_units\\attrib\\members\\8.rgd",
+      "bytes": 1325
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T140434Z-91449bdb\\assembly\\00-animated_units\\attrib\\members\\9.rgd",
+      "bytes": 2171
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\logs\\burn.log",
+      "bytes": 28672
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\logs\\EssenceEditorLog.txt",
+      "bytes": 271545
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\logs\\stdout.log",
+      "bytes": 225241
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\units\\tuareg_age1.rgm",
+      "bytes": 56095
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\units\\tuareg_age1.rrgeom",
+      "bytes": 307873
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\units\\tuareg_age2.rgm",
+      "bytes": 57631
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\units\\tuareg_age2.rrgeom",
+      "bytes": 315313
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\units\\tuareg_age3.rgm",
+      "bytes": 57751
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\units\\tuareg_age3.rrgeom",
+      "bytes": 315685
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\units\\tuareg_age4.rgm",
+      "bytes": 57991
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\units\\tuareg_age4.rrgeom",
+      "bytes": 316429
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\units\\prototypes\\2bd91fe1b0f69a897d468faecbeaeeb0fb624cc8a59069f5b29bf1cda3115770\\bind.rgm",
+      "bytes": 37808
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\units\\prototypes\\2bd91fe1b0f69a897d468faecbeaeeb0fb624cc8a59069f5b29bf1cda3115770\\owner.rhka",
+      "bytes": 3844556
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\units\\prototypes\\2bd91fe1b0f69a897d468faecbeaeeb0fb624cc8a59069f5b29bf1cda3115770\\prototype.json",
+      "bytes": 190239
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\units\\prototypes\\attachment-index\\stock-blueprints.json",
+      "bytes": 1053350
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\0b7b1eaccfac36ebf34d106189121455a869c743\\model.rrgeom",
+      "bytes": 307873
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\129101103df0416c7543de65e811c9000dc9c598\\model.rrmaterial",
+      "bytes": 792
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\12b514c4445021c7a0e0d5112469e99cc63988aa\\15964114263552809917_packed.rrtex",
+      "bytes": 1913
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\1a3e9fe8fb530b889699c55f0f4947d85192a73e\\2601301142745585130_packed.rrtex",
+      "bytes": 375
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\1a89b8a5743fd94592dca71c54f844dcacaf5055\\tuareg_agher_shield.rrmaterial",
+      "bytes": 585
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\23d57228aa63dd59aaeaac347ba4a8171f547944\\albedo.rrtex",
+      "bytes": 59615
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\2fd173adaa74cf716c6f9e6fe9c7148d68debc01\\18334109180691692301_packed.rrtex",
+      "bytes": 375
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\389b798904914e74be7524760a31693e894fc577\\model.rrgeom",
+      "bytes": 316429
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\3c7c6988136945d4cd9f668f8174aa0e4cb6e6cc\\model.rrmaterial",
+      "bytes": 791
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\4480ae0e1323dabb9dfcfd0d3285a8422696c7a5\\5398135001705324230_packed.rrtex",
+      "bytes": 1913
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\5489d53bb972627bebd88beb83341914e10c010c\\6274827722070495410_packed.rrtex",
+      "bytes": 3527
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\55ef71d2e60a857e9a5dee6fddd062eb952e06dc\\16244996387607631616_packed.rrtex",
+      "bytes": 1913
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\6050c9d3aceca88582e907b491a7f8e8dc49289d\\12110578511837085467_packed.rrtex",
+      "bytes": 3530
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\6421c95607d67fd1bef8a916c4a1f7b92c678ec1\\tuareg_agher_shield.rrgeom",
+      "bytes": 25667
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\67e0667f2022683594d3a5a2aaec6154d957c564\\12357935873157795185_packed.rrtex",
+      "bytes": 376
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\67f8d81dcc3d85c50f317423b6cb4f787c926bf8\\model.rgm",
+      "bytes": 57751
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\73272c78253d1c289bfe842ba0b7cd7602d2c05c\\blueprints.scar",
+      "bytes": 2838
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\735b99c708460f46d998618ae5fa0bb923ae83a6\\13290420378109403310_packed.rrtex",
+      "bytes": 375
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\75030cf2b65f9aa82ba7d56e35b334743c87da09\\model.rgm",
+      "bytes": 57991
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\77136c9a872e81fb97d1f9a49b3a73359f8a6833\\model.rgm",
+      "bytes": 56095
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\7c2dcbcc76431d743dbd89d1f88579e710ff2c88\\model.rrgeom",
+      "bytes": 315685
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\82069d9d8e51b5696d969ccf92e2ba1203da7cce\\17222571595047587830_packed.rrtex",
+      "bytes": 3530
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\8283e5f11e80b6a484f8f9346ecccd42a88fced3\\albedo.rrtex",
+      "bytes": 60116
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\8552abbb0196bbd0ee83d200eadd5b6fb73086e2\\18145827352010179229_packed.rrtex",
+      "bytes": 372
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\8d39f6f7dab8c29c07d00bf765fd9c99cce89df4\\albedo.rrtex",
+      "bytes": 59968
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\93cc9b9b16942dc47f418056cc010ca31465985b\\tuareg_leaf_spear.rgm",
+      "bytes": 1959
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\992de87230c35772371cc23379b7e48ce4298a2b\\model.rrmaterial",
+      "bytes": 793
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\ad28e69f2340933a88cdc40d1d9803bb11a6165d\\model.rrmaterial",
+      "bytes": 791
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\b09ffafe07941f4e93e4261b3234901e5f60e885\\models.scar",
+      "bytes": 1910
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\b7df89e633e4d471abf85b9894cfdf3357e3ce89\\tuareg_leaf_spear.rrmaterial",
+      "bytes": 576
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\bbadc56a759afe6fa2de71b297a7c3a4a3bef267\\model.rgm",
+      "bytes": 57631
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\c35af3b1b5b06dcfc3a3d56171e8d9a585557781\\6597003795941812773_packed.rrtex",
+      "bytes": 1913
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\c43ba787d3751219d444de33a512d7e421dcd3c7\\tuareg_leaf_spear.rrgeom",
+      "bytes": 14139
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\c768a3b09f18a3904acd00f62aa98978f666e51d\\10467554779441698523_packed.rrtex",
+      "bytes": 375
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\c9a657bc76d21235bd065fabbede934b49b20906\\mod.bin",
+      "bytes": 1761
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\e4962193f5c21de3b97f92e2d6aefd8d8ee9bbd5\\8281114123470325713_packed.rrtex",
+      "bytes": 3530
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\e6538a87cb44e069b9699255acb997df2aa41c10\\13503106598673779129_packed.rrtex",
+      "bytes": 3531
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\ed4f5e32681ded466dd60c9ed2b18433fb166adf\\model.rrgeom",
+      "bytes": 315313
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\f1a46cb5cd8c037674dded25a6d215072f6e704b\\8822366789475540680_packed.rrtex",
+      "bytes": 3530
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\f3d6b32a40ce4fdefc82cb908f000437e82b8b56\\tuareg_agher_shield_albedo.rrtex",
+      "bytes": 59969
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\fb70e9e5bad2a5a87e5cf1b14542d7eedf477fc1\\albedo.rrtex",
+      "bytes": 59968
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\fe3542d5a8869f5574320d868680a5083e9d0b9c\\tuareg_leaf_spear_albedo.rrtex",
+      "bytes": 59965
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\fe557caaae68abb5dbfe1bbff9b42a5c8f6d8e12\\tuareg_agher_shield.rgm",
+      "bytes": 3311
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\intermediate\\cache\\830dd6aac7b683cf80df370dc8fe03e11e3a8569\\en\\en.ucs",
+      "bytes": 110
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\assembly\\00-animated_units\\attrib\\members.txt",
+      "bytes": 1310
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\assembly\\00-animated_units\\attrib\\members\\0.rgd",
+      "bytes": 1325
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\assembly\\00-animated_units\\attrib\\members\\1.rgd",
+      "bytes": 2171
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\assembly\\00-animated_units\\attrib\\members\\10.rgd",
+      "bytes": 63556
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\assembly\\00-animated_units\\attrib\\members\\11.rgd",
+      "bytes": 48383
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\assembly\\00-animated_units\\attrib\\members\\12.rgd",
+      "bytes": 1325
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\assembly\\00-animated_units\\attrib\\members\\13.rgd",
+      "bytes": 2171
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\assembly\\00-animated_units\\attrib\\members\\14.rgd",
+      "bytes": 63556
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\assembly\\00-animated_units\\attrib\\members\\15.rgd",
+      "bytes": 48383
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\assembly\\00-animated_units\\attrib\\members\\2.rgd",
+      "bytes": 63556
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\assembly\\00-animated_units\\attrib\\members\\3.rgd",
+      "bytes": 48383
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\assembly\\00-animated_units\\attrib\\members\\4.rgd",
+      "bytes": 1325
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\assembly\\00-animated_units\\attrib\\members\\5.rgd",
+      "bytes": 2171
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\assembly\\00-animated_units\\attrib\\members\\6.rgd",
+      "bytes": 63556
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\assembly\\00-animated_units\\attrib\\members\\7.rgd",
+      "bytes": 48383
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\assembly\\00-animated_units\\attrib\\members\\8.rgd",
+      "bytes": 1325
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T134359Z-96ee35fb\\assembly\\00-animated_units\\attrib\\members\\9.rgd",
+      "bytes": 2171
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\logs\\burn.log",
+      "bytes": 28672
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\logs\\EssenceEditorLog.txt",
+      "bytes": 271554
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\logs\\stdout.log",
+      "bytes": 224695
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\units\\tuareg_age1.rgm",
+      "bytes": 56095
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\units\\tuareg_age1.rrgeom",
+      "bytes": 307873
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\units\\tuareg_age2.rgm",
+      "bytes": 57631
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\units\\tuareg_age2.rrgeom",
+      "bytes": 315313
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\units\\tuareg_age3.rgm",
+      "bytes": 57751
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\units\\tuareg_age3.rrgeom",
+      "bytes": 315685
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\units\\tuareg_age4.rgm",
+      "bytes": 57991
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\units\\tuareg_age4.rrgeom",
+      "bytes": 316429
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\units\\prototypes\\2bd91fe1b0f69a897d468faecbeaeeb0fb624cc8a59069f5b29bf1cda3115770\\bind.rgm",
+      "bytes": 37808
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\units\\prototypes\\2bd91fe1b0f69a897d468faecbeaeeb0fb624cc8a59069f5b29bf1cda3115770\\owner.rhka",
+      "bytes": 3844556
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\units\\prototypes\\2bd91fe1b0f69a897d468faecbeaeeb0fb624cc8a59069f5b29bf1cda3115770\\prototype.json",
+      "bytes": 190239
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\units\\prototypes\\attachment-index\\stock-blueprints.json",
+      "bytes": 1053350
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\129101103df0416c7543de65e811c9000dc9c598\\model.rrmaterial",
+      "bytes": 792
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\12b514c4445021c7a0e0d5112469e99cc63988aa\\15964114263552809917_packed.rrtex",
+      "bytes": 1913
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\17eab1192ad6583777035117d4cc341f3e059932\\model.rgm",
+      "bytes": 57991
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\1a3e9fe8fb530b889699c55f0f4947d85192a73e\\2601301142745585130_packed.rrtex",
+      "bytes": 375
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\1a89b8a5743fd94592dca71c54f844dcacaf5055\\tuareg_agher_shield.rrmaterial",
+      "bytes": 585
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\23d57228aa63dd59aaeaac347ba4a8171f547944\\albedo.rrtex",
+      "bytes": 59615
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\26187bc6ed65c6ec82faf16cb0c3ac807f10e850\\model.rrgeom",
+      "bytes": 307873
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\2fd173adaa74cf716c6f9e6fe9c7148d68debc01\\18334109180691692301_packed.rrtex",
+      "bytes": 375
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\31d8c217ba698b51966e3194d830ca50dc9d7c5e\\tuareg_leaf_spear.rgm",
+      "bytes": 1959
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\3c7c6988136945d4cd9f668f8174aa0e4cb6e6cc\\model.rrmaterial",
+      "bytes": 791
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\41918a3550a26c5013e6d8037d0b2d0889eaafc5\\model.rrgeom",
+      "bytes": 315685
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\4480ae0e1323dabb9dfcfd0d3285a8422696c7a5\\5398135001705324230_packed.rrtex",
+      "bytes": 1913
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\5489d53bb972627bebd88beb83341914e10c010c\\6274827722070495410_packed.rrtex",
+      "bytes": 3527
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\55ef71d2e60a857e9a5dee6fddd062eb952e06dc\\16244996387607631616_packed.rrtex",
+      "bytes": 1913
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\6050c9d3aceca88582e907b491a7f8e8dc49289d\\12110578511837085467_packed.rrtex",
+      "bytes": 3530
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\67e0667f2022683594d3a5a2aaec6154d957c564\\12357935873157795185_packed.rrtex",
+      "bytes": 376
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\72d676bd47aace106c47db8eb3edb481216d8eae\\model.rgm",
+      "bytes": 57631
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\73272c78253d1c289bfe842ba0b7cd7602d2c05c\\blueprints.scar",
+      "bytes": 2838
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\735b99c708460f46d998618ae5fa0bb923ae83a6\\13290420378109403310_packed.rrtex",
+      "bytes": 375
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\76380228e57408219cde21d3cfecb9afb3bd2dc8\\model.rgm",
+      "bytes": 56095
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\82069d9d8e51b5696d969ccf92e2ba1203da7cce\\17222571595047587830_packed.rrtex",
+      "bytes": 3530
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\8283e5f11e80b6a484f8f9346ecccd42a88fced3\\albedo.rrtex",
+      "bytes": 60116
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\83de11813706820cf729a462cd4d528bbfee8971\\model.rrgeom",
+      "bytes": 316429
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\845ecc0fb04ce9d17e7088197cc0e286d7eee0e9\\tuareg_agher_shield.rgm",
+      "bytes": 3315
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\8552abbb0196bbd0ee83d200eadd5b6fb73086e2\\18145827352010179229_packed.rrtex",
+      "bytes": 372
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\857df640f544c1fb027c0d3cd2f3745fff591557\\model.rrgeom",
+      "bytes": 315313
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\8d39f6f7dab8c29c07d00bf765fd9c99cce89df4\\albedo.rrtex",
+      "bytes": 59968
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\992de87230c35772371cc23379b7e48ce4298a2b\\model.rrmaterial",
+      "bytes": 793
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\ad28e69f2340933a88cdc40d1d9803bb11a6165d\\model.rrmaterial",
+      "bytes": 791
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\b09ffafe07941f4e93e4261b3234901e5f60e885\\models.scar",
+      "bytes": 1910
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\b7df89e633e4d471abf85b9894cfdf3357e3ce89\\tuareg_leaf_spear.rrmaterial",
+      "bytes": 576
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\c35af3b1b5b06dcfc3a3d56171e8d9a585557781\\6597003795941812773_packed.rrtex",
+      "bytes": 1913
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\c5fa1d5b8dfc3b958f1070ea430c4af6704dc808\\tuareg_agher_shield.rrgeom",
+      "bytes": 25667
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\c6beb52ab328b44214017e853f95d5963d5aba3f\\tuareg_leaf_spear.rrgeom",
+      "bytes": 14139
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\c768a3b09f18a3904acd00f62aa98978f666e51d\\10467554779441698523_packed.rrtex",
+      "bytes": 375
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\c9a657bc76d21235bd065fabbede934b49b20906\\mod.bin",
+      "bytes": 1761
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\ca2f72ddc9175b93a150fd511b7d4b468e94a7c3\\model.rgm",
+      "bytes": 57751
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\e4962193f5c21de3b97f92e2d6aefd8d8ee9bbd5\\8281114123470325713_packed.rrtex",
+      "bytes": 3530
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\e6538a87cb44e069b9699255acb997df2aa41c10\\13503106598673779129_packed.rrtex",
+      "bytes": 3531
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\f1a46cb5cd8c037674dded25a6d215072f6e704b\\8822366789475540680_packed.rrtex",
+      "bytes": 3530
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\f3d6b32a40ce4fdefc82cb908f000437e82b8b56\\tuareg_agher_shield_albedo.rrtex",
+      "bytes": 59969
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\fb70e9e5bad2a5a87e5cf1b14542d7eedf477fc1\\albedo.rrtex",
+      "bytes": 59968
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\fe3542d5a8869f5574320d868680a5083e9d0b9c\\tuareg_leaf_spear_albedo.rrtex",
+      "bytes": 59965
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\intermediate\\cache\\830dd6aac7b683cf80df370dc8fe03e11e3a8569\\en\\en.ucs",
+      "bytes": 110
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\assembly\\00-animated_units\\attrib\\members.txt",
+      "bytes": 1310
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\assembly\\00-animated_units\\attrib\\members\\0.rgd",
+      "bytes": 1325
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\assembly\\00-animated_units\\attrib\\members\\1.rgd",
+      "bytes": 2171
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\assembly\\00-animated_units\\attrib\\members\\10.rgd",
+      "bytes": 63556
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\assembly\\00-animated_units\\attrib\\members\\11.rgd",
+      "bytes": 48383
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\assembly\\00-animated_units\\attrib\\members\\12.rgd",
+      "bytes": 1325
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\assembly\\00-animated_units\\attrib\\members\\13.rgd",
+      "bytes": 2171
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\assembly\\00-animated_units\\attrib\\members\\14.rgd",
+      "bytes": 63556
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\assembly\\00-animated_units\\attrib\\members\\15.rgd",
+      "bytes": 48383
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\assembly\\00-animated_units\\attrib\\members\\2.rgd",
+      "bytes": 63556
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\assembly\\00-animated_units\\attrib\\members\\3.rgd",
+      "bytes": 48383
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\assembly\\00-animated_units\\attrib\\members\\4.rgd",
+      "bytes": 1325
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\assembly\\00-animated_units\\attrib\\members\\5.rgd",
+      "bytes": 2171
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\assembly\\00-animated_units\\attrib\\members\\6.rgd",
+      "bytes": 63556
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\assembly\\00-animated_units\\attrib\\members\\7.rgd",
+      "bytes": 48383
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\assembly\\00-animated_units\\attrib\\members\\8.rgd",
+      "bytes": 1325
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T133519Z-8c41107f\\assembly\\00-animated_units\\attrib\\members\\9.rgd",
+      "bytes": 2171
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\logs\\burn.log",
+      "bytes": 24576
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\logs\\EssenceEditorLog.txt",
+      "bytes": 262144
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\129101103df0416c7543de65e811c9000dc9c598\\model.rrmaterial",
+      "bytes": 792
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\12b514c4445021c7a0e0d5112469e99cc63988aa\\15964114263552809917_packed.rrtex",
+      "bytes": 1913
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\17eab1192ad6583777035117d4cc341f3e059932\\model.rgm",
+      "bytes": 57991
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\1a3e9fe8fb530b889699c55f0f4947d85192a73e\\2601301142745585130_packed.rrtex",
+      "bytes": 375
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\1a89b8a5743fd94592dca71c54f844dcacaf5055\\tuareg_agher_shield.rrmaterial",
+      "bytes": 585
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\23d57228aa63dd59aaeaac347ba4a8171f547944\\albedo.rrtex",
+      "bytes": 59615
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\26187bc6ed65c6ec82faf16cb0c3ac807f10e850\\model.rrgeom",
+      "bytes": 307873
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\2fd173adaa74cf716c6f9e6fe9c7148d68debc01\\18334109180691692301_packed.rrtex",
+      "bytes": 375
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\31d8c217ba698b51966e3194d830ca50dc9d7c5e\\tuareg_leaf_spear.rgm",
+      "bytes": 1959
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\3c7c6988136945d4cd9f668f8174aa0e4cb6e6cc\\model.rrmaterial",
+      "bytes": 791
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\41918a3550a26c5013e6d8037d0b2d0889eaafc5\\model.rrgeom",
+      "bytes": 315685
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\4480ae0e1323dabb9dfcfd0d3285a8422696c7a5\\5398135001705324230_packed.rrtex",
+      "bytes": 1913
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\5489d53bb972627bebd88beb83341914e10c010c\\6274827722070495410_packed.rrtex",
+      "bytes": 3527
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\55ef71d2e60a857e9a5dee6fddd062eb952e06dc\\16244996387607631616_packed.rrtex",
+      "bytes": 1913
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\6050c9d3aceca88582e907b491a7f8e8dc49289d\\12110578511837085467_packed.rrtex",
+      "bytes": 3530
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\67e0667f2022683594d3a5a2aaec6154d957c564\\12357935873157795185_packed.rrtex",
+      "bytes": 376
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\72d676bd47aace106c47db8eb3edb481216d8eae\\model.rgm",
+      "bytes": 57631
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\735b99c708460f46d998618ae5fa0bb923ae83a6\\13290420378109403310_packed.rrtex",
+      "bytes": 375
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\76380228e57408219cde21d3cfecb9afb3bd2dc8\\model.rgm",
+      "bytes": 56095
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\82069d9d8e51b5696d969ccf92e2ba1203da7cce\\17222571595047587830_packed.rrtex",
+      "bytes": 3530
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\8283e5f11e80b6a484f8f9346ecccd42a88fced3\\albedo.rrtex",
+      "bytes": 60116
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\83de11813706820cf729a462cd4d528bbfee8971\\model.rrgeom",
+      "bytes": 316429
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\845ecc0fb04ce9d17e7088197cc0e286d7eee0e9\\tuareg_agher_shield.rgm",
+      "bytes": 3315
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\8552abbb0196bbd0ee83d200eadd5b6fb73086e2\\18145827352010179229_packed.rrtex",
+      "bytes": 372
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\857df640f544c1fb027c0d3cd2f3745fff591557\\model.rrgeom",
+      "bytes": 315313
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\8d39f6f7dab8c29c07d00bf765fd9c99cce89df4\\albedo.rrtex",
+      "bytes": 59968
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\992de87230c35772371cc23379b7e48ce4298a2b\\model.rrmaterial",
+      "bytes": 793
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\ad28e69f2340933a88cdc40d1d9803bb11a6165d\\model.rrmaterial",
+      "bytes": 791
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\b7df89e633e4d471abf85b9894cfdf3357e3ce89\\tuareg_leaf_spear.rrmaterial",
+      "bytes": 576
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\c35af3b1b5b06dcfc3a3d56171e8d9a585557781\\6597003795941812773_packed.rrtex",
+      "bytes": 1913
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\c5fa1d5b8dfc3b958f1070ea430c4af6704dc808\\tuareg_agher_shield.rrgeom",
+      "bytes": 25667
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\c6beb52ab328b44214017e853f95d5963d5aba3f\\tuareg_leaf_spear.rrgeom",
+      "bytes": 14139
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\c768a3b09f18a3904acd00f62aa98978f666e51d\\10467554779441698523_packed.rrtex",
+      "bytes": 375
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\ca2f72ddc9175b93a150fd511b7d4b468e94a7c3\\model.rgm",
+      "bytes": 57751
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\e4962193f5c21de3b97f92e2d6aefd8d8ee9bbd5\\8281114123470325713_packed.rrtex",
+      "bytes": 3530
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\e6538a87cb44e069b9699255acb997df2aa41c10\\13503106598673779129_packed.rrtex",
+      "bytes": 3531
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\f1a46cb5cd8c037674dded25a6d215072f6e704b\\8822366789475540680_packed.rrtex",
+      "bytes": 3530
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\f3d6b32a40ce4fdefc82cb908f000437e82b8b56\\tuareg_agher_shield_albedo.rrtex",
+      "bytes": 59969
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\fb70e9e5bad2a5a87e5cf1b14542d7eedf477fc1\\albedo.rrtex",
+      "bytes": 59968
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T132037Z-997b282e\\intermediate\\cache\\fe3542d5a8869f5574320d868680a5083e9d0b9c\\tuareg_leaf_spear_albedo.rrtex",
+      "bytes": 59965
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\logs\\burn.log",
+      "bytes": 24576
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\logs\\EssenceEditorLog.txt",
+      "bytes": 268785
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\logs\\stdout.log",
+      "bytes": 225617
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\units\\prototypes\\2bd91fe1b0f69a897d468faecbeaeeb0fb624cc8a59069f5b29bf1cda3115770\\bind.rgm",
+      "bytes": 37808
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\units\\prototypes\\2bd91fe1b0f69a897d468faecbeaeeb0fb624cc8a59069f5b29bf1cda3115770\\owner.rhka",
+      "bytes": 3844556
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\units\\prototypes\\2bd91fe1b0f69a897d468faecbeaeeb0fb624cc8a59069f5b29bf1cda3115770\\prototype.json",
+      "bytes": 190239
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\units\\prototypes\\attachment-index\\stock-blueprints.json",
+      "bytes": 1053350
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\129101103df0416c7543de65e811c9000dc9c598\\model.rrmaterial",
+      "bytes": 792
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\12b514c4445021c7a0e0d5112469e99cc63988aa\\15964114263552809917_packed.rrtex",
+      "bytes": 1913
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\1a3e9fe8fb530b889699c55f0f4947d85192a73e\\2601301142745585130_packed.rrtex",
+      "bytes": 375
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\1a89b8a5743fd94592dca71c54f844dcacaf5055\\tuareg_agher_shield.rrmaterial",
+      "bytes": 585
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\23d57228aa63dd59aaeaac347ba4a8171f547944\\albedo.rrtex",
+      "bytes": 59615
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\2fd173adaa74cf716c6f9e6fe9c7148d68debc01\\18334109180691692301_packed.rrtex",
+      "bytes": 375
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\3c7c6988136945d4cd9f668f8174aa0e4cb6e6cc\\model.rrmaterial",
+      "bytes": 791
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\4480ae0e1323dabb9dfcfd0d3285a8422696c7a5\\5398135001705324230_packed.rrtex",
+      "bytes": 1913
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\5489d53bb972627bebd88beb83341914e10c010c\\6274827722070495410_packed.rrtex",
+      "bytes": 3527
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\55ef71d2e60a857e9a5dee6fddd062eb952e06dc\\16244996387607631616_packed.rrtex",
+      "bytes": 1913
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\6050c9d3aceca88582e907b491a7f8e8dc49289d\\12110578511837085467_packed.rrtex",
+      "bytes": 3530
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\67e0667f2022683594d3a5a2aaec6154d957c564\\12357935873157795185_packed.rrtex",
+      "bytes": 376
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\73272c78253d1c289bfe842ba0b7cd7602d2c05c\\blueprints.scar",
+      "bytes": 2838
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\735b99c708460f46d998618ae5fa0bb923ae83a6\\13290420378109403310_packed.rrtex",
+      "bytes": 375
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\82069d9d8e51b5696d969ccf92e2ba1203da7cce\\17222571595047587830_packed.rrtex",
+      "bytes": 3530
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\8283e5f11e80b6a484f8f9346ecccd42a88fced3\\albedo.rrtex",
+      "bytes": 60116
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\8552abbb0196bbd0ee83d200eadd5b6fb73086e2\\18145827352010179229_packed.rrtex",
+      "bytes": 372
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\8d39f6f7dab8c29c07d00bf765fd9c99cce89df4\\albedo.rrtex",
+      "bytes": 59968
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\992de87230c35772371cc23379b7e48ce4298a2b\\model.rrmaterial",
+      "bytes": 793
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\ad28e69f2340933a88cdc40d1d9803bb11a6165d\\model.rrmaterial",
+      "bytes": 791
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\b09ffafe07941f4e93e4261b3234901e5f60e885\\models.scar",
+      "bytes": 1910
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\b7df89e633e4d471abf85b9894cfdf3357e3ce89\\tuareg_leaf_spear.rrmaterial",
+      "bytes": 576
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\c35af3b1b5b06dcfc3a3d56171e8d9a585557781\\6597003795941812773_packed.rrtex",
+      "bytes": 1913
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\c768a3b09f18a3904acd00f62aa98978f666e51d\\10467554779441698523_packed.rrtex",
+      "bytes": 375
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\c9a657bc76d21235bd065fabbede934b49b20906\\mod.bin",
+      "bytes": 1761
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\e4962193f5c21de3b97f92e2d6aefd8d8ee9bbd5\\8281114123470325713_packed.rrtex",
+      "bytes": 3530
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\e6538a87cb44e069b9699255acb997df2aa41c10\\13503106598673779129_packed.rrtex",
+      "bytes": 3531
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\f1a46cb5cd8c037674dded25a6d215072f6e704b\\8822366789475540680_packed.rrtex",
+      "bytes": 3530
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\f3d6b32a40ce4fdefc82cb908f000437e82b8b56\\tuareg_agher_shield_albedo.rrtex",
+      "bytes": 59969
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\fb70e9e5bad2a5a87e5cf1b14542d7eedf477fc1\\albedo.rrtex",
+      "bytes": 59968
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\fe3542d5a8869f5574320d868680a5083e9d0b9c\\tuareg_leaf_spear_albedo.rrtex",
+      "bytes": 59965
+    },
+    {
+      "file": "tuareg_overhaul\\garrison_library\\Mods\\tuareg_art_v2\\dist\\cook\\20261011T131615Z-621bd9eb\\intermediate\\cache\\830dd6aac7b683cf80df370dc8fe03e11e3a8569\\en\\en.ucs",
+      "bytes": 110
+    },
+    {
+      "file": "tribal_tent\\iterations\\001\\Berber_Tribal_Tent_Ages_I_IV_001.blend1",
+      "bytes": 464665
+    },
+    {
+      "file": "tribal_tent\\iterations\\002\\Berber_Tribal_Tent_Ages_I_IV_002.blend1",
+      "bytes": 477294
+    },
+    {
+      "file": "economy_remix_0_2_5\\mining\\Berber_Mining_combined_0_2_5.blend1",
+      "bytes": 12199419
+    },
+    {
+      "file": "economy_remix_0_2_5\\mining\\Berber_Mining_crane_age01_0_2_5.blend1",
+      "bytes": 8326385
+    },
+    {
+      "file": "economy_remix_0_2_5\\mining\\Berber_Mining_furnace_age01_0_2_5.blend1",
+      "bytes": 8404823
+    },
+    {
+      "file": "economy_remix_0_2_5\\mining\\UNTOUCHED_Common_Mining_combined.blend1",
+      "bytes": 12983658
+    },
+    {
+      "file": "economy_remix_0_2_5\\mining\\UNTOUCHED_Common_Mining_crane_age01.blend1",
+      "bytes": 8818541
+    },
+    {
+      "file": "economy_remix_0_2_5\\mining\\UNTOUCHED_Common_Mining_furnace_age01.blend1",
+      "bytes": 8992346
+    },
+    {
+      "file": "buildings\\barracks\\Berber_Barracks_Age1.blend1",
+      "bytes": 194000
+    },
+    {
+      "file": "buildings\\barracks\\Berber_Barracks_Age2.blend1",
+      "bytes": 198573
+    },
+    {
+      "file": "buildings\\barracks\\Berber_Barracks_Age3.blend1",
+      "bytes": 213410
+    },
+    {
+      "file": "buildings\\barracks\\Berber_Barracks_Age4.blend1",
+      "bytes": 217585
+    },
+    {
+      "file": "buildings\\barracks\\UNTouched_Abbasid_Barracks_Age1_Reference.blend1",
+      "bytes": 2208486
+    },
+    {
+      "file": "buildings\\grand_keep\\Almohad_GrandKeep_Age4.blend1",
+      "bytes": 269507
+    },
+    {
+      "file": "buildings\\grand_keep\\UNTouched_Abbasid_Keep_Reference.blend1",
+      "bytes": 6058010
+    },
+    {
+      "file": "buildings\\house\\Berber_House_Age1.blend1",
+      "bytes": 193417
+    },
+    {
+      "file": "buildings\\house\\Berber_House_Age2.blend1",
+      "bytes": 199557
+    },
+    {
+      "file": "buildings\\house\\Berber_House_Age3.blend1",
+      "bytes": 206818
+    },
+    {
+      "file": "buildings\\house\\Berber_House_Age4.blend1",
+      "bytes": 213577
+    },
+    {
+      "file": "buildings\\house\\UNTouched_Abbasid_Age1_Reference.blend1",
+      "bytes": 940754
+    },
+    {
+      "file": "buildings\\keep\\Berber_Keep_Age3.blend1",
+      "bytes": 239554
+    },
+    {
+      "file": "buildings\\keep\\Berber_Keep_Age4.blend1",
+      "bytes": 244660
+    },
+    {
+      "file": "buildings\\lumber\\Berber_Lumber_Age1.blend1",
+      "bytes": 204557
+    },
+    {
+      "file": "buildings\\lumber\\Berber_Lumber_Age2.blend1",
+      "bytes": 210844
+    },
+    {
+      "file": "buildings\\lumber\\Berber_Lumber_Age3.blend1",
+      "bytes": 214492
+    },
+    {
+      "file": "buildings\\lumber\\Berber_Lumber_Age4.blend1",
+      "bytes": 222952
+    },
+    {
+      "file": "buildings\\marrakech\\Berber_Marrakech_Age3.blend1",
+      "bytes": 209781
+    },
+    {
+      "file": "buildings\\marrakech\\Berber_Marrakech_Age4.blend1",
+      "bytes": 218611
+    },
+    {
+      "file": "buildings\\marrakech\\UNTouched_Malian_Landmark2b_Reference.blend1",
+      "bytes": 2513692
+    },
+    {
+      "file": "buildings\\mill\\Berber_Mill_Age1.blend1",
+      "bytes": 191101
+    },
+    {
+      "file": "buildings\\mill\\Berber_Mill_Age2.blend1",
+      "bytes": 193597
+    },
+    {
+      "file": "buildings\\mill\\Berber_Mill_Age3.blend1",
+      "bytes": 198507
+    },
+    {
+      "file": "buildings\\mill\\Berber_Mill_Age4.blend1",
+      "bytes": 203987
+    },
+    {
+      "file": "buildings\\mining\\Berber_Mining_Age1.blend1",
+      "bytes": 194383
+    },
+    {
+      "file": "buildings\\mining\\Berber_Mining_Age2.blend1",
+      "bytes": 197530
+    },
+    {
+      "file": "buildings\\mining\\Berber_Mining_Age3.blend1",
+      "bytes": 201528
+    },
+    {
+      "file": "buildings\\mining\\Berber_Mining_Age4.blend1",
+      "bytes": 215221
+    },
+    {
+      "file": "buildings\\mosque\\Berber_Mosque_Age3.blend1",
+      "bytes": 200808
+    },
+    {
+      "file": "buildings\\mosque\\Berber_Mosque_Age4.blend1",
+      "bytes": 206948
+    },
+    {
+      "file": "buildings\\mosque\\UNTouched_Abbasid_Monastery_Age3_Reference.blend1",
+      "bytes": 5436956
+    },
+    {
+      "file": "buildings\\outpost\\Berber_Outpost_Age1.blend1",
+      "bytes": 186639
+    },
+    {
+      "file": "buildings\\outpost\\Berber_Outpost_Age2.blend1",
+      "bytes": 195322
+    },
+    {
+      "file": "buildings\\outpost\\Untouched_Abbasid_Outpost_Age01_Reference.blend1",
+      "bytes": 1299326
+    },
+    {
+      "file": "buildings\\palisade\\Untouched_English_Common_Palisade_6m_Reference.blend1",
+      "bytes": 1008841
+    },
+    {
+      "file": "buildings\\palisade_bastion\\Berber_PalisadeBastion_Age1.blend1",
+      "bytes": 278512
+    },
+    {
+      "file": "buildings\\palisade_bastion\\Berber_PalisadeBastion_Age2.blend1",
+      "bytes": 282933
+    },
+    {
+      "file": "buildings\\palisade_bastion\\Berber_PalisadeBastion_Age3.blend1",
+      "bytes": 291429
+    },
+    {
+      "file": "buildings\\palisade_bastion\\Berber_PalisadeBastion_Age4.blend1",
+      "bytes": 300336
+    },
+    {
+      "file": "buildings\\range\\Berber_Range_Age2.blend1",
+      "bytes": 200518
+    },
+    {
+      "file": "buildings\\range\\Berber_Range_Age3.blend1",
+      "bytes": 205561
+    },
+    {
+      "file": "buildings\\range\\Berber_Range_Age4.blend1",
+      "bytes": 209693
+    },
+    {
+      "file": "buildings\\range\\UNTouched_Abbasid_Range_Age2_Reference.blend1",
+      "bytes": 1466937
+    },
+    {
+      "file": "buildings\\ribat\\Berber_Ribat_Age2.blend1",
+      "bytes": 201467
+    },
+    {
+      "file": "buildings\\ribat\\Berber_Ribat_Age3.blend1",
+      "bytes": 204026
+    },
+    {
+      "file": "buildings\\ribat\\UNTouched_Malian_Landmark1a_Reference.blend1",
+      "bytes": 1122350
+    },
+    {
+      "file": "buildings\\stable\\Berber_Stable_Age2.blend1",
+      "bytes": 204279
+    },
+    {
+      "file": "buildings\\stable\\Berber_Stable_Age3.blend1",
+      "bytes": 208459
+    },
+    {
+      "file": "buildings\\stable\\Berber_Stable_Age4.blend1",
+      "bytes": 213535
+    },
+    {
+      "file": "buildings\\tc\\Berber_TC_Age1.blend1",
+      "bytes": 217131
+    },
+    {
+      "file": "buildings\\tc\\Berber_TC_Age2.blend1",
+      "bytes": 227054
+    },
+    {
+      "file": "buildings\\tc\\Berber_TC_Age3.blend1",
+      "bytes": 230406
+    },
+    {
+      "file": "buildings\\tc\\Berber_TC_Age4.blend1",
+      "bytes": 234898
+    },
+    {
+      "file": "buildings\\tc\\Untouched_Abbasid_TC_Age1.blend1",
+      "bytes": 237106
+    },
+    {
+      "file": "buildings\\wall\\Berber_Wall_Age2.blend1",
+      "bytes": 251032
+    },
+    {
+      "file": "buildings\\wall\\Berber_Wall_Age3.blend1",
+      "bytes": 306291
+    },
+    {
+      "file": "buildings\\wall\\Berber_Wall_Age4.blend1",
+      "bytes": 345193
+    },
+    {
+      "file": "buildings\\wall\\Untouched_Malian_Wall_6m_Reference.blend1",
+      "bytes": 1244489
+    },
+    {
+      "file": "buildings\\wall_bastion\\Berber_Bastion_Age4.blend1",
+      "bytes": 398733
+    },
+    {
+      "file": "buildings\\wall_bastion\\Untouched_Malian_Bastion_AllVariants_Reference.blend1",
+      "bytes": 2380865
+    },
+    {
+      "file": "buildings\\wall_gate\\Berber_StoneGate_Age2.blend1",
+      "bytes": 223196
+    },
+    {
+      "file": "buildings\\wall_gate\\Berber_StoneGate_Age3.blend1",
+      "bytes": 242887
+    },
+    {
+      "file": "buildings\\wall_gate\\Berber_StoneGate_Age4.blend1",
+      "bytes": 247255
+    },
+    {
+      "file": "buildings\\wall_gate\\UNTOUCHED_Malian_StoneGate_Reference.blend1",
+      "bytes": 1042398
+    },
+    {
+      "file": "buildings\\wall_tower\\Berber_WallTower_Age2.blend1",
+      "bytes": 197692
+    },
+    {
+      "file": "buildings\\wall_tower\\Berber_WallTower_Age3.blend1",
+      "bytes": 208092
+    },
+    {
+      "file": "buildings\\wall_tower\\Berber_WallTower_Age4.blend1",
+      "bytes": 213945
+    },
+    {
+      "file": "buildings\\wall_tower\\UNTouched_Malian_WallTower_Reference.blend1",
+      "bytes": 1215226
+    }
+  ],
+  "removed_bytes": 279794845,
+  "legacy_path_map": {
+    "old": "F:\\aoe_4_temp\\Berber_future_kingdom_ai_20261014/art",
+    "new": "F:\\aoe_4_temp\\New_custom_civilization\\aoe4-berbers\\authoring\\retained-legacy-art"
+  },
+  "native_current_inputs": "unchanged"
+}

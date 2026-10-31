@@ -1,0 +1,328 @@
+{
+  "schema": "berber-building-source-stage/v1",
+  "age": 2,
+  "parts": [
+    {
+      "object": "canopy_anchored_post",
+      "first_stage": 20,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "canopy_anchored_post.001",
+      "first_stage": 20,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "canopy_crossbeam",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "cedar_shutter",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "cedar_shutter.001",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "clay_jar",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "clay_jar.001",
+      "first_stage": 100,
+      "material": "clay",
+      "owner_mask": 0
+    },
+    {
+      "object": "courtyard_earthen_floor",
+      "first_stage": 0,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "courtyard_shade_canopy",
+      "first_stage": 80,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "door_joinery",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "door_joinery.001",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "door_joinery.002",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_parapet",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_parapet.001",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_parapet_end",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_parapet_end.001",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_roof_deck",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_roof_drain",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_roof_drain.001",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_room",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "entrance_room",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "entrance_step",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "horseshoe_door",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "link_roof",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "link_roof.001",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "link_roof_parapet",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "link_roof_parapet.001",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "north_room",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "owner_woven_wall_strip",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "pressed_diamond_border",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "pressed_diamond_border.001",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "pressed_diamond_border.002",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "pressed_diamond_border.003",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "pressed_diamond_border.004",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "pressed_diamond_border.005",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "shutter_slats",
+      "first_stage": 80,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "shutter_slats.001",
+      "first_stage": 80,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "shutter_slats.002",
+      "first_stage": 80,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "shutter_slats.003",
+      "first_stage": 80,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "stone_corner_courses",
+      "first_stage": 20,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "stone_corner_courses.001",
+      "first_stage": 20,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "stone_foundation",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_parapet",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_parapet.001",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_parapet_end",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_parapet_end.001",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_roof_deck",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_roof_drain",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_roof_drain.001",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_room",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "window_sill",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "window_sill.001",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    }
+  ],
+  "stages": [
+    0,
+    20,
+    40,
+    60,
+    80,
+    100
+  ],
+  "assignment": "first visible construction percentage; cumulative",
+  "game_binding_status": "not exported through Garrison building recipe"
+}

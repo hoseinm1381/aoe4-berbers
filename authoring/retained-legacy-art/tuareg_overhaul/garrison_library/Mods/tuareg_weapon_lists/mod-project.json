@@ -1,0 +1,200 @@
+{
+  "assets": [],
+  "cooks": [
+    {
+      "animated_units": [],
+      "archive": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_weapon_lists\\dist\\tuareg_weapon_lists.sga",
+      "assets": [],
+      "attribute_overrides": [],
+      "audio_clips": [],
+      "audio_enabled": false,
+      "blueprints": [],
+      "build_id": "20261011T133804Z-662b5b25",
+      "buildings": [],
+      "cooked_at_utc": "2026-10-11T13:40:29Z",
+      "derived_blueprints": [
+        {
+          "changes": [
+            {
+              "field": "attachment_lists/parent_animator",
+              "op": "set",
+              "tables": [
+                "default",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "attachments/attachment_lists",
+          "file": "attachments/attachment_lists/garrison/tuareg_weapon_lists/tuareg_spear_visual_1",
+          "name": "tuareg_spear_visual_1",
+          "reference": "1d3145e8f1b2427f8bb0067851fcf0f1:tuareg_spear_visual_1",
+          "rewired": [],
+          "source": "attachments/attachment_lists/races/japanese/weapons/wpn_melee_spearman_long_spear_1_jpn"
+        },
+        {
+          "changes": [
+            {
+              "field": "attachment_lists/parent_animator",
+              "op": "set",
+              "tables": [
+                "default",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "attachments/attachment_lists",
+          "file": "attachments/attachment_lists/garrison/tuareg_weapon_lists/tuareg_spear_visual_2",
+          "name": "tuareg_spear_visual_2",
+          "reference": "1d3145e8f1b2427f8bb0067851fcf0f1:tuareg_spear_visual_2",
+          "rewired": [],
+          "source": "attachments/attachment_lists/races/japanese/weapons/wpn_melee_spearman_long_spear_2_jpn"
+        },
+        {
+          "changes": [
+            {
+              "field": "attachment_lists/parent_animator",
+              "op": "set",
+              "tables": [
+                "default",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "attachments/attachment_lists",
+          "file": "attachments/attachment_lists/garrison/tuareg_weapon_lists/tuareg_spear_visual_3",
+          "name": "tuareg_spear_visual_3",
+          "reference": "1d3145e8f1b2427f8bb0067851fcf0f1:tuareg_spear_visual_3",
+          "rewired": [],
+          "source": "attachments/attachment_lists/races/japanese/weapons/wpn_melee_spearman_long_spear_3_jpn"
+        },
+        {
+          "changes": [
+            {
+              "field": "attachment_lists/parent_animator",
+              "op": "set",
+              "tables": [
+                "default",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "attachments/attachment_lists",
+          "file": "attachments/attachment_lists/garrison/tuareg_weapon_lists/tuareg_spear_visual_4",
+          "name": "tuareg_spear_visual_4",
+          "reference": "1d3145e8f1b2427f8bb0067851fcf0f1:tuareg_spear_visual_4",
+          "rewired": [],
+          "source": "attachments/attachment_lists/races/japanese/weapons/wpn_melee_spearman_long_spear_4_jpn"
+        },
+        {
+          "changes": [
+            {
+              "field": "attachment_lists/parent_animator",
+              "op": "set",
+              "tables": [
+                "default",
+                "xp3"
+              ]
+            }
+          ],
+          "family": "attachments/attachment_lists",
+          "file": "attachments/attachment_lists/garrison/tuareg_weapon_lists/tuareg_spear_visual_5",
+          "name": "tuareg_spear_visual_5",
+          "reference": "1d3145e8f1b2427f8bb0067851fcf0f1:tuareg_spear_visual_5",
+          "rewired": [],
+          "source": "attachments/attachment_lists/races/malian/weapons/wpn_melee_spearwall_1_mal"
+        }
+      ],
+      "editor": "E:\\Games\\steamapps\\common\\Age of Empires IV\\EssenceEditor.exe",
+      "game_mode": false,
+      "lights": [],
+      "live_reload": false,
+      "loose_files": [],
+      "model_variants": [],
+      "run_root": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Mods\\tuareg_weapon_lists\\dist\\cook\\20261011T133804Z-662b5b25",
+      "sha256": "aed9f8d16311c897b3d8208147cb1e15e44d3037e09acc3e31319c654e4f43c4",
+      "size": 7579,
+      "sounds": [],
+      "source_script_dependencies": [],
+      "verified_model_outputs": [],
+      "visual_presentation": []
+    }
+  ],
+  "created_at_utc": "2026-10-11T13:32:50Z",
+  "derived_blueprints": [
+    {
+      "changes": [
+        {
+          "field": "attachment_lists/parent_animator",
+          "op": "set",
+          "value": "art\\scenario\\tuareg\\tuareg_leaf_spear\\tuareg_leaf_spear"
+        }
+      ],
+      "family": "attachments/attachment_lists",
+      "name": "tuareg_spear_visual_1",
+      "source": "attachments/attachment_lists/races/japanese/weapons/wpn_melee_spearman_long_spear_1_jpn"
+    },
+    {
+      "changes": [
+        {
+          "field": "attachment_lists/parent_animator",
+          "op": "set",
+          "value": "art\\scenario\\tuareg\\tuareg_leaf_spear\\tuareg_leaf_spear"
+        }
+      ],
+      "family": "attachments/attachment_lists",
+      "name": "tuareg_spear_visual_2",
+      "source": "attachments/attachment_lists/races/japanese/weapons/wpn_melee_spearman_long_spear_2_jpn"
+    },
+    {
+      "changes": [
+        {
+          "field": "attachment_lists/parent_animator",
+          "op": "set",
+          "value": "art\\scenario\\tuareg\\tuareg_leaf_spear\\tuareg_leaf_spear"
+        }
+      ],
+      "family": "attachments/attachment_lists",
+      "name": "tuareg_spear_visual_3",
+      "source": "attachments/attachment_lists/races/japanese/weapons/wpn_melee_spearman_long_spear_3_jpn"
+    },
+    {
+      "changes": [
+        {
+          "field": "attachment_lists/parent_animator",
+          "op": "set",
+          "value": "art\\scenario\\tuareg\\tuareg_leaf_spear\\tuareg_leaf_spear"
+        }
+      ],
+      "family": "attachments/attachment_lists",
+      "name": "tuareg_spear_visual_4",
+      "source": "attachments/attachment_lists/races/japanese/weapons/wpn_melee_spearman_long_spear_4_jpn"
+    },
+    {
+      "changes": [
+        {
+          "field": "attachment_lists/parent_animator",
+          "op": "set",
+          "value": "art\\scenario\\tuareg\\tuareg_leaf_spear\\tuareg_leaf_spear"
+        }
+      ],
+      "family": "attachments/attachment_lists",
+      "name": "tuareg_spear_visual_5",
+      "source": "attachments/attachment_lists/races/malian/weapons/wpn_melee_spearwall_1_mal"
+    }
+  ],
+  "description": "",
+  "game_mode": {
+    "enabled": false,
+    "requested": false,
+    "template": "normal"
+  },
+  "key": "tuareg_weapon_lists",
+  "mod_id": "1d3145e8-f1b2-427f-8bb0-067851fcf0f1",
+  "name": "tuareg_weapon_lists",
+  "runtime_modules": {
+    "files": {
+      "tuareg_weapon_lists/blueprints.scar": "d5273259e70479a6c95d900ad6024afa887672e053353998fe672038fd328805"
+    }
+  },
+  "schema": "garrison.mod-project/v1"
+}

@@ -1,0 +1,2029 @@
+{
+  "age": 2,
+  "variants": [
+    {
+      "variant": "default",
+      "connections": [],
+      "socket_distance_m": 3,
+      "native_bones": "bearing0 north;90 east;180 south;270 west; why uses120/240",
+      "walk_z": 7,
+      "clear_width": 3,
+      "parts": [
+        {
+          "object": "default_stone_foot",
+          "first_stage": 0,
+          "material": "stone",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_battered_lower",
+          "first_stage": 40,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_battered_upper",
+          "first_stage": 60,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_continuous_walk_floor",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_guard_0_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_merlon_0_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_merlon_0_0_1",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_merlon_0_0_2",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_merlon_0_0_3",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_owner_band_0_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "default_guard_1_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_merlon_1_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_owner_band_1_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "default_guard_2_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_merlon_2_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_merlon_2_0_1",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_merlon_2_0_2",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_merlon_2_0_3",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_owner_band_2_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "default_guard_3_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_merlon_3_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_owner_band_3_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "default_guard_4_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_merlon_4_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_merlon_4_0_1",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_merlon_4_0_2",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_merlon_4_0_3",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_owner_band_4_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "default_guard_5_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_merlon_5_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_owner_band_5_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "default_guard_6_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_merlon_6_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_merlon_6_0_1",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_merlon_6_0_2",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_merlon_6_0_3",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_owner_band_6_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "default_guard_7_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_merlon_7_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "default_owner_band_7_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        }
+      ],
+      "joins": [],
+      "body_deck_overhang_m": 0.21,
+      "overhang": "intentional dressed cap lip, supported by battered core"
+    },
+    {
+      "variant": "end",
+      "connections": [
+        0
+      ],
+      "socket_distance_m": 3,
+      "native_bones": "bearing0 north;90 east;180 south;270 west; why uses120/240",
+      "walk_z": 7,
+      "clear_width": 3,
+      "parts": [
+        {
+          "object": "end_stone_foot",
+          "first_stage": 0,
+          "material": "stone",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_battered_lower",
+          "first_stage": 40,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_battered_upper",
+          "first_stage": 60,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_continuous_walk_floor",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_guard_0_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_merlon_0_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_merlon_0_0_1",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_merlon_0_0_2",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_merlon_0_0_3",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_owner_band_0_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "end_guard_1_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_merlon_1_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_owner_band_1_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "end_guard_2_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_merlon_2_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_merlon_2_0_1",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_merlon_2_0_2",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_merlon_2_0_3",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_owner_band_2_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "end_guard_3_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_merlon_3_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_owner_band_3_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "end_guard_4_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_merlon_4_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_owner_band_4_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "end_guard_4_1",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_merlon_4_1_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_owner_band_4_1",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "end_guard_5_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_merlon_5_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_owner_band_5_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "end_guard_6_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_merlon_6_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_merlon_6_0_1",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_merlon_6_0_2",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_merlon_6_0_3",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_owner_band_6_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "end_guard_7_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_merlon_7_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "end_owner_band_7_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        }
+      ],
+      "joins": [
+        {
+          "bearing": 0,
+          "socket": [
+            0.0,
+            3.0,
+            7
+          ],
+          "adjacent_curtain_near_endpoint": [
+            0.0,
+            3.0,
+            7
+          ],
+          "gap": 0.0,
+          "pass": true
+        }
+      ],
+      "body_deck_overhang_m": 0.21,
+      "overhang": "intentional dressed cap lip, supported by battered core"
+    },
+    {
+      "variant": "corner",
+      "connections": [
+        0,
+        90
+      ],
+      "socket_distance_m": 3,
+      "native_bones": "bearing0 north;90 east;180 south;270 west; why uses120/240",
+      "walk_z": 7,
+      "clear_width": 3,
+      "parts": [
+        {
+          "object": "corner_stone_foot",
+          "first_stage": 0,
+          "material": "stone",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_battered_lower",
+          "first_stage": 40,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_battered_upper",
+          "first_stage": 60,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_continuous_walk_floor",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_guard_0_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_merlon_0_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_merlon_0_0_1",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_merlon_0_0_2",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_merlon_0_0_3",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_owner_band_0_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "corner_guard_1_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_merlon_1_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_owner_band_1_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "corner_guard_2_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_merlon_2_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_owner_band_2_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "corner_guard_2_1",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_merlon_2_1_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_owner_band_2_1",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "corner_guard_3_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_merlon_3_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_owner_band_3_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "corner_guard_4_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_merlon_4_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_owner_band_4_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "corner_guard_4_1",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_merlon_4_1_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_owner_band_4_1",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "corner_guard_5_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_merlon_5_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_owner_band_5_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "corner_guard_6_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_merlon_6_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_merlon_6_0_1",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_merlon_6_0_2",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_merlon_6_0_3",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_owner_band_6_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "corner_guard_7_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_merlon_7_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "corner_owner_band_7_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        }
+      ],
+      "joins": [
+        {
+          "bearing": 0,
+          "socket": [
+            0.0,
+            3.0,
+            7
+          ],
+          "adjacent_curtain_near_endpoint": [
+            0.0,
+            3.0,
+            7
+          ],
+          "gap": 0.0,
+          "pass": true
+        },
+        {
+          "bearing": 90,
+          "socket": [
+            3.0,
+            1.8369701987210297e-16,
+            7
+          ],
+          "adjacent_curtain_near_endpoint": [
+            3.0,
+            1.8369701987210297e-16,
+            7
+          ],
+          "gap": 0.0,
+          "pass": true
+        }
+      ],
+      "body_deck_overhang_m": 0.21,
+      "overhang": "intentional dressed cap lip, supported by battered core"
+    },
+    {
+      "variant": "thru",
+      "connections": [
+        0,
+        180
+      ],
+      "socket_distance_m": 3,
+      "native_bones": "bearing0 north;90 east;180 south;270 west; why uses120/240",
+      "walk_z": 7,
+      "clear_width": 3,
+      "parts": [
+        {
+          "object": "thru_stone_foot",
+          "first_stage": 0,
+          "material": "stone",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_battered_lower",
+          "first_stage": 40,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_battered_upper",
+          "first_stage": 60,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_continuous_walk_floor",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_guard_0_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_merlon_0_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_owner_band_0_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "thru_guard_0_1",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_merlon_0_1_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_owner_band_0_1",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "thru_guard_1_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_merlon_1_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_owner_band_1_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "thru_guard_2_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_merlon_2_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_merlon_2_0_1",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_merlon_2_0_2",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_merlon_2_0_3",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_owner_band_2_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "thru_guard_3_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_merlon_3_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_owner_band_3_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "thru_guard_4_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_merlon_4_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_owner_band_4_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "thru_guard_4_1",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_merlon_4_1_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_owner_band_4_1",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "thru_guard_5_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_merlon_5_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_owner_band_5_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "thru_guard_6_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_merlon_6_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_merlon_6_0_1",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_merlon_6_0_2",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_merlon_6_0_3",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_owner_band_6_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "thru_guard_7_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_merlon_7_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "thru_owner_band_7_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        }
+      ],
+      "joins": [
+        {
+          "bearing": 0,
+          "socket": [
+            0.0,
+            3.0,
+            7
+          ],
+          "adjacent_curtain_near_endpoint": [
+            0.0,
+            3.0,
+            7
+          ],
+          "gap": 0.0,
+          "pass": true
+        },
+        {
+          "bearing": 180,
+          "socket": [
+            3.6739403974420594e-16,
+            -3.0,
+            7
+          ],
+          "adjacent_curtain_near_endpoint": [
+            3.6739403974420594e-16,
+            -3.0,
+            7
+          ],
+          "gap": 0.0,
+          "pass": true
+        }
+      ],
+      "body_deck_overhang_m": 0.21,
+      "overhang": "intentional dressed cap lip, supported by battered core"
+    },
+    {
+      "variant": "tee",
+      "connections": [
+        0,
+        90,
+        270
+      ],
+      "socket_distance_m": 3,
+      "native_bones": "bearing0 north;90 east;180 south;270 west; why uses120/240",
+      "walk_z": 7,
+      "clear_width": 3,
+      "parts": [
+        {
+          "object": "tee_stone_foot",
+          "first_stage": 0,
+          "material": "stone",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_battered_lower",
+          "first_stage": 40,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_battered_upper",
+          "first_stage": 60,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_continuous_walk_floor",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_guard_0_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_merlon_0_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_merlon_0_0_1",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_merlon_0_0_2",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_merlon_0_0_3",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_owner_band_0_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "tee_guard_1_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_merlon_1_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_owner_band_1_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "tee_guard_2_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_merlon_2_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_owner_band_2_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "tee_guard_2_1",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_merlon_2_1_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_owner_band_2_1",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "tee_guard_3_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_merlon_3_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_owner_band_3_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "tee_guard_4_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_merlon_4_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_owner_band_4_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "tee_guard_4_1",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_merlon_4_1_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_owner_band_4_1",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "tee_guard_5_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_merlon_5_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_owner_band_5_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "tee_guard_6_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_merlon_6_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_owner_band_6_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "tee_guard_6_1",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_merlon_6_1_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_owner_band_6_1",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "tee_guard_7_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_merlon_7_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "tee_owner_band_7_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        }
+      ],
+      "joins": [
+        {
+          "bearing": 0,
+          "socket": [
+            0.0,
+            3.0,
+            7
+          ],
+          "adjacent_curtain_near_endpoint": [
+            0.0,
+            3.0,
+            7
+          ],
+          "gap": 0.0,
+          "pass": true
+        },
+        {
+          "bearing": 90,
+          "socket": [
+            3.0,
+            1.8369701987210297e-16,
+            7
+          ],
+          "adjacent_curtain_near_endpoint": [
+            3.0,
+            1.8369701987210297e-16,
+            7
+          ],
+          "gap": 0.0,
+          "pass": true
+        },
+        {
+          "bearing": 270,
+          "socket": [
+            -3.0,
+            -5.51091059616309e-16,
+            7
+          ],
+          "adjacent_curtain_near_endpoint": [
+            -3.0,
+            -5.51091059616309e-16,
+            7
+          ],
+          "gap": 0.0,
+          "pass": true
+        }
+      ],
+      "body_deck_overhang_m": 0.21,
+      "overhang": "intentional dressed cap lip, supported by battered core"
+    },
+    {
+      "variant": "cross",
+      "connections": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "socket_distance_m": 3,
+      "native_bones": "bearing0 north;90 east;180 south;270 west; why uses120/240",
+      "walk_z": 7,
+      "clear_width": 3,
+      "parts": [
+        {
+          "object": "cross_stone_foot",
+          "first_stage": 0,
+          "material": "stone",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_battered_lower",
+          "first_stage": 40,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_battered_upper",
+          "first_stage": 60,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_continuous_walk_floor",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_guard_0_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_merlon_0_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_owner_band_0_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "cross_guard_0_1",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_merlon_0_1_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_owner_band_0_1",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "cross_guard_1_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_merlon_1_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_owner_band_1_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "cross_guard_2_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_merlon_2_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_owner_band_2_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "cross_guard_2_1",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_merlon_2_1_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_owner_band_2_1",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "cross_guard_3_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_merlon_3_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_owner_band_3_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "cross_guard_4_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_merlon_4_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_owner_band_4_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "cross_guard_4_1",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_merlon_4_1_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_owner_band_4_1",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "cross_guard_5_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_merlon_5_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_owner_band_5_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "cross_guard_6_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_merlon_6_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_owner_band_6_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "cross_guard_6_1",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_merlon_6_1_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_owner_band_6_1",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "cross_guard_7_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_merlon_7_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "cross_owner_band_7_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        }
+      ],
+      "joins": [
+        {
+          "bearing": 0,
+          "socket": [
+            0.0,
+            3.0,
+            7
+          ],
+          "adjacent_curtain_near_endpoint": [
+            0.0,
+            3.0,
+            7
+          ],
+          "gap": 0.0,
+          "pass": true
+        },
+        {
+          "bearing": 90,
+          "socket": [
+            3.0,
+            1.8369701987210297e-16,
+            7
+          ],
+          "adjacent_curtain_near_endpoint": [
+            3.0,
+            1.8369701987210297e-16,
+            7
+          ],
+          "gap": 0.0,
+          "pass": true
+        },
+        {
+          "bearing": 180,
+          "socket": [
+            3.6739403974420594e-16,
+            -3.0,
+            7
+          ],
+          "adjacent_curtain_near_endpoint": [
+            3.6739403974420594e-16,
+            -3.0,
+            7
+          ],
+          "gap": 0.0,
+          "pass": true
+        },
+        {
+          "bearing": 270,
+          "socket": [
+            -3.0,
+            -5.51091059616309e-16,
+            7
+          ],
+          "adjacent_curtain_near_endpoint": [
+            -3.0,
+            -5.51091059616309e-16,
+            7
+          ],
+          "gap": 0.0,
+          "pass": true
+        }
+      ],
+      "body_deck_overhang_m": 0.21,
+      "overhang": "intentional dressed cap lip, supported by battered core"
+    },
+    {
+      "variant": "why",
+      "connections": [
+        0,
+        120,
+        240
+      ],
+      "socket_distance_m": 3,
+      "native_bones": "bearing0 north;90 east;180 south;270 west; why uses120/240",
+      "walk_z": 7,
+      "clear_width": 3,
+      "parts": [
+        {
+          "object": "why_stone_foot",
+          "first_stage": 0,
+          "material": "stone",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_battered_lower",
+          "first_stage": 40,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_battered_upper",
+          "first_stage": 60,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_continuous_walk_floor",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_guard_0_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_merlon_0_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_merlon_0_0_1",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_merlon_0_0_2",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_merlon_0_0_3",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_owner_band_0_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "why_guard_1_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_merlon_1_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_owner_band_1_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "why_guard_1_1",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_merlon_1_1_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_owner_band_1_1",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "why_guard_2_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_merlon_2_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_merlon_2_0_1",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_merlon_2_0_2",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_merlon_2_0_3",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_owner_band_2_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "why_guard_3_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_merlon_3_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_owner_band_3_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "why_guard_3_1",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_merlon_3_1_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_owner_band_3_1",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "why_guard_4_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_merlon_4_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_merlon_4_0_1",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_merlon_4_0_2",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_merlon_4_0_3",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_owner_band_4_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "why_guard_5_0",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_merlon_5_0_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_owner_band_5_0",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        },
+        {
+          "object": "why_guard_5_1",
+          "first_stage": 80,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_merlon_5_1_0",
+          "first_stage": 100,
+          "material": "earth",
+          "owner_mask": 0
+        },
+        {
+          "object": "why_owner_band_5_1",
+          "first_stage": 100,
+          "material": "owner_cloth",
+          "owner_mask": 1
+        }
+      ],
+      "joins": [
+        {
+          "bearing": 0,
+          "socket": [
+            0.0,
+            3.0,
+            7
+          ],
+          "adjacent_curtain_near_endpoint": [
+            0.0,
+            3.0,
+            7
+          ],
+          "gap": 0.0,
+          "pass": true
+        },
+        {
+          "bearing": 120,
+          "socket": [
+            2.598076211353316,
+            -1.4999999999999993,
+            7
+          ],
+          "adjacent_curtain_near_endpoint": [
+            2.598076211353316,
+            -1.4999999999999993,
+            7
+          ],
+          "gap": 0.0,
+          "pass": true
+        },
+        {
+          "bearing": 240,
+          "socket": [
+            -2.5980762113533156,
+            -1.5000000000000013,
+            7
+          ],
+          "adjacent_curtain_near_endpoint": [
+            -2.5980762113533156,
+            -1.5000000000000013,
+            7
+          ],
+          "gap": 0.0,
+          "pass": true
+        }
+      ],
+      "body_deck_overhang_m": 0.21,
+      "overhang": "intentional dressed cap lip, supported by battered core"
+    }
+  ],
+  "selector_binding": "pending native cap attachment categories; 120deg why has shoulder narrowing, clear3 preserved"
+}

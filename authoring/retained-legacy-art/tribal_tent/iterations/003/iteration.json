@@ -1,0 +1,24 @@
+{
+  "asset_id": "building.tent",
+  "iteration": "003",
+  "recorded": "2026-10-12",
+  "approval_status": "user_requested_spec_built",
+  "approval_scope": "User accepted the model in game and requested 2.5x dimensions and opposite facing; new native result awaits next requested build.",
+  "based_on_accepted_iteration": "002",
+  "blend": "art/tribal_tent/iterations/003/Berber_Tribal_Tent_Ages_I_IV_003.blend",
+  "blend_sha256": "b6d9733e1e4bbb981a29eb4b03c2604c5e1fe9b96aed75fe9ceadaef407be38d",
+  "scale": 2.5,
+  "rotation_degrees": 180,
+  "ages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "verification": "output/tribal_tent/iteration003/saved-source-verification.json",
+  "export_status": "four construction-stage models exported and cooked",
+  "mod_build": true,
+  "native_acceptance": "pending user",
+  "gameplay": "unchanged",
+  "included_version": "0.2.1"
+}

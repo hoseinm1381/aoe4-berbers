@@ -1,0 +1,28 @@
+{
+  "closed_frame": 1,
+  "open_frame": 40,
+  "hold_open_frame": 70,
+  "closed_again_frame": 110,
+  "hinges": [
+    [
+      -2.05658977144858,
+      -0.15005000912143784,
+      0
+    ],
+    [
+      2.0571998845716175,
+      -0.15005000912143784,
+      0
+    ]
+  ],
+  "rotation_axis": "Blender Z",
+  "open_angles_degrees": [
+    -90,
+    90
+  ],
+  "state_actions": [
+    "left_GateOpenClose_SOURCE",
+    "right_GateOpenClose_SOURCE"
+  ],
+  "native_playback": "pending"
+}

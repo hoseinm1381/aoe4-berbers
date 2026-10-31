@@ -1,0 +1,1257 @@
+{
+  "schema": "berber.house-native-remix/v1",
+  "scale": 0.46,
+  "ages": [
+    {
+      "age": 1,
+      "decode": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_2_2\\stock\\a9a752db305fef70848f\\decoded-static.json",
+      "source": "art/civilizations/abbasids/structures/house/abb_house_control_a_age01/abb_house_control_a_age01.rgm",
+      "source_hashes": {
+        "geometry": "be416f28534565a4a8f65bc982a23668b65f8a77152c88d9e4608c39f1330f1b",
+        "material": "6a4fccda8127cc631073e8f81f282bbbdb3b6932dd56c30e4ce31f33d20b14ce",
+        "model": "ac511c13e246fb2e59ec9a82c6abf70b8545196341a34c98c1a3f902e03f79d1"
+      },
+      "materials": [
+        {
+          "name": "main",
+          "carrier": "house_age1",
+          "textures": [
+            {
+              "slot": "albedoTex",
+              "role": "brick",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age1_main_albedoTex_brick.png",
+              "source_logical_path": "art/material_library/substances/structures/brick/11459454425654940808_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "af23976256daa2efbd18dfd38c9d74ed966de2b8f941042d374f875103e35361",
+              "sha256": "a15d54e66b8c040bb31cc02d568e3db2bbaad28fbce84e545ceaf5ae8a45379d"
+            },
+            {
+              "slot": "albedoTex2",
+              "role": "plaster",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age1_main_albedoTex2_plaster.png",
+              "source_logical_path": "art/material_library/substances/structures/plaster/14232683416031392544_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "bf166d30b681f4057409048b1aa889fa9e87d895a11e4f0641749fd18df96575",
+              "sha256": "810bb5edea741c2e0a652bb04974324a07c0a12607627c2d42b3a3f488656f47"
+            },
+            {
+              "slot": "albedoTex3",
+              "role": "plaster",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age1_main_albedoTex3_plaster.png",
+              "source_logical_path": "art/material_library/substances/structures/plaster/8227819099792458634_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "405e6647d4412a92f125f9a3412651d698f63f9ce5dc66ebfa10cb06592db3d9",
+              "sha256": "0cc1979264a85ab36948da1113b87593b9bcd75bc540a4dffcf00bab4be2f896"
+            },
+            {
+              "slot": "albedoTex6",
+              "role": "plaster",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age1_main_albedoTex6_plaster.png",
+              "source_logical_path": "art/material_library/substances/structures/plaster/1010901216075870242_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "11d9f1e0274af6161af7e7863d629bf7cc3335dbbc23550735fbd13aa16b8654",
+              "sha256": "d530b6141188c8cdd0af7bc33139072dcb980486ca5d5f3d12d2aa4be5d9eefc"
+            },
+            {
+              "slot": "albedoTex7",
+              "role": "plaster",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age1_main_albedoTex7_plaster.png",
+              "source_logical_path": "art/material_library/substances/structures/plaster/4611286749468971337_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "0530e3754e99a46c10ac6677e3389c19d4cca577c87498eb373a74bc668ccf17",
+              "sha256": "4954488abb81673e7ce778f5b5e8b1e187759a534cc5c1fd8dae1f595dbb37e4"
+            }
+          ],
+          "parameters": {
+            "highlightColor1": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor1": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor1": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor2": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor2": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor2": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor3": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor3": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor3": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor6": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor6": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor6": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor7": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor7": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor7": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ]
+          },
+          "team_slots_preserved": [
+            "albedoTex5"
+          ]
+        },
+        {
+          "name": "extra",
+          "carrier": "textures_age1_extra",
+          "textures": [
+            {
+              "slot": "albedoTex",
+              "role": "wood",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age1_extra_albedoTex_wood.png",
+              "source_logical_path": "art/material_library/substances/structures/wood/9156292843843193432_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "a48ef2ff41b803cd113c012fe471774afdc8eb523c34b9d5c66e0b1871435a42",
+              "sha256": "dcf22672810d6bbacd37648dcca527037b80bdf01a2c4bc0d68291cde1525dd1"
+            },
+            {
+              "slot": "albedoTex2",
+              "role": "trim",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age1_extra_albedoTex2_trim.png",
+              "source_logical_path": "art/material_library/substances/structures/trim/8134008071718363441_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "ea0e0541c8249d7c61ba749183bccecc43c453bc4db8b9c7a0d005d8a5a1c6ad",
+              "sha256": "14ccd478242c93f1f2ee4363354f793ab69b8cb08c6e475f3f596e387090de47"
+            },
+            {
+              "slot": "albedoTex3",
+              "role": "wood",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age1_extra_albedoTex3_wood.png",
+              "source_logical_path": "art/material_library/substances/structures/wood/13631000062908908676_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "3323b25a260779038594f2a0c4d54429f4875025db554f50e087596dcecbc8bf",
+              "sha256": "dd9b5ba02cde6184263d8c7443d28b348d8d3cf2c4f3dcd0dbc66d449c61c97b"
+            },
+            {
+              "slot": "albedoTex4",
+              "role": "fabric",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age1_extra_albedoTex4_fabric.png",
+              "source_logical_path": "art/material_library/substances/structures/fabric/11289004565301796455_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "73cf0f713bd7ed8d11a869dbe1b3e4ac9efc8d6254fa89828ef4d1cea73d6c08",
+              "sha256": "2c1194117c17ebc7ec44ecd84e7a6f9e7b55e8d8e595eaf7f650c5447f44a19d"
+            },
+            {
+              "slot": "albedoTex5",
+              "role": "fabric",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age1_extra_albedoTex5_fabric.png",
+              "source_logical_path": "art/material_library/substances/structures/fabric/2107249464346778169_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "105d453d1dd3b8bf86a3461c69c550d2f50f67fa8b84504bce195a17bdcfba11",
+              "sha256": "979b01418c2d50de549517670b129b2e96c29e90ead70e5f48f63d2bd7aadd76"
+            },
+            {
+              "slot": "albedoTex7",
+              "role": "shingle",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age1_extra_albedoTex7_shingle.png",
+              "source_logical_path": "art/material_library/substances/structures/shingle/5884453212658915330_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "96b30706f48bac852d9624f50340510c1ced0256f593cbcde8fdab4a533295d4",
+              "sha256": "66960779195c07a5d24928edfd5a1f4ade07af8170d37b181fb828957774e2d7"
+            }
+          ],
+          "parameters": {
+            "highlightColor1": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor1": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor1": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor2": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor2": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor2": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor3": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor3": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor3": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor4": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor4": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor4": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor5": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor5": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor5": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor7": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor7": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor7": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ]
+          },
+          "team_slots_preserved": []
+        }
+      ]
+    },
+    {
+      "age": 2,
+      "decode": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_2_2\\stock\\912c36fcff2cd53e5c1d\\decoded-static.json",
+      "source": "art/civilizations/abbasids/structures/house/abb_house_control_a_age02/abb_house_control_a_age02.rgm",
+      "source_hashes": {
+        "geometry": "a6eb16aead2f31a8b933050594bc97f8dab26c99e1ec0432942c95d64ca44b97",
+        "material": "add080b9bd07bee5a05c4713d5ca6178bf912225165cf2887df0601a22e0bfb4",
+        "model": "d679cba49badee176d919397373de926ef0376a665d2cd64c25a0b81d851b5f7"
+      },
+      "materials": [
+        {
+          "name": "extra",
+          "carrier": "textures_age2_extra",
+          "textures": [
+            {
+              "slot": "albedoTex2",
+              "role": "fabric",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age2_extra_albedoTex2_fabric.png",
+              "source_logical_path": "art/material_library/substances/structures/fabric/2107249464346778169_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "105d453d1dd3b8bf86a3461c69c550d2f50f67fa8b84504bce195a17bdcfba11",
+              "sha256": "979b01418c2d50de549517670b129b2e96c29e90ead70e5f48f63d2bd7aadd76"
+            },
+            {
+              "slot": "albedoTex4",
+              "role": "wood",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age2_extra_albedoTex4_wood.png",
+              "source_logical_path": "art/material_library/substances/structures/wood/9156292843843193432_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "a48ef2ff41b803cd113c012fe471774afdc8eb523c34b9d5c66e0b1871435a42",
+              "sha256": "7ed99207de2c7ea89807591ad62234bf7520e1822ea83eec48aea14ce66e75ac"
+            },
+            {
+              "slot": "albedoTex5",
+              "role": "wood",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age2_extra_albedoTex5_wood.png",
+              "source_logical_path": "art/material_library/substances/structures/wood/13631000062908908676_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "3323b25a260779038594f2a0c4d54429f4875025db554f50e087596dcecbc8bf",
+              "sha256": "cfcc44a05ce55d4f8922be15f389db3dd6c8058504e134d00f1c0401577dc2ca"
+            },
+            {
+              "slot": "albedoTex6",
+              "role": "fabric",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age2_extra_albedoTex6_fabric.png",
+              "source_logical_path": "art/material_library/substances/structures/fabric/14478961489184800143_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "92188c9dc1aa55ad367a6503fd1c6e99a69c207fda5f916f93a1e0474683b9af",
+              "sha256": "3914b11e15a0aa08b8e2dac2f1e5958cfda3cfc792e3c935cdfa91899724ffd6"
+            }
+          ],
+          "parameters": {
+            "highlightColor2": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor2": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor2": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor4": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor4": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor4": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor5": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor5": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor5": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor6": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor6": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor6": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ]
+          },
+          "team_slots_preserved": []
+        },
+        {
+          "name": "main",
+          "carrier": "house_age2",
+          "textures": [
+            {
+              "slot": "albedoTex",
+              "role": "brick",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age2_main_albedoTex_brick.png",
+              "source_logical_path": "art/material_library/substances/structures/brick/13949958509969240400_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "8a0c9db544c32f39596cf57dc0a80a09342f3ad0618c26cc64600b1d0ab02c75",
+              "sha256": "2ebf859faf5db83580314e8b65e4606abacfdccc0b76f8eeff556299dad887da"
+            },
+            {
+              "slot": "albedoTex2",
+              "role": "plaster",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age2_main_albedoTex2_plaster.png",
+              "source_logical_path": "art/material_library/substances/structures/plaster/14232683416031392544_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "bf166d30b681f4057409048b1aa889fa9e87d895a11e4f0641749fd18df96575",
+              "sha256": "e64086435f00dd85ea9fbcaa687642b11cc2e6e2bff729e7c3d768030236cec5"
+            },
+            {
+              "slot": "albedoTex3",
+              "role": "plaster",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age2_main_albedoTex3_plaster.png",
+              "source_logical_path": "art/material_library/substances/structures/plaster/7036283253164216073_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "81dec4e1da1a1f548ffcd981b797478ac5de0721e1ac3d1e38d5b019c6dc7b9f",
+              "sha256": "881e03b87c97b60afa995edd020a763b1b6ef7d55755785fd3a54bc4f9c60a7e"
+            },
+            {
+              "slot": "albedoTex5",
+              "role": "plaster",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age2_main_albedoTex5_plaster.png",
+              "source_logical_path": "art/material_library/substances/structures/plaster/4611286749468971337_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "0530e3754e99a46c10ac6677e3389c19d4cca577c87498eb373a74bc668ccf17",
+              "sha256": "41859c7b6f8254bd25a93ede8be48093c54e7f197e30a99b9bd43fa97e933e66"
+            },
+            {
+              "slot": "albedoTex6",
+              "role": "plaster",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age2_main_albedoTex6_plaster.png",
+              "source_logical_path": "art/material_library/substances/structures/plaster/4611286749468971337_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "0530e3754e99a46c10ac6677e3389c19d4cca577c87498eb373a74bc668ccf17",
+              "sha256": "41859c7b6f8254bd25a93ede8be48093c54e7f197e30a99b9bd43fa97e933e66"
+            }
+          ],
+          "parameters": {
+            "highlightColor1": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor1": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor1": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor2": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor2": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor2": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor3": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor3": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor3": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor5": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor5": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor5": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor6": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor6": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor6": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ]
+          },
+          "team_slots_preserved": [
+            "albedoTex7"
+          ]
+        }
+      ]
+    },
+    {
+      "age": 3,
+      "decode": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_2_2\\stock\\62148fda9389ec720a31\\decoded-static.json",
+      "source": "art/civilizations/abbasids/structures/house/abb_house_control_a_age03/abb_house_control_a_age03.rgm",
+      "source_hashes": {
+        "geometry": "293daa6e07a6ef471371f1943b8cff4dabad71502b0a4554559d8ed713427fce",
+        "material": "f0c4a38031cec1d9629ab5a9cdaf601d408ae303d06bf5e119ea838806778df6",
+        "model": "0f19d9921faf8969fc694098aa5b8fee35b131a176676b1cb0d17683c1f64398"
+      },
+      "materials": [
+        {
+          "name": "extra",
+          "carrier": "textures_age3_extra",
+          "textures": [
+            {
+              "slot": "albedoTex2",
+              "role": "fabric",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age3_extra_albedoTex2_fabric.png",
+              "source_logical_path": "art/material_library/substances/structures/fabric/2107249464346778169_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "105d453d1dd3b8bf86a3461c69c550d2f50f67fa8b84504bce195a17bdcfba11",
+              "sha256": "979b01418c2d50de549517670b129b2e96c29e90ead70e5f48f63d2bd7aadd76"
+            },
+            {
+              "slot": "albedoTex4",
+              "role": "wood",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age3_extra_albedoTex4_wood.png",
+              "source_logical_path": "art/material_library/substances/structures/wood/9156292843843193432_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "a48ef2ff41b803cd113c012fe471774afdc8eb523c34b9d5c66e0b1871435a42",
+              "sha256": "8804fc6cab83ad84dbadc8138514031d984a34ab6c3639ab06d18ac0340784c0"
+            },
+            {
+              "slot": "albedoTex5",
+              "role": "wood",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age3_extra_albedoTex5_wood.png",
+              "source_logical_path": "art/material_library/substances/structures/wood/13631000062908908676_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "3323b25a260779038594f2a0c4d54429f4875025db554f50e087596dcecbc8bf",
+              "sha256": "0b022a213bcf1398aa5ad48759ca595463fe41ac87a7c39cc29809bf0da485be"
+            },
+            {
+              "slot": "albedoTex6",
+              "role": "fabric",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age3_extra_albedoTex6_fabric.png",
+              "source_logical_path": "art/material_library/substances/structures/fabric/15546711593689640889_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "d34348a8c97e8a6ab4d0447d9a680add9825bcd4cfe93b927f62571663257ebf",
+              "sha256": "b781d751960903f4b9267669782c4dd764eea6acb16e8aa32155580adb47e138"
+            }
+          ],
+          "parameters": {
+            "highlightColor2": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor2": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor2": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor4": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor4": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor4": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor5": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor5": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor5": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor6": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor6": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor6": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ]
+          },
+          "team_slots_preserved": []
+        },
+        {
+          "name": "main",
+          "carrier": "house_age3",
+          "textures": [
+            {
+              "slot": "albedoTex",
+              "role": "brick",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age3_main_albedoTex_brick.png",
+              "source_logical_path": "art/material_library/substances/structures/brick/4003678925284438034_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "9acc65242dabea9cda095bca96aaa1d1f64be5ed9a55c37d755fcd681edb30f2",
+              "sha256": "b7af12c76175578cf302ab7fa8ca4766a924c64228e80bd16e75e2851be9a879"
+            },
+            {
+              "slot": "albedoTex2",
+              "role": "plaster",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age3_main_albedoTex2_plaster.png",
+              "source_logical_path": "art/material_library/substances/structures/plaster/14232683416031392544_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "bf166d30b681f4057409048b1aa889fa9e87d895a11e4f0641749fd18df96575",
+              "sha256": "470593f0ae6e0f5b2ca9964587eb246100a59e4b009ae0f7b481e306181626ca"
+            },
+            {
+              "slot": "albedoTex3",
+              "role": "plaster",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age3_main_albedoTex3_plaster.png",
+              "source_logical_path": "art/material_library/substances/structures/plaster/1010901216075870242_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "11d9f1e0274af6161af7e7863d629bf7cc3335dbbc23550735fbd13aa16b8654",
+              "sha256": "b5075bc1716ccb39816ef50dee1f376bd19aa148a1c9d22a616907051283f287"
+            },
+            {
+              "slot": "albedoTex4",
+              "role": "wood",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age3_main_albedoTex4_wood.png",
+              "source_logical_path": "art/material_library/substances/structures/wood/6693319547682084066_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "083b2163387ed64af0584eda5e68425266cc3eda8985b25e53c91d3ed074430c",
+              "sha256": "e4a1a2dc0b6d611e3b441de5dc26e5eb2c0764be44b82d7bfe365cb91dbe4f12"
+            },
+            {
+              "slot": "albedoTex5",
+              "role": "plaster",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age3_main_albedoTex5_plaster.png",
+              "source_logical_path": "art/material_library/substances/structures/plaster/4611286749468971337_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "0530e3754e99a46c10ac6677e3389c19d4cca577c87498eb373a74bc668ccf17",
+              "sha256": "76025056e508b3ba94fab4e6df52a9154d3dd2e0ae157ef1f3ee1e63ca8d69e9"
+            },
+            {
+              "slot": "albedoTex6",
+              "role": "plaster",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age3_main_albedoTex6_plaster.png",
+              "source_logical_path": "art/material_library/substances/structures/plaster/1010901216075870242_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "11d9f1e0274af6161af7e7863d629bf7cc3335dbbc23550735fbd13aa16b8654",
+              "sha256": "b5075bc1716ccb39816ef50dee1f376bd19aa148a1c9d22a616907051283f287"
+            }
+          ],
+          "parameters": {
+            "highlightColor1": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor1": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor1": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor2": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor2": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor2": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor3": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor3": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor3": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor4": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor4": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor4": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor5": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor5": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor5": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor6": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor6": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor6": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ]
+          },
+          "team_slots_preserved": [
+            "albedoTex7"
+          ]
+        }
+      ]
+    },
+    {
+      "age": 4,
+      "decode": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_2_2\\stock\\478a291b57116833cdc2\\decoded-static.json",
+      "source": "art/civilizations/abbasids/structures/house/abb_house_control_a_age04/abb_house_control_a_age04.rgm",
+      "source_hashes": {
+        "geometry": "25a1352a858084c2e7f9fc11204ee2b832a2cc9ecb7f54daae712c69ab317809",
+        "material": "a0513cce98e57bfd05b8d50dcdd8a041d8e0e6f4689b02ff59fe8d2784fc34d7",
+        "model": "e27bd4d7a68c8daf0b28812fc688cc2a61002aca47ac5cca5f961d920b6dc769"
+      },
+      "materials": [
+        {
+          "name": "main",
+          "carrier": "house_age4",
+          "textures": [
+            {
+              "slot": "albedoTex",
+              "role": "brick",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age4_main_albedoTex_brick.png",
+              "source_logical_path": "art/material_library/substances/structures/brick/16929000341646830847_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "ce6fbf0e54a999262d8c9cf701bf39366c793f0189912a79bf392971274c2533",
+              "sha256": "d050be25ee52d35231b67482958b7a8931d933772114b983d35c8f709184a424"
+            },
+            {
+              "slot": "albedoTex2",
+              "role": "plaster",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age4_main_albedoTex2_plaster.png",
+              "source_logical_path": "art/material_library/substances/structures/plaster/14232683416031392544_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "bf166d30b681f4057409048b1aa889fa9e87d895a11e4f0641749fd18df96575",
+              "sha256": "fb5e56814291005b5e3ac85667708c23a5d8c14e5010289b07a5d1845690a230"
+            },
+            {
+              "slot": "albedoTex3",
+              "role": "trim",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age4_main_albedoTex3_trim.png",
+              "source_logical_path": "art/material_library/substances/structures/trim/8134008071718363441_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "ea0e0541c8249d7c61ba749183bccecc43c453bc4db8b9c7a0d005d8a5a1c6ad",
+              "sha256": "b29f367e1123c24eb07bfa19b988e61ea9edbe667f9f3afef628de2c4cdd2ca3"
+            },
+            {
+              "slot": "albedoTex5",
+              "role": "wood",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age4_main_albedoTex5_wood.png",
+              "source_logical_path": "art/material_library/substances/structures/wood/14259662789339030955_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "6be1dac639f6b816267fa2985ae32b138109129a900bc2473594de8f1bbde507",
+              "sha256": "76d7953eae565f7506ceedcf2ddae7602613d0009207e0a8fa7b22a02cd88239"
+            },
+            {
+              "slot": "albedoTex6",
+              "role": "plaster",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age4_main_albedoTex6_plaster.png",
+              "source_logical_path": "art/material_library/substances/structures/plaster/4611286749468971337_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "0530e3754e99a46c10ac6677e3389c19d4cca577c87498eb373a74bc668ccf17",
+              "sha256": "dac1112618f3f2614d090c45aad0a4107bdbc513dc488724680b0c36723ce527"
+            }
+          ],
+          "parameters": {
+            "highlightColor1": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor1": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor1": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor2": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor2": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor2": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor3": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor3": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor3": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor5": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor5": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor5": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor6": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor6": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor6": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ]
+          },
+          "team_slots_preserved": [
+            "albedoTex7"
+          ]
+        },
+        {
+          "name": "roof",
+          "carrier": "textures_age4_roof",
+          "textures": [
+            {
+              "slot": "albedoTex",
+              "role": "wood",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age4_roof_albedoTex_wood.png",
+              "source_logical_path": "art/material_library/substances/structures/wood/14259662789339030955_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "6be1dac639f6b816267fa2985ae32b138109129a900bc2473594de8f1bbde507",
+              "sha256": "76d7953eae565f7506ceedcf2ddae7602613d0009207e0a8fa7b22a02cd88239"
+            },
+            {
+              "slot": "albedoTex2",
+              "role": "fabric",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age4_roof_albedoTex2_fabric.png",
+              "source_logical_path": "art/material_library/substances/structures/fabric/13365787479939437711_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "836243202398259a721f43b23fc4029e01363fdf729c40585ea15ce63460318c",
+              "sha256": "7b9e8e499181ab1331bc771df7e8c11b5bcfa314c987e2905823fdb4420e842b"
+            },
+            {
+              "slot": "albedoTex4",
+              "role": "wood",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age4_roof_albedoTex4_wood.png",
+              "source_logical_path": "art/material_library/substances/structures/wood/13631000062908908676_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "3323b25a260779038594f2a0c4d54429f4875025db554f50e087596dcecbc8bf",
+              "sha256": "3c404314f65e5a8f24663f9187a6df0cd4a0688d9e1740e207d5fe69fec44812"
+            },
+            {
+              "slot": "albedoTex6",
+              "role": "trim",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age4_roof_albedoTex6_trim.png",
+              "source_logical_path": "art/material_library/substances/structures/trim/8134008071718363441_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "ea0e0541c8249d7c61ba749183bccecc43c453bc4db8b9c7a0d005d8a5a1c6ad",
+              "sha256": "b29f367e1123c24eb07bfa19b988e61ea9edbe667f9f3afef628de2c4cdd2ca3"
+            },
+            {
+              "slot": "albedoTex7",
+              "role": "wood",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_2\\textures\\age4_roof_albedoTex7_wood.png",
+              "source_logical_path": "art/material_library/substances/structures/wood/6693319547682084066_packed.rrtex",
+              "width": 512,
+              "height": 512,
+              "source_sha256": "083b2163387ed64af0584eda5e68425266cc3eda8985b25e53c91d3ed074430c",
+              "sha256": "4bda0bf5d693d3665da54c85726cd12c35f09e295224f76300ed8ae0606f789d"
+            }
+          ],
+          "parameters": {
+            "highlightColor1": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor1": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor1": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor2": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor2": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor2": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor4": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor4": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor4": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor6": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor6": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor6": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor7": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor7": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor7": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ]
+          },
+          "team_slots_preserved": []
+        }
+      ]
+    }
+  ],
+  "geometry_policy": "stock topology and native buffers retained; uniform visual scaling through private house actor, mirrored in Blender",
+  "construction_policy": "retain stock Abbasid selectors, collection palette, damage and team masks; no generic static recook",
+  "native_acceptance": "pending user"
+}

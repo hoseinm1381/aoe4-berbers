@@ -1,0 +1,10 @@
+<instance version="4" description="Garrison model" template="attachments\attachment_lists">
+	<group name="attachment_lists">
+		<list name="attachment_lists">
+		</list>
+		<file name="parent_animator" value="art\scenario\tuareg\tuareg_agher_shield\tuareg_agher_shield" />
+		<file name="thumbnail" value="" />
+	</group>
+	<uniqueid name="pbgid" value="35925580" />
+	<instance_reference name="parent_pbg" value="" />
+</instance>

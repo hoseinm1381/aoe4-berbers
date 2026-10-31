@@ -1,0 +1,434 @@
+{
+  "age": 4,
+  "states": {
+    "straight_1m": [
+      "earth_seat",
+      "palm_split_post",
+      "front_lashing",
+      "back_lashing",
+      "lashing_side",
+      "neutral_owner_band",
+      "post_earth_socket",
+      "palm_split_post.001",
+      "restrained_geometric_carving",
+      "palm_split_post.002",
+      "palm_split_post.003",
+      "continuous_rear_tie",
+      "back_diagonal_brace"
+    ],
+    "straight_3m": [
+      "earth_seat.001",
+      "palm_split_post.004",
+      "front_lashing.001",
+      "back_lashing.001",
+      "lashing_side.001",
+      "neutral_owner_band.001",
+      "post_earth_socket.001",
+      "palm_split_post.005",
+      "restrained_geometric_carving.001",
+      "palm_split_post.006",
+      "palm_split_post.007",
+      "palm_split_post.008",
+      "palm_split_post.010",
+      "palm_split_post.011",
+      "palm_split_post.013",
+      "continuous_rear_tie.001",
+      "back_diagonal_brace.001"
+    ],
+    "straight_6m": [
+      "earth_seat.002",
+      "palm_split_post.009",
+      "front_lashing.002",
+      "back_lashing.002",
+      "lashing_side.002",
+      "neutral_owner_band.002",
+      "post_earth_socket.002",
+      "palm_split_post.012",
+      "restrained_geometric_carving.002",
+      "palm_split_post.014",
+      "palm_split_post.015",
+      "palm_split_post.016",
+      "palm_split_post.018",
+      "palm_split_post.019",
+      "palm_split_post.021",
+      "continuous_rear_tie.002",
+      "back_diagonal_brace.002"
+    ],
+    "gapfill_1m": [
+      "earth_seat.003",
+      "palm_split_post.017",
+      "front_lashing.003",
+      "back_lashing.003",
+      "lashing_side.003",
+      "neutral_owner_band.003",
+      "post_earth_socket.003",
+      "palm_split_post.020",
+      "restrained_geometric_carving.003",
+      "palm_split_post.022",
+      "palm_split_post.023",
+      "continuous_rear_tie.003",
+      "back_diagonal_brace.003"
+    ],
+    "gapfill_2m": [
+      "earth_seat.004",
+      "palm_split_post.024",
+      "front_lashing.004",
+      "back_lashing.004",
+      "lashing_side.004",
+      "neutral_owner_band.004",
+      "post_earth_socket.004",
+      "palm_split_post.025",
+      "restrained_geometric_carving.004",
+      "palm_split_post.026",
+      "palm_split_post.027",
+      "palm_split_post.028",
+      "palm_split_post.030",
+      "palm_split_post.031",
+      "continuous_rear_tie.004",
+      "back_diagonal_brace.004"
+    ],
+    "gapfill_3m": [
+      "earth_seat.005",
+      "palm_split_post.029",
+      "front_lashing.005",
+      "back_lashing.005",
+      "lashing_side.005",
+      "neutral_owner_band.005",
+      "post_earth_socket.005",
+      "palm_split_post.032",
+      "restrained_geometric_carving.005",
+      "palm_split_post.033",
+      "palm_split_post.034",
+      "palm_split_post.035",
+      "palm_split_post.037",
+      "palm_split_post.038",
+      "palm_split_post.040",
+      "continuous_rear_tie.005",
+      "back_diagonal_brace.005"
+    ],
+    "gapfill_4m": [
+      "earth_seat.006",
+      "palm_split_post.036",
+      "front_lashing.006",
+      "back_lashing.006",
+      "lashing_side.006",
+      "neutral_owner_band.006",
+      "post_earth_socket.006",
+      "palm_split_post.039",
+      "restrained_geometric_carving.006",
+      "palm_split_post.041",
+      "palm_split_post.042",
+      "palm_split_post.043",
+      "palm_split_post.045",
+      "palm_split_post.046",
+      "palm_split_post.048",
+      "continuous_rear_tie.006",
+      "back_diagonal_brace.006"
+    ],
+    "slope_up_6m": [
+      "earth_seat.007",
+      "palm_split_post.044",
+      "front_lashing.007",
+      "back_lashing.007",
+      "lashing_side.007",
+      "neutral_owner_band.007",
+      "post_earth_socket.007",
+      "palm_split_post.047",
+      "restrained_geometric_carving.007",
+      "palm_split_post.049",
+      "palm_split_post.050",
+      "palm_split_post.051",
+      "palm_split_post.053",
+      "palm_split_post.054",
+      "palm_split_post.056",
+      "continuous_rear_tie.007",
+      "back_diagonal_brace.007"
+    ],
+    "slope_down_6m": [
+      "earth_seat.008",
+      "palm_split_post.052",
+      "front_lashing.008",
+      "back_lashing.008",
+      "lashing_side.008",
+      "neutral_owner_band.008",
+      "post_earth_socket.008",
+      "palm_split_post.055",
+      "restrained_geometric_carving.008",
+      "palm_split_post.057",
+      "palm_split_post.058",
+      "palm_split_post.059",
+      "palm_split_post.061",
+      "palm_split_post.062",
+      "palm_split_post.064",
+      "continuous_rear_tie.008",
+      "back_diagonal_brace.008"
+    ],
+    "corner_90": [
+      "earth_seat.009",
+      "palm_split_post.060",
+      "front_lashing.009",
+      "back_lashing.009",
+      "lashing_side.009",
+      "neutral_owner_band.009",
+      "post_earth_socket.009",
+      "palm_split_post.063",
+      "restrained_geometric_carving.009",
+      "palm_split_post.065",
+      "palm_split_post.066",
+      "palm_split_post.067",
+      "palm_split_post.069",
+      "palm_split_post.070",
+      "palm_split_post.072",
+      "continuous_rear_tie.009",
+      "back_diagonal_brace.009"
+    ],
+    "end_socket": [
+      "earth_seat.010",
+      "palm_split_post.068",
+      "front_lashing.010",
+      "back_lashing.010",
+      "lashing_side.010",
+      "neutral_owner_band.010",
+      "post_earth_socket.010",
+      "palm_split_post.071",
+      "restrained_geometric_carving.010",
+      "palm_split_post.073",
+      "palm_split_post.074",
+      "continuous_rear_tie.010",
+      "back_diagonal_brace.010"
+    ]
+  },
+  "joins": [
+    {
+      "state": "straight_1m",
+      "length": 1,
+      "terrain_rise": 0,
+      "sockets": [
+        [
+          -0.5,
+          0,
+          0.0
+        ],
+        [
+          0.5,
+          0,
+          0.0
+        ]
+      ],
+      "connector_top_datum": 4.578125,
+      "pitch_interface_error": 0,
+      "ground_rule": "local affine terrain z(x), ground is0 at low end",
+      "native_terrain_conform": "pending"
+    },
+    {
+      "state": "straight_3m",
+      "length": 3,
+      "terrain_rise": 0,
+      "sockets": [
+        [
+          -1.5,
+          0,
+          0.0
+        ],
+        [
+          1.5,
+          0,
+          0.0
+        ]
+      ],
+      "connector_top_datum": 4.578125,
+      "pitch_interface_error": 0,
+      "ground_rule": "local affine terrain z(x), ground is0 at low end",
+      "native_terrain_conform": "pending"
+    },
+    {
+      "state": "straight_6m",
+      "length": 6,
+      "terrain_rise": 0,
+      "sockets": [
+        [
+          -3.0,
+          0,
+          0.0
+        ],
+        [
+          3.0,
+          0,
+          0.0
+        ]
+      ],
+      "connector_top_datum": 4.578125,
+      "pitch_interface_error": 0,
+      "ground_rule": "local affine terrain z(x), ground is0 at low end",
+      "native_terrain_conform": "pending"
+    },
+    {
+      "state": "gapfill_1m",
+      "length": 1,
+      "terrain_rise": 0,
+      "sockets": [
+        [
+          -0.5,
+          0,
+          0.0
+        ],
+        [
+          0.5,
+          0,
+          0.0
+        ]
+      ],
+      "connector_top_datum": 4.578125,
+      "pitch_interface_error": 0,
+      "ground_rule": "local affine terrain z(x), ground is0 at low end",
+      "native_terrain_conform": "pending"
+    },
+    {
+      "state": "gapfill_2m",
+      "length": 2,
+      "terrain_rise": 0,
+      "sockets": [
+        [
+          -1.0,
+          0,
+          0.0
+        ],
+        [
+          1.0,
+          0,
+          0.0
+        ]
+      ],
+      "connector_top_datum": 4.578125,
+      "pitch_interface_error": 0,
+      "ground_rule": "local affine terrain z(x), ground is0 at low end",
+      "native_terrain_conform": "pending"
+    },
+    {
+      "state": "gapfill_3m",
+      "length": 3,
+      "terrain_rise": 0,
+      "sockets": [
+        [
+          -1.5,
+          0,
+          0.0
+        ],
+        [
+          1.5,
+          0,
+          0.0
+        ]
+      ],
+      "connector_top_datum": 4.578125,
+      "pitch_interface_error": 0,
+      "ground_rule": "local affine terrain z(x), ground is0 at low end",
+      "native_terrain_conform": "pending"
+    },
+    {
+      "state": "gapfill_4m",
+      "length": 4,
+      "terrain_rise": 0,
+      "sockets": [
+        [
+          -2.0,
+          0,
+          0.0
+        ],
+        [
+          2.0,
+          0,
+          0.0
+        ]
+      ],
+      "connector_top_datum": 4.578125,
+      "pitch_interface_error": 0,
+      "ground_rule": "local affine terrain z(x), ground is0 at low end",
+      "native_terrain_conform": "pending"
+    },
+    {
+      "state": "slope_up_6m",
+      "length": 6,
+      "terrain_rise": 1,
+      "sockets": [
+        [
+          -3.0,
+          0,
+          0.0
+        ],
+        [
+          3.0,
+          0,
+          1.0
+        ]
+      ],
+      "connector_top_datum": 4.578125,
+      "pitch_interface_error": 0,
+      "ground_rule": "local affine terrain z(x), ground is0 at low end",
+      "native_terrain_conform": "pending"
+    },
+    {
+      "state": "slope_down_6m",
+      "length": 6,
+      "terrain_rise": -1,
+      "sockets": [
+        [
+          -3.0,
+          0,
+          1.0
+        ],
+        [
+          3.0,
+          0,
+          0.0
+        ]
+      ],
+      "connector_top_datum": 4.578125,
+      "pitch_interface_error": 0,
+      "ground_rule": "local affine terrain z(x), ground is0 at low end",
+      "native_terrain_conform": "pending"
+    },
+    {
+      "state": "corner_90",
+      "length": 3,
+      "terrain_rise": 0,
+      "sockets": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          0
+        ]
+      ],
+      "connector_top_datum": 4.578125,
+      "pitch_interface_error": 0,
+      "ground_rule": "local affine terrain z(x), ground is0 at low end",
+      "native_terrain_conform": "pending"
+    },
+    {
+      "state": "end_socket",
+      "length": 1,
+      "terrain_rise": 0,
+      "sockets": [
+        [
+          -0.5,
+          0,
+          0.0
+        ],
+        [
+          0.5,
+          0,
+          0.0
+        ]
+      ],
+      "connector_top_datum": 4.578125,
+      "pitch_interface_error": 0,
+      "ground_rule": "local affine terrain z(x), ground is0 at low end",
+      "native_terrain_conform": "pending"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "schema": "garrison.custom-static-authoring/v1",
+  "request": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_leaf_spear\\.garrison\\requests\\20261011T140101Z-6d8620.json",
+  "request_sha256": "3a0b11ddc35c5589d548c0347a5c5dbd5ee8fbd4c97b58d4e276523e8ebc68b0",
+  "manifest": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_leaf_spear\\workspace.json",
+  "manifest_sha256": "d9ea91073549b9b3b661a9cfbbce5ca60de6be10a7afe18288faaf7415df5e44",
+  "asset_root": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_leaf_spear",
+  "source_root": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_leaf_spear\\source",
+  "generated_root": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_leaf_spear\\generated",
+  "build_id": "20261011T140101Z-6d8620",
+  "mesh_policy": "all recursive mesh objects in one Blender collection",
+  "material_policy": "non-destructive adopted Principled materials; multiple materials build as aligned one-material static parts using the confirmed RTC pattern",
+  "material_count": 1,
+  "runtime_build_supported": true,
+  "runtime_build_method": "single_static_asset",
+  "validation": {
+    "schema": "garrison.workspace-operation/v1",
+    "operation": "validate",
+    "workspace_manifest": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_leaf_spear\\workspace.json",
+    "workspace_manifest_sha256": "d9ea91073549b9b3b661a9cfbbce5ca60de6be10a7afe18288faaf7415df5e44",
+    "workspace_id": "tuareg-tuareg_leaf_spear",
+    "asset": {
+      "id": "tuareg_leaf_spear",
+      "archetype": "static_visual_prop",
+      "logical_base": "art\\scenario\\tuareg\\tuareg_leaf_spear\\tuareg_leaf_spear",
+      "catalog_folder": "Tuareg original equipment",
+      "material_count": 1
+    },
+    "inputs": {
+      "manifest": {
+        "exists": true,
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_leaf_spear\\workspace.json",
+        "size": 2244,
+        "sha256": "d9ea91073549b9b3b661a9cfbbce5ca60de6be10a7afe18288faaf7415df5e44"
+      },
+      "fbx": {
+        "exists": true,
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_leaf_spear\\source\\model.fbx",
+        "size": 24268,
+        "sha256": "07bd17720b6e8249523e04380aa6811dfc0d8b7d7382eb4e89a4ee9003452c14"
+      },
+      "blender_executable": {
+        "exists": true,
+        "path": "E:\\Blender5.2\\blender.exe",
+        "size": 113022936,
+        "sha256": "f141a3c5754500e6f84361099a4cd53f0bb7662b6a0d2cfaaa8fbb63e92234a0"
+      },
+      "material.tuareg_age2_atlas_002.albedo": {
+        "exists": true,
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_leaf_spear\\source\\materials\\tuareg_age2_atlas_002\\albedo.png",
+        "size": 362461,
+        "sha256": "18fbb75a866376f65dcd12778e239848c71e1b15fbc45514529eb86c733bbccc"
+      },
+      "material.tuareg_age2_atlas_002.normal": {
+        "exists": true,
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_leaf_spear\\source\\materials\\tuareg_age2_atlas_002\\normal.png",
+        "size": 5805,
+        "sha256": "02b88dbad749a9824293f6a05b6d46724b04db2c9614838405da13a7fdb41587"
+      },
+      "material.tuareg_age2_atlas_002.roughness": {
+        "exists": true,
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_leaf_spear\\source\\materials\\tuareg_age2_atlas_002\\roughness.png",
+        "size": 6006,
+        "sha256": "9dffcff9965fed2f441541dba82cfb143d6a2c61a4297e5f4b1f43399db70b86"
+      },
+      "material.tuareg_age2_atlas_002.metalness": {
+        "exists": true,
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_leaf_spear\\source\\materials\\tuareg_age2_atlas_002\\metalness.png",
+        "size": 6101,
+        "sha256": "0a8c823d8fe3677df86c10b2aaa6680e21785a7f91b259f15ebcffd357f90776"
+      },
+      "cook_editor": {
+        "exists": true,
+        "path": "C:\\Users\\RS\\AppData\\Local\\Garrison\\Kit\\tools\\essence-object-editor\\EssenceEditor.exe",
+        "size": 10231608,
+        "sha256": "2ff1278eed5b1a6e163e6d78e04ad768dc38e4c198f6354069c99bed9e8f84e8"
+      }
+    },
+    "gates": [
+      {
+        "id": "manifest_valid",
+        "status": "passed",
+        "detail": "schema garrison.blender-workspace/v2"
+      },
+      {
+        "id": "archetype_supported",
+        "status": "passed",
+        "detail": "static_visual_prop"
+      },
+      {
+        "id": "source_files_present",
+        "status": "passed",
+        "detail": "required source files and Blender executable exist"
+      },
+      {
+        "id": "template_project_present",
+        "status": "passed",
+        "detail": "template project directory: C:\\Users\\RS\\AppData\\Local\\Garrison\\Kit\\template-project"
+      },
+      {
+        "id": "output_project_is_new",
+        "status": "passed",
+        "detail": "output must not already exist: C:\\Users\\RS\\AppData\\Local\\Temp\\garrison-builds\\20261011T140101Z-6d8620\\project"
+      },
+      {
+        "id": "cook_ready",
+        "status": "passed",
+        "detail": "cook editor exists and run root is new"
+      }
+    ],
+    "first_failed_gate": null,
+    "success": true
+  },
+  "success": true
+}

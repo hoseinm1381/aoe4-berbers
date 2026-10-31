@@ -1,0 +1,48 @@
+{
+  "age": 2,
+  "states": {
+    "arrow": [
+      "arrow_slot_timber_insert",
+      "arrow_slot_timber_insert.001",
+      "arrow_slot_timber_insert.002"
+    ],
+    "springald": [],
+    "cannon": []
+  },
+  "anchors": [
+    {
+      "name": "wall_west_socket",
+      "location": [
+        -3.2,
+        0,
+        7
+      ]
+    },
+    {
+      "name": "wall_east_socket",
+      "location": [
+        3.2,
+        0,
+        7
+      ]
+    },
+    {
+      "name": "mkr_stair_impass",
+      "location": [
+        0,
+        2.1,
+        7
+      ]
+    },
+    {
+      "name": "artillery_mount",
+      "location": [
+        0,
+        -3.5,
+        10.5
+      ]
+    }
+  ],
+  "policy": "mutually exclusive emplacement collections; arrow source default",
+  "native_availability": "wall tower standard_upgrades empty; alternatives are source inventory, NOT proven wall-tower progression"
+}

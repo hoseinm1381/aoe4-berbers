@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materialSet>
+	<material name="main" type="shader" source="object">
+		<param name="g_emissiveFactor" type="float" value="1"/>
+		<param name="albedoTexture" type="tex2D" value="art\scenario\tuareg\tuareg_agher_shield\tuareg_agher_shield_albedo.png"/>
+		<param name="normalMap" type="tex2D" value="art\scenario\tuareg\tuareg_agher_shield\tuareg_agher_shield_normal.png"/>
+		<param name="metalTex" type="tex2D" value="art\scenario\tuareg\tuareg_agher_shield\tuareg_agher_shield_metalness.png"/>
+		<param name="roughnessTex" type="tex2D" value="art\scenario\tuareg\tuareg_agher_shield\tuareg_agher_shield_roughness.png"/>
+	</material>
+</materialSet>

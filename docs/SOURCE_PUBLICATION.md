@@ -1,3 +1,15 @@
+# Current source upload authorization - 2026-11-01
+
+The owner requested uploading all four standalone civilization sources now,
+including current editable masters and native rebuild inputs. Known minor issues
+are deferred; native acceptance is not claimed by this source publication.
+Commit and push this repository's current main using its existing GitHub origin.
+Earlier scheduled/no-push notices below retain their historical scopes. This
+authorizes source publication only: player ZIPs and rollback archives stay local;
+no new tag, GitHub Release, installation or further gameplay/art repair is included.
+
+---
+
 # 0.1.2 source publication
 
 The owner requested a one-time GitHub source upload for 02:15 AM on

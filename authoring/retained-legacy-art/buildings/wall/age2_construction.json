@@ -1,0 +1,1268 @@
+{
+  "age": 2,
+  "stages": [
+    0,
+    40,
+    60,
+    80,
+    100
+  ],
+  "parts": [
+    {
+      "object": "straight_1m_battered_stone_foot",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_1m_rammed_curtain_lower",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_1m_rammed_curtain_upper",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_1m_walk_deck",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_1m_parapet",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_1m_merlon",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_1m_owner_painted_band",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "straight_1m_parapet.001",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_1m_merlon.001",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_1m_owner_painted_band.001",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "straight_3m_battered_stone_foot",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_3m_rammed_curtain_lower",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_3m_rammed_curtain_upper",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_3m_walk_deck",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_3m_parapet",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_3m_merlon",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_3m_merlon.001",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_3m_merlon.002",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_3m_owner_painted_band",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "straight_3m_parapet.001",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_3m_merlon.003",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_3m_merlon.004",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_3m_merlon.005",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_3m_owner_painted_band.001",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "straight_6m_battered_stone_foot",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_6m_rammed_curtain_lower",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_6m_rammed_curtain_upper",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_6m_walk_deck",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_6m_parapet",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_6m_merlon",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_6m_merlon.001",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_6m_merlon.002",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_6m_merlon.003",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_6m_merlon.004",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_6m_merlon.005",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_6m_owner_painted_band",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "straight_6m_parapet.001",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_6m_merlon.006",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_6m_merlon.007",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_6m_merlon.008",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_6m_merlon.009",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_6m_merlon.010",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_6m_merlon.011",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "straight_6m_owner_painted_band.001",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "gap_1m_battered_stone_foot",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_1m_rammed_curtain_lower",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_1m_rammed_curtain_upper",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_1m_walk_deck",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_1m_parapet",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_1m_merlon",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_1m_owner_painted_band",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "gap_1m_parapet.001",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_1m_merlon.001",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_1m_owner_painted_band.001",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "gap_2m_battered_stone_foot",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_2m_rammed_curtain_lower",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_2m_rammed_curtain_upper",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_2m_walk_deck",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_2m_parapet",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_2m_merlon",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_2m_merlon.001",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_2m_owner_painted_band",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "gap_2m_parapet.001",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_2m_merlon.002",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_2m_merlon.003",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_2m_owner_painted_band.001",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "gap_3m_battered_stone_foot",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_3m_rammed_curtain_lower",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_3m_rammed_curtain_upper",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_3m_walk_deck",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_3m_parapet",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_3m_merlon",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_3m_merlon.001",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_3m_merlon.002",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_3m_owner_painted_band",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "gap_3m_parapet.001",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_3m_merlon.003",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_3m_merlon.004",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_3m_merlon.005",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_3m_owner_painted_band.001",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "gap_4m_battered_stone_foot",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_4m_rammed_curtain_lower",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_4m_rammed_curtain_upper",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_4m_walk_deck",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_4m_parapet",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_4m_merlon",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_4m_merlon.001",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_4m_merlon.002",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_4m_merlon.003",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_4m_owner_painted_band",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "gap_4m_parapet.001",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_4m_merlon.004",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_4m_merlon.005",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_4m_merlon.006",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_4m_merlon.007",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "gap_4m_owner_painted_band.001",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "slope_up_6m_battered_stone_foot",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_up_6m_rammed_curtain_lower",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_up_6m_rammed_curtain_upper",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_up_6m_walk_deck",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_up_6m_parapet",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_up_6m_merlon",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_up_6m_merlon.001",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_up_6m_merlon.002",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_up_6m_merlon.003",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_up_6m_merlon.004",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_up_6m_merlon.005",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_up_6m_owner_painted_band",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "slope_up_6m_parapet.001",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_up_6m_merlon.006",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_up_6m_merlon.007",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_up_6m_merlon.008",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_up_6m_merlon.009",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_up_6m_merlon.010",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_up_6m_merlon.011",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_up_6m_owner_painted_band.001",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "slope_down_6m_battered_stone_foot",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_down_6m_rammed_curtain_lower",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_down_6m_rammed_curtain_upper",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_down_6m_walk_deck",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_down_6m_parapet",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_down_6m_merlon",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_down_6m_merlon.001",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_down_6m_merlon.002",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_down_6m_merlon.003",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_down_6m_merlon.004",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_down_6m_merlon.005",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_down_6m_owner_painted_band",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "slope_down_6m_parapet.001",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_down_6m_merlon.006",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_down_6m_merlon.007",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_down_6m_merlon.008",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_down_6m_merlon.009",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_down_6m_merlon.010",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_down_6m_merlon.011",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "slope_down_6m_owner_painted_band.001",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "end_6m_battered_stone_foot",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_6m_rammed_curtain_lower",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_6m_rammed_curtain_upper",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_6m_walk_deck",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_6m_parapet",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_6m_merlon",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_6m_merlon.001",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_6m_merlon.002",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_6m_merlon.003",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_6m_merlon.004",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_6m_merlon.005",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_6m_owner_painted_band",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "end_6m_parapet.001",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_6m_merlon.006",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_6m_merlon.007",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_6m_merlon.008",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_6m_merlon.009",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_6m_merlon.010",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_6m_merlon.011",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_6m_owner_painted_band.001",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "end_6m_terminal_parapet",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "damaged_6m_battered_stone_foot",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "damaged_6m_rammed_curtain_lower",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "damaged_6m_rammed_curtain_upper",
+      "first_stage": 60,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "damaged_6m_walk_deck",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "damaged_6m_parapet",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "damaged_6m_merlon",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "damaged_6m_merlon.001",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "damaged_6m_merlon.002",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "damaged_6m_owner_painted_band",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "damaged_6m_parapet.001",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "damaged_6m_merlon.003",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "damaged_6m_merlon.004",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "damaged_6m_merlon.005",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "damaged_6m_owner_painted_band.001",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "corner_foot",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_curtain",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_walk",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_outer_miter_guard",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_inner_miter_guard",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_x_merlon",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_x_merlon.001",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_x_merlon.002",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_x_merlon.003",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_x_merlon.004",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_x_merlon.005",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_x_merlon.006",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_x_merlon.007",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_x_merlon.008",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_x_merlon.009",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_x_merlon.010",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_x_merlon.011",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_y_merlon",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_y_merlon.001",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_y_merlon.002",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_y_merlon.003",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_y_merlon.004",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_y_merlon.005",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_y_merlon.006",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_y_merlon.007",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_y_merlon.008",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_y_merlon.009",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_y_merlon.010",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_owner_strip_x",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "corner_owner_strip_y",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "destroyed_foot",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "fallen_earth_blocks",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "fallen_earth_blocks.001",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "fallen_earth_blocks.002",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "fallen_earth_blocks.003",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "fallen_earth_blocks.004",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "fallen_earth_blocks.005",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "fallen_earth_blocks.006",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    }
+  ],
+  "cumulative": true,
+  "garrison_recipe_exported": false
+}

@@ -1,0 +1,48 @@
+{
+  "default": "open frame30",
+  "gate_states": [
+    {
+      "object": "gateway_left_leaf",
+      "hinge_design": [
+        -0.85,
+        -3.42,
+        1.22
+      ],
+      "closed_rotation_z": 0,
+      "open_rotation_z": 1.5707963267948966,
+      "action": "GrandKeep_left_gate_closed_to_open",
+      "frames": [
+        1,
+        30
+      ],
+      "native_playback": "unqualified",
+      "hinge_source": [
+        -0.68,
+        -2.736,
+        0.976
+      ]
+    },
+    {
+      "object": "gateway_right_leaf",
+      "hinge_design": [
+        0.85,
+        -3.42,
+        1.22
+      ],
+      "closed_rotation_z": 0,
+      "open_rotation_z": -1.5707963267948966,
+      "action": "GrandKeep_right_gate_closed_to_open",
+      "frames": [
+        1,
+        30
+      ],
+      "native_playback": "unqualified",
+      "hinge_source": [
+        0.68,
+        -2.736,
+        0.976
+      ]
+    }
+  ],
+  "walk_surfaces": "source mesh faces only; native surfaces/anchors pending"
+}

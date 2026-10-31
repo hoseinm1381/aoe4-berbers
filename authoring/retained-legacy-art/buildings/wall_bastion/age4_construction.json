@@ -1,0 +1,3842 @@
+{
+  "age": 4,
+  "stages": [
+    0,
+    40,
+    60,
+    80,
+    100
+  ],
+  "cumulative": true,
+  "objects": [
+    {
+      "object": "default_stone_foot",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_battered_lower",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_battered_upper",
+      "first_stage": 60,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_continuous_walk_floor",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_guard_0_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_merlon_0_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_lime_cap_0_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_merlon_0_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_lime_cap_0_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_merlon_0_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_lime_cap_0_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_merlon_0_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_lime_cap_0_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_owner_band_0_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "default_guard_1_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_merlon_1_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_lime_cap_1_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_owner_band_1_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "default_guard_2_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_merlon_2_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_lime_cap_2_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_merlon_2_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_lime_cap_2_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_merlon_2_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_lime_cap_2_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_merlon_2_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_lime_cap_2_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_owner_band_2_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "default_guard_3_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_merlon_3_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_lime_cap_3_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_owner_band_3_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "default_guard_4_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_merlon_4_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_lime_cap_4_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_merlon_4_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_lime_cap_4_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_merlon_4_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_lime_cap_4_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_merlon_4_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_lime_cap_4_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_owner_band_4_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "default_guard_5_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_merlon_5_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_lime_cap_5_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_owner_band_5_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "default_guard_6_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_merlon_6_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_lime_cap_6_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_merlon_6_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_lime_cap_6_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_merlon_6_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_lime_cap_6_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_merlon_6_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_lime_cap_6_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_owner_band_6_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "default_guard_7_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_merlon_7_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_lime_cap_7_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_owner_band_7_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "default_foundation_bond_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_foundation_bond_1",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_foundation_bond_2",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_foundation_bond_3",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_foundation_bond_4",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_foundation_bond_5",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_foundation_bond_6",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_foundation_bond_7",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_lozenge",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_lozenge.001",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_lozenge.002",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_lozenge.003",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_dressed_course_1.45_0",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_dressed_course_1.45_1",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_dressed_course_1.45_2",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_dressed_course_1.45_3",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_dressed_course_1.45_4",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_dressed_course_1.45_5",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_dressed_course_1.45_6",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_dressed_course_1.45_7",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_dressed_course_2.45_0",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_dressed_course_2.45_1",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_dressed_course_2.45_2",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_dressed_course_2.45_3",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_dressed_course_2.45_4",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_dressed_course_2.45_5",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_dressed_course_2.45_6",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_dressed_course_2.45_7",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_dressed_course_4.1_0",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_dressed_course_4.1_1",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_dressed_course_4.1_2",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_dressed_course_4.1_3",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_dressed_course_4.1_4",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_dressed_course_4.1_5",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_dressed_course_4.1_6",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "default_dressed_course_4.1_7",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_stone_foot",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_battered_lower",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_battered_upper",
+      "first_stage": 60,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_continuous_walk_floor",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_guard_0_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_merlon_0_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_lime_cap_0_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_merlon_0_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_lime_cap_0_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_merlon_0_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_lime_cap_0_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_merlon_0_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_lime_cap_0_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_owner_band_0_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "end_guard_1_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_merlon_1_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_lime_cap_1_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_owner_band_1_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "end_guard_2_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_merlon_2_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_lime_cap_2_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_merlon_2_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_lime_cap_2_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_merlon_2_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_lime_cap_2_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_merlon_2_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_lime_cap_2_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_owner_band_2_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "end_guard_3_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_merlon_3_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_lime_cap_3_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_owner_band_3_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "end_guard_4_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_merlon_4_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_lime_cap_4_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_owner_band_4_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "end_guard_4_1",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_merlon_4_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_lime_cap_4_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_owner_band_4_1",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "end_guard_5_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_merlon_5_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_lime_cap_5_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_owner_band_5_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "end_guard_6_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_merlon_6_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_lime_cap_6_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_merlon_6_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_lime_cap_6_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_merlon_6_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_lime_cap_6_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_merlon_6_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_lime_cap_6_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_owner_band_6_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "end_guard_7_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_merlon_7_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_lime_cap_7_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_owner_band_7_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "end_foundation_bond_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_foundation_bond_1",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_foundation_bond_2",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_foundation_bond_3",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_foundation_bond_4",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_foundation_bond_5",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_foundation_bond_6",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_foundation_bond_7",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_lozenge",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_lozenge.001",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_lozenge.002",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_lozenge.003",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_dressed_course_1.45_0",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_dressed_course_1.45_1",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_dressed_course_1.45_2",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_dressed_course_1.45_3",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_dressed_course_1.45_4",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_dressed_course_1.45_5",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_dressed_course_1.45_6",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_dressed_course_1.45_7",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_dressed_course_2.45_0",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_dressed_course_2.45_1",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_dressed_course_2.45_2",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_dressed_course_2.45_3",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_dressed_course_2.45_4",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_dressed_course_2.45_5",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_dressed_course_2.45_6",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_dressed_course_2.45_7",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_dressed_course_4.1_0",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_dressed_course_4.1_1",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_dressed_course_4.1_2",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_dressed_course_4.1_3",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_dressed_course_4.1_4",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_dressed_course_4.1_5",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_dressed_course_4.1_6",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "end_dressed_course_4.1_7",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_stone_foot",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_battered_lower",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_battered_upper",
+      "first_stage": 60,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_continuous_walk_floor",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_guard_0_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_merlon_0_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_lime_cap_0_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_merlon_0_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_lime_cap_0_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_merlon_0_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_lime_cap_0_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_merlon_0_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_lime_cap_0_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_owner_band_0_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "corner_guard_1_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_merlon_1_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_lime_cap_1_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_owner_band_1_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "corner_guard_2_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_merlon_2_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_lime_cap_2_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_owner_band_2_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "corner_guard_2_1",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_merlon_2_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_lime_cap_2_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_owner_band_2_1",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "corner_guard_3_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_merlon_3_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_lime_cap_3_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_owner_band_3_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "corner_guard_4_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_merlon_4_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_lime_cap_4_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_owner_band_4_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "corner_guard_4_1",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_merlon_4_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_lime_cap_4_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_owner_band_4_1",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "corner_guard_5_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_merlon_5_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_lime_cap_5_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_owner_band_5_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "corner_guard_6_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_merlon_6_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_lime_cap_6_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_merlon_6_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_lime_cap_6_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_merlon_6_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_lime_cap_6_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_merlon_6_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_lime_cap_6_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_owner_band_6_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "corner_guard_7_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_merlon_7_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_lime_cap_7_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_owner_band_7_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "corner_foundation_bond_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_foundation_bond_1",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_foundation_bond_2",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_foundation_bond_3",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_foundation_bond_4",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_foundation_bond_5",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_foundation_bond_6",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_foundation_bond_7",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_lozenge",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_lozenge.001",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_lozenge.002",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_lozenge.003",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_dressed_course_1.45_0",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_dressed_course_1.45_1",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_dressed_course_1.45_2",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_dressed_course_1.45_3",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_dressed_course_1.45_4",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_dressed_course_1.45_5",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_dressed_course_1.45_6",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_dressed_course_1.45_7",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_dressed_course_2.45_0",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_dressed_course_2.45_1",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_dressed_course_2.45_2",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_dressed_course_2.45_3",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_dressed_course_2.45_4",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_dressed_course_2.45_5",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_dressed_course_2.45_6",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_dressed_course_2.45_7",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_dressed_course_4.1_0",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_dressed_course_4.1_1",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_dressed_course_4.1_2",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_dressed_course_4.1_3",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_dressed_course_4.1_4",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_dressed_course_4.1_5",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_dressed_course_4.1_6",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_dressed_course_4.1_7",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_stone_foot",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_battered_lower",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_battered_upper",
+      "first_stage": 60,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_continuous_walk_floor",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_guard_0_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_merlon_0_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_lime_cap_0_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_owner_band_0_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "thru_guard_0_1",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_merlon_0_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_lime_cap_0_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_owner_band_0_1",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "thru_guard_1_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_merlon_1_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_lime_cap_1_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_owner_band_1_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "thru_guard_2_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_merlon_2_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_lime_cap_2_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_merlon_2_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_lime_cap_2_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_merlon_2_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_lime_cap_2_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_merlon_2_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_lime_cap_2_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_owner_band_2_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "thru_guard_3_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_merlon_3_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_lime_cap_3_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_owner_band_3_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "thru_guard_4_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_merlon_4_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_lime_cap_4_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_owner_band_4_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "thru_guard_4_1",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_merlon_4_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_lime_cap_4_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_owner_band_4_1",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "thru_guard_5_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_merlon_5_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_lime_cap_5_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_owner_band_5_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "thru_guard_6_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_merlon_6_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_lime_cap_6_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_merlon_6_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_lime_cap_6_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_merlon_6_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_lime_cap_6_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_merlon_6_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_lime_cap_6_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_owner_band_6_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "thru_guard_7_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_merlon_7_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_lime_cap_7_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_owner_band_7_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "thru_foundation_bond_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_foundation_bond_1",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_foundation_bond_2",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_foundation_bond_3",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_foundation_bond_4",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_foundation_bond_5",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_foundation_bond_6",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_foundation_bond_7",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_lozenge",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_lozenge.001",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_lozenge.002",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_lozenge.003",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_dressed_course_1.45_0",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_dressed_course_1.45_1",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_dressed_course_1.45_2",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_dressed_course_1.45_3",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_dressed_course_1.45_4",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_dressed_course_1.45_5",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_dressed_course_1.45_6",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_dressed_course_1.45_7",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_dressed_course_2.45_0",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_dressed_course_2.45_1",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_dressed_course_2.45_2",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_dressed_course_2.45_3",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_dressed_course_2.45_4",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_dressed_course_2.45_5",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_dressed_course_2.45_6",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_dressed_course_2.45_7",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_dressed_course_4.1_0",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_dressed_course_4.1_1",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_dressed_course_4.1_2",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_dressed_course_4.1_3",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_dressed_course_4.1_4",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_dressed_course_4.1_5",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_dressed_course_4.1_6",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "thru_dressed_course_4.1_7",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_stone_foot",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_battered_lower",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_battered_upper",
+      "first_stage": 60,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_continuous_walk_floor",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_guard_0_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_merlon_0_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_lime_cap_0_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_merlon_0_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_lime_cap_0_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_merlon_0_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_lime_cap_0_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_merlon_0_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_lime_cap_0_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_owner_band_0_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "tee_guard_1_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_merlon_1_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_lime_cap_1_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_owner_band_1_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "tee_guard_2_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_merlon_2_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_lime_cap_2_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_owner_band_2_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "tee_guard_2_1",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_merlon_2_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_lime_cap_2_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_owner_band_2_1",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "tee_guard_3_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_merlon_3_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_lime_cap_3_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_owner_band_3_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "tee_guard_4_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_merlon_4_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_lime_cap_4_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_owner_band_4_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "tee_guard_4_1",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_merlon_4_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_lime_cap_4_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_owner_band_4_1",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "tee_guard_5_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_merlon_5_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_lime_cap_5_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_owner_band_5_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "tee_guard_6_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_merlon_6_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_lime_cap_6_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_owner_band_6_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "tee_guard_6_1",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_merlon_6_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_lime_cap_6_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_owner_band_6_1",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "tee_guard_7_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_merlon_7_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_lime_cap_7_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_owner_band_7_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "tee_foundation_bond_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_foundation_bond_1",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_foundation_bond_2",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_foundation_bond_3",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_foundation_bond_4",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_foundation_bond_5",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_foundation_bond_6",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_foundation_bond_7",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_lozenge",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_lozenge.001",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_lozenge.002",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_lozenge.003",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_dressed_course_1.45_0",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_dressed_course_1.45_1",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_dressed_course_1.45_2",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_dressed_course_1.45_3",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_dressed_course_1.45_4",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_dressed_course_1.45_5",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_dressed_course_1.45_6",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_dressed_course_1.45_7",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_dressed_course_2.45_0",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_dressed_course_2.45_1",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_dressed_course_2.45_2",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_dressed_course_2.45_3",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_dressed_course_2.45_4",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_dressed_course_2.45_5",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_dressed_course_2.45_6",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_dressed_course_2.45_7",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_dressed_course_4.1_0",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_dressed_course_4.1_1",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_dressed_course_4.1_2",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_dressed_course_4.1_3",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_dressed_course_4.1_4",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_dressed_course_4.1_5",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_dressed_course_4.1_6",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "tee_dressed_course_4.1_7",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_stone_foot",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_battered_lower",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_battered_upper",
+      "first_stage": 60,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_continuous_walk_floor",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_guard_0_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_merlon_0_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_lime_cap_0_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_owner_band_0_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "cross_guard_0_1",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_merlon_0_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_lime_cap_0_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_owner_band_0_1",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "cross_guard_1_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_merlon_1_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_lime_cap_1_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_owner_band_1_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "cross_guard_2_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_merlon_2_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_lime_cap_2_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_owner_band_2_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "cross_guard_2_1",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_merlon_2_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_lime_cap_2_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_owner_band_2_1",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "cross_guard_3_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_merlon_3_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_lime_cap_3_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_owner_band_3_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "cross_guard_4_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_merlon_4_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_lime_cap_4_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_owner_band_4_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "cross_guard_4_1",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_merlon_4_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_lime_cap_4_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_owner_band_4_1",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "cross_guard_5_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_merlon_5_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_lime_cap_5_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_owner_band_5_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "cross_guard_6_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_merlon_6_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_lime_cap_6_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_owner_band_6_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "cross_guard_6_1",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_merlon_6_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_lime_cap_6_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_owner_band_6_1",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "cross_guard_7_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_merlon_7_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_lime_cap_7_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_owner_band_7_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "cross_foundation_bond_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_foundation_bond_1",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_foundation_bond_2",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_foundation_bond_3",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_foundation_bond_4",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_foundation_bond_5",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_foundation_bond_6",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_foundation_bond_7",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_lozenge",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_lozenge.001",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_lozenge.002",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_lozenge.003",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_dressed_course_1.45_0",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_dressed_course_1.45_1",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_dressed_course_1.45_2",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_dressed_course_1.45_3",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_dressed_course_1.45_4",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_dressed_course_1.45_5",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_dressed_course_1.45_6",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_dressed_course_1.45_7",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_dressed_course_2.45_0",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_dressed_course_2.45_1",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_dressed_course_2.45_2",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_dressed_course_2.45_3",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_dressed_course_2.45_4",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_dressed_course_2.45_5",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_dressed_course_2.45_6",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_dressed_course_2.45_7",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_dressed_course_4.1_0",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_dressed_course_4.1_1",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_dressed_course_4.1_2",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_dressed_course_4.1_3",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_dressed_course_4.1_4",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_dressed_course_4.1_5",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_dressed_course_4.1_6",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "cross_dressed_course_4.1_7",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_stone_foot",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_battered_lower",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_battered_upper",
+      "first_stage": 60,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_continuous_walk_floor",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_guard_0_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_merlon_0_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_lime_cap_0_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_merlon_0_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_lime_cap_0_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_merlon_0_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_lime_cap_0_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_merlon_0_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_lime_cap_0_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_owner_band_0_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "why_guard_1_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_merlon_1_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_lime_cap_1_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_owner_band_1_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "why_guard_1_1",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_merlon_1_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_lime_cap_1_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_owner_band_1_1",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "why_guard_2_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_merlon_2_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_lime_cap_2_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_merlon_2_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_lime_cap_2_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_merlon_2_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_lime_cap_2_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_merlon_2_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_lime_cap_2_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_owner_band_2_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "why_guard_3_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_merlon_3_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_lime_cap_3_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_owner_band_3_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "why_guard_3_1",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_merlon_3_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_lime_cap_3_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_owner_band_3_1",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "why_guard_4_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_merlon_4_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_lime_cap_4_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_merlon_4_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_lime_cap_4_0_1",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_merlon_4_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_lime_cap_4_0_2",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_merlon_4_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_lime_cap_4_0_3",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_owner_band_4_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "why_guard_5_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_merlon_5_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_lime_cap_5_0_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_owner_band_5_0",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "why_guard_5_1",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_merlon_5_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_lime_cap_5_1_0",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_owner_band_5_1",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "why_foundation_bond_0",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_foundation_bond_1",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_foundation_bond_2",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_foundation_bond_3",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_foundation_bond_4",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_foundation_bond_5",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_lozenge",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_lozenge.001",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_lozenge.002",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_lozenge.003",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_dressed_course_1.45_0",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_dressed_course_1.45_1",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_dressed_course_1.45_2",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_dressed_course_1.45_3",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_dressed_course_1.45_4",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_dressed_course_1.45_5",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_dressed_course_2.45_0",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_dressed_course_2.45_1",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_dressed_course_2.45_2",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_dressed_course_2.45_3",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_dressed_course_2.45_4",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_dressed_course_2.45_5",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_dressed_course_4.1_0",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_dressed_course_4.1_1",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_dressed_course_4.1_2",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_dressed_course_4.1_3",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_dressed_course_4.1_4",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "why_dressed_course_4.1_5",
+      "first_stage": 100,
+      "material": "stone",
+      "owner_mask": 0
+    }
+  ],
+  "garrison_exported": false
+}

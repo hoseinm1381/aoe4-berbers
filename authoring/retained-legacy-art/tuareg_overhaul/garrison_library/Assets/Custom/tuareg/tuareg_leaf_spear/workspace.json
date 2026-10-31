@@ -1,0 +1,37 @@
+{
+  "schema": "garrison.blender-workspace/v2",
+  "workspace": {
+    "id": "tuareg-tuareg_leaf_spear",
+    "catalog_folder": "Tuareg original equipment"
+  },
+  "asset": {
+    "id": "tuareg_leaf_spear",
+    "archetype": "static_visual_prop",
+    "logical_base": "art\\scenario\\tuareg\\tuareg_leaf_spear\\tuareg_leaf_spear",
+    "source": {
+      "fbx": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_leaf_spear\\source\\model.fbx"
+    },
+    "materials": [
+      {
+        "id": "tuareg_age2_atlas_002",
+        "source_name": "Tuareg age2 atlas.002",
+        "mesh_name": "geo_mat_main",
+        "textures": {
+          "albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_leaf_spear\\source\\materials\\tuareg_age2_atlas_002\\albedo.png",
+          "normal": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_leaf_spear\\source\\materials\\tuareg_age2_atlas_002\\normal.png",
+          "roughness": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_leaf_spear\\source\\materials\\tuareg_age2_atlas_002\\roughness.png",
+          "metalness": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_leaf_spear\\source\\materials\\tuareg_age2_atlas_002\\metalness.png"
+        }
+      }
+    ]
+  },
+  "build": {
+    "blender_executable": "E:\\Blender5.2\\blender.exe",
+    "template_project": "C:\\Users\\RS\\AppData\\Local\\Garrison\\Kit\\template-project",
+    "output_project": "C:\\Users\\RS\\AppData\\Local\\Temp\\garrison-builds\\20261011T140101Z-6d8620\\project",
+    "cook": {
+      "editor_executable": "C:\\Users\\RS\\AppData\\Local\\Garrison\\Kit\\tools\\essence-object-editor\\EssenceEditor.exe",
+      "run_root": "C:\\Users\\RS\\AppData\\Local\\Temp\\garrison-builds\\20261011T140101Z-6d8620\\cook"
+    }
+  }
+}

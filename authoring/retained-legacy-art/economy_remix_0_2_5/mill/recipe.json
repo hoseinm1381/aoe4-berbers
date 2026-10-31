@@ -1,0 +1,349 @@
+{
+  "schema": "berber.economy-native-remix/v1",
+  "building": "mill",
+  "key": "berber_mill_025",
+  "project": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_2_5\\authors\\mill\\library\\Mods\\berber_mill_025",
+  "source": "art/civilizations/malian/structures/gristmill/mal_gristmill_control_age01/mal_gristmill_control_age01.rgm",
+  "decode": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_2_5\\authors\\mill\\stock\\03eecdda6c6b164d189b\\decoded-static.json",
+  "scale": 1.0,
+  "materials": [
+    {
+      "name": "main",
+      "carrier": "mill",
+      "textures": [
+        {
+          "slot": "albedoTex",
+          "role": "brick",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\mill\\textures\\main_albedoTex_brick.png",
+          "source_logical_path": "art/material_library/substances/structures/brick/4092179209226692701_packed.rrtex",
+          "source_sha256": "d720414ddc9506078e17f8be09ee48461efeb013197c76b51d83ca34fbabf3f7",
+          "sha256": "f8ef1eecc59013375bb3231c333332641ba94a9409bd3d5db159cd8b1436dda8"
+        },
+        {
+          "slot": "albedoTex2",
+          "role": "plaster",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\mill\\textures\\main_albedoTex2_plaster.png",
+          "source_logical_path": "art/material_library/substances/structures/plaster/13189189603914443928_packed.rrtex",
+          "source_sha256": "dd1637ce368dcfbb0eb606a92ef1332a0b15f96f7597ef79f72d3f547c6cddaf",
+          "sha256": "30349713be42581617a3392841c0e48cecc0cd48b69e22b8c0a54ac29b1b21e5"
+        },
+        {
+          "slot": "albedoTex3",
+          "role": "plaster",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\mill\\textures\\main_albedoTex3_plaster.png",
+          "source_logical_path": "art/material_library/substances/structures/plaster/13189189603914443928_packed.rrtex",
+          "source_sha256": "dd1637ce368dcfbb0eb606a92ef1332a0b15f96f7597ef79f72d3f547c6cddaf",
+          "sha256": "30349713be42581617a3392841c0e48cecc0cd48b69e22b8c0a54ac29b1b21e5"
+        },
+        {
+          "slot": "albedoTex4",
+          "role": "plaster",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\mill\\textures\\main_albedoTex4_plaster.png",
+          "source_logical_path": "art/material_library/substances/structures/plaster/15450538018102233034_packed.rrtex",
+          "source_sha256": "dc11d6d15a094fa90ce26ad9793c71f41e0502afe731322af64706459ffc56e0",
+          "sha256": "fc9a4cb1c7b7387991ab31817fe1d0cd4ec6378c1b217111245b166200819c78"
+        },
+        {
+          "slot": "albedoTex5",
+          "role": "plaster",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\mill\\textures\\main_albedoTex5_plaster.png",
+          "source_logical_path": "art/material_library/substances/structures/plaster/12041615973339707457_packed.rrtex",
+          "source_sha256": "b521fb8fb1b507df9550325ea794848d62ec0b945fb4b92a830ac6597c205d3f",
+          "sha256": "ac69d56dc1b08672035b40351c2e12e5282075bf19682d545a7f6ed8dedf35a3"
+        },
+        {
+          "slot": "albedoTex6",
+          "role": "plaster",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\mill\\textures\\main_albedoTex6_plaster.png",
+          "source_logical_path": "art/material_library/substances/structures/plaster/12041615973339707457_packed.rrtex",
+          "source_sha256": "b521fb8fb1b507df9550325ea794848d62ec0b945fb4b92a830ac6597c205d3f",
+          "sha256": "ac69d56dc1b08672035b40351c2e12e5282075bf19682d545a7f6ed8dedf35a3"
+        }
+      ],
+      "parameters": {
+        "highlightColor1": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "midtoneColor1": [
+          0.84,
+          0.84,
+          0.84,
+          1
+        ],
+        "shadowColor1": [
+          0.6,
+          0.6,
+          0.6,
+          1
+        ],
+        "highlightColor2": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "midtoneColor2": [
+          0.84,
+          0.84,
+          0.84,
+          1
+        ],
+        "shadowColor2": [
+          0.6,
+          0.6,
+          0.6,
+          1
+        ],
+        "highlightColor3": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "midtoneColor3": [
+          0.84,
+          0.84,
+          0.84,
+          1
+        ],
+        "shadowColor3": [
+          0.6,
+          0.6,
+          0.6,
+          1
+        ],
+        "highlightColor4": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "midtoneColor4": [
+          0.84,
+          0.84,
+          0.84,
+          1
+        ],
+        "shadowColor4": [
+          0.6,
+          0.6,
+          0.6,
+          1
+        ],
+        "highlightColor5": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "midtoneColor5": [
+          0.84,
+          0.84,
+          0.84,
+          1
+        ],
+        "shadowColor5": [
+          0.6,
+          0.6,
+          0.6,
+          1
+        ],
+        "highlightColor6": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "midtoneColor6": [
+          0.84,
+          0.84,
+          0.84,
+          1
+        ],
+        "shadowColor6": [
+          0.6,
+          0.6,
+          0.6,
+          1
+        ]
+      },
+      "team_slots_preserved": [
+        "albedoTex7"
+      ]
+    },
+    {
+      "name": "roof",
+      "carrier": "mill_roof",
+      "textures": [
+        {
+          "slot": "albedoTex",
+          "role": "wood",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\mill\\textures\\roof_albedoTex_wood.png",
+          "source_logical_path": "art/material_library/substances/structures/wood/3276630836538442047_packed.rrtex",
+          "source_sha256": "833c034c4f6563a267404347fe1a6831a2d4b2f4dd91da51c3fdb88b3eb3019b",
+          "sha256": "29daeb65b672106d2c5a2710fc9369e3348c494a52ff15b6e68ab36437a9abd0"
+        },
+        {
+          "slot": "albedoTex2",
+          "role": "plaster",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\mill\\textures\\roof_albedoTex2_plaster.png",
+          "source_logical_path": "art/material_library/substances/structures/plaster/13189189603914443928_packed.rrtex",
+          "source_sha256": "dd1637ce368dcfbb0eb606a92ef1332a0b15f96f7597ef79f72d3f547c6cddaf",
+          "sha256": "30349713be42581617a3392841c0e48cecc0cd48b69e22b8c0a54ac29b1b21e5"
+        },
+        {
+          "slot": "albedoTex3",
+          "role": "plaster",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\mill\\textures\\roof_albedoTex3_plaster.png",
+          "source_logical_path": "art/material_library/substances/structures/plaster/12041615973339707457_packed.rrtex",
+          "source_sha256": "b521fb8fb1b507df9550325ea794848d62ec0b945fb4b92a830ac6597c205d3f",
+          "sha256": "ac69d56dc1b08672035b40351c2e12e5282075bf19682d545a7f6ed8dedf35a3"
+        },
+        {
+          "slot": "albedoTex4",
+          "role": "shingle",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\mill\\textures\\roof_albedoTex4_shingle.png",
+          "source_logical_path": "art/material_library/substances/structures/shingle/1706705759764328070_packed.rrtex",
+          "source_sha256": "c3c644ae9b3b3dc96dde7e851494474838df51131eac532cd7de68444746a0e7",
+          "sha256": "d85cc1ce8057c736f574dc39f59cf9884fbdac8b0aef4a2b769ab9863c8deca5"
+        },
+        {
+          "slot": "albedoTex5",
+          "role": "plaster",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\mill\\textures\\roof_albedoTex5_plaster.png",
+          "source_logical_path": "art/material_library/substances/structures/plaster/12041615973339707457_packed.rrtex",
+          "source_sha256": "b521fb8fb1b507df9550325ea794848d62ec0b945fb4b92a830ac6597c205d3f",
+          "sha256": "ac69d56dc1b08672035b40351c2e12e5282075bf19682d545a7f6ed8dedf35a3"
+        },
+        {
+          "slot": "albedoTex7",
+          "role": "fabric",
+          "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\mill\\textures\\roof_albedoTex7_fabric.png",
+          "source_logical_path": "art/material_library/substances/structures/fabric/3372112208855618455_packed.rrtex",
+          "source_sha256": "e01a3fbd794914e3726be8e8657ff8f3171ec9049ec75d31da0bfe503df77be6",
+          "sha256": "ea499e57603920c593d77f7c1ae062ba1fb4b03199334b3e9d70d9d1677df1a1"
+        }
+      ],
+      "parameters": {
+        "highlightColor1": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "midtoneColor1": [
+          0.84,
+          0.84,
+          0.84,
+          1
+        ],
+        "shadowColor1": [
+          0.6,
+          0.6,
+          0.6,
+          1
+        ],
+        "highlightColor2": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "midtoneColor2": [
+          0.84,
+          0.84,
+          0.84,
+          1
+        ],
+        "shadowColor2": [
+          0.6,
+          0.6,
+          0.6,
+          1
+        ],
+        "highlightColor3": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "midtoneColor3": [
+          0.84,
+          0.84,
+          0.84,
+          1
+        ],
+        "shadowColor3": [
+          0.6,
+          0.6,
+          0.6,
+          1
+        ],
+        "highlightColor4": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "midtoneColor4": [
+          0.84,
+          0.84,
+          0.84,
+          1
+        ],
+        "shadowColor4": [
+          0.6,
+          0.6,
+          0.6,
+          1
+        ],
+        "highlightColor5": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "midtoneColor5": [
+          0.84,
+          0.84,
+          0.84,
+          1
+        ],
+        "shadowColor5": [
+          0.6,
+          0.6,
+          0.6,
+          1
+        ],
+        "highlightColor7": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "midtoneColor7": [
+          0.84,
+          0.84,
+          0.84,
+          1
+        ],
+        "shadowColor7": [
+          0.6,
+          0.6,
+          0.6,
+          1
+        ]
+      },
+      "team_slots_preserved": []
+    }
+  ],
+  "source_hashes": {
+    "geometry": "87ed1148ff99f11242e1309785b9dafe9678b076b8a33c324f06cca6c03f5065",
+    "material": "b81cfde46c381baa04aa47fbd08a5e174dd5bba67088e4622f0b43746bdee40d",
+    "model": "3e02c84873372f1e87589580bf45fedab7a78dccbb595139bb74f7342871f0c2"
+  },
+  "state_policy": "One native age01 model serves stock Ages I-IV. Native selectors preserved. Const_house_wood_d and dest_house_stone_d auxiliary stamps retained."
+}

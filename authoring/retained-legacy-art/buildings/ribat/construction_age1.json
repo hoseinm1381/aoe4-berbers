@@ -1,0 +1,9 @@
+{
+  "construction_age": 1,
+  "completed_target_age": 2,
+  "body_source": "Berber_Ribat_Age2.blend",
+  "object_stage_manifest": "age2_construction.json",
+  "stages": [0, 20, 40, 60, 80, 100],
+  "selector_binding": "pending native qualification",
+  "note": "Age-I filename denotes construction age, not a completed dark-age landmark body."
+}

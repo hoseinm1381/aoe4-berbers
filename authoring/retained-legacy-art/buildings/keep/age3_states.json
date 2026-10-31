@@ -1,0 +1,51 @@
+{
+  "alternatives": [
+    {
+      "key": "arrow",
+      "minimum_age": 3,
+      "gate": "default",
+      "objects": [
+        "arrow_mount",
+        "arrow_mount.001"
+      ],
+      "binding": "source alternatives; native research/action apply/markers must be retained"
+    },
+    {
+      "key": "springald",
+      "minimum_age": 3,
+      "gate": "upgrade_keep_springald",
+      "objects": [
+        "springald_mount",
+        "springald_source_barrel",
+        "springald_mount.001",
+        "springald_source_barrel.001"
+      ],
+      "binding": "source alternatives; native research/action apply/markers must be retained"
+    },
+    {
+      "key": "cannon",
+      "minimum_age": 4,
+      "gate": "upgrade_keep_cannon",
+      "objects": [
+        "cannon_mount",
+        "cannon_source_barrel",
+        "cannon_mount.001",
+        "cannon_source_barrel.001"
+      ],
+      "binding": "source alternatives; native research/action apply/markers must be retained"
+    },
+    {
+      "key": "oil",
+      "minimum_age": 3,
+      "gate": "upgrade_tech_university_murder_holes_4",
+      "objects": [
+        "oil_mount",
+        "oil_drop_box",
+        "oil_mount.001",
+        "oil_drop_box.001"
+      ],
+      "binding": "source alternatives; native research/action apply/markers must be retained"
+    }
+  ],
+  "gate_actions": "closed frame1/open frame30; source only, not native gate playback"
+}

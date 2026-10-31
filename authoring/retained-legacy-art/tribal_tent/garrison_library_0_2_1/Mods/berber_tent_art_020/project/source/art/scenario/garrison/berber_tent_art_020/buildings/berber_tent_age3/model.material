@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materialSet>
+	<material name="berber_tent_age3_atlas baked atlas" type="shader" source="object">
+		<param name="g_emissiveFactor" type="float" value="1"/>
+		<param name="albedoTexture" type="tex2D" value="art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\albedo.png"/>
+		<param name="normalMap" type="tex2D" value="art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\normal.png"/>
+		<param name="metalTex" type="tex2D" value="art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\metalness.png"/>
+		<param name="roughnessTex" type="tex2D" value="art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\roughness.png"/>
+	</material>
+</materialSet>

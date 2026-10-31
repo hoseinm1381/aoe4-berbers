@@ -1,0 +1,150 @@
+{
+  "assets": [],
+  "cooks": [],
+  "created_at_utc": "2026-10-10T18:42:25Z",
+  "derived_blueprints": [
+    {
+      "changes": [
+        {
+          "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment",
+          "op": "copy",
+          "value": {
+            "from": "attachments/attachment_lists/civilizations/abbasid/units/tier1_spearman_abb"
+          }
+        },
+        {
+          "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "op": "set",
+          "value": "art\\scenario\\garrison\\tuareg_shield_assets\\tuareg_body_age1\\tuareg_body_age1"
+        },
+        {
+          "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/animator_sim_attachment/animator",
+          "op": "set",
+          "value": "art\\scenario\\garrison\\tuareg_shield_assets\\tuareg_shield_model\\tuareg_shield_model"
+        }
+      ],
+      "family": "attachments/attachment_lists",
+      "name": "tuareg_shield_tier1_ber",
+      "source": "attachments/attachment_lists/civilizations/malian/units/tier1_spearman_mal"
+    },
+    {
+      "changes": [
+        {
+          "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment",
+          "op": "copy",
+          "value": {
+            "from": "attachments/attachment_lists/civilizations/abbasid/units/tier2_spearman_abb"
+          }
+        },
+        {
+          "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "op": "set",
+          "value": "art\\scenario\\garrison\\tuareg_shield_assets\\tuareg_body_age2\\tuareg_body_age2"
+        },
+        {
+          "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/animator_sim_attachment/animator",
+          "op": "set",
+          "value": "art\\scenario\\garrison\\tuareg_shield_assets\\tuareg_shield_model\\tuareg_shield_model"
+        }
+      ],
+      "family": "attachments/attachment_lists",
+      "name": "tuareg_shield_tier2_ber",
+      "source": "attachments/attachment_lists/civilizations/malian/units/tier2_spearman_mal"
+    },
+    {
+      "changes": [
+        {
+          "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment",
+          "op": "copy",
+          "value": {
+            "from": "attachments/attachment_lists/civilizations/abbasid/units/tier3_spearman_abb"
+          }
+        },
+        {
+          "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "op": "set",
+          "value": "art\\scenario\\garrison\\tuareg_shield_assets\\tuareg_body_age3\\tuareg_body_age3"
+        },
+        {
+          "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/animator_sim_attachment/animator",
+          "op": "set",
+          "value": "art\\scenario\\garrison\\tuareg_shield_assets\\tuareg_shield_model\\tuareg_shield_model"
+        }
+      ],
+      "family": "attachments/attachment_lists",
+      "name": "tuareg_shield_tier3_ber",
+      "source": "attachments/attachment_lists/civilizations/malian/units/tier3_spearman_mal"
+    },
+    {
+      "changes": [
+        {
+          "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment",
+          "op": "copy",
+          "value": {
+            "from": "attachments/attachment_lists/civilizations/abbasid/units/tier4_spearman_abb"
+          }
+        },
+        {
+          "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/animator_merge_mesh_attachment/meshes/animator0",
+          "op": "set",
+          "value": "art\\scenario\\garrison\\tuareg_shield_assets\\tuareg_body_age4\\tuareg_body_age4"
+        },
+        {
+          "field": "attachment_lists/attachment_lists/attachment_list/attachment_list/animator_sim_attachment/animator",
+          "op": "set",
+          "value": "art\\scenario\\garrison\\tuareg_shield_assets\\tuareg_shield_model\\tuareg_shield_model"
+        }
+      ],
+      "family": "attachments/attachment_lists",
+      "name": "tuareg_shield_tier4_ber",
+      "source": "attachments/attachment_lists/civilizations/malian/units/tier4_spearman_mal"
+    }
+  ],
+  "description": "",
+  "game_mode": {
+    "enabled": false,
+    "requested": false,
+    "template": "normal"
+  },
+  "key": "tuareg_shield_assets",
+  "mod_id": "1d3145e8-f1b2-427f-8bb0-067851fcf0f1",
+  "model_variants": [
+    {
+      "name": "tuareg_body_age1",
+      "parameters": {},
+      "source": "art/civilizations/abbasids/humans/abb_infantry_light_age01/abb_infantry_light_age01",
+      "textures": {}
+    },
+    {
+      "name": "tuareg_body_age2",
+      "parameters": {},
+      "source": "art/civilizations/abbasids/humans/abb_infantry_light_age02/abb_infantry_light_age02",
+      "textures": {}
+    },
+    {
+      "name": "tuareg_body_age3",
+      "parameters": {},
+      "source": "art/civilizations/abbasids/humans/abb_infantry_light_age03/abb_infantry_light_age03",
+      "textures": {}
+    },
+    {
+      "name": "tuareg_body_age4",
+      "parameters": {},
+      "source": "art/civilizations/abbasids/humans/abb_infantry_light_age04/abb_infantry_light_age04",
+      "textures": {}
+    },
+    {
+      "name": "tuareg_shield_model",
+      "parameters": {},
+      "source": "art/civilizations/malian/weapons/mal_shield_donso/mal_shield_donso",
+      "textures": {}
+    }
+  ],
+  "name": "Tuareg Shield Assets",
+  "runtime_modules": {
+    "files": {
+      "tuareg_shield_assets/blueprints.scar": "6ae93049e8e7900edf7ef08418a4eee8a898789467afd3547bc27a4ebf57996b"
+    }
+  },
+  "schema": "garrison.mod-project/v1"
+}

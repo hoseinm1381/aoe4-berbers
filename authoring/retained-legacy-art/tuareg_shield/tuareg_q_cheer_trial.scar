@@ -1,0 +1,196 @@
+-- Qualification trial: the user permits a temporary stop for native cheering.
+-- Follows cardinal_narrative.scar: grant/command cheer_toggle, then toggle off
+-- and remove it. Original Q ability/effect data is not edited. No extra walla.
+Core_RegisterModule("BerberTuaregQTrial")
+
+local state = {
+    started = false, epoch = 0, actors = {}, pending = {}, previous = {},
+    last_start = {}, eligible = {}, scan = nil, source = nil, cheer = nil,
+    scan_total = nil, scan_eligible = nil,
+}
+local owner = "1d3145e8f1b2427f8bb0067851fcf0f1:"
+local duration = 15.0
+
+local function log(message)
+    print("TUAREG_Q_ANIM_TRIAL2 " .. message)
+end
+
+local function keys_sorted(values)
+    local result = {}
+    for id in pairs(values) do table.insert(result, id) end
+    table.sort(result)
+    return result
+end
+
+local function valid_squad(squad)
+    return squad ~= nil and scartype(squad) == ST_SQUAD
+        and Squad_IsValid(Squad_GetID(squad)) and Squad_Count(squad) > 0
+end
+
+local function eligible(squad)
+    if not valid_squad(squad) or World_OwnsSquad(squad) then return false end
+    local blueprint = Squad_GetBlueprint(squad)
+    -- Native getters may box the same PBG in distinct Lua userdata values.
+    -- Use the PBG equality operation; table-key identity is not its contract.
+    for _, allowed in ipairs(state.eligible) do
+        if blueprint == allowed then return true end
+    end
+    return false
+end
+
+local function stop_actor(id, reason)
+    local actor = state.actors[id]
+    if actor == nil then return end
+    state.actors[id] = nil
+    local active = false
+    if valid_squad(actor.squad) then
+        active = Squad_IsAbilityActive_CS(actor.squad, state.cheer)
+        if active and not World_OwnsSquad(actor.squad) then Cmd_Ability(actor.group, state.cheer) end
+        if actor.granted then SGroup_RemoveAbility(actor.group, state.cheer) end
+    end
+    SGroup_Destroy(actor.group)
+    log("STOP squad=" .. tostring(id) .. " reason=" .. reason
+        .. " cheer_was_active=" .. tostring(active))
+end
+
+local function queue_actor(squad, cause, cast_time)
+    if not eligible(squad) then return end
+    local id = Squad_GetID(squad)
+    if state.actors[id] ~= nil or state.pending[id] ~= nil then return end
+    if state.last_start[id] ~= nil and cast_time - state.last_start[id] < 1.0 then return end
+    state.pending[id] = {squad = squad, cause = cause, cast_time = cast_time}
+end
+
+local function collect_caster(value, depth, time)
+    if value == nil or depth > 2 then return end
+    local kind = scartype(value)
+    if kind == ST_SQUAD then
+        queue_actor(value, "ability_event", time)
+    elseif kind == ST_ENTITY then
+        if Entity_IsValid(Entity_GetID(value)) then
+            queue_actor(Entity_GetSquad(value), "ability_event", time)
+        end
+    elseif kind == ST_SGROUP then
+        for i = 1, SGroup_CountSpawned(value) do
+            queue_actor(SGroup_GetSpawnedSquadAt(value, i), "ability_event", time)
+        end
+    elseif kind == ST_EGROUP then
+        for i = 1, EGroup_Count(value) do
+            collect_caster(EGroup_GetEntityAt(value, i), depth + 1, time)
+        end
+    elseif type(value) == "table" then
+        for _, child in pairs(value) do collect_caster(child, depth + 1, time) end
+    end
+end
+
+function BerberTuaregQTrial_OnAbilityExecuted(context)
+    if not state.started or context == nil or context.ability ~= state.source then return end
+    log("Q_EVENT executer_type=" .. tostring(scartype(context.executer)))
+    collect_caster(context.executer, 0, World_GetGameTime())
+end
+
+function BerberTuaregQTrial_Tick()
+    if not state.started then return end
+    local now = World_GetGameTime()
+    World_GetAllSquads(state.scan)
+    local present = {}
+    local total = SGroup_CountSpawned(state.scan)
+    local matched = 0
+    for i = 1, total do
+        local squad = SGroup_GetSpawnedSquadAt(state.scan, i)
+        if eligible(squad) then
+            matched = matched + 1
+            local id = Squad_GetID(squad)
+            present[id] = true
+            local active = Squad_IsAbilityActive_CS(squad, state.source)
+            if state.previous[id] ~= active then
+                log("Q_STATE squad=" .. tostring(id) .. " active=" .. tostring(active))
+            end
+            if active and state.previous[id] ~= true then queue_actor(squad, "active_edge", now) end
+            state.previous[id] = active
+        end
+    end
+    if state.scan_total ~= total or state.scan_eligible ~= matched then
+        log("SCAN squads=" .. tostring(total) .. " tuareg=" .. tostring(matched))
+        state.scan_total = total; state.scan_eligible = matched
+    end
+    for _, id in ipairs(keys_sorted(state.pending)) do
+        local pending = state.pending[id]
+        state.pending[id] = nil
+        if eligible(pending.squad) and state.actors[id] == nil and now < pending.cast_time + duration
+            and not Squad_IsAbilityActive_CS(pending.squad, state.cheer) then
+            local group = SGroup_CreateUnique("TuaregQCheerActor")
+            SGroup_Add(group, pending.squad)
+            local actor = {squad = pending.squad, group = group,
+                expires = pending.cast_time + duration, last_cheer = nil,
+                owner_id = Player_GetID(Squad_GetPlayerOwner(pending.squad)),
+                granted = not Squad_HasAbility(pending.squad, state.cheer)}
+            state.actors[id] = actor
+            state.last_start[id] = now
+            if actor.granted then SGroup_AddAbility(group, state.cheer) end
+            Cmd_Ability(group, state.cheer)
+            log("START squad=" .. tostring(id) .. " via=" .. pending.cause
+                .. " expires=" .. tostring(actor.expires) .. " temporary_stop=true")
+        end
+    end
+    for _, id in ipairs(keys_sorted(state.actors)) do
+        local actor = state.actors[id]
+        if not valid_squad(actor.squad) or not present[id] or not eligible(actor.squad) then
+            stop_actor(id, "removed_or_converted")
+        elseif Player_GetID(Squad_GetPlayerOwner(actor.squad)) ~= actor.owner_id then
+            stop_actor(id, "owner_changed")
+        elseif now >= actor.expires then
+            stop_actor(id, "duration")
+        else
+            local active = Squad_IsAbilityActive_CS(actor.squad, state.cheer)
+            if actor.last_cheer ~= active then
+                log("CHEER_STATE squad=" .. tostring(id) .. " active=" .. tostring(active))
+                actor.last_cheer = active
+            end
+        end
+    end
+    for _, id in ipairs(keys_sorted(state.previous)) do
+        if not present[id] then state.previous[id] = nil; state.last_start[id] = nil end
+    end
+end
+
+local function stop(reason)
+    if not state.started then return end
+    Rule_RemoveGlobalEvent(BerberTuaregQTrial_OnAbilityExecuted)
+    Rule_Remove(BerberTuaregQTrial_Tick)
+    for _, id in ipairs(keys_sorted(state.actors)) do stop_actor(id, reason) end
+    if state.scan ~= nil then SGroup_Destroy(state.scan); state.scan = nil end
+    state.pending = {}; state.previous = {}; state.last_start = {}; state.eligible = {}
+    state.scan_total = nil; state.scan_eligible = nil
+    state.started = false
+    log("CLEANUP reason=" .. reason)
+end
+
+local function start()
+    if state.started then return end
+    local ok, result = pcall(function()
+        state.source = BP_GetAbilityBlueprint(owner .. "ber_spearman_ranged_damage_reduction")
+        state.cheer = BP_GetAbilityBlueprint("cheer_toggle")
+        assert(state.source ~= nil and state.cheer ~= nil, "ability lookup failed")
+        for age = 1, 4 do
+            local blueprint = BP_GetSquadBlueprint(owner .. "unit_spearman_tuareg_" .. tostring(age) .. "_ber")
+            assert(blueprint ~= nil, "squad lookup failed")
+            table.insert(state.eligible, blueprint)
+        end
+        assert(type(World_GetAllSquads) == "function", "World_GetAllSquads unavailable")
+    end)
+    if not ok then log("BOOT_ERROR " .. tostring(result)); return end
+    state.epoch = state.epoch + 1
+    state.scan = SGroup_CreateUnique("TuaregQCheerScan")
+    state.started = true
+    Rule_AddGlobalEvent(BerberTuaregQTrial_OnAbilityExecuted, GE_AbilityExecuted)
+    Rule_AddInterval(BerberTuaregQTrial_Tick, 0.125)
+    log("BOOT ready=true duration=15 epoch=" .. tostring(state.epoch)
+        .. " expected_source_pbg=1073741839 source_type=" .. tostring(scartype(state.source))
+        .. " renderer=native_cheer_command")
+end
+
+function BerberTuaregQTrial_OnInit() log("INIT module_loaded=true") end
+function BerberTuaregQTrial_Start() start() end
+function BerberTuaregQTrial_OnGameRestore() stop("restore"); start() end
+function BerberTuaregQTrial_OnGameOver() stop("game_over") end

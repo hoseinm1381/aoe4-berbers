@@ -1,0 +1,1298 @@
+{
+  "age": 1,
+  "stages": [
+    0,
+    20,
+    40,
+    60,
+    80,
+    100
+  ],
+  "assignment": "cumulative first-visible percentage; source only",
+  "parts": [
+    {
+      "object": "flat_earth_plot",
+      "first_stage": 0,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "raised_bed_0_0",
+      "first_stage": 20,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.001",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.002",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.003",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.004",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.005",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.006",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.007",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.008",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.009",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.010",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.011",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.012",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.013",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.014",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.015",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.016",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.017",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.018",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.019",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.020",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.021",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.022",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.023",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.024",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.025",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.026",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.027",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.028",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.029",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "raised_bed_0_1",
+      "first_stage": 20,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.030",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.031",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.032",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.033",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.034",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.035",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.036",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.037",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.038",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.039",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.040",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.041",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.042",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.043",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.044",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.045",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.046",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.047",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.048",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.049",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.050",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.051",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.052",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.053",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.054",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.055",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.056",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.057",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.058",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.059",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "raised_bed_1_0",
+      "first_stage": 20,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.060",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.061",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.062",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.063",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.064",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.065",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.066",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.067",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.068",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.069",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.070",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.071",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.072",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.073",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.074",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.075",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.076",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.077",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.078",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.079",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.080",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.081",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.082",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.083",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.084",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.085",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.086",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.087",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.088",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.089",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "raised_bed_1_1",
+      "first_stage": 20,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.090",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.091",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.092",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.093",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.094",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.095",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.096",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.097",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.098",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.099",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.100",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.101",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.102",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.103",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.104",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.105",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.106",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.107",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.108",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.109",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.110",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.111",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.112",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.113",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.114",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.115",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.116",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.117",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.118",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.119",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "raised_bed_2_0",
+      "first_stage": 20,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.120",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.121",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.122",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.123",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.124",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.125",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.126",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.127",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.128",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.129",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.130",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.131",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.132",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.133",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.134",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.135",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.136",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.137",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.138",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.139",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.140",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.141",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.142",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.143",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.144",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.145",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.146",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.147",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.148",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.149",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "raised_bed_2_1",
+      "first_stage": 20,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.150",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.151",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.152",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.153",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.154",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.155",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.156",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.157",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.158",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.159",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.160",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.161",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.162",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.163",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.164",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.165",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.166",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.167",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.168",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.169",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.170",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.171",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.172",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.173",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.174",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.175",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.176",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.177",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.178",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "cereal_connected_stem_ear.179",
+      "first_stage": 80,
+      "material": "crop",
+      "owner_mask": 0
+    },
+    {
+      "object": "header_channel_water",
+      "first_stage": 40,
+      "material": "water",
+      "owner_mask": 0
+    },
+    {
+      "object": "branch_water",
+      "first_stage": 40,
+      "material": "water",
+      "owner_mask": 0
+    },
+    {
+      "object": "branch_channel_bank",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "branch_channel_bank.001",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "branch_water.001",
+      "first_stage": 40,
+      "material": "water",
+      "owner_mask": 0
+    },
+    {
+      "object": "branch_channel_bank.002",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "branch_channel_bank.003",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "header_channel_bank",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "header_channel_bank.001",
+      "first_stage": 40,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "low_side_edging",
+      "first_stage": 20,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "low_side_edging.001",
+      "first_stage": 20,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "south_edge_open_entry",
+      "first_stage": 20,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "south_edge_open_entry.001",
+      "first_stage": 20,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "shade_post",
+      "first_stage": 20,
+      "material": "wood",
+      "owner_mask": 0
+    },
+    {
+      "object": "shade_post.001",
+      "first_stage": 20,
+      "material": "wood",
+      "owner_mask": 0
+    },
+    {
+      "object": "shade_post.002",
+      "first_stage": 20,
+      "material": "wood",
+      "owner_mask": 0
+    },
+    {
+      "object": "shade_post.003",
+      "first_stage": 20,
+      "material": "wood",
+      "owner_mask": 0
+    },
+    {
+      "object": "shade_crossbeam",
+      "first_stage": 60,
+      "material": "wood",
+      "owner_mask": 0
+    },
+    {
+      "object": "shade_crossbeam.001",
+      "first_stage": 60,
+      "material": "wood",
+      "owner_mask": 0
+    },
+    {
+      "object": "woven_tool_shade",
+      "first_stage": 80,
+      "material": "owner",
+      "owner_mask": 1
+    },
+    {
+      "object": "tool_rack",
+      "first_stage": 60,
+      "material": "wood",
+      "owner_mask": 0
+    },
+    {
+      "object": "hoe_handle",
+      "first_stage": 80,
+      "material": "wood",
+      "owner_mask": 0
+    },
+    {
+      "object": "hoe_head",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "hoe_handle.001",
+      "first_stage": 80,
+      "material": "wood",
+      "owner_mask": 0
+    },
+    {
+      "object": "hoe_head.001",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "owner_trim_band",
+      "first_stage": 100,
+      "material": "owner",
+      "owner_mask": 1
+    }
+  ],
+  "resource_states_required": [
+    "untouched",
+    "gatherable",
+    "depleted"
+  ],
+  "native_resource_state_binding": "pending; source crop meshes not regrowth animation"
+}

@@ -1,0 +1,224 @@
+-- Native source-proven shield posture selector; no native orders or grants.
+Core_RegisterModule("BerberTuaregQTrial")
+
+local owner = "1d3145e8f1b2427f8bb0067851fcf0f1:"
+local pose_key = "spearman_shield_wall_byz"
+local duration = 15
+local state = {started = false, eligible = {}, actors = {}, pending = {},
+    previous = {}, last_start = {}, epoch = 0}
+
+local function log(message) print("TUAREG_Q_FORCE_TRIAL1 " .. message) end
+local function keys_sorted(values)
+    local keys = {}; for key, _ in pairs(values) do table.insert(keys, key) end
+    table.sort(keys); return keys
+end
+local function valid_squad(squad)
+    return squad ~= nil and Squad_IsValid(Squad_GetID(squad)) and Squad_Count(squad) == 1
+end
+local function eligible(squad)
+    if not valid_squad(squad) or World_OwnsSquad(squad) then return false end
+    local blueprint = Squad_GetBlueprint(squad)
+    for _, expected in ipairs(state.eligible) do if blueprint == expected then return true end end
+    return false
+end
+local function valid_entity(entity)
+    return entity ~= nil and Entity_IsValid(Entity_GetID(entity))
+end
+-- Experimental documented API, exact native Entity-tree leaf names.
+-- No native order is issued. Submitted roots' runtime priority/phase is unqualified.
+local guard_leaf = "anims_spearshield\\Locomotion\\Walk\\defensive\\jog_shieldwall_01"
+local normal_leaf = "anims_spearshield\\Locomotion\\Walk\\tense\\walk_tense_f_01"
+local function may_force(entity)
+    if not valid_entity(entity) or not Entity_IsMoving(entity) then return false end
+    if Entity_IsAttacking(entity, 0.3) then return false end
+    if Entity_GetStateModelBool(entity, "is_charging") then return false end
+    if Entity_GetStateModelBool(entity, "is_bracing") then return false end
+    return true
+end
+local function submit_force(actor, raised)
+    if not state.force_available then
+        log("FORCE_UNAVAILABLE squad=" .. tostring(Squad_GetID(actor.squad)))
+        return false
+    end
+    local branch = raised and guard_leaf or normal_leaf
+    local ok, result = pcall(StateTree_QueueGlobalStateTreeEntity, false, branch, actor.entity)
+    log("FORCE_SUBMIT squad=" .. tostring(Squad_GetID(actor.squad))
+        .. " raised=" .. tostring(raised) .. " accepted_call=" .. tostring(ok)
+        .. " branch=" .. branch .. " result=" .. tostring(result))
+    return ok
+end
+local function stop_actor(id, reason)
+    local actor = state.actors[id]
+    if actor == nil then return end
+    if valid_entity(actor.entity) then
+        Entity_SetStateModelBool(actor.entity, pose_key, actor.previous_pose)
+    end
+    if actor.force_started and (reason == "duration" or reason == "effect_ended")
+        and eligible(actor.squad) and may_force(actor.entity) then
+        submit_force(actor, false)
+    end
+    state.actors[id] = nil
+    log("STOP squad=" .. tostring(id) .. " reason=" .. reason)
+end
+local function queue_actor(squad, cause, cast_time)
+    if not eligible(squad) then return end
+    local id = Squad_GetID(squad)
+    if state.actors[id] ~= nil or state.pending[id] ~= nil then return end
+    if state.last_start[id] ~= nil and cast_time < state.last_start[id] + 1 then return end
+    state.pending[id] = {squad = squad, cause = cause, cast_time = cast_time}
+end
+local function collect_caster(value, depth, time)
+    if value == nil or depth > 2 then return end
+    local kind = scartype(value)
+    if kind == ST_SQUAD then
+        queue_actor(value, "ability_event", time)
+    elseif kind == ST_ENTITY then
+        if valid_entity(value) then queue_actor(Entity_GetSquad(value), "ability_event", time) end
+    elseif kind == ST_SGROUP then
+        for i = 1, SGroup_CountSpawned(value) do
+            queue_actor(SGroup_GetSpawnedSquadAt(value, i), "ability_event", time)
+        end
+    elseif kind == ST_EGROUP then
+        for i = 1, EGroup_Count(value) do collect_caster(EGroup_GetEntityAt(value, i), depth + 1, time) end
+    elseif type(value) == "table" then
+        for _, child in pairs(value) do collect_caster(child, depth + 1, time) end
+    end
+end
+
+function BerberTuaregQTrial_OnAbilityExecuted(context)
+    if not state.started or context == nil or context.ability ~= state.source then return end
+    log("Q_EVENT executer_type=" .. tostring(scartype(context.executer)))
+    collect_caster(context.executer, 0, World_GetGameTime())
+end
+
+function BerberTuaregQTrial_Tick()
+    if not state.started then return end
+    local now = World_GetGameTime()
+    World_GetAllSquads(state.scan)
+    local present = {}
+    local total = SGroup_CountSpawned(state.scan)
+    local matched = 0
+    for i = 1, total do
+        local squad = SGroup_GetSpawnedSquadAt(state.scan, i)
+        if eligible(squad) then
+            matched = matched + 1
+            local id = Squad_GetID(squad)
+            present[id] = true
+            if state.restore_pending then
+                -- This private schema's selector belongs only to this module.
+                -- Saved selector state may outlive the non-serialized actor table.
+                local entity = Squad_GetFirstEntity(squad)
+                if valid_entity(entity) and Entity_GetStateModelBool(entity, pose_key) == true then
+                    Entity_SetStateModelBool(entity, pose_key, false)
+                    log("RESTORE_RESET squad=" .. tostring(id))
+                end
+            end
+            local active = Squad_IsAbilityActive_CS(squad, state.source)
+            if state.previous[id] ~= active then
+                log("Q_STATE squad=" .. tostring(id) .. " active=" .. tostring(active))
+            end
+            if active and state.previous[id] ~= true then queue_actor(squad, "active_edge", now) end
+            state.previous[id] = active
+        end
+    end
+    state.restore_pending = false
+    if state.scan_total ~= total or state.scan_eligible ~= matched then
+        log("SCAN squads=" .. tostring(total) .. " tuareg=" .. tostring(matched))
+        state.scan_total = total; state.scan_eligible = matched
+    end
+    for _, id in ipairs(keys_sorted(state.pending)) do
+        local pending = state.pending[id]
+        if not eligible(pending.squad) or now > pending.cast_time + 0.5 then
+            state.pending[id] = nil
+        elseif Squad_IsAbilityActive_CS(pending.squad, state.source) then
+            state.pending[id] = nil
+            local entity = Squad_GetFirstEntity(pending.squad)
+            if valid_entity(entity) and state.actors[id] == nil then
+                local previous_pose = Entity_GetStateModelBool(entity, pose_key)
+                if previous_pose == false then
+                    local actor = {squad = pending.squad, entity = entity,
+                        entity_id = Entity_GetID(entity), blueprint = Squad_GetBlueprint(pending.squad),
+                        owner_id = Player_GetID(Squad_GetPlayerOwner(pending.squad)),
+                        expires = pending.cast_time + duration, previous_pose = previous_pose,
+                        last_pose = nil}
+                    state.actors[id] = actor; state.last_start[id] = now
+                    Entity_SetStateModelBool(entity, pose_key, true)
+                    log("START squad=" .. tostring(id) .. " via=" .. pending.cause
+                        .. " expires=" .. tostring(actor.expires) .. " native_orders=false")
+                else
+                    log("SKIP squad=" .. tostring(id) .. " previous_pose=" .. tostring(previous_pose))
+                end
+            end
+        end
+    end
+    for _, id in ipairs(keys_sorted(state.actors)) do
+        local actor = state.actors[id]
+        local current_entity = nil
+        if valid_squad(actor.squad) then current_entity = Squad_GetFirstEntity(actor.squad) end
+        if not valid_squad(actor.squad) or not present[id] or not eligible(actor.squad) then
+            stop_actor(id, "removed_or_converted")
+        elseif Player_GetID(Squad_GetPlayerOwner(actor.squad)) ~= actor.owner_id then
+            stop_actor(id, "owner_changed")
+        elseif Squad_GetBlueprint(actor.squad) ~= actor.blueprint
+            or not valid_entity(actor.entity)
+            or not valid_entity(current_entity)
+            or Entity_GetID(current_entity) ~= actor.entity_id then
+            stop_actor(id, "tier_or_entity_changed")
+        elseif not Squad_IsAbilityActive_CS(actor.squad, state.source) then
+            stop_actor(id, "effect_ended")
+        elseif now >= actor.expires then
+            stop_actor(id, "duration")
+        else
+            if not actor.force_attempted and may_force(actor.entity) then
+                actor.force_attempted = true
+                actor.force_started = submit_force(actor, true)
+            end
+            local pose = Entity_GetStateModelBool(actor.entity, pose_key)
+            if actor.last_pose ~= pose then
+                log("POSE_STATE squad=" .. tostring(id) .. " raised_selector=" .. tostring(pose))
+                actor.last_pose = pose
+            end
+        end
+    end
+    for _, id in ipairs(keys_sorted(state.previous)) do
+        if not present[id] then state.previous[id] = nil; state.last_start[id] = nil end
+    end
+end
+
+local function stop(reason)
+    if not state.started then return end
+    Rule_RemoveGlobalEvent(BerberTuaregQTrial_OnAbilityExecuted)
+    Rule_Remove(BerberTuaregQTrial_Tick)
+    for _, id in ipairs(keys_sorted(state.actors)) do stop_actor(id, reason) end
+    if state.scan ~= nil then SGroup_Destroy(state.scan); state.scan = nil end
+    state.pending = {}; state.previous = {}; state.last_start = {}; state.eligible = {}
+    state.scan_total = nil; state.scan_eligible = nil; state.started = false
+    log("CLEANUP reason=" .. reason)
+end
+local function start()
+    if state.started then return end
+    local ok, result = pcall(function()
+        state.source = BP_GetAbilityBlueprint(owner .. "ber_spearman_ranged_damage_reduction")
+        assert(state.source ~= nil, "ability lookup failed")
+        for age = 1, 4 do
+            local blueprint = BP_GetSquadBlueprint(owner .. "unit_spearman_tuareg_" .. tostring(age) .. "_ber")
+            assert(blueprint ~= nil, "squad lookup failed")
+            table.insert(state.eligible, blueprint)
+        end
+        assert(type(World_GetAllSquads) == "function", "World_GetAllSquads unavailable")
+    end)
+    if not ok then log("BOOT_ERROR " .. tostring(result)); return end
+    state.force_available = type(StateTree_QueueGlobalStateTreeEntity) == "function"
+    state.epoch = state.epoch + 1
+    state.scan = SGroup_CreateUnique("TuaregQPostureScan"); state.started = true
+    Rule_AddGlobalEvent(BerberTuaregQTrial_OnAbilityExecuted, GE_AbilityExecuted)
+    Rule_AddInterval(BerberTuaregQTrial_Tick, 0.125)
+    log("BOOT ready=true duration=15 epoch=" .. tostring(state.epoch)
+        .. " expected_source_pbg=1073741839 renderer=experimental_native_leaf_queue force_available=" .. tostring(state.force_available) .. "")
+end
+function BerberTuaregQTrial_OnInit() log("INIT module_loaded=true") end
+function BerberTuaregQTrial_Start() start() end
+function BerberTuaregQTrial_OnGameRestore()
+    stop("restore"); state.restore_pending = true; start()
+end
+function BerberTuaregQTrial_OnGameOver() stop("game_over") end

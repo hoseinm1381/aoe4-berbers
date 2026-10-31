@@ -1,0 +1,20 @@
+{
+  "closed_frame": 1,
+  "open_frame": 40,
+  "hold_open_frame": 70,
+  "closed_again_frame": 110,
+  "native_pivot": [
+    0,
+    0,
+    0
+  ],
+  "lift_travel_source": 6.0,
+  "translation_axis": "Blender Z",
+  "lift_source_m": 6.0,
+  "mechanism": "rigid portcullis lift",
+  "native_motion_amplitude": "not decoded or qualified",
+  "state_actions": [
+    "Portcullis_LiftClose_SOURCE"
+  ],
+  "native_playback": "pending"
+}

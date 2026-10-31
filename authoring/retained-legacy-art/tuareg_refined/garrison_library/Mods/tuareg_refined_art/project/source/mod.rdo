@@ -1,0 +1,25 @@
+<DataWarehouse>
+	<!--Mod/-->
+	<DataObject Name="tuareg_refined_art" Type="Mod" Id="1961125360842347634" Version="1">
+		<DataProperty Name="m_description" Type="Object">
+			<DataValue Name="util::ReflectLocString">1219393415394516383</DataValue>
+			<DataObject Name="" Type="util::ReflectLocString" Id="1219393415394516383" OwnerId="1961125360842347634">
+				<DataProperty Name="m_modPart2" Type="UInt32" Value="3941089935"/>
+				<DataProperty Name="m_modPart3" Type="UInt32" Value="4018319550"/>
+				<DataProperty Name="m_modPart0" Type="UInt32" Value="833515378"/>
+				<DataProperty Name="m_modPart1" Type="UInt32" Value="1195571382"/>
+				<DataProperty Name="m_locStringKey" Type="Int32" Value="2"/>
+			</DataObject>
+		</DataProperty>
+		<DataProperty Name="m_name" Type="Object">
+			<DataValue Name="util::ReflectLocString">2157990149436848282</DataValue>
+			<DataObject Name="" Type="util::ReflectLocString" Id="2157990149436848282" OwnerId="1961125360842347634">
+				<DataProperty Name="m_modPart2" Type="UInt32" Value="3941089935"/>
+				<DataProperty Name="m_modPart3" Type="UInt32" Value="4018319550"/>
+				<DataProperty Name="m_modPart0" Type="UInt32" Value="833515378"/>
+				<DataProperty Name="m_modPart1" Type="UInt32" Value="1195571382"/>
+				<DataProperty Name="m_locStringKey" Type="Int32" Value="1"/>
+			</DataObject>
+		</DataProperty>
+	</DataObject>
+</DataWarehouse>

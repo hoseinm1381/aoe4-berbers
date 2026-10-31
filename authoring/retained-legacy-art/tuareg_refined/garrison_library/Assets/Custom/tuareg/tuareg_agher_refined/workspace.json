@@ -1,0 +1,37 @@
+{
+  "schema": "garrison.blender-workspace/v2",
+  "workspace": {
+    "id": "tuareg-tuareg_agher_refined",
+    "catalog_folder": "Refined Tuareg equipment"
+  },
+  "asset": {
+    "id": "tuareg_agher_refined",
+    "archetype": "static_visual_prop",
+    "logical_base": "art\\scenario\\tuareg\\tuareg_agher_refined\\tuareg_agher_refined",
+    "source": {
+      "fbx": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_refined\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_agher_refined\\source\\model.fbx"
+    },
+    "materials": [
+      {
+        "id": "tuareg_agher_refined_baked_atlas",
+        "source_name": "tuareg_agher_refined baked atlas",
+        "mesh_name": "geo_mat_main",
+        "textures": {
+          "albedo": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_refined\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_agher_refined\\source\\materials\\tuareg_agher_refined_baked_atlas\\albedo.png",
+          "normal": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_refined\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_agher_refined\\source\\materials\\tuareg_agher_refined_baked_atlas\\normal.png",
+          "roughness": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_refined\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_agher_refined\\source\\materials\\tuareg_agher_refined_baked_atlas\\roughness.png",
+          "metalness": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_refined\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_agher_refined\\source\\materials\\tuareg_agher_refined_baked_atlas\\metalness.png"
+        }
+      }
+    ]
+  },
+  "build": {
+    "blender_executable": "E:\\Blender5.2\\blender.exe",
+    "template_project": "C:\\Users\\RS\\AppData\\Local\\Garrison\\Kit\\template-project",
+    "output_project": "C:\\Users\\RS\\AppData\\Local\\Temp\\garrison-builds\\20261011T161904Z-63e20c\\project",
+    "cook": {
+      "editor_executable": "C:\\Users\\RS\\AppData\\Local\\Garrison\\Kit\\tools\\essence-object-editor\\EssenceEditor.exe",
+      "run_root": "C:\\Users\\RS\\AppData\\Local\\Temp\\garrison-builds\\20261011T161904Z-63e20c\\cook"
+    }
+  }
+}

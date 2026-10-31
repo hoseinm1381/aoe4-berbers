@@ -1,0 +1,392 @@
+{
+  "schema": "cumulative-source-stage/v1",
+  "parts": [
+    {
+      "object": "tower_foundation",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "entry_threshold",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "west_thick_wall",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "east_thick_wall",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "north_thick_wall",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "south_thick_wall",
+      "first_stage": 40,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "horseshoe_door",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "door_joinery",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "door_joinery.001",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "door_joinery.002",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "lookout_floor",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "lookout_parapet_back",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "lookout_parapet_front",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "lookout_parapet_front.001",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "lookout_parapet_side",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "lookout_parapet_side.001",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_merlon",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_merlon.001",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_merlon.002",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "corner_merlon.003",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "lookout_cedar_post",
+      "first_stage": 20,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "lookout_cedar_post.001",
+      "first_stage": 20,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "lookout_cedar_post.002",
+      "first_stage": 20,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "lookout_cedar_post.003",
+      "first_stage": 20,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "canopy_long_beam",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "canopy_long_beam.001",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "fitted_flat_canopy",
+      "first_stage": 80,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "neutral_owner_front_band",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "neutral_owner_front_band.001",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "neutral_owner_side_band",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "entry_cedar_lintel_end",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "entry_cedar_lintel_end.001",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "limestone_corner_courses",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "limestone_corner_courses.001",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "limestone_corner_courses.002",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "limestone_corner_courses.003",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "limestone_corner_courses.004",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "limestone_corner_courses.005",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "portal_lime_lintel",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "geometric_plaster_panel",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "geometric_plaster_panel.001",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "geometric_plaster_panel.002",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "geometric_plaster_panel.003",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "geometric_plaster_panel.004",
+      "first_stage": 100,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "fortified_stone_side",
+      "first_stage": 40,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "fortified_stone_side.001",
+      "first_stage": 40,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "fortified_stone_face",
+      "first_stage": 40,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "horseshoe_door.001",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "door_joinery.003",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "door_joinery.004",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "door_joinery.005",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "fortified_stone_face.001",
+      "first_stage": 40,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "arrow_cover_frame",
+      "first_stage": 100,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "arrow_cover_frame.001",
+      "first_stage": 100,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "arrow_shield_panel",
+      "first_stage": 100,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "springald_stock_runner",
+      "first_stage": 100,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "springald_stock_runner.001",
+      "first_stage": 100,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "springald_upright",
+      "first_stage": 100,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "springald_upright.001",
+      "first_stage": 100,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "springald_crossbow_limb",
+      "first_stage": 100,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "springald_tension_string",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "springald_tension_string.001",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "springald_bolt",
+      "first_stage": 100,
+      "material": "shadow",
+      "owner_mask": 0
+    }
+  ],
+  "stages": [
+    0,
+    20,
+    40,
+    60,
+    80,
+    100
+  ],
+  "native_binding": "pending"
+}

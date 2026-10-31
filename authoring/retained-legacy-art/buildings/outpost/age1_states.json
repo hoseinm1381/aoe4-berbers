@@ -1,0 +1,210 @@
+{
+  "states": {
+    "base": [
+      "tower_foundation",
+      "entry_threshold",
+      "west_thick_wall",
+      "east_thick_wall",
+      "north_thick_wall",
+      "south_thick_wall",
+      "horseshoe_door",
+      "door_joinery",
+      "door_joinery.001",
+      "door_joinery.002",
+      "lookout_floor",
+      "lookout_parapet_back",
+      "lookout_parapet_front",
+      "lookout_parapet_front.001",
+      "lookout_parapet_side",
+      "lookout_parapet_side.001",
+      "corner_merlon",
+      "corner_merlon.001",
+      "corner_merlon.002",
+      "corner_merlon.003",
+      "lookout_cedar_post",
+      "lookout_cedar_post.001",
+      "lookout_cedar_post.002",
+      "lookout_cedar_post.003",
+      "canopy_long_beam",
+      "canopy_long_beam.001",
+      "fitted_flat_canopy",
+      "neutral_owner_front_band",
+      "neutral_owner_front_band.001",
+      "neutral_owner_side_band",
+      "entry_cedar_lintel_end",
+      "entry_cedar_lintel_end.001"
+    ]
+  },
+  "exclusive_emplacements": true,
+  "fortified_unlock_age": 2,
+  "anchors": [
+    {
+      "name": "fx_muz_arrow_00",
+      "xyz": [
+        0.0,
+        -1.059999942779541,
+        4.730000019073486
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "proposed source mapping; not decoded native transforms"
+    },
+    {
+      "name": "fx_muz_arrow_01",
+      "xyz": [
+        1.059999942779541,
+        0.0,
+        4.730000019073486
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        1.5707963705062866
+      ],
+      "status": "proposed source mapping; not decoded native transforms"
+    },
+    {
+      "name": "fx_muz_arrow_02",
+      "xyz": [
+        0.0,
+        1.059999942779541,
+        4.730000019073486
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        3.1415927410125732
+      ],
+      "status": "proposed source mapping; not decoded native transforms"
+    },
+    {
+      "name": "fx_muz_arrow_03",
+      "xyz": [
+        -1.059999942779541,
+        0.0,
+        4.730000019073486
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -1.5707963705062866
+      ],
+      "status": "proposed source mapping; not decoded native transforms"
+    },
+    {
+      "name": "fx_muz_springald_00",
+      "xyz": [
+        0.0,
+        -1.4500000476837158,
+        5.079999923706055
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "proposed source mapping; not decoded native transforms"
+    },
+    {
+      "name": "fx_muz_springald_01",
+      "xyz": [
+        1.4500000476837158,
+        0.0,
+        5.079999923706055
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        1.5707963705062866
+      ],
+      "status": "proposed source mapping; not decoded native transforms"
+    },
+    {
+      "name": "fx_muz_springald_02",
+      "xyz": [
+        0.0,
+        1.4500000476837158,
+        5.079999923706055
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        3.1415927410125732
+      ],
+      "status": "proposed source mapping; not decoded native transforms"
+    },
+    {
+      "name": "fx_muz_springald_03",
+      "xyz": [
+        -1.4500000476837158,
+        0.0,
+        5.079999923706055
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -1.5707963705062866
+      ],
+      "status": "proposed source mapping; not decoded native transforms"
+    },
+    {
+      "name": "fx_muz_cannon_00",
+      "xyz": [
+        0.0,
+        -1.4299999475479126,
+        4.889999866485596
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "proposed source mapping; not decoded native transforms"
+    },
+    {
+      "name": "fx_muz_cannon_01",
+      "xyz": [
+        1.4299999475479126,
+        0.0,
+        4.889999866485596
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        1.5707963705062866
+      ],
+      "status": "proposed source mapping; not decoded native transforms"
+    },
+    {
+      "name": "fx_muz_cannon_02",
+      "xyz": [
+        0.0,
+        1.4299999475479126,
+        4.889999866485596
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        3.1415927410125732
+      ],
+      "status": "proposed source mapping; not decoded native transforms"
+    },
+    {
+      "name": "fx_muz_cannon_03",
+      "xyz": [
+        -1.4299999475479126,
+        0.0,
+        4.889999866485596
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -1.5707963705062866
+      ],
+      "status": "proposed source mapping; not decoded native transforms"
+    }
+  ]
+}

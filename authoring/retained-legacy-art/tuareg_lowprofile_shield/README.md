@@ -1,0 +1,9 @@
+# Low-profile Tuareg shield trial
+
+User reports that lower-shield.1 looked unchanged. Its installed Garrison library archive exactly matches the delivered SHA256, and its cooked geometry differs from refined.1 in 2,923 bytes. This excludes a stale library import as the explanation, but the exact native positioning/consumption cause is not established. Do not present source height measurements as native fitting acceptance.
+
+The requested fallback is a visibly different shield silhouette: short narrowed crown and extended lower body, with approximately 97% of the shell's source height below the central grip. The 16 central grip vertices stay unchanged. A new model resource `tuareg_agher_lowprofile` is compiled and the four private body/shield lists explicitly reference it. Existing bodies, long spear, gameplay and Q controller remain byte-preserved. Native fitting/visibility still require the user's new match.
+
+Editable source: `Tuareg_Lowprofile_Shield_Ages_I_IV.blend`. Reproduce with the adjacent project helpers in `art/tuareg_refined/lowprofile_shield.py`, `build_lowprofile_shield.py` and `run_lowprofile_pipeline.py`; build copies/assets are under `E:/tsh3`, separate from earlier candidates. Logs, source checks, fresh archive readback and final verification are in `output/tuareg_lowprofile_shield_trial`. Preserve earlier ZIPs for rollback.
+
+The updated 0.1.4 skill/installed guide and live prototype catalogue were rechecked. Spearman still admits only `navigation\idle_calm_basic_01` with `repeat_idle_cycle`; villager has 22 slots. Rigid to One Bone helps prop binding, Script Runner helps solo-match diagnostics, and rigid visual orientation does not write arbitrary bones. These do not qualify an interruptible moving/attacking guard layer. Instant moving Q and complete custom motion remain unresolved.

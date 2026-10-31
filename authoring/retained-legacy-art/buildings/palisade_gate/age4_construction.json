@@ -1,0 +1,627 @@
+{
+  "age": 4,
+  "stages": [
+    0,
+    20,
+    40,
+    60,
+    80,
+    100
+  ],
+  "parts": [
+    {
+      "object": "left_stone_footing",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_palm_gatepost",
+      "first_stage": 20,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_lashed_collar",
+      "first_stage": 60,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_lashed_collar.001",
+      "first_stage": 60,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_lashed_collar.002",
+      "first_stage": 60,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_palisade_stake_0",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_palisade_stake_1",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_palisade_stake_2",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_palisade_stake_3",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_palisade_stake_4",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_palisade_stake_5",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_flank_crossrail",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_flank_crossrail.001",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_owner_post_band",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "left_earth_pier_base",
+      "first_stage": 20,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_stone_footing",
+      "first_stage": 0,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_palm_gatepost",
+      "first_stage": 20,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_lashed_collar",
+      "first_stage": 60,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_lashed_collar.001",
+      "first_stage": 60,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_lashed_collar.002",
+      "first_stage": 60,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_palisade_stake_0",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_palisade_stake_1",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_palisade_stake_2",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_palisade_stake_3",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_palisade_stake_4",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_palisade_stake_5",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_flank_crossrail",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_flank_crossrail.001",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_owner_post_band",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "right_earth_pier_base",
+      "first_stage": 20,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "mortised_palm_lintel",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "lintel_earth_weather_cap",
+      "first_stage": 80,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "lintel_tenon_peg",
+      "first_stage": 80,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "lintel_tenon_peg.001",
+      "first_stage": 80,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "carved_lintel_diamond",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "carved_lintel_diamond.001",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "carved_lintel_diamond.002",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "carved_lintel_diamond.003",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "carved_lintel_diamond.004",
+      "first_stage": 100,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "lintel_owner_woven_band",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "pier_cap",
+      "first_stage": 60,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "pier_cap.001",
+      "first_stage": 60,
+      "material": "lime",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_door_plank_0",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_door_plank_1",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_door_plank_2",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_door_plank_3",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_door_plank_4",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_door_plank_5",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_door_plank_6",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_door_crossbeam",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_forged_strap",
+      "first_stage": 80,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_strap_rivet",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_strap_rivet.001",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_strap_rivet.002",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_strap_rivet.003",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_door_crossbeam.001",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_forged_strap.001",
+      "first_stage": 80,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_strap_rivet.004",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_strap_rivet.005",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_strap_rivet.006",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_strap_rivet.007",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_door_crossbeam.002",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_forged_strap.002",
+      "first_stage": 80,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_strap_rivet.008",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_strap_rivet.009",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_strap_rivet.010",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_strap_rivet.011",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_diagonal_brace",
+      "first_stage": 60,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_hinge_knuckle",
+      "first_stage": 80,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_hinge_knuckle.001",
+      "first_stage": 80,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "left_owner_leaf_stripe",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "left_lifting_handle",
+      "first_stage": 100,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_door_plank_0",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_door_plank_1",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_door_plank_2",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_door_plank_3",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_door_plank_4",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_door_plank_5",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_door_plank_6",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_door_crossbeam",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_forged_strap",
+      "first_stage": 80,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_strap_rivet",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_strap_rivet.001",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_strap_rivet.002",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_strap_rivet.003",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_door_crossbeam.001",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_forged_strap.001",
+      "first_stage": 80,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_strap_rivet.004",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_strap_rivet.005",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_strap_rivet.006",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_strap_rivet.007",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_door_crossbeam.002",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_forged_strap.002",
+      "first_stage": 80,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_strap_rivet.008",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_strap_rivet.009",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_strap_rivet.010",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_strap_rivet.011",
+      "first_stage": 80,
+      "material": "stone",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_diagonal_brace",
+      "first_stage": 60,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_hinge_knuckle",
+      "first_stage": 80,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_hinge_knuckle.001",
+      "first_stage": 80,
+      "material": "shadow",
+      "owner_mask": 0
+    },
+    {
+      "object": "right_owner_leaf_stripe",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "right_lifting_handle",
+      "first_stage": 100,
+      "material": "shadow",
+      "owner_mask": 0
+    }
+  ],
+  "assignment": "cumulative source first-visible percentage",
+  "native_binding": "pending"
+}

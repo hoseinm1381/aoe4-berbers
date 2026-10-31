@@ -1,0 +1,860 @@
+{
+  "age": 1,
+  "stages": [
+    0,
+    20,
+    40,
+    60,
+    80,
+    100
+  ],
+  "parts": [
+    {
+      "object": "earth_seat",
+      "first_stage": 0,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post",
+      "first_stage": 20,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "front_lashing",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "back_lashing",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "lashing_side",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "neutral_owner_painted_stripe",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "palm_split_post.001",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.002",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.003",
+      "first_stage": 80,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "continuous_rear_tie",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "earth_seat.001",
+      "first_stage": 0,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.004",
+      "first_stage": 20,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "front_lashing.001",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "back_lashing.001",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "lashing_side.001",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "neutral_owner_painted_stripe.001",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "palm_split_post.005",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.006",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.007",
+      "first_stage": 80,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.008",
+      "first_stage": 20,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.010",
+      "first_stage": 60,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.011",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.013",
+      "first_stage": 40,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "continuous_rear_tie.001",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "earth_seat.002",
+      "first_stage": 0,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.009",
+      "first_stage": 20,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "front_lashing.002",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "back_lashing.002",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "lashing_side.002",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "neutral_owner_painted_stripe.002",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "palm_split_post.012",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.014",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.015",
+      "first_stage": 80,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.016",
+      "first_stage": 20,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.018",
+      "first_stage": 60,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.019",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.021",
+      "first_stage": 40,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "continuous_rear_tie.002",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "earth_seat.003",
+      "first_stage": 0,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.017",
+      "first_stage": 20,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "front_lashing.003",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "back_lashing.003",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "lashing_side.003",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "neutral_owner_painted_stripe.003",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "palm_split_post.020",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.022",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.023",
+      "first_stage": 80,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "continuous_rear_tie.003",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "earth_seat.004",
+      "first_stage": 0,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.024",
+      "first_stage": 20,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "front_lashing.004",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "back_lashing.004",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "lashing_side.004",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "neutral_owner_painted_stripe.004",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "palm_split_post.025",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.026",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.027",
+      "first_stage": 80,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.028",
+      "first_stage": 20,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.030",
+      "first_stage": 60,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.031",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "continuous_rear_tie.004",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "earth_seat.005",
+      "first_stage": 0,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.029",
+      "first_stage": 20,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "front_lashing.005",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "back_lashing.005",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "lashing_side.005",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "neutral_owner_painted_stripe.005",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "palm_split_post.032",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.033",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.034",
+      "first_stage": 80,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.035",
+      "first_stage": 20,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.037",
+      "first_stage": 60,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.038",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.040",
+      "first_stage": 40,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "continuous_rear_tie.005",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "earth_seat.006",
+      "first_stage": 0,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.036",
+      "first_stage": 20,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "front_lashing.006",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "back_lashing.006",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "lashing_side.006",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "neutral_owner_painted_stripe.006",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "palm_split_post.039",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.041",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.042",
+      "first_stage": 80,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.043",
+      "first_stage": 20,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.045",
+      "first_stage": 60,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.046",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.048",
+      "first_stage": 40,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "continuous_rear_tie.006",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "earth_seat.007",
+      "first_stage": 0,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.044",
+      "first_stage": 20,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "front_lashing.007",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "back_lashing.007",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "lashing_side.007",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "neutral_owner_painted_stripe.007",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "palm_split_post.047",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.049",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.050",
+      "first_stage": 80,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.051",
+      "first_stage": 20,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.053",
+      "first_stage": 60,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.054",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.056",
+      "first_stage": 40,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "continuous_rear_tie.007",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "earth_seat.008",
+      "first_stage": 0,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.052",
+      "first_stage": 20,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "front_lashing.008",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "back_lashing.008",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "lashing_side.008",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "neutral_owner_painted_stripe.008",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "palm_split_post.055",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.057",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.058",
+      "first_stage": 80,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.059",
+      "first_stage": 20,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.061",
+      "first_stage": 60,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.062",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.064",
+      "first_stage": 40,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "continuous_rear_tie.008",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "earth_seat.009",
+      "first_stage": 0,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.060",
+      "first_stage": 20,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "front_lashing.009",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "back_lashing.009",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "lashing_side.009",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "neutral_owner_painted_stripe.009",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "palm_split_post.063",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.065",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.066",
+      "first_stage": 80,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.067",
+      "first_stage": 20,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.069",
+      "first_stage": 60,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.070",
+      "first_stage": 80,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.072",
+      "first_stage": 40,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "continuous_rear_tie.009",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "earth_seat.010",
+      "first_stage": 0,
+      "material": "earth",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.068",
+      "first_stage": 20,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "front_lashing.010",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "back_lashing.010",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "lashing_side.010",
+      "first_stage": 100,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "neutral_owner_painted_stripe.010",
+      "first_stage": 100,
+      "material": "owner_cloth",
+      "owner_mask": 1
+    },
+    {
+      "object": "palm_split_post.071",
+      "first_stage": 40,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.073",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    },
+    {
+      "object": "palm_split_post.074",
+      "first_stage": 80,
+      "material": "straw",
+      "owner_mask": 0
+    },
+    {
+      "object": "continuous_rear_tie.010",
+      "first_stage": 60,
+      "material": "cedar",
+      "owner_mask": 0
+    }
+  ],
+  "native_binding": "pending"
+}

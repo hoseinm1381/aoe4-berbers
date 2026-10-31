@@ -1,0 +1,33 @@
+{
+  "schema": "garrison.building-source/v1",
+  "profile": "english-house",
+  "parts": [
+    {
+      "name": "garrison_part_0000",
+      "first_stage": 0
+    },
+    {
+      "name": "garrison_part_0001",
+      "first_stage": 20
+    },
+    {
+      "name": "garrison_part_0002",
+      "first_stage": 60
+    },
+    {
+      "name": "garrison_part_0003",
+      "first_stage": 80
+    },
+    {
+      "name": "garrison_part_0004",
+      "first_stage": 100
+    }
+  ],
+  "material_name": "berber_tent_age1_atlas baked atlas",
+  "textures": {
+    "albedo": "materials/berber_tent_age1_atlas_baked_atlas/albedo.png",
+    "normal": "materials/berber_tent_age1_atlas_baked_atlas/normal.png",
+    "roughness": "materials/berber_tent_age1_atlas_baked_atlas/roughness.png",
+    "metalness": "materials/berber_tent_age1_atlas_baked_atlas/metalness.png"
+  }
+}

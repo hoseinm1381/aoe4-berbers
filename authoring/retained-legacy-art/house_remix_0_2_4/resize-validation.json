@@ -1,0 +1,85 @@
+{
+  "status": "passed",
+  "ages": [
+    {
+      "age": 1,
+      "file": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_4\\Berber_House_Age1_0_2_4.blend",
+      "sha256": "5445e122d6f9dd88422695146787547e490a3aad0b5b6071a9725a22d6177533",
+      "multiplier": 3,
+      "native_scale": 1.38,
+      "topology_UVs_materials": "retained",
+      "dimensions_m": {
+        "abb_house_control_a_age01 \u00b7 extra": [
+          6.126445293426514,
+          9.174843788146973,
+          4.549689292907715
+        ],
+        "abb_house_control_a_age01 \u00b7 main": [
+          5.7275390625,
+          11.193633079528809,
+          5.298984527587891
+        ]
+      }
+    },
+    {
+      "age": 2,
+      "file": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_4\\Berber_House_Age2_0_2_4.blend",
+      "sha256": "45f57c194f4808422d6e36c28c06788293d74be112bdd34ff44e35bae9d6c94e",
+      "multiplier": 3,
+      "native_scale": 1.38,
+      "topology_UVs_materials": "retained",
+      "dimensions_m": {
+        "abb_house_control_a_age02 \u00b7 main": [
+          5.627812385559082,
+          11.433515548706055,
+          7.072499752044678
+        ],
+        "abb_house_control_a_age02 \u00b7 extra": [
+          4.711406230926514,
+          8.703164100646973,
+          4.488742828369141
+        ]
+      }
+    },
+    {
+      "age": 3,
+      "file": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_4\\Berber_House_Age3_0_2_4.blend",
+      "sha256": "555dc7151d1548abbae027dcd81a87acacf61c7c8b7c3b94ab805e81e264bfa4",
+      "multiplier": 3,
+      "native_scale": 1.38,
+      "topology_UVs_materials": "retained",
+      "dimensions_m": {
+        "abb_house_control_a_age03 \u00b7 main": [
+          5.627812385559082,
+          11.433515548706055,
+          7.072499752044678
+        ],
+        "abb_house_control_a_age03 \u00b7 extra": [
+          4.711406230926514,
+          8.703164100646973,
+          4.488742828369141
+        ]
+      }
+    },
+    {
+      "age": 4,
+      "file": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\house_remix_0_2_4\\Berber_House_Age4_0_2_4.blend",
+      "sha256": "f4339e3da2ef59f56f5dc49b1c0d42778be8e10a0732c475f58d2e65345ee45d",
+      "multiplier": 3,
+      "native_scale": 1.38,
+      "topology_UVs_materials": "retained",
+      "dimensions_m": {
+        "abb_house_control_a_age04 \u00b7 main": [
+          5.900039196014404,
+          11.595233917236328,
+          8.4228515625
+        ],
+        "abb_house_control_a_age04 \u00b7 roof": [
+          6.506484508514404,
+          9.425507545471191,
+          7.800581932067871
+        ]
+      }
+    }
+  ]
+}

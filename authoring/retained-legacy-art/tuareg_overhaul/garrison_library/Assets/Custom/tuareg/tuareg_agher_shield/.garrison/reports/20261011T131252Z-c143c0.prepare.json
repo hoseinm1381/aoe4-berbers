@@ -1,0 +1,115 @@
+{
+  "schema": "garrison.custom-static-authoring/v1",
+  "request": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_agher_shield\\.garrison\\requests\\20261011T131252Z-c143c0.json",
+  "request_sha256": "43dcfcacc988aa2c24eb5734a2f105dadb811161d2a6f8d2fb654d8be64833a3",
+  "manifest": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_agher_shield\\workspace.json",
+  "manifest_sha256": "7c34b61a60e98c9e88b091c5decd517e62d6aa9c65a2e13873e254801b2c9c4a",
+  "asset_root": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_agher_shield",
+  "source_root": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_agher_shield\\source",
+  "generated_root": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_agher_shield\\generated",
+  "build_id": "20261011T131252Z-c143c0",
+  "mesh_policy": "all recursive mesh objects in one Blender collection",
+  "material_policy": "non-destructive adopted Principled materials; multiple materials build as aligned one-material static parts using the confirmed RTC pattern",
+  "material_count": 1,
+  "runtime_build_supported": true,
+  "runtime_build_method": "single_static_asset",
+  "validation": {
+    "schema": "garrison.workspace-operation/v1",
+    "operation": "validate",
+    "workspace_manifest": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_agher_shield\\workspace.json",
+    "workspace_manifest_sha256": "7c34b61a60e98c9e88b091c5decd517e62d6aa9c65a2e13873e254801b2c9c4a",
+    "workspace_id": "tuareg-tuareg_agher_shield",
+    "asset": {
+      "id": "tuareg_agher_shield",
+      "archetype": "static_visual_prop",
+      "logical_base": "art\\scenario\\tuareg\\tuareg_agher_shield\\tuareg_agher_shield",
+      "catalog_folder": "Tuareg original equipment",
+      "material_count": 1
+    },
+    "inputs": {
+      "manifest": {
+        "exists": true,
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_agher_shield\\workspace.json",
+        "size": 2262,
+        "sha256": "7c34b61a60e98c9e88b091c5decd517e62d6aa9c65a2e13873e254801b2c9c4a"
+      },
+      "fbx": {
+        "exists": true,
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_agher_shield\\source\\model.fbx",
+        "size": 28092,
+        "sha256": "87696d4b2f5c8d162adee0a16aa3f8257acbae34a6d5eab7f00e25687ce24d1b"
+      },
+      "blender_executable": {
+        "exists": true,
+        "path": "E:\\Blender5.2\\blender.exe",
+        "size": 113022936,
+        "sha256": "f141a3c5754500e6f84361099a4cd53f0bb7662b6a0d2cfaaa8fbb63e92234a0"
+      },
+      "material.tuareg_age2_atlas_001.albedo": {
+        "exists": true,
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_agher_shield\\source\\materials\\tuareg_age2_atlas_001\\albedo.png",
+        "size": 362461,
+        "sha256": "18fbb75a866376f65dcd12778e239848c71e1b15fbc45514529eb86c733bbccc"
+      },
+      "material.tuareg_age2_atlas_001.normal": {
+        "exists": true,
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_agher_shield\\source\\materials\\tuareg_age2_atlas_001\\normal.png",
+        "size": 5805,
+        "sha256": "02b88dbad749a9824293f6a05b6d46724b04db2c9614838405da13a7fdb41587"
+      },
+      "material.tuareg_age2_atlas_001.roughness": {
+        "exists": true,
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_agher_shield\\source\\materials\\tuareg_age2_atlas_001\\roughness.png",
+        "size": 6006,
+        "sha256": "9dffcff9965fed2f441541dba82cfb143d6a2c61a4297e5f4b1f43399db70b86"
+      },
+      "material.tuareg_age2_atlas_001.metalness": {
+        "exists": true,
+        "path": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\tuareg_overhaul\\garrison_library\\Assets\\Custom\\tuareg\\tuareg_agher_shield\\source\\materials\\tuareg_age2_atlas_001\\metalness.png",
+        "size": 6101,
+        "sha256": "0a8c823d8fe3677df86c10b2aaa6680e21785a7f91b259f15ebcffd357f90776"
+      },
+      "cook_editor": {
+        "exists": true,
+        "path": "C:\\Users\\RS\\AppData\\Local\\Garrison\\Kit\\tools\\essence-object-editor\\EssenceEditor.exe",
+        "size": 10231608,
+        "sha256": "2ff1278eed5b1a6e163e6d78e04ad768dc38e4c198f6354069c99bed9e8f84e8"
+      }
+    },
+    "gates": [
+      {
+        "id": "manifest_valid",
+        "status": "passed",
+        "detail": "schema garrison.blender-workspace/v2"
+      },
+      {
+        "id": "archetype_supported",
+        "status": "passed",
+        "detail": "static_visual_prop"
+      },
+      {
+        "id": "source_files_present",
+        "status": "passed",
+        "detail": "required source files and Blender executable exist"
+      },
+      {
+        "id": "template_project_present",
+        "status": "passed",
+        "detail": "template project directory: C:\\Users\\RS\\AppData\\Local\\Garrison\\Kit\\template-project"
+      },
+      {
+        "id": "output_project_is_new",
+        "status": "passed",
+        "detail": "output must not already exist: C:\\Users\\RS\\AppData\\Local\\Temp\\garrison-builds\\20261011T131252Z-c143c0\\project"
+      },
+      {
+        "id": "cook_ready",
+        "status": "passed",
+        "detail": "cook editor exists and run root is new"
+      }
+    ],
+    "first_failed_gate": null,
+    "success": true
+  },
+  "success": true
+}

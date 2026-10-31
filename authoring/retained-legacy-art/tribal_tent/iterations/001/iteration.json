@@ -1,0 +1,46 @@
+{
+  "asset_id": "building.tent",
+  "iteration": "001",
+  "recorded": "2026-10-12",
+  "approval_status": "accepted",
+  "age_approvals": {
+    "1": "general_design_accepted",
+    "2": "general_design_accepted",
+    "3": "general_design_accepted",
+    "4": "general_design_accepted"
+  },
+  "blend": "art\\tribal_tent\\iterations\\001\\Berber_Tribal_Tent_Ages_I_IV_001.blend",
+  "blend_sha256": "a6d2fc897c953c9091b3124b7953af2a06eee774dca9a2ae5f86473c0969e71d",
+  "comparison": "output\\tribal_tent\\iteration001\\four_age_comparison.png",
+  "previews": [
+    {
+      "age": 1,
+      "path": "output\\tribal_tent\\iteration001\\age1.png",
+      "sha256": "2f8821b082fe10b7fd2242328aff8faf668369c8bd01ebb9e094ee20cd8bd303"
+    },
+    {
+      "age": 2,
+      "path": "output\\tribal_tent\\iteration001\\age2.png",
+      "sha256": "57951451a5b156e39dd6609aa1583ac42c6c1db0fb884ccbb7d98bd2570915e8"
+    },
+    {
+      "age": 3,
+      "path": "output\\tribal_tent\\iteration001\\age3.png",
+      "sha256": "f3009562434f70eab8fdb1d58d05859346d856093f7ce89ff132b5957ab0e503"
+    },
+    {
+      "age": 4,
+      "path": "output\\tribal_tent\\iteration001\\age4.png",
+      "sha256": "15f12cc48f39a9450c145bb54f9962d3eab0dc962834d210017ee2342d539a97"
+    }
+  ],
+  "verification": "output\\tribal_tent\\iteration001\\saved-source-verification.json",
+  "source_review": "entrance rope, lifted side, canopy contacts, UV collapse, roof motif burial and vessel spacing corrected; six-side and textured source views reviewed",
+  "export_status": "not exported; atlas bake/geometric LOD preparation pending approval",
+  "integration_status": "queued only after user approval; scale/native footprint, all-age switching, construction/damage/ruin wiring pending",
+  "mod_build": "not started",
+  "historical_status": "original game interpretation using later ethnographic tent construction and medieval textile context",
+  "freeze_policy": "On acceptance record approved hashes and preserve this numbered source; revise through 002 or later, never overwrite the accepted snapshot.",
+  "approval_scope": "All four general designs accepted; AoE4-style finish adjustments requested as a separate revision.",
+  "approved_on": "2026-10-12"
+}

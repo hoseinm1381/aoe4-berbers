@@ -1,0 +1,52 @@
+{
+  "asset_id": "building.tent",
+  "iteration": "002",
+  "recorded": "2026-10-12",
+  "approval_status": "accepted",
+  "approved_design_baseline": "001",
+  "approval_scope": "User approved iteration 002 style and requested the Berber update build.",
+  "age_approvals": {
+    "1": "accepted",
+    "2": "accepted",
+    "3": "accepted",
+    "4": "accepted"
+  },
+  "blend": "art/tribal_tent/iterations/002/Berber_Tribal_Tent_Ages_I_IV_002.blend",
+  "blend_sha256": "c0ce3651a63e0a9e712a567ffcf6c4e8770b8b652be81c8d32ee6c894b636215",
+  "comparison": "output/tribal_tent/iteration002/four_age_comparison.png",
+  "previews": [
+    {
+      "age": 1,
+      "path": "output/tribal_tent/iteration002/age1.png",
+      "sha256": "b47ea67d17c69dab49d159f0a93aa94b2201582057c4b42d5d3ec0110e0ed686"
+    },
+    {
+      "age": 2,
+      "path": "output/tribal_tent/iteration002/age2.png",
+      "sha256": "37ec075454756efbd0d375ce36ebb9fd534d5a494291a6de6ce990a704260164"
+    },
+    {
+      "age": 3,
+      "path": "output/tribal_tent/iteration002/age3.png",
+      "sha256": "b4ac8da0913e19928abd1dcbeb285ce10cb5874f9ff1caaf31cead096812d645"
+    },
+    {
+      "age": 4,
+      "path": "output/tribal_tent/iteration002/age4.png",
+      "sha256": "0feecc0e1b45f6c77e11b0e6064e45b1474707b2151a4f344d2603bff3769bea"
+    }
+  ],
+  "verification": "output/tribal_tent/iteration002/saved-source-verification.json",
+  "changes": [
+    "Thicker poles, ropes and trim for distance readability",
+    "Warmer material palette and reduced fabric noise contrast",
+    "Exterior water jar and rolled mat on each age",
+    "Higher presentation view for roof and silhouette review"
+  ],
+  "export_status": "not exported; atlas bake, owner colours and LOD preparation pending",
+  "integration_status": "pending; native scale, footprint, age selection and construction/damage/ruins remain unverified",
+  "mod_build": "not started",
+  "historical_status": "original game interpretation using later ethnographic tent construction and medieval textile context",
+  "freeze_policy": "On acceptance preserve numbered source and hashes; make later revisions in a new numbered directory.",
+  "approved_on": "2026-10-12"
+}

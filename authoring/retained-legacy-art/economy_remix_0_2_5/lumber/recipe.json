@@ -1,0 +1,527 @@
+{
+  "schema": "berber.economy-native-remix/v1",
+  "building": "lumber",
+  "project": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_2_5\\authors\\lumber\\library\\Mods\\berber_lumber_025",
+  "key": "berber_lumber_025",
+  "native_acceptance": "pending user",
+  "geometry_policy": "native stock buffers and transform preserved",
+  "models": [
+    {
+      "name": "wood_logs",
+      "source": "art/civilizations/common/props/wood_logs/wood_logs.rgm",
+      "decode": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_2_5\\authors\\lumber\\stock\\043f58455da5e5b8e40a\\decoded-static.json",
+      "source_hashes": {
+        "geometry": "c538d7d2d74cb326a368a1a5f8e87d0f6ea314ec494fe18e7b9276ee49fdde42",
+        "material": "17697813095f2914a2e2c0869a148dd3fdd9f89f1443812d6a429e5327c4bc01",
+        "model": "f3eb8fa6d1b75899058a286710ee9cd9024dc5da86f6f44dfe4509abd69b7bbc"
+      },
+      "materials": [
+        {
+          "name": "wood_logs",
+          "carrier": "wood_logs",
+          "textures": [
+            {
+              "slot": "albedoTex",
+              "role": "wood",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\lumber\\textures\\wood_logs_wood_logs_albedoTex_wood.png",
+              "source_logical_path": "art/material_library/substances/structures/wood/6631572739627739061_packed.rrtex",
+              "source_sha256": "84bd6eff555a818641eec83af452cb879856e1f482663f46bd259fa7c3d40e71",
+              "sha256": "b940086dcb8a854d8c9f216f64fe1f2654b5f28a703fab7b33da11fb594f9abe",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "slot": "albedoTex2",
+              "role": "wood",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\lumber\\textures\\wood_logs_wood_logs_albedoTex2_wood.png",
+              "source_logical_path": "art/material_library/substances/structures/wood/2676810511410318039_packed.rrtex",
+              "source_sha256": "833c034c4f6563a267404347fe1a6831a2d4b2f4dd91da51c3fdb88b3eb3019b",
+              "sha256": "eb3a6cc5dd33b5c53faf0ad73a333d13a8f12744f1a03966b345a2e9421db3d8",
+              "width": 512,
+              "height": 512
+            }
+          ],
+          "parameters": {
+            "highlightColor1": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor1": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor1": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor2": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor2": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor2": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ]
+          },
+          "team_slots_preserved": []
+        }
+      ]
+    },
+    {
+      "name": "bow_saw",
+      "source": "art/civilizations/common/props/bow_saw/bow_saw.rgm",
+      "decode": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_2_5\\authors\\lumber\\stock\\9ba564a5158e131b6b7d\\decoded-static.json",
+      "source_hashes": {
+        "geometry": "4eed76a53c0ccb0f27f09a8c948464a4cbb2cfdaf20a2e447f997f562da7b685",
+        "material": "bd04691f533edd8cddf2e897d3e652c5591f798af981d72e924411604411ebdd",
+        "model": "b69f155e9f91cb39c0be6c16dd14a2fcdd43e2f07cff3b91f9edeb5f30f21108"
+      },
+      "materials": [
+        {
+          "name": "bow_saw",
+          "carrier": "bow_saw",
+          "textures": [
+            {
+              "slot": "albedoTex",
+              "role": "wood",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\lumber\\textures\\bow_saw_bow_saw_albedoTex_wood.png",
+              "source_logical_path": "art/material_library/substances/structures/wood/14259662789339030955_packed.rrtex",
+              "source_sha256": "6be1dac639f6b816267fa2985ae32b138109129a900bc2473594de8f1bbde507",
+              "sha256": "e6c93125dc9057997df67969a5518cca029a990743c87dcf9cdb01a4a213b431",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "slot": "albedoTex2",
+              "role": "wood",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\lumber\\textures\\bow_saw_bow_saw_albedoTex2_wood.png",
+              "source_logical_path": "art/material_library/substances/structures/wood/14420659823134052771_packed.rrtex",
+              "source_sha256": "f2e0f76025d93bbd5f381e64e80376f5c68b787d078a55892af601d63a34b367",
+              "sha256": "6aaa63c7703477e36ea9785c728ff53f00a57493d3759dd075a664e2b2dec21c",
+              "width": 512,
+              "height": 512
+            }
+          ],
+          "parameters": {
+            "highlightColor1": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor1": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor1": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor2": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor2": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor2": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ]
+          },
+          "team_slots_preserved": []
+        }
+      ]
+    },
+    {
+      "name": "com_lumber_camp_crane_age01",
+      "source": "art/civilizations/common/structures/lumber_camp/com_lumber_camp_crane_age01/com_lumber_camp_crane_age01.rgm",
+      "decode": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_2_5\\authors\\lumber\\stock\\c1b8771e3263c34cba0f\\decoded-static.json",
+      "source_hashes": {
+        "geometry": "d575467700cb88ecb8625358ef9b3c8afcdb65a74ad0c563a7ca8ecee9c96899",
+        "material": "de43d9bd569b26ded385f0724ddfb8dd6be5112920d2c49025f6d5ad33a9a9c2",
+        "model": "55ad1d5227fc5d14355e6439b6bbf91695fbf1de913f6241b50b087f3997834b"
+      },
+      "materials": [
+        {
+          "name": "crane",
+          "carrier": "com_lumber_camp_crane_age01",
+          "textures": [
+            {
+              "slot": "albedoTex",
+              "role": "wood",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\lumber\\textures\\com_lumber_camp_crane_age01_crane_albedoTex_wood.png",
+              "source_logical_path": "art/material_library/substances/structures/wood/14259662789339030955_packed.rrtex",
+              "source_sha256": "6be1dac639f6b816267fa2985ae32b138109129a900bc2473594de8f1bbde507",
+              "sha256": "e6c93125dc9057997df67969a5518cca029a990743c87dcf9cdb01a4a213b431",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "slot": "albedoTex2",
+              "role": "wood",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\lumber\\textures\\com_lumber_camp_crane_age01_crane_albedoTex2_wood.png",
+              "source_logical_path": "art/material_library/substances/structures/wood/13477809885520635358_packed.rrtex",
+              "source_sha256": "eda04b9b5e90470cf48a8082da121be0e3307f131b849c9f4aac2069f135fa31",
+              "sha256": "7d25be19ed527809469cae5c34c73821a3b36de78f8d4da77591f09992c67e3c",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "slot": "albedoTex3",
+              "role": "fabric",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\lumber\\textures\\com_lumber_camp_crane_age01_crane_albedoTex3_fabric.png",
+              "source_logical_path": "art/material_library/substances/structures/fabric/7597519659832404014_packed.rrtex",
+              "source_sha256": "2f1a5a751c1a8cb6fe77e89daff5978e4ed9f1a67dad15233eb0d80062fc780b",
+              "sha256": "d9237835562dfb95b4265693b05e98a434b1a72a90fb2f8b6e8f88d50fbf9318",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "slot": "albedoTex6",
+              "role": "wood",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\lumber\\textures\\com_lumber_camp_crane_age01_crane_albedoTex6_wood.png",
+              "source_logical_path": "art/material_library/substances/structures/wood/6258180502197242187_packed.rrtex",
+              "source_sha256": "84bd6eff555a818641eec83af452cb879856e1f482663f46bd259fa7c3d40e71",
+              "sha256": "b940086dcb8a854d8c9f216f64fe1f2654b5f28a703fab7b33da11fb594f9abe",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "slot": "albedoTex7",
+              "role": "wood",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\lumber\\textures\\com_lumber_camp_crane_age01_crane_albedoTex7_wood.png",
+              "source_logical_path": "art/material_library/substances/structures/wood/3276630836538442047_packed.rrtex",
+              "source_sha256": "833c034c4f6563a267404347fe1a6831a2d4b2f4dd91da51c3fdb88b3eb3019b",
+              "sha256": "eb3a6cc5dd33b5c53faf0ad73a333d13a8f12744f1a03966b345a2e9421db3d8",
+              "width": 512,
+              "height": 512
+            }
+          ],
+          "parameters": {
+            "highlightColor1": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor1": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor1": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor2": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor2": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor2": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor3": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor3": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor3": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor6": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor6": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor6": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor7": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor7": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor7": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ]
+          },
+          "team_slots_preserved": [
+            "albedoTex5",
+            "normalMap5",
+            "metalTex5"
+          ]
+        },
+        {
+          "name": "foundation",
+          "carrier": "com_lumber_camp_crane_age01_foundation",
+          "textures": [
+            {
+              "slot": "albedoTex",
+              "role": "wood",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\lumber\\textures\\com_lumber_camp_crane_age01_foundation_albedoTex_wood.png",
+              "source_logical_path": "art/material_library/substances/structures/wood/14259662789339030955_packed.rrtex",
+              "source_sha256": "6be1dac639f6b816267fa2985ae32b138109129a900bc2473594de8f1bbde507",
+              "sha256": "e6c93125dc9057997df67969a5518cca029a990743c87dcf9cdb01a4a213b431",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "slot": "albedoTex2",
+              "role": "earth",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\lumber\\textures\\com_lumber_camp_crane_age01_foundation_albedoTex2_earth.png",
+              "source_logical_path": "art/material_library/substances/structures/grout/934894132820687482_packed.rrtex",
+              "source_sha256": "597bbcad7a635cf545e0a7e52c0957c62cc9bf8094286812dfe0d41f028e6c65",
+              "sha256": "ecdf32ba2addf59f44104be371073079dbc2b44c037e3c942c69cf8cc9543182",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "slot": "albedoTex3",
+              "role": "wood",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\lumber\\textures\\com_lumber_camp_crane_age01_foundation_albedoTex3_wood.png",
+              "source_logical_path": "art/material_library/substances/structures/wood/3276630836538442047_packed.rrtex",
+              "source_sha256": "833c034c4f6563a267404347fe1a6831a2d4b2f4dd91da51c3fdb88b3eb3019b",
+              "sha256": "eb3a6cc5dd33b5c53faf0ad73a333d13a8f12744f1a03966b345a2e9421db3d8",
+              "width": 512,
+              "height": 512
+            }
+          ],
+          "parameters": {
+            "highlightColor1": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor1": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor1": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor2": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor2": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor2": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor3": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor3": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor3": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ]
+          },
+          "team_slots_preserved": []
+        }
+      ]
+    },
+    {
+      "name": "buildpile_wood_lumber",
+      "source": "art/civilizations/common/props/buildpile_wood_lumber/buildpile_wood_lumber.rgm",
+      "decode": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\output\\berber_update_0_2_5\\authors\\lumber\\stock\\f35688a9a0e9188eccf4\\decoded-static.json",
+      "source_hashes": {
+        "geometry": "b3709413c529e76e01ad3416268dbfe31d0bbdd6e85a8c4d3ee7307efbcb9b07",
+        "material": "5abcebb7b2aa0d7c7012d20e37030d57b57a7436a0c9a5e003f08df6c4e62b44",
+        "model": "0b5342a7c5ec5b25aec1bbbed77b9fdaf59e2cb2f307c38a9a816d42dd15f547"
+      },
+      "materials": [
+        {
+          "name": "lumber",
+          "carrier": "buildpile_wood_lumber",
+          "textures": [
+            {
+              "slot": "albedoTex",
+              "role": "wood",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\lumber\\textures\\buildpile_wood_lumber_lumber_albedoTex_wood.png",
+              "source_logical_path": "art/material_library/substances/structures/wood/6631572739627739061_packed.rrtex",
+              "source_sha256": "84bd6eff555a818641eec83af452cb879856e1f482663f46bd259fa7c3d40e71",
+              "sha256": "b940086dcb8a854d8c9f216f64fe1f2654b5f28a703fab7b33da11fb594f9abe",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "slot": "albedoTex2",
+              "role": "wood",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\lumber\\textures\\buildpile_wood_lumber_lumber_albedoTex2_wood.png",
+              "source_logical_path": "art/material_library/substances/structures/wood/11197071834221165489_packed.rrtex",
+              "source_sha256": "f2e0f76025d93bbd5f381e64e80376f5c68b787d078a55892af601d63a34b367",
+              "sha256": "6aaa63c7703477e36ea9785c728ff53f00a57493d3759dd075a664e2b2dec21c",
+              "width": 512,
+              "height": 512
+            },
+            {
+              "slot": "albedoTex4",
+              "role": "wood",
+              "image": "E:\\age of empires 4 mods\\AI_Assisted_modding\\Berber_future_kingdom_ai\\art\\economy_remix_0_2_5\\lumber\\textures\\buildpile_wood_lumber_lumber_albedoTex4_wood.png",
+              "source_logical_path": "art/material_library/substances/structures/wood/5247744014950306021_packed.rrtex",
+              "source_sha256": "6be1dac639f6b816267fa2985ae32b138109129a900bc2473594de8f1bbde507",
+              "sha256": "e6c93125dc9057997df67969a5518cca029a990743c87dcf9cdb01a4a213b431",
+              "width": 512,
+              "height": 512
+            }
+          ],
+          "parameters": {
+            "highlightColor1": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor1": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor1": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor2": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor2": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor2": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ],
+            "highlightColor4": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "midtoneColor4": [
+              0.84,
+              0.84,
+              0.84,
+              1
+            ],
+            "shadowColor4": [
+              0.6,
+              0.6,
+              0.6,
+              1
+            ]
+          },
+          "team_slots_preserved": []
+        }
+      ]
+    }
+  ]
+}
