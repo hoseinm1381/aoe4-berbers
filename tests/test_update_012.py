@@ -45,7 +45,9 @@ class Update012(unittest.TestCase):
       self.assertGreaterEqual(len(traits),7)
       for trait in traits[1:]:self.assertFalse(child(trait,'icon').value.startswith('garrison\\'))
  def test_native_world_media_unchanged_and_audio_paths_only(self):
-  old=read_json(ROOT/'docs/update_012/before/inputs/native-manifest.json');new=read_json(ROOT/'inputs/native-manifest.json')
+  old=read_json(ROOT/'docs/update_012/before/inputs/native-manifest.json')
+  snapshot=ROOT/'docs/update_013/baseline-native-inputs.json.gz'
+  new=json.loads(gzip.decompress(snapshot.read_bytes())) if snapshot.exists() else read_json(ROOT/'inputs/native-manifest.json')
   for m,row in old.items():
    if not m.startswith('audio/'):self.assertEqual(row,new[m])
   if self.cfg['race']!='berbers':self.assertEqual(old,new);return

@@ -1,4 +1,13 @@
-# Current source upload authorization - 2026-11-01
+# Current owner authorization — 2026-11-11
+
+The owner requested dynamic player colors for the standalone Garrison Berbers,
+with 5–25% building and 10–50% unit coverage, unit LODs, and the highest building
+detail only. Build the update, retire verified regenerable staging, push the
+source and attach the playable ZIP to its GitHub release. Preserve the 0.1.2
+rollback and editable inputs. Native appearance and performance are separate
+gates. This approval is for 0.1.3 only.
+
+# Historical source upload authorization - 2026-11-01
 
 The owner requested uploading all four standalone civilization sources now,
 including current editable masters and native rebuild inputs. Known minor issues

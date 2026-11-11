@@ -1,0 +1,16 @@
+{
+  "unit_resources": 53,
+  "unit_lods_per_resource": 3,
+  "unit_range": [
+    0.1054,
+    0.4483
+  ],
+  "building_resources_in_target": 53,
+  "building_range": [
+    0.0894,
+    0.1931
+  ],
+  "packaged_building_mesh_groups_one_lod": 337,
+  "coverage_basis": "area-weighted four-point triangle UV sampling, native mask channels at or above 128; structure collection samples include inactive lifecycle states",
+  "runtime": "pending"
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "model": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/model",
+    "family": "tribal tent",
+    "old_shader": "object_collection",
+    "new_shader": "structure_collection",
+    "coverage": 0.1021,
+    "mask": "art/scenario/berbers_owner_013/building_mask_1bd72745ea0a0472d356.rrtex",
+    "initial_authored_mask_coverage": 0.1021,
+    "native_recook_geometry_equal": true,
+    "position_uv0_tangent_index_bytes_preserved": true,
+    "selectors_and_rgo_preserved": true
+  },
+  {
+    "model": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/model",
+    "family": "tribal tent",
+    "old_shader": "object_collection",
+    "new_shader": "structure_collection",
+    "coverage": 0.1804,
+    "mask": "art/scenario/berbers_owner_013/building_mask_bd9f44197355b8141a18.rrtex",
+    "initial_authored_mask_coverage": 0.2629,
+    "native_recook_geometry_equal": true,
+    "position_uv0_tangent_index_bytes_preserved": true,
+    "selectors_and_rgo_preserved": true
+  },
+  {
+    "model": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/model",
+    "family": "tribal tent",
+    "old_shader": "object_collection",
+    "new_shader": "structure_collection",
+    "coverage": 0.1718,
+    "mask": "art/scenario/berbers_owner_013/building_mask_9702e91503b82d5f0f86.rrtex",
+    "initial_authored_mask_coverage": 0.1718,
+    "native_recook_geometry_equal": true,
+    "position_uv0_tangent_index_bytes_preserved": true,
+    "selectors_and_rgo_preserved": true
+  },
+  {
+    "model": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/model",
+    "family": "tribal tent",
+    "old_shader": "object_collection",
+    "new_shader": "structure_collection",
+    "coverage": 0.1931,
+    "mask": "art/scenario/berbers_owner_013/building_mask_d5c61fa0f029c681966a.rrtex",
+    "initial_authored_mask_coverage": 0.1931,
+    "native_recook_geometry_equal": true,
+    "position_uv0_tangent_index_bytes_preserved": true,
+    "selectors_and_rgo_preserved": true
+  },
+  {
+    "model": "art/scenario/garrison/bf027_funduq/buildings/funduq_lod0/model",
+    "family": "funduq_lod0",
+    "old_shader": "object_collection",
+    "new_shader": "structure_collection",
+    "coverage": 0.1235,
+    "mask": "art/scenario/berbers_owner_013/building_mask_a0d4a6e24560401d21c7.rrtex",
+    "initial_authored_mask_coverage": null,
+    "native_recook_geometry_equal": false,
+    "position_uv0_tangent_index_bytes_preserved": true,
+    "selectors_and_rgo_preserved": true
+  },
+  {
+    "model": "art/scenario/garrison/br027_ribat/buildings/ribat_lod0/model",
+    "family": "ribat_lod0",
+    "old_shader": "object_collection",
+    "new_shader": "structure_collection",
+    "coverage": 0.12,
+    "mask": "art/scenario/berbers_owner_013/building_mask_b3aa7fa6642ef4075966.rrtex",
+    "initial_authored_mask_coverage": null,
+    "native_recook_geometry_equal": false,
+    "position_uv0_tangent_index_bytes_preserved": true,
+    "selectors_and_rgo_preserved": true
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_040/buildings/fez_lod0/model",
+    "family": "fez_lod0",
+    "old_shader": "object_collection",
+    "new_shader": "structure_collection",
+    "coverage": 0.12,
+    "mask": "art/scenario/berbers_owner_013/building_mask_e42a45b7c412cc48edb0.rrtex",
+    "initial_authored_mask_coverage": null,
+    "native_recook_geometry_equal": false,
+    "position_uv0_tangent_index_bytes_preserved": true,
+    "selectors_and_rgo_preserved": true
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_040/buildings/grand_keep_lod0/model",
+    "family": "grand_keep_lod0",
+    "old_shader": "object_collection",
+    "new_shader": "structure_collection",
+    "coverage": 0.12,
+    "mask": "art/scenario/berbers_owner_013/building_mask_6f70348d0eb585d5e840.rrtex",
+    "initial_authored_mask_coverage": null,
+    "native_recook_geometry_equal": false,
+    "position_uv0_tangent_index_bytes_preserved": true,
+    "selectors_and_rgo_preserved": true
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_040/buildings/koutoubia_lod0/model",
+    "family": "koutoubia_lod0",
+    "old_shader": "object_collection",
+    "new_shader": "structure_collection",
+    "coverage": 0.12,
+    "mask": "art/scenario/berbers_owner_013/building_mask_cb09cd84a31ea934583b.rrtex",
+    "initial_authored_mask_coverage": null,
+    "native_recook_geometry_equal": false,
+    "position_uv0_tangent_index_bytes_preserved": true,
+    "selectors_and_rgo_preserved": true
+  }
+]

@@ -1,0 +1,590 @@
+[
+  {
+    "model": "art/scenario/garrison/bb026/barracks_age1/barracks_age1.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0145,
+    "updated": 0.1051,
+    "changed": [
+      "control_main",
+      "control_main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/bb026/barracks_age2/barracks_age2.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0028,
+    "updated": 0.1051,
+    "changed": [
+      "control_main",
+      "control_main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/bb026/barracks_age3/barracks_age3.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0075,
+    "updated": 0.105,
+    "changed": [
+      "control_main",
+      "control_main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/bb026/barracks_age4/barracks_age4.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0293,
+    "updated": 0.1073,
+    "changed": [
+      "control_extra",
+      "control_extra_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/bd026/dock_age2/dock_age2.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0382,
+    "updated": 0.108,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/bd026/dock_age3/dock_age3.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0415,
+    "updated": 0.1053,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/bd026/dock_age4/dock_age4.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0092,
+    "updated": 0.1052,
+    "changed": [
+      "extra",
+      "extra_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/bd026/piers_age2/piers_age2.rrmaterial",
+    "skipped": "No verified stock team layer 5\u20137"
+  },
+  {
+    "model": "art/scenario/garrison/bd026/piers_age4/piers_age4.rrmaterial",
+    "skipped": "No verified stock team layer 5\u20137"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_030/archery_range_age02/archery_range_age02.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0061,
+    "updated": 0.1059,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_030/archery_range_age03/archery_range_age03.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0155,
+    "updated": 0.1149,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_030/archery_range_age04/archery_range_age04.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0182,
+    "updated": 0.1058,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_030/blacksmith_age02/blacksmith_age02.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0326,
+    "updated": 0.1099,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_030/blacksmith_age03/blacksmith_age03.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0324,
+    "updated": 0.1097,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_030/blacksmith_age04/blacksmith_age04.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0161,
+    "updated": 0.1074,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_030/market_age02/market_age02.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0134,
+    "updated": 0.1075,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_030/market_age03/market_age03.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0131,
+    "updated": 0.1086,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_030/market_age04/market_age04.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0314,
+    "updated": 0.1062,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_030/stable_age02/stable_age02.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0094,
+    "updated": 0.1066,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_030/stable_age03/stable_age03.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0069,
+    "updated": 0.1045,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_030/stable_age04/stable_age04.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.014,
+    "updated": 0.1059,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_031/keep_age03/keep_age03.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0136,
+    "updated": 0.1049,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_031/keep_age04/keep_age04.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0129,
+    "updated": 0.1055,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_031/market_age02/market_age02.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.02,
+    "updated": 0.108,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_031/market_age03/market_age03.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0187,
+    "updated": 0.1104,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_031/market_age04/market_age04.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0368,
+    "updated": 0.1083,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_031/marrakech_age03/marrakech_age03.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0147,
+    "updated": 0.1051,
+    "changed": [
+      "extra",
+      "extra_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_031/marrakech_age04/marrakech_age04.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0136,
+    "updated": 0.1059,
+    "changed": [
+      "extra",
+      "extra_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_031/mosque_age03/mosque_age03.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0261,
+    "updated": 0.1559,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_031/mosque_age04/mosque_age04.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0272,
+    "updated": 0.1066,
+    "changed": [
+      "extra",
+      "extra_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_031/siege_age03/siege_age03.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0102,
+    "updated": 0.1089,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_031/siege_age04/siege_age04.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0143,
+    "updated": 0.1062,
+    "changed": [
+      "extra",
+      "extra_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_031/tlemcen_age03/tlemcen_age03.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0348,
+    "updated": 0.1056,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_031/tlemcen_age04/tlemcen_age04.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.035,
+    "updated": 0.1059,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_040/buildings/fez_lod0/model.rrmaterial",
+    "skipped": "No verified stock team layer 5\u20137"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_040/buildings/grand_keep_lod0/model.rrmaterial",
+    "skipped": "No verified stock team layer 5\u20137"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_040/buildings/koutoubia_lod0/model.rrmaterial",
+    "skipped": "No verified stock team layer 5\u20137"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_040/owner_flag/model.rrmaterial",
+    "skipped": "No verified stock team layer 5\u20137"
+  },
+  {
+    "model": "art/scenario/garrison/berber_buildings_040/university_age04/university_age04.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.008,
+    "updated": 0.1067,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_house_022/house_age1/house_age1.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0278,
+    "updated": 0.108,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_house_022/house_age2/house_age2.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0209,
+    "updated": 0.1061,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_house_022/house_age3/house_age3.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0235,
+    "updated": 0.1036,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_house_022/house_age4/house_age4.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0217,
+    "updated": 0.1086,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_lumber_025/bow_saw/bow_saw.rrmaterial",
+    "skipped": "No verified stock team layer 5\u20137"
+  },
+  {
+    "model": "art/scenario/garrison/berber_lumber_025/buildpile_wood_lumber/buildpile_wood_lumber.rrmaterial",
+    "skipped": "No verified stock team layer 5\u20137"
+  },
+  {
+    "model": "art/scenario/garrison/berber_lumber_025/com_lumber_camp_crane_age01/com_lumber_camp_crane_age01.rrmaterial",
+    "skipped": "No matching structure projection"
+  },
+  {
+    "model": "art/scenario/garrison/berber_lumber_025/wood_logs/wood_logs.rrmaterial",
+    "skipped": "No verified stock team layer 5\u20137"
+  },
+  {
+    "model": "art/scenario/garrison/berber_mill_025/mill/mill.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0139,
+    "updated": 0.1111,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_mining_025/combined/combined.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0078,
+    "updated": 0.1056,
+    "changed": [
+      "mining_furnace",
+      "mining_furnace_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/model.rrmaterial",
+    "skipped": "No verified stock team layer 5\u20137"
+  },
+  {
+    "model": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/model.rrmaterial",
+    "skipped": "No verified stock team layer 5\u20137"
+  },
+  {
+    "model": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/model.rrmaterial",
+    "skipped": "No verified stock team layer 5\u20137"
+  },
+  {
+    "model": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/model.rrmaterial",
+    "skipped": "No verified stock team layer 5\u20137"
+  },
+  {
+    "model": "art/scenario/garrison/bf027_funduq/buildings/funduq_lod0/model.rrmaterial",
+    "skipped": "No verified stock team layer 5\u20137"
+  },
+  {
+    "model": "art/scenario/garrison/bf027_funduq/owner_flag/model.rrmaterial",
+    "skipped": "No verified stock team layer 5\u20137"
+  },
+  {
+    "model": "art/scenario/garrison/bo026/base/base.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0,
+    "updated": 0.0,
+    "changed": [],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/bo026/stone/stone.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0,
+    "updated": 0.0,
+    "changed": [],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/br027_ribat/buildings/ribat_lod0/model.rrmaterial",
+    "skipped": "No verified stock team layer 5\u20137"
+  },
+  {
+    "model": "art/scenario/garrison/br027_ribat/owner_flag/model.rrmaterial",
+    "skipped": "No verified stock team layer 5\u20137"
+  },
+  {
+    "model": "art/scenario/garrison/bt026/fence_age1/fence_age1.rrmaterial",
+    "skipped": "No verified stock team layer 5\u20137"
+  },
+  {
+    "model": "art/scenario/garrison/bt026/fence_age2/fence_age2.rrmaterial",
+    "skipped": "No verified stock team layer 5\u20137"
+  },
+  {
+    "model": "art/scenario/garrison/bt026/fence_age3/fence_age3.rrmaterial",
+    "skipped": "No verified stock team layer 5\u20137"
+  },
+  {
+    "model": "art/scenario/garrison/bt026/fence_age4/fence_age4.rrmaterial",
+    "skipped": "No verified stock team layer 5\u20137"
+  },
+  {
+    "model": "art/scenario/garrison/bt026/tc_age1/tc_age1.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0221,
+    "updated": 0.1064,
+    "changed": [
+      "gate_main",
+      "gate_main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/bt026/tc_age2/tc_age2.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0133,
+    "updated": 0.0925,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/bt026/tc_age3/tc_age3.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0133,
+    "updated": 0.0925,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/bt026/tc_age4/tc_age4.rrmaterial",
+    "projection": "native RGM collection table",
+    "baseline": 0.0329,
+    "updated": 0.0894,
+    "changed": [
+      "main",
+      "main_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  },
+  {
+    "model": "art/scenario/garrison/bw026/mill_windmill/mill_windmill.rrmaterial",
+    "projection": "authoring/original/art/building_remix_0_2_6/windmill/remix-projection.json",
+    "baseline": 0.0243,
+    "updated": 0.1078,
+    "changed": [
+      "windmill",
+      "windmill_collection"
+    ],
+    "sample": "all decoded collection surfaces, including dormant states"
+  }
+]

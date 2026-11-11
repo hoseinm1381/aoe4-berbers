@@ -1,6 +1,6 @@
-# Berbers — Garrison 0.1.2 local test candidate
+# Berbers — Garrison 0.1.3
 
-Import **Berbers-Garrison-0.1.2.zip** through Garrison 0.1.9 or newer. Enable
+Import **Berbers-Garrison-0.1.3.zip** through Garrison 0.1.9 or newer. Enable
 Berbers, disable the previous version and the combined pack, and choose
 Berbers directly in the civilization dropdown. Use native Standard, Tuning Pack
 None, a human player, standard starting army/resources and Dark Age.
@@ -9,6 +9,13 @@ This ZIP contains the complete playable civilization. No separate art or sound
 download is needed. Developers use the complete editable source repository.
 
 Focused retest:
+
+- Choose two distinct player colors. In AoE IV use **Settings → Game → Player
+  Colors → Unique** to see the chosen colors. Check Tribal Tents, Town
+  Centers, houses, military buildings and landmarks for cloth and trim color.
+- Compare Scouts, Villagers, Tuareg, Mehari, Zenata and Masmuda across age
+  upgrades and zoom distances. The custom buildings ship one detail level per
+  mesh, with construction, damage, and ruin states still available.
 
 1. Open Overview: check the selector flag and plural name; scroll through
    Bonuses, Unique Units and Unique Technologies. Berbers should list their
@@ -22,10 +29,9 @@ Focused retest:
    For Berbers, also test Tribal Reforms/Dynasties, Desert Pathfinding and Call
    from the Minbar; listen to speech and music across age/combat transitions.
 
-Native 0.1.2 appearance, listening quality, gameplay, AI, repeated matches,
+Native 0.1.3 appearance, listening quality, gameplay, AI, repeated matches,
 save/load, multiplayer and performance require testing. Package/readback checks
 do not establish those results. See docs/UPDATE_012.md in the source repository.
 
 Credits: hosein81, marcokistan, Karyu, lammet and ForsakenCryz. Stable mod identity and editable masters are preserved.
-Do not publish or push until the owner accepts in-game and gives a separate,
-explicit manual push instruction. Nothing is installed by the build tools.
+Nothing is installed by the build tools.
