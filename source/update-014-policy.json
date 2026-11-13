@@ -1,0 +1,16 @@
+{
+  "baseline_version": "0.1.3",
+  "allowed_changed": [
+    "art/scenario/garrison/berber_buildings_040/buildings/fez_lod0/model.rrmaterial",
+    "art/scenario/garrison/berber_buildings_040/buildings/grand_keep_lod0/model.rrmaterial",
+    "art/scenario/garrison/berber_buildings_040/buildings/koutoubia_lod0/model.rrmaterial",
+    "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/model.rrmaterial",
+    "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/model.rrmaterial",
+    "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/model.rrmaterial",
+    "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/model.rrmaterial",
+    "art/scenario/garrison/bf027_funduq/buildings/funduq_lod0/model.rrmaterial",
+    "art/scenario/garrison/br027_ribat/buildings/ribat_lod0/model.rrmaterial"
+  ],
+  "allowed_added": [],
+  "allowed_removed": []
+}

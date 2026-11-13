@@ -1,0 +1,141 @@
+[
+  {
+    "member": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age1/model.rrmaterial",
+    "material_slots": [
+      "berber_tent_age1_atlas baked atlas",
+      "berber_tent_age1_atlas baked atlas_collection"
+    ],
+    "native_structure_options": [
+      64,
+      0,
+      1,
+      8
+    ],
+    "owner_layer": "blue maskTex5 -> albedoTex7",
+    "original_lifecycle_preserved": true,
+    "recooked_geometry_matches": true
+  },
+  {
+    "member": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age2/model.rrmaterial",
+    "material_slots": [
+      "berber_tent_age2_atlas baked atlas",
+      "berber_tent_age2_atlas baked atlas_collection"
+    ],
+    "native_structure_options": [
+      64,
+      0,
+      1,
+      8
+    ],
+    "owner_layer": "blue maskTex5 -> albedoTex7",
+    "original_lifecycle_preserved": true,
+    "recooked_geometry_matches": true
+  },
+  {
+    "member": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age3/model.rrmaterial",
+    "material_slots": [
+      "berber_tent_age3_atlas baked atlas",
+      "berber_tent_age3_atlas baked atlas_collection"
+    ],
+    "native_structure_options": [
+      64,
+      0,
+      1,
+      8
+    ],
+    "owner_layer": "blue maskTex5 -> albedoTex7",
+    "original_lifecycle_preserved": true,
+    "recooked_geometry_matches": true
+  },
+  {
+    "member": "art/scenario/garrison/berber_tent_art_020/buildings/berber_tent_age4/model.rrmaterial",
+    "material_slots": [
+      "berber_tent_age4_atlas baked atlas",
+      "berber_tent_age4_atlas baked atlas_collection"
+    ],
+    "native_structure_options": [
+      64,
+      0,
+      1,
+      8
+    ],
+    "owner_layer": "blue maskTex5 -> albedoTex7",
+    "original_lifecycle_preserved": true,
+    "recooked_geometry_matches": true
+  },
+  {
+    "member": "art/scenario/garrison/bf027_funduq/buildings/funduq_lod0/model.rrmaterial",
+    "material_slots": [
+      "funduqoriginalatlas",
+      "funduqoriginalatlas_collection"
+    ],
+    "native_structure_options": [
+      64,
+      0,
+      1,
+      8
+    ],
+    "owner_layer": "blue maskTex5 -> albedoTex7",
+    "original_lifecycle_preserved": true
+  },
+  {
+    "member": "art/scenario/garrison/br027_ribat/buildings/ribat_lod0/model.rrmaterial",
+    "material_slots": [
+      "berberribat_originalatlas2048",
+      "berberribat_originalatlas2048_collection"
+    ],
+    "native_structure_options": [
+      64,
+      0,
+      1,
+      8
+    ],
+    "owner_layer": "blue maskTex5 -> albedoTex7",
+    "original_lifecycle_preserved": true
+  },
+  {
+    "member": "art/scenario/garrison/berber_buildings_040/buildings/fez_lod0/model.rrmaterial",
+    "material_slots": [
+      "090_fez_cedar_stucco_zellij",
+      "090_fez_cedar_stucco_zellij_collection"
+    ],
+    "native_structure_options": [
+      64,
+      0,
+      1,
+      8
+    ],
+    "owner_layer": "blue maskTex5 -> albedoTex7",
+    "original_lifecycle_preserved": true
+  },
+  {
+    "member": "art/scenario/garrison/berber_buildings_040/buildings/grand_keep_lod0/model.rrmaterial",
+    "material_slots": [
+      "040_grand_keep_native_textured_atlas",
+      "040_grand_keep_native_textured_atlas_collection"
+    ],
+    "native_structure_options": [
+      64,
+      0,
+      1,
+      8
+    ],
+    "owner_layer": "blue maskTex5 -> albedoTex7",
+    "original_lifecycle_preserved": true
+  },
+  {
+    "member": "art/scenario/garrison/berber_buildings_040/buildings/koutoubia_lod0/model.rrmaterial",
+    "material_slots": [
+      "090_koutoubia_monumental_mosque_textured_material",
+      "090_koutoubia_monumental_mosque_textured_material_collection"
+    ],
+    "native_structure_options": [
+      64,
+      0,
+      1,
+      8
+    ],
+    "owner_layer": "blue maskTex5 -> albedoTex7",
+    "original_lifecycle_preserved": true
+  }
+]

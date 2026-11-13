@@ -1,9 +1,9 @@
 # Berbers — independent Garrison civilization
 
-Current release: **0.1.3**. It strengthens dynamic player colors on Berber
-buildings and units and retains unit LODs. Packaged custom buildings use
-one detail level per mesh. Native in-game appearance is pending.
-See [player color changes and coverage](docs/UPDATE_013.md).
+Current release **0.1.5**. Restores the original rendering resources for Tribal Tents and five converted landmarks.
+Fresh-match verification is pending.
+
+[Download the playable ZIP](https://github.com/hoseinm1381/aoe4-berbers/releases/tag/v0.1.5) · [Build notes](docs/UPDATE_015.md).
 
 0.1.2 populates native Unique Units/Technologies, explains the actual civilization
 mechanics, corrects research ages and spaces tech-tree icons at the native pitch.

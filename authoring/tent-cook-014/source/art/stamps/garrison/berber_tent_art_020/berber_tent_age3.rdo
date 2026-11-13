@@ -1,0 +1,57 @@
+<DataWarehouse>
+  <DataObject Name="" Type="StampBlueprint" Id="6121967494105140634">
+    <DataProperty Name="#BaseTypes" Type="String" Value="IPrecacheableReflectObject#0|util::ReflectObject&lt;StdTraits&gt;#0|" />
+    <DataProperty Name="m_objectID" Type="UInt64" Value="6121967494105140634" />
+    <DataProperty Name="m_typeID" Type="UInt64" Value="12982472179336527391" />
+    <DataProperty Name="m_blueprints" Type="Object">
+      <DataValue Name="VisualStampBlueprint">10805777406220632758</DataValue>
+      <DataObject Name="" Type="VisualStampBlueprint" Id="10805777406220632758" OwnerId="6121967494105140634">
+        <DataProperty Name="#BaseTypes" Type="String" Value="IStampBlueprint#0|IPrecacheableReflectObject#0|util::ReflectObject&lt;StdTraits&gt;#0|" />
+        <DataProperty Name="m_objectID" Type="UInt64" Value="10805777406220632758" />
+        <DataProperty Name="m_typeID" Type="UInt64" Value="2424703792443530443" />
+        <DataProperty Name="m_blueprint" Type="String" Value="art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\model" />
+        <DataProperty Name="m_layer" Type="Object" />
+        <DataProperty Name="m_heightConstraint" Type="Object" />
+        <DataProperty Name="m_alignConstraint" Type="Object" />
+        <DataProperty Name="m_offsetConstraint" Type="Object" />
+        <DataProperty Name="m_terrainOffset" Type="Object" />
+        <DataProperty Name="m_isSelectable" Type="Bool" Value="true" />
+        <DataProperty Name="m_transform" Type="Object">
+          <DataValue Name="Transform">13311146615708130079</DataValue>
+          <DataObject Name="" Type="Transform" Id="13311146615708130079" OwnerId="10805777406220632758">
+            <DataProperty Name="m_rotation" Type="Object">
+              <DataValue Name="Math::Quaternionf">9385288195316190392</DataValue>
+              <DataObject Name="" Type="Math::Quaternionf" Id="9385288195316190392" OwnerId="13311146615708130079">
+                <DataProperty Name="#BaseTypes" Type="String" Value="float#1952542572|float#1952542572|float#1952542572|float#1952542572|" />
+                <DataProperty Name="s" Type="Float" Value="1" />
+                <DataProperty Name="x" Type="Float" Value="0" />
+                <DataProperty Name="y" Type="Float" Value="0" />
+                <DataProperty Name="z" Type="Float" Value="0" />
+              </DataObject>
+            </DataProperty>
+            <DataProperty Name="m_translation" Type="Object">
+              <DataValue Name="Math::Vector3f">7451742096114601976</DataValue>
+              <DataObject Name="" Type="Math::Vector3f" Id="7451742096114601976" OwnerId="13311146615708130079">
+                <DataProperty Name="#BaseTypes" Type="String" Value="float#1952542572|float#1952542572|float#1952542572|" />
+                <DataProperty Name="x" Type="Float" Value="0" />
+                <DataProperty Name="y" Type="Float" Value="0" />
+                <DataProperty Name="z" Type="Float" Value="0" />
+              </DataObject>
+            </DataProperty>
+            <DataProperty Name="m_scale" Type="Object">
+              <DataValue Name="Math::Vector3f">5607306694083635574</DataValue>
+              <DataObject Name="" Type="Math::Vector3f" Id="5607306694083635574" OwnerId="13311146615708130079">
+                <DataProperty Name="#BaseTypes" Type="String" Value="float#1952542572|float#1952542572|float#1952542572|" />
+                <DataProperty Name="x" Type="Float" Value="1" />
+                <DataProperty Name="y" Type="Float" Value="1" />
+                <DataProperty Name="z" Type="Float" Value="1" />
+              </DataObject>
+            </DataProperty>
+          </DataObject>
+        </DataProperty>
+        <DataProperty Name="m_addToPathfinding" Type="Bool" Value="true" />
+        <DataProperty Name="m_attachmentName" Type="String" Value="" />
+      </DataObject>
+    </DataProperty>
+  </DataObject>
+</DataWarehouse>

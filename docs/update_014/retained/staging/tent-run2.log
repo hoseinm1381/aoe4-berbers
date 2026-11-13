@@ -1,0 +1,64 @@
+{
+  "schema": "garrison.essence-run/v1",
+  "status": "succeeded",
+  "started_at_utc": "2026-11-13T09:50:21.735591Z",
+  "editor": {
+    "path": "C:\\Users\\RS\\AppData\\Local\\Garrison\\Kit\\tools\\essence-object-editor\\EssenceEditor.exe",
+    "sha256": "2a7c31140c50fcb411644a03efaf1237cc46305c8e5249f5ea299e115dd89de5",
+    "size_bytes": 10242880,
+    "profile": null,
+    "accepted_by": "capability-probe"
+  },
+  "mod": {
+    "path": "F:\\aoe_4_temp\\Community_civilization_pack_garrison_temp\\visual-repair-20261113\\berbers\\tent-cook\\project\\berber_tent_art_020.aoe4mod",
+    "namespace": "http://schemas.datacontract.org/2004/07/Essence.Editor.Modding",
+    "mod_id": "1d3145e8-f1b2-427f-8bb0-067851fcf0f1",
+    "mod_type": "Extension",
+    "data_generic_path": "source\\",
+    "data_intermediate_path": "cache",
+    "locdb_path": "locdb\\berber_tent_art_020.locdb",
+    "burn_project_path": "F:\\aoe_4_temp\\Community_civilization_pack_garrison_temp\\visual-repair-20261113\\berbers\\tent-cook\\project\\source\\_default.burnproj"
+  },
+  "run_root": "F:\\aoe_4_temp\\Community_civilization_pack_garrison_temp\\visual-repair-20261113\\berbers\\tent-run2",
+  "command": [
+    "C:\\Users\\RS\\AppData\\Local\\Garrison\\Kit\\tools\\essence-object-editor\\EssenceEditor.exe",
+    "-rtm",
+    "--safe_settings",
+    "--do_not_restore",
+    "--quiet_crash_report",
+    "--no_source_control",
+    "--log_path",
+    "F:\\aoe_4_temp\\Community_civilization_pack_garrison_temp\\visual-repair-20261113\\berbers\\tent-run2\\logs",
+    "--build_mod",
+    "F:\\aoe_4_temp\\Community_civilization_pack_garrison_temp\\visual-repair-20261113\\berbers\\tent-cook\\project\\berber_tent_art_020.aoe4mod",
+    "--no_burn_window",
+    "--burn_verbose_log_level",
+    "--burn_cache_type",
+    "Local",
+    "--burn_max_threads",
+    "1",
+    "--build_path",
+    "F:\\aoe_4_temp\\Community_civilization_pack_garrison_temp\\visual-repair-20261113\\berbers\\tent-run2\\output",
+    "--intermediate_path",
+    "F:\\aoe_4_temp\\Community_civilization_pack_garrison_temp\\visual-repair-20261113\\berbers\\tent-run2\\intermediate"
+  ],
+  "working_directory": "C:\\Users\\RS\\AppData\\Local\\Garrison\\Kit\\tools\\essence-object-editor",
+  "timeout_seconds": 180.0,
+  "intermediate_mode": "isolated-run",
+  "generated_write_scope": [
+    "F:\\aoe_4_temp\\Community_civilization_pack_garrison_temp\\visual-repair-20261113\\berbers\\tent-run2\\intermediate",
+    "F:\\aoe_4_temp\\Community_civilization_pack_garrison_temp\\visual-repair-20261113\\berbers\\tent-run2\\output"
+  ],
+  "finished_at_utc": "2026-11-13T09:51:37.916217Z",
+  "duration_seconds": 76.163,
+  "raw_exit_code": 0,
+  "exit_code": 0,
+  "timed_out": false,
+  "diagnostics": [],
+  "logs": {
+    "application_directory": "F:\\aoe_4_temp\\Community_civilization_pack_garrison_temp\\visual-repair-20261113\\berbers\\tent-run2\\logs",
+    "burn": null,
+    "stdout": "F:\\aoe_4_temp\\Community_civilization_pack_garrison_temp\\visual-repair-20261113\\berbers\\tent-run2\\logs\\stdout.log",
+    "stderr": "F:\\aoe_4_temp\\Community_civilization_pack_garrison_temp\\visual-repair-20261113\\berbers\\tent-run2\\logs\\stderr.log"
+  }
+}

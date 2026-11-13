@@ -1,0 +1,616 @@
+EssenceEditor.exe Information: 0 : Building [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\berber_tent_art_020.aoe4mod]...
+EssenceEditor.exe Information: 0 : Loading step: [ReflectPostExternalSystemsInited]
+EssenceEditor.exe Information: 0 : Loading step: [ModPackManager]
+EssenceEditor.exe Information: 0 : Loading step: [ModDllSetup]
+EssenceEditor.exe Information: 0 : Loading step: [IEngineInitializable]
+EssenceEditor.exe Information: 0 : FILESYSTEM -- filepath failure, missing alias 'generic:editor\mecommand.lua'
+EssenceEditor.exe Information: 0 : Failed to load lua file 'generic:editor\mecommand.lua'
+EssenceEditor.exe Information: 0 : Loading step: [dbImGui]
+EssenceEditor.exe Information: 0 : Loading step: [SystemConfigAppInitComplete]
+Planning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\]...
+Filter matched 24 rules.
+Creating [Archive] package...
+Package started at [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-run2\intermediate\archives\berber_tent_art_020.sga].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\model.fbx] using [RGM] with [RGM Static | PC, XBO, XBS, PS5]...
+Not merging meshes for [<non-shared resource>]
+Burnt [1] outputs in [00:00:00.1770964] for [26437ce04604cfa5c25af80b2e845bdd348678ff].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\model.fbx] using [RGO] with [Static RGO | PC, XBO, XBS, PS5]...
+Burn preview indicated no outputs.
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\model.fbx] using [RRGeometry] with [Static RR Geometry | PC, XBO, XBS, PS5]...
+Not merging meshes for [<non-shared resource>]
+Burnt [1] outputs in [00:00:00.1286609] for [0a1e4f171b6ad621c3d35f9429bceee52c0fe716].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\model.material] using [RR Material Burner] with [Static Material | PC, XBO, XBS, PS5]...
+Attempting to find a texture in the .material with the same name as the texture entry (albedoTexGen7)
+Didn't find texture in .material with the name 'albedoTexGen7'
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex2)
+Found texture in .material with the name 'secondaryMaskTex2', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex3)
+Found texture in .material with the name 'secondaryMaskTex3', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex4)
+Found texture in .material with the name 'secondaryMaskTex4', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (maskTex2)
+Found texture in .material with the name 'maskTex2', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay1Mask)
+Found texture in .material with the name 'overlay1Mask', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay2Mask)
+Found texture in .material with the name 'overlay2Mask', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay1Albedo)
+Found texture in .material with the name 'overlay1Albedo', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay2Albedo)
+Found texture in .material with the name 'overlay2Albedo', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (albedoTexCharred)
+Found texture in .material with the name 'albedoTexCharred', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (terrainBlendMask)
+Found texture in .material with the name 'terrainBlendMask', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex5)
+Found texture in .material with the name 'secondaryMaskTex5', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex6)
+Found texture in .material with the name 'secondaryMaskTex6', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex7)
+Found texture in .material with the name 'secondaryMaskTex7', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (maskTex5)
+Found texture in .material with the name 'maskTex5', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (albedoTexGen7)
+Didn't find texture in .material with the name 'albedoTexGen7'
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex2)
+Found texture in .material with the name 'secondaryMaskTex2', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex3)
+Found texture in .material with the name 'secondaryMaskTex3', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex4)
+Found texture in .material with the name 'secondaryMaskTex4', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (maskTex2)
+Found texture in .material with the name 'maskTex2', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay1Mask)
+Found texture in .material with the name 'overlay1Mask', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay2Mask)
+Found texture in .material with the name 'overlay2Mask', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay1Albedo)
+Found texture in .material with the name 'overlay1Albedo', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay2Albedo)
+Found texture in .material with the name 'overlay2Albedo', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (albedoTexCharred)
+Found texture in .material with the name 'albedoTexCharred', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (terrainBlendMask)
+Found texture in .material with the name 'terrainBlendMask', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex5)
+Found texture in .material with the name 'secondaryMaskTex5', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex6)
+Found texture in .material with the name 'secondaryMaskTex6', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex7)
+Found texture in .material with the name 'secondaryMaskTex7', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (maskTex5)
+Found texture in .material with the name 'maskTex5', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Burnt [1] outputs in [00:00:00.1107411] for [b9783648290024c68181f6e8db2a78d53b4882d8].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7607372] for [f653ff5d960568f86c4227808d46f14b2ea5af79].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7098382] for [76ff63e7b16f55899317b7b59c72a535760158d9].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\9584410705331911648_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7253998] for [3c874f8a08513b496b831198f4faf66f80025350].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\9584410705331911648_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7194960] for [dc9e9e85c78d495559973ec61b1149c6485b79c0].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\9584410705331911648_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7445380] for [6dba545a72020614071bbbe933d15d53fa35d09c].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7416996] for [c72c5bd7027ca66ac86cab6b0342887599c3beb7].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\12950629995060196214_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7501048] for [02c8787ea663a296ebdca30b0f3a47d708ae5112].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\12950629995060196214_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7477201] for [c1d2876c4f8ed2c5228d121c8e84eae90aa1d8d0].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\12950629995060196214_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\black.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.0218175] for [e40eb4c5d34b1cd33501bd6d4410fb24cd357bde].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.5559490] for [331d09acec2718c2dd2a0262daa3df25d96b02bb].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.1377562] for [f750f57e7d30f20e074f4c7ce41177232670456e].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.1306826] for [c8bd11460bd58c468f4b566b2f2a1fdd79d82aa8].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\727146473674625922_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.1311330] for [5f9d16aefae4a76064b0cefc2bdb4e1b934d6c30].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\727146473674625922_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\white.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.0024755] for [01b16342ff967f719b00ec96a743fc40d7f08747].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\black.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.0214484] for [657ed440fe3a8e3918422d38f3d18e292289848f].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\black.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.5209126] for [9ef86f0eeb40c3bf4896db166b0b9bf824a6ebd7].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.1682156] for [35b7694f7a8c4dfb80deff6deda8b83ec59aa2b9].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\727146473674625922_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7374567] for [e4e68dac7bf6af878f3367d82e0b4eb927dbb48f].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\12950629995060196214_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7197756] for [a6bc3d9096efaeed58e26f4b3e9a1050b43b192b].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\9584410705331911648_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7158375] for [b25607c4b2f3d5fde093856dc61be5b537e50723].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\9584410705331911648_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7223356] for [050087d9a2ceeec94ad1467a6c3a8b2f2c728dd6].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\9584410705331911648_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7386026] for [73571a0e6ed96224e187106a26736fa36a2d7c12].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\12950629995060196214_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7575794] for [bc6cfa014661ccbb6da0447ab94de33bf28f8e4e].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\12950629995060196214_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7320528] for [dbd325c93ff7fe504713676f27f9ece8cbc4474f].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\12950629995060196214_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.1574199] for [86afde741de8a3586c8ecb6c9171d7a8447e1efc].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\727146473674625922_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.1648073] for [dec51cd565964055f005718d0b2022f244edfa12].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\727146473674625922_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.1513990] for [f46cf0b9c90f376ba566f208937a8b1be50a27fd].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\727146473674625922_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\mask.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.4302948] for [c7a32f3e34c4b5d22878f4a609590c2167c4f80b].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age1\model.rgo] using [RGO] with [Static RGO | PC, XBO, XBS, PS5]...
+Burnt [1] outputs in [00:00:00.1408267] for [a0c7949ade86d0552a5587769241acf7812b28dc].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\model.fbx] using [RGM] with [RGM Static | PC, XBO, XBS, PS5]...
+Not merging meshes for [<non-shared resource>]
+Burnt [1] outputs in [00:00:00.1302614] for [b0829255e30c6a08a4b79c3f22d7492ce4c31a2b].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\model.fbx] using [RGO] with [Static RGO | PC, XBO, XBS, PS5]...
+Burn preview indicated no outputs.
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\model.fbx] using [RRGeometry] with [Static RR Geometry | PC, XBO, XBS, PS5]...
+Not merging meshes for [<non-shared resource>]
+Burnt [1] outputs in [00:00:00.1270365] for [9a7a5b72fe12e6faaa845a01033c69a3b36830e8].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\model.material] using [RR Material Burner] with [Static Material | PC, XBO, XBS, PS5]...
+Attempting to find a texture in the .material with the same name as the texture entry (albedoTexGen7)
+Didn't find texture in .material with the name 'albedoTexGen7'
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex2)
+Found texture in .material with the name 'secondaryMaskTex2', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex3)
+Found texture in .material with the name 'secondaryMaskTex3', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex4)
+Found texture in .material with the name 'secondaryMaskTex4', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (maskTex2)
+Found texture in .material with the name 'maskTex2', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay1Mask)
+Found texture in .material with the name 'overlay1Mask', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay2Mask)
+Found texture in .material with the name 'overlay2Mask', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay1Albedo)
+Found texture in .material with the name 'overlay1Albedo', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay2Albedo)
+Found texture in .material with the name 'overlay2Albedo', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (albedoTexCharred)
+Found texture in .material with the name 'albedoTexCharred', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (terrainBlendMask)
+Found texture in .material with the name 'terrainBlendMask', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex5)
+Found texture in .material with the name 'secondaryMaskTex5', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex6)
+Found texture in .material with the name 'secondaryMaskTex6', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex7)
+Found texture in .material with the name 'secondaryMaskTex7', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (maskTex5)
+Found texture in .material with the name 'maskTex5', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (albedoTexGen7)
+Didn't find texture in .material with the name 'albedoTexGen7'
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex2)
+Found texture in .material with the name 'secondaryMaskTex2', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex3)
+Found texture in .material with the name 'secondaryMaskTex3', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex4)
+Found texture in .material with the name 'secondaryMaskTex4', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (maskTex2)
+Found texture in .material with the name 'maskTex2', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay1Mask)
+Found texture in .material with the name 'overlay1Mask', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay2Mask)
+Found texture in .material with the name 'overlay2Mask', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay1Albedo)
+Found texture in .material with the name 'overlay1Albedo', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay2Albedo)
+Found texture in .material with the name 'overlay2Albedo', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (albedoTexCharred)
+Found texture in .material with the name 'albedoTexCharred', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (terrainBlendMask)
+Found texture in .material with the name 'terrainBlendMask', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex5)
+Found texture in .material with the name 'secondaryMaskTex5', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex6)
+Found texture in .material with the name 'secondaryMaskTex6', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex7)
+Found texture in .material with the name 'secondaryMaskTex7', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (maskTex5)
+Found texture in .material with the name 'maskTex5', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Burnt [1] outputs in [00:00:00.1016533] for [464a4c7e321c822b01f98ac163f544da7e32ba99].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7084275] for [24f4a0fe1b8585131f431f8bb9fb79c55f8475ea].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.6989243] for [fe866fb168b0691c42cead312c9d534ae9391c51].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\10006420360992450927_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7060773] for [8747d31a50f175ad24089311176b8d3ebb775103].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\10006420360992450927_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7221317] for [465386790267a1f642d4723cc4d530802d36f1d3].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\10006420360992450927_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7461304] for [0d3d8002b9e5f19431dc6fcfaef64f95a0f0171b].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7490193] for [89b27d840128c25fa9ba5be1b5498c8b9d0fa4a3].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\14894909416749486278_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7501831] for [33b1cf770e052f9b3690d129cc19d49c622fee9a].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\14894909416749486278_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7227384] for [407649fd866c86ecc3d4c9f7386a71b0e39b3068].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\14894909416749486278_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\black.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.0194529] for [661f4ab02555c9e1c36a262ae0728adf3c0d044b].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.5347166] for [10cb4f4e19888b98cd15dcc94e135ec8b77b11ea].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.1832138] for [87cb8ed7eedc909ab54c2c09e69c728be11f74ab].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.1564823] for [190ec88ef7e680d3b27dd679f4bb1c6e4237df31].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\14722538510002250034_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.1504342] for [6118765168ab8a61a908d0fcda452659056c7684].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\14722538510002250034_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\white.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.0264264] for [7865125a9ee2bf16ab336231ea3f08e7013c3436].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\black.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.0151324] for [d960910494b177a79382bba94b56603a55a40a3f].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\black.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.4919618] for [a1d6c100841f3d13f8eb2c3949832c0f83bee218].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.1443324] for [06ea9fb561afc66fd6a20e505ea6cc3d88b79aa4].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\14722538510002250034_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7173135] for [7e651f8ede537309a303d52cd6ddf18054cab05a].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\14894909416749486278_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7096548] for [a8ae5de97d9227f273a8951573c0a13465c7d426].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\10006420360992450927_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7111637] for [55f41bf3355f4ec19e87e4a2f69253c7efe10715].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\10006420360992450927_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7211969] for [d38006a9af7d86977560b7e133a132581de57b66].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\10006420360992450927_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7389996] for [db81b7c5f42ca3ed44cf0ed60db35cd176cf5caa].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\14894909416749486278_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7545648] for [0bccd78496e995900ddc7284e367495583e3f5b8].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\14894909416749486278_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7375984] for [8bf002cfb6e86c3df9b6d3cc3dc7b315e3beadc1].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\14894909416749486278_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.1643633] for [278fb15ce03291174f417c190134870714a0fcc2].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\14722538510002250034_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.1484366] for [834aa37544822384ca587cd8e322b3b59625bdc5].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\14722538510002250034_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.1496119] for [f17354899aca2d743262c317a8927b2fbd35fbbf].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\14722538510002250034_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\mask.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.4383584] for [bade739e53c675545ec70545757664d0560bf6a5].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age2\model.rgo] using [RGO] with [Static RGO | PC, XBO, XBS, PS5]...
+Burnt [1] outputs in [00:00:00.1300415] for [bfb1e57b674e59a471f38b84f97f24ca5a7458d4].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\model.fbx] using [RGM] with [RGM Static | PC, XBO, XBS, PS5]...
+Not merging meshes for [<non-shared resource>]
+Burnt [1] outputs in [00:00:00.1448556] for [736d2318565bd837bb2db1169ddfe86a179a64c6].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\model.fbx] using [RGO] with [Static RGO | PC, XBO, XBS, PS5]...
+Burn preview indicated no outputs.
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\model.fbx] using [RRGeometry] with [Static RR Geometry | PC, XBO, XBS, PS5]...
+Not merging meshes for [<non-shared resource>]
+Burnt [1] outputs in [00:00:00.1366557] for [09b859da745a6599807c33412c497b4a67387a1c].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\model.material] using [RR Material Burner] with [Static Material | PC, XBO, XBS, PS5]...
+Attempting to find a texture in the .material with the same name as the texture entry (albedoTexGen7)
+Didn't find texture in .material with the name 'albedoTexGen7'
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex2)
+Found texture in .material with the name 'secondaryMaskTex2', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex3)
+Found texture in .material with the name 'secondaryMaskTex3', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex4)
+Found texture in .material with the name 'secondaryMaskTex4', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (maskTex2)
+Found texture in .material with the name 'maskTex2', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay1Mask)
+Found texture in .material with the name 'overlay1Mask', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay2Mask)
+Found texture in .material with the name 'overlay2Mask', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay1Albedo)
+Found texture in .material with the name 'overlay1Albedo', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay2Albedo)
+Found texture in .material with the name 'overlay2Albedo', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (albedoTexCharred)
+Found texture in .material with the name 'albedoTexCharred', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (terrainBlendMask)
+Found texture in .material with the name 'terrainBlendMask', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex5)
+Found texture in .material with the name 'secondaryMaskTex5', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex6)
+Found texture in .material with the name 'secondaryMaskTex6', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex7)
+Found texture in .material with the name 'secondaryMaskTex7', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (maskTex5)
+Found texture in .material with the name 'maskTex5', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (albedoTexGen7)
+Didn't find texture in .material with the name 'albedoTexGen7'
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex2)
+Found texture in .material with the name 'secondaryMaskTex2', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex3)
+Found texture in .material with the name 'secondaryMaskTex3', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex4)
+Found texture in .material with the name 'secondaryMaskTex4', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (maskTex2)
+Found texture in .material with the name 'maskTex2', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay1Mask)
+Found texture in .material with the name 'overlay1Mask', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay2Mask)
+Found texture in .material with the name 'overlay2Mask', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay1Albedo)
+Found texture in .material with the name 'overlay1Albedo', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay2Albedo)
+Found texture in .material with the name 'overlay2Albedo', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (albedoTexCharred)
+Found texture in .material with the name 'albedoTexCharred', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (terrainBlendMask)
+Found texture in .material with the name 'terrainBlendMask', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex5)
+Found texture in .material with the name 'secondaryMaskTex5', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex6)
+Found texture in .material with the name 'secondaryMaskTex6', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex7)
+Found texture in .material with the name 'secondaryMaskTex7', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (maskTex5)
+Found texture in .material with the name 'maskTex5', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Burnt [1] outputs in [00:00:00.1001977] for [b559762668e7f99ec770b14bc2c1eee163dabc74].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7062562] for [ffd6a045fb6dfce608687abc9c2850da8107ffd9].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7121037] for [b1cdcf1a597a40a3ed7a3df0f0a5c0b761c6aa7c].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\6152304851133823326_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7050132] for [f7668a4f13d99e131b37d0cf5bcdde8612ec996a].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\6152304851133823326_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7100793] for [d43c5c803187a5981f306d119517cedc287d3b67].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\6152304851133823326_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7240175] for [5044a3db04e22c8fdba5fc17451f2ee042b7e400].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7186057] for [d5304c47dc1e72bfc0a73628458de1676a83f9ec].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\5663807307944339850_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7235670] for [9e282964d27edb6c1148fe19339d195462672101].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\5663807307944339850_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7208654] for [7e6b1601dddad65f6810ba4fe580ee2dd3a9c4cb].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\5663807307944339850_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\black.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.0252399] for [75275fa9a366c372b9000dea2faa09346d53f634].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.5488350] for [7776a9895a2a2657fcfab3948505bb0ff5062bee].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.1830606] for [7042158842ff66ba2c4ab0db5b597df2631be307].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.1587872] for [c4f6d040563fbf012a80de91de52ee06c89b87c3].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\15706192372802014784_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.1650227] for [0cf7ccae2fd66f6121f29363c1d12ee2b670d292].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\15706192372802014784_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\white.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.0241219] for [dc51069d70e7c733889032f396bace45ba6a5256].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\black.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.0157345] for [04e7a936602a37a9f0525badb24256b8a60c003a].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\black.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.5022803] for [736cee288179872e377de7fcaeabbefec232bf8b].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.1244422] for [3241e927502d662e7ab9bd393dc55c267e1a3028].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\15706192372802014784_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7567171] for [f3548115c57b28246be611d139102d7a085af64c].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\5663807307944339850_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7010140] for [5018c4c382b5e14c91f811d7703d3207f1d95ee8].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\6152304851133823326_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.6998139] for [f3c6e6b02ec02a4cf47bda4f81217182db6208e3].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\6152304851133823326_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7126910] for [d3929ea30fa97142128148c1f265b282c1cba39f].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\6152304851133823326_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7250216] for [bae8335ecede158f44eb01199c62b3b57247bd8b].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\5663807307944339850_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7226041] for [047414654adc3f4f52079f14bd35e243ddf827ff].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\5663807307944339850_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7268046] for [0e9c9336bf48e8ffac025ffa813f8a349252b346].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\5663807307944339850_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.1578026] for [cb8e6e00043f01d8c707ad0dcb0a6374640a2173].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\15706192372802014784_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.1584062] for [def039fc5d3f7bb11554258dcf2f3136bb8c14fa].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\15706192372802014784_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.1451570] for [2194a1186239b26f3c3069f0e580928adb8ef415].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\15706192372802014784_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\mask.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.4543362] for [85f87c06f1e902a3a1e1b8a2137a9eef7ae4f290].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age3\model.rgo] using [RGO] with [Static RGO | PC, XBO, XBS, PS5]...
+Burnt [1] outputs in [00:00:00.1445939] for [e14a1c5da066db7ff729d9cd1767629262194229].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\model.fbx] using [RGM] with [RGM Static | PC, XBO, XBS, PS5]...
+Not merging meshes for [<non-shared resource>]
+Burnt [1] outputs in [00:00:00.1789603] for [4378ced679cba2377dfe8d7f484230b5ae6f2346].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\model.fbx] using [RGO] with [Static RGO | PC, XBO, XBS, PS5]...
+Burn preview indicated no outputs.
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\model.fbx] using [RRGeometry] with [Static RR Geometry | PC, XBO, XBS, PS5]...
+Not merging meshes for [<non-shared resource>]
+Burnt [1] outputs in [00:00:00.1484970] for [79584f73771982330a48ac6df049f70e3e4141f4].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\model.material] using [RR Material Burner] with [Static Material | PC, XBO, XBS, PS5]...
+Attempting to find a texture in the .material with the same name as the texture entry (albedoTexGen7)
+Didn't find texture in .material with the name 'albedoTexGen7'
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex2)
+Found texture in .material with the name 'secondaryMaskTex2', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex3)
+Found texture in .material with the name 'secondaryMaskTex3', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex4)
+Found texture in .material with the name 'secondaryMaskTex4', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (maskTex2)
+Found texture in .material with the name 'maskTex2', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay1Mask)
+Found texture in .material with the name 'overlay1Mask', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay2Mask)
+Found texture in .material with the name 'overlay2Mask', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay1Albedo)
+Found texture in .material with the name 'overlay1Albedo', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay2Albedo)
+Found texture in .material with the name 'overlay2Albedo', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (albedoTexCharred)
+Found texture in .material with the name 'albedoTexCharred', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (terrainBlendMask)
+Found texture in .material with the name 'terrainBlendMask', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex5)
+Found texture in .material with the name 'secondaryMaskTex5', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex6)
+Found texture in .material with the name 'secondaryMaskTex6', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex7)
+Found texture in .material with the name 'secondaryMaskTex7', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (maskTex5)
+Found texture in .material with the name 'maskTex5', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (albedoTexGen7)
+Didn't find texture in .material with the name 'albedoTexGen7'
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex2)
+Found texture in .material with the name 'secondaryMaskTex2', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex3)
+Found texture in .material with the name 'secondaryMaskTex3', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex4)
+Found texture in .material with the name 'secondaryMaskTex4', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (maskTex2)
+Found texture in .material with the name 'maskTex2', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay1Mask)
+Found texture in .material with the name 'overlay1Mask', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay2Mask)
+Found texture in .material with the name 'overlay2Mask', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay1Albedo)
+Found texture in .material with the name 'overlay1Albedo', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (overlay2Albedo)
+Found texture in .material with the name 'overlay2Albedo', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (albedoTexCharred)
+Found texture in .material with the name 'albedoTexCharred', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (terrainBlendMask)
+Found texture in .material with the name 'terrainBlendMask', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex5)
+Found texture in .material with the name 'secondaryMaskTex5', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex6)
+Found texture in .material with the name 'secondaryMaskTex6', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (secondaryMaskTex7)
+Found texture in .material with the name 'secondaryMaskTex7', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Attempting to find a texture in the .material with the same name as the texture entry (maskTex5)
+Found texture in .material with the name 'maskTex5', we will use this texture for the burn. We will copy this texture using the Copy source function.
+Burnt [1] outputs in [00:00:00.1012877] for [128679c45bc9515067520186f32de635df813912].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.6975390] for [096ec6f1fd4e07e6cdfb2197e094e5641a9b030b].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7081937] for [297adf0677e1557ab01bf02064e9fdc61c81cb43].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\16697683389314112886_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7046262] for [f33a472282f0385b6da5599d7ff70acf2decae06].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\16697683389314112886_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7128694] for [c12ae7caf9523dc7b011ec08364fbb8293c58cdf].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\16697683389314112886_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7396254] for [77b7b6b7879a39e72bdf2a28638166672a1185b0].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7376524] for [5947cd24c0c1250f1c1b2958a48a74792949ccde].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\9516058751600025616_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7453636] for [c358f2a06f31f7e69fe223a321441a5513cab614].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\9516058751600025616_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7439787] for [673f7a49153b1af3bf73f55796cc46b8aa9c190a].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\9516058751600025616_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\black.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.0173997] for [c8e8fb331fdfe19e98b5a94fce5bd5c3eb88b4f0].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.5554689] for [b20103df52f2d6478924f6f34831379bd8f34b57].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.5181067] for [ad3566f1cb2e46fd338da2d5ef0ea3e6f74ef3dd].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.5027982] for [b32a8649008cfeb75d594ef443606006e3293f1d].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\1001228686399424184_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.5082435] for [c193be58e4195d85774e496ec4c145f3bb55b97c].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\1001228686399424184_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\white.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.0132715] for [ae3207105d62009766a33b8be0edcf39ed14ad4e].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\black.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.0201997] for [1c98fa1918a5c9b40dbfb600a0482f20a9df8e36].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\black.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.5063893] for [3dd5c8732e53a2b317a3c87244acde377fb2cac2].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.4958504] for [d13e376a3dc714eadbc83be7593758c7f55f4879].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\1001228686399424184_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7422367] for [77ffede45e487736f47d5fd9ced93ad264fe7135].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\9516058751600025616_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7202067] for [0e0a8af9fb7850d730953cd0c644afe51c8d2498].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\16697683389314112886_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7400934] for [b9e146f856340cab80c2fa25af6e79b0047e9374].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\16697683389314112886_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\albedo.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7345826] for [49950a5d172431fe161489a48a005b2b8e3949ec].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\16697683389314112886_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7470119] for [16d2dc69e8621c9f30343442407b71c30d41d507].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\9516058751600025616_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7576249] for [574408705e038c3a4d4d2d63226d880fb891d84d].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\9516058751600025616_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\normal.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.7447070] for [282fc5f10b4aa4cade034d206e7f74953a0cfc60].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\9516058751600025616_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.5064064] for [639949f8a4deaa677ce3957bbe9ab5bf7de5e841].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\1001228686399424184_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.5304629] for [d1691ac1044adc6ee02d742640777ad812fdbcdf].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\1001228686399424184_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\metalness.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.5182779] for [f07bfb2d93d8336d6c77a07aac6c780d64f61e99].
+Warning: File was already in archive, skipping art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\1001228686399424184_packed.rrtex
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\mask.png] using [RR Texture Generator]...
+Burnt [1] outputs in [00:00:00.4586042] for [f13ed47aecf1e01b1578beae37b1d4336b88dd4d].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\scenario\garrison\berber_tent_art_020\buildings\berber_tent_age4\model.rgo] using [RGO] with [Static RGO | PC, XBO, XBS, PS5]...
+Burnt [1] outputs in [00:00:00.1551672] for [78351a23d35b4a5237fe766498fd59565ad4585a].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\stamps\garrison\berber_tent_art_020\berber_tent_age1.rdo] using [ReflectBurner] with [Reflect | PC, XBO, XBS, PS5]...
+EssenceEditor.exe Information: 0 : Loaded 5 data objects in 00:00:00.1253918.
+Burnt [1] outputs in [00:00:00.0204321] for [2738decfe040752352de44451d967858c487bbb0].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\stamps\garrison\berber_tent_art_020\berber_tent_age2.rdo] using [ReflectBurner] with [Reflect | PC, XBO, XBS, PS5]...
+Burnt [1] outputs in [00:00:00.0216102] for [80f2c48d61afd715eb190025681330965c84a911].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\stamps\garrison\berber_tent_art_020\berber_tent_age3.rdo] using [ReflectBurner] with [Reflect | PC, XBO, XBS, PS5]...
+Burnt [1] outputs in [00:00:00.0183042] for [c77817671685aa60c4b1ef40e01ee29d66ecab8b].
+Burning [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\source\art\stamps\garrison\berber_tent_art_020\berber_tent_age4.rdo] using [ReflectBurner] with [Reflect | PC, XBO, XBS, PS5]...
+Burnt [1] outputs in [00:00:00.0260484] for [274b0c4448dd51d1db3865bd7cdc9f5f496903c3].
+Package [Archive] created in [00:01:04.0071178] containing [132] burnt and [0] cached outputs.
+EssenceEditor.exe Information: 0 : [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-run2\intermediate\archives\berber_tent_art_020.sga] copied to [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-run2\output\extension\berber_tent_art_020\berber_tent_art_020.sga].

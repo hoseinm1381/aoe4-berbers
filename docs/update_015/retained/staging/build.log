@@ -1,0 +1,10 @@
+VERIFIED_NATIVE_FILES 2584
+VERIFIED_EDITABLE_FILES 13236
+Traceback (most recent call last):
+  File "F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\tools\build.py", line 174, in <module>
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--output',type=Path,default=ROOT/'output/current');p.add_argument('--prepare-only',action='store_true');p.add_argument('--replace-current',action='store_true');a=p.parse_args();build(a.output.resolve(),a.prepare_only,a.replace_current)
+                                                                                                                                                                                                                                                    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\aoe_4_temp\New_custom_civilization\aoe4-berbers\tools\build.py", line 33, in build
+    if not replace_current:raise ValueError('Use --replace-current to replace the verified local player ZIP after the new build passes')
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Use --replace-current to replace the verified local player ZIP after the new build passes

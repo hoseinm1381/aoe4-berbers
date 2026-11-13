@@ -1,0 +1,329 @@
+EssenceEditor.exe Information: 0 : Microsoft Windows NT 6.2.9200.0 x64 16 Cores
+EssenceEditor.exe Information: 0 : Arguments: -rtm --safe_settings --do_not_restore --quiet_crash_report --no_source_control --log_path F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-run2\logs --build_mod F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\berber_tent_art_020.aoe4mod --no_burn_window --burn_verbose_log_level --burn_cache_type Local --burn_max_threads 1 --build_path F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-run2\output --intermediate_path F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-run2\intermediate
+EssenceEditor.exe Information: 0 : Working Directory: C:\Users\RS\AppData\Local\Garrison\Kit\tools\essence-object-editor
+EssenceEditor.exe Information: 0 : User: RS
+EssenceEditor.exe Information: 0 : Machine: DESKTOP-84TGND7
+EssenceEditor.exe Information: 0 : Locale: English (United States)
+EssenceEditor.exe Information: 0 : Started as single instance host.
+EssenceEditor.exe Information: 0 : Version.cpp - translation info queried modulefilename C:\Users\RS\AppData\Local\Garrison\Kit\tools\essence-object-editor\EssenceEditor.exe, len 1804
+EssenceEditor.exe Information: 0 : Version [1.0.0.0] Info [[EssenceEditor][cardinal][pawcreek][rtm][4184727]]
+EssenceEditor.exe Information: 0 : Loading step: [Load Debug Symbols]
+EssenceEditor.exe Information: 0 : Loading step: [Platform]
+EssenceEditor.exe Information: 0 : SymInitialize will attempt to load symbols from [C:\Users\RS\AppData\Local\Garrison\Kit\tools\essence-object-editor\].
+EssenceEditor.exe Information: 0 : Loading step: [ Initializing TimeStamp]
+EssenceEditor.exe Information: 0 : Loading step: [Logging]
+EssenceEditor.exe Information: 0 : Loading step: [Aliases]
+EssenceEditor.exe Information: 0 : Loading step: [Warning Handlers]
+EssenceEditor.exe Information: 0 : Loading step: [Statgraph]
+EssenceEditor.exe Information: 0 : Loading step: [MemoryEnvironment]
+EssenceEditor.exe Information: 0 : Loading step: [Reflect System]
+EssenceEditor.exe Information: 0 : Loading step: [Threading]
+EssenceEditor.exe Information: 0 : Threading system initialized to [12]/[13] cores
+EssenceEditor.exe Information: 0 : Registered essence thread: [Main_Thread] usesRcssWorkerThreads: [true]
+EssenceEditor.exe Information: 0 : Loading step: [Archive Manager]
+EssenceEditor.exe Information: 0 : Loading step: [Pipeline]
+EssenceEditor.exe Information: 0 : Loading step: [Lua GameBinding Traits]
+EssenceEditor.exe Information: 0 : Loading step: [SystemConfig]
+EssenceEditor.exe Information: 0 : System detected as Desktop
+EssenceEditor.exe Information: 0 : Loading step: [StateTreeManager]
+EssenceEditor.exe Information: 0 : Loading step: [Prequisite Manager]
+EssenceEditor.exe Information: 0 : Loading step: [Prequisites Init]
+EssenceEditor.exe Information: 0 : Loading step: [Game Module Manager]
+EssenceEditor.exe Information: 0 : Loading step: [Create ModInterface]
+EssenceEditor.exe Information: 0 : MODULE -- Creating module 'RelicGame'.
+EssenceEditor.exe Information: 0 : FILESYSTEM -- filepath failure, missing alias 'userdata:OTAPatches'
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\attrib.sga 110491792 B [ID:ee47be61ca96024d4a4e1ec86642ee0d] [Ver:d36ad51eee1a976aa92a5ea8ed5f4d7d] [Sig:12359786863219877224]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\soundspeechcampaignleaders.sga 4026980 B [ID:7965640ab0c1bf7ba2373a19d2e7b069] [Ver:00710704aac2eb066d6d7641a83d51dd] [Sig:9778984940799653023]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\soundspeechchinese.sga 309655970 B [ID:e19627d267be517bf5392c2e6014c423] [Ver:1341763aebf36944f1499d0251617f55] [Sig:12764097569712532542]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\soundspeechenglish.sga 288475759 B [ID:feaf97340d27ade41677b3c3df1ba56f] [Ver:fa737288404947297e55d316fbb77dc9] [Sig:12107641221237261204]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\soundspeechfrench.sga 275866805 B [ID:bb0a6805c37931642df8dfc59ace3577] [Ver:b3518addefc388a6d693577268ec9a49] [Sig:1114318825139388170]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\soundspeechhre.sga 267815661 B [ID:b9b7b1c4746a5da164c4122c43af789d] [Ver:7a642987e09a6b91054166acd9d520f4] [Sig:1053406962797851544]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\soundspeechmisc.sga 2365100 B [ID:e4c186b521460161f56ea8bd2b98da2b] [Ver:d27e40627b1f9ae331530925c2b5212a] [Sig:7710416283972117561]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\soundspeechmongols.sga 330547847 B [ID:05c84958f92c54139e30273e08245a4d] [Ver:440515c36d22f937177d3502b670cc02] [Sig:14276426608469628689]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\soundspeechrus.sga 317132347 B [ID:571a52b40cc6bc0ea9986dde60365cd8] [Ver:2d9b429f93cb5f12b3aa414dae87c225] [Sig:1943781344602485715]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\soundspeechsultanate.sga 248334431 B [ID:89b1937c7703937f5844dc4ec15f22f9] [Ver:6b18a9787a422cdabbf287591a5328a8] [Sig:5320005402447518411]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\soundspeechabbasid.sga 353720911 B [ID:762a11281de7ccf41b2c9854c76b0870] [Ver:8662b4db32f6fbba950e0d230e741994] [Sig:5512199611676468533]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\soundspeechmalian.sga 199992843 B [ID:29d538156ec209da74ba454e6a0b589c] [Ver:b4c7cd64a7d639670e447bb9fe03cec8] [Sig:7261636489305388131]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\soundspeechottoman.sga 214285612 B [ID:a785e43d2b6f581274e33dcaa7a2048e] [Ver:e305d172bbe7f7006d60407b9b0b47ae] [Sig:17848682699058885847]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\soundspeechbyzantine.sga 103841948 B [ID:a4b2db8f64cf9b559a73e75663595a33] [Ver:a579a7e0a477fdebc955369772a6b4ed] [Sig:17222082278395025076]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\soundspeechjapanese.sga 124246912 B [ID:4c8f551c1a9bb01657cc9776ea1d626f] [Ver:eb5e74852a039e91e645bb2b464d5277] [Sig:2808518091847209109]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\soundspeechviking.sga 83412073 B [ID:5a66c6d226a60eb15fb14b568824bf9e] [Ver:d24103df7915e492c0837424320ef33a] [Sig:11348338774093699236]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\soundspeechscots.sga 87383277 B [ID:32187cd2d06017f051a05bc639b1e6a4] [Ver:9282fd66948667dec3aa94bf5ee87d32] [Sig:102255981172194707]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\soundspeechcampaignlocalizedenglish.sga 62991742 B [ID:b97ee6c9ada021e3cbc5b0d8d8a44c40] [Ver:87f042a5b376484b2f9323a2bbfd304d] [Sig:9687609996755273546]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\soundspeechcampaignlocalizedenglishxp3.sga 18908662 B [ID:8b39ce2530a5fcc56eecb4b3d350d5a3] [Ver:586fd4d791bd802bd435ef45c2538f55] [Sig:4642533600886246474]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\engine\archives\data.sga 511518 B [ID:16c0f95516b6bd76239a8a743a290dba] [Ver:528f69cbbb1e0d6ff8d772e93e51ac93] [Sig:1835642164038984526]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\common\archives\data.sga 33220 B [ID:16c0f95516b6bd76239a8a743a290dba] [Ver:8d2ac4dbfc1bc9c4f5a4f5aa268b9d82] [Sig:5245408353539552599]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\engine\archives\ui.sga 1129058 B [ID:09480279ef1f221e1467f0feeeb28aa2] [Ver:ec33bc27b67ef2b248dbc24a27f4ce54] [Sig:9598038045816838209]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\art.sga 61850387 B [ID:d99ddc3bf2a59ab33b5a50ec14f1256c] [Ver:e0037a3ec3ca087f6c6bf775199c406a] [Sig:9626511363190283265]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artcivilizations.sga 82386667 B [ID:a1848b38e5518cdbdf39590d559fac83] [Ver:801a8229c1eda034eeeff61fc1777351] [Sig:3476815233206554273]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artenvironment.sga 986297 B [ID:a7a407191c6a9c6d7922e5be93c9c0ab] [Ver:5a2deb1b5453641114a8b425868213bb] [Sig:12991069334937451936]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artscenarios.sga 39718799 B [ID:8c73975de44dd6c1a48fcb04421475c4] [Ver:35d1f10e09bd6ee84164c83081b2db33] [Sig:10502216201688252876]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\ui.sga 110830940 B [ID:c00215033d7a6362a23396b8a85b673e] [Ver:f52a336191bfe9de16980833fa4242dc] [Sig:8626665196329270089]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\uiart.sga 1861004187 B [ID:e9e119548401f6f9cb7ccf6351516a15] [Ver:4fb0124678d85374bbec960dcbe8d119] [Sig:8127516521578597986]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artcampaign.sga 502631 B [ID:6412a87b29f706d21c1052453db9f82a] [Ver:e1794b8ddf47a857f9b050c837a177a2] [Sig:3325703609282642028]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artcampaignxp3.sga 83533 B [ID:8f384fa2caed9e8f8e85792455ae986a] [Ver:ffd330fb379dcef127fb4589c51cab1e] [Sig:14590929660288328230]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artabbasids.sga 4106941 B [ID:0e00db2440f4d006b08b650c273d8060] [Ver:1c9be892b7134cd3379e0cad9e797785] [Sig:12667628606573247521]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artchinese.sga 9125599 B [ID:82a6adbd840c98202bc87fef753b5d65] [Ver:df97ebbb77fc4cda6b55dc2cf1f9031c] [Sig:3838538043552859832]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artenglish.sga 8627541 B [ID:f1edd63d3e0732b474dd114b8cefbe0a] [Ver:5ac80fe1c18e2d89d4cc508a2c477df0] [Sig:3233708056775073184]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artfrench.sga 7085003 B [ID:10e6ba5b8cd559550c78b750c102d365] [Ver:021e78701c1b09baf19919ac27f672dd] [Sig:9227945167281191058]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artgaia.sga 479131 B [ID:13f9b459d59202d5c9505386a400343a] [Ver:edd22875296075bb827d9730329e5da2] [Sig:16018452916288601416]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\arthre.sga 8374724 B [ID:2cd9426f658c78085b3c9636b688a407] [Ver:17d0a5999b148e816a0d0a2b652652cd] [Sig:3791736494997932284]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artmalian.sga 4658976 B [ID:29b136611af96e3635aa69db7924f371] [Ver:44c81fa4d6e322df1d72aaa97678d022] [Sig:6323279460114866425]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artmongols.sga 6559885 B [ID:fbe36b2d57b65570e87e63a23c830eca] [Ver:48703266b0188ef8b6027f438de01095] [Sig:1511972049240206879]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artottoman.sga 4642844 B [ID:f37ca7234f3b5f87a626cbdba675408f] [Ver:65b6e3e043db8385f8b20b9c8c0473e1] [Sig:874198740512493989]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artrus.sga 8542133 B [ID:147955ba60fa5b6f1f9d3f1d30dac006] [Ver:5171e2681117ca04f7092c30ba243591] [Sig:8069063163118555333]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artsultanate.sga 8659061 B [ID:18eda33163592da2ba61529ce754b445] [Ver:2d04f0d5b9158219f24b6d11b5318496] [Sig:13849772389459962525]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artbyzantine.sga 4643203 B [ID:99d546706d1ba0d1a59bf4833cb4661d] [Ver:e197b664eaf9ebc14e1dd9976da1e3a7] [Sig:7887597480742539922]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artjapanese.sga 3990207 B [ID:dd88fab63357b735ba035134eb9672ad] [Ver:be31be9dff197477a6dc34753ab0ce0f] [Sig:10129622713830896006]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artabbasidsha.sga 14352 B [ID:bb0fde22dcf139c14805221868a5ee75] [Ver:7e8cc88c005c3a40167660b5316cdd1e] [Sig:8655686374011660512]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artchineseha.sga 605328 B [ID:ca7c89f93f3278313b22559273fa8306] [Ver:57132cba87879517feaaaedc08926183] [Sig:11062744822554176162]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artfrenchha.sga 37479 B [ID:e591dc96989f57d502ab6fae14a588dc] [Ver:f0ac5dc9948c95b4b0b295cc86ef2638] [Sig:14264677293566767135]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\arthreha.sga 137986 B [ID:595a5ec4937a8a313ab9f06dcaea285e] [Ver:9cf6d9c4e89afa1a79dccdad322eeffa] [Sig:17267709418503555729]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\arttemplar.sga 6266055 B [ID:3c20477da3c8b79085488204434d035f] [Ver:e3ddb6a3666be9f860cbf8e5d1b1f6b1] [Sig:6022842007597335334]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artlancaster.sga 434109 B [ID:3731bf29387ed36fe4a6e288a9ea1ef6] [Ver:3b87f3cb7f55d654817d831dfdaa8ad3] [Sig:5545704602304754463]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artjapaneseha.sga 580717 B [ID:7be3985f380bb914b661411cf89ba4bb] [Ver:50e0277032afef79d587b83a20b3ff0d] [Sig:12984150222753547034]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artmongolsha.sga 200692 B [ID:a1f4098626c97e577b13118c1ad32ece] [Ver:ac4c21bd442c71b7ca68f79deb8d1b4e] [Sig:15617754124558085611]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artsultanateha.sga 664398 B [ID:d29fc37b3d5b3192f1aade624c8e8b73] [Ver:c74550a19fa94bff9b9d014b48c933e6] [Sig:17751615121749568627]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artbyzantineha.sga 349408 B [ID:c40caa99031cac133c456b59dfb93d66] [Ver:270d8aed8ab3f190c107f1de047efbfb] [Sig:13780157768534894882]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artjin.sga 8269523 B [ID:b86d5d5617890de0985b5b5ea44ce7b7] [Ver:85b8743425933f6f4ce022cc108ab2d6] [Sig:528054901994912374]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artscots.sga 5922196 B [ID:4deb143b167a5f7beb245dc49f67e74a] [Ver:41b23a9bb3ca128d3dddc21140cdd9ab] [Sig:6245028240615246566]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\artvikings.sga 4126567 B [ID:b0d9ca771720d22902487de01eaf40bc] [Ver:cd2ac34f9558b6fed30bb8f343f14605] [Sig:15277948827802669625]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\tools\archives\data.sga 1852 B [ID:94195021539650ebc2111161f08a5693] [Ver:46c96a6efa0e1a0bbb05963daa12fd12] [Sig:16740000036278800819]
+EssenceEditor.exe Information: 0 : Archive [DevOnly] is [missing]! [Skipping.]
+EssenceEditor.exe Information: 0 : Archive [DevOnly] is [missing]! [Skipping.]
+EssenceEditor.exe Information: 0 : Archive [OTAPatchAssets] is [missing]! [Skipping.]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\tensorflow.sga 1526194 B [ID:a90e31fb9bdbd9d1907690832455739e] [Ver:86ef9695ddfd66b5276cdb851dbeeb2e] [Sig:5080659455073109698]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\campaigntensorflow.sga 1184909 B [ID:a29737bb04597fc31394a66f2c121ff4] [Ver:0c298e86a4eba7f962c2b29d3dfb2cc1] [Sig:12464512030553846394]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\engine\archives\datarrtex.sga 10815943 B [ID:2621dfd56f5c247f82dd02723974d115] [Ver:33e9819eaf21fb226cb83735e9952acd] [Sig:5801219792748013890]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\data.sga 42259214 B [ID:f4b1338f05099577586aca4849e71887] [Ver:64da22eb237724ed8e6a30a2b8c3b56b] [Sig:10827248464976221792]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\campaigndata.sga 5806310 B [ID:3153ae39a848ec5c99fe004f4363e020] [Ver:cee32ac1b9750a71165845b4cd4865eb] [Sig:7018810941729354889]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\scenarios.sga 309836375 B [ID:14a8a0e59b40c543e6087f69fee1f85e] [Ver:befb5c8ce7afe0adc0bc075f593dd9d7] [Sig:8877016162280477886]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\scenariossp.sga 370060484 B [ID:660d975e8673cc3f148c18157ca51349] [Ver:8d428b5ff85b365d79d6006850bb1c85] [Sig:11399188246550852580]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\scenariosspxp3.sga 65678846 B [ID:08a258d97ba61a4e75a494dd25eb9f50] [Ver:03453bf091338e9ae4ada1f39e523d0d] [Sig:892526690823107619]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\xp3data.sga 8586620 B [ID:8e868036ec177df4e44fd24536cbb19c] [Ver:e3a1de8af4c7563e7fae9149ee1127fb] [Sig:5028708439220151501]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\xp3tensorflow.sga 1184894 B [ID:57fa5b4a6dd79e4c7f410ef07d631053] [Ver:c0d1e61d78ddacfe6ab6e6ce6492d8ea] [Sig:7078484262931189540]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\cordobadata.sga 16211868 B [ID:9fc085ffe6a8137ed40389b4a9449008] [Ver:adbe5d421d6fe920b1e7254a4a80db25] [Sig:9423867216218904191]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\cordobatensorflow.sga 1673630 B [ID:6914fdccb0b8d2fd1d5d490f224251a8] [Ver:f902bc17c3f0293a1068f6d9ed5eb26f] [Sig:16143668982530517502]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\engine\archives\arthigh.sga 4265 B [ID:e8f87e4ac202807565d2b4980453804d] [Ver:e208ab107fd5a4a822bbd1d247bac549] [Sig:14839946367307866860]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\arthigh.sga 383644832 B [ID:99da1b8f8572c24ec631e9f73acb000d] [Ver:e0aeb97e6d60d2748d190c25a1c36a91] [Sig:5524371154137758643]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\localeenglish.sga 791606 B [ID:7c016c99df8f6c8651bc31c70aa32076] [Ver:0f47dd0a47fd8f79f4ef7f90c2926389] [Sig:11745423294875605274]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\engine\archives\reflect.sga 1499505 B [ID:cf317ce4d037d959d1f61ec4ba4b95da] [Ver:64db0a7743bfc48a5e42d9fdfdc605f5] [Sig:12319695463075742357]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\engine\archives\dx12shadersandedfs.sga 59838 B [ID:f5a37cc293ebf676913da1bdd46d163b] [Ver:8a5dee93237f9fb51e241ced1ac363f1] [Sig:16305636391590685556]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\engine\archives\dx12assets.sga 10447671 B [ID:6dee0a72320066df084864e3fd8db247] [Ver:64506e57cab1d3d2813c557351284588] [Sig:657844881588060561]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\common\archives\dx12shadersandedfs.sga 3252580 B [ID:bcff99d52833fd8459ed8d990c584b6d] [Ver:9b4d2adfda687bc53068e4b9a48d660b] [Sig:13907770668091463613]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\common\archives\dx12assets.sga 1294479 B [ID:2916e14abbb8c29a770cabc48186eae9] [Ver:4873d913b76651c003dfb5d2e5f4ff02] [Sig:4404885105491353193]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12shadersandedfs.sga 7321921 B [ID:17b342a4951806a6286037aad597bfb4] [Ver:3b19acd7cb378b09816690f9c9e26906] [Sig:1520761996253162563]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12assets.sga 620798955 B [ID:8d864cc5811289251d5d5da2b1e6e160] [Ver:441fba2063f3c1674c2addcc081ca049] [Sig:7275352544697189755]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12assetsscenarios.sga 1796197171 B [ID:ee42f97d43f800fb678c1a5bd5438d5e] [Ver:689d258a5db2324755e6164b480c9d21] [Sig:9282428735319980660]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12assetsabbasids.sga 176795444 B [ID:e3acd494c177dcc11aec097b3f879a45] [Ver:89988e3b2c43e5f82ca401322e0c8801] [Sig:231994638789566417]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12assetschinese.sga 191879339 B [ID:c162686c2e8ede91caf159c140d47de6] [Ver:de1212e96d6a7e0c82aca7a79b245e6f] [Sig:8724005124958060245]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12assetsenglish.sga 165004472 B [ID:8e850c32db0ffd15aaac190bc23743d5] [Ver:1c9bdf8c21bad515ea7424b2224fcadf] [Sig:1231271370961175343]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12assetsfrench.sga 171491607 B [ID:256722d54271e5281a5fe25847f18518] [Ver:c980bcbaec64dd3ee116dfa9e318f208] [Sig:15128600235777823297]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12assetshre.sga 160563726 B [ID:ec30daab1c5a85cd6dd076eb413d597e] [Ver:270f273dd6d9065ab7ef0774b900329f] [Sig:16824230636316093993]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12assetsmalian.sga 158708773 B [ID:15f1cf5cc211190e88f69994904bdb73] [Ver:11a148306db54958970ff2d6cb68dec8] [Sig:7937197884375699693]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12assetsmongols.sga 183190853 B [ID:9f0301cf32b082fb06b14aa25a56b577] [Ver:1c5f09ccc0e4e6d557bd119ed491d5ad] [Sig:655059272259730489]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12assetsottoman.sga 160589374 B [ID:4084bc999ce879fc7c0b23f1725c7e7f] [Ver:2b09c8ac2f875f6e8e3a18a1ad1df601] [Sig:15811030096467023317]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12assetsrus.sga 199227221 B [ID:f95304efff282e1dfd719cb4c3eeed51] [Ver:09415f8a71def94b018bfcc8a5aba7b7] [Sig:6104095773747729576]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12assetssultanate.sga 206587759 B [ID:ff2eab6073c96bebedb25cc318180ba0] [Ver:7da7fad05c7ae2e2e3dcff3e1aa4f79d] [Sig:1804228666607153230]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12assetsbyzantine.sga 265222746 B [ID:6c47d2674f42cddb43cf0a0f054e638f] [Ver:f35fb0f27738e5f25a063dfce629a425] [Sig:17816694826655341732]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12assetsjapanese.sga 167592100 B [ID:bc04fde4cb654bae3583c007eb6670d5] [Ver:22a9971adcf8f6998a48a330ee339335] [Sig:259196660794307803]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12assetsabbasidsha.sga 28564103 B [ID:806c8f150f8a6507dfb5aed266e16326] [Ver:f9adf56ec361f172c08bdca4abde0933] [Sig:9582198679750787354]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12assetschineseha.sga 25200890 B [ID:fb16bc582b074e2291c146b1fc05bb31] [Ver:e4339102454bb62115520433a4157ed6] [Sig:1833813926803012192]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12assetsfrenchha.sga 8568997 B [ID:5967d28d2f7bbff40b644abdf6fa998b] [Ver:6ba882379392686b295faf846c822028] [Sig:6579584725403981714]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12assetshreha.sga 17473248 B [ID:1110338d016ac64e1ae2d533e5eb5be5] [Ver:9d362b25af40e3ec1b3bb00761683f3b] [Sig:11839405477317678530]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12geoabbasids.sga 96633471 B [ID:060d189f6f16fbe901683763d7aa704c] [Ver:223a314f4af15e5c1def0c9088be19a7] [Sig:6704717717951589149]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12geochinese.sga 88551775 B [ID:a58915dc50284b0239ff99916878125d] [Ver:b30e257ed5a263ed60a6b7b1422405fd] [Sig:7811589526415586704]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12geoenglish.sga 106445578 B [ID:d5cce82ceffed9812b7074c6dc6d299a] [Ver:f1b3cdffccab1021979106af88fabb06] [Sig:10594753662282721607]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12geofrench.sga 76318793 B [ID:0bea02bffa38b7d0c47b1900af90b6e7] [Ver:5b63539ae474495a951d8e76c820176c] [Sig:7672895114270135324]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12geohre.sga 83775540 B [ID:b5f3fa3444e26eb948a3adb990d8745d] [Ver:13b222123adabe296514c75381dd99da] [Sig:2287154615869743199]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12geomalian.sga 86997702 B [ID:bee84441c86a18f51f080092bff6cd5c] [Ver:3c5ccac6975bef35c1dcd76fc08d7620] [Sig:12782219175372318780]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12geomongols.sga 56506620 B [ID:159421c7fca5c0b26f5404c7513bb0e5] [Ver:6df26d7ba620d485cf0d66b16ae531d3] [Sig:8694248982380258502]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12geoottoman.sga 108089429 B [ID:396d0cef5386eab6dd428454724a648a] [Ver:9f7b4ad786d262c797ec2431b81ce3f4] [Sig:14089635076223216668]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12georus.sga 78079969 B [ID:b7703e5e66822fbbf83c9579eb069de0] [Ver:56f0722c7b6b35043054f7066c60c367] [Sig:15985534239825013986]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12geosultanate.sga 68021869 B [ID:b9313e19ed4fbf986f146b4a572a0b20] [Ver:1e4a752e7c223369d34bbf67e8bf49d3] [Sig:17916289859224768280]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12geobyzantine.sga 115609995 B [ID:64ae9fd218ff982f5a813440c16080f3] [Ver:0fceaafb5b9f536a5acfbef81587817f] [Sig:13249596319552492805]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12geojapanese.sga 90204969 B [ID:03b11aaff17dc139d6dfbe00f13fc8e0] [Ver:e581d64d09ef8fc0e42d910676d4399e] [Sig:5961598558438702723]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12geoabbasidsha.sga 3478982 B [ID:b44d09d0c5fc1243b9479e84fbc2170f] [Ver:f09e8e972bce98e8feddabea4c46015b] [Sig:12460232851699678734]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12geochineseha.sga 20007117 B [ID:ff92427d49e2801d9ca8e27182c1c0ac] [Ver:fdeac414e1e05b239266cd63c7f13d0b] [Sig:13665617413369759627]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12geofrenchha.sga 984143 B [ID:b8435f2a738e6fc75877a75ced48a3cb] [Ver:b328ab3814339454e3c93819742e5499] [Sig:15921492922472585203]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12geohreha.sga 3032694 B [ID:9821c8fd33027833d2d39e94043dff6d] [Ver:2f2700d7daba01d1b6b6b15d485b1be4] [Sig:14803629890529326698]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12assetstemplar.sga 145244773 B [ID:e5185c83d31477ba807e877ac8b21fa4] [Ver:c252fd689b7240f2198ee71d6f53fe89] [Sig:705687901300065307]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12geotemplar.sga 63212259 B [ID:01a646dd61f93a947856448e4ed8210e] [Ver:539748c3be8ae4e64331578ba60dc572] [Sig:12721555323735907306]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12assetslancaster.sga 45793094 B [ID:74f0435c4c7b668e439ae92514720497] [Ver:4aa15dfa61e33448ab38a4aef204d2da] [Sig:13906151217013775974]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12geolancaster.sga 5747992 B [ID:36d9498111aff3d4b97c63e70585afcc] [Ver:32099d3e77db0861729bb785ce9ba4d6] [Sig:8158048595691603360]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12assetsjin.sga 156170934 B [ID:ac0330ae45d8d4d92f6538f8e0428b70] [Ver:74b5c0988eec81c8658004725b3b96ee] [Sig:3400979443712706737]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12geojin.sga 74973629 B [ID:7d65a3d35166316f06261f8e1abe23ae] [Ver:44e68e4f66c99398cdd6737ff47ab587] [Sig:14095405366061249632]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12assetsscots.sga 186641411 B [ID:fb096f42adf810729e205e362024f77a] [Ver:a39b2a47c371507922815908d2c60c5c] [Sig:6909699255685226010]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12geoscots.sga 168635611 B [ID:f0766196db9787ee0ab25f4390aad15c] [Ver:fc71077e2811b77339de5c0ae957ff64] [Sig:6221705862887118889]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12assetsvikings.sga 143005269 B [ID:014b4d7b6257bf7dfbedefdad4975617] [Ver:594ef21458215503445ac086ebc10cc3] [Sig:9251483533962503905]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\dx12geovikings.sga 103449641 B [ID:398a5ef6bbffa960afd01bc32de91060] [Ver:d9f31e650c2e20e56a7bdbff7346aefc] [Sig:7274603488987746647]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\tools\archives\toolsdata.sga 11821969 B [ID:5fede6d3a0a6b1cc208fce783fb3351a] [Ver:1a635363e41ce1a3e00e4ebf94ebb6bb] [Sig:7557944818326826955]
+EssenceEditor.exe Information: 0 : ARC -- c:\users\rs\appdata\local\garrison\kit\tools\essence-object-editor\cardinal\archives\thumbnail.sga 132058 B [ID:955b400ec35a3124d57a4bf849442202] [Ver:6ca4d1c8adbe22439cbc9e19d9f46ac1] [Sig:9856163698149700649]
+EssenceEditor.exe Information: 0 : Loading step: [DCA]
+EssenceEditor.exe Information: 0 : Loading step: [Game Activator]
+EssenceEditor.exe Information: 0 : Loading step: [Component Factory]
+EssenceEditor.exe Information: 0 : Loading step: [Inventory]
+EssenceEditor.exe Information: 0 : Loading step: [Renderer]
+EssenceEditor.exe Information: 0 : Enumerating Graphics Adapters
+EssenceEditor.exe Information: 0 : Choosing first adapter
+EssenceEditor.exe Information: 0 : Adapter: Intel(R) UHD Graphics video dedicated: 134217728 shared: 8436772864 system dedicated: 0
+EssenceEditor.exe Information: 0 : Checking against Adapter: NVIDIA GeForce RTX 5050 Laptop GPU video dedicated: 8294236160 shared: 8436772864 system dedicated: 0
+EssenceEditor.exe Information: 0 : Adapter chosen because it had more dedicated vram 8294236160 > 134217728
+EssenceEditor.exe Information: 0 : Checking against Adapter: Microsoft Basic Render Driver video dedicated: 0 shared: 8436772864 system dedicated: 0
+EssenceEditor.exe Information: 0 : Adapter ignored, we already have a good dedicated, and this one doesn't have better dedicated memory
+EssenceEditor.exe Information: 0 : Chosen adapter: NVIDIA GeForce RTX 5050 Laptop GPU video dedicated: 8294236160 shared: 8436772864 system dedicated: 0
+EssenceEditor.exe Information: 0 : Enumerating Graphics Adapters
+EssenceEditor.exe Information: 0 : Choosing first adapter
+EssenceEditor.exe Information: 0 : Adapter: Intel(R) UHD Graphics video dedicated: 134217728 shared: 8436772864 system dedicated: 0
+EssenceEditor.exe Information: 0 : Checking against Adapter: NVIDIA GeForce RTX 5050 Laptop GPU video dedicated: 8294236160 shared: 8436772864 system dedicated: 0
+EssenceEditor.exe Information: 0 : Adapter chosen because it had more dedicated vram 8294236160 > 134217728
+EssenceEditor.exe Information: 0 : Checking against Adapter: Microsoft Basic Render Driver video dedicated: 0 shared: 8436772864 system dedicated: 0
+EssenceEditor.exe Information: 0 : Adapter ignored, we already have a good dedicated, and this one doesn't have better dedicated memory
+EssenceEditor.exe Information: 0 : Chosen adapter: NVIDIA GeForce RTX 5050 Laptop GPU video dedicated: 8294236160 shared: 8436772864 system dedicated: 0
+EssenceEditor.exe Information: 0 : -------- Display Adapter Driver Information --------
+EssenceEditor.exe Information: 0 : Vendor: NVIDIA (0x10DE)
+EssenceEditor.exe Information: 0 : Installed Driver Version:  (0)
+EssenceEditor.exe Information: 0 : Required Driver Version: 471.41 (47141)
+EssenceEditor.exe Information: 0 : (Display driver requires an update.)
+EssenceEditor.exe Information: 0 : ----------------------------------------------------
+EssenceEditor.exe Information: 0 : GPU Performance Class: Gen7 Only
+EssenceEditor.exe Information: 0 : Enumerating Graphics Adapters
+EssenceEditor.exe Information: 0 : Choosing first adapter
+EssenceEditor.exe Information: 0 : Adapter: Intel(R) UHD Graphics video dedicated: 134217728 shared: 8436772864 system dedicated: 0
+EssenceEditor.exe Information: 0 : Checking against Adapter: NVIDIA GeForce RTX 5050 Laptop GPU video dedicated: 8294236160 shared: 8436772864 system dedicated: 0
+EssenceEditor.exe Information: 0 : Adapter chosen because it had more dedicated vram 8294236160 > 134217728
+EssenceEditor.exe Information: 0 : Checking against Adapter: Microsoft Basic Render Driver video dedicated: 0 shared: 8436772864 system dedicated: 0
+EssenceEditor.exe Information: 0 : Adapter ignored, we already have a good dedicated, and this one doesn't have better dedicated memory
+EssenceEditor.exe Information: 0 : Chosen adapter: NVIDIA GeForce RTX 5050 Laptop GPU video dedicated: 8294236160 shared: 8436772864 system dedicated: 0
+EssenceEditor.exe Information: 0 : -------- GPU and Output INFO --------
+EssenceEditor.exe Information: 0 : Intel(R) UHD Graphics -- 128MB dedicated video memory, 0MB dedicated system memory and 8045MB shared system memory available.
+EssenceEditor.exe Information: 0 : Primary Output Device is \\.\DISPLAY1, Resolution is 1920x1080
+EssenceEditor.exe Information: 0 : NVIDIA GeForce RTX 5050 Laptop GPU -- 7910MB dedicated video memory, 0MB dedicated system memory and 8045MB shared system memory available.
+EssenceEditor.exe Information: 0 : Microsoft Basic Render Driver -- 0MB dedicated video memory, 0MB dedicated system memory and 8045MB shared system memory available.
+EssenceEditor.exe Information: 0 : Loading step: [Global Lua]
+EssenceEditor.exe Information: 0 : Loading step: [MathBox]
+EssenceEditor.exe Information: 0 : MATHBOX -- Mode=SSE
+EssenceEditor.exe Information: 0 : Loading step: [RootMotionAnimationDatabase]
+EssenceEditor.exe Information: 0 : Loading step: [RenderAnim]
+EssenceEditor.exe Information: 0 : Loading step: [Havok]
+EssenceEditor.exe Information: 0 : Loading step: [Alias]
+EssenceEditor.exe Information: 0 : Loading step: [Hotswapping]
+EssenceEditor.exe Information: 0 : Loading step: [ITextureUtil]
+EssenceEditor.exe Information: 0 : Loading step: [TextureManager]
+EssenceEditor.exe Information: 0 : FILESYSTEM -- filepath failure, missing alias 'generic:config\TextureConfig.lua'
+EssenceEditor.exe Information: 0 : Failed to load lua file 'generic:config\TextureConfig.lua'
+EssenceEditor.exe Information: 0 : Loading step: [Loaders]
+EssenceEditor.exe Information: 0 : Loading step: [ActionCommandFunction]
+EssenceEditor.exe Information: 0 : Loading step: [TeamColourCommandFunction]
+EssenceEditor.exe Information: 0 : Loading step: [SetShaderVariableCommandFunction]
+EssenceEditor.exe Information: 0 : Loading step: [SetMaterialOverrideCommandFunction]
+EssenceEditor.exe Information: 0 : Loading step: [IntersectUtil]
+EssenceEditor.exe Information: 0 : Loading step: [ShadowManager]
+EssenceEditor.exe Information: 0 : Loading step: [Font]
+EssenceEditor.exe Information: 0 : Loading step: [Audio]
+EssenceEditor.exe Information: 0 : Loading step: [FXSystemData]
+EssenceEditor.exe Information: 0 : Loading step: [Game Modules Init]
+EssenceEditor.exe Information: 0 : Loading step: [AnimEvent]
+EssenceEditor.exe Information: 0 : Loading step: [ModInterface]
+EssenceEditor.exe Information: 0 : Loading step: [Localization]
+EssenceEditor.exe Information: 0 : Loading step: [Game]
+EssenceEditor.exe Information: 0 : Loading step: [SimStaticApp]
+EssenceEditor.exe Information: 0 : Loading step: [Family Manager]
+EssenceEditor.exe Information: 0 : Loading step: [Initialize Resource Types]
+EssenceEditor.exe Information: 0 : Loading step: [SimApp]
+EssenceEditor.exe Information: 0 : Loading step: [Property Bag Registration]
+EssenceEditor.exe Information: 0 : Loading step: [Sound - Rtpc Event Database Init]
+EssenceEditor.exe Information: 0 : Loading step: [Property Bag Manager]
+EssenceEditor.exe Information: 0 : MapGen - Failed to validate: !m_texturePath.empty()Failed to validate an attribute data field for map generation. If you are authoring data, please check to see that your data is consistent with the constraint above.
+EssenceEditor.exe Information: 0 : UTIL -- Throwing 'Unable to open file' exception on 'data:art\fx\fx_objects\fx_campfire\fx_campfire.simbox'
+EssenceEditor.exe Information: 0 : UTIL -- Failed to Load BinaryConfig file: 'data:art\fx\fx_objects\fx_campfire\fx_campfire.simbox', error: 'Unable to open file!'
+EssenceEditor.exe Information: 0 : PropertyBagManager Loaded in 5.185000s
+EssenceEditor.exe Information: 0 : Loading step: [Sim State Tree Manager]
+EssenceEditor.exe Information: 0 : Loading step: [PBG PostLoad]
+EssenceEditor.exe Information: 0 : PropertyBagManager post loaded in 0.134000s
+EssenceEditor.exe Information: 0 : Loading step: [Modifier Callbacks Initialize]
+EssenceEditor.exe Information: 0 : Loading step: [HandleIndex Manager]
+EssenceEditor.exe Information: 0 : Loading step: [EntityBlueprintManager]
+EssenceEditor.exe Information: 0 : Building [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-cook\project\berber_tent_art_020.aoe4mod]...
+EssenceEditor.exe Information: 0 : Loading step: [ReflectPostExternalSystemsInited]
+EssenceEditor.exe Information: 0 : Loading step: [ModPackManager]
+EssenceEditor.exe Information: 0 : Loading step: [ModDllSetup]
+EssenceEditor.exe Information: 0 : Loading step: [IEngineInitializable]
+EssenceEditor.exe Information: 0 : FILESYSTEM -- filepath failure, missing alias 'generic:editor\mecommand.lua'
+EssenceEditor.exe Information: 0 : Failed to load lua file 'generic:editor\mecommand.lua'
+EssenceEditor.exe Information: 0 : Loading step: [dbImGui]
+EssenceEditor.exe Information: 0 : Loading step: [SystemConfigAppInitComplete]
+EssenceEditor.exe Information: 0 : Loaded 5 data objects in 00:00:00.1253918.
+EssenceEditor.exe Information: 0 : [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-run2\intermediate\archives\berber_tent_art_020.sga] copied to [F:\aoe_4_temp\Community_civilization_pack_garrison_temp\visual-repair-20261113\berbers\tent-run2\output\extension\berber_tent_art_020\berber_tent_art_020.sga].
+EssenceEditor.exe Information: 0 : Unloading step: [SystemConfigAppInitComplete]
+EssenceEditor.exe Information: 0 : Unloading step: [dbImGui]
+EssenceEditor.exe Information: 0 : Unloading step: [IEngineInitializable]
+EssenceEditor.exe Information: 0 : Unloading step: [ModInterface]
+EssenceEditor.exe Information: 0 : Unloading step: [ModDllSetup]
+EssenceEditor.exe Information: 0 : Unloading step: [ModPackManager]
+EssenceEditor.exe Information: 0 : Unloading step: [Game]
+EssenceEditor.exe Information: 0 : Unloading step: [ReflectPostExternalSystemsInited]
+EssenceEditor.exe Information: 0 : Unloading step: [EntityBlueprintManager]
+EssenceEditor.exe Information: 0 : Unloading step: [HandleIndex Manager]
+EssenceEditor.exe Information: 0 : Unloading step: [Modifier Callbacks Initialize]
+EssenceEditor.exe Information: 0 : Unloading step: [PBG PostLoad]
+EssenceEditor.exe Information: 0 : Unloading step: [Sim State Tree Manager]
+EssenceEditor.exe Information: 0 : Unloading step: [Property Bag Manager]
+EssenceEditor.exe Information: 0 : Unloading step: [Sound - Rtpc Event Database Init]
+EssenceEditor.exe Information: 0 : Unloading step: [Property Bag Registration]
+EssenceEditor.exe Information: 0 : Unloading step: [SimApp]
+EssenceEditor.exe Information: 0 : Unloading step: [Initialize Resource Types]
+EssenceEditor.exe Information: 0 : Unloading step: [Family Manager]
+EssenceEditor.exe Information: 0 : Unloading step: [SimStaticApp]
+EssenceEditor.exe Information: 0 : Unloading step: [Localization]
+EssenceEditor.exe Information: 0 : Unloading step: [AnimEvent]
+EssenceEditor.exe Information: 0 : Unloading step: [Game Modules Init]
+EssenceEditor.exe Information: 0 : Unloading step: [FXSystemData]
+EssenceEditor.exe Information: 0 : Unloading step: [Audio]
+EssenceEditor.exe Information: 0 : WWise Terminating
+EssenceEditor.exe Information: 0 : Terminating SoundEngine
+EssenceEditor.exe Information: 0 : Terminating Streaming Manager
+EssenceEditor.exe Information: 0 : Terminating Memory Manager
+EssenceEditor.exe Information: 0 : Unloading step: [Font]
+EssenceEditor.exe Information: 0 : Unloading step: [RenderAnim]
+EssenceEditor.exe Information: 0 : Unloading step: [ShadowManager]
+EssenceEditor.exe Information: 0 : Unloading step: [IntersectUtil]
+EssenceEditor.exe Information: 0 : Unloading step: [SetMaterialOverrideCommandFunction]
+EssenceEditor.exe Information: 0 : Unloading step: [SetShaderVariableCommandFunction]
+EssenceEditor.exe Information: 0 : Unloading step: [TeamColourCommandFunction]
+EssenceEditor.exe Information: 0 : Unloading step: [ActionCommandFunction]
+EssenceEditor.exe Information: 0 : Unloading step: [Loaders]
+EssenceEditor.exe Information: 0 : Unloading step: [TextureManager]
+EssenceEditor.exe Information: 0 : Unloading step: [ITextureUtil]
+EssenceEditor.exe Information: 0 : Unloading step: [Hotswapping]
+EssenceEditor.exe Information: 0 : Unloading step: [Alias]
+EssenceEditor.exe Information: 0 : Unloading step: [Havok]
+EssenceEditor.exe Information: 0 : Unloading step: [RootMotionAnimationDatabase]
+EssenceEditor.exe Information: 0 : Unloading step: [MathBox]
+EssenceEditor.exe Information: 0 : Unloading step: [Global Lua]
+EssenceEditor.exe Information: 0 : Unloading step: [Renderer]
+EssenceEditor.exe Information: 0 : Unloading step: [Inventory]
+EssenceEditor.exe Information: 0 : Unloading step: [Component Factory]
+EssenceEditor.exe Information: 0 : Unloading step: [Game Activator]
+EssenceEditor.exe Information: 0 : Unloading step: [DCA]
+EssenceEditor.exe Information: 0 : Unloading step: [Create ModInterface]
+EssenceEditor.exe Information: 0 : Unloading step: [Game Module Manager]
+EssenceEditor.exe Information: 0 : Unloading step: [Prequisites Init]
+EssenceEditor.exe Information: 0 : Unloading step: [Prequisite Manager]
+EssenceEditor.exe Information: 0 : Unloading step: [StateTreeManager]
+EssenceEditor.exe Information: 0 : Unloading step: [SystemConfig]
+EssenceEditor.exe Information: 0 : Unloading step: [Lua GameBinding Traits]
+EssenceEditor.exe Information: 0 : Unloading step: [Pipeline]
+EssenceEditor.exe Information: 0 : Unloading step: [Archive Manager]
+EssenceEditor.exe Information: 0 : Unloading step: [Threading]
+EssenceEditor.exe Information: 0 : Unregistered essence thread: [Main_Thread]
+EssenceEditor.exe Information: 0 : Threading system shutdown
+EssenceEditor.exe Information: 0 : Unloading step: [Reflect System]
+EssenceEditor.exe Information: 0 : Unloading step: [MemoryEnvironment]
+EssenceEditor.exe Information: 0 : Unloading step: [Statgraph]
+EssenceEditor.exe Information: 0 : Unloading step: [Warning Handlers]
+EssenceEditor.exe Information: 0 : Unloading step: [Aliases]
+EssenceEditor.exe Information: 0 : Unloading step: [Logging]
+EssenceEditor.exe Information: 0 : Unloading step: [ Initializing TimeStamp]
+EssenceEditor.exe Information: 0 : Unloading step: [Platform]
+EssenceEditor.exe Information: 0 : Unloading step: [Load Debug Symbols]
